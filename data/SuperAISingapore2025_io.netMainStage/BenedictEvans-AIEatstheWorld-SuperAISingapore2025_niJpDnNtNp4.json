@@ -1,0 +1,3971 @@
+{
+  "video_id": "niJpDnNtNp4",
+  "video_title": "Benedict Evans - AI Eats the World - SuperAI Singapore 2025",
+  "video_url": "https://www.youtube.com/watch?v=niJpDnNtNp4",
+  "channel_title": "SuperAI",
+  "published_at": "2025-06-27T08:03:02+00:00",
+  "duration_seconds": null,
+  "view_count": 40,
+  "like_count": 0,
+  "description": "Learn more about SuperAI: superai.com\nFollow us on X: x.com/superai_conf\n\nKeynote: AI Eats the World\n\nSpeaker:\nBenedict Evans, Analyst\n\nStage: io.net Main Stage\n#superai #ai #adoption #artificialintelligence #digitaltransformation \n\nRecorded on 18 June 2025",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 658,
+    "aggregated_text": "so I was asked to come and explain AI again um at SuperAI and I always think a good place to start if we want to understand this is to ask well what is it that we mean when we say AI this is I think a really important observation from 1970 um from Larry Tesla who was an AI scientist that AI is whatever machines can't do yet because once it works we say well that's not AI anymore that's just software AI is the stuff that doesn't work yet or maybe that's only just started working and if we think about the history of this in the 1970s databases had superhuman memory and people made movies about how databases were going to take over the world and today databases are software or indeed legacy software And 10 years ago machine learning was AI um today I think machine learning is just software i would guess probably half the people in this room would say it's still AI and the other half would say nah now it's just software you use your phone you take a picture of your child or your dog and you can search for it and 15 years ago that would have been witchcraft and 10 years ago it was AI and now it's just software and today we have large language models and generative AI whatever we want to call it and maybe this is AI or if you're Sam Alman trying to get out of your Microsoft contract you will say it's super intelligence um for everybody else is this AI or in 10 years time is there still just going to be more software um now I think we don't know yet um Bill Gates here um 2 years ago 3 years ago saying well in his lifetime this was the biggest thing he'd seen since the graphical user interface so Bill is suggesting no this isn't just more software this is something else Sergey Brin um co-founder of Google saying something similar that we're on the track to um AGI um that no this isn't more software this is something else and so if we think about the progression of technology over the last 50 or 60 years we've tended to move in cycles so we have a platform shift every 10 or 15 years we have mainframes and then we had PCs and then the web and then smartphones and you could put other things on here you could put databases or client server or open source um and each of these um pulled in all of the investment and innovation and company creation the old thing is still there airlines still run on main frames banks still run on mainframes but the new thing is where all the innovation all the investment all the change all the company creation happens and so the view is that now this is the next platform shift generative AI is the next thing after smartphones after the web after PCs um but there's also a view that says that um no this is something fundamentally different this is breaking the cycle it's much bigger change than that it's something more like electricity or computing or fire or like the next generation of humanity or something else and out of that I think you get a um a range of possible outcomes that it might be that this is just more software that there will be thousands of models just as there are thousands of databases or thousands of spreadsheets um millions of spreadsheets or and then at the other extreme it might be that we'll have kind of one giant world computer that runs everything and you go you can go to it and say like how do I move to Singapore or how do I buy a house in Hong Kong or um how do I do my taxes in five different jurisdictions and it'll just do it for you um the thing is we don't really know what's going to happen there and we have a range of possibilities and a range of opinions um and it's important to understand we've kind of never quite known how this is going to go so Larry Tesla on the one hand said AI becomes just software on the other hand Marvin Minsky at the same time said that in 3 to 8 years we'll have a machine with the general intelligence of a human being and he was right in 3 to 8 years we'll have a machine with a general intelligence of a human being and he may always be right um check back in 3 to 8 years and see we'll find out um either the machines will be treating us as pets or this will have become software again and so if we look at the conversations that are happening in the tech industry now there are these two very different ways of looking at it on the one hand you have people saying this is going to transform humanity this is going to change the nature of society um and on the other hand you have people taking these models and making them faster and using them to transform um the reconciliation of overdue invoices inside large telecoms companies um so you have this kind of widespread possibility and I'm mostly going to talk about the first of these um so let's talk about model building um chat GPT dropped 2 and a half years ago 3 years ago um and what's happened since then we have much more capital um we have a pricing collapse we have lots of new exciting stuff lots of buzzwords lots of acronyms lots of new terminology and jargon um we don't appear to have any obvious moes there don't seem to be any winner takes all effect any barriers to competition and we have a huge surge of open source if we first look at that surge in capital um the big four platform companies last year spent about $220 billion dollars building infrastructure this year they've said they'll probably spend something over $300 billion building data centers so we've got more than doubling of the investment in their in their investment in infrastructure in order to build um platforms to make this work it's interesting looking at Microsoft i'm old enough to remember when Microsoft's business was putting a $1 CD in a $10 box and selling it to you for $250 now Microsoft is spending over 30% of its revenue on capex which is double what a typical telco spends so we've got this enormous surge of investment a large portion of this as we know is going to um Nvidia um which whose chart is still going up and to the right as the caption says this is most also a contract manufacturing chart um and so Nvidia is now doing over $45 billion a quart a quarter um selling AI chips um into the data center industry but what all of that investment has produced by and large is um a bunch of models that look kind of like commodities when chat GPT launched they were the first ones out there and nobody else had a model that was anything like as good today um there were lots of people who are making models that are pretty much the same level of quality sometimes open AI are ahead sometimes they aren't um but there's a lot of models indeed i think what Deep Seek proved six months ago um Deep Seat just kind of proved the point that anybody with half a billion dollars can have a Frontier model and half a billion dollars isn't nothing um only a few people in this room have half a billion dollars in the bank um but the tech company the tech industry is a big industry there's a lot of big companies there's a lot of people who can afford to invest that kind of money if they really want to on the other hand what's happened in parallel to this is that the models themselves um have become much cheaper so we have an order of magnitude maybe two orders of magnitude decline in the cost to produce a given result every year this is a observation someone has made that LLM are both the most expensive and the fastest appreciating asset in tech history possibly any history um but if you kind of step back from all of this um we've got all of these acronyms all of these charts all of these measurements all of these benchmarks this all looks very like the PC industry 20 or 30 years ago um these are a couple of examples I found online um 191 of the fastest 486 PCs which would be sort of sometime in the early '90s 19 of the fastest fix 56k modems and there was a time when you had to know what all the acronyms were you had to know how many mehz um and how many gigabytes and how what chips you were buying and then it all got abstracted away and you didn't need to know you had this wave of of furious competition and then it got abstracted away and the value moved somewhere else and that's probably what's going to happen with this stuff as well it all becomes commoditized um and the value moves somewhere else in the stack it's also worth pointing out though that although having the models themselves seem to be commodities consumer awareness doesn't look like a commodity commodity so here we have a model score versus app store rank and Google trends um perplexity which gets a huge amount of buzz in the industry it doesn't even rank on either of these charts um it does seem like chat GBT is on the way to becoming a verb in the way that Google became a verb on the other hand it may be becoming a verb on the way that MySpace became a verb um the differentiation appears to be in what you build on top not on the engineering and the technology at least at this stage so if we pull those threads together like what does this mean if you're not an Nvidia shareholder um if you're not a TSMC shareholder well there's an enormous amount of investment of investment an enormous amount of fear of missing out the models are getting better and cheaper but the models seem to be commodities um and for anybody else the models are just there and available you can probably download them um you can run them on a Mac um and the value moves somewhere else the value moves up the stack and that gets I think to the kind of the more interesting set of conversations which is around deployment like what do we do with this how do we use this how does this get used what do we spend on it and whenever you have a new technology there's a um there's a set of puzzles around what is it that this is how does this work how do we understand this and I think there's a kind of a useful way to think about generative AI is that traditional software is deterministic it follows logical steps it does things that are easy to explain to a computer it's easy to tell a computer how you calculate a mortgage it's hard to do it in your head but it's easy to tell a computer how you would do that what machine learning did was move this to a statistics question to move this to a probabilistic model and machine learning solved things that were hard to explain to a computer like why is that credit card transaction weird what does this Chinese word mean in Malay what is this Japanese sentence mean in English um why is that a picture of a cat and not a dog um why does our robot keep falling over and so machine learning solved that large language models again are probabilistic and it seems that what they're good at right now is things that would be easy to explain to a person things that would be easy to explain maybe to an intern anything where you could ask a human to do this for you in 10 seconds and they would come back with it the next day you can probably ask an LLM to do and it will give you an answer anything where it would take you a halfhour meeting in order to set up the project and you need to give a bunch of context and have a bunch of questions llm's probably fail at those not because they can't do the task but because we can't explain the task it's hard to explain um all of that kind of gets us to these these questions that every big company is asking now is this all sounds very cool but what is it that we do with this this is something that computers could never do before except that they might get it wrong because it's the statistical probabilistic system what do we do with this how do we use it what happens when you open chat GPT and you have this blank screen and you don't know what to ask if you ask it and what you get back isn't quite what you wanted how do you fix that how do you deal with the fact that these models have a probabilistic answer and so the answer will not always be exactly correct where do you put the human in the loop what's the right way to use this to build software at a very kind of conceptual level I think it's interesting to ask do you use the LLM to control all the other software so do you let the LLM talk to Oracle and Salesforce and SAP and get answers back and tell them what to do does the LLM sit at the top of the stack or is the LLM just another API and Oracle or Salesforce can use a clawed API to do some sentiment analysis or to draft you an email but all of your source of truth and all of your fundamental control should sit in your traditional software the answer to that is probably yes depending on what you're trying to build but if we step back from this and step back from kind of the AI bubble of everybody who's using this all the time and talking to everybody else who's using this all the time it's kind of important to remember that most people are kind of puzzled so um this is a bunch of survey data that I pulled um from the end of last year um on how many people are actually using a generative AI chatbot and I very carefully use that definition so that you're not capturing people who've taken a picture in Snap and put a cool p cool filter on it and the answer is that sort of something between sort of 7 8 9 10% of people are using this every day and another kind of 20% of people are using it maybe once a week or every 2 weeks and then probably double that used it once and thought I have no idea what to do with this and this is kind of a really interesting kind of statistic because it says there's a lot of people who use this understand it get it they've got the account they go to the website and it's useful maybe once a week and that isn't what you hear from people who think this is going to transform humanity if it's going to transform humanity why is it something that I use every week rather than something that I have open all of the time if we look at how enterprises are thinking about this you get a slightly different picture which is the kind of the series over on the right here what do I do with this that's the lowest that's not actually a big reason to hesitate the real reasons to hesitate are well we get it but it's hard we have to worry about security we don't have the in-house expertise we're worried about the data rates we haven't got our data in order it's actually more difficult to deploy this even if you can just understand what the use cases might be now however I think it's kind of important to remember that the future always takes time this is a chart I love of enterprise adoption of cloud and if you're in the tech industry cloud is kind of old and boring and done and it's a thing from the 2000s but it's still only sort of 20 to 30% of enterprise workflows and the CIOS are always desperately hoping that they'll get the CFO to give them budget to replatform in 3 years but they never actually managed to get the budget um it does actually take time to deploy new technology and we should remember like LLMs didn't exist 3 years ago like it takes a while to build software and then it takes a while to get people to deploy it and we should expect this to take a bit longer and we should think that more generally about any new technology that we had these kind of questions with every platform shift and I was a baby analyst when 3G was the big thing and analysts and investors would keep saying well what's the killer app for 3G what should we do with 3G why would consumers buy 3G and the answer was that having the internet in your pocket was kind of a big deal and smartphones replaced PCs the same kind of questions came up with the cloud like only an idiot would trust Amazon or Google with their data and the same kind of questions that come up now with LLMs that this is kind of weird and strange and different and we don't want to do with it but then it's always weird and strange and different and we don't know what to do with it so maybe actually we should step back and think well what's the standard pattern for how you deploy new technologies and to begin with with every new technology you absorb it you make it a feature the incumbents add it to all of their existing stuff you use it to automate the obvious easy things where you can see that that would be useful immediately you do the early obvious stuff a little bit later on then you start innovating you start thinking of new things that you could do new things that weren't possible you move from bottomline innovation to topline innovation startups get founded that unbundle the incumbents or unbundle existing business models and every now and then there's a third step where somebody actually disrupts the industry changes the question ask different questions and creates Airbnb as opposed to putting hotel bookings online um but that takes longer again I think a kind of a useful way to understand this is to go back and look again at a platform shift which is to look at spreadsheets um which some of you may maybe heard me talk about this before but I always think it's a really useful thing to look at um this is Visical which was the first successful software spreadsheet in the late 1970s and before this spreadsheets were paper you can buy paper spreadsheet and so with VisiCalc you can change the interest rate here and all the other numbers change and if you were an accountant in 1978 you would see that and that would transform your life because it could do a week of work in an afternoon or in 5 minutes but if you were a lawyer and you looked at this you would think well that's great but I don't have that use case i don't do spreadsheets mike should see it but I don't do that and that's kind of the stage we're at today with LLMs there's a bunch of people who look at this and say \"I have that use case.\" So we're already seeing huge adoption in software development we're already seeing huge adoption in marketing there's a bunch of people very excited about this in customer support although you kind of have to be careful because it will tell you what the answer looks like rather than what the answer is and you see a lot of adoption in early adopters probably many people in this room which to me looks a lot like people who used Kenosotion or Air Table or any kind of no code tool there's a certain kind of person that has a certain kind of job a certain kind of task a lot of flexibility in how they do that they're looking for new ways to do that and so those people are all using Chat GPT and Claude and Perplexity and Gemini and Copilot um but for everyone else there's kind of puzzlement it's not clear what we would do this do with this it's worth incidentally I think just kind of double tapping um on software development um it does feel like even if nothing else happens using AI to generate code is kind of the new AWS in that this is a new step change in what it takes to get software out of the door how quickly you can deploy software how quickly you can build software companies but for everyone else there's this sort of puzzlement what do I do with this where there's we have this canonical quote from Steve Jobs it's not actually the customer's job to know what they want it's not the customer's job to know what this new technology is supposed to be useful for it's our job it's the software industry's job it's entrepreneurs job to um it's CIO's job to work out what you would do with this one part of that um is that you go to someone like Accenture um you go and you build new software in the enterprise the CIO um and the consultants work out the new tasks that you could do with this and so Accenture booked 1.4 billion of Generative AI bookings reported 1.4 billion of Generative AI bookings last quarter um there's probably a little bit of AI washing in that as every CIO and CEO wants to say they have an AI strategy and every Accenture engagement manager wants to report this as generative AI rather than legacy software but that kind of reflects how enterprise software works the other extreme is that startups create new use cases this is kind of some examples of startups that are using LLMs in order to solve very very specific problems deep inside enterprises like converting Cobalt code into Java um reconfiguring telco billing systems um this isn't the future of humanity it's just more software but it's still really useful um and so if we look at the startups coming through Y Combinator in Silicon Valley um basically all of them are AI startups every big company in the same way is looking at this experimenting building pilots sometimes moving those pilots into production sometimes not mostly concentrated in software and customer service but again it's kind of early um and of course it's always early so this is what CIOS expect to deploy already have deployed typically about a quarter of big companies have got something deployed now another 40% don't expect to do anything until next year um maybe longer and that's kind of always how it works you go through these platform shifts and you go from having one app to dozens of app to hundreds of apps and you automate more things with every step and so that gets to me to this question well what's our AI strategy what should we do with AI and the answer is well what kind of question are you asking is this a business process optimization question or is this a sort of fundamental existential threat to your company and the answer is yes all of the above existential threats to your company can look different we always talk about Uber and Airbnb as redefining what a market looked like um it's kind of interesting to compare what Uber and Airbnb actually did uber demolished the existing taxi industry airbnb was kind of mostly additive to hotels because it was such a different product so disruption can look different to different industries um depending on the technology um we have a lot of those kind of questions now with LLMs and particularly with search um the classic PE question people always ask is what happens if I go to Google or chat GBT and just get the answer instead of doing a web search and getting a bunch of links how does that change the internet the more interesting question to me I think is well what happens if you just completely change the question so what I've done here on the right here is given chat GPT an image of my fridge and said what should I cook that's not a Google query that's not something that would produce links that's changing the nature of the question and how we change how we think about what this might be and of course that's also redirecting a trillion dollars of annual ad spend about half of which currently goes to Amazon Meta and Amazon um sorry Google Meta and Amazon if we change how the internet works um if we change what you mean when you ask a question or you search for something then all the money moves um and there's a whole bunch of places where this is going to change things we just heard about robotics but the interesting things I think that I took away from listening to the robotics conversation is there's an AI question here but these are mostly logistics questions what do humanoid robots mean for logistics ask a logistics person how does what does AI mean for Hollywood ask a Hollywood person and the tech industry changes the industry and then everything else changes around it so just sort of some concluding thoughts and then I'll I'll give up for time after two or three years of talking to AI at events about AI at events like this it strikes me that all AI questions have one of two answers the answer is either it will work like every other platform shift should we go with Microsoft or Google or a startup should we hire Accenture or Bane well how did you do it the last five times the other class of question no one really knows the answer and that's also the the way every platform shift worked this is a chart from a diagram of the early internet from 1995 no one knew how this was going to work no one knew that it was going to be the internet no one knew that the internet was going to be the web no one knew that the value capture in the web was going to be in search advertising and then in social we're kind of in the same place now with LLMs we know there's going to be some AI stuff but we don't know the market structure we don't know how it's going to work we don't know where the value capture is going to be we don't know where the money is going to be meanwhile um all the other stuff we were excited about before this is still there so e-commerce is now 20 or 30% of um global retail um Google actually has autonomous cars working maybe and so all the stuff that we were excited about before is still there and all the stuff that we were excited about for the future is still there so now we talk about crypto and robotics and space and nuclear um but meanwhile most of the rest of the economy is being disrupted by ideas from 15 20 30 years ago ideas like e-commerce and streaming and SAS and workflows and so we have this kind of progression across the tech industry that we're always excited about the things that are going to happen in the future and the things we're building now but all of the money the trillions of dollars of revenue is in ideas from 20 years ago and that's probably how it will always be and with that I will say thank you",
+    "text_length": 25197,
+    "word_count": 4834
+  },
+  "segments": [
+    {
+      "start": 7.52,
+      "duration": 2.159,
+      "text": "so I was asked to come and explain AI",
+      "timestamp": "00:07"
+    },
+    {
+      "start": 9.679,
+      "duration": 3.121,
+      "text": "again um at SuperAI and I always think a",
+      "timestamp": "00:09"
+    },
+    {
+      "start": 12.8,
+      "duration": 1.6,
+      "text": "good place to start if we want to",
+      "timestamp": "00:12"
+    },
+    {
+      "start": 14.4,
+      "duration": 2.08,
+      "text": "understand this is to ask well what is",
+      "timestamp": "00:14"
+    },
+    {
+      "start": 16.48,
+      "duration": 3.12,
+      "text": "it that we mean when we say AI this is I",
+      "timestamp": "00:16"
+    },
+    {
+      "start": 19.6,
+      "duration": 1.679,
+      "text": "think a really important observation",
+      "timestamp": "00:19"
+    },
+    {
+      "start": 21.279,
+      "duration": 2.881,
+      "text": "from 1970 um from Larry Tesla who was an",
+      "timestamp": "00:21"
+    },
+    {
+      "start": 24.16,
+      "duration": 2.48,
+      "text": "AI scientist that AI is whatever",
+      "timestamp": "00:24"
+    },
+    {
+      "start": 26.64,
+      "duration": 2.559,
+      "text": "machines can't do yet because once it",
+      "timestamp": "00:26"
+    },
+    {
+      "start": 29.199,
+      "duration": 2.561,
+      "text": "works we say well that's not AI anymore",
+      "timestamp": "00:29"
+    },
+    {
+      "start": 31.76,
+      "duration": 2.319,
+      "text": "that's just software AI is the stuff",
+      "timestamp": "00:31"
+    },
+    {
+      "start": 34.079,
+      "duration": 1.681,
+      "text": "that doesn't work yet or maybe that's",
+      "timestamp": "00:34"
+    },
+    {
+      "start": 35.76,
+      "duration": 2.08,
+      "text": "only just started working and if we",
+      "timestamp": "00:35"
+    },
+    {
+      "start": 37.84,
+      "duration": 1.36,
+      "text": "think about the history of this in the",
+      "timestamp": "00:37"
+    },
+    {
+      "start": 39.2,
+      "duration": 2.72,
+      "text": "1970s databases had superhuman memory",
+      "timestamp": "00:39"
+    },
+    {
+      "start": 41.92,
+      "duration": 1.44,
+      "text": "and people made movies about how",
+      "timestamp": "00:41"
+    },
+    {
+      "start": 43.36,
+      "duration": 1.28,
+      "text": "databases were going to take over the",
+      "timestamp": "00:43"
+    },
+    {
+      "start": 44.64,
+      "duration": 1.919,
+      "text": "world and today databases are software",
+      "timestamp": "00:44"
+    },
+    {
+      "start": 46.559,
+      "duration": 2.48,
+      "text": "or indeed legacy software And 10 years",
+      "timestamp": "00:46"
+    },
+    {
+      "start": 49.039,
+      "duration": 4.081,
+      "text": "ago machine learning was AI um today I",
+      "timestamp": "00:49"
+    },
+    {
+      "start": 53.12,
+      "duration": 1.84,
+      "text": "think machine learning is just software",
+      "timestamp": "00:53"
+    },
+    {
+      "start": 54.96,
+      "duration": 1.52,
+      "text": "i would guess probably half the people",
+      "timestamp": "00:54"
+    },
+    {
+      "start": 56.48,
+      "duration": 1.759,
+      "text": "in this room would say it's still AI and",
+      "timestamp": "00:56"
+    },
+    {
+      "start": 58.239,
+      "duration": 2.0,
+      "text": "the other half would say nah now it's",
+      "timestamp": "00:58"
+    },
+    {
+      "start": 60.239,
+      "duration": 1.681,
+      "text": "just software you use your phone you",
+      "timestamp": "01:00"
+    },
+    {
+      "start": 61.92,
+      "duration": 1.52,
+      "text": "take a picture of your child or your dog",
+      "timestamp": "01:01"
+    },
+    {
+      "start": 63.44,
+      "duration": 2.24,
+      "text": "and you can search for it and 15 years",
+      "timestamp": "01:03"
+    },
+    {
+      "start": 65.68,
+      "duration": 1.92,
+      "text": "ago that would have been witchcraft and",
+      "timestamp": "01:05"
+    },
+    {
+      "start": 67.6,
+      "duration": 2.879,
+      "text": "10 years ago it was AI and now it's just",
+      "timestamp": "01:07"
+    },
+    {
+      "start": 70.479,
+      "duration": 2.241,
+      "text": "software and today we have large",
+      "timestamp": "01:10"
+    },
+    {
+      "start": 72.72,
+      "duration": 1.92,
+      "text": "language models and generative AI",
+      "timestamp": "01:12"
+    },
+    {
+      "start": 74.64,
+      "duration": 2.0,
+      "text": "whatever we want to call it and maybe",
+      "timestamp": "01:14"
+    },
+    {
+      "start": 76.64,
+      "duration": 2.24,
+      "text": "this is AI or if you're Sam Alman trying",
+      "timestamp": "01:16"
+    },
+    {
+      "start": 78.88,
+      "duration": 1.44,
+      "text": "to get out of your Microsoft contract",
+      "timestamp": "01:18"
+    },
+    {
+      "start": 80.32,
+      "duration": 2.4,
+      "text": "you will say it's super intelligence um",
+      "timestamp": "01:20"
+    },
+    {
+      "start": 82.72,
+      "duration": 2.88,
+      "text": "for everybody else is this AI or in 10",
+      "timestamp": "01:22"
+    },
+    {
+      "start": 85.6,
+      "duration": 1.28,
+      "text": "years time is there still just going to",
+      "timestamp": "01:25"
+    },
+    {
+      "start": 86.88,
+      "duration": 3.2,
+      "text": "be more software um now I think we don't",
+      "timestamp": "01:26"
+    },
+    {
+      "start": 90.08,
+      "duration": 2.8,
+      "text": "know yet um Bill Gates here um 2 years",
+      "timestamp": "01:30"
+    },
+    {
+      "start": 92.88,
+      "duration": 2.559,
+      "text": "ago 3 years ago saying well in his",
+      "timestamp": "01:32"
+    },
+    {
+      "start": 95.439,
+      "duration": 1.68,
+      "text": "lifetime this was the biggest thing he'd",
+      "timestamp": "01:35"
+    },
+    {
+      "start": 97.119,
+      "duration": 1.841,
+      "text": "seen since the graphical user interface",
+      "timestamp": "01:37"
+    },
+    {
+      "start": 98.96,
+      "duration": 1.839,
+      "text": "so Bill is suggesting no this isn't just",
+      "timestamp": "01:38"
+    },
+    {
+      "start": 100.799,
+      "duration": 2.161,
+      "text": "more software this is something else",
+      "timestamp": "01:40"
+    },
+    {
+      "start": 102.96,
+      "duration": 2.24,
+      "text": "Sergey Brin um co-founder of Google",
+      "timestamp": "01:42"
+    },
+    {
+      "start": 105.2,
+      "duration": 1.76,
+      "text": "saying something similar that we're on",
+      "timestamp": "01:45"
+    },
+    {
+      "start": 106.96,
+      "duration": 3.119,
+      "text": "the track to um AGI um that no this",
+      "timestamp": "01:46"
+    },
+    {
+      "start": 110.079,
+      "duration": 1.36,
+      "text": "isn't more software this is something",
+      "timestamp": "01:50"
+    },
+    {
+      "start": 111.439,
+      "duration": 2.561,
+      "text": "else and so if we think about the",
+      "timestamp": "01:51"
+    },
+    {
+      "start": 114.0,
+      "duration": 2.56,
+      "text": "progression of technology over the last",
+      "timestamp": "01:54"
+    },
+    {
+      "start": 116.56,
+      "duration": 2.0,
+      "text": "50 or 60 years we've tended to move in",
+      "timestamp": "01:56"
+    },
+    {
+      "start": 118.56,
+      "duration": 2.879,
+      "text": "cycles so we have a platform shift every",
+      "timestamp": "01:58"
+    },
+    {
+      "start": 121.439,
+      "duration": 2.561,
+      "text": "10 or 15 years we have mainframes and",
+      "timestamp": "02:01"
+    },
+    {
+      "start": 124.0,
+      "duration": 2.32,
+      "text": "then we had PCs and then the web and",
+      "timestamp": "02:04"
+    },
+    {
+      "start": 126.32,
+      "duration": 1.6,
+      "text": "then smartphones and you could put other",
+      "timestamp": "02:06"
+    },
+    {
+      "start": 127.92,
+      "duration": 1.52,
+      "text": "things on here you could put databases",
+      "timestamp": "02:07"
+    },
+    {
+      "start": 129.44,
+      "duration": 2.72,
+      "text": "or client server or open source um and",
+      "timestamp": "02:09"
+    },
+    {
+      "start": 132.16,
+      "duration": 2.4,
+      "text": "each of these um pulled in all of the",
+      "timestamp": "02:12"
+    },
+    {
+      "start": 134.56,
+      "duration": 1.84,
+      "text": "investment and innovation and company",
+      "timestamp": "02:14"
+    },
+    {
+      "start": 136.4,
+      "duration": 2.0,
+      "text": "creation the old thing is still there",
+      "timestamp": "02:16"
+    },
+    {
+      "start": 138.4,
+      "duration": 1.839,
+      "text": "airlines still run on main frames banks",
+      "timestamp": "02:18"
+    },
+    {
+      "start": 140.239,
+      "duration": 1.761,
+      "text": "still run on mainframes but the new",
+      "timestamp": "02:20"
+    },
+    {
+      "start": 142.0,
+      "duration": 1.44,
+      "text": "thing is where all the innovation all",
+      "timestamp": "02:22"
+    },
+    {
+      "start": 143.44,
+      "duration": 1.519,
+      "text": "the investment all the change all the",
+      "timestamp": "02:23"
+    },
+    {
+      "start": 144.959,
+      "duration": 2.321,
+      "text": "company creation happens and so the view",
+      "timestamp": "02:24"
+    },
+    {
+      "start": 147.28,
+      "duration": 1.76,
+      "text": "is that now this is the next platform",
+      "timestamp": "02:27"
+    },
+    {
+      "start": 149.04,
+      "duration": 2.0,
+      "text": "shift generative AI is the next thing",
+      "timestamp": "02:29"
+    },
+    {
+      "start": 151.04,
+      "duration": 1.68,
+      "text": "after smartphones after the web after",
+      "timestamp": "02:31"
+    },
+    {
+      "start": 152.72,
+      "duration": 3.519,
+      "text": "PCs um but there's also a view that says",
+      "timestamp": "02:32"
+    },
+    {
+      "start": 156.239,
+      "duration": 2.481,
+      "text": "that um no this is something",
+      "timestamp": "02:36"
+    },
+    {
+      "start": 158.72,
+      "duration": 1.92,
+      "text": "fundamentally different this is breaking",
+      "timestamp": "02:38"
+    },
+    {
+      "start": 160.64,
+      "duration": 1.84,
+      "text": "the cycle it's much bigger change than",
+      "timestamp": "02:40"
+    },
+    {
+      "start": 162.48,
+      "duration": 1.039,
+      "text": "that it's something more like",
+      "timestamp": "02:42"
+    },
+    {
+      "start": 163.519,
+      "duration": 3.201,
+      "text": "electricity or computing or fire or like",
+      "timestamp": "02:43"
+    },
+    {
+      "start": 166.72,
+      "duration": 1.76,
+      "text": "the next generation of humanity or",
+      "timestamp": "02:46"
+    },
+    {
+      "start": 168.48,
+      "duration": 2.72,
+      "text": "something else and out of that I think",
+      "timestamp": "02:48"
+    },
+    {
+      "start": 171.2,
+      "duration": 2.64,
+      "text": "you get a um a range of possible",
+      "timestamp": "02:51"
+    },
+    {
+      "start": 173.84,
+      "duration": 2.8,
+      "text": "outcomes that it might be that this is",
+      "timestamp": "02:53"
+    },
+    {
+      "start": 176.64,
+      "duration": 1.679,
+      "text": "just more software that there will be",
+      "timestamp": "02:56"
+    },
+    {
+      "start": 178.319,
+      "duration": 1.441,
+      "text": "thousands of models just as there are",
+      "timestamp": "02:58"
+    },
+    {
+      "start": 179.76,
+      "duration": 1.6,
+      "text": "thousands of databases or thousands of",
+      "timestamp": "02:59"
+    },
+    {
+      "start": 181.36,
+      "duration": 2.48,
+      "text": "spreadsheets um millions of spreadsheets",
+      "timestamp": "03:01"
+    },
+    {
+      "start": 183.84,
+      "duration": 1.679,
+      "text": "or and then at the other extreme it",
+      "timestamp": "03:03"
+    },
+    {
+      "start": 185.519,
+      "duration": 1.761,
+      "text": "might be that we'll have kind of one",
+      "timestamp": "03:05"
+    },
+    {
+      "start": 187.28,
+      "duration": 1.36,
+      "text": "giant world computer that runs",
+      "timestamp": "03:07"
+    },
+    {
+      "start": 188.64,
+      "duration": 1.84,
+      "text": "everything and you go you can go to it",
+      "timestamp": "03:08"
+    },
+    {
+      "start": 190.48,
+      "duration": 2.08,
+      "text": "and say like how do I move to Singapore",
+      "timestamp": "03:10"
+    },
+    {
+      "start": 192.56,
+      "duration": 2.56,
+      "text": "or how do I buy a house in Hong Kong or",
+      "timestamp": "03:12"
+    },
+    {
+      "start": 195.12,
+      "duration": 1.6,
+      "text": "um how do I do my taxes in five",
+      "timestamp": "03:15"
+    },
+    {
+      "start": 196.72,
+      "duration": 1.28,
+      "text": "different jurisdictions and it'll just",
+      "timestamp": "03:16"
+    },
+    {
+      "start": 198.0,
+      "duration": 2.64,
+      "text": "do it for you um the thing is we don't",
+      "timestamp": "03:18"
+    },
+    {
+      "start": 200.64,
+      "duration": 2.16,
+      "text": "really know what's going to happen there",
+      "timestamp": "03:20"
+    },
+    {
+      "start": 202.8,
+      "duration": 1.92,
+      "text": "and we have a range of possibilities and",
+      "timestamp": "03:22"
+    },
+    {
+      "start": 204.72,
+      "duration": 1.519,
+      "text": "a range of opinions um and it's",
+      "timestamp": "03:24"
+    },
+    {
+      "start": 206.239,
+      "duration": 1.601,
+      "text": "important to understand we've kind of",
+      "timestamp": "03:26"
+    },
+    {
+      "start": 207.84,
+      "duration": 1.36,
+      "text": "never quite known how this is going to",
+      "timestamp": "03:27"
+    },
+    {
+      "start": 209.2,
+      "duration": 2.319,
+      "text": "go so Larry Tesla on the one hand said",
+      "timestamp": "03:29"
+    },
+    {
+      "start": 211.519,
+      "duration": 2.161,
+      "text": "AI becomes just software on the other",
+      "timestamp": "03:31"
+    },
+    {
+      "start": 213.68,
+      "duration": 1.68,
+      "text": "hand Marvin Minsky at the same time said",
+      "timestamp": "03:33"
+    },
+    {
+      "start": 215.36,
+      "duration": 1.599,
+      "text": "that in 3 to 8 years we'll have a",
+      "timestamp": "03:35"
+    },
+    {
+      "start": 216.959,
+      "duration": 1.441,
+      "text": "machine with the general intelligence of",
+      "timestamp": "03:36"
+    },
+    {
+      "start": 218.4,
+      "duration": 2.399,
+      "text": "a human being and he was right in 3 to 8",
+      "timestamp": "03:38"
+    },
+    {
+      "start": 220.799,
+      "duration": 1.36,
+      "text": "years we'll have a machine with a",
+      "timestamp": "03:40"
+    },
+    {
+      "start": 222.159,
+      "duration": 1.761,
+      "text": "general intelligence of a human being",
+      "timestamp": "03:42"
+    },
+    {
+      "start": 223.92,
+      "duration": 1.92,
+      "text": "and he may always be right um check back",
+      "timestamp": "03:43"
+    },
+    {
+      "start": 225.84,
+      "duration": 2.24,
+      "text": "in 3 to 8 years and see we'll find out",
+      "timestamp": "03:45"
+    },
+    {
+      "start": 228.08,
+      "duration": 1.6,
+      "text": "um either the machines will be treating",
+      "timestamp": "03:48"
+    },
+    {
+      "start": 229.68,
+      "duration": 1.44,
+      "text": "us as pets or this will have become",
+      "timestamp": "03:49"
+    },
+    {
+      "start": 231.12,
+      "duration": 2.479,
+      "text": "software again and so if we look at the",
+      "timestamp": "03:51"
+    },
+    {
+      "start": 233.599,
+      "duration": 1.28,
+      "text": "conversations that are happening in the",
+      "timestamp": "03:53"
+    },
+    {
+      "start": 234.879,
+      "duration": 1.761,
+      "text": "tech industry now there are these two",
+      "timestamp": "03:54"
+    },
+    {
+      "start": 236.64,
+      "duration": 1.84,
+      "text": "very different ways of looking at it on",
+      "timestamp": "03:56"
+    },
+    {
+      "start": 238.48,
+      "duration": 1.52,
+      "text": "the one hand you have people saying this",
+      "timestamp": "03:58"
+    },
+    {
+      "start": 240.0,
+      "duration": 1.68,
+      "text": "is going to transform humanity this is",
+      "timestamp": "04:00"
+    },
+    {
+      "start": 241.68,
+      "duration": 2.24,
+      "text": "going to change the nature of society um",
+      "timestamp": "04:01"
+    },
+    {
+      "start": 243.92,
+      "duration": 1.599,
+      "text": "and on the other hand you have people",
+      "timestamp": "04:03"
+    },
+    {
+      "start": 245.519,
+      "duration": 1.681,
+      "text": "taking these models and making them",
+      "timestamp": "04:05"
+    },
+    {
+      "start": 247.2,
+      "duration": 2.64,
+      "text": "faster and using them to transform um",
+      "timestamp": "04:07"
+    },
+    {
+      "start": 249.84,
+      "duration": 2.64,
+      "text": "the reconciliation of overdue invoices",
+      "timestamp": "04:09"
+    },
+    {
+      "start": 252.48,
+      "duration": 2.08,
+      "text": "inside large telecoms companies um so",
+      "timestamp": "04:12"
+    },
+    {
+      "start": 254.56,
+      "duration": 2.56,
+      "text": "you have this kind of widespread",
+      "timestamp": "04:14"
+    },
+    {
+      "start": 257.12,
+      "duration": 1.92,
+      "text": "possibility and I'm mostly going to talk",
+      "timestamp": "04:17"
+    },
+    {
+      "start": 259.04,
+      "duration": 2.24,
+      "text": "about the first of these um so let's",
+      "timestamp": "04:19"
+    },
+    {
+      "start": 261.28,
+      "duration": 2.88,
+      "text": "talk about model building um chat GPT",
+      "timestamp": "04:21"
+    },
+    {
+      "start": 264.16,
+      "duration": 1.92,
+      "text": "dropped 2 and a half years ago 3 years",
+      "timestamp": "04:24"
+    },
+    {
+      "start": 266.08,
+      "duration": 3.119,
+      "text": "ago um and what's happened since then we",
+      "timestamp": "04:26"
+    },
+    {
+      "start": 269.199,
+      "duration": 2.081,
+      "text": "have much more capital um we have a",
+      "timestamp": "04:29"
+    },
+    {
+      "start": 271.28,
+      "duration": 2.0,
+      "text": "pricing collapse we have lots of new",
+      "timestamp": "04:31"
+    },
+    {
+      "start": 273.28,
+      "duration": 1.84,
+      "text": "exciting stuff lots of buzzwords lots of",
+      "timestamp": "04:33"
+    },
+    {
+      "start": 275.12,
+      "duration": 1.84,
+      "text": "acronyms lots of new terminology and",
+      "timestamp": "04:35"
+    },
+    {
+      "start": 276.96,
+      "duration": 2.56,
+      "text": "jargon um we don't appear to have any",
+      "timestamp": "04:36"
+    },
+    {
+      "start": 279.52,
+      "duration": 1.679,
+      "text": "obvious moes there don't seem to be any",
+      "timestamp": "04:39"
+    },
+    {
+      "start": 281.199,
+      "duration": 1.921,
+      "text": "winner takes all effect any barriers to",
+      "timestamp": "04:41"
+    },
+    {
+      "start": 283.12,
+      "duration": 1.92,
+      "text": "competition and we have a huge surge of",
+      "timestamp": "04:43"
+    },
+    {
+      "start": 285.04,
+      "duration": 2.24,
+      "text": "open source if we first look at that",
+      "timestamp": "04:45"
+    },
+    {
+      "start": 287.28,
+      "duration": 2.4,
+      "text": "surge in capital um the big four",
+      "timestamp": "04:47"
+    },
+    {
+      "start": 289.68,
+      "duration": 2.48,
+      "text": "platform companies last year spent about",
+      "timestamp": "04:49"
+    },
+    {
+      "start": 292.16,
+      "duration": 1.92,
+      "text": "$220 billion dollars building",
+      "timestamp": "04:52"
+    },
+    {
+      "start": 294.08,
+      "duration": 1.76,
+      "text": "infrastructure this year they've said",
+      "timestamp": "04:54"
+    },
+    {
+      "start": 295.84,
+      "duration": 1.68,
+      "text": "they'll probably spend something over",
+      "timestamp": "04:55"
+    },
+    {
+      "start": 297.52,
+      "duration": 2.88,
+      "text": "$300 billion building data centers so",
+      "timestamp": "04:57"
+    },
+    {
+      "start": 300.4,
+      "duration": 1.6,
+      "text": "we've got more than doubling of the",
+      "timestamp": "05:00"
+    },
+    {
+      "start": 302.0,
+      "duration": 1.84,
+      "text": "investment in their in their investment",
+      "timestamp": "05:02"
+    },
+    {
+      "start": 303.84,
+      "duration": 2.24,
+      "text": "in infrastructure in order to build um",
+      "timestamp": "05:03"
+    },
+    {
+      "start": 306.08,
+      "duration": 1.92,
+      "text": "platforms to make this work it's",
+      "timestamp": "05:06"
+    },
+    {
+      "start": 308.0,
+      "duration": 1.759,
+      "text": "interesting looking at Microsoft i'm old",
+      "timestamp": "05:08"
+    },
+    {
+      "start": 309.759,
+      "duration": 1.44,
+      "text": "enough to remember when Microsoft's",
+      "timestamp": "05:09"
+    },
+    {
+      "start": 311.199,
+      "duration": 2.641,
+      "text": "business was putting a $1 CD in a $10",
+      "timestamp": "05:11"
+    },
+    {
+      "start": 313.84,
+      "duration": 2.88,
+      "text": "box and selling it to you for $250 now",
+      "timestamp": "05:13"
+    },
+    {
+      "start": 316.72,
+      "duration": 2.56,
+      "text": "Microsoft is spending over 30% of its",
+      "timestamp": "05:16"
+    },
+    {
+      "start": 319.28,
+      "duration": 2.08,
+      "text": "revenue on capex which is double what a",
+      "timestamp": "05:19"
+    },
+    {
+      "start": 321.36,
+      "duration": 2.0,
+      "text": "typical telco spends so we've got this",
+      "timestamp": "05:21"
+    },
+    {
+      "start": 323.36,
+      "duration": 2.16,
+      "text": "enormous surge of investment a large",
+      "timestamp": "05:23"
+    },
+    {
+      "start": 325.52,
+      "duration": 2.8,
+      "text": "portion of this as we know is going to",
+      "timestamp": "05:25"
+    },
+    {
+      "start": 328.32,
+      "duration": 2.8,
+      "text": "um Nvidia um which whose chart is still",
+      "timestamp": "05:28"
+    },
+    {
+      "start": 331.12,
+      "duration": 1.519,
+      "text": "going up and to the right as the caption",
+      "timestamp": "05:31"
+    },
+    {
+      "start": 332.639,
+      "duration": 1.441,
+      "text": "says this is most also a contract",
+      "timestamp": "05:32"
+    },
+    {
+      "start": 334.08,
+      "duration": 2.48,
+      "text": "manufacturing chart um and so Nvidia is",
+      "timestamp": "05:34"
+    },
+    {
+      "start": 336.56,
+      "duration": 2.639,
+      "text": "now doing over $45 billion a quart a",
+      "timestamp": "05:36"
+    },
+    {
+      "start": 339.199,
+      "duration": 3.28,
+      "text": "quarter um selling AI chips um into the",
+      "timestamp": "05:39"
+    },
+    {
+      "start": 342.479,
+      "duration": 2.081,
+      "text": "data center industry but what all of",
+      "timestamp": "05:42"
+    },
+    {
+      "start": 344.56,
+      "duration": 2.079,
+      "text": "that investment has produced by and",
+      "timestamp": "05:44"
+    },
+    {
+      "start": 346.639,
+      "duration": 2.801,
+      "text": "large is um a bunch of models that look",
+      "timestamp": "05:46"
+    },
+    {
+      "start": 349.44,
+      "duration": 2.4,
+      "text": "kind of like commodities when chat GPT",
+      "timestamp": "05:49"
+    },
+    {
+      "start": 351.84,
+      "duration": 1.359,
+      "text": "launched they were the first ones out",
+      "timestamp": "05:51"
+    },
+    {
+      "start": 353.199,
+      "duration": 1.361,
+      "text": "there and nobody else had a model that",
+      "timestamp": "05:53"
+    },
+    {
+      "start": 354.56,
+      "duration": 3.68,
+      "text": "was anything like as good today um there",
+      "timestamp": "05:54"
+    },
+    {
+      "start": 358.24,
+      "duration": 1.12,
+      "text": "were lots of people who are making",
+      "timestamp": "05:58"
+    },
+    {
+      "start": 359.36,
+      "duration": 1.52,
+      "text": "models that are pretty much the same",
+      "timestamp": "05:59"
+    },
+    {
+      "start": 360.88,
+      "duration": 2.0,
+      "text": "level of quality sometimes open AI are",
+      "timestamp": "06:00"
+    },
+    {
+      "start": 362.88,
+      "duration": 2.08,
+      "text": "ahead sometimes they aren't um but",
+      "timestamp": "06:02"
+    },
+    {
+      "start": 364.96,
+      "duration": 1.76,
+      "text": "there's a lot of models indeed i think",
+      "timestamp": "06:04"
+    },
+    {
+      "start": 366.72,
+      "duration": 2.56,
+      "text": "what Deep Seek proved six months ago um",
+      "timestamp": "06:06"
+    },
+    {
+      "start": 369.28,
+      "duration": 1.44,
+      "text": "Deep Seat just kind of proved the point",
+      "timestamp": "06:09"
+    },
+    {
+      "start": 370.72,
+      "duration": 2.16,
+      "text": "that anybody with half a billion dollars",
+      "timestamp": "06:10"
+    },
+    {
+      "start": 372.88,
+      "duration": 1.599,
+      "text": "can have a Frontier model and half a",
+      "timestamp": "06:12"
+    },
+    {
+      "start": 374.479,
+      "duration": 1.761,
+      "text": "billion dollars isn't nothing um only a",
+      "timestamp": "06:14"
+    },
+    {
+      "start": 376.24,
+      "duration": 1.28,
+      "text": "few people in this room have half a",
+      "timestamp": "06:16"
+    },
+    {
+      "start": 377.52,
+      "duration": 2.08,
+      "text": "billion dollars in the bank um but the",
+      "timestamp": "06:17"
+    },
+    {
+      "start": 379.6,
+      "duration": 1.52,
+      "text": "tech company the tech industry is a big",
+      "timestamp": "06:19"
+    },
+    {
+      "start": 381.12,
+      "duration": 1.199,
+      "text": "industry there's a lot of big companies",
+      "timestamp": "06:21"
+    },
+    {
+      "start": 382.319,
+      "duration": 1.121,
+      "text": "there's a lot of people who can afford",
+      "timestamp": "06:22"
+    },
+    {
+      "start": 383.44,
+      "duration": 1.599,
+      "text": "to invest that kind of money if they",
+      "timestamp": "06:23"
+    },
+    {
+      "start": 385.039,
+      "duration": 1.681,
+      "text": "really want to on the other hand what's",
+      "timestamp": "06:25"
+    },
+    {
+      "start": 386.72,
+      "duration": 2.0,
+      "text": "happened in parallel to this is that the",
+      "timestamp": "06:26"
+    },
+    {
+      "start": 388.72,
+      "duration": 2.72,
+      "text": "models themselves um have become much",
+      "timestamp": "06:28"
+    },
+    {
+      "start": 391.44,
+      "duration": 2.0,
+      "text": "cheaper so we have an order of magnitude",
+      "timestamp": "06:31"
+    },
+    {
+      "start": 393.44,
+      "duration": 1.68,
+      "text": "maybe two orders of magnitude decline in",
+      "timestamp": "06:33"
+    },
+    {
+      "start": 395.12,
+      "duration": 2.4,
+      "text": "the cost to produce a given result every",
+      "timestamp": "06:35"
+    },
+    {
+      "start": 397.52,
+      "duration": 1.92,
+      "text": "year this is a observation someone has",
+      "timestamp": "06:37"
+    },
+    {
+      "start": 399.44,
+      "duration": 1.44,
+      "text": "made that LLM are both the most",
+      "timestamp": "06:39"
+    },
+    {
+      "start": 400.88,
+      "duration": 1.759,
+      "text": "expensive and the fastest appreciating",
+      "timestamp": "06:40"
+    },
+    {
+      "start": 402.639,
+      "duration": 2.0,
+      "text": "asset in tech history possibly any",
+      "timestamp": "06:42"
+    },
+    {
+      "start": 404.639,
+      "duration": 2.4,
+      "text": "history um but if you kind of step back",
+      "timestamp": "06:44"
+    },
+    {
+      "start": 407.039,
+      "duration": 1.841,
+      "text": "from all of this um we've got all of",
+      "timestamp": "06:47"
+    },
+    {
+      "start": 408.88,
+      "duration": 1.68,
+      "text": "these acronyms all of these charts all",
+      "timestamp": "06:48"
+    },
+    {
+      "start": 410.56,
+      "duration": 1.12,
+      "text": "of these measurements all of these",
+      "timestamp": "06:50"
+    },
+    {
+      "start": 411.68,
+      "duration": 2.16,
+      "text": "benchmarks this all looks very like the",
+      "timestamp": "06:51"
+    },
+    {
+      "start": 413.84,
+      "duration": 2.88,
+      "text": "PC industry 20 or 30 years ago um these",
+      "timestamp": "06:53"
+    },
+    {
+      "start": 416.72,
+      "duration": 2.319,
+      "text": "are a couple of examples I found online",
+      "timestamp": "06:56"
+    },
+    {
+      "start": 419.039,
+      "duration": 3.44,
+      "text": "um 191 of the fastest 486 PCs which",
+      "timestamp": "06:59"
+    },
+    {
+      "start": 422.479,
+      "duration": 1.28,
+      "text": "would be sort of sometime in the early",
+      "timestamp": "07:02"
+    },
+    {
+      "start": 423.759,
+      "duration": 3.84,
+      "text": "'90s 19 of the fastest fix 56k modems",
+      "timestamp": "07:03"
+    },
+    {
+      "start": 427.599,
+      "duration": 1.44,
+      "text": "and there was a time when you had to",
+      "timestamp": "07:07"
+    },
+    {
+      "start": 429.039,
+      "duration": 1.521,
+      "text": "know what all the acronyms were you had",
+      "timestamp": "07:09"
+    },
+    {
+      "start": 430.56,
+      "duration": 2.24,
+      "text": "to know how many mehz um and how many",
+      "timestamp": "07:10"
+    },
+    {
+      "start": 432.8,
+      "duration": 1.6,
+      "text": "gigabytes and how what chips you were",
+      "timestamp": "07:12"
+    },
+    {
+      "start": 434.4,
+      "duration": 1.76,
+      "text": "buying and then it all got abstracted",
+      "timestamp": "07:14"
+    },
+    {
+      "start": 436.16,
+      "duration": 1.92,
+      "text": "away and you didn't need to know you had",
+      "timestamp": "07:16"
+    },
+    {
+      "start": 438.08,
+      "duration": 2.08,
+      "text": "this wave of of furious competition and",
+      "timestamp": "07:18"
+    },
+    {
+      "start": 440.16,
+      "duration": 1.92,
+      "text": "then it got abstracted away and the",
+      "timestamp": "07:20"
+    },
+    {
+      "start": 442.08,
+      "duration": 1.679,
+      "text": "value moved somewhere else and that's",
+      "timestamp": "07:22"
+    },
+    {
+      "start": 443.759,
+      "duration": 1.121,
+      "text": "probably what's going to happen with",
+      "timestamp": "07:23"
+    },
+    {
+      "start": 444.88,
+      "duration": 1.68,
+      "text": "this stuff as well it all becomes",
+      "timestamp": "07:24"
+    },
+    {
+      "start": 446.56,
+      "duration": 2.479,
+      "text": "commoditized um and the value moves",
+      "timestamp": "07:26"
+    },
+    {
+      "start": 449.039,
+      "duration": 1.681,
+      "text": "somewhere else in the stack it's also",
+      "timestamp": "07:29"
+    },
+    {
+      "start": 450.72,
+      "duration": 1.84,
+      "text": "worth pointing out though that although",
+      "timestamp": "07:30"
+    },
+    {
+      "start": 452.56,
+      "duration": 1.919,
+      "text": "having the models themselves seem to be",
+      "timestamp": "07:32"
+    },
+    {
+      "start": 454.479,
+      "duration": 2.0,
+      "text": "commodities consumer awareness doesn't",
+      "timestamp": "07:34"
+    },
+    {
+      "start": 456.479,
+      "duration": 2.081,
+      "text": "look like a commodity commodity so here",
+      "timestamp": "07:36"
+    },
+    {
+      "start": 458.56,
+      "duration": 2.0,
+      "text": "we have a model score versus app store",
+      "timestamp": "07:38"
+    },
+    {
+      "start": 460.56,
+      "duration": 2.56,
+      "text": "rank and Google trends um perplexity",
+      "timestamp": "07:40"
+    },
+    {
+      "start": 463.12,
+      "duration": 1.44,
+      "text": "which gets a huge amount of buzz in the",
+      "timestamp": "07:43"
+    },
+    {
+      "start": 464.56,
+      "duration": 1.52,
+      "text": "industry it doesn't even rank on either",
+      "timestamp": "07:44"
+    },
+    {
+      "start": 466.08,
+      "duration": 2.08,
+      "text": "of these charts um it does seem like",
+      "timestamp": "07:46"
+    },
+    {
+      "start": 468.16,
+      "duration": 1.84,
+      "text": "chat GBT is on the way to becoming a",
+      "timestamp": "07:48"
+    },
+    {
+      "start": 470.0,
+      "duration": 1.599,
+      "text": "verb in the way that Google became a",
+      "timestamp": "07:50"
+    },
+    {
+      "start": 471.599,
+      "duration": 1.761,
+      "text": "verb on the other hand it may be",
+      "timestamp": "07:51"
+    },
+    {
+      "start": 473.36,
+      "duration": 1.92,
+      "text": "becoming a verb on the way that MySpace",
+      "timestamp": "07:53"
+    },
+    {
+      "start": 475.28,
+      "duration": 2.479,
+      "text": "became a verb um the differentiation",
+      "timestamp": "07:55"
+    },
+    {
+      "start": 477.759,
+      "duration": 1.921,
+      "text": "appears to be in what you build on top",
+      "timestamp": "07:57"
+    },
+    {
+      "start": 479.68,
+      "duration": 1.359,
+      "text": "not on the engineering and the",
+      "timestamp": "07:59"
+    },
+    {
+      "start": 481.039,
+      "duration": 2.241,
+      "text": "technology at least at this stage so if",
+      "timestamp": "08:01"
+    },
+    {
+      "start": 483.28,
+      "duration": 1.44,
+      "text": "we pull those threads together like what",
+      "timestamp": "08:03"
+    },
+    {
+      "start": 484.72,
+      "duration": 1.44,
+      "text": "does this mean if you're not an Nvidia",
+      "timestamp": "08:04"
+    },
+    {
+      "start": 486.16,
+      "duration": 2.319,
+      "text": "shareholder um if you're not a TSMC",
+      "timestamp": "08:06"
+    },
+    {
+      "start": 488.479,
+      "duration": 1.681,
+      "text": "shareholder well there's an enormous",
+      "timestamp": "08:08"
+    },
+    {
+      "start": 490.16,
+      "duration": 1.439,
+      "text": "amount of investment of investment an",
+      "timestamp": "08:10"
+    },
+    {
+      "start": 491.599,
+      "duration": 1.6,
+      "text": "enormous amount of fear of missing out",
+      "timestamp": "08:11"
+    },
+    {
+      "start": 493.199,
+      "duration": 1.12,
+      "text": "the models are getting better and",
+      "timestamp": "08:13"
+    },
+    {
+      "start": 494.319,
+      "duration": 1.201,
+      "text": "cheaper but the models seem to be",
+      "timestamp": "08:14"
+    },
+    {
+      "start": 495.52,
+      "duration": 2.16,
+      "text": "commodities um and for anybody else the",
+      "timestamp": "08:15"
+    },
+    {
+      "start": 497.68,
+      "duration": 1.6,
+      "text": "models are just there and available you",
+      "timestamp": "08:17"
+    },
+    {
+      "start": 499.28,
+      "duration": 1.68,
+      "text": "can probably download them um you can",
+      "timestamp": "08:19"
+    },
+    {
+      "start": 500.96,
+      "duration": 2.88,
+      "text": "run them on a Mac um and the value moves",
+      "timestamp": "08:20"
+    },
+    {
+      "start": 503.84,
+      "duration": 1.6,
+      "text": "somewhere else the value moves up the",
+      "timestamp": "08:23"
+    },
+    {
+      "start": 505.44,
+      "duration": 1.759,
+      "text": "stack and that gets I think to the kind",
+      "timestamp": "08:25"
+    },
+    {
+      "start": 507.199,
+      "duration": 1.201,
+      "text": "of the more interesting set of",
+      "timestamp": "08:27"
+    },
+    {
+      "start": 508.4,
+      "duration": 1.76,
+      "text": "conversations which is around deployment",
+      "timestamp": "08:28"
+    },
+    {
+      "start": 510.16,
+      "duration": 1.28,
+      "text": "like what do we do with this how do we",
+      "timestamp": "08:30"
+    },
+    {
+      "start": 511.44,
+      "duration": 1.599,
+      "text": "use this how does this get used what do",
+      "timestamp": "08:31"
+    },
+    {
+      "start": 513.039,
+      "duration": 2.8,
+      "text": "we spend on it and whenever you have a",
+      "timestamp": "08:33"
+    },
+    {
+      "start": 515.839,
+      "duration": 2.721,
+      "text": "new technology there's a um there's a",
+      "timestamp": "08:35"
+    },
+    {
+      "start": 518.56,
+      "duration": 1.839,
+      "text": "set of puzzles around what is it that",
+      "timestamp": "08:38"
+    },
+    {
+      "start": 520.399,
+      "duration": 2.0,
+      "text": "this is how does this work how do we",
+      "timestamp": "08:40"
+    },
+    {
+      "start": 522.399,
+      "duration": 2.241,
+      "text": "understand this and I think there's a",
+      "timestamp": "08:42"
+    },
+    {
+      "start": 524.64,
+      "duration": 1.6,
+      "text": "kind of a useful way to think about",
+      "timestamp": "08:44"
+    },
+    {
+      "start": 526.24,
+      "duration": 2.4,
+      "text": "generative AI is that traditional",
+      "timestamp": "08:46"
+    },
+    {
+      "start": 528.64,
+      "duration": 2.48,
+      "text": "software is deterministic it follows",
+      "timestamp": "08:48"
+    },
+    {
+      "start": 531.12,
+      "duration": 2.159,
+      "text": "logical steps it does things that are",
+      "timestamp": "08:51"
+    },
+    {
+      "start": 533.279,
+      "duration": 2.24,
+      "text": "easy to explain to a computer it's easy",
+      "timestamp": "08:53"
+    },
+    {
+      "start": 535.519,
+      "duration": 1.921,
+      "text": "to tell a computer how you calculate a",
+      "timestamp": "08:55"
+    },
+    {
+      "start": 537.44,
+      "duration": 1.6,
+      "text": "mortgage it's hard to do it in your head",
+      "timestamp": "08:57"
+    },
+    {
+      "start": 539.04,
+      "duration": 1.68,
+      "text": "but it's easy to tell a computer how you",
+      "timestamp": "08:59"
+    },
+    {
+      "start": 540.72,
+      "duration": 2.4,
+      "text": "would do that what machine learning did",
+      "timestamp": "09:00"
+    },
+    {
+      "start": 543.12,
+      "duration": 2.0,
+      "text": "was move this to a statistics question",
+      "timestamp": "09:03"
+    },
+    {
+      "start": 545.12,
+      "duration": 2.56,
+      "text": "to move this to a probabilistic model",
+      "timestamp": "09:05"
+    },
+    {
+      "start": 547.68,
+      "duration": 1.92,
+      "text": "and machine learning solved things that",
+      "timestamp": "09:07"
+    },
+    {
+      "start": 549.6,
+      "duration": 2.4,
+      "text": "were hard to explain to a computer like",
+      "timestamp": "09:09"
+    },
+    {
+      "start": 552.0,
+      "duration": 1.76,
+      "text": "why is that credit card transaction",
+      "timestamp": "09:12"
+    },
+    {
+      "start": 553.76,
+      "duration": 2.56,
+      "text": "weird what does this Chinese word mean",
+      "timestamp": "09:13"
+    },
+    {
+      "start": 556.32,
+      "duration": 2.72,
+      "text": "in Malay what is this Japanese sentence",
+      "timestamp": "09:16"
+    },
+    {
+      "start": 559.04,
+      "duration": 3.2,
+      "text": "mean in English um why is that a picture",
+      "timestamp": "09:19"
+    },
+    {
+      "start": 562.24,
+      "duration": 2.4,
+      "text": "of a cat and not a dog um why does our",
+      "timestamp": "09:22"
+    },
+    {
+      "start": 564.64,
+      "duration": 2.16,
+      "text": "robot keep falling over and so machine",
+      "timestamp": "09:24"
+    },
+    {
+      "start": 566.8,
+      "duration": 2.159,
+      "text": "learning solved that large language",
+      "timestamp": "09:26"
+    },
+    {
+      "start": 568.959,
+      "duration": 2.241,
+      "text": "models again are probabilistic and it",
+      "timestamp": "09:28"
+    },
+    {
+      "start": 571.2,
+      "duration": 1.68,
+      "text": "seems that what they're good at right",
+      "timestamp": "09:31"
+    },
+    {
+      "start": 572.88,
+      "duration": 2.24,
+      "text": "now is things that would be easy to",
+      "timestamp": "09:32"
+    },
+    {
+      "start": 575.12,
+      "duration": 1.839,
+      "text": "explain to a person things that would be",
+      "timestamp": "09:35"
+    },
+    {
+      "start": 576.959,
+      "duration": 2.241,
+      "text": "easy to explain maybe to an intern",
+      "timestamp": "09:36"
+    },
+    {
+      "start": 579.2,
+      "duration": 1.84,
+      "text": "anything where you could ask a human to",
+      "timestamp": "09:39"
+    },
+    {
+      "start": 581.04,
+      "duration": 2.56,
+      "text": "do this for you in 10 seconds and they",
+      "timestamp": "09:41"
+    },
+    {
+      "start": 583.6,
+      "duration": 1.919,
+      "text": "would come back with it the next day you",
+      "timestamp": "09:43"
+    },
+    {
+      "start": 585.519,
+      "duration": 1.681,
+      "text": "can probably ask an LLM to do and it",
+      "timestamp": "09:45"
+    },
+    {
+      "start": 587.2,
+      "duration": 1.84,
+      "text": "will give you an answer anything where",
+      "timestamp": "09:47"
+    },
+    {
+      "start": 589.04,
+      "duration": 2.16,
+      "text": "it would take you a halfhour meeting in",
+      "timestamp": "09:49"
+    },
+    {
+      "start": 591.2,
+      "duration": 1.6,
+      "text": "order to set up the project and you need",
+      "timestamp": "09:51"
+    },
+    {
+      "start": 592.8,
+      "duration": 1.599,
+      "text": "to give a bunch of context and have a",
+      "timestamp": "09:52"
+    },
+    {
+      "start": 594.399,
+      "duration": 2.321,
+      "text": "bunch of questions llm's probably fail",
+      "timestamp": "09:54"
+    },
+    {
+      "start": 596.72,
+      "duration": 2.0,
+      "text": "at those not because they can't do the",
+      "timestamp": "09:56"
+    },
+    {
+      "start": 598.72,
+      "duration": 2.0,
+      "text": "task but because we can't explain the",
+      "timestamp": "09:58"
+    },
+    {
+      "start": 600.72,
+      "duration": 3.28,
+      "text": "task it's hard to explain um all of that",
+      "timestamp": "10:00"
+    },
+    {
+      "start": 604.0,
+      "duration": 1.6,
+      "text": "kind of gets us to these these questions",
+      "timestamp": "10:04"
+    },
+    {
+      "start": 605.6,
+      "duration": 1.84,
+      "text": "that every big company is asking now is",
+      "timestamp": "10:05"
+    },
+    {
+      "start": 607.44,
+      "duration": 2.16,
+      "text": "this all sounds very cool but what is it",
+      "timestamp": "10:07"
+    },
+    {
+      "start": 609.6,
+      "duration": 2.16,
+      "text": "that we do with this this is something",
+      "timestamp": "10:09"
+    },
+    {
+      "start": 611.76,
+      "duration": 1.68,
+      "text": "that computers could never do before",
+      "timestamp": "10:11"
+    },
+    {
+      "start": 613.44,
+      "duration": 1.44,
+      "text": "except that they might get it wrong",
+      "timestamp": "10:13"
+    },
+    {
+      "start": 614.88,
+      "duration": 1.36,
+      "text": "because it's the statistical",
+      "timestamp": "10:14"
+    },
+    {
+      "start": 616.24,
+      "duration": 2.0,
+      "text": "probabilistic system what do we do with",
+      "timestamp": "10:16"
+    },
+    {
+      "start": 618.24,
+      "duration": 2.08,
+      "text": "this how do we use it what happens when",
+      "timestamp": "10:18"
+    },
+    {
+      "start": 620.32,
+      "duration": 1.92,
+      "text": "you open chat GPT and you have this",
+      "timestamp": "10:20"
+    },
+    {
+      "start": 622.24,
+      "duration": 1.52,
+      "text": "blank screen and you don't know what to",
+      "timestamp": "10:22"
+    },
+    {
+      "start": 623.76,
+      "duration": 2.16,
+      "text": "ask if you ask it and what you get back",
+      "timestamp": "10:23"
+    },
+    {
+      "start": 625.92,
+      "duration": 1.68,
+      "text": "isn't quite what you wanted how do you",
+      "timestamp": "10:25"
+    },
+    {
+      "start": 627.6,
+      "duration": 2.16,
+      "text": "fix that how do you deal with the fact",
+      "timestamp": "10:27"
+    },
+    {
+      "start": 629.76,
+      "duration": 2.319,
+      "text": "that these models have a probabilistic",
+      "timestamp": "10:29"
+    },
+    {
+      "start": 632.079,
+      "duration": 1.681,
+      "text": "answer and so the answer will not always",
+      "timestamp": "10:32"
+    },
+    {
+      "start": 633.76,
+      "duration": 1.84,
+      "text": "be exactly correct where do you put the",
+      "timestamp": "10:33"
+    },
+    {
+      "start": 635.6,
+      "duration": 1.44,
+      "text": "human in the loop what's the right way",
+      "timestamp": "10:35"
+    },
+    {
+      "start": 637.04,
+      "duration": 2.16,
+      "text": "to use this to build software at a very",
+      "timestamp": "10:37"
+    },
+    {
+      "start": 639.2,
+      "duration": 1.759,
+      "text": "kind of conceptual level I think it's",
+      "timestamp": "10:39"
+    },
+    {
+      "start": 640.959,
+      "duration": 2.88,
+      "text": "interesting to ask do you use the LLM to",
+      "timestamp": "10:40"
+    },
+    {
+      "start": 643.839,
+      "duration": 2.481,
+      "text": "control all the other software so do you",
+      "timestamp": "10:43"
+    },
+    {
+      "start": 646.32,
+      "duration": 2.0,
+      "text": "let the LLM talk to Oracle and",
+      "timestamp": "10:46"
+    },
+    {
+      "start": 648.32,
+      "duration": 3.04,
+      "text": "Salesforce and SAP and get answers back",
+      "timestamp": "10:48"
+    },
+    {
+      "start": 651.36,
+      "duration": 1.76,
+      "text": "and tell them what to do does the LLM",
+      "timestamp": "10:51"
+    },
+    {
+      "start": 653.12,
+      "duration": 2.56,
+      "text": "sit at the top of the stack or is the",
+      "timestamp": "10:53"
+    },
+    {
+      "start": 655.68,
+      "duration": 2.48,
+      "text": "LLM just another API and Oracle or",
+      "timestamp": "10:55"
+    },
+    {
+      "start": 658.16,
+      "duration": 2.88,
+      "text": "Salesforce can use a clawed API to do",
+      "timestamp": "10:58"
+    },
+    {
+      "start": 661.04,
+      "duration": 1.84,
+      "text": "some sentiment analysis or to draft you",
+      "timestamp": "11:01"
+    },
+    {
+      "start": 662.88,
+      "duration": 2.399,
+      "text": "an email but all of your source of truth",
+      "timestamp": "11:02"
+    },
+    {
+      "start": 665.279,
+      "duration": 1.521,
+      "text": "and all of your fundamental control",
+      "timestamp": "11:05"
+    },
+    {
+      "start": 666.8,
+      "duration": 1.68,
+      "text": "should sit in your traditional software",
+      "timestamp": "11:06"
+    },
+    {
+      "start": 668.48,
+      "duration": 1.76,
+      "text": "the answer to that is probably yes",
+      "timestamp": "11:08"
+    },
+    {
+      "start": 670.24,
+      "duration": 2.08,
+      "text": "depending on what you're trying to build",
+      "timestamp": "11:10"
+    },
+    {
+      "start": 672.32,
+      "duration": 1.6,
+      "text": "but if we step back from this and step",
+      "timestamp": "11:12"
+    },
+    {
+      "start": 673.92,
+      "duration": 1.599,
+      "text": "back from kind of the AI bubble of",
+      "timestamp": "11:13"
+    },
+    {
+      "start": 675.519,
+      "duration": 1.601,
+      "text": "everybody who's using this all the time",
+      "timestamp": "11:15"
+    },
+    {
+      "start": 677.12,
+      "duration": 1.44,
+      "text": "and talking to everybody else who's",
+      "timestamp": "11:17"
+    },
+    {
+      "start": 678.56,
+      "duration": 1.68,
+      "text": "using this all the time it's kind of",
+      "timestamp": "11:18"
+    },
+    {
+      "start": 680.24,
+      "duration": 2.159,
+      "text": "important to remember that most people",
+      "timestamp": "11:20"
+    },
+    {
+      "start": 682.399,
+      "duration": 3.761,
+      "text": "are kind of puzzled so um this is a",
+      "timestamp": "11:22"
+    },
+    {
+      "start": 686.16,
+      "duration": 2.799,
+      "text": "bunch of survey data that I pulled um",
+      "timestamp": "11:26"
+    },
+    {
+      "start": 688.959,
+      "duration": 3.281,
+      "text": "from the end of last year um on how many",
+      "timestamp": "11:28"
+    },
+    {
+      "start": 692.24,
+      "duration": 1.92,
+      "text": "people are actually using a generative",
+      "timestamp": "11:32"
+    },
+    {
+      "start": 694.16,
+      "duration": 2.799,
+      "text": "AI chatbot and I very carefully use that",
+      "timestamp": "11:34"
+    },
+    {
+      "start": 696.959,
+      "duration": 1.761,
+      "text": "definition so that you're not capturing",
+      "timestamp": "11:36"
+    },
+    {
+      "start": 698.72,
+      "duration": 1.76,
+      "text": "people who've taken a picture in Snap",
+      "timestamp": "11:38"
+    },
+    {
+      "start": 700.48,
+      "duration": 2.32,
+      "text": "and put a cool p cool filter on it and",
+      "timestamp": "11:40"
+    },
+    {
+      "start": 702.8,
+      "duration": 1.68,
+      "text": "the answer is that sort of something",
+      "timestamp": "11:42"
+    },
+    {
+      "start": 704.48,
+      "duration": 3.68,
+      "text": "between sort of 7 8 9 10% of people are",
+      "timestamp": "11:44"
+    },
+    {
+      "start": 708.16,
+      "duration": 3.119,
+      "text": "using this every day and another kind of",
+      "timestamp": "11:48"
+    },
+    {
+      "start": 711.279,
+      "duration": 2.721,
+      "text": "20% of people are using it maybe once a",
+      "timestamp": "11:51"
+    },
+    {
+      "start": 714.0,
+      "duration": 2.88,
+      "text": "week or every 2 weeks and then probably",
+      "timestamp": "11:54"
+    },
+    {
+      "start": 716.88,
+      "duration": 1.92,
+      "text": "double that used it once and thought I",
+      "timestamp": "11:56"
+    },
+    {
+      "start": 718.8,
+      "duration": 1.76,
+      "text": "have no idea what to do with this and",
+      "timestamp": "11:58"
+    },
+    {
+      "start": 720.56,
+      "duration": 1.76,
+      "text": "this is kind of a really interesting",
+      "timestamp": "12:00"
+    },
+    {
+      "start": 722.32,
+      "duration": 2.24,
+      "text": "kind of statistic because it says",
+      "timestamp": "12:02"
+    },
+    {
+      "start": 724.56,
+      "duration": 2.8,
+      "text": "there's a lot of people who use this",
+      "timestamp": "12:04"
+    },
+    {
+      "start": 727.36,
+      "duration": 1.76,
+      "text": "understand it get it they've got the",
+      "timestamp": "12:07"
+    },
+    {
+      "start": 729.12,
+      "duration": 2.08,
+      "text": "account they go to the website and it's",
+      "timestamp": "12:09"
+    },
+    {
+      "start": 731.2,
+      "duration": 3.28,
+      "text": "useful maybe once a week and that isn't",
+      "timestamp": "12:11"
+    },
+    {
+      "start": 734.48,
+      "duration": 1.68,
+      "text": "what you hear from people who think this",
+      "timestamp": "12:14"
+    },
+    {
+      "start": 736.16,
+      "duration": 1.679,
+      "text": "is going to transform humanity if it's",
+      "timestamp": "12:16"
+    },
+    {
+      "start": 737.839,
+      "duration": 2.0,
+      "text": "going to transform humanity why is it",
+      "timestamp": "12:17"
+    },
+    {
+      "start": 739.839,
+      "duration": 1.68,
+      "text": "something that I use every week rather",
+      "timestamp": "12:19"
+    },
+    {
+      "start": 741.519,
+      "duration": 2.081,
+      "text": "than something that I have open all of",
+      "timestamp": "12:21"
+    },
+    {
+      "start": 743.6,
+      "duration": 2.479,
+      "text": "the time if we look at how enterprises",
+      "timestamp": "12:23"
+    },
+    {
+      "start": 746.079,
+      "duration": 1.601,
+      "text": "are thinking about this you get a",
+      "timestamp": "12:26"
+    },
+    {
+      "start": 747.68,
+      "duration": 1.68,
+      "text": "slightly different picture which is the",
+      "timestamp": "12:27"
+    },
+    {
+      "start": 749.36,
+      "duration": 1.279,
+      "text": "kind of the series over on the right",
+      "timestamp": "12:29"
+    },
+    {
+      "start": 750.639,
+      "duration": 2.081,
+      "text": "here what do I do with this that's the",
+      "timestamp": "12:30"
+    },
+    {
+      "start": 752.72,
+      "duration": 1.76,
+      "text": "lowest that's not actually a big reason",
+      "timestamp": "12:32"
+    },
+    {
+      "start": 754.48,
+      "duration": 2.4,
+      "text": "to hesitate the real reasons to hesitate",
+      "timestamp": "12:34"
+    },
+    {
+      "start": 756.88,
+      "duration": 2.959,
+      "text": "are well we get it but it's hard we have",
+      "timestamp": "12:36"
+    },
+    {
+      "start": 759.839,
+      "duration": 1.761,
+      "text": "to worry about security we don't have",
+      "timestamp": "12:39"
+    },
+    {
+      "start": 761.6,
+      "duration": 1.679,
+      "text": "the in-house expertise we're worried",
+      "timestamp": "12:41"
+    },
+    {
+      "start": 763.279,
+      "duration": 1.36,
+      "text": "about the data rates we haven't got our",
+      "timestamp": "12:43"
+    },
+    {
+      "start": 764.639,
+      "duration": 1.841,
+      "text": "data in order it's actually more",
+      "timestamp": "12:44"
+    },
+    {
+      "start": 766.48,
+      "duration": 2.0,
+      "text": "difficult to deploy this even if you can",
+      "timestamp": "12:46"
+    },
+    {
+      "start": 768.48,
+      "duration": 1.68,
+      "text": "just understand what the use cases might",
+      "timestamp": "12:48"
+    },
+    {
+      "start": 770.16,
+      "duration": 2.16,
+      "text": "be now however I think it's kind of",
+      "timestamp": "12:50"
+    },
+    {
+      "start": 772.32,
+      "duration": 1.84,
+      "text": "important to remember that the future",
+      "timestamp": "12:52"
+    },
+    {
+      "start": 774.16,
+      "duration": 2.479,
+      "text": "always takes time this is a chart I love",
+      "timestamp": "12:54"
+    },
+    {
+      "start": 776.639,
+      "duration": 1.841,
+      "text": "of enterprise adoption of cloud and if",
+      "timestamp": "12:56"
+    },
+    {
+      "start": 778.48,
+      "duration": 1.28,
+      "text": "you're in the tech industry cloud is",
+      "timestamp": "12:58"
+    },
+    {
+      "start": 779.76,
+      "duration": 1.44,
+      "text": "kind of old and boring and done and it's",
+      "timestamp": "12:59"
+    },
+    {
+      "start": 781.2,
+      "duration": 2.079,
+      "text": "a thing from the 2000s but it's still",
+      "timestamp": "13:01"
+    },
+    {
+      "start": 783.279,
+      "duration": 2.56,
+      "text": "only sort of 20 to 30% of enterprise",
+      "timestamp": "13:03"
+    },
+    {
+      "start": 785.839,
+      "duration": 1.921,
+      "text": "workflows and the CIOS are always",
+      "timestamp": "13:05"
+    },
+    {
+      "start": 787.76,
+      "duration": 1.519,
+      "text": "desperately hoping that they'll get the",
+      "timestamp": "13:07"
+    },
+    {
+      "start": 789.279,
+      "duration": 1.921,
+      "text": "CFO to give them budget to replatform in",
+      "timestamp": "13:09"
+    },
+    {
+      "start": 791.2,
+      "duration": 1.439,
+      "text": "3 years but they never actually managed",
+      "timestamp": "13:11"
+    },
+    {
+      "start": 792.639,
+      "duration": 2.32,
+      "text": "to get the budget um it does actually",
+      "timestamp": "13:12"
+    },
+    {
+      "start": 794.959,
+      "duration": 2.0,
+      "text": "take time to deploy new technology and",
+      "timestamp": "13:14"
+    },
+    {
+      "start": 796.959,
+      "duration": 2.0,
+      "text": "we should remember like LLMs didn't",
+      "timestamp": "13:16"
+    },
+    {
+      "start": 798.959,
+      "duration": 2.161,
+      "text": "exist 3 years ago like it takes a while",
+      "timestamp": "13:18"
+    },
+    {
+      "start": 801.12,
+      "duration": 1.519,
+      "text": "to build software and then it takes a",
+      "timestamp": "13:21"
+    },
+    {
+      "start": 802.639,
+      "duration": 1.521,
+      "text": "while to get people to deploy it and we",
+      "timestamp": "13:22"
+    },
+    {
+      "start": 804.16,
+      "duration": 1.679,
+      "text": "should expect this to take a bit longer",
+      "timestamp": "13:24"
+    },
+    {
+      "start": 805.839,
+      "duration": 1.841,
+      "text": "and we should think that more generally",
+      "timestamp": "13:25"
+    },
+    {
+      "start": 807.68,
+      "duration": 2.32,
+      "text": "about any new technology that we had",
+      "timestamp": "13:27"
+    },
+    {
+      "start": 810.0,
+      "duration": 1.2,
+      "text": "these kind of questions with every",
+      "timestamp": "13:30"
+    },
+    {
+      "start": 811.2,
+      "duration": 2.16,
+      "text": "platform shift and I was a baby analyst",
+      "timestamp": "13:31"
+    },
+    {
+      "start": 813.36,
+      "duration": 2.0,
+      "text": "when 3G was the big thing and analysts",
+      "timestamp": "13:33"
+    },
+    {
+      "start": 815.36,
+      "duration": 1.68,
+      "text": "and investors would keep saying well",
+      "timestamp": "13:35"
+    },
+    {
+      "start": 817.04,
+      "duration": 2.239,
+      "text": "what's the killer app for 3G what should",
+      "timestamp": "13:37"
+    },
+    {
+      "start": 819.279,
+      "duration": 2.641,
+      "text": "we do with 3G why would consumers buy 3G",
+      "timestamp": "13:39"
+    },
+    {
+      "start": 821.92,
+      "duration": 1.44,
+      "text": "and the answer was that having the",
+      "timestamp": "13:41"
+    },
+    {
+      "start": 823.36,
+      "duration": 1.44,
+      "text": "internet in your pocket was kind of a",
+      "timestamp": "13:43"
+    },
+    {
+      "start": 824.8,
+      "duration": 2.719,
+      "text": "big deal and smartphones replaced PCs",
+      "timestamp": "13:44"
+    },
+    {
+      "start": 827.519,
+      "duration": 1.681,
+      "text": "the same kind of questions came up with",
+      "timestamp": "13:47"
+    },
+    {
+      "start": 829.2,
+      "duration": 1.84,
+      "text": "the cloud like only an idiot would trust",
+      "timestamp": "13:49"
+    },
+    {
+      "start": 831.04,
+      "duration": 2.56,
+      "text": "Amazon or Google with their data and the",
+      "timestamp": "13:51"
+    },
+    {
+      "start": 833.6,
+      "duration": 1.359,
+      "text": "same kind of questions that come up now",
+      "timestamp": "13:53"
+    },
+    {
+      "start": 834.959,
+      "duration": 1.841,
+      "text": "with LLMs that this is kind of weird and",
+      "timestamp": "13:54"
+    },
+    {
+      "start": 836.8,
+      "duration": 1.12,
+      "text": "strange and different and we don't want",
+      "timestamp": "13:56"
+    },
+    {
+      "start": 837.92,
+      "duration": 2.08,
+      "text": "to do with it but then it's always weird",
+      "timestamp": "13:57"
+    },
+    {
+      "start": 840.0,
+      "duration": 1.519,
+      "text": "and strange and different and we don't",
+      "timestamp": "14:00"
+    },
+    {
+      "start": 841.519,
+      "duration": 1.68,
+      "text": "know what to do with it so maybe",
+      "timestamp": "14:01"
+    },
+    {
+      "start": 843.199,
+      "duration": 1.841,
+      "text": "actually we should step back and think",
+      "timestamp": "14:03"
+    },
+    {
+      "start": 845.04,
+      "duration": 1.599,
+      "text": "well what's the standard pattern for how",
+      "timestamp": "14:05"
+    },
+    {
+      "start": 846.639,
+      "duration": 2.32,
+      "text": "you deploy new technologies and to begin",
+      "timestamp": "14:06"
+    },
+    {
+      "start": 848.959,
+      "duration": 2.0,
+      "text": "with with every new technology you",
+      "timestamp": "14:08"
+    },
+    {
+      "start": 850.959,
+      "duration": 2.24,
+      "text": "absorb it you make it a feature the",
+      "timestamp": "14:10"
+    },
+    {
+      "start": 853.199,
+      "duration": 1.361,
+      "text": "incumbents add it to all of their",
+      "timestamp": "14:13"
+    },
+    {
+      "start": 854.56,
+      "duration": 2.24,
+      "text": "existing stuff you use it to automate",
+      "timestamp": "14:14"
+    },
+    {
+      "start": 856.8,
+      "duration": 2.0,
+      "text": "the obvious easy things where you can",
+      "timestamp": "14:16"
+    },
+    {
+      "start": 858.8,
+      "duration": 1.279,
+      "text": "see that that would be useful",
+      "timestamp": "14:18"
+    },
+    {
+      "start": 860.079,
+      "duration": 2.241,
+      "text": "immediately you do the early obvious",
+      "timestamp": "14:20"
+    },
+    {
+      "start": 862.32,
+      "duration": 2.8,
+      "text": "stuff a little bit later on then you",
+      "timestamp": "14:22"
+    },
+    {
+      "start": 865.12,
+      "duration": 1.76,
+      "text": "start innovating you start thinking of",
+      "timestamp": "14:25"
+    },
+    {
+      "start": 866.88,
+      "duration": 2.0,
+      "text": "new things that you could do new things",
+      "timestamp": "14:26"
+    },
+    {
+      "start": 868.88,
+      "duration": 2.24,
+      "text": "that weren't possible you move from",
+      "timestamp": "14:28"
+    },
+    {
+      "start": 871.12,
+      "duration": 1.839,
+      "text": "bottomline innovation to topline",
+      "timestamp": "14:31"
+    },
+    {
+      "start": 872.959,
+      "duration": 2.24,
+      "text": "innovation startups get founded that",
+      "timestamp": "14:32"
+    },
+    {
+      "start": 875.199,
+      "duration": 2.0,
+      "text": "unbundle the incumbents or unbundle",
+      "timestamp": "14:35"
+    },
+    {
+      "start": 877.199,
+      "duration": 2.0,
+      "text": "existing business models and every now",
+      "timestamp": "14:37"
+    },
+    {
+      "start": 879.199,
+      "duration": 1.44,
+      "text": "and then there's a third step where",
+      "timestamp": "14:39"
+    },
+    {
+      "start": 880.639,
+      "duration": 1.681,
+      "text": "somebody actually disrupts the industry",
+      "timestamp": "14:40"
+    },
+    {
+      "start": 882.32,
+      "duration": 2.0,
+      "text": "changes the question ask different",
+      "timestamp": "14:42"
+    },
+    {
+      "start": 884.32,
+      "duration": 2.16,
+      "text": "questions and creates Airbnb as opposed",
+      "timestamp": "14:44"
+    },
+    {
+      "start": 886.48,
+      "duration": 2.4,
+      "text": "to putting hotel bookings online um but",
+      "timestamp": "14:46"
+    },
+    {
+      "start": 888.88,
+      "duration": 2.0,
+      "text": "that takes longer again I think a kind",
+      "timestamp": "14:48"
+    },
+    {
+      "start": 890.88,
+      "duration": 1.84,
+      "text": "of a useful way to understand this is to",
+      "timestamp": "14:50"
+    },
+    {
+      "start": 892.72,
+      "duration": 1.44,
+      "text": "go back and look again at a platform",
+      "timestamp": "14:52"
+    },
+    {
+      "start": 894.16,
+      "duration": 1.84,
+      "text": "shift which is to look at spreadsheets",
+      "timestamp": "14:54"
+    },
+    {
+      "start": 896.0,
+      "duration": 1.76,
+      "text": "um which some of you may maybe heard me",
+      "timestamp": "14:56"
+    },
+    {
+      "start": 897.76,
+      "duration": 1.12,
+      "text": "talk about this before but I always",
+      "timestamp": "14:57"
+    },
+    {
+      "start": 898.88,
+      "duration": 1.6,
+      "text": "think it's a really useful thing to look",
+      "timestamp": "14:58"
+    },
+    {
+      "start": 900.48,
+      "duration": 2.32,
+      "text": "at um this is Visical which was the",
+      "timestamp": "15:00"
+    },
+    {
+      "start": 902.8,
+      "duration": 1.599,
+      "text": "first successful software spreadsheet in",
+      "timestamp": "15:02"
+    },
+    {
+      "start": 904.399,
+      "duration": 2.481,
+      "text": "the late 1970s and before this",
+      "timestamp": "15:04"
+    },
+    {
+      "start": 906.88,
+      "duration": 1.84,
+      "text": "spreadsheets were paper you can buy",
+      "timestamp": "15:06"
+    },
+    {
+      "start": 908.72,
+      "duration": 3.52,
+      "text": "paper spreadsheet and so with VisiCalc",
+      "timestamp": "15:08"
+    },
+    {
+      "start": 912.24,
+      "duration": 2.32,
+      "text": "you can change the interest rate here",
+      "timestamp": "15:12"
+    },
+    {
+      "start": 914.56,
+      "duration": 3.279,
+      "text": "and all the other numbers change and if",
+      "timestamp": "15:14"
+    },
+    {
+      "start": 917.839,
+      "duration": 2.481,
+      "text": "you were an accountant in 1978 you would",
+      "timestamp": "15:17"
+    },
+    {
+      "start": 920.32,
+      "duration": 1.759,
+      "text": "see that and that would transform your",
+      "timestamp": "15:20"
+    },
+    {
+      "start": 922.079,
+      "duration": 1.44,
+      "text": "life because it could do a week of work",
+      "timestamp": "15:22"
+    },
+    {
+      "start": 923.519,
+      "duration": 2.721,
+      "text": "in an afternoon or in 5 minutes but if",
+      "timestamp": "15:23"
+    },
+    {
+      "start": 926.24,
+      "duration": 2.159,
+      "text": "you were a lawyer and you looked at this",
+      "timestamp": "15:26"
+    },
+    {
+      "start": 928.399,
+      "duration": 1.921,
+      "text": "you would think well that's great but I",
+      "timestamp": "15:28"
+    },
+    {
+      "start": 930.32,
+      "duration": 1.44,
+      "text": "don't have that use case i don't do",
+      "timestamp": "15:30"
+    },
+    {
+      "start": 931.76,
+      "duration": 2.079,
+      "text": "spreadsheets mike should see it but I",
+      "timestamp": "15:31"
+    },
+    {
+      "start": 933.839,
+      "duration": 1.841,
+      "text": "don't do that and that's kind of the",
+      "timestamp": "15:33"
+    },
+    {
+      "start": 935.68,
+      "duration": 3.2,
+      "text": "stage we're at today with LLMs there's a",
+      "timestamp": "15:35"
+    },
+    {
+      "start": 938.88,
+      "duration": 2.079,
+      "text": "bunch of people who look at this and say",
+      "timestamp": "15:38"
+    },
+    {
+      "start": 940.959,
+      "duration": 2.641,
+      "text": "\"I have that use case.\" So we're already",
+      "timestamp": "15:40"
+    },
+    {
+      "start": 943.6,
+      "duration": 1.44,
+      "text": "seeing huge adoption in software",
+      "timestamp": "15:43"
+    },
+    {
+      "start": 945.04,
+      "duration": 1.84,
+      "text": "development we're already seeing huge",
+      "timestamp": "15:45"
+    },
+    {
+      "start": 946.88,
+      "duration": 1.84,
+      "text": "adoption in marketing there's a bunch of",
+      "timestamp": "15:46"
+    },
+    {
+      "start": 948.72,
+      "duration": 1.28,
+      "text": "people very excited about this in",
+      "timestamp": "15:48"
+    },
+    {
+      "start": 950.0,
+      "duration": 1.199,
+      "text": "customer support although you kind of",
+      "timestamp": "15:50"
+    },
+    {
+      "start": 951.199,
+      "duration": 1.2,
+      "text": "have to be careful because it will tell",
+      "timestamp": "15:51"
+    },
+    {
+      "start": 952.399,
+      "duration": 1.36,
+      "text": "you what the answer looks like rather",
+      "timestamp": "15:52"
+    },
+    {
+      "start": 953.759,
+      "duration": 2.561,
+      "text": "than what the answer is and you see a",
+      "timestamp": "15:53"
+    },
+    {
+      "start": 956.32,
+      "duration": 2.56,
+      "text": "lot of adoption in early adopters",
+      "timestamp": "15:56"
+    },
+    {
+      "start": 958.88,
+      "duration": 2.079,
+      "text": "probably many people in this room which",
+      "timestamp": "15:58"
+    },
+    {
+      "start": 960.959,
+      "duration": 2.56,
+      "text": "to me looks a lot like people who used",
+      "timestamp": "16:00"
+    },
+    {
+      "start": 963.519,
+      "duration": 3.201,
+      "text": "Kenosotion or Air Table or any kind of",
+      "timestamp": "16:03"
+    },
+    {
+      "start": 966.72,
+      "duration": 1.679,
+      "text": "no code tool there's a certain kind of",
+      "timestamp": "16:06"
+    },
+    {
+      "start": 968.399,
+      "duration": 2.161,
+      "text": "person that has a certain kind of job a",
+      "timestamp": "16:08"
+    },
+    {
+      "start": 970.56,
+      "duration": 1.68,
+      "text": "certain kind of task a lot of",
+      "timestamp": "16:10"
+    },
+    {
+      "start": 972.24,
+      "duration": 1.76,
+      "text": "flexibility in how they do that they're",
+      "timestamp": "16:12"
+    },
+    {
+      "start": 974.0,
+      "duration": 1.92,
+      "text": "looking for new ways to do that and so",
+      "timestamp": "16:14"
+    },
+    {
+      "start": 975.92,
+      "duration": 1.919,
+      "text": "those people are all using Chat GPT and",
+      "timestamp": "16:15"
+    },
+    {
+      "start": 977.839,
+      "duration": 1.68,
+      "text": "Claude and Perplexity and Gemini and",
+      "timestamp": "16:17"
+    },
+    {
+      "start": 979.519,
+      "duration": 2.481,
+      "text": "Copilot um but for everyone else there's",
+      "timestamp": "16:19"
+    },
+    {
+      "start": 982.0,
+      "duration": 1.6,
+      "text": "kind of puzzlement it's not clear what",
+      "timestamp": "16:22"
+    },
+    {
+      "start": 983.6,
+      "duration": 1.919,
+      "text": "we would do this do with this it's worth",
+      "timestamp": "16:23"
+    },
+    {
+      "start": 985.519,
+      "duration": 1.521,
+      "text": "incidentally I think just kind of double",
+      "timestamp": "16:25"
+    },
+    {
+      "start": 987.04,
+      "duration": 2.96,
+      "text": "tapping um on software development um it",
+      "timestamp": "16:27"
+    },
+    {
+      "start": 990.0,
+      "duration": 1.92,
+      "text": "does feel like even if nothing else",
+      "timestamp": "16:30"
+    },
+    {
+      "start": 991.92,
+      "duration": 2.4,
+      "text": "happens using AI to generate code is",
+      "timestamp": "16:31"
+    },
+    {
+      "start": 994.32,
+      "duration": 2.56,
+      "text": "kind of the new AWS in that this is a",
+      "timestamp": "16:34"
+    },
+    {
+      "start": 996.88,
+      "duration": 2.8,
+      "text": "new step change in what it takes to get",
+      "timestamp": "16:36"
+    },
+    {
+      "start": 999.68,
+      "duration": 1.599,
+      "text": "software out of the door how quickly you",
+      "timestamp": "16:39"
+    },
+    {
+      "start": 1001.279,
+      "duration": 1.441,
+      "text": "can deploy software how quickly you can",
+      "timestamp": "16:41"
+    },
+    {
+      "start": 1002.72,
+      "duration": 1.84,
+      "text": "build software companies but for",
+      "timestamp": "16:42"
+    },
+    {
+      "start": 1004.56,
+      "duration": 1.12,
+      "text": "everyone else there's this sort of",
+      "timestamp": "16:44"
+    },
+    {
+      "start": 1005.68,
+      "duration": 2.079,
+      "text": "puzzlement what do I do with this where",
+      "timestamp": "16:45"
+    },
+    {
+      "start": 1007.759,
+      "duration": 1.44,
+      "text": "there's we have this canonical quote",
+      "timestamp": "16:47"
+    },
+    {
+      "start": 1009.199,
+      "duration": 1.601,
+      "text": "from Steve Jobs it's not actually the",
+      "timestamp": "16:49"
+    },
+    {
+      "start": 1010.8,
+      "duration": 1.2,
+      "text": "customer's job to know what they want",
+      "timestamp": "16:50"
+    },
+    {
+      "start": 1012.0,
+      "duration": 1.44,
+      "text": "it's not the customer's job to know what",
+      "timestamp": "16:52"
+    },
+    {
+      "start": 1013.44,
+      "duration": 1.36,
+      "text": "this new technology is supposed to be",
+      "timestamp": "16:53"
+    },
+    {
+      "start": 1014.8,
+      "duration": 2.0,
+      "text": "useful for it's our job it's the",
+      "timestamp": "16:54"
+    },
+    {
+      "start": 1016.8,
+      "duration": 1.12,
+      "text": "software industry's job it's",
+      "timestamp": "16:56"
+    },
+    {
+      "start": 1017.92,
+      "duration": 2.719,
+      "text": "entrepreneurs job to um it's CIO's job",
+      "timestamp": "16:57"
+    },
+    {
+      "start": 1020.639,
+      "duration": 2.241,
+      "text": "to work out what you would do with this",
+      "timestamp": "17:00"
+    },
+    {
+      "start": 1022.88,
+      "duration": 2.959,
+      "text": "one part of that um is that you go to",
+      "timestamp": "17:02"
+    },
+    {
+      "start": 1025.839,
+      "duration": 2.801,
+      "text": "someone like Accenture um you go and you",
+      "timestamp": "17:05"
+    },
+    {
+      "start": 1028.64,
+      "duration": 1.6,
+      "text": "build new software in the enterprise the",
+      "timestamp": "17:08"
+    },
+    {
+      "start": 1030.24,
+      "duration": 2.798,
+      "text": "CIO um and the consultants work out the",
+      "timestamp": "17:10"
+    },
+    {
+      "start": 1033.039,
+      "duration": 1.201,
+      "text": "new tasks that you could do with this",
+      "timestamp": "17:13"
+    },
+    {
+      "start": 1034.24,
+      "duration": 2.318,
+      "text": "and so Accenture booked 1.4 billion of",
+      "timestamp": "17:14"
+    },
+    {
+      "start": 1036.559,
+      "duration": 2.161,
+      "text": "Generative AI bookings reported 1.4",
+      "timestamp": "17:16"
+    },
+    {
+      "start": 1038.72,
+      "duration": 1.52,
+      "text": "billion of Generative AI bookings last",
+      "timestamp": "17:18"
+    },
+    {
+      "start": 1040.24,
+      "duration": 1.599,
+      "text": "quarter um there's probably a little bit",
+      "timestamp": "17:20"
+    },
+    {
+      "start": 1041.839,
+      "duration": 2.321,
+      "text": "of AI washing in that as every CIO and",
+      "timestamp": "17:21"
+    },
+    {
+      "start": 1044.16,
+      "duration": 1.518,
+      "text": "CEO wants to say they have an AI",
+      "timestamp": "17:24"
+    },
+    {
+      "start": 1045.679,
+      "duration": 1.921,
+      "text": "strategy and every Accenture engagement",
+      "timestamp": "17:25"
+    },
+    {
+      "start": 1047.6,
+      "duration": 1.36,
+      "text": "manager wants to report this as",
+      "timestamp": "17:27"
+    },
+    {
+      "start": 1048.96,
+      "duration": 1.52,
+      "text": "generative AI rather than legacy",
+      "timestamp": "17:28"
+    },
+    {
+      "start": 1050.48,
+      "duration": 1.68,
+      "text": "software but that kind of reflects how",
+      "timestamp": "17:30"
+    },
+    {
+      "start": 1052.16,
+      "duration": 1.68,
+      "text": "enterprise software works the other",
+      "timestamp": "17:32"
+    },
+    {
+      "start": 1053.84,
+      "duration": 2.32,
+      "text": "extreme is that startups create new use",
+      "timestamp": "17:33"
+    },
+    {
+      "start": 1056.16,
+      "duration": 2.08,
+      "text": "cases this is kind of some examples of",
+      "timestamp": "17:36"
+    },
+    {
+      "start": 1058.24,
+      "duration": 2.319,
+      "text": "startups that are using LLMs in order to",
+      "timestamp": "17:38"
+    },
+    {
+      "start": 1060.559,
+      "duration": 1.921,
+      "text": "solve very very specific problems deep",
+      "timestamp": "17:40"
+    },
+    {
+      "start": 1062.48,
+      "duration": 2.24,
+      "text": "inside enterprises like converting",
+      "timestamp": "17:42"
+    },
+    {
+      "start": 1064.72,
+      "duration": 2.4,
+      "text": "Cobalt code into Java um reconfiguring",
+      "timestamp": "17:44"
+    },
+    {
+      "start": 1067.12,
+      "duration": 2.32,
+      "text": "telco billing systems um this isn't the",
+      "timestamp": "17:47"
+    },
+    {
+      "start": 1069.44,
+      "duration": 1.52,
+      "text": "future of humanity it's just more",
+      "timestamp": "17:49"
+    },
+    {
+      "start": 1070.96,
+      "duration": 2.079,
+      "text": "software but it's still really useful um",
+      "timestamp": "17:50"
+    },
+    {
+      "start": 1073.039,
+      "duration": 1.921,
+      "text": "and so if we look at the startups coming",
+      "timestamp": "17:53"
+    },
+    {
+      "start": 1074.96,
+      "duration": 2.4,
+      "text": "through Y Combinator in Silicon Valley",
+      "timestamp": "17:54"
+    },
+    {
+      "start": 1077.36,
+      "duration": 2.4,
+      "text": "um basically all of them are AI startups",
+      "timestamp": "17:57"
+    },
+    {
+      "start": 1079.76,
+      "duration": 1.84,
+      "text": "every big company in the same way is",
+      "timestamp": "17:59"
+    },
+    {
+      "start": 1081.6,
+      "duration": 2.24,
+      "text": "looking at this experimenting building",
+      "timestamp": "18:01"
+    },
+    {
+      "start": 1083.84,
+      "duration": 2.079,
+      "text": "pilots sometimes moving those pilots",
+      "timestamp": "18:03"
+    },
+    {
+      "start": 1085.919,
+      "duration": 2.561,
+      "text": "into production sometimes not mostly",
+      "timestamp": "18:05"
+    },
+    {
+      "start": 1088.48,
+      "duration": 1.68,
+      "text": "concentrated in software and customer",
+      "timestamp": "18:08"
+    },
+    {
+      "start": 1090.16,
+      "duration": 2.96,
+      "text": "service but again it's kind of early um",
+      "timestamp": "18:10"
+    },
+    {
+      "start": 1093.12,
+      "duration": 2.16,
+      "text": "and of course it's always early so this",
+      "timestamp": "18:13"
+    },
+    {
+      "start": 1095.28,
+      "duration": 2.24,
+      "text": "is what CIOS expect to deploy already",
+      "timestamp": "18:15"
+    },
+    {
+      "start": 1097.52,
+      "duration": 2.48,
+      "text": "have deployed typically about a quarter",
+      "timestamp": "18:17"
+    },
+    {
+      "start": 1100.0,
+      "duration": 1.679,
+      "text": "of big companies have got something",
+      "timestamp": "18:20"
+    },
+    {
+      "start": 1101.679,
+      "duration": 2.561,
+      "text": "deployed now another 40% don't expect to",
+      "timestamp": "18:21"
+    },
+    {
+      "start": 1104.24,
+      "duration": 2.319,
+      "text": "do anything until next year um maybe",
+      "timestamp": "18:24"
+    },
+    {
+      "start": 1106.559,
+      "duration": 1.601,
+      "text": "longer and that's kind of always how it",
+      "timestamp": "18:26"
+    },
+    {
+      "start": 1108.16,
+      "duration": 1.68,
+      "text": "works you go through these platform",
+      "timestamp": "18:28"
+    },
+    {
+      "start": 1109.84,
+      "duration": 2.24,
+      "text": "shifts and you go from having one app to",
+      "timestamp": "18:29"
+    },
+    {
+      "start": 1112.08,
+      "duration": 1.92,
+      "text": "dozens of app to hundreds of apps and",
+      "timestamp": "18:32"
+    },
+    {
+      "start": 1114.0,
+      "duration": 2.16,
+      "text": "you automate more things with every step",
+      "timestamp": "18:34"
+    },
+    {
+      "start": 1116.16,
+      "duration": 1.92,
+      "text": "and so that gets to me to this question",
+      "timestamp": "18:36"
+    },
+    {
+      "start": 1118.08,
+      "duration": 1.839,
+      "text": "well what's our AI strategy what should",
+      "timestamp": "18:38"
+    },
+    {
+      "start": 1119.919,
+      "duration": 2.081,
+      "text": "we do with AI and the answer is well",
+      "timestamp": "18:39"
+    },
+    {
+      "start": 1122.0,
+      "duration": 1.76,
+      "text": "what kind of question are you asking is",
+      "timestamp": "18:42"
+    },
+    {
+      "start": 1123.76,
+      "duration": 2.32,
+      "text": "this a business process optimization",
+      "timestamp": "18:43"
+    },
+    {
+      "start": 1126.08,
+      "duration": 1.36,
+      "text": "question or is this a sort of",
+      "timestamp": "18:46"
+    },
+    {
+      "start": 1127.44,
+      "duration": 1.599,
+      "text": "fundamental existential threat to your",
+      "timestamp": "18:47"
+    },
+    {
+      "start": 1129.039,
+      "duration": 2.0,
+      "text": "company and the answer is yes all of the",
+      "timestamp": "18:49"
+    },
+    {
+      "start": 1131.039,
+      "duration": 2.081,
+      "text": "above existential threats to your",
+      "timestamp": "18:51"
+    },
+    {
+      "start": 1133.12,
+      "duration": 1.679,
+      "text": "company can look different we always",
+      "timestamp": "18:53"
+    },
+    {
+      "start": 1134.799,
+      "duration": 2.321,
+      "text": "talk about Uber and Airbnb as redefining",
+      "timestamp": "18:54"
+    },
+    {
+      "start": 1137.12,
+      "duration": 2.16,
+      "text": "what a market looked like um it's kind",
+      "timestamp": "18:57"
+    },
+    {
+      "start": 1139.28,
+      "duration": 1.44,
+      "text": "of interesting to compare what Uber and",
+      "timestamp": "18:59"
+    },
+    {
+      "start": 1140.72,
+      "duration": 2.8,
+      "text": "Airbnb actually did uber demolished the",
+      "timestamp": "19:00"
+    },
+    {
+      "start": 1143.52,
+      "duration": 3.039,
+      "text": "existing taxi industry airbnb was kind",
+      "timestamp": "19:03"
+    },
+    {
+      "start": 1146.559,
+      "duration": 2.24,
+      "text": "of mostly additive to hotels because it",
+      "timestamp": "19:06"
+    },
+    {
+      "start": 1148.799,
+      "duration": 1.841,
+      "text": "was such a different product so",
+      "timestamp": "19:08"
+    },
+    {
+      "start": 1150.64,
+      "duration": 1.68,
+      "text": "disruption can look different to",
+      "timestamp": "19:10"
+    },
+    {
+      "start": 1152.32,
+      "duration": 2.479,
+      "text": "different industries um depending on the",
+      "timestamp": "19:12"
+    },
+    {
+      "start": 1154.799,
+      "duration": 2.321,
+      "text": "technology um we have a lot of those",
+      "timestamp": "19:14"
+    },
+    {
+      "start": 1157.12,
+      "duration": 2.32,
+      "text": "kind of questions now with LLMs and",
+      "timestamp": "19:17"
+    },
+    {
+      "start": 1159.44,
+      "duration": 2.72,
+      "text": "particularly with search um the classic",
+      "timestamp": "19:19"
+    },
+    {
+      "start": 1162.16,
+      "duration": 2.399,
+      "text": "PE question people always ask is what",
+      "timestamp": "19:22"
+    },
+    {
+      "start": 1164.559,
+      "duration": 2.561,
+      "text": "happens if I go to Google or chat GBT",
+      "timestamp": "19:24"
+    },
+    {
+      "start": 1167.12,
+      "duration": 2.24,
+      "text": "and just get the answer instead of doing",
+      "timestamp": "19:27"
+    },
+    {
+      "start": 1169.36,
+      "duration": 1.439,
+      "text": "a web search and getting a bunch of",
+      "timestamp": "19:29"
+    },
+    {
+      "start": 1170.799,
+      "duration": 1.841,
+      "text": "links how does that change the internet",
+      "timestamp": "19:30"
+    },
+    {
+      "start": 1172.64,
+      "duration": 2.0,
+      "text": "the more interesting question to me I",
+      "timestamp": "19:32"
+    },
+    {
+      "start": 1174.64,
+      "duration": 1.44,
+      "text": "think is well what happens if you just",
+      "timestamp": "19:34"
+    },
+    {
+      "start": 1176.08,
+      "duration": 1.92,
+      "text": "completely change the question so what",
+      "timestamp": "19:36"
+    },
+    {
+      "start": 1178.0,
+      "duration": 1.76,
+      "text": "I've done here on the right here is",
+      "timestamp": "19:38"
+    },
+    {
+      "start": 1179.76,
+      "duration": 2.48,
+      "text": "given chat GPT an image of my fridge and",
+      "timestamp": "19:39"
+    },
+    {
+      "start": 1182.24,
+      "duration": 2.319,
+      "text": "said what should I cook that's not a",
+      "timestamp": "19:42"
+    },
+    {
+      "start": 1184.559,
+      "duration": 1.521,
+      "text": "Google query that's not something that",
+      "timestamp": "19:44"
+    },
+    {
+      "start": 1186.08,
+      "duration": 2.0,
+      "text": "would produce links that's changing the",
+      "timestamp": "19:46"
+    },
+    {
+      "start": 1188.08,
+      "duration": 2.0,
+      "text": "nature of the question and how we change",
+      "timestamp": "19:48"
+    },
+    {
+      "start": 1190.08,
+      "duration": 1.76,
+      "text": "how we think about what this might be",
+      "timestamp": "19:50"
+    },
+    {
+      "start": 1191.84,
+      "duration": 2.4,
+      "text": "and of course that's also redirecting a",
+      "timestamp": "19:51"
+    },
+    {
+      "start": 1194.24,
+      "duration": 2.0,
+      "text": "trillion dollars of annual ad spend",
+      "timestamp": "19:54"
+    },
+    {
+      "start": 1196.24,
+      "duration": 1.52,
+      "text": "about half of which currently goes to",
+      "timestamp": "19:56"
+    },
+    {
+      "start": 1197.76,
+      "duration": 2.48,
+      "text": "Amazon Meta and Amazon um sorry Google",
+      "timestamp": "19:57"
+    },
+    {
+      "start": 1200.24,
+      "duration": 1.52,
+      "text": "Meta and Amazon if we change how the",
+      "timestamp": "20:00"
+    },
+    {
+      "start": 1201.76,
+      "duration": 3.84,
+      "text": "internet works um if we change what you",
+      "timestamp": "20:01"
+    },
+    {
+      "start": 1205.6,
+      "duration": 1.76,
+      "text": "mean when you ask a question or you",
+      "timestamp": "20:05"
+    },
+    {
+      "start": 1207.36,
+      "duration": 1.36,
+      "text": "search for something then all the money",
+      "timestamp": "20:07"
+    },
+    {
+      "start": 1208.72,
+      "duration": 2.079,
+      "text": "moves um and there's a whole bunch of",
+      "timestamp": "20:08"
+    },
+    {
+      "start": 1210.799,
+      "duration": 1.521,
+      "text": "places where this is going to change",
+      "timestamp": "20:10"
+    },
+    {
+      "start": 1212.32,
+      "duration": 2.719,
+      "text": "things we just heard about robotics but",
+      "timestamp": "20:12"
+    },
+    {
+      "start": 1215.039,
+      "duration": 1.76,
+      "text": "the interesting things I think that I",
+      "timestamp": "20:15"
+    },
+    {
+      "start": 1216.799,
+      "duration": 1.681,
+      "text": "took away from listening to the robotics",
+      "timestamp": "20:16"
+    },
+    {
+      "start": 1218.48,
+      "duration": 2.24,
+      "text": "conversation is there's an AI question",
+      "timestamp": "20:18"
+    },
+    {
+      "start": 1220.72,
+      "duration": 1.92,
+      "text": "here but these are mostly logistics",
+      "timestamp": "20:20"
+    },
+    {
+      "start": 1222.64,
+      "duration": 2.159,
+      "text": "questions what do humanoid robots mean",
+      "timestamp": "20:22"
+    },
+    {
+      "start": 1224.799,
+      "duration": 2.0,
+      "text": "for logistics ask a logistics person how",
+      "timestamp": "20:24"
+    },
+    {
+      "start": 1226.799,
+      "duration": 2.081,
+      "text": "does what does AI mean for Hollywood ask",
+      "timestamp": "20:26"
+    },
+    {
+      "start": 1228.88,
+      "duration": 1.52,
+      "text": "a Hollywood person and the tech industry",
+      "timestamp": "20:28"
+    },
+    {
+      "start": 1230.4,
+      "duration": 1.92,
+      "text": "changes the industry and then everything",
+      "timestamp": "20:30"
+    },
+    {
+      "start": 1232.32,
+      "duration": 2.56,
+      "text": "else changes around it so just sort of",
+      "timestamp": "20:32"
+    },
+    {
+      "start": 1234.88,
+      "duration": 1.6,
+      "text": "some concluding thoughts and then I'll",
+      "timestamp": "20:34"
+    },
+    {
+      "start": 1236.48,
+      "duration": 3.04,
+      "text": "I'll give up for time after two or three",
+      "timestamp": "20:36"
+    },
+    {
+      "start": 1239.52,
+      "duration": 1.68,
+      "text": "years of talking to AI at events about",
+      "timestamp": "20:39"
+    },
+    {
+      "start": 1241.2,
+      "duration": 1.359,
+      "text": "AI at events like this it strikes me",
+      "timestamp": "20:41"
+    },
+    {
+      "start": 1242.559,
+      "duration": 2.081,
+      "text": "that all AI questions have one of two",
+      "timestamp": "20:42"
+    },
+    {
+      "start": 1244.64,
+      "duration": 2.64,
+      "text": "answers the answer is either it will",
+      "timestamp": "20:44"
+    },
+    {
+      "start": 1247.28,
+      "duration": 2.16,
+      "text": "work like every other platform shift",
+      "timestamp": "20:47"
+    },
+    {
+      "start": 1249.44,
+      "duration": 1.84,
+      "text": "should we go with Microsoft or Google or",
+      "timestamp": "20:49"
+    },
+    {
+      "start": 1251.28,
+      "duration": 1.92,
+      "text": "a startup should we hire Accenture or",
+      "timestamp": "20:51"
+    },
+    {
+      "start": 1253.2,
+      "duration": 2.08,
+      "text": "Bane well how did you do it the last",
+      "timestamp": "20:53"
+    },
+    {
+      "start": 1255.28,
+      "duration": 2.48,
+      "text": "five times the other class of question",
+      "timestamp": "20:55"
+    },
+    {
+      "start": 1257.76,
+      "duration": 1.84,
+      "text": "no one really knows the answer and",
+      "timestamp": "20:57"
+    },
+    {
+      "start": 1259.6,
+      "duration": 1.84,
+      "text": "that's also the the way every platform",
+      "timestamp": "20:59"
+    },
+    {
+      "start": 1261.44,
+      "duration": 2.16,
+      "text": "shift worked this is a chart from a",
+      "timestamp": "21:01"
+    },
+    {
+      "start": 1263.6,
+      "duration": 3.04,
+      "text": "diagram of the early internet from 1995",
+      "timestamp": "21:03"
+    },
+    {
+      "start": 1266.64,
+      "duration": 1.519,
+      "text": "no one knew how this was going to work",
+      "timestamp": "21:06"
+    },
+    {
+      "start": 1268.159,
+      "duration": 1.361,
+      "text": "no one knew that it was going to be the",
+      "timestamp": "21:08"
+    },
+    {
+      "start": 1269.52,
+      "duration": 1.36,
+      "text": "internet no one knew that the internet",
+      "timestamp": "21:09"
+    },
+    {
+      "start": 1270.88,
+      "duration": 1.679,
+      "text": "was going to be the web no one knew that",
+      "timestamp": "21:10"
+    },
+    {
+      "start": 1272.559,
+      "duration": 1.521,
+      "text": "the value capture in the web was going",
+      "timestamp": "21:12"
+    },
+    {
+      "start": 1274.08,
+      "duration": 1.76,
+      "text": "to be in search advertising and then in",
+      "timestamp": "21:14"
+    },
+    {
+      "start": 1275.84,
+      "duration": 1.6,
+      "text": "social we're kind of in the same place",
+      "timestamp": "21:15"
+    },
+    {
+      "start": 1277.44,
+      "duration": 1.68,
+      "text": "now with LLMs we know there's going to",
+      "timestamp": "21:17"
+    },
+    {
+      "start": 1279.12,
+      "duration": 2.24,
+      "text": "be some AI stuff but we don't know the",
+      "timestamp": "21:19"
+    },
+    {
+      "start": 1281.36,
+      "duration": 1.36,
+      "text": "market structure we don't know how it's",
+      "timestamp": "21:21"
+    },
+    {
+      "start": 1282.72,
+      "duration": 0.959,
+      "text": "going to work we don't know where the",
+      "timestamp": "21:22"
+    },
+    {
+      "start": 1283.679,
+      "duration": 1.36,
+      "text": "value capture is going to be we don't",
+      "timestamp": "21:23"
+    },
+    {
+      "start": 1285.039,
+      "duration": 1.52,
+      "text": "know where the money is going to be",
+      "timestamp": "21:25"
+    },
+    {
+      "start": 1286.559,
+      "duration": 2.081,
+      "text": "meanwhile um all the other stuff we were",
+      "timestamp": "21:26"
+    },
+    {
+      "start": 1288.64,
+      "duration": 1.84,
+      "text": "excited about before this is still there",
+      "timestamp": "21:28"
+    },
+    {
+      "start": 1290.48,
+      "duration": 3.52,
+      "text": "so e-commerce is now 20 or 30% of um",
+      "timestamp": "21:30"
+    },
+    {
+      "start": 1294.0,
+      "duration": 2.72,
+      "text": "global retail um Google actually has",
+      "timestamp": "21:34"
+    },
+    {
+      "start": 1296.72,
+      "duration": 2.8,
+      "text": "autonomous cars working maybe and so all",
+      "timestamp": "21:36"
+    },
+    {
+      "start": 1299.52,
+      "duration": 1.279,
+      "text": "the stuff that we were excited about",
+      "timestamp": "21:39"
+    },
+    {
+      "start": 1300.799,
+      "duration": 1.841,
+      "text": "before is still there and all the stuff",
+      "timestamp": "21:40"
+    },
+    {
+      "start": 1302.64,
+      "duration": 1.2,
+      "text": "that we were excited about for the",
+      "timestamp": "21:42"
+    },
+    {
+      "start": 1303.84,
+      "duration": 2.16,
+      "text": "future is still there so now we talk",
+      "timestamp": "21:43"
+    },
+    {
+      "start": 1306.0,
+      "duration": 2.24,
+      "text": "about crypto and robotics and space and",
+      "timestamp": "21:46"
+    },
+    {
+      "start": 1308.24,
+      "duration": 2.319,
+      "text": "nuclear um but meanwhile most of the",
+      "timestamp": "21:48"
+    },
+    {
+      "start": 1310.559,
+      "duration": 1.521,
+      "text": "rest of the economy is being disrupted",
+      "timestamp": "21:50"
+    },
+    {
+      "start": 1312.08,
+      "duration": 3.28,
+      "text": "by ideas from 15 20 30 years ago ideas",
+      "timestamp": "21:52"
+    },
+    {
+      "start": 1315.36,
+      "duration": 1.6,
+      "text": "like e-commerce and streaming and SAS",
+      "timestamp": "21:55"
+    },
+    {
+      "start": 1316.96,
+      "duration": 1.68,
+      "text": "and workflows and so we have this kind",
+      "timestamp": "21:56"
+    },
+    {
+      "start": 1318.64,
+      "duration": 1.84,
+      "text": "of progression across the tech industry",
+      "timestamp": "21:58"
+    },
+    {
+      "start": 1320.48,
+      "duration": 1.439,
+      "text": "that we're always excited about the",
+      "timestamp": "22:00"
+    },
+    {
+      "start": 1321.919,
+      "duration": 0.961,
+      "text": "things that are going to happen in the",
+      "timestamp": "22:01"
+    },
+    {
+      "start": 1322.88,
+      "duration": 1.679,
+      "text": "future and the things we're building now",
+      "timestamp": "22:02"
+    },
+    {
+      "start": 1324.559,
+      "duration": 1.6,
+      "text": "but all of the money the trillions of",
+      "timestamp": "22:04"
+    },
+    {
+      "start": 1326.159,
+      "duration": 2.0,
+      "text": "dollars of revenue is in ideas from 20",
+      "timestamp": "22:06"
+    },
+    {
+      "start": 1328.159,
+      "duration": 1.681,
+      "text": "years ago and that's probably how it",
+      "timestamp": "22:08"
+    },
+    {
+      "start": 1329.84,
+      "duration": 2.4,
+      "text": "will always be and with that I will say",
+      "timestamp": "22:09"
+    },
+    {
+      "start": 1332.24,
+      "duration": 3.24,
+      "text": "thank you",
+      "timestamp": "22:12"
+    }
+  ],
+  "extraction_timestamp": "2025-06-29T20:47:10.689621",
+  "playlist_title": "SuperAI Singapore 2025: io.net Main Stage"
+}

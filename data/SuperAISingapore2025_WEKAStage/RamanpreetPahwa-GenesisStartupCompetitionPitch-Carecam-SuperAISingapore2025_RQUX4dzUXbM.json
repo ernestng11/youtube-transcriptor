@@ -1,0 +1,1385 @@
+{
+  "video_id": "RQUX4dzUXbM",
+  "video_title": "Ramanpreet Pahwa - Genesis Startup Competition Pitch - Carecam - SuperAI Singapore 2025",
+  "video_url": "https://www.youtube.com/watch?v=RQUX4dzUXbM",
+  "channel_title": "SuperAI",
+  "published_at": "2025-06-25T15:51:12+00:00",
+  "duration_seconds": null,
+  "view_count": 9,
+  "like_count": 0,
+  "description": "Learn more about SuperAI: superai.com\nFollow us on X: x.com/superai_conf\n\nGenesis Startup Competition Pitch - Carecam\n\nSpeaker:\nRamanpreet Pahwa, CTO @ Carecam\n\nStage: WEKA Stage\n#superai #carecam #startups #competition #ai\n\nRecorded on 18 June 2025",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 227,
+    "aggregated_text": "hello everyone i'm Raman the CTF for Care Cam and it's great to be here good afternoon everyone at Care Cam we are fundamentally redefining therapeutics we do this by translating complexities of human motion into powerful digital mobility biomarkers care Cam spun out of AAR Singapore's national R&D lab in 2022 and within three years we have gained significant traction we are already generating revenue and we have successfully raised over $3 million of dilutive and non-dilutive funding crucially our technology is protected by two US patents and we have achieved full regulatory approval for both US FDA and Singapore's HSA making us market ready today so why are we so focused on human movement because human impairment is a massive global issue impacting more than 180 million people worldwide these are not just statistics it's about quality of life these impairments affect everyone ranging from our parents who might be dealing with frailty to neurological patients recovering from a stroke to individuals undergoing orthopedic surgery so this represents a significant and growing opportunity the addressable market for just three main core areas of frailty neurological and orthopedic is over 68 billion and growing at a healthy rate of 7% annually our technology provides objective data that can be used across the entire continuum of care from screening to presurgical planning to post-operative outcome assessment the current approach is either very subjective where a clinician will ask you to do this mobility test they will use their experience to figure out if there's any issues with your mobility and this will vary across clinicians as well the other way to do that is using an out more objective way using a motion capture or a gate lab these gate labs will take more than a million dollar for setup they require you to wear a tight bodysuit put on multiple nodes on your body and then you will require a experienced technician to basic to use this tools and provide you with an objective assessment this makes it extremely complex time consuming tedious and essentially impossible to be used in clinical care our solution changes everything we are KAM and this is 3D gate we have taken the requirement of this $1 million lab and shrunk it down into an iPad roof a clinician simply opens up our 3D gate application ask the patient to do a mobility test and within 2 minutes gets a full detailed comprehensive report of the patient's mobility that is ready to be used in clinical day-to-day care and for actionable insights further as CTO this is what truly excites me our core platform is built on the foundation of edge optimized AI it starts with our 3D AIdriven core technology where we deploy our customtrained 2D and 3D models for realtime inference on the device itself this is followed by utilizing the core information that we capture from iPad including sensor data as well as LA data to make our results more reliable and efficient all of this information is fed into the mobility analysis platform which is then fine-tuned with inputs from clinicians and experts to ensure that every biomarker that we provide is relevant and accurate and we are not just stopping there f the future of care cam is it mobility AI agent which provides intelligent feedback and recommendations transforming our 3D gate application from a measurement tool to an clinical partner for the clinicians our competitive edge is built on three pillars first we build a specialized datadriven AI model our models are trained on propriety data of over 9 million points and this is trained on variety of population data this allows us to understand nuances in the pathological gate that the simply generic models cannot secondly clinical grade accuracy we have shown our accuracy for angular spatial temporal biomarkers to be at the clinical grade level that is required for clinical decisions and third our propriety regulated AI technology is backed by two US patents 15 internal IPs and is FD and HSA approved 3d gate is the first scalable AI based clinical grade mobility assessment solution we enable a 99% reduction in assessment time going from over 4 hours to a couple of minutes this results in 90% decrease in total cost of ownerships compared to the traditional labs that are in clinics right now we have a very clear revenue stream we offer yearly subscriptions to medical researchers and clinicians we work with met corporations for high level B2B licensing where we integrate our solution inside their platform and critically our primary model for healthcare systems is reimbursement our platform aligns with existing CPT codes in the US providing a very clear and essential pathway for payments from invest we are looking to raise $3 million for our go-to market strategy which will get us five B2B licenses customers and deploy our solution in seven healthcare providers in Singapore and US 62% of these funds will be deployed to R&D to expand our technology and the remaining will be used in sales and marketing and creating a global team this investment will unlock key milestones including pilots with the largest primary care providers in Singapore and one US hospital this will lead us to achieving $29 million projected revenue by 2029 none of this would be possible without the right team and we have created a world-class group of operators and experts led by our CEO Alson and me our team has deep experience in AI 3D vision and commercializing technologies and we are backed by an incredible board and advisory team ranging from US and Singapore alike who have experience with in medical practice and creating hund00 million companies at Care Camp we are using human movement as digital biomarkers to expedite and personalize care thank you for your time i'm happy to answer any further questions all right okay so I I'd love to start with talking about care cam versus the existing technology that's being used in hospitals right so you talked about cost yes i I I think I believe that time yes um and that is clinical grade which means that it's good enough right but my question is is it better right so let's talk about precision accuracy consistency how does it score relative to the incumbent technology so right now it's it's not about being better anymore the technology is already good enough to be deployed in hospitals the main barrier for this to be used in current medical practice is that it's not usable right now the current approach to do this is either using multiple cameras or asking a file patient to go to this special motion capture lab which is simply not safe and not something that a patient wants to do so our solution which is completely portable mobile you can use this right now just outside this this area this is what makes it truly special clinicians can use it anywhere anytime you can use it in the clinical practice you can recommend it and use it at their homes um on the yearly subscription could you just give me a bit of a number what that roughly would look like for the monetization then also you mentioned it's custom models so it's not something like an open pose etc um is it primarily just cameras or also lighters us uh yeah so our solution uses multiples of uh information that we get from iPad so open pose and some other 2D and 3D poses available but they are not good enough to do what we are doing so we had to train our own custom models to do that in terms of licensing um our solution is deployed on an iPad we do not use we do not need to use any servers to process so essentially once you have our solution on your iPad you can use it as many times as possible for the entire you just give a rough idea of what that would be uh it's about $15,000 uh for yearly subscription can you share a little bit more about your go to market strategies how do you scale beyond your current early adopters so the main requirement for it now right now is to actually do proof of validation uh proof of value in US hospitals to be deployed there so this is something that we are working on this year to deploy it in a US hospital show that there's value of it to the hospital as well as to the clinic once the proof of validation is done then we can simply integrate inside the EHR system we have already cleared the Singapore's HCC to be deployed inside and integrate our solution with the EHR",
+    "text_length": 8364,
+    "word_count": 1470
+  },
+  "segments": [
+    {
+      "start": 7.52,
+      "duration": 2.72,
+      "text": "hello everyone i'm Raman the CTF for",
+      "timestamp": "00:07"
+    },
+    {
+      "start": 10.24,
+      "duration": 2.72,
+      "text": "Care Cam and it's great to be here good",
+      "timestamp": "00:10"
+    },
+    {
+      "start": 12.96,
+      "duration": 3.04,
+      "text": "afternoon everyone at Care Cam we are",
+      "timestamp": "00:12"
+    },
+    {
+      "start": 16.0,
+      "duration": 2.64,
+      "text": "fundamentally redefining therapeutics we",
+      "timestamp": "00:16"
+    },
+    {
+      "start": 18.64,
+      "duration": 3.04,
+      "text": "do this by translating complexities of",
+      "timestamp": "00:18"
+    },
+    {
+      "start": 21.68,
+      "duration": 3.12,
+      "text": "human motion into powerful digital",
+      "timestamp": "00:21"
+    },
+    {
+      "start": 24.8,
+      "duration": 3.12,
+      "text": "mobility biomarkers",
+      "timestamp": "00:24"
+    },
+    {
+      "start": 27.92,
+      "duration": 3.04,
+      "text": "care Cam spun out of AAR Singapore's",
+      "timestamp": "00:27"
+    },
+    {
+      "start": 30.96,
+      "duration": 3.759,
+      "text": "national R&D lab in 2022 and within",
+      "timestamp": "00:30"
+    },
+    {
+      "start": 34.719,
+      "duration": 2.321,
+      "text": "three years we have gained significant",
+      "timestamp": "00:34"
+    },
+    {
+      "start": 37.04,
+      "duration": 2.32,
+      "text": "traction we are already generating",
+      "timestamp": "00:37"
+    },
+    {
+      "start": 39.36,
+      "duration": 2.719,
+      "text": "revenue and we have successfully raised",
+      "timestamp": "00:39"
+    },
+    {
+      "start": 42.079,
+      "duration": 2.64,
+      "text": "over $3 million of dilutive and",
+      "timestamp": "00:42"
+    },
+    {
+      "start": 44.719,
+      "duration": 3.281,
+      "text": "non-dilutive funding crucially our",
+      "timestamp": "00:44"
+    },
+    {
+      "start": 48.0,
+      "duration": 2.32,
+      "text": "technology is protected by two US",
+      "timestamp": "00:48"
+    },
+    {
+      "start": 50.32,
+      "duration": 2.399,
+      "text": "patents and we have achieved full",
+      "timestamp": "00:50"
+    },
+    {
+      "start": 52.719,
+      "duration": 3.601,
+      "text": "regulatory approval for both US FDA and",
+      "timestamp": "00:52"
+    },
+    {
+      "start": 56.32,
+      "duration": 3.039,
+      "text": "Singapore's HSA making us market ready",
+      "timestamp": "00:56"
+    },
+    {
+      "start": 59.359,
+      "duration": 1.921,
+      "text": "today",
+      "timestamp": "00:59"
+    },
+    {
+      "start": 61.28,
+      "duration": 2.079,
+      "text": "so why are we so focused on human",
+      "timestamp": "01:01"
+    },
+    {
+      "start": 63.359,
+      "duration": 3.921,
+      "text": "movement because human impairment is a",
+      "timestamp": "01:03"
+    },
+    {
+      "start": 67.28,
+      "duration": 3.199,
+      "text": "massive global issue impacting more than",
+      "timestamp": "01:07"
+    },
+    {
+      "start": 70.479,
+      "duration": 2.721,
+      "text": "180 million people worldwide these are",
+      "timestamp": "01:10"
+    },
+    {
+      "start": 73.2,
+      "duration": 2.0,
+      "text": "not just statistics it's about quality",
+      "timestamp": "01:13"
+    },
+    {
+      "start": 75.2,
+      "duration": 2.88,
+      "text": "of life these impairments affect",
+      "timestamp": "01:15"
+    },
+    {
+      "start": 78.08,
+      "duration": 2.719,
+      "text": "everyone ranging from our parents who",
+      "timestamp": "01:18"
+    },
+    {
+      "start": 80.799,
+      "duration": 2.561,
+      "text": "might be dealing with frailty to",
+      "timestamp": "01:20"
+    },
+    {
+      "start": 83.36,
+      "duration": 2.16,
+      "text": "neurological patients recovering from a",
+      "timestamp": "01:23"
+    },
+    {
+      "start": 85.52,
+      "duration": 2.72,
+      "text": "stroke to individuals undergoing",
+      "timestamp": "01:25"
+    },
+    {
+      "start": 88.24,
+      "duration": 3.558,
+      "text": "orthopedic surgery",
+      "timestamp": "01:28"
+    },
+    {
+      "start": 92.56,
+      "duration": 2.16,
+      "text": "so this represents a significant and",
+      "timestamp": "01:32"
+    },
+    {
+      "start": 94.72,
+      "duration": 2.48,
+      "text": "growing opportunity the addressable",
+      "timestamp": "01:34"
+    },
+    {
+      "start": 97.2,
+      "duration": 2.64,
+      "text": "market for just three main core areas of",
+      "timestamp": "01:37"
+    },
+    {
+      "start": 99.84,
+      "duration": 3.2,
+      "text": "frailty neurological and orthopedic is",
+      "timestamp": "01:39"
+    },
+    {
+      "start": 103.04,
+      "duration": 3.2,
+      "text": "over 68 billion and growing at a healthy",
+      "timestamp": "01:43"
+    },
+    {
+      "start": 106.24,
+      "duration": 4.159,
+      "text": "rate of 7% annually our technology",
+      "timestamp": "01:46"
+    },
+    {
+      "start": 110.399,
+      "duration": 2.641,
+      "text": "provides objective data that can be used",
+      "timestamp": "01:50"
+    },
+    {
+      "start": 113.04,
+      "duration": 3.68,
+      "text": "across the entire continuum of care from",
+      "timestamp": "01:53"
+    },
+    {
+      "start": 116.72,
+      "duration": 2.399,
+      "text": "screening to presurgical planning to",
+      "timestamp": "01:56"
+    },
+    {
+      "start": 119.119,
+      "duration": 3.68,
+      "text": "post-operative outcome assessment",
+      "timestamp": "01:59"
+    },
+    {
+      "start": 122.799,
+      "duration": 2.721,
+      "text": "the current approach is either very",
+      "timestamp": "02:02"
+    },
+    {
+      "start": 125.52,
+      "duration": 1.76,
+      "text": "subjective where a clinician will ask",
+      "timestamp": "02:05"
+    },
+    {
+      "start": 127.28,
+      "duration": 2.88,
+      "text": "you to do this mobility test they will",
+      "timestamp": "02:07"
+    },
+    {
+      "start": 130.16,
+      "duration": 1.92,
+      "text": "use their experience to figure out if",
+      "timestamp": "02:10"
+    },
+    {
+      "start": 132.08,
+      "duration": 2.48,
+      "text": "there's any issues with your mobility",
+      "timestamp": "02:12"
+    },
+    {
+      "start": 134.56,
+      "duration": 2.399,
+      "text": "and this will vary across clinicians as",
+      "timestamp": "02:14"
+    },
+    {
+      "start": 136.959,
+      "duration": 2.881,
+      "text": "well the other way to do that is using",
+      "timestamp": "02:16"
+    },
+    {
+      "start": 139.84,
+      "duration": 2.8,
+      "text": "an out more objective way using a motion",
+      "timestamp": "02:19"
+    },
+    {
+      "start": 142.64,
+      "duration": 2.56,
+      "text": "capture or a gate lab these gate labs",
+      "timestamp": "02:22"
+    },
+    {
+      "start": 145.2,
+      "duration": 1.84,
+      "text": "will take more than a million dollar for",
+      "timestamp": "02:25"
+    },
+    {
+      "start": 147.04,
+      "duration": 2.48,
+      "text": "setup they require you to wear a tight",
+      "timestamp": "02:27"
+    },
+    {
+      "start": 149.52,
+      "duration": 2.48,
+      "text": "bodysuit put on multiple nodes on your",
+      "timestamp": "02:29"
+    },
+    {
+      "start": 152.0,
+      "duration": 3.04,
+      "text": "body and then you will require a",
+      "timestamp": "02:32"
+    },
+    {
+      "start": 155.04,
+      "duration": 2.4,
+      "text": "experienced technician to basic to use",
+      "timestamp": "02:35"
+    },
+    {
+      "start": 157.44,
+      "duration": 2.0,
+      "text": "this tools and provide you with an",
+      "timestamp": "02:37"
+    },
+    {
+      "start": 159.44,
+      "duration": 2.159,
+      "text": "objective assessment",
+      "timestamp": "02:39"
+    },
+    {
+      "start": 161.599,
+      "duration": 2.561,
+      "text": "this makes it extremely complex time",
+      "timestamp": "02:41"
+    },
+    {
+      "start": 164.16,
+      "duration": 2.56,
+      "text": "consuming tedious and essentially",
+      "timestamp": "02:44"
+    },
+    {
+      "start": 166.72,
+      "duration": 3.92,
+      "text": "impossible to be used in clinical care",
+      "timestamp": "02:46"
+    },
+    {
+      "start": 170.64,
+      "duration": 2.56,
+      "text": "our solution changes everything we are",
+      "timestamp": "02:50"
+    },
+    {
+      "start": 173.2,
+      "duration": 3.6,
+      "text": "KAM and this is 3D gate we have taken",
+      "timestamp": "02:53"
+    },
+    {
+      "start": 176.8,
+      "duration": 2.64,
+      "text": "the requirement of this $1 million lab",
+      "timestamp": "02:56"
+    },
+    {
+      "start": 179.44,
+      "duration": 3.2,
+      "text": "and shrunk it down into an iPad roof a",
+      "timestamp": "02:59"
+    },
+    {
+      "start": 182.64,
+      "duration": 2.72,
+      "text": "clinician simply opens up our 3D gate",
+      "timestamp": "03:02"
+    },
+    {
+      "start": 185.36,
+      "duration": 2.879,
+      "text": "application ask the patient to do a",
+      "timestamp": "03:05"
+    },
+    {
+      "start": 188.239,
+      "duration": 4.0,
+      "text": "mobility test and within 2 minutes gets",
+      "timestamp": "03:08"
+    },
+    {
+      "start": 192.239,
+      "duration": 3.121,
+      "text": "a full detailed comprehensive report of",
+      "timestamp": "03:12"
+    },
+    {
+      "start": 195.36,
+      "duration": 3.28,
+      "text": "the patient's mobility that is ready to",
+      "timestamp": "03:15"
+    },
+    {
+      "start": 198.64,
+      "duration": 2.64,
+      "text": "be used in clinical day-to-day care and",
+      "timestamp": "03:18"
+    },
+    {
+      "start": 201.28,
+      "duration": 3.599,
+      "text": "for actionable insights further",
+      "timestamp": "03:21"
+    },
+    {
+      "start": 204.879,
+      "duration": 3.601,
+      "text": "as CTO this is what truly excites me our",
+      "timestamp": "03:24"
+    },
+    {
+      "start": 208.48,
+      "duration": 2.24,
+      "text": "core platform is built on the foundation",
+      "timestamp": "03:28"
+    },
+    {
+      "start": 210.72,
+      "duration": 3.28,
+      "text": "of edge optimized AI it starts with our",
+      "timestamp": "03:30"
+    },
+    {
+      "start": 214.0,
+      "duration": 2.879,
+      "text": "3D AIdriven core technology where we",
+      "timestamp": "03:34"
+    },
+    {
+      "start": 216.879,
+      "duration": 2.321,
+      "text": "deploy our customtrained 2D and 3D",
+      "timestamp": "03:36"
+    },
+    {
+      "start": 219.2,
+      "duration": 2.56,
+      "text": "models for realtime inference on the",
+      "timestamp": "03:39"
+    },
+    {
+      "start": 221.76,
+      "duration": 2.96,
+      "text": "device itself this is followed by",
+      "timestamp": "03:41"
+    },
+    {
+      "start": 224.72,
+      "duration": 2.4,
+      "text": "utilizing the core information that we",
+      "timestamp": "03:44"
+    },
+    {
+      "start": 227.12,
+      "duration": 2.64,
+      "text": "capture from iPad including sensor data",
+      "timestamp": "03:47"
+    },
+    {
+      "start": 229.76,
+      "duration": 3.199,
+      "text": "as well as LA data to make our results",
+      "timestamp": "03:49"
+    },
+    {
+      "start": 232.959,
+      "duration": 3.041,
+      "text": "more reliable and efficient all of this",
+      "timestamp": "03:52"
+    },
+    {
+      "start": 236.0,
+      "duration": 2.159,
+      "text": "information is fed into the mobility",
+      "timestamp": "03:56"
+    },
+    {
+      "start": 238.159,
+      "duration": 2.561,
+      "text": "analysis platform which is then",
+      "timestamp": "03:58"
+    },
+    {
+      "start": 240.72,
+      "duration": 2.56,
+      "text": "fine-tuned with inputs from clinicians",
+      "timestamp": "04:00"
+    },
+    {
+      "start": 243.28,
+      "duration": 2.08,
+      "text": "and experts to ensure that every",
+      "timestamp": "04:03"
+    },
+    {
+      "start": 245.36,
+      "duration": 3.04,
+      "text": "biomarker that we provide is relevant",
+      "timestamp": "04:05"
+    },
+    {
+      "start": 248.4,
+      "duration": 2.0,
+      "text": "and accurate and we are not just",
+      "timestamp": "04:08"
+    },
+    {
+      "start": 250.4,
+      "duration": 2.559,
+      "text": "stopping there",
+      "timestamp": "04:10"
+    },
+    {
+      "start": 252.959,
+      "duration": 2.321,
+      "text": "f the future of care cam is it mobility",
+      "timestamp": "04:12"
+    },
+    {
+      "start": 255.28,
+      "duration": 3.44,
+      "text": "AI agent which provides intelligent",
+      "timestamp": "04:15"
+    },
+    {
+      "start": 258.72,
+      "duration": 2.079,
+      "text": "feedback and recommendations",
+      "timestamp": "04:18"
+    },
+    {
+      "start": 260.799,
+      "duration": 2.721,
+      "text": "transforming our 3D gate application",
+      "timestamp": "04:20"
+    },
+    {
+      "start": 263.52,
+      "duration": 2.8,
+      "text": "from a measurement tool to an clinical",
+      "timestamp": "04:23"
+    },
+    {
+      "start": 266.32,
+      "duration": 3.12,
+      "text": "partner for the clinicians",
+      "timestamp": "04:26"
+    },
+    {
+      "start": 269.44,
+      "duration": 2.24,
+      "text": "our competitive edge is built on three",
+      "timestamp": "04:29"
+    },
+    {
+      "start": 271.68,
+      "duration": 2.88,
+      "text": "pillars first we build a specialized",
+      "timestamp": "04:31"
+    },
+    {
+      "start": 274.56,
+      "duration": 2.56,
+      "text": "datadriven AI model our models are",
+      "timestamp": "04:34"
+    },
+    {
+      "start": 277.12,
+      "duration": 3.04,
+      "text": "trained on propriety data of over 9",
+      "timestamp": "04:37"
+    },
+    {
+      "start": 280.16,
+      "duration": 4.4,
+      "text": "million points and this is trained on",
+      "timestamp": "04:40"
+    },
+    {
+      "start": 284.56,
+      "duration": 2.96,
+      "text": "variety of population data this allows",
+      "timestamp": "04:44"
+    },
+    {
+      "start": 287.52,
+      "duration": 2.08,
+      "text": "us to understand nuances in the",
+      "timestamp": "04:47"
+    },
+    {
+      "start": 289.6,
+      "duration": 2.72,
+      "text": "pathological gate that the simply",
+      "timestamp": "04:49"
+    },
+    {
+      "start": 292.32,
+      "duration": 3.36,
+      "text": "generic models cannot secondly clinical",
+      "timestamp": "04:52"
+    },
+    {
+      "start": 295.68,
+      "duration": 3.04,
+      "text": "grade accuracy we have shown our",
+      "timestamp": "04:55"
+    },
+    {
+      "start": 298.72,
+      "duration": 2.64,
+      "text": "accuracy for angular spatial temporal",
+      "timestamp": "04:58"
+    },
+    {
+      "start": 301.36,
+      "duration": 2.24,
+      "text": "biomarkers to be at the clinical grade",
+      "timestamp": "05:01"
+    },
+    {
+      "start": 303.6,
+      "duration": 2.24,
+      "text": "level that is required for clinical",
+      "timestamp": "05:03"
+    },
+    {
+      "start": 305.84,
+      "duration": 2.4,
+      "text": "decisions and third our propriety",
+      "timestamp": "05:05"
+    },
+    {
+      "start": 308.24,
+      "duration": 3.6,
+      "text": "regulated AI technology is backed by two",
+      "timestamp": "05:08"
+    },
+    {
+      "start": 311.84,
+      "duration": 4.0,
+      "text": "US patents 15 internal IPs and is FD and",
+      "timestamp": "05:11"
+    },
+    {
+      "start": 315.84,
+      "duration": 2.96,
+      "text": "HSA approved",
+      "timestamp": "05:15"
+    },
+    {
+      "start": 318.8,
+      "duration": 2.72,
+      "text": "3d gate is the first scalable AI based",
+      "timestamp": "05:18"
+    },
+    {
+      "start": 321.52,
+      "duration": 1.84,
+      "text": "clinical grade mobility assessment",
+      "timestamp": "05:21"
+    },
+    {
+      "start": 323.36,
+      "duration": 4.8,
+      "text": "solution we enable a 99% reduction in",
+      "timestamp": "05:23"
+    },
+    {
+      "start": 328.16,
+      "duration": 2.8,
+      "text": "assessment time going from over 4 hours",
+      "timestamp": "05:28"
+    },
+    {
+      "start": 330.96,
+      "duration": 2.88,
+      "text": "to a couple of minutes this results in",
+      "timestamp": "05:30"
+    },
+    {
+      "start": 333.84,
+      "duration": 3.04,
+      "text": "90% decrease in total cost of ownerships",
+      "timestamp": "05:33"
+    },
+    {
+      "start": 336.88,
+      "duration": 1.84,
+      "text": "compared to the traditional labs that",
+      "timestamp": "05:36"
+    },
+    {
+      "start": 338.72,
+      "duration": 3.28,
+      "text": "are in clinics right now",
+      "timestamp": "05:38"
+    },
+    {
+      "start": 342.0,
+      "duration": 2.88,
+      "text": "we have a very clear revenue stream we",
+      "timestamp": "05:42"
+    },
+    {
+      "start": 344.88,
+      "duration": 2.8,
+      "text": "offer yearly subscriptions to medical",
+      "timestamp": "05:44"
+    },
+    {
+      "start": 347.68,
+      "duration": 4.959,
+      "text": "researchers and clinicians we work with",
+      "timestamp": "05:47"
+    },
+    {
+      "start": 352.639,
+      "duration": 2.881,
+      "text": "met corporations for high level B2B",
+      "timestamp": "05:52"
+    },
+    {
+      "start": 355.52,
+      "duration": 2.239,
+      "text": "licensing where we integrate our",
+      "timestamp": "05:55"
+    },
+    {
+      "start": 357.759,
+      "duration": 2.241,
+      "text": "solution inside their platform and",
+      "timestamp": "05:57"
+    },
+    {
+      "start": 360.0,
+      "duration": 2.16,
+      "text": "critically our primary model for",
+      "timestamp": "06:00"
+    },
+    {
+      "start": 362.16,
+      "duration": 3.2,
+      "text": "healthcare systems is reimbursement our",
+      "timestamp": "06:02"
+    },
+    {
+      "start": 365.36,
+      "duration": 2.64,
+      "text": "platform aligns with existing CPT codes",
+      "timestamp": "06:05"
+    },
+    {
+      "start": 368.0,
+      "duration": 2.8,
+      "text": "in the US providing a very clear and",
+      "timestamp": "06:08"
+    },
+    {
+      "start": 370.8,
+      "duration": 2.399,
+      "text": "essential pathway for payments from",
+      "timestamp": "06:10"
+    },
+    {
+      "start": 373.199,
+      "duration": 3.0,
+      "text": "invest",
+      "timestamp": "06:13"
+    },
+    {
+      "start": 377.12,
+      "duration": 2.72,
+      "text": "we are looking to raise $3 million for",
+      "timestamp": "06:17"
+    },
+    {
+      "start": 379.84,
+      "duration": 2.479,
+      "text": "our go-to market strategy which will get",
+      "timestamp": "06:19"
+    },
+    {
+      "start": 382.319,
+      "duration": 3.44,
+      "text": "us five B2B licenses customers and",
+      "timestamp": "06:22"
+    },
+    {
+      "start": 385.759,
+      "duration": 2.801,
+      "text": "deploy our solution in seven healthcare",
+      "timestamp": "06:25"
+    },
+    {
+      "start": 388.56,
+      "duration": 3.44,
+      "text": "providers in Singapore and US 62% of",
+      "timestamp": "06:28"
+    },
+    {
+      "start": 392.0,
+      "duration": 3.759,
+      "text": "these funds will be deployed to R&D to",
+      "timestamp": "06:32"
+    },
+    {
+      "start": 395.759,
+      "duration": 1.921,
+      "text": "expand our technology and the remaining",
+      "timestamp": "06:35"
+    },
+    {
+      "start": 397.68,
+      "duration": 2.959,
+      "text": "will be used in sales and marketing and",
+      "timestamp": "06:37"
+    },
+    {
+      "start": 400.639,
+      "duration": 2.641,
+      "text": "creating a global team",
+      "timestamp": "06:40"
+    },
+    {
+      "start": 403.28,
+      "duration": 2.08,
+      "text": "this investment will unlock key",
+      "timestamp": "06:43"
+    },
+    {
+      "start": 405.36,
+      "duration": 2.48,
+      "text": "milestones including pilots with the",
+      "timestamp": "06:45"
+    },
+    {
+      "start": 407.84,
+      "duration": 1.76,
+      "text": "largest primary care providers in",
+      "timestamp": "06:47"
+    },
+    {
+      "start": 409.6,
+      "duration": 3.439,
+      "text": "Singapore and one US hospital this will",
+      "timestamp": "06:49"
+    },
+    {
+      "start": 413.039,
+      "duration": 2.88,
+      "text": "lead us to achieving $29 million",
+      "timestamp": "06:53"
+    },
+    {
+      "start": 415.919,
+      "duration": 3.84,
+      "text": "projected revenue by 2029",
+      "timestamp": "06:55"
+    },
+    {
+      "start": 419.759,
+      "duration": 2.0,
+      "text": "none of this would be possible without",
+      "timestamp": "06:59"
+    },
+    {
+      "start": 421.759,
+      "duration": 2.641,
+      "text": "the right team and we have created a",
+      "timestamp": "07:01"
+    },
+    {
+      "start": 424.4,
+      "duration": 2.48,
+      "text": "world-class group of operators and",
+      "timestamp": "07:04"
+    },
+    {
+      "start": 426.88,
+      "duration": 3.36,
+      "text": "experts led by our CEO Alson and me our",
+      "timestamp": "07:06"
+    },
+    {
+      "start": 430.24,
+      "duration": 2.88,
+      "text": "team has deep experience in AI 3D vision",
+      "timestamp": "07:10"
+    },
+    {
+      "start": 433.12,
+      "duration": 2.479,
+      "text": "and commercializing technologies and we",
+      "timestamp": "07:13"
+    },
+    {
+      "start": 435.599,
+      "duration": 2.0,
+      "text": "are backed by an incredible board and",
+      "timestamp": "07:15"
+    },
+    {
+      "start": 437.599,
+      "duration": 2.0,
+      "text": "advisory team ranging from US and",
+      "timestamp": "07:17"
+    },
+    {
+      "start": 439.599,
+      "duration": 2.801,
+      "text": "Singapore alike who have experience with",
+      "timestamp": "07:19"
+    },
+    {
+      "start": 442.4,
+      "duration": 2.16,
+      "text": "in medical practice and creating hund00",
+      "timestamp": "07:22"
+    },
+    {
+      "start": 444.56,
+      "duration": 3.28,
+      "text": "million companies at Care Camp we are",
+      "timestamp": "07:24"
+    },
+    {
+      "start": 447.84,
+      "duration": 1.6,
+      "text": "using human movement as digital",
+      "timestamp": "07:27"
+    },
+    {
+      "start": 449.44,
+      "duration": 2.72,
+      "text": "biomarkers to expedite and personalize",
+      "timestamp": "07:29"
+    },
+    {
+      "start": 452.16,
+      "duration": 2.24,
+      "text": "care thank you for your time i'm happy",
+      "timestamp": "07:32"
+    },
+    {
+      "start": 454.4,
+      "duration": 1.6,
+      "text": "to answer any further questions\n all",
+      "timestamp": "07:34"
+    },
+    {
+      "start": 456.0,
+      "duration": 1.759,
+      "text": "right okay so I I'd love to start with",
+      "timestamp": "07:36"
+    },
+    {
+      "start": 457.759,
+      "duration": 2.801,
+      "text": "talking about care cam versus the",
+      "timestamp": "07:37"
+    },
+    {
+      "start": 460.56,
+      "duration": 1.919,
+      "text": "existing technology that's being used in",
+      "timestamp": "07:40"
+    },
+    {
+      "start": 462.479,
+      "duration": 2.081,
+      "text": "hospitals right so you talked about cost",
+      "timestamp": "07:42"
+    },
+    {
+      "start": 464.56,
+      "duration": 2.88,
+      "text": "yes i I I think I believe that time yes",
+      "timestamp": "07:44"
+    },
+    {
+      "start": 467.44,
+      "duration": 2.159,
+      "text": "um and that is clinical grade which",
+      "timestamp": "07:47"
+    },
+    {
+      "start": 469.599,
+      "duration": 3.281,
+      "text": "means that it's good enough right but my",
+      "timestamp": "07:49"
+    },
+    {
+      "start": 472.88,
+      "duration": 1.999,
+      "text": "question is is it better right so let's",
+      "timestamp": "07:52"
+    },
+    {
+      "start": 474.879,
+      "duration": 1.921,
+      "text": "talk about precision accuracy",
+      "timestamp": "07:54"
+    },
+    {
+      "start": 476.8,
+      "duration": 2.079,
+      "text": "consistency how does it score relative",
+      "timestamp": "07:56"
+    },
+    {
+      "start": 478.879,
+      "duration": 3.361,
+      "text": "to the incumbent technology\n so right now",
+      "timestamp": "07:58"
+    },
+    {
+      "start": 482.24,
+      "duration": 2.32,
+      "text": "it's it's not about being better anymore",
+      "timestamp": "08:02"
+    },
+    {
+      "start": 484.56,
+      "duration": 1.759,
+      "text": "the technology is already good enough to",
+      "timestamp": "08:04"
+    },
+    {
+      "start": 486.319,
+      "duration": 2.801,
+      "text": "be deployed in hospitals the main",
+      "timestamp": "08:06"
+    },
+    {
+      "start": 489.12,
+      "duration": 2.16,
+      "text": "barrier for this to be used in current",
+      "timestamp": "08:09"
+    },
+    {
+      "start": 491.28,
+      "duration": 3.68,
+      "text": "medical practice is that it's not usable",
+      "timestamp": "08:11"
+    },
+    {
+      "start": 494.96,
+      "duration": 2.0,
+      "text": "right now the current approach to do",
+      "timestamp": "08:14"
+    },
+    {
+      "start": 496.96,
+      "duration": 2.32,
+      "text": "this is either using multiple cameras or",
+      "timestamp": "08:16"
+    },
+    {
+      "start": 499.28,
+      "duration": 1.84,
+      "text": "asking a file patient to go to this",
+      "timestamp": "08:19"
+    },
+    {
+      "start": 501.12,
+      "duration": 2.16,
+      "text": "special motion capture lab which is",
+      "timestamp": "08:21"
+    },
+    {
+      "start": 503.28,
+      "duration": 2.72,
+      "text": "simply not safe and not something that a",
+      "timestamp": "08:23"
+    },
+    {
+      "start": 506.0,
+      "duration": 2.319,
+      "text": "patient wants to do so our solution",
+      "timestamp": "08:26"
+    },
+    {
+      "start": 508.319,
+      "duration": 2.32,
+      "text": "which is completely portable mobile you",
+      "timestamp": "08:28"
+    },
+    {
+      "start": 510.639,
+      "duration": 3.28,
+      "text": "can use this right now just outside this",
+      "timestamp": "08:30"
+    },
+    {
+      "start": 513.919,
+      "duration": 2.24,
+      "text": "this area this is what makes it truly",
+      "timestamp": "08:33"
+    },
+    {
+      "start": 516.159,
+      "duration": 1.841,
+      "text": "special clinicians can use it anywhere",
+      "timestamp": "08:36"
+    },
+    {
+      "start": 518.0,
+      "duration": 2.159,
+      "text": "anytime you can use it in the clinical",
+      "timestamp": "08:38"
+    },
+    {
+      "start": 520.159,
+      "duration": 2.24,
+      "text": "practice you can recommend it and use it",
+      "timestamp": "08:40"
+    },
+    {
+      "start": 522.399,
+      "duration": 2.641,
+      "text": "at their homes\n um on the yearly",
+      "timestamp": "08:42"
+    },
+    {
+      "start": 525.04,
+      "duration": 1.28,
+      "text": "subscription could you just give me a",
+      "timestamp": "08:45"
+    },
+    {
+      "start": 526.32,
+      "duration": 1.44,
+      "text": "bit of a number what that roughly would",
+      "timestamp": "08:46"
+    },
+    {
+      "start": 527.76,
+      "duration": 2.4,
+      "text": "look like for the monetization then also",
+      "timestamp": "08:47"
+    },
+    {
+      "start": 530.16,
+      "duration": 1.6,
+      "text": "you mentioned it's custom models so it's",
+      "timestamp": "08:50"
+    },
+    {
+      "start": 531.76,
+      "duration": 2.639,
+      "text": "not something like an open pose etc um",
+      "timestamp": "08:51"
+    },
+    {
+      "start": 534.399,
+      "duration": 2.0,
+      "text": "is it primarily just cameras or also",
+      "timestamp": "08:54"
+    },
+    {
+      "start": 536.399,
+      "duration": 3.601,
+      "text": "lighters us uh\n yeah so our solution uses",
+      "timestamp": "08:56"
+    },
+    {
+      "start": 540.0,
+      "duration": 2.399,
+      "text": "multiples of uh information that we get",
+      "timestamp": "09:00"
+    },
+    {
+      "start": 542.399,
+      "duration": 3.841,
+      "text": "from iPad so open pose and some other 2D",
+      "timestamp": "09:02"
+    },
+    {
+      "start": 546.24,
+      "duration": 2.8,
+      "text": "and 3D poses available but they are not",
+      "timestamp": "09:06"
+    },
+    {
+      "start": 549.04,
+      "duration": 1.919,
+      "text": "good enough to do what we are doing so",
+      "timestamp": "09:09"
+    },
+    {
+      "start": 550.959,
+      "duration": 1.841,
+      "text": "we had to train our own custom models to",
+      "timestamp": "09:10"
+    },
+    {
+      "start": 552.8,
+      "duration": 3.039,
+      "text": "do that in terms of licensing um our",
+      "timestamp": "09:12"
+    },
+    {
+      "start": 555.839,
+      "duration": 2.0,
+      "text": "solution is deployed on an iPad we do",
+      "timestamp": "09:15"
+    },
+    {
+      "start": 557.839,
+      "duration": 2.081,
+      "text": "not use we do not need to use any",
+      "timestamp": "09:17"
+    },
+    {
+      "start": 559.92,
+      "duration": 2.24,
+      "text": "servers to process so essentially once",
+      "timestamp": "09:19"
+    },
+    {
+      "start": 562.16,
+      "duration": 2.16,
+      "text": "you have our solution on your iPad you",
+      "timestamp": "09:22"
+    },
+    {
+      "start": 564.32,
+      "duration": 1.519,
+      "text": "can use it as many times as possible for",
+      "timestamp": "09:24"
+    },
+    {
+      "start": 565.839,
+      "duration": 1.841,
+      "text": "the entire you just give a rough idea of",
+      "timestamp": "09:25"
+    },
+    {
+      "start": 567.68,
+      "duration": 2.8,
+      "text": "what that would be\n uh it's about $15,000",
+      "timestamp": "09:27"
+    },
+    {
+      "start": 570.48,
+      "duration": 1.919,
+      "text": "uh for yearly subscription\n can you share",
+      "timestamp": "09:30"
+    },
+    {
+      "start": 572.399,
+      "duration": 1.361,
+      "text": "a little bit more about your go to",
+      "timestamp": "09:32"
+    },
+    {
+      "start": 573.76,
+      "duration": 1.6,
+      "text": "market strategies how do you scale",
+      "timestamp": "09:33"
+    },
+    {
+      "start": 575.36,
+      "duration": 3.12,
+      "text": "beyond your current early adopters",
+      "timestamp": "09:35"
+    },
+    {
+      "start": 578.48,
+      "duration": 2.32,
+      "text": "so the main requirement for it now right",
+      "timestamp": "09:38"
+    },
+    {
+      "start": 580.8,
+      "duration": 1.44,
+      "text": "now is to actually do proof of",
+      "timestamp": "09:40"
+    },
+    {
+      "start": 582.24,
+      "duration": 2.32,
+      "text": "validation uh proof of value in US",
+      "timestamp": "09:42"
+    },
+    {
+      "start": 584.56,
+      "duration": 2.0,
+      "text": "hospitals to be deployed there so this",
+      "timestamp": "09:44"
+    },
+    {
+      "start": 586.56,
+      "duration": 1.36,
+      "text": "is something that we are working on this",
+      "timestamp": "09:46"
+    },
+    {
+      "start": 587.92,
+      "duration": 2.479,
+      "text": "year to deploy it in a US hospital show",
+      "timestamp": "09:47"
+    },
+    {
+      "start": 590.399,
+      "duration": 2.641,
+      "text": "that there's value of it to the hospital",
+      "timestamp": "09:50"
+    },
+    {
+      "start": 593.04,
+      "duration": 1.919,
+      "text": "as well as to the clinic once the proof",
+      "timestamp": "09:53"
+    },
+    {
+      "start": 594.959,
+      "duration": 2.161,
+      "text": "of validation is done then we can simply",
+      "timestamp": "09:54"
+    },
+    {
+      "start": 597.12,
+      "duration": 2.32,
+      "text": "integrate inside the EHR system we have",
+      "timestamp": "09:57"
+    },
+    {
+      "start": 599.44,
+      "duration": 2.64,
+      "text": "already cleared the Singapore's HCC to",
+      "timestamp": "09:59"
+    },
+    {
+      "start": 602.08,
+      "duration": 2.48,
+      "text": "be deployed inside and integrate our",
+      "timestamp": "10:02"
+    },
+    {
+      "start": 604.56,
+      "duration": 3.56,
+      "text": "solution with the EHR",
+      "timestamp": "10:04"
+    }
+  ],
+  "extraction_timestamp": "2025-06-29T21:04:35.385555",
+  "playlist_title": "SuperAI Singapore 2025: WEKA Stage"
+}

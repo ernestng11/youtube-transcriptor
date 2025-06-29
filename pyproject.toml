@@ -1,0 +1,38 @@
+[project]
+name = "youtube-transcriptor"
+version = "0.1.0"
+description = "A tool to extract YouTube videos from playlists and transcribe them"
+authors = [
+    {name = "ernestng11",email = "ernestng11@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "google-api-python-client>=2.100.0",
+    "python-dotenv>=1.0.0",
+    "requests>=2.31.0",
+    "click>=8.1.0",
+    "pydantic>=2.5.0",
+    "rich>=13.0.0",
+    "httpx>=0.25.0",
+    "youtube-transcript-api>=0.6.0",
+    "beautifulsoup4>=4.13.4",
+    "lxml>=5.4.0",
+    "selenium>=4.33.0",
+    "webdriver-manager>=4.0.2"
+]
+
+[project.scripts]
+youtube-transcriptor = "youtube_transcriptor.cli.main:cli"
+
+[tool.poetry]
+packages = [
+    { include = "youtube_transcriptor" }
+]
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.4.1"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,1997 @@
+{
+  "video_id": "6hqD9dYXFfQ",
+  "video_title": "Scott Shi - Kite AI: Economic Layer for Agentic AI - SuperAI Singapore 2025",
+  "video_url": "https://www.youtube.com/watch?v=6hqD9dYXFfQ",
+  "channel_title": "SuperAI",
+  "published_at": "2025-06-25T06:27:22+00:00",
+  "duration_seconds": null,
+  "view_count": 12,
+  "like_count": 0,
+  "description": "Learn more about SuperAI: superai.com\nFollow us on X: x.com/superai_conf\n\nKeynote: Building LLMs with Cultural Context\n\nSpeaker:\nScott Shi, Co-Founder and CTO @ Kite AI\n\nStage: WEKA Stage\n#superai #kiteai #aieconomy #aiassets #web3\n\nRecorded on 19 June 2025",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 329,
+    "aggregated_text": "it's uh really great to be here first time in Singapore like fly all the way from San Francisco like 16 hour flight um so kiteai is building a programmable trust layer for a gentic AI what we built is a redefined AI trust with ID governance verification and payment i think we're working into a AI super cycle coming from the capital the AI San Francisco we noticed that this cycle is actually bigger than uh internet is bigger than mobile is bigger than cloud and then I think several several evidence has already shown in terms of the growth like adoption growth performance improvement and the price dropping chat GBT already reach a billions of user this is a six times faster than Google's user adoption if you look at performance improvement the average time to for a AI agent to do the long task to reach 50% accuracy has already reached like 45 minutes and doubling every seven months this is actually two time 2.5 faster than Mo law in this case and if you look at the AI agent for last three years every single year the cost for AI agent is dropping by 80 percentage and it's there is no sign of stopping so you're going to have a AI agent do things much intelligent in a much lower cost so in this case most of work will done by AI agent and then this year we actually mark the first Aentic AI like nine months ago when ADAP AI was actually you know bought by AW like literally bought by AWS everyone thinks the Aentic AI is dead but then we comes like a MCP protocol then we come from deepseek and we have this manners that everyone realize that agent is actually the future um it surprised me most when my family doctor actually reached out to me and want to build a personal medical assistant and say \"Hey Scott I I want you help me with DeepSc R1 32 billions parameter model i want to have my server local setup in my office help me answer my um patients questions.\" That moment touches me and realize this is actually the um inflection year for Agentic AI but currently AI agent are still bundled by tons of things there is a tons of roadblock for aentic AI you could actually it took only took me like two days use a reasoning model and vision model to build a personal agent help me with Uber ordering with almost a 100%ed accuracy rate and Uber is ordering like a 60 percentage but still we don't trust the AI agent because there is no ID to hold agent accountable if agent going to make mistake and transact at a machine speed you're going to expose the huge risk so that's why AI agent need to be first has ID to hold accountable and then they need to have governance rule governance spendings and then then on top of it you want to make sure you have um SLA agreement to governance AI interaction agent interaction that's very important you want to make sure you have a guardrails for AI agent to transact autonomously with trust so that's what kite is for kite is a programmable trust layer or transaction layer for agentic internet think about this most of the work in the future will done by your agent in very small granularity you your agent will look up news for you summarize news for you order Uber for you you know and book appointment for you in this case so each of time it will interact with other agent other service provider in very small granularity exchange for services for payment so basically you have an entire AI value chain for your agent break down the task to a smaller granularity and exchange for payment and then with this you want to make sure every single agent has a agent passport agent passport means that now you have a ID for your agent you have wallet for your agent so your agent can transact and spend money and you have garments for your agent to make sure your agent don't go wrong and spend all your money within seconds and then also when your agent actually a very limited agent you want to interact with some service provider no matter it's um provide you with additional data to make more informative decision or service agent like Uber or another agent give you like a service deliver your service you want to make sure this agent interaction is governant by this service level contract service level agreement that's what Kitefo let's actually see a concrete demo here I want to actually my personal agent help me to refill my grocery then my personal agent will look at my preference like maybe I prefer this type of pasta than that type of pasta then it will look at my transaction history and then looking for my current um you know grocery stock and then they decided hey I need to buy some pasta for Scott and then it will looking at the list of the merchant and choose the best price um merchant for for for me and then then it will go through the uet one time authorization governance and say hey does it pass the SC spending rule is that vising the author approved spending rate is that vising like a daily spending rate so once that works you know if we break down to a little bit more technical details if you break down to the agent user flow how it works is that the shopping agent first will get pasta from this u you know safe merchant and then safe merchant will check my agent history credit history you don't want to serve this malicious agent once it pass it will say hey please pay me $5 through this PayPal stable coin and then it will request this payment and then my agent now can authorize this payment it need to go through this checking the governance rules spending rules let's say is it within the daily limit is it within this user sightings once it's passed the rules it will deposit money into a service contract and then it will notify the um safeway emergency now this pasta is ready to deliver and then once the pasta is delivered and user confirm the delivery of the pasta then the the ownership of the uh money will transfer from the user to the service contract in the service contract to the to the owner of the um safeway merchant let's see a concrete demo for this notice that this even though it's a PayPal agent it could be any single agent it could be a cloud it could be a chatbt it could be a cursor in this case by integrate with kite we assign a we assign a passport for the agent you can see that the PayPal shopping agent that's actually passport you not only have credit score for the agent but you also have wallet for the agent and then every single spending for the agent now is governed by spending rules you can configure spending rules like auto approve small transaction um you know require manual approve for larger transaction and you can also set spending limit for your agent as well if you're not satisfied with this you can change spending rules and write your own spending rules because everything is programmable now let me actually trying to order groceries here and then I want to my you know shopping agent help me refuel my grocery and then what my shopping agent now will search through the Kitei merchant network and then find the grocery meet my requirement i can select the merchant work for my needs and then start a payment notice the payment is not deposited into a escro service contract in this case so the you know for example in this particular case sephi don't directly get payment i have to confirm my delivery before they get payment in this case we get rid of this passport chargeback situation and dispute situation if you go to next step the kite network the platform is built on top of blockchain the reason we utilize blockchain is based on four major um properties first is programmable payment second is programmable trust third is verification the last is portability existing payment network no matter it's a credit card or you know like PayPal in this case you're char they charging you 30 cents plus 3%age of fee this is actually not feasible in a gentic AI world because you may just pay 01 0.1 cents to fet data you don't want to pay 30 cent to the you know credit card company but use blockchain you can not only lower the fee to minimum minimum part but you have this availability to program do the payment astro is a very simple form you can actually pay your service based on the performance of the service in this case if you your service actually reach uh exceed your expectation you actually pay some extra all this is programmable the programable trust part is also very important think about this every single agent interaction means that you have agent interact on behalf of different interests you want to make sure you have something enforce inforce the logic enforce the different agents own interest so that's why blockchain provide this smart contract guarantee even though your agent may hallucinate your agent may actually um do some crazy things but every single transaction is infor so that's a programmable trust so you have multiple party executed under the same smart contract under the same agreement verification is actually what blockchain is built for don't trust but verify this verify means that not only you can verify my service agent is using this open AI chatb03 pro model but also verify I actually calling the actual Uber API to order Uber not from like a third party in the middle attack to to to actually hijack my traffic the last part is portability kite platform is fundamental infrastructure programmable trust infrastructure in this case every single um you know no matter your cloud if you use cloud if you use the on-prem infrastructure it's portable to you you basically can use SDK and API integrate with us there's no you know there is no port portability issue in this case and then Kitei is working with agent developer community as a agent developer using kitei now you have tons of the agent passport template you can enable your consumer to use no matter your consumer want to set spend limit on daily limit on maybe send a spending limit on certain category you have a template to select and empower your user to use second is that we provide consoles the SLA template agreement between agent to agent interaction ascro service may be one of the standard service you want to make sure the service agent and client agent can reach a prom with in this case you have to deliver the actual concrete value before you change ownership of payment from one party to another party on top of this PTI is actually working with PayPal as a channel partner to provide the lease of the service agent to provide in this case so if you're a client current agent you basically enrich your all the users consumers for your agent to list the service agent on the KI platform so I'm Scott I actually spent last 15 years building foundational data and AI infrastructure in Silicon Valley um before Kite AI I founded a streaming DB company and before that I actually uh was leading the Uber data infra so I built Uber internal skill AI from scratch grew the team to 200 people our team also has the best talent from the AI expert my co-founder Chi previously was a AI PhD from Berkeley she also was a funding engineer from data we also have one of the co-founder from data joint team lead AI effort um do data is one of the biggest autoML company we also have a list of the um Andrews and then AI expert and block blockchain expert professor Dansong we're working with Berkeley we have professor Dansson Hayen joining from Berkeley and then you know professor Hanson is most famous for her like a safeguarded um safe uh safety first AI intelligence and then we also work with Yuka which is a professor in UTS and also robotic lab and media's research so if you are interesting work with Kite reach out to me after this and then um I'm going to stay here for 15 minutes so Kite launched our early ecosystem early February we already has more than 16 millions user on the Kite AI ecosystem and then we see a tremendous agent call in Kite AI system and we don't see a sign of growth signness in the growth and then um currently we are encouraging every single agent builder and then service provider no matter if you provide additional data you know for example you may have additional data for cursor to help you building most smarter um you know build a smarter MVT U map for the u for the to demo something or or you could be like you provide additional web coding um uh service in this case work has come come up you know come after this and reach out to me that's uh that's what Kitefo and thanks for the thanks for the thanks for the thanks for the uh coming",
+    "text_length": 12454,
+    "word_count": 2305
+  },
+  "segments": [
+    {
+      "start": 7.359,
+      "duration": 1.761,
+      "text": "it's uh really great to be here first",
+      "timestamp": "00:07"
+    },
+    {
+      "start": 9.12,
+      "duration": 1.84,
+      "text": "time in Singapore like fly all the way",
+      "timestamp": "00:09"
+    },
+    {
+      "start": 10.96,
+      "duration": 2.88,
+      "text": "from San Francisco like 16 hour flight",
+      "timestamp": "00:10"
+    },
+    {
+      "start": 13.84,
+      "duration": 3.12,
+      "text": "um so kiteai is building a programmable",
+      "timestamp": "00:13"
+    },
+    {
+      "start": 16.96,
+      "duration": 2.479,
+      "text": "trust layer for a gentic AI what we",
+      "timestamp": "00:16"
+    },
+    {
+      "start": 19.439,
+      "duration": 3.121,
+      "text": "built is a redefined AI trust with ID",
+      "timestamp": "00:19"
+    },
+    {
+      "start": 22.56,
+      "duration": 3.44,
+      "text": "governance verification and payment i",
+      "timestamp": "00:22"
+    },
+    {
+      "start": 26.0,
+      "duration": 1.76,
+      "text": "think we're working into a AI super",
+      "timestamp": "00:26"
+    },
+    {
+      "start": 27.76,
+      "duration": 2.64,
+      "text": "cycle coming from the capital the AI San",
+      "timestamp": "00:27"
+    },
+    {
+      "start": 30.4,
+      "duration": 2.48,
+      "text": "Francisco we noticed that this cycle is",
+      "timestamp": "00:30"
+    },
+    {
+      "start": 32.88,
+      "duration": 2.24,
+      "text": "actually bigger than uh internet is",
+      "timestamp": "00:32"
+    },
+    {
+      "start": 35.12,
+      "duration": 2.48,
+      "text": "bigger than mobile is bigger than cloud",
+      "timestamp": "00:35"
+    },
+    {
+      "start": 37.6,
+      "duration": 1.6,
+      "text": "and then I think several several",
+      "timestamp": "00:37"
+    },
+    {
+      "start": 39.2,
+      "duration": 2.08,
+      "text": "evidence has already shown in terms of",
+      "timestamp": "00:39"
+    },
+    {
+      "start": 41.28,
+      "duration": 2.32,
+      "text": "the growth like adoption growth",
+      "timestamp": "00:41"
+    },
+    {
+      "start": 43.6,
+      "duration": 2.24,
+      "text": "performance improvement and the price",
+      "timestamp": "00:43"
+    },
+    {
+      "start": 45.84,
+      "duration": 2.96,
+      "text": "dropping chat GBT already reach a",
+      "timestamp": "00:45"
+    },
+    {
+      "start": 48.8,
+      "duration": 1.919,
+      "text": "billions of user this is a six times",
+      "timestamp": "00:48"
+    },
+    {
+      "start": 50.719,
+      "duration": 2.641,
+      "text": "faster than Google's user adoption if",
+      "timestamp": "00:50"
+    },
+    {
+      "start": 53.36,
+      "duration": 2.48,
+      "text": "you look at performance improvement the",
+      "timestamp": "00:53"
+    },
+    {
+      "start": 55.84,
+      "duration": 2.719,
+      "text": "average time to for a AI agent to do the",
+      "timestamp": "00:55"
+    },
+    {
+      "start": 58.559,
+      "duration": 2.961,
+      "text": "long task to reach 50% accuracy has",
+      "timestamp": "00:58"
+    },
+    {
+      "start": 61.52,
+      "duration": 2.4,
+      "text": "already reached like 45 minutes and",
+      "timestamp": "01:01"
+    },
+    {
+      "start": 63.92,
+      "duration": 2.239,
+      "text": "doubling every seven months this is",
+      "timestamp": "01:03"
+    },
+    {
+      "start": 66.159,
+      "duration": 3.841,
+      "text": "actually two time 2.5 faster than Mo law",
+      "timestamp": "01:06"
+    },
+    {
+      "start": 70.0,
+      "duration": 2.24,
+      "text": "in this case and if you look at the AI",
+      "timestamp": "01:10"
+    },
+    {
+      "start": 72.24,
+      "duration": 2.72,
+      "text": "agent for last three years every single",
+      "timestamp": "01:12"
+    },
+    {
+      "start": 74.96,
+      "duration": 2.32,
+      "text": "year the cost for AI agent is dropping",
+      "timestamp": "01:14"
+    },
+    {
+      "start": 77.28,
+      "duration": 2.8,
+      "text": "by 80 percentage and it's there is no",
+      "timestamp": "01:17"
+    },
+    {
+      "start": 80.08,
+      "duration": 1.92,
+      "text": "sign of stopping so you're going to have",
+      "timestamp": "01:20"
+    },
+    {
+      "start": 82.0,
+      "duration": 2.96,
+      "text": "a AI agent do things much intelligent in",
+      "timestamp": "01:22"
+    },
+    {
+      "start": 84.96,
+      "duration": 2.799,
+      "text": "a much lower cost so in this case most",
+      "timestamp": "01:24"
+    },
+    {
+      "start": 87.759,
+      "duration": 3.04,
+      "text": "of work will done by AI agent and then",
+      "timestamp": "01:27"
+    },
+    {
+      "start": 90.799,
+      "duration": 2.161,
+      "text": "this year we actually mark the first",
+      "timestamp": "01:30"
+    },
+    {
+      "start": 92.96,
+      "duration": 3.28,
+      "text": "Aentic AI like nine months ago when ADAP",
+      "timestamp": "01:32"
+    },
+    {
+      "start": 96.24,
+      "duration": 2.239,
+      "text": "AI was actually you know bought by AW",
+      "timestamp": "01:36"
+    },
+    {
+      "start": 98.479,
+      "duration": 2.481,
+      "text": "like literally bought by AWS everyone",
+      "timestamp": "01:38"
+    },
+    {
+      "start": 100.96,
+      "duration": 2.799,
+      "text": "thinks the Aentic AI is dead but then we",
+      "timestamp": "01:40"
+    },
+    {
+      "start": 103.759,
+      "duration": 2.801,
+      "text": "comes like a MCP protocol then we come",
+      "timestamp": "01:43"
+    },
+    {
+      "start": 106.56,
+      "duration": 2.559,
+      "text": "from deepseek and we have this manners",
+      "timestamp": "01:46"
+    },
+    {
+      "start": 109.119,
+      "duration": 2.881,
+      "text": "that everyone realize that agent is",
+      "timestamp": "01:49"
+    },
+    {
+      "start": 112.0,
+      "duration": 3.2,
+      "text": "actually the future um it surprised me",
+      "timestamp": "01:52"
+    },
+    {
+      "start": 115.2,
+      "duration": 2.16,
+      "text": "most when my family doctor actually",
+      "timestamp": "01:55"
+    },
+    {
+      "start": 117.36,
+      "duration": 1.759,
+      "text": "reached out to me and want to build a",
+      "timestamp": "01:57"
+    },
+    {
+      "start": 119.119,
+      "duration": 2.481,
+      "text": "personal medical assistant and say \"Hey",
+      "timestamp": "01:59"
+    },
+    {
+      "start": 121.6,
+      "duration": 2.72,
+      "text": "Scott I I want you help me with DeepSc",
+      "timestamp": "02:01"
+    },
+    {
+      "start": 124.32,
+      "duration": 3.119,
+      "text": "R1 32 billions parameter model i want to",
+      "timestamp": "02:04"
+    },
+    {
+      "start": 127.439,
+      "duration": 3.121,
+      "text": "have my server local setup in my office",
+      "timestamp": "02:07"
+    },
+    {
+      "start": 130.56,
+      "duration": 2.64,
+      "text": "help me answer my um patients",
+      "timestamp": "02:10"
+    },
+    {
+      "start": 133.2,
+      "duration": 2.32,
+      "text": "questions.\" That moment touches me and",
+      "timestamp": "02:13"
+    },
+    {
+      "start": 135.52,
+      "duration": 2.799,
+      "text": "realize this is actually the um",
+      "timestamp": "02:15"
+    },
+    {
+      "start": 138.319,
+      "duration": 3.121,
+      "text": "inflection year for Agentic AI",
+      "timestamp": "02:18"
+    },
+    {
+      "start": 141.44,
+      "duration": 3.04,
+      "text": "but currently AI agent are still bundled",
+      "timestamp": "02:21"
+    },
+    {
+      "start": 144.48,
+      "duration": 1.52,
+      "text": "by tons of things there is a tons of",
+      "timestamp": "02:24"
+    },
+    {
+      "start": 146.0,
+      "duration": 2.8,
+      "text": "roadblock for aentic AI you could",
+      "timestamp": "02:26"
+    },
+    {
+      "start": 148.8,
+      "duration": 2.0,
+      "text": "actually it took only took me like two",
+      "timestamp": "02:28"
+    },
+    {
+      "start": 150.8,
+      "duration": 2.719,
+      "text": "days use a reasoning model and vision",
+      "timestamp": "02:30"
+    },
+    {
+      "start": 153.519,
+      "duration": 2.961,
+      "text": "model to build a personal agent help me",
+      "timestamp": "02:33"
+    },
+    {
+      "start": 156.48,
+      "duration": 2.479,
+      "text": "with Uber ordering with almost a 100%ed",
+      "timestamp": "02:36"
+    },
+    {
+      "start": 158.959,
+      "duration": 2.241,
+      "text": "accuracy rate and Uber is ordering like",
+      "timestamp": "02:38"
+    },
+    {
+      "start": 161.2,
+      "duration": 3.28,
+      "text": "a 60 percentage but still we don't trust",
+      "timestamp": "02:41"
+    },
+    {
+      "start": 164.48,
+      "duration": 2.479,
+      "text": "the AI agent because there is no ID to",
+      "timestamp": "02:44"
+    },
+    {
+      "start": 166.959,
+      "duration": 3.041,
+      "text": "hold agent accountable if agent going to",
+      "timestamp": "02:46"
+    },
+    {
+      "start": 170.0,
+      "duration": 2.08,
+      "text": "make mistake and transact at a machine",
+      "timestamp": "02:50"
+    },
+    {
+      "start": 172.08,
+      "duration": 2.0,
+      "text": "speed you're going to expose the huge",
+      "timestamp": "02:52"
+    },
+    {
+      "start": 174.08,
+      "duration": 3.04,
+      "text": "risk so that's why AI agent need to be",
+      "timestamp": "02:54"
+    },
+    {
+      "start": 177.12,
+      "duration": 2.96,
+      "text": "first has ID to hold accountable and",
+      "timestamp": "02:57"
+    },
+    {
+      "start": 180.08,
+      "duration": 1.92,
+      "text": "then they need to have governance rule",
+      "timestamp": "03:00"
+    },
+    {
+      "start": 182.0,
+      "duration": 2.319,
+      "text": "governance spendings and then then on",
+      "timestamp": "03:02"
+    },
+    {
+      "start": 184.319,
+      "duration": 2.481,
+      "text": "top of it you want to make sure you have",
+      "timestamp": "03:04"
+    },
+    {
+      "start": 186.8,
+      "duration": 2.48,
+      "text": "um SLA agreement to governance AI",
+      "timestamp": "03:06"
+    },
+    {
+      "start": 189.28,
+      "duration": 1.92,
+      "text": "interaction agent interaction that's",
+      "timestamp": "03:09"
+    },
+    {
+      "start": 191.2,
+      "duration": 2.8,
+      "text": "very important you want to make sure you",
+      "timestamp": "03:11"
+    },
+    {
+      "start": 194.0,
+      "duration": 2.4,
+      "text": "have a guardrails for AI agent to",
+      "timestamp": "03:14"
+    },
+    {
+      "start": 196.4,
+      "duration": 2.479,
+      "text": "transact autonomously with trust so",
+      "timestamp": "03:16"
+    },
+    {
+      "start": 198.879,
+      "duration": 2.961,
+      "text": "that's what kite is for kite is a",
+      "timestamp": "03:18"
+    },
+    {
+      "start": 201.84,
+      "duration": 2.24,
+      "text": "programmable trust layer or transaction",
+      "timestamp": "03:21"
+    },
+    {
+      "start": 204.08,
+      "duration": 2.079,
+      "text": "layer for agentic internet think about",
+      "timestamp": "03:24"
+    },
+    {
+      "start": 206.159,
+      "duration": 2.561,
+      "text": "this most of the work in the future will",
+      "timestamp": "03:26"
+    },
+    {
+      "start": 208.72,
+      "duration": 2.0,
+      "text": "done by your agent in very small",
+      "timestamp": "03:28"
+    },
+    {
+      "start": 210.72,
+      "duration": 3.04,
+      "text": "granularity you your agent will look up",
+      "timestamp": "03:30"
+    },
+    {
+      "start": 213.76,
+      "duration": 1.759,
+      "text": "news for you summarize news for you",
+      "timestamp": "03:33"
+    },
+    {
+      "start": 215.519,
+      "duration": 2.161,
+      "text": "order Uber for you you know and book",
+      "timestamp": "03:35"
+    },
+    {
+      "start": 217.68,
+      "duration": 2.32,
+      "text": "appointment for you in this case so each",
+      "timestamp": "03:37"
+    },
+    {
+      "start": 220.0,
+      "duration": 1.68,
+      "text": "of time it will interact with other",
+      "timestamp": "03:40"
+    },
+    {
+      "start": 221.68,
+      "duration": 2.639,
+      "text": "agent other service provider in very",
+      "timestamp": "03:41"
+    },
+    {
+      "start": 224.319,
+      "duration": 3.041,
+      "text": "small granularity exchange for services",
+      "timestamp": "03:44"
+    },
+    {
+      "start": 227.36,
+      "duration": 2.239,
+      "text": "for payment so basically you have an",
+      "timestamp": "03:47"
+    },
+    {
+      "start": 229.599,
+      "duration": 2.72,
+      "text": "entire AI value chain for your agent",
+      "timestamp": "03:49"
+    },
+    {
+      "start": 232.319,
+      "duration": 1.761,
+      "text": "break down the task to a smaller",
+      "timestamp": "03:52"
+    },
+    {
+      "start": 234.08,
+      "duration": 3.6,
+      "text": "granularity and exchange for payment",
+      "timestamp": "03:54"
+    },
+    {
+      "start": 237.68,
+      "duration": 3.119,
+      "text": "and then with this you want to make sure",
+      "timestamp": "03:57"
+    },
+    {
+      "start": 240.799,
+      "duration": 3.201,
+      "text": "every single agent has a agent passport",
+      "timestamp": "04:00"
+    },
+    {
+      "start": 244.0,
+      "duration": 2.159,
+      "text": "agent passport means that now you have a",
+      "timestamp": "04:04"
+    },
+    {
+      "start": 246.159,
+      "duration": 2.561,
+      "text": "ID for your agent you have wallet for",
+      "timestamp": "04:06"
+    },
+    {
+      "start": 248.72,
+      "duration": 2.079,
+      "text": "your agent so your agent can transact",
+      "timestamp": "04:08"
+    },
+    {
+      "start": 250.799,
+      "duration": 2.321,
+      "text": "and spend money and you have garments",
+      "timestamp": "04:10"
+    },
+    {
+      "start": 253.12,
+      "duration": 1.759,
+      "text": "for your agent to make sure your agent",
+      "timestamp": "04:13"
+    },
+    {
+      "start": 254.879,
+      "duration": 2.001,
+      "text": "don't go wrong and spend all your money",
+      "timestamp": "04:14"
+    },
+    {
+      "start": 256.88,
+      "duration": 2.879,
+      "text": "within seconds and then also when your",
+      "timestamp": "04:16"
+    },
+    {
+      "start": 259.759,
+      "duration": 1.921,
+      "text": "agent actually a very limited agent you",
+      "timestamp": "04:19"
+    },
+    {
+      "start": 261.68,
+      "duration": 1.36,
+      "text": "want to interact with some service",
+      "timestamp": "04:21"
+    },
+    {
+      "start": 263.04,
+      "duration": 3.04,
+      "text": "provider no matter it's um provide you",
+      "timestamp": "04:23"
+    },
+    {
+      "start": 266.08,
+      "duration": 1.839,
+      "text": "with additional data to make more",
+      "timestamp": "04:26"
+    },
+    {
+      "start": 267.919,
+      "duration": 2.321,
+      "text": "informative decision or service agent",
+      "timestamp": "04:27"
+    },
+    {
+      "start": 270.24,
+      "duration": 2.56,
+      "text": "like Uber or another agent give you like",
+      "timestamp": "04:30"
+    },
+    {
+      "start": 272.8,
+      "duration": 2.24,
+      "text": "a service deliver your service you want",
+      "timestamp": "04:32"
+    },
+    {
+      "start": 275.04,
+      "duration": 2.879,
+      "text": "to make sure this agent interaction is",
+      "timestamp": "04:35"
+    },
+    {
+      "start": 277.919,
+      "duration": 2.72,
+      "text": "governant by this service level contract",
+      "timestamp": "04:37"
+    },
+    {
+      "start": 280.639,
+      "duration": 2.241,
+      "text": "service level agreement",
+      "timestamp": "04:40"
+    },
+    {
+      "start": 282.88,
+      "duration": 2.48,
+      "text": "that's what Kitefo let's actually see a",
+      "timestamp": "04:42"
+    },
+    {
+      "start": 285.36,
+      "duration": 2.88,
+      "text": "concrete demo here I want to actually my",
+      "timestamp": "04:45"
+    },
+    {
+      "start": 288.24,
+      "duration": 2.399,
+      "text": "personal agent help me to refill my",
+      "timestamp": "04:48"
+    },
+    {
+      "start": 290.639,
+      "duration": 2.56,
+      "text": "grocery then my personal agent will look",
+      "timestamp": "04:50"
+    },
+    {
+      "start": 293.199,
+      "duration": 2.401,
+      "text": "at my preference like maybe I prefer",
+      "timestamp": "04:53"
+    },
+    {
+      "start": 295.6,
+      "duration": 1.84,
+      "text": "this type of pasta than that type of",
+      "timestamp": "04:55"
+    },
+    {
+      "start": 297.44,
+      "duration": 1.68,
+      "text": "pasta then it will look at my",
+      "timestamp": "04:57"
+    },
+    {
+      "start": 299.12,
+      "duration": 2.24,
+      "text": "transaction history and then looking for",
+      "timestamp": "04:59"
+    },
+    {
+      "start": 301.36,
+      "duration": 2.88,
+      "text": "my current um you know grocery stock and",
+      "timestamp": "05:01"
+    },
+    {
+      "start": 304.24,
+      "duration": 2.64,
+      "text": "then they decided hey I need to buy some",
+      "timestamp": "05:04"
+    },
+    {
+      "start": 306.88,
+      "duration": 2.4,
+      "text": "pasta for Scott and then it will looking",
+      "timestamp": "05:06"
+    },
+    {
+      "start": 309.28,
+      "duration": 1.919,
+      "text": "at the list of the merchant and choose",
+      "timestamp": "05:09"
+    },
+    {
+      "start": 311.199,
+      "duration": 2.641,
+      "text": "the best price um merchant for for for",
+      "timestamp": "05:11"
+    },
+    {
+      "start": 313.84,
+      "duration": 2.24,
+      "text": "me and then then it will go through the",
+      "timestamp": "05:13"
+    },
+    {
+      "start": 316.08,
+      "duration": 2.16,
+      "text": "uet one time authorization governance",
+      "timestamp": "05:16"
+    },
+    {
+      "start": 318.24,
+      "duration": 2.239,
+      "text": "and say hey does it pass the SC spending",
+      "timestamp": "05:18"
+    },
+    {
+      "start": 320.479,
+      "duration": 2.321,
+      "text": "rule is that vising the author approved",
+      "timestamp": "05:20"
+    },
+    {
+      "start": 322.8,
+      "duration": 1.52,
+      "text": "spending rate is that vising like a",
+      "timestamp": "05:22"
+    },
+    {
+      "start": 324.32,
+      "duration": 2.319,
+      "text": "daily spending rate so once that works",
+      "timestamp": "05:24"
+    },
+    {
+      "start": 326.639,
+      "duration": 1.521,
+      "text": "you know if we break down to a little",
+      "timestamp": "05:26"
+    },
+    {
+      "start": 328.16,
+      "duration": 1.92,
+      "text": "bit more technical details if you break",
+      "timestamp": "05:28"
+    },
+    {
+      "start": 330.08,
+      "duration": 2.399,
+      "text": "down to the agent user flow how it works",
+      "timestamp": "05:30"
+    },
+    {
+      "start": 332.479,
+      "duration": 3.121,
+      "text": "is that the shopping agent first will",
+      "timestamp": "05:32"
+    },
+    {
+      "start": 335.6,
+      "duration": 2.24,
+      "text": "get pasta from this u you know safe",
+      "timestamp": "05:35"
+    },
+    {
+      "start": 337.84,
+      "duration": 2.16,
+      "text": "merchant and then safe merchant will",
+      "timestamp": "05:37"
+    },
+    {
+      "start": 340.0,
+      "duration": 2.56,
+      "text": "check my agent history credit history",
+      "timestamp": "05:40"
+    },
+    {
+      "start": 342.56,
+      "duration": 1.919,
+      "text": "you don't want to serve this malicious",
+      "timestamp": "05:42"
+    },
+    {
+      "start": 344.479,
+      "duration": 2.401,
+      "text": "agent once it pass it will say hey",
+      "timestamp": "05:44"
+    },
+    {
+      "start": 346.88,
+      "duration": 2.8,
+      "text": "please pay me $5 through this PayPal",
+      "timestamp": "05:46"
+    },
+    {
+      "start": 349.68,
+      "duration": 2.32,
+      "text": "stable coin and then it will request",
+      "timestamp": "05:49"
+    },
+    {
+      "start": 352.0,
+      "duration": 2.72,
+      "text": "this payment and then my agent now can",
+      "timestamp": "05:52"
+    },
+    {
+      "start": 354.72,
+      "duration": 2.0,
+      "text": "authorize this payment it need to go",
+      "timestamp": "05:54"
+    },
+    {
+      "start": 356.72,
+      "duration": 2.08,
+      "text": "through this checking the governance",
+      "timestamp": "05:56"
+    },
+    {
+      "start": 358.8,
+      "duration": 2.0,
+      "text": "rules spending rules let's say is it",
+      "timestamp": "05:58"
+    },
+    {
+      "start": 360.8,
+      "duration": 2.16,
+      "text": "within the daily limit is it within this",
+      "timestamp": "06:00"
+    },
+    {
+      "start": 362.96,
+      "duration": 2.079,
+      "text": "user sightings once it's passed the",
+      "timestamp": "06:02"
+    },
+    {
+      "start": 365.039,
+      "duration": 2.16,
+      "text": "rules it will deposit money into a",
+      "timestamp": "06:05"
+    },
+    {
+      "start": 367.199,
+      "duration": 2.56,
+      "text": "service contract and then it will notify",
+      "timestamp": "06:07"
+    },
+    {
+      "start": 369.759,
+      "duration": 3.121,
+      "text": "the um safeway emergency now this pasta",
+      "timestamp": "06:09"
+    },
+    {
+      "start": 372.88,
+      "duration": 2.4,
+      "text": "is ready to deliver and then once the",
+      "timestamp": "06:12"
+    },
+    {
+      "start": 375.28,
+      "duration": 2.16,
+      "text": "pasta is delivered and user confirm the",
+      "timestamp": "06:15"
+    },
+    {
+      "start": 377.44,
+      "duration": 2.16,
+      "text": "delivery of the pasta then the the",
+      "timestamp": "06:17"
+    },
+    {
+      "start": 379.6,
+      "duration": 2.64,
+      "text": "ownership of the uh money will transfer",
+      "timestamp": "06:19"
+    },
+    {
+      "start": 382.24,
+      "duration": 2.16,
+      "text": "from the user to the service contract in",
+      "timestamp": "06:22"
+    },
+    {
+      "start": 384.4,
+      "duration": 2.079,
+      "text": "the service contract to the to the owner",
+      "timestamp": "06:24"
+    },
+    {
+      "start": 386.479,
+      "duration": 4.081,
+      "text": "of the um safeway merchant let's see a",
+      "timestamp": "06:26"
+    },
+    {
+      "start": 390.56,
+      "duration": 2.639,
+      "text": "concrete demo for this notice that this",
+      "timestamp": "06:30"
+    },
+    {
+      "start": 393.199,
+      "duration": 1.521,
+      "text": "even though it's a PayPal agent it could",
+      "timestamp": "06:33"
+    },
+    {
+      "start": 394.72,
+      "duration": 2.08,
+      "text": "be any single agent it could be a cloud",
+      "timestamp": "06:34"
+    },
+    {
+      "start": 396.8,
+      "duration": 2.0,
+      "text": "it could be a chatbt it could be a",
+      "timestamp": "06:36"
+    },
+    {
+      "start": 398.8,
+      "duration": 2.239,
+      "text": "cursor in this case by integrate with",
+      "timestamp": "06:38"
+    },
+    {
+      "start": 401.039,
+      "duration": 3.521,
+      "text": "kite we assign a we assign a passport",
+      "timestamp": "06:41"
+    },
+    {
+      "start": 404.56,
+      "duration": 1.759,
+      "text": "for the agent you can see that the",
+      "timestamp": "06:44"
+    },
+    {
+      "start": 406.319,
+      "duration": 1.44,
+      "text": "PayPal shopping agent that's actually",
+      "timestamp": "06:46"
+    },
+    {
+      "start": 407.759,
+      "duration": 2.321,
+      "text": "passport you not only have credit score",
+      "timestamp": "06:47"
+    },
+    {
+      "start": 410.08,
+      "duration": 2.0,
+      "text": "for the agent but you also have wallet",
+      "timestamp": "06:50"
+    },
+    {
+      "start": 412.08,
+      "duration": 2.399,
+      "text": "for the agent and then every single",
+      "timestamp": "06:52"
+    },
+    {
+      "start": 414.479,
+      "duration": 1.761,
+      "text": "spending for the agent now is governed",
+      "timestamp": "06:54"
+    },
+    {
+      "start": 416.24,
+      "duration": 2.079,
+      "text": "by spending rules you can configure",
+      "timestamp": "06:56"
+    },
+    {
+      "start": 418.319,
+      "duration": 1.681,
+      "text": "spending rules like auto approve small",
+      "timestamp": "06:58"
+    },
+    {
+      "start": 420.0,
+      "duration": 2.479,
+      "text": "transaction um you know require manual",
+      "timestamp": "07:00"
+    },
+    {
+      "start": 422.479,
+      "duration": 2.081,
+      "text": "approve for larger transaction and you",
+      "timestamp": "07:02"
+    },
+    {
+      "start": 424.56,
+      "duration": 1.68,
+      "text": "can also set spending limit for your",
+      "timestamp": "07:04"
+    },
+    {
+      "start": 426.24,
+      "duration": 2.079,
+      "text": "agent as well if you're not satisfied",
+      "timestamp": "07:06"
+    },
+    {
+      "start": 428.319,
+      "duration": 1.841,
+      "text": "with this you can change spending rules",
+      "timestamp": "07:08"
+    },
+    {
+      "start": 430.16,
+      "duration": 1.599,
+      "text": "and write your own spending rules",
+      "timestamp": "07:10"
+    },
+    {
+      "start": 431.759,
+      "duration": 2.241,
+      "text": "because everything is programmable now",
+      "timestamp": "07:11"
+    },
+    {
+      "start": 434.0,
+      "duration": 1.44,
+      "text": "let me actually trying to order",
+      "timestamp": "07:14"
+    },
+    {
+      "start": 435.44,
+      "duration": 3.039,
+      "text": "groceries here and then I want to my you",
+      "timestamp": "07:15"
+    },
+    {
+      "start": 438.479,
+      "duration": 2.401,
+      "text": "know shopping agent help me refuel my",
+      "timestamp": "07:18"
+    },
+    {
+      "start": 440.88,
+      "duration": 2.319,
+      "text": "grocery and then what my shopping agent",
+      "timestamp": "07:20"
+    },
+    {
+      "start": 443.199,
+      "duration": 1.761,
+      "text": "now will search through the Kitei",
+      "timestamp": "07:23"
+    },
+    {
+      "start": 444.96,
+      "duration": 1.92,
+      "text": "merchant network and then find the",
+      "timestamp": "07:24"
+    },
+    {
+      "start": 446.88,
+      "duration": 2.48,
+      "text": "grocery meet my requirement i can select",
+      "timestamp": "07:26"
+    },
+    {
+      "start": 449.36,
+      "duration": 2.72,
+      "text": "the merchant work for my needs and then",
+      "timestamp": "07:29"
+    },
+    {
+      "start": 452.08,
+      "duration": 2.72,
+      "text": "start a payment notice the payment is",
+      "timestamp": "07:32"
+    },
+    {
+      "start": 454.8,
+      "duration": 2.239,
+      "text": "not deposited into a escro service",
+      "timestamp": "07:34"
+    },
+    {
+      "start": 457.039,
+      "duration": 2.321,
+      "text": "contract in this case so the you know",
+      "timestamp": "07:37"
+    },
+    {
+      "start": 459.36,
+      "duration": 1.839,
+      "text": "for example in this particular case",
+      "timestamp": "07:39"
+    },
+    {
+      "start": 461.199,
+      "duration": 2.081,
+      "text": "sephi don't directly get payment i have",
+      "timestamp": "07:41"
+    },
+    {
+      "start": 463.28,
+      "duration": 2.24,
+      "text": "to confirm my delivery before they get",
+      "timestamp": "07:43"
+    },
+    {
+      "start": 465.52,
+      "duration": 2.399,
+      "text": "payment in this case we get rid of this",
+      "timestamp": "07:45"
+    },
+    {
+      "start": 467.919,
+      "duration": 2.56,
+      "text": "passport chargeback situation and",
+      "timestamp": "07:47"
+    },
+    {
+      "start": 470.479,
+      "duration": 2.401,
+      "text": "dispute situation",
+      "timestamp": "07:50"
+    },
+    {
+      "start": 472.88,
+      "duration": 2.719,
+      "text": "if you go to next step the kite network",
+      "timestamp": "07:52"
+    },
+    {
+      "start": 475.599,
+      "duration": 1.761,
+      "text": "the platform is built on top of",
+      "timestamp": "07:55"
+    },
+    {
+      "start": 477.36,
+      "duration": 2.0,
+      "text": "blockchain the reason we utilize",
+      "timestamp": "07:57"
+    },
+    {
+      "start": 479.36,
+      "duration": 2.64,
+      "text": "blockchain is based on four major um",
+      "timestamp": "07:59"
+    },
+    {
+      "start": 482.0,
+      "duration": 3.36,
+      "text": "properties first is programmable payment",
+      "timestamp": "08:02"
+    },
+    {
+      "start": 485.36,
+      "duration": 2.8,
+      "text": "second is programmable trust third is",
+      "timestamp": "08:05"
+    },
+    {
+      "start": 488.16,
+      "duration": 3.28,
+      "text": "verification the last is portability",
+      "timestamp": "08:08"
+    },
+    {
+      "start": 491.44,
+      "duration": 2.0,
+      "text": "existing payment network no matter it's",
+      "timestamp": "08:11"
+    },
+    {
+      "start": 493.44,
+      "duration": 2.24,
+      "text": "a credit card or you know like PayPal in",
+      "timestamp": "08:13"
+    },
+    {
+      "start": 495.68,
+      "duration": 2.079,
+      "text": "this case you're char they charging you",
+      "timestamp": "08:15"
+    },
+    {
+      "start": 497.759,
+      "duration": 2.88,
+      "text": "30 cents plus 3%age of fee this is",
+      "timestamp": "08:17"
+    },
+    {
+      "start": 500.639,
+      "duration": 2.0,
+      "text": "actually not feasible in a gentic AI",
+      "timestamp": "08:20"
+    },
+    {
+      "start": 502.639,
+      "duration": 2.801,
+      "text": "world because you may just pay 01 0.1",
+      "timestamp": "08:22"
+    },
+    {
+      "start": 505.44,
+      "duration": 2.319,
+      "text": "cents to fet data you don't want to pay",
+      "timestamp": "08:25"
+    },
+    {
+      "start": 507.759,
+      "duration": 1.921,
+      "text": "30 cent to the you know credit card",
+      "timestamp": "08:27"
+    },
+    {
+      "start": 509.68,
+      "duration": 2.96,
+      "text": "company but use blockchain you can not",
+      "timestamp": "08:29"
+    },
+    {
+      "start": 512.64,
+      "duration": 2.48,
+      "text": "only lower the fee to minimum minimum",
+      "timestamp": "08:32"
+    },
+    {
+      "start": 515.12,
+      "duration": 2.398,
+      "text": "part but you have this availability to",
+      "timestamp": "08:35"
+    },
+    {
+      "start": 517.519,
+      "duration": 2.481,
+      "text": "program do the payment astro is a very",
+      "timestamp": "08:37"
+    },
+    {
+      "start": 520.0,
+      "duration": 1.76,
+      "text": "simple form you can actually pay your",
+      "timestamp": "08:40"
+    },
+    {
+      "start": 521.76,
+      "duration": 2.079,
+      "text": "service based on the performance of the",
+      "timestamp": "08:41"
+    },
+    {
+      "start": 523.839,
+      "duration": 2.241,
+      "text": "service in this case if you your service",
+      "timestamp": "08:43"
+    },
+    {
+      "start": 526.08,
+      "duration": 1.6,
+      "text": "actually reach uh exceed your",
+      "timestamp": "08:46"
+    },
+    {
+      "start": 527.68,
+      "duration": 1.92,
+      "text": "expectation you actually pay some extra",
+      "timestamp": "08:47"
+    },
+    {
+      "start": 529.6,
+      "duration": 2.56,
+      "text": "all this is programmable the programable",
+      "timestamp": "08:49"
+    },
+    {
+      "start": 532.16,
+      "duration": 3.119,
+      "text": "trust part is also very important think",
+      "timestamp": "08:52"
+    },
+    {
+      "start": 535.279,
+      "duration": 2.081,
+      "text": "about this every single agent",
+      "timestamp": "08:55"
+    },
+    {
+      "start": 537.36,
+      "duration": 2.8,
+      "text": "interaction means that you have agent",
+      "timestamp": "08:57"
+    },
+    {
+      "start": 540.16,
+      "duration": 1.679,
+      "text": "interact on behalf of different",
+      "timestamp": "09:00"
+    },
+    {
+      "start": 541.839,
+      "duration": 2.081,
+      "text": "interests you want to make sure you have",
+      "timestamp": "09:01"
+    },
+    {
+      "start": 543.92,
+      "duration": 2.16,
+      "text": "something enforce inforce the logic",
+      "timestamp": "09:03"
+    },
+    {
+      "start": 546.08,
+      "duration": 1.68,
+      "text": "enforce the different agents own",
+      "timestamp": "09:06"
+    },
+    {
+      "start": 547.76,
+      "duration": 1.84,
+      "text": "interest so that's why blockchain",
+      "timestamp": "09:07"
+    },
+    {
+      "start": 549.6,
+      "duration": 2.4,
+      "text": "provide this smart contract guarantee",
+      "timestamp": "09:09"
+    },
+    {
+      "start": 552.0,
+      "duration": 1.76,
+      "text": "even though your agent may hallucinate",
+      "timestamp": "09:12"
+    },
+    {
+      "start": 553.76,
+      "duration": 2.4,
+      "text": "your agent may actually um do some crazy",
+      "timestamp": "09:13"
+    },
+    {
+      "start": 556.16,
+      "duration": 2.4,
+      "text": "things but every single transaction is",
+      "timestamp": "09:16"
+    },
+    {
+      "start": 558.56,
+      "duration": 2.959,
+      "text": "infor so that's a programmable trust so",
+      "timestamp": "09:18"
+    },
+    {
+      "start": 561.519,
+      "duration": 2.081,
+      "text": "you have multiple party executed under",
+      "timestamp": "09:21"
+    },
+    {
+      "start": 563.6,
+      "duration": 1.76,
+      "text": "the same smart contract under the same",
+      "timestamp": "09:23"
+    },
+    {
+      "start": 565.36,
+      "duration": 2.72,
+      "text": "agreement verification is actually what",
+      "timestamp": "09:25"
+    },
+    {
+      "start": 568.08,
+      "duration": 2.16,
+      "text": "blockchain is built for don't trust but",
+      "timestamp": "09:28"
+    },
+    {
+      "start": 570.24,
+      "duration": 2.0,
+      "text": "verify this verify means that not only",
+      "timestamp": "09:30"
+    },
+    {
+      "start": 572.24,
+      "duration": 2.8,
+      "text": "you can verify my service agent is using",
+      "timestamp": "09:32"
+    },
+    {
+      "start": 575.04,
+      "duration": 3.44,
+      "text": "this open AI chatb03 pro model but also",
+      "timestamp": "09:35"
+    },
+    {
+      "start": 578.48,
+      "duration": 2.0,
+      "text": "verify I actually calling the actual",
+      "timestamp": "09:38"
+    },
+    {
+      "start": 580.48,
+      "duration": 2.56,
+      "text": "Uber API to order Uber not from like a",
+      "timestamp": "09:40"
+    },
+    {
+      "start": 583.04,
+      "duration": 2.16,
+      "text": "third party in the middle attack to to",
+      "timestamp": "09:43"
+    },
+    {
+      "start": 585.2,
+      "duration": 2.88,
+      "text": "to actually hijack my traffic the last",
+      "timestamp": "09:45"
+    },
+    {
+      "start": 588.08,
+      "duration": 3.52,
+      "text": "part is portability kite platform is",
+      "timestamp": "09:48"
+    },
+    {
+      "start": 591.6,
+      "duration": 2.08,
+      "text": "fundamental infrastructure programmable",
+      "timestamp": "09:51"
+    },
+    {
+      "start": 593.68,
+      "duration": 2.64,
+      "text": "trust infrastructure in this case every",
+      "timestamp": "09:53"
+    },
+    {
+      "start": 596.32,
+      "duration": 2.24,
+      "text": "single um you know no matter your cloud",
+      "timestamp": "09:56"
+    },
+    {
+      "start": 598.56,
+      "duration": 2.24,
+      "text": "if you use cloud if you use the on-prem",
+      "timestamp": "09:58"
+    },
+    {
+      "start": 600.8,
+      "duration": 2.24,
+      "text": "infrastructure it's portable to you you",
+      "timestamp": "10:00"
+    },
+    {
+      "start": 603.04,
+      "duration": 2.479,
+      "text": "basically can use SDK and API integrate",
+      "timestamp": "10:03"
+    },
+    {
+      "start": 605.519,
+      "duration": 1.921,
+      "text": "with us there's no you know there is no",
+      "timestamp": "10:05"
+    },
+    {
+      "start": 607.44,
+      "duration": 2.88,
+      "text": "port portability issue in this case and",
+      "timestamp": "10:07"
+    },
+    {
+      "start": 610.32,
+      "duration": 2.959,
+      "text": "then Kitei is working with agent",
+      "timestamp": "10:10"
+    },
+    {
+      "start": 613.279,
+      "duration": 2.881,
+      "text": "developer community as a agent developer",
+      "timestamp": "10:13"
+    },
+    {
+      "start": 616.16,
+      "duration": 2.88,
+      "text": "using kitei now you have tons of the",
+      "timestamp": "10:16"
+    },
+    {
+      "start": 619.04,
+      "duration": 2.72,
+      "text": "agent passport template you can enable",
+      "timestamp": "10:19"
+    },
+    {
+      "start": 621.76,
+      "duration": 2.079,
+      "text": "your consumer to use no matter your",
+      "timestamp": "10:21"
+    },
+    {
+      "start": 623.839,
+      "duration": 2.481,
+      "text": "consumer want to set spend limit on",
+      "timestamp": "10:23"
+    },
+    {
+      "start": 626.32,
+      "duration": 2.48,
+      "text": "daily limit on maybe send a spending",
+      "timestamp": "10:26"
+    },
+    {
+      "start": 628.8,
+      "duration": 2.08,
+      "text": "limit on certain category you have a",
+      "timestamp": "10:28"
+    },
+    {
+      "start": 630.88,
+      "duration": 2.24,
+      "text": "template to select and empower your user",
+      "timestamp": "10:30"
+    },
+    {
+      "start": 633.12,
+      "duration": 2.719,
+      "text": "to use second is that we provide",
+      "timestamp": "10:33"
+    },
+    {
+      "start": 635.839,
+      "duration": 2.56,
+      "text": "consoles the SLA template agreement",
+      "timestamp": "10:35"
+    },
+    {
+      "start": 638.399,
+      "duration": 2.641,
+      "text": "between agent to agent interaction ascro",
+      "timestamp": "10:38"
+    },
+    {
+      "start": 641.04,
+      "duration": 1.68,
+      "text": "service may be one of the standard",
+      "timestamp": "10:41"
+    },
+    {
+      "start": 642.72,
+      "duration": 1.84,
+      "text": "service you want to make sure the",
+      "timestamp": "10:42"
+    },
+    {
+      "start": 644.56,
+      "duration": 2.24,
+      "text": "service agent and client agent can reach",
+      "timestamp": "10:44"
+    },
+    {
+      "start": 646.8,
+      "duration": 2.0,
+      "text": "a prom with in this case you have to",
+      "timestamp": "10:46"
+    },
+    {
+      "start": 648.8,
+      "duration": 2.64,
+      "text": "deliver the actual concrete value before",
+      "timestamp": "10:48"
+    },
+    {
+      "start": 651.44,
+      "duration": 2.16,
+      "text": "you change ownership of payment from one",
+      "timestamp": "10:51"
+    },
+    {
+      "start": 653.6,
+      "duration": 2.799,
+      "text": "party to another party on top of this",
+      "timestamp": "10:53"
+    },
+    {
+      "start": 656.399,
+      "duration": 2.081,
+      "text": "PTI is actually working with PayPal as a",
+      "timestamp": "10:56"
+    },
+    {
+      "start": 658.48,
+      "duration": 1.599,
+      "text": "channel partner to provide the lease of",
+      "timestamp": "10:58"
+    },
+    {
+      "start": 660.079,
+      "duration": 2.561,
+      "text": "the service agent to provide in this",
+      "timestamp": "11:00"
+    },
+    {
+      "start": 662.64,
+      "duration": 1.439,
+      "text": "case so if you're a client current agent",
+      "timestamp": "11:02"
+    },
+    {
+      "start": 664.079,
+      "duration": 2.721,
+      "text": "you basically enrich your all the users",
+      "timestamp": "11:04"
+    },
+    {
+      "start": 666.8,
+      "duration": 2.4,
+      "text": "consumers for your agent to list the",
+      "timestamp": "11:06"
+    },
+    {
+      "start": 669.2,
+      "duration": 3.6,
+      "text": "service agent on the KI platform",
+      "timestamp": "11:09"
+    },
+    {
+      "start": 672.8,
+      "duration": 2.32,
+      "text": "so I'm Scott I actually spent last 15",
+      "timestamp": "11:12"
+    },
+    {
+      "start": 675.12,
+      "duration": 2.159,
+      "text": "years building foundational data and AI",
+      "timestamp": "11:15"
+    },
+    {
+      "start": 677.279,
+      "duration": 2.321,
+      "text": "infrastructure in Silicon Valley um",
+      "timestamp": "11:17"
+    },
+    {
+      "start": 679.6,
+      "duration": 2.239,
+      "text": "before Kite AI I founded a streaming DB",
+      "timestamp": "11:19"
+    },
+    {
+      "start": 681.839,
+      "duration": 2.321,
+      "text": "company and before that I actually uh",
+      "timestamp": "11:21"
+    },
+    {
+      "start": 684.16,
+      "duration": 2.56,
+      "text": "was leading the Uber data infra so I",
+      "timestamp": "11:24"
+    },
+    {
+      "start": 686.72,
+      "duration": 2.559,
+      "text": "built Uber internal skill AI from",
+      "timestamp": "11:26"
+    },
+    {
+      "start": 689.279,
+      "duration": 2.401,
+      "text": "scratch grew the team to 200 people our",
+      "timestamp": "11:29"
+    },
+    {
+      "start": 691.68,
+      "duration": 2.56,
+      "text": "team also has the best talent from the",
+      "timestamp": "11:31"
+    },
+    {
+      "start": 694.24,
+      "duration": 2.56,
+      "text": "AI expert my co-founder Chi previously",
+      "timestamp": "11:34"
+    },
+    {
+      "start": 696.8,
+      "duration": 2.479,
+      "text": "was a AI PhD from Berkeley she also was",
+      "timestamp": "11:36"
+    },
+    {
+      "start": 699.279,
+      "duration": 2.081,
+      "text": "a funding engineer from data we also",
+      "timestamp": "11:39"
+    },
+    {
+      "start": 701.36,
+      "duration": 1.84,
+      "text": "have one of the co-founder from data",
+      "timestamp": "11:41"
+    },
+    {
+      "start": 703.2,
+      "duration": 2.879,
+      "text": "joint team lead AI effort um do data is",
+      "timestamp": "11:43"
+    },
+    {
+      "start": 706.079,
+      "duration": 2.88,
+      "text": "one of the biggest autoML company we",
+      "timestamp": "11:46"
+    },
+    {
+      "start": 708.959,
+      "duration": 2.961,
+      "text": "also have a list of the um Andrews and",
+      "timestamp": "11:48"
+    },
+    {
+      "start": 711.92,
+      "duration": 2.24,
+      "text": "then AI expert and block blockchain",
+      "timestamp": "11:51"
+    },
+    {
+      "start": 714.16,
+      "duration": 2.0,
+      "text": "expert professor Dansong we're working",
+      "timestamp": "11:54"
+    },
+    {
+      "start": 716.16,
+      "duration": 2.48,
+      "text": "with Berkeley we have professor Dansson",
+      "timestamp": "11:56"
+    },
+    {
+      "start": 718.64,
+      "duration": 2.56,
+      "text": "Hayen joining from Berkeley and then you",
+      "timestamp": "11:58"
+    },
+    {
+      "start": 721.2,
+      "duration": 2.0,
+      "text": "know professor Hanson is most famous for",
+      "timestamp": "12:01"
+    },
+    {
+      "start": 723.2,
+      "duration": 2.879,
+      "text": "her like a safeguarded um safe uh safety",
+      "timestamp": "12:03"
+    },
+    {
+      "start": 726.079,
+      "duration": 2.721,
+      "text": "first AI intelligence and then we also",
+      "timestamp": "12:06"
+    },
+    {
+      "start": 728.8,
+      "duration": 1.92,
+      "text": "work with Yuka which is a professor in",
+      "timestamp": "12:08"
+    },
+    {
+      "start": 730.72,
+      "duration": 3.359,
+      "text": "UTS and also robotic lab and media's",
+      "timestamp": "12:10"
+    },
+    {
+      "start": 734.079,
+      "duration": 2.241,
+      "text": "research so if you are interesting work",
+      "timestamp": "12:14"
+    },
+    {
+      "start": 736.32,
+      "duration": 2.319,
+      "text": "with Kite reach out to me after this and",
+      "timestamp": "12:16"
+    },
+    {
+      "start": 738.639,
+      "duration": 1.841,
+      "text": "then um I'm going to stay here for 15",
+      "timestamp": "12:18"
+    },
+    {
+      "start": 740.48,
+      "duration": 1.52,
+      "text": "minutes",
+      "timestamp": "12:20"
+    },
+    {
+      "start": 742.0,
+      "duration": 3.2,
+      "text": "so Kite launched our early ecosystem",
+      "timestamp": "12:22"
+    },
+    {
+      "start": 745.2,
+      "duration": 2.96,
+      "text": "early February we already has more than",
+      "timestamp": "12:25"
+    },
+    {
+      "start": 748.16,
+      "duration": 2.16,
+      "text": "16 millions user on the Kite AI",
+      "timestamp": "12:28"
+    },
+    {
+      "start": 750.32,
+      "duration": 3.04,
+      "text": "ecosystem and then we see a tremendous",
+      "timestamp": "12:30"
+    },
+    {
+      "start": 753.36,
+      "duration": 2.56,
+      "text": "agent call in Kite AI system and we",
+      "timestamp": "12:33"
+    },
+    {
+      "start": 755.92,
+      "duration": 2.96,
+      "text": "don't see a sign of growth signness",
+      "timestamp": "12:35"
+    },
+    {
+      "start": 758.88,
+      "duration": 3.04,
+      "text": "in the growth and then um currently we",
+      "timestamp": "12:38"
+    },
+    {
+      "start": 761.92,
+      "duration": 2.159,
+      "text": "are encouraging every single agent",
+      "timestamp": "12:41"
+    },
+    {
+      "start": 764.079,
+      "duration": 2.081,
+      "text": "builder and then service provider no",
+      "timestamp": "12:44"
+    },
+    {
+      "start": 766.16,
+      "duration": 1.919,
+      "text": "matter if you provide additional data",
+      "timestamp": "12:46"
+    },
+    {
+      "start": 768.079,
+      "duration": 1.281,
+      "text": "you know for example you may have",
+      "timestamp": "12:48"
+    },
+    {
+      "start": 769.36,
+      "duration": 2.8,
+      "text": "additional data for cursor to help you",
+      "timestamp": "12:49"
+    },
+    {
+      "start": 772.16,
+      "duration": 2.72,
+      "text": "building most smarter um you know build",
+      "timestamp": "12:52"
+    },
+    {
+      "start": 774.88,
+      "duration": 1.44,
+      "text": "a smarter MVT",
+      "timestamp": "12:54"
+    },
+    {
+      "start": 776.32,
+      "duration": 2.88,
+      "text": "U map for the u for the to demo",
+      "timestamp": "12:56"
+    },
+    {
+      "start": 779.2,
+      "duration": 2.48,
+      "text": "something or or you could be like you",
+      "timestamp": "12:59"
+    },
+    {
+      "start": 781.68,
+      "duration": 2.719,
+      "text": "provide additional web coding um uh",
+      "timestamp": "13:01"
+    },
+    {
+      "start": 784.399,
+      "duration": 2.56,
+      "text": "service in this case work has come come",
+      "timestamp": "13:04"
+    },
+    {
+      "start": 786.959,
+      "duration": 1.68,
+      "text": "up you know come after this and reach",
+      "timestamp": "13:06"
+    },
+    {
+      "start": 788.639,
+      "duration": 2.961,
+      "text": "out to me that's uh that's what Kitefo",
+      "timestamp": "13:08"
+    },
+    {
+      "start": 791.6,
+      "duration": 3.039,
+      "text": "and thanks for the thanks for the thanks",
+      "timestamp": "13:11"
+    },
+    {
+      "start": 794.639,
+      "duration": 4.361,
+      "text": "for the thanks for the uh coming",
+      "timestamp": "13:14"
+    }
+  ],
+  "extraction_timestamp": "2025-06-29T21:04:35.400786",
+  "playlist_title": "SuperAI Singapore 2025: WEKA Stage"
+}

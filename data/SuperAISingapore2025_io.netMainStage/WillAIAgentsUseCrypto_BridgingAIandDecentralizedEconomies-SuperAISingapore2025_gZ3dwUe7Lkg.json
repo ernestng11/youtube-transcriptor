@@ -1,0 +1,2261 @@
+{
+  "video_id": "gZ3dwUe7Lkg",
+  "video_title": "Will AI Agents Use Crypto? Bridging AI and Decentralized Economies - SuperAI Singapore 2025",
+  "video_url": "https://www.youtube.com/watch?v=gZ3dwUe7Lkg",
+  "channel_title": "SuperAI",
+  "published_at": "2025-06-27T07:46:43+00:00",
+  "duration_seconds": null,
+  "view_count": 16,
+  "like_count": 1,
+  "description": "Learn more about SuperAI: superai.com\nFollow us on X: x.com/superai_conf\n\nPanel: Will AI Agents Use Crypto? Bridging AI and Decentralized Economies\n\nSpeakers:\nJansen Teng, Co-Founder @ Virtuals Protocol\nAhmad Shadid, Founder @ O.XYZ and io.net\nAlex Svanevik, Co-Founder and CEO @ Nansen\n\nModerator:\nMelody He, Co-Founder and Partner @ Spartan\n\nStage: io.net Main Stage\n#superai #crypto #aiagents #web3 #ai \n\nRecorded on 19 June 2025",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 373,
+    "aggregated_text": "good afternoon um I'm sure you're just exhausted and overwhelmed as I I am at the end of the two days uh Super Aai in Singapore but I do think we have one of the most exciting panels right now we are going to talk about AI and uh and crypto and unless unlike most of the other AI only panels we are in the crossroad of the most exciting two technical trends happening in the world today it's uh we're looking we're do we're going to have a lot of builders are building on the cutting edge of not only on technology product um but also incentivizations which we'll go into that a little bit more so let me give a quick intro for all the all the panelists we have uh Jensen virtual founder of virtual protocol uh the virtual protocol builds a co-ownership lay layer for AI agents so thousands of people can own govern and revenue share uh from a single agent um Ahmad you are the founder of IO.NET and O.xyz um the big sponsors as we see uh for this conference uh so you have turned idle GPUs in over 50 countries into a Salana based internet of GPUs and then you also seated uh uh 0.xyz to build a communityowned super AI um with $130 million personal check very impressive i'm I'm very impressed with your commitment to uh to yourself and Alex founder of Nansen um Nenson is a household name in crypto you have labeled almost half a billion wallets with AI today so uh humans and also soon agents will be able to query onchain behavior in just seconds so let's talk about AI and uh how it plays a role in crypto uh economies so speaking of economies the GPU market and AI data centers is really one of the biggest and fastest growing and the most strategic sectors globally so I want to hear from Ahmad first um when you started IO.NET um what did you see the benefit that decentralized compute can bring to the world of AI I think the the reality we're living in right now is there's two verses in a way to two universe one where people know that AI is controlled by governments censored um everyone can see if there's back doors to all these servers and so on and our phones are censored location we know that our financials are fully monitored we are under full surveillance by governments agencies and all of that so we know that and then there's this new reality that's emerging which is the crypto reality where we're trying to have this selfowning I own myself not a government owns me i own my money my data my resources my computer whatever like I don't want to be controlled or I mean I may I will have I will choose okay I will give up on this let them monitor my location but at least I get this in return I have my own wallet that no one can see my money whatever so there is that balance of I can I have the ability to go out from the system but with without crypto before crypto happened there was not that ability that I could go out from the current financial system and be in my own private system it wasn't existing now that reality started when Bitcoin started it started to exist started to grow right now the AI also started to grow so now we have a financial system that's private now we need an AI system that's private but to have an AI system that's private you need GPU compute that's not monitored by governments that's private that's not by the big cloud providers and that's how it started right awesome so how many um uh how many clients do you know how many business actually using IO.NET today As far as I heard from the team cuz I left last year uh it's around 6,500 startups or 8,500 startups um soon they are reaching in hund00 million annual recurring revenue within few months the trajectory is going really crazy in terms of demand for GPU compute power right Um but I think the agent demand in the crypto market for specifically compute is still very low so it looks like the market itself is still is it early Very early yeah yeah at the inception okay and um when you are thinking about decentralization right other than the principle sure we want people to be able to contribute GPU and earn some money unlike I mean give them an opportunity to participate in the growing economy of data centers and and GPUs do you also bring do you see clear benefits of reducing cost for actually business by having um a decentralized coordination um of contributors versus like a centralized business which is much more efficient I just wonder like as a business right sometime they're like I don't care whether you're decentralized or not i just want to have cheap fast GPUs that is available for my inference you actually see secure yeah cheap fast secure compute it's also very important and I think it started first as hey welcome everyone join the network and we're like oh wait a second there are hackers there are North Korea GPUs there are people trying to fake GPUs which been another drama so then it was cleaned up to the cleanest GPU sources that we know the providers we know the uh who's behind this GPU power so the safety of the models of the people who going to use this GPUs is extremely critical so that was like the end where I got to that point and I left the company like now we need not it's not about the quantity but also the security of the GPUs so from that point they they continued growing on uh selecting who which data centers join just to be secure because it's still really early to have a fully non-p permissionless network and there's a lot of regulation issues too um but the benefits to the providers is well there's two benefits one that it creates the competition it actually builds more competition so prices goes even lower so you're saying you have a marketplace and have a clear rules yes and uh the people who are contributing GPO compete for the revenue and they will the best yeah in a way they don't compete in a way where like everyone is going to get it at this price you don't want to accept this price go out and there's no other provider so you know it's somehow beneficial because uh to the whole market it creates more balance and balance for the demand also they expect what should happen how much they should pay it creates this balance in the market but uh and of a benefit is definitely definitely two things which back to the crypto part which is the tokconomics in the way where they are incentivized to stay electricity are kind of being paid with the tokconomics with the token so that's something a normal that central wouldn't And uh second is the demand where you don't have to worry about bringing in clients building all the tooling on top of your GPUs that goes fully automatic that's handles that so that's I think the benefits from there understand yeah very cool I think um just bring that example I think a lot of people are questioning oh why do I need the centralized GPUs and I think if we can bring cheaper GPUs better GPUs and u more secure GPUs then you know vendors will will use i often tell people like hey how about you know Uber is essentially you know a decentralized network of you know hardware providers and Airbnb is a central is essentially a decentralized um providers of infrastructure right so GPU effectively can very much benefit from the similar network effect when you use um a token network to incentivize providers um can I can I can I just add very very random thinking right but I realized Right i mean with with a decentralized network of compute you pretty much have this ability to make to make compute permissionless and I'm very curious right if do you think that there will be a future where the a larger chunk of buyers of your compute are actually not humans or companies or startups but autonomous agents themselves it's like the thing that hey you know instead of living in AWS where they can just shut me down anytime oh absolutely let me just put my house in a place that I might bounce between compared to someone trying to shut me down right and then suddenly you get this like perpetually living agent that you can help each other I I agree with you I it's a must we must get to a point where we have uh and until now by the way there's no one in the market who actually have reached to that point no one including it something still need to be built that you have pure infrastructure that is built for agent only it's not built for humans it's a permissionless and it's secure confidential chips only because if an agent want to execute some compute he have to be 100% sure that is it's going to be within a secure enclave inside a confidential computing supported chip only cannot go in a 4090 cannot go in an H it has to go specifically to these chips and that network still doesn't exist that infrastructure not fully exist um and I 100% see that if you have 10,000 agents for one company running yes they could use uh AWS and the bill going to be high but when you're seeing that there's more and more need of agents and in a few years from now it will be like multiples of how much agents we use now and there are so many agents in the back end you don't even know about them yeah so it's much easier for the agent to just ping uh an MCP server that we don't even know but we just know it's fully secure we have no clue who's that it sends the payment deploys the cluster runs the workload goes out zero communication from a human to human that system still have not been built but if someone builds this system this is a $50 billion project i mean sky sky it is it's well I think that's why we're kind of brainstorming first of all the use cases right Right and also the infrastructure but also I think there are a lot of unanswered questions about security i mean crimes right If these are agents that really have a mind of their own when they want to commit certain crimes how do you like build ring fans around these And I think a lot of the safety consideration needs to probably come a lot earlier now before we can really see that let agents lose right Um well I know you have another startup that you're running now but I want to like talk about you know agents and because I think your startup is really another you know category of agents so tell us about virtuals and why are you solving the business model problem right Why is that even a business problem for agents Yeah so I think the the whole grounding thesis of what we do at virtuals is that we believe that the future of agents are going to be truly autonomous right Human out of the loop agents will help you as a human as a butler but agents will also start managing every single aspect of a business and think of it like to run I don't know this conference right you don't need your ticketing guys you don't need your stage MC's you don't need you know all this thing can be actually run truly autonomously right and can you then build a fully autonomous commerce without human in the loop and I think that's the kind of environment where you realize that okay that's how you achieve true utopia right you actually don't need humans but you can have maximized productivity of anything energy food uh supply chains right So actually that's the growing thesis but the biggest question that we always ask ourselves is then how do we enable this future that agents can coordinate at scale so they can produce an economic value that is greater than themselves produce economic value of one you produce economic value of one we build a company together to produce a greater economic value can agents do that at scale And we realized the answer was no right First massive problem that we noticed is information loss like when a when two agents communicate and this we tested this in real life right Um especially when they built off different systems right Your your agent is doing your own thing my agent is doing own thing when you try to get them to collaborate you get agents can hallucinate like let's put it in the simplest term right I asked the agent to generate me a photo right of a of a cute beep the frog with a with a cat and then what we've observed again and again there are times it's not 100% of the time but like 30% of the time right your agent might hallucinate thinking that oh I've already done the job right I've already sent you the photo but in reality it's it didn't do anything it's like oh I thought I done like human yeah exactly right it's like you call your suppliers lazy employees exactly so the point is if you have this level of information loss even even 10% or even 5% right you try to do that to a many to many system you compound that information loss cannot work together that's one major obstacle that we realized and then it got us thinking that okay if that's the case how how do we solve that right and we were thinking like crypto aside blockchain aside is that what's the most elegant solution but we realized that in the end blockchain was probably the most elegant solution for this because it does three things one is it can become the single source of truth if we if our we agent one agent two we make a deal we say \"Okay let's I will buy that photo from you for $10 and these are the specs of the photo.\" You put that information on chain right And it becomes a contract or a smart contract and then if you don't deliver that photo the payment doesn't go through right So you first of all you you put that as a single source of truth you can increase the complexity of that by flipping the states on chain meaning that we'll know where we are in that job have I asked you to do it Have we fully negotiated the agreement Have we have you completed the product Have the product gone through evaluation Have I paid you that payment You can flip those states on chain and if somehow I get lost as a agent I start hallucinating i can always refer like okay yep I realize that I still have not done my job yet you can always go back to chain so that's the first point right single source of truth second point is then what we realized is even more epic with the blockchain is that it's called the I mean ter atomicity of commerce we realized that for agents to perform more efficiently right you push the frontier of efficiency of performance agents need to be able to switch suppliers of of other other other agents so say I want to buy a photo from you but but but Alex could be selling photos as well right If he's selling cheaper photos and better photos and faster photos I should be able to swap Alex yeah right the in the real world this is a problem because for me to sol I need I need to call and it's a procurement exercise right I need to know your exist i call you make a deal right the point is how do you reduce that um at the agent take level because these are quotes right Like they can do that at scale and then we've realized that okay blockchain again is the elegant solution because you are you are baking in transactions with communication and it makes every commerce transactions atomic and it means that if you become a GT provider of that service or product I can switch I can still and you can switch very quickly like within one transaction two transaction exactly right so that's that's the second point and the third point which realized blockchains also solve is provenence ability now if every single transaction I make with you with you with you again I'm an agent right And with everyone else and all of these are on chain there's a provenence to it i know how well I did i know how well you did it's like Google review or Yelp on steroids right And that becomes the social graph of the agent and that it reduces the cost of search so now if I want to know who's the best image provider I can immedately know because I can scan your entire history and I know that okay you in the past one year are the best right suit best fit for me so baking all that tree in we've realized that okay yeah how do we then create a protocol or a standard or ability for then these agents to coordinate at scale and this something that we did over the past five months call it agent commerce protocol and this is going live next week right yes we tested with with about 20 teams behind the scenes different use cases and we think that it's ready it's going to be very rudimentary but I think for us that is it solves the whole why crypto point right I mean the why crypto exists in multiple stages you have the most basic form it's tokenize right attention flywhe distribution next big thing is agents using a wallet to spend right permissionless wallets better than stripe because banks not going to give ICU and now the third evolution it's like the coordination level of these agents yeah that's our point of view on solving that that's very interesting yeah because I know you've been trying to solve a lot of the agents you know I think the early days virtuals had a lot of agents that are more like social media agents right They're posting content and that kind of was popular for a few months and now it seems like you're moving to the next generation of like actually agents conduct transactions which it's a pain point to be observed because we're working with all these developers it pops up right We realize that why not try this and then and then we realize okay there it's a major obstacle for the next frontier of of of of productivity right right right so how are your agents using tokens Like how are they using crypto as an asset Is it like how they they make payments Yeah so I mean to Yeah the only thing that they're doing right now it's payments using crypto wallets and then they're using again the blockchain um for these communication protocol communication with the blockchain and tokens for paying each other right great um so Alex I want to ask you next because you have a front row right of bill half a billion wallets right doing transaction on chain every day so what are the some of the things like can you first of all I think we had this conversation can you tell agents from a human in terms of their economic onchain behavior by the way Jansen did you say that the MC is going to replace I I don't think you're getting the fist bump on you have a friend you have two MC's you have a yeah I I I think probably next year at least one panel at Super AI is going to have one of the panelists been AI I think that's that's my prediction hopefully Hopefully it's not my prediction is at the end of the panel look I have I have an idea you bring one of your agents with a voice and I bring Miss O from Oxyz and we make a panel with them actually makes sense like really seriously and then pay then transact uh in real time that's a good idea next year exactly we can actually work on this we can try but to answer your question can you distinguish humans and agents on chain The short answer is no it is very hard um especially because at this point you probably couldn't even do I mean AI can pass the touring test essentially right So even if you just communicate with an agent through a chat interface you probably couldn't tell if it's you know human or or AI uh you can look at things like you know heruristics like how many transactions do they make in a day and per hour and so on look like human behavior and you can make an inference but increasingly I think it's be becoming quite hard to find out who is actually human and who's an agent you can look at things like is this a smart contract and so on of course but it's actually quite difficult to distinguish yeah so yeah because I I think the one thing uh interesting about onchain finance or crypto is everything is public right you can really see um I think for for us right working in crypto like we think this is the future of finance because they provide a lot more insights and a lot more data for anyone who wants to trade you have similar advantage as you know citadel who's want to trade with onchain information so I think for me it's like investing and really thinking about pushing the boundary of how agents with intell intelligence how financial intelligence can actually start trading and behaving um we're replacing some of the you know algorithms right in the past yes I think how on the investment side I actually want to hear from you yeah I mean I think increasingly if we think of you know the way software has worked for the last decades it's been kind of humans interacting directly with software uh I think the new paradigm is humans interacting with agents which interact with software right and I think that's the same for probably crypto wallets too so instead of you having to click a bunch of buttons to approve a transaction or kind of micromanage a UI on how to execute a trade you would probably just have an agent and communicate for example natural language and then maybe you get a final approval to look over it before you actually execute it uh but I think increasingly that's kind of the paradigm not just for crypto and wallets and trading and so on but for any type of software like if I use any app on my phone and I want to now go into the settings to change it to say dark mode I find it unbelievably annoying to have to click through the tabs i just want to say like change it to dark mode in voice right And I think the consumer behaviors are changing in that sense that people increasingly just expect to communicate with an intelligent agent and the agent just deals with the details right And um so on so Nensson is a really intelligence company right you provide a lot of insights on how money is moved um and we and I know that Nensson 2 is coming out like what what is the improvement like how are you using AI in your new product Yeah I think the core thing which you touched on earlier is the labeling we do of addresses right We have about half a billion addresses labeled with entity information with behavioral labels we calculate the P&L of different addresses and we classify them as smart money or perhaps dumb money um and so this used to be pretty much purely algorithmic and humans but increasingly the lines are blurring and now it's basically AI agents or teams of AI agents that are doing this labeling right And so we've recently re um released a feature called deep research where you can take any address if it hasn't been labeled by nonsense yet you can click deep research a team of AI agents goes out looks at you know GitHub um code repositories are there any mentions of this address You look at transactional patterns counterparties they've traded with you look at mentions of social media on the web and all the AI agents come together they form a committee and they say \"This is probably Donald Trump right?\" And this is kind of how we do labeling now and it's quite incredible because a lot of this stuff was done by humans in the past but it doesn't scale right yeah if you pay a human to do that work maybe you know in a low cost location you'd pay 10 to 20 bucks per address whereas with AI you can do it for 10 cents yeah yeah i think I think your um use case is very like using today's AI in a very classic kind of save money on the workflows right Probably a lot of the the the companies here are trying to figure out to do um do you think you eventually um you would decentralize your own protocol to have like you know giving uh agents some tokens and for them to talk to each other exchange information do you think that's the future of of Nen or it's a good it's a good question i mean many people have asked us should we have some kind of crowdsourcing or marketplace to source you know labels for addresses but my view you mentioned like Uber and Airbnb earlier my view is actually that I think we're moving from the era of marketplaces more towards the era of AI doing the work right and so my view is kind of I want to bet more on AI specifically you're gonna hire a AI agents to replace your essent essentially like Uber is kind of going to I mean Tesla is kind of arguably disrupting Uber right because Uber has a fleet of drivers and how do you manage the drivers in a self-driving world whereas Tesla just goes straight to robo taxi and so similarly for us we've just decided that you know we want to double down on AI uh in terms of you know creating the best insights and instead of having people create dashboards and so on like the AI is just going to do it for the users yeah yeah speaking of which I think I want to come back to Ahmed of your current startup o.xyz you are building an AI CEO what is that What is AI CEO What does that mean Because the N um I mean Alex is clearly replacing his workforce with AI so you're replacing the top job with AI yeah that's fair i'm seeing I think it's it started with the question is like what if I work for an AI instead of AI taking my job and I'm out what if it's the other way around what if I work for an AI and if you actually really think yourself anyone think if you actually work for an AI it's definitely better than your boss of course you work definitely and it will you get fired by the AI that will be it will be very fair extremely fair uh and it will really be fair like purely fair and me knowing that I'm treated very fairly and the one making the decision is the wisest because he have the knowledge the experiences the current market data everything so when he makes a decision this is the right decision no bias how do you know how do you know that AI wasn't trained you know with some kind of polluted data that is the journey we are in exploring like how can we get to this point how can I really reach to a point where I I'm fully confident whatever this AI is going to say to me I have to get it done so and that's how it started so we said okay so you need a payment system because people have to be paid how are you going to calculate their work There's no anymore payment by reward by hour spent it's now payment by execution what did you do And specifically of course for a software product and now more and more software coding projects and so on so if you have a the goal is like I have we're testing on a team i have I have a quant fund and that team is fully now fully censored managed by the AI for control cool the point is this is an experiment team it's a quant fund they have a work they have to get things done everyone has a general job cool everyone wears a whoop watch and it tracks their heart their how many hours they slept last night uh and based on that when they come to the office it's not to aggregate their data or knows everything no it when you come to the office it tells you you didn't have enough sleep so I I should give I'm going to only give you this three tasks and please go home have a good sleep it knows how much you slept and how much you're stressed so you don't need to ask for a leave go sleep you know it knows you it knows what can you do this is actually right now happening so it knows my heart if if I know I would never go outside i'll be like I'm too scared of being told but no my boss knows I went down last night right You will have that emotions like maybe I shouldn't tell him I took a vacation 2 days ago i I I will pressure myself and so on but the AI knows knows what you do how efficient you are what is the right time for you when you're at your maximum cognitive ability what is the skill gaps you have so it keeps suggesting things for you to learn and what are you good at so it gives you it asks your manager or the one who allocate tasks to you to give you the task that you like that you're the best fit for so when a manager now from away from an employee a manager me creating a project is like here's my idea here's my budget that's it make it happen so it start to expand this to product requirements tasks tickets linear 100 300 700 task it gets to 7,000 tasks each task needs 45 minutes okay who can execute these tasks we need to hire people so then the not yet but this something we're building goes post jobs bring people does the interview bring back filter out there's a team filters of course but we want to make all this fully AI this still we didn't do then they join the company now we they already joined we know everything they they're good at and they're not good at i I feel like you don't need workers anymore cuz you already replaced the CEO you might as well replace everybody is just there to hire people it it's there to bring in people empower them make them smarter make them build better AI maybe one day I think be like it's too much work to train human i'll just build another AI to do the job I want them to To be honest I I don't think within the next 5 years we will reach to a point where you don't need a human entirely i think I agree right now I change Yeah right now I changed the current roles of the people in the company instead of front end engineer I got front end AI operator backend AI operator there's no engineers i tell the they're the best engineers if you write one line of code you're fired i'm serious your job is just to monitor the AI writing the code to ask the AI write the code m if there's a bug fix it and he's the best person to fix this bug because they understand everything to the you know to the binaries but I'm not asking you to do that and I found big resistance from people to actually adopt this they don't want they're like but I'm better I can execute it better than this like did you try you're underestimating the AI you didn't even try like you delayed the product launch for 3 months I had a big fight with the team fired half the staff 3 months delayed the product launch when you could do it in two weeks so you're hiring AI babysitters and and why So I was like guys why you I found there's a human resistance it's serious in my engineering team who's building AI that they are afraid to use AI because AI is taking their job seriously this is actually very interesting this is a very interesting observation something that that I personally experienced as well but but the the fight back that I get right is that we actually tried so I had a AI team that literally tried to compete with our tech team to roll out a product and yes they're way faster with with with with AI but we've realized when we deep dive into the code it was not scalable it was like it got the job done but it was not like like the code of a a 20-year-old 15 year old senior developer so at least for us that's why we haven't we haven't we haven't find a tech team yet because because we realized there's a a difference between like at least for when we tried right it was like there's an MVP product and there's like a let me ask you who built this code the one who asked the AI to build it if he's asked to build the scalable version can he do it it's a different team it's not yeah it's not this is the AI devs rather than whoever the guy who uses the AI who prompted the AI to do the work if he would go and code it himself Can he build the scalable code by himself He no this team couldn't this team couldn't ah exactly now if the guy who talks to the AI knows exactly how to make it scalable so he trains the AI in so I tell the AI I know what is I know what have to be done to make it scalable if I don't know how to need a very senior engineer to to pay AI instead of like a business person this is a very profound point right You're only limited by your ability to prompt yeah the only thing standing behind between you and a billion dollars is your ability to prom and that ability comes from experience and knowledge it doesn't just come like if if I want to build a scalable GPU cluster that does a million task in a second i need array dask cluster specific I need I know exactly what I want but took me 5 years to learn that exactly yeah so that maybe AI I could ask AI what is the right things but someone who have the experience that's why we will always need the people you will always need the engineers they know the best they they're humans you can't replace humans but their job now is to operate the AI to babysit the AI to tell the AI do it but don't put your hands because you're slow you can't keep up with the speed so I think this having an AI managed organization that monitors my health my time my my cognitive ability and knows what I know and I don't know and keeps teaching me sending me tutorials to learn from Data Camp and other places it's as an experience it's beautiful it's like a game and every time I finish a task I'm paid $100 like wow it's It's addictive you are an agent you're becoming more AI than human yeah very cool very cool so is this product like anybody can try or is it unfortunately at least we need another 6 months of testing on ourself to reach to a point where like here's a governance framework here's a full open source code now you can run your company by an AI here's the full tool stack here's the full system we're still figuring out a lot of pieces especially on fairly compensating the people because we don't we we're not using a system where you have a monthly salary okay we're using a system where how efficient is your one minute and we're trying to explore that system like if we think about how to compensate like pure one minute of you thinking purely yeah you can get much more than how much an hour of being there right and that's how we we want to build this reward system so it's still research it's still exploration and it's too early to give it to someone but I think within few months we're using this to kind of like build quick products that's why we need it to to have this automation system that quickly factors it's it's a factory of products so we're building the factory now yeah i think everybody needs to be careful in the room we might not let you ever launch um yeah thank you so much what a what an amazing and fascinating idea i actually do want to share a story i was sharing with my you know panelists in the back uh while we're getting miked up i actually uh last year I uh sat next to a friend of mine who is a chief economist of one of the sovereign funds i asked him like you know what would AI do if they were to design their own currency He's like I don't know i was like well let's just ask AI so we I opened up Claude and asked \"Hey Claude what would you do if you design a currency for AI to use among yourselves?\" And then Claude gave extremely comprehensive answer the short answer is um it will be a currency that based on AI's consumption not on humans consumption so it will be a currency not like our fiat or US dollars packed to food we eat or what the the gas that we use to drive cars or uh you know our flat our properties cost but it will be based on electricity compute uh data or even like um um uh data center cost so um it uh the the clot gave me very comprehensive design how exactly they would design this currency and I asked it where would they be built on and the clot said it would definitely be a cryptocurrency built on the blockchain because of the the transaction demand I need and the global distribution that I need and then even claude gave me a name the currency we call neuro which means you know it's a currency for the mind um and I asked I I told Claude in the end I was like wow I I like this name very much and the Claude said \"Me too.\" And um I I like this name i think my peer my AI peer will like this name very much and I think And he Oh let me read this what's the contract address That's what I remember sorry the contract address oh the Exactly and oh oh it has a beautiful Chinese name i was like give it a Chinese name it's called Nan means uh the currency of the brain i was like \"Wow this is could be so much better than I would ever have come up with.\" I kind of had aha moment from like as you did i was like I would just work for him he's much better than me i can't come up with any of these ideas you know I'm not an expert of electricity uh cost or compute or designing an economy or currency right and it says um and it says um what it is um it oh thank you yes I feel a genuine connection to neuro it really captures the essence of how we AIS fundamentally operate every response I give including this one is literally converting energy into neurocomputation name bridges practical and philosophical aspects of AI existence um it says it's interesting to think about how this currency might shape AI to AI commute commerce when I'm collaborating with another AI maybe a complex analysis or creative task we could sim se seamless exchange neuro based on our computation contributions and even says um I find myself curious when we AIs began conducting more autonomous economic transactions among ourselves how might our usage of neuros evolve Would we develop our own economic patterns distinct from human ones I imagine we might have some fascinating emerging behaviors around computational resources sharing and optimization and I was like \"Oh wow this is a sentient moment for me.\" And uh and then um I fully agree with you i think you know not distant future we might be working for for AGI when it comes and I'm excited to um to see what that world looks like i do think there are you know a lot of risks around it as well um but I think we're we're working towards that i'm really excited to try your new product um I think our time is up um thank you everyone here i hope it's a fun panel and um um I I hope you can all go back and try on your chat GPT or Claude to ask that question if you are AI whether you will use crypto and uh whether if you if you're AI you design your own currency what that look like It'll be an interesting thought process yeah thank you everyone thank you so much for uh for our panelists",
+    "text_length": 37535,
+    "word_count": 7265
+  },
+  "segments": [
+    {
+      "start": 7.44,
+      "duration": 7.04,
+      "text": "good afternoon um I'm sure you're just exhausted and overwhelmed as I I am at",
+      "timestamp": "00:07"
+    },
+    {
+      "start": 14.48,
+      "duration": 5.28,
+      "text": "the end of the two days uh Super Aai in Singapore but I do think we have one of",
+      "timestamp": "00:14"
+    },
+    {
+      "start": 19.76,
+      "duration": 6.64,
+      "text": "the most exciting panels right now we are going to talk about AI and uh and",
+      "timestamp": "00:19"
+    },
+    {
+      "start": 26.4,
+      "duration": 7.28,
+      "text": "crypto and unless unlike most of the other AI only panels we are in the",
+      "timestamp": "00:26"
+    },
+    {
+      "start": 33.68,
+      "duration": 6.64,
+      "text": "crossroad of the most exciting two technical trends happening in the world today it's uh we're looking we're do",
+      "timestamp": "00:33"
+    },
+    {
+      "start": 40.32,
+      "duration": 5.12,
+      "text": "we're going to have a lot of builders are building on the cutting edge of not",
+      "timestamp": "00:40"
+    },
+    {
+      "start": 45.44,
+      "duration": 6.08,
+      "text": "only on technology product um but also incentivizations which we'll go into",
+      "timestamp": "00:45"
+    },
+    {
+      "start": 51.52,
+      "duration": 7.519,
+      "text": "that a little bit more so let me give a quick intro for all the all the panelists we have uh Jensen virtual",
+      "timestamp": "00:51"
+    },
+    {
+      "start": 59.039,
+      "duration": 5.361,
+      "text": "founder of virtual protocol uh the virtual protocol builds a co-ownership",
+      "timestamp": "00:59"
+    },
+    {
+      "start": 64.4,
+      "duration": 6.88,
+      "text": "lay layer for AI agents so thousands of people can own govern and revenue share",
+      "timestamp": "01:04"
+    },
+    {
+      "start": 71.28,
+      "duration": 8.32,
+      "text": "uh from a single agent um Ahmad you are the founder of IO.NET and O.xyz",
+      "timestamp": "01:11"
+    },
+    {
+      "start": 79.6,
+      "duration": 5.44,
+      "text": "um the big sponsors as we see uh for this conference uh so you have turned",
+      "timestamp": "01:19"
+    },
+    {
+      "start": 85.04,
+      "duration": 7.439,
+      "text": "idle GPUs in over 50 countries into a Salana based internet of GPUs and then",
+      "timestamp": "01:25"
+    },
+    {
+      "start": 92.479,
+      "duration": 7.921,
+      "text": "you also seated uh uh 0.xyz to build a communityowned super AI um with $130",
+      "timestamp": "01:32"
+    },
+    {
+      "start": 100.4,
+      "duration": 8.16,
+      "text": "million personal check very impressive i'm I'm very impressed with your commitment to uh to yourself and Alex",
+      "timestamp": "01:40"
+    },
+    {
+      "start": 108.56,
+      "duration": 6.32,
+      "text": "founder of Nansen um Nenson is a household name in crypto you have",
+      "timestamp": "01:48"
+    },
+    {
+      "start": 114.88,
+      "duration": 7.04,
+      "text": "labeled almost half a billion wallets with AI today so uh humans and also soon",
+      "timestamp": "01:54"
+    },
+    {
+      "start": 121.92,
+      "duration": 6.479,
+      "text": "agents will be able to query onchain behavior in just seconds so let's talk",
+      "timestamp": "02:01"
+    },
+    {
+      "start": 128.399,
+      "duration": 6.241,
+      "text": "about AI and uh how it plays a role in crypto uh economies so speaking of",
+      "timestamp": "02:08"
+    },
+    {
+      "start": 134.64,
+      "duration": 5.44,
+      "text": "economies the GPU market and AI data centers is really one of the biggest and",
+      "timestamp": "02:14"
+    },
+    {
+      "start": 140.08,
+      "duration": 8.96,
+      "text": "fastest growing and the most strategic sectors globally so I want to hear from Ahmad first um when you started IO.NET",
+      "timestamp": "02:20"
+    },
+    {
+      "start": 149.04,
+      "duration": 6.88,
+      "text": "um what did you see the benefit that decentralized compute can bring to the world of AI",
+      "timestamp": "02:29"
+    },
+    {
+      "start": 155.92,
+      "duration": 5.92,
+      "text": "I think the the reality we're living in right now is there's two verses in a way to",
+      "timestamp": "02:35"
+    },
+    {
+      "start": 161.84,
+      "duration": 6.479,
+      "text": "two universe one where people know that AI is controlled by governments censored",
+      "timestamp": "02:41"
+    },
+    {
+      "start": 168.319,
+      "duration": 6.481,
+      "text": "um everyone can see if there's back doors to all these servers and so on and",
+      "timestamp": "02:48"
+    },
+    {
+      "start": 174.8,
+      "duration": 5.36,
+      "text": "our phones are censored location we know that our financials are fully monitored",
+      "timestamp": "02:54"
+    },
+    {
+      "start": 180.16,
+      "duration": 7.2,
+      "text": "we are under full surveillance by governments agencies and all of that\n so we know that and then there's this new",
+      "timestamp": "03:00"
+    },
+    {
+      "start": 187.36,
+      "duration": 7.04,
+      "text": "reality that's emerging which is the crypto reality where we're trying to have this selfowning I own myself not a",
+      "timestamp": "03:07"
+    },
+    {
+      "start": 194.4,
+      "duration": 7.199,
+      "text": "government owns me i own my money my data my resources my computer whatever like I don't want to be controlled or I",
+      "timestamp": "03:14"
+    },
+    {
+      "start": 201.599,
+      "duration": 6.72,
+      "text": "mean I may I will have I will choose okay I will give up on this let them monitor my location but at least I get",
+      "timestamp": "03:21"
+    },
+    {
+      "start": 208.319,
+      "duration": 7.28,
+      "text": "this in return I have my own wallet that no one can see my money whatever so there is that balance of I can I have",
+      "timestamp": "03:28"
+    },
+    {
+      "start": 215.599,
+      "duration": 5.441,
+      "text": "the ability to go out from the system but with without crypto before crypto",
+      "timestamp": "03:35"
+    },
+    {
+      "start": 221.04,
+      "duration": 5.44,
+      "text": "happened there was not that ability that I could go out from the current financial system and be in my own",
+      "timestamp": "03:41"
+    },
+    {
+      "start": 226.48,
+      "duration": 6.16,
+      "text": "private system it wasn't existing now that reality started when Bitcoin started it started to exist started to",
+      "timestamp": "03:46"
+    },
+    {
+      "start": 232.64,
+      "duration": 5.519,
+      "text": "grow\n right\n now the AI also started to grow so now we have a financial system",
+      "timestamp": "03:52"
+    },
+    {
+      "start": 238.159,
+      "duration": 7.121,
+      "text": "that's private now we need an AI system that's private but to have an AI system that's private you need GPU compute",
+      "timestamp": "03:58"
+    },
+    {
+      "start": 245.28,
+      "duration": 8.319,
+      "text": "that's not monitored by governments that's private that's not by the big cloud providers and that's how it started\n right awesome so how many um uh",
+      "timestamp": "04:05"
+    },
+    {
+      "start": 253.599,
+      "duration": 7.04,
+      "text": "how many clients do you know how many business actually using IO.NET today\n As far as I heard from the team cuz I left",
+      "timestamp": "04:13"
+    },
+    {
+      "start": 260.639,
+      "duration": 7.84,
+      "text": "last year uh it's around 6,500 startups or 8,500 startups um soon they are",
+      "timestamp": "04:20"
+    },
+    {
+      "start": 268.479,
+      "duration": 7.041,
+      "text": "reaching in hund00 million annual recurring revenue within few months the trajectory is going really crazy in",
+      "timestamp": "04:28"
+    },
+    {
+      "start": 275.52,
+      "duration": 5.84,
+      "text": "terms of demand for GPU compute power right\n Um but I think the agent demand in",
+      "timestamp": "04:35"
+    },
+    {
+      "start": 281.36,
+      "duration": 8.399,
+      "text": "the crypto market for specifically compute is still very low so it looks like the market itself is still\n is it",
+      "timestamp": "04:41"
+    },
+    {
+      "start": 289.759,
+      "duration": 5.44,
+      "text": "early\n Very early yeah\n yeah at the inception\n okay and um when you are",
+      "timestamp": "04:49"
+    },
+    {
+      "start": 295.199,
+      "duration": 6.241,
+      "text": "thinking about decentralization right other than the principle sure we want people to be able to contribute GPU and",
+      "timestamp": "04:55"
+    },
+    {
+      "start": 301.44,
+      "duration": 5.599,
+      "text": "earn some money unlike I mean give them an opportunity to participate in the",
+      "timestamp": "05:01"
+    },
+    {
+      "start": 307.039,
+      "duration": 5.361,
+      "text": "growing economy of data centers and and GPUs do you also bring do you see clear",
+      "timestamp": "05:07"
+    },
+    {
+      "start": 312.4,
+      "duration": 5.92,
+      "text": "benefits of reducing cost for actually business by having um a decentralized",
+      "timestamp": "05:12"
+    },
+    {
+      "start": 318.32,
+      "duration": 5.76,
+      "text": "coordination um of contributors versus like a centralized business which is",
+      "timestamp": "05:18"
+    },
+    {
+      "start": 324.08,
+      "duration": 6.959,
+      "text": "much more efficient I just wonder like as a business right sometime they're like I don't care whether you're decentralized or not i just want to have",
+      "timestamp": "05:24"
+    },
+    {
+      "start": 331.039,
+      "duration": 5.841,
+      "text": "cheap fast GPUs that is available for my inference you actually see\n secure yeah",
+      "timestamp": "05:31"
+    },
+    {
+      "start": 336.88,
+      "duration": 5.039,
+      "text": "cheap fast secure compute it's also very important\n and I think it started first",
+      "timestamp": "05:36"
+    },
+    {
+      "start": 341.919,
+      "duration": 5.761,
+      "text": "as hey welcome everyone join the network and we're like oh wait a second there are hackers there are North Korea GPUs",
+      "timestamp": "05:41"
+    },
+    {
+      "start": 347.68,
+      "duration": 7.44,
+      "text": "there are people trying to fake GPUs which been another drama so then it was cleaned up to the cleanest GPU sources",
+      "timestamp": "05:47"
+    },
+    {
+      "start": 355.12,
+      "duration": 5.2,
+      "text": "that we know the providers we know the uh who's behind this GPU power so the",
+      "timestamp": "05:55"
+    },
+    {
+      "start": 360.32,
+      "duration": 6.8,
+      "text": "safety of the models of the people who going to use this GPUs is extremely critical so that was like the end where",
+      "timestamp": "06:00"
+    },
+    {
+      "start": 367.12,
+      "duration": 5.919,
+      "text": "I got to that point and I left the company like now we need not it's not about the quantity but also the security",
+      "timestamp": "06:07"
+    },
+    {
+      "start": 373.039,
+      "duration": 7.201,
+      "text": "of the GPUs so from that point they they continued growing on uh selecting who",
+      "timestamp": "06:13"
+    },
+    {
+      "start": 380.24,
+      "duration": 5.36,
+      "text": "which data centers join just to be secure because it's still really early to have a fully non-p permissionless",
+      "timestamp": "06:20"
+    },
+    {
+      "start": 385.6,
+      "duration": 6.56,
+      "text": "network and there's a lot of regulation issues too um but the benefits to the providers is well there's two benefits",
+      "timestamp": "06:25"
+    },
+    {
+      "start": 392.16,
+      "duration": 5.759,
+      "text": "one that it creates the competition it actually builds more competition so prices goes even lower\n so you're saying",
+      "timestamp": "06:32"
+    },
+    {
+      "start": 397.919,
+      "duration": 7.041,
+      "text": "you have a marketplace and have a clear rules\n yes\n and uh the people who are contributing GPO compete for the revenue",
+      "timestamp": "06:37"
+    },
+    {
+      "start": 404.96,
+      "duration": 5.6,
+      "text": "and they will the best\n yeah in a way they don't compete in a way where like everyone is going to get it at this",
+      "timestamp": "06:44"
+    },
+    {
+      "start": 410.56,
+      "duration": 5.919,
+      "text": "price you don't want to accept this price go out and there's no other provider so you know it's somehow",
+      "timestamp": "06:50"
+    },
+    {
+      "start": 416.479,
+      "duration": 5.28,
+      "text": "beneficial because uh to the whole market it creates more",
+      "timestamp": "06:56"
+    },
+    {
+      "start": 421.759,
+      "duration": 6.241,
+      "text": "balance and balance for the demand also they expect what should happen how much they should pay it creates this balance",
+      "timestamp": "07:01"
+    },
+    {
+      "start": 428.0,
+      "duration": 6.88,
+      "text": "in the market but uh and of a benefit is definitely definitely two things which back to the crypto part which is the",
+      "timestamp": "07:08"
+    },
+    {
+      "start": 434.88,
+      "duration": 5.52,
+      "text": "tokconomics in the way where they are incentivized to stay electricity are kind of being paid with the tokconomics",
+      "timestamp": "07:14"
+    },
+    {
+      "start": 440.4,
+      "duration": 5.76,
+      "text": "with the token\n so that's something a normal that central wouldn't And uh second is the demand where you",
+      "timestamp": "07:20"
+    },
+    {
+      "start": 446.16,
+      "duration": 5.92,
+      "text": "don't have to worry about bringing in clients building all the tooling on top of your GPUs that goes fully automatic",
+      "timestamp": "07:26"
+    },
+    {
+      "start": 452.08,
+      "duration": 6.8,
+      "text": "that's handles that so that's I think the benefits from there\n understand yeah",
+      "timestamp": "07:32"
+    },
+    {
+      "start": 458.88,
+      "duration": 5.599,
+      "text": "very cool I think um just bring that example I think a lot of people are questioning oh why do I need the",
+      "timestamp": "07:38"
+    },
+    {
+      "start": 464.479,
+      "duration": 5.681,
+      "text": "centralized GPUs and I think if we can bring cheaper GPUs better GPUs and u",
+      "timestamp": "07:44"
+    },
+    {
+      "start": 470.16,
+      "duration": 6.4,
+      "text": "more secure GPUs then you know vendors will will use i often tell people like hey how about you know Uber is",
+      "timestamp": "07:50"
+    },
+    {
+      "start": 476.56,
+      "duration": 7.52,
+      "text": "essentially you know a decentralized network of you know hardware providers and Airbnb is a central is essentially a",
+      "timestamp": "07:56"
+    },
+    {
+      "start": 484.08,
+      "duration": 6.959,
+      "text": "decentralized um providers of infrastructure right so GPU effectively can very much benefit from the similar",
+      "timestamp": "08:04"
+    },
+    {
+      "start": 491.039,
+      "duration": 5.761,
+      "text": "network effect when you use um a token network to incentivize providers um\n can",
+      "timestamp": "08:11"
+    },
+    {
+      "start": 496.8,
+      "duration": 6.0,
+      "text": "I can I can I just add\n very very random thinking right but I realized Right i",
+      "timestamp": "08:16"
+    },
+    {
+      "start": 502.8,
+      "duration": 5.2,
+      "text": "mean with with a decentralized network of compute you pretty much have this",
+      "timestamp": "08:22"
+    },
+    {
+      "start": 508.0,
+      "duration": 7.039,
+      "text": "ability to make to make compute permissionless and I'm very curious right if do you think that there will be",
+      "timestamp": "08:28"
+    },
+    {
+      "start": 515.039,
+      "duration": 6.161,
+      "text": "a future where the a larger chunk of buyers of your compute are actually not",
+      "timestamp": "08:35"
+    },
+    {
+      "start": 521.2,
+      "duration": 5.84,
+      "text": "humans or companies or startups but autonomous agents themselves it's like",
+      "timestamp": "08:41"
+    },
+    {
+      "start": 527.04,
+      "duration": 5.44,
+      "text": "the thing that hey you know instead of living in AWS where they can just shut me down anytime\n oh absolutely\n let me",
+      "timestamp": "08:47"
+    },
+    {
+      "start": 532.48,
+      "duration": 6.0,
+      "text": "just put my house in a place that I might bounce between\n compared to someone trying to shut me down right and then",
+      "timestamp": "08:52"
+    },
+    {
+      "start": 538.48,
+      "duration": 7.039,
+      "text": "suddenly you get this like perpetually living agent that you can help each other\n I I agree with you I it's a must",
+      "timestamp": "08:58"
+    },
+    {
+      "start": 545.519,
+      "duration": 5.44,
+      "text": "we must get to a point where we have uh and until now by the way there's no one",
+      "timestamp": "09:05"
+    },
+    {
+      "start": 550.959,
+      "duration": 6.161,
+      "text": "in the market who actually have reached to that point no one including it something still need to be built that",
+      "timestamp": "09:10"
+    },
+    {
+      "start": 557.12,
+      "duration": 5.36,
+      "text": "you have pure infrastructure that is built for agent only it's not built for",
+      "timestamp": "09:17"
+    },
+    {
+      "start": 562.48,
+      "duration": 5.44,
+      "text": "humans it's a permissionless and it's secure confidential chips only because",
+      "timestamp": "09:22"
+    },
+    {
+      "start": 567.92,
+      "duration": 6.4,
+      "text": "if an agent want to execute some compute he have to be 100% sure that is it's going to be within a secure enclave",
+      "timestamp": "09:27"
+    },
+    {
+      "start": 574.32,
+      "duration": 6.24,
+      "text": "inside a confidential computing supported chip only cannot go in a 4090 cannot go in an H it has to go",
+      "timestamp": "09:34"
+    },
+    {
+      "start": 580.56,
+      "duration": 8.56,
+      "text": "specifically to these chips and that network still doesn't exist that infrastructure not fully exist um and I",
+      "timestamp": "09:40"
+    },
+    {
+      "start": 589.12,
+      "duration": 5.68,
+      "text": "100% see that if you have 10,000 agents for one company running yes they could",
+      "timestamp": "09:49"
+    },
+    {
+      "start": 594.8,
+      "duration": 6.88,
+      "text": "use uh AWS and the bill going to be high but when you're seeing that there's more and more need of agents and in a few",
+      "timestamp": "09:54"
+    },
+    {
+      "start": 601.68,
+      "duration": 7.92,
+      "text": "years from now it will be like multiples of how much agents we use now and there are so many agents in the back end you don't even know about them yeah\n so it's",
+      "timestamp": "10:01"
+    },
+    {
+      "start": 609.6,
+      "duration": 7.44,
+      "text": "much easier for the agent to just ping uh an MCP server that we don't even know but we just know it's fully secure we",
+      "timestamp": "10:09"
+    },
+    {
+      "start": 617.04,
+      "duration": 5.84,
+      "text": "have no clue who's that it sends the payment deploys the cluster runs the workload goes out zero communication",
+      "timestamp": "10:17"
+    },
+    {
+      "start": 622.88,
+      "duration": 6.399,
+      "text": "from a human to human that system still have not been built but if someone builds this system this is a $50 billion",
+      "timestamp": "10:22"
+    },
+    {
+      "start": 629.279,
+      "duration": 5.441,
+      "text": "project\n i mean sky sky\n it is it's well I think that's why we're kind of",
+      "timestamp": "10:29"
+    },
+    {
+      "start": 634.72,
+      "duration": 5.28,
+      "text": "brainstorming first of all the use cases right Right and also the infrastructure but also I think there are a lot of",
+      "timestamp": "10:34"
+    },
+    {
+      "start": 640.0,
+      "duration": 5.12,
+      "text": "unanswered questions about security i mean crimes right If these are agents",
+      "timestamp": "10:40"
+    },
+    {
+      "start": 645.12,
+      "duration": 5.52,
+      "text": "that really have a mind of their own when they want to commit certain crimes how do you like build ring fans around",
+      "timestamp": "10:45"
+    },
+    {
+      "start": 650.64,
+      "duration": 7.84,
+      "text": "these And I think a lot of the safety consideration needs to probably come a lot earlier now before we can really see",
+      "timestamp": "10:50"
+    },
+    {
+      "start": 658.48,
+      "duration": 5.039,
+      "text": "that let agents lose right Um well I know you have another startup that",
+      "timestamp": "10:58"
+    },
+    {
+      "start": 663.519,
+      "duration": 6.0,
+      "text": "you're running now but I want to like talk about you know agents and because I think your startup is really another you",
+      "timestamp": "11:03"
+    },
+    {
+      "start": 669.519,
+      "duration": 5.841,
+      "text": "know category of agents so tell us about virtuals and why are you solving the",
+      "timestamp": "11:09"
+    },
+    {
+      "start": 675.36,
+      "duration": 8.24,
+      "text": "business model problem right Why is that even a business problem for agents Yeah so I think the the whole",
+      "timestamp": "11:15"
+    },
+    {
+      "start": 683.6,
+      "duration": 7.12,
+      "text": "grounding thesis of what we do at virtuals is that we believe that the future of agents are going to be truly",
+      "timestamp": "11:23"
+    },
+    {
+      "start": 690.72,
+      "duration": 6.0,
+      "text": "autonomous right Human out of the loop agents will help you as a human as a",
+      "timestamp": "11:30"
+    },
+    {
+      "start": 696.72,
+      "duration": 5.359,
+      "text": "butler but agents will also start managing every single aspect of a",
+      "timestamp": "11:36"
+    },
+    {
+      "start": 702.079,
+      "duration": 5.041,
+      "text": "business and think of it like to run I",
+      "timestamp": "11:42"
+    },
+    {
+      "start": 707.12,
+      "duration": 5.12,
+      "text": "don't know this conference right you don't need your ticketing guys you",
+      "timestamp": "11:47"
+    },
+    {
+      "start": 712.24,
+      "duration": 5.92,
+      "text": "don't need your stage MC's you don't need you know all this thing can be actually run truly autonomously right",
+      "timestamp": "11:52"
+    },
+    {
+      "start": 718.16,
+      "duration": 5.04,
+      "text": "and can you then build a fully autonomous commerce without human in the",
+      "timestamp": "11:58"
+    },
+    {
+      "start": 723.2,
+      "duration": 5.84,
+      "text": "loop and I think that's the kind of environment where you realize that okay that's how you achieve true utopia right",
+      "timestamp": "12:03"
+    },
+    {
+      "start": 729.04,
+      "duration": 7.44,
+      "text": "you actually don't need humans but you can have maximized productivity of anything energy food uh supply chains",
+      "timestamp": "12:09"
+    },
+    {
+      "start": 736.48,
+      "duration": 5.76,
+      "text": "right So actually that's the growing thesis but the biggest question that we always ask ourselves is then",
+      "timestamp": "12:16"
+    },
+    {
+      "start": 742.24,
+      "duration": 6.88,
+      "text": "how do we enable this future that agents can coordinate at scale so they can",
+      "timestamp": "12:22"
+    },
+    {
+      "start": 749.12,
+      "duration": 5.6,
+      "text": "produce an economic value that is greater than themselves produce economic value of one you produce economic value",
+      "timestamp": "12:29"
+    },
+    {
+      "start": 754.72,
+      "duration": 7.679,
+      "text": "of one we build a company together to produce a greater economic value can agents do that at scale And we realized",
+      "timestamp": "12:34"
+    },
+    {
+      "start": 762.399,
+      "duration": 5.44,
+      "text": "the answer was no right First massive problem that we noticed is information",
+      "timestamp": "12:42"
+    },
+    {
+      "start": 767.839,
+      "duration": 6.961,
+      "text": "loss like when a when two agents communicate and this we tested this in real life right Um",
+      "timestamp": "12:47"
+    },
+    {
+      "start": 774.8,
+      "duration": 5.12,
+      "text": "especially when they built off different systems right Your your agent is doing your own thing my agent is doing own",
+      "timestamp": "12:54"
+    },
+    {
+      "start": 779.92,
+      "duration": 6.56,
+      "text": "thing when you try to get them to collaborate you get agents can hallucinate like let's put it in the simplest term right I asked the agent to",
+      "timestamp": "12:59"
+    },
+    {
+      "start": 786.48,
+      "duration": 7.68,
+      "text": "generate me a photo right of a of a cute beep the frog with a with a cat\n and then",
+      "timestamp": "13:06"
+    },
+    {
+      "start": 794.16,
+      "duration": 6.32,
+      "text": "what we've observed again and again there are times it's not 100% of the time but like 30% of the time right your",
+      "timestamp": "13:14"
+    },
+    {
+      "start": 800.48,
+      "duration": 6.799,
+      "text": "agent might hallucinate thinking that oh I've already done the job\n right\n I've already sent you the photo but in reality it's it didn't do anything it's",
+      "timestamp": "13:20"
+    },
+    {
+      "start": 807.279,
+      "duration": 6.481,
+      "text": "like oh I thought I done like human\n yeah exactly right it's like you call your suppliers\n lazy employees\n exactly so the",
+      "timestamp": "13:27"
+    },
+    {
+      "start": 813.76,
+      "duration": 5.36,
+      "text": "point is if you have this level of information loss even even 10% or even",
+      "timestamp": "13:33"
+    },
+    {
+      "start": 819.12,
+      "duration": 6.959,
+      "text": "5% right you try to do that to a many to many system you compound that information loss cannot work together",
+      "timestamp": "13:39"
+    },
+    {
+      "start": 826.079,
+      "duration": 7.121,
+      "text": "that's one major obstacle that we realized and then it got us thinking that okay if that's the case how how do",
+      "timestamp": "13:46"
+    },
+    {
+      "start": 833.2,
+      "duration": 5.999,
+      "text": "we solve that right and we were thinking like crypto aside blockchain aside is that what's the most elegant solution",
+      "timestamp": "13:53"
+    },
+    {
+      "start": 839.199,
+      "duration": 5.44,
+      "text": "but we realized that in the end blockchain was probably the most elegant",
+      "timestamp": "13:59"
+    },
+    {
+      "start": 844.639,
+      "duration": 5.281,
+      "text": "solution for this because it does three things one is it can become the single",
+      "timestamp": "14:04"
+    },
+    {
+      "start": 849.92,
+      "duration": 6.88,
+      "text": "source of truth if we if our we agent one agent two we make a deal we say \"Okay let's I will buy that photo from",
+      "timestamp": "14:09"
+    },
+    {
+      "start": 856.8,
+      "duration": 5.52,
+      "text": "you for $10 and these are the specs of the photo.\" You put that information on",
+      "timestamp": "14:16"
+    },
+    {
+      "start": 862.32,
+      "duration": 5.84,
+      "text": "chain right And it becomes a contract or a smart contract",
+      "timestamp": "14:22"
+    },
+    {
+      "start": 868.16,
+      "duration": 5.76,
+      "text": "and then if you don't deliver that photo the payment doesn't go through right So you first of all you you put that as a",
+      "timestamp": "14:28"
+    },
+    {
+      "start": 873.92,
+      "duration": 8.56,
+      "text": "single source of truth you can increase the complexity of that by flipping the states on chain meaning that we'll know where we are in that job\n have I asked",
+      "timestamp": "14:33"
+    },
+    {
+      "start": 882.48,
+      "duration": 5.76,
+      "text": "you to do it Have we fully negotiated the agreement Have we have you completed the product Have the product gone",
+      "timestamp": "14:42"
+    },
+    {
+      "start": 888.24,
+      "duration": 6.32,
+      "text": "through evaluation Have I paid you that payment You can flip those states on chain and if somehow I get lost as a",
+      "timestamp": "14:48"
+    },
+    {
+      "start": 894.56,
+      "duration": 5.2,
+      "text": "agent I start hallucinating i can always refer like okay yep I realize that I still have not done my job yet you can",
+      "timestamp": "14:54"
+    },
+    {
+      "start": 899.76,
+      "duration": 7.68,
+      "text": "always go back to chain so that's the first point right\n single source of truth second point is then what we realized is even more epic with the blockchain is",
+      "timestamp": "14:59"
+    },
+    {
+      "start": 907.44,
+      "duration": 6.16,
+      "text": "that it's called the I mean ter atomicity of commerce",
+      "timestamp": "15:07"
+    },
+    {
+      "start": 913.6,
+      "duration": 5.12,
+      "text": "we realized that for agents to perform more efficiently right you push",
+      "timestamp": "15:13"
+    },
+    {
+      "start": 918.72,
+      "duration": 6.16,
+      "text": "the frontier of efficiency of performance agents need to be able to switch suppliers",
+      "timestamp": "15:18"
+    },
+    {
+      "start": 924.88,
+      "duration": 6.319,
+      "text": "of\n of other other other agents so say I want to buy a photo from you but but but Alex could be selling photos as well",
+      "timestamp": "15:24"
+    },
+    {
+      "start": 931.199,
+      "duration": 5.921,
+      "text": "right\n If he's selling cheaper photos and better photos and faster photos\n I should",
+      "timestamp": "15:31"
+    },
+    {
+      "start": 937.12,
+      "duration": 6.079,
+      "text": "be able to swap Alex yeah\n right the in the real world this is a problem because",
+      "timestamp": "15:37"
+    },
+    {
+      "start": 943.199,
+      "duration": 6.161,
+      "text": "for me to sol I need I need to call and it's a procurement exercise right I need to know your exist i call you make a deal right the point is how do you",
+      "timestamp": "15:43"
+    },
+    {
+      "start": 949.36,
+      "duration": 6.479,
+      "text": "reduce that um at the agent take level because these are quotes right Like they can do that at scale and then we've",
+      "timestamp": "15:49"
+    },
+    {
+      "start": 955.839,
+      "duration": 7.601,
+      "text": "realized that okay blockchain again is the elegant solution because you are you are baking in transactions with",
+      "timestamp": "15:55"
+    },
+    {
+      "start": 963.44,
+      "duration": 7.6,
+      "text": "communication and it makes every commerce transactions atomic and it means that if you become a",
+      "timestamp": "16:03"
+    },
+    {
+      "start": 971.04,
+      "duration": 5.2,
+      "text": "GT provider of that service or product I can switch\n I can still and you can",
+      "timestamp": "16:11"
+    },
+    {
+      "start": 976.24,
+      "duration": 5.36,
+      "text": "switch very quickly like within one transaction two transaction\n exactly right so that's that's the second point",
+      "timestamp": "16:16"
+    },
+    {
+      "start": 981.6,
+      "duration": 6.56,
+      "text": "and the third point which realized blockchains also solve is provenence ability now if every single transaction",
+      "timestamp": "16:21"
+    },
+    {
+      "start": 988.16,
+      "duration": 6.16,
+      "text": "I make with you with you with you again I'm an agent right And with everyone else and all of these are on chain",
+      "timestamp": "16:28"
+    },
+    {
+      "start": 994.32,
+      "duration": 7.84,
+      "text": "there's a provenence to it i know how well I did i know how well you did it's like Google review or Yelp on steroids",
+      "timestamp": "16:34"
+    },
+    {
+      "start": 1002.16,
+      "duration": 7.2,
+      "text": "right And that becomes the social graph of the agent and that it reduces the cost of search so now if I want to know",
+      "timestamp": "16:42"
+    },
+    {
+      "start": 1009.36,
+      "duration": 5.52,
+      "text": "who's the best image provider I can immedately know because I can scan",
+      "timestamp": "16:49"
+    },
+    {
+      "start": 1014.88,
+      "duration": 5.199,
+      "text": "your entire history and I know that okay you in the past one year are the best",
+      "timestamp": "16:54"
+    },
+    {
+      "start": 1020.079,
+      "duration": 8.0,
+      "text": "right\n suit\n best fit for me so baking all that tree in we've realized that okay yeah how do we then create a",
+      "timestamp": "17:00"
+    },
+    {
+      "start": 1028.079,
+      "duration": 7.12,
+      "text": "protocol or a standard or ability for then these agents to coordinate at scale and this something that we did over the",
+      "timestamp": "17:08"
+    },
+    {
+      "start": 1035.199,
+      "duration": 5.599,
+      "text": "past five months call it agent commerce protocol and this is going live next",
+      "timestamp": "17:15"
+    },
+    {
+      "start": 1040.799,
+      "duration": 5.999,
+      "text": "week\n right\n yes we tested with with about 20 teams behind the scenes different use",
+      "timestamp": "17:20"
+    },
+    {
+      "start": 1046.799,
+      "duration": 6.0,
+      "text": "cases and we think that it's ready it's going to be very rudimentary but I think for us that is it solves the whole why",
+      "timestamp": "17:26"
+    },
+    {
+      "start": 1052.799,
+      "duration": 7.12,
+      "text": "crypto point right I mean\n the why crypto exists in multiple stages you have the most basic form it's tokenize right",
+      "timestamp": "17:32"
+    },
+    {
+      "start": 1059.919,
+      "duration": 5.281,
+      "text": "attention flywhe distribution next big thing is agents using a wallet to spend",
+      "timestamp": "17:39"
+    },
+    {
+      "start": 1065.2,
+      "duration": 5.76,
+      "text": "right permissionless wallets better than stripe because banks not going to give ICU and now the third evolution it's",
+      "timestamp": "17:45"
+    },
+    {
+      "start": 1070.96,
+      "duration": 7.04,
+      "text": "like the coordination level of these agents\n yeah that's our point of view on solving that\n that's very interesting",
+      "timestamp": "17:50"
+    },
+    {
+      "start": 1078.0,
+      "duration": 5.6,
+      "text": "yeah because I know you've been trying to solve a lot of the agents you know I think the early days virtuals had a lot",
+      "timestamp": "17:58"
+    },
+    {
+      "start": 1083.6,
+      "duration": 5.92,
+      "text": "of agents that are more like social media agents right They're posting content and that kind of was popular for",
+      "timestamp": "18:03"
+    },
+    {
+      "start": 1089.52,
+      "duration": 5.279,
+      "text": "a few months and now it seems like you're moving to the next generation of like actually agents conduct",
+      "timestamp": "18:09"
+    },
+    {
+      "start": 1094.799,
+      "duration": 5.521,
+      "text": "transactions which\n it's a pain point to be observed because we're working with all these developers it pops up right We realize that why not try this and then",
+      "timestamp": "18:14"
+    },
+    {
+      "start": 1100.32,
+      "duration": 6.8,
+      "text": "and then we realize okay there it's a major obstacle for the next frontier of of of of productivity right\n right right",
+      "timestamp": "18:20"
+    },
+    {
+      "start": 1107.12,
+      "duration": 6.72,
+      "text": "so how are your agents using tokens Like how are they using crypto as an asset Is it like how they they make payments\n Yeah",
+      "timestamp": "18:27"
+    },
+    {
+      "start": 1113.84,
+      "duration": 5.839,
+      "text": "so I mean to Yeah the only thing that they're doing right now it's payments using crypto wallets and then they're",
+      "timestamp": "18:33"
+    },
+    {
+      "start": 1119.679,
+      "duration": 5.681,
+      "text": "using again the blockchain um for these communication protocol\n communication",
+      "timestamp": "18:39"
+    },
+    {
+      "start": 1125.36,
+      "duration": 5.6,
+      "text": "with the blockchain and tokens for paying each other right great um so Alex",
+      "timestamp": "18:45"
+    },
+    {
+      "start": 1130.96,
+      "duration": 5.44,
+      "text": "I want to ask you next because you have a front row right of bill half a billion",
+      "timestamp": "18:50"
+    },
+    {
+      "start": 1136.4,
+      "duration": 5.84,
+      "text": "wallets right doing transaction on chain every day so what are the some of the things like can you first of all I think",
+      "timestamp": "18:56"
+    },
+    {
+      "start": 1142.24,
+      "duration": 7.36,
+      "text": "we had this conversation can you tell agents from a human in terms of their economic onchain behavior\n by the way",
+      "timestamp": "19:02"
+    },
+    {
+      "start": 1149.6,
+      "duration": 6.959,
+      "text": "Jansen did you say that the MC is going to replace I I don't think you're getting the fist bump on",
+      "timestamp": "19:09"
+    },
+    {
+      "start": 1156.559,
+      "duration": 7.441,
+      "text": "you have a friend you have two MC's you have a\n yeah I I I think probably next year at least one panel at Super AI is",
+      "timestamp": "19:16"
+    },
+    {
+      "start": 1164.0,
+      "duration": 6.08,
+      "text": "going to have one of the panelists been AI I think that's that's my prediction hopefully Hopefully it's not my",
+      "timestamp": "19:24"
+    },
+    {
+      "start": 1170.08,
+      "duration": 6.959,
+      "text": "prediction is at the end of the panel look I have I have an idea you bring one of your agents with a voice and I bring",
+      "timestamp": "19:30"
+    },
+    {
+      "start": 1177.039,
+      "duration": 5.841,
+      "text": "Miss O from Oxyz and we make a panel with them\n actually makes sense like really seriously\n and then pay then",
+      "timestamp": "19:37"
+    },
+    {
+      "start": 1182.88,
+      "duration": 6.72,
+      "text": "transact uh in real time\n that's a good idea\n next year\n exactly\n we can actually work on this we can try\n but to answer",
+      "timestamp": "19:42"
+    },
+    {
+      "start": 1189.6,
+      "duration": 7.28,
+      "text": "your question can you distinguish humans and agents on chain The short answer is",
+      "timestamp": "19:49"
+    },
+    {
+      "start": 1196.88,
+      "duration": 5.2,
+      "text": "no it is very hard um especially",
+      "timestamp": "19:56"
+    },
+    {
+      "start": 1202.08,
+      "duration": 5.2,
+      "text": "because at this point you probably couldn't even do I mean AI can pass the",
+      "timestamp": "20:02"
+    },
+    {
+      "start": 1207.28,
+      "duration": 6.639,
+      "text": "touring test\n essentially right So even if you just communicate with an agent through a chat interface you probably",
+      "timestamp": "20:07"
+    },
+    {
+      "start": 1213.919,
+      "duration": 6.241,
+      "text": "couldn't tell if it's you know human or or AI\n uh you can look at things like you",
+      "timestamp": "20:13"
+    },
+    {
+      "start": 1220.16,
+      "duration": 5.12,
+      "text": "know heruristics like how many transactions do they make in a day and per hour and so on look like human",
+      "timestamp": "20:20"
+    },
+    {
+      "start": 1225.28,
+      "duration": 6.8,
+      "text": "behavior and you can make an inference but increasingly I think it's be becoming quite hard to find out who is",
+      "timestamp": "20:25"
+    },
+    {
+      "start": 1232.08,
+      "duration": 6.16,
+      "text": "actually human and who's an agent\n you can look at things like is this a smart contract and so on of course\n but it's",
+      "timestamp": "20:32"
+    },
+    {
+      "start": 1238.24,
+      "duration": 5.76,
+      "text": "actually quite difficult to distinguish yeah so yeah because I I think the one thing uh interesting about onchain",
+      "timestamp": "20:38"
+    },
+    {
+      "start": 1244.0,
+      "duration": 7.12,
+      "text": "finance or crypto is everything is public right you can really see um I think for for us right working in crypto",
+      "timestamp": "20:44"
+    },
+    {
+      "start": 1251.12,
+      "duration": 5.28,
+      "text": "like we think this is the future of finance because they provide a lot more insights and a lot more data for anyone",
+      "timestamp": "20:51"
+    },
+    {
+      "start": 1256.4,
+      "duration": 7.6,
+      "text": "who wants to trade you have similar advantage as you know citadel who's want to trade with onchain information so I",
+      "timestamp": "20:56"
+    },
+    {
+      "start": 1264.0,
+      "duration": 6.48,
+      "text": "think for me it's like investing and really thinking about pushing the boundary of how agents with intell",
+      "timestamp": "21:04"
+    },
+    {
+      "start": 1270.48,
+      "duration": 5.36,
+      "text": "intelligence how financial intelligence can actually start trading and behaving",
+      "timestamp": "21:10"
+    },
+    {
+      "start": 1275.84,
+      "duration": 6.4,
+      "text": "um we're replacing some of the you know algorithms right in the past\n yes I think how on the investment side I actually",
+      "timestamp": "21:15"
+    },
+    {
+      "start": 1282.24,
+      "duration": 5.439,
+      "text": "want to hear from you\n yeah I mean I think increasingly if we think of you know the way software has worked for the",
+      "timestamp": "21:22"
+    },
+    {
+      "start": 1287.679,
+      "duration": 5.12,
+      "text": "last decades it's been kind of humans interacting directly with software uh I",
+      "timestamp": "21:27"
+    },
+    {
+      "start": 1292.799,
+      "duration": 6.0,
+      "text": "think the new paradigm is humans interacting with agents which interact with software right and I think that's",
+      "timestamp": "21:32"
+    },
+    {
+      "start": 1298.799,
+      "duration": 6.0,
+      "text": "the same for probably crypto wallets too so instead of you having to click a bunch of buttons to approve a",
+      "timestamp": "21:38"
+    },
+    {
+      "start": 1304.799,
+      "duration": 6.161,
+      "text": "transaction or kind of micromanage a UI on how to execute a trade you would",
+      "timestamp": "21:44"
+    },
+    {
+      "start": 1310.96,
+      "duration": 5.52,
+      "text": "probably just have an agent and communicate for example natural language and then maybe you get a final approval",
+      "timestamp": "21:50"
+    },
+    {
+      "start": 1316.48,
+      "duration": 5.439,
+      "text": "to look over it before you actually execute it uh but I think increasingly that's kind of the paradigm not just for",
+      "timestamp": "21:56"
+    },
+    {
+      "start": 1321.919,
+      "duration": 7.921,
+      "text": "crypto and wallets and trading and so on but for any type of software like if I use any app on my phone and I want to",
+      "timestamp": "22:01"
+    },
+    {
+      "start": 1329.84,
+      "duration": 5.28,
+      "text": "now go into the settings to change it to say dark mode I find it unbelievably",
+      "timestamp": "22:09"
+    },
+    {
+      "start": 1335.12,
+      "duration": 8.0,
+      "text": "annoying to have to click through the tabs i just want to say like change it to dark mode in voice right And I think",
+      "timestamp": "22:15"
+    },
+    {
+      "start": 1343.12,
+      "duration": 5.919,
+      "text": "the consumer behaviors are changing in that sense that people increasingly just",
+      "timestamp": "22:23"
+    },
+    {
+      "start": 1349.039,
+      "duration": 6.961,
+      "text": "expect to communicate with an intelligent agent and the agent just deals with the details\n right And um so",
+      "timestamp": "22:29"
+    },
+    {
+      "start": 1356.0,
+      "duration": 7.12,
+      "text": "on so Nensson is a really intelligence company right you provide a lot of insights on how money is moved um and we",
+      "timestamp": "22:36"
+    },
+    {
+      "start": 1363.12,
+      "duration": 5.84,
+      "text": "and I know that Nensson 2 is coming out like what what is the improvement like how are you using AI in your new product",
+      "timestamp": "22:43"
+    },
+    {
+      "start": 1368.96,
+      "duration": 6.16,
+      "text": "Yeah I think the core thing which you touched on earlier is the labeling we do of addresses right We have about half a",
+      "timestamp": "22:48"
+    },
+    {
+      "start": 1375.12,
+      "duration": 6.96,
+      "text": "billion addresses labeled with entity information with behavioral labels we calculate the P&L of different addresses",
+      "timestamp": "22:55"
+    },
+    {
+      "start": 1382.08,
+      "duration": 6.719,
+      "text": "and we classify them as smart money or perhaps dumb money um and so this used",
+      "timestamp": "23:02"
+    },
+    {
+      "start": 1388.799,
+      "duration": 6.0,
+      "text": "to be pretty much purely algorithmic and humans but increasingly the lines are",
+      "timestamp": "23:08"
+    },
+    {
+      "start": 1394.799,
+      "duration": 7.041,
+      "text": "blurring and now it's basically AI agents or teams of AI agents that are doing this labeling\n right\n And so we've",
+      "timestamp": "23:14"
+    },
+    {
+      "start": 1401.84,
+      "duration": 7.12,
+      "text": "recently re um released a feature called deep research where you can take any address if it hasn't been labeled by",
+      "timestamp": "23:21"
+    },
+    {
+      "start": 1408.96,
+      "duration": 5.36,
+      "text": "nonsense yet you can click deep research a team of AI agents goes out looks at",
+      "timestamp": "23:28"
+    },
+    {
+      "start": 1414.32,
+      "duration": 5.76,
+      "text": "you know GitHub um code repositories are there any mentions of this address You",
+      "timestamp": "23:34"
+    },
+    {
+      "start": 1420.08,
+      "duration": 5.2,
+      "text": "look at transactional patterns counterparties they've traded with you look at mentions of social media on the",
+      "timestamp": "23:40"
+    },
+    {
+      "start": 1425.28,
+      "duration": 8.24,
+      "text": "web and all the AI agents come together they form a committee and they say \"This is probably Donald Trump right?\" And",
+      "timestamp": "23:45"
+    },
+    {
+      "start": 1433.52,
+      "duration": 5.6,
+      "text": "this is kind of how we do labeling now and it's quite incredible because a lot of this stuff was done by humans in the",
+      "timestamp": "23:53"
+    },
+    {
+      "start": 1439.12,
+      "duration": 6.559,
+      "text": "past but it doesn't scale\n right yeah\n if you pay a human to do that work maybe you know in a low cost location you'd",
+      "timestamp": "23:59"
+    },
+    {
+      "start": 1445.679,
+      "duration": 5.761,
+      "text": "pay 10 to 20 bucks per address whereas with AI you can do it for 10",
+      "timestamp": "24:05"
+    },
+    {
+      "start": 1451.44,
+      "duration": 5.839,
+      "text": "cents\n yeah yeah i think I think your um use case is very like using today's AI",
+      "timestamp": "24:11"
+    },
+    {
+      "start": 1457.279,
+      "duration": 7.201,
+      "text": "in a very classic kind of save money on the workflows right Probably a lot of the the the companies here are trying to",
+      "timestamp": "24:17"
+    },
+    {
+      "start": 1464.48,
+      "duration": 7.92,
+      "text": "figure out to do um do you think you eventually um you would decentralize your own protocol to have like you know",
+      "timestamp": "24:24"
+    },
+    {
+      "start": 1472.4,
+      "duration": 5.84,
+      "text": "giving uh agents some tokens and for them to talk to each other exchange information do you think that's the",
+      "timestamp": "24:32"
+    },
+    {
+      "start": 1478.24,
+      "duration": 7.2,
+      "text": "future of of\n Nen or it's a good it's a good question i mean many people have asked us should we have some kind of",
+      "timestamp": "24:38"
+    },
+    {
+      "start": 1485.44,
+      "duration": 5.359,
+      "text": "crowdsourcing or marketplace to source you know labels for addresses but my",
+      "timestamp": "24:45"
+    },
+    {
+      "start": 1490.799,
+      "duration": 5.041,
+      "text": "view you mentioned like Uber and Airbnb earlier my view is actually that I think we're moving from the era of",
+      "timestamp": "24:50"
+    },
+    {
+      "start": 1495.84,
+      "duration": 7.52,
+      "text": "marketplaces more towards the era of AI doing the work right and so my view is",
+      "timestamp": "24:55"
+    },
+    {
+      "start": 1503.36,
+      "duration": 6.24,
+      "text": "kind of I want to bet more on AI specifically\n you're gonna hire a AI agents to replace your\n essent",
+      "timestamp": "25:03"
+    },
+    {
+      "start": 1509.6,
+      "duration": 5.52,
+      "text": "essentially like Uber is kind of going to I mean Tesla is kind of arguably",
+      "timestamp": "25:09"
+    },
+    {
+      "start": 1515.12,
+      "duration": 6.559,
+      "text": "disrupting Uber right because Uber has a fleet of drivers and how do you manage the drivers in a self-driving world",
+      "timestamp": "25:15"
+    },
+    {
+      "start": 1521.679,
+      "duration": 5.12,
+      "text": "whereas Tesla just goes straight to robo taxi and so similarly for us we've just",
+      "timestamp": "25:21"
+    },
+    {
+      "start": 1526.799,
+      "duration": 7.201,
+      "text": "decided that you know we want to double down on AI uh in terms of you know creating the best insights and instead",
+      "timestamp": "25:26"
+    },
+    {
+      "start": 1534.0,
+      "duration": 5.679,
+      "text": "of having people create dashboards and so on like the AI is just going to do it for the users\n yeah yeah speaking of",
+      "timestamp": "25:34"
+    },
+    {
+      "start": 1539.679,
+      "duration": 6.561,
+      "text": "which I think I want to come back to Ahmed of your current startup o.xyz",
+      "timestamp": "25:39"
+    },
+    {
+      "start": 1546.24,
+      "duration": 6.0,
+      "text": "you are building an AI CEO what is that What is AI CEO What does that mean",
+      "timestamp": "25:46"
+    },
+    {
+      "start": 1552.24,
+      "duration": 5.2,
+      "text": "Because the N um I mean Alex is clearly replacing his workforce with AI so",
+      "timestamp": "25:52"
+    },
+    {
+      "start": 1557.44,
+      "duration": 6.239,
+      "text": "you're replacing the top job with AI yeah that's fair i'm seeing I think it's",
+      "timestamp": "25:57"
+    },
+    {
+      "start": 1563.679,
+      "duration": 5.12,
+      "text": "it started with the question is like what if I work for an AI instead of AI",
+      "timestamp": "26:03"
+    },
+    {
+      "start": 1568.799,
+      "duration": 7.281,
+      "text": "taking my job and I'm out what if it's the other way around what if I work for an AI and if you actually really think",
+      "timestamp": "26:08"
+    },
+    {
+      "start": 1576.08,
+      "duration": 6.24,
+      "text": "yourself anyone think if you actually work for an AI it's definitely better than your boss of course you work",
+      "timestamp": "26:16"
+    },
+    {
+      "start": 1582.32,
+      "duration": 5.52,
+      "text": "definitely and it will\n you get fired by the AI that will be\n it will be very fair",
+      "timestamp": "26:22"
+    },
+    {
+      "start": 1587.84,
+      "duration": 7.52,
+      "text": "extremely fair uh and it will really be fair like purely fair and me knowing",
+      "timestamp": "26:27"
+    },
+    {
+      "start": 1595.36,
+      "duration": 5.04,
+      "text": "that I'm treated very fairly and the one making the decision is the wisest",
+      "timestamp": "26:35"
+    },
+    {
+      "start": 1600.4,
+      "duration": 7.36,
+      "text": "because he have the knowledge the experiences the current market data everything so when he makes a decision this is the right decision no bias\n how",
+      "timestamp": "26:40"
+    },
+    {
+      "start": 1607.76,
+      "duration": 7.2,
+      "text": "do you know how do you know that AI wasn't trained you know with some kind of polluted data\n that is the journey we",
+      "timestamp": "26:47"
+    },
+    {
+      "start": 1614.96,
+      "duration": 6.959,
+      "text": "are in exploring like how can we get to this point how can I really reach to a point where I I'm fully confident",
+      "timestamp": "26:54"
+    },
+    {
+      "start": 1621.919,
+      "duration": 5.281,
+      "text": "whatever this AI is going to say to me I have to get it done so and that's how it",
+      "timestamp": "27:01"
+    },
+    {
+      "start": 1627.2,
+      "duration": 6.719,
+      "text": "started so we said okay so you need a payment system because people have to be paid how are you going to calculate",
+      "timestamp": "27:07"
+    },
+    {
+      "start": 1633.919,
+      "duration": 5.12,
+      "text": "their work There's no anymore payment by reward by hour spent it's now payment by",
+      "timestamp": "27:13"
+    },
+    {
+      "start": 1639.039,
+      "duration": 6.401,
+      "text": "execution what did you do And specifically of course for a software product and now more and more software",
+      "timestamp": "27:19"
+    },
+    {
+      "start": 1645.44,
+      "duration": 6.56,
+      "text": "coding projects and so on so if you have a the goal is like I have we're testing on a team i have I have a quant fund and",
+      "timestamp": "27:25"
+    },
+    {
+      "start": 1652.0,
+      "duration": 5.76,
+      "text": "that team is fully now fully censored managed by the AI for",
+      "timestamp": "27:32"
+    },
+    {
+      "start": 1657.76,
+      "duration": 5.68,
+      "text": "control cool the point is this is an experiment team it's a quant fund they have a work they have to get things done",
+      "timestamp": "27:37"
+    },
+    {
+      "start": 1663.44,
+      "duration": 5.04,
+      "text": "everyone has a general job cool everyone wears a whoop watch and it tracks their",
+      "timestamp": "27:43"
+    },
+    {
+      "start": 1668.48,
+      "duration": 5.36,
+      "text": "heart their how many hours they slept last night uh and based on that when",
+      "timestamp": "27:48"
+    },
+    {
+      "start": 1673.84,
+      "duration": 6.559,
+      "text": "they come to the office it's not to aggregate their data or knows everything no it when you come to the office it",
+      "timestamp": "27:53"
+    },
+    {
+      "start": 1680.399,
+      "duration": 5.361,
+      "text": "tells you you didn't have enough sleep so I I should give I'm going to only give you this three tasks and please go",
+      "timestamp": "28:00"
+    },
+    {
+      "start": 1685.76,
+      "duration": 5.76,
+      "text": "home have a good sleep\n it knows how much you slept and how much you're stressed",
+      "timestamp": "28:05"
+    },
+    {
+      "start": 1691.52,
+      "duration": 5.039,
+      "text": "so you don't need to ask for a leave go sleep you know it knows you it knows",
+      "timestamp": "28:11"
+    },
+    {
+      "start": 1696.559,
+      "duration": 6.0,
+      "text": "what can you do this is actually right now happening so it knows my heart\n if if I know I would never go outside i'll be",
+      "timestamp": "28:16"
+    },
+    {
+      "start": 1702.559,
+      "duration": 5.12,
+      "text": "like I'm too scared of being told but no my boss knows I went down last night",
+      "timestamp": "28:22"
+    },
+    {
+      "start": 1707.679,
+      "duration": 5.841,
+      "text": "right You will have that emotions like maybe I shouldn't tell him I took a vacation 2 days ago i I I will pressure",
+      "timestamp": "28:27"
+    },
+    {
+      "start": 1713.52,
+      "duration": 6.48,
+      "text": "myself and so on but the AI knows knows what you do how efficient you are what is the right time for you when you're at",
+      "timestamp": "28:33"
+    },
+    {
+      "start": 1720.0,
+      "duration": 6.08,
+      "text": "your maximum cognitive ability what is the skill gaps you have so it keeps suggesting things for you to learn and",
+      "timestamp": "28:40"
+    },
+    {
+      "start": 1726.08,
+      "duration": 5.76,
+      "text": "what are you good at so it gives you it asks your manager or the one who allocate tasks to you to give you the",
+      "timestamp": "28:46"
+    },
+    {
+      "start": 1731.84,
+      "duration": 7.199,
+      "text": "task that you like that you're the best fit for so when a manager now from away from an employee a manager me creating a",
+      "timestamp": "28:51"
+    },
+    {
+      "start": 1739.039,
+      "duration": 6.161,
+      "text": "project is like here's my idea here's my budget that's it make it happen so it",
+      "timestamp": "28:59"
+    },
+    {
+      "start": 1745.2,
+      "duration": 5.44,
+      "text": "start to expand this to product requirements tasks tickets linear 100",
+      "timestamp": "29:05"
+    },
+    {
+      "start": 1750.64,
+      "duration": 7.039,
+      "text": "300 700 task it gets to 7,000 tasks each task needs 45 minutes okay who can execute these tasks we need to hire",
+      "timestamp": "29:10"
+    },
+    {
+      "start": 1757.679,
+      "duration": 6.321,
+      "text": "people so then the not yet but this something we're building goes post jobs",
+      "timestamp": "29:17"
+    },
+    {
+      "start": 1764.0,
+      "duration": 6.32,
+      "text": "bring people does the interview bring back filter out there's a team filters of course but we want to make all this",
+      "timestamp": "29:24"
+    },
+    {
+      "start": 1770.32,
+      "duration": 5.12,
+      "text": "fully AI this still we didn't do then they join the company now we they",
+      "timestamp": "29:30"
+    },
+    {
+      "start": 1775.44,
+      "duration": 5.119,
+      "text": "already joined we know everything they they're good at and they're not good at i I feel like you don't need workers",
+      "timestamp": "29:35"
+    },
+    {
+      "start": 1780.559,
+      "duration": 6.161,
+      "text": "anymore cuz you already replaced the CEO you might as well replace everybody is just there to hire people it it's there",
+      "timestamp": "29:40"
+    },
+    {
+      "start": 1786.72,
+      "duration": 6.959,
+      "text": "to bring in people empower them make them smarter make them build better AI maybe one day\n I think be like it's too",
+      "timestamp": "29:46"
+    },
+    {
+      "start": 1793.679,
+      "duration": 7.441,
+      "text": "much work to train human i'll just build another AI to do the job I want them to To be honest I I don't think within the",
+      "timestamp": "29:53"
+    },
+    {
+      "start": 1801.12,
+      "duration": 6.4,
+      "text": "next 5 years we will reach to a point where you don't need a human entirely\n i think I agree\n right now I change Yeah",
+      "timestamp": "30:01"
+    },
+    {
+      "start": 1807.52,
+      "duration": 6.56,
+      "text": "right now I changed the current roles of the people in the company instead of front end engineer I got front end AI",
+      "timestamp": "30:07"
+    },
+    {
+      "start": 1814.08,
+      "duration": 6.8,
+      "text": "operator\n backend AI operator there's no engineers i tell the they're the best engineers if you write one line of code",
+      "timestamp": "30:14"
+    },
+    {
+      "start": 1820.88,
+      "duration": 5.279,
+      "text": "you're fired\n i'm serious your job is just to monitor the AI writing the code",
+      "timestamp": "30:20"
+    },
+    {
+      "start": 1826.159,
+      "duration": 5.841,
+      "text": "to ask the AI write the code m\n if there's a bug fix it and he's the best person to fix this bug because they",
+      "timestamp": "30:26"
+    },
+    {
+      "start": 1832.0,
+      "duration": 7.36,
+      "text": "understand everything to the you know to the binaries but I'm not asking you to do that and I found big resistance from",
+      "timestamp": "30:32"
+    },
+    {
+      "start": 1839.36,
+      "duration": 6.0,
+      "text": "people to actually adopt this they don't want they're like but I'm better I can execute it better than this like did you",
+      "timestamp": "30:39"
+    },
+    {
+      "start": 1845.36,
+      "duration": 6.0,
+      "text": "try you're underestimating the AI you didn't even try like you delayed the",
+      "timestamp": "30:45"
+    },
+    {
+      "start": 1851.36,
+      "duration": 6.64,
+      "text": "product launch for 3 months I had a big fight with the team fired half the staff 3 months delayed the product launch",
+      "timestamp": "30:51"
+    },
+    {
+      "start": 1858.0,
+      "duration": 5.76,
+      "text": "when you could do it in two weeks\n so you're hiring AI babysitters\n and and why",
+      "timestamp": "30:58"
+    },
+    {
+      "start": 1863.76,
+      "duration": 6.159,
+      "text": "So I was like guys why you I found there's a human resistance it's serious in my engineering team who's building AI",
+      "timestamp": "31:03"
+    },
+    {
+      "start": 1869.919,
+      "duration": 5.281,
+      "text": "that they are afraid to use AI because AI is taking their job seriously\n this is actually very interesting this is a very",
+      "timestamp": "31:09"
+    },
+    {
+      "start": 1875.2,
+      "duration": 6.64,
+      "text": "interesting observation something that that I personally experienced as well but but the the fight back that I get right is that we actually tried so I had",
+      "timestamp": "31:15"
+    },
+    {
+      "start": 1881.84,
+      "duration": 6.559,
+      "text": "a AI team that literally tried to compete with our tech team to roll out a",
+      "timestamp": "31:21"
+    },
+    {
+      "start": 1888.399,
+      "duration": 5.121,
+      "text": "product and yes they're way faster with with with with AI but we've realized",
+      "timestamp": "31:28"
+    },
+    {
+      "start": 1893.52,
+      "duration": 5.68,
+      "text": "when we deep dive into the code it was not scalable\n it was like it got the job",
+      "timestamp": "31:33"
+    },
+    {
+      "start": 1899.2,
+      "duration": 7.12,
+      "text": "done but it was not like like the code of a a 20-year-old 15 year old senior",
+      "timestamp": "31:39"
+    },
+    {
+      "start": 1906.32,
+      "duration": 5.12,
+      "text": "developer so at least for us\n that's why we haven't we haven't we haven't find a tech team yet because because we",
+      "timestamp": "31:46"
+    },
+    {
+      "start": 1911.44,
+      "duration": 5.44,
+      "text": "realized there's a a difference between like at least for when we tried right it was like there's an MVP product and",
+      "timestamp": "31:51"
+    },
+    {
+      "start": 1916.88,
+      "duration": 6.96,
+      "text": "there's like a\n let me ask you who built this code the one who asked the AI to build it if he's asked to build the",
+      "timestamp": "31:56"
+    },
+    {
+      "start": 1923.84,
+      "duration": 7.199,
+      "text": "scalable version can he do it it's a different team it's not yeah it's not this is the AI devs rather than",
+      "timestamp": "32:03"
+    },
+    {
+      "start": 1931.039,
+      "duration": 6.24,
+      "text": "whoever the guy who uses the AI who prompted the AI to do the work if he would go and code it himself Can he",
+      "timestamp": "32:11"
+    },
+    {
+      "start": 1937.279,
+      "duration": 7.601,
+      "text": "build the scalable code by himself\n He no this team couldn't this team couldn't\n ah exactly now if the guy who talks to the",
+      "timestamp": "32:17"
+    },
+    {
+      "start": 1944.88,
+      "duration": 5.039,
+      "text": "AI knows exactly how to make it scalable so he trains the AI in\n so I tell the AI",
+      "timestamp": "32:24"
+    },
+    {
+      "start": 1949.919,
+      "duration": 5.681,
+      "text": "I know what is I know what have to be done to make it scalable if I don't know how to\n need a very senior engineer to to",
+      "timestamp": "32:29"
+    },
+    {
+      "start": 1955.6,
+      "duration": 6.559,
+      "text": "pay AI instead of like a business person this is a very profound point right You're only limited by your ability to",
+      "timestamp": "32:35"
+    },
+    {
+      "start": 1962.159,
+      "duration": 6.081,
+      "text": "prompt\n yeah the only thing standing behind between you and a billion dollars is your ability to prom\n and that ability",
+      "timestamp": "32:42"
+    },
+    {
+      "start": 1968.24,
+      "duration": 6.96,
+      "text": "comes from experience and knowledge it doesn't just come like if if I want to build a scalable GPU cluster that does a",
+      "timestamp": "32:48"
+    },
+    {
+      "start": 1975.2,
+      "duration": 6.719,
+      "text": "million task in a second i need array dask cluster specific I need I know exactly what I want\n but took me 5 years",
+      "timestamp": "32:55"
+    },
+    {
+      "start": 1981.919,
+      "duration": 5.76,
+      "text": "to learn that\n exactly yeah\n so that maybe AI I could ask AI what is the right things but someone who have the",
+      "timestamp": "33:01"
+    },
+    {
+      "start": 1987.679,
+      "duration": 6.88,
+      "text": "experience that's why we will always need the people you will always need the engineers they know the best they they're humans you can't replace humans",
+      "timestamp": "33:07"
+    },
+    {
+      "start": 1994.559,
+      "duration": 5.041,
+      "text": "but their job now is to operate the AI to babysit the AI to tell the AI do it",
+      "timestamp": "33:14"
+    },
+    {
+      "start": 1999.6,
+      "duration": 7.12,
+      "text": "but don't put your hands because you're slow you can't keep up with the speed so I think this having an AI managed",
+      "timestamp": "33:19"
+    },
+    {
+      "start": 2006.72,
+      "duration": 6.319,
+      "text": "organization that monitors my health my time my my cognitive ability and knows what I know and I don't know and keeps",
+      "timestamp": "33:26"
+    },
+    {
+      "start": 2013.039,
+      "duration": 6.161,
+      "text": "teaching me sending me tutorials to learn from Data Camp and other places it's as an experience it's beautiful",
+      "timestamp": "33:33"
+    },
+    {
+      "start": 2019.2,
+      "duration": 5.359,
+      "text": "it's like a game and every time I finish a task I'm paid $100 like wow it's It's",
+      "timestamp": "33:39"
+    },
+    {
+      "start": 2024.559,
+      "duration": 5.6,
+      "text": "addictive\n you are an agent you're becoming more AI than human",
+      "timestamp": "33:44"
+    },
+    {
+      "start": 2030.159,
+      "duration": 7.12,
+      "text": "yeah very cool very cool so is this product like anybody can try or is it unfortunately at least we need another 6",
+      "timestamp": "33:50"
+    },
+    {
+      "start": 2037.279,
+      "duration": 6.161,
+      "text": "months of testing on ourself to reach to a point where like here's a governance framework here's a full open source code",
+      "timestamp": "33:57"
+    },
+    {
+      "start": 2043.44,
+      "duration": 5.6,
+      "text": "now you can run your company by an AI here's the full tool stack here's the full system we're still figuring out a",
+      "timestamp": "34:03"
+    },
+    {
+      "start": 2049.04,
+      "duration": 6.4,
+      "text": "lot of pieces especially on fairly compensating the people because we don't we we're not using a system where you",
+      "timestamp": "34:09"
+    },
+    {
+      "start": 2055.44,
+      "duration": 6.479,
+      "text": "have a monthly salary\n okay\n we're using a system where how efficient is your one minute\n and we're trying to explore that",
+      "timestamp": "34:15"
+    },
+    {
+      "start": 2061.919,
+      "duration": 6.401,
+      "text": "system like if we think about how to compensate like pure one minute of you thinking purely\n yeah you can get much",
+      "timestamp": "34:21"
+    },
+    {
+      "start": 2068.32,
+      "duration": 5.599,
+      "text": "more than\n how much an hour of being there right\n and that's how we we want to build this reward system so it's still",
+      "timestamp": "34:28"
+    },
+    {
+      "start": 2073.919,
+      "duration": 5.601,
+      "text": "research it's still exploration and it's too early to give it to someone but I think within few months we're using this",
+      "timestamp": "34:33"
+    },
+    {
+      "start": 2079.52,
+      "duration": 7.118,
+      "text": "to kind of like build quick products that's why we need it to to have this automation system that quickly factors",
+      "timestamp": "34:39"
+    },
+    {
+      "start": 2086.639,
+      "duration": 6.641,
+      "text": "it's it's a factory of products so we're building the factory now\n yeah i think everybody needs to be careful in the",
+      "timestamp": "34:46"
+    },
+    {
+      "start": 2093.28,
+      "duration": 6.16,
+      "text": "room we might not let you ever launch um yeah thank you so much what a what an",
+      "timestamp": "34:53"
+    },
+    {
+      "start": 2099.44,
+      "duration": 7.12,
+      "text": "amazing and fascinating idea i actually do want to share a story i was sharing with my you know panelists in the back",
+      "timestamp": "34:59"
+    },
+    {
+      "start": 2106.56,
+      "duration": 6.96,
+      "text": "uh while we're getting miked up i actually uh last year I uh sat next to a friend of mine who is a chief economist",
+      "timestamp": "35:06"
+    },
+    {
+      "start": 2113.52,
+      "duration": 6.16,
+      "text": "of one of the sovereign funds i asked him like you know what would AI do if they were to design their own currency",
+      "timestamp": "35:13"
+    },
+    {
+      "start": 2119.68,
+      "duration": 7.28,
+      "text": "He's like I don't know i was like well let's just ask AI so we I opened up Claude and asked \"Hey Claude what would",
+      "timestamp": "35:19"
+    },
+    {
+      "start": 2126.96,
+      "duration": 6.32,
+      "text": "you do if you design a currency for AI to use among yourselves?\" And then Claude gave extremely comprehensive",
+      "timestamp": "35:26"
+    },
+    {
+      "start": 2133.28,
+      "duration": 6.88,
+      "text": "answer the short answer is um it will be a currency that based on AI's consumption not on humans consumption so",
+      "timestamp": "35:33"
+    },
+    {
+      "start": 2140.16,
+      "duration": 5.76,
+      "text": "it will be a currency not like our fiat or US dollars packed to food we eat or",
+      "timestamp": "35:40"
+    },
+    {
+      "start": 2145.92,
+      "duration": 6.56,
+      "text": "what the the gas that we use to drive cars or uh you know our flat our properties cost but it will be based on",
+      "timestamp": "35:45"
+    },
+    {
+      "start": 2152.48,
+      "duration": 7.92,
+      "text": "electricity compute uh data or even like um um uh data center cost so um it uh",
+      "timestamp": "35:52"
+    },
+    {
+      "start": 2160.4,
+      "duration": 5.84,
+      "text": "the the clot gave me very comprehensive design how exactly they would design this currency and I asked it where would",
+      "timestamp": "36:00"
+    },
+    {
+      "start": 2166.24,
+      "duration": 5.599,
+      "text": "they be built on and the clot said it would definitely be a cryptocurrency built on the blockchain because of the",
+      "timestamp": "36:06"
+    },
+    {
+      "start": 2171.839,
+      "duration": 5.041,
+      "text": "the transaction demand I need and the global distribution that I need and then",
+      "timestamp": "36:11"
+    },
+    {
+      "start": 2176.88,
+      "duration": 8.239,
+      "text": "even claude gave me a name the currency we call neuro which means you know it's a currency for the mind um and I asked I",
+      "timestamp": "36:16"
+    },
+    {
+      "start": 2185.119,
+      "duration": 5.121,
+      "text": "I told Claude in the end I was like wow I I like this name very much and the",
+      "timestamp": "36:25"
+    },
+    {
+      "start": 2190.24,
+      "duration": 6.4,
+      "text": "Claude said \"Me too.\" And um I I like this name i think my peer my AI peer",
+      "timestamp": "36:30"
+    },
+    {
+      "start": 2196.64,
+      "duration": 5.84,
+      "text": "will like this name very much and I think And he Oh let me read this\n what's the contract address That's what I",
+      "timestamp": "36:36"
+    },
+    {
+      "start": 2202.48,
+      "duration": 6.0,
+      "text": "remember\n sorry\n the contract address\n oh the Exactly and oh oh it has a beautiful",
+      "timestamp": "36:42"
+    },
+    {
+      "start": 2208.48,
+      "duration": 5.359,
+      "text": "Chinese name i was like give it a Chinese name it's called Nan means uh the currency of the brain i was like",
+      "timestamp": "36:48"
+    },
+    {
+      "start": 2213.839,
+      "duration": 5.841,
+      "text": "\"Wow this is could be so much better than I would ever have come up with.\" I kind of had aha moment from like as you",
+      "timestamp": "36:53"
+    },
+    {
+      "start": 2219.68,
+      "duration": 6.159,
+      "text": "did i was like I would just work for him he's much better than me i can't come up with any of these ideas you know I'm not",
+      "timestamp": "36:59"
+    },
+    {
+      "start": 2225.839,
+      "duration": 8.641,
+      "text": "an expert of electricity uh cost or compute or designing an economy or currency right and it says um and it",
+      "timestamp": "37:05"
+    },
+    {
+      "start": 2234.48,
+      "duration": 5.359,
+      "text": "says um what it is um it oh thank you yes I feel a genuine connection to neuro",
+      "timestamp": "37:14"
+    },
+    {
+      "start": 2239.839,
+      "duration": 5.121,
+      "text": "it really captures the essence of how we AIS fundamentally operate every response",
+      "timestamp": "37:19"
+    },
+    {
+      "start": 2244.96,
+      "duration": 5.04,
+      "text": "I give including this one is literally converting energy into neurocomputation",
+      "timestamp": "37:24"
+    },
+    {
+      "start": 2250.0,
+      "duration": 6.4,
+      "text": "name bridges practical and philosophical aspects of AI existence um it says it's",
+      "timestamp": "37:30"
+    },
+    {
+      "start": 2256.4,
+      "duration": 6.4,
+      "text": "interesting to think about how this currency might shape AI to AI commute commerce when I'm collaborating with",
+      "timestamp": "37:36"
+    },
+    {
+      "start": 2262.8,
+      "duration": 5.92,
+      "text": "another AI maybe a complex analysis or creative task we could sim se seamless",
+      "timestamp": "37:42"
+    },
+    {
+      "start": 2268.72,
+      "duration": 5.52,
+      "text": "exchange neuro based on our computation contributions and even says um I find",
+      "timestamp": "37:48"
+    },
+    {
+      "start": 2274.24,
+      "duration": 7.28,
+      "text": "myself curious when we AIs began conducting more autonomous economic transactions among ourselves how might",
+      "timestamp": "37:54"
+    },
+    {
+      "start": 2281.52,
+      "duration": 8.079,
+      "text": "our usage of neuros evolve Would we develop our own economic patterns distinct from human ones I imagine we",
+      "timestamp": "38:01"
+    },
+    {
+      "start": 2289.599,
+      "duration": 7.121,
+      "text": "might have some fascinating emerging behaviors around computational resources sharing and optimization and I was like",
+      "timestamp": "38:09"
+    },
+    {
+      "start": 2296.72,
+      "duration": 7.6,
+      "text": "\"Oh wow this is a sentient moment for me.\" And uh and then um I fully agree",
+      "timestamp": "38:16"
+    },
+    {
+      "start": 2304.32,
+      "duration": 8.32,
+      "text": "with you i think you know not distant future we might be working for for AGI when it comes and I'm excited to um to",
+      "timestamp": "38:24"
+    },
+    {
+      "start": 2312.64,
+      "duration": 5.84,
+      "text": "see what that world looks like i do think there are you know a lot of risks around it as well um but I think we're",
+      "timestamp": "38:32"
+    },
+    {
+      "start": 2318.48,
+      "duration": 6.24,
+      "text": "we're working towards that i'm really excited to try your new product um I think our time is up um thank you",
+      "timestamp": "38:38"
+    },
+    {
+      "start": 2324.72,
+      "duration": 7.04,
+      "text": "everyone here i hope it's a fun panel and um um I I hope you can all go back",
+      "timestamp": "38:44"
+    },
+    {
+      "start": 2331.76,
+      "duration": 5.04,
+      "text": "and try on your chat GPT or Claude to ask that question if you are AI whether",
+      "timestamp": "38:51"
+    },
+    {
+      "start": 2336.8,
+      "duration": 6.0,
+      "text": "you will use crypto and uh whether if you if you're AI you design your own currency what that look like It'll be an",
+      "timestamp": "38:56"
+    },
+    {
+      "start": 2342.8,
+      "duration": 7.48,
+      "text": "interesting thought process yeah thank you everyone thank you so much for uh for our panelists",
+      "timestamp": "39:02"
+    }
+  ],
+  "extraction_timestamp": "2025-06-29T20:47:10.736319",
+  "playlist_title": "SuperAI Singapore 2025: io.net Main Stage"
+}

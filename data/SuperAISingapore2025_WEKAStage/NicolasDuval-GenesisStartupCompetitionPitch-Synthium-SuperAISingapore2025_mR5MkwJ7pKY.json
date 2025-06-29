@@ -1,0 +1,1409 @@
+{
+  "video_id": "mR5MkwJ7pKY",
+  "video_title": "Nicolas Duval - Genesis Startup Competition Pitch - Synthium - SuperAI Singapore 2025",
+  "video_url": "https://www.youtube.com/watch?v=mR5MkwJ7pKY",
+  "channel_title": "SuperAI",
+  "published_at": "2025-06-25T14:30:54+00:00",
+  "duration_seconds": null,
+  "view_count": 15,
+  "like_count": 0,
+  "description": "Learn more about SuperAI: superai.com\nFollow us on X: x.com/superai_conf\n\nGenesis Startup Competition Pitch - Synthium\n\nSpeaker:\nNicolas Duval, CEO @ Synthium\n\nStage: WEKA Stage\n#superai #synthium #startups #competition #ai\n\nRecorded on 18 June 2025",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 231,
+    "aggregated_text": "so not so long ago computers could barely distinguish a cat from a dog but now of course they can but when it comes to robotics humanoids don't even compete with the most average human being but why is that is it a hardware problem well not really if you think about it hardware is already good enough it's going to get better over time but it's good compute have you seen V3 it's amazing it's not compute data h yeah that sounds about right data is the bottleneck why because we don't have enough multimodel and diverse data to make better foundation models so here's the thing training robots in the real world is slow and expensive it works all the time it's not scalable also when you go with simulation and purely simulation you have what's called sim to real gap meaning that it doesn't work well it doesn't apply well in the real world so here's our mission we create some games gamified experiences in simulations to create diverse synthetic data sets that are teleoperated we create AI embodiment data sets to train better robot brains and again the goal is to capture human in the loop and higher order reasoning so now picture Ready Player One everybody watch Ready Player One it's an awesome movie so you step into the skin of a robot and essentially you train that robot that way so we acquire multimodel data sets that way so you can think of us as a Roblox but for robotics when again we capture broader human reasoning so we create an embodiment AI platform where people can come and play just using a web browser their webcam and the microphone they can embody a robot and control it we have distributed teleoperation meaning that 24 hours 7 you can access our simulation since we don't we're not dependent on hardware and we handle what we call cross embodiment training meaning that the robot brains we create they work for both unitry humanoids quadriped toys anything and again what we capture is social intelligence from human interaction so it's clear that robots need to learn from humans but How by playing char for instance so char is interesting you play char with a robot you're trying to express highly cognitive concepts with your mind with your gestures with your body language and of course at the be at the beginning the robot doesn't get anything but over time the models get better the robots learn learn how to express itself and new thoughts find a robot is an interesting one as well so you have five people and one robot in a room people teleconference with that robot together they all embody a robot your voice is the one of a robot so no one can really tell who is who but you have social cues right and every time you catch the robot in less than a few minutes it gives you negative data entry point to make the model better eventually you cannot catch with who's the robot and guess what you passed the Turing test for robotics we also have collective assembling where basically people come collaborate on a design together build a house a sculpture that kind of thing and what we cap what we capture is the way people collaborate so please join us and create your own games with your own rules you might be wondering what kind of applications we handle and it can actually downstream to a lot of verticals entertainment is one of them probably my favorite think Disney robotics anim I mean animatronics we have trade shows as well so making humans uh humanoids I mean a bit more they get out of this uncanny valley more natural they interact with people more naturally greeting education fitness classes so you want robots to fix people's postures without breaking their backs uh sales as well so you know real estate uh that kind of thing um car dealership as well so now picture a new kind of marketplace where basically you have requester creators so these are the companies who need data sets so they come and create challenges then you have what we call the performers so the people who come and uh solve the challenges for you and they get rewarded for doing so and then the platform that's us so we're between supply and demand a bit like Uber but for robotics so essentially company companies get the result meaning the data sets the models or choose to make them public and the people get rewarded in crypto fiat currency the market opportunity is huge it's a staggering $130 billion projected by 2030 out of that we want to address 7 billion which is simulation uh synthetic data collection we are going to capture $150 million in the next 5 years with 1,000 businesses joining our platform so of course there's uh other competitors other players we're not the only ones you have Hugging Face Sensory Robotics uh Photobots AI as well that actually started here in Singapore but the difference is that they target primarily real world data as opposed to us we target synthetic data and simulation so we're not as much impacted by simal gap we are not doing dextterous manipulation we are capturing again higher order cognition why now you might wonder so AI pieces are shipping by the millions so that's great actually for AI edge AI meaning that you can distribute uh training directly on people's computers there's a huge pool of Gen Z and Gen Alpha that we can tap into to crowdsource training our models the foundation models are data bounds so again we get that with human in the loop and web 3 is enabling us to have a decentralized data set exchange we have a little traction so we're capturing our first 100 collaborators very strong interest from MIT Colombia University Cornell University as well but also here in Singapore we're starting pilots with AAR NRP and US when it comes to the founding team we have Nizar who's a robotics professor at Lasan we have Nick Nicholas Sava who spent a decade at Cornell and myself who scaled Tinkercat from a few thousand users to now a day multiple millions so we raised $450 from Manella that's the Tennas Venture Studio by the end of summer we'll raise $6 million by the end of the year we'll we'll launch publicly and next year we'll have several millions recorded uh robotics episode we will which will make us the largest robotics data platform in the world thank you very much Nicholas wow on the money okay thank you judges hey thank you um why are hugging face and the others not doing this uh well it's specifically because of the simtorial gap so they choose to target more like dexterous manipulation that kind of thing uh predictive analytics but they are not really focusing on a purely simulation and again the the the goal is because if you go purely dexterous there is a huge simal gap that you really get impacted with if you don't which is what we do again like higher cognitive higher level order cognitive data sets you don't precision doesn't matter as much and I think that's why smaller players like us are going to be able to compete with big guys i uh I love the marketplace idea question how why would I not use like an Nvidia Isaac SIM and the answer so actually and and secondly how physically accurate is it in terms of do I need specialized equipment as a performer it is a very good question so we started actually by using Nvidia as Axim which is a massive pain in the ass to set up i don't know if you're aware of that so we're thinking by you know owning the simulation framework ourselves better without reinventing the wheel completely it's going to give us actually it's going to accelerate the development but we we're targeting more like Roboverse or that kind of thing being simulation agnostic not just bound to one framework but indeed it's excellent yeah just in terms of the equipment if I'm a performer is it just a webcam do I need lighters that's exactly that so just need a webcam a microphone and you're good to go come at our booth you can meet you can meet Nick our co-founder waving behind can give you he's going to be more than happy to give you a demo and yes we're planning on using a VR headsets and uh but you know like low barrier entry point to begin with and then we'll scale yep understanding that you're gamifying data collection um how are you doing it right now and how do you plan to scale this yeah so that's that is a very good question so we are targeting the platform first to begin with we're also developing the portal so it's not public yet however by the end of summer we want to open it and you know get like uh we're targeting 10,000 users to begin with so you know low but uh eventually I'm pretty confident that if I repeat the experience that I had at Autoesk with Tinkercad we can go to the range of a million several millions fairly quickly",
+    "text_length": 8624,
+    "word_count": 1578
+  },
+  "segments": [
+    {
+      "start": 7.6,
+      "duration": 2.16,
+      "text": "so not so long ago computers could",
+      "timestamp": "00:07"
+    },
+    {
+      "start": 9.76,
+      "duration": 3.12,
+      "text": "barely distinguish a cat from a dog but",
+      "timestamp": "00:09"
+    },
+    {
+      "start": 12.88,
+      "duration": 2.799,
+      "text": "now of course they can but when it comes",
+      "timestamp": "00:12"
+    },
+    {
+      "start": 15.679,
+      "duration": 2.561,
+      "text": "to robotics humanoids don't even compete",
+      "timestamp": "00:15"
+    },
+    {
+      "start": 18.24,
+      "duration": 3.199,
+      "text": "with the most average human being",
+      "timestamp": "00:18"
+    },
+    {
+      "start": 21.439,
+      "duration": 3.6,
+      "text": "but why is that is it a hardware problem",
+      "timestamp": "00:21"
+    },
+    {
+      "start": 25.039,
+      "duration": 2.0,
+      "text": "well not really if you think about it",
+      "timestamp": "00:25"
+    },
+    {
+      "start": 27.039,
+      "duration": 1.521,
+      "text": "hardware is already good enough it's",
+      "timestamp": "00:27"
+    },
+    {
+      "start": 28.56,
+      "duration": 2.16,
+      "text": "going to get better over time but it's",
+      "timestamp": "00:28"
+    },
+    {
+      "start": 30.72,
+      "duration": 2.8,
+      "text": "good compute have you seen V3 it's",
+      "timestamp": "00:30"
+    },
+    {
+      "start": 33.52,
+      "duration": 3.6,
+      "text": "amazing it's not compute data h yeah",
+      "timestamp": "00:33"
+    },
+    {
+      "start": 37.12,
+      "duration": 2.16,
+      "text": "that sounds about right data is the",
+      "timestamp": "00:37"
+    },
+    {
+      "start": 39.28,
+      "duration": 2.799,
+      "text": "bottleneck why because we don't have",
+      "timestamp": "00:39"
+    },
+    {
+      "start": 42.079,
+      "duration": 3.281,
+      "text": "enough multimodel and diverse data to",
+      "timestamp": "00:42"
+    },
+    {
+      "start": 45.36,
+      "duration": 3.519,
+      "text": "make better foundation models so here's",
+      "timestamp": "00:45"
+    },
+    {
+      "start": 48.879,
+      "duration": 2.0,
+      "text": "the thing training robots in the real",
+      "timestamp": "00:48"
+    },
+    {
+      "start": 50.879,
+      "duration": 2.881,
+      "text": "world is slow and expensive it works all",
+      "timestamp": "00:50"
+    },
+    {
+      "start": 53.76,
+      "duration": 2.959,
+      "text": "the time it's not scalable also when you",
+      "timestamp": "00:53"
+    },
+    {
+      "start": 56.719,
+      "duration": 2.081,
+      "text": "go with simulation and purely simulation",
+      "timestamp": "00:56"
+    },
+    {
+      "start": 58.8,
+      "duration": 2.079,
+      "text": "you have what's called sim to real gap",
+      "timestamp": "00:58"
+    },
+    {
+      "start": 60.879,
+      "duration": 1.84,
+      "text": "meaning that it doesn't work well it",
+      "timestamp": "01:00"
+    },
+    {
+      "start": 62.719,
+      "duration": 3.76,
+      "text": "doesn't apply well in the real world",
+      "timestamp": "01:02"
+    },
+    {
+      "start": 66.479,
+      "duration": 2.561,
+      "text": "so here's our mission we create some",
+      "timestamp": "01:06"
+    },
+    {
+      "start": 69.04,
+      "duration": 2.96,
+      "text": "games gamified experiences in",
+      "timestamp": "01:09"
+    },
+    {
+      "start": 72.0,
+      "duration": 3.6,
+      "text": "simulations to create diverse synthetic",
+      "timestamp": "01:12"
+    },
+    {
+      "start": 75.6,
+      "duration": 3.92,
+      "text": "data sets that are teleoperated",
+      "timestamp": "01:15"
+    },
+    {
+      "start": 79.52,
+      "duration": 3.76,
+      "text": "we create AI embodiment data sets to",
+      "timestamp": "01:19"
+    },
+    {
+      "start": 83.28,
+      "duration": 2.72,
+      "text": "train better robot brains and again the",
+      "timestamp": "01:23"
+    },
+    {
+      "start": 86.0,
+      "duration": 1.92,
+      "text": "goal is to capture human in the loop and",
+      "timestamp": "01:26"
+    },
+    {
+      "start": 87.92,
+      "duration": 4.08,
+      "text": "higher order reasoning",
+      "timestamp": "01:27"
+    },
+    {
+      "start": 92.0,
+      "duration": 2.4,
+      "text": "so now picture Ready Player One",
+      "timestamp": "01:32"
+    },
+    {
+      "start": 94.4,
+      "duration": 2.399,
+      "text": "everybody watch Ready Player One it's an",
+      "timestamp": "01:34"
+    },
+    {
+      "start": 96.799,
+      "duration": 3.201,
+      "text": "awesome movie so you step into the skin",
+      "timestamp": "01:36"
+    },
+    {
+      "start": 100.0,
+      "duration": 2.64,
+      "text": "of a robot and essentially you train",
+      "timestamp": "01:40"
+    },
+    {
+      "start": 102.64,
+      "duration": 3.119,
+      "text": "that robot that way so we acquire",
+      "timestamp": "01:42"
+    },
+    {
+      "start": 105.759,
+      "duration": 3.121,
+      "text": "multimodel data sets that way so you can",
+      "timestamp": "01:45"
+    },
+    {
+      "start": 108.88,
+      "duration": 3.68,
+      "text": "think of us as a Roblox but for robotics",
+      "timestamp": "01:48"
+    },
+    {
+      "start": 112.56,
+      "duration": 4.239,
+      "text": "when again we capture broader human",
+      "timestamp": "01:52"
+    },
+    {
+      "start": 116.799,
+      "duration": 1.68,
+      "text": "reasoning",
+      "timestamp": "01:56"
+    },
+    {
+      "start": 118.479,
+      "duration": 3.121,
+      "text": "so we create an embodiment AI platform",
+      "timestamp": "01:58"
+    },
+    {
+      "start": 121.6,
+      "duration": 2.72,
+      "text": "where people can come and play just",
+      "timestamp": "02:01"
+    },
+    {
+      "start": 124.32,
+      "duration": 3.439,
+      "text": "using a web browser their webcam and the",
+      "timestamp": "02:04"
+    },
+    {
+      "start": 127.759,
+      "duration": 2.801,
+      "text": "microphone they can embody a robot and",
+      "timestamp": "02:07"
+    },
+    {
+      "start": 130.56,
+      "duration": 2.08,
+      "text": "control it we have distributed",
+      "timestamp": "02:10"
+    },
+    {
+      "start": 132.64,
+      "duration": 2.239,
+      "text": "teleoperation meaning that 24 hours 7",
+      "timestamp": "02:12"
+    },
+    {
+      "start": 134.879,
+      "duration": 2.08,
+      "text": "you can access our simulation since we",
+      "timestamp": "02:14"
+    },
+    {
+      "start": 136.959,
+      "duration": 2.801,
+      "text": "don't we're not dependent on hardware",
+      "timestamp": "02:16"
+    },
+    {
+      "start": 139.76,
+      "duration": 1.68,
+      "text": "and we handle what we call cross",
+      "timestamp": "02:19"
+    },
+    {
+      "start": 141.44,
+      "duration": 1.519,
+      "text": "embodiment training meaning that the",
+      "timestamp": "02:21"
+    },
+    {
+      "start": 142.959,
+      "duration": 2.241,
+      "text": "robot brains we create they work for",
+      "timestamp": "02:22"
+    },
+    {
+      "start": 145.2,
+      "duration": 3.92,
+      "text": "both unitry humanoids quadriped toys",
+      "timestamp": "02:25"
+    },
+    {
+      "start": 149.12,
+      "duration": 3.04,
+      "text": "anything and again what we capture is",
+      "timestamp": "02:29"
+    },
+    {
+      "start": 152.16,
+      "duration": 2.079,
+      "text": "social intelligence from human",
+      "timestamp": "02:32"
+    },
+    {
+      "start": 154.239,
+      "duration": 2.0,
+      "text": "interaction",
+      "timestamp": "02:34"
+    },
+    {
+      "start": 156.239,
+      "duration": 2.72,
+      "text": "so it's clear that robots need to learn",
+      "timestamp": "02:36"
+    },
+    {
+      "start": 158.959,
+      "duration": 4.56,
+      "text": "from humans but How by playing char for",
+      "timestamp": "02:38"
+    },
+    {
+      "start": 163.519,
+      "duration": 2.401,
+      "text": "instance so char is interesting you play",
+      "timestamp": "02:43"
+    },
+    {
+      "start": 165.92,
+      "duration": 2.88,
+      "text": "char with a robot you're trying to",
+      "timestamp": "02:45"
+    },
+    {
+      "start": 168.8,
+      "duration": 2.799,
+      "text": "express highly cognitive concepts with",
+      "timestamp": "02:48"
+    },
+    {
+      "start": 171.599,
+      "duration": 2.881,
+      "text": "your mind with your gestures with your",
+      "timestamp": "02:51"
+    },
+    {
+      "start": 174.48,
+      "duration": 2.08,
+      "text": "body language and of course at the be at",
+      "timestamp": "02:54"
+    },
+    {
+      "start": 176.56,
+      "duration": 1.36,
+      "text": "the beginning the robot doesn't get",
+      "timestamp": "02:56"
+    },
+    {
+      "start": 177.92,
+      "duration": 2.56,
+      "text": "anything but over time the models get",
+      "timestamp": "02:57"
+    },
+    {
+      "start": 180.48,
+      "duration": 2.32,
+      "text": "better the robots learn learn how to",
+      "timestamp": "03:00"
+    },
+    {
+      "start": 182.8,
+      "duration": 2.96,
+      "text": "express itself and new thoughts find a",
+      "timestamp": "03:02"
+    },
+    {
+      "start": 185.76,
+      "duration": 1.68,
+      "text": "robot is an interesting one as well so",
+      "timestamp": "03:05"
+    },
+    {
+      "start": 187.44,
+      "duration": 2.159,
+      "text": "you have five people and one robot in a",
+      "timestamp": "03:07"
+    },
+    {
+      "start": 189.599,
+      "duration": 2.401,
+      "text": "room people teleconference with that",
+      "timestamp": "03:09"
+    },
+    {
+      "start": 192.0,
+      "duration": 2.959,
+      "text": "robot together they all embody a robot",
+      "timestamp": "03:12"
+    },
+    {
+      "start": 194.959,
+      "duration": 2.241,
+      "text": "your voice is the one of a robot so no",
+      "timestamp": "03:14"
+    },
+    {
+      "start": 197.2,
+      "duration": 2.24,
+      "text": "one can really tell who is who but you",
+      "timestamp": "03:17"
+    },
+    {
+      "start": 199.44,
+      "duration": 3.28,
+      "text": "have social cues right and every time",
+      "timestamp": "03:19"
+    },
+    {
+      "start": 202.72,
+      "duration": 2.32,
+      "text": "you catch the robot in less than a few",
+      "timestamp": "03:22"
+    },
+    {
+      "start": 205.04,
+      "duration": 2.8,
+      "text": "minutes it gives you negative data entry",
+      "timestamp": "03:25"
+    },
+    {
+      "start": 207.84,
+      "duration": 2.24,
+      "text": "point to make the model better",
+      "timestamp": "03:27"
+    },
+    {
+      "start": 210.08,
+      "duration": 1.84,
+      "text": "eventually you cannot catch with who's",
+      "timestamp": "03:30"
+    },
+    {
+      "start": 211.92,
+      "duration": 2.64,
+      "text": "the robot and guess what you passed the",
+      "timestamp": "03:31"
+    },
+    {
+      "start": 214.56,
+      "duration": 3.2,
+      "text": "Turing test for robotics we also have",
+      "timestamp": "03:34"
+    },
+    {
+      "start": 217.76,
+      "duration": 2.08,
+      "text": "collective assembling where basically",
+      "timestamp": "03:37"
+    },
+    {
+      "start": 219.84,
+      "duration": 1.759,
+      "text": "people come collaborate on a design",
+      "timestamp": "03:39"
+    },
+    {
+      "start": 221.599,
+      "duration": 2.72,
+      "text": "together build a house a sculpture that",
+      "timestamp": "03:41"
+    },
+    {
+      "start": 224.319,
+      "duration": 1.441,
+      "text": "kind of thing and what we cap what we",
+      "timestamp": "03:44"
+    },
+    {
+      "start": 225.76,
+      "duration": 3.839,
+      "text": "capture is the way people collaborate so",
+      "timestamp": "03:45"
+    },
+    {
+      "start": 229.599,
+      "duration": 2.081,
+      "text": "please join us and create your own games",
+      "timestamp": "03:49"
+    },
+    {
+      "start": 231.68,
+      "duration": 2.24,
+      "text": "with your own rules you might be",
+      "timestamp": "03:51"
+    },
+    {
+      "start": 233.92,
+      "duration": 2.8,
+      "text": "wondering what kind of applications we",
+      "timestamp": "03:53"
+    },
+    {
+      "start": 236.72,
+      "duration": 2.879,
+      "text": "handle and it can actually downstream to",
+      "timestamp": "03:56"
+    },
+    {
+      "start": 239.599,
+      "duration": 2.401,
+      "text": "a lot of verticals entertainment is one",
+      "timestamp": "03:59"
+    },
+    {
+      "start": 242.0,
+      "duration": 2.48,
+      "text": "of them probably my favorite think",
+      "timestamp": "04:02"
+    },
+    {
+      "start": 244.48,
+      "duration": 3.52,
+      "text": "Disney robotics anim I mean animatronics",
+      "timestamp": "04:04"
+    },
+    {
+      "start": 248.0,
+      "duration": 2.799,
+      "text": "we have trade shows as well so making",
+      "timestamp": "04:08"
+    },
+    {
+      "start": 250.799,
+      "duration": 4.16,
+      "text": "humans uh humanoids I mean a bit more",
+      "timestamp": "04:10"
+    },
+    {
+      "start": 254.959,
+      "duration": 2.161,
+      "text": "they get out of this uncanny valley more",
+      "timestamp": "04:14"
+    },
+    {
+      "start": 257.12,
+      "duration": 2.16,
+      "text": "natural they interact with people more",
+      "timestamp": "04:17"
+    },
+    {
+      "start": 259.28,
+      "duration": 3.359,
+      "text": "naturally greeting education fitness",
+      "timestamp": "04:19"
+    },
+    {
+      "start": 262.639,
+      "duration": 2.0,
+      "text": "classes so you want robots to fix",
+      "timestamp": "04:22"
+    },
+    {
+      "start": 264.639,
+      "duration": 2.161,
+      "text": "people's postures without breaking their",
+      "timestamp": "04:24"
+    },
+    {
+      "start": 266.8,
+      "duration": 3.2,
+      "text": "backs uh sales as well so you know real",
+      "timestamp": "04:26"
+    },
+    {
+      "start": 270.0,
+      "duration": 3.84,
+      "text": "estate uh that kind of thing um car",
+      "timestamp": "04:30"
+    },
+    {
+      "start": 273.84,
+      "duration": 3.2,
+      "text": "dealership as well so now picture a new",
+      "timestamp": "04:33"
+    },
+    {
+      "start": 277.04,
+      "duration": 2.08,
+      "text": "kind of marketplace where basically you",
+      "timestamp": "04:37"
+    },
+    {
+      "start": 279.12,
+      "duration": 2.56,
+      "text": "have requester creators so these are the",
+      "timestamp": "04:39"
+    },
+    {
+      "start": 281.68,
+      "duration": 2.72,
+      "text": "companies who need data sets so they",
+      "timestamp": "04:41"
+    },
+    {
+      "start": 284.4,
+      "duration": 2.72,
+      "text": "come and create challenges then you have",
+      "timestamp": "04:44"
+    },
+    {
+      "start": 287.12,
+      "duration": 2.079,
+      "text": "what we call the performers so the",
+      "timestamp": "04:47"
+    },
+    {
+      "start": 289.199,
+      "duration": 3.761,
+      "text": "people who come and uh solve the",
+      "timestamp": "04:49"
+    },
+    {
+      "start": 292.96,
+      "duration": 2.64,
+      "text": "challenges for you and they get rewarded",
+      "timestamp": "04:52"
+    },
+    {
+      "start": 295.6,
+      "duration": 2.56,
+      "text": "for doing so and then the platform",
+      "timestamp": "04:55"
+    },
+    {
+      "start": 298.16,
+      "duration": 3.28,
+      "text": "that's us so we're between supply and",
+      "timestamp": "04:58"
+    },
+    {
+      "start": 301.44,
+      "duration": 2.64,
+      "text": "demand a bit like Uber but for robotics",
+      "timestamp": "05:01"
+    },
+    {
+      "start": 304.08,
+      "duration": 2.24,
+      "text": "so essentially company companies get the",
+      "timestamp": "05:04"
+    },
+    {
+      "start": 306.32,
+      "duration": 2.24,
+      "text": "result meaning the data sets the models",
+      "timestamp": "05:06"
+    },
+    {
+      "start": 308.56,
+      "duration": 2.24,
+      "text": "or choose to make them public and the",
+      "timestamp": "05:08"
+    },
+    {
+      "start": 310.8,
+      "duration": 2.16,
+      "text": "people get rewarded in crypto fiat",
+      "timestamp": "05:10"
+    },
+    {
+      "start": 312.96,
+      "duration": 2.4,
+      "text": "currency",
+      "timestamp": "05:12"
+    },
+    {
+      "start": 315.36,
+      "duration": 2.399,
+      "text": "the market opportunity is huge it's a",
+      "timestamp": "05:15"
+    },
+    {
+      "start": 317.759,
+      "duration": 4.321,
+      "text": "staggering $130 billion projected by",
+      "timestamp": "05:17"
+    },
+    {
+      "start": 322.08,
+      "duration": 1.6,
+      "text": "2030",
+      "timestamp": "05:22"
+    },
+    {
+      "start": 323.68,
+      "duration": 3.84,
+      "text": "out of that we want to address 7 billion",
+      "timestamp": "05:23"
+    },
+    {
+      "start": 327.52,
+      "duration": 3.119,
+      "text": "which is simulation uh synthetic data",
+      "timestamp": "05:27"
+    },
+    {
+      "start": 330.639,
+      "duration": 3.441,
+      "text": "collection we are going to capture $150",
+      "timestamp": "05:30"
+    },
+    {
+      "start": 334.08,
+      "duration": 4.0,
+      "text": "million in the next 5 years with 1,000",
+      "timestamp": "05:34"
+    },
+    {
+      "start": 338.08,
+      "duration": 3.6,
+      "text": "businesses joining our platform",
+      "timestamp": "05:38"
+    },
+    {
+      "start": 341.68,
+      "duration": 1.519,
+      "text": "so of course there's uh other",
+      "timestamp": "05:41"
+    },
+    {
+      "start": 343.199,
+      "duration": 1.761,
+      "text": "competitors other players we're not the",
+      "timestamp": "05:43"
+    },
+    {
+      "start": 344.96,
+      "duration": 2.4,
+      "text": "only ones you have Hugging Face Sensory",
+      "timestamp": "05:44"
+    },
+    {
+      "start": 347.36,
+      "duration": 2.96,
+      "text": "Robotics uh Photobots AI as well that",
+      "timestamp": "05:47"
+    },
+    {
+      "start": 350.32,
+      "duration": 2.24,
+      "text": "actually started here in Singapore but",
+      "timestamp": "05:50"
+    },
+    {
+      "start": 352.56,
+      "duration": 1.6,
+      "text": "the difference is that they target",
+      "timestamp": "05:52"
+    },
+    {
+      "start": 354.16,
+      "duration": 3.36,
+      "text": "primarily real world data as opposed to",
+      "timestamp": "05:54"
+    },
+    {
+      "start": 357.52,
+      "duration": 2.32,
+      "text": "us we target synthetic data and",
+      "timestamp": "05:57"
+    },
+    {
+      "start": 359.84,
+      "duration": 2.88,
+      "text": "simulation so we're not as much impacted",
+      "timestamp": "05:59"
+    },
+    {
+      "start": 362.72,
+      "duration": 3.12,
+      "text": "by simal gap we are not doing dextterous",
+      "timestamp": "06:02"
+    },
+    {
+      "start": 365.84,
+      "duration": 2.4,
+      "text": "manipulation we are capturing again",
+      "timestamp": "06:05"
+    },
+    {
+      "start": 368.24,
+      "duration": 3.6,
+      "text": "higher order cognition",
+      "timestamp": "06:08"
+    },
+    {
+      "start": 371.84,
+      "duration": 2.56,
+      "text": "why now you might wonder so AI pieces",
+      "timestamp": "06:11"
+    },
+    {
+      "start": 374.4,
+      "duration": 1.76,
+      "text": "are shipping by the millions so that's",
+      "timestamp": "06:14"
+    },
+    {
+      "start": 376.16,
+      "duration": 2.8,
+      "text": "great actually for AI edge AI meaning",
+      "timestamp": "06:16"
+    },
+    {
+      "start": 378.96,
+      "duration": 2.799,
+      "text": "that you can distribute uh training",
+      "timestamp": "06:18"
+    },
+    {
+      "start": 381.759,
+      "duration": 2.801,
+      "text": "directly on people's computers there's a",
+      "timestamp": "06:21"
+    },
+    {
+      "start": 384.56,
+      "duration": 2.8,
+      "text": "huge pool of Gen Z and Gen Alpha that we",
+      "timestamp": "06:24"
+    },
+    {
+      "start": 387.36,
+      "duration": 2.64,
+      "text": "can tap into to crowdsource training our",
+      "timestamp": "06:27"
+    },
+    {
+      "start": 390.0,
+      "duration": 2.8,
+      "text": "models the foundation models are data",
+      "timestamp": "06:30"
+    },
+    {
+      "start": 392.8,
+      "duration": 3.28,
+      "text": "bounds so again we get that with human",
+      "timestamp": "06:32"
+    },
+    {
+      "start": 396.08,
+      "duration": 3.2,
+      "text": "in the loop and web 3 is enabling us to",
+      "timestamp": "06:36"
+    },
+    {
+      "start": 399.28,
+      "duration": 3.84,
+      "text": "have a decentralized data set exchange",
+      "timestamp": "06:39"
+    },
+    {
+      "start": 403.12,
+      "duration": 2.16,
+      "text": "we have a little traction so we're",
+      "timestamp": "06:43"
+    },
+    {
+      "start": 405.28,
+      "duration": 2.72,
+      "text": "capturing our first 100 collaborators",
+      "timestamp": "06:45"
+    },
+    {
+      "start": 408.0,
+      "duration": 3.36,
+      "text": "very strong interest from MIT Colombia",
+      "timestamp": "06:48"
+    },
+    {
+      "start": 411.36,
+      "duration": 1.76,
+      "text": "University Cornell University as well",
+      "timestamp": "06:51"
+    },
+    {
+      "start": 413.12,
+      "duration": 2.16,
+      "text": "but also here in Singapore we're",
+      "timestamp": "06:53"
+    },
+    {
+      "start": 415.28,
+      "duration": 3.6,
+      "text": "starting pilots with AAR NRP and US when",
+      "timestamp": "06:55"
+    },
+    {
+      "start": 418.88,
+      "duration": 1.68,
+      "text": "it comes to the founding team we have",
+      "timestamp": "06:58"
+    },
+    {
+      "start": 420.56,
+      "duration": 2.079,
+      "text": "Nizar who's a robotics professor at",
+      "timestamp": "07:00"
+    },
+    {
+      "start": 422.639,
+      "duration": 3.28,
+      "text": "Lasan we have Nick Nicholas Sava who",
+      "timestamp": "07:02"
+    },
+    {
+      "start": 425.919,
+      "duration": 2.801,
+      "text": "spent a decade at Cornell and myself who",
+      "timestamp": "07:05"
+    },
+    {
+      "start": 428.72,
+      "duration": 1.919,
+      "text": "scaled Tinkercat from a few thousand",
+      "timestamp": "07:08"
+    },
+    {
+      "start": 430.639,
+      "duration": 3.441,
+      "text": "users to now a day multiple millions so",
+      "timestamp": "07:10"
+    },
+    {
+      "start": 434.08,
+      "duration": 2.64,
+      "text": "we raised $450 from Manella that's the",
+      "timestamp": "07:14"
+    },
+    {
+      "start": 436.72,
+      "duration": 2.96,
+      "text": "Tennas Venture Studio by the end of",
+      "timestamp": "07:16"
+    },
+    {
+      "start": 439.68,
+      "duration": 3.2,
+      "text": "summer we'll raise $6 million by the end",
+      "timestamp": "07:19"
+    },
+    {
+      "start": 442.88,
+      "duration": 2.0,
+      "text": "of the year we'll we'll launch publicly",
+      "timestamp": "07:22"
+    },
+    {
+      "start": 444.88,
+      "duration": 1.759,
+      "text": "and next year we'll have several",
+      "timestamp": "07:24"
+    },
+    {
+      "start": 446.639,
+      "duration": 3.361,
+      "text": "millions recorded uh robotics episode we",
+      "timestamp": "07:26"
+    },
+    {
+      "start": 450.0,
+      "duration": 1.84,
+      "text": "will which will make us the largest",
+      "timestamp": "07:30"
+    },
+    {
+      "start": 451.84,
+      "duration": 2.639,
+      "text": "robotics data platform in the world",
+      "timestamp": "07:31"
+    },
+    {
+      "start": 454.479,
+      "duration": 2.241,
+      "text": "thank you very much Nicholas wow on the",
+      "timestamp": "07:34"
+    },
+    {
+      "start": 456.72,
+      "duration": 4.319,
+      "text": "money okay thank you judges\n hey thank",
+      "timestamp": "07:36"
+    },
+    {
+      "start": 461.039,
+      "duration": 3.28,
+      "text": "you um why are hugging face and the",
+      "timestamp": "07:41"
+    },
+    {
+      "start": 464.319,
+      "duration": 4.16,
+      "text": "others not doing this\n uh well it's",
+      "timestamp": "07:44"
+    },
+    {
+      "start": 468.479,
+      "duration": 1.681,
+      "text": "specifically because of the simtorial",
+      "timestamp": "07:48"
+    },
+    {
+      "start": 470.16,
+      "duration": 2.72,
+      "text": "gap so they choose to target more like",
+      "timestamp": "07:50"
+    },
+    {
+      "start": 472.88,
+      "duration": 1.759,
+      "text": "dexterous manipulation that kind of",
+      "timestamp": "07:52"
+    },
+    {
+      "start": 474.639,
+      "duration": 2.96,
+      "text": "thing uh predictive analytics but they",
+      "timestamp": "07:54"
+    },
+    {
+      "start": 477.599,
+      "duration": 2.081,
+      "text": "are not really focusing on a purely",
+      "timestamp": "07:57"
+    },
+    {
+      "start": 479.68,
+      "duration": 2.88,
+      "text": "simulation and again the the the goal is",
+      "timestamp": "07:59"
+    },
+    {
+      "start": 482.56,
+      "duration": 2.4,
+      "text": "because if you go purely dexterous there",
+      "timestamp": "08:02"
+    },
+    {
+      "start": 484.96,
+      "duration": 2.079,
+      "text": "is a huge simal gap that you really get",
+      "timestamp": "08:04"
+    },
+    {
+      "start": 487.039,
+      "duration": 2.481,
+      "text": "impacted with if you don't which is what",
+      "timestamp": "08:07"
+    },
+    {
+      "start": 489.52,
+      "duration": 2.399,
+      "text": "we do again like higher cognitive higher",
+      "timestamp": "08:09"
+    },
+    {
+      "start": 491.919,
+      "duration": 3.12,
+      "text": "level order cognitive data sets you",
+      "timestamp": "08:11"
+    },
+    {
+      "start": 495.039,
+      "duration": 2.16,
+      "text": "don't precision doesn't matter as much",
+      "timestamp": "08:15"
+    },
+    {
+      "start": 497.199,
+      "duration": 1.921,
+      "text": "and I think that's why smaller players",
+      "timestamp": "08:17"
+    },
+    {
+      "start": 499.12,
+      "duration": 1.84,
+      "text": "like us are going to be able to compete",
+      "timestamp": "08:19"
+    },
+    {
+      "start": 500.96,
+      "duration": 2.16,
+      "text": "with big guys\n i uh I love the",
+      "timestamp": "08:20"
+    },
+    {
+      "start": 503.12,
+      "duration": 2.16,
+      "text": "marketplace idea question how why would",
+      "timestamp": "08:23"
+    },
+    {
+      "start": 505.28,
+      "duration": 2.8,
+      "text": "I not use like an Nvidia Isaac SIM and",
+      "timestamp": "08:25"
+    },
+    {
+      "start": 508.08,
+      "duration": 3.76,
+      "text": "the answer\n so actually\n and and secondly",
+      "timestamp": "08:28"
+    },
+    {
+      "start": 511.84,
+      "duration": 1.84,
+      "text": "how physically accurate is it in terms",
+      "timestamp": "08:31"
+    },
+    {
+      "start": 513.68,
+      "duration": 1.76,
+      "text": "of do I need specialized equipment as a",
+      "timestamp": "08:33"
+    },
+    {
+      "start": 515.44,
+      "duration": 2.479,
+      "text": "performer\n it is a very good question so",
+      "timestamp": "08:35"
+    },
+    {
+      "start": 517.919,
+      "duration": 1.841,
+      "text": "we started actually by using Nvidia as",
+      "timestamp": "08:37"
+    },
+    {
+      "start": 519.76,
+      "duration": 2.719,
+      "text": "Axim which is a massive pain in the ass",
+      "timestamp": "08:39"
+    },
+    {
+      "start": 522.479,
+      "duration": 1.281,
+      "text": "to set up i don't know if you're aware",
+      "timestamp": "08:42"
+    },
+    {
+      "start": 523.76,
+      "duration": 2.8,
+      "text": "of that so we're thinking by you know",
+      "timestamp": "08:43"
+    },
+    {
+      "start": 526.56,
+      "duration": 1.76,
+      "text": "owning the simulation framework",
+      "timestamp": "08:46"
+    },
+    {
+      "start": 528.32,
+      "duration": 2.4,
+      "text": "ourselves better without reinventing the",
+      "timestamp": "08:48"
+    },
+    {
+      "start": 530.72,
+      "duration": 1.84,
+      "text": "wheel completely it's going to give us",
+      "timestamp": "08:50"
+    },
+    {
+      "start": 532.56,
+      "duration": 1.279,
+      "text": "actually it's going to accelerate the",
+      "timestamp": "08:52"
+    },
+    {
+      "start": 533.839,
+      "duration": 2.241,
+      "text": "development but we we're targeting more",
+      "timestamp": "08:53"
+    },
+    {
+      "start": 536.08,
+      "duration": 1.52,
+      "text": "like Roboverse or that kind of thing",
+      "timestamp": "08:56"
+    },
+    {
+      "start": 537.6,
+      "duration": 2.4,
+      "text": "being simulation agnostic not just bound",
+      "timestamp": "08:57"
+    },
+    {
+      "start": 540.0,
+      "duration": 1.76,
+      "text": "to one framework but indeed it's",
+      "timestamp": "09:00"
+    },
+    {
+      "start": 541.76,
+      "duration": 1.759,
+      "text": "excellent yeah just in terms of the",
+      "timestamp": "09:01"
+    },
+    {
+      "start": 543.519,
+      "duration": 2.0,
+      "text": "equipment if I'm a performer is it just",
+      "timestamp": "09:03"
+    },
+    {
+      "start": 545.519,
+      "duration": 1.76,
+      "text": "a webcam do I need lighters\n that's",
+      "timestamp": "09:05"
+    },
+    {
+      "start": 547.279,
+      "duration": 2.081,
+      "text": "exactly that so just need a webcam a",
+      "timestamp": "09:07"
+    },
+    {
+      "start": 549.36,
+      "duration": 1.919,
+      "text": "microphone and you're good to go come at",
+      "timestamp": "09:09"
+    },
+    {
+      "start": 551.279,
+      "duration": 1.921,
+      "text": "our booth you can meet you can meet Nick",
+      "timestamp": "09:11"
+    },
+    {
+      "start": 553.2,
+      "duration": 2.24,
+      "text": "our co-founder waving behind can give",
+      "timestamp": "09:13"
+    },
+    {
+      "start": 555.44,
+      "duration": 1.44,
+      "text": "you he's going to be more than happy to",
+      "timestamp": "09:15"
+    },
+    {
+      "start": 556.88,
+      "duration": 2.0,
+      "text": "give you a demo and yes we're planning",
+      "timestamp": "09:16"
+    },
+    {
+      "start": 558.88,
+      "duration": 2.959,
+      "text": "on using a VR headsets and uh but you",
+      "timestamp": "09:18"
+    },
+    {
+      "start": 561.839,
+      "duration": 2.321,
+      "text": "know like low barrier entry point to",
+      "timestamp": "09:21"
+    },
+    {
+      "start": 564.16,
+      "duration": 3.04,
+      "text": "begin with and then we'll scale\n yep",
+      "timestamp": "09:24"
+    },
+    {
+      "start": 567.2,
+      "duration": 1.92,
+      "text": "understanding that you're gamifying data",
+      "timestamp": "09:27"
+    },
+    {
+      "start": 569.12,
+      "duration": 2.32,
+      "text": "collection um how are you doing it right",
+      "timestamp": "09:29"
+    },
+    {
+      "start": 571.44,
+      "duration": 2.72,
+      "text": "now and how do you plan to scale this",
+      "timestamp": "09:31"
+    },
+    {
+      "start": 574.16,
+      "duration": 1.76,
+      "text": "yeah so that's that is a very good",
+      "timestamp": "09:34"
+    },
+    {
+      "start": 575.92,
+      "duration": 2.479,
+      "text": "question so we are targeting the",
+      "timestamp": "09:35"
+    },
+    {
+      "start": 578.399,
+      "duration": 2.081,
+      "text": "platform first to begin with we're also",
+      "timestamp": "09:38"
+    },
+    {
+      "start": 580.48,
+      "duration": 2.24,
+      "text": "developing the portal so it's not public",
+      "timestamp": "09:40"
+    },
+    {
+      "start": 582.72,
+      "duration": 2.4,
+      "text": "yet however by the end of summer we want",
+      "timestamp": "09:42"
+    },
+    {
+      "start": 585.12,
+      "duration": 2.32,
+      "text": "to open it and you know get like uh",
+      "timestamp": "09:45"
+    },
+    {
+      "start": 587.44,
+      "duration": 2.079,
+      "text": "we're targeting 10,000 users to begin",
+      "timestamp": "09:47"
+    },
+    {
+      "start": 589.519,
+      "duration": 3.041,
+      "text": "with so you know low but uh eventually",
+      "timestamp": "09:49"
+    },
+    {
+      "start": 592.56,
+      "duration": 1.92,
+      "text": "I'm pretty confident that if I repeat",
+      "timestamp": "09:52"
+    },
+    {
+      "start": 594.48,
+      "duration": 2.0,
+      "text": "the experience that I had at Autoesk",
+      "timestamp": "09:54"
+    },
+    {
+      "start": 596.48,
+      "duration": 2.32,
+      "text": "with Tinkercad we can go to the range of",
+      "timestamp": "09:56"
+    },
+    {
+      "start": 598.8,
+      "duration": 2.4,
+      "text": "a million several millions fairly",
+      "timestamp": "09:58"
+    },
+    {
+      "start": 601.2,
+      "duration": 3.0,
+      "text": "quickly",
+      "timestamp": "10:01"
+    }
+  ],
+  "extraction_timestamp": "2025-06-29T21:04:35.379708",
+  "playlist_title": "SuperAI Singapore 2025: WEKA Stage"
+}

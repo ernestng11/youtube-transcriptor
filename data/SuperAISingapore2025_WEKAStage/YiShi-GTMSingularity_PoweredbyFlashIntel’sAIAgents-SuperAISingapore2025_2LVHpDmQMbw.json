@@ -1,0 +1,1727 @@
+{
+  "video_id": "2LVHpDmQMbw",
+  "video_title": "Yi Shi - GTM Singularity: Powered by FlashIntel’s AI Agents - SuperAI Singapore 2025",
+  "video_url": "https://www.youtube.com/watch?v=2LVHpDmQMbw",
+  "channel_title": "SuperAI",
+  "published_at": "2025-06-25T06:27:44+00:00",
+  "duration_seconds": null,
+  "view_count": 27,
+  "like_count": 0,
+  "description": "Learn more about SuperAI: superai.com\nFollow us on X: x.com/superai_conf\n\nKeynote: GTM Singularity: Powered by FlashIntel’s AI Agents\n\nSpeaker:\nYi Shi, Founder @ FlashIntel\n\nStage: WEKA Stage\n#superai #flashintel #gtm #singularity #aiagents \n\nRecorded on 19 June 2025",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 284,
+    "aggregated_text": "hey everyone uh I'm the founder of Flash Intel my name is E and my topic today is about GTM uh singularity so GTM for standing for go to market so I don't know how many of you guys are in the B2B sales space but so when I started with my company I found that go to market in like B2B was very cluttered so we saw a lot of frictions we saw so many different softwares in different categories sales intelligence sales engagement all kind of uh sales tools over 15 sales tools and it was pretty hard for new software company to scale their sales motion because of so many tools and so complicated processes and I saw the biggest problem uh with all these tools was that they were all made like over 10 years ago before the AGI before the LM era so I saw like uh we cannot use these tools to build a new modern software company because all the growth were very linear when you use all these tools and foundationally everything was manual all the processes was pretty manual that's why I started flashing tail so basically I think um if we look into the future of a modern software sales organization the way to scale the business to scale the salesforce should be by scaling the intelligence instead of scaling the headcount so that we can get up the revenue per quart uh per capita of each of the sales reps that's the rational behind of the behind behind of it and the pre the premise of autonomous GTM AI agent is not only creating using some like GTM uh using some open AI API to to build some uh co-pilot but really building some autonomous GTM agents which can sync plan and act and flash intel is basically my first company so I've been spending the past 17 uh 16 years uh founding different companies um I my first company as a public company second one became a unicorn and third one got acquired and why I started flashing i thought that we shouldn't just start another tech company which is only running or run by engineering teams i thought it should be something like a int uh where we also run a research team so the goal of flashing was kind of running the company as a applied research lab where we also have research teams to look into the architecture of the of the new models trying to optimize the foundational technologies and the way we run flesh intel it's more like a AI research lab where we build everything based on these four layers so the first one the memory architecture and the second one planning module the third one all the tool kits where we build the diff the different like tools the agent should call and then on top of that the learning loops where we run like all the reinforcement learning and all the different technologies machine learning uh AI on top of it and the way we build the product is I believe it's not enough anymore to just build another software product where we add a lot of features but we should focus on something that can resemble human agency basically so we are trying to build a AI workforce instead of just several uh software features to generate pipelines so we think like building fully autonomous AI agents which can resemble human agents uh human agency which can like generate pipelines on autopilot is very critical so that's why we build different products at flash intel where we like fully automate the different uh processes in the in the sales cycle where we generate the pipeline where we like uh try to like fix like top of the funnel problems where we also try to close deals and also handle all the customer conversations and the key difference between um agentic AI versus traditional software is in my opinion really building thinking it as a workforce instead of a software so you should as a customer customers expect from AI agents uh outcome instead of like like uh getting their teams trained implement the software implement the solution and then like like try to get some results out of it so I think like the future of AI agent should be really outcome based really focusing on the outcomes and getting the AI agents getting the software to to execute the workflow and trying to trying to uh uh deliver the the outcomes and versus the like comparing to traditional tools if you uh so if we think about the traditional software in the GTM space we see a lot of uh tools in different spaces so like uh conversation analytics sequence management or like uh uh like CRM data management so like there are different tools and if you think about the process of like average sales people they still need over 10 tools like which is the SQL but in the future I think running one or two or multiple AI agents autonomously it's going to fix your scaling issues so as I said before um we are running flash intel as a applied AI research lab and we think like building engineering team is not enough so that's why like uh we are trying to to to make some changes to make some innovations in the architecture foundational technologies and we are also like our research team also studies papers they also publish papers and um we think like uh to build the next generational agentic AI like vertical AI agents for sales and customer experience it's uh about going from a linear pipeline generation to like cognitive uh loops so the software should be able to sync it should be able to act it should be able to plan over a long horizon it should also be able to recursively improve itself so meaning that based on historical data it should learn it should run reinforcement learning so so that it can improve by by its own and um to come back to to my to the topic of my speech today so GTM singularity why do I think GTM singularity is now because if we think about the adoption of AI agents basically um the speed the pace of the adoption is pretty much dependent on the loss function in different domains or areas and if we look into coding like the loss function coding is the lowest right now that's why we see a lot of wipe coding products but with a with an improvement with a pace of improvement of all the foundational techn technologies we think like the the loss function is also going to decrease significantly in go to market so sales customer experience use cases support and I think it's not a incremental improvement it's going to be like once we reach the inflection point it's going to be kind of a exponential adoption of all these uh vertical AI agents and uh I do have two two photos here which is from the fifth avenue venue in New York 1900 and 1913 so before the industrial revolution basically you see everyone was riding horses and once like Henry Ford introduced cars in the US just within 13 years on the fifth avenue right you guys can see like everything was replaced by cars so the pace of adoption can be even faster in the in the in the AGI era that's why I think like uh it's not an incremental change it's not an incremental like upgrade it's uh once we reach the the inflection point the singularity where the loss function is low enough it's going to be uh exponential adoption so and I think like agents vertical AI agents is going to eat revenue teams in the future because I have a strong convictions that companies in the future modern companies in the future are going to scale their revenue not by adding more headcounts but by adding more capex capex in the form of adding new GPUs and compute to train their own models to add more um like AI capabilities flash Intel as I said like uh we run as applied AI research lab but we also um like have our customers and we run our AI agents in different uh areas specifically in in sales and customer experience customer support and the results we see is once our customers start to adopt like agents agentic software like ours we see we don't see just the incremental like improvement but we see like 10x or 30x improvement over their existing uh like results over their existing outcomes running purely based on based on human reps and purely uh with manual workflows because manual workflow is not going to scale in the future and it's critical to scale the intelligence instead of the hackound in the future so at the end uh so as I'm I'm the founder of flash intel but I also run the research and engineering team so uh what we are currently working on it's uh um like all the topics here where we try to train our own multimodality LM end to end to to reduce the latency and the cost of voice conversations so we're trying to train like the the foundation we're trying to train and optimize the foundational technology in order to reduce the latency and the cost because uh at least for now like all the big ALMs they are mostly focused on text they're not focused on voice and other modalities or maybe text and image but I think voice is an area where the ALMs currently still like like the LMS from the big player still lack they they are not really training like end to end voice models which are at a low cost at the same time like uh very smart to use and also low latency and the second thing um we do is uh we still do a lot of research into reinforcement learning and also alignment human alignment and but also like uh uh to build a a vertical AI agent which can be used in enterprise use cases i heard also from other speech uh at this conference it's very important that you control the hallucination so the human alignment um how you reduce the hallucination improve the accuracy not only through like better models but also like uh through some technologies some new architectures rag like MCP and so on rounding with customer data yeah and the last thing is uh I'll see I I think uh ultimately like the future of go to market in modern organizations should be run by a lot of agents a lot of super agents which goes out prospects order uh list for you and uh tries to do reverse engineering why these uh why these prospects fit to your customer profile and then tries to uh produce very personalized messaging right emails phone and also uh like calling script and goes out to do all the outreach but also follow-ups in order to generate the pipeline in order to generate uh the deals to close the deals so I think like building ultimately like building the the the the GTM super agent which works across multiple task multiple like processes workflows it's very important and uh that's why like um that's also our big project where we're trying to to to build the next generational autonomous uh AI agent to run all these GTM task and to to make everything under one hood",
+    "text_length": 10453,
+    "word_count": 1952
+  },
+  "segments": [
+    {
+      "start": 7.44,
+      "duration": 2.159,
+      "text": "hey everyone uh I'm the founder of Flash",
+      "timestamp": "00:07"
+    },
+    {
+      "start": 9.599,
+      "duration": 2.401,
+      "text": "Intel my name is E and my topic today is",
+      "timestamp": "00:09"
+    },
+    {
+      "start": 12.0,
+      "duration": 3.2,
+      "text": "about GTM uh singularity so GTM for",
+      "timestamp": "00:12"
+    },
+    {
+      "start": 15.2,
+      "duration": 2.64,
+      "text": "standing for go to market so I don't",
+      "timestamp": "00:15"
+    },
+    {
+      "start": 17.84,
+      "duration": 2.32,
+      "text": "know how many of you guys are in the B2B",
+      "timestamp": "00:17"
+    },
+    {
+      "start": 20.16,
+      "duration": 3.44,
+      "text": "sales space but so when I started with",
+      "timestamp": "00:20"
+    },
+    {
+      "start": 23.6,
+      "duration": 3.439,
+      "text": "my company I found that go to market in",
+      "timestamp": "00:23"
+    },
+    {
+      "start": 27.039,
+      "duration": 3.361,
+      "text": "like B2B was very cluttered so we saw a",
+      "timestamp": "00:27"
+    },
+    {
+      "start": 30.4,
+      "duration": 1.52,
+      "text": "lot of frictions we saw so many",
+      "timestamp": "00:30"
+    },
+    {
+      "start": 31.92,
+      "duration": 1.36,
+      "text": "different softwares in different",
+      "timestamp": "00:31"
+    },
+    {
+      "start": 33.28,
+      "duration": 2.48,
+      "text": "categories sales intelligence sales",
+      "timestamp": "00:33"
+    },
+    {
+      "start": 35.76,
+      "duration": 2.16,
+      "text": "engagement all kind of uh sales tools",
+      "timestamp": "00:35"
+    },
+    {
+      "start": 37.92,
+      "duration": 3.2,
+      "text": "over 15 sales tools and it was pretty",
+      "timestamp": "00:37"
+    },
+    {
+      "start": 41.12,
+      "duration": 3.2,
+      "text": "hard for new software company to scale",
+      "timestamp": "00:41"
+    },
+    {
+      "start": 44.32,
+      "duration": 2.0,
+      "text": "their sales motion because of so many",
+      "timestamp": "00:44"
+    },
+    {
+      "start": 46.32,
+      "duration": 3.52,
+      "text": "tools and so complicated processes and I",
+      "timestamp": "00:46"
+    },
+    {
+      "start": 49.84,
+      "duration": 3.44,
+      "text": "saw the biggest problem uh with all",
+      "timestamp": "00:49"
+    },
+    {
+      "start": 53.28,
+      "duration": 2.24,
+      "text": "these tools was that they were all made",
+      "timestamp": "00:53"
+    },
+    {
+      "start": 55.52,
+      "duration": 2.64,
+      "text": "like over 10 years ago before the AGI",
+      "timestamp": "00:55"
+    },
+    {
+      "start": 58.16,
+      "duration": 2.879,
+      "text": "before the LM era so I saw like uh we",
+      "timestamp": "00:58"
+    },
+    {
+      "start": 61.039,
+      "duration": 2.401,
+      "text": "cannot use these tools to build a new",
+      "timestamp": "01:01"
+    },
+    {
+      "start": 63.44,
+      "duration": 2.64,
+      "text": "modern software company because all the",
+      "timestamp": "01:03"
+    },
+    {
+      "start": 66.08,
+      "duration": 2.399,
+      "text": "growth were very linear when you use all",
+      "timestamp": "01:06"
+    },
+    {
+      "start": 68.479,
+      "duration": 1.921,
+      "text": "these tools and foundationally",
+      "timestamp": "01:08"
+    },
+    {
+      "start": 70.4,
+      "duration": 1.84,
+      "text": "everything was manual all the processes",
+      "timestamp": "01:10"
+    },
+    {
+      "start": 72.24,
+      "duration": 2.879,
+      "text": "was pretty manual that's why I started",
+      "timestamp": "01:12"
+    },
+    {
+      "start": 75.119,
+      "duration": 2.64,
+      "text": "flashing tail",
+      "timestamp": "01:15"
+    },
+    {
+      "start": 77.759,
+      "duration": 4.241,
+      "text": "so basically I think um if we look into",
+      "timestamp": "01:17"
+    },
+    {
+      "start": 82.0,
+      "duration": 2.96,
+      "text": "the future of a modern software sales",
+      "timestamp": "01:22"
+    },
+    {
+      "start": 84.96,
+      "duration": 1.92,
+      "text": "organization",
+      "timestamp": "01:24"
+    },
+    {
+      "start": 86.88,
+      "duration": 2.4,
+      "text": "the way to scale the business to scale",
+      "timestamp": "01:26"
+    },
+    {
+      "start": 89.28,
+      "duration": 2.799,
+      "text": "the salesforce should be by scaling the",
+      "timestamp": "01:29"
+    },
+    {
+      "start": 92.079,
+      "duration": 1.441,
+      "text": "intelligence instead of scaling the",
+      "timestamp": "01:32"
+    },
+    {
+      "start": 93.52,
+      "duration": 1.919,
+      "text": "headcount",
+      "timestamp": "01:33"
+    },
+    {
+      "start": 95.439,
+      "duration": 2.561,
+      "text": "so that we can get up the revenue per",
+      "timestamp": "01:35"
+    },
+    {
+      "start": 98.0,
+      "duration": 2.32,
+      "text": "quart uh per capita of each of the sales",
+      "timestamp": "01:38"
+    },
+    {
+      "start": 100.32,
+      "duration": 3.2,
+      "text": "reps that's the rational behind of the",
+      "timestamp": "01:40"
+    },
+    {
+      "start": 103.52,
+      "duration": 2.959,
+      "text": "behind behind of it and the pre the",
+      "timestamp": "01:43"
+    },
+    {
+      "start": 106.479,
+      "duration": 4.0,
+      "text": "premise of autonomous GTM AI agent is",
+      "timestamp": "01:46"
+    },
+    {
+      "start": 110.479,
+      "duration": 4.401,
+      "text": "not only creating using some like GTM uh",
+      "timestamp": "01:50"
+    },
+    {
+      "start": 114.88,
+      "duration": 2.64,
+      "text": "using some open AI API to to build some",
+      "timestamp": "01:54"
+    },
+    {
+      "start": 117.52,
+      "duration": 2.879,
+      "text": "uh co-pilot but really building some",
+      "timestamp": "01:57"
+    },
+    {
+      "start": 120.399,
+      "duration": 3.04,
+      "text": "autonomous GTM agents which can sync",
+      "timestamp": "02:00"
+    },
+    {
+      "start": 123.439,
+      "duration": 3.68,
+      "text": "plan and act and flash intel is",
+      "timestamp": "02:03"
+    },
+    {
+      "start": 127.119,
+      "duration": 2.081,
+      "text": "basically my first company so I've been",
+      "timestamp": "02:07"
+    },
+    {
+      "start": 129.2,
+      "duration": 2.64,
+      "text": "spending the past 17 uh 16 years uh",
+      "timestamp": "02:09"
+    },
+    {
+      "start": 131.84,
+      "duration": 3.52,
+      "text": "founding different companies um I my",
+      "timestamp": "02:11"
+    },
+    {
+      "start": 135.36,
+      "duration": 1.84,
+      "text": "first company as a public company second",
+      "timestamp": "02:15"
+    },
+    {
+      "start": 137.2,
+      "duration": 2.399,
+      "text": "one became a unicorn and third one got",
+      "timestamp": "02:17"
+    },
+    {
+      "start": 139.599,
+      "duration": 3.041,
+      "text": "acquired and why I started flashing i",
+      "timestamp": "02:19"
+    },
+    {
+      "start": 142.64,
+      "duration": 3.04,
+      "text": "thought that we shouldn't just start",
+      "timestamp": "02:22"
+    },
+    {
+      "start": 145.68,
+      "duration": 3.44,
+      "text": "another tech company which is only",
+      "timestamp": "02:25"
+    },
+    {
+      "start": 149.12,
+      "duration": 3.28,
+      "text": "running or run by engineering teams i",
+      "timestamp": "02:29"
+    },
+    {
+      "start": 152.4,
+      "duration": 2.16,
+      "text": "thought it should be something like a",
+      "timestamp": "02:32"
+    },
+    {
+      "start": 154.56,
+      "duration": 3.6,
+      "text": "int uh where we also run a research team",
+      "timestamp": "02:34"
+    },
+    {
+      "start": 158.16,
+      "duration": 2.24,
+      "text": "so the goal of flashing was kind of",
+      "timestamp": "02:38"
+    },
+    {
+      "start": 160.4,
+      "duration": 2.24,
+      "text": "running the company as a applied",
+      "timestamp": "02:40"
+    },
+    {
+      "start": 162.64,
+      "duration": 2.48,
+      "text": "research lab where we also have research",
+      "timestamp": "02:42"
+    },
+    {
+      "start": 165.12,
+      "duration": 2.8,
+      "text": "teams to look into the architecture of",
+      "timestamp": "02:45"
+    },
+    {
+      "start": 167.92,
+      "duration": 3.28,
+      "text": "the of the new models trying to optimize",
+      "timestamp": "02:47"
+    },
+    {
+      "start": 171.2,
+      "duration": 3.52,
+      "text": "the foundational technologies and the",
+      "timestamp": "02:51"
+    },
+    {
+      "start": 174.72,
+      "duration": 2.159,
+      "text": "way we run flesh intel it's more like a",
+      "timestamp": "02:54"
+    },
+    {
+      "start": 176.879,
+      "duration": 2.481,
+      "text": "AI research lab where we build",
+      "timestamp": "02:56"
+    },
+    {
+      "start": 179.36,
+      "duration": 2.879,
+      "text": "everything based on these four layers so",
+      "timestamp": "02:59"
+    },
+    {
+      "start": 182.239,
+      "duration": 1.521,
+      "text": "the first one the memory architecture",
+      "timestamp": "03:02"
+    },
+    {
+      "start": 183.76,
+      "duration": 1.92,
+      "text": "and the second one planning module the",
+      "timestamp": "03:03"
+    },
+    {
+      "start": 185.68,
+      "duration": 2.0,
+      "text": "third one all the tool kits where we",
+      "timestamp": "03:05"
+    },
+    {
+      "start": 187.68,
+      "duration": 2.72,
+      "text": "build the diff the different like tools",
+      "timestamp": "03:07"
+    },
+    {
+      "start": 190.4,
+      "duration": 2.4,
+      "text": "the agent should call and then on top of",
+      "timestamp": "03:10"
+    },
+    {
+      "start": 192.8,
+      "duration": 1.6,
+      "text": "that the learning loops where we run",
+      "timestamp": "03:12"
+    },
+    {
+      "start": 194.4,
+      "duration": 1.6,
+      "text": "like all the reinforcement learning and",
+      "timestamp": "03:14"
+    },
+    {
+      "start": 196.0,
+      "duration": 1.92,
+      "text": "all the different technologies machine",
+      "timestamp": "03:16"
+    },
+    {
+      "start": 197.92,
+      "duration": 5.0,
+      "text": "learning uh AI on top of it",
+      "timestamp": "03:17"
+    },
+    {
+      "start": 203.04,
+      "duration": 3.6,
+      "text": "and the way we build the product is",
+      "timestamp": "03:23"
+    },
+    {
+      "start": 206.64,
+      "duration": 2.319,
+      "text": "I believe it's not enough anymore to",
+      "timestamp": "03:26"
+    },
+    {
+      "start": 208.959,
+      "duration": 1.601,
+      "text": "just build another software product",
+      "timestamp": "03:28"
+    },
+    {
+      "start": 210.56,
+      "duration": 2.48,
+      "text": "where we add a lot of features but we",
+      "timestamp": "03:30"
+    },
+    {
+      "start": 213.04,
+      "duration": 3.119,
+      "text": "should focus on something",
+      "timestamp": "03:33"
+    },
+    {
+      "start": 216.159,
+      "duration": 3.36,
+      "text": "that can resemble human agency basically",
+      "timestamp": "03:36"
+    },
+    {
+      "start": 219.519,
+      "duration": 2.881,
+      "text": "so we are trying to build a AI workforce",
+      "timestamp": "03:39"
+    },
+    {
+      "start": 222.4,
+      "duration": 3.199,
+      "text": "instead of just several uh software",
+      "timestamp": "03:42"
+    },
+    {
+      "start": 225.599,
+      "duration": 2.241,
+      "text": "features to generate pipelines so we",
+      "timestamp": "03:45"
+    },
+    {
+      "start": 227.84,
+      "duration": 3.039,
+      "text": "think like building fully autonomous AI",
+      "timestamp": "03:47"
+    },
+    {
+      "start": 230.879,
+      "duration": 3.28,
+      "text": "agents which can resemble human agents",
+      "timestamp": "03:50"
+    },
+    {
+      "start": 234.159,
+      "duration": 2.64,
+      "text": "uh human agency which can like generate",
+      "timestamp": "03:54"
+    },
+    {
+      "start": 236.799,
+      "duration": 3.52,
+      "text": "pipelines on autopilot is very critical",
+      "timestamp": "03:56"
+    },
+    {
+      "start": 240.319,
+      "duration": 1.601,
+      "text": "so that's why we build different",
+      "timestamp": "04:00"
+    },
+    {
+      "start": 241.92,
+      "duration": 3.519,
+      "text": "products at flash intel where we like",
+      "timestamp": "04:01"
+    },
+    {
+      "start": 245.439,
+      "duration": 2.08,
+      "text": "fully automate the different uh",
+      "timestamp": "04:05"
+    },
+    {
+      "start": 247.519,
+      "duration": 2.321,
+      "text": "processes in the in the sales cycle",
+      "timestamp": "04:07"
+    },
+    {
+      "start": 249.84,
+      "duration": 1.92,
+      "text": "where we generate the pipeline where we",
+      "timestamp": "04:09"
+    },
+    {
+      "start": 251.76,
+      "duration": 3.119,
+      "text": "like uh try to like fix like top of the",
+      "timestamp": "04:11"
+    },
+    {
+      "start": 254.879,
+      "duration": 2.161,
+      "text": "funnel problems where we also try to",
+      "timestamp": "04:14"
+    },
+    {
+      "start": 257.04,
+      "duration": 1.919,
+      "text": "close deals and also handle all the",
+      "timestamp": "04:17"
+    },
+    {
+      "start": 258.959,
+      "duration": 1.921,
+      "text": "customer conversations",
+      "timestamp": "04:18"
+    },
+    {
+      "start": 260.88,
+      "duration": 2.8,
+      "text": "and the key difference between",
+      "timestamp": "04:20"
+    },
+    {
+      "start": 263.68,
+      "duration": 3.519,
+      "text": "um agentic AI versus traditional",
+      "timestamp": "04:23"
+    },
+    {
+      "start": 267.199,
+      "duration": 3.121,
+      "text": "software is in my opinion really",
+      "timestamp": "04:27"
+    },
+    {
+      "start": 270.32,
+      "duration": 2.48,
+      "text": "building thinking it as a workforce",
+      "timestamp": "04:30"
+    },
+    {
+      "start": 272.8,
+      "duration": 4.0,
+      "text": "instead of a software so you should as a",
+      "timestamp": "04:32"
+    },
+    {
+      "start": 276.8,
+      "duration": 3.6,
+      "text": "customer customers expect from AI agents",
+      "timestamp": "04:36"
+    },
+    {
+      "start": 280.4,
+      "duration": 2.799,
+      "text": "uh outcome instead of like like uh",
+      "timestamp": "04:40"
+    },
+    {
+      "start": 283.199,
+      "duration": 2.081,
+      "text": "getting their teams trained implement",
+      "timestamp": "04:43"
+    },
+    {
+      "start": 285.28,
+      "duration": 2.16,
+      "text": "the software implement the solution and",
+      "timestamp": "04:45"
+    },
+    {
+      "start": 287.44,
+      "duration": 2.96,
+      "text": "then like like try to get some results",
+      "timestamp": "04:47"
+    },
+    {
+      "start": 290.4,
+      "duration": 2.32,
+      "text": "out of it so I think like the future of",
+      "timestamp": "04:50"
+    },
+    {
+      "start": 292.72,
+      "duration": 3.28,
+      "text": "AI agent should be really outcome based",
+      "timestamp": "04:52"
+    },
+    {
+      "start": 296.0,
+      "duration": 2.32,
+      "text": "really focusing on the outcomes and",
+      "timestamp": "04:56"
+    },
+    {
+      "start": 298.32,
+      "duration": 1.68,
+      "text": "getting the AI agents getting the",
+      "timestamp": "04:58"
+    },
+    {
+      "start": 300.0,
+      "duration": 2.16,
+      "text": "software to to execute the workflow and",
+      "timestamp": "05:00"
+    },
+    {
+      "start": 302.16,
+      "duration": 3.36,
+      "text": "trying to trying to uh uh deliver the",
+      "timestamp": "05:02"
+    },
+    {
+      "start": 305.52,
+      "duration": 3.398,
+      "text": "the outcomes",
+      "timestamp": "05:05"
+    },
+    {
+      "start": 309.039,
+      "duration": 2.241,
+      "text": "and versus the like comparing to",
+      "timestamp": "05:09"
+    },
+    {
+      "start": 311.28,
+      "duration": 2.08,
+      "text": "traditional tools if you uh so if we",
+      "timestamp": "05:11"
+    },
+    {
+      "start": 313.36,
+      "duration": 1.6,
+      "text": "think about the traditional software in",
+      "timestamp": "05:13"
+    },
+    {
+      "start": 314.96,
+      "duration": 3.28,
+      "text": "the GTM space we see a lot of uh tools",
+      "timestamp": "05:14"
+    },
+    {
+      "start": 318.24,
+      "duration": 2.48,
+      "text": "in different spaces so like uh",
+      "timestamp": "05:18"
+    },
+    {
+      "start": 320.72,
+      "duration": 2.08,
+      "text": "conversation analytics sequence",
+      "timestamp": "05:20"
+    },
+    {
+      "start": 322.8,
+      "duration": 3.44,
+      "text": "management or like uh uh like CRM data",
+      "timestamp": "05:22"
+    },
+    {
+      "start": 326.24,
+      "duration": 2.32,
+      "text": "management so like there are different",
+      "timestamp": "05:26"
+    },
+    {
+      "start": 328.56,
+      "duration": 3.04,
+      "text": "tools and if you think about the process",
+      "timestamp": "05:28"
+    },
+    {
+      "start": 331.6,
+      "duration": 3.28,
+      "text": "of like average sales people they still",
+      "timestamp": "05:31"
+    },
+    {
+      "start": 334.88,
+      "duration": 3.039,
+      "text": "need over 10 tools",
+      "timestamp": "05:34"
+    },
+    {
+      "start": 337.919,
+      "duration": 2.881,
+      "text": "like which is the SQL but in the future",
+      "timestamp": "05:37"
+    },
+    {
+      "start": 340.8,
+      "duration": 2.48,
+      "text": "I think running one or two or multiple",
+      "timestamp": "05:40"
+    },
+    {
+      "start": 343.28,
+      "duration": 2.639,
+      "text": "AI agents autonomously it's going to fix",
+      "timestamp": "05:43"
+    },
+    {
+      "start": 345.919,
+      "duration": 4.56,
+      "text": "your scaling issues so as I said before",
+      "timestamp": "05:45"
+    },
+    {
+      "start": 350.479,
+      "duration": 3.28,
+      "text": "um we are running flash intel as a",
+      "timestamp": "05:50"
+    },
+    {
+      "start": 353.759,
+      "duration": 3.28,
+      "text": "applied AI research lab and we think",
+      "timestamp": "05:53"
+    },
+    {
+      "start": 357.039,
+      "duration": 2.401,
+      "text": "like building engineering team is not",
+      "timestamp": "05:57"
+    },
+    {
+      "start": 359.44,
+      "duration": 2.88,
+      "text": "enough so that's why like uh we are",
+      "timestamp": "05:59"
+    },
+    {
+      "start": 362.32,
+      "duration": 3.12,
+      "text": "trying to to to make some changes to",
+      "timestamp": "06:02"
+    },
+    {
+      "start": 365.44,
+      "duration": 1.199,
+      "text": "make some innovations in the",
+      "timestamp": "06:05"
+    },
+    {
+      "start": 366.639,
+      "duration": 2.881,
+      "text": "architecture foundational technologies",
+      "timestamp": "06:06"
+    },
+    {
+      "start": 369.52,
+      "duration": 2.64,
+      "text": "and we are also like our research team",
+      "timestamp": "06:09"
+    },
+    {
+      "start": 372.16,
+      "duration": 1.759,
+      "text": "also studies papers they also publish",
+      "timestamp": "06:12"
+    },
+    {
+      "start": 373.919,
+      "duration": 3.441,
+      "text": "papers and um we think like uh to build",
+      "timestamp": "06:13"
+    },
+    {
+      "start": 377.36,
+      "duration": 3.679,
+      "text": "the next generational agentic AI like",
+      "timestamp": "06:17"
+    },
+    {
+      "start": 381.039,
+      "duration": 2.72,
+      "text": "vertical AI agents for sales and",
+      "timestamp": "06:21"
+    },
+    {
+      "start": 383.759,
+      "duration": 3.921,
+      "text": "customer experience it's uh about going",
+      "timestamp": "06:23"
+    },
+    {
+      "start": 387.68,
+      "duration": 2.56,
+      "text": "from a linear pipeline generation to",
+      "timestamp": "06:27"
+    },
+    {
+      "start": 390.24,
+      "duration": 1.519,
+      "text": "like",
+      "timestamp": "06:30"
+    },
+    {
+      "start": 391.759,
+      "duration": 3.601,
+      "text": "cognitive uh loops so the software",
+      "timestamp": "06:31"
+    },
+    {
+      "start": 395.36,
+      "duration": 2.0,
+      "text": "should be able to sync it should be able",
+      "timestamp": "06:35"
+    },
+    {
+      "start": 397.36,
+      "duration": 2.64,
+      "text": "to act it should be able to plan over a",
+      "timestamp": "06:37"
+    },
+    {
+      "start": 400.0,
+      "duration": 3.36,
+      "text": "long horizon it should also be able to",
+      "timestamp": "06:40"
+    },
+    {
+      "start": 403.36,
+      "duration": 3.279,
+      "text": "recursively improve itself so meaning",
+      "timestamp": "06:43"
+    },
+    {
+      "start": 406.639,
+      "duration": 1.84,
+      "text": "that based on historical data it should",
+      "timestamp": "06:46"
+    },
+    {
+      "start": 408.479,
+      "duration": 1.84,
+      "text": "learn it should run reinforcement",
+      "timestamp": "06:48"
+    },
+    {
+      "start": 410.319,
+      "duration": 3.041,
+      "text": "learning so so that it can improve by by",
+      "timestamp": "06:50"
+    },
+    {
+      "start": 413.36,
+      "duration": 5.279,
+      "text": "its own and um to come back to to my",
+      "timestamp": "06:53"
+    },
+    {
+      "start": 418.639,
+      "duration": 2.801,
+      "text": "to the topic of my speech today so GTM",
+      "timestamp": "06:58"
+    },
+    {
+      "start": 421.44,
+      "duration": 2.64,
+      "text": "singularity why do I think GTM",
+      "timestamp": "07:01"
+    },
+    {
+      "start": 424.08,
+      "duration": 3.28,
+      "text": "singularity is now because if we think",
+      "timestamp": "07:04"
+    },
+    {
+      "start": 427.36,
+      "duration": 2.399,
+      "text": "about the adoption of AI agents",
+      "timestamp": "07:07"
+    },
+    {
+      "start": 429.759,
+      "duration": 3.121,
+      "text": "basically um the speed the pace of the",
+      "timestamp": "07:09"
+    },
+    {
+      "start": 432.88,
+      "duration": 1.92,
+      "text": "adoption is pretty much dependent on the",
+      "timestamp": "07:12"
+    },
+    {
+      "start": 434.8,
+      "duration": 1.839,
+      "text": "loss function in different domains or",
+      "timestamp": "07:14"
+    },
+    {
+      "start": 436.639,
+      "duration": 3.441,
+      "text": "areas and if we look into coding like",
+      "timestamp": "07:16"
+    },
+    {
+      "start": 440.08,
+      "duration": 1.76,
+      "text": "the loss function coding is the lowest",
+      "timestamp": "07:20"
+    },
+    {
+      "start": 441.84,
+      "duration": 1.44,
+      "text": "right now that's why we see a lot of",
+      "timestamp": "07:21"
+    },
+    {
+      "start": 443.28,
+      "duration": 2.72,
+      "text": "wipe coding products",
+      "timestamp": "07:23"
+    },
+    {
+      "start": 446.0,
+      "duration": 2.24,
+      "text": "but with a with an improvement with a",
+      "timestamp": "07:26"
+    },
+    {
+      "start": 448.24,
+      "duration": 1.359,
+      "text": "pace of improvement of all the",
+      "timestamp": "07:28"
+    },
+    {
+      "start": 449.599,
+      "duration": 2.401,
+      "text": "foundational techn technologies we think",
+      "timestamp": "07:29"
+    },
+    {
+      "start": 452.0,
+      "duration": 1.919,
+      "text": "like the the loss function is also going",
+      "timestamp": "07:32"
+    },
+    {
+      "start": 453.919,
+      "duration": 2.4,
+      "text": "to decrease significantly in go to",
+      "timestamp": "07:33"
+    },
+    {
+      "start": 456.319,
+      "duration": 3.201,
+      "text": "market so sales customer experience use",
+      "timestamp": "07:36"
+    },
+    {
+      "start": 459.52,
+      "duration": 3.84,
+      "text": "cases support and I think it's not a",
+      "timestamp": "07:39"
+    },
+    {
+      "start": 463.36,
+      "duration": 3.44,
+      "text": "incremental improvement it's going to be",
+      "timestamp": "07:43"
+    },
+    {
+      "start": 466.8,
+      "duration": 1.76,
+      "text": "like once we reach the inflection point",
+      "timestamp": "07:46"
+    },
+    {
+      "start": 468.56,
+      "duration": 2.8,
+      "text": "it's going to be kind of a exponential",
+      "timestamp": "07:48"
+    },
+    {
+      "start": 471.36,
+      "duration": 2.8,
+      "text": "adoption of all these uh vertical AI",
+      "timestamp": "07:51"
+    },
+    {
+      "start": 474.16,
+      "duration": 3.68,
+      "text": "agents and uh I do have two two photos",
+      "timestamp": "07:54"
+    },
+    {
+      "start": 477.84,
+      "duration": 1.919,
+      "text": "here which is from the fifth avenue",
+      "timestamp": "07:57"
+    },
+    {
+      "start": 479.759,
+      "duration": 6.16,
+      "text": "venue in New York 1900 and 1913 so",
+      "timestamp": "07:59"
+    },
+    {
+      "start": 485.919,
+      "duration": 1.68,
+      "text": "before the industrial revolution",
+      "timestamp": "08:05"
+    },
+    {
+      "start": 487.599,
+      "duration": 2.081,
+      "text": "basically you see everyone was riding",
+      "timestamp": "08:07"
+    },
+    {
+      "start": 489.68,
+      "duration": 1.919,
+      "text": "horses",
+      "timestamp": "08:09"
+    },
+    {
+      "start": 491.599,
+      "duration": 4.241,
+      "text": "and once like Henry Ford introduced cars",
+      "timestamp": "08:11"
+    },
+    {
+      "start": 495.84,
+      "duration": 3.12,
+      "text": "in the US just within 13 years on the",
+      "timestamp": "08:15"
+    },
+    {
+      "start": 498.96,
+      "duration": 2.72,
+      "text": "fifth avenue right you guys can see like",
+      "timestamp": "08:18"
+    },
+    {
+      "start": 501.68,
+      "duration": 2.799,
+      "text": "everything was replaced by cars so the",
+      "timestamp": "08:21"
+    },
+    {
+      "start": 504.479,
+      "duration": 2.241,
+      "text": "pace of adoption can be even faster in",
+      "timestamp": "08:24"
+    },
+    {
+      "start": 506.72,
+      "duration": 3.28,
+      "text": "the in the in the AGI era that's why I",
+      "timestamp": "08:26"
+    },
+    {
+      "start": 510.0,
+      "duration": 1.919,
+      "text": "think like uh it's not an incremental",
+      "timestamp": "08:30"
+    },
+    {
+      "start": 511.919,
+      "duration": 2.081,
+      "text": "change it's not an incremental like",
+      "timestamp": "08:31"
+    },
+    {
+      "start": 514.0,
+      "duration": 4.08,
+      "text": "upgrade it's uh once we reach the the",
+      "timestamp": "08:34"
+    },
+    {
+      "start": 518.08,
+      "duration": 2.56,
+      "text": "inflection point the singularity where",
+      "timestamp": "08:38"
+    },
+    {
+      "start": 520.64,
+      "duration": 2.72,
+      "text": "the loss function is low enough it's",
+      "timestamp": "08:40"
+    },
+    {
+      "start": 523.36,
+      "duration": 3.76,
+      "text": "going to be uh exponential adoption",
+      "timestamp": "08:43"
+    },
+    {
+      "start": 527.12,
+      "duration": 2.8,
+      "text": "so and I think like agents vertical AI",
+      "timestamp": "08:47"
+    },
+    {
+      "start": 529.92,
+      "duration": 2.56,
+      "text": "agents is going to eat",
+      "timestamp": "08:49"
+    },
+    {
+      "start": 532.48,
+      "duration": 2.24,
+      "text": "revenue teams in the future because I",
+      "timestamp": "08:52"
+    },
+    {
+      "start": 534.72,
+      "duration": 1.92,
+      "text": "have a strong convictions that companies",
+      "timestamp": "08:54"
+    },
+    {
+      "start": 536.64,
+      "duration": 1.84,
+      "text": "in the future modern companies in the",
+      "timestamp": "08:56"
+    },
+    {
+      "start": 538.48,
+      "duration": 2.479,
+      "text": "future are going to scale their revenue",
+      "timestamp": "08:58"
+    },
+    {
+      "start": 540.959,
+      "duration": 2.88,
+      "text": "not by adding more headcounts but by",
+      "timestamp": "09:00"
+    },
+    {
+      "start": 543.839,
+      "duration": 2.801,
+      "text": "adding more capex capex in the form of",
+      "timestamp": "09:03"
+    },
+    {
+      "start": 546.64,
+      "duration": 3.36,
+      "text": "adding new GPUs and compute to train",
+      "timestamp": "09:06"
+    },
+    {
+      "start": 550.0,
+      "duration": 3.279,
+      "text": "their own models to add more um like AI",
+      "timestamp": "09:10"
+    },
+    {
+      "start": 553.279,
+      "duration": 3.201,
+      "text": "capabilities flash Intel as I said like",
+      "timestamp": "09:13"
+    },
+    {
+      "start": 556.48,
+      "duration": 2.479,
+      "text": "uh we run as applied AI research lab but",
+      "timestamp": "09:16"
+    },
+    {
+      "start": 558.959,
+      "duration": 4.32,
+      "text": "we also um like have our customers and",
+      "timestamp": "09:18"
+    },
+    {
+      "start": 563.279,
+      "duration": 2.24,
+      "text": "we run our AI agents in different uh",
+      "timestamp": "09:23"
+    },
+    {
+      "start": 565.519,
+      "duration": 3.041,
+      "text": "areas specifically in in sales and",
+      "timestamp": "09:25"
+    },
+    {
+      "start": 568.56,
+      "duration": 2.64,
+      "text": "customer experience customer support and",
+      "timestamp": "09:28"
+    },
+    {
+      "start": 571.2,
+      "duration": 3.199,
+      "text": "the results we see is once our customers",
+      "timestamp": "09:31"
+    },
+    {
+      "start": 574.399,
+      "duration": 4.401,
+      "text": "start to adopt like agents agentic",
+      "timestamp": "09:34"
+    },
+    {
+      "start": 578.8,
+      "duration": 2.32,
+      "text": "software like ours",
+      "timestamp": "09:38"
+    },
+    {
+      "start": 581.12,
+      "duration": 3.12,
+      "text": "we see we don't see just the incremental",
+      "timestamp": "09:41"
+    },
+    {
+      "start": 584.24,
+      "duration": 2.48,
+      "text": "like improvement but we see like 10x or",
+      "timestamp": "09:44"
+    },
+    {
+      "start": 586.72,
+      "duration": 4.96,
+      "text": "30x improvement over their existing uh",
+      "timestamp": "09:46"
+    },
+    {
+      "start": 591.68,
+      "duration": 1.839,
+      "text": "like results over their existing",
+      "timestamp": "09:51"
+    },
+    {
+      "start": 593.519,
+      "duration": 2.561,
+      "text": "outcomes running purely based on based",
+      "timestamp": "09:53"
+    },
+    {
+      "start": 596.08,
+      "duration": 2.64,
+      "text": "on human reps and purely uh with manual",
+      "timestamp": "09:56"
+    },
+    {
+      "start": 598.72,
+      "duration": 2.4,
+      "text": "workflows because manual workflow is not",
+      "timestamp": "09:58"
+    },
+    {
+      "start": 601.12,
+      "duration": 1.92,
+      "text": "going to scale in the future and it's",
+      "timestamp": "10:01"
+    },
+    {
+      "start": 603.04,
+      "duration": 1.359,
+      "text": "critical to scale the intelligence",
+      "timestamp": "10:03"
+    },
+    {
+      "start": 604.399,
+      "duration": 3.521,
+      "text": "instead of the hackound in the future so",
+      "timestamp": "10:04"
+    },
+    {
+      "start": 607.92,
+      "duration": 2.56,
+      "text": "at the end uh so as I'm I'm the founder",
+      "timestamp": "10:07"
+    },
+    {
+      "start": 610.48,
+      "duration": 2.08,
+      "text": "of flash intel but I also run the",
+      "timestamp": "10:10"
+    },
+    {
+      "start": 612.56,
+      "duration": 3.04,
+      "text": "research and engineering team so uh what",
+      "timestamp": "10:12"
+    },
+    {
+      "start": 615.6,
+      "duration": 3.28,
+      "text": "we are currently working on it's uh um",
+      "timestamp": "10:15"
+    },
+    {
+      "start": 618.88,
+      "duration": 2.399,
+      "text": "like all the topics here where we try to",
+      "timestamp": "10:18"
+    },
+    {
+      "start": 621.279,
+      "duration": 3.12,
+      "text": "train our own multimodality LM end to",
+      "timestamp": "10:21"
+    },
+    {
+      "start": 624.399,
+      "duration": 3.201,
+      "text": "end to to reduce the latency and the",
+      "timestamp": "10:24"
+    },
+    {
+      "start": 627.6,
+      "duration": 3.04,
+      "text": "cost of voice conversations so we're",
+      "timestamp": "10:27"
+    },
+    {
+      "start": 630.64,
+      "duration": 2.96,
+      "text": "trying to train like the the foundation",
+      "timestamp": "10:30"
+    },
+    {
+      "start": 633.6,
+      "duration": 1.52,
+      "text": "we're trying to train and optimize the",
+      "timestamp": "10:33"
+    },
+    {
+      "start": 635.12,
+      "duration": 1.68,
+      "text": "foundational technology in order to",
+      "timestamp": "10:35"
+    },
+    {
+      "start": 636.8,
+      "duration": 2.4,
+      "text": "reduce the latency and the cost because",
+      "timestamp": "10:36"
+    },
+    {
+      "start": 639.2,
+      "duration": 2.24,
+      "text": "uh at least for now like all the big",
+      "timestamp": "10:39"
+    },
+    {
+      "start": 641.44,
+      "duration": 2.56,
+      "text": "ALMs they are mostly focused on text",
+      "timestamp": "10:41"
+    },
+    {
+      "start": 644.0,
+      "duration": 1.68,
+      "text": "they're not focused on voice and other",
+      "timestamp": "10:44"
+    },
+    {
+      "start": 645.68,
+      "duration": 3.599,
+      "text": "modalities or maybe text and image but I",
+      "timestamp": "10:45"
+    },
+    {
+      "start": 649.279,
+      "duration": 4.0,
+      "text": "think voice is an area where the ALMs",
+      "timestamp": "10:49"
+    },
+    {
+      "start": 653.279,
+      "duration": 2.401,
+      "text": "currently still like like the LMS from",
+      "timestamp": "10:53"
+    },
+    {
+      "start": 655.68,
+      "duration": 3.36,
+      "text": "the big player still lack they they are",
+      "timestamp": "10:55"
+    },
+    {
+      "start": 659.04,
+      "duration": 2.56,
+      "text": "not really training like end to end",
+      "timestamp": "10:59"
+    },
+    {
+      "start": 661.6,
+      "duration": 3.6,
+      "text": "voice models which are at a low cost at",
+      "timestamp": "11:01"
+    },
+    {
+      "start": 665.2,
+      "duration": 3.68,
+      "text": "the same time like uh very smart to use",
+      "timestamp": "11:05"
+    },
+    {
+      "start": 668.88,
+      "duration": 2.399,
+      "text": "and also low latency and the second",
+      "timestamp": "11:08"
+    },
+    {
+      "start": 671.279,
+      "duration": 3.041,
+      "text": "thing um we do is uh we still do a lot",
+      "timestamp": "11:11"
+    },
+    {
+      "start": 674.32,
+      "duration": 1.759,
+      "text": "of research into reinforcement learning",
+      "timestamp": "11:14"
+    },
+    {
+      "start": 676.079,
+      "duration": 3.2,
+      "text": "and also alignment human alignment",
+      "timestamp": "11:16"
+    },
+    {
+      "start": 679.279,
+      "duration": 3.521,
+      "text": "and but also like uh uh to build a a",
+      "timestamp": "11:19"
+    },
+    {
+      "start": 682.8,
+      "duration": 2.8,
+      "text": "vertical AI agent which can be used in",
+      "timestamp": "11:22"
+    },
+    {
+      "start": 685.6,
+      "duration": 2.32,
+      "text": "enterprise use cases",
+      "timestamp": "11:25"
+    },
+    {
+      "start": 687.92,
+      "duration": 2.88,
+      "text": "i heard also from other speech uh at",
+      "timestamp": "11:27"
+    },
+    {
+      "start": 690.8,
+      "duration": 4.32,
+      "text": "this conference it's very important that",
+      "timestamp": "11:30"
+    },
+    {
+      "start": 695.12,
+      "duration": 2.8,
+      "text": "you control the hallucination so the",
+      "timestamp": "11:35"
+    },
+    {
+      "start": 697.92,
+      "duration": 3.2,
+      "text": "human alignment um how you reduce the",
+      "timestamp": "11:37"
+    },
+    {
+      "start": 701.12,
+      "duration": 2.56,
+      "text": "hallucination improve the accuracy not",
+      "timestamp": "11:41"
+    },
+    {
+      "start": 703.68,
+      "duration": 2.399,
+      "text": "only through like better models but also",
+      "timestamp": "11:43"
+    },
+    {
+      "start": 706.079,
+      "duration": 3.281,
+      "text": "like uh through some technologies some",
+      "timestamp": "11:46"
+    },
+    {
+      "start": 709.36,
+      "duration": 3.28,
+      "text": "new architectures rag like MCP and so on",
+      "timestamp": "11:49"
+    },
+    {
+      "start": 712.64,
+      "duration": 2.96,
+      "text": "rounding with customer data yeah and the",
+      "timestamp": "11:52"
+    },
+    {
+      "start": 715.6,
+      "duration": 2.479,
+      "text": "last thing is uh I'll see I I think uh",
+      "timestamp": "11:55"
+    },
+    {
+      "start": 718.079,
+      "duration": 1.921,
+      "text": "ultimately",
+      "timestamp": "11:58"
+    },
+    {
+      "start": 720.0,
+      "duration": 2.32,
+      "text": "like the future of go to market in",
+      "timestamp": "12:00"
+    },
+    {
+      "start": 722.32,
+      "duration": 2.16,
+      "text": "modern organizations",
+      "timestamp": "12:02"
+    },
+    {
+      "start": 724.48,
+      "duration": 3.919,
+      "text": "should be run by a lot of agents a lot",
+      "timestamp": "12:04"
+    },
+    {
+      "start": 728.399,
+      "duration": 3.201,
+      "text": "of super agents which goes out prospects",
+      "timestamp": "12:08"
+    },
+    {
+      "start": 731.6,
+      "duration": 4.479,
+      "text": "order uh list for you and uh tries to do",
+      "timestamp": "12:11"
+    },
+    {
+      "start": 736.079,
+      "duration": 2.481,
+      "text": "reverse engineering why these uh why",
+      "timestamp": "12:16"
+    },
+    {
+      "start": 738.56,
+      "duration": 2.64,
+      "text": "these prospects fit to your customer",
+      "timestamp": "12:18"
+    },
+    {
+      "start": 741.2,
+      "duration": 3.28,
+      "text": "profile and then tries to uh produce",
+      "timestamp": "12:21"
+    },
+    {
+      "start": 744.48,
+      "duration": 2.72,
+      "text": "very personalized messaging right emails",
+      "timestamp": "12:24"
+    },
+    {
+      "start": 747.2,
+      "duration": 4.0,
+      "text": "phone and also uh like calling script",
+      "timestamp": "12:27"
+    },
+    {
+      "start": 751.2,
+      "duration": 2.4,
+      "text": "and goes out to do all the outreach but",
+      "timestamp": "12:31"
+    },
+    {
+      "start": 753.6,
+      "duration": 1.919,
+      "text": "also follow-ups in order to generate the",
+      "timestamp": "12:33"
+    },
+    {
+      "start": 755.519,
+      "duration": 1.921,
+      "text": "pipeline in order to generate uh the",
+      "timestamp": "12:35"
+    },
+    {
+      "start": 757.44,
+      "duration": 2.48,
+      "text": "deals to close the deals so I think like",
+      "timestamp": "12:37"
+    },
+    {
+      "start": 759.92,
+      "duration": 2.719,
+      "text": "building ultimately like building the",
+      "timestamp": "12:39"
+    },
+    {
+      "start": 762.639,
+      "duration": 3.2,
+      "text": "the the the GTM super agent which works",
+      "timestamp": "12:42"
+    },
+    {
+      "start": 765.839,
+      "duration": 3.041,
+      "text": "across multiple task multiple like",
+      "timestamp": "12:45"
+    },
+    {
+      "start": 768.88,
+      "duration": 3.84,
+      "text": "processes workflows it's very important",
+      "timestamp": "12:48"
+    },
+    {
+      "start": 772.72,
+      "duration": 3.359,
+      "text": "and uh that's why like um that's also",
+      "timestamp": "12:52"
+    },
+    {
+      "start": 776.079,
+      "duration": 2.32,
+      "text": "our big project where we're trying to to",
+      "timestamp": "12:56"
+    },
+    {
+      "start": 778.399,
+      "duration": 1.68,
+      "text": "to build the next generational",
+      "timestamp": "12:58"
+    },
+    {
+      "start": 780.079,
+      "duration": 2.88,
+      "text": "autonomous uh AI agent to run all these",
+      "timestamp": "13:00"
+    },
+    {
+      "start": 782.959,
+      "duration": 2.801,
+      "text": "GTM task and to to make everything under",
+      "timestamp": "13:02"
+    },
+    {
+      "start": 785.76,
+      "duration": 2.4,
+      "text": "one hood",
+      "timestamp": "13:05"
+    }
+  ],
+  "extraction_timestamp": "2025-06-29T21:04:35.409337",
+  "playlist_title": "SuperAI Singapore 2025: WEKA Stage"
+}

@@ -1,0 +1,1967 @@
+{
+  "video_id": "vjv7qlXNIC8",
+  "video_title": "Hyunjin Kim - The Next Frontier of AI: A Billion Entrepreneurs - SuperAI Singapore 2025",
+  "video_url": "https://www.youtube.com/watch?v=vjv7qlXNIC8",
+  "channel_title": "SuperAI",
+  "published_at": "2025-06-25T06:28:00+00:00",
+  "duration_seconds": null,
+  "view_count": 27,
+  "like_count": 0,
+  "description": "Learn more about SuperAI: superai.com\nFollow us on X: x.com/superai_conf\n\nKeynote: The Next Frontier of AI: A Billion Entrepreneurs\n\nSpeaker:\nHyunjin Kim, Strategy Professor @ INSEAD\n\nStage: WEKA Stage\n#superai #insead #business #entrepreneurship #ai \n\nRecorded on 19 June 2025",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 324,
+    "aggregated_text": "hi everybody um great to see all of the crowd here and the amazing amount of interest here so far so I'm Hanjin Kim i'm a strategy faculty at INSEAD i'm also a research affiliate at Harvard Business School and broadly what I focus on in my research is working with companies both small startups as well as Fortune 500 companies in terms of integrating AI into their companies and I want to share with you where we've been thinking in terms of how AI is going to enable a billion entrepreneurs um as we might see in the next decade now a lot of this work has really been motivated by the fact that you know we have over 500 million entrepreneurs across the globe and and of course you know there there are hundreds of millions despite that who cannot start or grow especially outside of Silicon Valley we see many constraints from uh not being able to find the right talent to the the to the constraints in terms of finding the next financing the right information and the right advice and now what we're seeing is that we can potentially unlock a billion entrepreneurs from the power that we're seeing from how we can employ AI not in terms of building AI products or technologies but in terms of rethinking and transforming how we build companies from the ground up so as I'm sure many of you are aware we're seeing a number of companies today that are able to scale much more quickly and with better ideas um and with fewer people than we have seen so far so these are some examples of products companies that I'm sure you're aware of that are reaching uh annual revenue targets uh with much fewer uh people as well as less capital but I think that what we don't see is that despite some of these headline companies and examples there is a wealth of examples where we adopt AI into the company and we actually don't see any productivity gains and in fact where the company is hurt from integrating AI into the company and this is what my research has really been focused around how do we actually use AI to build companies differently and where we focus is really looking at can we actually build better ideas or develop better ideas especially using generative AI can we find better business models that we might not have been able to by both running risk-free experiments as well as um finding different ways to scale by employing AI agents into the company and then of course lastly thinking about how do we completely change how we think about operations as well as our growth opportunities by integrating and using AI to build up our company and what we see is that on average when a lot of startups employ AI into building their company in fact we see very little gains from how they actually are able to use and realize uh the performance gains and better startup ideas from leveraging AI on the one hand we can see that many AI generated strategies attract much more venture capital interest so this is from a project where we partner with a leading European startup accelerator providing them with LLMs that can help them improve the ideas that they develop and what we see is that even though there are these opportunities where AI can help entrepreneurs develop better ideas it really depends on how these entrepreneurs actually leverage LLM throughout their business and in particular what we see is that many entrepreneurs use it to incrementally improve upon the idea that they have in mind whereas where we see the biggest increase in terms of when entrepreneurs are able to get much more VC interest uh on their business plan is when they actually use these LLMs to actually uh explore ideas that are very different from the ones that they're exploring and similarly one of the projects that I've been working on recently is scaling AI agents to millions of small and medium enterprises with Grab um as an AI adviser where we've been building an agentic AI approach to helping the millions of small and medium uh businesses across Southeast Asia in terms of making better strategy decisions being able to streamline their operations and what we're seeing is that of course we see a lot of the potential that we've been seeing you know of course hyped in the media as well as across many different companies where AI can help businesses make a lot more changes and make many more decisions than we have seen before helping them overcome a lot of the inertia that they typically face and this ultimately results in an increase in profits that these businesses see that increase in fact over time but a lot of this really depends on how these businesses are employing and adopting AI into the business and typically across both these small and medium enterprises as well as uh the Fortune 500 companies that I typically work with we see many different obstacles that prevent firms from benefiting or realizing these gains despite the many the the the large potential that it operates so one key friction that we see is an information friction so I think one of the things that we often see whether it's with startups that are at the frontier of working with AI technologies or fortune 500 companies that are interested in in streamlining their operations is that we make a lot of assumptions about where is AI going to be the most effective and typically this will be about what does AI actually know about our business maybe it doesn't know a lot about say the R&D parts or the innovative parts but it knows a lot about the parts where we have a lot of data and I think that this is where a lot of blind blind spots blind spots happen because we make these assumptions about where AI can be useful and don't adopt them into areas where they may be more valuable the second is a learning friction so what we typically see with lots of these technologies is that that it doesn't require as much experimentation as most LLMs do so one of the challenges that we see among the many businesses that adopt that aren't able to ultimately realize some of these performance gains is that they don't know how to use it now the biggest use case that I've seen where it's been a challenge is that I think a lot of companies are chasing opportunities where they're trying to streamline operations and lower their costs by using AI but we have what we have typically seen across uh many of these businesses both small and large is that the largest gains are often where we can use AI to think about where are the new revenue opportunities how can we think about rethinking our business model to be able to you know reach so many more that we have or think about how we can transform our product in ways that might not have been possible and we and what I really worry about is that we often see that AI is pigeonholed into these small costcutting use cases and that really prevents a lot of companies from being able to realize the performance gains from using AI now the last part of course that we see across many of these small and medium businesses is resource frictions i think that one of the challenges that we see as we as we work with both generative as well as predictive AI is that this is typically an input to the decisions that we make or you know something that we integrate into the broader organization and so even when AI can give very good insights whether that's in the form of predictions or in the form of really good recommendations that we see some of these AI assistants provide one of the challenges is that you need to actually think about how do we do the automation part so that it's not just an input into a human who is making the decision because ultimately that's where we see a lot of the gains that uh typically dissipate even when there is a lot of potential gains that you could have from experiencing uh from adopting AI into the business and so based on a lot of this uh what we've been building at INSEAD along with some faculty from Harvard as well as Stanford is something called the AI venture lab where what we have seen is that there's a lot of noise relative to signal in this space in terms of not building AI technologies or products but rethinking how do we build businesses with AI at the core and so what this really has at its core is thinking about how can we lift up entrepreneurs especially outside of Silicon Valley and in locations like Southeast Asia the Middle East uh Europe uh as well as Africa in terms of thinking about how can we overcome some of those constraints that I talked about at the beginning whether it's information advice talent or financing constraints to help them in terms of growing and scaling their businesses more quickly uh backed by research evidence on what we see in terms of what works rather than what what uh absorbs a lot of resources and so what we're doing is we're building the world's first evidence-based playbook for what it looks like to power venture creation with AI and what this means is where do you think about adopting AI into the organization is it really in terms of costs versus growth in terms of human resources versus operations how do you think about when to make versus buy and where you might think about building a wrapper for your business and being a being able to develop a large-scale evidence on really what works in terms of helping entrepreneurs build more smartly and scale faster with less capital and fewer employees and so what we're doing is launching a sprint that's going to run from August 25th to October 14th where it'll be an 8-week virtual sprint for up to a thousand founders that is focused on building uh ventures at the preede stage and this will be connecting AI experts that are both well-versed in the technology as well as in terms of building uh companies and and using AI agents across different parts of the business and um and and and and what we're doing is accepting applications for this sprint now to begin at the end of August uh where we'll be thinking about AI frameworks to build these companies as well as master classes from some of the early founders who have built up these AI native companies as well as VCs that are in this case and then um enabling mentor our our larger mentor community to help ventures apply some of these insights directly to their businesses and what we'll do is we'll also offer in-person experiences beyond the virtual sprint across four locations that will help enable connect ventures in terms of global markets and global customers as well as investors across many of these locations now we have an amazing team behind the lab that is coming from INSEAD Stanford and Harvard uh that have been building up a lot of venture studios and working at the frontiers of using AI for entrepreneurship um as well as a number of adviserss um that have been involved in this effort from Chris Yay who has uh written Blitzcaling with Reed Hoffman Christina Ventura who is uh uh an investor across both Southeast Asia and the Middle East Jeff Rson who's the ex-president of Y Combinator Hari Christian who's built up the property guru uh group here James Draghy who is leading exponential venture capital um and then Jillian Mayus who's a managing capital uh partner at structure capital and Vanessa Gao who is very well connected in the Chinese venture capital space so what I'd love to do is invite you to join uh in terms of figuring out how do we actually build AI native companies in a way that ultimately results in better startup growth we're working with a number of partners including Nvidia Antler uh Station F Blitzcaling many many more um to to build up this uh ecosystem and looking for folks that we can work with to build out the broader ecosystem as well as figuring out how to get the right support to a lot of these entrepreneurs um and of course thinking about how do we really fuel this vision to move forward and if you're interested what we're really uh thinking about and motivated by is how we can unlock the amazing amount of talent that we have especially outside of Silicon Valley where it's been very difficult to unlock a lot of these constraints in terms of getting access to talent and and and and getting access to capital and and and thinking about what can we solve next when we unlock a lot of these constraints that we typically face if you're interested please visit the website and feel free to contact us with any questions thanks so much",
+    "text_length": 12351,
+    "word_count": 2250
+  },
+  "segments": [
+    {
+      "start": 7.6,
+      "duration": 2.88,
+      "text": "hi everybody um great to see all of the",
+      "timestamp": "00:07"
+    },
+    {
+      "start": 10.48,
+      "duration": 2.56,
+      "text": "crowd here and the amazing amount of",
+      "timestamp": "00:10"
+    },
+    {
+      "start": 13.04,
+      "duration": 2.479,
+      "text": "interest here so far so I'm Hanjin Kim",
+      "timestamp": "00:13"
+    },
+    {
+      "start": 15.519,
+      "duration": 2.001,
+      "text": "i'm a strategy faculty at INSEAD i'm",
+      "timestamp": "00:15"
+    },
+    {
+      "start": 17.52,
+      "duration": 1.36,
+      "text": "also a research affiliate at Harvard",
+      "timestamp": "00:17"
+    },
+    {
+      "start": 18.88,
+      "duration": 2.239,
+      "text": "Business School and broadly what I focus",
+      "timestamp": "00:18"
+    },
+    {
+      "start": 21.119,
+      "duration": 2.801,
+      "text": "on in my research is working with",
+      "timestamp": "00:21"
+    },
+    {
+      "start": 23.92,
+      "duration": 2.56,
+      "text": "companies both small startups as well as",
+      "timestamp": "00:23"
+    },
+    {
+      "start": 26.48,
+      "duration": 2.32,
+      "text": "Fortune 500 companies in terms of",
+      "timestamp": "00:26"
+    },
+    {
+      "start": 28.8,
+      "duration": 2.96,
+      "text": "integrating AI into their companies and",
+      "timestamp": "00:28"
+    },
+    {
+      "start": 31.76,
+      "duration": 1.92,
+      "text": "I want to share with you where we've",
+      "timestamp": "00:31"
+    },
+    {
+      "start": 33.68,
+      "duration": 2.16,
+      "text": "been thinking in terms of how AI is",
+      "timestamp": "00:33"
+    },
+    {
+      "start": 35.84,
+      "duration": 2.64,
+      "text": "going to enable a billion entrepreneurs",
+      "timestamp": "00:35"
+    },
+    {
+      "start": 38.48,
+      "duration": 2.16,
+      "text": "um as we might see in the next decade",
+      "timestamp": "00:38"
+    },
+    {
+      "start": 40.64,
+      "duration": 1.759,
+      "text": "now a lot of this work has really been",
+      "timestamp": "00:40"
+    },
+    {
+      "start": 42.399,
+      "duration": 1.761,
+      "text": "motivated by the fact that you know we",
+      "timestamp": "00:42"
+    },
+    {
+      "start": 44.16,
+      "duration": 2.16,
+      "text": "have over 500 million entrepreneurs",
+      "timestamp": "00:44"
+    },
+    {
+      "start": 46.32,
+      "duration": 3.04,
+      "text": "across the globe and and of course you",
+      "timestamp": "00:46"
+    },
+    {
+      "start": 49.36,
+      "duration": 1.44,
+      "text": "know there there are hundreds of",
+      "timestamp": "00:49"
+    },
+    {
+      "start": 50.8,
+      "duration": 2.16,
+      "text": "millions despite that who cannot start",
+      "timestamp": "00:50"
+    },
+    {
+      "start": 52.96,
+      "duration": 2.16,
+      "text": "or grow especially outside of Silicon",
+      "timestamp": "00:52"
+    },
+    {
+      "start": 55.12,
+      "duration": 3.2,
+      "text": "Valley we see many constraints from uh",
+      "timestamp": "00:55"
+    },
+    {
+      "start": 58.32,
+      "duration": 2.239,
+      "text": "not being able to find the right talent",
+      "timestamp": "00:58"
+    },
+    {
+      "start": 60.559,
+      "duration": 2.401,
+      "text": "to the the to the constraints in terms",
+      "timestamp": "01:00"
+    },
+    {
+      "start": 62.96,
+      "duration": 2.4,
+      "text": "of finding the next financing the right",
+      "timestamp": "01:02"
+    },
+    {
+      "start": 65.36,
+      "duration": 2.799,
+      "text": "information and the right advice and now",
+      "timestamp": "01:05"
+    },
+    {
+      "start": 68.159,
+      "duration": 2.32,
+      "text": "what we're seeing is that we can",
+      "timestamp": "01:08"
+    },
+    {
+      "start": 70.479,
+      "duration": 2.081,
+      "text": "potentially unlock a billion",
+      "timestamp": "01:10"
+    },
+    {
+      "start": 72.56,
+      "duration": 2.0,
+      "text": "entrepreneurs from the power that we're",
+      "timestamp": "01:12"
+    },
+    {
+      "start": 74.56,
+      "duration": 2.8,
+      "text": "seeing from how we can employ AI not in",
+      "timestamp": "01:14"
+    },
+    {
+      "start": 77.36,
+      "duration": 1.84,
+      "text": "terms of building AI products or",
+      "timestamp": "01:17"
+    },
+    {
+      "start": 79.2,
+      "duration": 2.4,
+      "text": "technologies but in terms of rethinking",
+      "timestamp": "01:19"
+    },
+    {
+      "start": 81.6,
+      "duration": 2.64,
+      "text": "and transforming how we build companies",
+      "timestamp": "01:21"
+    },
+    {
+      "start": 84.24,
+      "duration": 2.72,
+      "text": "from the ground up so as I'm sure many",
+      "timestamp": "01:24"
+    },
+    {
+      "start": 86.96,
+      "duration": 1.68,
+      "text": "of you are aware we're seeing a number",
+      "timestamp": "01:26"
+    },
+    {
+      "start": 88.64,
+      "duration": 2.24,
+      "text": "of companies today that are able to",
+      "timestamp": "01:28"
+    },
+    {
+      "start": 90.88,
+      "duration": 2.4,
+      "text": "scale much more quickly and with better",
+      "timestamp": "01:30"
+    },
+    {
+      "start": 93.28,
+      "duration": 2.56,
+      "text": "ideas um and with fewer people than we",
+      "timestamp": "01:33"
+    },
+    {
+      "start": 95.84,
+      "duration": 1.919,
+      "text": "have seen so far so these are some",
+      "timestamp": "01:35"
+    },
+    {
+      "start": 97.759,
+      "duration": 2.481,
+      "text": "examples of products companies that I'm",
+      "timestamp": "01:37"
+    },
+    {
+      "start": 100.24,
+      "duration": 2.48,
+      "text": "sure you're aware of that are reaching",
+      "timestamp": "01:40"
+    },
+    {
+      "start": 102.72,
+      "duration": 3.12,
+      "text": "uh annual revenue targets uh with much",
+      "timestamp": "01:42"
+    },
+    {
+      "start": 105.84,
+      "duration": 3.44,
+      "text": "fewer uh people as well as less capital",
+      "timestamp": "01:45"
+    },
+    {
+      "start": 109.28,
+      "duration": 1.68,
+      "text": "but I think that what we don't see is",
+      "timestamp": "01:49"
+    },
+    {
+      "start": 110.96,
+      "duration": 1.76,
+      "text": "that despite some of these headline",
+      "timestamp": "01:50"
+    },
+    {
+      "start": 112.72,
+      "duration": 2.64,
+      "text": "companies and examples there is a wealth",
+      "timestamp": "01:52"
+    },
+    {
+      "start": 115.36,
+      "duration": 2.88,
+      "text": "of examples where we adopt AI into the",
+      "timestamp": "01:55"
+    },
+    {
+      "start": 118.24,
+      "duration": 1.919,
+      "text": "company and we actually don't see any",
+      "timestamp": "01:58"
+    },
+    {
+      "start": 120.159,
+      "duration": 2.401,
+      "text": "productivity gains and in fact where the",
+      "timestamp": "02:00"
+    },
+    {
+      "start": 122.56,
+      "duration": 2.64,
+      "text": "company is hurt from integrating AI into",
+      "timestamp": "02:02"
+    },
+    {
+      "start": 125.2,
+      "duration": 2.08,
+      "text": "the company and this is what my research",
+      "timestamp": "02:05"
+    },
+    {
+      "start": 127.28,
+      "duration": 2.399,
+      "text": "has really been focused around how do we",
+      "timestamp": "02:07"
+    },
+    {
+      "start": 129.679,
+      "duration": 2.241,
+      "text": "actually use AI to build companies",
+      "timestamp": "02:09"
+    },
+    {
+      "start": 131.92,
+      "duration": 2.319,
+      "text": "differently and where we focus is really",
+      "timestamp": "02:11"
+    },
+    {
+      "start": 134.239,
+      "duration": 2.161,
+      "text": "looking at can we actually build better",
+      "timestamp": "02:14"
+    },
+    {
+      "start": 136.4,
+      "duration": 2.24,
+      "text": "ideas or develop better ideas especially",
+      "timestamp": "02:16"
+    },
+    {
+      "start": 138.64,
+      "duration": 2.88,
+      "text": "using generative AI can we find better",
+      "timestamp": "02:18"
+    },
+    {
+      "start": 141.52,
+      "duration": 1.6,
+      "text": "business models that we might not have",
+      "timestamp": "02:21"
+    },
+    {
+      "start": 143.12,
+      "duration": 2.72,
+      "text": "been able to by both running risk-free",
+      "timestamp": "02:23"
+    },
+    {
+      "start": 145.84,
+      "duration": 3.44,
+      "text": "experiments as well as um finding",
+      "timestamp": "02:25"
+    },
+    {
+      "start": 149.28,
+      "duration": 2.48,
+      "text": "different ways to scale by employing AI",
+      "timestamp": "02:29"
+    },
+    {
+      "start": 151.76,
+      "duration": 2.08,
+      "text": "agents into the company and then of",
+      "timestamp": "02:31"
+    },
+    {
+      "start": 153.84,
+      "duration": 2.479,
+      "text": "course lastly thinking about how do we",
+      "timestamp": "02:33"
+    },
+    {
+      "start": 156.319,
+      "duration": 1.761,
+      "text": "completely change how we think about",
+      "timestamp": "02:36"
+    },
+    {
+      "start": 158.08,
+      "duration": 2.08,
+      "text": "operations as well as our growth",
+      "timestamp": "02:38"
+    },
+    {
+      "start": 160.16,
+      "duration": 2.719,
+      "text": "opportunities by integrating and using",
+      "timestamp": "02:40"
+    },
+    {
+      "start": 162.879,
+      "duration": 2.321,
+      "text": "AI to build up our company and what we",
+      "timestamp": "02:42"
+    },
+    {
+      "start": 165.2,
+      "duration": 2.319,
+      "text": "see is that on average when a lot of",
+      "timestamp": "02:45"
+    },
+    {
+      "start": 167.519,
+      "duration": 2.481,
+      "text": "startups employ AI into building their",
+      "timestamp": "02:47"
+    },
+    {
+      "start": 170.0,
+      "duration": 2.56,
+      "text": "company in fact we see very little gains",
+      "timestamp": "02:50"
+    },
+    {
+      "start": 172.56,
+      "duration": 2.24,
+      "text": "from how they actually are able to use",
+      "timestamp": "02:52"
+    },
+    {
+      "start": 174.8,
+      "duration": 2.719,
+      "text": "and realize uh the performance gains and",
+      "timestamp": "02:54"
+    },
+    {
+      "start": 177.519,
+      "duration": 3.121,
+      "text": "better startup ideas from leveraging AI",
+      "timestamp": "02:57"
+    },
+    {
+      "start": 180.64,
+      "duration": 2.239,
+      "text": "on the one hand we can see that many AI",
+      "timestamp": "03:00"
+    },
+    {
+      "start": 182.879,
+      "duration": 2.481,
+      "text": "generated strategies attract much more",
+      "timestamp": "03:02"
+    },
+    {
+      "start": 185.36,
+      "duration": 1.76,
+      "text": "venture capital interest so this is from",
+      "timestamp": "03:05"
+    },
+    {
+      "start": 187.12,
+      "duration": 1.44,
+      "text": "a project where we partner with a",
+      "timestamp": "03:07"
+    },
+    {
+      "start": 188.56,
+      "duration": 2.16,
+      "text": "leading European startup accelerator",
+      "timestamp": "03:08"
+    },
+    {
+      "start": 190.72,
+      "duration": 2.0,
+      "text": "providing them with LLMs that can help",
+      "timestamp": "03:10"
+    },
+    {
+      "start": 192.72,
+      "duration": 2.4,
+      "text": "them improve the ideas that they develop",
+      "timestamp": "03:12"
+    },
+    {
+      "start": 195.12,
+      "duration": 1.759,
+      "text": "and what we see is that even though",
+      "timestamp": "03:15"
+    },
+    {
+      "start": 196.879,
+      "duration": 1.921,
+      "text": "there are these opportunities where AI",
+      "timestamp": "03:16"
+    },
+    {
+      "start": 198.8,
+      "duration": 2.079,
+      "text": "can help entrepreneurs develop better",
+      "timestamp": "03:18"
+    },
+    {
+      "start": 200.879,
+      "duration": 2.72,
+      "text": "ideas it really depends on how these",
+      "timestamp": "03:20"
+    },
+    {
+      "start": 203.599,
+      "duration": 2.401,
+      "text": "entrepreneurs actually leverage LLM",
+      "timestamp": "03:23"
+    },
+    {
+      "start": 206.0,
+      "duration": 1.44,
+      "text": "throughout their business and in",
+      "timestamp": "03:26"
+    },
+    {
+      "start": 207.44,
+      "duration": 1.68,
+      "text": "particular what we see is that many",
+      "timestamp": "03:27"
+    },
+    {
+      "start": 209.12,
+      "duration": 2.24,
+      "text": "entrepreneurs use it to incrementally",
+      "timestamp": "03:29"
+    },
+    {
+      "start": 211.36,
+      "duration": 2.0,
+      "text": "improve upon the idea that they have in",
+      "timestamp": "03:31"
+    },
+    {
+      "start": 213.36,
+      "duration": 2.4,
+      "text": "mind whereas where we see the biggest",
+      "timestamp": "03:33"
+    },
+    {
+      "start": 215.76,
+      "duration": 2.16,
+      "text": "increase in terms of when entrepreneurs",
+      "timestamp": "03:35"
+    },
+    {
+      "start": 217.92,
+      "duration": 3.12,
+      "text": "are able to get much more VC interest uh",
+      "timestamp": "03:37"
+    },
+    {
+      "start": 221.04,
+      "duration": 2.24,
+      "text": "on their business plan is when they",
+      "timestamp": "03:41"
+    },
+    {
+      "start": 223.28,
+      "duration": 2.72,
+      "text": "actually use these LLMs to actually uh",
+      "timestamp": "03:43"
+    },
+    {
+      "start": 226.0,
+      "duration": 1.76,
+      "text": "explore ideas that are very different",
+      "timestamp": "03:46"
+    },
+    {
+      "start": 227.76,
+      "duration": 2.24,
+      "text": "from the ones that they're exploring and",
+      "timestamp": "03:47"
+    },
+    {
+      "start": 230.0,
+      "duration": 1.76,
+      "text": "similarly one of the projects that I've",
+      "timestamp": "03:50"
+    },
+    {
+      "start": 231.76,
+      "duration": 2.32,
+      "text": "been working on recently is scaling AI",
+      "timestamp": "03:51"
+    },
+    {
+      "start": 234.08,
+      "duration": 2.239,
+      "text": "agents to millions of small and medium",
+      "timestamp": "03:54"
+    },
+    {
+      "start": 236.319,
+      "duration": 2.48,
+      "text": "enterprises with Grab um as an AI",
+      "timestamp": "03:56"
+    },
+    {
+      "start": 238.799,
+      "duration": 2.321,
+      "text": "adviser where we've been building an",
+      "timestamp": "03:58"
+    },
+    {
+      "start": 241.12,
+      "duration": 2.88,
+      "text": "agentic AI approach to helping the",
+      "timestamp": "04:01"
+    },
+    {
+      "start": 244.0,
+      "duration": 1.92,
+      "text": "millions of small and medium uh",
+      "timestamp": "04:04"
+    },
+    {
+      "start": 245.92,
+      "duration": 2.64,
+      "text": "businesses across Southeast Asia in",
+      "timestamp": "04:05"
+    },
+    {
+      "start": 248.56,
+      "duration": 1.679,
+      "text": "terms of making better strategy",
+      "timestamp": "04:08"
+    },
+    {
+      "start": 250.239,
+      "duration": 2.0,
+      "text": "decisions being able to streamline their",
+      "timestamp": "04:10"
+    },
+    {
+      "start": 252.239,
+      "duration": 2.801,
+      "text": "operations and what we're seeing is that",
+      "timestamp": "04:12"
+    },
+    {
+      "start": 255.04,
+      "duration": 1.759,
+      "text": "of course we see a lot of the potential",
+      "timestamp": "04:15"
+    },
+    {
+      "start": 256.799,
+      "duration": 1.761,
+      "text": "that we've been seeing you know of",
+      "timestamp": "04:16"
+    },
+    {
+      "start": 258.56,
+      "duration": 1.76,
+      "text": "course hyped in the media as well as",
+      "timestamp": "04:18"
+    },
+    {
+      "start": 260.32,
+      "duration": 2.48,
+      "text": "across many different companies where AI",
+      "timestamp": "04:20"
+    },
+    {
+      "start": 262.8,
+      "duration": 2.16,
+      "text": "can help businesses make a lot more",
+      "timestamp": "04:22"
+    },
+    {
+      "start": 264.96,
+      "duration": 1.84,
+      "text": "changes and make many more decisions",
+      "timestamp": "04:24"
+    },
+    {
+      "start": 266.8,
+      "duration": 2.16,
+      "text": "than we have seen before helping them",
+      "timestamp": "04:26"
+    },
+    {
+      "start": 268.96,
+      "duration": 2.4,
+      "text": "overcome a lot of the inertia that they",
+      "timestamp": "04:28"
+    },
+    {
+      "start": 271.36,
+      "duration": 2.16,
+      "text": "typically face and this ultimately",
+      "timestamp": "04:31"
+    },
+    {
+      "start": 273.52,
+      "duration": 2.32,
+      "text": "results in an increase in profits that",
+      "timestamp": "04:33"
+    },
+    {
+      "start": 275.84,
+      "duration": 1.919,
+      "text": "these businesses see that increase in",
+      "timestamp": "04:35"
+    },
+    {
+      "start": 277.759,
+      "duration": 2.961,
+      "text": "fact over time but a lot of this really",
+      "timestamp": "04:37"
+    },
+    {
+      "start": 280.72,
+      "duration": 2.24,
+      "text": "depends on how these businesses are",
+      "timestamp": "04:40"
+    },
+    {
+      "start": 282.96,
+      "duration": 1.92,
+      "text": "employing and adopting AI into the",
+      "timestamp": "04:42"
+    },
+    {
+      "start": 284.88,
+      "duration": 2.4,
+      "text": "business and typically across both these",
+      "timestamp": "04:44"
+    },
+    {
+      "start": 287.28,
+      "duration": 3.04,
+      "text": "small and medium enterprises as well as",
+      "timestamp": "04:47"
+    },
+    {
+      "start": 290.32,
+      "duration": 2.08,
+      "text": "uh the Fortune 500 companies that I",
+      "timestamp": "04:50"
+    },
+    {
+      "start": 292.4,
+      "duration": 2.0,
+      "text": "typically work with we see many",
+      "timestamp": "04:52"
+    },
+    {
+      "start": 294.4,
+      "duration": 2.32,
+      "text": "different obstacles that prevent firms",
+      "timestamp": "04:54"
+    },
+    {
+      "start": 296.72,
+      "duration": 2.64,
+      "text": "from benefiting or realizing these gains",
+      "timestamp": "04:56"
+    },
+    {
+      "start": 299.36,
+      "duration": 2.48,
+      "text": "despite the many the the the large",
+      "timestamp": "04:59"
+    },
+    {
+      "start": 301.84,
+      "duration": 2.32,
+      "text": "potential that it operates so one key",
+      "timestamp": "05:01"
+    },
+    {
+      "start": 304.16,
+      "duration": 2.4,
+      "text": "friction that we see is an information",
+      "timestamp": "05:04"
+    },
+    {
+      "start": 306.56,
+      "duration": 1.919,
+      "text": "friction so I think one of the things",
+      "timestamp": "05:06"
+    },
+    {
+      "start": 308.479,
+      "duration": 1.761,
+      "text": "that we often see whether it's with",
+      "timestamp": "05:08"
+    },
+    {
+      "start": 310.24,
+      "duration": 1.519,
+      "text": "startups that are at the frontier of",
+      "timestamp": "05:10"
+    },
+    {
+      "start": 311.759,
+      "duration": 2.561,
+      "text": "working with AI technologies or fortune",
+      "timestamp": "05:11"
+    },
+    {
+      "start": 314.32,
+      "duration": 2.64,
+      "text": "500 companies that are interested in in",
+      "timestamp": "05:14"
+    },
+    {
+      "start": 316.96,
+      "duration": 2.32,
+      "text": "streamlining their operations is that we",
+      "timestamp": "05:16"
+    },
+    {
+      "start": 319.28,
+      "duration": 2.16,
+      "text": "make a lot of assumptions about where is",
+      "timestamp": "05:19"
+    },
+    {
+      "start": 321.44,
+      "duration": 2.479,
+      "text": "AI going to be the most effective and",
+      "timestamp": "05:21"
+    },
+    {
+      "start": 323.919,
+      "duration": 2.081,
+      "text": "typically this will be about what does",
+      "timestamp": "05:23"
+    },
+    {
+      "start": 326.0,
+      "duration": 2.0,
+      "text": "AI actually know about our business",
+      "timestamp": "05:26"
+    },
+    {
+      "start": 328.0,
+      "duration": 1.919,
+      "text": "maybe it doesn't know a lot about say",
+      "timestamp": "05:28"
+    },
+    {
+      "start": 329.919,
+      "duration": 2.161,
+      "text": "the R&D parts or the innovative parts",
+      "timestamp": "05:29"
+    },
+    {
+      "start": 332.08,
+      "duration": 1.839,
+      "text": "but it knows a lot about the parts where",
+      "timestamp": "05:32"
+    },
+    {
+      "start": 333.919,
+      "duration": 1.681,
+      "text": "we have a lot of data and I think that",
+      "timestamp": "05:33"
+    },
+    {
+      "start": 335.6,
+      "duration": 1.92,
+      "text": "this is where a lot of blind blind spots",
+      "timestamp": "05:35"
+    },
+    {
+      "start": 337.52,
+      "duration": 2.32,
+      "text": "blind spots happen because we make these",
+      "timestamp": "05:37"
+    },
+    {
+      "start": 339.84,
+      "duration": 2.32,
+      "text": "assumptions about where AI can be useful",
+      "timestamp": "05:39"
+    },
+    {
+      "start": 342.16,
+      "duration": 2.0,
+      "text": "and don't adopt them into areas where",
+      "timestamp": "05:42"
+    },
+    {
+      "start": 344.16,
+      "duration": 2.8,
+      "text": "they may be more valuable the second is",
+      "timestamp": "05:44"
+    },
+    {
+      "start": 346.96,
+      "duration": 2.48,
+      "text": "a learning friction so what we typically",
+      "timestamp": "05:46"
+    },
+    {
+      "start": 349.44,
+      "duration": 2.479,
+      "text": "see with lots of these technologies is",
+      "timestamp": "05:49"
+    },
+    {
+      "start": 351.919,
+      "duration": 2.961,
+      "text": "that that it doesn't require as much",
+      "timestamp": "05:51"
+    },
+    {
+      "start": 354.88,
+      "duration": 3.36,
+      "text": "experimentation as most LLMs do so one",
+      "timestamp": "05:54"
+    },
+    {
+      "start": 358.24,
+      "duration": 1.84,
+      "text": "of the challenges that we see among the",
+      "timestamp": "05:58"
+    },
+    {
+      "start": 360.08,
+      "duration": 2.24,
+      "text": "many businesses that adopt that aren't",
+      "timestamp": "06:00"
+    },
+    {
+      "start": 362.32,
+      "duration": 1.999,
+      "text": "able to ultimately realize some of these",
+      "timestamp": "06:02"
+    },
+    {
+      "start": 364.319,
+      "duration": 2.32,
+      "text": "performance gains is that they don't",
+      "timestamp": "06:04"
+    },
+    {
+      "start": 366.639,
+      "duration": 2.161,
+      "text": "know how to use it now the biggest use",
+      "timestamp": "06:06"
+    },
+    {
+      "start": 368.8,
+      "duration": 1.6,
+      "text": "case that I've seen where it's been a",
+      "timestamp": "06:08"
+    },
+    {
+      "start": 370.4,
+      "duration": 1.919,
+      "text": "challenge is that I think a lot of",
+      "timestamp": "06:10"
+    },
+    {
+      "start": 372.319,
+      "duration": 2.241,
+      "text": "companies are chasing opportunities",
+      "timestamp": "06:12"
+    },
+    {
+      "start": 374.56,
+      "duration": 1.52,
+      "text": "where they're trying to streamline",
+      "timestamp": "06:14"
+    },
+    {
+      "start": 376.08,
+      "duration": 2.399,
+      "text": "operations and lower their costs by",
+      "timestamp": "06:16"
+    },
+    {
+      "start": 378.479,
+      "duration": 2.16,
+      "text": "using AI but we have what we have",
+      "timestamp": "06:18"
+    },
+    {
+      "start": 380.639,
+      "duration": 2.161,
+      "text": "typically seen across uh many of these",
+      "timestamp": "06:20"
+    },
+    {
+      "start": 382.8,
+      "duration": 2.48,
+      "text": "businesses both small and large is that",
+      "timestamp": "06:22"
+    },
+    {
+      "start": 385.28,
+      "duration": 2.72,
+      "text": "the largest gains are often where we can",
+      "timestamp": "06:25"
+    },
+    {
+      "start": 388.0,
+      "duration": 2.88,
+      "text": "use AI to think about where are the new",
+      "timestamp": "06:28"
+    },
+    {
+      "start": 390.88,
+      "duration": 2.159,
+      "text": "revenue opportunities how can we think",
+      "timestamp": "06:30"
+    },
+    {
+      "start": 393.039,
+      "duration": 2.16,
+      "text": "about rethinking our business model to",
+      "timestamp": "06:33"
+    },
+    {
+      "start": 395.199,
+      "duration": 2.641,
+      "text": "be able to you know reach so many more",
+      "timestamp": "06:35"
+    },
+    {
+      "start": 397.84,
+      "duration": 2.24,
+      "text": "that we have or think about how we can",
+      "timestamp": "06:37"
+    },
+    {
+      "start": 400.08,
+      "duration": 2.32,
+      "text": "transform our product in ways that might",
+      "timestamp": "06:40"
+    },
+    {
+      "start": 402.4,
+      "duration": 2.239,
+      "text": "not have been possible and we and what I",
+      "timestamp": "06:42"
+    },
+    {
+      "start": 404.639,
+      "duration": 2.321,
+      "text": "really worry about is that we often see",
+      "timestamp": "06:44"
+    },
+    {
+      "start": 406.96,
+      "duration": 3.6,
+      "text": "that AI is pigeonholed into these small",
+      "timestamp": "06:46"
+    },
+    {
+      "start": 410.56,
+      "duration": 2.4,
+      "text": "costcutting use cases and that really",
+      "timestamp": "06:50"
+    },
+    {
+      "start": 412.96,
+      "duration": 1.76,
+      "text": "prevents a lot of companies from being",
+      "timestamp": "06:52"
+    },
+    {
+      "start": 414.72,
+      "duration": 1.68,
+      "text": "able to realize the performance gains",
+      "timestamp": "06:54"
+    },
+    {
+      "start": 416.4,
+      "duration": 2.56,
+      "text": "from using AI now the last part of",
+      "timestamp": "06:56"
+    },
+    {
+      "start": 418.96,
+      "duration": 1.6,
+      "text": "course that we see across many of these",
+      "timestamp": "06:58"
+    },
+    {
+      "start": 420.56,
+      "duration": 2.079,
+      "text": "small and medium businesses is resource",
+      "timestamp": "07:00"
+    },
+    {
+      "start": 422.639,
+      "duration": 1.601,
+      "text": "frictions i think that one of the",
+      "timestamp": "07:02"
+    },
+    {
+      "start": 424.24,
+      "duration": 2.0,
+      "text": "challenges that we see as we as we work",
+      "timestamp": "07:04"
+    },
+    {
+      "start": 426.24,
+      "duration": 1.679,
+      "text": "with both generative as well as",
+      "timestamp": "07:06"
+    },
+    {
+      "start": 427.919,
+      "duration": 2.56,
+      "text": "predictive AI is that this is typically",
+      "timestamp": "07:07"
+    },
+    {
+      "start": 430.479,
+      "duration": 2.56,
+      "text": "an input to the decisions that we make",
+      "timestamp": "07:10"
+    },
+    {
+      "start": 433.039,
+      "duration": 2.081,
+      "text": "or you know something that we integrate",
+      "timestamp": "07:13"
+    },
+    {
+      "start": 435.12,
+      "duration": 2.32,
+      "text": "into the broader organization and so",
+      "timestamp": "07:15"
+    },
+    {
+      "start": 437.44,
+      "duration": 2.4,
+      "text": "even when AI can give very good insights",
+      "timestamp": "07:17"
+    },
+    {
+      "start": 439.84,
+      "duration": 1.12,
+      "text": "whether that's in the form of",
+      "timestamp": "07:19"
+    },
+    {
+      "start": 440.96,
+      "duration": 2.079,
+      "text": "predictions or in the form of really",
+      "timestamp": "07:20"
+    },
+    {
+      "start": 443.039,
+      "duration": 1.841,
+      "text": "good recommendations that we see some of",
+      "timestamp": "07:23"
+    },
+    {
+      "start": 444.88,
+      "duration": 2.56,
+      "text": "these AI assistants provide one of the",
+      "timestamp": "07:24"
+    },
+    {
+      "start": 447.44,
+      "duration": 1.36,
+      "text": "challenges is that you need to actually",
+      "timestamp": "07:27"
+    },
+    {
+      "start": 448.8,
+      "duration": 2.16,
+      "text": "think about how do we do the automation",
+      "timestamp": "07:28"
+    },
+    {
+      "start": 450.96,
+      "duration": 2.48,
+      "text": "part so that it's not just an input into",
+      "timestamp": "07:30"
+    },
+    {
+      "start": 453.44,
+      "duration": 2.0,
+      "text": "a human who is making the decision",
+      "timestamp": "07:33"
+    },
+    {
+      "start": 455.44,
+      "duration": 2.4,
+      "text": "because ultimately that's where we see a",
+      "timestamp": "07:35"
+    },
+    {
+      "start": 457.84,
+      "duration": 1.919,
+      "text": "lot of the gains that uh typically",
+      "timestamp": "07:37"
+    },
+    {
+      "start": 459.759,
+      "duration": 2.321,
+      "text": "dissipate even when there is a lot of",
+      "timestamp": "07:39"
+    },
+    {
+      "start": 462.08,
+      "duration": 2.239,
+      "text": "potential gains that you could have from",
+      "timestamp": "07:42"
+    },
+    {
+      "start": 464.319,
+      "duration": 2.641,
+      "text": "experiencing uh from adopting AI into",
+      "timestamp": "07:44"
+    },
+    {
+      "start": 466.96,
+      "duration": 2.32,
+      "text": "the business and so based on a lot of",
+      "timestamp": "07:46"
+    },
+    {
+      "start": 469.28,
+      "duration": 2.0,
+      "text": "this uh what we've been building at",
+      "timestamp": "07:49"
+    },
+    {
+      "start": 471.28,
+      "duration": 2.16,
+      "text": "INSEAD along with some faculty from",
+      "timestamp": "07:51"
+    },
+    {
+      "start": 473.44,
+      "duration": 2.24,
+      "text": "Harvard as well as Stanford is something",
+      "timestamp": "07:53"
+    },
+    {
+      "start": 475.68,
+      "duration": 2.239,
+      "text": "called the AI venture lab where what we",
+      "timestamp": "07:55"
+    },
+    {
+      "start": 477.919,
+      "duration": 2.0,
+      "text": "have seen is that there's a lot of noise",
+      "timestamp": "07:57"
+    },
+    {
+      "start": 479.919,
+      "duration": 2.161,
+      "text": "relative to signal in this space in",
+      "timestamp": "07:59"
+    },
+    {
+      "start": 482.08,
+      "duration": 2.64,
+      "text": "terms of not building AI technologies or",
+      "timestamp": "08:02"
+    },
+    {
+      "start": 484.72,
+      "duration": 2.72,
+      "text": "products but rethinking how do we build",
+      "timestamp": "08:04"
+    },
+    {
+      "start": 487.44,
+      "duration": 2.8,
+      "text": "businesses with AI at the core and so",
+      "timestamp": "08:07"
+    },
+    {
+      "start": 490.24,
+      "duration": 1.84,
+      "text": "what this really has at its core is",
+      "timestamp": "08:10"
+    },
+    {
+      "start": 492.08,
+      "duration": 2.0,
+      "text": "thinking about how can we lift up",
+      "timestamp": "08:12"
+    },
+    {
+      "start": 494.08,
+      "duration": 1.76,
+      "text": "entrepreneurs especially outside of",
+      "timestamp": "08:14"
+    },
+    {
+      "start": 495.84,
+      "duration": 1.84,
+      "text": "Silicon Valley and in locations like",
+      "timestamp": "08:15"
+    },
+    {
+      "start": 497.68,
+      "duration": 2.959,
+      "text": "Southeast Asia the Middle East uh Europe",
+      "timestamp": "08:17"
+    },
+    {
+      "start": 500.639,
+      "duration": 2.161,
+      "text": "uh as well as Africa in terms of",
+      "timestamp": "08:20"
+    },
+    {
+      "start": 502.8,
+      "duration": 2.079,
+      "text": "thinking about how can we overcome some",
+      "timestamp": "08:22"
+    },
+    {
+      "start": 504.879,
+      "duration": 1.521,
+      "text": "of those constraints that I talked about",
+      "timestamp": "08:24"
+    },
+    {
+      "start": 506.4,
+      "duration": 1.44,
+      "text": "at the beginning whether it's",
+      "timestamp": "08:26"
+    },
+    {
+      "start": 507.84,
+      "duration": 2.96,
+      "text": "information advice talent or financing",
+      "timestamp": "08:27"
+    },
+    {
+      "start": 510.8,
+      "duration": 2.32,
+      "text": "constraints to help them in terms of",
+      "timestamp": "08:30"
+    },
+    {
+      "start": 513.12,
+      "duration": 1.68,
+      "text": "growing and scaling their businesses",
+      "timestamp": "08:33"
+    },
+    {
+      "start": 514.8,
+      "duration": 2.32,
+      "text": "more quickly uh backed by research",
+      "timestamp": "08:34"
+    },
+    {
+      "start": 517.12,
+      "duration": 2.56,
+      "text": "evidence on what we see in terms of what",
+      "timestamp": "08:37"
+    },
+    {
+      "start": 519.68,
+      "duration": 3.359,
+      "text": "works rather than what what uh absorbs a",
+      "timestamp": "08:39"
+    },
+    {
+      "start": 523.039,
+      "duration": 2.161,
+      "text": "lot of resources and so what we're doing",
+      "timestamp": "08:43"
+    },
+    {
+      "start": 525.2,
+      "duration": 1.6,
+      "text": "is we're building the world's first",
+      "timestamp": "08:45"
+    },
+    {
+      "start": 526.8,
+      "duration": 2.159,
+      "text": "evidence-based playbook for what it",
+      "timestamp": "08:46"
+    },
+    {
+      "start": 528.959,
+      "duration": 2.241,
+      "text": "looks like to power venture creation",
+      "timestamp": "08:48"
+    },
+    {
+      "start": 531.2,
+      "duration": 2.88,
+      "text": "with AI and what this means is where do",
+      "timestamp": "08:51"
+    },
+    {
+      "start": 534.08,
+      "duration": 1.68,
+      "text": "you think about adopting AI into the",
+      "timestamp": "08:54"
+    },
+    {
+      "start": 535.76,
+      "duration": 1.6,
+      "text": "organization is it really in terms of",
+      "timestamp": "08:55"
+    },
+    {
+      "start": 537.36,
+      "duration": 2.479,
+      "text": "costs versus growth in terms of human",
+      "timestamp": "08:57"
+    },
+    {
+      "start": 539.839,
+      "duration": 2.721,
+      "text": "resources versus operations how do you",
+      "timestamp": "08:59"
+    },
+    {
+      "start": 542.56,
+      "duration": 2.56,
+      "text": "think about when to make versus buy and",
+      "timestamp": "09:02"
+    },
+    {
+      "start": 545.12,
+      "duration": 1.839,
+      "text": "where you might think about building a",
+      "timestamp": "09:05"
+    },
+    {
+      "start": 546.959,
+      "duration": 2.161,
+      "text": "wrapper for your business and being a",
+      "timestamp": "09:06"
+    },
+    {
+      "start": 549.12,
+      "duration": 2.159,
+      "text": "being able to develop a large-scale",
+      "timestamp": "09:09"
+    },
+    {
+      "start": 551.279,
+      "duration": 1.921,
+      "text": "evidence on really what works in terms",
+      "timestamp": "09:11"
+    },
+    {
+      "start": 553.2,
+      "duration": 1.84,
+      "text": "of helping entrepreneurs build more",
+      "timestamp": "09:13"
+    },
+    {
+      "start": 555.04,
+      "duration": 2.479,
+      "text": "smartly and scale faster with less",
+      "timestamp": "09:15"
+    },
+    {
+      "start": 557.519,
+      "duration": 2.88,
+      "text": "capital and fewer employees and so what",
+      "timestamp": "09:17"
+    },
+    {
+      "start": 560.399,
+      "duration": 2.0,
+      "text": "we're doing is launching a sprint that's",
+      "timestamp": "09:20"
+    },
+    {
+      "start": 562.399,
+      "duration": 2.401,
+      "text": "going to run from August 25th to October",
+      "timestamp": "09:22"
+    },
+    {
+      "start": 564.8,
+      "duration": 2.159,
+      "text": "14th where it'll be an 8-week virtual",
+      "timestamp": "09:24"
+    },
+    {
+      "start": 566.959,
+      "duration": 2.081,
+      "text": "sprint for up to a thousand founders",
+      "timestamp": "09:26"
+    },
+    {
+      "start": 569.04,
+      "duration": 2.56,
+      "text": "that is focused on building uh ventures",
+      "timestamp": "09:29"
+    },
+    {
+      "start": 571.6,
+      "duration": 2.64,
+      "text": "at the preede stage and this will be",
+      "timestamp": "09:31"
+    },
+    {
+      "start": 574.24,
+      "duration": 2.24,
+      "text": "connecting AI experts that are both",
+      "timestamp": "09:34"
+    },
+    {
+      "start": 576.48,
+      "duration": 2.479,
+      "text": "well-versed in the technology as well as",
+      "timestamp": "09:36"
+    },
+    {
+      "start": 578.959,
+      "duration": 2.161,
+      "text": "in terms of building uh companies and",
+      "timestamp": "09:38"
+    },
+    {
+      "start": 581.12,
+      "duration": 2.399,
+      "text": "and using AI agents across different",
+      "timestamp": "09:41"
+    },
+    {
+      "start": 583.519,
+      "duration": 2.961,
+      "text": "parts of the business and um and and and",
+      "timestamp": "09:43"
+    },
+    {
+      "start": 586.48,
+      "duration": 1.68,
+      "text": "and what we're doing is accepting",
+      "timestamp": "09:46"
+    },
+    {
+      "start": 588.16,
+      "duration": 1.679,
+      "text": "applications for this sprint now to",
+      "timestamp": "09:48"
+    },
+    {
+      "start": 589.839,
+      "duration": 2.241,
+      "text": "begin at the end of August uh where",
+      "timestamp": "09:49"
+    },
+    {
+      "start": 592.08,
+      "duration": 2.08,
+      "text": "we'll be thinking about AI frameworks to",
+      "timestamp": "09:52"
+    },
+    {
+      "start": 594.16,
+      "duration": 1.84,
+      "text": "build these companies as well as master",
+      "timestamp": "09:54"
+    },
+    {
+      "start": 596.0,
+      "duration": 2.24,
+      "text": "classes from some of the early founders",
+      "timestamp": "09:56"
+    },
+    {
+      "start": 598.24,
+      "duration": 1.76,
+      "text": "who have built up these AI native",
+      "timestamp": "09:58"
+    },
+    {
+      "start": 600.0,
+      "duration": 2.24,
+      "text": "companies as well as VCs that are in",
+      "timestamp": "10:00"
+    },
+    {
+      "start": 602.24,
+      "duration": 2.8,
+      "text": "this case and then um enabling mentor",
+      "timestamp": "10:02"
+    },
+    {
+      "start": 605.04,
+      "duration": 2.239,
+      "text": "our our larger mentor community to help",
+      "timestamp": "10:05"
+    },
+    {
+      "start": 607.279,
+      "duration": 2.321,
+      "text": "ventures apply some of these insights",
+      "timestamp": "10:07"
+    },
+    {
+      "start": 609.6,
+      "duration": 2.08,
+      "text": "directly to their businesses and what",
+      "timestamp": "10:09"
+    },
+    {
+      "start": 611.68,
+      "duration": 2.159,
+      "text": "we'll do is we'll also offer in-person",
+      "timestamp": "10:11"
+    },
+    {
+      "start": 613.839,
+      "duration": 2.24,
+      "text": "experiences beyond the virtual sprint",
+      "timestamp": "10:13"
+    },
+    {
+      "start": 616.079,
+      "duration": 2.241,
+      "text": "across four locations that will help",
+      "timestamp": "10:16"
+    },
+    {
+      "start": 618.32,
+      "duration": 2.24,
+      "text": "enable connect ventures in terms of",
+      "timestamp": "10:18"
+    },
+    {
+      "start": 620.56,
+      "duration": 2.08,
+      "text": "global markets and global customers as",
+      "timestamp": "10:20"
+    },
+    {
+      "start": 622.64,
+      "duration": 1.84,
+      "text": "well as investors across many of these",
+      "timestamp": "10:22"
+    },
+    {
+      "start": 624.48,
+      "duration": 2.24,
+      "text": "locations now we have an amazing team",
+      "timestamp": "10:24"
+    },
+    {
+      "start": 626.72,
+      "duration": 1.6,
+      "text": "behind the lab that is coming from",
+      "timestamp": "10:26"
+    },
+    {
+      "start": 628.32,
+      "duration": 2.48,
+      "text": "INSEAD Stanford and Harvard uh that have",
+      "timestamp": "10:28"
+    },
+    {
+      "start": 630.8,
+      "duration": 1.599,
+      "text": "been building up a lot of venture",
+      "timestamp": "10:30"
+    },
+    {
+      "start": 632.399,
+      "duration": 2.0,
+      "text": "studios and working at the frontiers of",
+      "timestamp": "10:32"
+    },
+    {
+      "start": 634.399,
+      "duration": 2.721,
+      "text": "using AI for entrepreneurship um as well",
+      "timestamp": "10:34"
+    },
+    {
+      "start": 637.12,
+      "duration": 2.0,
+      "text": "as a number of adviserss um that have",
+      "timestamp": "10:37"
+    },
+    {
+      "start": 639.12,
+      "duration": 1.92,
+      "text": "been involved in this effort from Chris",
+      "timestamp": "10:39"
+    },
+    {
+      "start": 641.04,
+      "duration": 2.16,
+      "text": "Yay who has uh written Blitzcaling with",
+      "timestamp": "10:41"
+    },
+    {
+      "start": 643.2,
+      "duration": 3.44,
+      "text": "Reed Hoffman Christina Ventura who is uh",
+      "timestamp": "10:43"
+    },
+    {
+      "start": 646.64,
+      "duration": 1.92,
+      "text": "uh an investor across both Southeast",
+      "timestamp": "10:46"
+    },
+    {
+      "start": 648.56,
+      "duration": 2.16,
+      "text": "Asia and the Middle East Jeff Rson who's",
+      "timestamp": "10:48"
+    },
+    {
+      "start": 650.72,
+      "duration": 2.32,
+      "text": "the ex-president of Y Combinator Hari",
+      "timestamp": "10:50"
+    },
+    {
+      "start": 653.04,
+      "duration": 1.6,
+      "text": "Christian who's built up the property",
+      "timestamp": "10:53"
+    },
+    {
+      "start": 654.64,
+      "duration": 2.8,
+      "text": "guru uh group here James Draghy who is",
+      "timestamp": "10:54"
+    },
+    {
+      "start": 657.44,
+      "duration": 2.399,
+      "text": "leading exponential venture capital um",
+      "timestamp": "10:57"
+    },
+    {
+      "start": 659.839,
+      "duration": 1.841,
+      "text": "and then Jillian Mayus who's a managing",
+      "timestamp": "10:59"
+    },
+    {
+      "start": 661.68,
+      "duration": 1.76,
+      "text": "capital uh partner at structure capital",
+      "timestamp": "11:01"
+    },
+    {
+      "start": 663.44,
+      "duration": 1.519,
+      "text": "and Vanessa Gao who is very well",
+      "timestamp": "11:03"
+    },
+    {
+      "start": 664.959,
+      "duration": 1.601,
+      "text": "connected in the Chinese venture capital",
+      "timestamp": "11:04"
+    },
+    {
+      "start": 666.56,
+      "duration": 3.6,
+      "text": "space so what I'd love to do is invite",
+      "timestamp": "11:06"
+    },
+    {
+      "start": 670.16,
+      "duration": 2.64,
+      "text": "you to join uh in terms of figuring out",
+      "timestamp": "11:10"
+    },
+    {
+      "start": 672.8,
+      "duration": 1.84,
+      "text": "how do we actually build AI native",
+      "timestamp": "11:12"
+    },
+    {
+      "start": 674.64,
+      "duration": 1.92,
+      "text": "companies in a way that ultimately",
+      "timestamp": "11:14"
+    },
+    {
+      "start": 676.56,
+      "duration": 2.08,
+      "text": "results in better startup growth we're",
+      "timestamp": "11:16"
+    },
+    {
+      "start": 678.64,
+      "duration": 1.52,
+      "text": "working with a number of partners",
+      "timestamp": "11:18"
+    },
+    {
+      "start": 680.16,
+      "duration": 3.119,
+      "text": "including Nvidia Antler uh Station F",
+      "timestamp": "11:20"
+    },
+    {
+      "start": 683.279,
+      "duration": 2.961,
+      "text": "Blitzcaling many many more um to to",
+      "timestamp": "11:23"
+    },
+    {
+      "start": 686.24,
+      "duration": 2.24,
+      "text": "build up this uh ecosystem and looking",
+      "timestamp": "11:26"
+    },
+    {
+      "start": 688.48,
+      "duration": 1.76,
+      "text": "for folks that we can work with to build",
+      "timestamp": "11:28"
+    },
+    {
+      "start": 690.24,
+      "duration": 2.32,
+      "text": "out the broader ecosystem as well as",
+      "timestamp": "11:30"
+    },
+    {
+      "start": 692.56,
+      "duration": 1.519,
+      "text": "figuring out how to get the right",
+      "timestamp": "11:32"
+    },
+    {
+      "start": 694.079,
+      "duration": 2.161,
+      "text": "support to a lot of these entrepreneurs",
+      "timestamp": "11:34"
+    },
+    {
+      "start": 696.24,
+      "duration": 1.839,
+      "text": "um and of course thinking about how do",
+      "timestamp": "11:36"
+    },
+    {
+      "start": 698.079,
+      "duration": 2.0,
+      "text": "we really fuel this vision to move",
+      "timestamp": "11:38"
+    },
+    {
+      "start": 700.079,
+      "duration": 2.081,
+      "text": "forward and if you're interested what",
+      "timestamp": "11:40"
+    },
+    {
+      "start": 702.16,
+      "duration": 1.84,
+      "text": "we're really uh thinking about and",
+      "timestamp": "11:42"
+    },
+    {
+      "start": 704.0,
+      "duration": 2.72,
+      "text": "motivated by is how we can unlock the",
+      "timestamp": "11:44"
+    },
+    {
+      "start": 706.72,
+      "duration": 2.239,
+      "text": "amazing amount of talent that we have",
+      "timestamp": "11:46"
+    },
+    {
+      "start": 708.959,
+      "duration": 2.0,
+      "text": "especially outside of Silicon Valley",
+      "timestamp": "11:48"
+    },
+    {
+      "start": 710.959,
+      "duration": 2.0,
+      "text": "where it's been very difficult to unlock",
+      "timestamp": "11:50"
+    },
+    {
+      "start": 712.959,
+      "duration": 1.921,
+      "text": "a lot of these constraints in terms of",
+      "timestamp": "11:52"
+    },
+    {
+      "start": 714.88,
+      "duration": 2.639,
+      "text": "getting access to talent and and and and",
+      "timestamp": "11:54"
+    },
+    {
+      "start": 717.519,
+      "duration": 2.481,
+      "text": "getting access to capital and and and",
+      "timestamp": "11:57"
+    },
+    {
+      "start": 720.0,
+      "duration": 1.92,
+      "text": "thinking about what can we solve next",
+      "timestamp": "12:00"
+    },
+    {
+      "start": 721.92,
+      "duration": 1.68,
+      "text": "when we unlock a lot of these",
+      "timestamp": "12:01"
+    },
+    {
+      "start": 723.6,
+      "duration": 1.919,
+      "text": "constraints that we typically face if",
+      "timestamp": "12:03"
+    },
+    {
+      "start": 725.519,
+      "duration": 1.44,
+      "text": "you're interested please visit the",
+      "timestamp": "12:05"
+    },
+    {
+      "start": 726.959,
+      "duration": 2.241,
+      "text": "website and feel free to contact us with",
+      "timestamp": "12:06"
+    },
+    {
+      "start": 729.2,
+      "duration": 4.36,
+      "text": "any questions thanks so much",
+      "timestamp": "12:09"
+    }
+  ],
+  "extraction_timestamp": "2025-06-29T21:04:35.412979",
+  "playlist_title": "SuperAI Singapore 2025: WEKA Stage"
+}

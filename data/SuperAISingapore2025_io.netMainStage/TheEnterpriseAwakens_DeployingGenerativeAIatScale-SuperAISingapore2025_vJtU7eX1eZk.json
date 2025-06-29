@@ -1,0 +1,2219 @@
+{
+  "video_id": "vJtU7eX1eZk",
+  "video_title": "The Enterprise Awakens: Deploying Generative AI at Scale - SuperAI Singapore 2025",
+  "video_url": "https://www.youtube.com/watch?v=vJtU7eX1eZk",
+  "channel_title": "SuperAI",
+  "published_at": "2025-06-27T07:46:52+00:00",
+  "duration_seconds": null,
+  "view_count": 18,
+  "like_count": 0,
+  "description": "Learn more about SuperAI: superai.com\nFollow us on X: x.com/superai_conf\n\nPanel: The Enterprise Awakens: Deploying Generative AI at Scale\n\nSpeakers:\nJason Boehmig, Executive Chairman @ Ironclad\nGirish Patil, Head of Technology, Generative AI, ASEAN @ AWS\nDonghao Huang, VP, R&D @ Mastercard\n\nModerator:\nLionel Sim, Founder @ The AI Capitol\n\nStage: io.net Main Stage\n#superai #enterpriseai #genai #scalability #aiinfrastructure\n\nRecorded on 19 June 2025",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 366,
+    "aggregated_text": "a great crowd here i know you guys have been here for about 2 days and yeah very interesting topic uh enterprise uh AI and something that I'm really uh passionate about uh one important stats that I search uh you know it's really enterprise AI is going to hit about $286 billion by 2026 alone and we have the experts in the house uh who will showcase to you like what are the use cases about enterprise AI we'll talk a lot about open source model some of the challenges and governance in terms of trust uh but first of all I'd like to maybe uh get everyone to introduce themselves uh maybe start from Jason you can introduce yourself like who you are and like what do you feel most excited about yeah I'm Jason i'm executive chairman at Ironclad i founded the company 11 years ago and recently transitioned to executive chair from being CEO so I can spend more time doing this um uh and I'd say like the thing that I'm thinking about the most is uh disrupting ourselves we've been around for 11 years and uh that's the thing on my mind yeah thanks Lel uh thanks Justin so uh my name is Girish uh I have been with Amazon for more than 10 years uh mostly focused on AI deep learning uh deep technology background in my current role I get to keep a track of how the technology is evolving chips models new techniques i'm lucky to be able to travel and meet a lot of interesting people at different conferences so I advise AWS as well as AWS customers as well as different governments on AI adoption so yeah that's about me thanks hello sir thank you my name is Dona Huang i'm work for Mastercard R&D team i joined the uh 14 years back as a first employee in R&D in Singapore and starting with for basis from scratch building the team and over a decade and then I decided to move on a global role leading emerging technology initially working with web3 and blockchain technologies but last couple of years I switch over to work on AI machine learning and the generative AI and very interestingly so I'm I'm also pursuing a part-time degree at doctorate degree at Singapore management university I'm very excite excited to bring the latest um techniques in AI domain to our financial application development awesome thanks everyone uh and obviously it's a very hot topic because uh you know when I walk around there's a lot of like enterprise tech startups in terms of AI wise uh and I was talking to Jason just now like in terms of how he scaled his startups 11 years ago uh since September uh 2014 uh so my first question is to Jason uh what is the challenge in terms of scaling Genai from prototype to innovation in the legal tech arena I I know that you are a very strong builder and recently have transitioned to an executive chairman role and focus more on product maybe you can tell us from your experience very extensive experience of how uh you look at a challenge and maybe one of the the non uh non-obvious challenge also in terms of scaling that yeah so yeah so just for a bit of context Ironcloud we're on the enterprise panel so I can actually say our full category name without being embarrassed enterprise contract life cycle management which means we help companies and I think Mastercard is a great customer of ours with the entire life cycle of a business contract from the creation to the negotiation to the signatures and then the tracking and porting of that data to all of the places it needs to go and of course there's AI across all of that um and I think the real challenge and and perhaps surprising thing uh that is for us the thing that we spend a lot of time doing is making sure that AI works with the technology that is already in the enterprise so for lawyers uh what that means is working deeply with Microsoft Word and my one of my favorite anecdotes about building enterprise AI is we have some really great engineers we have uh folks from MIT a lot of our founding team um and early engineers at Palunteer and one of our best engineers he said that the hardest computer science problem he has ever worked on is programmatically turning text white turning text white in a uh docx file format in the browser so it gives you a sense of like where the real if you're going into the enterprise you really have to commit to to deeply working with the tools that are already there and not just building from scratch on uh the architecture you might want to use cuz I I kind of wish we didn't have to build on Microsoft Word and DocX but uh we do and that's the surprising thing for me yeah I guess exactly i think uh versatility and dynamism is so important especially in this day and age where we have to pivot and we have to scale uh the next question will be for Jes like you know what kind of uh architectural pitfalls or challenges do you see in enterprise AI and how does successful ones move past them we have discussed a lot about the open source model has we have uh discussed just now like maybe you can tell me more from your lens uh from the future and also the same time like what are the challenges and how do we overcome that yeah thanks for that question so uh enterprises uh see such a massive potential in adoption of AI but they have a huge legacy legacy of their success they can't uh they can't squander it right uh they have to make sure that the business is not disrupted while adopting AI so we do see massive adoption of AI to improve the bottom line uh that is to improve the efficiency we are seeing uh now uh very early adoption of AI to improve the top line like to generate net new revenue so both things are happening slowly but surely uh that said uh enterprises are bit more cautious and rightfully so in adopting AI so uh you and I were talking uh whether it's a skill set challenge it's not a skill set challenge of course if you are writing CUDA kernels and building models from scratch and all uh that skill set is not so widespread but most enterprise applications do not require the kind of skill set and now there are a lot of great coding tools and all so it's not a skill set issue at all but what happens with this technology is that going from 0 to 90 is very easy right you can spin up something that looks cool works fast you can show it to your team but when you start doing very thorough testing to go from that 90 to 100 it takes hell lot of time and the way enterprises think uh even if 99 things are right and one things are wrong they will think 10 times before adopting it so that is slowing down the adoption i'm not saying that the caution is not warranted but yeah that is the scene of enterprise adoption but that said things are changing so enterprises are adopting primarily for internal uh use cases slowly they will do it for external use cases once they are more confident but at this stage it is mostly internal b2c is much lesser and uh there is also a lot of focus on open source this is new uh so so far people were using claude or you know Gemini or open AAI right and these uh models are not fully under the control of enterprises although uh platforms like bedrock offer uh lot of data security guarantees etc but enterprises like control rightfully so again uh so a lot of enterprises are exploring opensource AI uh my esteemed panelist had a great talk about it in the morning uh and opensource AI has become viable It wasn't viable before with Deep Sea Quen and lot of great hosting platforms so adoption was slow but we are seeing a massive J curve about to happen with commercial models and particularly with open source models long answer but yeah I have to say all those things amazing you can see the passion in Jerish when he explained open source model and the innovation in enterprise AI so over to Tongha like I attended your this morning's session about how do you regulate in terms of open source model itself uh one of the question that I got a lot in terms of financial industry uh is how do you build trust in terms of genai deployment especially in a very highly regulated industry like yourself and also uh maybe you can share with the audience some of the best practices uh that you deploy uh AI in your industry thank thank you for the question the very first thing we start even before we did start trying to use generative AI so we have established a very strong foundational principles the for data responsibility and ethical AI we we had mascar have been using AI for a long time combating the fraud um in real time so we have tried to use u uh built on top of the existing uh risk management principle to to reinforce that to be able to adapt that for our GI use cases the second part is we believe that um uh we we need to have a very strong governance structure in the in the enterprises so our AI governance um council is already in place for more than five years you consisting of of a team cross functional team of experts from uh data science um security legal and privacy and which uh try build a very very big focus on asking not only say can we build with generative AI or we kind of should we build with this kind of a technology and we also adopt uh the privacy by design for all the AI and data related product which make it the um very important in the finance where the customer trust and compliance um regulatory compliance are very important to us awesome thank you uh you mentioned a couple of different things uh governance and user trust and also at the same time uh privacy by design which is a very important word itself uh it goes back to the topic because uh obviously enterprise AI a lot of people would knew it has a very long sales cycle and obviously we have different stakeholders at play so I think the next question to the panel here is uh who decides the budget for enterprise AI do you need a chief AI officer to play the role maybe over to Jason in terms of explaining that yeah I mean I so for us we sell to we took kind of an unusual path to get where we are which is we sold to an underserved buyer the general counsel and one that was considered to be sort of a bad buyer of software but for us what that meant is like we could become the number one most important software solution to that buyer the the lawyer the chief legal officer the general counsel um and I think that my hot take would be that I think the end user is the right buyer um because the end user understands what their requirements are the best and we like selling to the lawyers because we can get deep with them and on the first call they can be asking questions about um a deep understanding of a contract negotiation and like understanding of why a particular result that an AI is showing them is superior to uh a different one so I would say that the right buyer is uh the the end user so uh AI at the end of the day is a technology so it needs to be cost effective secure scalable reliable so those uh things of traditional uh technology considerations equally apply so CTO's office needs to be uh very much involved uh very much uh attentive to AI projects but that said AI has its own characteristics uh with respect to reliability so unless end users are involved different departments and unless they sign off AI projects will not be successful so the end users are typically the real buyers or recommenders they can tell their CTO that it can save us like 20% 30% increase our speed by such and such percent so their involvement is required for sure it cannot come top down but we are seeing one trend that is uh uh not new I would say uh but it is worth noting down that lot of organizations are setting up something called as AI center of excellence so some people who are committed and passionate to roll out AI across the organization because while this technology is very powerful it has its rough ages so yeah there needs to be center of excellence but the final approval and the budget will typically come from the respective departments awesome yeah that's what I would say thanks yeah very interestingly actually M I mentioned that Mascal had been using the AI for quite some time since the advent of the chatb and the general AI technologies last year in April Mascat had a great big reorg to set up a a new um organization headed by our chief AI and data officer so combined our capability of AI and data together and recently they also they they also as part of that big organization they have a center of excellence for AI but which I I'm partnering with them so the the recently they um uh we announced at Mascar that uh we are going to um build a series of the product platform to support the agent commerce so with Mascar we call agent pay uh platform which is led by that uh organization and I'm I'm I'm very very happy to be part of the whole journey to uh to drive the uh future agent commerce you can imagine that you could have this uh your agent could pay on your behalf without you uh worry about to buy some grocery at $100 right so who who really cares right awesome i'm hearing a lot of uh very interesting views one is the customer is the buyer second set up your center of excellence in the parts of the world to showcase your commitment the third as you mentioned in terms of the converging of the roles between the CIO chief AI officer and everything so this gives me to the next question in terms of uh what kind of best practice you know will you advocate to a startup founder who wants to start up something in the enterprise space we have a lot of startup entrepreneurs in in super AI and probably would love uh your perspective uh both from a company perspective and from a startup builder perspective so I my advice for a startup founder that wants to start to get to the enterprise is to not start in the enterprise um I I think what really helped us have a lot of momentum in the enterprise is that we built up a really strong mid-market and small business practice first uh and that helped us iterate on a much more rapid cycle the enterprise cycles are are long i mean we can it can take us a year to go through an enterprise sales cycle um whereas the small businesses and the mediumsiz businesses it's like 30 days and we're deployed 30 days later so that rhythm for us as a product focused company helped us build a really great product and then over time each year we would develop new capabilities that would allow us to make a little bit more progress into the enterprise um and then once we finally cracked in the enterprise it was kind of like the floodgates opened um but I think kind of getting battle tested in the mid-market helped us a lot and that would be my advice to a startup founder awesome durish so the question is what startups should do to be able to sell to enterprises exactly yeah if I'm a startup founder if I want to start up an enterprise AI company uh should I should I not uh what kind of advice would you give them yeah yeah so uh good question so selling to enterprises is actually hard okay because they are very judicious they will ask so many questions and I advise a lot of startups um and they are very excited about the features adding agents how things are running and how the output is beautiful and all and all that is very valuable that's why we care about AI so much but enterprises as I said have a legacy to maintain right so they are going to quiz you a lot about uh not just cost enterprises generally pay well compared to the B2C customers uh But they want to know about how reliable your product is whether you are using guard rails in your AI application so that your AI doesn't say stupid things or whether you are using rag properly so that your AI doesn't give unreliable answers right or you have things like automated reasoning or tool call when the AI must do some simple mathematics to give the answer right so these are the kind of conversations that startups need to be prepared to have and they also need to think about what the compliance team of the enterprise is going to think about it or what the regulators are going to say about it so for example if you are trying to sell it to a bank but if you cannot answer the typical questions that the banking regulators in that nation have then you are not going to be able to successfully sell it to a bank right bank is never going to buy a product that their regulators are not going to be happy about so think of what regulators expect right so it is going to constrain you a bit or to some extent uh but if you ignore those constraints you cannot buy or sell to enterprises at Amazon we have a program called as SAS factory where we help you package your products well with all those considerations uh but yeah without those considerations being paid attention to you cannot successfully sell to enterprises so yeah that's what I have seen all the time interestingly that if you really want to sell your product to banks then try join master card start pass program actually we have thousand of startups already within our programs and recently we have a very big focus on AI and technologies so the the whole um startup kind of program is has been very successful I think it had won a lot of times of the best incubation program in the f financial industry so it's very well recognized normally we are masterard we are bit uh we put uh you the company into a consist program where we link you to a lot of global bank banks uh which are all our customers right so this is a best way of doing the collaboration with uh uh with the with mascard and to to sell your product to uh to banks normally at R&D whenever a startup approach me I always say okay if you don't join start pass then I cannot work with you so so basically that's my recommendation it's amazing uh obviously there's a lot of programs out there to facilitate startups who wants to venture into the enterprise space but we can also know that there are challenges out there like what Jason's mentioned in terms of like regulation and and policy framework uh so obviously you know it leads me to the kind of next question in terms of uh with the rise of you know open source model like deepse R1 the cost of compute the cost of uh designing an architecture has went down significantly uh I would love to understand from the panelists in terms of how do you view uh open source model and how do you see the evolution of open source model uh affecting enterprise AI maybe uh Jason yeah I mean I think that's definitely the trend that we're observing with uh peer companies and that our customers ask about i think for us we have historically been pretty closely aligned with OpenAI we're talking backstage but we Y Combinator is a big startup accelerator in the United States and the Sam Alman the CEO of OpenAI was the president of Y Combinator when we went through it so like we've had a long-standing relationship with the company and um it's been a they've been a great partner of ours but it is something that we're constantly evaluating and our teams are always looking at like definitely what the best model for the job is awesome yeah so uh we are partnered with Anthropic amazon has a big investment in Anthropic they train their models with Amazon chips uh they are available on Amazon's bedrock platform and I absolutely love anthropic like u like chatting with you feels like chatting to a very sensitive and intelligent human uh but that said uh that's a closed model uh we run it on bedrock we offer a lot of security guarantees and there are many customers who are very very happy some of the most regulated customers with that but at the same time in terms of capabilities uh opensource has caught up a thought right so open source actually uh always had a promise but it was quite disappointing till very recently right so uh open source people are talking about uh open source being an answer to closed source and all uh since at least when chat GP was launched and llama 1 got leaked uh but that promise uh didn't uh come to reality because open source lagged closed source in quality but thanks to letter of great labs in China uh it had changed right Deepc R1 amazing model their May update amazing Quen models very good price toerformance ratio so models are great but there was one more thing you need in addition to the models that is the middleware or the hosting infrastructure on which the models can run successfully so running open source models actually was expensive because you can never run it probably as efficiently as the big labs can run but that has also changed because of great people at VLM SG lang etc so we do see large enterprises governments who want to have complete visibility to their AI platform investing serious money and people power in exploring open-source models and given the fact that opensource has reached to such an extent that even if it didn't progress any further at all even it if it freezes in time here still those models are good enough for many many use cases so I generally like to give example of perplexity how many of you use perplexity here can I see a raise of hands yeah quite a few so others who haven't used it please download it amazing app thank me later and I always choose DeepSeek as a model on perplexity or I use its deep research feature brilliant brilliant experience right and it is powered by an open source model so open source has definitely arrived that is what I would say yeah so at Mascar product development we uh like uh Gish mentioned we really want to have full control of the what we are building so we when whenever we are trying to build touch our own prop priority data we always try to evaluate the our use our uh open source models so we can we probably initially we uh this morning I talk about the the product on boarding assistant the product developed by Mascar R&D we uh initially we use very big models like um DBRX and also the llama for five billion parameters is very huge and very slow and also very expensive but after we try create a train uh domain adaptation data for specifically for our product onboarding assistant tasks and we managed to get the uh performance uh 10% better but than the than the biggest models ever but also we managed to cut down the cost by four times and increase the speed by five times so that's in that kind of a uh approach we believe the open-source models are very good for enterprise applications especially for the vertical application you have very specific goals task just try to create your data fine-tune it and then you are get the best of the performance and the efficiency and of course the cost effectiveness thanks for the input a very huge velocity of change in terms of how open source can bring to enterprise companies in terms of uh higher performance lower costs at the same time in terms of streamlining your operation so uh yeah the next question would be like more of like if you have this uh you know you know if you look at the future of enterprise AI like what are the things that you are most looking forward to in the next uh 5 to 10 years uh for me it's it's getting really deep on the verticals i think like gen one has been just take the the benefits that the foundational models provide and translate them for a particular audience um I think we're going to see that trend increase tenfold and it we're going to see much more uh interesting and deep use cases uh for the different verticals um and so I I'm excited for verticalization and at apps that continue to like exist on at that layer ai probably has been adopted the most by individuals right like the students indie developers and all that uh enterprises as I said have uh legacy to maintain so they are a bit slow to adopt uh rightfully so so most of the adoption so far has been focused on the bottom line that is to improve efficiency of code development of customer support uh because you can have immediate predictable gains there right but very few enterprises as of today are using AI for the top line top line in the sense to improve revenue uh to get more customers or to make more money per customer right so I keep giving example of this uh Robin Hood wealth adviser which is an FSI application built with help of AI to advise people on how to invest and they will take a cut based on whether the investment is successful or not but the point is this creates a net new revenue stream for the enterprise I'm hoping in next 2 years we'll see a lot of that right now the focus has been on bottom line efficiency but we'll also see there are going to be some very bold companies like Mastercard uh supported by people like Jason who will be willing to take risk and use AI to get net new customers and get more revenue out of those customers by giving them great service so yeah that's what I'm excited about for next two years so I I would hope that like I mentioned the agent pay uh platform we are trying to build i'm really hoping that in the future you can have you your glass is very very smart has a kind you can it it kind of kind of agent running your glass or any any device you have and it can negotiate the agent with any any merchant for example you take a look at this TV show and hey I like it and then the agent can send my best favorite video to the VTP TV to show hey this is how cool it is and eventually I say I I can say hey Yes this is good i really like it i want to get it purchased by just talk to my glass and I get everything start sorted and then the TV will be shifted shipped to my to my home right so that's kind of a vision you think about all the agents can secure be under your control and running your edge device and with cloud uh um infrastructure to facilitate the secure communication across different agents that will be something I will be very excited awesome very uh fantastic view of like how you guys look at the futuristic view of uh enterprise AI from not just uh looking at cost cutting but at the same time in terms of streamlining your operations and uh I think it's really about productizing like a lot of what what you are having out there in a way and I think the the most important question like I get like in terms of like building the ecosystem wise is uh how enterprise AI and gender uh trust uh among users and also uh based one of the latest report from the CIO magazine uh user trust in terms of generative AI applications uh has fallen in a way so uh yeah I just want to take get a take from from from you guys in terms of like how do you look at trust in the age of AI and how does enterprise AI is able to engender that in their product management in their user deployment and also privacy by design which is a very good term coined by Tonga so maybe Jason over to you yeah and I think this is so foundational like to connect to your question on advice for startup founders as well if you want to sell to the enterprise trust is foundational it's not like a uh one thing you're scored on it is like a test that must be passed to sell on other things and you know one of the ways that that we do that is by showing the reasoning so we were one of the first um interfaces that would show you in real time sort of what the system was thinking and how it got to its result because we we talked to our user the lawyer and they're like \"Well the results good but I kind of want to see how the AI got there cuz one it's going to help me prompt better next time um and two I want to see like what it did or did not evaluate to get to this end result.\" So I think we're starting to see some like best practices emerge and of course if you use a model like 03 you can actually see the reasoning now uh in that interface i think that trend is going to continue uh and as we find ways to build that feedback loop with systems yeah yeah so that was a very good point so what he mentioned is they show users how the model came to that particular advice the thought process so one of the reasons people absolutely love Deepseek and it went viral is because uh Deepseek thinks out loud you see the thought process it looks a lot like human thought process it's entertaining uh but it also increases the user confidence in the answer so that is made possible by other commercial models as well like cloud 3.7 uh in addition to that backing up the answer like every assertion or fact in the answer with a document reference is very important like perplexity does it so everything that it will say if you ask it a medical question it will uh point it to the research paper from where that answer came right so the users can verify so that is absolutely a must but apart from that there are some additional techniques for example Amazon launched something called as automated reasoning So that is one of the ways to automatically ensure that the model does not hallucinate there is also a lot of research happening uh at our partner anthropic they're trying to figure out how to detect through the activation states itself whether the model is hallucinating or not so uh please do read about uh these things uh like guardrails automated reasoning and what anthropic is doing that will allow you to build applications whose answers will be trustworthy but that said in my humble opinion even uh the user mindset needs to change the enterprise mindset need to change and regulator mindset need to change uh if a system can make a mistake like at 0.01% 01% times just because it made mistake that rarely you cannot throw away the system so there is this very uh uh infamous case of Air Canada uh so Air Canada had a chatbot and uh a person was asking questions about uh uh some refund or cancellation policy and the model hallucinated and it confirmed that there was a cancellation policy that didn't exist right so uh rightfully judges held Air Canada accountable to honor that policy uh they could have avoided it by using rag automated reasoning thinking out loud kind of techniques but that said no matter what you do no matter what you do okay this technology is not going to be 100% perfect okay it will be 99.99999% accurate with all these things but there is always going to be that some probability of a failure so in that sense this technology is like any other technology aircraft engine fails right so the user mindset need to evolve enterprise CIO mindset need to evolve and all of us need to work together with regulators to bring them to this appreciation that let us not throw away the baby with the bath water yes yes so it like um Kesh mentioned that the guarders are very important at mascot we are be very um uh very focused on building the guard for all the AI including generative AI applications so the one thing is very clear is that we want the yeah we want to use use leverage the power of the generative AI but we really want to make sure that when we we're building the products even though there's a 0.001% 001% of a failure that failure will not cause a big damage to your to to our enterprise applications or to our consumer card right so so imagine if you had doing kind of recently we did some research on the invoice reconstellation and we realize because of harnessation of da junken models you are updating the invoice ID 1 2 3 4 but it actually updated the mod the agent update 1 2 3 3 4 so it kind repetition problem I mentioned this morning and that might might have very bad effect let's say because just the first transaction might just be $10 but second one might be $10,000 right so that's will be a big impact to your business so all this part need to be safeguarded in the aentic AI time frames which is previously never been seen without that being solved from not from the model perspective but from the uh foundation software engineering perspective and and the guard rare perspective then we won't be able to safely roll out for um for scale use uses it's amazing it's really a masterclass in enterprise AI I'm learning so much that trust is really the foundation of all uh generative AI deployment so the last question I want to throw to the panelists is like you know what is the last kind of message that you want to send to the crowd about enterprise AI hopes aspiration opport opportunity solutions yeah I mean I I just think it's an exciting time um I was telling to someone you know being from the legal tech vertical legal tech feels like it's f where fintech was uh 10 to 15 years ago and it's such a big space but it still feels like such early days um and so I think it's just very exciting and to be at a place like this where there's community built being built around those functions so what I would say is first figure out how the great looks like what I mean by that is install perplexity i'm not a perplexity salesman i don't get uh any incentive for saying that but you will see how a well-designed app looks like use their deep research feature use perplexity lab feature so it will use Python to do simple mathematics the model will not do even simple mathematics by itself to ensure 100% accuracy so look at how the good looks like and set yourself that benchmark you can build those kind of applications for your enterprise customers or for yourself if you are an enterprise all the tools are available from various players we have all the tools available in bedrock uh so yeah look at what the great looks like and go for the skies yeah as previously one of our mascar executives said that the biggest risk of AI is not using it so like Gish mentioned download whatever apps I personally I have perplexity have chat GPD have claw all this in my my pocket already right so this not only help me to do all these kind of writing also the all the research um my research papers I also try to leverage the to polish my my languages because English is not my first language from enterprise perspective of course they uh try to find the best model not the big bigger model best vertical model for your applications that's awesome and uh thank you so much for all the panelists and obviously hope you guys have learned a lot about enterprise AI and I really value your opinion and contributions thank you so",
+    "text_length": 34007,
+    "word_count": 6464
+  },
+  "segments": [
+    {
+      "start": 7.68,
+      "duration": 7.68,
+      "text": "a great crowd here i know you guys have been here for about 2 days and yeah very interesting topic uh enterprise uh AI",
+      "timestamp": "00:07"
+    },
+    {
+      "start": 15.36,
+      "duration": 6.56,
+      "text": "and something that I'm really uh passionate about uh one important stats that I search uh you know it's really",
+      "timestamp": "00:15"
+    },
+    {
+      "start": 21.92,
+      "duration": 6.72,
+      "text": "enterprise AI is going to hit about $286 billion by 2026 alone and we have the",
+      "timestamp": "00:21"
+    },
+    {
+      "start": 28.64,
+      "duration": 6.56,
+      "text": "experts in the house uh who will showcase to you like what are the use cases about enterprise AI we'll talk a",
+      "timestamp": "00:28"
+    },
+    {
+      "start": 35.2,
+      "duration": 7.039,
+      "text": "lot about open source model some of the challenges and governance in terms of trust uh but first of all I'd like to",
+      "timestamp": "00:35"
+    },
+    {
+      "start": 42.239,
+      "duration": 6.241,
+      "text": "maybe uh get everyone to introduce themselves uh maybe start from Jason you can introduce yourself like who you are",
+      "timestamp": "00:42"
+    },
+    {
+      "start": 48.48,
+      "duration": 6.399,
+      "text": "and like what do you feel most excited about\n yeah I'm Jason i'm executive chairman at Ironclad i founded the",
+      "timestamp": "00:48"
+    },
+    {
+      "start": 54.879,
+      "duration": 6.0,
+      "text": "company 11 years ago and recently transitioned to executive chair from being CEO so I can spend more time doing",
+      "timestamp": "00:54"
+    },
+    {
+      "start": 60.879,
+      "duration": 5.841,
+      "text": "this um uh and I'd say like the thing that I'm thinking about the most is uh",
+      "timestamp": "01:00"
+    },
+    {
+      "start": 66.72,
+      "duration": 9.439,
+      "text": "disrupting ourselves we've been around for 11 years and uh that's the thing on my mind\n yeah thanks Lel uh thanks Justin",
+      "timestamp": "01:06"
+    },
+    {
+      "start": 76.159,
+      "duration": 5.521,
+      "text": "so uh my name is Girish uh I have been with Amazon for more than 10 years uh",
+      "timestamp": "01:16"
+    },
+    {
+      "start": 81.68,
+      "duration": 5.28,
+      "text": "mostly focused on AI deep learning uh deep technology background in my current",
+      "timestamp": "01:21"
+    },
+    {
+      "start": 86.96,
+      "duration": 6.0,
+      "text": "role I get to keep a track of how the technology is evolving chips models new",
+      "timestamp": "01:26"
+    },
+    {
+      "start": 92.96,
+      "duration": 6.32,
+      "text": "techniques i'm lucky to be able to travel and meet a lot of interesting people at different conferences so I",
+      "timestamp": "01:32"
+    },
+    {
+      "start": 99.28,
+      "duration": 7.04,
+      "text": "advise AWS as well as AWS customers as well as different governments on AI adoption so yeah that's about me thanks",
+      "timestamp": "01:39"
+    },
+    {
+      "start": 106.32,
+      "duration": 7.2,
+      "text": "hello sir\n thank you my name is Dona Huang i'm work for Mastercard R&D team i",
+      "timestamp": "01:46"
+    },
+    {
+      "start": 113.52,
+      "duration": 6.4,
+      "text": "joined the uh 14 years back as a first employee in R&D in Singapore and",
+      "timestamp": "01:53"
+    },
+    {
+      "start": 119.92,
+      "duration": 5.92,
+      "text": "starting with for basis from scratch building the team and over a decade and",
+      "timestamp": "01:59"
+    },
+    {
+      "start": 125.84,
+      "duration": 5.68,
+      "text": "then I decided to move on a global role leading emerging technology initially",
+      "timestamp": "02:05"
+    },
+    {
+      "start": 131.52,
+      "duration": 7.28,
+      "text": "working with web3 and blockchain technologies but last couple of years I switch over to work on AI machine",
+      "timestamp": "02:11"
+    },
+    {
+      "start": 138.8,
+      "duration": 5.12,
+      "text": "learning and the generative AI and very interestingly so I'm I'm also pursuing a",
+      "timestamp": "02:18"
+    },
+    {
+      "start": 143.92,
+      "duration": 5.44,
+      "text": "part-time degree at doctorate degree at Singapore management university I'm very",
+      "timestamp": "02:23"
+    },
+    {
+      "start": 149.36,
+      "duration": 6.32,
+      "text": "excite excited to bring the latest um techniques in AI domain to our financial",
+      "timestamp": "02:29"
+    },
+    {
+      "start": 155.68,
+      "duration": 5.12,
+      "text": "application development\n awesome thanks everyone uh and obviously it's a very",
+      "timestamp": "02:35"
+    },
+    {
+      "start": 160.8,
+      "duration": 6.88,
+      "text": "hot topic because uh you know when I walk around there's a lot of like enterprise tech startups in terms of AI",
+      "timestamp": "02:40"
+    },
+    {
+      "start": 167.68,
+      "duration": 6.559,
+      "text": "wise uh and I was talking to Jason just now like in terms of how he scaled his startups 11 years ago uh since September",
+      "timestamp": "02:47"
+    },
+    {
+      "start": 174.239,
+      "duration": 6.08,
+      "text": "uh 2014 uh so my first question is to Jason uh what is the challenge in terms",
+      "timestamp": "02:54"
+    },
+    {
+      "start": 180.319,
+      "duration": 6.321,
+      "text": "of scaling Genai from prototype to innovation in the legal tech arena I I",
+      "timestamp": "03:00"
+    },
+    {
+      "start": 186.64,
+      "duration": 6.959,
+      "text": "know that you are a very strong builder and recently have transitioned to an executive chairman role and focus more on product maybe you can tell us from",
+      "timestamp": "03:06"
+    },
+    {
+      "start": 193.599,
+      "duration": 7.681,
+      "text": "your experience very extensive experience of how uh you look at a challenge and maybe one of the the non",
+      "timestamp": "03:13"
+    },
+    {
+      "start": 201.28,
+      "duration": 5.599,
+      "text": "uh non-obvious challenge also in terms of scaling that\n yeah so yeah so just for",
+      "timestamp": "03:21"
+    },
+    {
+      "start": 206.879,
+      "duration": 6.241,
+      "text": "a bit of context Ironcloud we're on the enterprise panel so I can actually say our full category name without being embarrassed enterprise contract life",
+      "timestamp": "03:26"
+    },
+    {
+      "start": 213.12,
+      "duration": 5.679,
+      "text": "cycle management which means we help companies and I think Mastercard is a great customer of ours with the entire",
+      "timestamp": "03:33"
+    },
+    {
+      "start": 218.799,
+      "duration": 6.481,
+      "text": "life cycle of a business contract from the creation to the negotiation to the signatures and then the tracking and",
+      "timestamp": "03:38"
+    },
+    {
+      "start": 225.28,
+      "duration": 6.239,
+      "text": "porting of that data to all of the places it needs to go and of course there's AI across all of that um and I",
+      "timestamp": "03:45"
+    },
+    {
+      "start": 231.519,
+      "duration": 5.041,
+      "text": "think the real challenge and and perhaps surprising thing uh that is for us the",
+      "timestamp": "03:51"
+    },
+    {
+      "start": 236.56,
+      "duration": 6.08,
+      "text": "thing that we spend a lot of time doing is making sure that AI works with the technology that is already in the",
+      "timestamp": "03:56"
+    },
+    {
+      "start": 242.64,
+      "duration": 7.76,
+      "text": "enterprise so for lawyers uh what that means is working deeply with Microsoft Word and my one of my favorite anecdotes",
+      "timestamp": "04:02"
+    },
+    {
+      "start": 250.4,
+      "duration": 6.079,
+      "text": "about building enterprise AI is we have some really great engineers we have uh folks from MIT a lot of our founding",
+      "timestamp": "04:10"
+    },
+    {
+      "start": 256.479,
+      "duration": 5.04,
+      "text": "team um and early engineers at Palunteer and",
+      "timestamp": "04:16"
+    },
+    {
+      "start": 261.519,
+      "duration": 6.4,
+      "text": "one of our best engineers he said that the hardest computer science problem he has ever worked on is programmatically",
+      "timestamp": "04:21"
+    },
+    {
+      "start": 267.919,
+      "duration": 6.241,
+      "text": "turning text white turning text white in a uh docx file format in the browser so",
+      "timestamp": "04:27"
+    },
+    {
+      "start": 274.16,
+      "duration": 6.72,
+      "text": "it gives you a sense of like where the real if you're going into the enterprise you really have to commit to to deeply",
+      "timestamp": "04:34"
+    },
+    {
+      "start": 280.88,
+      "duration": 6.48,
+      "text": "working with the tools that are already there and not just building from scratch on uh the architecture you might want to",
+      "timestamp": "04:40"
+    },
+    {
+      "start": 287.36,
+      "duration": 6.64,
+      "text": "use cuz I I kind of wish we didn't have to build on Microsoft Word and DocX but uh we do and that's the surprising thing",
+      "timestamp": "04:47"
+    },
+    {
+      "start": 294.0,
+      "duration": 5.36,
+      "text": "for me\n yeah I guess exactly i think uh versatility and dynamism is so important",
+      "timestamp": "04:54"
+    },
+    {
+      "start": 299.36,
+      "duration": 5.76,
+      "text": "especially in this day and age where we have to pivot and we have to scale uh the next question will be for Jes like",
+      "timestamp": "04:59"
+    },
+    {
+      "start": 305.12,
+      "duration": 7.68,
+      "text": "you know what kind of uh architectural pitfalls or challenges do you see in enterprise AI and how does successful",
+      "timestamp": "05:05"
+    },
+    {
+      "start": 312.8,
+      "duration": 6.16,
+      "text": "ones move past them we have discussed a lot about the open source model has we have uh discussed just now like maybe",
+      "timestamp": "05:12"
+    },
+    {
+      "start": 318.96,
+      "duration": 5.92,
+      "text": "you can tell me more from your lens uh from the future and also the same time like what are the challenges and how do",
+      "timestamp": "05:18"
+    },
+    {
+      "start": 324.88,
+      "duration": 7.2,
+      "text": "we overcome that\n yeah thanks for that question so uh enterprises",
+      "timestamp": "05:24"
+    },
+    {
+      "start": 332.08,
+      "duration": 5.92,
+      "text": "uh see such a massive potential in adoption of AI but they have a huge",
+      "timestamp": "05:32"
+    },
+    {
+      "start": 338.0,
+      "duration": 6.0,
+      "text": "legacy legacy of their success they can't uh they can't squander it right uh",
+      "timestamp": "05:38"
+    },
+    {
+      "start": 344.0,
+      "duration": 5.759,
+      "text": "they have to make sure that the business is not disrupted while adopting AI so we",
+      "timestamp": "05:44"
+    },
+    {
+      "start": 349.759,
+      "duration": 9.681,
+      "text": "do see massive adoption of AI to improve the bottom line uh that is to improve the efficiency we are seeing uh now uh",
+      "timestamp": "05:49"
+    },
+    {
+      "start": 359.44,
+      "duration": 7.28,
+      "text": "very early adoption of AI to improve the top line like to generate net new revenue so both things are happening",
+      "timestamp": "05:59"
+    },
+    {
+      "start": 366.72,
+      "duration": 6.0,
+      "text": "slowly but surely uh that said uh enterprises are bit more cautious and",
+      "timestamp": "06:06"
+    },
+    {
+      "start": 372.72,
+      "duration": 6.16,
+      "text": "rightfully so in adopting AI so uh you and I were talking uh whether it's a",
+      "timestamp": "06:12"
+    },
+    {
+      "start": 378.88,
+      "duration": 5.439,
+      "text": "skill set challenge it's not a skill set challenge of course if you are writing CUDA kernels and building models from",
+      "timestamp": "06:18"
+    },
+    {
+      "start": 384.319,
+      "duration": 6.801,
+      "text": "scratch and all uh that skill set is not so widespread but most enterprise applications do not require the kind of",
+      "timestamp": "06:24"
+    },
+    {
+      "start": 391.12,
+      "duration": 6.72,
+      "text": "skill set and now there are a lot of great coding tools and all so it's not a skill set issue at all but what happens",
+      "timestamp": "06:31"
+    },
+    {
+      "start": 397.84,
+      "duration": 5.6,
+      "text": "with this technology is that going from 0 to 90 is very easy right you can spin",
+      "timestamp": "06:37"
+    },
+    {
+      "start": 403.44,
+      "duration": 7.599,
+      "text": "up something that looks cool works fast you can show it to your team but when you start doing very thorough testing to",
+      "timestamp": "06:43"
+    },
+    {
+      "start": 411.039,
+      "duration": 5.681,
+      "text": "go from that 90 to 100 it takes hell lot of time and the way enterprises think uh",
+      "timestamp": "06:51"
+    },
+    {
+      "start": 416.72,
+      "duration": 6.879,
+      "text": "even if 99 things are right and one things are wrong they will think 10 times before adopting it so that is",
+      "timestamp": "06:56"
+    },
+    {
+      "start": 423.599,
+      "duration": 6.72,
+      "text": "slowing down the adoption i'm not saying that the caution is not warranted but yeah that is the scene of enterprise",
+      "timestamp": "07:03"
+    },
+    {
+      "start": 430.319,
+      "duration": 7.361,
+      "text": "adoption but that said things are changing so enterprises are adopting primarily for internal uh use cases",
+      "timestamp": "07:10"
+    },
+    {
+      "start": 437.68,
+      "duration": 8.0,
+      "text": "slowly they will do it for external use cases once they are more confident but at this stage it is mostly internal b2c",
+      "timestamp": "07:17"
+    },
+    {
+      "start": 445.68,
+      "duration": 6.48,
+      "text": "is much lesser and uh there is also a lot of focus on open source this is new",
+      "timestamp": "07:25"
+    },
+    {
+      "start": 452.16,
+      "duration": 5.759,
+      "text": "uh so so far people were using claude or you know Gemini or open AAI right and",
+      "timestamp": "07:32"
+    },
+    {
+      "start": 457.919,
+      "duration": 7.84,
+      "text": "these uh models are not fully under the control of enterprises although uh platforms like bedrock offer uh lot of",
+      "timestamp": "07:37"
+    },
+    {
+      "start": 465.759,
+      "duration": 5.201,
+      "text": "data security guarantees etc but enterprises like control rightfully so",
+      "timestamp": "07:45"
+    },
+    {
+      "start": 470.96,
+      "duration": 5.519,
+      "text": "again uh so a lot of enterprises are exploring opensource AI uh my esteemed",
+      "timestamp": "07:50"
+    },
+    {
+      "start": 476.479,
+      "duration": 6.641,
+      "text": "panelist had a great talk about it in the morning uh and opensource AI has become viable It wasn't viable before",
+      "timestamp": "07:56"
+    },
+    {
+      "start": 483.12,
+      "duration": 5.759,
+      "text": "with Deep Sea Quen and lot of great hosting platforms so adoption was slow",
+      "timestamp": "08:03"
+    },
+    {
+      "start": 488.879,
+      "duration": 7.04,
+      "text": "but we are seeing a massive J curve about to happen with commercial models",
+      "timestamp": "08:08"
+    },
+    {
+      "start": 495.919,
+      "duration": 6.081,
+      "text": "and particularly with open source models long answer but yeah I have to say all those things\n amazing you can see the",
+      "timestamp": "08:15"
+    },
+    {
+      "start": 502.0,
+      "duration": 6.4,
+      "text": "passion in Jerish when he explained open source model and the innovation in enterprise AI so over to Tongha like I",
+      "timestamp": "08:22"
+    },
+    {
+      "start": 508.4,
+      "duration": 6.559,
+      "text": "attended your this morning's session about how do you regulate in terms of open source model itself uh one of the",
+      "timestamp": "08:28"
+    },
+    {
+      "start": 514.959,
+      "duration": 7.121,
+      "text": "question that I got a lot in terms of financial industry uh is how do you build trust in terms of genai deployment",
+      "timestamp": "08:34"
+    },
+    {
+      "start": 522.08,
+      "duration": 6.16,
+      "text": "especially in a very highly regulated industry like yourself and also uh maybe you can share with the audience some of",
+      "timestamp": "08:42"
+    },
+    {
+      "start": 528.24,
+      "duration": 5.44,
+      "text": "the best practices uh that you deploy uh AI in your industry\n thank thank you for",
+      "timestamp": "08:48"
+    },
+    {
+      "start": 533.68,
+      "duration": 5.839,
+      "text": "the question the very first thing we start even before we did start trying to",
+      "timestamp": "08:53"
+    },
+    {
+      "start": 539.519,
+      "duration": 6.32,
+      "text": "use generative AI so we have established a very strong foundational principles",
+      "timestamp": "08:59"
+    },
+    {
+      "start": 545.839,
+      "duration": 6.0,
+      "text": "the for data responsibility and ethical AI we we had mascar have been using AI",
+      "timestamp": "09:05"
+    },
+    {
+      "start": 551.839,
+      "duration": 7.201,
+      "text": "for a long time combating the fraud um in real time so we have",
+      "timestamp": "09:11"
+    },
+    {
+      "start": 559.04,
+      "duration": 6.96,
+      "text": "tried to use u uh built on top of the existing uh risk management principle to",
+      "timestamp": "09:19"
+    },
+    {
+      "start": 566.0,
+      "duration": 6.0,
+      "text": "to reinforce that to be able to adapt that for our GI use cases the second",
+      "timestamp": "09:26"
+    },
+    {
+      "start": 572.0,
+      "duration": 5.36,
+      "text": "part is we believe that um",
+      "timestamp": "09:32"
+    },
+    {
+      "start": 577.36,
+      "duration": 5.12,
+      "text": "uh we we need to have a very strong governance structure in the in the",
+      "timestamp": "09:37"
+    },
+    {
+      "start": 582.48,
+      "duration": 6.32,
+      "text": "enterprises so our AI governance um council is already in place for more",
+      "timestamp": "09:42"
+    },
+    {
+      "start": 588.8,
+      "duration": 7.039,
+      "text": "than five years you consisting of of a team cross functional team of experts",
+      "timestamp": "09:48"
+    },
+    {
+      "start": 595.839,
+      "duration": 5.68,
+      "text": "from uh data science um security legal and",
+      "timestamp": "09:55"
+    },
+    {
+      "start": 601.519,
+      "duration": 7.921,
+      "text": "privacy and which uh try build a very very big focus on asking not only say",
+      "timestamp": "10:01"
+    },
+    {
+      "start": 609.44,
+      "duration": 5.12,
+      "text": "can we build with generative AI or we kind of should we build with this kind",
+      "timestamp": "10:09"
+    },
+    {
+      "start": 614.56,
+      "duration": 7.279,
+      "text": "of a technology and we also adopt uh the privacy by design for all the AI and",
+      "timestamp": "10:14"
+    },
+    {
+      "start": 621.839,
+      "duration": 6.081,
+      "text": "data related product which make it the um very important in the finance where",
+      "timestamp": "10:21"
+    },
+    {
+      "start": 627.92,
+      "duration": 6.24,
+      "text": "the customer trust and compliance um regulatory compliance are very important",
+      "timestamp": "10:27"
+    },
+    {
+      "start": 634.16,
+      "duration": 7.04,
+      "text": "to us\n awesome thank you uh you mentioned a couple of different things uh governance and user trust and also at",
+      "timestamp": "10:34"
+    },
+    {
+      "start": 641.2,
+      "duration": 6.48,
+      "text": "the same time uh privacy by design which is a very important word itself uh it goes back to the topic because uh",
+      "timestamp": "10:41"
+    },
+    {
+      "start": 647.68,
+      "duration": 5.839,
+      "text": "obviously enterprise AI a lot of people would knew it has a very long sales cycle and obviously we have different",
+      "timestamp": "10:47"
+    },
+    {
+      "start": 653.519,
+      "duration": 7.681,
+      "text": "stakeholders at play so I think the next question to the panel here is uh who decides the budget for enterprise AI do",
+      "timestamp": "10:53"
+    },
+    {
+      "start": 661.2,
+      "duration": 5.28,
+      "text": "you need a chief AI officer to play the role maybe over to Jason in terms of",
+      "timestamp": "11:01"
+    },
+    {
+      "start": 666.48,
+      "duration": 5.2,
+      "text": "explaining that yeah I mean I so for us we sell to we took kind of an unusual",
+      "timestamp": "11:06"
+    },
+    {
+      "start": 671.68,
+      "duration": 6.159,
+      "text": "path to get where we are which is we sold to an underserved buyer the general counsel and one that was considered to",
+      "timestamp": "11:11"
+    },
+    {
+      "start": 677.839,
+      "duration": 7.68,
+      "text": "be sort of a bad buyer of software but for us what that meant is like we could become the number one most important",
+      "timestamp": "11:17"
+    },
+    {
+      "start": 685.519,
+      "duration": 9.121,
+      "text": "software solution to that buyer the the lawyer the chief legal officer the general counsel um and I think that my",
+      "timestamp": "11:25"
+    },
+    {
+      "start": 694.64,
+      "duration": 6.8,
+      "text": "hot take would be that I think the end user is the right buyer um because the",
+      "timestamp": "11:34"
+    },
+    {
+      "start": 701.44,
+      "duration": 6.399,
+      "text": "end user understands what their requirements are the best and we like",
+      "timestamp": "11:41"
+    },
+    {
+      "start": 707.839,
+      "duration": 7.841,
+      "text": "selling to the lawyers because we can get deep with them and on the first call they can be asking questions about um a",
+      "timestamp": "11:47"
+    },
+    {
+      "start": 715.68,
+      "duration": 5.279,
+      "text": "deep understanding of a contract negotiation and like understanding of",
+      "timestamp": "11:55"
+    },
+    {
+      "start": 720.959,
+      "duration": 7.281,
+      "text": "why a particular result that an AI is showing them is superior to uh a",
+      "timestamp": "12:00"
+    },
+    {
+      "start": 728.24,
+      "duration": 9.56,
+      "text": "different one so I would say that the right buyer is uh the the end user",
+      "timestamp": "12:08"
+    },
+    {
+      "start": 737.839,
+      "duration": 5.521,
+      "text": "so uh AI at the end of the day is a technology so it needs to be cost",
+      "timestamp": "12:17"
+    },
+    {
+      "start": 743.36,
+      "duration": 7.039,
+      "text": "effective secure scalable reliable so those uh things of traditional uh",
+      "timestamp": "12:23"
+    },
+    {
+      "start": 750.399,
+      "duration": 5.921,
+      "text": "technology considerations equally apply so CTO's office needs to be uh very much",
+      "timestamp": "12:30"
+    },
+    {
+      "start": 756.32,
+      "duration": 8.16,
+      "text": "involved uh very much uh attentive to AI projects but that said AI has its own",
+      "timestamp": "12:36"
+    },
+    {
+      "start": 764.48,
+      "duration": 6.799,
+      "text": "characteristics uh with respect to reliability so unless end users are",
+      "timestamp": "12:44"
+    },
+    {
+      "start": 771.279,
+      "duration": 7.68,
+      "text": "involved different departments and unless they sign off AI projects will not be successful so the end users are",
+      "timestamp": "12:51"
+    },
+    {
+      "start": 778.959,
+      "duration": 5.041,
+      "text": "typically the real buyers or recommenders they can tell their CTO",
+      "timestamp": "12:58"
+    },
+    {
+      "start": 784.0,
+      "duration": 7.92,
+      "text": "that it can save us like 20% 30% increase our speed by such and such percent so their involvement is required",
+      "timestamp": "13:04"
+    },
+    {
+      "start": 791.92,
+      "duration": 7.919,
+      "text": "for sure it cannot come top down but we are seeing one trend that is uh uh not",
+      "timestamp": "13:11"
+    },
+    {
+      "start": 799.839,
+      "duration": 5.68,
+      "text": "new I would say uh but it is worth noting down that lot of organizations",
+      "timestamp": "13:19"
+    },
+    {
+      "start": 805.519,
+      "duration": 7.681,
+      "text": "are setting up something called as AI center of excellence so some people who are committed and passionate to roll out",
+      "timestamp": "13:25"
+    },
+    {
+      "start": 813.2,
+      "duration": 5.68,
+      "text": "AI across the organization because while this technology is very powerful it has",
+      "timestamp": "13:33"
+    },
+    {
+      "start": 818.88,
+      "duration": 7.28,
+      "text": "its rough ages so yeah there needs to be center of excellence but the final approval and the budget will typically",
+      "timestamp": "13:38"
+    },
+    {
+      "start": 826.16,
+      "duration": 7.119,
+      "text": "come from the respective departments awesome\n yeah that's what I would say thanks yeah very interestingly actually",
+      "timestamp": "13:46"
+    },
+    {
+      "start": 833.279,
+      "duration": 6.481,
+      "text": "M I mentioned that Mascal had been using the AI for quite some time since the",
+      "timestamp": "13:53"
+    },
+    {
+      "start": 839.76,
+      "duration": 6.0,
+      "text": "advent of the chatb and the general AI technologies last year in April Mascat",
+      "timestamp": "13:59"
+    },
+    {
+      "start": 845.76,
+      "duration": 6.96,
+      "text": "had a great big reorg to set up a a new um organization headed by our chief AI",
+      "timestamp": "14:05"
+    },
+    {
+      "start": 852.72,
+      "duration": 5.04,
+      "text": "and data officer so combined our capability of AI and data together and",
+      "timestamp": "14:12"
+    },
+    {
+      "start": 857.76,
+      "duration": 7.519,
+      "text": "recently they also they they also as part of that big organization they have a center of excellence for AI but which",
+      "timestamp": "14:17"
+    },
+    {
+      "start": 865.279,
+      "duration": 5.601,
+      "text": "I I'm partnering with them so the the recently they um uh we announced at",
+      "timestamp": "14:25"
+    },
+    {
+      "start": 870.88,
+      "duration": 7.28,
+      "text": "Mascar that uh we are going to um build a series of the product platform to",
+      "timestamp": "14:30"
+    },
+    {
+      "start": 878.16,
+      "duration": 5.359,
+      "text": "support the agent commerce so with Mascar we call agent pay uh platform",
+      "timestamp": "14:38"
+    },
+    {
+      "start": 883.519,
+      "duration": 6.88,
+      "text": "which is led by that uh organization and I'm I'm I'm very very happy to be part",
+      "timestamp": "14:43"
+    },
+    {
+      "start": 890.399,
+      "duration": 6.24,
+      "text": "of the whole journey to uh to drive the uh future agent commerce you can imagine",
+      "timestamp": "14:50"
+    },
+    {
+      "start": 896.639,
+      "duration": 6.32,
+      "text": "that you could have this uh your agent could pay on your behalf without you uh",
+      "timestamp": "14:56"
+    },
+    {
+      "start": 902.959,
+      "duration": 6.0,
+      "text": "worry about to buy some grocery at $100 right so who who really cares right",
+      "timestamp": "15:02"
+    },
+    {
+      "start": 908.959,
+      "duration": 6.401,
+      "text": "awesome i'm hearing a lot of uh very interesting views one is the customer is the buyer second set up your center of",
+      "timestamp": "15:08"
+    },
+    {
+      "start": 915.36,
+      "duration": 5.68,
+      "text": "excellence in the parts of the world to showcase your commitment the third as you mentioned in terms of the converging",
+      "timestamp": "15:15"
+    },
+    {
+      "start": 921.04,
+      "duration": 7.76,
+      "text": "of the roles between the CIO chief AI officer and everything so this gives me to the next question in terms of uh what",
+      "timestamp": "15:21"
+    },
+    {
+      "start": 928.8,
+      "duration": 6.0,
+      "text": "kind of best practice you know will you advocate to a startup founder who wants to start up something in the enterprise",
+      "timestamp": "15:28"
+    },
+    {
+      "start": 934.8,
+      "duration": 6.96,
+      "text": "space we have a lot of startup entrepreneurs in in super AI and probably would love uh your perspective",
+      "timestamp": "15:34"
+    },
+    {
+      "start": 941.76,
+      "duration": 6.48,
+      "text": "uh both from a company perspective and from a startup builder perspective\n so I my advice for a startup founder that",
+      "timestamp": "15:41"
+    },
+    {
+      "start": 948.24,
+      "duration": 7.68,
+      "text": "wants to start to get to the enterprise is to not start in the enterprise um I I",
+      "timestamp": "15:48"
+    },
+    {
+      "start": 955.92,
+      "duration": 6.88,
+      "text": "think what really helped us have a lot of momentum in the enterprise is that we built up a really strong mid-market and",
+      "timestamp": "15:55"
+    },
+    {
+      "start": 962.8,
+      "duration": 5.52,
+      "text": "small business practice first\n uh and that helped us iterate on a much more",
+      "timestamp": "16:02"
+    },
+    {
+      "start": 968.32,
+      "duration": 5.28,
+      "text": "rapid cycle the enterprise cycles are are long i mean we can it can take us a",
+      "timestamp": "16:08"
+    },
+    {
+      "start": 973.6,
+      "duration": 5.12,
+      "text": "year to go through an enterprise sales cycle um whereas the small businesses",
+      "timestamp": "16:13"
+    },
+    {
+      "start": 978.72,
+      "duration": 5.28,
+      "text": "and the mediumsiz businesses it's like 30 days and we're deployed 30 days later",
+      "timestamp": "16:18"
+    },
+    {
+      "start": 984.0,
+      "duration": 6.399,
+      "text": "so that rhythm for us as a product focused company helped us build a really",
+      "timestamp": "16:24"
+    },
+    {
+      "start": 990.399,
+      "duration": 6.8,
+      "text": "great product and then over time each year we would develop new capabilities that would allow us to make a little bit",
+      "timestamp": "16:30"
+    },
+    {
+      "start": 997.199,
+      "duration": 9.521,
+      "text": "more progress into the enterprise um and then once we finally cracked in the enterprise it was kind of like the floodgates opened um but I think kind of",
+      "timestamp": "16:37"
+    },
+    {
+      "start": 1006.72,
+      "duration": 7.84,
+      "text": "getting battle tested in the mid-market helped us a lot and that would be my advice to a startup founder\n awesome durish so the question is what startups",
+      "timestamp": "16:46"
+    },
+    {
+      "start": 1014.56,
+      "duration": 8.48,
+      "text": "should do to be able to sell to enterprises\n exactly yeah if I'm a startup founder if I want to start up an enterprise AI company uh should I should",
+      "timestamp": "16:54"
+    },
+    {
+      "start": 1023.04,
+      "duration": 5.039,
+      "text": "I not uh what kind of advice would you give them\n yeah yeah so uh good question",
+      "timestamp": "17:03"
+    },
+    {
+      "start": 1028.079,
+      "duration": 6.561,
+      "text": "so selling to enterprises is actually hard okay because they are very judicious they will ask so many",
+      "timestamp": "17:08"
+    },
+    {
+      "start": 1034.64,
+      "duration": 5.84,
+      "text": "questions and I advise a lot of startups um and they are very excited about the",
+      "timestamp": "17:14"
+    },
+    {
+      "start": 1040.48,
+      "duration": 5.599,
+      "text": "features adding agents how things are running and how the output is beautiful",
+      "timestamp": "17:20"
+    },
+    {
+      "start": 1046.079,
+      "duration": 5.201,
+      "text": "and all and all that is very valuable that's why we care about AI so much but",
+      "timestamp": "17:26"
+    },
+    {
+      "start": 1051.28,
+      "duration": 7.36,
+      "text": "enterprises as I said have a legacy to maintain right so they are going to quiz you a lot about uh not just cost",
+      "timestamp": "17:31"
+    },
+    {
+      "start": 1058.64,
+      "duration": 5.68,
+      "text": "enterprises generally pay well compared to the B2C customers uh But they want to",
+      "timestamp": "17:38"
+    },
+    {
+      "start": 1064.32,
+      "duration": 6.64,
+      "text": "know about how reliable your product is whether you are using guard rails in your AI application so that your AI",
+      "timestamp": "17:44"
+    },
+    {
+      "start": 1070.96,
+      "duration": 5.68,
+      "text": "doesn't say stupid things or whether you are using rag properly so that your AI",
+      "timestamp": "17:50"
+    },
+    {
+      "start": 1076.64,
+      "duration": 7.76,
+      "text": "doesn't give unreliable answers right or you have things like automated reasoning or tool call when the AI must do some",
+      "timestamp": "17:56"
+    },
+    {
+      "start": 1084.4,
+      "duration": 5.84,
+      "text": "simple mathematics to give the answer right so these are the kind of conversations that startups need to be",
+      "timestamp": "18:04"
+    },
+    {
+      "start": 1090.24,
+      "duration": 5.92,
+      "text": "prepared to have and they also need to think about what the compliance team of",
+      "timestamp": "18:10"
+    },
+    {
+      "start": 1096.16,
+      "duration": 6.08,
+      "text": "the enterprise is going to think about it or what the regulators are going to say about it so for example if you are",
+      "timestamp": "18:16"
+    },
+    {
+      "start": 1102.24,
+      "duration": 5.36,
+      "text": "trying to sell it to a bank but if you cannot answer the typical questions that",
+      "timestamp": "18:22"
+    },
+    {
+      "start": 1107.6,
+      "duration": 6.64,
+      "text": "the banking regulators in that nation have then you are not going to be able to successfully sell it to a bank right",
+      "timestamp": "18:27"
+    },
+    {
+      "start": 1114.24,
+      "duration": 6.08,
+      "text": "bank is never going to buy a product that their regulators are not going to be happy about so think of what",
+      "timestamp": "18:34"
+    },
+    {
+      "start": 1120.32,
+      "duration": 6.16,
+      "text": "regulators expect right so it is going to constrain you a bit or to some extent",
+      "timestamp": "18:40"
+    },
+    {
+      "start": 1126.48,
+      "duration": 7.52,
+      "text": "uh but if you ignore those constraints you cannot buy or sell to enterprises",
+      "timestamp": "18:46"
+    },
+    {
+      "start": 1134.0,
+      "duration": 5.6,
+      "text": "at Amazon we have a program called as SAS factory where we help you package",
+      "timestamp": "18:54"
+    },
+    {
+      "start": 1139.6,
+      "duration": 5.04,
+      "text": "your products well with all those considerations uh but yeah without those",
+      "timestamp": "18:59"
+    },
+    {
+      "start": 1144.64,
+      "duration": 7.44,
+      "text": "considerations being paid attention to you cannot successfully sell to enterprises so yeah that's what I have",
+      "timestamp": "19:04"
+    },
+    {
+      "start": 1152.08,
+      "duration": 8.32,
+      "text": "seen all the time interestingly that if you really want to sell your product to banks then try join",
+      "timestamp": "19:12"
+    },
+    {
+      "start": 1160.4,
+      "duration": 6.0,
+      "text": "master card start pass program actually we have thousand of startups already",
+      "timestamp": "19:20"
+    },
+    {
+      "start": 1166.4,
+      "duration": 6.56,
+      "text": "within our programs and recently we have a very big focus on AI and technologies",
+      "timestamp": "19:26"
+    },
+    {
+      "start": 1172.96,
+      "duration": 6.4,
+      "text": "so the the whole um startup kind of program is has been very successful I",
+      "timestamp": "19:32"
+    },
+    {
+      "start": 1179.36,
+      "duration": 5.76,
+      "text": "think it had won a lot of times of the best incubation program in the f",
+      "timestamp": "19:39"
+    },
+    {
+      "start": 1185.12,
+      "duration": 7.76,
+      "text": "financial industry so it's very well recognized normally we are masterard we are bit uh we put uh you the company",
+      "timestamp": "19:45"
+    },
+    {
+      "start": 1192.88,
+      "duration": 7.2,
+      "text": "into a consist program where we link you to a lot of global bank banks uh which",
+      "timestamp": "19:52"
+    },
+    {
+      "start": 1200.08,
+      "duration": 5.28,
+      "text": "are all our customers right so this is a best way of doing the collaboration with",
+      "timestamp": "20:00"
+    },
+    {
+      "start": 1205.36,
+      "duration": 7.36,
+      "text": "uh uh with the with mascard and to to sell your product to uh to banks normally at R&D whenever a startup",
+      "timestamp": "20:05"
+    },
+    {
+      "start": 1212.72,
+      "duration": 7.28,
+      "text": "approach me I always say okay if you don't join start pass then I cannot work with you so so basically that's my",
+      "timestamp": "20:12"
+    },
+    {
+      "start": 1220.0,
+      "duration": 6.48,
+      "text": "recommendation\n it's amazing uh obviously there's a lot of programs out there to facilitate startups who wants to venture",
+      "timestamp": "20:20"
+    },
+    {
+      "start": 1226.48,
+      "duration": 5.76,
+      "text": "into the enterprise space but we can also know that there are challenges out there like what Jason's mentioned in",
+      "timestamp": "20:26"
+    },
+    {
+      "start": 1232.24,
+      "duration": 6.96,
+      "text": "terms of like regulation and and policy framework uh so obviously you know it leads me to the kind of next question in",
+      "timestamp": "20:32"
+    },
+    {
+      "start": 1239.2,
+      "duration": 7.92,
+      "text": "terms of uh with the rise of you know open source model like deepse R1 the cost of compute the cost of uh designing",
+      "timestamp": "20:39"
+    },
+    {
+      "start": 1247.12,
+      "duration": 6.32,
+      "text": "an architecture has went down significantly uh I would love to understand from the panelists in terms",
+      "timestamp": "20:47"
+    },
+    {
+      "start": 1253.44,
+      "duration": 5.28,
+      "text": "of how do you view uh open source model and how do you see the evolution of open",
+      "timestamp": "20:53"
+    },
+    {
+      "start": 1258.72,
+      "duration": 5.199,
+      "text": "source model uh affecting enterprise AI maybe uh Jason\n yeah I mean I think",
+      "timestamp": "20:58"
+    },
+    {
+      "start": 1263.919,
+      "duration": 6.961,
+      "text": "that's definitely the trend that we're observing with uh peer companies and that our customers ask about i think for",
+      "timestamp": "21:03"
+    },
+    {
+      "start": 1270.88,
+      "duration": 6.32,
+      "text": "us we have historically been pretty closely aligned with OpenAI we're talking backstage but we Y Combinator is",
+      "timestamp": "21:10"
+    },
+    {
+      "start": 1277.2,
+      "duration": 6.32,
+      "text": "a big startup accelerator in the United States and the Sam Alman the CEO of OpenAI was the president of Y Combinator",
+      "timestamp": "21:17"
+    },
+    {
+      "start": 1283.52,
+      "duration": 6.159,
+      "text": "when we went through it so like we've had a long-standing relationship with the company and um",
+      "timestamp": "21:23"
+    },
+    {
+      "start": 1289.679,
+      "duration": 6.0,
+      "text": "it's been a they've been a great partner of ours but it is something that we're constantly evaluating and our teams are",
+      "timestamp": "21:29"
+    },
+    {
+      "start": 1295.679,
+      "duration": 5.36,
+      "text": "always looking at like\n definitely\n what the best model for the job is\n awesome",
+      "timestamp": "21:35"
+    },
+    {
+      "start": 1301.039,
+      "duration": 7.601,
+      "text": "yeah so uh we are partnered with Anthropic amazon has a big investment in Anthropic they train their models with",
+      "timestamp": "21:41"
+    },
+    {
+      "start": 1308.64,
+      "duration": 5.2,
+      "text": "Amazon chips uh they are available on Amazon's bedrock platform and I",
+      "timestamp": "21:48"
+    },
+    {
+      "start": 1313.84,
+      "duration": 6.24,
+      "text": "absolutely love anthropic like u like chatting with you feels like chatting to",
+      "timestamp": "21:53"
+    },
+    {
+      "start": 1320.08,
+      "duration": 7.52,
+      "text": "a very sensitive and intelligent human uh but that said uh that's a closed model uh we run it on bedrock we offer a",
+      "timestamp": "22:00"
+    },
+    {
+      "start": 1327.6,
+      "duration": 7.6,
+      "text": "lot of security guarantees and there are many customers who are very very happy some of the most regulated customers with that but at the same time in terms",
+      "timestamp": "22:07"
+    },
+    {
+      "start": 1335.2,
+      "duration": 6.32,
+      "text": "of capabilities uh opensource has caught up a thought right so open source",
+      "timestamp": "22:15"
+    },
+    {
+      "start": 1341.52,
+      "duration": 6.08,
+      "text": "actually uh always had a promise but it was quite disappointing till very",
+      "timestamp": "22:21"
+    },
+    {
+      "start": 1347.6,
+      "duration": 6.4,
+      "text": "recently right so uh open source people are talking about uh open source being",
+      "timestamp": "22:27"
+    },
+    {
+      "start": 1354.0,
+      "duration": 6.72,
+      "text": "an answer to closed source and all uh since at least when chat GP was launched and llama 1 got leaked uh but that",
+      "timestamp": "22:34"
+    },
+    {
+      "start": 1360.72,
+      "duration": 6.64,
+      "text": "promise uh didn't uh come to reality because open source lagged closed source",
+      "timestamp": "22:40"
+    },
+    {
+      "start": 1367.36,
+      "duration": 7.12,
+      "text": "in quality but thanks to letter of great labs in China uh it had changed right",
+      "timestamp": "22:47"
+    },
+    {
+      "start": 1374.48,
+      "duration": 6.96,
+      "text": "Deepc R1 amazing model their May update amazing Quen models",
+      "timestamp": "22:54"
+    },
+    {
+      "start": 1381.44,
+      "duration": 5.04,
+      "text": "very good price toerformance ratio so models are great but there was one more",
+      "timestamp": "23:01"
+    },
+    {
+      "start": 1386.48,
+      "duration": 7.28,
+      "text": "thing you need in addition to the models that is the middleware or the hosting infrastructure on which the models can",
+      "timestamp": "23:06"
+    },
+    {
+      "start": 1393.76,
+      "duration": 5.039,
+      "text": "run successfully so running open source models actually was expensive because",
+      "timestamp": "23:13"
+    },
+    {
+      "start": 1398.799,
+      "duration": 5.521,
+      "text": "you can never run it probably as efficiently as the big labs can run but",
+      "timestamp": "23:18"
+    },
+    {
+      "start": 1404.32,
+      "duration": 6.239,
+      "text": "that has also changed because of great people at VLM SG lang etc so we do see",
+      "timestamp": "23:24"
+    },
+    {
+      "start": 1410.559,
+      "duration": 5.521,
+      "text": "large enterprises governments who want to have complete visibility to their AI",
+      "timestamp": "23:30"
+    },
+    {
+      "start": 1416.08,
+      "duration": 5.44,
+      "text": "platform investing serious money and people power in exploring open-source",
+      "timestamp": "23:36"
+    },
+    {
+      "start": 1421.52,
+      "duration": 5.68,
+      "text": "models and given the fact that opensource has reached to such an extent",
+      "timestamp": "23:41"
+    },
+    {
+      "start": 1427.2,
+      "duration": 6.88,
+      "text": "that even if it didn't progress any further at all even it if it freezes in time here still those models are good",
+      "timestamp": "23:47"
+    },
+    {
+      "start": 1434.08,
+      "duration": 6.24,
+      "text": "enough for many many use cases so I generally like to give example of perplexity how many of you use",
+      "timestamp": "23:54"
+    },
+    {
+      "start": 1440.32,
+      "duration": 5.2,
+      "text": "perplexity here can I see a raise of hands yeah quite a few so others who",
+      "timestamp": "24:00"
+    },
+    {
+      "start": 1445.52,
+      "duration": 5.519,
+      "text": "haven't used it please download it amazing app thank me later and I always",
+      "timestamp": "24:05"
+    },
+    {
+      "start": 1451.039,
+      "duration": 6.64,
+      "text": "choose DeepSeek as a model on perplexity or I use its deep research feature brilliant brilliant experience right and",
+      "timestamp": "24:11"
+    },
+    {
+      "start": 1457.679,
+      "duration": 5.201,
+      "text": "it is powered by an open source model so open source has definitely arrived that",
+      "timestamp": "24:17"
+    },
+    {
+      "start": 1462.88,
+      "duration": 5.919,
+      "text": "is what I would say yeah so at Mascar product development we",
+      "timestamp": "24:22"
+    },
+    {
+      "start": 1468.799,
+      "duration": 5.921,
+      "text": "uh like uh Gish mentioned we really want to have full control of the what we are",
+      "timestamp": "24:28"
+    },
+    {
+      "start": 1474.72,
+      "duration": 5.439,
+      "text": "building so we when whenever we are trying to build touch our own prop",
+      "timestamp": "24:34"
+    },
+    {
+      "start": 1480.159,
+      "duration": 5.921,
+      "text": "priority data we always try to evaluate the our use our uh open source models so",
+      "timestamp": "24:40"
+    },
+    {
+      "start": 1486.08,
+      "duration": 6.8,
+      "text": "we can we probably initially we uh this morning I talk about the the product on boarding assistant the product developed",
+      "timestamp": "24:46"
+    },
+    {
+      "start": 1492.88,
+      "duration": 7.52,
+      "text": "by Mascar R&D we uh initially we use very big models like um DBRX and also",
+      "timestamp": "24:52"
+    },
+    {
+      "start": 1500.4,
+      "duration": 6.0,
+      "text": "the llama for five billion parameters is very huge and very slow and also very",
+      "timestamp": "25:00"
+    },
+    {
+      "start": 1506.4,
+      "duration": 5.759,
+      "text": "expensive but after we try create a train uh domain adaptation data for",
+      "timestamp": "25:06"
+    },
+    {
+      "start": 1512.159,
+      "duration": 8.88,
+      "text": "specifically for our product onboarding assistant tasks and we managed to get the uh performance uh 10% better but",
+      "timestamp": "25:12"
+    },
+    {
+      "start": 1521.039,
+      "duration": 6.961,
+      "text": "than the than the biggest models ever but also we managed to cut down the cost",
+      "timestamp": "25:21"
+    },
+    {
+      "start": 1528.0,
+      "duration": 7.039,
+      "text": "by four times and increase the speed by five times so that's in that kind of a",
+      "timestamp": "25:28"
+    },
+    {
+      "start": 1535.039,
+      "duration": 6.161,
+      "text": "uh approach we believe the open-source models are very good for enterprise applications especially for the vertical",
+      "timestamp": "25:35"
+    },
+    {
+      "start": 1541.2,
+      "duration": 5.839,
+      "text": "application you have very specific goals task just try to create your data",
+      "timestamp": "25:41"
+    },
+    {
+      "start": 1547.039,
+      "duration": 5.681,
+      "text": "fine-tune it and then you are get the best of the performance and the efficiency and of course the cost",
+      "timestamp": "25:47"
+    },
+    {
+      "start": 1552.72,
+      "duration": 7.52,
+      "text": "effectiveness\n thanks for the input a very huge velocity of change in terms of how open source can bring to enterprise",
+      "timestamp": "25:52"
+    },
+    {
+      "start": 1560.24,
+      "duration": 5.76,
+      "text": "companies in terms of uh higher performance lower costs at the same time in terms of streamlining your operation",
+      "timestamp": "26:00"
+    },
+    {
+      "start": 1566.0,
+      "duration": 6.48,
+      "text": "so uh yeah the next question would be like more of like if you have this uh you know you know if you look at the",
+      "timestamp": "26:06"
+    },
+    {
+      "start": 1572.48,
+      "duration": 9.04,
+      "text": "future of enterprise AI like what are the things that you are most looking forward to in the next uh 5 to 10 years",
+      "timestamp": "26:12"
+    },
+    {
+      "start": 1581.52,
+      "duration": 6.32,
+      "text": "uh for me it's it's getting really deep on the verticals i think like gen one",
+      "timestamp": "26:21"
+    },
+    {
+      "start": 1587.84,
+      "duration": 7.76,
+      "text": "has been just take the the benefits that the foundational models provide and translate them for a particular audience",
+      "timestamp": "26:27"
+    },
+    {
+      "start": 1595.6,
+      "duration": 5.6,
+      "text": "um I think we're going to see that trend increase tenfold and it we're going to",
+      "timestamp": "26:35"
+    },
+    {
+      "start": 1601.2,
+      "duration": 7.599,
+      "text": "see much more uh interesting and deep use cases uh for the different verticals",
+      "timestamp": "26:41"
+    },
+    {
+      "start": 1608.799,
+      "duration": 6.641,
+      "text": "um and so I I'm excited for verticalization and at apps that",
+      "timestamp": "26:48"
+    },
+    {
+      "start": 1615.44,
+      "duration": 5.599,
+      "text": "continue to like exist on at that layer ai probably has been adopted the most by",
+      "timestamp": "26:55"
+    },
+    {
+      "start": 1621.039,
+      "duration": 7.201,
+      "text": "individuals right like the students indie developers and all that uh enterprises as I said have uh legacy to",
+      "timestamp": "27:01"
+    },
+    {
+      "start": 1628.24,
+      "duration": 6.08,
+      "text": "maintain so they are a bit slow to adopt uh rightfully so so most of the adoption",
+      "timestamp": "27:08"
+    },
+    {
+      "start": 1634.32,
+      "duration": 5.2,
+      "text": "so far has been focused on the bottom line that is to improve efficiency of",
+      "timestamp": "27:14"
+    },
+    {
+      "start": 1639.52,
+      "duration": 8.399,
+      "text": "code development of customer support uh because you can have immediate predictable gains there right but very",
+      "timestamp": "27:19"
+    },
+    {
+      "start": 1647.919,
+      "duration": 5.601,
+      "text": "few enterprises as of today are using AI for the top line top line in the sense",
+      "timestamp": "27:27"
+    },
+    {
+      "start": 1653.52,
+      "duration": 6.159,
+      "text": "to improve revenue uh to get more customers or to make more money per",
+      "timestamp": "27:33"
+    },
+    {
+      "start": 1659.679,
+      "duration": 6.161,
+      "text": "customer right so I keep giving example of this uh Robin Hood wealth adviser",
+      "timestamp": "27:39"
+    },
+    {
+      "start": 1665.84,
+      "duration": 5.12,
+      "text": "which is an FSI application built with help of AI to advise people on how to",
+      "timestamp": "27:45"
+    },
+    {
+      "start": 1670.96,
+      "duration": 7.04,
+      "text": "invest and they will take a cut based on whether the investment is successful or not but the point is this creates a net",
+      "timestamp": "27:50"
+    },
+    {
+      "start": 1678.0,
+      "duration": 6.399,
+      "text": "new revenue stream for the enterprise I'm hoping in next 2 years we'll see a",
+      "timestamp": "27:58"
+    },
+    {
+      "start": 1684.399,
+      "duration": 5.28,
+      "text": "lot of that right now the focus has been on bottom line efficiency but we'll also",
+      "timestamp": "28:04"
+    },
+    {
+      "start": 1689.679,
+      "duration": 7.841,
+      "text": "see there are going to be some very bold companies like Mastercard uh supported by people like Jason who will be willing",
+      "timestamp": "28:09"
+    },
+    {
+      "start": 1697.52,
+      "duration": 6.0,
+      "text": "to take risk and use AI to get net new customers and get more revenue out of",
+      "timestamp": "28:17"
+    },
+    {
+      "start": 1703.52,
+      "duration": 6.399,
+      "text": "those customers by giving them great service so yeah that's what I'm excited about for next two years",
+      "timestamp": "28:23"
+    },
+    {
+      "start": 1709.919,
+      "duration": 6.88,
+      "text": "so I I would hope that like I mentioned the agent pay uh platform we are trying to build i'm really hoping that in the",
+      "timestamp": "28:29"
+    },
+    {
+      "start": 1716.799,
+      "duration": 6.721,
+      "text": "future you can have you your glass is very very smart has a kind you can it it",
+      "timestamp": "28:36"
+    },
+    {
+      "start": 1723.52,
+      "duration": 5.12,
+      "text": "kind of kind of agent running your glass or any any device you have and it can",
+      "timestamp": "28:43"
+    },
+    {
+      "start": 1728.64,
+      "duration": 6.96,
+      "text": "negotiate the agent with any any merchant for example you take a look at this TV show and hey I like it and then",
+      "timestamp": "28:48"
+    },
+    {
+      "start": 1735.6,
+      "duration": 5.28,
+      "text": "the agent can send my best favorite video to the VTP TV to show hey this is",
+      "timestamp": "28:55"
+    },
+    {
+      "start": 1740.88,
+      "duration": 7.6,
+      "text": "how cool it is and eventually I say I I can say hey Yes this is good i really like it i want to get it purchased by",
+      "timestamp": "29:00"
+    },
+    {
+      "start": 1748.48,
+      "duration": 6.799,
+      "text": "just talk to my glass and I get everything start sorted and then the TV will be shifted shipped to my to my home",
+      "timestamp": "29:08"
+    },
+    {
+      "start": 1755.279,
+      "duration": 8.0,
+      "text": "right so that's kind of a vision you think about all the agents can secure be under your control and running your edge",
+      "timestamp": "29:15"
+    },
+    {
+      "start": 1763.279,
+      "duration": 6.801,
+      "text": "device and with cloud uh um infrastructure to facilitate the secure",
+      "timestamp": "29:23"
+    },
+    {
+      "start": 1770.08,
+      "duration": 8.079,
+      "text": "communication across different agents that will be something I will be very excited\n awesome very uh fantastic view",
+      "timestamp": "29:30"
+    },
+    {
+      "start": 1778.159,
+      "duration": 5.281,
+      "text": "of like how you guys look at the futuristic view of uh enterprise AI from",
+      "timestamp": "29:38"
+    },
+    {
+      "start": 1783.44,
+      "duration": 6.16,
+      "text": "not just uh looking at cost cutting but at the same time in terms of streamlining your operations and uh I",
+      "timestamp": "29:43"
+    },
+    {
+      "start": 1789.6,
+      "duration": 5.439,
+      "text": "think it's really about productizing like a lot of what what you are having out there in a way and I think the the",
+      "timestamp": "29:49"
+    },
+    {
+      "start": 1795.039,
+      "duration": 7.36,
+      "text": "most important question like I get like in terms of like building the ecosystem wise is uh how enterprise AI and gender",
+      "timestamp": "29:55"
+    },
+    {
+      "start": 1802.399,
+      "duration": 5.361,
+      "text": "uh trust uh among users and also uh based one of the latest report from the",
+      "timestamp": "30:02"
+    },
+    {
+      "start": 1807.76,
+      "duration": 5.919,
+      "text": "CIO magazine uh user trust in terms of generative AI applications uh has fallen",
+      "timestamp": "30:07"
+    },
+    {
+      "start": 1813.679,
+      "duration": 6.561,
+      "text": "in a way so uh yeah I just want to take get a take from from from you guys in terms of like how do you look at trust",
+      "timestamp": "30:13"
+    },
+    {
+      "start": 1820.24,
+      "duration": 5.12,
+      "text": "in the age of AI and how does enterprise AI is able to engender that in their",
+      "timestamp": "30:20"
+    },
+    {
+      "start": 1825.36,
+      "duration": 5.12,
+      "text": "product management in their user deployment and also privacy by design which is a very good term coined by",
+      "timestamp": "30:25"
+    },
+    {
+      "start": 1830.48,
+      "duration": 7.6,
+      "text": "Tonga so maybe Jason over to you yeah and I think this is so foundational like to connect to your question on advice",
+      "timestamp": "30:30"
+    },
+    {
+      "start": 1838.08,
+      "duration": 8.88,
+      "text": "for startup founders as well if you want to sell to the enterprise trust is foundational it's not like a uh one",
+      "timestamp": "30:38"
+    },
+    {
+      "start": 1846.96,
+      "duration": 7.76,
+      "text": "thing you're scored on it is like a test that must be passed to sell on other things and you know one of the ways that",
+      "timestamp": "30:46"
+    },
+    {
+      "start": 1854.72,
+      "duration": 5.6,
+      "text": "that we do that is by showing the reasoning so we were one of the first um",
+      "timestamp": "30:54"
+    },
+    {
+      "start": 1860.32,
+      "duration": 6.88,
+      "text": "interfaces that would show you in real time sort of what the system was thinking and how it got to its result",
+      "timestamp": "31:00"
+    },
+    {
+      "start": 1867.2,
+      "duration": 5.52,
+      "text": "because we we talked to our user the lawyer and they're like \"Well the results good but I kind of want to see",
+      "timestamp": "31:07"
+    },
+    {
+      "start": 1872.72,
+      "duration": 7.36,
+      "text": "how the AI got there cuz one it's going to help me prompt better next time um and two I want to see like what it did",
+      "timestamp": "31:12"
+    },
+    {
+      "start": 1880.08,
+      "duration": 5.52,
+      "text": "or did not evaluate to get to this end result.\" So I think we're starting to",
+      "timestamp": "31:20"
+    },
+    {
+      "start": 1885.6,
+      "duration": 7.199,
+      "text": "see some like best practices emerge and of course if you use a model like 03 you can actually see the reasoning now uh in",
+      "timestamp": "31:25"
+    },
+    {
+      "start": 1892.799,
+      "duration": 6.641,
+      "text": "that interface i think that trend is going to continue uh and as we find ways to build that",
+      "timestamp": "31:32"
+    },
+    {
+      "start": 1899.44,
+      "duration": 6.32,
+      "text": "feedback loop with systems\n yeah yeah so that was a very good point so what he",
+      "timestamp": "31:39"
+    },
+    {
+      "start": 1905.76,
+      "duration": 5.759,
+      "text": "mentioned is they show users how the model came to that particular advice the",
+      "timestamp": "31:45"
+    },
+    {
+      "start": 1911.519,
+      "duration": 7.04,
+      "text": "thought process so one of the reasons people absolutely love Deepseek and it went viral is because uh Deepseek thinks",
+      "timestamp": "31:51"
+    },
+    {
+      "start": 1918.559,
+      "duration": 5.441,
+      "text": "out loud you see the thought process it looks a lot like human thought process",
+      "timestamp": "31:58"
+    },
+    {
+      "start": 1924.0,
+      "duration": 6.72,
+      "text": "it's entertaining uh but it also increases the user confidence in the answer so that is made possible by other",
+      "timestamp": "32:04"
+    },
+    {
+      "start": 1930.72,
+      "duration": 6.48,
+      "text": "commercial models as well like cloud 3.7 uh in addition to that backing up the",
+      "timestamp": "32:10"
+    },
+    {
+      "start": 1937.2,
+      "duration": 7.28,
+      "text": "answer like every assertion or fact in the answer with a document reference is very important like perplexity does it",
+      "timestamp": "32:17"
+    },
+    {
+      "start": 1944.48,
+      "duration": 5.919,
+      "text": "so everything that it will say if you ask it a medical question it will uh point it to the research paper from",
+      "timestamp": "32:24"
+    },
+    {
+      "start": 1950.399,
+      "duration": 7.28,
+      "text": "where that answer came right so the users can verify so that is absolutely a must but apart from that there are some",
+      "timestamp": "32:30"
+    },
+    {
+      "start": 1957.679,
+      "duration": 5.681,
+      "text": "additional techniques for example Amazon launched something called as automated reasoning",
+      "timestamp": "32:37"
+    },
+    {
+      "start": 1963.36,
+      "duration": 6.64,
+      "text": "So that is one of the ways to automatically ensure that the model does not hallucinate there is also a lot of",
+      "timestamp": "32:43"
+    },
+    {
+      "start": 1970.0,
+      "duration": 6.799,
+      "text": "research happening uh at our partner anthropic they're trying to figure out how to detect through the activation",
+      "timestamp": "32:50"
+    },
+    {
+      "start": 1976.799,
+      "duration": 7.12,
+      "text": "states itself whether the model is hallucinating or not so uh please do read about uh these things uh like",
+      "timestamp": "32:56"
+    },
+    {
+      "start": 1983.919,
+      "duration": 5.441,
+      "text": "guardrails automated reasoning and what anthropic is doing that will allow you",
+      "timestamp": "33:03"
+    },
+    {
+      "start": 1989.36,
+      "duration": 6.4,
+      "text": "to build applications whose answers will be trustworthy but that said in my",
+      "timestamp": "33:09"
+    },
+    {
+      "start": 1995.76,
+      "duration": 5.44,
+      "text": "humble opinion even uh the user mindset needs to change the enterprise mindset",
+      "timestamp": "33:15"
+    },
+    {
+      "start": 2001.2,
+      "duration": 6.0,
+      "text": "need to change and regulator mindset need to change uh if a system can make a",
+      "timestamp": "33:21"
+    },
+    {
+      "start": 2007.2,
+      "duration": 6.64,
+      "text": "mistake like at 0.01% 01% times just because it made mistake that rarely",
+      "timestamp": "33:27"
+    },
+    {
+      "start": 2013.84,
+      "duration": 5.36,
+      "text": "you cannot throw away the system so there is this very uh uh infamous case",
+      "timestamp": "33:33"
+    },
+    {
+      "start": 2019.2,
+      "duration": 6.16,
+      "text": "of Air Canada uh so Air Canada had a chatbot and uh a person was asking",
+      "timestamp": "33:39"
+    },
+    {
+      "start": 2025.36,
+      "duration": 5.36,
+      "text": "questions about uh uh some refund or cancellation policy",
+      "timestamp": "33:45"
+    },
+    {
+      "start": 2030.72,
+      "duration": 5.199,
+      "text": "and the model hallucinated and it confirmed that there was a cancellation",
+      "timestamp": "33:50"
+    },
+    {
+      "start": 2035.919,
+      "duration": 6.24,
+      "text": "policy that didn't exist right so uh rightfully judges held Air Canada",
+      "timestamp": "33:55"
+    },
+    {
+      "start": 2042.159,
+      "duration": 6.321,
+      "text": "accountable to honor that policy uh they could have avoided it by using rag",
+      "timestamp": "34:02"
+    },
+    {
+      "start": 2048.48,
+      "duration": 5.199,
+      "text": "automated reasoning thinking out loud kind of techniques but that said no",
+      "timestamp": "34:08"
+    },
+    {
+      "start": 2053.679,
+      "duration": 5.841,
+      "text": "matter what you do no matter what you do okay this technology is not going to be",
+      "timestamp": "34:13"
+    },
+    {
+      "start": 2059.52,
+      "duration": 5.358,
+      "text": "100% perfect okay it will be 99.99999%",
+      "timestamp": "34:19"
+    },
+    {
+      "start": 2064.879,
+      "duration": 6.479,
+      "text": "accurate with all these things but there is always going to be that some probability of a failure so in that",
+      "timestamp": "34:24"
+    },
+    {
+      "start": 2071.359,
+      "duration": 7.841,
+      "text": "sense this technology is like any other technology aircraft engine fails right so the user mindset need to evolve",
+      "timestamp": "34:31"
+    },
+    {
+      "start": 2079.2,
+      "duration": 7.28,
+      "text": "enterprise CIO mindset need to evolve and all of us need to work together with regulators to bring them to this",
+      "timestamp": "34:39"
+    },
+    {
+      "start": 2086.48,
+      "duration": 7.199,
+      "text": "appreciation that let us not throw away the baby with the bath water\n yes",
+      "timestamp": "34:46"
+    },
+    {
+      "start": 2093.679,
+      "duration": 8.4,
+      "text": "yes so it like um Kesh mentioned that the guarders are very important at mascot we are be very um uh very focused",
+      "timestamp": "34:53"
+    },
+    {
+      "start": 2102.079,
+      "duration": 6.321,
+      "text": "on building the guard for all the AI including generative AI applications so",
+      "timestamp": "35:02"
+    },
+    {
+      "start": 2108.4,
+      "duration": 7.04,
+      "text": "the one thing is very clear is that we want the yeah we want to use use",
+      "timestamp": "35:08"
+    },
+    {
+      "start": 2115.44,
+      "duration": 5.28,
+      "text": "leverage the power of the generative AI but we really want to make sure that",
+      "timestamp": "35:15"
+    },
+    {
+      "start": 2120.72,
+      "duration": 5.44,
+      "text": "when we we're building the products even though there's a 0.001% 001% of a",
+      "timestamp": "35:20"
+    },
+    {
+      "start": 2126.16,
+      "duration": 6.0,
+      "text": "failure that failure will not cause a big damage to your to to our enterprise",
+      "timestamp": "35:26"
+    },
+    {
+      "start": 2132.16,
+      "duration": 6.64,
+      "text": "applications or to our consumer card right so so imagine if you had doing kind of recently we did some research on",
+      "timestamp": "35:32"
+    },
+    {
+      "start": 2138.8,
+      "duration": 5.12,
+      "text": "the invoice reconstellation and we realize because of harnessation of da",
+      "timestamp": "35:38"
+    },
+    {
+      "start": 2143.92,
+      "duration": 6.08,
+      "text": "junken models you are updating the invoice ID 1 2 3 4 but it actually",
+      "timestamp": "35:43"
+    },
+    {
+      "start": 2150.0,
+      "duration": 6.32,
+      "text": "updated the mod the agent update 1 2 3 3 4 so it kind repetition problem I",
+      "timestamp": "35:50"
+    },
+    {
+      "start": 2156.32,
+      "duration": 6.56,
+      "text": "mentioned this morning and that might might have very bad effect let's say because just the first transaction might",
+      "timestamp": "35:56"
+    },
+    {
+      "start": 2162.88,
+      "duration": 7.84,
+      "text": "just be $10 but second one might be $10,000 right so that's will be a big impact to your business so all this part",
+      "timestamp": "36:02"
+    },
+    {
+      "start": 2170.72,
+      "duration": 6.32,
+      "text": "need to be safeguarded in the aentic AI time frames which is previously never",
+      "timestamp": "36:10"
+    },
+    {
+      "start": 2177.04,
+      "duration": 5.6,
+      "text": "been seen without that being solved from not from the model perspective but from",
+      "timestamp": "36:17"
+    },
+    {
+      "start": 2182.64,
+      "duration": 5.52,
+      "text": "the uh foundation software engineering perspective and and the guard rare",
+      "timestamp": "36:22"
+    },
+    {
+      "start": 2188.16,
+      "duration": 6.88,
+      "text": "perspective then we won't be able to safely roll out for um for scale use",
+      "timestamp": "36:28"
+    },
+    {
+      "start": 2195.04,
+      "duration": 5.28,
+      "text": "uses\n it's amazing it's really a masterclass in enterprise AI I'm learning so much that trust is really",
+      "timestamp": "36:35"
+    },
+    {
+      "start": 2200.32,
+      "duration": 5.6,
+      "text": "the foundation of all uh generative AI deployment so the last question I want",
+      "timestamp": "36:40"
+    },
+    {
+      "start": 2205.92,
+      "duration": 5.04,
+      "text": "to throw to the panelists is like you know what is the last kind of message that you want to send to the crowd about",
+      "timestamp": "36:45"
+    },
+    {
+      "start": 2210.96,
+      "duration": 6.0,
+      "text": "enterprise AI hopes aspiration opport opportunity solutions yeah I mean I I just think it's an",
+      "timestamp": "36:50"
+    },
+    {
+      "start": 2216.96,
+      "duration": 6.399,
+      "text": "exciting time um I was telling to someone you know being from the legal tech vertical legal tech feels like it's",
+      "timestamp": "36:56"
+    },
+    {
+      "start": 2223.359,
+      "duration": 6.161,
+      "text": "f where fintech was uh 10 to 15 years ago and it's such a big space but it",
+      "timestamp": "37:03"
+    },
+    {
+      "start": 2229.52,
+      "duration": 6.72,
+      "text": "still feels like such early days um and so I think it's just very exciting and to be at a place like this where there's",
+      "timestamp": "37:09"
+    },
+    {
+      "start": 2236.24,
+      "duration": 6.48,
+      "text": "community built being built around those functions so what I would say is first figure out",
+      "timestamp": "37:16"
+    },
+    {
+      "start": 2242.72,
+      "duration": 5.2,
+      "text": "how the great looks like what I mean by that is install perplexity i'm not a",
+      "timestamp": "37:22"
+    },
+    {
+      "start": 2247.92,
+      "duration": 5.199,
+      "text": "perplexity salesman i don't get uh any incentive for saying that but you will",
+      "timestamp": "37:27"
+    },
+    {
+      "start": 2253.119,
+      "duration": 5.601,
+      "text": "see how a well-designed app looks like use their deep research feature use",
+      "timestamp": "37:33"
+    },
+    {
+      "start": 2258.72,
+      "duration": 5.92,
+      "text": "perplexity lab feature so it will use Python to do simple mathematics the",
+      "timestamp": "37:38"
+    },
+    {
+      "start": 2264.64,
+      "duration": 8.8,
+      "text": "model will not do even simple mathematics by itself to ensure 100% accuracy so look at how the good looks",
+      "timestamp": "37:44"
+    },
+    {
+      "start": 2273.44,
+      "duration": 6.08,
+      "text": "like and set yourself that benchmark you can build those kind of applications for",
+      "timestamp": "37:53"
+    },
+    {
+      "start": 2279.52,
+      "duration": 5.36,
+      "text": "your enterprise customers or for yourself if you are an enterprise all the tools are available from various",
+      "timestamp": "37:59"
+    },
+    {
+      "start": 2284.88,
+      "duration": 5.36,
+      "text": "players we have all the tools available in bedrock uh so yeah look at what the",
+      "timestamp": "38:04"
+    },
+    {
+      "start": 2290.24,
+      "duration": 7.52,
+      "text": "great looks like and go for the skies yeah as previously one of our mascar",
+      "timestamp": "38:10"
+    },
+    {
+      "start": 2297.76,
+      "duration": 6.64,
+      "text": "executives said that the biggest risk of AI is not using it so like Gish",
+      "timestamp": "38:17"
+    },
+    {
+      "start": 2304.4,
+      "duration": 5.199,
+      "text": "mentioned download whatever apps I personally I have perplexity",
+      "timestamp": "38:24"
+    },
+    {
+      "start": 2309.599,
+      "duration": 7.281,
+      "text": "have chat GPD have claw all this in my my pocket already right so this not only",
+      "timestamp": "38:29"
+    },
+    {
+      "start": 2316.88,
+      "duration": 6.88,
+      "text": "help me to do all these kind of writing also the all the research um my research",
+      "timestamp": "38:36"
+    },
+    {
+      "start": 2323.76,
+      "duration": 5.12,
+      "text": "papers I also try to leverage the to polish my my languages because English",
+      "timestamp": "38:43"
+    },
+    {
+      "start": 2328.88,
+      "duration": 5.52,
+      "text": "is not my first language from enterprise perspective of course they uh try to",
+      "timestamp": "38:48"
+    },
+    {
+      "start": 2334.4,
+      "duration": 5.28,
+      "text": "find the best model not the big bigger model best vertical model for your",
+      "timestamp": "38:54"
+    },
+    {
+      "start": 2339.68,
+      "duration": 6.56,
+      "text": "applications that's awesome and uh thank you so much for all the panelists and obviously hope you guys have learned a",
+      "timestamp": "38:59"
+    },
+    {
+      "start": 2346.24,
+      "duration": 6.559,
+      "text": "lot about enterprise AI and I really value your opinion and contributions thank you so",
+      "timestamp": "39:06"
+    }
+  ],
+  "extraction_timestamp": "2025-06-29T20:47:10.732571",
+  "playlist_title": "SuperAI Singapore 2025: io.net Main Stage"
+}

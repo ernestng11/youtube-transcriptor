@@ -1,0 +1,1931 @@
+{
+  "video_id": "hAbFCSRxryA",
+  "video_title": "Yang Kan - AI That Moves Business. Cloud That Scales - SuperAI Singapore 2025",
+  "video_url": "https://www.youtube.com/watch?v=hAbFCSRxryA",
+  "channel_title": "SuperAI",
+  "published_at": "2025-06-25T13:44:36+00:00",
+  "duration_seconds": null,
+  "view_count": 13,
+  "like_count": 0,
+  "description": "Learn more about SuperAI: superai.com\nFollow us on X: x.com/superai_conf\n\nKeynote: AI That Moves Business. Cloud That Scales\n\nSpeaker:\nYang Kan, Regional Head @ BytePlus\n\nStage: WEKA Stage\n#superai #byteplus #ai #business #enterprise \n\nRecorded on 18 June 2025",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 318,
+    "aggregated_text": "biplus is a company from IDES we do uh uh cloud and AI solutions for our customers so uh and I myself is a head of solution of biplus uh located in Singapore and traveling around the world um so today I will probably bring you some of the exciting things that I think uh it will at least amaze me right so um let's start from here um so AI moves business uh as you know that the Bance is a uh uh content company social media company we started 13 years ago and then we help our ecosystem create contents we distribute contents to people according to people's favorites um so AI right now is already embedded in our business in term of R&D coding um content creation content moderation and customer service um so in terms of content creation uh as you have played with some of our products so you will find that uh um there are a lot of AI features for example AI generated scripts AI generated captions AI generated images and videos so um basically um we find that the model that we created oursel actually outperforms a lot of models and then it has been embedded in the what almost 150 use cases um next is basically uh um customer service oh before that um content create content moderation so I will give you some numbers 80% of the content moderation is actually done uh with AI in our business and then the 96% of the contents inappropriate contents are basically identified u before they are published um and then moving on to e-commerce so e-commerce customer service is a big thing so essentially uh 80% of the uh e-commerce questions are basically taken care by um by AI and then 90% of the uh incoming queries are basically automated by AI um next thing is about coding um so um we have released some of the product I will show you later but this product is already uh adopted by 80% of our internal developers and then we have interviewed some of the developers that um they're saving 2.5 hours every week uh from using AI IDE so um that is some of the um numbers that I want to share with you internally and then coming back to u uh by plus so what we do is essentially we want to bring all the latest and greatest technology from Binance and then the benefit to our customers so I will show you how our technology make our life easier and then make the life more interesting have you ever wanted to see what the future looks like this is the future you've already seen some of it and tried it can you scan this for me please you have a meeting in Tokyo next week should I generate a Japanese version too the future is a place where work just flows and life is made easy like a cup of tea but what if it could be even easier this mug can be delivered in just one day what if someone could help and anticipate your needs what if someone could understand your customers better than you do and create personalized responses based on data that are just right for your business in the future speed matters because customer experience is underpinned by performance and safety and communication is key it's global instant and seamless bite plus voice [Music] it's international with live translation bite Plus AI works for you with cloud services that scale with you and your business and personalized experiences that engage your world bite Plus define tomorrow so as you probably noticed that there are a lot of AI technologies being used for example the um the video understanding the real-time communications real time translations and reasoning and so on so how how does our technology stack looks like behind all these features that is the thing so uh if you look at at the bottom um there are lots of infrastructure GPU optimizations that we have done so if you want to train your own uh train your own model or build your own post- training pipelines all these things can be reused with a lot of fantastic open source tools and then coming to the second layer that is something I want to show you uh a lot of things today so um skylark pro and VLM video large language model um that is the thing that used to understand from the real world and then uh make sense from it c dream and C dance that was something released last week and then that very very quickly racked up into the top one in the in third party rankings i will show you how that looks like and then the voice and last but not least you can choose to use a deepseek from our um portals so uh on top of it there is the agentic platform for you to build your applications so I will show you step by step how that looks like so um next thing is I want to show you some of the super agents to help you to uh to help you make your life easier by understanding the real world and then interact with AI [Music] i have to leave now do you know where I am you are currently at the Volcano Engine Beijing headquarters how long will it take to get to Beijing South Railway Station from here to depart from Beijing Volcano Engine Headquarters it is 16.7 km by car it will take 40 minutes i'm taking the G9 train dobba can you tell me which ticketing gate I should go to you can go to gate 10 to check your ticket thank you DBA you've been so helpful this entire journey wow it's been great to accompany you on your journey today the AI video call is the latest feature that we came out with and then underneath it there is the video understanding there is the image reasoning there is the real-time communication and live streaming so um aside from that the video understanding capability can be used in a lot of other use cases so for example we were working with the OTT customers to label their uh to label their image label their video contents uh and then uh extract the video highlights um there is also creating story outlines to create a better search and recommendation performances um and then there is uh uh content moderation so to ensure that the user generated content are appropriate and highlight those ones are not uh um the in are not are not following the policies so um that is essentially uh Skylock Pro and Skyllock uh video large models so next thing is about the the Cream 3.0 so uh as you some of you probably have uh uh use for uh from other companies about the image video and uh text to image and image image so um two weeks back we released something called a sky uh cdream 3.0 which very facts ranked the world's number one so I will show you how that looks like heat [Music] heat [Music] [Music] so for those who have uh um tried uh text to image you might have uh facing some of the challenges for example how to make sure that the text is accurate when you create a poster how do you make sure that all these uh typographies typography is appropriate created according to your instruction and then how to make sure that the human uh emotions or the details are actually real enough so that customer don't feel that as the AI so essentially uh as you go to uh if you go to artificial analysis today you'll find that text to image models we are right now ranking number one according to customers feedback and then some of the highlights is that uh we are um super good in the portraits in the facial expressions in the future real uh in the fantasy sci-fi use cases uh and then the details are actually really the um the human life so these are some of the CA um the samples on the left hand uh on your left hand side um that is the posters that we have generated so there is a feature that to ensure all your text no matter what language is actually accurately generated with all the typographies um and then on the on your right hand side no matter the sports scene or the uh human facial expressions and then the sports motions and even the multi-objects if you look at the family over there so all these are actually properly generated with all these physical realistic things so um so that is the image generation and next I want to show you some of the video generations so uh video generation that is the um that is called the seed dense 1.0 so that is just released last week and then the once it is released it ranked up into world's number one um um this week so um I will show you how that looks like so um as you can see in some of the challenges in the creating videos so uh simulating um so the multi- camera consistency the consistency of the objects are crucial so if you look at this video the boxing so there are two people there so that is multi-objects and then there are two cameras one is the uh far camera one is a closed camera so all these cameras are actually following the same backgrounds and the same scene so that is something that is something uh we have resolved uh perfectly and then if you look at the robots over there so the robots is actually uh where's the background and if we take a closer look of the robots and then the coming back that is that has have a hyper consistency of all the objects and next example if I want to show you some of the if I can show you some of the uh sports so uh someone is skiing when people ski all the backgrounds all the large scale uh sports scenes fast uh fast sports scenes it is generated perfectly so that means uh it is following all the physical uh physical realistic rules that has nothing wrong with the the the physical uh world and then the last video I want to share with you is the facial expression so uh this this is something that shows the model could follow the human instructions perfectly with all the detail instructions if you look at the facial expressions um the the the the level of the um the level of the details of the facial expression all these are actually um perfectly generated so uh those are some of the um examples of the video generation and lastly I want to share with you is about the the coding so uh when you integrate all these into your um into your applications um you have to do coding so uh this is something that has been uh adopted by 80% of our developers and they help us to save a lot of time every week so some of the highlights over here is that uh um the product is called a trade you can download it today at the trade.ai.com uh trade.ai um it is free at the moment um so some of highlights is that the builder mode so you can uh create an entire project um and the real-time coding completion and the rollback so if you have another prompt and you decide that you don't want to use the prompt and go back to to the previous version then you can choose to do that easily and then the context understanding so if you have your own uh design document or your codebase or your APIs and so on um you can just uh point the folders or the file or documents as the context so that it will do the coding accordingly and last but not least you create your own coding agents so for every file you can have a prompt you can have a um have the um the documents you have create a rack for every um every file that in your project so it is basically creating your own agents to follow or your own instructions so um that is some of the things I want to share with you that I hope you find this you find something new from byplus um so uh the in so from the last so lastly this is uh the QR code that you can log into our website and experience some of the things from today's presentation and then we have a booth outside just at the entrance of the hall so uh you are more than welcome to uh come over and we have a we have a more detailed chats about all these things all right thank you",
+    "text_length": 11402,
+    "word_count": 2202
+  },
+  "segments": [
+    {
+      "start": 7.68,
+      "duration": 3.6,
+      "text": "biplus is a company from IDES we do uh",
+      "timestamp": "00:07"
+    },
+    {
+      "start": 11.28,
+      "duration": 2.08,
+      "text": "uh cloud and AI solutions for our",
+      "timestamp": "00:11"
+    },
+    {
+      "start": 13.36,
+      "duration": 2.72,
+      "text": "customers so uh and I myself is a head",
+      "timestamp": "00:13"
+    },
+    {
+      "start": 16.08,
+      "duration": 2.32,
+      "text": "of solution of biplus uh located in",
+      "timestamp": "00:16"
+    },
+    {
+      "start": 18.4,
+      "duration": 1.84,
+      "text": "Singapore and traveling around the world",
+      "timestamp": "00:18"
+    },
+    {
+      "start": 20.24,
+      "duration": 1.92,
+      "text": "um so today I will probably bring you",
+      "timestamp": "00:20"
+    },
+    {
+      "start": 22.16,
+      "duration": 2.64,
+      "text": "some of the exciting things that I think",
+      "timestamp": "00:22"
+    },
+    {
+      "start": 24.8,
+      "duration": 3.68,
+      "text": "uh it will at least amaze me right",
+      "timestamp": "00:24"
+    },
+    {
+      "start": 28.48,
+      "duration": 3.28,
+      "text": "so um let's start from here um so AI",
+      "timestamp": "00:28"
+    },
+    {
+      "start": 31.76,
+      "duration": 2.16,
+      "text": "moves business uh as you know that the",
+      "timestamp": "00:31"
+    },
+    {
+      "start": 33.92,
+      "duration": 3.28,
+      "text": "Bance is a uh uh content company social",
+      "timestamp": "00:33"
+    },
+    {
+      "start": 37.2,
+      "duration": 2.56,
+      "text": "media company we started 13 years ago",
+      "timestamp": "00:37"
+    },
+    {
+      "start": 39.76,
+      "duration": 2.799,
+      "text": "and then we help our ecosystem create",
+      "timestamp": "00:39"
+    },
+    {
+      "start": 42.559,
+      "duration": 2.0,
+      "text": "contents we distribute contents to",
+      "timestamp": "00:42"
+    },
+    {
+      "start": 44.559,
+      "duration": 2.401,
+      "text": "people according to people's favorites",
+      "timestamp": "00:44"
+    },
+    {
+      "start": 46.96,
+      "duration": 2.88,
+      "text": "um so AI right now is already embedded",
+      "timestamp": "00:46"
+    },
+    {
+      "start": 49.84,
+      "duration": 3.68,
+      "text": "in our business in term of R&D coding um",
+      "timestamp": "00:49"
+    },
+    {
+      "start": 53.52,
+      "duration": 2.8,
+      "text": "content creation content moderation and",
+      "timestamp": "00:53"
+    },
+    {
+      "start": 56.32,
+      "duration": 1.84,
+      "text": "customer service",
+      "timestamp": "00:56"
+    },
+    {
+      "start": 58.16,
+      "duration": 3.039,
+      "text": "um so in terms of content creation uh as",
+      "timestamp": "00:58"
+    },
+    {
+      "start": 61.199,
+      "duration": 1.761,
+      "text": "you have played with some of our",
+      "timestamp": "01:01"
+    },
+    {
+      "start": 62.96,
+      "duration": 2.4,
+      "text": "products so you will find that uh um",
+      "timestamp": "01:02"
+    },
+    {
+      "start": 65.36,
+      "duration": 1.2,
+      "text": "there are a lot of AI features for",
+      "timestamp": "01:05"
+    },
+    {
+      "start": 66.56,
+      "duration": 1.919,
+      "text": "example AI generated scripts AI",
+      "timestamp": "01:06"
+    },
+    {
+      "start": 68.479,
+      "duration": 2.881,
+      "text": "generated captions AI generated images",
+      "timestamp": "01:08"
+    },
+    {
+      "start": 71.36,
+      "duration": 3.04,
+      "text": "and videos so um basically um we find",
+      "timestamp": "01:11"
+    },
+    {
+      "start": 74.4,
+      "duration": 2.96,
+      "text": "that the model that we created oursel",
+      "timestamp": "01:14"
+    },
+    {
+      "start": 77.36,
+      "duration": 2.079,
+      "text": "actually outperforms a lot of models and",
+      "timestamp": "01:17"
+    },
+    {
+      "start": 79.439,
+      "duration": 2.401,
+      "text": "then it has been embedded in the what",
+      "timestamp": "01:19"
+    },
+    {
+      "start": 81.84,
+      "duration": 2.88,
+      "text": "almost 150 use cases",
+      "timestamp": "01:21"
+    },
+    {
+      "start": 84.72,
+      "duration": 2.96,
+      "text": "um next is basically uh um customer",
+      "timestamp": "01:24"
+    },
+    {
+      "start": 87.68,
+      "duration": 2.24,
+      "text": "service oh before that um content create",
+      "timestamp": "01:27"
+    },
+    {
+      "start": 89.92,
+      "duration": 2.08,
+      "text": "content moderation so I will give you",
+      "timestamp": "01:29"
+    },
+    {
+      "start": 92.0,
+      "duration": 2.88,
+      "text": "some numbers 80% of the content",
+      "timestamp": "01:32"
+    },
+    {
+      "start": 94.88,
+      "duration": 2.64,
+      "text": "moderation is actually done uh with AI",
+      "timestamp": "01:34"
+    },
+    {
+      "start": 97.52,
+      "duration": 3.2,
+      "text": "in our business and then the 96% of the",
+      "timestamp": "01:37"
+    },
+    {
+      "start": 100.72,
+      "duration": 2.0,
+      "text": "contents inappropriate contents are",
+      "timestamp": "01:40"
+    },
+    {
+      "start": 102.72,
+      "duration": 2.399,
+      "text": "basically identified u before they are",
+      "timestamp": "01:42"
+    },
+    {
+      "start": 105.119,
+      "duration": 2.0,
+      "text": "published um and then moving on to",
+      "timestamp": "01:45"
+    },
+    {
+      "start": 107.119,
+      "duration": 2.0,
+      "text": "e-commerce so e-commerce customer",
+      "timestamp": "01:47"
+    },
+    {
+      "start": 109.119,
+      "duration": 2.161,
+      "text": "service is a big thing so essentially uh",
+      "timestamp": "01:49"
+    },
+    {
+      "start": 111.28,
+      "duration": 2.32,
+      "text": "80% of the uh e-commerce questions are",
+      "timestamp": "01:51"
+    },
+    {
+      "start": 113.6,
+      "duration": 2.64,
+      "text": "basically taken care by um by AI and",
+      "timestamp": "01:53"
+    },
+    {
+      "start": 116.24,
+      "duration": 2.879,
+      "text": "then 90% of the uh incoming queries are",
+      "timestamp": "01:56"
+    },
+    {
+      "start": 119.119,
+      "duration": 3.6,
+      "text": "basically automated by AI um next thing",
+      "timestamp": "01:59"
+    },
+    {
+      "start": 122.719,
+      "duration": 2.881,
+      "text": "is about coding um so um we have",
+      "timestamp": "02:02"
+    },
+    {
+      "start": 125.6,
+      "duration": 1.68,
+      "text": "released some of the product I will show",
+      "timestamp": "02:05"
+    },
+    {
+      "start": 127.28,
+      "duration": 2.479,
+      "text": "you later but this product is already uh",
+      "timestamp": "02:07"
+    },
+    {
+      "start": 129.759,
+      "duration": 2.401,
+      "text": "adopted by 80% of our internal",
+      "timestamp": "02:09"
+    },
+    {
+      "start": 132.16,
+      "duration": 2.159,
+      "text": "developers and then we have interviewed",
+      "timestamp": "02:12"
+    },
+    {
+      "start": 134.319,
+      "duration": 2.081,
+      "text": "some of the developers that um they're",
+      "timestamp": "02:14"
+    },
+    {
+      "start": 136.4,
+      "duration": 3.68,
+      "text": "saving 2.5 hours every week uh from",
+      "timestamp": "02:16"
+    },
+    {
+      "start": 140.08,
+      "duration": 3.68,
+      "text": "using AI IDE so um that is some of the",
+      "timestamp": "02:20"
+    },
+    {
+      "start": 143.76,
+      "duration": 1.6,
+      "text": "um numbers that I want to share with you",
+      "timestamp": "02:23"
+    },
+    {
+      "start": 145.36,
+      "duration": 3.12,
+      "text": "internally and then coming back to u uh",
+      "timestamp": "02:25"
+    },
+    {
+      "start": 148.48,
+      "duration": 2.64,
+      "text": "by plus so what we do is essentially we",
+      "timestamp": "02:28"
+    },
+    {
+      "start": 151.12,
+      "duration": 1.92,
+      "text": "want to bring all the latest and",
+      "timestamp": "02:31"
+    },
+    {
+      "start": 153.04,
+      "duration": 2.4,
+      "text": "greatest technology from Binance and",
+      "timestamp": "02:33"
+    },
+    {
+      "start": 155.44,
+      "duration": 2.4,
+      "text": "then the benefit to our customers so I",
+      "timestamp": "02:35"
+    },
+    {
+      "start": 157.84,
+      "duration": 2.16,
+      "text": "will show you how our technology make",
+      "timestamp": "02:37"
+    },
+    {
+      "start": 160.0,
+      "duration": 2.72,
+      "text": "our life easier and then make the life",
+      "timestamp": "02:40"
+    },
+    {
+      "start": 162.72,
+      "duration": 2.96,
+      "text": "more interesting",
+      "timestamp": "02:42"
+    },
+    {
+      "start": 165.68,
+      "duration": 1.44,
+      "text": "have you ever wanted to see what the",
+      "timestamp": "02:45"
+    },
+    {
+      "start": 167.12,
+      "duration": 3.52,
+      "text": "future looks like this is the future",
+      "timestamp": "02:47"
+    },
+    {
+      "start": 170.64,
+      "duration": 1.92,
+      "text": "you've already seen some of it and tried",
+      "timestamp": "02:50"
+    },
+    {
+      "start": 172.56,
+      "duration": 2.319,
+      "text": "it",
+      "timestamp": "02:52"
+    },
+    {
+      "start": 174.879,
+      "duration": 2.481,
+      "text": "can you scan this for me please you have",
+      "timestamp": "02:54"
+    },
+    {
+      "start": 177.36,
+      "duration": 2.4,
+      "text": "a meeting in Tokyo next week should I",
+      "timestamp": "02:57"
+    },
+    {
+      "start": 179.76,
+      "duration": 2.96,
+      "text": "generate a Japanese version too\n the",
+      "timestamp": "02:59"
+    },
+    {
+      "start": 182.72,
+      "duration": 2.48,
+      "text": "future is a place where work just flows",
+      "timestamp": "03:02"
+    },
+    {
+      "start": 185.2,
+      "duration": 2.56,
+      "text": "and life is made easy",
+      "timestamp": "03:05"
+    },
+    {
+      "start": 187.76,
+      "duration": 2.32,
+      "text": "like a cup of tea but what if it could",
+      "timestamp": "03:07"
+    },
+    {
+      "start": 190.08,
+      "duration": 3.12,
+      "text": "be even easier\n this mug can be delivered",
+      "timestamp": "03:10"
+    },
+    {
+      "start": 193.2,
+      "duration": 4.039,
+      "text": "in just one day",
+      "timestamp": "03:13"
+    },
+    {
+      "start": 199.28,
+      "duration": 1.599,
+      "text": "what if someone could help and",
+      "timestamp": "03:19"
+    },
+    {
+      "start": 200.879,
+      "duration": 2.241,
+      "text": "anticipate your needs what if someone",
+      "timestamp": "03:20"
+    },
+    {
+      "start": 203.12,
+      "duration": 1.759,
+      "text": "could understand your customers better",
+      "timestamp": "03:23"
+    },
+    {
+      "start": 204.879,
+      "duration": 2.321,
+      "text": "than you do and create personalized",
+      "timestamp": "03:24"
+    },
+    {
+      "start": 207.2,
+      "duration": 2.319,
+      "text": "responses based on data that are just",
+      "timestamp": "03:27"
+    },
+    {
+      "start": 209.519,
+      "duration": 3.72,
+      "text": "right for your business",
+      "timestamp": "03:29"
+    },
+    {
+      "start": 214.0,
+      "duration": 2.159,
+      "text": "in the future speed matters because",
+      "timestamp": "03:34"
+    },
+    {
+      "start": 216.159,
+      "duration": 1.921,
+      "text": "customer experience is underpinned by",
+      "timestamp": "03:36"
+    },
+    {
+      "start": 218.08,
+      "duration": 3.64,
+      "text": "performance and safety",
+      "timestamp": "03:38"
+    },
+    {
+      "start": 223.12,
+      "duration": 2.96,
+      "text": "and communication is key it's global",
+      "timestamp": "03:43"
+    },
+    {
+      "start": 226.08,
+      "duration": 3.76,
+      "text": "instant and seamless\n bite plus voice",
+      "timestamp": "03:46"
+    },
+    {
+      "start": 229.84,
+      "duration": 4.699,
+      "text": "[Music]",
+      "timestamp": "03:49"
+    },
+    {
+      "start": 234.56,
+      "duration": 3.679,
+      "text": "it's international with live translation",
+      "timestamp": "03:54"
+    },
+    {
+      "start": 238.239,
+      "duration": 2.64,
+      "text": "bite Plus AI works for you with cloud",
+      "timestamp": "03:58"
+    },
+    {
+      "start": 240.879,
+      "duration": 2.08,
+      "text": "services that scale with you and your",
+      "timestamp": "04:00"
+    },
+    {
+      "start": 242.959,
+      "duration": 2.56,
+      "text": "business and personalized experiences",
+      "timestamp": "04:02"
+    },
+    {
+      "start": 245.519,
+      "duration": 3.92,
+      "text": "that engage your world bite Plus define",
+      "timestamp": "04:05"
+    },
+    {
+      "start": 249.439,
+      "duration": 3.0,
+      "text": "tomorrow",
+      "timestamp": "04:09"
+    },
+    {
+      "start": 254.0,
+      "duration": 1.68,
+      "text": "so as you probably noticed that there",
+      "timestamp": "04:14"
+    },
+    {
+      "start": 255.68,
+      "duration": 2.239,
+      "text": "are a lot of AI technologies being used",
+      "timestamp": "04:15"
+    },
+    {
+      "start": 257.919,
+      "duration": 2.641,
+      "text": "for example the um the video",
+      "timestamp": "04:17"
+    },
+    {
+      "start": 260.56,
+      "duration": 1.359,
+      "text": "understanding the real-time",
+      "timestamp": "04:20"
+    },
+    {
+      "start": 261.919,
+      "duration": 2.481,
+      "text": "communications real time translations",
+      "timestamp": "04:21"
+    },
+    {
+      "start": 264.4,
+      "duration": 3.28,
+      "text": "and reasoning and so on so how how does",
+      "timestamp": "04:24"
+    },
+    {
+      "start": 267.68,
+      "duration": 2.4,
+      "text": "our technology stack looks like behind",
+      "timestamp": "04:27"
+    },
+    {
+      "start": 270.08,
+      "duration": 3.36,
+      "text": "all these features that is the thing so",
+      "timestamp": "04:30"
+    },
+    {
+      "start": 273.44,
+      "duration": 2.08,
+      "text": "uh if you look at at the bottom um there",
+      "timestamp": "04:33"
+    },
+    {
+      "start": 275.52,
+      "duration": 2.16,
+      "text": "are lots of infrastructure GPU",
+      "timestamp": "04:35"
+    },
+    {
+      "start": 277.68,
+      "duration": 2.239,
+      "text": "optimizations that we have done so if",
+      "timestamp": "04:37"
+    },
+    {
+      "start": 279.919,
+      "duration": 2.0,
+      "text": "you want to train your own uh train your",
+      "timestamp": "04:39"
+    },
+    {
+      "start": 281.919,
+      "duration": 1.761,
+      "text": "own model or build your own post-",
+      "timestamp": "04:41"
+    },
+    {
+      "start": 283.68,
+      "duration": 2.0,
+      "text": "training pipelines all these things can",
+      "timestamp": "04:43"
+    },
+    {
+      "start": 285.68,
+      "duration": 2.079,
+      "text": "be reused with a lot of fantastic open",
+      "timestamp": "04:45"
+    },
+    {
+      "start": 287.759,
+      "duration": 1.841,
+      "text": "source tools and then coming to the",
+      "timestamp": "04:47"
+    },
+    {
+      "start": 289.6,
+      "duration": 1.52,
+      "text": "second layer that is something I want to",
+      "timestamp": "04:49"
+    },
+    {
+      "start": 291.12,
+      "duration": 2.88,
+      "text": "show you uh a lot of things today so um",
+      "timestamp": "04:51"
+    },
+    {
+      "start": 294.0,
+      "duration": 2.8,
+      "text": "skylark pro and VLM video large language",
+      "timestamp": "04:54"
+    },
+    {
+      "start": 296.8,
+      "duration": 2.959,
+      "text": "model um that is the thing that used to",
+      "timestamp": "04:56"
+    },
+    {
+      "start": 299.759,
+      "duration": 2.081,
+      "text": "understand from the real world and then",
+      "timestamp": "04:59"
+    },
+    {
+      "start": 301.84,
+      "duration": 2.72,
+      "text": "uh make sense from it c dream and C",
+      "timestamp": "05:01"
+    },
+    {
+      "start": 304.56,
+      "duration": 2.24,
+      "text": "dance that was something released last",
+      "timestamp": "05:04"
+    },
+    {
+      "start": 306.8,
+      "duration": 2.08,
+      "text": "week and then that very very quickly",
+      "timestamp": "05:06"
+    },
+    {
+      "start": 308.88,
+      "duration": 3.12,
+      "text": "racked up into the top one in the in",
+      "timestamp": "05:08"
+    },
+    {
+      "start": 312.0,
+      "duration": 1.759,
+      "text": "third party rankings i will show you how",
+      "timestamp": "05:12"
+    },
+    {
+      "start": 313.759,
+      "duration": 2.081,
+      "text": "that looks like and then the voice and",
+      "timestamp": "05:13"
+    },
+    {
+      "start": 315.84,
+      "duration": 1.84,
+      "text": "last but not least you can choose to use",
+      "timestamp": "05:15"
+    },
+    {
+      "start": 317.68,
+      "duration": 3.28,
+      "text": "a deepseek from our um portals so uh on",
+      "timestamp": "05:17"
+    },
+    {
+      "start": 320.96,
+      "duration": 2.239,
+      "text": "top of it there is the agentic platform",
+      "timestamp": "05:20"
+    },
+    {
+      "start": 323.199,
+      "duration": 2.081,
+      "text": "for you to build your applications so I",
+      "timestamp": "05:23"
+    },
+    {
+      "start": 325.28,
+      "duration": 1.359,
+      "text": "will show you step by step how that",
+      "timestamp": "05:25"
+    },
+    {
+      "start": 326.639,
+      "duration": 1.521,
+      "text": "looks like",
+      "timestamp": "05:26"
+    },
+    {
+      "start": 328.16,
+      "duration": 2.24,
+      "text": "so um next thing is I want to show you",
+      "timestamp": "05:28"
+    },
+    {
+      "start": 330.4,
+      "duration": 3.2,
+      "text": "some of the super agents to help you to",
+      "timestamp": "05:30"
+    },
+    {
+      "start": 333.6,
+      "duration": 2.08,
+      "text": "uh to help you make your life easier by",
+      "timestamp": "05:33"
+    },
+    {
+      "start": 335.68,
+      "duration": 1.68,
+      "text": "understanding the real world and then",
+      "timestamp": "05:35"
+    },
+    {
+      "start": 337.36,
+      "duration": 2.23,
+      "text": "interact with AI",
+      "timestamp": "05:37"
+    },
+    {
+      "start": 339.59,
+      "duration": 5.85,
+      "text": "[Music]",
+      "timestamp": "05:39"
+    },
+    {
+      "start": 345.44,
+      "duration": 2.24,
+      "text": "i have to leave now do you know where I",
+      "timestamp": "05:45"
+    },
+    {
+      "start": 347.68,
+      "duration": 3.44,
+      "text": "am you are currently at the Volcano",
+      "timestamp": "05:47"
+    },
+    {
+      "start": 351.12,
+      "duration": 2.56,
+      "text": "Engine Beijing headquarters",
+      "timestamp": "05:51"
+    },
+    {
+      "start": 353.68,
+      "duration": 2.64,
+      "text": "how long will it take to get to Beijing",
+      "timestamp": "05:53"
+    },
+    {
+      "start": 356.32,
+      "duration": 2.96,
+      "text": "South Railway Station from here to",
+      "timestamp": "05:56"
+    },
+    {
+      "start": 359.28,
+      "duration": 1.84,
+      "text": "depart from Beijing Volcano Engine",
+      "timestamp": "05:59"
+    },
+    {
+      "start": 361.12,
+      "duration": 4.56,
+      "text": "Headquarters it is 16.7 km by car it",
+      "timestamp": "06:01"
+    },
+    {
+      "start": 365.68,
+      "duration": 3.88,
+      "text": "will take 40 minutes",
+      "timestamp": "06:05"
+    },
+    {
+      "start": 370.4,
+      "duration": 3.04,
+      "text": "i'm taking the G9 train dobba can you",
+      "timestamp": "06:10"
+    },
+    {
+      "start": 373.44,
+      "duration": 1.84,
+      "text": "tell me which ticketing gate I should go",
+      "timestamp": "06:13"
+    },
+    {
+      "start": 375.28,
+      "duration": 2.16,
+      "text": "to",
+      "timestamp": "06:15"
+    },
+    {
+      "start": 377.44,
+      "duration": 2.0,
+      "text": "you can go to gate 10 to check your",
+      "timestamp": "06:17"
+    },
+    {
+      "start": 379.44,
+      "duration": 1.759,
+      "text": "ticket",
+      "timestamp": "06:19"
+    },
+    {
+      "start": 381.199,
+      "duration": 2.081,
+      "text": "thank you DBA you've been so helpful",
+      "timestamp": "06:21"
+    },
+    {
+      "start": 383.28,
+      "duration": 2.96,
+      "text": "this entire journey",
+      "timestamp": "06:23"
+    },
+    {
+      "start": 386.24,
+      "duration": 2.079,
+      "text": "wow it's been great to accompany you on",
+      "timestamp": "06:26"
+    },
+    {
+      "start": 388.319,
+      "duration": 2.481,
+      "text": "your journey today\n the AI video call is",
+      "timestamp": "06:28"
+    },
+    {
+      "start": 390.8,
+      "duration": 2.239,
+      "text": "the latest feature that we came out with",
+      "timestamp": "06:30"
+    },
+    {
+      "start": 393.039,
+      "duration": 2.0,
+      "text": "and then underneath it there is the",
+      "timestamp": "06:33"
+    },
+    {
+      "start": 395.039,
+      "duration": 1.841,
+      "text": "video understanding there is the image",
+      "timestamp": "06:35"
+    },
+    {
+      "start": 396.88,
+      "duration": 1.52,
+      "text": "reasoning there is the real-time",
+      "timestamp": "06:36"
+    },
+    {
+      "start": 398.4,
+      "duration": 2.639,
+      "text": "communication and live streaming so um",
+      "timestamp": "06:38"
+    },
+    {
+      "start": 401.039,
+      "duration": 2.481,
+      "text": "aside from that the video understanding",
+      "timestamp": "06:41"
+    },
+    {
+      "start": 403.52,
+      "duration": 2.239,
+      "text": "capability can be used in a lot of other",
+      "timestamp": "06:43"
+    },
+    {
+      "start": 405.759,
+      "duration": 2.0,
+      "text": "use cases so for example we were working",
+      "timestamp": "06:45"
+    },
+    {
+      "start": 407.759,
+      "duration": 2.72,
+      "text": "with the OTT customers to label their uh",
+      "timestamp": "06:47"
+    },
+    {
+      "start": 410.479,
+      "duration": 2.16,
+      "text": "to label their image label their video",
+      "timestamp": "06:50"
+    },
+    {
+      "start": 412.639,
+      "duration": 2.321,
+      "text": "contents uh and then uh extract the",
+      "timestamp": "06:52"
+    },
+    {
+      "start": 414.96,
+      "duration": 2.48,
+      "text": "video highlights um there is also",
+      "timestamp": "06:54"
+    },
+    {
+      "start": 417.44,
+      "duration": 2.0,
+      "text": "creating story outlines to create a",
+      "timestamp": "06:57"
+    },
+    {
+      "start": 419.44,
+      "duration": 1.44,
+      "text": "better search and recommendation",
+      "timestamp": "06:59"
+    },
+    {
+      "start": 420.88,
+      "duration": 2.96,
+      "text": "performances um and then there is uh uh",
+      "timestamp": "07:00"
+    },
+    {
+      "start": 423.84,
+      "duration": 2.0,
+      "text": "content moderation so to ensure that the",
+      "timestamp": "07:03"
+    },
+    {
+      "start": 425.84,
+      "duration": 2.16,
+      "text": "user generated content are appropriate",
+      "timestamp": "07:05"
+    },
+    {
+      "start": 428.0,
+      "duration": 3.12,
+      "text": "and highlight those ones are not uh um",
+      "timestamp": "07:08"
+    },
+    {
+      "start": 431.12,
+      "duration": 2.72,
+      "text": "the in are not are not following the",
+      "timestamp": "07:11"
+    },
+    {
+      "start": 433.84,
+      "duration": 2.88,
+      "text": "policies so um that is essentially uh",
+      "timestamp": "07:13"
+    },
+    {
+      "start": 436.72,
+      "duration": 2.4,
+      "text": "Skylock Pro and Skyllock uh video large",
+      "timestamp": "07:16"
+    },
+    {
+      "start": 439.12,
+      "duration": 3.84,
+      "text": "models so next thing is about the the",
+      "timestamp": "07:19"
+    },
+    {
+      "start": 442.96,
+      "duration": 3.6,
+      "text": "Cream 3.0 so uh as you some of you",
+      "timestamp": "07:22"
+    },
+    {
+      "start": 446.56,
+      "duration": 2.88,
+      "text": "probably have uh uh use for uh from",
+      "timestamp": "07:26"
+    },
+    {
+      "start": 449.44,
+      "duration": 1.92,
+      "text": "other companies about the image video",
+      "timestamp": "07:29"
+    },
+    {
+      "start": 451.36,
+      "duration": 3.44,
+      "text": "and uh text to image and image image so",
+      "timestamp": "07:31"
+    },
+    {
+      "start": 454.8,
+      "duration": 3.28,
+      "text": "um two weeks back we released something",
+      "timestamp": "07:34"
+    },
+    {
+      "start": 458.08,
+      "duration": 4.0,
+      "text": "called a sky uh cdream 3.0 which very",
+      "timestamp": "07:38"
+    },
+    {
+      "start": 462.08,
+      "duration": 2.08,
+      "text": "facts ranked the world's number one so I",
+      "timestamp": "07:42"
+    },
+    {
+      "start": 464.16,
+      "duration": 3.96,
+      "text": "will show you how that looks like",
+      "timestamp": "07:44"
+    },
+    {
+      "start": 475.52,
+      "duration": 3.0,
+      "text": "heat",
+      "timestamp": "07:55"
+    },
+    {
+      "start": 480.14,
+      "duration": 13.86,
+      "text": "[Music]",
+      "timestamp": "08:00"
+    },
+    {
+      "start": 494.0,
+      "duration": 1.56,
+      "text": "heat",
+      "timestamp": "08:14"
+    },
+    {
+      "start": 495.56,
+      "duration": 5.709,
+      "text": "[Music]",
+      "timestamp": "08:15"
+    },
+    {
+      "start": 505.01,
+      "duration": 3.189,
+      "text": "[Music]",
+      "timestamp": "08:25"
+    },
+    {
+      "start": 508.56,
+      "duration": 3.28,
+      "text": "so for those who have uh um tried uh",
+      "timestamp": "08:28"
+    },
+    {
+      "start": 511.84,
+      "duration": 3.199,
+      "text": "text to image you might have uh facing",
+      "timestamp": "08:31"
+    },
+    {
+      "start": 515.039,
+      "duration": 2.161,
+      "text": "some of the challenges for example how",
+      "timestamp": "08:35"
+    },
+    {
+      "start": 517.2,
+      "duration": 2.639,
+      "text": "to make sure that the text is accurate",
+      "timestamp": "08:37"
+    },
+    {
+      "start": 519.839,
+      "duration": 1.76,
+      "text": "when you create a poster how do you make",
+      "timestamp": "08:39"
+    },
+    {
+      "start": 521.599,
+      "duration": 2.56,
+      "text": "sure that all these uh typographies",
+      "timestamp": "08:41"
+    },
+    {
+      "start": 524.159,
+      "duration": 2.8,
+      "text": "typography is appropriate created",
+      "timestamp": "08:44"
+    },
+    {
+      "start": 526.959,
+      "duration": 1.761,
+      "text": "according to your instruction and then",
+      "timestamp": "08:46"
+    },
+    {
+      "start": 528.72,
+      "duration": 2.559,
+      "text": "how to make sure that the human uh",
+      "timestamp": "08:48"
+    },
+    {
+      "start": 531.279,
+      "duration": 2.881,
+      "text": "emotions or the details are actually",
+      "timestamp": "08:51"
+    },
+    {
+      "start": 534.16,
+      "duration": 2.16,
+      "text": "real enough so that customer don't feel",
+      "timestamp": "08:54"
+    },
+    {
+      "start": 536.32,
+      "duration": 2.56,
+      "text": "that as the AI so essentially uh as you",
+      "timestamp": "08:56"
+    },
+    {
+      "start": 538.88,
+      "duration": 1.76,
+      "text": "go to uh if you go to artificial",
+      "timestamp": "08:58"
+    },
+    {
+      "start": 540.64,
+      "duration": 3.04,
+      "text": "analysis today you'll find that text to",
+      "timestamp": "09:00"
+    },
+    {
+      "start": 543.68,
+      "duration": 2.08,
+      "text": "image models we are right now ranking",
+      "timestamp": "09:03"
+    },
+    {
+      "start": 545.76,
+      "duration": 1.44,
+      "text": "number one according to customers",
+      "timestamp": "09:05"
+    },
+    {
+      "start": 547.2,
+      "duration": 2.079,
+      "text": "feedback and then some of the highlights",
+      "timestamp": "09:07"
+    },
+    {
+      "start": 549.279,
+      "duration": 3.601,
+      "text": "is that uh we are um super good in the",
+      "timestamp": "09:09"
+    },
+    {
+      "start": 552.88,
+      "duration": 2.56,
+      "text": "portraits in the facial expressions in",
+      "timestamp": "09:12"
+    },
+    {
+      "start": 555.44,
+      "duration": 2.72,
+      "text": "the future real uh in the fantasy sci-fi",
+      "timestamp": "09:15"
+    },
+    {
+      "start": 558.16,
+      "duration": 2.88,
+      "text": "use cases uh and then the details are",
+      "timestamp": "09:18"
+    },
+    {
+      "start": 561.04,
+      "duration": 5.2,
+      "text": "actually really the um the human life",
+      "timestamp": "09:21"
+    },
+    {
+      "start": 566.24,
+      "duration": 2.0,
+      "text": "so these are some of the CA um the",
+      "timestamp": "09:26"
+    },
+    {
+      "start": 568.24,
+      "duration": 2.48,
+      "text": "samples on the left hand uh on your left",
+      "timestamp": "09:28"
+    },
+    {
+      "start": 570.72,
+      "duration": 2.32,
+      "text": "hand side um that is the posters that we",
+      "timestamp": "09:30"
+    },
+    {
+      "start": 573.04,
+      "duration": 1.84,
+      "text": "have generated so there is a feature",
+      "timestamp": "09:33"
+    },
+    {
+      "start": 574.88,
+      "duration": 2.639,
+      "text": "that to ensure all your text no matter",
+      "timestamp": "09:34"
+    },
+    {
+      "start": 577.519,
+      "duration": 2.561,
+      "text": "what language is actually accurately",
+      "timestamp": "09:37"
+    },
+    {
+      "start": 580.08,
+      "duration": 3.199,
+      "text": "generated with all the typographies um",
+      "timestamp": "09:40"
+    },
+    {
+      "start": 583.279,
+      "duration": 2.0,
+      "text": "and then on the on your right hand side",
+      "timestamp": "09:43"
+    },
+    {
+      "start": 585.279,
+      "duration": 2.401,
+      "text": "no matter the sports scene or the uh",
+      "timestamp": "09:45"
+    },
+    {
+      "start": 587.68,
+      "duration": 2.719,
+      "text": "human facial expressions and then the",
+      "timestamp": "09:47"
+    },
+    {
+      "start": 590.399,
+      "duration": 1.761,
+      "text": "sports motions and even the",
+      "timestamp": "09:50"
+    },
+    {
+      "start": 592.16,
+      "duration": 2.08,
+      "text": "multi-objects if you look at the family",
+      "timestamp": "09:52"
+    },
+    {
+      "start": 594.24,
+      "duration": 2.56,
+      "text": "over there so all these are actually",
+      "timestamp": "09:54"
+    },
+    {
+      "start": 596.8,
+      "duration": 2.159,
+      "text": "properly generated with all these",
+      "timestamp": "09:56"
+    },
+    {
+      "start": 598.959,
+      "duration": 2.961,
+      "text": "physical realistic things",
+      "timestamp": "09:58"
+    },
+    {
+      "start": 601.92,
+      "duration": 2.96,
+      "text": "so um so that is the image generation",
+      "timestamp": "10:01"
+    },
+    {
+      "start": 604.88,
+      "duration": 2.72,
+      "text": "and next I want to show you some of the",
+      "timestamp": "10:04"
+    },
+    {
+      "start": 607.6,
+      "duration": 3.2,
+      "text": "video generations so uh video generation",
+      "timestamp": "10:07"
+    },
+    {
+      "start": 610.8,
+      "duration": 2.4,
+      "text": "that is the um that is called the seed",
+      "timestamp": "10:10"
+    },
+    {
+      "start": 613.2,
+      "duration": 3.12,
+      "text": "dense 1.0 so that is just released last",
+      "timestamp": "10:13"
+    },
+    {
+      "start": 616.32,
+      "duration": 2.56,
+      "text": "week and then the once it is released it",
+      "timestamp": "10:16"
+    },
+    {
+      "start": 618.88,
+      "duration": 3.92,
+      "text": "ranked up into world's number one um um",
+      "timestamp": "10:18"
+    },
+    {
+      "start": 622.8,
+      "duration": 2.719,
+      "text": "this week so um I will show you how that",
+      "timestamp": "10:22"
+    },
+    {
+      "start": 625.519,
+      "duration": 2.081,
+      "text": "looks like",
+      "timestamp": "10:25"
+    },
+    {
+      "start": 627.6,
+      "duration": 3.359,
+      "text": "so um as you can see in some of the",
+      "timestamp": "10:27"
+    },
+    {
+      "start": 630.959,
+      "duration": 2.56,
+      "text": "challenges in the creating videos so uh",
+      "timestamp": "10:30"
+    },
+    {
+      "start": 633.519,
+      "duration": 3.041,
+      "text": "simulating um so the multi- camera",
+      "timestamp": "10:33"
+    },
+    {
+      "start": 636.56,
+      "duration": 1.76,
+      "text": "consistency the consistency of the",
+      "timestamp": "10:36"
+    },
+    {
+      "start": 638.32,
+      "duration": 2.8,
+      "text": "objects are crucial so if you look at",
+      "timestamp": "10:38"
+    },
+    {
+      "start": 641.12,
+      "duration": 3.68,
+      "text": "this video the boxing",
+      "timestamp": "10:41"
+    },
+    {
+      "start": 644.8,
+      "duration": 1.76,
+      "text": "so there are two people there so that is",
+      "timestamp": "10:44"
+    },
+    {
+      "start": 646.56,
+      "duration": 2.399,
+      "text": "multi-objects and then there are two",
+      "timestamp": "10:46"
+    },
+    {
+      "start": 648.959,
+      "duration": 2.401,
+      "text": "cameras one is the uh far camera one is",
+      "timestamp": "10:48"
+    },
+    {
+      "start": 651.36,
+      "duration": 2.56,
+      "text": "a closed camera so all these cameras are",
+      "timestamp": "10:51"
+    },
+    {
+      "start": 653.92,
+      "duration": 2.0,
+      "text": "actually following the same backgrounds",
+      "timestamp": "10:53"
+    },
+    {
+      "start": 655.92,
+      "duration": 2.56,
+      "text": "and the same scene so that is something",
+      "timestamp": "10:55"
+    },
+    {
+      "start": 658.48,
+      "duration": 2.64,
+      "text": "that is something uh we have resolved uh",
+      "timestamp": "10:58"
+    },
+    {
+      "start": 661.12,
+      "duration": 2.0,
+      "text": "perfectly and then if you look at the",
+      "timestamp": "11:01"
+    },
+    {
+      "start": 663.12,
+      "duration": 2.32,
+      "text": "robots over there so the robots is",
+      "timestamp": "11:03"
+    },
+    {
+      "start": 665.44,
+      "duration": 1.6,
+      "text": "actually uh where's the background and",
+      "timestamp": "11:05"
+    },
+    {
+      "start": 667.04,
+      "duration": 2.32,
+      "text": "if we take a closer look of the robots",
+      "timestamp": "11:07"
+    },
+    {
+      "start": 669.36,
+      "duration": 2.4,
+      "text": "and then the coming back that is that",
+      "timestamp": "11:09"
+    },
+    {
+      "start": 671.76,
+      "duration": 2.24,
+      "text": "has have a hyper consistency of all the",
+      "timestamp": "11:11"
+    },
+    {
+      "start": 674.0,
+      "duration": 2.24,
+      "text": "objects",
+      "timestamp": "11:14"
+    },
+    {
+      "start": 676.24,
+      "duration": 1.92,
+      "text": "and next example if I want to show you",
+      "timestamp": "11:16"
+    },
+    {
+      "start": 678.16,
+      "duration": 1.52,
+      "text": "some of the if I can show you some of",
+      "timestamp": "11:18"
+    },
+    {
+      "start": 679.68,
+      "duration": 4.8,
+      "text": "the uh sports so uh someone is skiing",
+      "timestamp": "11:19"
+    },
+    {
+      "start": 684.48,
+      "duration": 2.799,
+      "text": "when people ski all the backgrounds all",
+      "timestamp": "11:24"
+    },
+    {
+      "start": 687.279,
+      "duration": 3.12,
+      "text": "the large scale uh sports scenes fast uh",
+      "timestamp": "11:27"
+    },
+    {
+      "start": 690.399,
+      "duration": 1.921,
+      "text": "fast sports scenes it is generated",
+      "timestamp": "11:30"
+    },
+    {
+      "start": 692.32,
+      "duration": 2.32,
+      "text": "perfectly so that means uh it is",
+      "timestamp": "11:32"
+    },
+    {
+      "start": 694.64,
+      "duration": 2.56,
+      "text": "following all the physical uh physical",
+      "timestamp": "11:34"
+    },
+    {
+      "start": 697.2,
+      "duration": 2.8,
+      "text": "realistic rules that has nothing wrong",
+      "timestamp": "11:37"
+    },
+    {
+      "start": 700.0,
+      "duration": 3.6,
+      "text": "with the the the physical uh world and",
+      "timestamp": "11:40"
+    },
+    {
+      "start": 703.6,
+      "duration": 1.52,
+      "text": "then the last video I want to share with",
+      "timestamp": "11:43"
+    },
+    {
+      "start": 705.12,
+      "duration": 2.48,
+      "text": "you is the facial expression so uh this",
+      "timestamp": "11:45"
+    },
+    {
+      "start": 707.6,
+      "duration": 2.239,
+      "text": "this is something that shows the model",
+      "timestamp": "11:47"
+    },
+    {
+      "start": 709.839,
+      "duration": 1.841,
+      "text": "could follow the human instructions",
+      "timestamp": "11:49"
+    },
+    {
+      "start": 711.68,
+      "duration": 1.68,
+      "text": "perfectly with all the detail",
+      "timestamp": "11:51"
+    },
+    {
+      "start": 713.36,
+      "duration": 3.0,
+      "text": "instructions",
+      "timestamp": "11:53"
+    },
+    {
+      "start": 717.44,
+      "duration": 2.24,
+      "text": "if you look at the facial expressions um",
+      "timestamp": "11:57"
+    },
+    {
+      "start": 719.68,
+      "duration": 2.96,
+      "text": "the the the the level of the um the",
+      "timestamp": "11:59"
+    },
+    {
+      "start": 722.64,
+      "duration": 1.759,
+      "text": "level of the details of the facial",
+      "timestamp": "12:02"
+    },
+    {
+      "start": 724.399,
+      "duration": 3.44,
+      "text": "expression all these are actually um",
+      "timestamp": "12:04"
+    },
+    {
+      "start": 727.839,
+      "duration": 2.881,
+      "text": "perfectly generated so uh those are some",
+      "timestamp": "12:07"
+    },
+    {
+      "start": 730.72,
+      "duration": 2.08,
+      "text": "of the um examples of the video",
+      "timestamp": "12:10"
+    },
+    {
+      "start": 732.8,
+      "duration": 2.08,
+      "text": "generation and lastly I want to share",
+      "timestamp": "12:12"
+    },
+    {
+      "start": 734.88,
+      "duration": 3.04,
+      "text": "with you is about the the coding so uh",
+      "timestamp": "12:14"
+    },
+    {
+      "start": 737.92,
+      "duration": 2.32,
+      "text": "when you integrate all these into your",
+      "timestamp": "12:17"
+    },
+    {
+      "start": 740.24,
+      "duration": 2.56,
+      "text": "um into your applications um you have to",
+      "timestamp": "12:20"
+    },
+    {
+      "start": 742.8,
+      "duration": 2.4,
+      "text": "do coding so uh this is something that",
+      "timestamp": "12:22"
+    },
+    {
+      "start": 745.2,
+      "duration": 2.72,
+      "text": "has been uh adopted by 80% of our",
+      "timestamp": "12:25"
+    },
+    {
+      "start": 747.92,
+      "duration": 2.0,
+      "text": "developers and they help us to save a",
+      "timestamp": "12:27"
+    },
+    {
+      "start": 749.92,
+      "duration": 2.159,
+      "text": "lot of time every week so some of the",
+      "timestamp": "12:29"
+    },
+    {
+      "start": 752.079,
+      "duration": 2.081,
+      "text": "highlights over here is that uh um the",
+      "timestamp": "12:32"
+    },
+    {
+      "start": 754.16,
+      "duration": 1.359,
+      "text": "product is called a trade you can",
+      "timestamp": "12:34"
+    },
+    {
+      "start": 755.519,
+      "duration": 2.961,
+      "text": "download it today at the trade.ai.com uh",
+      "timestamp": "12:35"
+    },
+    {
+      "start": 758.48,
+      "duration": 3.599,
+      "text": "trade.ai um it is free at the moment um",
+      "timestamp": "12:38"
+    },
+    {
+      "start": 762.079,
+      "duration": 1.44,
+      "text": "so some of highlights is that the",
+      "timestamp": "12:42"
+    },
+    {
+      "start": 763.519,
+      "duration": 2.0,
+      "text": "builder mode so you can uh create an",
+      "timestamp": "12:43"
+    },
+    {
+      "start": 765.519,
+      "duration": 2.801,
+      "text": "entire project um and the real-time",
+      "timestamp": "12:45"
+    },
+    {
+      "start": 768.32,
+      "duration": 2.72,
+      "text": "coding completion and the rollback so if",
+      "timestamp": "12:48"
+    },
+    {
+      "start": 771.04,
+      "duration": 1.84,
+      "text": "you have another prompt and you decide",
+      "timestamp": "12:51"
+    },
+    {
+      "start": 772.88,
+      "duration": 1.6,
+      "text": "that you don't want to use the prompt",
+      "timestamp": "12:52"
+    },
+    {
+      "start": 774.48,
+      "duration": 2.08,
+      "text": "and go back to to the previous version",
+      "timestamp": "12:54"
+    },
+    {
+      "start": 776.56,
+      "duration": 2.399,
+      "text": "then you can choose to do that easily",
+      "timestamp": "12:56"
+    },
+    {
+      "start": 778.959,
+      "duration": 2.721,
+      "text": "and then the context understanding so if",
+      "timestamp": "12:58"
+    },
+    {
+      "start": 781.68,
+      "duration": 3.2,
+      "text": "you have your own uh design document or",
+      "timestamp": "13:01"
+    },
+    {
+      "start": 784.88,
+      "duration": 3.68,
+      "text": "your codebase or your APIs and so on um",
+      "timestamp": "13:04"
+    },
+    {
+      "start": 788.56,
+      "duration": 2.719,
+      "text": "you can just uh point the folders or the",
+      "timestamp": "13:08"
+    },
+    {
+      "start": 791.279,
+      "duration": 2.721,
+      "text": "file or documents as the context so that",
+      "timestamp": "13:11"
+    },
+    {
+      "start": 794.0,
+      "duration": 2.079,
+      "text": "it will do the coding accordingly and",
+      "timestamp": "13:14"
+    },
+    {
+      "start": 796.079,
+      "duration": 1.681,
+      "text": "last but not least you create your own",
+      "timestamp": "13:16"
+    },
+    {
+      "start": 797.76,
+      "duration": 2.4,
+      "text": "coding agents so for every file you can",
+      "timestamp": "13:17"
+    },
+    {
+      "start": 800.16,
+      "duration": 3.28,
+      "text": "have a prompt you can have a um have the",
+      "timestamp": "13:20"
+    },
+    {
+      "start": 803.44,
+      "duration": 2.8,
+      "text": "um the documents you have create a rack",
+      "timestamp": "13:23"
+    },
+    {
+      "start": 806.24,
+      "duration": 2.32,
+      "text": "for every um every file that in your",
+      "timestamp": "13:26"
+    },
+    {
+      "start": 808.56,
+      "duration": 2.399,
+      "text": "project so it is basically creating your",
+      "timestamp": "13:28"
+    },
+    {
+      "start": 810.959,
+      "duration": 1.841,
+      "text": "own agents to follow or your own",
+      "timestamp": "13:30"
+    },
+    {
+      "start": 812.8,
+      "duration": 3.039,
+      "text": "instructions so um that is some of the",
+      "timestamp": "13:32"
+    },
+    {
+      "start": 815.839,
+      "duration": 1.68,
+      "text": "things I want to share with you that I",
+      "timestamp": "13:35"
+    },
+    {
+      "start": 817.519,
+      "duration": 1.76,
+      "text": "hope you find this you find something",
+      "timestamp": "13:37"
+    },
+    {
+      "start": 819.279,
+      "duration": 4.401,
+      "text": "new from byplus um so uh the in so from",
+      "timestamp": "13:39"
+    },
+    {
+      "start": 823.68,
+      "duration": 1.68,
+      "text": "the last",
+      "timestamp": "13:43"
+    },
+    {
+      "start": 825.36,
+      "duration": 1.919,
+      "text": "so lastly",
+      "timestamp": "13:45"
+    },
+    {
+      "start": 827.279,
+      "duration": 2.8,
+      "text": "this is uh the QR code that you can log",
+      "timestamp": "13:47"
+    },
+    {
+      "start": 830.079,
+      "duration": 2.56,
+      "text": "into our website and experience some of",
+      "timestamp": "13:50"
+    },
+    {
+      "start": 832.639,
+      "duration": 2.241,
+      "text": "the things from today's presentation and",
+      "timestamp": "13:52"
+    },
+    {
+      "start": 834.88,
+      "duration": 2.0,
+      "text": "then we have a booth outside just at the",
+      "timestamp": "13:54"
+    },
+    {
+      "start": 836.88,
+      "duration": 1.92,
+      "text": "entrance of the hall so uh you are more",
+      "timestamp": "13:56"
+    },
+    {
+      "start": 838.8,
+      "duration": 2.159,
+      "text": "than welcome to uh come over and we have",
+      "timestamp": "13:58"
+    },
+    {
+      "start": 840.959,
+      "duration": 2.081,
+      "text": "a we have a more detailed chats about",
+      "timestamp": "14:00"
+    },
+    {
+      "start": 843.04,
+      "duration": 4.919,
+      "text": "all these things all right thank you",
+      "timestamp": "14:03"
+    }
+  ],
+  "extraction_timestamp": "2025-06-29T21:04:35.356879",
+  "playlist_title": "SuperAI Singapore 2025: WEKA Stage"
+}

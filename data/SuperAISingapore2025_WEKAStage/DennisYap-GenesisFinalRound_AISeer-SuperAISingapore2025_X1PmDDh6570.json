@@ -1,0 +1,1415 @@
+{
+  "video_id": "X1PmDDh6570",
+  "video_title": "Dennis Yap - Genesis Final Round: AI Seer - SuperAI Singapore 2025",
+  "video_url": "https://www.youtube.com/watch?v=X1PmDDh6570",
+  "channel_title": "SuperAI",
+  "published_at": "2025-06-25T06:27:26+00:00",
+  "duration_seconds": null,
+  "view_count": 12,
+  "like_count": 0,
+  "description": "Learn more about SuperAI: superai.com\nFollow us on X: x.com/superai_conf\n\nGenesis Final Round: AI Seer\n\nSpeaker:\nDennis Yap, Founder and CEO @ AI Seer\n\nStage: WEKA Stage\n#superai #aiseer #startups #competition #ai\n\nRecorded on 19 June 2025",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 232,
+    "aggregated_text": "i'm very glad to be here good morning everybody um yesterday we talked a lot about our fact checker today we're going to talk more about our lie detector our contactless polygraph um just to cover some ground the judges asked who are our users this is a sample of the professionals who are using our technology um they are very uh like champions and early adopters um this is some of the academics who want to use our technology to uh stop disinformation um so yeah these are our partners we're going to we're in the running to get 250k uh grant from n us to license out more of their deep technologies soon um yeah and uh we've already have uh more than i think 5,000 rr from our new product even though we just launched it and um b2b we have shirley and s uh shirley exited a b2g company uh s just exited his b2b ai company to help us in this journey uh yeah and yesterday we left uh off with her um can you tell us a secret so she's caught by surprise and she has to think of the truth the lie and what you're going to believe and this is generating a lot of cognitive load which is causing her pills to dilate i don't have many secrets i'm yeah of course you know she had a lot of secrets uh so what do you do when people are lying about weapons or mass destruction or putin saying that i'm not going to invade ukraine so that's very intentional lies right malin information um which we haven't covered yet this is our bioengineering product that's been r&d for about four years and we're going to talk about bit about it is to bring a contactless polygraph i know it's kind of scary um we are 10x less random than our the the traditional polygraph machine wouldn't you prefer that the polygraph machine isn't so random yeah i think we talked to some uh um deep state agents and they're like the polygraph machine isn't very good so yeah this is uh our journey um and uh we've run a lot of experiments uh we've talked to all the expert polygraphers in asia we're the only polygraph company in asia this is our cto hi i'm shah rashid the cto of air at the ice here we've conducted over 500 experimental sessions both in lab and live to deeply explore lie detection with the help of dr jamin bai we extensively analyzed all the physiological signals such as electromal activity pupil dilation facial temperature variations and heart rate in our research we discovered that the pupil dilation which can be measured contactlessly and eda were the most significant physiological markers in a control lab setting this system is currently being trial by a police academy close to japan but physiological signals are just one piece of the puzzle through our extensive review of existing literature and in-house experiments we identified several behavioral indicators that might further enhance lie detection and allow us to operate on any video here is chris watts who tragically killed his family and lied about it displaying a clear lip press when asked directly about their disappearance similarly actor andrew garfield showed a notable lip press when lying about his involvement in the next spider-man film shoulder shrugs often indicative of uncertainty or deception shoulder shrugs can subtly betray hidden knowledge or dishonesty chin raises raising the chin can sometimes signal defensiveness there are countless examples of such indicators showing up in interviews in the wild and it is not possible for us to find each and everyone that's why we believe in rewarding community contributions our award-winning multimedia fact checker factasy.ai recognized by time as one of the best inventions of 2024 for our presidential debate fact-checking which we did live much quicker than other media outlets now this technology isn't just for verifying facts it's also instrumental in labeling videos capturing moments of deception by public figures our computer vision models allow us to extract highquality behavioral and physiological signals and facicity provides approximate ground truth that's why we're launching a token designed to compensate users who provide evidence for our fact checker and also helps moderate high-risk fact checks yeah so uh we can teach tell you more about how we are creating the world's best uh deception detection data set and uh yeah thank you for your time hey thanks for that and good to see that again um today we got to see a little bit more about this deception detector uh one question there i wanted to just understand kind of where you see the business here what would be your customers and an additional question i would have what about ai generated videos for example so one of the things that's really important right now is can i detect if something has been ai generated is that something you're looking at right so that's a great question um so we are trying to catch deeply fake people not deep fakes uh but of course u some of our algorithms um can do hard heart rate measurements so if they look abnormal for a human being of course we can pick that out but we are mainly focused on the substance the substance of the content not the formal appearance of uh videos yeah and so who would be your potential customers here uh since you need to be physically present to this deception so uh virtuals is very interested in helping us launch your token and uh a lot of people ask want to fact check like whether elon is intentionally lying and uh things like that so uh you can tag our board uh when we have the virtual lie detector up uh so you can earn tokens for factecking elon when he's spreading fake news on x uh yeah and uh yeah so uh tim tim has helped us advertise for these uh things uh and uh uh the next step is to make it web three uh orientated so um yeah uh this is might be your last chance to invest in us before we go viral in the web tree world uh before tim and everyone else takes the the equity uh but yeah so virtuals is uh and the web tree community are very hyped about our agent to fact check anything or lie detect anything on x yeah so that's one angle that that we're we're trying exploring but also as mentioned earlier we have all those like oen people paying us hard cash as well yeah hey dennis um i've got two questions today so one is you've presented two products one is the textbased factchecking we saw that yesterday today is the um humanbased deception checking is that right there's two yeah which one do you believe is going to be disruptive of course lie detection is very disruptive right like let's say you know i fact check i i i lie detect putin saying i'm not going to invade ukraine then you know the kgb might come after me tomorrow right so or even before we can do that so it needs to be decentralized that's why we're putting the agent on the chain um so that you know it it even they blow up our office the thing will still run yeah okay thank you so i'd like to talk a little bit more then about this deception checking model or what's on the back end so i saw you had talked a little bit about the research that you guys are doing um what is the proprietary element so uh our team has dr tamai who work for silicon valley uh unicorn um um you saw elizabeth's home's eyes right she's is is dark blue eyes whereas with my eyes they're small they're black almost impossible to pick out with rgb camera so so that's the deep tech we are building uh that's the biggest indicator so the traditional polygraph with the heart rate and respiration doesn't work as well as as the pupils yeah i just want to check on your product the factchecking uh tool um i saw that it was in real time and um how are you sort of uh so is it is is there an algorithm that you use or because you mentioned that you wanted to decentralize it and get humans to fact check it so how how is this going to be um incorporated right uh that's a great question um so the humans will deploy our fact checker x like they'll they'll tag us like grock or plexity to do a fact check and then they'll get rewarded for tokens for for spreading real news and then um yeah uh the other part of your question was sorry uh so you you have a real time fact checker right which i i assume that's yeah and then they label it also so that if they think the the fact check is good they they or uh addit so that's a community and data flywheel we're building and they'll get rewarded for helping us label all the data which is already what's happening on our platform okay thank you dennis",
+    "text_length": 8439,
+    "word_count": 1567
+  },
+  "segments": [
+    {
+      "start": 8.8,
+      "duration": 2.64,
+      "text": "i'm very glad to be here good morning",
+      "timestamp": "00:08"
+    },
+    {
+      "start": 11.44,
+      "duration": 3.119,
+      "text": "everybody um yesterday we talked a lot",
+      "timestamp": "00:11"
+    },
+    {
+      "start": 14.559,
+      "duration": 2.161,
+      "text": "about our fact checker today we're going",
+      "timestamp": "00:14"
+    },
+    {
+      "start": 16.72,
+      "duration": 2.319,
+      "text": "to talk more about our lie detector our",
+      "timestamp": "00:16"
+    },
+    {
+      "start": 19.039,
+      "duration": 3.201,
+      "text": "contactless polygraph um just to cover",
+      "timestamp": "00:19"
+    },
+    {
+      "start": 22.24,
+      "duration": 1.84,
+      "text": "some ground the judges asked who are our",
+      "timestamp": "00:22"
+    },
+    {
+      "start": 24.08,
+      "duration": 2.24,
+      "text": "users this is a sample of the",
+      "timestamp": "00:24"
+    },
+    {
+      "start": 26.32,
+      "duration": 2.16,
+      "text": "professionals who are using our",
+      "timestamp": "00:26"
+    },
+    {
+      "start": 28.48,
+      "duration": 3.039,
+      "text": "technology um they are very uh like",
+      "timestamp": "00:28"
+    },
+    {
+      "start": 31.519,
+      "duration": 2.481,
+      "text": "champions and early adopters",
+      "timestamp": "00:31"
+    },
+    {
+      "start": 34.0,
+      "duration": 2.399,
+      "text": "um this is some of the academics who",
+      "timestamp": "00:34"
+    },
+    {
+      "start": 36.399,
+      "duration": 2.721,
+      "text": "want to use our technology",
+      "timestamp": "00:36"
+    },
+    {
+      "start": 39.12,
+      "duration": 2.72,
+      "text": "to uh stop disinformation",
+      "timestamp": "00:39"
+    },
+    {
+      "start": 41.84,
+      "duration": 2.8,
+      "text": "um so yeah these are our partners we're",
+      "timestamp": "00:41"
+    },
+    {
+      "start": 44.64,
+      "duration": 1.599,
+      "text": "going to we're in the running to get",
+      "timestamp": "00:44"
+    },
+    {
+      "start": 46.239,
+      "duration": 1.681,
+      "text": "250k",
+      "timestamp": "00:46"
+    },
+    {
+      "start": 47.92,
+      "duration": 2.24,
+      "text": "uh grant from n us to license out more",
+      "timestamp": "00:47"
+    },
+    {
+      "start": 50.16,
+      "duration": 4.079,
+      "text": "of their deep technologies soon um",
+      "timestamp": "00:50"
+    },
+    {
+      "start": 54.239,
+      "duration": 2.48,
+      "text": "yeah and uh we've already have uh more",
+      "timestamp": "00:54"
+    },
+    {
+      "start": 56.719,
+      "duration": 2.16,
+      "text": "than i think 5,000 rr from our new",
+      "timestamp": "00:56"
+    },
+    {
+      "start": 58.879,
+      "duration": 2.961,
+      "text": "product even though we just launched it",
+      "timestamp": "00:58"
+    },
+    {
+      "start": 61.84,
+      "duration": 5.52,
+      "text": "and um b2b we have shirley and s uh",
+      "timestamp": "01:01"
+    },
+    {
+      "start": 67.36,
+      "duration": 3.119,
+      "text": "shirley exited a b2g company uh s just",
+      "timestamp": "01:07"
+    },
+    {
+      "start": 70.479,
+      "duration": 3.281,
+      "text": "exited his b2b ai company to help us in",
+      "timestamp": "01:10"
+    },
+    {
+      "start": 73.76,
+      "duration": 2.56,
+      "text": "this journey uh yeah and yesterday we",
+      "timestamp": "01:13"
+    },
+    {
+      "start": 76.32,
+      "duration": 2.96,
+      "text": "left uh off with her",
+      "timestamp": "01:16"
+    },
+    {
+      "start": 79.28,
+      "duration": 2.96,
+      "text": "um can you tell us a secret\n so she's",
+      "timestamp": "01:19"
+    },
+    {
+      "start": 82.24,
+      "duration": 1.76,
+      "text": "caught by surprise and she has to think",
+      "timestamp": "01:22"
+    },
+    {
+      "start": 84.0,
+      "duration": 2.0,
+      "text": "of the truth the lie and what you're",
+      "timestamp": "01:24"
+    },
+    {
+      "start": 86.0,
+      "duration": 2.08,
+      "text": "going to believe and this is generating",
+      "timestamp": "01:26"
+    },
+    {
+      "start": 88.08,
+      "duration": 2.079,
+      "text": "a lot of cognitive load which is causing",
+      "timestamp": "01:28"
+    },
+    {
+      "start": 90.159,
+      "duration": 4.0,
+      "text": "her pills to dilate",
+      "timestamp": "01:30"
+    },
+    {
+      "start": 94.159,
+      "duration": 4.481,
+      "text": "i don't have many secrets i'm",
+      "timestamp": "01:34"
+    },
+    {
+      "start": 98.64,
+      "duration": 1.6,
+      "text": "yeah of course you know she had a lot of",
+      "timestamp": "01:38"
+    },
+    {
+      "start": 100.24,
+      "duration": 2.32,
+      "text": "secrets uh",
+      "timestamp": "01:40"
+    },
+    {
+      "start": 102.56,
+      "duration": 2.879,
+      "text": "so what do you do when people are lying",
+      "timestamp": "01:42"
+    },
+    {
+      "start": 105.439,
+      "duration": 3.36,
+      "text": "about weapons or mass destruction or",
+      "timestamp": "01:45"
+    },
+    {
+      "start": 108.799,
+      "duration": 1.921,
+      "text": "putin saying that i'm not going to",
+      "timestamp": "01:48"
+    },
+    {
+      "start": 110.72,
+      "duration": 3.399,
+      "text": "invade ukraine",
+      "timestamp": "01:50"
+    },
+    {
+      "start": 114.399,
+      "duration": 2.241,
+      "text": "so that's very intentional lies right",
+      "timestamp": "01:54"
+    },
+    {
+      "start": 116.64,
+      "duration": 2.88,
+      "text": "malin information um which we haven't",
+      "timestamp": "01:56"
+    },
+    {
+      "start": 119.52,
+      "duration": 2.8,
+      "text": "covered yet",
+      "timestamp": "01:59"
+    },
+    {
+      "start": 122.32,
+      "duration": 2.159,
+      "text": "this is our bioengineering product",
+      "timestamp": "02:02"
+    },
+    {
+      "start": 124.479,
+      "duration": 3.201,
+      "text": "that's been r&d for about four years and",
+      "timestamp": "02:04"
+    },
+    {
+      "start": 127.68,
+      "duration": 1.68,
+      "text": "we're going to talk about bit about it",
+      "timestamp": "02:07"
+    },
+    {
+      "start": 129.36,
+      "duration": 2.72,
+      "text": "is to bring a contactless polygraph i",
+      "timestamp": "02:09"
+    },
+    {
+      "start": 132.08,
+      "duration": 3.2,
+      "text": "know it's kind of scary um",
+      "timestamp": "02:12"
+    },
+    {
+      "start": 135.28,
+      "duration": 4.24,
+      "text": "we are 10x less random than our the the",
+      "timestamp": "02:15"
+    },
+    {
+      "start": 139.52,
+      "duration": 2.96,
+      "text": "traditional polygraph machine wouldn't",
+      "timestamp": "02:19"
+    },
+    {
+      "start": 142.48,
+      "duration": 1.759,
+      "text": "you prefer that the polygraph machine",
+      "timestamp": "02:22"
+    },
+    {
+      "start": 144.239,
+      "duration": 3.041,
+      "text": "isn't so random yeah i think we talked",
+      "timestamp": "02:24"
+    },
+    {
+      "start": 147.28,
+      "duration": 3.039,
+      "text": "to some uh um deep state agents and",
+      "timestamp": "02:27"
+    },
+    {
+      "start": 150.319,
+      "duration": 1.601,
+      "text": "they're like the polygraph machine isn't",
+      "timestamp": "02:30"
+    },
+    {
+      "start": 151.92,
+      "duration": 2.72,
+      "text": "very good",
+      "timestamp": "02:31"
+    },
+    {
+      "start": 154.64,
+      "duration": 5.28,
+      "text": "so yeah this is uh our journey um and uh",
+      "timestamp": "02:34"
+    },
+    {
+      "start": 159.92,
+      "duration": 2.959,
+      "text": "we've run a lot of experiments",
+      "timestamp": "02:39"
+    },
+    {
+      "start": 162.879,
+      "duration": 2.08,
+      "text": "uh we've talked to all the expert",
+      "timestamp": "02:42"
+    },
+    {
+      "start": 164.959,
+      "duration": 1.92,
+      "text": "polygraphers in asia we're the only",
+      "timestamp": "02:44"
+    },
+    {
+      "start": 166.879,
+      "duration": 3.281,
+      "text": "polygraph company in asia",
+      "timestamp": "02:46"
+    },
+    {
+      "start": 170.16,
+      "duration": 3.12,
+      "text": "this is our cto\n hi i'm shah rashid the",
+      "timestamp": "02:50"
+    },
+    {
+      "start": 173.28,
+      "duration": 2.16,
+      "text": "cto of air at the ice here we've",
+      "timestamp": "02:53"
+    },
+    {
+      "start": 175.44,
+      "duration": 2.72,
+      "text": "conducted over 500 experimental sessions",
+      "timestamp": "02:55"
+    },
+    {
+      "start": 178.16,
+      "duration": 3.359,
+      "text": "both in lab and live to deeply explore",
+      "timestamp": "02:58"
+    },
+    {
+      "start": 181.519,
+      "duration": 2.64,
+      "text": "lie detection with the help of dr jamin",
+      "timestamp": "03:01"
+    },
+    {
+      "start": 184.159,
+      "duration": 2.16,
+      "text": "bai we extensively analyzed all the",
+      "timestamp": "03:04"
+    },
+    {
+      "start": 186.319,
+      "duration": 2.881,
+      "text": "physiological signals such as electromal",
+      "timestamp": "03:06"
+    },
+    {
+      "start": 189.2,
+      "duration": 2.319,
+      "text": "activity pupil dilation facial",
+      "timestamp": "03:09"
+    },
+    {
+      "start": 191.519,
+      "duration": 2.321,
+      "text": "temperature variations and heart rate in",
+      "timestamp": "03:11"
+    },
+    {
+      "start": 193.84,
+      "duration": 1.759,
+      "text": "our research we discovered that the",
+      "timestamp": "03:13"
+    },
+    {
+      "start": 195.599,
+      "duration": 2.081,
+      "text": "pupil dilation which can be measured",
+      "timestamp": "03:15"
+    },
+    {
+      "start": 197.68,
+      "duration": 2.16,
+      "text": "contactlessly and eda were the most",
+      "timestamp": "03:17"
+    },
+    {
+      "start": 199.84,
+      "duration": 2.479,
+      "text": "significant physiological markers in a",
+      "timestamp": "03:19"
+    },
+    {
+      "start": 202.319,
+      "duration": 2.321,
+      "text": "control lab setting this system is",
+      "timestamp": "03:22"
+    },
+    {
+      "start": 204.64,
+      "duration": 1.92,
+      "text": "currently being trial by a police",
+      "timestamp": "03:24"
+    },
+    {
+      "start": 206.56,
+      "duration": 2.319,
+      "text": "academy close to japan but physiological",
+      "timestamp": "03:26"
+    },
+    {
+      "start": 208.879,
+      "duration": 2.72,
+      "text": "signals are just one piece of the puzzle",
+      "timestamp": "03:28"
+    },
+    {
+      "start": 211.599,
+      "duration": 2.081,
+      "text": "through our extensive review of existing",
+      "timestamp": "03:31"
+    },
+    {
+      "start": 213.68,
+      "duration": 2.72,
+      "text": "literature and in-house experiments we",
+      "timestamp": "03:33"
+    },
+    {
+      "start": 216.4,
+      "duration": 2.08,
+      "text": "identified several behavioral indicators",
+      "timestamp": "03:36"
+    },
+    {
+      "start": 218.48,
+      "duration": 2.08,
+      "text": "that might further enhance lie detection",
+      "timestamp": "03:38"
+    },
+    {
+      "start": 220.56,
+      "duration": 2.48,
+      "text": "and allow us to operate on any video",
+      "timestamp": "03:40"
+    },
+    {
+      "start": 223.04,
+      "duration": 1.68,
+      "text": "here is chris watts who tragically",
+      "timestamp": "03:43"
+    },
+    {
+      "start": 224.72,
+      "duration": 1.84,
+      "text": "killed his family and lied about it",
+      "timestamp": "03:44"
+    },
+    {
+      "start": 226.56,
+      "duration": 2.319,
+      "text": "displaying a clear lip press when asked",
+      "timestamp": "03:46"
+    },
+    {
+      "start": 228.879,
+      "duration": 1.841,
+      "text": "directly about their disappearance",
+      "timestamp": "03:48"
+    },
+    {
+      "start": 230.72,
+      "duration": 3.439,
+      "text": "similarly actor andrew garfield showed a",
+      "timestamp": "03:50"
+    },
+    {
+      "start": 234.159,
+      "duration": 2.08,
+      "text": "notable lip press when lying about his",
+      "timestamp": "03:54"
+    },
+    {
+      "start": 236.239,
+      "duration": 2.64,
+      "text": "involvement in the next spider-man film",
+      "timestamp": "03:56"
+    },
+    {
+      "start": 238.879,
+      "duration": 2.321,
+      "text": "shoulder shrugs often indicative of",
+      "timestamp": "03:58"
+    },
+    {
+      "start": 241.2,
+      "duration": 2.72,
+      "text": "uncertainty or deception shoulder shrugs",
+      "timestamp": "04:01"
+    },
+    {
+      "start": 243.92,
+      "duration": 2.08,
+      "text": "can subtly betray hidden knowledge or",
+      "timestamp": "04:03"
+    },
+    {
+      "start": 246.0,
+      "duration": 2.72,
+      "text": "dishonesty chin raises raising the chin",
+      "timestamp": "04:06"
+    },
+    {
+      "start": 248.72,
+      "duration": 2.64,
+      "text": "can sometimes signal defensiveness there",
+      "timestamp": "04:08"
+    },
+    {
+      "start": 251.36,
+      "duration": 1.68,
+      "text": "are countless examples of such",
+      "timestamp": "04:11"
+    },
+    {
+      "start": 253.04,
+      "duration": 2.08,
+      "text": "indicators showing up in interviews in",
+      "timestamp": "04:13"
+    },
+    {
+      "start": 255.12,
+      "duration": 2.079,
+      "text": "the wild and it is not possible for us",
+      "timestamp": "04:15"
+    },
+    {
+      "start": 257.199,
+      "duration": 2.88,
+      "text": "to find each and everyone that's why we",
+      "timestamp": "04:17"
+    },
+    {
+      "start": 260.079,
+      "duration": 1.761,
+      "text": "believe in rewarding community",
+      "timestamp": "04:20"
+    },
+    {
+      "start": 261.84,
+      "duration": 2.079,
+      "text": "contributions our award-winning",
+      "timestamp": "04:21"
+    },
+    {
+      "start": 263.919,
+      "duration": 2.641,
+      "text": "multimedia fact checker factasy.ai",
+      "timestamp": "04:23"
+    },
+    {
+      "start": 266.56,
+      "duration": 2.0,
+      "text": "recognized by time as one of the best",
+      "timestamp": "04:26"
+    },
+    {
+      "start": 268.56,
+      "duration": 2.8,
+      "text": "inventions of 2024 for our presidential",
+      "timestamp": "04:28"
+    },
+    {
+      "start": 271.36,
+      "duration": 2.08,
+      "text": "debate fact-checking which we did live",
+      "timestamp": "04:31"
+    },
+    {
+      "start": 273.44,
+      "duration": 2.319,
+      "text": "much quicker than other media outlets",
+      "timestamp": "04:33"
+    },
+    {
+      "start": 275.759,
+      "duration": 1.601,
+      "text": "now this technology isn't just for",
+      "timestamp": "04:35"
+    },
+    {
+      "start": 277.36,
+      "duration": 2.16,
+      "text": "verifying facts it's also instrumental",
+      "timestamp": "04:37"
+    },
+    {
+      "start": 279.52,
+      "duration": 2.239,
+      "text": "in labeling videos capturing moments of",
+      "timestamp": "04:39"
+    },
+    {
+      "start": 281.759,
+      "duration": 2.481,
+      "text": "deception by public figures our computer",
+      "timestamp": "04:41"
+    },
+    {
+      "start": 284.24,
+      "duration": 1.92,
+      "text": "vision models allow us to extract",
+      "timestamp": "04:44"
+    },
+    {
+      "start": 286.16,
+      "duration": 2.24,
+      "text": "highquality behavioral and physiological",
+      "timestamp": "04:46"
+    },
+    {
+      "start": 288.4,
+      "duration": 2.32,
+      "text": "signals and facicity provides",
+      "timestamp": "04:48"
+    },
+    {
+      "start": 290.72,
+      "duration": 1.6,
+      "text": "approximate ground truth that's why",
+      "timestamp": "04:50"
+    },
+    {
+      "start": 292.32,
+      "duration": 2.159,
+      "text": "we're launching a token designed to",
+      "timestamp": "04:52"
+    },
+    {
+      "start": 294.479,
+      "duration": 2.241,
+      "text": "compensate users who provide evidence",
+      "timestamp": "04:54"
+    },
+    {
+      "start": 296.72,
+      "duration": 2.16,
+      "text": "for our fact checker and also helps",
+      "timestamp": "04:56"
+    },
+    {
+      "start": 298.88,
+      "duration": 3.28,
+      "text": "moderate high-risk fact checks",
+      "timestamp": "04:58"
+    },
+    {
+      "start": 302.16,
+      "duration": 2.319,
+      "text": "yeah so uh we can teach tell you more",
+      "timestamp": "05:02"
+    },
+    {
+      "start": 304.479,
+      "duration": 2.0,
+      "text": "about how we are creating the world's",
+      "timestamp": "05:04"
+    },
+    {
+      "start": 306.479,
+      "duration": 3.761,
+      "text": "best uh deception detection data set and",
+      "timestamp": "05:06"
+    },
+    {
+      "start": 310.24,
+      "duration": 4.56,
+      "text": "uh yeah thank you for your time",
+      "timestamp": "05:10"
+    },
+    {
+      "start": 314.8,
+      "duration": 2.0,
+      "text": "hey thanks for that and good to see that",
+      "timestamp": "05:14"
+    },
+    {
+      "start": 316.8,
+      "duration": 2.16,
+      "text": "again um today we got to see a little",
+      "timestamp": "05:16"
+    },
+    {
+      "start": 318.96,
+      "duration": 2.239,
+      "text": "bit more about this deception detector",
+      "timestamp": "05:18"
+    },
+    {
+      "start": 321.199,
+      "duration": 1.761,
+      "text": "uh one question there i wanted to just",
+      "timestamp": "05:21"
+    },
+    {
+      "start": 322.96,
+      "duration": 2.4,
+      "text": "understand kind of where you see the",
+      "timestamp": "05:22"
+    },
+    {
+      "start": 325.36,
+      "duration": 1.2,
+      "text": "business here what would be your",
+      "timestamp": "05:25"
+    },
+    {
+      "start": 326.56,
+      "duration": 2.4,
+      "text": "customers and an additional question i",
+      "timestamp": "05:26"
+    },
+    {
+      "start": 328.96,
+      "duration": 2.72,
+      "text": "would have what about ai generated",
+      "timestamp": "05:28"
+    },
+    {
+      "start": 331.68,
+      "duration": 2.0,
+      "text": "videos for example so one of the things",
+      "timestamp": "05:31"
+    },
+    {
+      "start": 333.68,
+      "duration": 2.16,
+      "text": "that's really important right now is can",
+      "timestamp": "05:33"
+    },
+    {
+      "start": 335.84,
+      "duration": 2.16,
+      "text": "i detect if something has been ai",
+      "timestamp": "05:35"
+    },
+    {
+      "start": 338.0,
+      "duration": 1.12,
+      "text": "generated is that something you're",
+      "timestamp": "05:38"
+    },
+    {
+      "start": 339.12,
+      "duration": 2.56,
+      "text": "looking at\n right so that's a great",
+      "timestamp": "05:39"
+    },
+    {
+      "start": 341.68,
+      "duration": 3.6,
+      "text": "question um so we are trying to catch",
+      "timestamp": "05:41"
+    },
+    {
+      "start": 345.28,
+      "duration": 4.32,
+      "text": "deeply fake people not deep fakes uh but",
+      "timestamp": "05:45"
+    },
+    {
+      "start": 349.6,
+      "duration": 2.879,
+      "text": "of course u some of our algorithms",
+      "timestamp": "05:49"
+    },
+    {
+      "start": 352.479,
+      "duration": 2.401,
+      "text": "um can do hard heart rate measurements",
+      "timestamp": "05:52"
+    },
+    {
+      "start": 354.88,
+      "duration": 1.759,
+      "text": "so if they look abnormal for a human",
+      "timestamp": "05:54"
+    },
+    {
+      "start": 356.639,
+      "duration": 2.161,
+      "text": "being of course we can pick that out but",
+      "timestamp": "05:56"
+    },
+    {
+      "start": 358.8,
+      "duration": 2.16,
+      "text": "we are mainly focused on the substance",
+      "timestamp": "05:58"
+    },
+    {
+      "start": 360.96,
+      "duration": 2.0,
+      "text": "the substance of the content not the",
+      "timestamp": "06:00"
+    },
+    {
+      "start": 362.96,
+      "duration": 4.0,
+      "text": "formal appearance of uh videos yeah\n and",
+      "timestamp": "06:02"
+    },
+    {
+      "start": 366.96,
+      "duration": 2.4,
+      "text": "so who would be your potential customers",
+      "timestamp": "06:06"
+    },
+    {
+      "start": 369.36,
+      "duration": 1.839,
+      "text": "here uh since you need to be physically",
+      "timestamp": "06:09"
+    },
+    {
+      "start": 371.199,
+      "duration": 2.801,
+      "text": "present to this deception\n so uh virtuals",
+      "timestamp": "06:11"
+    },
+    {
+      "start": 374.0,
+      "duration": 1.44,
+      "text": "is very interested in helping us launch",
+      "timestamp": "06:14"
+    },
+    {
+      "start": 375.44,
+      "duration": 3.199,
+      "text": "your token and uh a lot of people ask",
+      "timestamp": "06:15"
+    },
+    {
+      "start": 378.639,
+      "duration": 2.161,
+      "text": "want to fact check like whether elon is",
+      "timestamp": "06:18"
+    },
+    {
+      "start": 380.8,
+      "duration": 2.959,
+      "text": "intentionally lying and uh things like",
+      "timestamp": "06:20"
+    },
+    {
+      "start": 383.759,
+      "duration": 3.841,
+      "text": "that so uh you can tag our board uh when",
+      "timestamp": "06:23"
+    },
+    {
+      "start": 387.6,
+      "duration": 3.039,
+      "text": "we have the virtual lie detector up uh",
+      "timestamp": "06:27"
+    },
+    {
+      "start": 390.639,
+      "duration": 2.081,
+      "text": "so you can earn tokens for factecking",
+      "timestamp": "06:30"
+    },
+    {
+      "start": 392.72,
+      "duration": 3.12,
+      "text": "elon when he's spreading fake news on x",
+      "timestamp": "06:32"
+    },
+    {
+      "start": 395.84,
+      "duration": 4.639,
+      "text": "uh yeah and uh yeah so uh tim tim has",
+      "timestamp": "06:35"
+    },
+    {
+      "start": 400.479,
+      "duration": 3.28,
+      "text": "helped us advertise for these uh things",
+      "timestamp": "06:40"
+    },
+    {
+      "start": 403.759,
+      "duration": 2.961,
+      "text": "uh and uh uh the next step is to make it",
+      "timestamp": "06:43"
+    },
+    {
+      "start": 406.72,
+      "duration": 5.44,
+      "text": "web three uh orientated so um yeah uh",
+      "timestamp": "06:46"
+    },
+    {
+      "start": 412.16,
+      "duration": 1.52,
+      "text": "this is might be your last chance to",
+      "timestamp": "06:52"
+    },
+    {
+      "start": 413.68,
+      "duration": 2.16,
+      "text": "invest in us before we go viral in the",
+      "timestamp": "06:53"
+    },
+    {
+      "start": 415.84,
+      "duration": 2.639,
+      "text": "web tree world uh before tim and",
+      "timestamp": "06:55"
+    },
+    {
+      "start": 418.479,
+      "duration": 3.041,
+      "text": "everyone else takes the the equity uh",
+      "timestamp": "06:58"
+    },
+    {
+      "start": 421.52,
+      "duration": 2.48,
+      "text": "but yeah so virtuals is uh and the web",
+      "timestamp": "07:01"
+    },
+    {
+      "start": 424.0,
+      "duration": 2.639,
+      "text": "tree community are very hyped about our",
+      "timestamp": "07:04"
+    },
+    {
+      "start": 426.639,
+      "duration": 2.641,
+      "text": "agent to fact check anything or lie",
+      "timestamp": "07:06"
+    },
+    {
+      "start": 429.28,
+      "duration": 3.199,
+      "text": "detect anything on x yeah so that's one",
+      "timestamp": "07:09"
+    },
+    {
+      "start": 432.479,
+      "duration": 2.16,
+      "text": "angle that that we're we're trying",
+      "timestamp": "07:12"
+    },
+    {
+      "start": 434.639,
+      "duration": 1.921,
+      "text": "exploring",
+      "timestamp": "07:14"
+    },
+    {
+      "start": 436.56,
+      "duration": 2.24,
+      "text": "but also as mentioned earlier we have",
+      "timestamp": "07:16"
+    },
+    {
+      "start": 438.8,
+      "duration": 2.64,
+      "text": "all those like oen people paying us hard",
+      "timestamp": "07:18"
+    },
+    {
+      "start": 441.44,
+      "duration": 3.68,
+      "text": "cash as well yeah",
+      "timestamp": "07:21"
+    },
+    {
+      "start": 445.12,
+      "duration": 2.0,
+      "text": "hey dennis um i've got two questions",
+      "timestamp": "07:25"
+    },
+    {
+      "start": 447.12,
+      "duration": 3.44,
+      "text": "today so one is you've presented two",
+      "timestamp": "07:27"
+    },
+    {
+      "start": 450.56,
+      "duration": 2.4,
+      "text": "products one is the textbased",
+      "timestamp": "07:30"
+    },
+    {
+      "start": 452.96,
+      "duration": 2.16,
+      "text": "factchecking we saw that yesterday today",
+      "timestamp": "07:32"
+    },
+    {
+      "start": 455.12,
+      "duration": 2.88,
+      "text": "is the um humanbased deception checking",
+      "timestamp": "07:35"
+    },
+    {
+      "start": 458.0,
+      "duration": 2.319,
+      "text": "is that right there's two\n yeah which one",
+      "timestamp": "07:38"
+    },
+    {
+      "start": 460.319,
+      "duration": 4.241,
+      "text": "do you believe is going to be disruptive",
+      "timestamp": "07:40"
+    },
+    {
+      "start": 464.56,
+      "duration": 1.919,
+      "text": "of course lie detection is very",
+      "timestamp": "07:44"
+    },
+    {
+      "start": 466.479,
+      "duration": 2.401,
+      "text": "disruptive right like let's say you know",
+      "timestamp": "07:46"
+    },
+    {
+      "start": 468.88,
+      "duration": 2.24,
+      "text": "i fact check i i i lie detect putin",
+      "timestamp": "07:48"
+    },
+    {
+      "start": 471.12,
+      "duration": 2.4,
+      "text": "saying i'm not going to invade ukraine",
+      "timestamp": "07:51"
+    },
+    {
+      "start": 473.52,
+      "duration": 2.0,
+      "text": "then you know the kgb might come after",
+      "timestamp": "07:53"
+    },
+    {
+      "start": 475.52,
+      "duration": 3.679,
+      "text": "me tomorrow right so or even before we",
+      "timestamp": "07:55"
+    },
+    {
+      "start": 479.199,
+      "duration": 1.921,
+      "text": "can do that so it needs to be",
+      "timestamp": "07:59"
+    },
+    {
+      "start": 481.12,
+      "duration": 1.44,
+      "text": "decentralized that's why we're putting",
+      "timestamp": "08:01"
+    },
+    {
+      "start": 482.56,
+      "duration": 2.639,
+      "text": "the agent on the chain um so that you",
+      "timestamp": "08:02"
+    },
+    {
+      "start": 485.199,
+      "duration": 2.321,
+      "text": "know it it even they blow up our office",
+      "timestamp": "08:05"
+    },
+    {
+      "start": 487.52,
+      "duration": 2.56,
+      "text": "the thing will still run yeah",
+      "timestamp": "08:07"
+    },
+    {
+      "start": 490.08,
+      "duration": 1.679,
+      "text": "okay thank you so i'd like to talk a",
+      "timestamp": "08:10"
+    },
+    {
+      "start": 491.759,
+      "duration": 1.28,
+      "text": "little bit more then about this",
+      "timestamp": "08:11"
+    },
+    {
+      "start": 493.039,
+      "duration": 2.641,
+      "text": "deception checking model or what's on",
+      "timestamp": "08:13"
+    },
+    {
+      "start": 495.68,
+      "duration": 2.72,
+      "text": "the back end so i saw you had talked a",
+      "timestamp": "08:15"
+    },
+    {
+      "start": 498.4,
+      "duration": 1.519,
+      "text": "little bit about the research that you",
+      "timestamp": "08:18"
+    },
+    {
+      "start": 499.919,
+      "duration": 2.321,
+      "text": "guys are doing um what is the",
+      "timestamp": "08:19"
+    },
+    {
+      "start": 502.24,
+      "duration": 2.639,
+      "text": "proprietary element",
+      "timestamp": "08:22"
+    },
+    {
+      "start": 504.879,
+      "duration": 3.521,
+      "text": "so uh our team has dr tamai who work for",
+      "timestamp": "08:24"
+    },
+    {
+      "start": 508.4,
+      "duration": 4.96,
+      "text": "silicon valley uh unicorn um um you saw",
+      "timestamp": "08:28"
+    },
+    {
+      "start": 513.36,
+      "duration": 2.0,
+      "text": "elizabeth's home's eyes right she's is",
+      "timestamp": "08:33"
+    },
+    {
+      "start": 515.36,
+      "duration": 2.0,
+      "text": "is dark blue eyes whereas with my eyes",
+      "timestamp": "08:35"
+    },
+    {
+      "start": 517.36,
+      "duration": 1.84,
+      "text": "they're small they're black almost",
+      "timestamp": "08:37"
+    },
+    {
+      "start": 519.2,
+      "duration": 2.639,
+      "text": "impossible to pick out with rgb camera",
+      "timestamp": "08:39"
+    },
+    {
+      "start": 521.839,
+      "duration": 1.679,
+      "text": "so so that's the deep tech we are",
+      "timestamp": "08:41"
+    },
+    {
+      "start": 523.519,
+      "duration": 2.88,
+      "text": "building uh that's the biggest indicator",
+      "timestamp": "08:43"
+    },
+    {
+      "start": 526.399,
+      "duration": 1.761,
+      "text": "so the traditional polygraph with the",
+      "timestamp": "08:46"
+    },
+    {
+      "start": 528.16,
+      "duration": 1.52,
+      "text": "heart rate and respiration doesn't work",
+      "timestamp": "08:48"
+    },
+    {
+      "start": 529.68,
+      "duration": 3.12,
+      "text": "as well as as the pupils",
+      "timestamp": "08:49"
+    },
+    {
+      "start": 532.8,
+      "duration": 1.68,
+      "text": "yeah i just want to check on your",
+      "timestamp": "08:52"
+    },
+    {
+      "start": 534.48,
+      "duration": 3.68,
+      "text": "product the factchecking uh tool um i",
+      "timestamp": "08:54"
+    },
+    {
+      "start": 538.16,
+      "duration": 3.2,
+      "text": "saw that it was in real time and um how",
+      "timestamp": "08:58"
+    },
+    {
+      "start": 541.36,
+      "duration": 2.88,
+      "text": "are you sort of uh so is it is is there",
+      "timestamp": "09:01"
+    },
+    {
+      "start": 544.24,
+      "duration": 2.4,
+      "text": "an algorithm that you use or because you",
+      "timestamp": "09:04"
+    },
+    {
+      "start": 546.64,
+      "duration": 1.199,
+      "text": "mentioned that you wanted to",
+      "timestamp": "09:06"
+    },
+    {
+      "start": 547.839,
+      "duration": 2.161,
+      "text": "decentralize it and get humans to fact",
+      "timestamp": "09:07"
+    },
+    {
+      "start": 550.0,
+      "duration": 3.279,
+      "text": "check it so how how is this going to be",
+      "timestamp": "09:10"
+    },
+    {
+      "start": 553.279,
+      "duration": 2.161,
+      "text": "um incorporated",
+      "timestamp": "09:13"
+    },
+    {
+      "start": 555.44,
+      "duration": 4.0,
+      "text": "right uh that's a great question um so",
+      "timestamp": "09:15"
+    },
+    {
+      "start": 559.44,
+      "duration": 2.48,
+      "text": "the humans will deploy our fact checker",
+      "timestamp": "09:19"
+    },
+    {
+      "start": 561.92,
+      "duration": 2.0,
+      "text": "x like they'll they'll tag us like grock",
+      "timestamp": "09:21"
+    },
+    {
+      "start": 563.92,
+      "duration": 2.0,
+      "text": "or plexity to do a fact check and then",
+      "timestamp": "09:23"
+    },
+    {
+      "start": 565.92,
+      "duration": 2.96,
+      "text": "they'll get rewarded for tokens for for",
+      "timestamp": "09:25"
+    },
+    {
+      "start": 568.88,
+      "duration": 4.24,
+      "text": "spreading real news and then um yeah uh",
+      "timestamp": "09:28"
+    },
+    {
+      "start": 573.12,
+      "duration": 1.6,
+      "text": "the other part of your question was",
+      "timestamp": "09:33"
+    },
+    {
+      "start": 574.72,
+      "duration": 4.72,
+      "text": "sorry uh\n so you you have a real time",
+      "timestamp": "09:34"
+    },
+    {
+      "start": 579.44,
+      "duration": 2.56,
+      "text": "fact checker right which i i assume",
+      "timestamp": "09:39"
+    },
+    {
+      "start": 582.0,
+      "duration": 1.68,
+      "text": "that's\n yeah and then they label it also",
+      "timestamp": "09:42"
+    },
+    {
+      "start": 583.68,
+      "duration": 2.4,
+      "text": "so that if they think the the fact check",
+      "timestamp": "09:43"
+    },
+    {
+      "start": 586.08,
+      "duration": 2.56,
+      "text": "is good they they or uh addit so that's",
+      "timestamp": "09:46"
+    },
+    {
+      "start": 588.64,
+      "duration": 1.759,
+      "text": "a community and data flywheel we're",
+      "timestamp": "09:48"
+    },
+    {
+      "start": 590.399,
+      "duration": 1.281,
+      "text": "building and they'll get rewarded for",
+      "timestamp": "09:50"
+    },
+    {
+      "start": 591.68,
+      "duration": 1.68,
+      "text": "helping us label all the data which is",
+      "timestamp": "09:51"
+    },
+    {
+      "start": 593.36,
+      "duration": 3.2,
+      "text": "already what's happening on our platform",
+      "timestamp": "09:53"
+    },
+    {
+      "start": 596.56,
+      "duration": 4.04,
+      "text": "okay thank you dennis",
+      "timestamp": "09:56"
+    }
+  ],
+  "extraction_timestamp": "2025-06-29T21:04:35.402091",
+  "playlist_title": "SuperAI Singapore 2025: WEKA Stage"
+}

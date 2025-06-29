@@ -1,0 +1,2339 @@
+{
+  "video_id": "eXXcR9H3Gnk",
+  "video_title": "The Rise of AI Agents: A Glimpse Into Tomorrow's Economy - SuperAI Singapore 2025",
+  "video_url": "https://www.youtube.com/watch?v=eXXcR9H3Gnk",
+  "channel_title": "SuperAI",
+  "published_at": "2025-06-27T07:59:03+00:00",
+  "duration_seconds": null,
+  "view_count": 20,
+  "like_count": 0,
+  "description": "Learn more about SuperAI: superai.com\nFollow us on X: x.com/superai_conf\n\nPanel: The Rise of AI Agents: A Glimpse Into Tomorrow's Economy\n\nSpeakers:\nSwapnil Jain, Co-Founder and CEO @ Observe.AI\nTony Wang, Co-Founder and Chief Revenue Officer @ Agora\nValentin Bercovici, Chief AI Officer @ WEKA\n\nModerator:\nParker Lyman, Chief of Staff @ Manus AI\n\nStage: io.net Main Stage\n#superai #economy #aiagents #futureofai #futureofeconomy \n\nRecorded on 18 June 2025",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 386,
+    "aggregated_text": "ai agents It is on everybody's mind Lots of people are talking about it and uh we've got the experts here today It is an interesting time You know this AI agent is coming from science fiction into reality Many people are already using them Uh and let's get right to it I'm going to give you a bit more context on our guests here today all of whom are building different layers of the AI agent stack Starting with Swapnull Jane CEO co-founder of observe.ai which automates customer calls with voice AI augments human agents with real-time assistance and helps businesses improve their call center operations So Swapnell founded observe.ai in 2017 He's since grown the business to 350 enterprise customers 300 plus employees raised over $200 million and uh this is just a warm-up for Swabnil You can catch him on the stage again tomorrow where he'll be giving a keynote on AI agents in customer success Thank you very much for being here Swabnil Thank you for having me Next we have Tony Wong Tony is the co-founder chief revenue officer of Agora Agore provides the technology infrastructure that developers use to build real-time experiences like AI voice agents conversational AI applications He founded the business in 2015 took it public in 2020 and now serves thousands of customers in over a 100 companies This is a bit of a victory lap for Tony You know he already completed his keynote presentation this morning where he talked about beyond tokenization shaping the future of conversational AI excited to get a bit more into AI agents with you Tony Thank you And finally last but not least Val I uh had a similar presentation prepared for his background but right before we came up here he told me \"Hey shorten it Just let them know that I'm the chief AI officer and tell them that I'm building softwaredefined memory.\" That's intentionally vague We're going to leave that up to him to define for us here in a moment Uh and again you can catch Val on tomorrow's fireside chat unlocking the future of AI trends infrastructure and tokconomics Val thank you very much for being here Great to be here So let's get into it We've got the application layer with Swapnol We've got the communication infrastructure with Tony and we've got the data infrastructure with Val the complete AI agent technology stack And when people think AI agents I think future of work is question number one If AI agents are acting for all of us doing our work what are we going to do This brings us to an interesting prediction that I heard you make recently Swabnil You said that within 5 years over 50% of support calls will be fully automated by AI So with that in mind help us understand why AI agents matter so much right now what makes them different from previous automation and which industries are you seeing have the most transformative impact Yeah No absolutely So I think AI agents I'm I'm sure we all have heard that term probably hundred times in the day today Uh but this is very very different than the previous generation of software we have seen so far Software was meant uh built for humans to go ahead and execute a very specific task Let's say you know you're you're creating a report on Salesforce you go and you know go through 10 steps and report comes out Now AI agents are far far different Uh right earlier you would do small task and that's what the software does AI agents are capable of finding how to get to a goal So with AI agents you don't define sort of the substeps You say hey go and make me a coffee and AI agent will figure out that oh I need to grind the coffee beans I need to make an espresso Then I need to um get the milk froth the milk and make a capsu out of it right Uh so with what we are seeing with AI agents in customer service uh industry right customer service uh is an industry where you still do a lot of repetitive work uh we all call uh our banks and our healthcare companies setting up appointments cancelling a credit card and so on There's a lot of repetitive nature which makes it very very good for AI right AI is great at you know automating repetitive tasks and repetiting jobs u so with AI agents now what you can do is automate a lot of the customer service calls that you that today human agents do So when we call our banks today on the other side we see a human agent which is taking the call answering the on the queries Now with LLMs with AI agents with great speech to text with great text to speech you can have very very human sounding conversational empathetic AI agents which will talk to you understand what your problem is go and integrate with different systems in the back end and automate automate that workflow right So that's sort of like where I see the world is going to go We will need lot less customer service agents because a lot of that will be done by these AI agents who are who are capable of executing a task end to end without requiring humans to get involved at all And what does that look like on the ground today You've been serving call centers for many years You've watched them adopt large language model technology Now you're watching them deploy agents in real life What's actually happening when you say these jobs are now being done by agents Yeah So I think you know today um I'll use example of healthcare Uh in US healthcare there's tremendous amount of calls uh that we all make and receive Uh a lot of our customers in healthcare industry have are now using AI to make those calls Right Either if you get a call very likely it's an AI making you a call or if you're calling in to schedule an appointment cancel an appointment check if you know a certain doctor is in your uh benefits plan or not These are being handled by AI agents in production at scale The there's still a situation where I think we're not at a place where because LLMs by definition are nondeterministic in nature These are not deterministic systems Um you know there's still an error that happens with these systems You still see hallucination So what we are seeing is lot more simpler queries being automated by AI right but lot more complex for example if you're calling in saying hey let's you know my claim got denied now that is something you don't want AI to handle you want humans to be involved because that requires a lot more empathy it's far more complex and that's where we seeing humans get involved uh right but the more simpler ones tier one tier two basic simple calls we are seeing large enterprises in the US and healthcare financial services insurance using AI to automate those interactions now and and making it easier for consumers like us so we don't have to be on hold for way too long um or get transferred from my agent to another agent right right now Makes sense One more question for you Swapnull about AI voice agents I may be the only one here but uh transparently when I realize I'm talking to an agent my first action is to hang up the phone quite often What happens then Are your customers suffering with this And uh you know what's what's to be done about it So the example you gave is the previous generation of technology right So what you I would do that too Two years ago uh when I would be dealt with an AI agent someone sounding robotic but I would challenge you today that if I you know play a AI agent call right now you would not be able to distinguish if it is actually AI or a human Today the conversational nature of these AI agents right you would see the AI agents doing hm you know you would see them showing empathy They would use filler words right they sound so human from every aspect of what a human looks like that you actually cannot differentiate Secondly if these AI agents are able to solve your problems would you rather wait for 30 minutes to talk to a human or just talk to an AI agent and get your problem resolved So interestingly I would say if I again go back to two the the technology before 2 years before LLMs and generative AI came out the traditional NLU NLP technologies I think everyone did what you just said which is hang up ask for a human agent But now we are seeing the other way which is like as a consumer if I can get my problem solved with an agent I would love to do that And our consumers um are doing that right now Makes sense As we think about AI agents the future of work Tony maybe let's talk a bit about human AI collaboration from your perspective You have a unique view You serve thousands of developers They're building voice AI applications You know I've recently been amazed at the explosion with AI voice applications It seems like half of every recent YC batch is a AI voice agent Uh in prep for this panel I found there's a podcast called The Future of AI Voice and I couldn't believe how many episodes there were with different founders These are the people you're serving every day From your platform perspective Tony how do you see the relationship between humans and AI agents evolving maybe with a focus on voice AI Yeah I think the key thing to to actually re realize is AI is not just couple chips and bits of bites It's a new species Let's be very frank It's a new species enter into human communication right And up to this point human communication protocol has been designed for human to human where your brain handles 80% superconscious That 80% superconscious is undefined and unsolved not benchmarked And that's totally new right now in a productivity environment uh where observe AI is play I actually agree I think you cannot tell the difference right it's good enough it don't need five years I was thinking the time is now and I've been making some calls found of a demo apps we've been lab uh the effect is really good and the cost has been continue dropping dropping dropping right but when you're coming down to um a different arena uh you're talking about emotion right and then As we I say emotion it's a big you're talking about companionship as a toy you know uh for kids companionship as a senior people for the loved ones who passed away or just his older memory right companionship for all those things down to like 50 shades of different gray of companionship right uh that is actually very hard just give you one simple imagine you talk to Italian person when he cannot use his hand right that body language is missing half right And then you take away your camera you cannot say his impression you know what about read between the lines right What about all those like emotion stuff When you're taking those away there is no such a thing as emotion And as a thing I would say what people willing to pay most money for is for emotion That's what you pay most most money for And in a world when we are getting more and more lonely that is a part that you know we're trying to bring it to it even with custom service I think right now it's good enough to solve my transactional problem but sometimes I don't me I don't call custom service until I'm pissed right so really what I needed is you first calm me down before you solve my problem right so I would say the difference I mean right now it's just like get things done but into the next level is your agent will be able to sense the emotion and be able to you know kind of uh give customer more kind of comfort right and for that like why does because every airline example every airline operate on the same Boeing airbus but why there's so many different brand experience Singapore airline what's the difference it's the people it's what you feel inside right so I would say that is what we focus on and that's a very big uh stack of its own and We we're very lucky to be in this age to address this problem Yeah Very interesting AI agents as a new species as something with emotion When we think about what that means for the future of humans where do you see the impact being biggest in the short term Let's talk the next 6 months Oh six months I think six months not too much will happen I think would be his company will be taking more customer right Uh but if you look at the horizon much longer I I always think about this because everything I grew up with I don't know if it's no long it's still hold true Do you still go to college for computer science degree like I don't know like maybe yes I I don't know Do you still want to be a freelance designer Uh I don't know right is Fiverr be a Fiverr still a good job or like one of those uh uh you know freelance you know work remote actually this is like I think AI have a much bigger social impact than we thinking and you look at some of the economic that is built on BO operation right and you look at your company like I start doing more and more AI is my best co-pilot for writing everything do I really need another virtual assistant Do I really need another even assistant actually forget about virtual even assistant do I really need it So I actually don't know I think this might be a good time to take a pause and look at how this will impact society In the end of day you have the best AI but nobody can afford buying stuff I don't know like maybe this is too much thinking but uh you know when you're at the forefront you kind of sometime you wake up and get scared about where we are going but in the meantime you get very excited because everything is unknown uh it's like third industrial revolution for us val let's ground this conversation in some of the technical realities and talk agent architecture for a minute you're building tomorrow's AI factories you talked about the gap AI's hidden bottleneck compute powered data delivery But I'm also curious about the agent tech stack itself When you look at subtasks when you look at parallel model calls inference scaling technically what are the limitations for AI agents today And how does that affect what jobs AI agents can actually take over or you know whether or not they can exist with us as a new species as Tony says Yeah I love that question So it's really important to appreciate the scale at which all of this technology is operating at Some of you might have read if you follow like the news in the US this famous movie about ThreeMile Island this nuclear power plant in Philadelphia that had like an accident and 20 years ago was decommissioned Guess what's being brought back That nuclear power plant Because the demand for energy is literally nuclear power plant scale one gigawatt of energy at a time So that's one of the macro bottlenecks is there's just got to be an enormous amount of energy here to feed these giant AI data centers which Jensen from Nvidia likes to call AI factories Within those you've got to populate them with just enormous typically on the high end 100,000 GPUs graphical processing units You've got to network all that together You've got to have the memory for it the storage Uh so it's just uh volume you know volume of infrastructure to process a volume of data here is the number one thing to consider And a visual I like is if you've ever seen like a drone show lately you know that's replacing a lot of fireworks shows It's more fire friendly doesn't have you know as many wildfires and stuff like that When you actually see the drones either taking off or landing it's quite impressive because you're overwhelmed by the sheer number of drones So for AI agents it's the same thing right now no one when you actually make these things work when you power these these agents no one thinks of individual agents right and even like task oriented agents that create subtasks of worker agents it's best to think of you either not doing any kind of agentic work or if you are it's swarms of agents Yeah some massive amounts of parallel processing Um and we'll get to this a bit later on but that has implications not just in terms of having that raw energy that raw real estate that raw compute and horsepower What are the economics of it all right What are the token pricing trends That's like the fuel of the industry is tokens all these agentic apps you know uh you you have to figure out someone sitting there with a spreadsheet that you've all probably seen in terms of what are my costs per token and what can I charge my customer for all of the various goals and tasks to deliver what they want So these are the things we have to consider here and uh and you know we'll follow along with some more details later on with regards to specifics around the unit economics of what makes us all tick Yeah And what about from a technical security concern standpoint It makes sense that AI agents should be acting on behalf of users all across the web to do things for them But that brings up questions around authentication and much more What's keeping you up at night Social engineering right You know one of the like I come from a cyber security background and one of the biggest risks is not the encryption keys or future quantum computing and all that It's literally someone calling T-Mobile pretending they're you and doing a SIM swap taking over your phone number with just a phone call They're usually bribing an agent of T-Mobile nowadays to do that for you for like 200 bucks or whatever And then they own you right They've got your Gmail All of a sudden they can take over your crypto wallet at Coinbase All of a sudden you know they can take over your identity on social media And so agents with all sorts of agency that we give them today are relatively immature security-wise So it's not that difficult Unfortunately it's very easy to just find people in red teams or other kind of adver sales environments that can trick an agent into impersonating you into doing something quote unquote on your behalf that you didn't authorize So that's probably the number one thing that keeps you up at night And then there's more mundane things like how do you just do proper authentication You know is this my agent Is it really acting on my behalf or is it someone pretending to act on my behalf uh and when it's properly authenticated as acting on your behalf your digital twin so to say you know is it being authorized correctly Is it just allow it to do anything Just withdraw unlimited funds from your bank account or you know or drain all of your you know open open AAI tokens and stuff like that So uh there's there's plenty of issues to work on and this industry is moving so fast that uh like most fastmoving industries security is the last is is the last concern functionality gaining customers you know product productled traction is is the biggest concern So we just have to make sure we keep up you know and and and mitigate the obvious risks uh and learn all the new you know unimagined risks right now in an agentic world that we will learn through trial and error and and a lot of scars like we always do Makes sense Everybody in their dog is building an AI agent today but we're lucky to have some experts from all layers of the AI agent stack we can get down in the weeds in infrastructure Why don't we talk about it for a minute I know I'm asking you a lot but let's put you on the hot seat again Val Tell us about tokconomics like you mentioned How does unit economics affect AI agents today I think the simplest analogy is miles per gallon right Or nowadays with driving EVs it's like you know the the range range per charge If we're planning a road trip like we need to know how many miles kilometers we're going to get out of this charge before we go ahead It's the same thing when we're designing agentic systems It's like we need to understand how many tokens per second we can consume We need to understand what they cost So there's these two interesting overlapping trends right now And it's interesting you mentioned you know so so that the um two years ago we wouldn't have noticed oh today we don't notice Two years ago we would have noticed that we're talking to an agent And I I'm going to speculate that the reason that today the quality of your agents are so good is you're able to consume a lot more tokens affordably to deliver that quality experience And that's because the price of inference the cost of those tokens has plummeted about 100x So not 100% but one you know 10,000% 100x the cost of those tokens And like Jevans paradox that many of you might know the more you lower the cost of a very highquality commodity the more demand surges for that commodity And so it more than compensates for the lower cost Uh and being able to deliver all those tokens efficiently isn't just the raw horsepower I mentioned earlier on It's some very intelligent software that's always changing It's software in how we take the models we train That's called baking the cake in the industry and how we actually eat the cake how we run the models that's called inference There's an enormous amount of improvement in the engineering of these models Fortunately you know DeepSeek has has gained such notoriety in the industry not because they helped you know the NASDAQ lose a trillion dollars a few Mondays ago you know three months ago but because they're very transparent in the research of their models but how they operate them And they showed there's ways to just introduce enormous efficiencies at the infrastructure layer novel things like instead of having two separate clusters big GPU clusters often two data centers one for training one for inference Deep Seek said we can't afford that You know we're too we're too constrained on the actual GPUs we're allowed to own So we're going to combine that We're going to do the unprecedented and combine our clusters for training and inference on the same cluster And then we're actually going to you know have intelligent algorithms that overnight do just in time training but in the daytime do inference to bring in the revenue So lots of novel things that are happening on the engineering side Clever software software optimizations I won't bore the audience with all sorts of other cool open source projects that are that are out there But taglines like VLM that people might have heard of That's probably like the most popular open source project today because it's rapidly innovating and serving these models lowering the cost of the tokens and enabling amazing apps like we're hearing about today Tony I'd love to bring you into this conversation about the infrastructure You serve so many developers as you see them build AI agents in the field what breaks down and what can you tell us about trends when it comes to unit economics Yeah So I want to conquer one of what thing he said a lot of time people thinking about cost they believe it's belong to the CFO and accountant This is not this is actually you know I think every new technology has two phase right you have phase one that is more academic who can invent the most shining object but then you go to the second phase who can deliver with the most efficient basically and then that efficiency did not coming from CF efficiency coming from the innovation the algorithm right everything right all together uh controlling your stack from general purpose GPU to maybe the future of special purpose GPU We actually have a use case You probably have more data but I just talking with one of a potential customer I noticed it was if it was last year early last year the majority of the cost of uh getting a customer service AI based call might be on the model side and GPU side It's no longer it's actually more than 50% of its cost is actually on the emotional side of the TTS side of it Right where everything else you're talking about SIP trunking you know ST larger model GPU was only half of it right so uh and I think that's actually something very interesting so I I actually thinking we are almost at that place because consumer needs for example we just talk about yeah you you can hardly tell the difference but even if you tell difference so what it's not a companion it's not talking to a psychologist right so you are okay with it but it's good enough the open source is good enough very soon open source TTS would be good enough So you now go down to the cost Whoever can address this problem and by the way behind the cost there's some hidden stuff scale Scale right and then on top of skill there's another thing called stability If your infra was uh today was 1 second round trip tomorrow was 50 half a half a second it's actually cannot work because your productivity use case demand certain level of SLR right so that stability is very important so I I actually think that so much goes into efficiency and scalability and that is the phase we are in my personal opinion we are about to get into and uh you know the the real race has just begun from academic make now to the industry Let's get right into it Let's talk industry Let's talk how business models are changing and what the economic impact of these AI agents can be And I heard a hot take from Swapnull recently that I found quite interesting You know a lot of VCs and founders they're saying that AI agents need to take market share from services This makes sense to me especially with some of the eye watering valuations of the leading AI labs you know they need to make all of this revenue from somewhere someday Uh but Swapnell I heard you say that you don't believe in service as a software or in the AI of services specifically when it comes to contact centers So tell us what you mean by that You know why are you maybe thinking about things a bit differently Yeah I think a a good framework to think about cost scalability everything in from an application perspective is your AI agent is another employee Earlier you had or have these human employees right Now you have these AI employees AI agent you have an AI agent for marketing or you can go further deep down and say content marketing and then you have AI agent who is doing per performance marketing for you and then you have an AI agent who is doing customer service There's an AI agent for sales Um right So that's sort of like one big framework These are your employees who are executing who are capable of reasoning thinking taking decisions and executing something end to end So now you put that in the perspective of customer service uh right today you're you're customer service organization you have thousands of agents human agents I I'll keep saying that human agents right uh who are taking all these calls and chats and emails and now we think like a part of that will be done by AI agents um right the let's go to the concept itself So the concept is um when they talk about like service as a software So so far we have seen software as a service which is you know software companies like observe which is a software company are offering a service to the end customer we are a product company on the other side there are services companies like BPOS's you know like IT services companies like concentrics teleerformance Accenture Infosys of the world and the the argument that exists in the industry now are the two going to merge because the the current paradigm is you you use so a human uses a software to get the job done and we're moving to a paradigm where an AI agent gets the job done end to end right they don't care about the software or the services part so now there's a larger argument ment in the industry which is well as the end customer let's use an example bank of America cares about getting customer service done someone reaches out to them they want it resolved they don't care about the software or the people or who are the parties involved so now do we see a world where the the software and the services collide and these are obviously AI agents they will do things end to end and now there's a you know there's no software and there's no service it's like an outcome model right the customer only cares about the outcome what does Bank of America care about I want my chat query resolved that's that's all I care about and then on the other side you have these companies who are mixing services and software especially AI agents and then doing these things right so that's sort of like a paradigm that's being discussed right and I do think like we will see this paradigm very heavily in a lot of services industries like accountants lawyers uh where you know you when you think about you outsourcing to a law firm you really don't care about what software they're using you don't that you just want them to redline your document or generate your document ment now they could employ a AI agents on the other side to draft these documents Doesn't matter to you All you care about was the legal document Same thing is going to happen in industries like accounting um and other places I think we won't see this in customer service just yet Uh customer service is not yet an outcome model and that's what I was referring to with my point that I don't think we will see a service and software coming together in in customer service We will absolutely see that in other places like a law firm accounting firm and other other places like that I'd love to open this business model question up to you Tony and Val What are you seeing from your perspective AI agents are popping up in industry How is it changing business models for you or your customers I kind of fascinated by the pricing trends going on right now So the LLM industry got us all accustomed to the $20 a month price point Now we're seeing developers being wildly productive with Anthropic Claude and their their max pricing tier at about 200 bucks a month and combined with Cloud Code and theoretically unlimited tokens being very very productive I think as we go to see more and more domain specific agents we're not going to stop at about $2,000 a month for some of these agents because they're adding a lot of value We're going to start to get to $20,000 a month per agent And at that point that's pretty much the cost of a person you know a skilled person Now yes the agent can do a thousand times the same thing but it's not really replicating the same work That's the point of an agent right It's being context aware It's it's it's responding to the environment So I actually think instead of this this concern about losing a lot of jobs it's just we're going to start to see that truly valuable agents are expensive and we're going to start to unfortunately anthropomorphize them again and treat them like humans and co-workers in a sense There's already some articles some McKenzie style articles about there about people merging you know the IT department and the HR department And so uh we're getting into this just interesting world right now where there's so much value and we have to pay for this value but we have to figure out now you know it's not just a one for replacement of people for agents There's there's high value work here There's there's just a lot of lot of you know considerations when we're looking at such high value at at this associated cost That's That's not the cost we started with Tony what about you You've been in this game a while since AI agents are on the scene What are you seeing in terms of how it changes business models or where do you think you'll see business models change in the future Well yeah I've been thinking about this question myself I don't really have the exact answer but uh you know internet basically is a advertisement or e-commerce right I mean for most of the uh initial 10 20 years right So um I'm just wondering first of all talking about that one I do think there one difference over here is AI is scalable right uh you may have one or two key programmer if it's a human being you you're going to relocate him from Bangaro to Silicon Valley but with AI you you can really just skill it's a matter of money and you have ROI you can scale so but on the other end let's see if you are a model company and um you know model with deepseek and I think most model became uh commoditized in terms of good enough I'm not say there's no end to it there's always room to improve but for majority day-to-day use that there is a point called good enough and at that point like and you can scale right um what what how that would be actually frankly I don't have the exact answer and you have those new company new model company they trying to disrupt like yes a lot of people over here using chat GPT but even that amount of number compared to people using Google search on a daily basis it's probably small So Google can still easily defend itself right And since with uh you know traditional shopping companies it can easily defend itself So I actually thinking right now it's still early and that's actually the exciting part of it It's actually very early and we are all part of this chaos chaos right chaos system where a small thing over here even what you're doing could totally changing the outcome right the the man who started rally I mean couple months ago the agent and every everybody like wow agent can do so many things then just ask questions and this morning I think yesterday I saw a travel planning agent know the one I actually spent a lot of time on to plan the best kind of like routes right uh you're going to save me a lot of time So I think um right now it's relatively too early to say that because there's too many unknown right The only thing the only thing we we know for sure is if you're not embrace it you will be left behind and I don't think that's going to be friendly It is early Let's double click on the competitive aspect of the AI agent market You asked a question earlier that was very interesting Will the LLMs take it all I'd love for you to give us your thoughts on that and then maybe open it up to the rest of the panel here What do you think Is this a game for the LLMs to win So if we go back to the travel agent example right Um uh uh the key thing is can you get access to the current travel inventory amadas you know system like that right uh you know C chip or whatever other you know airline bulking system and do they allow your agent to do high frequency query right if you don't have that you're not going to be able to compete right so um and who has the most leverage on that side you know obviously Google uh how many how many we are already using Google flight search right I I actually thinking the only reason Google flight search don't book directly is because antitrust I mean if I have a choice there's no antitrust us I'm going to book every single trip and ticket on Google flight search right so then let's say Gemini enable that travel planning for you and that's end of it right now Gemini will probably have better position negotiate versus a five person startup company so I I'm actually in the camp of large model will eat it more aggressively swap what about you are you on the side of that fivep person startup trying to go to war with the models or do you share Tony's thoughts No I I don't share I disagree with him actually on this one Um I think my view is whenever there's a big technology shift right go back to maybe 20 years ago when we were moving from on premise to cloud the the very famous Oracle Salesforce battle then mobile came uh right and now and first generation of AI now we are the second generation of AI right people often think these waves are about technology that hey you know I've been a 20-year-old company I've been writing software uh I can hire 10 engineers and become an AI agent company I don't think it's ever about the technology it's about the mindset right I would argue that a five person company coming out of YC right they are so AI agent first as a DNA that a company like Google who has so much baggage as a company in thinking in operating in business model in rewards in incentives in every single thing that the 5% company will have a AI agent native DNA and they will outexecute these large companies right when we think about the the foundation models though right there I agree you know companies like open AI Gemini I mean all these will succeed read because it's a big capital play right but then when you think of a specific application stack a travel planner company a customer support AI company a coding I mean we all know about kurser right the company which took off right there small set of people right and because they came at the problem from an AI agent native mindset right so I actually agree like every every company out there every business model out there is actually is to be disrupted by a 5% company sitting out in Silicon Valley in their garage that's what I tell my company that guys there's there's some people out there who are plotting how to kill observe AI Uh right and how do we how do we not let that happen Bel you have an interesting take here I've heard you say that memory technology will determine the winners We're coming short on time but can you give us in 30 seconds why do you think that So when you actually examine how this technology works as economics the cost per token and so forth it comes down to this thing in inference called disagregated prefill technical term you don't have to worry too much about it but it's literally making sure that the GPU which is that most precious asset is doing the right thing at the right time And half the time it has to basically do something that's very computebound terms of transferring your prompt into its working memory its key value cache And then the other half of the time actually has to decode the model using the working memory to get the reasoning tokens to get the output tokens to literally feed the agents And that's a memory bound process And so right now we're not optimizing anything We're making these hundred billion dollar investments in these data centers and there's no assembly lines the way we're doing the inference Actually we're trying to do everything with one type of GPU mix these workloads So when you're able to disagregate the computebound stuff from the memorybound workloads you're able to actually introduce an assembly line surprisingly enough for the first time in this industry So it's as simple as the industry is finally having its model T moment and where you know we can't imagine a factory today without assembly lines We've been operating AI factories up until recently without assembly lines Memory is what enables us to implement assembly lines And we streamline the production of tokens because we can't make more nuclear power plants in the next five years We're often running out of real estate It's not easy to just get as many GPUs as you want But if you use that more efficiently and you solve the memory bottleneck you you unlock way more tokens you lower the price you enable much higher quality agents Final lightning round Let's talk to the audience here who's using these and trying to prepare for a future with AI agents One line from each of you What should the audience members do today to prepare for the future economy with AI agents Yeah I'll share what I share with most of the CIOS that I meet in in the US which is I think there's a lot of thinking that uh oh AI is not there yet Oh it's still hallucinate It's still it's not perfect right So there's a lot of companies and CIOS who are waiting on the sidelines for AI to get perfect Uh but the flavor of AI we are talking about today will actually never get perfect It's not by design it is not a deterministic technology right uh you can get to 99% accuracy 99.5 but if you're expecting this is like a fully deterministic 100% accurate system it's not the case so what I leave you with is start now uh and I again remind you there's a 5% company sitting in Silicon Valley disrupting all of you uh so either disrupt or be disrupted yeah I conquer about starting now part of it you know joining this conference is step one you're not competing with AI that's too fast you're competing with other people let the old jokers goes like you are in the forest with your friend as a beer chaser you Right You're not you're going to be run faster than the beer You're going to be run faster than the friend Right So that is what you're going to do Yeah And I keep it really practical You know there was a time when we used to like keep to-do lists and spreadsheets and manage all sorts of random things in spreadsheets not just budgets when Excel became like a really popular thing at work Do that with Cursor now It's free to to download Just download Cursor I have no stock in this company by the way so it's just honest advice And start to If you're not a coder don't code with it create powerpoints with it It generates slides you know manage your to-do list more efficiently with it Have it automatically respond to all of the emails the junk emails that you don't want to respond to Uh and focus on the emails you do care about from the key people But use cursor with English or your own natural language that it supports to do work Now use think of it as the 21st century spreadsheet and just get hands-on of where it works where it doesn't And you're going to be so much more valuable to your organization by just having that hands-on knowledge which is not intimidating not complicated So just try it Thank you very much all That's our time",
+    "text_length": 41116,
+    "word_count": 7675
+  },
+  "segments": [
+    {
+      "start": 7.52,
+      "duration": 6.239,
+      "text": "ai agents It is on everybody's mind Lots of people are talking about it and uh",
+      "timestamp": "00:07"
+    },
+    {
+      "start": 13.759,
+      "duration": 5.201,
+      "text": "we've got the experts here today It is an interesting time You know this AI",
+      "timestamp": "00:13"
+    },
+    {
+      "start": 18.96,
+      "duration": 7.92,
+      "text": "agent is coming from science fiction into reality Many people are already using them Uh and let's get right to it",
+      "timestamp": "00:18"
+    },
+    {
+      "start": 26.88,
+      "duration": 5.678,
+      "text": "I'm going to give you a bit more context on our guests here today all of whom are building different layers of the AI",
+      "timestamp": "00:26"
+    },
+    {
+      "start": 32.559,
+      "duration": 6.241,
+      "text": "agent stack Starting with Swapnull Jane CEO co-founder of observe.ai",
+      "timestamp": "00:32"
+    },
+    {
+      "start": 38.8,
+      "duration": 5.68,
+      "text": "which automates customer calls with voice AI augments human agents with real-time assistance and helps",
+      "timestamp": "00:38"
+    },
+    {
+      "start": 44.48,
+      "duration": 7.04,
+      "text": "businesses improve their call center operations So Swapnell founded observe.ai in 2017 He's since grown the",
+      "timestamp": "00:44"
+    },
+    {
+      "start": 51.52,
+      "duration": 6.96,
+      "text": "business to 350 enterprise customers 300 plus employees raised over $200 million",
+      "timestamp": "00:51"
+    },
+    {
+      "start": 58.48,
+      "duration": 5.6,
+      "text": "and uh this is just a warm-up for Swabnil You can catch him on the stage again tomorrow where he'll be giving a",
+      "timestamp": "00:58"
+    },
+    {
+      "start": 64.08,
+      "duration": 6.56,
+      "text": "keynote on AI agents in customer success Thank you very much for being here Swabnil\n Thank you for having me\n Next we",
+      "timestamp": "01:04"
+    },
+    {
+      "start": 70.64,
+      "duration": 6.24,
+      "text": "have Tony Wong Tony is the co-founder chief revenue officer of Agora Agore provides the technology infrastructure",
+      "timestamp": "01:10"
+    },
+    {
+      "start": 76.88,
+      "duration": 5.36,
+      "text": "that developers use to build real-time experiences like AI voice agents",
+      "timestamp": "01:16"
+    },
+    {
+      "start": 82.24,
+      "duration": 7.76,
+      "text": "conversational AI applications He founded the business in 2015 took it public in 2020 and now serves thousands",
+      "timestamp": "01:22"
+    },
+    {
+      "start": 90.0,
+      "duration": 5.119,
+      "text": "of customers in over a 100 companies This is a bit of a victory lap for Tony",
+      "timestamp": "01:30"
+    },
+    {
+      "start": 95.119,
+      "duration": 5.921,
+      "text": "You know he already completed his keynote presentation this morning where he talked about beyond tokenization",
+      "timestamp": "01:35"
+    },
+    {
+      "start": 101.04,
+      "duration": 7.84,
+      "text": "shaping the future of conversational AI excited to get a bit more into AI agents with you Tony\n Thank you\n And finally last",
+      "timestamp": "01:41"
+    },
+    {
+      "start": 108.88,
+      "duration": 5.44,
+      "text": "but not least Val I uh had a similar presentation prepared for his background",
+      "timestamp": "01:48"
+    },
+    {
+      "start": 114.32,
+      "duration": 5.759,
+      "text": "but right before we came up here he told me \"Hey shorten it Just let them know that I'm the chief AI officer and tell",
+      "timestamp": "01:54"
+    },
+    {
+      "start": 120.079,
+      "duration": 5.921,
+      "text": "them that I'm building softwaredefined memory.\" That's intentionally vague We're going to leave that up to him to",
+      "timestamp": "02:00"
+    },
+    {
+      "start": 126.0,
+      "duration": 7.12,
+      "text": "define for us here in a moment Uh and again you can catch Val on tomorrow's fireside chat unlocking the future of AI",
+      "timestamp": "02:06"
+    },
+    {
+      "start": 133.12,
+      "duration": 7.44,
+      "text": "trends infrastructure and tokconomics Val thank you very much for being here Great to be here\n So let's get into it",
+      "timestamp": "02:13"
+    },
+    {
+      "start": 140.56,
+      "duration": 6.24,
+      "text": "We've got the application layer with Swapnol We've got the communication infrastructure with Tony and we've got",
+      "timestamp": "02:20"
+    },
+    {
+      "start": 146.8,
+      "duration": 5.68,
+      "text": "the data infrastructure with Val the complete AI agent technology stack And",
+      "timestamp": "02:26"
+    },
+    {
+      "start": 152.48,
+      "duration": 5.28,
+      "text": "when people think AI agents I think future of work is question number one If",
+      "timestamp": "02:32"
+    },
+    {
+      "start": 157.76,
+      "duration": 5.199,
+      "text": "AI agents are acting for all of us doing our work what are we going to do This",
+      "timestamp": "02:37"
+    },
+    {
+      "start": 162.959,
+      "duration": 8.161,
+      "text": "brings us to an interesting prediction that I heard you make recently Swabnil You said that within 5 years over 50% of",
+      "timestamp": "02:42"
+    },
+    {
+      "start": 171.12,
+      "duration": 6.24,
+      "text": "support calls will be fully automated by AI So with that in mind help us understand",
+      "timestamp": "02:51"
+    },
+    {
+      "start": 177.36,
+      "duration": 7.12,
+      "text": "why AI agents matter so much right now what makes them different from previous automation and which industries are you",
+      "timestamp": "02:57"
+    },
+    {
+      "start": 184.48,
+      "duration": 5.44,
+      "text": "seeing have the most transformative impact\n Yeah No absolutely So I think AI",
+      "timestamp": "03:04"
+    },
+    {
+      "start": 189.92,
+      "duration": 5.12,
+      "text": "agents I'm I'm sure we all have heard that term probably hundred times in the day today Uh but this is very very",
+      "timestamp": "03:09"
+    },
+    {
+      "start": 195.04,
+      "duration": 6.479,
+      "text": "different than the previous generation of software we have seen so far Software was meant uh built for humans to go",
+      "timestamp": "03:15"
+    },
+    {
+      "start": 201.519,
+      "duration": 5.601,
+      "text": "ahead and execute a very specific task Let's say you know you're you're creating a report on Salesforce you go",
+      "timestamp": "03:21"
+    },
+    {
+      "start": 207.12,
+      "duration": 5.839,
+      "text": "and you know go through 10 steps and report comes out Now AI agents are far far different Uh right earlier you would",
+      "timestamp": "03:27"
+    },
+    {
+      "start": 212.959,
+      "duration": 6.321,
+      "text": "do small task and that's what the software does AI agents are capable of finding how to get to a goal So with AI",
+      "timestamp": "03:32"
+    },
+    {
+      "start": 219.28,
+      "duration": 5.12,
+      "text": "agents you don't define sort of the substeps You say hey go and make me a coffee and AI agent will figure out that",
+      "timestamp": "03:39"
+    },
+    {
+      "start": 224.4,
+      "duration": 6.08,
+      "text": "oh I need to grind the coffee beans I need to make an espresso Then I need to um get the milk froth the milk and make",
+      "timestamp": "03:44"
+    },
+    {
+      "start": 230.48,
+      "duration": 5.44,
+      "text": "a capsu out of it right Uh so with what we are seeing with AI agents in customer service uh industry right customer",
+      "timestamp": "03:50"
+    },
+    {
+      "start": 235.92,
+      "duration": 6.08,
+      "text": "service uh is an industry where you still do a lot of repetitive work uh we all call uh our banks and our healthcare",
+      "timestamp": "03:55"
+    },
+    {
+      "start": 242.0,
+      "duration": 5.28,
+      "text": "companies setting up appointments cancelling a credit card and so on There's a lot of repetitive nature which",
+      "timestamp": "04:02"
+    },
+    {
+      "start": 247.28,
+      "duration": 6.48,
+      "text": "makes it very very good for AI right AI is great at you know automating repetitive tasks and repetiting jobs u",
+      "timestamp": "04:07"
+    },
+    {
+      "start": 253.76,
+      "duration": 5.84,
+      "text": "so with AI agents now what you can do is automate a lot of the customer service calls that you that today human agents",
+      "timestamp": "04:13"
+    },
+    {
+      "start": 259.6,
+      "duration": 7.12,
+      "text": "do So when we call our banks today on the other side we see a human agent which is taking the call answering the on the queries Now with LLMs with AI",
+      "timestamp": "04:19"
+    },
+    {
+      "start": 266.72,
+      "duration": 6.64,
+      "text": "agents with great speech to text with great text to speech you can have very very human sounding conversational",
+      "timestamp": "04:26"
+    },
+    {
+      "start": 273.36,
+      "duration": 5.52,
+      "text": "empathetic AI agents which will talk to you understand what your problem is go and integrate with different systems in",
+      "timestamp": "04:33"
+    },
+    {
+      "start": 278.88,
+      "duration": 5.52,
+      "text": "the back end and automate automate that workflow right So that's sort of like where I see the world is going to go We",
+      "timestamp": "04:38"
+    },
+    {
+      "start": 284.4,
+      "duration": 5.519,
+      "text": "will need lot less customer service agents because a lot of that will be done by these AI agents who are who are",
+      "timestamp": "04:44"
+    },
+    {
+      "start": 289.919,
+      "duration": 6.321,
+      "text": "capable of executing a task end to end without requiring humans to get involved at all And what does that look like on",
+      "timestamp": "04:49"
+    },
+    {
+      "start": 296.24,
+      "duration": 6.08,
+      "text": "the ground today You've been serving call centers for many years You've watched them adopt large language model",
+      "timestamp": "04:56"
+    },
+    {
+      "start": 302.32,
+      "duration": 5.599,
+      "text": "technology Now you're watching them deploy agents in real life What's actually happening when you say these",
+      "timestamp": "05:02"
+    },
+    {
+      "start": 307.919,
+      "duration": 5.761,
+      "text": "jobs are now being done by agents\n Yeah So I think you know today um I'll use example of healthcare Uh in US",
+      "timestamp": "05:07"
+    },
+    {
+      "start": 313.68,
+      "duration": 5.2,
+      "text": "healthcare there's tremendous amount of calls uh that we all make and receive Uh a lot of our customers in healthcare",
+      "timestamp": "05:13"
+    },
+    {
+      "start": 318.88,
+      "duration": 6.159,
+      "text": "industry have are now using AI to make those calls Right Either if you get a call very likely it's an AI making you a",
+      "timestamp": "05:18"
+    },
+    {
+      "start": 325.039,
+      "duration": 7.681,
+      "text": "call or if you're calling in to schedule an appointment cancel an appointment check if you know a certain doctor is in your uh benefits plan or not These are",
+      "timestamp": "05:25"
+    },
+    {
+      "start": 332.72,
+      "duration": 5.12,
+      "text": "being handled by AI agents in production at scale The there's still a situation",
+      "timestamp": "05:32"
+    },
+    {
+      "start": 337.84,
+      "duration": 7.12,
+      "text": "where I think we're not at a place where because LLMs by definition are nondeterministic in nature These are not deterministic systems Um you know",
+      "timestamp": "05:37"
+    },
+    {
+      "start": 344.96,
+      "duration": 6.4,
+      "text": "there's still an error that happens with these systems You still see hallucination So what we are seeing is lot more simpler queries being automated",
+      "timestamp": "05:44"
+    },
+    {
+      "start": 351.36,
+      "duration": 5.679,
+      "text": "by AI right but lot more complex for example if you're calling in saying hey let's you know my claim got denied now",
+      "timestamp": "05:51"
+    },
+    {
+      "start": 357.039,
+      "duration": 6.481,
+      "text": "that is something you don't want AI to handle you want humans to be involved because that requires a lot more empathy it's far more complex and that's where",
+      "timestamp": "05:57"
+    },
+    {
+      "start": 363.52,
+      "duration": 6.08,
+      "text": "we seeing humans get involved uh right but the more simpler ones tier one tier two basic simple calls we are seeing",
+      "timestamp": "06:03"
+    },
+    {
+      "start": 369.6,
+      "duration": 5.28,
+      "text": "large enterprises in the US and healthcare financial services insurance using AI to automate those interactions",
+      "timestamp": "06:09"
+    },
+    {
+      "start": 374.88,
+      "duration": 5.52,
+      "text": "now and and making it easier for consumers like us so we don't have to be on hold for way too long um or get",
+      "timestamp": "06:14"
+    },
+    {
+      "start": 380.4,
+      "duration": 6.239,
+      "text": "transferred from my agent to another agent right right now\n Makes sense One more question for you Swapnull about AI",
+      "timestamp": "06:20"
+    },
+    {
+      "start": 386.639,
+      "duration": 6.801,
+      "text": "voice agents I may be the only one here but uh transparently when I realize I'm talking to an agent my first action is",
+      "timestamp": "06:26"
+    },
+    {
+      "start": 393.44,
+      "duration": 6.56,
+      "text": "to hang up the phone quite often\n What happens then Are your customers suffering with this And uh you know",
+      "timestamp": "06:33"
+    },
+    {
+      "start": 400.0,
+      "duration": 5.199,
+      "text": "what's what's to be done about it\n So the example you gave is the previous generation of technology right So what",
+      "timestamp": "06:40"
+    },
+    {
+      "start": 405.199,
+      "duration": 6.161,
+      "text": "you I would do that too Two years ago uh when I would be dealt with an AI agent someone sounding robotic but I would",
+      "timestamp": "06:45"
+    },
+    {
+      "start": 411.36,
+      "duration": 5.679,
+      "text": "challenge you today that if I you know play a AI agent call right now you would not be able to distinguish if it is",
+      "timestamp": "06:51"
+    },
+    {
+      "start": 417.039,
+      "duration": 5.681,
+      "text": "actually AI or a human Today the conversational nature of these AI agents right you would see the AI agents doing",
+      "timestamp": "06:57"
+    },
+    {
+      "start": 422.72,
+      "duration": 7.36,
+      "text": "hm you know you would see them showing empathy They would use filler words right they sound so human from every",
+      "timestamp": "07:02"
+    },
+    {
+      "start": 430.08,
+      "duration": 6.48,
+      "text": "aspect of what a human looks like that you actually cannot differentiate Secondly if these AI agents are able to",
+      "timestamp": "07:10"
+    },
+    {
+      "start": 436.56,
+      "duration": 5.199,
+      "text": "solve your problems would you rather wait for 30 minutes to talk to a human or just talk to an AI agent and get your",
+      "timestamp": "07:16"
+    },
+    {
+      "start": 441.759,
+      "duration": 5.201,
+      "text": "problem resolved So interestingly I would say if I again go back to two the the technology before 2 years before",
+      "timestamp": "07:21"
+    },
+    {
+      "start": 446.96,
+      "duration": 6.079,
+      "text": "LLMs and generative AI came out the traditional NLU NLP technologies I think everyone did what you just said which is",
+      "timestamp": "07:26"
+    },
+    {
+      "start": 453.039,
+      "duration": 5.6,
+      "text": "hang up ask for a human agent But now we are seeing the other way which is like as a consumer if I can get my problem",
+      "timestamp": "07:33"
+    },
+    {
+      "start": 458.639,
+      "duration": 6.481,
+      "text": "solved with an agent I would love to do that And our consumers um are doing that right now Makes sense As we think about",
+      "timestamp": "07:38"
+    },
+    {
+      "start": 465.12,
+      "duration": 7.12,
+      "text": "AI agents the future of work Tony maybe let's talk a bit about human AI collaboration from your perspective You",
+      "timestamp": "07:45"
+    },
+    {
+      "start": 472.24,
+      "duration": 6.56,
+      "text": "have a unique view You serve thousands of developers They're building voice AI applications You know I've recently been",
+      "timestamp": "07:52"
+    },
+    {
+      "start": 478.8,
+      "duration": 8.72,
+      "text": "amazed at the explosion with AI voice applications It seems like half of every recent YC batch is a AI voice agent Uh",
+      "timestamp": "07:58"
+    },
+    {
+      "start": 487.52,
+      "duration": 6.72,
+      "text": "in prep for this panel I found there's a podcast called The Future of AI Voice and I couldn't believe how many episodes",
+      "timestamp": "08:07"
+    },
+    {
+      "start": 494.24,
+      "duration": 6.399,
+      "text": "there were with different founders These are the people you're serving every day From your platform perspective Tony how",
+      "timestamp": "08:14"
+    },
+    {
+      "start": 500.639,
+      "duration": 7.921,
+      "text": "do you see the relationship between humans and AI agents evolving maybe with a focus on voice AI Yeah I think the key",
+      "timestamp": "08:20"
+    },
+    {
+      "start": 508.56,
+      "duration": 5.919,
+      "text": "thing to to actually re realize is AI is not just couple chips and bits of bites",
+      "timestamp": "08:28"
+    },
+    {
+      "start": 514.479,
+      "duration": 7.761,
+      "text": "It's a new species Let's be very frank It's a new species enter into human communication right And up to this point",
+      "timestamp": "08:34"
+    },
+    {
+      "start": 522.24,
+      "duration": 7.44,
+      "text": "human communication protocol has been designed for human to human where your brain handles 80% superconscious That",
+      "timestamp": "08:42"
+    },
+    {
+      "start": 529.68,
+      "duration": 5.2,
+      "text": "80% superconscious is undefined and unsolved not benchmarked And that's",
+      "timestamp": "08:49"
+    },
+    {
+      "start": 534.88,
+      "duration": 6.639,
+      "text": "totally new right now in a productivity environment uh where observe AI is play",
+      "timestamp": "08:54"
+    },
+    {
+      "start": 541.519,
+      "duration": 5.041,
+      "text": "I actually agree I think you cannot tell the difference right it's good enough it",
+      "timestamp": "09:01"
+    },
+    {
+      "start": 546.56,
+      "duration": 6.16,
+      "text": "don't need five years I was thinking the time is now and I've been making some calls found of a demo apps we've been",
+      "timestamp": "09:06"
+    },
+    {
+      "start": 552.72,
+      "duration": 5.6,
+      "text": "lab uh the effect is really good and the cost has been continue dropping dropping",
+      "timestamp": "09:12"
+    },
+    {
+      "start": 558.32,
+      "duration": 7.36,
+      "text": "dropping right but when you're coming down to um a different arena uh you're talking about emotion right and then As",
+      "timestamp": "09:18"
+    },
+    {
+      "start": 565.68,
+      "duration": 6.8,
+      "text": "we I say emotion it's a big you're talking about companionship as a toy you know uh for kids companionship as a",
+      "timestamp": "09:25"
+    },
+    {
+      "start": 572.48,
+      "duration": 5.039,
+      "text": "senior people for the loved ones who passed away or just his older memory",
+      "timestamp": "09:32"
+    },
+    {
+      "start": 577.519,
+      "duration": 7.121,
+      "text": "right companionship for all those things down to like 50 shades of different gray of companionship right uh that is",
+      "timestamp": "09:37"
+    },
+    {
+      "start": 584.64,
+      "duration": 5.36,
+      "text": "actually very hard just give you one simple imagine you talk to Italian",
+      "timestamp": "09:44"
+    },
+    {
+      "start": 590.0,
+      "duration": 7.12,
+      "text": "person when he cannot use his hand right that body language is missing half",
+      "timestamp": "09:50"
+    },
+    {
+      "start": 597.12,
+      "duration": 5.76,
+      "text": "right And then you take away your camera you cannot say his impression you know",
+      "timestamp": "09:57"
+    },
+    {
+      "start": 602.88,
+      "duration": 6.88,
+      "text": "what about read between the lines right What about all those like emotion stuff When you're taking those away there is",
+      "timestamp": "10:02"
+    },
+    {
+      "start": 609.76,
+      "duration": 7.92,
+      "text": "no such a thing as emotion And as a thing I would say what people willing to pay most money for is for emotion That's",
+      "timestamp": "10:09"
+    },
+    {
+      "start": 617.68,
+      "duration": 7.36,
+      "text": "what you pay most most money for And in a world when we are getting more and more lonely that is a part that you know",
+      "timestamp": "10:17"
+    },
+    {
+      "start": 625.04,
+      "duration": 6.56,
+      "text": "we're trying to bring it to it even with custom service I think right now it's good enough to solve my transactional",
+      "timestamp": "10:25"
+    },
+    {
+      "start": 631.6,
+      "duration": 5.52,
+      "text": "problem but sometimes I don't me I don't call custom service until I'm pissed",
+      "timestamp": "10:31"
+    },
+    {
+      "start": 637.12,
+      "duration": 5.92,
+      "text": "right so really what I needed is you first calm me down before you solve my",
+      "timestamp": "10:37"
+    },
+    {
+      "start": 643.04,
+      "duration": 6.16,
+      "text": "problem right so I would say the difference I mean right now it's just like get things done but into the next",
+      "timestamp": "10:43"
+    },
+    {
+      "start": 649.2,
+      "duration": 6.0,
+      "text": "level is your agent will be able to sense the emotion and be able to you",
+      "timestamp": "10:49"
+    },
+    {
+      "start": 655.2,
+      "duration": 5.52,
+      "text": "know kind of uh give customer more kind of comfort right and for that like why",
+      "timestamp": "10:55"
+    },
+    {
+      "start": 660.72,
+      "duration": 6.239,
+      "text": "does because every airline example every airline operate on the same Boeing airbus but why there's so many different",
+      "timestamp": "11:00"
+    },
+    {
+      "start": 666.959,
+      "duration": 6.481,
+      "text": "brand experience Singapore airline what's the difference it's the people it's what you feel inside right so I",
+      "timestamp": "11:06"
+    },
+    {
+      "start": 673.44,
+      "duration": 7.28,
+      "text": "would say that is what we focus on and that's a very big uh stack of its own and We we're very lucky to be in this",
+      "timestamp": "11:13"
+    },
+    {
+      "start": 680.72,
+      "duration": 6.559,
+      "text": "age to address this problem\n Yeah Very interesting AI agents as a new species",
+      "timestamp": "11:20"
+    },
+    {
+      "start": 687.279,
+      "duration": 6.56,
+      "text": "as something with emotion When we think about what that means for the future of humans where do you see the impact being",
+      "timestamp": "11:27"
+    },
+    {
+      "start": 693.839,
+      "duration": 5.841,
+      "text": "biggest in the short term Let's talk the next 6 months\n Oh six months I think six",
+      "timestamp": "11:33"
+    },
+    {
+      "start": 699.68,
+      "duration": 6.48,
+      "text": "months not too much will happen I think would be his company will be taking more customer right Uh but if you look at the",
+      "timestamp": "11:39"
+    },
+    {
+      "start": 706.16,
+      "duration": 5.359,
+      "text": "horizon much longer I I always think about this because everything I grew up",
+      "timestamp": "11:46"
+    },
+    {
+      "start": 711.519,
+      "duration": 5.201,
+      "text": "with I don't know if it's no long it's still hold true Do you still go to",
+      "timestamp": "11:51"
+    },
+    {
+      "start": 716.72,
+      "duration": 7.2,
+      "text": "college for computer science degree like I don't know like maybe yes I I don't know Do you still want to be a freelance",
+      "timestamp": "11:56"
+    },
+    {
+      "start": 723.92,
+      "duration": 5.68,
+      "text": "designer Uh I don't know right is Fiverr be a Fiverr still a good job or like one",
+      "timestamp": "12:03"
+    },
+    {
+      "start": 729.6,
+      "duration": 5.76,
+      "text": "of those uh uh you know freelance you know work remote actually this is like I",
+      "timestamp": "12:09"
+    },
+    {
+      "start": 735.36,
+      "duration": 5.12,
+      "text": "think AI have a much bigger social impact than we thinking and you look at",
+      "timestamp": "12:15"
+    },
+    {
+      "start": 740.48,
+      "duration": 5.359,
+      "text": "some of the economic that is built on BO operation right and you look at your",
+      "timestamp": "12:20"
+    },
+    {
+      "start": 745.839,
+      "duration": 5.521,
+      "text": "company like I start doing more and more AI is my best co-pilot for writing",
+      "timestamp": "12:25"
+    },
+    {
+      "start": 751.36,
+      "duration": 6.32,
+      "text": "everything do I really need another virtual assistant Do I really need another even assistant actually forget",
+      "timestamp": "12:31"
+    },
+    {
+      "start": 757.68,
+      "duration": 5.36,
+      "text": "about virtual even assistant do I really need it So I actually don't know I think",
+      "timestamp": "12:37"
+    },
+    {
+      "start": 763.04,
+      "duration": 7.2,
+      "text": "this might be a good time to take a pause and look at how this will impact society In the end of day you have the",
+      "timestamp": "12:43"
+    },
+    {
+      "start": 770.24,
+      "duration": 6.24,
+      "text": "best AI but nobody can afford buying stuff I don't know like maybe this is too much thinking but uh you know when",
+      "timestamp": "12:50"
+    },
+    {
+      "start": 776.48,
+      "duration": 6.88,
+      "text": "you're at the forefront you kind of sometime you wake up and get scared about where we are going but in the meantime you get very excited because",
+      "timestamp": "12:56"
+    },
+    {
+      "start": 783.36,
+      "duration": 5.279,
+      "text": "everything is unknown uh it's like third industrial revolution for us",
+      "timestamp": "13:03"
+    },
+    {
+      "start": 788.639,
+      "duration": 5.121,
+      "text": "val let's ground this conversation in some of the technical realities and talk",
+      "timestamp": "13:08"
+    },
+    {
+      "start": 793.76,
+      "duration": 7.36,
+      "text": "agent architecture for a minute you're building tomorrow's AI factories you talked about the gap AI's hidden",
+      "timestamp": "13:13"
+    },
+    {
+      "start": 801.12,
+      "duration": 6.8,
+      "text": "bottleneck compute powered data delivery But I'm also curious about the agent tech stack itself When you look at",
+      "timestamp": "13:21"
+    },
+    {
+      "start": 807.92,
+      "duration": 5.44,
+      "text": "subtasks when you look at parallel model calls inference scaling technically what",
+      "timestamp": "13:27"
+    },
+    {
+      "start": 813.36,
+      "duration": 5.76,
+      "text": "are the limitations for AI agents today And how does that affect what jobs AI",
+      "timestamp": "13:33"
+    },
+    {
+      "start": 819.12,
+      "duration": 6.8,
+      "text": "agents can actually take over or you know whether or not they can exist with us as a new species as Tony says\n Yeah I",
+      "timestamp": "13:39"
+    },
+    {
+      "start": 825.92,
+      "duration": 6.8,
+      "text": "love that question So it's really important to appreciate the scale at which all of this technology is operating at Some of you might have read",
+      "timestamp": "13:45"
+    },
+    {
+      "start": 832.72,
+      "duration": 6.72,
+      "text": "if you follow like the news in the US this famous movie about ThreeMile Island this nuclear power plant in Philadelphia",
+      "timestamp": "13:52"
+    },
+    {
+      "start": 839.44,
+      "duration": 6.0,
+      "text": "that had like an accident and 20 years ago was decommissioned Guess what's being brought back That nuclear power",
+      "timestamp": "13:59"
+    },
+    {
+      "start": 845.44,
+      "duration": 5.44,
+      "text": "plant Because the demand for energy is literally nuclear power plant scale one",
+      "timestamp": "14:05"
+    },
+    {
+      "start": 850.88,
+      "duration": 5.199,
+      "text": "gigawatt of energy at a time So that's one of the macro bottlenecks is there's",
+      "timestamp": "14:10"
+    },
+    {
+      "start": 856.079,
+      "duration": 7.12,
+      "text": "just got to be an enormous amount of energy here to feed these giant AI data centers which Jensen from Nvidia likes",
+      "timestamp": "14:16"
+    },
+    {
+      "start": 863.199,
+      "duration": 5.121,
+      "text": "to call AI factories Within those you've got to populate them with just enormous",
+      "timestamp": "14:23"
+    },
+    {
+      "start": 868.32,
+      "duration": 5.84,
+      "text": "typically on the high end 100,000 GPUs graphical processing units You've got to",
+      "timestamp": "14:28"
+    },
+    {
+      "start": 874.16,
+      "duration": 7.76,
+      "text": "network all that together You've got to have the memory for it the storage Uh so it's just uh volume you know volume of",
+      "timestamp": "14:34"
+    },
+    {
+      "start": 881.92,
+      "duration": 6.96,
+      "text": "infrastructure to process a volume of data here is the number one thing to consider And a visual I like is if",
+      "timestamp": "14:41"
+    },
+    {
+      "start": 888.88,
+      "duration": 5.68,
+      "text": "you've ever seen like a drone show lately you know that's replacing a lot of fireworks shows It's more fire",
+      "timestamp": "14:48"
+    },
+    {
+      "start": 894.56,
+      "duration": 5.6,
+      "text": "friendly doesn't have you know as many wildfires and stuff like that When you actually see the drones either taking",
+      "timestamp": "14:54"
+    },
+    {
+      "start": 900.16,
+      "duration": 6.479,
+      "text": "off or landing it's quite impressive because you're overwhelmed by the sheer number of drones So for AI agents it's",
+      "timestamp": "15:00"
+    },
+    {
+      "start": 906.639,
+      "duration": 6.32,
+      "text": "the same thing right now no one when you actually make these things work when you power these these agents no one thinks",
+      "timestamp": "15:06"
+    },
+    {
+      "start": 912.959,
+      "duration": 7.12,
+      "text": "of individual agents right and even like task oriented agents that create subtasks of worker agents it's best to",
+      "timestamp": "15:12"
+    },
+    {
+      "start": 920.079,
+      "duration": 5.12,
+      "text": "think of you either not doing any kind of agentic work or if you are it's",
+      "timestamp": "15:20"
+    },
+    {
+      "start": 925.199,
+      "duration": 5.361,
+      "text": "swarms of agents Yeah some massive amounts of parallel processing Um and",
+      "timestamp": "15:25"
+    },
+    {
+      "start": 930.56,
+      "duration": 5.92,
+      "text": "we'll get to this a bit later on but that has implications not just in terms of having that raw energy that raw real",
+      "timestamp": "15:30"
+    },
+    {
+      "start": 936.48,
+      "duration": 6.88,
+      "text": "estate that raw compute and horsepower What are the economics of it all right What are the token pricing trends That's",
+      "timestamp": "15:36"
+    },
+    {
+      "start": 943.36,
+      "duration": 5.919,
+      "text": "like the fuel of the industry is tokens all these agentic apps you know uh you you have to figure out someone sitting",
+      "timestamp": "15:43"
+    },
+    {
+      "start": 949.279,
+      "duration": 6.161,
+      "text": "there with a spreadsheet that you've all probably seen in terms of what are my costs per token and what can I charge my",
+      "timestamp": "15:49"
+    },
+    {
+      "start": 955.44,
+      "duration": 6.319,
+      "text": "customer for all of the various goals and tasks to deliver what they want So these are the things we have to consider",
+      "timestamp": "15:55"
+    },
+    {
+      "start": 961.759,
+      "duration": 6.0,
+      "text": "here and uh and you know we'll follow along with some more details later on with regards to specifics around the",
+      "timestamp": "16:01"
+    },
+    {
+      "start": 967.759,
+      "duration": 5.76,
+      "text": "unit economics of what makes us all tick Yeah And what about from a technical",
+      "timestamp": "16:07"
+    },
+    {
+      "start": 973.519,
+      "duration": 5.12,
+      "text": "security concern standpoint It makes sense that AI agents should be acting on",
+      "timestamp": "16:13"
+    },
+    {
+      "start": 978.639,
+      "duration": 6.481,
+      "text": "behalf of users all across the web to do things for them But that brings up questions around authentication and much",
+      "timestamp": "16:18"
+    },
+    {
+      "start": 985.12,
+      "duration": 6.959,
+      "text": "more What's keeping you up at night Social engineering right You know one of the like I come from a cyber security",
+      "timestamp": "16:25"
+    },
+    {
+      "start": 992.079,
+      "duration": 6.32,
+      "text": "background and one of the biggest risks is not the encryption keys or future quantum computing and all that It's",
+      "timestamp": "16:32"
+    },
+    {
+      "start": 998.399,
+      "duration": 5.921,
+      "text": "literally someone calling T-Mobile pretending they're you and doing a SIM swap taking over your phone number with",
+      "timestamp": "16:38"
+    },
+    {
+      "start": 1004.32,
+      "duration": 5.6,
+      "text": "just a phone call They're usually bribing an agent of T-Mobile nowadays to do that for you for like 200 bucks or",
+      "timestamp": "16:44"
+    },
+    {
+      "start": 1009.92,
+      "duration": 5.359,
+      "text": "whatever And then they own you right They've got your Gmail All of a sudden they can take over your crypto wallet at",
+      "timestamp": "16:49"
+    },
+    {
+      "start": 1015.279,
+      "duration": 7.041,
+      "text": "Coinbase All of a sudden you know they can take over your identity on social media And so agents with all sorts of",
+      "timestamp": "16:55"
+    },
+    {
+      "start": 1022.32,
+      "duration": 5.28,
+      "text": "agency that we give them today are relatively immature security-wise So",
+      "timestamp": "17:02"
+    },
+    {
+      "start": 1027.6,
+      "duration": 5.68,
+      "text": "it's not that difficult Unfortunately it's very easy to just find people in red teams or other kind of adver sales",
+      "timestamp": "17:07"
+    },
+    {
+      "start": 1033.28,
+      "duration": 6.398,
+      "text": "environments that can trick an agent into impersonating you into doing something quote unquote on your behalf",
+      "timestamp": "17:13"
+    },
+    {
+      "start": 1039.679,
+      "duration": 5.119,
+      "text": "that you didn't authorize So that's probably the number one thing that keeps you up at night And then there's more",
+      "timestamp": "17:19"
+    },
+    {
+      "start": 1044.799,
+      "duration": 5.921,
+      "text": "mundane things like how do you just do proper authentication You know is this my agent Is it really acting on my",
+      "timestamp": "17:24"
+    },
+    {
+      "start": 1050.72,
+      "duration": 6.8,
+      "text": "behalf or is it someone pretending to act on my behalf uh and when it's properly authenticated as acting on your",
+      "timestamp": "17:30"
+    },
+    {
+      "start": 1057.52,
+      "duration": 5.44,
+      "text": "behalf your digital twin so to say you know is it being authorized correctly Is it just allow it to do anything Just",
+      "timestamp": "17:37"
+    },
+    {
+      "start": 1062.96,
+      "duration": 6.88,
+      "text": "withdraw unlimited funds from your bank account or you know or drain all of your you know open open AAI tokens and stuff",
+      "timestamp": "17:42"
+    },
+    {
+      "start": 1069.84,
+      "duration": 8.4,
+      "text": "like that So uh there's there's plenty of issues to work on and this industry is moving so fast that uh like most",
+      "timestamp": "17:49"
+    },
+    {
+      "start": 1078.24,
+      "duration": 5.12,
+      "text": "fastmoving industries security is the last is is the last concern",
+      "timestamp": "17:58"
+    },
+    {
+      "start": 1083.36,
+      "duration": 6.0,
+      "text": "functionality gaining customers you know product productled traction is is the biggest concern So we just have to make",
+      "timestamp": "18:03"
+    },
+    {
+      "start": 1089.36,
+      "duration": 5.76,
+      "text": "sure we keep up you know and and and mitigate the obvious risks uh and learn",
+      "timestamp": "18:09"
+    },
+    {
+      "start": 1095.12,
+      "duration": 5.679,
+      "text": "all the new you know unimagined risks right now in an agentic world that we will learn through trial and error and",
+      "timestamp": "18:15"
+    },
+    {
+      "start": 1100.799,
+      "duration": 5.441,
+      "text": "and a lot of scars like we always do Makes sense Everybody in their dog is",
+      "timestamp": "18:20"
+    },
+    {
+      "start": 1106.24,
+      "duration": 7.2,
+      "text": "building an AI agent today but we're lucky to have some experts from all layers of the AI agent stack we can get",
+      "timestamp": "18:26"
+    },
+    {
+      "start": 1113.44,
+      "duration": 5.76,
+      "text": "down in the weeds in infrastructure Why don't we talk about it for a minute I know I'm asking you a lot but let's put",
+      "timestamp": "18:33"
+    },
+    {
+      "start": 1119.2,
+      "duration": 6.64,
+      "text": "you on the hot seat again Val Tell us about tokconomics like you mentioned How does unit economics affect AI agents",
+      "timestamp": "18:39"
+    },
+    {
+      "start": 1125.84,
+      "duration": 6.719,
+      "text": "today\n I think the simplest analogy is miles per gallon right Or nowadays with driving EVs it's like you know the the",
+      "timestamp": "18:45"
+    },
+    {
+      "start": 1132.559,
+      "duration": 6.24,
+      "text": "range range per charge If we're planning a road trip like we need to know how many miles kilometers we're going to get",
+      "timestamp": "18:52"
+    },
+    {
+      "start": 1138.799,
+      "duration": 6.081,
+      "text": "out of this charge before we go ahead It's the same thing when we're designing agentic systems It's like we need to",
+      "timestamp": "18:58"
+    },
+    {
+      "start": 1144.88,
+      "duration": 6.4,
+      "text": "understand how many tokens per second we can consume We need to understand what they cost So there's these two",
+      "timestamp": "19:04"
+    },
+    {
+      "start": 1151.28,
+      "duration": 8.0,
+      "text": "interesting overlapping trends right now And it's interesting you mentioned you know so so that the um two years ago we",
+      "timestamp": "19:11"
+    },
+    {
+      "start": 1159.28,
+      "duration": 6.48,
+      "text": "wouldn't have noticed oh today we don't notice Two years ago we would have noticed that we're talking to an agent",
+      "timestamp": "19:19"
+    },
+    {
+      "start": 1165.76,
+      "duration": 6.08,
+      "text": "And I I'm going to speculate that the reason that today the quality of your agents are so good is you're able to",
+      "timestamp": "19:25"
+    },
+    {
+      "start": 1171.84,
+      "duration": 6.719,
+      "text": "consume a lot more tokens affordably to deliver that quality experience And that's because the price of inference",
+      "timestamp": "19:31"
+    },
+    {
+      "start": 1178.559,
+      "duration": 5.761,
+      "text": "the cost of those tokens has plummeted about 100x So not 100% but one you know",
+      "timestamp": "19:38"
+    },
+    {
+      "start": 1184.32,
+      "duration": 5.76,
+      "text": "10,000% 100x the cost of those tokens And like Jevans paradox that many of you",
+      "timestamp": "19:44"
+    },
+    {
+      "start": 1190.08,
+      "duration": 5.92,
+      "text": "might know the more you lower the cost of a very highquality commodity the more",
+      "timestamp": "19:50"
+    },
+    {
+      "start": 1196.0,
+      "duration": 7.6,
+      "text": "demand surges for that commodity And so it more than compensates for the lower cost Uh and being able to deliver all",
+      "timestamp": "19:56"
+    },
+    {
+      "start": 1203.6,
+      "duration": 6.319,
+      "text": "those tokens efficiently isn't just the raw horsepower I mentioned earlier on It's some very intelligent software",
+      "timestamp": "20:03"
+    },
+    {
+      "start": 1209.919,
+      "duration": 5.921,
+      "text": "that's always changing It's software in how we take the models we train That's",
+      "timestamp": "20:09"
+    },
+    {
+      "start": 1215.84,
+      "duration": 7.199,
+      "text": "called baking the cake in the industry and how we actually eat the cake how we run the models that's called inference",
+      "timestamp": "20:15"
+    },
+    {
+      "start": 1223.039,
+      "duration": 7.041,
+      "text": "There's an enormous amount of improvement in the engineering of these models Fortunately you know DeepSeek has",
+      "timestamp": "20:23"
+    },
+    {
+      "start": 1230.08,
+      "duration": 5.599,
+      "text": "has gained such notoriety in the industry not because they helped you know the NASDAQ lose a trillion dollars",
+      "timestamp": "20:30"
+    },
+    {
+      "start": 1235.679,
+      "duration": 7.041,
+      "text": "a few Mondays ago you know three months ago but because they're very transparent in the research of their models but how",
+      "timestamp": "20:35"
+    },
+    {
+      "start": 1242.72,
+      "duration": 7.199,
+      "text": "they operate them And they showed there's ways to just introduce enormous efficiencies at the infrastructure layer",
+      "timestamp": "20:42"
+    },
+    {
+      "start": 1249.919,
+      "duration": 5.601,
+      "text": "novel things like instead of having two separate clusters big GPU clusters often",
+      "timestamp": "20:49"
+    },
+    {
+      "start": 1255.52,
+      "duration": 6.96,
+      "text": "two data centers one for training one for inference Deep Seek said we can't afford that You know we're too we're too",
+      "timestamp": "20:55"
+    },
+    {
+      "start": 1262.48,
+      "duration": 5.439,
+      "text": "constrained on the actual GPUs we're allowed to own So we're going to combine that We're going to do the unprecedented",
+      "timestamp": "21:02"
+    },
+    {
+      "start": 1267.919,
+      "duration": 6.481,
+      "text": "and combine our clusters for training and inference on the same cluster And then we're actually going to you know",
+      "timestamp": "21:07"
+    },
+    {
+      "start": 1274.4,
+      "duration": 6.399,
+      "text": "have intelligent algorithms that overnight do just in time training but in the daytime do inference to bring in",
+      "timestamp": "21:14"
+    },
+    {
+      "start": 1280.799,
+      "duration": 7.201,
+      "text": "the revenue So lots of novel things that are happening on the engineering side Clever software software optimizations I",
+      "timestamp": "21:20"
+    },
+    {
+      "start": 1288.0,
+      "duration": 5.28,
+      "text": "won't bore the audience with all sorts of other cool open source projects that are that are out there But taglines like",
+      "timestamp": "21:28"
+    },
+    {
+      "start": 1293.28,
+      "duration": 6.32,
+      "text": "VLM that people might have heard of That's probably like the most popular open source project today because it's",
+      "timestamp": "21:33"
+    },
+    {
+      "start": 1299.6,
+      "duration": 6.959,
+      "text": "rapidly innovating and serving these models lowering the cost of the tokens and enabling amazing apps like we're",
+      "timestamp": "21:39"
+    },
+    {
+      "start": 1306.559,
+      "duration": 6.161,
+      "text": "hearing about today Tony I'd love to bring you into this conversation about the infrastructure You serve so many",
+      "timestamp": "21:46"
+    },
+    {
+      "start": 1312.72,
+      "duration": 6.72,
+      "text": "developers as you see them build AI agents in the field what breaks down and what can you tell us about trends when",
+      "timestamp": "21:52"
+    },
+    {
+      "start": 1319.44,
+      "duration": 5.52,
+      "text": "it comes to unit economics Yeah So I want to conquer one of what thing he said a lot of time people thinking about",
+      "timestamp": "21:59"
+    },
+    {
+      "start": 1324.96,
+      "duration": 6.0,
+      "text": "cost they believe it's belong to the CFO and accountant This is not this is actually you know I think every new",
+      "timestamp": "22:04"
+    },
+    {
+      "start": 1330.96,
+      "duration": 6.56,
+      "text": "technology has two phase right you have phase one that is more academic who can invent the most shining object but then",
+      "timestamp": "22:10"
+    },
+    {
+      "start": 1337.52,
+      "duration": 7.12,
+      "text": "you go to the second phase who can deliver with the most efficient basically and then that efficiency did",
+      "timestamp": "22:17"
+    },
+    {
+      "start": 1344.64,
+      "duration": 5.279,
+      "text": "not coming from CF efficiency coming from the innovation the algorithm right",
+      "timestamp": "22:24"
+    },
+    {
+      "start": 1349.919,
+      "duration": 6.401,
+      "text": "everything right all together uh controlling your stack from general purpose GPU to maybe the future of",
+      "timestamp": "22:29"
+    },
+    {
+      "start": 1356.32,
+      "duration": 6.239,
+      "text": "special purpose GPU We actually have a use case You probably have more data but I just talking with one of a potential",
+      "timestamp": "22:36"
+    },
+    {
+      "start": 1362.559,
+      "duration": 6.48,
+      "text": "customer I noticed it was if it was last year early last year the majority of the",
+      "timestamp": "22:42"
+    },
+    {
+      "start": 1369.039,
+      "duration": 5.601,
+      "text": "cost of uh getting a customer service AI based call might be on the model side",
+      "timestamp": "22:49"
+    },
+    {
+      "start": 1374.64,
+      "duration": 6.8,
+      "text": "and GPU side It's no longer it's actually more than 50% of its cost is actually on the emotional side of the",
+      "timestamp": "22:54"
+    },
+    {
+      "start": 1381.44,
+      "duration": 8.08,
+      "text": "TTS side of it Right where everything else you're talking about SIP trunking you know ST larger model GPU was only",
+      "timestamp": "23:01"
+    },
+    {
+      "start": 1389.52,
+      "duration": 6.08,
+      "text": "half of it right so uh and I think that's actually something very interesting so I I actually thinking we",
+      "timestamp": "23:09"
+    },
+    {
+      "start": 1395.6,
+      "duration": 6.24,
+      "text": "are almost at that place because consumer needs for example we just talk about yeah you you can hardly tell the",
+      "timestamp": "23:15"
+    },
+    {
+      "start": 1401.84,
+      "duration": 6.56,
+      "text": "difference but even if you tell difference so what it's not a companion it's not talking to a psychologist right",
+      "timestamp": "23:21"
+    },
+    {
+      "start": 1408.4,
+      "duration": 6.32,
+      "text": "so you are okay with it but it's good enough the open source is good enough very soon open source TTS would be good",
+      "timestamp": "23:28"
+    },
+    {
+      "start": 1414.72,
+      "duration": 5.04,
+      "text": "enough So you now go down to the cost Whoever can address this problem and by",
+      "timestamp": "23:34"
+    },
+    {
+      "start": 1419.76,
+      "duration": 6.24,
+      "text": "the way behind the cost there's some hidden stuff scale Scale right and then",
+      "timestamp": "23:39"
+    },
+    {
+      "start": 1426.0,
+      "duration": 7.039,
+      "text": "on top of skill there's another thing called stability If your infra was uh today was 1 second",
+      "timestamp": "23:46"
+    },
+    {
+      "start": 1433.039,
+      "duration": 6.0,
+      "text": "round trip tomorrow was 50 half a half a second it's actually cannot work because",
+      "timestamp": "23:53"
+    },
+    {
+      "start": 1439.039,
+      "duration": 7.201,
+      "text": "your productivity use case demand certain level of SLR right so that stability is very important so I I",
+      "timestamp": "23:59"
+    },
+    {
+      "start": 1446.24,
+      "duration": 5.76,
+      "text": "actually think that so much goes into efficiency and scalability and that is",
+      "timestamp": "24:06"
+    },
+    {
+      "start": 1452.0,
+      "duration": 7.12,
+      "text": "the phase we are in my personal opinion we are about to get into and uh you know the the real race has just begun from",
+      "timestamp": "24:12"
+    },
+    {
+      "start": 1459.12,
+      "duration": 7.039,
+      "text": "academic make now to the industry Let's get right into it Let's talk industry Let's talk how business models",
+      "timestamp": "24:19"
+    },
+    {
+      "start": 1466.159,
+      "duration": 5.12,
+      "text": "are changing and what the economic impact of these AI agents can be And I",
+      "timestamp": "24:26"
+    },
+    {
+      "start": 1471.279,
+      "duration": 6.721,
+      "text": "heard a hot take from Swapnull recently that I found quite interesting You know a lot of VCs and founders they're saying",
+      "timestamp": "24:31"
+    },
+    {
+      "start": 1478.0,
+      "duration": 5.52,
+      "text": "that AI agents need to take market share from services This makes sense to me",
+      "timestamp": "24:38"
+    },
+    {
+      "start": 1483.52,
+      "duration": 5.92,
+      "text": "especially with some of the eye watering valuations of the leading AI labs you know they need to make all of this",
+      "timestamp": "24:43"
+    },
+    {
+      "start": 1489.44,
+      "duration": 5.839,
+      "text": "revenue from somewhere someday Uh but Swapnell I heard you say that you don't",
+      "timestamp": "24:49"
+    },
+    {
+      "start": 1495.279,
+      "duration": 6.561,
+      "text": "believe in service as a software or in the AI of services specifically when it comes",
+      "timestamp": "24:55"
+    },
+    {
+      "start": 1501.84,
+      "duration": 6.24,
+      "text": "to contact centers So tell us what you mean by that You know why are you maybe thinking about things a bit differently",
+      "timestamp": "25:01"
+    },
+    {
+      "start": 1508.08,
+      "duration": 5.04,
+      "text": "Yeah I think a a good framework to think about cost scalability everything in",
+      "timestamp": "25:08"
+    },
+    {
+      "start": 1513.12,
+      "duration": 5.12,
+      "text": "from an application perspective is your AI agent is another employee Earlier you",
+      "timestamp": "25:13"
+    },
+    {
+      "start": 1518.24,
+      "duration": 5.2,
+      "text": "had or have these human employees right Now you have these AI employees AI agent",
+      "timestamp": "25:18"
+    },
+    {
+      "start": 1523.44,
+      "duration": 6.16,
+      "text": "you have an AI agent for marketing or you can go further deep down and say content marketing and then you have AI agent who is doing per performance",
+      "timestamp": "25:23"
+    },
+    {
+      "start": 1529.6,
+      "duration": 5.439,
+      "text": "marketing for you and then you have an AI agent who is doing customer service There's an AI agent for sales Um right",
+      "timestamp": "25:29"
+    },
+    {
+      "start": 1535.039,
+      "duration": 6.721,
+      "text": "So that's sort of like one big framework These are your employees who are executing who are capable of reasoning thinking taking decisions and executing",
+      "timestamp": "25:35"
+    },
+    {
+      "start": 1541.76,
+      "duration": 5.36,
+      "text": "something end to end So now you put that in the perspective of customer service uh right today you're you're customer",
+      "timestamp": "25:41"
+    },
+    {
+      "start": 1547.12,
+      "duration": 5.919,
+      "text": "service organization you have thousands of agents human agents I I'll keep saying that human agents right uh who",
+      "timestamp": "25:47"
+    },
+    {
+      "start": 1553.039,
+      "duration": 7.921,
+      "text": "are taking all these calls and chats and emails and now we think like a part of that will be done by AI agents um right",
+      "timestamp": "25:53"
+    },
+    {
+      "start": 1560.96,
+      "duration": 6.4,
+      "text": "the let's go to the concept itself So the concept is um when they talk about like service as a software So so far we",
+      "timestamp": "26:00"
+    },
+    {
+      "start": 1567.36,
+      "duration": 6.0,
+      "text": "have seen software as a service which is you know software companies like observe which is a software company are offering",
+      "timestamp": "26:07"
+    },
+    {
+      "start": 1573.36,
+      "duration": 5.84,
+      "text": "a service to the end customer we are a product company on the other side there are services companies like BPOS's you",
+      "timestamp": "26:13"
+    },
+    {
+      "start": 1579.2,
+      "duration": 5.92,
+      "text": "know like IT services companies like concentrics teleerformance Accenture Infosys of the world and the",
+      "timestamp": "26:19"
+    },
+    {
+      "start": 1585.12,
+      "duration": 5.439,
+      "text": "the argument that exists in the industry now are the two going to merge because",
+      "timestamp": "26:25"
+    },
+    {
+      "start": 1590.559,
+      "duration": 7.281,
+      "text": "the the current paradigm is you you use so a human uses a software to get the job done and we're moving to a paradigm",
+      "timestamp": "26:30"
+    },
+    {
+      "start": 1597.84,
+      "duration": 5.68,
+      "text": "where an AI agent gets the job done end to end right they don't care about the software or the services part so now",
+      "timestamp": "26:37"
+    },
+    {
+      "start": 1603.52,
+      "duration": 6.88,
+      "text": "there's a larger argument ment in the industry which is well as the end customer let's use an example bank of",
+      "timestamp": "26:43"
+    },
+    {
+      "start": 1610.4,
+      "duration": 5.92,
+      "text": "America cares about getting customer service done someone reaches out to them they want it resolved they don't care",
+      "timestamp": "26:50"
+    },
+    {
+      "start": 1616.32,
+      "duration": 5.44,
+      "text": "about the software or the people or who are the parties involved so now do we see a world where the the software and",
+      "timestamp": "26:56"
+    },
+    {
+      "start": 1621.76,
+      "duration": 5.76,
+      "text": "the services collide and these are obviously AI agents they will do things end to end and now there's a you know",
+      "timestamp": "27:01"
+    },
+    {
+      "start": 1627.52,
+      "duration": 5.039,
+      "text": "there's no software and there's no service it's like an outcome model right the customer only cares about the",
+      "timestamp": "27:07"
+    },
+    {
+      "start": 1632.559,
+      "duration": 5.841,
+      "text": "outcome what does Bank of America care about I want my chat query resolved that's that's all I care about and then",
+      "timestamp": "27:12"
+    },
+    {
+      "start": 1638.4,
+      "duration": 6.72,
+      "text": "on the other side you have these companies who are mixing services and software especially AI agents and then doing these things right so that's sort",
+      "timestamp": "27:18"
+    },
+    {
+      "start": 1645.12,
+      "duration": 5.679,
+      "text": "of like a paradigm that's being discussed right and I do think like we will see this paradigm very heavily in a",
+      "timestamp": "27:25"
+    },
+    {
+      "start": 1650.799,
+      "duration": 6.641,
+      "text": "lot of services industries like accountants lawyers uh where you know you when you think about you outsourcing",
+      "timestamp": "27:30"
+    },
+    {
+      "start": 1657.44,
+      "duration": 5.04,
+      "text": "to a law firm you really don't care about what software they're using you don't that you just want them to redline",
+      "timestamp": "27:37"
+    },
+    {
+      "start": 1662.48,
+      "duration": 6.559,
+      "text": "your document or generate your document ment now they could employ a AI agents on the other side to draft these documents Doesn't matter to you All you",
+      "timestamp": "27:42"
+    },
+    {
+      "start": 1669.039,
+      "duration": 5.921,
+      "text": "care about was the legal document Same thing is going to happen in industries like accounting um and other places I",
+      "timestamp": "27:49"
+    },
+    {
+      "start": 1674.96,
+      "duration": 6.959,
+      "text": "think we won't see this in customer service just yet Uh customer service is not yet an outcome model and that's what I was referring to with my point that I",
+      "timestamp": "27:54"
+    },
+    {
+      "start": 1681.919,
+      "duration": 5.36,
+      "text": "don't think we will see a service and software coming together in in customer service We will absolutely see that in",
+      "timestamp": "28:01"
+    },
+    {
+      "start": 1687.279,
+      "duration": 5.041,
+      "text": "other places like a law firm accounting firm and other other places like that",
+      "timestamp": "28:07"
+    },
+    {
+      "start": 1692.32,
+      "duration": 6.239,
+      "text": "I'd love to open this business model question up to you Tony and Val What are you seeing from your perspective AI",
+      "timestamp": "28:12"
+    },
+    {
+      "start": 1698.559,
+      "duration": 6.72,
+      "text": "agents are popping up in industry How is it changing business models for you or your customers",
+      "timestamp": "28:18"
+    },
+    {
+      "start": 1705.279,
+      "duration": 6.321,
+      "text": "I kind of fascinated by the pricing trends going on right now So the LLM industry got us all accustomed to the",
+      "timestamp": "28:25"
+    },
+    {
+      "start": 1711.6,
+      "duration": 5.84,
+      "text": "$20 a month price point Now we're seeing developers being wildly productive with",
+      "timestamp": "28:31"
+    },
+    {
+      "start": 1717.44,
+      "duration": 7.119,
+      "text": "Anthropic Claude and their their max pricing tier at about 200 bucks a month and combined with Cloud Code and",
+      "timestamp": "28:37"
+    },
+    {
+      "start": 1724.559,
+      "duration": 6.401,
+      "text": "theoretically unlimited tokens being very very productive I think as we go to see more and more domain specific agents",
+      "timestamp": "28:44"
+    },
+    {
+      "start": 1730.96,
+      "duration": 5.12,
+      "text": "we're not going to stop at about $2,000 a month for some of these agents because they're adding a lot of value We're",
+      "timestamp": "28:50"
+    },
+    {
+      "start": 1736.08,
+      "duration": 6.319,
+      "text": "going to start to get to $20,000 a month per agent And at that point that's pretty much the cost of a person you",
+      "timestamp": "28:56"
+    },
+    {
+      "start": 1742.399,
+      "duration": 5.681,
+      "text": "know a skilled person Now yes the agent can do a thousand times the same thing but it's not really replicating the same",
+      "timestamp": "29:02"
+    },
+    {
+      "start": 1748.08,
+      "duration": 5.92,
+      "text": "work That's the point of an agent right It's being context aware It's it's it's responding to the environment So I",
+      "timestamp": "29:08"
+    },
+    {
+      "start": 1754.0,
+      "duration": 5.36,
+      "text": "actually think instead of this this concern about losing a lot of jobs it's just we're going to start to see that",
+      "timestamp": "29:14"
+    },
+    {
+      "start": 1759.36,
+      "duration": 5.199,
+      "text": "truly valuable agents are expensive and we're going to start to unfortunately",
+      "timestamp": "29:19"
+    },
+    {
+      "start": 1764.559,
+      "duration": 5.761,
+      "text": "anthropomorphize them again and treat them like humans and co-workers in a sense There's already some articles some",
+      "timestamp": "29:24"
+    },
+    {
+      "start": 1770.32,
+      "duration": 6.4,
+      "text": "McKenzie style articles about there about people merging you know the IT department and the HR department And so",
+      "timestamp": "29:30"
+    },
+    {
+      "start": 1776.72,
+      "duration": 5.439,
+      "text": "uh we're getting into this just interesting world right now where there's so much value and we have to pay",
+      "timestamp": "29:36"
+    },
+    {
+      "start": 1782.159,
+      "duration": 5.921,
+      "text": "for this value but we have to figure out now you know it's not just a one for replacement of people for agents There's",
+      "timestamp": "29:42"
+    },
+    {
+      "start": 1788.08,
+      "duration": 6.24,
+      "text": "there's high value work here There's there's just a lot of lot of you know considerations when we're looking at",
+      "timestamp": "29:48"
+    },
+    {
+      "start": 1794.32,
+      "duration": 5.04,
+      "text": "such high value at at this associated cost That's That's not the cost we",
+      "timestamp": "29:54"
+    },
+    {
+      "start": 1799.36,
+      "duration": 6.0,
+      "text": "started with Tony what about you You've been in this game a while since AI agents are on the",
+      "timestamp": "29:59"
+    },
+    {
+      "start": 1805.36,
+      "duration": 6.16,
+      "text": "scene What are you seeing in terms of how it changes business models or where do you think you'll see business models",
+      "timestamp": "30:05"
+    },
+    {
+      "start": 1811.52,
+      "duration": 6.159,
+      "text": "change in the future\n Well yeah I've been thinking about this question myself I don't really have the exact answer but",
+      "timestamp": "30:11"
+    },
+    {
+      "start": 1817.679,
+      "duration": 7.761,
+      "text": "uh you know internet basically is a advertisement or e-commerce right I mean for most of the uh initial 10 20 years",
+      "timestamp": "30:17"
+    },
+    {
+      "start": 1825.44,
+      "duration": 5.52,
+      "text": "right So um I'm just wondering first of all talking about that one I do think",
+      "timestamp": "30:25"
+    },
+    {
+      "start": 1830.96,
+      "duration": 7.12,
+      "text": "there one difference over here is AI is scalable right uh you may have one or two key programmer if it's a human being",
+      "timestamp": "30:30"
+    },
+    {
+      "start": 1838.08,
+      "duration": 6.56,
+      "text": "you you're going to relocate him from Bangaro to Silicon Valley but with AI you you can really just skill it's a",
+      "timestamp": "30:38"
+    },
+    {
+      "start": 1844.64,
+      "duration": 5.6,
+      "text": "matter of money and you have ROI you can scale so but on the other end let's see",
+      "timestamp": "30:44"
+    },
+    {
+      "start": 1850.24,
+      "duration": 5.52,
+      "text": "if you are a model company and um you know model with deepseek and I think",
+      "timestamp": "30:50"
+    },
+    {
+      "start": 1855.76,
+      "duration": 5.2,
+      "text": "most model became uh commoditized in terms of good enough I'm not say there's",
+      "timestamp": "30:55"
+    },
+    {
+      "start": 1860.96,
+      "duration": 7.599,
+      "text": "no end to it there's always room to improve but for majority day-to-day use that there is a point called good enough",
+      "timestamp": "31:00"
+    },
+    {
+      "start": 1868.559,
+      "duration": 7.201,
+      "text": "and at that point like and you can scale right um what what how that would be",
+      "timestamp": "31:08"
+    },
+    {
+      "start": 1875.76,
+      "duration": 6.56,
+      "text": "actually frankly I don't have the exact answer and you have those new company new model company they trying to disrupt",
+      "timestamp": "31:15"
+    },
+    {
+      "start": 1882.32,
+      "duration": 5.04,
+      "text": "like yes a lot of people over here using chat GPT but even that amount of number",
+      "timestamp": "31:22"
+    },
+    {
+      "start": 1887.36,
+      "duration": 5.52,
+      "text": "compared to people using Google search on a daily basis it's probably small So",
+      "timestamp": "31:27"
+    },
+    {
+      "start": 1892.88,
+      "duration": 5.12,
+      "text": "Google can still easily defend itself right And since with uh you know",
+      "timestamp": "31:32"
+    },
+    {
+      "start": 1898.0,
+      "duration": 6.24,
+      "text": "traditional shopping companies it can easily defend itself So I actually thinking right now it's still early and",
+      "timestamp": "31:38"
+    },
+    {
+      "start": 1904.24,
+      "duration": 7.279,
+      "text": "that's actually the exciting part of it It's actually very early and we are all part of this chaos chaos right chaos",
+      "timestamp": "31:44"
+    },
+    {
+      "start": 1911.519,
+      "duration": 6.721,
+      "text": "system where a small thing over here even what you're doing could totally changing the outcome right the the man",
+      "timestamp": "31:51"
+    },
+    {
+      "start": 1918.24,
+      "duration": 6.64,
+      "text": "who started rally I mean couple months ago the agent and every everybody like wow agent can do so many things then",
+      "timestamp": "31:58"
+    },
+    {
+      "start": 1924.88,
+      "duration": 6.08,
+      "text": "just ask questions and this morning I think yesterday I saw a travel planning agent know the one I actually spent a",
+      "timestamp": "32:04"
+    },
+    {
+      "start": 1930.96,
+      "duration": 7.199,
+      "text": "lot of time on to plan the best kind of like routes right uh you're going to save me a lot of time So I think um",
+      "timestamp": "32:10"
+    },
+    {
+      "start": 1938.159,
+      "duration": 6.24,
+      "text": "right now it's relatively too early to say that because there's too many unknown right The only thing the only",
+      "timestamp": "32:18"
+    },
+    {
+      "start": 1944.399,
+      "duration": 5.12,
+      "text": "thing we we know for sure is if you're not embrace it you will be left behind",
+      "timestamp": "32:24"
+    },
+    {
+      "start": 1949.519,
+      "duration": 7.04,
+      "text": "and I don't think that's going to be friendly It is early Let's double click on the",
+      "timestamp": "32:29"
+    },
+    {
+      "start": 1956.559,
+      "duration": 5.12,
+      "text": "competitive aspect of the AI agent market You asked a question earlier that",
+      "timestamp": "32:36"
+    },
+    {
+      "start": 1961.679,
+      "duration": 5.201,
+      "text": "was very interesting Will the LLMs take it all I'd love for you to give us your",
+      "timestamp": "32:41"
+    },
+    {
+      "start": 1966.88,
+      "duration": 6.96,
+      "text": "thoughts on that and then maybe open it up to the rest of the panel here What do you think Is this a game for the LLMs to",
+      "timestamp": "32:46"
+    },
+    {
+      "start": 1973.84,
+      "duration": 8.319,
+      "text": "win\n So if we go back to the travel agent example right Um uh uh the key thing is",
+      "timestamp": "32:53"
+    },
+    {
+      "start": 1982.159,
+      "duration": 7.12,
+      "text": "can you get access to the current travel inventory amadas you know system like",
+      "timestamp": "33:02"
+    },
+    {
+      "start": 1989.279,
+      "duration": 6.481,
+      "text": "that right uh you know C chip or whatever other you know airline bulking system and do they allow your agent to",
+      "timestamp": "33:09"
+    },
+    {
+      "start": 1995.76,
+      "duration": 8.24,
+      "text": "do high frequency query right if you don't have that you're not going to be able to compete right so um and who has",
+      "timestamp": "33:15"
+    },
+    {
+      "start": 2004.0,
+      "duration": 6.399,
+      "text": "the most leverage on that side you know obviously Google uh how many how many we are already using Google flight search",
+      "timestamp": "33:24"
+    },
+    {
+      "start": 2010.399,
+      "duration": 7.52,
+      "text": "right I I actually thinking the only reason Google flight search don't book directly is because antitrust I mean if",
+      "timestamp": "33:30"
+    },
+    {
+      "start": 2017.919,
+      "duration": 6.64,
+      "text": "I have a choice there's no antitrust us I'm going to book every single trip and ticket on Google flight search right so",
+      "timestamp": "33:37"
+    },
+    {
+      "start": 2024.559,
+      "duration": 6.881,
+      "text": "then let's say Gemini enable that travel planning for you and that's end of it right now Gemini",
+      "timestamp": "33:44"
+    },
+    {
+      "start": 2031.44,
+      "duration": 8.4,
+      "text": "will probably have better position negotiate versus a five person startup company so I I'm actually in the camp of",
+      "timestamp": "33:51"
+    },
+    {
+      "start": 2039.84,
+      "duration": 6.719,
+      "text": "large model will eat it more aggressively swap what about you are you on the side",
+      "timestamp": "33:59"
+    },
+    {
+      "start": 2046.559,
+      "duration": 6.161,
+      "text": "of that fivep person startup trying to go to war with the models or do you share Tony's thoughts\n No I I don't share",
+      "timestamp": "34:06"
+    },
+    {
+      "start": 2052.72,
+      "duration": 6.72,
+      "text": "I disagree with him actually on this one Um I think my view is whenever there's a big technology shift right go back to",
+      "timestamp": "34:12"
+    },
+    {
+      "start": 2059.44,
+      "duration": 6.159,
+      "text": "maybe 20 years ago when we were moving from on premise to cloud the the very famous Oracle Salesforce battle then",
+      "timestamp": "34:19"
+    },
+    {
+      "start": 2065.599,
+      "duration": 5.759,
+      "text": "mobile came uh right and now and first generation of AI now we are the second generation of AI right people often",
+      "timestamp": "34:25"
+    },
+    {
+      "start": 2071.359,
+      "duration": 7.361,
+      "text": "think these waves are about technology that hey you know I've been a 20-year-old company I've been writing software uh I can hire 10 engineers and",
+      "timestamp": "34:31"
+    },
+    {
+      "start": 2078.72,
+      "duration": 5.28,
+      "text": "become an AI agent company I don't think it's ever about the technology it's about the mindset right I would argue",
+      "timestamp": "34:38"
+    },
+    {
+      "start": 2084.0,
+      "duration": 5.28,
+      "text": "that a five person company coming out of YC right they are so AI agent first as a",
+      "timestamp": "34:44"
+    },
+    {
+      "start": 2089.28,
+      "duration": 6.319,
+      "text": "DNA that a company like Google who has so much baggage as a company in thinking",
+      "timestamp": "34:49"
+    },
+    {
+      "start": 2095.599,
+      "duration": 7.201,
+      "text": "in operating in business model in rewards in incentives in every single thing that the 5% company will have a AI",
+      "timestamp": "34:55"
+    },
+    {
+      "start": 2102.8,
+      "duration": 6.64,
+      "text": "agent native DNA and they will outexecute these large companies right when we think about the the foundation",
+      "timestamp": "35:02"
+    },
+    {
+      "start": 2109.44,
+      "duration": 7.76,
+      "text": "models though right there I agree you know companies like open AI Gemini I mean all these will succeed read because it's a big capital play right but then",
+      "timestamp": "35:09"
+    },
+    {
+      "start": 2117.2,
+      "duration": 6.08,
+      "text": "when you think of a specific application stack a travel planner company a customer support AI company a coding I",
+      "timestamp": "35:17"
+    },
+    {
+      "start": 2123.28,
+      "duration": 6.16,
+      "text": "mean we all know about kurser right the company which took off right there small set of people right and because they",
+      "timestamp": "35:23"
+    },
+    {
+      "start": 2129.44,
+      "duration": 6.24,
+      "text": "came at the problem from an AI agent native mindset right so I actually agree like every every company out there every",
+      "timestamp": "35:29"
+    },
+    {
+      "start": 2135.68,
+      "duration": 5.6,
+      "text": "business model out there is actually is to be disrupted by a 5% company sitting",
+      "timestamp": "35:35"
+    },
+    {
+      "start": 2141.28,
+      "duration": 5.2,
+      "text": "out in Silicon Valley in their garage that's what I tell my company that guys there's there's some people out there",
+      "timestamp": "35:41"
+    },
+    {
+      "start": 2146.48,
+      "duration": 6.639,
+      "text": "who are plotting how to kill observe AI Uh right and how do we how do we not let that happen Bel you have an interesting",
+      "timestamp": "35:46"
+    },
+    {
+      "start": 2153.119,
+      "duration": 5.761,
+      "text": "take here I've heard you say that memory technology will determine the winners We're coming short on time but can you",
+      "timestamp": "35:53"
+    },
+    {
+      "start": 2158.88,
+      "duration": 5.199,
+      "text": "give us in 30 seconds why do you think that\n So when you actually examine how",
+      "timestamp": "35:58"
+    },
+    {
+      "start": 2164.079,
+      "duration": 6.401,
+      "text": "this technology works as economics the cost per token and so forth it comes down to this thing in inference called",
+      "timestamp": "36:04"
+    },
+    {
+      "start": 2170.48,
+      "duration": 5.04,
+      "text": "disagregated prefill technical term you don't have to worry too much about it but it's literally making sure that the",
+      "timestamp": "36:10"
+    },
+    {
+      "start": 2175.52,
+      "duration": 6.079,
+      "text": "GPU which is that most precious asset is doing the right thing at the right time And half the time it has to basically do",
+      "timestamp": "36:15"
+    },
+    {
+      "start": 2181.599,
+      "duration": 6.081,
+      "text": "something that's very computebound terms of transferring your prompt into its working memory its key value cache And",
+      "timestamp": "36:21"
+    },
+    {
+      "start": 2187.68,
+      "duration": 5.76,
+      "text": "then the other half of the time actually has to decode the model using the working memory to get the reasoning",
+      "timestamp": "36:27"
+    },
+    {
+      "start": 2193.44,
+      "duration": 5.2,
+      "text": "tokens to get the output tokens to literally feed the agents And that's a",
+      "timestamp": "36:33"
+    },
+    {
+      "start": 2198.64,
+      "duration": 6.0,
+      "text": "memory bound process And so right now we're not optimizing anything We're making these hundred billion dollar",
+      "timestamp": "36:38"
+    },
+    {
+      "start": 2204.64,
+      "duration": 5.68,
+      "text": "investments in these data centers and there's no assembly lines the way we're doing the inference Actually we're",
+      "timestamp": "36:44"
+    },
+    {
+      "start": 2210.32,
+      "duration": 7.279,
+      "text": "trying to do everything with one type of GPU mix these workloads So when you're able to disagregate the computebound",
+      "timestamp": "36:50"
+    },
+    {
+      "start": 2217.599,
+      "duration": 6.161,
+      "text": "stuff from the memorybound workloads you're able to actually introduce an assembly line surprisingly enough for",
+      "timestamp": "36:57"
+    },
+    {
+      "start": 2223.76,
+      "duration": 6.72,
+      "text": "the first time in this industry So it's as simple as the industry is finally having its model T moment and where you",
+      "timestamp": "37:03"
+    },
+    {
+      "start": 2230.48,
+      "duration": 5.76,
+      "text": "know we can't imagine a factory today without assembly lines We've been operating AI factories up until recently",
+      "timestamp": "37:10"
+    },
+    {
+      "start": 2236.24,
+      "duration": 5.119,
+      "text": "without assembly lines Memory is what enables us to implement assembly lines",
+      "timestamp": "37:16"
+    },
+    {
+      "start": 2241.359,
+      "duration": 5.361,
+      "text": "And we streamline the production of tokens because we can't make more nuclear power plants in the next five",
+      "timestamp": "37:21"
+    },
+    {
+      "start": 2246.72,
+      "duration": 5.76,
+      "text": "years We're often running out of real estate It's not easy to just get as many GPUs as you want But if you use that",
+      "timestamp": "37:26"
+    },
+    {
+      "start": 2252.48,
+      "duration": 6.24,
+      "text": "more efficiently and you solve the memory bottleneck you you unlock way more tokens you lower the price you",
+      "timestamp": "37:32"
+    },
+    {
+      "start": 2258.72,
+      "duration": 6.32,
+      "text": "enable much higher quality agents\n Final lightning round Let's talk to the audience here who's using these and",
+      "timestamp": "37:38"
+    },
+    {
+      "start": 2265.04,
+      "duration": 5.12,
+      "text": "trying to prepare for a future with AI agents One line from each of you What",
+      "timestamp": "37:45"
+    },
+    {
+      "start": 2270.16,
+      "duration": 7.36,
+      "text": "should the audience members do today to prepare for the future economy with AI agents Yeah I'll share what I share with",
+      "timestamp": "37:50"
+    },
+    {
+      "start": 2277.52,
+      "duration": 7.36,
+      "text": "most of the CIOS that I meet in in the US which is I think there's a lot of thinking that uh oh AI is not there yet",
+      "timestamp": "37:57"
+    },
+    {
+      "start": 2284.88,
+      "duration": 5.84,
+      "text": "Oh it's still hallucinate It's still it's not perfect right So there's a lot of companies and CIOS who are waiting on",
+      "timestamp": "38:04"
+    },
+    {
+      "start": 2290.72,
+      "duration": 5.6,
+      "text": "the sidelines for AI to get perfect Uh but the flavor of AI we are talking about today will actually never get",
+      "timestamp": "38:10"
+    },
+    {
+      "start": 2296.32,
+      "duration": 7.6,
+      "text": "perfect It's not by design it is not a deterministic technology right uh you can get to 99% accuracy 99.5 but",
+      "timestamp": "38:16"
+    },
+    {
+      "start": 2303.92,
+      "duration": 5.199,
+      "text": "if you're expecting this is like a fully deterministic 100% accurate system it's not the case so what I leave you with is",
+      "timestamp": "38:23"
+    },
+    {
+      "start": 2309.119,
+      "duration": 6.0,
+      "text": "start now uh and I again remind you there's a 5% company sitting in Silicon Valley disrupting all of you uh so",
+      "timestamp": "38:29"
+    },
+    {
+      "start": 2315.119,
+      "duration": 6.161,
+      "text": "either disrupt or be disrupted\n yeah I conquer about starting now part of it you know joining this conference is step",
+      "timestamp": "38:35"
+    },
+    {
+      "start": 2321.28,
+      "duration": 6.0,
+      "text": "one you're not competing with AI that's too fast you're competing with other people let the old jokers goes like you",
+      "timestamp": "38:41"
+    },
+    {
+      "start": 2327.28,
+      "duration": 5.52,
+      "text": "are in the forest with your friend as a beer chaser you Right You're not you're going to be run faster than the beer",
+      "timestamp": "38:47"
+    },
+    {
+      "start": 2332.8,
+      "duration": 5.52,
+      "text": "You're going to be run faster than the friend Right So that is what you're going to do\n Yeah And I keep it really",
+      "timestamp": "38:52"
+    },
+    {
+      "start": 2338.32,
+      "duration": 5.6,
+      "text": "practical You know there was a time when we used to like keep to-do lists and spreadsheets and manage all sorts of",
+      "timestamp": "38:58"
+    },
+    {
+      "start": 2343.92,
+      "duration": 5.76,
+      "text": "random things in spreadsheets not just budgets when Excel became like a really popular thing at work Do that with",
+      "timestamp": "39:03"
+    },
+    {
+      "start": 2349.68,
+      "duration": 6.0,
+      "text": "Cursor now It's free to to download Just download Cursor I have no stock in this company by the way so it's just honest",
+      "timestamp": "39:09"
+    },
+    {
+      "start": 2355.68,
+      "duration": 5.52,
+      "text": "advice And start to If you're not a coder don't code with it create powerpoints with it It generates slides",
+      "timestamp": "39:15"
+    },
+    {
+      "start": 2361.2,
+      "duration": 5.2,
+      "text": "you know manage your to-do list more efficiently with it Have it automatically respond to all of the",
+      "timestamp": "39:21"
+    },
+    {
+      "start": 2366.4,
+      "duration": 5.199,
+      "text": "emails the junk emails that you don't want to respond to Uh and focus on the emails you do care about from the key",
+      "timestamp": "39:26"
+    },
+    {
+      "start": 2371.599,
+      "duration": 7.041,
+      "text": "people But use cursor with English or your own natural language that it supports to do work Now use think of it",
+      "timestamp": "39:31"
+    },
+    {
+      "start": 2378.64,
+      "duration": 5.92,
+      "text": "as the 21st century spreadsheet and just get hands-on of where it works where it doesn't And you're going to be so much",
+      "timestamp": "39:38"
+    },
+    {
+      "start": 2384.56,
+      "duration": 5.519,
+      "text": "more valuable to your organization by just having that hands-on knowledge which is not intimidating not",
+      "timestamp": "39:44"
+    },
+    {
+      "start": 2390.079,
+      "duration": 6.28,
+      "text": "complicated So just try it Thank you very much all That's our time",
+      "timestamp": "39:50"
+    }
+  ],
+  "extraction_timestamp": "2025-06-29T20:47:10.703891",
+  "playlist_title": "SuperAI Singapore 2025: io.net Main Stage"
+}

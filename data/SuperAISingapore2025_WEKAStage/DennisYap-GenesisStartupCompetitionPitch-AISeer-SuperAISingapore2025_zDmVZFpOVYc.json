@@ -1,0 +1,1355 @@
+{
+  "video_id": "zDmVZFpOVYc",
+  "video_title": "Dennis Yap - Genesis Startup Competition Pitch - AI Seer - SuperAI Singapore 2025",
+  "video_url": "https://www.youtube.com/watch?v=zDmVZFpOVYc",
+  "channel_title": "SuperAI",
+  "published_at": "2025-06-25T15:42:57+00:00",
+  "duration_seconds": null,
+  "view_count": 12,
+  "like_count": 0,
+  "description": "Learn more about SuperAI: superai.com\nFollow us on X: x.com/superai_conf\n\nGenesis Startup Competition Pitch - AI Seer\n\nSpeaker:\nDennis Yap, Founder and CEO @ AI Seer\n\nStage: WEKA Stage\n#superai #aiseer #startups #competition #ai\n\nRecorded on 18 June 2025",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 222,
+    "aggregated_text": "hi I'm Dennis Um what if I'm the last contestant standing in between you and your freedom what if you could fact check that in real time would that change the way we communicate would that make our communication much more exploratory confirmatory and transparent that's what I'm bringing to you today Not just a new category a way we change communication So we're generating revenue from two dual use AIS even before we finish all the technical milestones We've won Time magazine's best inventions of 2024 alongside the likes of Google Deep Mind And the pain of being scammed is very personal for Singaporeans especially I stood on a startup competition stage that the CEO of Vizio won He got uh Dr Kyifully resigned from his board just before uh he got exposed that his Cambridge PhD was fabricated I worked with Hugh Mason from JD JFDI We set traps for entrepreneurs like uh do you read this book on entrepreneurship and 20% of the cohort would say that they uh have read more than they actually have for books that don't even exist So my VC got scammed of uh $3 million US and I got catfished So we are all multi-deviceing in this world right now Um you might not know you're getting misinformation when you're driving listening to a podcast falling asleep watching a YouTube video Did you know that eating broccoli with this particular thing could actually harm your health despite being hailed as one of the top 10 superfoods broccoli too has its food matches made in heaven and those that are a recipe for disaster Yes even something as beneficial So a senior citizen told us about his pain that just got forwarded into his WhatsApp group and you know how these things work People just forwarded it on and on Um we are better than perplexity and grog We are the only ones that can fact an entire podcast of Joe Rogan Joe Rogan's at 2,000 podcasts Uh you can imagine how the information ecosystem is now Um even the most popular YouTuber Mr Beast uh you might still be confused whether he's selling his YouTube channel to Disney And recently one of his um uh videos got mistranscribed and he can't clear his name With Facticity.ai AI You can fact check anything you hear on a podcast anything you watch on a YouTube video even what your chat bots are hallucinating when you're using them on Chrome This is actually the White House fact sheet Usually a very credible source I want you to use our system and see if it's still credible Even for something as simple as a car's physical speed you would think there would be a simple answer to this but actually uh there's a different answer for in theory and in practice We are more accurate than any other AI search on benchmarks on our competitors data set and we are the fastest We fact check the US presidential date live every claim within 90 seconds and we 20x the volume of the number of fact checks that would otherwise have gone unnoticed Of course um there's a lot of chaos when you elect someone like that Um yeah so what if there's only one source and it's a highly political claim you must ensure you understand the quality of the source and the ideological leaning And that's what we want to do We want to make the truth more transparent and metaanalytical to you We are uh outperforming Grog uh co-pilot uh Gemini uh by multiple uh multiples and 3x more than perplexity And as mentioned we are more mult multimedia too This is the world's biggest problem The World Economic Forum has said it's the biggest risk for humanity for in two years running And this is how we plan to address uh the different uh market segments Even with a tiny advertising budget we are at 3,000 unique weekly active users We have a great CPA because uh we have Tim Draper's digital twin helping us uh uh advertise our solution to um GEI hallucinations using GEI and uh we are paying people in both enterprise and uh essential plans Uh one of them uh is preparing to do a massive scale up If you don't know already there are Russian chatbots who are flooding Wikipedia in multiple languages with this information Yeah Uh we just were at a virtual site event Uh the co-founder is very keen to uh help us launch a coin The way the attention economy works now is there's perverse incentives to exaggerate sens sensationalize but there's no uh no solution Uh there's no incentive for people to fact check Elon Musk when he's spreading fake news on X for example We are going to change that Yeah Um so what if French and Spanish sources uh largely disagree about particular issue we want to make um the AI search radically transparent for you Um all the sources will be there what language it is what country it's from And we have two full patterns in our building more deep tech as well So what if by the end of the year while you're doing a zoom call with founder like me you could fact check them as they are pitching you What if you could fact check Elon Musk in this next uh earnings call to figure out how much indirectly uh kamin he's taking Yeah So these are some of our partners including AWS who are um very generously helping us uh scale up and cover a lot of our costs Um these are some of our web three partnerships Come talk to us about more Tim is the man who made uh Elon the man he is today and Bitcoin what it is Uh Dr Andreas helped build Amazon scientific culture Yeah So all we're asking for this is a measly $2.5 million What's the thing you're most certain about she cheated More people will have access to their own health information And because the time is up I'll just leave you with this Uh you can see our shoulder and mouth shrug and we'll share more about lie detection when there's time Thank you Dennis I'm I'm pretty excited about this because I do see B2C applications as well as B2B applications But my first question is tell us about these early customers Are these just regular people scrolling their media or are they using this for work are they using this as part of like research um are they like super I don't know um like extremist and they just want to figure out what's going on the other side like help us understand this Who's using this and for what uh they're very highly educated people uh in R&D right where uh you can't afford to make a mistake Uh my friend from GIC Total Risk is using it as well Time magazines journalists and editors have to deal with Donald Trump's transcripts every day So they're using it too Um people in defense in Singapore are using it because there's this flood of misinformation on different Wikipedia language pages It's also affecting Reddit and every other platform including Facebook groups Uh question on this Are you indexing the web to some extent yourself and if not what are your sources there for example for these links and how do you determine what is a fact versus what is not right So um there are three data sets one by Colombia University that we outperformed on uh one by our rival and we created a multilingual data set for ASEAN as well Yeah but are you are you indexing the web then for example or you just use something else because I saw all the websites the links news articles we're using Bing and Google as our search engines Yeah Okay Gotcha Um help me understand how how come you're able to outperform Perplexity GPT all the other ones We have a scaffolder AI which some people think is a alternate path to AGI Yeah Um so that's part of our secret source We're also using at fontes media bias chart uh NGO that ranks different sources uh even different articles Sometimes even the New York Times has poor articles that are poor quality Can I understand what is your plan uh and go to market strategy how you plan to sort of uh scale and acquire users so we have a very good CPA as mentioned uh through YouTube shots Uh you can check out our YouTube facy AI channel Uh Google Adwords is also uh bringing us a lot of paying subscribers because we have unique selling points like um social media fact checker that nobody else is doing So that allows us to um get the adwords really cheap",
+    "text_length": 8029,
+    "word_count": 1490
+  },
+  "segments": [
+    {
+      "start": 7.839,
+      "duration": 4.8,
+      "text": "hi I'm Dennis Um what if I'm the last",
+      "timestamp": "00:07"
+    },
+    {
+      "start": 12.639,
+      "duration": 2.08,
+      "text": "contestant standing in between you and",
+      "timestamp": "00:12"
+    },
+    {
+      "start": 14.719,
+      "duration": 1.761,
+      "text": "your freedom",
+      "timestamp": "00:14"
+    },
+    {
+      "start": 16.48,
+      "duration": 1.68,
+      "text": "what if you could fact check that in",
+      "timestamp": "00:16"
+    },
+    {
+      "start": 18.16,
+      "duration": 2.72,
+      "text": "real time would that change the way we",
+      "timestamp": "00:18"
+    },
+    {
+      "start": 20.88,
+      "duration": 2.399,
+      "text": "communicate would that make our",
+      "timestamp": "00:20"
+    },
+    {
+      "start": 23.279,
+      "duration": 2.401,
+      "text": "communication much more exploratory",
+      "timestamp": "00:23"
+    },
+    {
+      "start": 25.68,
+      "duration": 2.88,
+      "text": "confirmatory and transparent that's what",
+      "timestamp": "00:25"
+    },
+    {
+      "start": 28.56,
+      "duration": 3.28,
+      "text": "I'm bringing to you today Not just a new",
+      "timestamp": "00:28"
+    },
+    {
+      "start": 31.84,
+      "duration": 3.92,
+      "text": "category a way we change communication",
+      "timestamp": "00:31"
+    },
+    {
+      "start": 35.76,
+      "duration": 2.479,
+      "text": "So we're generating revenue from two",
+      "timestamp": "00:35"
+    },
+    {
+      "start": 38.239,
+      "duration": 3.521,
+      "text": "dual use AIS even before we finish all",
+      "timestamp": "00:38"
+    },
+    {
+      "start": 41.76,
+      "duration": 3.119,
+      "text": "the technical milestones",
+      "timestamp": "00:41"
+    },
+    {
+      "start": 44.879,
+      "duration": 1.761,
+      "text": "We've won Time magazine's best",
+      "timestamp": "00:44"
+    },
+    {
+      "start": 46.64,
+      "duration": 3.2,
+      "text": "inventions of 2024 alongside the likes",
+      "timestamp": "00:46"
+    },
+    {
+      "start": 49.84,
+      "duration": 3.8,
+      "text": "of Google Deep Mind",
+      "timestamp": "00:49"
+    },
+    {
+      "start": 55.44,
+      "duration": 2.959,
+      "text": "And the pain of being scammed is very",
+      "timestamp": "00:55"
+    },
+    {
+      "start": 58.399,
+      "duration": 3.521,
+      "text": "personal for Singaporeans especially I",
+      "timestamp": "00:58"
+    },
+    {
+      "start": 61.92,
+      "duration": 2.4,
+      "text": "stood on a startup competition stage",
+      "timestamp": "01:01"
+    },
+    {
+      "start": 64.32,
+      "duration": 4.88,
+      "text": "that the CEO of Vizio won He got uh Dr",
+      "timestamp": "01:04"
+    },
+    {
+      "start": 69.2,
+      "duration": 3.04,
+      "text": "Kyifully resigned from his board just",
+      "timestamp": "01:09"
+    },
+    {
+      "start": 72.24,
+      "duration": 2.879,
+      "text": "before uh he got exposed that his",
+      "timestamp": "01:12"
+    },
+    {
+      "start": 75.119,
+      "duration": 3.281,
+      "text": "Cambridge PhD was fabricated I worked",
+      "timestamp": "01:15"
+    },
+    {
+      "start": 78.4,
+      "duration": 3.2,
+      "text": "with Hugh Mason from JD JFDI We set",
+      "timestamp": "01:18"
+    },
+    {
+      "start": 81.6,
+      "duration": 3.12,
+      "text": "traps for entrepreneurs like uh do you",
+      "timestamp": "01:21"
+    },
+    {
+      "start": 84.72,
+      "duration": 1.6,
+      "text": "read this book on entrepreneurship and",
+      "timestamp": "01:24"
+    },
+    {
+      "start": 86.32,
+      "duration": 4.64,
+      "text": "20% of the cohort would say that they uh",
+      "timestamp": "01:26"
+    },
+    {
+      "start": 90.96,
+      "duration": 1.839,
+      "text": "have read more than they actually have",
+      "timestamp": "01:30"
+    },
+    {
+      "start": 92.799,
+      "duration": 2.801,
+      "text": "for books that don't even exist",
+      "timestamp": "01:32"
+    },
+    {
+      "start": 95.6,
+      "duration": 4.64,
+      "text": "So my VC got scammed of uh $3 million US",
+      "timestamp": "01:35"
+    },
+    {
+      "start": 100.24,
+      "duration": 3.64,
+      "text": "and I got catfished",
+      "timestamp": "01:40"
+    },
+    {
+      "start": 104.64,
+      "duration": 2.159,
+      "text": "So we are all multi-deviceing in this",
+      "timestamp": "01:44"
+    },
+    {
+      "start": 106.799,
+      "duration": 2.64,
+      "text": "world right now Um you might not know",
+      "timestamp": "01:46"
+    },
+    {
+      "start": 109.439,
+      "duration": 2.32,
+      "text": "you're getting misinformation when",
+      "timestamp": "01:49"
+    },
+    {
+      "start": 111.759,
+      "duration": 2.4,
+      "text": "you're driving listening to a podcast",
+      "timestamp": "01:51"
+    },
+    {
+      "start": 114.159,
+      "duration": 2.96,
+      "text": "falling asleep watching a YouTube video",
+      "timestamp": "01:54"
+    },
+    {
+      "start": 117.119,
+      "duration": 1.841,
+      "text": "Did you know that eating broccoli with",
+      "timestamp": "01:57"
+    },
+    {
+      "start": 118.96,
+      "duration": 1.759,
+      "text": "this particular thing could actually",
+      "timestamp": "01:58"
+    },
+    {
+      "start": 120.719,
+      "duration": 3.04,
+      "text": "harm your health despite being hailed as",
+      "timestamp": "02:00"
+    },
+    {
+      "start": 123.759,
+      "duration": 3.201,
+      "text": "one of the top 10 superfoods broccoli",
+      "timestamp": "02:03"
+    },
+    {
+      "start": 126.96,
+      "duration": 2.719,
+      "text": "too has its food matches made in heaven",
+      "timestamp": "02:06"
+    },
+    {
+      "start": 129.679,
+      "duration": 2.881,
+      "text": "and those that are a recipe for disaster",
+      "timestamp": "02:09"
+    },
+    {
+      "start": 132.56,
+      "duration": 3.6,
+      "text": "Yes even something as beneficial\n So a",
+      "timestamp": "02:12"
+    },
+    {
+      "start": 136.16,
+      "duration": 2.64,
+      "text": "senior citizen told us about his pain",
+      "timestamp": "02:16"
+    },
+    {
+      "start": 138.8,
+      "duration": 1.36,
+      "text": "that just got forwarded into his",
+      "timestamp": "02:18"
+    },
+    {
+      "start": 140.16,
+      "duration": 2.079,
+      "text": "WhatsApp group and you know how these",
+      "timestamp": "02:20"
+    },
+    {
+      "start": 142.239,
+      "duration": 1.681,
+      "text": "things work People just forwarded it on",
+      "timestamp": "02:22"
+    },
+    {
+      "start": 143.92,
+      "duration": 4.48,
+      "text": "and on Um we are better than perplexity",
+      "timestamp": "02:23"
+    },
+    {
+      "start": 148.4,
+      "duration": 1.919,
+      "text": "and grog We are the only ones that can",
+      "timestamp": "02:28"
+    },
+    {
+      "start": 150.319,
+      "duration": 3.121,
+      "text": "fact an entire podcast of Joe Rogan Joe",
+      "timestamp": "02:30"
+    },
+    {
+      "start": 153.44,
+      "duration": 3.68,
+      "text": "Rogan's at 2,000 podcasts Uh you can",
+      "timestamp": "02:33"
+    },
+    {
+      "start": 157.12,
+      "duration": 2.64,
+      "text": "imagine how the information ecosystem is",
+      "timestamp": "02:37"
+    },
+    {
+      "start": 159.76,
+      "duration": 3.44,
+      "text": "now Um even the most popular YouTuber Mr",
+      "timestamp": "02:39"
+    },
+    {
+      "start": 163.2,
+      "duration": 2.56,
+      "text": "Beast uh you might still be confused",
+      "timestamp": "02:43"
+    },
+    {
+      "start": 165.76,
+      "duration": 1.6,
+      "text": "whether he's selling his YouTube channel",
+      "timestamp": "02:45"
+    },
+    {
+      "start": 167.36,
+      "duration": 4.0,
+      "text": "to Disney And recently one of his um uh",
+      "timestamp": "02:47"
+    },
+    {
+      "start": 171.36,
+      "duration": 2.159,
+      "text": "videos got mistranscribed and he can't",
+      "timestamp": "02:51"
+    },
+    {
+      "start": 173.519,
+      "duration": 2.8,
+      "text": "clear his name",
+      "timestamp": "02:53"
+    },
+    {
+      "start": 176.319,
+      "duration": 3.041,
+      "text": "With Facticity.ai AI You can fact check",
+      "timestamp": "02:56"
+    },
+    {
+      "start": 179.36,
+      "duration": 2.4,
+      "text": "anything you hear on a podcast anything",
+      "timestamp": "02:59"
+    },
+    {
+      "start": 181.76,
+      "duration": 2.32,
+      "text": "you watch on a YouTube video even what",
+      "timestamp": "03:01"
+    },
+    {
+      "start": 184.08,
+      "duration": 2.0,
+      "text": "your chat bots are hallucinating when",
+      "timestamp": "03:04"
+    },
+    {
+      "start": 186.08,
+      "duration": 3.68,
+      "text": "you're using them on Chrome",
+      "timestamp": "03:06"
+    },
+    {
+      "start": 189.76,
+      "duration": 2.399,
+      "text": "This is actually the White House fact",
+      "timestamp": "03:09"
+    },
+    {
+      "start": 192.159,
+      "duration": 2.481,
+      "text": "sheet Usually a very credible source I",
+      "timestamp": "03:12"
+    },
+    {
+      "start": 194.64,
+      "duration": 2.0,
+      "text": "want you to use our system and see if",
+      "timestamp": "03:14"
+    },
+    {
+      "start": 196.64,
+      "duration": 3.48,
+      "text": "it's still credible",
+      "timestamp": "03:16"
+    },
+    {
+      "start": 200.959,
+      "duration": 2.241,
+      "text": "Even for something as simple as a car's",
+      "timestamp": "03:20"
+    },
+    {
+      "start": 203.2,
+      "duration": 1.92,
+      "text": "physical speed you would think there",
+      "timestamp": "03:23"
+    },
+    {
+      "start": 205.12,
+      "duration": 2.399,
+      "text": "would be a simple answer to this but",
+      "timestamp": "03:25"
+    },
+    {
+      "start": 207.519,
+      "duration": 2.241,
+      "text": "actually uh there's a different answer",
+      "timestamp": "03:27"
+    },
+    {
+      "start": 209.76,
+      "duration": 4.199,
+      "text": "for in theory and in practice",
+      "timestamp": "03:29"
+    },
+    {
+      "start": 214.08,
+      "duration": 2.32,
+      "text": "We are more accurate than any other AI",
+      "timestamp": "03:34"
+    },
+    {
+      "start": 216.4,
+      "duration": 2.399,
+      "text": "search on benchmarks on our competitors",
+      "timestamp": "03:36"
+    },
+    {
+      "start": 218.799,
+      "duration": 2.241,
+      "text": "data set",
+      "timestamp": "03:38"
+    },
+    {
+      "start": 221.04,
+      "duration": 2.16,
+      "text": "and we are the fastest We fact check the",
+      "timestamp": "03:41"
+    },
+    {
+      "start": 223.2,
+      "duration": 2.8,
+      "text": "US presidential date live every claim",
+      "timestamp": "03:43"
+    },
+    {
+      "start": 226.0,
+      "duration": 3.519,
+      "text": "within 90 seconds and we 20x the volume",
+      "timestamp": "03:46"
+    },
+    {
+      "start": 229.519,
+      "duration": 2.0,
+      "text": "of the number of fact checks that would",
+      "timestamp": "03:49"
+    },
+    {
+      "start": 231.519,
+      "duration": 3.521,
+      "text": "otherwise have gone unnoticed",
+      "timestamp": "03:51"
+    },
+    {
+      "start": 235.04,
+      "duration": 2.8,
+      "text": "Of course um there's a lot of chaos when",
+      "timestamp": "03:55"
+    },
+    {
+      "start": 237.84,
+      "duration": 3.119,
+      "text": "you elect someone like that",
+      "timestamp": "03:57"
+    },
+    {
+      "start": 240.959,
+      "duration": 1.521,
+      "text": "Um",
+      "timestamp": "04:00"
+    },
+    {
+      "start": 242.48,
+      "duration": 3.36,
+      "text": "yeah so what if there's only one source",
+      "timestamp": "04:02"
+    },
+    {
+      "start": 245.84,
+      "duration": 3.28,
+      "text": "and it's a highly political claim you",
+      "timestamp": "04:05"
+    },
+    {
+      "start": 249.12,
+      "duration": 2.64,
+      "text": "must ensure you understand the quality",
+      "timestamp": "04:09"
+    },
+    {
+      "start": 251.76,
+      "duration": 2.479,
+      "text": "of the source and the ideological",
+      "timestamp": "04:11"
+    },
+    {
+      "start": 254.239,
+      "duration": 1.521,
+      "text": "leaning",
+      "timestamp": "04:14"
+    },
+    {
+      "start": 255.76,
+      "duration": 2.08,
+      "text": "And that's what we want to do We want to",
+      "timestamp": "04:15"
+    },
+    {
+      "start": 257.84,
+      "duration": 2.56,
+      "text": "make the truth more transparent and",
+      "timestamp": "04:17"
+    },
+    {
+      "start": 260.4,
+      "duration": 4.079,
+      "text": "metaanalytical to you",
+      "timestamp": "04:20"
+    },
+    {
+      "start": 264.479,
+      "duration": 4.641,
+      "text": "We are uh outperforming Grog uh co-pilot",
+      "timestamp": "04:24"
+    },
+    {
+      "start": 269.12,
+      "duration": 3.92,
+      "text": "uh Gemini uh by multiple uh multiples",
+      "timestamp": "04:29"
+    },
+    {
+      "start": 273.04,
+      "duration": 4.4,
+      "text": "and 3x more than perplexity",
+      "timestamp": "04:33"
+    },
+    {
+      "start": 277.44,
+      "duration": 1.36,
+      "text": "And as mentioned we are more mult",
+      "timestamp": "04:37"
+    },
+    {
+      "start": 278.8,
+      "duration": 3.799,
+      "text": "multimedia too",
+      "timestamp": "04:38"
+    },
+    {
+      "start": 283.28,
+      "duration": 2.0,
+      "text": "This is the world's biggest problem The",
+      "timestamp": "04:43"
+    },
+    {
+      "start": 285.28,
+      "duration": 2.24,
+      "text": "World Economic Forum has said it's the",
+      "timestamp": "04:45"
+    },
+    {
+      "start": 287.52,
+      "duration": 3.04,
+      "text": "biggest risk for humanity for in two",
+      "timestamp": "04:47"
+    },
+    {
+      "start": 290.56,
+      "duration": 2.8,
+      "text": "years running And this is how we plan to",
+      "timestamp": "04:50"
+    },
+    {
+      "start": 293.36,
+      "duration": 2.08,
+      "text": "address uh the different uh market",
+      "timestamp": "04:53"
+    },
+    {
+      "start": 295.44,
+      "duration": 1.92,
+      "text": "segments",
+      "timestamp": "04:55"
+    },
+    {
+      "start": 297.36,
+      "duration": 3.76,
+      "text": "Even with a tiny advertising budget we",
+      "timestamp": "04:57"
+    },
+    {
+      "start": 301.12,
+      "duration": 4.799,
+      "text": "are at 3,000 unique weekly active users",
+      "timestamp": "05:01"
+    },
+    {
+      "start": 305.919,
+      "duration": 3.441,
+      "text": "We have a great CPA because uh we have",
+      "timestamp": "05:05"
+    },
+    {
+      "start": 309.36,
+      "duration": 4.16,
+      "text": "Tim Draper's digital twin helping us uh",
+      "timestamp": "05:09"
+    },
+    {
+      "start": 313.52,
+      "duration": 4.0,
+      "text": "uh advertise our solution to um GEI",
+      "timestamp": "05:13"
+    },
+    {
+      "start": 317.52,
+      "duration": 4.2,
+      "text": "hallucinations using GEI",
+      "timestamp": "05:17"
+    },
+    {
+      "start": 321.919,
+      "duration": 1.921,
+      "text": "and uh we are paying people in both",
+      "timestamp": "05:21"
+    },
+    {
+      "start": 323.84,
+      "duration": 5.04,
+      "text": "enterprise and uh essential plans",
+      "timestamp": "05:23"
+    },
+    {
+      "start": 328.88,
+      "duration": 2.64,
+      "text": "Uh one of them uh is preparing to do a",
+      "timestamp": "05:28"
+    },
+    {
+      "start": 331.52,
+      "duration": 1.519,
+      "text": "massive scale up If you don't know",
+      "timestamp": "05:31"
+    },
+    {
+      "start": 333.039,
+      "duration": 2.241,
+      "text": "already there are Russian chatbots who",
+      "timestamp": "05:33"
+    },
+    {
+      "start": 335.28,
+      "duration": 1.84,
+      "text": "are flooding Wikipedia in multiple",
+      "timestamp": "05:35"
+    },
+    {
+      "start": 337.12,
+      "duration": 4.44,
+      "text": "languages with this information",
+      "timestamp": "05:37"
+    },
+    {
+      "start": 342.479,
+      "duration": 2.72,
+      "text": "Yeah Uh we just were at a virtual site",
+      "timestamp": "05:42"
+    },
+    {
+      "start": 345.199,
+      "duration": 3.521,
+      "text": "event Uh the co-founder is very keen to",
+      "timestamp": "05:45"
+    },
+    {
+      "start": 348.72,
+      "duration": 2.72,
+      "text": "uh help us launch a coin The way the",
+      "timestamp": "05:48"
+    },
+    {
+      "start": 351.44,
+      "duration": 2.56,
+      "text": "attention economy works now is there's",
+      "timestamp": "05:51"
+    },
+    {
+      "start": 354.0,
+      "duration": 3.039,
+      "text": "perverse incentives to exaggerate sens",
+      "timestamp": "05:54"
+    },
+    {
+      "start": 357.039,
+      "duration": 2.961,
+      "text": "sensationalize but there's no uh no",
+      "timestamp": "05:57"
+    },
+    {
+      "start": 360.0,
+      "duration": 2.16,
+      "text": "solution Uh there's no incentive for",
+      "timestamp": "06:00"
+    },
+    {
+      "start": 362.16,
+      "duration": 2.08,
+      "text": "people to fact check Elon Musk when he's",
+      "timestamp": "06:02"
+    },
+    {
+      "start": 364.24,
+      "duration": 3.76,
+      "text": "spreading fake news on X for example",
+      "timestamp": "06:04"
+    },
+    {
+      "start": 368.0,
+      "duration": 4.039,
+      "text": "We are going to change that",
+      "timestamp": "06:08"
+    },
+    {
+      "start": 372.24,
+      "duration": 3.44,
+      "text": "Yeah Um so what if French and Spanish",
+      "timestamp": "06:12"
+    },
+    {
+      "start": 375.68,
+      "duration": 2.72,
+      "text": "sources uh largely disagree about",
+      "timestamp": "06:15"
+    },
+    {
+      "start": 378.4,
+      "duration": 3.12,
+      "text": "particular issue we want to make um the",
+      "timestamp": "06:18"
+    },
+    {
+      "start": 381.52,
+      "duration": 2.88,
+      "text": "AI search radically transparent for you",
+      "timestamp": "06:21"
+    },
+    {
+      "start": 384.4,
+      "duration": 2.16,
+      "text": "Um all the sources will be there what",
+      "timestamp": "06:24"
+    },
+    {
+      "start": 386.56,
+      "duration": 4.52,
+      "text": "language it is what country it's from",
+      "timestamp": "06:26"
+    },
+    {
+      "start": 391.12,
+      "duration": 1.6,
+      "text": "And we have two full patterns in our",
+      "timestamp": "06:31"
+    },
+    {
+      "start": 392.72,
+      "duration": 3.52,
+      "text": "building more deep tech as well So what",
+      "timestamp": "06:32"
+    },
+    {
+      "start": 396.24,
+      "duration": 2.239,
+      "text": "if by the end of the year while you're",
+      "timestamp": "06:36"
+    },
+    {
+      "start": 398.479,
+      "duration": 1.681,
+      "text": "doing a zoom call with founder like me",
+      "timestamp": "06:38"
+    },
+    {
+      "start": 400.16,
+      "duration": 2.479,
+      "text": "you could fact check them as they are",
+      "timestamp": "06:40"
+    },
+    {
+      "start": 402.639,
+      "duration": 2.801,
+      "text": "pitching you",
+      "timestamp": "06:42"
+    },
+    {
+      "start": 405.44,
+      "duration": 1.68,
+      "text": "What if you could fact check Elon Musk",
+      "timestamp": "06:45"
+    },
+    {
+      "start": 407.12,
+      "duration": 2.32,
+      "text": "in this next uh earnings call to figure",
+      "timestamp": "06:47"
+    },
+    {
+      "start": 409.44,
+      "duration": 3.28,
+      "text": "out how much indirectly uh kamin he's",
+      "timestamp": "06:49"
+    },
+    {
+      "start": 412.72,
+      "duration": 3.0,
+      "text": "taking",
+      "timestamp": "06:52"
+    },
+    {
+      "start": 416.24,
+      "duration": 1.76,
+      "text": "Yeah So these are some of our partners",
+      "timestamp": "06:56"
+    },
+    {
+      "start": 418.0,
+      "duration": 4.24,
+      "text": "including AWS who are um very generously",
+      "timestamp": "06:58"
+    },
+    {
+      "start": 422.24,
+      "duration": 2.72,
+      "text": "helping us uh scale up and cover a lot",
+      "timestamp": "07:02"
+    },
+    {
+      "start": 424.96,
+      "duration": 2.72,
+      "text": "of our costs",
+      "timestamp": "07:04"
+    },
+    {
+      "start": 427.68,
+      "duration": 1.519,
+      "text": "Um these are some of our web three",
+      "timestamp": "07:07"
+    },
+    {
+      "start": 429.199,
+      "duration": 2.961,
+      "text": "partnerships Come talk to us about more",
+      "timestamp": "07:09"
+    },
+    {
+      "start": 432.16,
+      "duration": 2.56,
+      "text": "Tim is the man who made uh Elon the man",
+      "timestamp": "07:12"
+    },
+    {
+      "start": 434.72,
+      "duration": 2.8,
+      "text": "he is today and Bitcoin what it is Uh Dr",
+      "timestamp": "07:14"
+    },
+    {
+      "start": 437.52,
+      "duration": 2.16,
+      "text": "Andreas helped build Amazon scientific",
+      "timestamp": "07:17"
+    },
+    {
+      "start": 439.68,
+      "duration": 3.0,
+      "text": "culture",
+      "timestamp": "07:19"
+    },
+    {
+      "start": 443.28,
+      "duration": 2.0,
+      "text": "Yeah So all we're asking for this is a",
+      "timestamp": "07:23"
+    },
+    {
+      "start": 445.28,
+      "duration": 2.72,
+      "text": "measly $2.5 million",
+      "timestamp": "07:25"
+    },
+    {
+      "start": 448.0,
+      "duration": 1.52,
+      "text": "What's the thing you're most certain",
+      "timestamp": "07:28"
+    },
+    {
+      "start": 449.52,
+      "duration": 3.76,
+      "text": "about\n she cheated\n More people will have",
+      "timestamp": "07:29"
+    },
+    {
+      "start": 453.28,
+      "duration": 3.039,
+      "text": "access to their own health information",
+      "timestamp": "07:33"
+    },
+    {
+      "start": 456.319,
+      "duration": 1.761,
+      "text": "And because the time is up I'll just",
+      "timestamp": "07:36"
+    },
+    {
+      "start": 458.08,
+      "duration": 2.239,
+      "text": "leave you with this Uh you can see our",
+      "timestamp": "07:38"
+    },
+    {
+      "start": 460.319,
+      "duration": 1.361,
+      "text": "shoulder and mouth shrug and we'll share",
+      "timestamp": "07:40"
+    },
+    {
+      "start": 461.68,
+      "duration": 1.519,
+      "text": "more about lie detection when there's",
+      "timestamp": "07:41"
+    },
+    {
+      "start": 463.199,
+      "duration": 1.761,
+      "text": "time\n Thank you Dennis I'm I'm pretty",
+      "timestamp": "07:43"
+    },
+    {
+      "start": 464.96,
+      "duration": 2.0,
+      "text": "excited about this because I do see B2C",
+      "timestamp": "07:44"
+    },
+    {
+      "start": 466.96,
+      "duration": 2.4,
+      "text": "applications as well as B2B applications",
+      "timestamp": "07:46"
+    },
+    {
+      "start": 469.36,
+      "duration": 2.0,
+      "text": "But my first question is tell us about",
+      "timestamp": "07:49"
+    },
+    {
+      "start": 471.36,
+      "duration": 2.0,
+      "text": "these early customers Are these just",
+      "timestamp": "07:51"
+    },
+    {
+      "start": 473.36,
+      "duration": 2.8,
+      "text": "regular people scrolling their media or",
+      "timestamp": "07:53"
+    },
+    {
+      "start": 476.16,
+      "duration": 2.24,
+      "text": "are they using this for work are they",
+      "timestamp": "07:56"
+    },
+    {
+      "start": 478.4,
+      "duration": 1.919,
+      "text": "using this as part of like research um",
+      "timestamp": "07:58"
+    },
+    {
+      "start": 480.319,
+      "duration": 3.521,
+      "text": "are they like super I don't know um like",
+      "timestamp": "08:00"
+    },
+    {
+      "start": 483.84,
+      "duration": 1.52,
+      "text": "extremist and they just want to figure",
+      "timestamp": "08:03"
+    },
+    {
+      "start": 485.36,
+      "duration": 1.119,
+      "text": "out what's going on the other side like",
+      "timestamp": "08:05"
+    },
+    {
+      "start": 486.479,
+      "duration": 1.681,
+      "text": "help us understand this Who's using this",
+      "timestamp": "08:06"
+    },
+    {
+      "start": 488.16,
+      "duration": 1.759,
+      "text": "and for what\n uh they're very highly",
+      "timestamp": "08:08"
+    },
+    {
+      "start": 489.919,
+      "duration": 4.4,
+      "text": "educated people uh in R&D right where uh",
+      "timestamp": "08:09"
+    },
+    {
+      "start": 494.319,
+      "duration": 2.32,
+      "text": "you can't afford to make a mistake Uh my",
+      "timestamp": "08:14"
+    },
+    {
+      "start": 496.639,
+      "duration": 2.24,
+      "text": "friend from GIC Total Risk is using it",
+      "timestamp": "08:16"
+    },
+    {
+      "start": 498.879,
+      "duration": 1.921,
+      "text": "as well Time magazines journalists and",
+      "timestamp": "08:18"
+    },
+    {
+      "start": 500.8,
+      "duration": 2.239,
+      "text": "editors have to deal with Donald Trump's",
+      "timestamp": "08:20"
+    },
+    {
+      "start": 503.039,
+      "duration": 2.16,
+      "text": "transcripts every day So they're using",
+      "timestamp": "08:23"
+    },
+    {
+      "start": 505.199,
+      "duration": 3.361,
+      "text": "it too Um people in defense in Singapore",
+      "timestamp": "08:25"
+    },
+    {
+      "start": 508.56,
+      "duration": 1.68,
+      "text": "are using it because there's this flood",
+      "timestamp": "08:28"
+    },
+    {
+      "start": 510.24,
+      "duration": 2.4,
+      "text": "of misinformation on different Wikipedia",
+      "timestamp": "08:30"
+    },
+    {
+      "start": 512.64,
+      "duration": 2.16,
+      "text": "language pages It's also affecting",
+      "timestamp": "08:32"
+    },
+    {
+      "start": 514.8,
+      "duration": 1.84,
+      "text": "Reddit and every other platform",
+      "timestamp": "08:34"
+    },
+    {
+      "start": 516.64,
+      "duration": 2.16,
+      "text": "including Facebook groups\n Uh question on",
+      "timestamp": "08:36"
+    },
+    {
+      "start": 518.8,
+      "duration": 1.679,
+      "text": "this Are you indexing the web to some",
+      "timestamp": "08:38"
+    },
+    {
+      "start": 520.479,
+      "duration": 1.92,
+      "text": "extent yourself and if not what are your",
+      "timestamp": "08:40"
+    },
+    {
+      "start": 522.399,
+      "duration": 1.281,
+      "text": "sources there for example for these",
+      "timestamp": "08:42"
+    },
+    {
+      "start": 523.68,
+      "duration": 2.4,
+      "text": "links and how do you determine what is a",
+      "timestamp": "08:43"
+    },
+    {
+      "start": 526.08,
+      "duration": 2.879,
+      "text": "fact versus what is not\n right So um",
+      "timestamp": "08:46"
+    },
+    {
+      "start": 528.959,
+      "duration": 1.921,
+      "text": "there are three data sets one by",
+      "timestamp": "08:48"
+    },
+    {
+      "start": 530.88,
+      "duration": 2.0,
+      "text": "Colombia University that we outperformed",
+      "timestamp": "08:50"
+    },
+    {
+      "start": 532.88,
+      "duration": 2.959,
+      "text": "on uh one by our rival and we created a",
+      "timestamp": "08:52"
+    },
+    {
+      "start": 535.839,
+      "duration": 2.881,
+      "text": "multilingual data set for ASEAN as well",
+      "timestamp": "08:55"
+    },
+    {
+      "start": 538.72,
+      "duration": 1.52,
+      "text": "Yeah but are you are you indexing the",
+      "timestamp": "08:58"
+    },
+    {
+      "start": 540.24,
+      "duration": 2.08,
+      "text": "web then for example or you just use",
+      "timestamp": "09:00"
+    },
+    {
+      "start": 542.32,
+      "duration": 1.36,
+      "text": "something else because I saw all the",
+      "timestamp": "09:02"
+    },
+    {
+      "start": 543.68,
+      "duration": 1.839,
+      "text": "websites the links news articles\n we're",
+      "timestamp": "09:03"
+    },
+    {
+      "start": 545.519,
+      "duration": 1.841,
+      "text": "using Bing and Google as our search",
+      "timestamp": "09:05"
+    },
+    {
+      "start": 547.36,
+      "duration": 3.12,
+      "text": "engines\n Yeah Okay Gotcha\n Um help me",
+      "timestamp": "09:07"
+    },
+    {
+      "start": 550.48,
+      "duration": 1.76,
+      "text": "understand how how come you're able to",
+      "timestamp": "09:10"
+    },
+    {
+      "start": 552.24,
+      "duration": 2.4,
+      "text": "outperform Perplexity GPT all the other",
+      "timestamp": "09:12"
+    },
+    {
+      "start": 554.64,
+      "duration": 2.8,
+      "text": "ones We have a scaffolder AI which some",
+      "timestamp": "09:14"
+    },
+    {
+      "start": 557.44,
+      "duration": 3.2,
+      "text": "people think is a alternate path to AGI",
+      "timestamp": "09:17"
+    },
+    {
+      "start": 560.64,
+      "duration": 2.319,
+      "text": "Yeah Um so that's part of our secret",
+      "timestamp": "09:20"
+    },
+    {
+      "start": 562.959,
+      "duration": 2.161,
+      "text": "source We're also using at fontes media",
+      "timestamp": "09:22"
+    },
+    {
+      "start": 565.12,
+      "duration": 2.48,
+      "text": "bias chart uh NGO that ranks different",
+      "timestamp": "09:25"
+    },
+    {
+      "start": 567.6,
+      "duration": 2.239,
+      "text": "sources uh even different articles",
+      "timestamp": "09:27"
+    },
+    {
+      "start": 569.839,
+      "duration": 1.68,
+      "text": "Sometimes even the New York Times has",
+      "timestamp": "09:29"
+    },
+    {
+      "start": 571.519,
+      "duration": 4.161,
+      "text": "poor articles that are poor quality",
+      "timestamp": "09:31"
+    },
+    {
+      "start": 575.68,
+      "duration": 2.48,
+      "text": "Can I understand what is your plan uh",
+      "timestamp": "09:35"
+    },
+    {
+      "start": 578.16,
+      "duration": 1.92,
+      "text": "and go to market strategy how you plan",
+      "timestamp": "09:38"
+    },
+    {
+      "start": 580.08,
+      "duration": 2.8,
+      "text": "to sort of uh scale and acquire users so",
+      "timestamp": "09:40"
+    },
+    {
+      "start": 582.88,
+      "duration": 2.639,
+      "text": "we have a very good CPA as mentioned uh",
+      "timestamp": "09:42"
+    },
+    {
+      "start": 585.519,
+      "duration": 2.081,
+      "text": "through YouTube shots Uh you can check",
+      "timestamp": "09:45"
+    },
+    {
+      "start": 587.6,
+      "duration": 2.96,
+      "text": "out our YouTube facy AI channel Uh",
+      "timestamp": "09:47"
+    },
+    {
+      "start": 590.56,
+      "duration": 1.839,
+      "text": "Google Adwords is also uh bringing us a",
+      "timestamp": "09:50"
+    },
+    {
+      "start": 592.399,
+      "duration": 1.921,
+      "text": "lot of paying subscribers because we",
+      "timestamp": "09:52"
+    },
+    {
+      "start": 594.32,
+      "duration": 2.56,
+      "text": "have unique selling points like um",
+      "timestamp": "09:54"
+    },
+    {
+      "start": 596.88,
+      "duration": 1.519,
+      "text": "social media fact checker that nobody",
+      "timestamp": "09:56"
+    },
+    {
+      "start": 598.399,
+      "duration": 3.041,
+      "text": "else is doing So that allows us to um",
+      "timestamp": "09:58"
+    },
+    {
+      "start": 601.44,
+      "duration": 4.2,
+      "text": "get the adwords really cheap",
+      "timestamp": "10:01"
+    }
+  ],
+  "extraction_timestamp": "2025-06-29T21:04:35.383206",
+  "playlist_title": "SuperAI Singapore 2025: WEKA Stage"
+}

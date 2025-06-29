@@ -1,0 +1,2063 @@
+{
+  "video_id": "RrCqVx3WCT4",
+  "video_title": "Will Bodewes - How We Reduced Latency by 70% While Maintaining 99% Accuracy - SuperAI Singapore 2025",
+  "video_url": "https://www.youtube.com/watch?v=RrCqVx3WCT4",
+  "channel_title": "SuperAI",
+  "published_at": "2025-06-25T06:26:56+00:00",
+  "duration_seconds": null,
+  "view_count": 38,
+  "like_count": 0,
+  "description": "Learn more about SuperAI: superai.com\nFollow us on X: x.com/superai_conf\n\nKeynote: Voice AI: How We Reduced Latency by 70% While Maintaining 99% Accuracy\n\nSpeaker:\nWill Bodewes, CEO @ Phonely AI\n\nStage: WEKA Stage\n#superai #phonelyai #latency #aidevelopment #accuracy\n\nRecorded on 18 June 2025",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 340,
+    "aggregated_text": "hello everyone thank you all uh for taking the time to come to this presentation about voice AI there's a ton of exciting things here at the conference and I appreciate you coming to this one i wanted to kick things off by telling you a little bit about my background before we jumped into the techy stuff of how we actually built that so I got started on this voice AI journey uh during my PhD i was researching artificial intelligence and in the middle of my PhD I decided that I wanted to solve a problem that my dad had faced which was he needed help staffing and answering his phones um so I started this uh company called Phonely we were later accepted into the Y Combinator accelerator program um where I had the opportunity of leaving my PhD behind and going on to uh scale the startup out of San Francisco and Silicon Valley and I remember when we first got into uh you know Y Combinator we were really excited about like one or two calls a day and I'm very excited to say that by the end of this month we'll be handling about a 100,000 calls completely done by artificial intelligence every single day and so my entire goal of this presentation is to teach everybody uh a little bit of something that I've learned of two years of spending my nights and my weekends obsessing over voice AI so to kick things off I would love to have a quick show of hands of who has ever spoken with an AI agent before so raise your hands if you've spoken with an AI all right we've got we've got some people maybe some people that don't even know it here and then raise your hand if you feel like you have a good understanding of like what's actually going on in the back end to make this happen we got a couple people all right I'll try to teach you guys it's going to be the ch that's going to be the challenging part um well to get started I think it's important to start with motivations so why do we even care about voice AI um realistically in my opinion it's because the phone call is a broken system it's very convenient for consumers uh but for businesses it's a real pain because we have to deal with all of this training staffing managing the demand and so voice AI um makes a ton of sense um but it's made a ton of sense since basically the computer or since the telephone existed um so why is now the time that we're going to solve it um and it really came to the combination of basically four uh four different things that have come together at the same time to make all of this possible the first thing is real time transcription so in order for voice AI to work we need to be able to transcribe what we're doing and we need to do that really really quickly so that we can take that and move on to the next stage which is use a large language model to actually generate the output so previously in old like IVR systems the kind that you just press zero to get to an operator that was all done with Python code and you know this if this then that and what large language models do is they allow us to respond in real time to customers requests and queries the next thing that happened was we had realistic voice providers that came on the market that made the experience of talking with an AI much more conversational and uh realistic so you weren't always like annoyed that you were talking to this robot and the last thing that happened in my opinion that has unlocked the capability for voice AI to be able to scale uh up to hundreds of thousands of calls a day is the ability for it to do what we call function calling and so function calling it allows voice AI or allows these large language models to interact and interact and use software basically in real time as it's having the conversations and so let's actually break down how we build a voice AI agent so the first thing starts when we need to get the information from what I'm saying we need to transmit that over some sort of telefan network or maybe you know web RTC network so that we can actually do something with it so that's step one step two is moving into the transcription so like I said before we need to transcribe all of this information so that we can move on to our next step which is endpointing this is actually a relatively hard problem to solve as humans are even bad at predicting when other people are done talking um and so AI has to do the same thing but once we've transcribed the conversation we've sent it to um you know we we have the endpoint we can send that to our large language model and in there we're ingesting a system prompt of predefined instructions with the context that we just gathered from that conversation to basically generate some response and that's going to stream out text tokens and we're going to use that to go from the text back to the speech and then after that point we need to manage the conversation um and we need to make sure that the person is not interrupting in the meantime or background noises like dog barking are interrupting the flow of the conversation and this is what we call the voice orchestration layer it's what we see as being the most successful way of getting voice AI agents in production there are other speech-to-pech models but we're not going to talk about those right here today and so what are the challenges that are keeping me up uh weekends nights um that we're really trying to solve over here at Phonely well the big ones that come to mind are these four the first one is around latency the biggest giveaway that you're talking with an AI instead of a person is that it takes too long to respond and every millisecond counts here and we're running a lot of processes in the background so making sure that happens as quickly as possible is really important the next piece is transcription accuracy so I've got a beef with transcribers in that models say that they can do 98% accuracy of transcribed text but that's not always true they do 98% of most commonly available words but in Voice AI we really care about the last mile stuff like your email your address and your name and these transcribers aren't always the best at that because they've never been trained on it before the next thing that we do and we've worked really hard at this piece is around guardrails and accuracy so getting the model to output the correct bits of information is a little bit like trying to use puppet strings to operate a machine it's tough because what these large language models are a bit of a black box and so you have to put really strict guard rails around them to make sure that they output the correct information at the correct time and then the last problem is endpointing and interruptions a seemingly simple thing to solve but a relatively complicated one when you start to think about it predicting when a person is done talking is a hard problem and to solve this we've gone as far as training our own models to look at the last few words that the customer is saying and the context of the conversation to be like are they done talking yes or no and then the interruptions one uh is another tricky one as a lot of time during phone calls you have background noises TVs um and other things that might not be interruptions like somebody saying yeah or okay um but they end up you know interrupting the flow of the conversation i want to talk about an interesting thing that I hope I can get a couple people on um is latency so right behind me here we have the OpenAI latency over time so if you've ever uh most of you have probably never done this but if you take and you write some code to basically say hi to OpenAI's endpoint over a minute um what's going to happen and you do that every second is you're going to get two or three uh times where that latency is going to spike up above four or even 5 seconds and so if we're relying on an under uh underlying model provider such as OpenAI to have the conversation we're going to get four or five times where the latency uh ends up looking like that and we wait 5 seconds before even giving a response back and so that is a hard one to solve um but there's ways around it and so now that we know the technical challenges what are the business challenges that uh a business is going to face when they want to actually adopt voice AI well the first thing is mapping out what humans do and translating them basically into what robots do so having a real really clear conversation uh conversational flow and structure is incredibly important the next thing is building out integrations into every software that might need to be done when you hire a person to do something you can say just click this button on this software on this page but with an AI you have to build that as a real-time API integration or set up some MCP server to be able to do that and then the last thing is you know managing uh 99.9% or 99% reliability and accuracy voice AI at this moment is built on like 10 different startups that you're relying on and uh all of these startups unfortunately have downtime um randomly even for a few requests um over the course of a day and so having uh backups and fallbacks becomes a really important part of building invoice AI and then one of the ways that I I say that I'm a big believer in is like how we solve some of this problem and how we deal with some of the the language models guardrails um and accuracy is we allow businesses to break down stuff into you know conversational flows and so these conversational flows and these pathways allow both the business to translate what they want their customer to do maybe it's you know gather some information send an email at this point um they let them map out the conversation and this is really helpful for the large language model side because it constrains the prompt size to only doing a little bit of a task and then moving on to a little bit of a next one um and so by breaking it down like this you get a lot of value on the business side um not just from that the the AI does what it's supposed to do but you also get that we have a lot of analytics baked into this is we can understand what percentage of our callers went in one direction versus another based upon the requests that they have and so now the thing that uh may of you many of you may have been waiting for is like how did we actually get to the point where we were reducing latency and improving accuracy um like we talked about before so we worked on this problem uh with one specific customer for about 8 months to be able to translate um what they wanted to do which is like very you know conversational uh flow very real time performance um and make that actually happen with AI and so the way that we did it and the reason I went through all that stuff before is the first thing that we did was we mapped out the conversational flow of the business in this case they were a Medicare qualification company and they were optimizing for some sort of conversion so we mapped that out we built the flow and then we ran it on OpenAI's um and you know other model providers so smarter models and we gathered a bunch of data from that and then what we did is we collected that data and then we annotated it and then we sent it and we retrained another model um that was much smaller and much lighter weight so that we could get around some of those big latency spike problems that are faced by OpenAI um and then once we had that workflow you know really dialed in um we we hosted it on our provider uh one of our partner providers which is Grock so Grock allows you to run uh large language models really really quickly and really cheaply um and so what we did was we took all that information we hosted it on grock and here were the results that we got from it um so it took a lot of work but we were able to reduce our latency 70% as compared to what OpenAI was done um our P95 latency which is like that top 5% of latency we went from 3 seconds down to 300 milliseconds and then um we actually improved conversion rate by 13% which blew my mind i did not think that we could get there um and we were still able to maintain the 99% conversational flow accuracy which is basically how well the AI is following the flow based upon customers request and so uh I guess to wrap everything up making computers talk like people is not an easy thing to do um it's a super fun problem to work on because you're dealing with not just building software not just machine learning but also interacting with how does a person want to be talked to over the phone um so if you guys are interested you can try out Phonely our platform is completely free to use um and we try to make talking to computers uh super easy so thanks again everyone for taking the time to chat today and I'll be hanging around if you guys want to talk voice AI",
+    "text_length": 12767,
+    "word_count": 2451
+  },
+  "segments": [
+    {
+      "start": 7.6,
+      "duration": 2.48,
+      "text": "hello everyone thank you all uh for",
+      "timestamp": "00:07"
+    },
+    {
+      "start": 10.08,
+      "duration": 1.84,
+      "text": "taking the time to come to this",
+      "timestamp": "00:10"
+    },
+    {
+      "start": 11.92,
+      "duration": 2.08,
+      "text": "presentation about voice AI there's a",
+      "timestamp": "00:11"
+    },
+    {
+      "start": 14.0,
+      "duration": 1.839,
+      "text": "ton of exciting things here at the",
+      "timestamp": "00:14"
+    },
+    {
+      "start": 15.839,
+      "duration": 2.241,
+      "text": "conference and I appreciate you coming",
+      "timestamp": "00:15"
+    },
+    {
+      "start": 18.08,
+      "duration": 3.199,
+      "text": "to this one i wanted to kick things off",
+      "timestamp": "00:18"
+    },
+    {
+      "start": 21.279,
+      "duration": 1.681,
+      "text": "by telling you a little bit about my",
+      "timestamp": "00:21"
+    },
+    {
+      "start": 22.96,
+      "duration": 2.239,
+      "text": "background before we jumped into the",
+      "timestamp": "00:22"
+    },
+    {
+      "start": 25.199,
+      "duration": 1.761,
+      "text": "techy stuff of how we actually built",
+      "timestamp": "00:25"
+    },
+    {
+      "start": 26.96,
+      "duration": 3.36,
+      "text": "that so I got started on this voice AI",
+      "timestamp": "00:26"
+    },
+    {
+      "start": 30.32,
+      "duration": 2.56,
+      "text": "journey uh during my PhD i was",
+      "timestamp": "00:30"
+    },
+    {
+      "start": 32.88,
+      "duration": 2.08,
+      "text": "researching artificial intelligence and",
+      "timestamp": "00:32"
+    },
+    {
+      "start": 34.96,
+      "duration": 2.32,
+      "text": "in the middle of my PhD I decided that I",
+      "timestamp": "00:34"
+    },
+    {
+      "start": 37.28,
+      "duration": 2.16,
+      "text": "wanted to solve a problem that my dad",
+      "timestamp": "00:37"
+    },
+    {
+      "start": 39.44,
+      "duration": 2.88,
+      "text": "had faced which was he needed help",
+      "timestamp": "00:39"
+    },
+    {
+      "start": 42.32,
+      "duration": 2.399,
+      "text": "staffing and answering his phones um so",
+      "timestamp": "00:42"
+    },
+    {
+      "start": 44.719,
+      "duration": 2.241,
+      "text": "I started this uh company called Phonely",
+      "timestamp": "00:44"
+    },
+    {
+      "start": 46.96,
+      "duration": 2.32,
+      "text": "we were later accepted into the Y",
+      "timestamp": "00:46"
+    },
+    {
+      "start": 49.28,
+      "duration": 2.24,
+      "text": "Combinator accelerator program um where",
+      "timestamp": "00:49"
+    },
+    {
+      "start": 51.52,
+      "duration": 2.0,
+      "text": "I had the opportunity of leaving my PhD",
+      "timestamp": "00:51"
+    },
+    {
+      "start": 53.52,
+      "duration": 3.12,
+      "text": "behind and going on to uh scale the",
+      "timestamp": "00:53"
+    },
+    {
+      "start": 56.64,
+      "duration": 2.32,
+      "text": "startup out of San Francisco and Silicon",
+      "timestamp": "00:56"
+    },
+    {
+      "start": 58.96,
+      "duration": 2.64,
+      "text": "Valley and I remember when we first got",
+      "timestamp": "00:58"
+    },
+    {
+      "start": 61.6,
+      "duration": 2.878,
+      "text": "into uh you know Y Combinator we were",
+      "timestamp": "01:01"
+    },
+    {
+      "start": 64.479,
+      "duration": 2.0,
+      "text": "really excited about like one or two",
+      "timestamp": "01:04"
+    },
+    {
+      "start": 66.479,
+      "duration": 2.721,
+      "text": "calls a day and I'm very excited to say",
+      "timestamp": "01:06"
+    },
+    {
+      "start": 69.2,
+      "duration": 1.84,
+      "text": "that by the end of this month we'll be",
+      "timestamp": "01:09"
+    },
+    {
+      "start": 71.04,
+      "duration": 2.56,
+      "text": "handling about a 100,000 calls",
+      "timestamp": "01:11"
+    },
+    {
+      "start": 73.6,
+      "duration": 1.44,
+      "text": "completely done by artificial",
+      "timestamp": "01:13"
+    },
+    {
+      "start": 75.04,
+      "duration": 3.92,
+      "text": "intelligence every single day and so my",
+      "timestamp": "01:15"
+    },
+    {
+      "start": 78.96,
+      "duration": 3.76,
+      "text": "entire goal of this presentation is to",
+      "timestamp": "01:18"
+    },
+    {
+      "start": 82.72,
+      "duration": 2.24,
+      "text": "teach everybody uh a little bit of",
+      "timestamp": "01:22"
+    },
+    {
+      "start": 84.96,
+      "duration": 2.0,
+      "text": "something that I've learned of two years",
+      "timestamp": "01:24"
+    },
+    {
+      "start": 86.96,
+      "duration": 2.479,
+      "text": "of spending my nights and my weekends",
+      "timestamp": "01:26"
+    },
+    {
+      "start": 89.439,
+      "duration": 3.68,
+      "text": "obsessing over voice AI so to kick",
+      "timestamp": "01:29"
+    },
+    {
+      "start": 93.119,
+      "duration": 2.401,
+      "text": "things off I would love to have a quick",
+      "timestamp": "01:33"
+    },
+    {
+      "start": 95.52,
+      "duration": 2.88,
+      "text": "show of hands of who has ever spoken",
+      "timestamp": "01:35"
+    },
+    {
+      "start": 98.4,
+      "duration": 2.32,
+      "text": "with an AI agent before so raise your",
+      "timestamp": "01:38"
+    },
+    {
+      "start": 100.72,
+      "duration": 1.84,
+      "text": "hands if you've spoken with an AI all",
+      "timestamp": "01:40"
+    },
+    {
+      "start": 102.56,
+      "duration": 2.0,
+      "text": "right we've got we've got some people",
+      "timestamp": "01:42"
+    },
+    {
+      "start": 104.56,
+      "duration": 1.28,
+      "text": "maybe some people that don't even know",
+      "timestamp": "01:44"
+    },
+    {
+      "start": 105.84,
+      "duration": 2.239,
+      "text": "it here and then raise your hand if you",
+      "timestamp": "01:45"
+    },
+    {
+      "start": 108.079,
+      "duration": 1.601,
+      "text": "feel like you have a good understanding",
+      "timestamp": "01:48"
+    },
+    {
+      "start": 109.68,
+      "duration": 2.479,
+      "text": "of like what's actually going on in the",
+      "timestamp": "01:49"
+    },
+    {
+      "start": 112.159,
+      "duration": 2.881,
+      "text": "back end to make this happen",
+      "timestamp": "01:52"
+    },
+    {
+      "start": 115.04,
+      "duration": 1.439,
+      "text": "we got a couple people all right I'll",
+      "timestamp": "01:55"
+    },
+    {
+      "start": 116.479,
+      "duration": 1.121,
+      "text": "try to teach you guys it's going to be",
+      "timestamp": "01:56"
+    },
+    {
+      "start": 117.6,
+      "duration": 0.879,
+      "text": "the ch that's going to be the",
+      "timestamp": "01:57"
+    },
+    {
+      "start": 118.479,
+      "duration": 3.041,
+      "text": "challenging part um well to get started",
+      "timestamp": "01:58"
+    },
+    {
+      "start": 121.52,
+      "duration": 1.199,
+      "text": "I think it's important to start with",
+      "timestamp": "02:01"
+    },
+    {
+      "start": 122.719,
+      "duration": 2.561,
+      "text": "motivations so why do we even care about",
+      "timestamp": "02:02"
+    },
+    {
+      "start": 125.28,
+      "duration": 3.039,
+      "text": "voice AI um realistically in my opinion",
+      "timestamp": "02:05"
+    },
+    {
+      "start": 128.319,
+      "duration": 2.801,
+      "text": "it's because the phone call is a broken",
+      "timestamp": "02:08"
+    },
+    {
+      "start": 131.12,
+      "duration": 2.56,
+      "text": "system it's very convenient for",
+      "timestamp": "02:11"
+    },
+    {
+      "start": 133.68,
+      "duration": 2.8,
+      "text": "consumers uh but for businesses it's a",
+      "timestamp": "02:13"
+    },
+    {
+      "start": 136.48,
+      "duration": 2.24,
+      "text": "real pain because we have to deal with",
+      "timestamp": "02:16"
+    },
+    {
+      "start": 138.72,
+      "duration": 2.64,
+      "text": "all of this training staffing managing",
+      "timestamp": "02:18"
+    },
+    {
+      "start": 141.36,
+      "duration": 3.12,
+      "text": "the demand and so voice AI um makes a",
+      "timestamp": "02:21"
+    },
+    {
+      "start": 144.48,
+      "duration": 2.24,
+      "text": "ton of sense um but it's made a ton of",
+      "timestamp": "02:24"
+    },
+    {
+      "start": 146.72,
+      "duration": 3.04,
+      "text": "sense since basically the computer or",
+      "timestamp": "02:26"
+    },
+    {
+      "start": 149.76,
+      "duration": 2.559,
+      "text": "since the telephone existed um so why is",
+      "timestamp": "02:29"
+    },
+    {
+      "start": 152.319,
+      "duration": 2.481,
+      "text": "now the time that we're going to solve",
+      "timestamp": "02:32"
+    },
+    {
+      "start": 154.8,
+      "duration": 3.04,
+      "text": "it um and it really came to the",
+      "timestamp": "02:34"
+    },
+    {
+      "start": 157.84,
+      "duration": 3.36,
+      "text": "combination of basically four uh four",
+      "timestamp": "02:37"
+    },
+    {
+      "start": 161.2,
+      "duration": 1.6,
+      "text": "different things that have come together",
+      "timestamp": "02:41"
+    },
+    {
+      "start": 162.8,
+      "duration": 2.24,
+      "text": "at the same time to make all of this",
+      "timestamp": "02:42"
+    },
+    {
+      "start": 165.04,
+      "duration": 3.04,
+      "text": "possible the first thing is real time",
+      "timestamp": "02:45"
+    },
+    {
+      "start": 168.08,
+      "duration": 2.48,
+      "text": "transcription so in order for voice AI",
+      "timestamp": "02:48"
+    },
+    {
+      "start": 170.56,
+      "duration": 2.319,
+      "text": "to work we need to be able to transcribe",
+      "timestamp": "02:50"
+    },
+    {
+      "start": 172.879,
+      "duration": 2.161,
+      "text": "what we're doing and we need to do that",
+      "timestamp": "02:52"
+    },
+    {
+      "start": 175.04,
+      "duration": 1.839,
+      "text": "really really quickly so that we can",
+      "timestamp": "02:55"
+    },
+    {
+      "start": 176.879,
+      "duration": 2.241,
+      "text": "take that and move on to the next stage",
+      "timestamp": "02:56"
+    },
+    {
+      "start": 179.12,
+      "duration": 3.52,
+      "text": "which is use a large language model to",
+      "timestamp": "02:59"
+    },
+    {
+      "start": 182.64,
+      "duration": 2.239,
+      "text": "actually generate the output so",
+      "timestamp": "03:02"
+    },
+    {
+      "start": 184.879,
+      "duration": 2.401,
+      "text": "previously in old like IVR systems the",
+      "timestamp": "03:04"
+    },
+    {
+      "start": 187.28,
+      "duration": 1.84,
+      "text": "kind that you just press zero to get to",
+      "timestamp": "03:07"
+    },
+    {
+      "start": 189.12,
+      "duration": 2.72,
+      "text": "an operator that was all done with",
+      "timestamp": "03:09"
+    },
+    {
+      "start": 191.84,
+      "duration": 2.56,
+      "text": "Python code and you know this if this",
+      "timestamp": "03:11"
+    },
+    {
+      "start": 194.4,
+      "duration": 1.919,
+      "text": "then that and what large language models",
+      "timestamp": "03:14"
+    },
+    {
+      "start": 196.319,
+      "duration": 2.56,
+      "text": "do is they allow us to respond in real",
+      "timestamp": "03:16"
+    },
+    {
+      "start": 198.879,
+      "duration": 3.36,
+      "text": "time to customers requests and queries",
+      "timestamp": "03:18"
+    },
+    {
+      "start": 202.239,
+      "duration": 3.121,
+      "text": "the next thing that happened was we had",
+      "timestamp": "03:22"
+    },
+    {
+      "start": 205.36,
+      "duration": 2.56,
+      "text": "realistic voice providers that came on",
+      "timestamp": "03:25"
+    },
+    {
+      "start": 207.92,
+      "duration": 2.56,
+      "text": "the market that made the experience of",
+      "timestamp": "03:27"
+    },
+    {
+      "start": 210.48,
+      "duration": 2.96,
+      "text": "talking with an AI much more",
+      "timestamp": "03:30"
+    },
+    {
+      "start": 213.44,
+      "duration": 2.799,
+      "text": "conversational and uh realistic so you",
+      "timestamp": "03:33"
+    },
+    {
+      "start": 216.239,
+      "duration": 2.481,
+      "text": "weren't always like annoyed that you",
+      "timestamp": "03:36"
+    },
+    {
+      "start": 218.72,
+      "duration": 2.159,
+      "text": "were talking to this robot and the last",
+      "timestamp": "03:38"
+    },
+    {
+      "start": 220.879,
+      "duration": 1.841,
+      "text": "thing that happened in my opinion that",
+      "timestamp": "03:40"
+    },
+    {
+      "start": 222.72,
+      "duration": 2.879,
+      "text": "has unlocked the capability for voice AI",
+      "timestamp": "03:42"
+    },
+    {
+      "start": 225.599,
+      "duration": 2.321,
+      "text": "to be able to scale uh up to hundreds of",
+      "timestamp": "03:45"
+    },
+    {
+      "start": 227.92,
+      "duration": 2.0,
+      "text": "thousands of calls a day is the ability",
+      "timestamp": "03:47"
+    },
+    {
+      "start": 229.92,
+      "duration": 1.76,
+      "text": "for it to do what we call function",
+      "timestamp": "03:49"
+    },
+    {
+      "start": 231.68,
+      "duration": 2.559,
+      "text": "calling and so function calling it",
+      "timestamp": "03:51"
+    },
+    {
+      "start": 234.239,
+      "duration": 2.481,
+      "text": "allows voice AI or allows these large",
+      "timestamp": "03:54"
+    },
+    {
+      "start": 236.72,
+      "duration": 3.28,
+      "text": "language models to interact and interact",
+      "timestamp": "03:56"
+    },
+    {
+      "start": 240.0,
+      "duration": 2.879,
+      "text": "and use software basically in real time",
+      "timestamp": "04:00"
+    },
+    {
+      "start": 242.879,
+      "duration": 3.28,
+      "text": "as it's having the conversations",
+      "timestamp": "04:02"
+    },
+    {
+      "start": 246.159,
+      "duration": 2.8,
+      "text": "and so let's actually break down how we",
+      "timestamp": "04:06"
+    },
+    {
+      "start": 248.959,
+      "duration": 3.84,
+      "text": "build a voice AI agent so the first",
+      "timestamp": "04:08"
+    },
+    {
+      "start": 252.799,
+      "duration": 2.561,
+      "text": "thing starts when we need to get the",
+      "timestamp": "04:12"
+    },
+    {
+      "start": 255.36,
+      "duration": 1.92,
+      "text": "information from what I'm saying we need",
+      "timestamp": "04:15"
+    },
+    {
+      "start": 257.28,
+      "duration": 3.359,
+      "text": "to transmit that over some sort of",
+      "timestamp": "04:17"
+    },
+    {
+      "start": 260.639,
+      "duration": 2.401,
+      "text": "telefan network or maybe you know web",
+      "timestamp": "04:20"
+    },
+    {
+      "start": 263.04,
+      "duration": 2.159,
+      "text": "RTC network so that we can actually do",
+      "timestamp": "04:23"
+    },
+    {
+      "start": 265.199,
+      "duration": 2.241,
+      "text": "something with it so that's step one",
+      "timestamp": "04:25"
+    },
+    {
+      "start": 267.44,
+      "duration": 2.4,
+      "text": "step two is moving into the",
+      "timestamp": "04:27"
+    },
+    {
+      "start": 269.84,
+      "duration": 2.32,
+      "text": "transcription so like I said before we",
+      "timestamp": "04:29"
+    },
+    {
+      "start": 272.16,
+      "duration": 1.36,
+      "text": "need to transcribe all of this",
+      "timestamp": "04:32"
+    },
+    {
+      "start": 273.52,
+      "duration": 2.48,
+      "text": "information so that we can move on to",
+      "timestamp": "04:33"
+    },
+    {
+      "start": 276.0,
+      "duration": 2.8,
+      "text": "our next step which is endpointing this",
+      "timestamp": "04:36"
+    },
+    {
+      "start": 278.8,
+      "duration": 2.0,
+      "text": "is actually a relatively hard problem to",
+      "timestamp": "04:38"
+    },
+    {
+      "start": 280.8,
+      "duration": 2.399,
+      "text": "solve as humans are even bad at",
+      "timestamp": "04:40"
+    },
+    {
+      "start": 283.199,
+      "duration": 1.761,
+      "text": "predicting when other people are done",
+      "timestamp": "04:43"
+    },
+    {
+      "start": 284.96,
+      "duration": 2.32,
+      "text": "talking um and so AI has to do the same",
+      "timestamp": "04:44"
+    },
+    {
+      "start": 287.28,
+      "duration": 2.08,
+      "text": "thing but once we've transcribed the",
+      "timestamp": "04:47"
+    },
+    {
+      "start": 289.36,
+      "duration": 2.88,
+      "text": "conversation we've sent it to um you",
+      "timestamp": "04:49"
+    },
+    {
+      "start": 292.24,
+      "duration": 1.92,
+      "text": "know we we have the endpoint we can send",
+      "timestamp": "04:52"
+    },
+    {
+      "start": 294.16,
+      "duration": 2.72,
+      "text": "that to our large language model and in",
+      "timestamp": "04:54"
+    },
+    {
+      "start": 296.88,
+      "duration": 2.319,
+      "text": "there we're ingesting a system prompt of",
+      "timestamp": "04:56"
+    },
+    {
+      "start": 299.199,
+      "duration": 2.401,
+      "text": "predefined instructions with the context",
+      "timestamp": "04:59"
+    },
+    {
+      "start": 301.6,
+      "duration": 1.84,
+      "text": "that we just gathered from that",
+      "timestamp": "05:01"
+    },
+    {
+      "start": 303.44,
+      "duration": 3.039,
+      "text": "conversation to basically generate some",
+      "timestamp": "05:03"
+    },
+    {
+      "start": 306.479,
+      "duration": 1.761,
+      "text": "response and that's going to stream out",
+      "timestamp": "05:06"
+    },
+    {
+      "start": 308.24,
+      "duration": 2.72,
+      "text": "text tokens and we're going to use that",
+      "timestamp": "05:08"
+    },
+    {
+      "start": 310.96,
+      "duration": 3.6,
+      "text": "to go from the text back to the speech",
+      "timestamp": "05:10"
+    },
+    {
+      "start": 314.56,
+      "duration": 1.919,
+      "text": "and then after that point we need to",
+      "timestamp": "05:14"
+    },
+    {
+      "start": 316.479,
+      "duration": 2.0,
+      "text": "manage the conversation um and we need",
+      "timestamp": "05:16"
+    },
+    {
+      "start": 318.479,
+      "duration": 1.521,
+      "text": "to make sure that the person is not",
+      "timestamp": "05:18"
+    },
+    {
+      "start": 320.0,
+      "duration": 1.759,
+      "text": "interrupting in the meantime or",
+      "timestamp": "05:20"
+    },
+    {
+      "start": 321.759,
+      "duration": 2.321,
+      "text": "background noises like dog barking are",
+      "timestamp": "05:21"
+    },
+    {
+      "start": 324.08,
+      "duration": 1.28,
+      "text": "interrupting the flow of the",
+      "timestamp": "05:24"
+    },
+    {
+      "start": 325.36,
+      "duration": 1.92,
+      "text": "conversation and this is what we call",
+      "timestamp": "05:25"
+    },
+    {
+      "start": 327.28,
+      "duration": 2.4,
+      "text": "the voice orchestration layer it's what",
+      "timestamp": "05:27"
+    },
+    {
+      "start": 329.68,
+      "duration": 1.92,
+      "text": "we see as being the most successful way",
+      "timestamp": "05:29"
+    },
+    {
+      "start": 331.6,
+      "duration": 2.319,
+      "text": "of getting voice AI agents in production",
+      "timestamp": "05:31"
+    },
+    {
+      "start": 333.919,
+      "duration": 2.0,
+      "text": "there are other speech-to-pech models",
+      "timestamp": "05:33"
+    },
+    {
+      "start": 335.919,
+      "duration": 1.681,
+      "text": "but we're not going to talk about those",
+      "timestamp": "05:35"
+    },
+    {
+      "start": 337.6,
+      "duration": 2.159,
+      "text": "right here today",
+      "timestamp": "05:37"
+    },
+    {
+      "start": 339.759,
+      "duration": 2.401,
+      "text": "and so what are the challenges that are",
+      "timestamp": "05:39"
+    },
+    {
+      "start": 342.16,
+      "duration": 3.599,
+      "text": "keeping me up uh weekends nights um that",
+      "timestamp": "05:42"
+    },
+    {
+      "start": 345.759,
+      "duration": 1.521,
+      "text": "we're really trying to solve over here",
+      "timestamp": "05:45"
+    },
+    {
+      "start": 347.28,
+      "duration": 2.479,
+      "text": "at Phonely well the big ones that come",
+      "timestamp": "05:47"
+    },
+    {
+      "start": 349.759,
+      "duration": 3.121,
+      "text": "to mind are these four the first one is",
+      "timestamp": "05:49"
+    },
+    {
+      "start": 352.88,
+      "duration": 2.8,
+      "text": "around latency the biggest giveaway that",
+      "timestamp": "05:52"
+    },
+    {
+      "start": 355.68,
+      "duration": 2.0,
+      "text": "you're talking with an AI instead of a",
+      "timestamp": "05:55"
+    },
+    {
+      "start": 357.68,
+      "duration": 2.16,
+      "text": "person is that it takes too long to",
+      "timestamp": "05:57"
+    },
+    {
+      "start": 359.84,
+      "duration": 2.48,
+      "text": "respond and every millisecond counts",
+      "timestamp": "05:59"
+    },
+    {
+      "start": 362.32,
+      "duration": 1.439,
+      "text": "here and we're running a lot of",
+      "timestamp": "06:02"
+    },
+    {
+      "start": 363.759,
+      "duration": 1.921,
+      "text": "processes in the background so making",
+      "timestamp": "06:03"
+    },
+    {
+      "start": 365.68,
+      "duration": 2.0,
+      "text": "sure that happens as quickly as possible",
+      "timestamp": "06:05"
+    },
+    {
+      "start": 367.68,
+      "duration": 3.28,
+      "text": "is really important the next piece is",
+      "timestamp": "06:07"
+    },
+    {
+      "start": 370.96,
+      "duration": 2.0,
+      "text": "transcription accuracy so I've got a",
+      "timestamp": "06:10"
+    },
+    {
+      "start": 372.96,
+      "duration": 3.12,
+      "text": "beef with transcribers in that models",
+      "timestamp": "06:12"
+    },
+    {
+      "start": 376.08,
+      "duration": 3.28,
+      "text": "say that they can do 98% accuracy of",
+      "timestamp": "06:16"
+    },
+    {
+      "start": 379.36,
+      "duration": 2.64,
+      "text": "transcribed text but that's not always",
+      "timestamp": "06:19"
+    },
+    {
+      "start": 382.0,
+      "duration": 3.44,
+      "text": "true they do 98% of most commonly",
+      "timestamp": "06:22"
+    },
+    {
+      "start": 385.44,
+      "duration": 2.479,
+      "text": "available words but in Voice AI we",
+      "timestamp": "06:25"
+    },
+    {
+      "start": 387.919,
+      "duration": 2.0,
+      "text": "really care about the last mile stuff",
+      "timestamp": "06:27"
+    },
+    {
+      "start": 389.919,
+      "duration": 2.241,
+      "text": "like your email your address and your",
+      "timestamp": "06:29"
+    },
+    {
+      "start": 392.16,
+      "duration": 1.92,
+      "text": "name and these transcribers aren't",
+      "timestamp": "06:32"
+    },
+    {
+      "start": 394.08,
+      "duration": 1.6,
+      "text": "always the best at that because they've",
+      "timestamp": "06:34"
+    },
+    {
+      "start": 395.68,
+      "duration": 2.639,
+      "text": "never been trained on it before the next",
+      "timestamp": "06:35"
+    },
+    {
+      "start": 398.319,
+      "duration": 1.6,
+      "text": "thing that we do and we've worked really",
+      "timestamp": "06:38"
+    },
+    {
+      "start": 399.919,
+      "duration": 3.041,
+      "text": "hard at this piece is around guardrails",
+      "timestamp": "06:39"
+    },
+    {
+      "start": 402.96,
+      "duration": 2.799,
+      "text": "and accuracy so getting the model to",
+      "timestamp": "06:42"
+    },
+    {
+      "start": 405.759,
+      "duration": 2.241,
+      "text": "output the correct bits of information",
+      "timestamp": "06:45"
+    },
+    {
+      "start": 408.0,
+      "duration": 2.639,
+      "text": "is a little bit like trying to use",
+      "timestamp": "06:48"
+    },
+    {
+      "start": 410.639,
+      "duration": 3.28,
+      "text": "puppet strings to operate a machine it's",
+      "timestamp": "06:50"
+    },
+    {
+      "start": 413.919,
+      "duration": 2.161,
+      "text": "tough because what these large language",
+      "timestamp": "06:53"
+    },
+    {
+      "start": 416.08,
+      "duration": 2.64,
+      "text": "models are a bit of a black box and so",
+      "timestamp": "06:56"
+    },
+    {
+      "start": 418.72,
+      "duration": 1.52,
+      "text": "you have to put really strict guard",
+      "timestamp": "06:58"
+    },
+    {
+      "start": 420.24,
+      "duration": 1.76,
+      "text": "rails around them to make sure that they",
+      "timestamp": "07:00"
+    },
+    {
+      "start": 422.0,
+      "duration": 2.639,
+      "text": "output the correct information at the",
+      "timestamp": "07:02"
+    },
+    {
+      "start": 424.639,
+      "duration": 2.721,
+      "text": "correct time and then the last problem",
+      "timestamp": "07:04"
+    },
+    {
+      "start": 427.36,
+      "duration": 2.16,
+      "text": "is endpointing and interruptions a",
+      "timestamp": "07:07"
+    },
+    {
+      "start": 429.52,
+      "duration": 2.399,
+      "text": "seemingly simple thing to solve but a",
+      "timestamp": "07:09"
+    },
+    {
+      "start": 431.919,
+      "duration": 1.68,
+      "text": "relatively complicated one when you",
+      "timestamp": "07:11"
+    },
+    {
+      "start": 433.599,
+      "duration": 1.761,
+      "text": "start to think about it predicting when",
+      "timestamp": "07:13"
+    },
+    {
+      "start": 435.36,
+      "duration": 1.92,
+      "text": "a person is done talking is a hard",
+      "timestamp": "07:15"
+    },
+    {
+      "start": 437.28,
+      "duration": 1.919,
+      "text": "problem and to solve this we've gone as",
+      "timestamp": "07:17"
+    },
+    {
+      "start": 439.199,
+      "duration": 2.321,
+      "text": "far as training our own models to look",
+      "timestamp": "07:19"
+    },
+    {
+      "start": 441.52,
+      "duration": 1.84,
+      "text": "at the last few words that the customer",
+      "timestamp": "07:21"
+    },
+    {
+      "start": 443.36,
+      "duration": 1.839,
+      "text": "is saying and the context of the",
+      "timestamp": "07:23"
+    },
+    {
+      "start": 445.199,
+      "duration": 1.84,
+      "text": "conversation to be like are they done",
+      "timestamp": "07:25"
+    },
+    {
+      "start": 447.039,
+      "duration": 2.72,
+      "text": "talking yes or no and then the",
+      "timestamp": "07:27"
+    },
+    {
+      "start": 449.759,
+      "duration": 1.921,
+      "text": "interruptions one uh is another tricky",
+      "timestamp": "07:29"
+    },
+    {
+      "start": 451.68,
+      "duration": 1.84,
+      "text": "one as a lot of time during phone calls",
+      "timestamp": "07:31"
+    },
+    {
+      "start": 453.52,
+      "duration": 2.399,
+      "text": "you have background noises TVs um and",
+      "timestamp": "07:33"
+    },
+    {
+      "start": 455.919,
+      "duration": 1.441,
+      "text": "other things that might not be",
+      "timestamp": "07:35"
+    },
+    {
+      "start": 457.36,
+      "duration": 1.679,
+      "text": "interruptions like somebody saying yeah",
+      "timestamp": "07:37"
+    },
+    {
+      "start": 459.039,
+      "duration": 2.321,
+      "text": "or okay um but they end up you know",
+      "timestamp": "07:39"
+    },
+    {
+      "start": 461.36,
+      "duration": 1.2,
+      "text": "interrupting the flow of the",
+      "timestamp": "07:41"
+    },
+    {
+      "start": 462.56,
+      "duration": 2.24,
+      "text": "conversation",
+      "timestamp": "07:42"
+    },
+    {
+      "start": 464.8,
+      "duration": 1.839,
+      "text": "i want to talk about an interesting",
+      "timestamp": "07:44"
+    },
+    {
+      "start": 466.639,
+      "duration": 1.361,
+      "text": "thing that I hope I can get a couple",
+      "timestamp": "07:46"
+    },
+    {
+      "start": 468.0,
+      "duration": 3.68,
+      "text": "people on um is latency so right behind",
+      "timestamp": "07:48"
+    },
+    {
+      "start": 471.68,
+      "duration": 2.959,
+      "text": "me here we have the OpenAI latency over",
+      "timestamp": "07:51"
+    },
+    {
+      "start": 474.639,
+      "duration": 2.24,
+      "text": "time so if you've ever uh most of you",
+      "timestamp": "07:54"
+    },
+    {
+      "start": 476.879,
+      "duration": 1.361,
+      "text": "have probably never done this but if you",
+      "timestamp": "07:56"
+    },
+    {
+      "start": 478.24,
+      "duration": 1.6,
+      "text": "take and you write some code to",
+      "timestamp": "07:58"
+    },
+    {
+      "start": 479.84,
+      "duration": 2.479,
+      "text": "basically say hi to OpenAI's endpoint",
+      "timestamp": "07:59"
+    },
+    {
+      "start": 482.319,
+      "duration": 2.16,
+      "text": "over a minute um what's going to happen",
+      "timestamp": "08:02"
+    },
+    {
+      "start": 484.479,
+      "duration": 1.681,
+      "text": "and you do that every second is you're",
+      "timestamp": "08:04"
+    },
+    {
+      "start": 486.16,
+      "duration": 2.64,
+      "text": "going to get two or three uh times where",
+      "timestamp": "08:06"
+    },
+    {
+      "start": 488.8,
+      "duration": 2.399,
+      "text": "that latency is going to spike up above",
+      "timestamp": "08:08"
+    },
+    {
+      "start": 491.199,
+      "duration": 3.12,
+      "text": "four or even 5 seconds and so if we're",
+      "timestamp": "08:11"
+    },
+    {
+      "start": 494.319,
+      "duration": 2.16,
+      "text": "relying on an under uh underlying model",
+      "timestamp": "08:14"
+    },
+    {
+      "start": 496.479,
+      "duration": 2.481,
+      "text": "provider such as OpenAI to have the",
+      "timestamp": "08:16"
+    },
+    {
+      "start": 498.96,
+      "duration": 1.359,
+      "text": "conversation we're going to get four or",
+      "timestamp": "08:18"
+    },
+    {
+      "start": 500.319,
+      "duration": 1.921,
+      "text": "five times where the latency uh ends up",
+      "timestamp": "08:20"
+    },
+    {
+      "start": 502.24,
+      "duration": 2.0,
+      "text": "looking like that and we wait 5 seconds",
+      "timestamp": "08:22"
+    },
+    {
+      "start": 504.24,
+      "duration": 2.48,
+      "text": "before even giving a response back and",
+      "timestamp": "08:24"
+    },
+    {
+      "start": 506.72,
+      "duration": 2.08,
+      "text": "so that is a hard one to solve um but",
+      "timestamp": "08:26"
+    },
+    {
+      "start": 508.8,
+      "duration": 3.04,
+      "text": "there's ways around it and so now that",
+      "timestamp": "08:28"
+    },
+    {
+      "start": 511.84,
+      "duration": 1.759,
+      "text": "we know the technical challenges what",
+      "timestamp": "08:31"
+    },
+    {
+      "start": 513.599,
+      "duration": 2.56,
+      "text": "are the business challenges that uh a",
+      "timestamp": "08:33"
+    },
+    {
+      "start": 516.159,
+      "duration": 1.521,
+      "text": "business is going to face when they want",
+      "timestamp": "08:36"
+    },
+    {
+      "start": 517.68,
+      "duration": 2.719,
+      "text": "to actually adopt voice AI well the",
+      "timestamp": "08:37"
+    },
+    {
+      "start": 520.399,
+      "duration": 2.161,
+      "text": "first thing is mapping out what humans",
+      "timestamp": "08:40"
+    },
+    {
+      "start": 522.56,
+      "duration": 2.32,
+      "text": "do and translating them basically into",
+      "timestamp": "08:42"
+    },
+    {
+      "start": 524.88,
+      "duration": 2.48,
+      "text": "what robots do so having a real really",
+      "timestamp": "08:44"
+    },
+    {
+      "start": 527.36,
+      "duration": 2.4,
+      "text": "clear conversation uh conversational",
+      "timestamp": "08:47"
+    },
+    {
+      "start": 529.76,
+      "duration": 2.16,
+      "text": "flow and structure is incredibly",
+      "timestamp": "08:49"
+    },
+    {
+      "start": 531.92,
+      "duration": 2.56,
+      "text": "important the next thing is building out",
+      "timestamp": "08:51"
+    },
+    {
+      "start": 534.48,
+      "duration": 2.64,
+      "text": "integrations into every software that",
+      "timestamp": "08:54"
+    },
+    {
+      "start": 537.12,
+      "duration": 1.76,
+      "text": "might need to be done when you hire a",
+      "timestamp": "08:57"
+    },
+    {
+      "start": 538.88,
+      "duration": 1.44,
+      "text": "person to do something you can say just",
+      "timestamp": "08:58"
+    },
+    {
+      "start": 540.32,
+      "duration": 1.519,
+      "text": "click this button on this software on",
+      "timestamp": "09:00"
+    },
+    {
+      "start": 541.839,
+      "duration": 2.161,
+      "text": "this page but with an AI you have to",
+      "timestamp": "09:01"
+    },
+    {
+      "start": 544.0,
+      "duration": 2.16,
+      "text": "build that as a real-time API",
+      "timestamp": "09:04"
+    },
+    {
+      "start": 546.16,
+      "duration": 2.64,
+      "text": "integration or set up some MCP server to",
+      "timestamp": "09:06"
+    },
+    {
+      "start": 548.8,
+      "duration": 1.92,
+      "text": "be able to do that and then the last",
+      "timestamp": "09:08"
+    },
+    {
+      "start": 550.72,
+      "duration": 4.0,
+      "text": "thing is you know managing uh 99.9%",
+      "timestamp": "09:10"
+    },
+    {
+      "start": 554.72,
+      "duration": 3.52,
+      "text": "or 99% reliability and accuracy voice AI",
+      "timestamp": "09:14"
+    },
+    {
+      "start": 558.24,
+      "duration": 2.32,
+      "text": "at this moment is built on like 10",
+      "timestamp": "09:18"
+    },
+    {
+      "start": 560.56,
+      "duration": 1.44,
+      "text": "different startups that you're relying",
+      "timestamp": "09:20"
+    },
+    {
+      "start": 562.0,
+      "duration": 2.0,
+      "text": "on and uh all of these startups",
+      "timestamp": "09:22"
+    },
+    {
+      "start": 564.0,
+      "duration": 2.8,
+      "text": "unfortunately have downtime um randomly",
+      "timestamp": "09:24"
+    },
+    {
+      "start": 566.8,
+      "duration": 2.4,
+      "text": "even for a few requests um over the",
+      "timestamp": "09:26"
+    },
+    {
+      "start": 569.2,
+      "duration": 2.48,
+      "text": "course of a day and so having uh backups",
+      "timestamp": "09:29"
+    },
+    {
+      "start": 571.68,
+      "duration": 2.0,
+      "text": "and fallbacks becomes a really important",
+      "timestamp": "09:31"
+    },
+    {
+      "start": 573.68,
+      "duration": 3.76,
+      "text": "part of building invoice AI",
+      "timestamp": "09:33"
+    },
+    {
+      "start": 577.44,
+      "duration": 2.079,
+      "text": "and then one of the ways that I I say",
+      "timestamp": "09:37"
+    },
+    {
+      "start": 579.519,
+      "duration": 1.681,
+      "text": "that I'm a big believer in is like how",
+      "timestamp": "09:39"
+    },
+    {
+      "start": 581.2,
+      "duration": 2.0,
+      "text": "we solve some of this problem and how we",
+      "timestamp": "09:41"
+    },
+    {
+      "start": 583.2,
+      "duration": 1.52,
+      "text": "deal with some of the the language",
+      "timestamp": "09:43"
+    },
+    {
+      "start": 584.72,
+      "duration": 2.799,
+      "text": "models guardrails um and accuracy is we",
+      "timestamp": "09:44"
+    },
+    {
+      "start": 587.519,
+      "duration": 2.401,
+      "text": "allow businesses to break down stuff",
+      "timestamp": "09:47"
+    },
+    {
+      "start": 589.92,
+      "duration": 2.64,
+      "text": "into you know conversational flows and",
+      "timestamp": "09:49"
+    },
+    {
+      "start": 592.56,
+      "duration": 1.76,
+      "text": "so these conversational flows and these",
+      "timestamp": "09:52"
+    },
+    {
+      "start": 594.32,
+      "duration": 2.4,
+      "text": "pathways allow both the business to",
+      "timestamp": "09:54"
+    },
+    {
+      "start": 596.72,
+      "duration": 1.52,
+      "text": "translate what they want their customer",
+      "timestamp": "09:56"
+    },
+    {
+      "start": 598.24,
+      "duration": 2.24,
+      "text": "to do maybe it's you know gather some",
+      "timestamp": "09:58"
+    },
+    {
+      "start": 600.48,
+      "duration": 2.32,
+      "text": "information send an email at this point",
+      "timestamp": "10:00"
+    },
+    {
+      "start": 602.8,
+      "duration": 1.2,
+      "text": "um they let them map out the",
+      "timestamp": "10:02"
+    },
+    {
+      "start": 604.0,
+      "duration": 1.839,
+      "text": "conversation and this is really helpful",
+      "timestamp": "10:04"
+    },
+    {
+      "start": 605.839,
+      "duration": 1.761,
+      "text": "for the large language model side",
+      "timestamp": "10:05"
+    },
+    {
+      "start": 607.6,
+      "duration": 2.239,
+      "text": "because it constrains the prompt size to",
+      "timestamp": "10:07"
+    },
+    {
+      "start": 609.839,
+      "duration": 1.921,
+      "text": "only doing a little bit of a task and",
+      "timestamp": "10:09"
+    },
+    {
+      "start": 611.76,
+      "duration": 1.68,
+      "text": "then moving on to a little bit of a next",
+      "timestamp": "10:11"
+    },
+    {
+      "start": 613.44,
+      "duration": 2.079,
+      "text": "one um and so by breaking it down like",
+      "timestamp": "10:13"
+    },
+    {
+      "start": 615.519,
+      "duration": 1.76,
+      "text": "this you get a lot of value on the",
+      "timestamp": "10:15"
+    },
+    {
+      "start": 617.279,
+      "duration": 2.321,
+      "text": "business side um not just from that the",
+      "timestamp": "10:17"
+    },
+    {
+      "start": 619.6,
+      "duration": 2.08,
+      "text": "the AI does what it's supposed to do but",
+      "timestamp": "10:19"
+    },
+    {
+      "start": 621.68,
+      "duration": 1.68,
+      "text": "you also get that we have a lot of",
+      "timestamp": "10:21"
+    },
+    {
+      "start": 623.36,
+      "duration": 1.919,
+      "text": "analytics baked into this is we can",
+      "timestamp": "10:23"
+    },
+    {
+      "start": 625.279,
+      "duration": 1.521,
+      "text": "understand what percentage of our",
+      "timestamp": "10:25"
+    },
+    {
+      "start": 626.8,
+      "duration": 2.56,
+      "text": "callers went in one direction versus",
+      "timestamp": "10:26"
+    },
+    {
+      "start": 629.36,
+      "duration": 2.08,
+      "text": "another based upon the requests that",
+      "timestamp": "10:29"
+    },
+    {
+      "start": 631.44,
+      "duration": 2.079,
+      "text": "they have",
+      "timestamp": "10:31"
+    },
+    {
+      "start": 633.519,
+      "duration": 2.32,
+      "text": "and so now the thing that uh may of you",
+      "timestamp": "10:33"
+    },
+    {
+      "start": 635.839,
+      "duration": 1.521,
+      "text": "many of you may have been waiting for is",
+      "timestamp": "10:35"
+    },
+    {
+      "start": 637.36,
+      "duration": 1.52,
+      "text": "like how did we actually get to the",
+      "timestamp": "10:37"
+    },
+    {
+      "start": 638.88,
+      "duration": 2.0,
+      "text": "point where we were reducing latency and",
+      "timestamp": "10:38"
+    },
+    {
+      "start": 640.88,
+      "duration": 2.0,
+      "text": "improving accuracy um like we talked",
+      "timestamp": "10:40"
+    },
+    {
+      "start": 642.88,
+      "duration": 2.959,
+      "text": "about before so we worked on this",
+      "timestamp": "10:42"
+    },
+    {
+      "start": 645.839,
+      "duration": 2.24,
+      "text": "problem uh with one specific customer",
+      "timestamp": "10:45"
+    },
+    {
+      "start": 648.079,
+      "duration": 2.32,
+      "text": "for about 8 months to be able to",
+      "timestamp": "10:48"
+    },
+    {
+      "start": 650.399,
+      "duration": 2.721,
+      "text": "translate um what they wanted to do",
+      "timestamp": "10:50"
+    },
+    {
+      "start": 653.12,
+      "duration": 1.6,
+      "text": "which is like very you know",
+      "timestamp": "10:53"
+    },
+    {
+      "start": 654.72,
+      "duration": 3.2,
+      "text": "conversational uh flow very real time",
+      "timestamp": "10:54"
+    },
+    {
+      "start": 657.92,
+      "duration": 2.08,
+      "text": "performance um and make that actually",
+      "timestamp": "10:57"
+    },
+    {
+      "start": 660.0,
+      "duration": 1.92,
+      "text": "happen with AI and so the way that we",
+      "timestamp": "11:00"
+    },
+    {
+      "start": 661.92,
+      "duration": 1.28,
+      "text": "did it and the reason I went through all",
+      "timestamp": "11:01"
+    },
+    {
+      "start": 663.2,
+      "duration": 2.24,
+      "text": "that stuff before is the first thing",
+      "timestamp": "11:03"
+    },
+    {
+      "start": 665.44,
+      "duration": 2.16,
+      "text": "that we did was we mapped out the",
+      "timestamp": "11:05"
+    },
+    {
+      "start": 667.6,
+      "duration": 2.08,
+      "text": "conversational flow of the business in",
+      "timestamp": "11:07"
+    },
+    {
+      "start": 669.68,
+      "duration": 1.52,
+      "text": "this case they were a Medicare",
+      "timestamp": "11:09"
+    },
+    {
+      "start": 671.2,
+      "duration": 1.52,
+      "text": "qualification company and they were",
+      "timestamp": "11:11"
+    },
+    {
+      "start": 672.72,
+      "duration": 1.84,
+      "text": "optimizing for some sort of conversion",
+      "timestamp": "11:12"
+    },
+    {
+      "start": 674.56,
+      "duration": 1.68,
+      "text": "so we mapped that out we built the flow",
+      "timestamp": "11:14"
+    },
+    {
+      "start": 676.24,
+      "duration": 3.2,
+      "text": "and then we ran it on OpenAI's um and",
+      "timestamp": "11:16"
+    },
+    {
+      "start": 679.44,
+      "duration": 1.76,
+      "text": "you know other model providers so",
+      "timestamp": "11:19"
+    },
+    {
+      "start": 681.2,
+      "duration": 1.759,
+      "text": "smarter models and we gathered a bunch",
+      "timestamp": "11:21"
+    },
+    {
+      "start": 682.959,
+      "duration": 2.481,
+      "text": "of data from that and then what we did",
+      "timestamp": "11:22"
+    },
+    {
+      "start": 685.44,
+      "duration": 1.839,
+      "text": "is we collected that data and then we",
+      "timestamp": "11:25"
+    },
+    {
+      "start": 687.279,
+      "duration": 2.24,
+      "text": "annotated it and then we sent it and we",
+      "timestamp": "11:27"
+    },
+    {
+      "start": 689.519,
+      "duration": 3.361,
+      "text": "retrained another model um that was much",
+      "timestamp": "11:29"
+    },
+    {
+      "start": 692.88,
+      "duration": 1.76,
+      "text": "smaller and much lighter weight so that",
+      "timestamp": "11:32"
+    },
+    {
+      "start": 694.64,
+      "duration": 1.36,
+      "text": "we could get around some of those big",
+      "timestamp": "11:34"
+    },
+    {
+      "start": 696.0,
+      "duration": 2.32,
+      "text": "latency spike problems that are faced by",
+      "timestamp": "11:36"
+    },
+    {
+      "start": 698.32,
+      "duration": 2.56,
+      "text": "OpenAI um and then once we had that",
+      "timestamp": "11:38"
+    },
+    {
+      "start": 700.88,
+      "duration": 3.36,
+      "text": "workflow you know really dialed in um we",
+      "timestamp": "11:40"
+    },
+    {
+      "start": 704.24,
+      "duration": 3.12,
+      "text": "we hosted it on our provider uh one of",
+      "timestamp": "11:44"
+    },
+    {
+      "start": 707.36,
+      "duration": 2.159,
+      "text": "our partner providers which is Grock so",
+      "timestamp": "11:47"
+    },
+    {
+      "start": 709.519,
+      "duration": 2.161,
+      "text": "Grock allows you to run uh large",
+      "timestamp": "11:49"
+    },
+    {
+      "start": 711.68,
+      "duration": 1.68,
+      "text": "language models really really quickly",
+      "timestamp": "11:51"
+    },
+    {
+      "start": 713.36,
+      "duration": 2.4,
+      "text": "and really cheaply um and so what we did",
+      "timestamp": "11:53"
+    },
+    {
+      "start": 715.76,
+      "duration": 2.079,
+      "text": "was we took all that information we",
+      "timestamp": "11:55"
+    },
+    {
+      "start": 717.839,
+      "duration": 2.161,
+      "text": "hosted it on grock and here were the",
+      "timestamp": "11:57"
+    },
+    {
+      "start": 720.0,
+      "duration": 1.839,
+      "text": "results that we got from it um so it",
+      "timestamp": "12:00"
+    },
+    {
+      "start": 721.839,
+      "duration": 1.521,
+      "text": "took a lot of work but we were able to",
+      "timestamp": "12:01"
+    },
+    {
+      "start": 723.36,
+      "duration": 2.8,
+      "text": "reduce our latency 70% as compared to",
+      "timestamp": "12:03"
+    },
+    {
+      "start": 726.16,
+      "duration": 3.28,
+      "text": "what OpenAI was done um our P95 latency",
+      "timestamp": "12:06"
+    },
+    {
+      "start": 729.44,
+      "duration": 2.56,
+      "text": "which is like that top 5% of latency we",
+      "timestamp": "12:09"
+    },
+    {
+      "start": 732.0,
+      "duration": 2.16,
+      "text": "went from 3 seconds down to 300",
+      "timestamp": "12:12"
+    },
+    {
+      "start": 734.16,
+      "duration": 3.119,
+      "text": "milliseconds and then um we actually",
+      "timestamp": "12:14"
+    },
+    {
+      "start": 737.279,
+      "duration": 2.161,
+      "text": "improved conversion rate by 13% which",
+      "timestamp": "12:17"
+    },
+    {
+      "start": 739.44,
+      "duration": 1.44,
+      "text": "blew my mind i did not think that we",
+      "timestamp": "12:19"
+    },
+    {
+      "start": 740.88,
+      "duration": 1.6,
+      "text": "could get there um and we were still",
+      "timestamp": "12:20"
+    },
+    {
+      "start": 742.48,
+      "duration": 2.72,
+      "text": "able to maintain the 99% conversational",
+      "timestamp": "12:22"
+    },
+    {
+      "start": 745.2,
+      "duration": 2.079,
+      "text": "flow accuracy which is basically how",
+      "timestamp": "12:25"
+    },
+    {
+      "start": 747.279,
+      "duration": 1.841,
+      "text": "well the AI is following the flow based",
+      "timestamp": "12:27"
+    },
+    {
+      "start": 749.12,
+      "duration": 2.88,
+      "text": "upon customers request",
+      "timestamp": "12:29"
+    },
+    {
+      "start": 752.0,
+      "duration": 2.48,
+      "text": "and so uh I guess to wrap everything up",
+      "timestamp": "12:32"
+    },
+    {
+      "start": 754.48,
+      "duration": 2.72,
+      "text": "making computers talk like people is not",
+      "timestamp": "12:34"
+    },
+    {
+      "start": 757.2,
+      "duration": 2.8,
+      "text": "an easy thing to do um it's a super fun",
+      "timestamp": "12:37"
+    },
+    {
+      "start": 760.0,
+      "duration": 1.519,
+      "text": "problem to work on because you're",
+      "timestamp": "12:40"
+    },
+    {
+      "start": 761.519,
+      "duration": 2.241,
+      "text": "dealing with not just building software",
+      "timestamp": "12:41"
+    },
+    {
+      "start": 763.76,
+      "duration": 1.759,
+      "text": "not just machine learning but also",
+      "timestamp": "12:43"
+    },
+    {
+      "start": 765.519,
+      "duration": 2.32,
+      "text": "interacting with how does a person want",
+      "timestamp": "12:45"
+    },
+    {
+      "start": 767.839,
+      "duration": 2.8,
+      "text": "to be talked to over the phone um so if",
+      "timestamp": "12:47"
+    },
+    {
+      "start": 770.639,
+      "duration": 1.841,
+      "text": "you guys are interested you can try out",
+      "timestamp": "12:50"
+    },
+    {
+      "start": 772.48,
+      "duration": 1.76,
+      "text": "Phonely our platform is completely free",
+      "timestamp": "12:52"
+    },
+    {
+      "start": 774.24,
+      "duration": 2.96,
+      "text": "to use um and we try to make talking to",
+      "timestamp": "12:54"
+    },
+    {
+      "start": 777.2,
+      "duration": 2.48,
+      "text": "computers uh super easy so thanks again",
+      "timestamp": "12:57"
+    },
+    {
+      "start": 779.68,
+      "duration": 1.76,
+      "text": "everyone for taking the time to chat",
+      "timestamp": "12:59"
+    },
+    {
+      "start": 781.44,
+      "duration": 2.0,
+      "text": "today and I'll be hanging around if you",
+      "timestamp": "13:01"
+    },
+    {
+      "start": 783.44,
+      "duration": 3.959,
+      "text": "guys want to talk voice AI",
+      "timestamp": "13:03"
+    }
+  ],
+  "extraction_timestamp": "2025-06-29T21:04:35.351906",
+  "playlist_title": "SuperAI Singapore 2025: WEKA Stage"
+}

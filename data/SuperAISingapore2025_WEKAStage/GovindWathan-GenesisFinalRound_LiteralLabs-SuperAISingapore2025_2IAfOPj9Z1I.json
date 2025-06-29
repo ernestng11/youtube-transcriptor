@@ -1,0 +1,1415 @@
+{
+  "video_id": "2IAfOPj9Z1I",
+  "video_title": "Govind Wathan - Genesis Final Round: Literal Labs - SuperAI Singapore 2025",
+  "video_url": "https://www.youtube.com/watch?v=2IAfOPj9Z1I",
+  "channel_title": "SuperAI",
+  "published_at": "2025-06-25T12:39:01+00:00",
+  "duration_seconds": null,
+  "view_count": 10,
+  "like_count": 0,
+  "description": "Learn more about SuperAI: superai.com\nFollow us on X: x.com/superai_conf\n\nGenesis Final Round: Literal Labs\n\nSpeaker:\nGovind Wathan, Business Advisor @ Literal Labs\n\nStage: WEKA Stage\n#superai #literallabs #startups #competition #llms\n\nRecorded on 19 June 2025",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 232,
+    "aggregated_text": "good morning i'm Goven Badan and we are literal labs and we are on a mission to create a unique architecture that enables AI inference for the constrained embedded edge now today AI for the edge is typically solved using neural networks at the heart of a neural network is a matrix multiplication function and unfortunately matrix multiplication functions are heavily are heavy on computation power and our customers are telling us that the upfront cost to implement such a solution in existing edge systems is very high slowing down the adoption of AI at the edge and we want to change that our logic based architecture utilizes a combination of propositional logic so if then statements and settle in machines and the resulting solution is one that drastically reduces the computation computational complexity of the solution leading to products that are that can be retrofitted into existing silicon chips enabling inference to be run at the embedded edge and being easy to deploy and train now let's talk about how we benefit real world applications and there are three things that I want to touch on here the first is because we are logic based we are naturally explainable and due to that we are seeing a lot of traction in applications such as know your customer AI enabled medical diagnostic applications as well as ADAS we're also blazingly fast our solutions enable real time inference to happen at the edge and for this reason we're seeing good traction in fraud as well as threat detection ADAS as well as operational intelligence and last but not least we are ultra low power meaning that we can embed our solutions into existing power budgets of age devices and this is great for handheld devices and anything that is battery operated now we've talked about how we can benefit the real world application space but the question that we're often asked is how do you compete against the most prevalent AI architecture that's out there today in the embedded edge and those are neural networks and in my early days at ARM we were frequently asked this question but in relation to the x86 architecture and in many ways our approach at literal labs is similar and there are two things that we're doing number one is creating a superior product and the second is focusing on ease of adoption and let me touch on that so when we look at performance we compete against neural networks that are prevalent in today's age AI such as autoenccoders and here we're 54 times faster while being 52 times lower power another popular and commonly found model at uh neural network model at the edge are long short-term memory models and this is a real world example where we've applied our solution in a waterflow prediction system our customer uses a Cortex M33based microcontroller our solution a logic based AI model that while being really low on power is also tiny enough to fit into a Cortex M33 microcontroller now there was a competing solution for this customer which was based on an LSTM which despite their best efforts was unable to fit within that Cortex M33 microcontroller so we do have a superior product now let's talk about how we are ensuring ease of adoption and that really speaks to our training tools our overarching objective with our training tools is to enable any software professional to train and deploy our models we have customizable APIs that allow customers to plug in their data set into our tools we have spent a lot of effort automating pre-processing and post-processing within the training tool we have Cbased models that come with an IDE for ease of deployment and we also have models that are small enough that they fit into existing highly constrained microcontrollers and are able to run directly on the CPU removing the need to upgrade hardware now these are things that we've done we're also working towards open-sourcing our models in order to engage with the wider developer community that's a whistle stop tour of literal labs thank you for listening and I welcome any questions so um my first question is about uh repeatability of those models so you say I bring in the customer data and then there's a training is that kind of an unsupervised uh training or learning that we have here like how much effort is required to to use this with different customers sure thing so the data set that we use um so the data set is labeled data set we do have uh capabilities built into the training tool that help with the pre-processing of that because not all data is labeled the challenge with not having um enough label data is that the chances of having the model um um sort of coming up with results that are inaccurate or even hallucinating increases so we need label data or as much label data as possible everything else goes through the tool where it's mainly automated to to um to be quick enough and so and also to allow it to be used by by a competent software developer and so roughly how long would an implementation take with a new customer such potentially so our models being logic based are simple in nature we can run and we've shown through customer engagements we can take a new data set that we've never trained on before and go from um go from that stage to a model within 3 to four weeks um so remind us are you already working with customers yes so we have three customer engagements that are ongoing as we speak uh once in automotive we've got a food supply chain customer as well as a water utility customer these engagements started off as proof of concepts uh one of them are now advancing into um a paying customer if you will got it thank you and how does the revenue model work with with these customers sure so um we've got mainly two products our business model is comprised of mainly two products we've got the training tool that we provide on a subscription model and this can be either deployed in the cloud or on prem uh at the customer site and we also have the models itself and the models are provided to the customer for a royalty fee and this is something that we apply later on depending on where exactly the customer fits within the value chain so just a quick followup the loyalty fee how does that work yeah so it depends on where the customer fits within the value chain because being an architecture we work with a number of different types of customers we work with hardware customers that are very much upstream of the value chain we work with uh system integrators that are sort of in between as well as service providers further down the supply chain the model is diff slightly different depending on where you are and that's one of the reasons why our focus for this year is to attain five customers and to get this product in the hands of five customers and we want to be as diverse as possible so the automotive company for example is a tier one so they are a system integrator um the water utility company is a service provider the food supply chain is further down the um the value chain in actually implementing the data on site uh the solution on site pardon me yeah I think you uh in your slides you've shown a few use cases and applications what would you say is your top ideal customer profile so ideal customer profile would be closer towards the the end of the value chain if I'm honest so we're working on you know we're working with system integrators we're working with service providers as we have a royalty model the closer you are uh to act you know to to the end of the value chain the higher the ESP the better it is for us so from a a you know business perspective a commercial perspective that would be an ideal customer from a problem space perspective it's anything that any problem that is based on a time series um um challenge which when you look at the embedded edge is one of the larger spaces um that customers are um challenged with when you think about fraud detection you think about predictive maintenance uh anomaly detection these are all very similar types of products that um they have a very good affinity to our models can you easily retrofit it to existing systems where you say I have a scatter system I dump the data and just use the model to get insights there or it always requires the hardware implementation yeah so it's a good question so the two ways that I'll answer this first is if you have an existing system that doesn't have any AI which is similar to the water utility company you don't need to do anything to the hardware as shown here Cordex M33 that microcontroller was an existing hardware that was buried deep underground and we were able to do that or you can retrain an existing neural network model to be logic based",
+    "text_length": 8664,
+    "word_count": 1568
+  },
+  "segments": [
+    {
+      "start": 7.52,
+      "duration": 3.44,
+      "text": "good morning i'm Goven Badan and we are",
+      "timestamp": "00:07"
+    },
+    {
+      "start": 10.96,
+      "duration": 4.4,
+      "text": "literal labs and we are on a mission to",
+      "timestamp": "00:10"
+    },
+    {
+      "start": 15.36,
+      "duration": 3.28,
+      "text": "create a unique architecture",
+      "timestamp": "00:15"
+    },
+    {
+      "start": 18.64,
+      "duration": 2.96,
+      "text": "that enables AI inference for the",
+      "timestamp": "00:18"
+    },
+    {
+      "start": 21.6,
+      "duration": 3.12,
+      "text": "constrained embedded edge",
+      "timestamp": "00:21"
+    },
+    {
+      "start": 24.72,
+      "duration": 3.44,
+      "text": "now today AI for the edge is typically",
+      "timestamp": "00:24"
+    },
+    {
+      "start": 28.16,
+      "duration": 3.439,
+      "text": "solved using neural networks",
+      "timestamp": "00:28"
+    },
+    {
+      "start": 31.599,
+      "duration": 3.201,
+      "text": "at the heart of a neural network is a",
+      "timestamp": "00:31"
+    },
+    {
+      "start": 34.8,
+      "duration": 2.56,
+      "text": "matrix multiplication function and",
+      "timestamp": "00:34"
+    },
+    {
+      "start": 37.36,
+      "duration": 2.16,
+      "text": "unfortunately matrix multiplication",
+      "timestamp": "00:37"
+    },
+    {
+      "start": 39.52,
+      "duration": 2.559,
+      "text": "functions are heavily are heavy on",
+      "timestamp": "00:39"
+    },
+    {
+      "start": 42.079,
+      "duration": 3.281,
+      "text": "computation power and our customers are",
+      "timestamp": "00:42"
+    },
+    {
+      "start": 45.36,
+      "duration": 3.199,
+      "text": "telling us that the upfront cost to",
+      "timestamp": "00:45"
+    },
+    {
+      "start": 48.559,
+      "duration": 2.961,
+      "text": "implement such a solution in existing",
+      "timestamp": "00:48"
+    },
+    {
+      "start": 51.52,
+      "duration": 3.28,
+      "text": "edge systems is very high slowing down",
+      "timestamp": "00:51"
+    },
+    {
+      "start": 54.8,
+      "duration": 3.759,
+      "text": "the adoption of AI at the edge and we",
+      "timestamp": "00:54"
+    },
+    {
+      "start": 58.559,
+      "duration": 3.361,
+      "text": "want to change that our logic based",
+      "timestamp": "00:58"
+    },
+    {
+      "start": 61.92,
+      "duration": 1.6,
+      "text": "architecture",
+      "timestamp": "01:01"
+    },
+    {
+      "start": 63.52,
+      "duration": 2.56,
+      "text": "utilizes a combination of propositional",
+      "timestamp": "01:03"
+    },
+    {
+      "start": 66.08,
+      "duration": 2.56,
+      "text": "logic so if then statements and settle",
+      "timestamp": "01:06"
+    },
+    {
+      "start": 68.64,
+      "duration": 1.839,
+      "text": "in machines",
+      "timestamp": "01:08"
+    },
+    {
+      "start": 70.479,
+      "duration": 3.841,
+      "text": "and the resulting solution is one that",
+      "timestamp": "01:10"
+    },
+    {
+      "start": 74.32,
+      "duration": 2.56,
+      "text": "drastically reduces the computation",
+      "timestamp": "01:14"
+    },
+    {
+      "start": 76.88,
+      "duration": 2.64,
+      "text": "computational complexity of the solution",
+      "timestamp": "01:16"
+    },
+    {
+      "start": 79.52,
+      "duration": 2.56,
+      "text": "leading to",
+      "timestamp": "01:19"
+    },
+    {
+      "start": 82.08,
+      "duration": 1.679,
+      "text": "products that are that can be",
+      "timestamp": "01:22"
+    },
+    {
+      "start": 83.759,
+      "duration": 3.441,
+      "text": "retrofitted into existing silicon chips",
+      "timestamp": "01:23"
+    },
+    {
+      "start": 87.2,
+      "duration": 2.239,
+      "text": "enabling inference to be run at the",
+      "timestamp": "01:27"
+    },
+    {
+      "start": 89.439,
+      "duration": 3.601,
+      "text": "embedded edge and being easy to deploy",
+      "timestamp": "01:29"
+    },
+    {
+      "start": 93.04,
+      "duration": 2.719,
+      "text": "and train",
+      "timestamp": "01:33"
+    },
+    {
+      "start": 95.759,
+      "duration": 3.521,
+      "text": "now let's talk about how we benefit real",
+      "timestamp": "01:35"
+    },
+    {
+      "start": 99.28,
+      "duration": 1.6,
+      "text": "world applications and there are three",
+      "timestamp": "01:39"
+    },
+    {
+      "start": 100.88,
+      "duration": 2.0,
+      "text": "things that I want to touch on here the",
+      "timestamp": "01:40"
+    },
+    {
+      "start": 102.88,
+      "duration": 3.04,
+      "text": "first is because we are logic based we",
+      "timestamp": "01:42"
+    },
+    {
+      "start": 105.92,
+      "duration": 2.559,
+      "text": "are naturally explainable and due to",
+      "timestamp": "01:45"
+    },
+    {
+      "start": 108.479,
+      "duration": 1.841,
+      "text": "that we are seeing a lot of traction in",
+      "timestamp": "01:48"
+    },
+    {
+      "start": 110.32,
+      "duration": 3.28,
+      "text": "applications such as know your customer",
+      "timestamp": "01:50"
+    },
+    {
+      "start": 113.6,
+      "duration": 2.32,
+      "text": "AI enabled medical diagnostic",
+      "timestamp": "01:53"
+    },
+    {
+      "start": 115.92,
+      "duration": 3.92,
+      "text": "applications as well as ADAS we're also",
+      "timestamp": "01:55"
+    },
+    {
+      "start": 119.84,
+      "duration": 4.16,
+      "text": "blazingly fast our solutions enable real",
+      "timestamp": "01:59"
+    },
+    {
+      "start": 124.0,
+      "duration": 2.96,
+      "text": "time inference to happen at the edge and",
+      "timestamp": "02:04"
+    },
+    {
+      "start": 126.96,
+      "duration": 1.6,
+      "text": "for this reason we're seeing good",
+      "timestamp": "02:06"
+    },
+    {
+      "start": 128.56,
+      "duration": 2.64,
+      "text": "traction in fraud as well as threat",
+      "timestamp": "02:08"
+    },
+    {
+      "start": 131.2,
+      "duration": 3.44,
+      "text": "detection ADAS as well as operational",
+      "timestamp": "02:11"
+    },
+    {
+      "start": 134.64,
+      "duration": 2.959,
+      "text": "intelligence and last but not least we",
+      "timestamp": "02:14"
+    },
+    {
+      "start": 137.599,
+      "duration": 3.201,
+      "text": "are ultra low power meaning that we can",
+      "timestamp": "02:17"
+    },
+    {
+      "start": 140.8,
+      "duration": 2.4,
+      "text": "embed our solutions into existing power",
+      "timestamp": "02:20"
+    },
+    {
+      "start": 143.2,
+      "duration": 2.64,
+      "text": "budgets of age devices and this is great",
+      "timestamp": "02:23"
+    },
+    {
+      "start": 145.84,
+      "duration": 2.16,
+      "text": "for handheld devices and anything that",
+      "timestamp": "02:25"
+    },
+    {
+      "start": 148.0,
+      "duration": 2.319,
+      "text": "is battery operated now we've talked",
+      "timestamp": "02:28"
+    },
+    {
+      "start": 150.319,
+      "duration": 2.961,
+      "text": "about how we can benefit the real world",
+      "timestamp": "02:30"
+    },
+    {
+      "start": 153.28,
+      "duration": 2.319,
+      "text": "application space but the question that",
+      "timestamp": "02:33"
+    },
+    {
+      "start": 155.599,
+      "duration": 3.201,
+      "text": "we're often asked is how do you compete",
+      "timestamp": "02:35"
+    },
+    {
+      "start": 158.8,
+      "duration": 2.079,
+      "text": "against the most prevalent AI",
+      "timestamp": "02:38"
+    },
+    {
+      "start": 160.879,
+      "duration": 2.561,
+      "text": "architecture that's out there today in",
+      "timestamp": "02:40"
+    },
+    {
+      "start": 163.44,
+      "duration": 2.159,
+      "text": "the embedded edge and those are neural",
+      "timestamp": "02:43"
+    },
+    {
+      "start": 165.599,
+      "duration": 3.521,
+      "text": "networks and in my early days at ARM we",
+      "timestamp": "02:45"
+    },
+    {
+      "start": 169.12,
+      "duration": 1.839,
+      "text": "were frequently asked this question but",
+      "timestamp": "02:49"
+    },
+    {
+      "start": 170.959,
+      "duration": 3.28,
+      "text": "in relation to the x86 architecture",
+      "timestamp": "02:50"
+    },
+    {
+      "start": 174.239,
+      "duration": 2.321,
+      "text": "and in many ways our approach at literal",
+      "timestamp": "02:54"
+    },
+    {
+      "start": 176.56,
+      "duration": 2.08,
+      "text": "labs is similar and there are two things",
+      "timestamp": "02:56"
+    },
+    {
+      "start": 178.64,
+      "duration": 2.319,
+      "text": "that we're doing number one is creating",
+      "timestamp": "02:58"
+    },
+    {
+      "start": 180.959,
+      "duration": 2.56,
+      "text": "a superior product and the second is",
+      "timestamp": "03:00"
+    },
+    {
+      "start": 183.519,
+      "duration": 2.64,
+      "text": "focusing on ease of adoption and let me",
+      "timestamp": "03:03"
+    },
+    {
+      "start": 186.159,
+      "duration": 2.0,
+      "text": "touch on that so when we look at",
+      "timestamp": "03:06"
+    },
+    {
+      "start": 188.159,
+      "duration": 2.8,
+      "text": "performance we compete against neural",
+      "timestamp": "03:08"
+    },
+    {
+      "start": 190.959,
+      "duration": 2.161,
+      "text": "networks that are prevalent in today's",
+      "timestamp": "03:10"
+    },
+    {
+      "start": 193.12,
+      "duration": 3.119,
+      "text": "age AI such as autoenccoders and here",
+      "timestamp": "03:13"
+    },
+    {
+      "start": 196.239,
+      "duration": 3.28,
+      "text": "we're 54 times faster while being 52",
+      "timestamp": "03:16"
+    },
+    {
+      "start": 199.519,
+      "duration": 3.601,
+      "text": "times lower power another popular and",
+      "timestamp": "03:19"
+    },
+    {
+      "start": 203.12,
+      "duration": 2.32,
+      "text": "commonly found model at uh neural",
+      "timestamp": "03:23"
+    },
+    {
+      "start": 205.44,
+      "duration": 2.32,
+      "text": "network model at the edge are long",
+      "timestamp": "03:25"
+    },
+    {
+      "start": 207.76,
+      "duration": 2.559,
+      "text": "short-term memory models and this is a",
+      "timestamp": "03:27"
+    },
+    {
+      "start": 210.319,
+      "duration": 2.56,
+      "text": "real world example where we've applied",
+      "timestamp": "03:30"
+    },
+    {
+      "start": 212.879,
+      "duration": 2.321,
+      "text": "our solution in a waterflow prediction",
+      "timestamp": "03:32"
+    },
+    {
+      "start": 215.2,
+      "duration": 3.119,
+      "text": "system our customer uses a Cortex",
+      "timestamp": "03:35"
+    },
+    {
+      "start": 218.319,
+      "duration": 2.721,
+      "text": "M33based microcontroller",
+      "timestamp": "03:38"
+    },
+    {
+      "start": 221.04,
+      "duration": 4.479,
+      "text": "our solution a logic based AI model that",
+      "timestamp": "03:41"
+    },
+    {
+      "start": 225.519,
+      "duration": 2.64,
+      "text": "while being really low on power is also",
+      "timestamp": "03:45"
+    },
+    {
+      "start": 228.159,
+      "duration": 2.881,
+      "text": "tiny enough to fit into a Cortex M33",
+      "timestamp": "03:48"
+    },
+    {
+      "start": 231.04,
+      "duration": 2.24,
+      "text": "microcontroller now there was a",
+      "timestamp": "03:51"
+    },
+    {
+      "start": 233.28,
+      "duration": 3.039,
+      "text": "competing solution for this customer",
+      "timestamp": "03:53"
+    },
+    {
+      "start": 236.319,
+      "duration": 3.2,
+      "text": "which was based on an LSTM which despite",
+      "timestamp": "03:56"
+    },
+    {
+      "start": 239.519,
+      "duration": 2.72,
+      "text": "their best efforts was unable to fit",
+      "timestamp": "03:59"
+    },
+    {
+      "start": 242.239,
+      "duration": 2.881,
+      "text": "within that Cortex M33 microcontroller",
+      "timestamp": "04:02"
+    },
+    {
+      "start": 245.12,
+      "duration": 3.44,
+      "text": "so we do have a superior product now",
+      "timestamp": "04:05"
+    },
+    {
+      "start": 248.56,
+      "duration": 2.72,
+      "text": "let's talk about how we are ensuring",
+      "timestamp": "04:08"
+    },
+    {
+      "start": 251.28,
+      "duration": 2.239,
+      "text": "ease of adoption and that really speaks",
+      "timestamp": "04:11"
+    },
+    {
+      "start": 253.519,
+      "duration": 3.68,
+      "text": "to our training tools our overarching",
+      "timestamp": "04:13"
+    },
+    {
+      "start": 257.199,
+      "duration": 2.56,
+      "text": "objective with our training tools is to",
+      "timestamp": "04:17"
+    },
+    {
+      "start": 259.759,
+      "duration": 2.961,
+      "text": "enable any software professional to",
+      "timestamp": "04:19"
+    },
+    {
+      "start": 262.72,
+      "duration": 2.64,
+      "text": "train and deploy our models we have",
+      "timestamp": "04:22"
+    },
+    {
+      "start": 265.36,
+      "duration": 2.16,
+      "text": "customizable APIs that allow customers",
+      "timestamp": "04:25"
+    },
+    {
+      "start": 267.52,
+      "duration": 2.64,
+      "text": "to plug in their data set into our tools",
+      "timestamp": "04:27"
+    },
+    {
+      "start": 270.16,
+      "duration": 2.0,
+      "text": "we have spent a lot of effort automating",
+      "timestamp": "04:30"
+    },
+    {
+      "start": 272.16,
+      "duration": 1.84,
+      "text": "pre-processing and post-processing",
+      "timestamp": "04:32"
+    },
+    {
+      "start": 274.0,
+      "duration": 3.12,
+      "text": "within the training tool we have Cbased",
+      "timestamp": "04:34"
+    },
+    {
+      "start": 277.12,
+      "duration": 3.6,
+      "text": "models that come with an IDE for ease of",
+      "timestamp": "04:37"
+    },
+    {
+      "start": 280.72,
+      "duration": 2.8,
+      "text": "deployment and we also have models that",
+      "timestamp": "04:40"
+    },
+    {
+      "start": 283.52,
+      "duration": 2.0,
+      "text": "are small enough that they fit into",
+      "timestamp": "04:43"
+    },
+    {
+      "start": 285.52,
+      "duration": 2.56,
+      "text": "existing highly constrained",
+      "timestamp": "04:45"
+    },
+    {
+      "start": 288.08,
+      "duration": 1.839,
+      "text": "microcontrollers and are able to run",
+      "timestamp": "04:48"
+    },
+    {
+      "start": 289.919,
+      "duration": 3.201,
+      "text": "directly on the CPU removing the need to",
+      "timestamp": "04:49"
+    },
+    {
+      "start": 293.12,
+      "duration": 2.32,
+      "text": "upgrade hardware now these are things",
+      "timestamp": "04:53"
+    },
+    {
+      "start": 295.44,
+      "duration": 2.16,
+      "text": "that we've done we're also working",
+      "timestamp": "04:55"
+    },
+    {
+      "start": 297.6,
+      "duration": 2.96,
+      "text": "towards open-sourcing our models in",
+      "timestamp": "04:57"
+    },
+    {
+      "start": 300.56,
+      "duration": 2.4,
+      "text": "order to engage with the wider developer",
+      "timestamp": "05:00"
+    },
+    {
+      "start": 302.96,
+      "duration": 2.88,
+      "text": "community that's a whistle stop tour of",
+      "timestamp": "05:02"
+    },
+    {
+      "start": 305.84,
+      "duration": 2.16,
+      "text": "literal labs thank you for listening and",
+      "timestamp": "05:05"
+    },
+    {
+      "start": 308.0,
+      "duration": 3.28,
+      "text": "I welcome any questions\n so um my first",
+      "timestamp": "05:08"
+    },
+    {
+      "start": 311.28,
+      "duration": 2.56,
+      "text": "question is about uh repeatability of",
+      "timestamp": "05:11"
+    },
+    {
+      "start": 313.84,
+      "duration": 1.68,
+      "text": "those models so you say I bring in the",
+      "timestamp": "05:13"
+    },
+    {
+      "start": 315.52,
+      "duration": 1.76,
+      "text": "customer data and then there's a",
+      "timestamp": "05:15"
+    },
+    {
+      "start": 317.28,
+      "duration": 2.8,
+      "text": "training is that kind of an unsupervised",
+      "timestamp": "05:17"
+    },
+    {
+      "start": 320.08,
+      "duration": 1.52,
+      "text": "uh training or learning that we have",
+      "timestamp": "05:20"
+    },
+    {
+      "start": 321.6,
+      "duration": 2.4,
+      "text": "here like how much effort is required to",
+      "timestamp": "05:21"
+    },
+    {
+      "start": 324.0,
+      "duration": 1.759,
+      "text": "to use this with different customers",
+      "timestamp": "05:24"
+    },
+    {
+      "start": 325.759,
+      "duration": 3.041,
+      "text": "sure thing so the data set that we use",
+      "timestamp": "05:25"
+    },
+    {
+      "start": 328.8,
+      "duration": 3.04,
+      "text": "um so the data set is labeled data set",
+      "timestamp": "05:28"
+    },
+    {
+      "start": 331.84,
+      "duration": 2.48,
+      "text": "we do have uh capabilities built into",
+      "timestamp": "05:31"
+    },
+    {
+      "start": 334.32,
+      "duration": 1.52,
+      "text": "the training tool that help with the",
+      "timestamp": "05:34"
+    },
+    {
+      "start": 335.84,
+      "duration": 2.0,
+      "text": "pre-processing of that because not all",
+      "timestamp": "05:35"
+    },
+    {
+      "start": 337.84,
+      "duration": 2.48,
+      "text": "data is labeled the challenge with not",
+      "timestamp": "05:37"
+    },
+    {
+      "start": 340.32,
+      "duration": 3.68,
+      "text": "having um enough label data is that the",
+      "timestamp": "05:40"
+    },
+    {
+      "start": 344.0,
+      "duration": 3.199,
+      "text": "chances of having the model um um sort",
+      "timestamp": "05:44"
+    },
+    {
+      "start": 347.199,
+      "duration": 2.241,
+      "text": "of coming up with results that are",
+      "timestamp": "05:47"
+    },
+    {
+      "start": 349.44,
+      "duration": 2.4,
+      "text": "inaccurate or even hallucinating",
+      "timestamp": "05:49"
+    },
+    {
+      "start": 351.84,
+      "duration": 2.4,
+      "text": "increases so we need label data or as",
+      "timestamp": "05:51"
+    },
+    {
+      "start": 354.24,
+      "duration": 2.16,
+      "text": "much label data as possible everything",
+      "timestamp": "05:54"
+    },
+    {
+      "start": 356.4,
+      "duration": 2.16,
+      "text": "else goes through the tool where it's",
+      "timestamp": "05:56"
+    },
+    {
+      "start": 358.56,
+      "duration": 3.44,
+      "text": "mainly automated to to um to be quick",
+      "timestamp": "05:58"
+    },
+    {
+      "start": 362.0,
+      "duration": 2.96,
+      "text": "enough and so and also to allow it to be",
+      "timestamp": "06:02"
+    },
+    {
+      "start": 364.96,
+      "duration": 2.959,
+      "text": "used by by a competent software",
+      "timestamp": "06:04"
+    },
+    {
+      "start": 367.919,
+      "duration": 2.641,
+      "text": "developer\n and so roughly how long would",
+      "timestamp": "06:07"
+    },
+    {
+      "start": 370.56,
+      "duration": 1.44,
+      "text": "an implementation take with a new",
+      "timestamp": "06:10"
+    },
+    {
+      "start": 372.0,
+      "duration": 2.4,
+      "text": "customer such potentially\n so our models",
+      "timestamp": "06:12"
+    },
+    {
+      "start": 374.4,
+      "duration": 3.2,
+      "text": "being logic based are simple in nature",
+      "timestamp": "06:14"
+    },
+    {
+      "start": 377.6,
+      "duration": 2.0,
+      "text": "we can run and we've shown through",
+      "timestamp": "06:17"
+    },
+    {
+      "start": 379.6,
+      "duration": 2.48,
+      "text": "customer engagements we can take a new",
+      "timestamp": "06:19"
+    },
+    {
+      "start": 382.08,
+      "duration": 2.0,
+      "text": "data set that we've never trained on",
+      "timestamp": "06:22"
+    },
+    {
+      "start": 384.08,
+      "duration": 3.679,
+      "text": "before and go from um go from that stage",
+      "timestamp": "06:24"
+    },
+    {
+      "start": 387.759,
+      "duration": 3.601,
+      "text": "to a model within 3 to four weeks\n um so",
+      "timestamp": "06:27"
+    },
+    {
+      "start": 391.36,
+      "duration": 2.24,
+      "text": "remind us are you already working with",
+      "timestamp": "06:31"
+    },
+    {
+      "start": 393.6,
+      "duration": 3.28,
+      "text": "customers\n yes so we have three customer",
+      "timestamp": "06:33"
+    },
+    {
+      "start": 396.88,
+      "duration": 2.56,
+      "text": "engagements that are ongoing as we speak",
+      "timestamp": "06:36"
+    },
+    {
+      "start": 399.44,
+      "duration": 2.319,
+      "text": "uh once in automotive we've got a food",
+      "timestamp": "06:39"
+    },
+    {
+      "start": 401.759,
+      "duration": 2.72,
+      "text": "supply chain customer as well as a water",
+      "timestamp": "06:41"
+    },
+    {
+      "start": 404.479,
+      "duration": 2.081,
+      "text": "utility customer these engagements",
+      "timestamp": "06:44"
+    },
+    {
+      "start": 406.56,
+      "duration": 2.96,
+      "text": "started off as proof of concepts uh one",
+      "timestamp": "06:46"
+    },
+    {
+      "start": 409.52,
+      "duration": 3.84,
+      "text": "of them are now advancing into um a",
+      "timestamp": "06:49"
+    },
+    {
+      "start": 413.36,
+      "duration": 2.16,
+      "text": "paying customer if you will\n got it thank",
+      "timestamp": "06:53"
+    },
+    {
+      "start": 415.52,
+      "duration": 1.6,
+      "text": "you and how does the revenue model work",
+      "timestamp": "06:55"
+    },
+    {
+      "start": 417.12,
+      "duration": 3.44,
+      "text": "with with these customers\n sure so um",
+      "timestamp": "06:57"
+    },
+    {
+      "start": 420.56,
+      "duration": 2.079,
+      "text": "we've got mainly two products our",
+      "timestamp": "07:00"
+    },
+    {
+      "start": 422.639,
+      "duration": 1.28,
+      "text": "business model is comprised of mainly",
+      "timestamp": "07:02"
+    },
+    {
+      "start": 423.919,
+      "duration": 1.921,
+      "text": "two products we've got the training tool",
+      "timestamp": "07:03"
+    },
+    {
+      "start": 425.84,
+      "duration": 2.24,
+      "text": "that we provide on a subscription model",
+      "timestamp": "07:05"
+    },
+    {
+      "start": 428.08,
+      "duration": 2.32,
+      "text": "and this can be either deployed in the",
+      "timestamp": "07:08"
+    },
+    {
+      "start": 430.4,
+      "duration": 3.28,
+      "text": "cloud or on prem uh at the customer site",
+      "timestamp": "07:10"
+    },
+    {
+      "start": 433.68,
+      "duration": 1.919,
+      "text": "and we also have the models itself and",
+      "timestamp": "07:13"
+    },
+    {
+      "start": 435.599,
+      "duration": 2.641,
+      "text": "the models are provided to the customer",
+      "timestamp": "07:15"
+    },
+    {
+      "start": 438.24,
+      "duration": 2.16,
+      "text": "for a royalty fee and this is something",
+      "timestamp": "07:18"
+    },
+    {
+      "start": 440.4,
+      "duration": 2.239,
+      "text": "that we apply later on depending on",
+      "timestamp": "07:20"
+    },
+    {
+      "start": 442.639,
+      "duration": 2.96,
+      "text": "where exactly the customer fits within",
+      "timestamp": "07:22"
+    },
+    {
+      "start": 445.599,
+      "duration": 2.401,
+      "text": "the value chain",
+      "timestamp": "07:25"
+    },
+    {
+      "start": 448.0,
+      "duration": 1.84,
+      "text": "so just a quick followup the loyalty fee",
+      "timestamp": "07:28"
+    },
+    {
+      "start": 449.84,
+      "duration": 1.919,
+      "text": "how does that work\n yeah so it depends on",
+      "timestamp": "07:29"
+    },
+    {
+      "start": 451.759,
+      "duration": 2.081,
+      "text": "where the customer fits within the value",
+      "timestamp": "07:31"
+    },
+    {
+      "start": 453.84,
+      "duration": 2.56,
+      "text": "chain because being an architecture we",
+      "timestamp": "07:33"
+    },
+    {
+      "start": 456.4,
+      "duration": 2.96,
+      "text": "work with a number of different types of",
+      "timestamp": "07:36"
+    },
+    {
+      "start": 459.36,
+      "duration": 2.0,
+      "text": "customers we work with hardware",
+      "timestamp": "07:39"
+    },
+    {
+      "start": 461.36,
+      "duration": 1.76,
+      "text": "customers that are very much upstream of",
+      "timestamp": "07:41"
+    },
+    {
+      "start": 463.12,
+      "duration": 2.56,
+      "text": "the value chain we work with uh system",
+      "timestamp": "07:43"
+    },
+    {
+      "start": 465.68,
+      "duration": 1.76,
+      "text": "integrators that are sort of in between",
+      "timestamp": "07:45"
+    },
+    {
+      "start": 467.44,
+      "duration": 1.84,
+      "text": "as well as service providers further",
+      "timestamp": "07:47"
+    },
+    {
+      "start": 469.28,
+      "duration": 3.68,
+      "text": "down the supply chain the model is diff",
+      "timestamp": "07:49"
+    },
+    {
+      "start": 472.96,
+      "duration": 1.28,
+      "text": "slightly different depending on where",
+      "timestamp": "07:52"
+    },
+    {
+      "start": 474.24,
+      "duration": 1.76,
+      "text": "you are and that's one of the reasons",
+      "timestamp": "07:54"
+    },
+    {
+      "start": 476.0,
+      "duration": 3.199,
+      "text": "why our focus for this year is to attain",
+      "timestamp": "07:56"
+    },
+    {
+      "start": 479.199,
+      "duration": 1.84,
+      "text": "five customers and to get this product",
+      "timestamp": "07:59"
+    },
+    {
+      "start": 481.039,
+      "duration": 2.321,
+      "text": "in the hands of five customers and we",
+      "timestamp": "08:01"
+    },
+    {
+      "start": 483.36,
+      "duration": 2.239,
+      "text": "want to be as diverse as possible so the",
+      "timestamp": "08:03"
+    },
+    {
+      "start": 485.599,
+      "duration": 2.401,
+      "text": "automotive company for example is a tier",
+      "timestamp": "08:05"
+    },
+    {
+      "start": 488.0,
+      "duration": 2.8,
+      "text": "one so they are a system integrator um",
+      "timestamp": "08:08"
+    },
+    {
+      "start": 490.8,
+      "duration": 1.839,
+      "text": "the water utility company is a service",
+      "timestamp": "08:10"
+    },
+    {
+      "start": 492.639,
+      "duration": 2.881,
+      "text": "provider the food supply chain is",
+      "timestamp": "08:12"
+    },
+    {
+      "start": 495.52,
+      "duration": 2.64,
+      "text": "further down the um the value chain in",
+      "timestamp": "08:15"
+    },
+    {
+      "start": 498.16,
+      "duration": 2.479,
+      "text": "actually implementing the data on site",
+      "timestamp": "08:18"
+    },
+    {
+      "start": 500.639,
+      "duration": 2.801,
+      "text": "uh the solution on site pardon me\n yeah I",
+      "timestamp": "08:20"
+    },
+    {
+      "start": 503.44,
+      "duration": 2.0,
+      "text": "think you uh in your slides you've shown",
+      "timestamp": "08:23"
+    },
+    {
+      "start": 505.44,
+      "duration": 2.72,
+      "text": "a few use cases and applications what",
+      "timestamp": "08:25"
+    },
+    {
+      "start": 508.16,
+      "duration": 2.719,
+      "text": "would you say is your top ideal customer",
+      "timestamp": "08:28"
+    },
+    {
+      "start": 510.879,
+      "duration": 2.001,
+      "text": "profile",
+      "timestamp": "08:30"
+    },
+    {
+      "start": 512.88,
+      "duration": 4.638,
+      "text": "so ideal customer profile would be",
+      "timestamp": "08:32"
+    },
+    {
+      "start": 517.519,
+      "duration": 2.241,
+      "text": "closer towards the the end of the value",
+      "timestamp": "08:37"
+    },
+    {
+      "start": 519.76,
+      "duration": 2.719,
+      "text": "chain if I'm honest so we're working on",
+      "timestamp": "08:39"
+    },
+    {
+      "start": 522.479,
+      "duration": 0.961,
+      "text": "you know we're working with system",
+      "timestamp": "08:42"
+    },
+    {
+      "start": 523.44,
+      "duration": 1.28,
+      "text": "integrators we're working with service",
+      "timestamp": "08:43"
+    },
+    {
+      "start": 524.72,
+      "duration": 3.119,
+      "text": "providers as we have a royalty model the",
+      "timestamp": "08:44"
+    },
+    {
+      "start": 527.839,
+      "duration": 3.921,
+      "text": "closer you are uh to act you know to to",
+      "timestamp": "08:47"
+    },
+    {
+      "start": 531.76,
+      "duration": 1.759,
+      "text": "the end of the value chain the higher",
+      "timestamp": "08:51"
+    },
+    {
+      "start": 533.519,
+      "duration": 2.32,
+      "text": "the ESP the better it is for us so from",
+      "timestamp": "08:53"
+    },
+    {
+      "start": 535.839,
+      "duration": 2.481,
+      "text": "a a you know business perspective a",
+      "timestamp": "08:55"
+    },
+    {
+      "start": 538.32,
+      "duration": 2.0,
+      "text": "commercial perspective that would be an",
+      "timestamp": "08:58"
+    },
+    {
+      "start": 540.32,
+      "duration": 2.72,
+      "text": "ideal customer from a problem space",
+      "timestamp": "09:00"
+    },
+    {
+      "start": 543.04,
+      "duration": 3.12,
+      "text": "perspective it's anything that any",
+      "timestamp": "09:03"
+    },
+    {
+      "start": 546.16,
+      "duration": 3.04,
+      "text": "problem that is based on a time series",
+      "timestamp": "09:06"
+    },
+    {
+      "start": 549.2,
+      "duration": 2.48,
+      "text": "um um challenge which when you look at",
+      "timestamp": "09:09"
+    },
+    {
+      "start": 551.68,
+      "duration": 2.719,
+      "text": "the embedded edge is one of the larger",
+      "timestamp": "09:11"
+    },
+    {
+      "start": 554.399,
+      "duration": 3.361,
+      "text": "spaces um that customers are um",
+      "timestamp": "09:14"
+    },
+    {
+      "start": 557.76,
+      "duration": 1.519,
+      "text": "challenged with when you think about",
+      "timestamp": "09:17"
+    },
+    {
+      "start": 559.279,
+      "duration": 2.161,
+      "text": "fraud detection you think about",
+      "timestamp": "09:19"
+    },
+    {
+      "start": 561.44,
+      "duration": 2.24,
+      "text": "predictive maintenance uh anomaly",
+      "timestamp": "09:21"
+    },
+    {
+      "start": 563.68,
+      "duration": 1.76,
+      "text": "detection these are all very similar",
+      "timestamp": "09:23"
+    },
+    {
+      "start": 565.44,
+      "duration": 2.8,
+      "text": "types of products that um they have a",
+      "timestamp": "09:25"
+    },
+    {
+      "start": 568.24,
+      "duration": 2.4,
+      "text": "very good affinity to our models can you",
+      "timestamp": "09:28"
+    },
+    {
+      "start": 570.64,
+      "duration": 1.92,
+      "text": "easily retrofit it to existing systems",
+      "timestamp": "09:30"
+    },
+    {
+      "start": 572.56,
+      "duration": 1.44,
+      "text": "where you say I have a scatter system I",
+      "timestamp": "09:32"
+    },
+    {
+      "start": 574.0,
+      "duration": 2.0,
+      "text": "dump the data and just use the model to",
+      "timestamp": "09:34"
+    },
+    {
+      "start": 576.0,
+      "duration": 1.839,
+      "text": "get insights there or it always requires",
+      "timestamp": "09:36"
+    },
+    {
+      "start": 577.839,
+      "duration": 2.481,
+      "text": "the hardware implementation\n yeah so it's",
+      "timestamp": "09:37"
+    },
+    {
+      "start": 580.32,
+      "duration": 1.28,
+      "text": "a good question so the two ways that",
+      "timestamp": "09:40"
+    },
+    {
+      "start": 581.6,
+      "duration": 2.4,
+      "text": "I'll answer this first is if you have an",
+      "timestamp": "09:41"
+    },
+    {
+      "start": 584.0,
+      "duration": 2.399,
+      "text": "existing system that doesn't have any AI",
+      "timestamp": "09:44"
+    },
+    {
+      "start": 586.399,
+      "duration": 1.681,
+      "text": "which is similar to the water utility",
+      "timestamp": "09:46"
+    },
+    {
+      "start": 588.08,
+      "duration": 2.72,
+      "text": "company you don't need to do anything to",
+      "timestamp": "09:48"
+    },
+    {
+      "start": 590.8,
+      "duration": 2.4,
+      "text": "the hardware as shown here Cordex M33",
+      "timestamp": "09:50"
+    },
+    {
+      "start": 593.2,
+      "duration": 1.759,
+      "text": "that microcontroller was an existing",
+      "timestamp": "09:53"
+    },
+    {
+      "start": 594.959,
+      "duration": 1.761,
+      "text": "hardware that was buried deep",
+      "timestamp": "09:54"
+    },
+    {
+      "start": 596.72,
+      "duration": 1.84,
+      "text": "underground and we were able to do that",
+      "timestamp": "09:56"
+    },
+    {
+      "start": 598.56,
+      "duration": 2.88,
+      "text": "or you can retrain an existing neural",
+      "timestamp": "09:58"
+    },
+    {
+      "start": 601.44,
+      "duration": 4.16,
+      "text": "network model to be logic based",
+      "timestamp": "10:01"
+    }
+  ],
+  "extraction_timestamp": "2025-06-29T21:04:35.403959",
+  "playlist_title": "SuperAI Singapore 2025: WEKA Stage"
+}

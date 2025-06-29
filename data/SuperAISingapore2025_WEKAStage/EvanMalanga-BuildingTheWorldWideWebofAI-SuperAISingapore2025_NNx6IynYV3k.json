@@ -1,0 +1,1139 @@
+{
+  "video_id": "NNx6IynYV3k",
+  "video_title": "Evan Malanga - Building The World Wide Web of AI - SuperAI Singapore 2025",
+  "video_url": "https://www.youtube.com/watch?v=NNx6IynYV3k",
+  "channel_title": "SuperAI",
+  "published_at": "2025-06-25T13:58:00+00:00",
+  "duration_seconds": null,
+  "view_count": 14,
+  "like_count": 0,
+  "description": "Learn more about SuperAI: superai.com\nFollow us on X: x.com/superai_conf\n\nKeynote: Building The World Wide Web of AI\n\nSpeaker:\nEvan Malanga, Chief Revenue Officer @ Yuma\n\nStage: WEKA Stage\n#superai #yuma #ai #ecommerce #retail \n\nRecorded on 18 June 2025",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 186,
+    "aggregated_text": "my name is Evan i'm the chief revenue officer of Yuma we're a wholly owned subsidiary of Digital Currency Group i'm coming to you all the way from New York City uh before we get into the worldwide web of AI I guess show of hands who's heard of Bit Tensor one hand awesome so two hands two hands fantastic so this is great and I hope everyone learned something today um all right so let's take a step back um every era within the crypto digital asset industry has ushered in different uh levels of innovation obviously the first one being Bitcoin but since then we started to see the altcoins emerge like Litecoin and Ripple but not too far along after that Ethereum launched ethereum brought us smart contracts which enabled us to rethink capital formation um that brought us the ICO frenzy which had a lot of successes um we learned a lot of lessons it was a bit of a wild ride but it enabled future things like DeFi it also enabled NFTTS we even saw the memecoin craze come after that but most recently we're seeing a lot more excitement around the intersection of AI and web 3 personally I think this is the next big era for crypto and could be as big if not bigger than Bitcoin so this is probably not a surprise to you but there has been record-breaking investment into the AI industry over the last uh few years but despite this record-breaking investment the benefits only flow to a small number of dominant centralized players and so that centralization poses a lot of risks right ai lacks transparency it's controlled by the gatekeepers and the next era of networks that will be built in AI belong to those that are open- source and permissionless and so we need to find a way to move from the risks of centralization to the potential and unlock that potential for decentralized AI and that's where Bit Tensor comes in so what is Bit Tensor it's a decentralized AI network that incentivized the contribution of data compute and intelligence to drive AI model training and fine-tuning it is an open platform and permissionless to build any business or application and it is powered by a native underlying cryptocurrency called Tao what's unique about Tao compared to other cryptocurrencies out there is it's very much like Bitcoin there's only 21 million tokens every four years it has there are was no venturebacked uh fundraising just like Bitcoin it was a fair launch off of a white paper and a community started to form organically around it there were no allocations to advisors the team or founders or anything like that and network participants receive token uh token distributions for their for their work at the current TOW price on an annualized basis those emissions are roughly a billion dollars a year that are up for grabs for builders and so one of the biggest critiques of Bit Tensor is that it's very very difficult to understand if you asked the two people in this room that know what it is you'd probably get two different answers and so similarly what we did with the worldwide web and how that opened up access to information we believe bit tensor will open up access to intelligence so what do I mean by this in the early 90s if you wanted to get online you really only had two choices AOL or Prodigy it wasn't until in 1994 Mark Andre launched the Netscape mosaic browser and this ushered in a Cambrian explosion of new websites businesses throughout uh the dotcom era now many of these flamed out but there's also some juggernauts that still exist today like your Google's and your Amazons but over the next 20 years these businesses eventually transformed to the tech companies we know like the Uber Netflix and Instagrams of the world and if you look back to the early 90s you have to ask yourself the question would would an Uber have ever have been possible if the internet was gatekept by two companies and so when we think about AI in 2022 we had the chat GPT moment and similarly in 2022 the bit tensor network launched since then there's over 120 different uh subnets or applications on the on the protocol and over the next decade or 20 years under the same context we have no idea what future applications can be created with this open-source technology and so let's take it a a level slightly deeper as to the network participants within Bit Tensor so there's four key network participants within the ecosystem subnets are like your competition organizers they define a problem they set the parameters for that problem and they outsource that work to miners who are like your athletes right so they go and compete to provide the intelligence or solve the problems set forth by the subnet owner and your validator are like your judges so they decide who performed the best work or the worst work and token holders or stakers the fourth one allocate their weights or incentives accordingly so you have a competition organizers you have your competitors your judges and and your token holders yuma specifically sits at the intersection of all four of these we run a subnet accelerator for new businesses trying to launch on the Bit Tensor network inhouse we run uh miners with our AI and ML team we run a validator as well and most recently uh announced an asset management business for institutional token holders uh to to navigate the ecosystem over the last 12 months this ecosystem has just exploded over two and a half times the number of subnets as well as a market cap growing from effectively zero to almost a billion dollars in roughly a 100 days so we talked about funding at the onset of this presentation let's bring it back to the funding within web 3 specifically in 2024 in the US there's roughly $ 32 billion of venture capital money deployed into web 2 AI compared to roughly $400 million into web 3 AI it's roughly 1% or on a unit basis roughly 3 to one for every uh transaction now if you introduce the Bit Tensor incentive design that changes to over four and a half 4.6 six more capital available to teams than the entire web 3 venture capital industry in 2023 2024 and that closes that unit economic basis to roughly 2.1 so I just want to really underscore how powerful the protocol has been over the last year in driving more than four times more incentives or dollars through the token to builders than the entire web 3 VC industry with that I'll conclude if you want to get in touch with us you you can follow us on Twitter to learn more you can come find me after this but I want to leave you with one critical takeaway bit Tensor is a nonsvereign global hardcap supply immutable and decentralized incentive mechanism that will drive open-source innovation i know that's a lot of words but each one of them is very critically important because few large tech giants control what could be the greatest technology in humanity and bit tensor is a permissionless alternative for the world thank you",
+    "text_length": 6860,
+    "word_count": 1237
+  },
+  "segments": [
+    {
+      "start": 7.68,
+      "duration": 1.999,
+      "text": "my name is Evan i'm the chief revenue",
+      "timestamp": "00:07"
+    },
+    {
+      "start": 9.679,
+      "duration": 2.08,
+      "text": "officer of Yuma we're a wholly owned",
+      "timestamp": "00:09"
+    },
+    {
+      "start": 11.759,
+      "duration": 2.241,
+      "text": "subsidiary of Digital Currency Group i'm",
+      "timestamp": "00:11"
+    },
+    {
+      "start": 14.0,
+      "duration": 1.759,
+      "text": "coming to you all the way from New York",
+      "timestamp": "00:14"
+    },
+    {
+      "start": 15.759,
+      "duration": 2.481,
+      "text": "City uh before we get into the worldwide",
+      "timestamp": "00:15"
+    },
+    {
+      "start": 18.24,
+      "duration": 2.16,
+      "text": "web of AI I guess show of hands who's",
+      "timestamp": "00:18"
+    },
+    {
+      "start": 20.4,
+      "duration": 2.48,
+      "text": "heard of Bit Tensor",
+      "timestamp": "00:20"
+    },
+    {
+      "start": 22.88,
+      "duration": 3.92,
+      "text": "one hand awesome so two hands two hands",
+      "timestamp": "00:22"
+    },
+    {
+      "start": 26.8,
+      "duration": 2.399,
+      "text": "fantastic so this is great and I hope",
+      "timestamp": "00:26"
+    },
+    {
+      "start": 29.199,
+      "duration": 3.121,
+      "text": "everyone learned something today um all",
+      "timestamp": "00:29"
+    },
+    {
+      "start": 32.32,
+      "duration": 4.32,
+      "text": "right so let's take a step back um",
+      "timestamp": "00:32"
+    },
+    {
+      "start": 36.64,
+      "duration": 2.88,
+      "text": "every era within the crypto digital",
+      "timestamp": "00:36"
+    },
+    {
+      "start": 39.52,
+      "duration": 3.039,
+      "text": "asset industry has ushered in different",
+      "timestamp": "00:39"
+    },
+    {
+      "start": 42.559,
+      "duration": 2.241,
+      "text": "uh levels of innovation obviously the",
+      "timestamp": "00:42"
+    },
+    {
+      "start": 44.8,
+      "duration": 2.56,
+      "text": "first one being Bitcoin but since then",
+      "timestamp": "00:44"
+    },
+    {
+      "start": 47.36,
+      "duration": 2.0,
+      "text": "we started to see the altcoins emerge",
+      "timestamp": "00:47"
+    },
+    {
+      "start": 49.36,
+      "duration": 2.64,
+      "text": "like Litecoin and Ripple but not too far",
+      "timestamp": "00:49"
+    },
+    {
+      "start": 52.0,
+      "duration": 1.84,
+      "text": "along after that Ethereum launched",
+      "timestamp": "00:52"
+    },
+    {
+      "start": 53.84,
+      "duration": 2.239,
+      "text": "ethereum brought us smart contracts",
+      "timestamp": "00:53"
+    },
+    {
+      "start": 56.079,
+      "duration": 2.16,
+      "text": "which enabled us to rethink capital",
+      "timestamp": "00:56"
+    },
+    {
+      "start": 58.239,
+      "duration": 3.441,
+      "text": "formation um that brought us the ICO",
+      "timestamp": "00:58"
+    },
+    {
+      "start": 61.68,
+      "duration": 3.04,
+      "text": "frenzy which had a lot of successes um",
+      "timestamp": "01:01"
+    },
+    {
+      "start": 64.72,
+      "duration": 1.52,
+      "text": "we learned a lot of lessons it was a bit",
+      "timestamp": "01:04"
+    },
+    {
+      "start": 66.24,
+      "duration": 2.08,
+      "text": "of a wild ride but it enabled future",
+      "timestamp": "01:06"
+    },
+    {
+      "start": 68.32,
+      "duration": 4.08,
+      "text": "things like DeFi it also enabled NFTTS",
+      "timestamp": "01:08"
+    },
+    {
+      "start": 72.4,
+      "duration": 1.92,
+      "text": "we even saw the memecoin craze come",
+      "timestamp": "01:12"
+    },
+    {
+      "start": 74.32,
+      "duration": 3.439,
+      "text": "after that but most recently we're",
+      "timestamp": "01:14"
+    },
+    {
+      "start": 77.759,
+      "duration": 1.68,
+      "text": "seeing a lot more excitement around the",
+      "timestamp": "01:17"
+    },
+    {
+      "start": 79.439,
+      "duration": 3.761,
+      "text": "intersection of AI and web 3 personally",
+      "timestamp": "01:19"
+    },
+    {
+      "start": 83.2,
+      "duration": 2.0,
+      "text": "I think this is the next big era for",
+      "timestamp": "01:23"
+    },
+    {
+      "start": 85.2,
+      "duration": 2.559,
+      "text": "crypto and could be as big if not bigger",
+      "timestamp": "01:25"
+    },
+    {
+      "start": 87.759,
+      "duration": 3.161,
+      "text": "than Bitcoin",
+      "timestamp": "01:27"
+    },
+    {
+      "start": 91.119,
+      "duration": 1.841,
+      "text": "so this is probably not a surprise to",
+      "timestamp": "01:31"
+    },
+    {
+      "start": 92.96,
+      "duration": 2.159,
+      "text": "you but there has been record-breaking",
+      "timestamp": "01:32"
+    },
+    {
+      "start": 95.119,
+      "duration": 2.241,
+      "text": "investment into the AI industry over the",
+      "timestamp": "01:35"
+    },
+    {
+      "start": 97.36,
+      "duration": 2.88,
+      "text": "last uh few years but despite this",
+      "timestamp": "01:37"
+    },
+    {
+      "start": 100.24,
+      "duration": 2.4,
+      "text": "record-breaking investment the benefits",
+      "timestamp": "01:40"
+    },
+    {
+      "start": 102.64,
+      "duration": 2.96,
+      "text": "only flow to a small number of dominant",
+      "timestamp": "01:42"
+    },
+    {
+      "start": 105.6,
+      "duration": 3.72,
+      "text": "centralized players",
+      "timestamp": "01:45"
+    },
+    {
+      "start": 111.759,
+      "duration": 2.561,
+      "text": "and so that centralization poses a lot",
+      "timestamp": "01:51"
+    },
+    {
+      "start": 114.32,
+      "duration": 4.159,
+      "text": "of risks right ai lacks transparency",
+      "timestamp": "01:54"
+    },
+    {
+      "start": 118.479,
+      "duration": 2.32,
+      "text": "it's controlled by the gatekeepers and",
+      "timestamp": "01:58"
+    },
+    {
+      "start": 120.799,
+      "duration": 2.32,
+      "text": "the next era of networks that will be",
+      "timestamp": "02:00"
+    },
+    {
+      "start": 123.119,
+      "duration": 2.32,
+      "text": "built in AI belong to those that are",
+      "timestamp": "02:03"
+    },
+    {
+      "start": 125.439,
+      "duration": 2.241,
+      "text": "open- source and permissionless and so",
+      "timestamp": "02:05"
+    },
+    {
+      "start": 127.68,
+      "duration": 1.68,
+      "text": "we need to find a way to move from the",
+      "timestamp": "02:07"
+    },
+    {
+      "start": 129.36,
+      "duration": 2.4,
+      "text": "risks of centralization to the potential",
+      "timestamp": "02:09"
+    },
+    {
+      "start": 131.76,
+      "duration": 1.44,
+      "text": "and unlock that potential for",
+      "timestamp": "02:11"
+    },
+    {
+      "start": 133.2,
+      "duration": 2.16,
+      "text": "decentralized AI and that's where Bit",
+      "timestamp": "02:13"
+    },
+    {
+      "start": 135.36,
+      "duration": 2.48,
+      "text": "Tensor comes in so what is Bit Tensor",
+      "timestamp": "02:15"
+    },
+    {
+      "start": 137.84,
+      "duration": 2.0,
+      "text": "it's a decentralized AI network that",
+      "timestamp": "02:17"
+    },
+    {
+      "start": 139.84,
+      "duration": 2.32,
+      "text": "incentivized the contribution of data",
+      "timestamp": "02:19"
+    },
+    {
+      "start": 142.16,
+      "duration": 2.96,
+      "text": "compute and intelligence to drive AI",
+      "timestamp": "02:22"
+    },
+    {
+      "start": 145.12,
+      "duration": 2.24,
+      "text": "model training and fine-tuning it is an",
+      "timestamp": "02:25"
+    },
+    {
+      "start": 147.36,
+      "duration": 2.08,
+      "text": "open platform and permissionless to",
+      "timestamp": "02:27"
+    },
+    {
+      "start": 149.44,
+      "duration": 2.64,
+      "text": "build any business or application and it",
+      "timestamp": "02:29"
+    },
+    {
+      "start": 152.08,
+      "duration": 1.68,
+      "text": "is powered by a native underlying",
+      "timestamp": "02:32"
+    },
+    {
+      "start": 153.76,
+      "duration": 2.479,
+      "text": "cryptocurrency called Tao",
+      "timestamp": "02:33"
+    },
+    {
+      "start": 156.239,
+      "duration": 1.921,
+      "text": "what's unique about Tao compared to",
+      "timestamp": "02:36"
+    },
+    {
+      "start": 158.16,
+      "duration": 2.24,
+      "text": "other cryptocurrencies out there is it's",
+      "timestamp": "02:38"
+    },
+    {
+      "start": 160.4,
+      "duration": 2.88,
+      "text": "very much like Bitcoin there's only 21",
+      "timestamp": "02:40"
+    },
+    {
+      "start": 163.28,
+      "duration": 4.239,
+      "text": "million tokens every four years it has",
+      "timestamp": "02:43"
+    },
+    {
+      "start": 167.519,
+      "duration": 3.201,
+      "text": "there are was no venturebacked uh",
+      "timestamp": "02:47"
+    },
+    {
+      "start": 170.72,
+      "duration": 2.239,
+      "text": "fundraising just like Bitcoin it was a",
+      "timestamp": "02:50"
+    },
+    {
+      "start": 172.959,
+      "duration": 2.801,
+      "text": "fair launch off of a white paper and a",
+      "timestamp": "02:52"
+    },
+    {
+      "start": 175.76,
+      "duration": 1.759,
+      "text": "community started to form organically",
+      "timestamp": "02:55"
+    },
+    {
+      "start": 177.519,
+      "duration": 2.72,
+      "text": "around it there were no allocations to",
+      "timestamp": "02:57"
+    },
+    {
+      "start": 180.239,
+      "duration": 2.401,
+      "text": "advisors the team or founders or",
+      "timestamp": "03:00"
+    },
+    {
+      "start": 182.64,
+      "duration": 2.8,
+      "text": "anything like that and network",
+      "timestamp": "03:02"
+    },
+    {
+      "start": 185.44,
+      "duration": 3.439,
+      "text": "participants receive token uh token",
+      "timestamp": "03:05"
+    },
+    {
+      "start": 188.879,
+      "duration": 2.321,
+      "text": "distributions for their for their work",
+      "timestamp": "03:08"
+    },
+    {
+      "start": 191.2,
+      "duration": 1.92,
+      "text": "at the current TOW price on an",
+      "timestamp": "03:11"
+    },
+    {
+      "start": 193.12,
+      "duration": 2.0,
+      "text": "annualized basis those emissions are",
+      "timestamp": "03:13"
+    },
+    {
+      "start": 195.12,
+      "duration": 1.68,
+      "text": "roughly a billion dollars a year that",
+      "timestamp": "03:15"
+    },
+    {
+      "start": 196.8,
+      "duration": 4.04,
+      "text": "are up for grabs for builders",
+      "timestamp": "03:16"
+    },
+    {
+      "start": 200.959,
+      "duration": 1.761,
+      "text": "and so one of the biggest critiques of",
+      "timestamp": "03:20"
+    },
+    {
+      "start": 202.72,
+      "duration": 2.32,
+      "text": "Bit Tensor is that it's very very",
+      "timestamp": "03:22"
+    },
+    {
+      "start": 205.04,
+      "duration": 3.199,
+      "text": "difficult to understand if you asked the",
+      "timestamp": "03:25"
+    },
+    {
+      "start": 208.239,
+      "duration": 1.441,
+      "text": "two people in this room that know what",
+      "timestamp": "03:28"
+    },
+    {
+      "start": 209.68,
+      "duration": 1.52,
+      "text": "it is you'd probably get two different",
+      "timestamp": "03:29"
+    },
+    {
+      "start": 211.2,
+      "duration": 3.92,
+      "text": "answers and so similarly what we did",
+      "timestamp": "03:31"
+    },
+    {
+      "start": 215.12,
+      "duration": 2.24,
+      "text": "with the worldwide web and how that",
+      "timestamp": "03:35"
+    },
+    {
+      "start": 217.36,
+      "duration": 2.239,
+      "text": "opened up access to information we",
+      "timestamp": "03:37"
+    },
+    {
+      "start": 219.599,
+      "duration": 2.401,
+      "text": "believe bit tensor will open up access",
+      "timestamp": "03:39"
+    },
+    {
+      "start": 222.0,
+      "duration": 2.08,
+      "text": "to intelligence so what do I mean by",
+      "timestamp": "03:42"
+    },
+    {
+      "start": 224.08,
+      "duration": 2.96,
+      "text": "this in the early 90s if you wanted to",
+      "timestamp": "03:44"
+    },
+    {
+      "start": 227.04,
+      "duration": 2.0,
+      "text": "get online you really only had two",
+      "timestamp": "03:47"
+    },
+    {
+      "start": 229.04,
+      "duration": 3.759,
+      "text": "choices AOL or Prodigy it wasn't until",
+      "timestamp": "03:49"
+    },
+    {
+      "start": 232.799,
+      "duration": 3.121,
+      "text": "in 1994 Mark Andre launched the Netscape",
+      "timestamp": "03:52"
+    },
+    {
+      "start": 235.92,
+      "duration": 2.64,
+      "text": "mosaic browser and this ushered in a",
+      "timestamp": "03:55"
+    },
+    {
+      "start": 238.56,
+      "duration": 3.36,
+      "text": "Cambrian explosion of new websites",
+      "timestamp": "03:58"
+    },
+    {
+      "start": 241.92,
+      "duration": 2.72,
+      "text": "businesses throughout uh the dotcom era",
+      "timestamp": "04:01"
+    },
+    {
+      "start": 244.64,
+      "duration": 2.159,
+      "text": "now many of these flamed out but there's",
+      "timestamp": "04:04"
+    },
+    {
+      "start": 246.799,
+      "duration": 1.921,
+      "text": "also some juggernauts that still exist",
+      "timestamp": "04:06"
+    },
+    {
+      "start": 248.72,
+      "duration": 2.079,
+      "text": "today like your Google's and your",
+      "timestamp": "04:08"
+    },
+    {
+      "start": 250.799,
+      "duration": 2.8,
+      "text": "Amazons but over the next 20 years these",
+      "timestamp": "04:10"
+    },
+    {
+      "start": 253.599,
+      "duration": 2.321,
+      "text": "businesses eventually transformed to the",
+      "timestamp": "04:13"
+    },
+    {
+      "start": 255.92,
+      "duration": 2.719,
+      "text": "tech companies we know like the Uber",
+      "timestamp": "04:15"
+    },
+    {
+      "start": 258.639,
+      "duration": 2.401,
+      "text": "Netflix and Instagrams of the world and",
+      "timestamp": "04:18"
+    },
+    {
+      "start": 261.04,
+      "duration": 2.8,
+      "text": "if you look back to the early 90s you",
+      "timestamp": "04:21"
+    },
+    {
+      "start": 263.84,
+      "duration": 1.76,
+      "text": "have to ask yourself the question would",
+      "timestamp": "04:23"
+    },
+    {
+      "start": 265.6,
+      "duration": 1.76,
+      "text": "would an Uber have ever have been",
+      "timestamp": "04:25"
+    },
+    {
+      "start": 267.36,
+      "duration": 2.72,
+      "text": "possible if the internet was gatekept by",
+      "timestamp": "04:27"
+    },
+    {
+      "start": 270.08,
+      "duration": 2.8,
+      "text": "two companies and so when we think about",
+      "timestamp": "04:30"
+    },
+    {
+      "start": 272.88,
+      "duration": 4.879,
+      "text": "AI in 2022 we had the chat GPT moment",
+      "timestamp": "04:32"
+    },
+    {
+      "start": 277.759,
+      "duration": 1.841,
+      "text": "and similarly",
+      "timestamp": "04:37"
+    },
+    {
+      "start": 279.6,
+      "duration": 4.08,
+      "text": "in 2022 the bit tensor network launched",
+      "timestamp": "04:39"
+    },
+    {
+      "start": 283.68,
+      "duration": 4.959,
+      "text": "since then there's over 120 different uh",
+      "timestamp": "04:43"
+    },
+    {
+      "start": 288.639,
+      "duration": 2.641,
+      "text": "subnets or applications on the on the",
+      "timestamp": "04:48"
+    },
+    {
+      "start": 291.28,
+      "duration": 4.56,
+      "text": "protocol and over the next decade or 20",
+      "timestamp": "04:51"
+    },
+    {
+      "start": 295.84,
+      "duration": 3.2,
+      "text": "years under the same context we have no",
+      "timestamp": "04:55"
+    },
+    {
+      "start": 299.04,
+      "duration": 2.719,
+      "text": "idea what future applications can be",
+      "timestamp": "04:59"
+    },
+    {
+      "start": 301.759,
+      "duration": 4.801,
+      "text": "created with this open-source technology",
+      "timestamp": "05:01"
+    },
+    {
+      "start": 306.56,
+      "duration": 2.72,
+      "text": "and so let's take it a a level slightly",
+      "timestamp": "05:06"
+    },
+    {
+      "start": 309.28,
+      "duration": 2.8,
+      "text": "deeper as to the network participants",
+      "timestamp": "05:09"
+    },
+    {
+      "start": 312.08,
+      "duration": 1.679,
+      "text": "within Bit Tensor so there's four key",
+      "timestamp": "05:12"
+    },
+    {
+      "start": 313.759,
+      "duration": 1.361,
+      "text": "network participants within the",
+      "timestamp": "05:13"
+    },
+    {
+      "start": 315.12,
+      "duration": 1.76,
+      "text": "ecosystem",
+      "timestamp": "05:15"
+    },
+    {
+      "start": 316.88,
+      "duration": 2.48,
+      "text": "subnets are like your competition",
+      "timestamp": "05:16"
+    },
+    {
+      "start": 319.36,
+      "duration": 2.8,
+      "text": "organizers they define a problem they",
+      "timestamp": "05:19"
+    },
+    {
+      "start": 322.16,
+      "duration": 2.16,
+      "text": "set the parameters for that problem and",
+      "timestamp": "05:22"
+    },
+    {
+      "start": 324.32,
+      "duration": 2.319,
+      "text": "they outsource that work to miners who",
+      "timestamp": "05:24"
+    },
+    {
+      "start": 326.639,
+      "duration": 1.921,
+      "text": "are like your athletes right so they go",
+      "timestamp": "05:26"
+    },
+    {
+      "start": 328.56,
+      "duration": 2.16,
+      "text": "and compete to provide the intelligence",
+      "timestamp": "05:28"
+    },
+    {
+      "start": 330.72,
+      "duration": 1.84,
+      "text": "or solve the problems set forth by the",
+      "timestamp": "05:30"
+    },
+    {
+      "start": 332.56,
+      "duration": 2.479,
+      "text": "subnet owner and your validator are like",
+      "timestamp": "05:32"
+    },
+    {
+      "start": 335.039,
+      "duration": 3.201,
+      "text": "your judges so they decide who performed",
+      "timestamp": "05:35"
+    },
+    {
+      "start": 338.24,
+      "duration": 2.72,
+      "text": "the best work or the worst work and",
+      "timestamp": "05:38"
+    },
+    {
+      "start": 340.96,
+      "duration": 2.799,
+      "text": "token holders or stakers the fourth one",
+      "timestamp": "05:40"
+    },
+    {
+      "start": 343.759,
+      "duration": 2.321,
+      "text": "allocate their weights or incentives",
+      "timestamp": "05:43"
+    },
+    {
+      "start": 346.08,
+      "duration": 1.52,
+      "text": "accordingly so you have a competition",
+      "timestamp": "05:46"
+    },
+    {
+      "start": 347.6,
+      "duration": 1.92,
+      "text": "organizers you have your competitors",
+      "timestamp": "05:47"
+    },
+    {
+      "start": 349.52,
+      "duration": 3.2,
+      "text": "your judges and and your token holders",
+      "timestamp": "05:49"
+    },
+    {
+      "start": 352.72,
+      "duration": 1.919,
+      "text": "yuma specifically sits at the",
+      "timestamp": "05:52"
+    },
+    {
+      "start": 354.639,
+      "duration": 1.921,
+      "text": "intersection of all four of these we run",
+      "timestamp": "05:54"
+    },
+    {
+      "start": 356.56,
+      "duration": 1.919,
+      "text": "a subnet accelerator for new businesses",
+      "timestamp": "05:56"
+    },
+    {
+      "start": 358.479,
+      "duration": 1.28,
+      "text": "trying to launch on the Bit Tensor",
+      "timestamp": "05:58"
+    },
+    {
+      "start": 359.759,
+      "duration": 2.641,
+      "text": "network inhouse we run uh miners with",
+      "timestamp": "05:59"
+    },
+    {
+      "start": 362.4,
+      "duration": 2.96,
+      "text": "our AI and ML team we run a validator as",
+      "timestamp": "06:02"
+    },
+    {
+      "start": 365.36,
+      "duration": 2.64,
+      "text": "well and most recently uh announced an",
+      "timestamp": "06:05"
+    },
+    {
+      "start": 368.0,
+      "duration": 1.28,
+      "text": "asset management business for",
+      "timestamp": "06:08"
+    },
+    {
+      "start": 369.28,
+      "duration": 2.639,
+      "text": "institutional token holders uh to to",
+      "timestamp": "06:09"
+    },
+    {
+      "start": 371.919,
+      "duration": 3.601,
+      "text": "navigate the ecosystem",
+      "timestamp": "06:11"
+    },
+    {
+      "start": 375.52,
+      "duration": 2.799,
+      "text": "over the last 12 months this ecosystem",
+      "timestamp": "06:15"
+    },
+    {
+      "start": 378.319,
+      "duration": 2.241,
+      "text": "has just exploded over two and a half",
+      "timestamp": "06:18"
+    },
+    {
+      "start": 380.56,
+      "duration": 2.88,
+      "text": "times the number of subnets as well as a",
+      "timestamp": "06:20"
+    },
+    {
+      "start": 383.44,
+      "duration": 2.72,
+      "text": "market cap growing from effectively zero",
+      "timestamp": "06:23"
+    },
+    {
+      "start": 386.16,
+      "duration": 2.24,
+      "text": "to almost a billion dollars in roughly a",
+      "timestamp": "06:26"
+    },
+    {
+      "start": 388.4,
+      "duration": 2.639,
+      "text": "100 days",
+      "timestamp": "06:28"
+    },
+    {
+      "start": 391.039,
+      "duration": 2.241,
+      "text": "so we talked about funding at the onset",
+      "timestamp": "06:31"
+    },
+    {
+      "start": 393.28,
+      "duration": 1.84,
+      "text": "of this presentation let's bring it back",
+      "timestamp": "06:33"
+    },
+    {
+      "start": 395.12,
+      "duration": 3.68,
+      "text": "to the funding within web 3 specifically",
+      "timestamp": "06:35"
+    },
+    {
+      "start": 398.8,
+      "duration": 2.8,
+      "text": "in 2024 in the US there's roughly $ 32",
+      "timestamp": "06:38"
+    },
+    {
+      "start": 401.6,
+      "duration": 1.76,
+      "text": "billion of venture capital money",
+      "timestamp": "06:41"
+    },
+    {
+      "start": 403.36,
+      "duration": 2.48,
+      "text": "deployed into web 2 AI compared to",
+      "timestamp": "06:43"
+    },
+    {
+      "start": 405.84,
+      "duration": 3.28,
+      "text": "roughly $400 million into web 3 AI it's",
+      "timestamp": "06:45"
+    },
+    {
+      "start": 409.12,
+      "duration": 3.199,
+      "text": "roughly 1% or on a unit basis roughly 3",
+      "timestamp": "06:49"
+    },
+    {
+      "start": 412.319,
+      "duration": 3.201,
+      "text": "to one for every uh transaction now if",
+      "timestamp": "06:52"
+    },
+    {
+      "start": 415.52,
+      "duration": 2.16,
+      "text": "you introduce the Bit Tensor incentive",
+      "timestamp": "06:55"
+    },
+    {
+      "start": 417.68,
+      "duration": 3.84,
+      "text": "design that changes to over four and a",
+      "timestamp": "06:57"
+    },
+    {
+      "start": 421.52,
+      "duration": 4.48,
+      "text": "half 4.6 six more capital available to",
+      "timestamp": "07:01"
+    },
+    {
+      "start": 426.0,
+      "duration": 2.56,
+      "text": "teams than the entire web 3 venture",
+      "timestamp": "07:06"
+    },
+    {
+      "start": 428.56,
+      "duration": 3.44,
+      "text": "capital industry in 2023 2024 and that",
+      "timestamp": "07:08"
+    },
+    {
+      "start": 432.0,
+      "duration": 2.16,
+      "text": "closes that unit economic basis to",
+      "timestamp": "07:12"
+    },
+    {
+      "start": 434.16,
+      "duration": 2.08,
+      "text": "roughly 2.1 so I just want to really",
+      "timestamp": "07:14"
+    },
+    {
+      "start": 436.24,
+      "duration": 2.64,
+      "text": "underscore how powerful the protocol has",
+      "timestamp": "07:16"
+    },
+    {
+      "start": 438.88,
+      "duration": 2.96,
+      "text": "been over the last year in driving more",
+      "timestamp": "07:18"
+    },
+    {
+      "start": 441.84,
+      "duration": 2.96,
+      "text": "than four times more incentives or",
+      "timestamp": "07:21"
+    },
+    {
+      "start": 444.8,
+      "duration": 2.16,
+      "text": "dollars through the token to builders",
+      "timestamp": "07:24"
+    },
+    {
+      "start": 446.96,
+      "duration": 5.04,
+      "text": "than the entire web 3 VC industry",
+      "timestamp": "07:26"
+    },
+    {
+      "start": 452.0,
+      "duration": 2.0,
+      "text": "with that",
+      "timestamp": "07:32"
+    },
+    {
+      "start": 454.0,
+      "duration": 1.68,
+      "text": "I'll conclude if you want to get in",
+      "timestamp": "07:34"
+    },
+    {
+      "start": 455.68,
+      "duration": 1.919,
+      "text": "touch with us you you can follow us on",
+      "timestamp": "07:35"
+    },
+    {
+      "start": 457.599,
+      "duration": 1.6,
+      "text": "Twitter to learn more you can come find",
+      "timestamp": "07:37"
+    },
+    {
+      "start": 459.199,
+      "duration": 1.521,
+      "text": "me after this but I want to leave you",
+      "timestamp": "07:39"
+    },
+    {
+      "start": 460.72,
+      "duration": 2.8,
+      "text": "with one critical takeaway bit Tensor is",
+      "timestamp": "07:40"
+    },
+    {
+      "start": 463.52,
+      "duration": 4.399,
+      "text": "a nonsvereign global hardcap supply",
+      "timestamp": "07:43"
+    },
+    {
+      "start": 467.919,
+      "duration": 2.56,
+      "text": "immutable and decentralized incentive",
+      "timestamp": "07:47"
+    },
+    {
+      "start": 470.479,
+      "duration": 1.921,
+      "text": "mechanism that will drive open-source",
+      "timestamp": "07:50"
+    },
+    {
+      "start": 472.4,
+      "duration": 2.16,
+      "text": "innovation i know that's a lot of words",
+      "timestamp": "07:52"
+    },
+    {
+      "start": 474.56,
+      "duration": 2.479,
+      "text": "but each one of them is very critically",
+      "timestamp": "07:54"
+    },
+    {
+      "start": 477.039,
+      "duration": 3.84,
+      "text": "important because few large tech giants",
+      "timestamp": "07:57"
+    },
+    {
+      "start": 480.879,
+      "duration": 1.44,
+      "text": "control what could be the greatest",
+      "timestamp": "08:00"
+    },
+    {
+      "start": 482.319,
+      "duration": 2.481,
+      "text": "technology in humanity and bit tensor is",
+      "timestamp": "08:02"
+    },
+    {
+      "start": 484.8,
+      "duration": 1.76,
+      "text": "a permissionless alternative for the",
+      "timestamp": "08:04"
+    },
+    {
+      "start": 486.56,
+      "duration": 3.72,
+      "text": "world thank you",
+      "timestamp": "08:06"
+    }
+  ],
+  "extraction_timestamp": "2025-06-29T21:04:35.366424",
+  "playlist_title": "SuperAI Singapore 2025: WEKA Stage"
+}

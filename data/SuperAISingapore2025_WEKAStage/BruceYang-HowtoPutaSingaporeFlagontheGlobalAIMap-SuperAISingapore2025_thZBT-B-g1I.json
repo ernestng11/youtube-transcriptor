@@ -1,0 +1,1529 @@
+{
+  "video_id": "thZBT-B-g1I",
+  "video_title": "Bruce Yang - How to Put a Singapore Flag on the Global AI Map - SuperAI Singapore 2025",
+  "video_url": "https://www.youtube.com/watch?v=thZBT-B-g1I",
+  "channel_title": "SuperAI",
+  "published_at": "2025-06-25T12:44:05+00:00",
+  "duration_seconds": null,
+  "view_count": 10,
+  "like_count": 0,
+  "description": "Learn more about SuperAI: superai.com\nFollow us on X: x.com/superai_conf\n\nKeynote: How to Put a Singapore Flag on the Global AI Map\n\nSpeaker:\nBruce Yang, Co-Founder @ Sapiens AI\n\nStage: WEKA Stage\n#superai #sapiensai #singapore #chatbots #customersupport \n\nRecorded on 19 June 2025",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 251,
+    "aggregated_text": "good afternoon everyone this is Bruce co-founder and CEO of CPS AI today we ask a very bold question how to put a Singapore flag on the global AI map and we want to position Singapore as a Southeast Asia's AI innovation hub so start with a little bit about my experience um my journey took me from UC Berkeley to HC Paris and has some broad experience at companies like Microsoft and LinkedIn after that I have been um founded my own companies including scale an application to a million level um consumer app in the in the Silicon Valley and we also built a company in China which has already reached a revenue of $10 million last year but I have I finally returned to Singapore uh for for a very important mission which is pioneering AI's innovation for the Southeast Asia next page so the entire um entire AI we have the potential to disrupt a $10 trillion business for the next three to five years and this is a very critical window um especially for this year not anything later next year or half year even even half year later and Singapore together with the Southeast Asia should not only be the spectators because AI is already the major economic driver for for the next five to 10 years in a global in a g global arena and as a startup we have very short time window if you want to compete with a big players we need to face this window this year next and our mission is starting with a contextual AI for South Asia because the the market here in the entire Southeast Asia is is quite fragmented including multicultural multilingual and multithnic a lot of users are mobile first instead of um on the PC side despite all the all the good schools from iOS from NTU the academic influence there are very few um global players and if you look at the user base there's there's huge population at countries like Indonesia there's very techsavvy population adopters from Vietnam um but altogether there's a there's a lack of very strong AS startup ecosystems so we think that this is a broken link companies like us CPS uh can take and bridge and bridge through this is also aligned with the national strategy national um AI strategy 2.0 O as Singapore want to um put put itself as a center of the AI innovation in the region we also want to in the process empower the local talent so why why this is why Singapore must need for the last five 10 years even longer Singapore has been the local hub for trade and finance and and for the for the next five 10 years we have to switch gears um countries like China and Singapore China and US are already going through the rare race of fierce AI competition because AI means a voice means a global voice means a global voice um for the region and um and Singapore is very well positioned because for it for it strong ties with both the west and east singapore can tap on the strong and more economic human resources from China singapore can also uh grab the kind of resources like GPUs from the west the foundation models so it's at a very unique position singapore can potentially be a be a be a winner in the AI arena singapore is also has a very strong AI readiness uh ranking number one number one in uh government readiness list number one in APAC number three in global air index and air number two on air air talent so there's very strong supply of talents in the region we just have to put everything together however there's also there also lies a lot of challenges for example this is a region which a lot of global global players are overlooked uh players like Open AI Google um their major markets are more holistic marks like US uh India Latin America there's there's there there's very few players in the region trying to make it u their their focus and that left a lot of opportunities to companies like us so as a local startup we want to fill the gap we want to tune our models um for the context of the region uh want to solve the problem of fragmentation of the region next so here comes our product Agnes agnes has two meanings number one is our model Agnes R1 this is a hyper local reasoning model is trained with local language local culture um and a lot of local context we'll launch our Agnes R1 um early next month agnes is also app it's a our conversational AI app you can search Agnes AI on browser app store today to try it out actually the the PowerPoint which you see today is built by our own app so it's a integrated product productivity platform you can search you can do deep research you can manage your notes um you can execute tasks for example generating a PowerPoint excels um with wi within within Agnes yeah we'll do a quick demo later by the end of this the slides um we also contribute very well to the research research field um as a as a company incubate incubated uh in the N US grid program we work very closely with top institutions like N US um so we're also we are also working on a working on a very interesting topic of optimiz optimizing inference level token usage we're able to save up to 40 to 70% of token usage while improving the accuracy of multi- aent um tasks for about 5 to 10% so this is a paper which we we're going to um put on archive and open source by the end of this month uh this is the work together um this is the work built together by CPS AI and some very reputable professors uh from AOS next page um so we work very closely with the local government and local industrial industrial partners to hopefully lower the cost of GPUs because we believe that only if we lower the cost of GPU we're able to have more adoption more access to AI and which in turn brings higher productivity and that would directly drive the drive the economic growth that means lower the cost of GPU will bring higher GP GDP growth this is a multiplier effect so understand that uh today there's a a diverse uh diverse audience group uh no matter you are policy maker or enterprises or investors we encourage you to work together with us work on a pilot or anything related to AI to for the for the rich region um we're launching enterprise for We're launching Agnes for Enterprise next next month uh which will connect with your own knowledge base your own database your own set services and we believe that by working together we have a chance to significantly boost Singapore's economy um Agnes is available today so you can search it on App Store or on the browser um and you can if you have questions about Agnes anything about our company recipients you can reach out to me with the email um with email on last page and my my my WhatsApp and also next page uh this is my WeChat LinkedIn uh before we end this session we can do a quick demo live demo of the product yeah so let's do a deep research about Southeast Asia's electric vehicle market yeah go ahead so basically this is a replay about how we can get all the informations getting um online resources from online resources and and and your own knowledge base to put a report in in a few minutes this is the sources which it it draw draw from and Agnes can also um put up very very nicely styled PowerPoint you can check out the PowerPoint slice yeah you can attach some um information from your own database and knowledge base any documents you're interested yeah and with that we can ask Agnes to to to put up PowerPoint for you it'll take some time to understand um the context write a skeleton for you for 14 pages okay let's see how how the deep research is going on the other side okay that's Can we put put to the end okay yeah can we put to the end of the deep research that's it okay okay so let's let's take a look let's see how the slides are generated basically this is a process of how we generate each of the slide page by page and uh the one which I presented just now is also also prepared by Agnes is it's able to get um you know get the images from online based on the content and select for the background generate the content um which uh which is aligned with the customer instruction yeah yeah let's see maybe one page to understand um what's the what's the magic behind it after the one page I think we we're good for the demo okay instead of generate some code we show the first page yeah you can change the style by um by you know communicate with Agnes right away or you can you can add it on the on the page by clicking onto it it's a it's a wiz style so what you see is what you get yeah so with that uh that ends my speech about how to put the Singapore flag in the global AI map thank you very much",
+    "text_length": 8487,
+    "word_count": 1625
+  },
+  "segments": [
+    {
+      "start": 7.759,
+      "duration": 2.161,
+      "text": "good afternoon everyone",
+      "timestamp": "00:07"
+    },
+    {
+      "start": 9.92,
+      "duration": 2.799,
+      "text": "this is Bruce co-founder and CEO of CPS",
+      "timestamp": "00:09"
+    },
+    {
+      "start": 12.719,
+      "duration": 4.4,
+      "text": "AI today we ask a very bold question how",
+      "timestamp": "00:12"
+    },
+    {
+      "start": 17.119,
+      "duration": 2.561,
+      "text": "to put a Singapore flag on the global AI",
+      "timestamp": "00:17"
+    },
+    {
+      "start": 19.68,
+      "duration": 3.04,
+      "text": "map and we want to position Singapore as",
+      "timestamp": "00:19"
+    },
+    {
+      "start": 22.72,
+      "duration": 5.639,
+      "text": "a Southeast Asia's AI innovation hub",
+      "timestamp": "00:22"
+    },
+    {
+      "start": 28.48,
+      "duration": 2.0,
+      "text": "so start with a little bit about my",
+      "timestamp": "00:28"
+    },
+    {
+      "start": 30.48,
+      "duration": 4.32,
+      "text": "experience um my journey took me from UC",
+      "timestamp": "00:30"
+    },
+    {
+      "start": 34.8,
+      "duration": 4.4,
+      "text": "Berkeley to HC Paris and has some broad",
+      "timestamp": "00:34"
+    },
+    {
+      "start": 39.2,
+      "duration": 2.24,
+      "text": "experience at companies like Microsoft",
+      "timestamp": "00:39"
+    },
+    {
+      "start": 41.44,
+      "duration": 2.16,
+      "text": "and LinkedIn",
+      "timestamp": "00:41"
+    },
+    {
+      "start": 43.6,
+      "duration": 2.799,
+      "text": "after that I have been um founded my own",
+      "timestamp": "00:43"
+    },
+    {
+      "start": 46.399,
+      "duration": 2.801,
+      "text": "companies including scale an application",
+      "timestamp": "00:46"
+    },
+    {
+      "start": 49.2,
+      "duration": 3.039,
+      "text": "to a million level um consumer app in",
+      "timestamp": "00:49"
+    },
+    {
+      "start": 52.239,
+      "duration": 3.441,
+      "text": "the in the Silicon Valley and we also",
+      "timestamp": "00:52"
+    },
+    {
+      "start": 55.68,
+      "duration": 2.16,
+      "text": "built a company in China which has",
+      "timestamp": "00:55"
+    },
+    {
+      "start": 57.84,
+      "duration": 2.32,
+      "text": "already reached a revenue of $10 million",
+      "timestamp": "00:57"
+    },
+    {
+      "start": 60.16,
+      "duration": 2.16,
+      "text": "last year",
+      "timestamp": "01:00"
+    },
+    {
+      "start": 62.32,
+      "duration": 1.919,
+      "text": "but I have I finally returned to",
+      "timestamp": "01:02"
+    },
+    {
+      "start": 64.239,
+      "duration": 2.56,
+      "text": "Singapore uh for for a very important",
+      "timestamp": "01:04"
+    },
+    {
+      "start": 66.799,
+      "duration": 2.721,
+      "text": "mission which is pioneering AI's",
+      "timestamp": "01:06"
+    },
+    {
+      "start": 69.52,
+      "duration": 3.2,
+      "text": "innovation for the Southeast Asia",
+      "timestamp": "01:09"
+    },
+    {
+      "start": 72.72,
+      "duration": 1.92,
+      "text": "next page",
+      "timestamp": "01:12"
+    },
+    {
+      "start": 74.64,
+      "duration": 4.799,
+      "text": "so the entire um entire AI we have the",
+      "timestamp": "01:14"
+    },
+    {
+      "start": 79.439,
+      "duration": 2.801,
+      "text": "potential to disrupt a $10 trillion",
+      "timestamp": "01:19"
+    },
+    {
+      "start": 82.24,
+      "duration": 1.84,
+      "text": "business for the next three to five",
+      "timestamp": "01:22"
+    },
+    {
+      "start": 84.08,
+      "duration": 4.079,
+      "text": "years and this is a very critical window",
+      "timestamp": "01:24"
+    },
+    {
+      "start": 88.159,
+      "duration": 3.681,
+      "text": "um especially for this year not anything",
+      "timestamp": "01:28"
+    },
+    {
+      "start": 91.84,
+      "duration": 2.239,
+      "text": "later next year or half year even even",
+      "timestamp": "01:31"
+    },
+    {
+      "start": 94.079,
+      "duration": 2.481,
+      "text": "half year later",
+      "timestamp": "01:34"
+    },
+    {
+      "start": 96.56,
+      "duration": 1.44,
+      "text": "and Singapore together with the",
+      "timestamp": "01:36"
+    },
+    {
+      "start": 98.0,
+      "duration": 2.24,
+      "text": "Southeast Asia should not only be the",
+      "timestamp": "01:38"
+    },
+    {
+      "start": 100.24,
+      "duration": 3.6,
+      "text": "spectators because AI is already the",
+      "timestamp": "01:40"
+    },
+    {
+      "start": 103.84,
+      "duration": 2.88,
+      "text": "major economic driver for for the next",
+      "timestamp": "01:43"
+    },
+    {
+      "start": 106.72,
+      "duration": 2.64,
+      "text": "five to 10 years in a global in a g",
+      "timestamp": "01:46"
+    },
+    {
+      "start": 109.36,
+      "duration": 2.079,
+      "text": "global arena",
+      "timestamp": "01:49"
+    },
+    {
+      "start": 111.439,
+      "duration": 3.201,
+      "text": "and as a startup we have very short time",
+      "timestamp": "01:51"
+    },
+    {
+      "start": 114.64,
+      "duration": 1.92,
+      "text": "window if you want to compete with a big",
+      "timestamp": "01:54"
+    },
+    {
+      "start": 116.56,
+      "duration": 2.08,
+      "text": "players we need to face this window this",
+      "timestamp": "01:56"
+    },
+    {
+      "start": 118.64,
+      "duration": 1.68,
+      "text": "year",
+      "timestamp": "01:58"
+    },
+    {
+      "start": 120.32,
+      "duration": 3.0,
+      "text": "next",
+      "timestamp": "02:00"
+    },
+    {
+      "start": 124.64,
+      "duration": 2.079,
+      "text": "and our mission is starting with a",
+      "timestamp": "02:04"
+    },
+    {
+      "start": 126.719,
+      "duration": 2.88,
+      "text": "contextual AI for South Asia because the",
+      "timestamp": "02:06"
+    },
+    {
+      "start": 129.599,
+      "duration": 2.401,
+      "text": "the market here in the entire Southeast",
+      "timestamp": "02:09"
+    },
+    {
+      "start": 132.0,
+      "duration": 3.92,
+      "text": "Asia is is quite fragmented including",
+      "timestamp": "02:12"
+    },
+    {
+      "start": 135.92,
+      "duration": 2.64,
+      "text": "multicultural multilingual and",
+      "timestamp": "02:15"
+    },
+    {
+      "start": 138.56,
+      "duration": 2.0,
+      "text": "multithnic",
+      "timestamp": "02:18"
+    },
+    {
+      "start": 140.56,
+      "duration": 3.2,
+      "text": "a lot of users are mobile first instead",
+      "timestamp": "02:20"
+    },
+    {
+      "start": 143.76,
+      "duration": 3.28,
+      "text": "of um on the PC side",
+      "timestamp": "02:23"
+    },
+    {
+      "start": 147.04,
+      "duration": 2.559,
+      "text": "despite all the all the good schools",
+      "timestamp": "02:27"
+    },
+    {
+      "start": 149.599,
+      "duration": 3.761,
+      "text": "from iOS from NTU the academic influence",
+      "timestamp": "02:29"
+    },
+    {
+      "start": 153.36,
+      "duration": 3.92,
+      "text": "there are very few um global players",
+      "timestamp": "02:33"
+    },
+    {
+      "start": 157.28,
+      "duration": 3.679,
+      "text": "and if you look at the user base there's",
+      "timestamp": "02:37"
+    },
+    {
+      "start": 160.959,
+      "duration": 2.241,
+      "text": "there's huge population at countries",
+      "timestamp": "02:40"
+    },
+    {
+      "start": 163.2,
+      "duration": 3.2,
+      "text": "like Indonesia there's very techsavvy",
+      "timestamp": "02:43"
+    },
+    {
+      "start": 166.4,
+      "duration": 3.36,
+      "text": "population adopters from Vietnam um but",
+      "timestamp": "02:46"
+    },
+    {
+      "start": 169.76,
+      "duration": 2.88,
+      "text": "altogether there's a there's a lack of",
+      "timestamp": "02:49"
+    },
+    {
+      "start": 172.64,
+      "duration": 3.679,
+      "text": "very strong AS startup ecosystems so we",
+      "timestamp": "02:52"
+    },
+    {
+      "start": 176.319,
+      "duration": 1.681,
+      "text": "think that this is a broken link",
+      "timestamp": "02:56"
+    },
+    {
+      "start": 178.0,
+      "duration": 4.48,
+      "text": "companies like us CPS uh can take and",
+      "timestamp": "02:58"
+    },
+    {
+      "start": 182.48,
+      "duration": 3.52,
+      "text": "bridge and bridge through",
+      "timestamp": "03:02"
+    },
+    {
+      "start": 186.0,
+      "duration": 2.159,
+      "text": "this is also aligned with the national",
+      "timestamp": "03:06"
+    },
+    {
+      "start": 188.159,
+      "duration": 4.481,
+      "text": "strategy national um AI strategy 2.0 O",
+      "timestamp": "03:08"
+    },
+    {
+      "start": 192.64,
+      "duration": 3.12,
+      "text": "as Singapore want to um put put itself",
+      "timestamp": "03:12"
+    },
+    {
+      "start": 195.76,
+      "duration": 2.479,
+      "text": "as a center of the AI innovation in the",
+      "timestamp": "03:15"
+    },
+    {
+      "start": 198.239,
+      "duration": 3.441,
+      "text": "region we also want to in the process",
+      "timestamp": "03:18"
+    },
+    {
+      "start": 201.68,
+      "duration": 3.96,
+      "text": "empower the local talent",
+      "timestamp": "03:21"
+    },
+    {
+      "start": 206.08,
+      "duration": 3.28,
+      "text": "so why why this is why Singapore must",
+      "timestamp": "03:26"
+    },
+    {
+      "start": 209.36,
+      "duration": 2.959,
+      "text": "need for the last five 10 years even",
+      "timestamp": "03:29"
+    },
+    {
+      "start": 212.319,
+      "duration": 2.321,
+      "text": "longer Singapore has been the local hub",
+      "timestamp": "03:32"
+    },
+    {
+      "start": 214.64,
+      "duration": 3.28,
+      "text": "for trade and finance",
+      "timestamp": "03:34"
+    },
+    {
+      "start": 217.92,
+      "duration": 3.52,
+      "text": "and and for the for the next five 10",
+      "timestamp": "03:37"
+    },
+    {
+      "start": 221.44,
+      "duration": 3.439,
+      "text": "years we have to switch gears",
+      "timestamp": "03:41"
+    },
+    {
+      "start": 224.879,
+      "duration": 2.64,
+      "text": "um countries like China and Singapore",
+      "timestamp": "03:44"
+    },
+    {
+      "start": 227.519,
+      "duration": 2.561,
+      "text": "China and US are already going through",
+      "timestamp": "03:47"
+    },
+    {
+      "start": 230.08,
+      "duration": 3.12,
+      "text": "the rare race of fierce AI competition",
+      "timestamp": "03:50"
+    },
+    {
+      "start": 233.2,
+      "duration": 3.119,
+      "text": "because AI means a voice means a global",
+      "timestamp": "03:53"
+    },
+    {
+      "start": 236.319,
+      "duration": 2.48,
+      "text": "voice means a global voice um for the",
+      "timestamp": "03:56"
+    },
+    {
+      "start": 238.799,
+      "duration": 1.841,
+      "text": "region",
+      "timestamp": "03:58"
+    },
+    {
+      "start": 240.64,
+      "duration": 3.28,
+      "text": "and um",
+      "timestamp": "04:00"
+    },
+    {
+      "start": 243.92,
+      "duration": 3.2,
+      "text": "and Singapore is very well positioned",
+      "timestamp": "04:03"
+    },
+    {
+      "start": 247.12,
+      "duration": 2.88,
+      "text": "because for it for it strong ties with",
+      "timestamp": "04:07"
+    },
+    {
+      "start": 250.0,
+      "duration": 3.12,
+      "text": "both the west and east singapore can tap",
+      "timestamp": "04:10"
+    },
+    {
+      "start": 253.12,
+      "duration": 3.2,
+      "text": "on the strong and more economic human",
+      "timestamp": "04:13"
+    },
+    {
+      "start": 256.32,
+      "duration": 2.639,
+      "text": "resources from China singapore can also",
+      "timestamp": "04:16"
+    },
+    {
+      "start": 258.959,
+      "duration": 2.721,
+      "text": "uh grab the kind of resources like GPUs",
+      "timestamp": "04:18"
+    },
+    {
+      "start": 261.68,
+      "duration": 2.88,
+      "text": "from the west the foundation models so",
+      "timestamp": "04:21"
+    },
+    {
+      "start": 264.56,
+      "duration": 2.24,
+      "text": "it's at a very unique position singapore",
+      "timestamp": "04:24"
+    },
+    {
+      "start": 266.8,
+      "duration": 2.959,
+      "text": "can potentially be a be a be a winner in",
+      "timestamp": "04:26"
+    },
+    {
+      "start": 269.759,
+      "duration": 2.961,
+      "text": "the AI arena",
+      "timestamp": "04:29"
+    },
+    {
+      "start": 272.72,
+      "duration": 3.52,
+      "text": "singapore is also has a very strong AI",
+      "timestamp": "04:32"
+    },
+    {
+      "start": 276.24,
+      "duration": 3.84,
+      "text": "readiness uh ranking number one number",
+      "timestamp": "04:36"
+    },
+    {
+      "start": 280.08,
+      "duration": 2.559,
+      "text": "one in uh government readiness list",
+      "timestamp": "04:40"
+    },
+    {
+      "start": 282.639,
+      "duration": 2.961,
+      "text": "number one in APAC number three in",
+      "timestamp": "04:42"
+    },
+    {
+      "start": 285.6,
+      "duration": 2.319,
+      "text": "global air index and air number two on",
+      "timestamp": "04:45"
+    },
+    {
+      "start": 287.919,
+      "duration": 2.961,
+      "text": "air air talent so there's very strong",
+      "timestamp": "04:47"
+    },
+    {
+      "start": 290.88,
+      "duration": 2.48,
+      "text": "supply of talents in the region we just",
+      "timestamp": "04:50"
+    },
+    {
+      "start": 293.36,
+      "duration": 3.72,
+      "text": "have to put everything together",
+      "timestamp": "04:53"
+    },
+    {
+      "start": 297.199,
+      "duration": 3.121,
+      "text": "however there's also there also lies a",
+      "timestamp": "04:57"
+    },
+    {
+      "start": 300.32,
+      "duration": 3.28,
+      "text": "lot of challenges for example this is a",
+      "timestamp": "05:00"
+    },
+    {
+      "start": 303.6,
+      "duration": 2.72,
+      "text": "region which a lot of global global",
+      "timestamp": "05:03"
+    },
+    {
+      "start": 306.32,
+      "duration": 1.2,
+      "text": "players",
+      "timestamp": "05:06"
+    },
+    {
+      "start": 307.52,
+      "duration": 2.64,
+      "text": "are overlooked",
+      "timestamp": "05:07"
+    },
+    {
+      "start": 310.16,
+      "duration": 4.319,
+      "text": "uh players like Open AI Google um their",
+      "timestamp": "05:10"
+    },
+    {
+      "start": 314.479,
+      "duration": 2.081,
+      "text": "major markets are more holistic marks",
+      "timestamp": "05:14"
+    },
+    {
+      "start": 316.56,
+      "duration": 5.28,
+      "text": "like US uh India Latin America",
+      "timestamp": "05:16"
+    },
+    {
+      "start": 321.84,
+      "duration": 1.84,
+      "text": "there's",
+      "timestamp": "05:21"
+    },
+    {
+      "start": 323.68,
+      "duration": 2.079,
+      "text": "there's there there's very few players",
+      "timestamp": "05:23"
+    },
+    {
+      "start": 325.759,
+      "duration": 2.801,
+      "text": "in the region trying to make it u their",
+      "timestamp": "05:25"
+    },
+    {
+      "start": 328.56,
+      "duration": 2.4,
+      "text": "their focus and that left a lot of",
+      "timestamp": "05:28"
+    },
+    {
+      "start": 330.96,
+      "duration": 3.36,
+      "text": "opportunities to companies like us",
+      "timestamp": "05:30"
+    },
+    {
+      "start": 334.32,
+      "duration": 2.4,
+      "text": "so as a local startup we want to fill",
+      "timestamp": "05:34"
+    },
+    {
+      "start": 336.72,
+      "duration": 3.6,
+      "text": "the gap we want to tune our models um",
+      "timestamp": "05:36"
+    },
+    {
+      "start": 340.32,
+      "duration": 2.64,
+      "text": "for the context of the region uh want to",
+      "timestamp": "05:40"
+    },
+    {
+      "start": 342.96,
+      "duration": 2.4,
+      "text": "solve the problem of fragmentation of",
+      "timestamp": "05:42"
+    },
+    {
+      "start": 345.36,
+      "duration": 2.559,
+      "text": "the region",
+      "timestamp": "05:45"
+    },
+    {
+      "start": 347.919,
+      "duration": 2.0,
+      "text": "next",
+      "timestamp": "05:47"
+    },
+    {
+      "start": 349.919,
+      "duration": 5.441,
+      "text": "so here comes our product Agnes agnes",
+      "timestamp": "05:49"
+    },
+    {
+      "start": 355.36,
+      "duration": 2.96,
+      "text": "has two meanings number one is our model",
+      "timestamp": "05:55"
+    },
+    {
+      "start": 358.32,
+      "duration": 3.68,
+      "text": "Agnes R1 this is a hyper local reasoning",
+      "timestamp": "05:58"
+    },
+    {
+      "start": 362.0,
+      "duration": 1.6,
+      "text": "model",
+      "timestamp": "06:02"
+    },
+    {
+      "start": 363.6,
+      "duration": 2.64,
+      "text": "is trained with local language local",
+      "timestamp": "06:03"
+    },
+    {
+      "start": 366.24,
+      "duration": 6.079,
+      "text": "culture um and a lot of local context",
+      "timestamp": "06:06"
+    },
+    {
+      "start": 372.319,
+      "duration": 2.801,
+      "text": "we'll launch our Agnes R1 um early next",
+      "timestamp": "06:12"
+    },
+    {
+      "start": 375.12,
+      "duration": 3.919,
+      "text": "month agnes is also app it's a our",
+      "timestamp": "06:15"
+    },
+    {
+      "start": 379.039,
+      "duration": 2.72,
+      "text": "conversational AI app you can search",
+      "timestamp": "06:19"
+    },
+    {
+      "start": 381.759,
+      "duration": 3.681,
+      "text": "Agnes AI on browser app store today to",
+      "timestamp": "06:21"
+    },
+    {
+      "start": 385.44,
+      "duration": 2.64,
+      "text": "try it out actually the the PowerPoint",
+      "timestamp": "06:25"
+    },
+    {
+      "start": 388.08,
+      "duration": 2.16,
+      "text": "which you see today is built by our own",
+      "timestamp": "06:28"
+    },
+    {
+      "start": 390.24,
+      "duration": 3.92,
+      "text": "app so it's a integrated product",
+      "timestamp": "06:30"
+    },
+    {
+      "start": 394.16,
+      "duration": 3.039,
+      "text": "productivity platform you can search you",
+      "timestamp": "06:34"
+    },
+    {
+      "start": 397.199,
+      "duration": 1.84,
+      "text": "can do deep research you can manage your",
+      "timestamp": "06:37"
+    },
+    {
+      "start": 399.039,
+      "duration": 4.561,
+      "text": "notes um you can execute tasks for",
+      "timestamp": "06:39"
+    },
+    {
+      "start": 403.6,
+      "duration": 3.36,
+      "text": "example generating a PowerPoint excels",
+      "timestamp": "06:43"
+    },
+    {
+      "start": 406.96,
+      "duration": 5.239,
+      "text": "um with wi within within Agnes",
+      "timestamp": "06:46"
+    },
+    {
+      "start": 412.24,
+      "duration": 1.6,
+      "text": "yeah",
+      "timestamp": "06:52"
+    },
+    {
+      "start": 413.84,
+      "duration": 1.76,
+      "text": "we'll do a quick demo later by the end",
+      "timestamp": "06:53"
+    },
+    {
+      "start": 415.6,
+      "duration": 3.52,
+      "text": "of this the slides um",
+      "timestamp": "06:55"
+    },
+    {
+      "start": 419.12,
+      "duration": 2.4,
+      "text": "we also contribute very well to the",
+      "timestamp": "06:59"
+    },
+    {
+      "start": 421.52,
+      "duration": 4.88,
+      "text": "research research field um as a as a",
+      "timestamp": "07:01"
+    },
+    {
+      "start": 426.4,
+      "duration": 2.16,
+      "text": "company incubate",
+      "timestamp": "07:06"
+    },
+    {
+      "start": 428.56,
+      "duration": 3.359,
+      "text": "incubated uh in the N US grid program we",
+      "timestamp": "07:08"
+    },
+    {
+      "start": 431.919,
+      "duration": 2.0,
+      "text": "work very closely with top institutions",
+      "timestamp": "07:11"
+    },
+    {
+      "start": 433.919,
+      "duration": 5.441,
+      "text": "like N US um so we're also we are also",
+      "timestamp": "07:13"
+    },
+    {
+      "start": 439.36,
+      "duration": 2.88,
+      "text": "working on a working on a very",
+      "timestamp": "07:19"
+    },
+    {
+      "start": 442.24,
+      "duration": 3.04,
+      "text": "interesting topic of optimiz optimizing",
+      "timestamp": "07:22"
+    },
+    {
+      "start": 445.28,
+      "duration": 2.56,
+      "text": "inference level token usage we're able",
+      "timestamp": "07:25"
+    },
+    {
+      "start": 447.84,
+      "duration": 3.6,
+      "text": "to save up to 40 to 70% of token usage",
+      "timestamp": "07:27"
+    },
+    {
+      "start": 451.44,
+      "duration": 2.64,
+      "text": "while improving the accuracy of multi-",
+      "timestamp": "07:31"
+    },
+    {
+      "start": 454.08,
+      "duration": 4.64,
+      "text": "aent um tasks for about 5 to 10%",
+      "timestamp": "07:34"
+    },
+    {
+      "start": 458.72,
+      "duration": 2.0,
+      "text": "so this is a paper which we we're going",
+      "timestamp": "07:38"
+    },
+    {
+      "start": 460.72,
+      "duration": 3.199,
+      "text": "to um put on archive and open source by",
+      "timestamp": "07:40"
+    },
+    {
+      "start": 463.919,
+      "duration": 1.761,
+      "text": "the end of this month uh this is the",
+      "timestamp": "07:43"
+    },
+    {
+      "start": 465.68,
+      "duration": 3.519,
+      "text": "work together um this is the work built",
+      "timestamp": "07:45"
+    },
+    {
+      "start": 469.199,
+      "duration": 3.201,
+      "text": "together by CPS AI and some very",
+      "timestamp": "07:49"
+    },
+    {
+      "start": 472.4,
+      "duration": 3.359,
+      "text": "reputable professors uh from AOS next",
+      "timestamp": "07:52"
+    },
+    {
+      "start": 475.759,
+      "duration": 2.641,
+      "text": "page",
+      "timestamp": "07:55"
+    },
+    {
+      "start": 478.4,
+      "duration": 3.919,
+      "text": "um so we work very closely with the",
+      "timestamp": "07:58"
+    },
+    {
+      "start": 482.319,
+      "duration": 2.801,
+      "text": "local government and local industrial",
+      "timestamp": "08:02"
+    },
+    {
+      "start": 485.12,
+      "duration": 3.04,
+      "text": "industrial partners to hopefully lower",
+      "timestamp": "08:05"
+    },
+    {
+      "start": 488.16,
+      "duration": 4.0,
+      "text": "the cost of GPUs because we believe that",
+      "timestamp": "08:08"
+    },
+    {
+      "start": 492.16,
+      "duration": 2.4,
+      "text": "only if we lower the cost of GPU we're",
+      "timestamp": "08:12"
+    },
+    {
+      "start": 494.56,
+      "duration": 2.8,
+      "text": "able to have more adoption more access",
+      "timestamp": "08:14"
+    },
+    {
+      "start": 497.36,
+      "duration": 3.04,
+      "text": "to AI and which in turn brings higher",
+      "timestamp": "08:17"
+    },
+    {
+      "start": 500.4,
+      "duration": 4.16,
+      "text": "productivity and that would directly",
+      "timestamp": "08:20"
+    },
+    {
+      "start": 504.56,
+      "duration": 2.8,
+      "text": "drive the drive the economic growth that",
+      "timestamp": "08:24"
+    },
+    {
+      "start": 507.36,
+      "duration": 2.08,
+      "text": "means lower the cost of GPU will bring",
+      "timestamp": "08:27"
+    },
+    {
+      "start": 509.44,
+      "duration": 3.039,
+      "text": "higher GP GDP growth this is a",
+      "timestamp": "08:29"
+    },
+    {
+      "start": 512.479,
+      "duration": 3.039,
+      "text": "multiplier effect",
+      "timestamp": "08:32"
+    },
+    {
+      "start": 515.519,
+      "duration": 3.2,
+      "text": "so understand that uh today there's a a",
+      "timestamp": "08:35"
+    },
+    {
+      "start": 518.719,
+      "duration": 3.521,
+      "text": "diverse uh diverse audience group uh no",
+      "timestamp": "08:38"
+    },
+    {
+      "start": 522.24,
+      "duration": 1.76,
+      "text": "matter you are policy maker or",
+      "timestamp": "08:42"
+    },
+    {
+      "start": 524.0,
+      "duration": 2.8,
+      "text": "enterprises or investors we encourage",
+      "timestamp": "08:44"
+    },
+    {
+      "start": 526.8,
+      "duration": 2.159,
+      "text": "you to work together with us work on a",
+      "timestamp": "08:46"
+    },
+    {
+      "start": 528.959,
+      "duration": 3.281,
+      "text": "pilot or anything related to AI to for",
+      "timestamp": "08:48"
+    },
+    {
+      "start": 532.24,
+      "duration": 3.44,
+      "text": "the for the rich region um we're",
+      "timestamp": "08:52"
+    },
+    {
+      "start": 535.68,
+      "duration": 2.24,
+      "text": "launching enterprise for We're launching",
+      "timestamp": "08:55"
+    },
+    {
+      "start": 537.92,
+      "duration": 2.72,
+      "text": "Agnes for Enterprise next next month uh",
+      "timestamp": "08:57"
+    },
+    {
+      "start": 540.64,
+      "duration": 1.6,
+      "text": "which will connect with your own",
+      "timestamp": "09:00"
+    },
+    {
+      "start": 542.24,
+      "duration": 2.0,
+      "text": "knowledge base your own database your",
+      "timestamp": "09:02"
+    },
+    {
+      "start": 544.24,
+      "duration": 2.88,
+      "text": "own set services and we believe that by",
+      "timestamp": "09:04"
+    },
+    {
+      "start": 547.12,
+      "duration": 2.8,
+      "text": "working together we have a chance to",
+      "timestamp": "09:07"
+    },
+    {
+      "start": 549.92,
+      "duration": 5.479,
+      "text": "significantly boost Singapore's economy",
+      "timestamp": "09:09"
+    },
+    {
+      "start": 556.8,
+      "duration": 3.84,
+      "text": "um Agnes is available today so you can",
+      "timestamp": "09:16"
+    },
+    {
+      "start": 560.64,
+      "duration": 3.199,
+      "text": "search it on App Store or on the browser",
+      "timestamp": "09:20"
+    },
+    {
+      "start": 563.839,
+      "duration": 2.961,
+      "text": "um and you can if you have questions",
+      "timestamp": "09:23"
+    },
+    {
+      "start": 566.8,
+      "duration": 2.56,
+      "text": "about Agnes anything about our company",
+      "timestamp": "09:26"
+    },
+    {
+      "start": 569.36,
+      "duration": 1.919,
+      "text": "recipients you can reach out to me with",
+      "timestamp": "09:29"
+    },
+    {
+      "start": 571.279,
+      "duration": 4.401,
+      "text": "the email um with email on last page and",
+      "timestamp": "09:31"
+    },
+    {
+      "start": 575.68,
+      "duration": 5.2,
+      "text": "my my my WhatsApp and also next page uh",
+      "timestamp": "09:35"
+    },
+    {
+      "start": 580.88,
+      "duration": 3.92,
+      "text": "this is my WeChat LinkedIn uh before we",
+      "timestamp": "09:40"
+    },
+    {
+      "start": 584.8,
+      "duration": 2.4,
+      "text": "end this session we can do a quick demo",
+      "timestamp": "09:44"
+    },
+    {
+      "start": 587.2,
+      "duration": 4.8,
+      "text": "live demo of the product yeah so let's",
+      "timestamp": "09:47"
+    },
+    {
+      "start": 592.0,
+      "duration": 2.72,
+      "text": "do a deep research about Southeast",
+      "timestamp": "09:52"
+    },
+    {
+      "start": 594.72,
+      "duration": 3.44,
+      "text": "Asia's electric vehicle market yeah go",
+      "timestamp": "09:54"
+    },
+    {
+      "start": 598.16,
+      "duration": 2.16,
+      "text": "ahead",
+      "timestamp": "09:58"
+    },
+    {
+      "start": 600.32,
+      "duration": 2.639,
+      "text": "so basically this is a replay about how",
+      "timestamp": "10:00"
+    },
+    {
+      "start": 602.959,
+      "duration": 2.801,
+      "text": "we can get all the informations getting",
+      "timestamp": "10:02"
+    },
+    {
+      "start": 605.76,
+      "duration": 2.0,
+      "text": "um online resources from online",
+      "timestamp": "10:05"
+    },
+    {
+      "start": 607.76,
+      "duration": 1.68,
+      "text": "resources and and and your own knowledge",
+      "timestamp": "10:07"
+    },
+    {
+      "start": 609.44,
+      "duration": 5.0,
+      "text": "base to put a report in in a few minutes",
+      "timestamp": "10:09"
+    },
+    {
+      "start": 615.36,
+      "duration": 2.64,
+      "text": "this is the sources which it it draw",
+      "timestamp": "10:15"
+    },
+    {
+      "start": 618.0,
+      "duration": 3.2,
+      "text": "draw from and Agnes can also um put up",
+      "timestamp": "10:18"
+    },
+    {
+      "start": 621.2,
+      "duration": 2.56,
+      "text": "very very nicely styled PowerPoint you",
+      "timestamp": "10:21"
+    },
+    {
+      "start": 623.76,
+      "duration": 4.84,
+      "text": "can check out the PowerPoint slice yeah",
+      "timestamp": "10:23"
+    },
+    {
+      "start": 629.12,
+      "duration": 2.24,
+      "text": "you can attach",
+      "timestamp": "10:29"
+    },
+    {
+      "start": 631.36,
+      "duration": 2.32,
+      "text": "some um information from your own",
+      "timestamp": "10:31"
+    },
+    {
+      "start": 633.68,
+      "duration": 2.32,
+      "text": "database and knowledge base any",
+      "timestamp": "10:33"
+    },
+    {
+      "start": 636.0,
+      "duration": 3.2,
+      "text": "documents you're interested",
+      "timestamp": "10:36"
+    },
+    {
+      "start": 639.2,
+      "duration": 3.0,
+      "text": "yeah",
+      "timestamp": "10:39"
+    },
+    {
+      "start": 643.76,
+      "duration": 4.4,
+      "text": "and with that we can ask Agnes to to to",
+      "timestamp": "10:43"
+    },
+    {
+      "start": 648.16,
+      "duration": 3.96,
+      "text": "put up PowerPoint for you",
+      "timestamp": "10:48"
+    },
+    {
+      "start": 656.56,
+      "duration": 3.36,
+      "text": "it'll take some time to understand um",
+      "timestamp": "10:56"
+    },
+    {
+      "start": 659.92,
+      "duration": 2.0,
+      "text": "the context",
+      "timestamp": "10:59"
+    },
+    {
+      "start": 661.92,
+      "duration": 4.12,
+      "text": "write a skeleton for you",
+      "timestamp": "11:01"
+    },
+    {
+      "start": 666.16,
+      "duration": 3.56,
+      "text": "for 14 pages",
+      "timestamp": "11:06"
+    },
+    {
+      "start": 672.88,
+      "duration": 3.0,
+      "text": "okay",
+      "timestamp": "11:12"
+    },
+    {
+      "start": 676.079,
+      "duration": 2.241,
+      "text": "let's see how how the deep research is",
+      "timestamp": "11:16"
+    },
+    {
+      "start": 678.32,
+      "duration": 4.04,
+      "text": "going on the other side",
+      "timestamp": "11:18"
+    },
+    {
+      "start": 685.2,
+      "duration": 3.759,
+      "text": "okay that's Can we put put to the end",
+      "timestamp": "11:25"
+    },
+    {
+      "start": 688.959,
+      "duration": 3.0,
+      "text": "okay",
+      "timestamp": "11:28"
+    },
+    {
+      "start": 692.8,
+      "duration": 1.92,
+      "text": "yeah",
+      "timestamp": "11:32"
+    },
+    {
+      "start": 694.72,
+      "duration": 1.6,
+      "text": "can we put to the end of the deep",
+      "timestamp": "11:34"
+    },
+    {
+      "start": 696.32,
+      "duration": 3.0,
+      "text": "research",
+      "timestamp": "11:36"
+    },
+    {
+      "start": 699.68,
+      "duration": 3.2,
+      "text": "that's it",
+      "timestamp": "11:39"
+    },
+    {
+      "start": 702.88,
+      "duration": 2.24,
+      "text": "okay okay so let's let's take a look",
+      "timestamp": "11:42"
+    },
+    {
+      "start": 705.12,
+      "duration": 3.44,
+      "text": "let's see how the slides are generated",
+      "timestamp": "11:45"
+    },
+    {
+      "start": 708.56,
+      "duration": 2.0,
+      "text": "basically this is a process of how we",
+      "timestamp": "11:48"
+    },
+    {
+      "start": 710.56,
+      "duration": 2.32,
+      "text": "generate each of the slide page by page",
+      "timestamp": "11:50"
+    },
+    {
+      "start": 712.88,
+      "duration": 1.92,
+      "text": "and uh the one which I presented just",
+      "timestamp": "11:52"
+    },
+    {
+      "start": 714.8,
+      "duration": 3.279,
+      "text": "now is also also prepared by Agnes is",
+      "timestamp": "11:54"
+    },
+    {
+      "start": 718.079,
+      "duration": 2.721,
+      "text": "it's able to get um you know get the",
+      "timestamp": "11:58"
+    },
+    {
+      "start": 720.8,
+      "duration": 2.88,
+      "text": "images from online based on the content",
+      "timestamp": "12:00"
+    },
+    {
+      "start": 723.68,
+      "duration": 2.24,
+      "text": "and select for the background generate",
+      "timestamp": "12:03"
+    },
+    {
+      "start": 725.92,
+      "duration": 3.44,
+      "text": "the content um which uh which is aligned",
+      "timestamp": "12:05"
+    },
+    {
+      "start": 729.36,
+      "duration": 5.24,
+      "text": "with the customer instruction yeah",
+      "timestamp": "12:09"
+    },
+    {
+      "start": 741.6,
+      "duration": 2.08,
+      "text": "yeah let's see maybe one page to",
+      "timestamp": "12:21"
+    },
+    {
+      "start": 743.68,
+      "duration": 2.159,
+      "text": "understand um what's the what's the",
+      "timestamp": "12:23"
+    },
+    {
+      "start": 745.839,
+      "duration": 2.721,
+      "text": "magic behind it after",
+      "timestamp": "12:25"
+    },
+    {
+      "start": 748.56,
+      "duration": 1.839,
+      "text": "the one page I think we we're good for",
+      "timestamp": "12:28"
+    },
+    {
+      "start": 750.399,
+      "duration": 3.161,
+      "text": "the demo",
+      "timestamp": "12:30"
+    },
+    {
+      "start": 757.36,
+      "duration": 3.2,
+      "text": "okay instead of generate some code",
+      "timestamp": "12:37"
+    },
+    {
+      "start": 760.56,
+      "duration": 2.88,
+      "text": "we show the first page yeah you can",
+      "timestamp": "12:40"
+    },
+    {
+      "start": 763.44,
+      "duration": 4.16,
+      "text": "change the style by um by you know",
+      "timestamp": "12:43"
+    },
+    {
+      "start": 767.6,
+      "duration": 2.08,
+      "text": "communicate with Agnes right away or you",
+      "timestamp": "12:47"
+    },
+    {
+      "start": 769.68,
+      "duration": 2.719,
+      "text": "can you can add it on the on the page by",
+      "timestamp": "12:49"
+    },
+    {
+      "start": 772.399,
+      "duration": 3.201,
+      "text": "clicking onto it it's a it's a wiz style",
+      "timestamp": "12:52"
+    },
+    {
+      "start": 775.6,
+      "duration": 4.919,
+      "text": "so what you see is what you get yeah",
+      "timestamp": "12:55"
+    },
+    {
+      "start": 783.519,
+      "duration": 2.721,
+      "text": "so with that uh that ends my speech",
+      "timestamp": "13:03"
+    },
+    {
+      "start": 786.24,
+      "duration": 2.48,
+      "text": "about how to put the Singapore flag in",
+      "timestamp": "13:06"
+    },
+    {
+      "start": 788.72,
+      "duration": 5.479,
+      "text": "the global AI map thank you very much",
+      "timestamp": "13:08"
+    }
+  ],
+  "extraction_timestamp": "2025-06-29T21:04:35.417247",
+  "playlist_title": "SuperAI Singapore 2025: WEKA Stage"
+}

@@ -1,0 +1,2339 @@
+{
+  "video_id": "YqAjdamSgns",
+  "video_title": "Ravi Rajalingam - Your AI Deserves Better Data - SuperAI Singapore 2025",
+  "video_url": "https://www.youtube.com/watch?v=YqAjdamSgns",
+  "channel_title": "SuperAI",
+  "published_at": "2025-06-25T13:53:22+00:00",
+  "duration_seconds": null,
+  "view_count": 7,
+  "like_count": 0,
+  "description": "Learn more about SuperAI: superai.com\nFollow us on X: x.com/superai_conf\n\nKeynote: Your AI Deserves Better Data\n\nSpeaker:\nRavi Rajalingam, Co-Founder and CEO @ Objectways Technologies\n\nStage: WEKA Stage\n#superai #objectways #aidata #datalabeling #datamanagement \n\nRecorded on 19 June 2025",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 386,
+    "aggregated_text": "hello everyone Um thank you so much for attending our session Um I'm going to talk about why your AI deserves a better data and uh um like we are object based uh started like 5 years ago We are a social impact data labeling company data annotation company focusing mainly with respect to anything with respect to uh computer vision models to generative AI to any NLP solutions So we are in the midst of a AI revolution right like there's been a model introduced every week better performance the models are like like throughput is better like there is the latencies are like lowering every week but in spite of that when the model gets deployed in production like many times often times the model fails like it's because like not mostly because it's the data is not right Many AI model fails today not because of the algorithm not because of the way it's been trained It's only because of the poor data quality So often times like you know when you introduce biased and noisy data set into your uh alga into your model training your output is also going to be bad Um if data is going to be the new oil why would you feed a model with crude instead of like you know clean data right So working in this industry for over like um five years um we identify what are the few things that keep um degrading the model performance First one is ambiguity So what does it mean Let's say that like you are training a self-driving car and if two annotators are annotating the data differently One calls it as let's say as a debrief the second person calls that as uh something else like which one is right The model cannot like automatically predict what it doesn't see So ambiguity is one of the main thing like when it comes to weak predictions The other thing is assumptions right Like um we have been reached out by a customer asked us to collect 3,000 something audios from 3,000 different demographic but they want the audio quality to be as good as recorded in a studio But when we asked them about like how is this model going to be used we were told that this model is going to be used to train the like basically like they create a vacuum cleaner They want to understand like you know the voices and then react accordingly But if you are going to record the whole thing in a record st in a in a studio when it comes to the real world this model is definitely going to fail So once we explain to them and like you know what all the key features about like how we need to change this we have to go back and like you know redo the whole whole data collection process And the third one is like you know the artifacts If you are like let's say that like you are using the same camera and then it if you are capturing the data sets let's say that like you know I wanted to identify um like specific objects but if the cameras are like recording in a very specific unit direction and then like if it is also done using daylight and if the model is getting deployed at a night time this model is definitely going to fail right that is one of the key factors with respect to So you need the real world data for the models to perform like during the training itself The final thing is the missing data often times that like the missing edge cases right like you always want to cover every use cases that you wanted to like the model to handle Model will never learn the things that it doesn't see Models are not super smart It always mimics what it sees on the market So what does it mean right AI doesn't learn what you think it learns from what you see especially this is very very true for computer vision models so that's the reason like you capture all edge cases like take from different directions like many different cameras and that's exactly what the model like learns from and again quality and diversity of the data is very very important so when it comes to data collection kind of use cases like typically we recommend customers to collect data from so for this uh use cases that I was talking about the customer wants data from like anywhere age group between like 15 to like 50 but unfortunately but if you look into it like this model is going to be used for like all sort of age groups so we have to go back and collect data from like all diversity standpoint point So quality in and diversity are not no longer like non they are not like negotiable They need to be there And finally when you are training the model most of the time poor data results in hallucination bias and poor generalization For example like we have been asked to collect and train like help with help to train a model and most of the data sets that we have collected is all from the European countries But when we ask like where the model will be deployed it says like it will be used both US as well as in the Europe So it doesn't make sense So we went back to the customer talked about it like you know redo the whole thing and then we have to collect from all like multiple locations So what do we do Like you know we are a 2,200 employee company started as a 20 people uh workforce like back in 2020 as a social impact project out of a small second tier city in South India Um today we are at 2,200 global workforces across multiple continents Also like you know during this process we have like you know acquired a lot of domain specific domain trained annotators Why is this important They are no longer like they are not a gig workers Why mechanical turk and other things are not providing the quality that you wanted right Domain specific domain knowledge annotators are the most important uh missing piece on the puzzle to make the data like to make the model work better Also most of the companies are very hesitant to like provide this data outside So like these annotators are like sitting in a clean room They where they were not having like access to download or take screenshots of any of the data So that way the data is very much protected We are a sock type 2 compliant facility also We have like GDPR and TPN certification as well So why TPN right like uh so we work with lot of media companies where we get to see the content of the videos before it being like launched to the general audience So these data needs to be super secure and we also wanted to make sure that like you know the proper annotation has been done on this data So TPN go certify like you know ensures that like you know these data are completely secure and it is like uh handled by the right people And finally tooling support We have multimodel support like we have been in the industry for almost 5 years now Work with um bigger um LAR companies where we provide we annotate almost 10,000 frames a week which is almost like 600 to 700 annotators working on a day in day out Um and very specifically we also focus on generative AI and medical uh use cases as well So from the company milestones like we are like five plus years in business over 100 uh right now it's more than 200 plus customers and one of the good thing is like we have been growing over 100% year on year like I said like started as a 20 people and today we are a 2,200 employee company u within a span of four years which talks about like the quality is why is it important why the companies are leaning towards the model and we are almost like like created more than 500 million labels across like variety of use cases inclusive from like um generative AI to any computer vision related models So why object ways um we are platform agnostics like there's been a lot of uh talk over the last few days uh about meta being acquiring uh scale.ai AI in this like market right like you know this is like this is where like there is a company that needs to be like platform agnostic so which can lead to like any platform can be used there is a reason behind it there are like certain tools perform really well towards certain models right and it when it comes to segmentation and whatnot there are very specific tools that performs like better than other tools when it comes to LAR there are like very specific tools That's the reason we decided to be a holistic multiplatform team rather than sticking with one platform Although we have our own platform that is very specific for companies when they need that like they wanted have a clean they wanted to have an air gap solution that's when we have our own platform deployed in the customer side We also provide an end-to-end solutions when it comes to data like if you don't have the data company reach out to us and ask for data collections any sort of data so we provide them with like you know image data text data any sort of data that available in the market today also like you know our annotation teams are like pretty like we don't require anybody with a long-term contract there is a very specific reason as well for that because these projects changes like quite often teams started working on something and eventually they move into a different direction and want to have a very different models to be created So the team needs to be very flexible ready to like adher to changes and that's exactly what we are working on this and finally we also have a very like wide variety of expertise when it comes to like multimodel expertise today most of the companies are focusing towards not just with one data you have the data that's coming in both like audio video the annotation needs to be done on both the things at the same time so what are all the areas that we focus Today like today we have like data annotation anything with respect to computer vision NLP generative AI like audio video and data collection side as well on the same thing and finally the content moderations as well So this is one of the case study I want to talk about So with everybody is creating a large language model at this point There is this company that we have been working with them for almost like four years now They wanted to create a large language model They have a large amount of data sets with respect to the medical data And when this initially this data was like annotated by the team who are not domain experts which leads to almost 12% of hallucination So when they reached out to us like we started focusing on reanotating the whole data with domain specific experts We have radiologists on the like on the on the payroll we have like people who are like very focused on understanding um the the nitty-gritty things of um healthcare related data So we reanotate the whole data fine-tune the data set again which uh reduced from 12% to 2% um which also leads to more adoption for the customer So this is another use case even though we work on a very wide variety of computer vision uh use cases The one of the use cases like this is a self basically this is for a retail customer We have been capturing the data and then when we looked into the data we found out there are like many upcluded like low light cases were missing which leads to like you know identify why the model is not performing as good as it should be So we asked them to go back and then like collect mostly very specific to edge cases low light cases like different angles We did the whole thing recollected the whole data and then like immediately the accuracy went from 78 to 95% So how we work today So when we started this initiative like you know when we started our journey we started as saying that like companies give us the data we start annotating not too many questions asked but today over the period of 5 years like you know we understand the importance of this data so we work with the companies ask more questions around like what's your goal associated to this why is this model important what is the model trying to solve here and based on that we do a P and then like provide like you know curated data set on a PC data make sure that like you know that's the ideal data set they they like it and then like you know run scripts against it to understand the kapa score f1 score and whatn not and finally once we get into the train like get into the annotation phase we start working on the annotation and human in the loop is also like involved in case if the model is not performing well there will be like the when the confidence score is less it will be sent to the human in the loop and the human looks into the data reanitate the data push it back for retraining and that's exactly what the the the the complete iteration starts And finally like we also have like there's two ways to validate the quality One is like mission validation like whether is also human validation We more lean towards the like a human validation if the mission validation is not accurate So from a data vendor to a thought like thought partners like you know when we are like like we are one of the preferred vendor for a lot of customers today We are working with companies where like helping them with creating the large language model to like help them with the simple like you know somebody wants to create a simple uh more complex computer vision model So today we are just not labeling services company anymore We are also your strategic data partner So we help not only like with creating collection of the data data annotation and whatnot We also like provides the complete data sets and debug your data sets as well Finally let's elevate your model with the premium data because in order for your model to perform really well you definitely need a better data point So these are some of the companies we are supporting today Um being the preferred vendor for AWS we have almost like 1500 employees focusing very specific to projects from anywhere between like a simple to more complex AGA related projects as well We work with talk robotics We work with plus AI where we do a lot of data annotation with respect to the uh the LAR initiatives And finally this is our leadership team at this point We also have our own platform called Tensoract Um we also have a like you know a product officer very specifically focusing on this and this is can be deployed anywhere like you know our tensoract platform can be either it is a SAS platform but it also like I said like it's a air gap solution which can be implemented into a customer location or the customer cloud So they can like they can be more comfortable that the data is not leaving their environment Thank you so much for attending my session Thank you all",
+    "text_length": 14384,
+    "word_count": 2722
+  },
+  "segments": [
+    {
+      "start": 8.0,
+      "duration": 2.559,
+      "text": "hello everyone Um thank you so much for",
+      "timestamp": "00:08"
+    },
+    {
+      "start": 10.559,
+      "duration": 2.801,
+      "text": "attending our session Um I'm going to",
+      "timestamp": "00:10"
+    },
+    {
+      "start": 13.36,
+      "duration": 4.08,
+      "text": "talk about why your AI deserves a better",
+      "timestamp": "00:13"
+    },
+    {
+      "start": 17.44,
+      "duration": 4.56,
+      "text": "data and uh um like we are object based",
+      "timestamp": "00:17"
+    },
+    {
+      "start": 22.0,
+      "duration": 2.32,
+      "text": "uh started like 5 years ago We are a",
+      "timestamp": "00:22"
+    },
+    {
+      "start": 24.32,
+      "duration": 2.0,
+      "text": "social impact data labeling company data",
+      "timestamp": "00:24"
+    },
+    {
+      "start": 26.32,
+      "duration": 2.4,
+      "text": "annotation company focusing mainly with",
+      "timestamp": "00:26"
+    },
+    {
+      "start": 28.72,
+      "duration": 2.879,
+      "text": "respect to anything with respect to uh",
+      "timestamp": "00:28"
+    },
+    {
+      "start": 31.599,
+      "duration": 2.48,
+      "text": "computer vision models to generative AI",
+      "timestamp": "00:31"
+    },
+    {
+      "start": 34.079,
+      "duration": 2.881,
+      "text": "to any NLP solutions",
+      "timestamp": "00:34"
+    },
+    {
+      "start": 36.96,
+      "duration": 3.52,
+      "text": "So we are in the midst of a AI",
+      "timestamp": "00:36"
+    },
+    {
+      "start": 40.48,
+      "duration": 1.84,
+      "text": "revolution right like there's been a",
+      "timestamp": "00:40"
+    },
+    {
+      "start": 42.32,
+      "duration": 2.96,
+      "text": "model introduced every week better",
+      "timestamp": "00:42"
+    },
+    {
+      "start": 45.28,
+      "duration": 2.799,
+      "text": "performance the models are like like",
+      "timestamp": "00:45"
+    },
+    {
+      "start": 48.079,
+      "duration": 2.721,
+      "text": "throughput is better like there is the",
+      "timestamp": "00:48"
+    },
+    {
+      "start": 50.8,
+      "duration": 2.48,
+      "text": "latencies are like lowering every week",
+      "timestamp": "00:50"
+    },
+    {
+      "start": 53.28,
+      "duration": 2.72,
+      "text": "but in spite of that when the model gets",
+      "timestamp": "00:53"
+    },
+    {
+      "start": 56.0,
+      "duration": 2.96,
+      "text": "deployed in production like many times",
+      "timestamp": "00:56"
+    },
+    {
+      "start": 58.96,
+      "duration": 2.72,
+      "text": "often times the model fails like it's",
+      "timestamp": "00:58"
+    },
+    {
+      "start": 61.68,
+      "duration": 3.92,
+      "text": "because like not mostly because it's the",
+      "timestamp": "01:01"
+    },
+    {
+      "start": 65.6,
+      "duration": 3.76,
+      "text": "data is not right Many AI model fails",
+      "timestamp": "01:05"
+    },
+    {
+      "start": 69.36,
+      "duration": 2.96,
+      "text": "today not because of the algorithm not",
+      "timestamp": "01:09"
+    },
+    {
+      "start": 72.32,
+      "duration": 2.24,
+      "text": "because of the way it's been trained",
+      "timestamp": "01:12"
+    },
+    {
+      "start": 74.56,
+      "duration": 1.919,
+      "text": "It's only because of the poor data",
+      "timestamp": "01:14"
+    },
+    {
+      "start": 76.479,
+      "duration": 3.68,
+      "text": "quality So often times like you know",
+      "timestamp": "01:16"
+    },
+    {
+      "start": 80.159,
+      "duration": 3.841,
+      "text": "when you introduce biased and noisy data",
+      "timestamp": "01:20"
+    },
+    {
+      "start": 84.0,
+      "duration": 3.36,
+      "text": "set into your uh alga into your model",
+      "timestamp": "01:24"
+    },
+    {
+      "start": 87.36,
+      "duration": 2.799,
+      "text": "training your output is also going to be",
+      "timestamp": "01:27"
+    },
+    {
+      "start": 90.159,
+      "duration": 4.161,
+      "text": "bad Um if data is going to be the new",
+      "timestamp": "01:30"
+    },
+    {
+      "start": 94.32,
+      "duration": 3.36,
+      "text": "oil why would you feed a model with",
+      "timestamp": "01:34"
+    },
+    {
+      "start": 97.68,
+      "duration": 2.56,
+      "text": "crude instead of like you know clean",
+      "timestamp": "01:37"
+    },
+    {
+      "start": 100.24,
+      "duration": 2.72,
+      "text": "data right",
+      "timestamp": "01:40"
+    },
+    {
+      "start": 102.96,
+      "duration": 2.799,
+      "text": "So working in this industry for over",
+      "timestamp": "01:42"
+    },
+    {
+      "start": 105.759,
+      "duration": 4.561,
+      "text": "like um five years um we identify what",
+      "timestamp": "01:45"
+    },
+    {
+      "start": 110.32,
+      "duration": 3.28,
+      "text": "are the few things that keep um",
+      "timestamp": "01:50"
+    },
+    {
+      "start": 113.6,
+      "duration": 2.559,
+      "text": "degrading the model performance First",
+      "timestamp": "01:53"
+    },
+    {
+      "start": 116.159,
+      "duration": 3.28,
+      "text": "one is ambiguity So what does it mean",
+      "timestamp": "01:56"
+    },
+    {
+      "start": 119.439,
+      "duration": 2.801,
+      "text": "Let's say that like you are training a",
+      "timestamp": "01:59"
+    },
+    {
+      "start": 122.24,
+      "duration": 3.6,
+      "text": "self-driving car and if two annotators",
+      "timestamp": "02:02"
+    },
+    {
+      "start": 125.84,
+      "duration": 3.44,
+      "text": "are annotating the data differently One",
+      "timestamp": "02:05"
+    },
+    {
+      "start": 129.28,
+      "duration": 3.039,
+      "text": "calls it as let's say as a debrief the",
+      "timestamp": "02:09"
+    },
+    {
+      "start": 132.319,
+      "duration": 3.121,
+      "text": "second person calls that as uh something",
+      "timestamp": "02:12"
+    },
+    {
+      "start": 135.44,
+      "duration": 3.76,
+      "text": "else like which one is right The model",
+      "timestamp": "02:15"
+    },
+    {
+      "start": 139.2,
+      "duration": 2.56,
+      "text": "cannot like automatically predict what",
+      "timestamp": "02:19"
+    },
+    {
+      "start": 141.76,
+      "duration": 3.119,
+      "text": "it doesn't see So ambiguity is one of",
+      "timestamp": "02:21"
+    },
+    {
+      "start": 144.879,
+      "duration": 2.0,
+      "text": "the main thing like when it comes to",
+      "timestamp": "02:24"
+    },
+    {
+      "start": 146.879,
+      "duration": 2.641,
+      "text": "weak predictions The other thing is",
+      "timestamp": "02:26"
+    },
+    {
+      "start": 149.52,
+      "duration": 3.04,
+      "text": "assumptions right Like um we have been",
+      "timestamp": "02:29"
+    },
+    {
+      "start": 152.56,
+      "duration": 2.64,
+      "text": "reached out by a customer asked us to",
+      "timestamp": "02:32"
+    },
+    {
+      "start": 155.2,
+      "duration": 2.319,
+      "text": "collect 3,000 something audios from",
+      "timestamp": "02:35"
+    },
+    {
+      "start": 157.519,
+      "duration": 3.121,
+      "text": "3,000 different demographic but they",
+      "timestamp": "02:37"
+    },
+    {
+      "start": 160.64,
+      "duration": 3.12,
+      "text": "want the audio quality to be as good as",
+      "timestamp": "02:40"
+    },
+    {
+      "start": 163.76,
+      "duration": 2.8,
+      "text": "recorded in a studio But when we asked",
+      "timestamp": "02:43"
+    },
+    {
+      "start": 166.56,
+      "duration": 2.08,
+      "text": "them about like how is this model going",
+      "timestamp": "02:46"
+    },
+    {
+      "start": 168.64,
+      "duration": 2.56,
+      "text": "to be used we were told that this model",
+      "timestamp": "02:48"
+    },
+    {
+      "start": 171.2,
+      "duration": 4.16,
+      "text": "is going to be used to train the like",
+      "timestamp": "02:51"
+    },
+    {
+      "start": 175.36,
+      "duration": 1.519,
+      "text": "basically like they create a vacuum",
+      "timestamp": "02:55"
+    },
+    {
+      "start": 176.879,
+      "duration": 2.401,
+      "text": "cleaner They want to understand like you",
+      "timestamp": "02:56"
+    },
+    {
+      "start": 179.28,
+      "duration": 2.72,
+      "text": "know the voices and then react",
+      "timestamp": "02:59"
+    },
+    {
+      "start": 182.0,
+      "duration": 2.319,
+      "text": "accordingly But if you are going to",
+      "timestamp": "03:02"
+    },
+    {
+      "start": 184.319,
+      "duration": 2.64,
+      "text": "record the whole thing in a record st in",
+      "timestamp": "03:04"
+    },
+    {
+      "start": 186.959,
+      "duration": 2.721,
+      "text": "a in a studio when it comes to the real",
+      "timestamp": "03:06"
+    },
+    {
+      "start": 189.68,
+      "duration": 2.32,
+      "text": "world this model is definitely going to",
+      "timestamp": "03:09"
+    },
+    {
+      "start": 192.0,
+      "duration": 2.8,
+      "text": "fail So once we explain to them and like",
+      "timestamp": "03:12"
+    },
+    {
+      "start": 194.8,
+      "duration": 1.6,
+      "text": "you know what all the key features about",
+      "timestamp": "03:14"
+    },
+    {
+      "start": 196.4,
+      "duration": 2.08,
+      "text": "like how we need to change this we have",
+      "timestamp": "03:16"
+    },
+    {
+      "start": 198.48,
+      "duration": 2.0,
+      "text": "to go back and like you know redo the",
+      "timestamp": "03:18"
+    },
+    {
+      "start": 200.48,
+      "duration": 3.039,
+      "text": "whole whole data collection process And",
+      "timestamp": "03:20"
+    },
+    {
+      "start": 203.519,
+      "duration": 1.841,
+      "text": "the third one is like you know the",
+      "timestamp": "03:23"
+    },
+    {
+      "start": 205.36,
+      "duration": 2.959,
+      "text": "artifacts If you are like let's say that",
+      "timestamp": "03:25"
+    },
+    {
+      "start": 208.319,
+      "duration": 2.64,
+      "text": "like you are using the same camera and",
+      "timestamp": "03:28"
+    },
+    {
+      "start": 210.959,
+      "duration": 2.401,
+      "text": "then it if you are capturing the data",
+      "timestamp": "03:30"
+    },
+    {
+      "start": 213.36,
+      "duration": 2.4,
+      "text": "sets let's say that like you know I",
+      "timestamp": "03:33"
+    },
+    {
+      "start": 215.76,
+      "duration": 3.68,
+      "text": "wanted to identify um like specific",
+      "timestamp": "03:35"
+    },
+    {
+      "start": 219.44,
+      "duration": 2.48,
+      "text": "objects but if the cameras are like",
+      "timestamp": "03:39"
+    },
+    {
+      "start": 221.92,
+      "duration": 2.399,
+      "text": "recording in a very specific unit",
+      "timestamp": "03:41"
+    },
+    {
+      "start": 224.319,
+      "duration": 2.241,
+      "text": "direction and then like if it is also",
+      "timestamp": "03:44"
+    },
+    {
+      "start": 226.56,
+      "duration": 2.72,
+      "text": "done using daylight and if the model is",
+      "timestamp": "03:46"
+    },
+    {
+      "start": 229.28,
+      "duration": 2.239,
+      "text": "getting deployed at a night time this",
+      "timestamp": "03:49"
+    },
+    {
+      "start": 231.519,
+      "duration": 2.08,
+      "text": "model is definitely going to fail right",
+      "timestamp": "03:51"
+    },
+    {
+      "start": 233.599,
+      "duration": 1.761,
+      "text": "that is one of the key factors with",
+      "timestamp": "03:53"
+    },
+    {
+      "start": 235.36,
+      "duration": 2.72,
+      "text": "respect to So you need the real world",
+      "timestamp": "03:55"
+    },
+    {
+      "start": 238.08,
+      "duration": 3.2,
+      "text": "data for the models to perform like",
+      "timestamp": "03:58"
+    },
+    {
+      "start": 241.28,
+      "duration": 2.4,
+      "text": "during the training itself The final",
+      "timestamp": "04:01"
+    },
+    {
+      "start": 243.68,
+      "duration": 3.279,
+      "text": "thing is the missing data often times",
+      "timestamp": "04:03"
+    },
+    {
+      "start": 246.959,
+      "duration": 2.161,
+      "text": "that like the missing edge cases right",
+      "timestamp": "04:06"
+    },
+    {
+      "start": 249.12,
+      "duration": 3.119,
+      "text": "like you always want to cover every use",
+      "timestamp": "04:09"
+    },
+    {
+      "start": 252.239,
+      "duration": 2.161,
+      "text": "cases that you wanted to like the model",
+      "timestamp": "04:12"
+    },
+    {
+      "start": 254.4,
+      "duration": 2.64,
+      "text": "to handle Model will never learn the",
+      "timestamp": "04:14"
+    },
+    {
+      "start": 257.04,
+      "duration": 2.159,
+      "text": "things that it doesn't see Models are",
+      "timestamp": "04:17"
+    },
+    {
+      "start": 259.199,
+      "duration": 3.121,
+      "text": "not super smart It always mimics what it",
+      "timestamp": "04:19"
+    },
+    {
+      "start": 262.32,
+      "duration": 2.24,
+      "text": "sees on the market",
+      "timestamp": "04:22"
+    },
+    {
+      "start": 264.56,
+      "duration": 3.76,
+      "text": "So what does it mean right AI doesn't",
+      "timestamp": "04:24"
+    },
+    {
+      "start": 268.32,
+      "duration": 3.28,
+      "text": "learn what you think it learns from what",
+      "timestamp": "04:28"
+    },
+    {
+      "start": 271.6,
+      "duration": 1.92,
+      "text": "you see especially this is very very",
+      "timestamp": "04:31"
+    },
+    {
+      "start": 273.52,
+      "duration": 2.0,
+      "text": "true for computer vision models so",
+      "timestamp": "04:33"
+    },
+    {
+      "start": 275.52,
+      "duration": 2.72,
+      "text": "that's the reason like you capture all",
+      "timestamp": "04:35"
+    },
+    {
+      "start": 278.24,
+      "duration": 2.239,
+      "text": "edge cases like take from different",
+      "timestamp": "04:38"
+    },
+    {
+      "start": 280.479,
+      "duration": 2.481,
+      "text": "directions like many different cameras",
+      "timestamp": "04:40"
+    },
+    {
+      "start": 282.96,
+      "duration": 2.0,
+      "text": "and that's exactly what the model like",
+      "timestamp": "04:42"
+    },
+    {
+      "start": 284.96,
+      "duration": 3.28,
+      "text": "learns from and again quality and",
+      "timestamp": "04:44"
+    },
+    {
+      "start": 288.24,
+      "duration": 2.16,
+      "text": "diversity of the data is very very",
+      "timestamp": "04:48"
+    },
+    {
+      "start": 290.4,
+      "duration": 2.4,
+      "text": "important so when it comes to data",
+      "timestamp": "04:50"
+    },
+    {
+      "start": 292.8,
+      "duration": 2.16,
+      "text": "collection kind of use cases like",
+      "timestamp": "04:52"
+    },
+    {
+      "start": 294.96,
+      "duration": 2.48,
+      "text": "typically we recommend customers to",
+      "timestamp": "04:54"
+    },
+    {
+      "start": 297.44,
+      "duration": 2.64,
+      "text": "collect data from so for this uh use",
+      "timestamp": "04:57"
+    },
+    {
+      "start": 300.08,
+      "duration": 2.08,
+      "text": "cases that I was talking about the",
+      "timestamp": "05:00"
+    },
+    {
+      "start": 302.16,
+      "duration": 2.8,
+      "text": "customer wants data from like anywhere",
+      "timestamp": "05:02"
+    },
+    {
+      "start": 304.96,
+      "duration": 4.64,
+      "text": "age group between like 15 to like 50 but",
+      "timestamp": "05:04"
+    },
+    {
+      "start": 309.6,
+      "duration": 2.08,
+      "text": "unfortunately but if you look into it",
+      "timestamp": "05:09"
+    },
+    {
+      "start": 311.68,
+      "duration": 3.76,
+      "text": "like this model is going to be used for",
+      "timestamp": "05:11"
+    },
+    {
+      "start": 315.44,
+      "duration": 2.479,
+      "text": "like all sort of age groups so we have",
+      "timestamp": "05:15"
+    },
+    {
+      "start": 317.919,
+      "duration": 3.521,
+      "text": "to go back and collect data from like",
+      "timestamp": "05:17"
+    },
+    {
+      "start": 321.44,
+      "duration": 2.4,
+      "text": "all diversity standpoint point So",
+      "timestamp": "05:21"
+    },
+    {
+      "start": 323.84,
+      "duration": 2.88,
+      "text": "quality in and diversity are not no",
+      "timestamp": "05:23"
+    },
+    {
+      "start": 326.72,
+      "duration": 2.56,
+      "text": "longer like non they are not like",
+      "timestamp": "05:26"
+    },
+    {
+      "start": 329.28,
+      "duration": 2.72,
+      "text": "negotiable They need to be there And",
+      "timestamp": "05:29"
+    },
+    {
+      "start": 332.0,
+      "duration": 1.6,
+      "text": "finally",
+      "timestamp": "05:32"
+    },
+    {
+      "start": 333.6,
+      "duration": 3.12,
+      "text": "when you are training the model most of",
+      "timestamp": "05:33"
+    },
+    {
+      "start": 336.72,
+      "duration": 2.08,
+      "text": "the time poor data results in",
+      "timestamp": "05:36"
+    },
+    {
+      "start": 338.8,
+      "duration": 2.32,
+      "text": "hallucination bias and poor",
+      "timestamp": "05:38"
+    },
+    {
+      "start": 341.12,
+      "duration": 2.4,
+      "text": "generalization For example like we have",
+      "timestamp": "05:41"
+    },
+    {
+      "start": 343.52,
+      "duration": 3.36,
+      "text": "been asked to collect and train like",
+      "timestamp": "05:43"
+    },
+    {
+      "start": 346.88,
+      "duration": 2.879,
+      "text": "help with help to train a model and most",
+      "timestamp": "05:46"
+    },
+    {
+      "start": 349.759,
+      "duration": 2.16,
+      "text": "of the data sets that we have collected",
+      "timestamp": "05:49"
+    },
+    {
+      "start": 351.919,
+      "duration": 2.321,
+      "text": "is all from the European countries But",
+      "timestamp": "05:51"
+    },
+    {
+      "start": 354.24,
+      "duration": 1.92,
+      "text": "when we ask like where the model will be",
+      "timestamp": "05:54"
+    },
+    {
+      "start": 356.16,
+      "duration": 2.0,
+      "text": "deployed it says like it will be used",
+      "timestamp": "05:56"
+    },
+    {
+      "start": 358.16,
+      "duration": 2.72,
+      "text": "both US as well as in the Europe So it",
+      "timestamp": "05:58"
+    },
+    {
+      "start": 360.88,
+      "duration": 2.08,
+      "text": "doesn't make sense So we went back to",
+      "timestamp": "06:00"
+    },
+    {
+      "start": 362.96,
+      "duration": 1.76,
+      "text": "the customer talked about it like you",
+      "timestamp": "06:02"
+    },
+    {
+      "start": 364.72,
+      "duration": 2.08,
+      "text": "know redo the whole thing and then we",
+      "timestamp": "06:04"
+    },
+    {
+      "start": 366.8,
+      "duration": 2.48,
+      "text": "have to collect from all like multiple",
+      "timestamp": "06:06"
+    },
+    {
+      "start": 369.28,
+      "duration": 2.32,
+      "text": "locations",
+      "timestamp": "06:09"
+    },
+    {
+      "start": 371.6,
+      "duration": 2.08,
+      "text": "So",
+      "timestamp": "06:11"
+    },
+    {
+      "start": 373.68,
+      "duration": 2.0,
+      "text": "what do we do Like you know we are a",
+      "timestamp": "06:13"
+    },
+    {
+      "start": 375.68,
+      "duration": 3.2,
+      "text": "2,200 employee company started as a 20",
+      "timestamp": "06:15"
+    },
+    {
+      "start": 378.88,
+      "duration": 3.84,
+      "text": "people uh workforce like back in 2020 as",
+      "timestamp": "06:18"
+    },
+    {
+      "start": 382.72,
+      "duration": 2.64,
+      "text": "a social impact project out of a small",
+      "timestamp": "06:22"
+    },
+    {
+      "start": 385.36,
+      "duration": 3.92,
+      "text": "second tier city in South India Um today",
+      "timestamp": "06:25"
+    },
+    {
+      "start": 389.28,
+      "duration": 3.52,
+      "text": "we are at 2,200 global workforces across",
+      "timestamp": "06:29"
+    },
+    {
+      "start": 392.8,
+      "duration": 2.959,
+      "text": "multiple continents Also like you know",
+      "timestamp": "06:32"
+    },
+    {
+      "start": 395.759,
+      "duration": 2.16,
+      "text": "during this process we have like you",
+      "timestamp": "06:35"
+    },
+    {
+      "start": 397.919,
+      "duration": 3.361,
+      "text": "know acquired a lot of domain specific",
+      "timestamp": "06:37"
+    },
+    {
+      "start": 401.28,
+      "duration": 2.32,
+      "text": "domain trained annotators Why is this",
+      "timestamp": "06:41"
+    },
+    {
+      "start": 403.6,
+      "duration": 2.0,
+      "text": "important They are no longer like they",
+      "timestamp": "06:43"
+    },
+    {
+      "start": 405.6,
+      "duration": 2.08,
+      "text": "are not a gig workers Why mechanical",
+      "timestamp": "06:45"
+    },
+    {
+      "start": 407.68,
+      "duration": 2.56,
+      "text": "turk and other things are not providing",
+      "timestamp": "06:47"
+    },
+    {
+      "start": 410.24,
+      "duration": 2.959,
+      "text": "the quality that you wanted right Domain",
+      "timestamp": "06:50"
+    },
+    {
+      "start": 413.199,
+      "duration": 2.481,
+      "text": "specific domain knowledge annotators are",
+      "timestamp": "06:53"
+    },
+    {
+      "start": 415.68,
+      "duration": 2.4,
+      "text": "the most important",
+      "timestamp": "06:55"
+    },
+    {
+      "start": 418.08,
+      "duration": 2.559,
+      "text": "uh missing piece on the puzzle to make",
+      "timestamp": "06:58"
+    },
+    {
+      "start": 420.639,
+      "duration": 2.481,
+      "text": "the data like to make the model work",
+      "timestamp": "07:00"
+    },
+    {
+      "start": 423.12,
+      "duration": 3.12,
+      "text": "better Also most of the companies are",
+      "timestamp": "07:03"
+    },
+    {
+      "start": 426.24,
+      "duration": 2.399,
+      "text": "very hesitant to like provide this data",
+      "timestamp": "07:06"
+    },
+    {
+      "start": 428.639,
+      "duration": 3.201,
+      "text": "outside So like these annotators are",
+      "timestamp": "07:08"
+    },
+    {
+      "start": 431.84,
+      "duration": 2.639,
+      "text": "like sitting in a clean room They where",
+      "timestamp": "07:11"
+    },
+    {
+      "start": 434.479,
+      "duration": 2.0,
+      "text": "they were not having like access to",
+      "timestamp": "07:14"
+    },
+    {
+      "start": 436.479,
+      "duration": 2.0,
+      "text": "download or take screenshots of any of",
+      "timestamp": "07:16"
+    },
+    {
+      "start": 438.479,
+      "duration": 1.921,
+      "text": "the data So that way the data is very",
+      "timestamp": "07:18"
+    },
+    {
+      "start": 440.4,
+      "duration": 2.079,
+      "text": "much protected We are a sock type 2",
+      "timestamp": "07:20"
+    },
+    {
+      "start": 442.479,
+      "duration": 2.56,
+      "text": "compliant facility also We have like",
+      "timestamp": "07:22"
+    },
+    {
+      "start": 445.039,
+      "duration": 2.961,
+      "text": "GDPR and TPN certification as well So",
+      "timestamp": "07:25"
+    },
+    {
+      "start": 448.0,
+      "duration": 3.28,
+      "text": "why TPN right like uh so we work with",
+      "timestamp": "07:28"
+    },
+    {
+      "start": 451.28,
+      "duration": 3.12,
+      "text": "lot of media companies where we get to",
+      "timestamp": "07:31"
+    },
+    {
+      "start": 454.4,
+      "duration": 2.4,
+      "text": "see the content of the videos before it",
+      "timestamp": "07:34"
+    },
+    {
+      "start": 456.8,
+      "duration": 1.679,
+      "text": "being like launched to the general",
+      "timestamp": "07:36"
+    },
+    {
+      "start": 458.479,
+      "duration": 2.641,
+      "text": "audience So these data needs to be super",
+      "timestamp": "07:38"
+    },
+    {
+      "start": 461.12,
+      "duration": 2.24,
+      "text": "secure and we also wanted to make sure",
+      "timestamp": "07:41"
+    },
+    {
+      "start": 463.36,
+      "duration": 2.16,
+      "text": "that like you know the proper annotation",
+      "timestamp": "07:43"
+    },
+    {
+      "start": 465.52,
+      "duration": 2.64,
+      "text": "has been done on this data So TPN go",
+      "timestamp": "07:45"
+    },
+    {
+      "start": 468.16,
+      "duration": 2.8,
+      "text": "certify like you know ensures that like",
+      "timestamp": "07:48"
+    },
+    {
+      "start": 470.96,
+      "duration": 1.6,
+      "text": "you know these data are completely",
+      "timestamp": "07:50"
+    },
+    {
+      "start": 472.56,
+      "duration": 2.639,
+      "text": "secure and it is like uh handled by the",
+      "timestamp": "07:52"
+    },
+    {
+      "start": 475.199,
+      "duration": 3.44,
+      "text": "right people And finally tooling support",
+      "timestamp": "07:55"
+    },
+    {
+      "start": 478.639,
+      "duration": 2.721,
+      "text": "We have multimodel support like we have",
+      "timestamp": "07:58"
+    },
+    {
+      "start": 481.36,
+      "duration": 2.0,
+      "text": "been in the industry for almost 5 years",
+      "timestamp": "08:01"
+    },
+    {
+      "start": 483.36,
+      "duration": 5.119,
+      "text": "now Work with um bigger um LAR companies",
+      "timestamp": "08:03"
+    },
+    {
+      "start": 488.479,
+      "duration": 2.641,
+      "text": "where we provide we annotate almost",
+      "timestamp": "08:08"
+    },
+    {
+      "start": 491.12,
+      "duration": 2.24,
+      "text": "10,000 frames a week which is almost",
+      "timestamp": "08:11"
+    },
+    {
+      "start": 493.36,
+      "duration": 2.559,
+      "text": "like 600 to 700 annotators working on a",
+      "timestamp": "08:13"
+    },
+    {
+      "start": 495.919,
+      "duration": 3.201,
+      "text": "day in day out Um and very specifically",
+      "timestamp": "08:15"
+    },
+    {
+      "start": 499.12,
+      "duration": 2.799,
+      "text": "we also focus on generative AI and",
+      "timestamp": "08:19"
+    },
+    {
+      "start": 501.919,
+      "duration": 4.481,
+      "text": "medical uh use cases as well",
+      "timestamp": "08:21"
+    },
+    {
+      "start": 506.4,
+      "duration": 2.32,
+      "text": "So from the company milestones like we",
+      "timestamp": "08:26"
+    },
+    {
+      "start": 508.72,
+      "duration": 1.84,
+      "text": "are like five plus years in business",
+      "timestamp": "08:28"
+    },
+    {
+      "start": 510.56,
+      "duration": 2.958,
+      "text": "over 100 uh right now it's more than 200",
+      "timestamp": "08:30"
+    },
+    {
+      "start": 513.519,
+      "duration": 2.721,
+      "text": "plus customers and one of the good thing",
+      "timestamp": "08:33"
+    },
+    {
+      "start": 516.24,
+      "duration": 2.88,
+      "text": "is like we have been growing over 100%",
+      "timestamp": "08:36"
+    },
+    {
+      "start": 519.12,
+      "duration": 2.159,
+      "text": "year on year like I said like started as",
+      "timestamp": "08:39"
+    },
+    {
+      "start": 521.279,
+      "duration": 2.56,
+      "text": "a 20 people and today we are a 2,200",
+      "timestamp": "08:41"
+    },
+    {
+      "start": 523.839,
+      "duration": 2.881,
+      "text": "employee company u within a span of four",
+      "timestamp": "08:43"
+    },
+    {
+      "start": 526.72,
+      "duration": 2.08,
+      "text": "years which talks about like the quality",
+      "timestamp": "08:46"
+    },
+    {
+      "start": 528.8,
+      "duration": 2.24,
+      "text": "is why is it important why the companies",
+      "timestamp": "08:48"
+    },
+    {
+      "start": 531.04,
+      "duration": 3.44,
+      "text": "are leaning towards the model and we are",
+      "timestamp": "08:51"
+    },
+    {
+      "start": 534.48,
+      "duration": 3.2,
+      "text": "almost like like created more than 500",
+      "timestamp": "08:54"
+    },
+    {
+      "start": 537.68,
+      "duration": 2.48,
+      "text": "million labels across like variety of",
+      "timestamp": "08:57"
+    },
+    {
+      "start": 540.16,
+      "duration": 3.44,
+      "text": "use cases inclusive from like um",
+      "timestamp": "09:00"
+    },
+    {
+      "start": 543.6,
+      "duration": 2.4,
+      "text": "generative AI to any computer vision",
+      "timestamp": "09:03"
+    },
+    {
+      "start": 546.0,
+      "duration": 3.36,
+      "text": "related models",
+      "timestamp": "09:06"
+    },
+    {
+      "start": 549.36,
+      "duration": 4.0,
+      "text": "So why object ways um we are platform",
+      "timestamp": "09:09"
+    },
+    {
+      "start": 553.36,
+      "duration": 2.56,
+      "text": "agnostics like there's been a lot of uh",
+      "timestamp": "09:13"
+    },
+    {
+      "start": 555.92,
+      "duration": 2.32,
+      "text": "talk over the last few days uh about",
+      "timestamp": "09:15"
+    },
+    {
+      "start": 558.24,
+      "duration": 3.36,
+      "text": "meta being acquiring uh scale.ai AI in",
+      "timestamp": "09:18"
+    },
+    {
+      "start": 561.6,
+      "duration": 2.88,
+      "text": "this like market right like you know",
+      "timestamp": "09:21"
+    },
+    {
+      "start": 564.48,
+      "duration": 2.16,
+      "text": "this is like this is where like there is",
+      "timestamp": "09:24"
+    },
+    {
+      "start": 566.64,
+      "duration": 2.56,
+      "text": "a company that needs to be like platform",
+      "timestamp": "09:26"
+    },
+    {
+      "start": 569.2,
+      "duration": 4.48,
+      "text": "agnostic so which can lead to like any",
+      "timestamp": "09:29"
+    },
+    {
+      "start": 573.68,
+      "duration": 1.92,
+      "text": "platform can be used there is a reason",
+      "timestamp": "09:33"
+    },
+    {
+      "start": 575.6,
+      "duration": 2.56,
+      "text": "behind it there are like certain tools",
+      "timestamp": "09:35"
+    },
+    {
+      "start": 578.16,
+      "duration": 2.799,
+      "text": "perform really well towards certain",
+      "timestamp": "09:38"
+    },
+    {
+      "start": 580.959,
+      "duration": 1.841,
+      "text": "models right and it when it comes to",
+      "timestamp": "09:40"
+    },
+    {
+      "start": 582.8,
+      "duration": 1.76,
+      "text": "segmentation and whatnot there are very",
+      "timestamp": "09:42"
+    },
+    {
+      "start": 584.56,
+      "duration": 2.24,
+      "text": "specific tools that performs like better",
+      "timestamp": "09:44"
+    },
+    {
+      "start": 586.8,
+      "duration": 2.32,
+      "text": "than other tools when it comes to LAR",
+      "timestamp": "09:46"
+    },
+    {
+      "start": 589.12,
+      "duration": 1.52,
+      "text": "there are like very specific tools",
+      "timestamp": "09:49"
+    },
+    {
+      "start": 590.64,
+      "duration": 2.16,
+      "text": "That's the reason we decided to be a",
+      "timestamp": "09:50"
+    },
+    {
+      "start": 592.8,
+      "duration": 3.12,
+      "text": "holistic multiplatform team rather than",
+      "timestamp": "09:52"
+    },
+    {
+      "start": 595.92,
+      "duration": 2.0,
+      "text": "sticking with one platform Although we",
+      "timestamp": "09:55"
+    },
+    {
+      "start": 597.92,
+      "duration": 2.16,
+      "text": "have our own platform that is very",
+      "timestamp": "09:57"
+    },
+    {
+      "start": 600.08,
+      "duration": 2.56,
+      "text": "specific for companies when they need",
+      "timestamp": "10:00"
+    },
+    {
+      "start": 602.64,
+      "duration": 2.96,
+      "text": "that like they wanted have a clean they",
+      "timestamp": "10:02"
+    },
+    {
+      "start": 605.6,
+      "duration": 2.16,
+      "text": "wanted to have an air gap solution",
+      "timestamp": "10:05"
+    },
+    {
+      "start": 607.76,
+      "duration": 1.84,
+      "text": "that's when we have our own platform",
+      "timestamp": "10:07"
+    },
+    {
+      "start": 609.6,
+      "duration": 2.32,
+      "text": "deployed in the customer side We also",
+      "timestamp": "10:09"
+    },
+    {
+      "start": 611.92,
+      "duration": 2.24,
+      "text": "provide an end-to-end solutions when it",
+      "timestamp": "10:11"
+    },
+    {
+      "start": 614.16,
+      "duration": 2.48,
+      "text": "comes to data like if you don't have the",
+      "timestamp": "10:14"
+    },
+    {
+      "start": 616.64,
+      "duration": 2.4,
+      "text": "data company reach out to us and ask for",
+      "timestamp": "10:16"
+    },
+    {
+      "start": 619.04,
+      "duration": 2.88,
+      "text": "data collections any sort of data so we",
+      "timestamp": "10:19"
+    },
+    {
+      "start": 621.92,
+      "duration": 1.84,
+      "text": "provide them with like you know image",
+      "timestamp": "10:21"
+    },
+    {
+      "start": 623.76,
+      "duration": 2.56,
+      "text": "data text data any sort of data that",
+      "timestamp": "10:23"
+    },
+    {
+      "start": 626.32,
+      "duration": 2.56,
+      "text": "available in the market today also like",
+      "timestamp": "10:26"
+    },
+    {
+      "start": 628.88,
+      "duration": 2.079,
+      "text": "you know our annotation teams are like",
+      "timestamp": "10:28"
+    },
+    {
+      "start": 630.959,
+      "duration": 2.081,
+      "text": "pretty like we don't require anybody",
+      "timestamp": "10:30"
+    },
+    {
+      "start": 633.04,
+      "duration": 1.68,
+      "text": "with a long-term contract there is a",
+      "timestamp": "10:33"
+    },
+    {
+      "start": 634.72,
+      "duration": 2.32,
+      "text": "very specific reason as well for that",
+      "timestamp": "10:34"
+    },
+    {
+      "start": 637.04,
+      "duration": 2.239,
+      "text": "because these projects changes like",
+      "timestamp": "10:37"
+    },
+    {
+      "start": 639.279,
+      "duration": 2.401,
+      "text": "quite often teams started working on",
+      "timestamp": "10:39"
+    },
+    {
+      "start": 641.68,
+      "duration": 2.0,
+      "text": "something and eventually they move into",
+      "timestamp": "10:41"
+    },
+    {
+      "start": 643.68,
+      "duration": 2.48,
+      "text": "a different direction and want to have a",
+      "timestamp": "10:43"
+    },
+    {
+      "start": 646.16,
+      "duration": 2.16,
+      "text": "very different models to be created So",
+      "timestamp": "10:46"
+    },
+    {
+      "start": 648.32,
+      "duration": 2.56,
+      "text": "the team needs to be very flexible ready",
+      "timestamp": "10:48"
+    },
+    {
+      "start": 650.88,
+      "duration": 2.079,
+      "text": "to like adher to changes and that's",
+      "timestamp": "10:50"
+    },
+    {
+      "start": 652.959,
+      "duration": 2.161,
+      "text": "exactly what we are working on this and",
+      "timestamp": "10:52"
+    },
+    {
+      "start": 655.12,
+      "duration": 3.52,
+      "text": "finally we also have a very like wide",
+      "timestamp": "10:55"
+    },
+    {
+      "start": 658.64,
+      "duration": 1.759,
+      "text": "variety of expertise when it comes to",
+      "timestamp": "10:58"
+    },
+    {
+      "start": 660.399,
+      "duration": 2.401,
+      "text": "like multimodel expertise today most of",
+      "timestamp": "11:00"
+    },
+    {
+      "start": 662.8,
+      "duration": 1.76,
+      "text": "the companies are focusing towards not",
+      "timestamp": "11:02"
+    },
+    {
+      "start": 664.56,
+      "duration": 2.719,
+      "text": "just with one data you have the data",
+      "timestamp": "11:04"
+    },
+    {
+      "start": 667.279,
+      "duration": 2.321,
+      "text": "that's coming in both like audio video",
+      "timestamp": "11:07"
+    },
+    {
+      "start": 669.6,
+      "duration": 1.76,
+      "text": "the annotation needs to be done on both",
+      "timestamp": "11:09"
+    },
+    {
+      "start": 671.36,
+      "duration": 3.12,
+      "text": "the things at the same time",
+      "timestamp": "11:11"
+    },
+    {
+      "start": 674.48,
+      "duration": 2.56,
+      "text": "so what are all the areas that we focus",
+      "timestamp": "11:14"
+    },
+    {
+      "start": 677.04,
+      "duration": 2.64,
+      "text": "Today like today we have like data",
+      "timestamp": "11:17"
+    },
+    {
+      "start": 679.68,
+      "duration": 1.68,
+      "text": "annotation anything with respect to",
+      "timestamp": "11:19"
+    },
+    {
+      "start": 681.36,
+      "duration": 3.52,
+      "text": "computer vision NLP generative AI like",
+      "timestamp": "11:21"
+    },
+    {
+      "start": 684.88,
+      "duration": 2.639,
+      "text": "audio video and data collection side as",
+      "timestamp": "11:24"
+    },
+    {
+      "start": 687.519,
+      "duration": 2.081,
+      "text": "well on the same thing and finally the",
+      "timestamp": "11:27"
+    },
+    {
+      "start": 689.6,
+      "duration": 3.6,
+      "text": "content moderations as well",
+      "timestamp": "11:29"
+    },
+    {
+      "start": 693.2,
+      "duration": 1.6,
+      "text": "So this is one of the case study I want",
+      "timestamp": "11:33"
+    },
+    {
+      "start": 694.8,
+      "duration": 3.039,
+      "text": "to talk about So with everybody is",
+      "timestamp": "11:34"
+    },
+    {
+      "start": 697.839,
+      "duration": 2.081,
+      "text": "creating a large language model at this",
+      "timestamp": "11:37"
+    },
+    {
+      "start": 699.92,
+      "duration": 2.24,
+      "text": "point There is this company that we have",
+      "timestamp": "11:39"
+    },
+    {
+      "start": 702.16,
+      "duration": 2.08,
+      "text": "been working with them for almost like",
+      "timestamp": "11:42"
+    },
+    {
+      "start": 704.24,
+      "duration": 2.88,
+      "text": "four years now They wanted to create a",
+      "timestamp": "11:44"
+    },
+    {
+      "start": 707.12,
+      "duration": 2.32,
+      "text": "large language model They have a large",
+      "timestamp": "11:47"
+    },
+    {
+      "start": 709.44,
+      "duration": 2.079,
+      "text": "amount of data sets with respect to the",
+      "timestamp": "11:49"
+    },
+    {
+      "start": 711.519,
+      "duration": 3.521,
+      "text": "medical data And when this initially",
+      "timestamp": "11:51"
+    },
+    {
+      "start": 715.04,
+      "duration": 3.76,
+      "text": "this data was like annotated by the team",
+      "timestamp": "11:55"
+    },
+    {
+      "start": 718.8,
+      "duration": 3.039,
+      "text": "who are not domain experts which leads",
+      "timestamp": "11:58"
+    },
+    {
+      "start": 721.839,
+      "duration": 3.281,
+      "text": "to almost 12% of hallucination So when",
+      "timestamp": "12:01"
+    },
+    {
+      "start": 725.12,
+      "duration": 2.32,
+      "text": "they reached out to us like we started",
+      "timestamp": "12:05"
+    },
+    {
+      "start": 727.44,
+      "duration": 2.16,
+      "text": "focusing on reanotating the whole data",
+      "timestamp": "12:07"
+    },
+    {
+      "start": 729.6,
+      "duration": 2.64,
+      "text": "with domain specific experts We have",
+      "timestamp": "12:09"
+    },
+    {
+      "start": 732.24,
+      "duration": 2.0,
+      "text": "radiologists on the like on the on the",
+      "timestamp": "12:12"
+    },
+    {
+      "start": 734.24,
+      "duration": 2.24,
+      "text": "payroll we have like people who are like",
+      "timestamp": "12:14"
+    },
+    {
+      "start": 736.48,
+      "duration": 4.4,
+      "text": "very focused on understanding um the the",
+      "timestamp": "12:16"
+    },
+    {
+      "start": 740.88,
+      "duration": 2.8,
+      "text": "nitty-gritty things of um healthcare",
+      "timestamp": "12:20"
+    },
+    {
+      "start": 743.68,
+      "duration": 2.48,
+      "text": "related data So we reanotate the whole",
+      "timestamp": "12:23"
+    },
+    {
+      "start": 746.16,
+      "duration": 2.88,
+      "text": "data fine-tune the data set again which",
+      "timestamp": "12:26"
+    },
+    {
+      "start": 749.04,
+      "duration": 4.239,
+      "text": "uh reduced from 12% to 2% um which also",
+      "timestamp": "12:29"
+    },
+    {
+      "start": 753.279,
+      "duration": 2.321,
+      "text": "leads to",
+      "timestamp": "12:33"
+    },
+    {
+      "start": 755.6,
+      "duration": 4.2,
+      "text": "more adoption for the customer",
+      "timestamp": "12:35"
+    },
+    {
+      "start": 760.48,
+      "duration": 1.84,
+      "text": "So this is another use case even though",
+      "timestamp": "12:40"
+    },
+    {
+      "start": 762.32,
+      "duration": 2.0,
+      "text": "we work on a very wide variety of",
+      "timestamp": "12:42"
+    },
+    {
+      "start": 764.32,
+      "duration": 2.56,
+      "text": "computer vision uh use cases The one of",
+      "timestamp": "12:44"
+    },
+    {
+      "start": 766.88,
+      "duration": 2.72,
+      "text": "the use cases like this is a self",
+      "timestamp": "12:46"
+    },
+    {
+      "start": 769.6,
+      "duration": 2.4,
+      "text": "basically this is for a retail customer",
+      "timestamp": "12:49"
+    },
+    {
+      "start": 772.0,
+      "duration": 2.16,
+      "text": "We have been capturing the data and then",
+      "timestamp": "12:52"
+    },
+    {
+      "start": 774.16,
+      "duration": 2.64,
+      "text": "when we looked into the data we found",
+      "timestamp": "12:54"
+    },
+    {
+      "start": 776.8,
+      "duration": 1.839,
+      "text": "out there are like many upcluded like",
+      "timestamp": "12:56"
+    },
+    {
+      "start": 778.639,
+      "duration": 2.561,
+      "text": "low light cases were missing which leads",
+      "timestamp": "12:58"
+    },
+    {
+      "start": 781.2,
+      "duration": 2.56,
+      "text": "to like you know identify why the model",
+      "timestamp": "13:01"
+    },
+    {
+      "start": 783.76,
+      "duration": 1.84,
+      "text": "is not performing as good as it should",
+      "timestamp": "13:03"
+    },
+    {
+      "start": 785.6,
+      "duration": 2.16,
+      "text": "be So we asked them to go back and then",
+      "timestamp": "13:05"
+    },
+    {
+      "start": 787.76,
+      "duration": 2.319,
+      "text": "like collect mostly very specific to",
+      "timestamp": "13:07"
+    },
+    {
+      "start": 790.079,
+      "duration": 2.721,
+      "text": "edge cases low light cases like",
+      "timestamp": "13:10"
+    },
+    {
+      "start": 792.8,
+      "duration": 2.64,
+      "text": "different angles We did the whole thing",
+      "timestamp": "13:12"
+    },
+    {
+      "start": 795.44,
+      "duration": 2.56,
+      "text": "recollected the whole data and then like",
+      "timestamp": "13:15"
+    },
+    {
+      "start": 798.0,
+      "duration": 2.48,
+      "text": "immediately the accuracy went from 78 to",
+      "timestamp": "13:18"
+    },
+    {
+      "start": 800.48,
+      "duration": 2.64,
+      "text": "95%",
+      "timestamp": "13:20"
+    },
+    {
+      "start": 803.12,
+      "duration": 3.76,
+      "text": "So how we work today So when we started",
+      "timestamp": "13:23"
+    },
+    {
+      "start": 806.88,
+      "duration": 2.16,
+      "text": "this initiative like you know when we",
+      "timestamp": "13:26"
+    },
+    {
+      "start": 809.04,
+      "duration": 1.919,
+      "text": "started our journey we started as saying",
+      "timestamp": "13:29"
+    },
+    {
+      "start": 810.959,
+      "duration": 2.481,
+      "text": "that like companies give us the data we",
+      "timestamp": "13:30"
+    },
+    {
+      "start": 813.44,
+      "duration": 2.0,
+      "text": "start annotating not too many questions",
+      "timestamp": "13:33"
+    },
+    {
+      "start": 815.44,
+      "duration": 2.399,
+      "text": "asked but today over the period of 5",
+      "timestamp": "13:35"
+    },
+    {
+      "start": 817.839,
+      "duration": 2.081,
+      "text": "years like you know we understand the",
+      "timestamp": "13:37"
+    },
+    {
+      "start": 819.92,
+      "duration": 2.479,
+      "text": "importance of this data so we work with",
+      "timestamp": "13:39"
+    },
+    {
+      "start": 822.399,
+      "duration": 2.321,
+      "text": "the companies ask more questions around",
+      "timestamp": "13:42"
+    },
+    {
+      "start": 824.72,
+      "duration": 2.64,
+      "text": "like what's your goal associated to this",
+      "timestamp": "13:44"
+    },
+    {
+      "start": 827.36,
+      "duration": 1.919,
+      "text": "why is this model important what is the",
+      "timestamp": "13:47"
+    },
+    {
+      "start": 829.279,
+      "duration": 3.041,
+      "text": "model trying to solve here and based on",
+      "timestamp": "13:49"
+    },
+    {
+      "start": 832.32,
+      "duration": 3.04,
+      "text": "that we do a P and then like provide",
+      "timestamp": "13:52"
+    },
+    {
+      "start": 835.36,
+      "duration": 2.4,
+      "text": "like you know curated data set on a PC",
+      "timestamp": "13:55"
+    },
+    {
+      "start": 837.76,
+      "duration": 2.24,
+      "text": "data make sure that like you know that's",
+      "timestamp": "13:57"
+    },
+    {
+      "start": 840.0,
+      "duration": 2.88,
+      "text": "the ideal data set they they like it and",
+      "timestamp": "14:00"
+    },
+    {
+      "start": 842.88,
+      "duration": 1.84,
+      "text": "then like you know run scripts against",
+      "timestamp": "14:02"
+    },
+    {
+      "start": 844.72,
+      "duration": 2.08,
+      "text": "it to understand the kapa score f1 score",
+      "timestamp": "14:04"
+    },
+    {
+      "start": 846.8,
+      "duration": 2.56,
+      "text": "and whatn not and finally once we get",
+      "timestamp": "14:06"
+    },
+    {
+      "start": 849.36,
+      "duration": 1.919,
+      "text": "into the train like get into the",
+      "timestamp": "14:09"
+    },
+    {
+      "start": 851.279,
+      "duration": 1.841,
+      "text": "annotation phase we start working on the",
+      "timestamp": "14:11"
+    },
+    {
+      "start": 853.12,
+      "duration": 2.32,
+      "text": "annotation and human in the loop is also",
+      "timestamp": "14:13"
+    },
+    {
+      "start": 855.44,
+      "duration": 1.839,
+      "text": "like involved in case if the model is",
+      "timestamp": "14:15"
+    },
+    {
+      "start": 857.279,
+      "duration": 1.92,
+      "text": "not performing well there will be like",
+      "timestamp": "14:17"
+    },
+    {
+      "start": 859.199,
+      "duration": 2.241,
+      "text": "the when the confidence score is less it",
+      "timestamp": "14:19"
+    },
+    {
+      "start": 861.44,
+      "duration": 1.759,
+      "text": "will be sent to the human in the loop",
+      "timestamp": "14:21"
+    },
+    {
+      "start": 863.199,
+      "duration": 2.401,
+      "text": "and the human looks into the data",
+      "timestamp": "14:23"
+    },
+    {
+      "start": 865.6,
+      "duration": 2.16,
+      "text": "reanitate the data push it back for",
+      "timestamp": "14:25"
+    },
+    {
+      "start": 867.76,
+      "duration": 2.079,
+      "text": "retraining and that's exactly what the",
+      "timestamp": "14:27"
+    },
+    {
+      "start": 869.839,
+      "duration": 3.36,
+      "text": "the the the complete iteration starts",
+      "timestamp": "14:29"
+    },
+    {
+      "start": 873.199,
+      "duration": 2.161,
+      "text": "And finally like we also have like",
+      "timestamp": "14:33"
+    },
+    {
+      "start": 875.36,
+      "duration": 2.32,
+      "text": "there's two ways to validate the quality",
+      "timestamp": "14:35"
+    },
+    {
+      "start": 877.68,
+      "duration": 1.76,
+      "text": "One is like mission validation like",
+      "timestamp": "14:37"
+    },
+    {
+      "start": 879.44,
+      "duration": 3.28,
+      "text": "whether is also human validation We more",
+      "timestamp": "14:39"
+    },
+    {
+      "start": 882.72,
+      "duration": 2.64,
+      "text": "lean towards the like a human validation",
+      "timestamp": "14:42"
+    },
+    {
+      "start": 885.36,
+      "duration": 1.599,
+      "text": "if the mission validation is not",
+      "timestamp": "14:45"
+    },
+    {
+      "start": 886.959,
+      "duration": 2.56,
+      "text": "accurate",
+      "timestamp": "14:46"
+    },
+    {
+      "start": 889.519,
+      "duration": 3.201,
+      "text": "So from a data vendor to a thought like",
+      "timestamp": "14:49"
+    },
+    {
+      "start": 892.72,
+      "duration": 1.919,
+      "text": "thought partners like you know when we",
+      "timestamp": "14:52"
+    },
+    {
+      "start": 894.639,
+      "duration": 2.88,
+      "text": "are like like we are one of the",
+      "timestamp": "14:54"
+    },
+    {
+      "start": 897.519,
+      "duration": 2.401,
+      "text": "preferred vendor for a lot of customers",
+      "timestamp": "14:57"
+    },
+    {
+      "start": 899.92,
+      "duration": 1.68,
+      "text": "today We are working with companies",
+      "timestamp": "14:59"
+    },
+    {
+      "start": 901.6,
+      "duration": 1.84,
+      "text": "where like helping them with creating",
+      "timestamp": "15:01"
+    },
+    {
+      "start": 903.44,
+      "duration": 2.56,
+      "text": "the large language model to like help",
+      "timestamp": "15:03"
+    },
+    {
+      "start": 906.0,
+      "duration": 2.079,
+      "text": "them with the simple like you know",
+      "timestamp": "15:06"
+    },
+    {
+      "start": 908.079,
+      "duration": 2.401,
+      "text": "somebody wants to create a simple uh",
+      "timestamp": "15:08"
+    },
+    {
+      "start": 910.48,
+      "duration": 2.799,
+      "text": "more complex computer vision model So",
+      "timestamp": "15:10"
+    },
+    {
+      "start": 913.279,
+      "duration": 3.281,
+      "text": "today we are just not labeling services",
+      "timestamp": "15:13"
+    },
+    {
+      "start": 916.56,
+      "duration": 2.0,
+      "text": "company anymore We are also your",
+      "timestamp": "15:16"
+    },
+    {
+      "start": 918.56,
+      "duration": 3.12,
+      "text": "strategic data partner So we help not",
+      "timestamp": "15:18"
+    },
+    {
+      "start": 921.68,
+      "duration": 2.24,
+      "text": "only like with creating collection of",
+      "timestamp": "15:21"
+    },
+    {
+      "start": 923.92,
+      "duration": 2.4,
+      "text": "the data data annotation and whatnot We",
+      "timestamp": "15:23"
+    },
+    {
+      "start": 926.32,
+      "duration": 4.16,
+      "text": "also like provides the complete data",
+      "timestamp": "15:26"
+    },
+    {
+      "start": 930.48,
+      "duration": 2.64,
+      "text": "sets and debug your data sets as well",
+      "timestamp": "15:30"
+    },
+    {
+      "start": 933.12,
+      "duration": 3.36,
+      "text": "Finally let's elevate your model with",
+      "timestamp": "15:33"
+    },
+    {
+      "start": 936.48,
+      "duration": 3.12,
+      "text": "the premium data because in order for",
+      "timestamp": "15:36"
+    },
+    {
+      "start": 939.6,
+      "duration": 2.56,
+      "text": "your model to perform really well you",
+      "timestamp": "15:39"
+    },
+    {
+      "start": 942.16,
+      "duration": 4.88,
+      "text": "definitely need a better data point",
+      "timestamp": "15:42"
+    },
+    {
+      "start": 947.04,
+      "duration": 1.76,
+      "text": "So these are some of the companies we",
+      "timestamp": "15:47"
+    },
+    {
+      "start": 948.8,
+      "duration": 2.479,
+      "text": "are supporting today Um being the",
+      "timestamp": "15:48"
+    },
+    {
+      "start": 951.279,
+      "duration": 2.24,
+      "text": "preferred vendor for AWS we have almost",
+      "timestamp": "15:51"
+    },
+    {
+      "start": 953.519,
+      "duration": 2.161,
+      "text": "like 1500 employees focusing very",
+      "timestamp": "15:53"
+    },
+    {
+      "start": 955.68,
+      "duration": 2.159,
+      "text": "specific to projects from anywhere",
+      "timestamp": "15:55"
+    },
+    {
+      "start": 957.839,
+      "duration": 2.961,
+      "text": "between like a simple to more complex",
+      "timestamp": "15:57"
+    },
+    {
+      "start": 960.8,
+      "duration": 2.64,
+      "text": "AGA related projects as well We work",
+      "timestamp": "16:00"
+    },
+    {
+      "start": 963.44,
+      "duration": 2.56,
+      "text": "with talk robotics We work with plus AI",
+      "timestamp": "16:03"
+    },
+    {
+      "start": 966.0,
+      "duration": 2.24,
+      "text": "where we do a lot of data annotation",
+      "timestamp": "16:06"
+    },
+    {
+      "start": 968.24,
+      "duration": 2.719,
+      "text": "with respect to the uh the LAR",
+      "timestamp": "16:08"
+    },
+    {
+      "start": 970.959,
+      "duration": 2.88,
+      "text": "initiatives",
+      "timestamp": "16:10"
+    },
+    {
+      "start": 973.839,
+      "duration": 1.92,
+      "text": "And finally this is our leadership team",
+      "timestamp": "16:13"
+    },
+    {
+      "start": 975.759,
+      "duration": 2.241,
+      "text": "at this point We also have our own",
+      "timestamp": "16:15"
+    },
+    {
+      "start": 978.0,
+      "duration": 3.519,
+      "text": "platform called Tensoract Um we also",
+      "timestamp": "16:18"
+    },
+    {
+      "start": 981.519,
+      "duration": 2.32,
+      "text": "have a like you know a product officer",
+      "timestamp": "16:21"
+    },
+    {
+      "start": 983.839,
+      "duration": 2.721,
+      "text": "very specifically focusing on this and",
+      "timestamp": "16:23"
+    },
+    {
+      "start": 986.56,
+      "duration": 1.839,
+      "text": "this is can be deployed anywhere like",
+      "timestamp": "16:26"
+    },
+    {
+      "start": 988.399,
+      "duration": 1.601,
+      "text": "you know our tensoract platform can be",
+      "timestamp": "16:28"
+    },
+    {
+      "start": 990.0,
+      "duration": 2.639,
+      "text": "either it is a SAS platform but it also",
+      "timestamp": "16:30"
+    },
+    {
+      "start": 992.639,
+      "duration": 2.0,
+      "text": "like I said like it's a air gap solution",
+      "timestamp": "16:32"
+    },
+    {
+      "start": 994.639,
+      "duration": 2.241,
+      "text": "which can be implemented into a customer",
+      "timestamp": "16:34"
+    },
+    {
+      "start": 996.88,
+      "duration": 3.28,
+      "text": "location or the customer cloud So they",
+      "timestamp": "16:36"
+    },
+    {
+      "start": 1000.16,
+      "duration": 1.76,
+      "text": "can like they can be more comfortable",
+      "timestamp": "16:40"
+    },
+    {
+      "start": 1001.92,
+      "duration": 1.76,
+      "text": "that the data is not leaving their",
+      "timestamp": "16:41"
+    },
+    {
+      "start": 1003.68,
+      "duration": 2.88,
+      "text": "environment",
+      "timestamp": "16:43"
+    },
+    {
+      "start": 1006.56,
+      "duration": 1.36,
+      "text": "Thank you so much for attending my",
+      "timestamp": "16:46"
+    },
+    {
+      "start": 1007.92,
+      "duration": 3.8,
+      "text": "session Thank you all",
+      "timestamp": "16:47"
+    }
+  ],
+  "extraction_timestamp": "2025-06-29T21:04:35.423221",
+  "playlist_title": "SuperAI Singapore 2025: WEKA Stage"
+}

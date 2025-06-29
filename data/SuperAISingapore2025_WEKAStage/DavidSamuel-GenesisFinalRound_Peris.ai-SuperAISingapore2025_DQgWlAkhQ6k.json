@@ -1,0 +1,1355 @@
+{
+  "video_id": "DQgWlAkhQ6k",
+  "video_title": "David Samuel - Genesis Final Round: Peris.ai - SuperAI Singapore 2025",
+  "video_url": "https://www.youtube.com/watch?v=DQgWlAkhQ6k",
+  "channel_title": "SuperAI",
+  "published_at": "2025-06-25T12:36:24+00:00",
+  "duration_seconds": null,
+  "view_count": 5,
+  "like_count": 0,
+  "description": "Learn more about SuperAI: superai.com\nFollow us on X: x.com/superai_conf\n\nGenesis Final Round: Peris.ai\n\nSpeaker:\nDavid Samuel, CEO @ Peris.ai\n\nStage: WEKA Stage\n#superai #aisquare #startups #competition #cybersecurity \n\nRecorded on 19 June 2025",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 222,
+    "aggregated_text": "hi first of all judges thank you for selecting us as part of the top five in decisions superai page or all the other audience my name is David and I'm from Paris AI right now cyber security especially legacy cyber security is facing a hard time because 73% of companies are still using tools built in 2010 meanwhile nowadays the bad guys and threat actors are already using AI to break into companies faster than any human team can respond so your antivirus from 2010 are piece of paper against this AI powered attacks so that's why we built Paris Aai Fusion an agentic AI orchestration platforms that detect respondse and adapts to cyber threats in real time and it hyper automates your security workflows and let you put in AINS to work alongside your team so let's dive into some cool features within our platform creating playbooks used to be a tedious task but with our playbook wizard it now feels like you have an expert blue team making it for you even better she provides intelligent suggestions on how to improve your playbook based on your auto scan topology you can add orchestrator agents and chain it with another specialized AI agents to make faster smarter decisions and with 50 integrations tools available out of the box our platform can automatically distribute the most uh the cases to all the agents that you have already deployed you get full visibility into many how many agents are actively working on the cases which cases they are handling and the real-time triage and prioritizations process each case is tracked across its life cycles so you know exactly at what stage it's in and what's next what makes Fusions truly unique is this your human security team can chat and work side by side with AI agents as if they were additional team members so welcome to the era of human and agentic AI collaborations and of course the results faster mean time to detect with less people and 46% less total cost of ownerships 19 enterprise clients chose free side to defense what's that matters most governments banks hospitals manufacturers we are securing real infrastructures every single day and the question is when a big competitor aggressively lowers their price what would Paris AI do our response is simple we don't compete on price we compete on value big companies often focus on their existing enterprise customers we focus on midsize businesses we are offering flexibility localized solutions and interoperability things that larger vendors can struggle to do we are not trying to replace their enterprise solutions we are addressing a gap in the market where those business need a faster and more collaborative approach while larger vendors are focused on their current business models we are moving quickly integrating into existing cyber tools that our customers has already purchased so we are adapting to the needs of our midsize customers the next questions is about licensing versus pay as you go model now a licensing model gives us predictability and stable revenue which allows us to continuously invest in our R&D our target customers often operates in a tight budget so they prefer simplicity or a fixed cost rather than worrying about spikes in usage fees and it also help us build longerterm relationship with them with annual or multi-year uh license it reduced churn and makes it easier to roll out new features but as of we are talking now uh Olivia the currently uh we are doing also integrations to the AWS marketplace so it gives low barrier to entry to our new customers and lower resistance and it will gives a more datadriven insects to us so currently we are also looking forward to integrating into the marketplaces so thank you thank you David um so yesterday I asked a question on market expansion and you'd mentioned that you next month are expanding to the Middle East so tell us what what needs to change to win the Middle East maybe technology maybe product maybe implementation maybe approach go to market right walk us through that so we are not like entirely focus our expansions to Middle East but then the inbound requests from our potential partners coming our focus is to strengthen our turf which is Southeast Asia and Asia Pacific as a regions but whenever there is an opportunity comes from MSSP MSP then we are happily enough to explore and see if there is any interest moves what makes what moves the fast we are going with them okay and these inbound request um are they happy just to take the product as is or do they have um input and say hey for this to work for me I need it to be X or Y not technicality but then from naming we have a naming uh from for example Paris Aai Brahma fusions apart from the names they are happily enough with the functionality and uh thank you for nicely answering those questions and and putting it even in a in a deck that was really nice from yesterday as a follow-up um just then a follow up on on that question like do you do you have an onboarding tool for customer meaning specifically can I scan my environment I mean yesterday you mentioned you have like up to 50 50,000 connectors um how does it work if I sign up today i want to I want to use your solution like how quickly can I scan my existing systems and then again you mentioned for example AWS integration and follow up to that um are you currently integrated into all the different cloud platforms and does it also work with on premise for example just a little bit further detail clarification there sure thank you so currently 70% of our customers are doing on premise deployment meaning that uh they are working in a contain air gap situations s currently yes we have an auto scan tools that we run in the beginning of our deployment to see all the cyber tools topology networks and then integrate as much as possible although they can also put in manually whether in some cases we don't recognize a new tools or technology but 50 tools cyber tools is already available out of box from our mark uh from our uh platforms and our next goal is actually when you go to Paris AI www paris.ai I you can uh schedule a demo or book our demo our goal is actually to make it like uh product growth that you can also register you can put in your your website domain which uh infrastructures and cloud environments that you are using now and just integrate our hyper automation platform well yesterday you mentioned um your sales cycle is about like around up to 6 months um what are your strategies to sort of reduce the sales cycle or um increase your contract value yes thank you so yes in the beginning my hypothesis is because we are also exploring in the beginning what how can we make uh give them the the best value propositions what should we do in the middle of this big elephants and big players fenders and we find out that hyper automations connecting tools from player A to player B is what they need the most and my hypothesis is during and even now we are doing implementations as long as in 3 weeks so the two quarters is actually when you are start beginning introducing your platforms until the commercial process ends it takes 6 months but after that we are shortening the process into as long as 3 weeks from the starting of giving our value at starting uh talking with our customers until the purchase order is coming into our platform so it's getting shorter and number two we are always work now we are working with distributors MSSP and partners to speed up the process because they know the regions they know their customers and we focus more as a principle as an R&D partner for them and just lastly you mentioned earlier localized focuses as as your focus can you just elaborate what you mean with localized focus on the Thank you so the foundational model that we build is also can be fine-tuned and this finetuning process happens in the customer inside the customers learning all the cyber threats incidents that this AI agents is currently processings it will weekly fine-tunes and becomes more specialized toward the customers",
+    "text_length": 8023,
+    "word_count": 1438
+  },
+  "segments": [
+    {
+      "start": 7.6,
+      "duration": 3.36,
+      "text": "hi first of all judges thank you for",
+      "timestamp": "00:07"
+    },
+    {
+      "start": 10.96,
+      "duration": 2.559,
+      "text": "selecting us as part of the top five in",
+      "timestamp": "00:10"
+    },
+    {
+      "start": 13.519,
+      "duration": 3.041,
+      "text": "decisions superai page or all the other",
+      "timestamp": "00:13"
+    },
+    {
+      "start": 16.56,
+      "duration": 3.84,
+      "text": "audience my name is David and I'm from",
+      "timestamp": "00:16"
+    },
+    {
+      "start": 20.4,
+      "duration": 2.719,
+      "text": "Paris AI",
+      "timestamp": "00:20"
+    },
+    {
+      "start": 23.119,
+      "duration": 3.121,
+      "text": "right now cyber security especially",
+      "timestamp": "00:23"
+    },
+    {
+      "start": 26.24,
+      "duration": 1.84,
+      "text": "legacy cyber security is facing a hard",
+      "timestamp": "00:26"
+    },
+    {
+      "start": 28.08,
+      "duration": 4.639,
+      "text": "time because 73% of companies are still",
+      "timestamp": "00:28"
+    },
+    {
+      "start": 32.719,
+      "duration": 3.281,
+      "text": "using tools built in 2010",
+      "timestamp": "00:32"
+    },
+    {
+      "start": 36.0,
+      "duration": 2.48,
+      "text": "meanwhile nowadays the bad guys and",
+      "timestamp": "00:36"
+    },
+    {
+      "start": 38.48,
+      "duration": 2.16,
+      "text": "threat actors are already using AI to",
+      "timestamp": "00:38"
+    },
+    {
+      "start": 40.64,
+      "duration": 1.68,
+      "text": "break into companies faster than any",
+      "timestamp": "00:40"
+    },
+    {
+      "start": 42.32,
+      "duration": 3.28,
+      "text": "human team can respond so your antivirus",
+      "timestamp": "00:42"
+    },
+    {
+      "start": 45.6,
+      "duration": 2.72,
+      "text": "from 2010 are piece of paper against",
+      "timestamp": "00:45"
+    },
+    {
+      "start": 48.32,
+      "duration": 2.48,
+      "text": "this AI powered attacks",
+      "timestamp": "00:48"
+    },
+    {
+      "start": 50.8,
+      "duration": 3.439,
+      "text": "so that's why we built Paris Aai Fusion",
+      "timestamp": "00:50"
+    },
+    {
+      "start": 54.239,
+      "duration": 2.48,
+      "text": "an agentic AI orchestration platforms",
+      "timestamp": "00:54"
+    },
+    {
+      "start": 56.719,
+      "duration": 2.64,
+      "text": "that detect respondse and adapts to",
+      "timestamp": "00:56"
+    },
+    {
+      "start": 59.359,
+      "duration": 4.241,
+      "text": "cyber threats in real time and it hyper",
+      "timestamp": "00:59"
+    },
+    {
+      "start": 63.6,
+      "duration": 3.44,
+      "text": "automates your security workflows and",
+      "timestamp": "01:03"
+    },
+    {
+      "start": 67.04,
+      "duration": 2.16,
+      "text": "let you put in AINS to work alongside",
+      "timestamp": "01:07"
+    },
+    {
+      "start": 69.2,
+      "duration": 1.919,
+      "text": "your team",
+      "timestamp": "01:09"
+    },
+    {
+      "start": 71.119,
+      "duration": 2.561,
+      "text": "so let's dive into some cool features",
+      "timestamp": "01:11"
+    },
+    {
+      "start": 73.68,
+      "duration": 2.32,
+      "text": "within our platform",
+      "timestamp": "01:13"
+    },
+    {
+      "start": 76.0,
+      "duration": 2.4,
+      "text": "creating playbooks used to be a tedious",
+      "timestamp": "01:16"
+    },
+    {
+      "start": 78.4,
+      "duration": 3.759,
+      "text": "task but with our playbook wizard it now",
+      "timestamp": "01:18"
+    },
+    {
+      "start": 82.159,
+      "duration": 2.64,
+      "text": "feels like you have an expert blue team",
+      "timestamp": "01:22"
+    },
+    {
+      "start": 84.799,
+      "duration": 2.561,
+      "text": "making it for you",
+      "timestamp": "01:24"
+    },
+    {
+      "start": 87.36,
+      "duration": 2.64,
+      "text": "even better she provides intelligent",
+      "timestamp": "01:27"
+    },
+    {
+      "start": 90.0,
+      "duration": 2.159,
+      "text": "suggestions on how to improve your",
+      "timestamp": "01:30"
+    },
+    {
+      "start": 92.159,
+      "duration": 1.92,
+      "text": "playbook based on your auto scan",
+      "timestamp": "01:32"
+    },
+    {
+      "start": 94.079,
+      "duration": 1.841,
+      "text": "topology",
+      "timestamp": "01:34"
+    },
+    {
+      "start": 95.92,
+      "duration": 2.0,
+      "text": "you can add orchestrator agents and",
+      "timestamp": "01:35"
+    },
+    {
+      "start": 97.92,
+      "duration": 2.32,
+      "text": "chain it with another specialized AI",
+      "timestamp": "01:37"
+    },
+    {
+      "start": 100.24,
+      "duration": 2.72,
+      "text": "agents to make faster smarter decisions",
+      "timestamp": "01:40"
+    },
+    {
+      "start": 102.96,
+      "duration": 3.04,
+      "text": "and with 50 integrations tools available",
+      "timestamp": "01:42"
+    },
+    {
+      "start": 106.0,
+      "duration": 2.0,
+      "text": "out of the box our platform can",
+      "timestamp": "01:46"
+    },
+    {
+      "start": 108.0,
+      "duration": 3.439,
+      "text": "automatically distribute the most uh the",
+      "timestamp": "01:48"
+    },
+    {
+      "start": 111.439,
+      "duration": 2.241,
+      "text": "cases to all the agents that you have",
+      "timestamp": "01:51"
+    },
+    {
+      "start": 113.68,
+      "duration": 2.56,
+      "text": "already deployed you get full visibility",
+      "timestamp": "01:53"
+    },
+    {
+      "start": 116.24,
+      "duration": 2.08,
+      "text": "into many how many agents are actively",
+      "timestamp": "01:56"
+    },
+    {
+      "start": 118.32,
+      "duration": 2.159,
+      "text": "working on the cases which cases they",
+      "timestamp": "01:58"
+    },
+    {
+      "start": 120.479,
+      "duration": 2.561,
+      "text": "are handling and the real-time triage",
+      "timestamp": "02:00"
+    },
+    {
+      "start": 123.04,
+      "duration": 3.759,
+      "text": "and prioritizations process",
+      "timestamp": "02:03"
+    },
+    {
+      "start": 126.799,
+      "duration": 3.361,
+      "text": "each case is tracked across its life",
+      "timestamp": "02:06"
+    },
+    {
+      "start": 130.16,
+      "duration": 3.12,
+      "text": "cycles so you know exactly at what stage",
+      "timestamp": "02:10"
+    },
+    {
+      "start": 133.28,
+      "duration": 3.28,
+      "text": "it's in and what's next what makes",
+      "timestamp": "02:13"
+    },
+    {
+      "start": 136.56,
+      "duration": 3.679,
+      "text": "Fusions truly unique is this your human",
+      "timestamp": "02:16"
+    },
+    {
+      "start": 140.239,
+      "duration": 2.561,
+      "text": "security team can chat and work side by",
+      "timestamp": "02:20"
+    },
+    {
+      "start": 142.8,
+      "duration": 3.12,
+      "text": "side with AI agents as if they were",
+      "timestamp": "02:22"
+    },
+    {
+      "start": 145.92,
+      "duration": 2.88,
+      "text": "additional team members so welcome to",
+      "timestamp": "02:25"
+    },
+    {
+      "start": 148.8,
+      "duration": 2.96,
+      "text": "the era of human and agentic AI",
+      "timestamp": "02:28"
+    },
+    {
+      "start": 151.76,
+      "duration": 2.0,
+      "text": "collaborations",
+      "timestamp": "02:31"
+    },
+    {
+      "start": 153.76,
+      "duration": 2.4,
+      "text": "and of course the results faster mean",
+      "timestamp": "02:33"
+    },
+    {
+      "start": 156.16,
+      "duration": 4.159,
+      "text": "time to detect with less people and 46%",
+      "timestamp": "02:36"
+    },
+    {
+      "start": 160.319,
+      "duration": 4.041,
+      "text": "less total cost of ownerships",
+      "timestamp": "02:40"
+    },
+    {
+      "start": 164.879,
+      "duration": 2.321,
+      "text": "19 enterprise clients chose free side to",
+      "timestamp": "02:44"
+    },
+    {
+      "start": 167.2,
+      "duration": 2.319,
+      "text": "defense what's that matters most",
+      "timestamp": "02:47"
+    },
+    {
+      "start": 169.519,
+      "duration": 1.921,
+      "text": "governments banks hospitals",
+      "timestamp": "02:49"
+    },
+    {
+      "start": 171.44,
+      "duration": 2.32,
+      "text": "manufacturers we are securing real",
+      "timestamp": "02:51"
+    },
+    {
+      "start": 173.76,
+      "duration": 2.88,
+      "text": "infrastructures every single day and the",
+      "timestamp": "02:53"
+    },
+    {
+      "start": 176.64,
+      "duration": 2.56,
+      "text": "question is when a big competitor",
+      "timestamp": "02:56"
+    },
+    {
+      "start": 179.2,
+      "duration": 2.24,
+      "text": "aggressively lowers their price what",
+      "timestamp": "02:59"
+    },
+    {
+      "start": 181.44,
+      "duration": 4.56,
+      "text": "would Paris AI do our response is simple",
+      "timestamp": "03:01"
+    },
+    {
+      "start": 186.0,
+      "duration": 2.8,
+      "text": "we don't compete on price we compete on",
+      "timestamp": "03:06"
+    },
+    {
+      "start": 188.8,
+      "duration": 2.48,
+      "text": "value",
+      "timestamp": "03:08"
+    },
+    {
+      "start": 191.28,
+      "duration": 1.92,
+      "text": "big companies often focus on their",
+      "timestamp": "03:11"
+    },
+    {
+      "start": 193.2,
+      "duration": 3.84,
+      "text": "existing enterprise customers we focus",
+      "timestamp": "03:13"
+    },
+    {
+      "start": 197.04,
+      "duration": 3.44,
+      "text": "on midsize businesses",
+      "timestamp": "03:17"
+    },
+    {
+      "start": 200.48,
+      "duration": 2.96,
+      "text": "we are offering flexibility localized",
+      "timestamp": "03:20"
+    },
+    {
+      "start": 203.44,
+      "duration": 4.48,
+      "text": "solutions and interoperability",
+      "timestamp": "03:23"
+    },
+    {
+      "start": 207.92,
+      "duration": 2.08,
+      "text": "things that larger vendors can struggle",
+      "timestamp": "03:27"
+    },
+    {
+      "start": 210.0,
+      "duration": 3.239,
+      "text": "to do",
+      "timestamp": "03:30"
+    },
+    {
+      "start": 213.84,
+      "duration": 2.8,
+      "text": "we are not trying to replace their",
+      "timestamp": "03:33"
+    },
+    {
+      "start": 216.64,
+      "duration": 3.599,
+      "text": "enterprise solutions we are addressing a",
+      "timestamp": "03:36"
+    },
+    {
+      "start": 220.239,
+      "duration": 3.601,
+      "text": "gap in the market where those business",
+      "timestamp": "03:40"
+    },
+    {
+      "start": 223.84,
+      "duration": 2.399,
+      "text": "need a faster and more collaborative",
+      "timestamp": "03:43"
+    },
+    {
+      "start": 226.239,
+      "duration": 2.961,
+      "text": "approach while larger vendors are",
+      "timestamp": "03:46"
+    },
+    {
+      "start": 229.2,
+      "duration": 2.08,
+      "text": "focused on their current business models",
+      "timestamp": "03:49"
+    },
+    {
+      "start": 231.28,
+      "duration": 2.72,
+      "text": "we are moving quickly integrating into",
+      "timestamp": "03:51"
+    },
+    {
+      "start": 234.0,
+      "duration": 2.0,
+      "text": "existing cyber tools that our customers",
+      "timestamp": "03:54"
+    },
+    {
+      "start": 236.0,
+      "duration": 4.159,
+      "text": "has already purchased so we are adapting",
+      "timestamp": "03:56"
+    },
+    {
+      "start": 240.159,
+      "duration": 4.481,
+      "text": "to the needs of our midsize customers",
+      "timestamp": "04:00"
+    },
+    {
+      "start": 244.64,
+      "duration": 2.56,
+      "text": "the next questions is about licensing",
+      "timestamp": "04:04"
+    },
+    {
+      "start": 247.2,
+      "duration": 3.119,
+      "text": "versus pay as you go model now a",
+      "timestamp": "04:07"
+    },
+    {
+      "start": 250.319,
+      "duration": 2.56,
+      "text": "licensing model gives us predictability",
+      "timestamp": "04:10"
+    },
+    {
+      "start": 252.879,
+      "duration": 4.001,
+      "text": "and stable revenue which allows us to",
+      "timestamp": "04:12"
+    },
+    {
+      "start": 256.88,
+      "duration": 3.28,
+      "text": "continuously invest in our R&D",
+      "timestamp": "04:16"
+    },
+    {
+      "start": 260.16,
+      "duration": 2.0,
+      "text": "our target customers often operates in a",
+      "timestamp": "04:20"
+    },
+    {
+      "start": 262.16,
+      "duration": 3.68,
+      "text": "tight budget so they prefer simplicity",
+      "timestamp": "04:22"
+    },
+    {
+      "start": 265.84,
+      "duration": 1.84,
+      "text": "or a fixed cost rather than worrying",
+      "timestamp": "04:25"
+    },
+    {
+      "start": 267.68,
+      "duration": 3.28,
+      "text": "about spikes in usage fees and it also",
+      "timestamp": "04:27"
+    },
+    {
+      "start": 270.96,
+      "duration": 1.84,
+      "text": "help us build longerterm relationship",
+      "timestamp": "04:30"
+    },
+    {
+      "start": 272.8,
+      "duration": 2.72,
+      "text": "with them with annual or multi-year uh",
+      "timestamp": "04:32"
+    },
+    {
+      "start": 275.52,
+      "duration": 2.16,
+      "text": "license it reduced churn and makes it",
+      "timestamp": "04:35"
+    },
+    {
+      "start": 277.68,
+      "duration": 2.959,
+      "text": "easier to roll out new features",
+      "timestamp": "04:37"
+    },
+    {
+      "start": 280.639,
+      "duration": 3.681,
+      "text": "but as of we are talking now uh Olivia",
+      "timestamp": "04:40"
+    },
+    {
+      "start": 284.32,
+      "duration": 2.48,
+      "text": "the currently uh we are doing also",
+      "timestamp": "04:44"
+    },
+    {
+      "start": 286.8,
+      "duration": 3.36,
+      "text": "integrations to the AWS marketplace",
+      "timestamp": "04:46"
+    },
+    {
+      "start": 290.16,
+      "duration": 3.599,
+      "text": "so it gives low barrier to entry to our",
+      "timestamp": "04:50"
+    },
+    {
+      "start": 293.759,
+      "duration": 3.681,
+      "text": "new customers and lower resistance and",
+      "timestamp": "04:53"
+    },
+    {
+      "start": 297.44,
+      "duration": 2.88,
+      "text": "it will gives a more datadriven insects",
+      "timestamp": "04:57"
+    },
+    {
+      "start": 300.32,
+      "duration": 2.96,
+      "text": "to us so currently we are also looking",
+      "timestamp": "05:00"
+    },
+    {
+      "start": 303.28,
+      "duration": 2.4,
+      "text": "forward to integrating into the",
+      "timestamp": "05:03"
+    },
+    {
+      "start": 305.68,
+      "duration": 1.68,
+      "text": "marketplaces",
+      "timestamp": "05:05"
+    },
+    {
+      "start": 307.36,
+      "duration": 2.96,
+      "text": "so thank you\n thank you David um so",
+      "timestamp": "05:07"
+    },
+    {
+      "start": 310.32,
+      "duration": 1.68,
+      "text": "yesterday I asked a question on market",
+      "timestamp": "05:10"
+    },
+    {
+      "start": 312.0,
+      "duration": 2.16,
+      "text": "expansion and you'd mentioned that you",
+      "timestamp": "05:12"
+    },
+    {
+      "start": 314.16,
+      "duration": 2.24,
+      "text": "next month are expanding to the Middle",
+      "timestamp": "05:14"
+    },
+    {
+      "start": 316.4,
+      "duration": 2.799,
+      "text": "East so tell us what what needs to",
+      "timestamp": "05:16"
+    },
+    {
+      "start": 319.199,
+      "duration": 3.361,
+      "text": "change to win the Middle East maybe",
+      "timestamp": "05:19"
+    },
+    {
+      "start": 322.56,
+      "duration": 1.919,
+      "text": "technology maybe product maybe",
+      "timestamp": "05:22"
+    },
+    {
+      "start": 324.479,
+      "duration": 2.72,
+      "text": "implementation maybe approach go to",
+      "timestamp": "05:24"
+    },
+    {
+      "start": 327.199,
+      "duration": 2.641,
+      "text": "market right walk us through that\n so we",
+      "timestamp": "05:27"
+    },
+    {
+      "start": 329.84,
+      "duration": 2.4,
+      "text": "are not like entirely focus our",
+      "timestamp": "05:29"
+    },
+    {
+      "start": 332.24,
+      "duration": 1.76,
+      "text": "expansions to Middle East but then the",
+      "timestamp": "05:32"
+    },
+    {
+      "start": 334.0,
+      "duration": 2.32,
+      "text": "inbound requests from our potential",
+      "timestamp": "05:34"
+    },
+    {
+      "start": 336.32,
+      "duration": 2.24,
+      "text": "partners coming our focus is to",
+      "timestamp": "05:36"
+    },
+    {
+      "start": 338.56,
+      "duration": 2.4,
+      "text": "strengthen our turf which is Southeast",
+      "timestamp": "05:38"
+    },
+    {
+      "start": 340.96,
+      "duration": 2.88,
+      "text": "Asia and Asia Pacific as a regions but",
+      "timestamp": "05:40"
+    },
+    {
+      "start": 343.84,
+      "duration": 2.32,
+      "text": "whenever there is an opportunity comes",
+      "timestamp": "05:43"
+    },
+    {
+      "start": 346.16,
+      "duration": 4.319,
+      "text": "from MSSP MSP then we are happily enough",
+      "timestamp": "05:46"
+    },
+    {
+      "start": 350.479,
+      "duration": 3.921,
+      "text": "to explore and see if there is any",
+      "timestamp": "05:50"
+    },
+    {
+      "start": 354.4,
+      "duration": 2.239,
+      "text": "interest moves",
+      "timestamp": "05:54"
+    },
+    {
+      "start": 356.639,
+      "duration": 3.201,
+      "text": "what makes what moves the fast we are",
+      "timestamp": "05:56"
+    },
+    {
+      "start": 359.84,
+      "duration": 2.32,
+      "text": "going with them\n okay and these inbound",
+      "timestamp": "05:59"
+    },
+    {
+      "start": 362.16,
+      "duration": 2.319,
+      "text": "request um are they happy just to take",
+      "timestamp": "06:02"
+    },
+    {
+      "start": 364.479,
+      "duration": 2.881,
+      "text": "the product as is or do they have um",
+      "timestamp": "06:04"
+    },
+    {
+      "start": 367.36,
+      "duration": 2.08,
+      "text": "input and say hey for this to work for",
+      "timestamp": "06:07"
+    },
+    {
+      "start": 369.44,
+      "duration": 2.879,
+      "text": "me I need it to be X or Y not",
+      "timestamp": "06:09"
+    },
+    {
+      "start": 372.319,
+      "duration": 3.201,
+      "text": "technicality but then from naming we",
+      "timestamp": "06:12"
+    },
+    {
+      "start": 375.52,
+      "duration": 3.44,
+      "text": "have a naming uh from for example Paris",
+      "timestamp": "06:15"
+    },
+    {
+      "start": 378.96,
+      "duration": 2.48,
+      "text": "Aai Brahma fusions apart from the names",
+      "timestamp": "06:18"
+    },
+    {
+      "start": 381.44,
+      "duration": 1.52,
+      "text": "they are happily enough with the",
+      "timestamp": "06:21"
+    },
+    {
+      "start": 382.96,
+      "duration": 2.32,
+      "text": "functionality\n and uh thank you for",
+      "timestamp": "06:22"
+    },
+    {
+      "start": 385.28,
+      "duration": 2.0,
+      "text": "nicely answering those questions and and",
+      "timestamp": "06:25"
+    },
+    {
+      "start": 387.28,
+      "duration": 1.68,
+      "text": "putting it even in a in a deck that was",
+      "timestamp": "06:27"
+    },
+    {
+      "start": 388.96,
+      "duration": 1.28,
+      "text": "really nice from yesterday as a",
+      "timestamp": "06:28"
+    },
+    {
+      "start": 390.24,
+      "duration": 3.28,
+      "text": "follow-up um just then a follow up on on",
+      "timestamp": "06:30"
+    },
+    {
+      "start": 393.52,
+      "duration": 2.16,
+      "text": "that question like do you do you have an",
+      "timestamp": "06:33"
+    },
+    {
+      "start": 395.68,
+      "duration": 1.84,
+      "text": "onboarding tool for customer meaning",
+      "timestamp": "06:35"
+    },
+    {
+      "start": 397.52,
+      "duration": 2.56,
+      "text": "specifically can I scan my environment I",
+      "timestamp": "06:37"
+    },
+    {
+      "start": 400.08,
+      "duration": 1.119,
+      "text": "mean yesterday you mentioned you have",
+      "timestamp": "06:40"
+    },
+    {
+      "start": 401.199,
+      "duration": 4.72,
+      "text": "like up to 50 50,000 connectors um how",
+      "timestamp": "06:41"
+    },
+    {
+      "start": 405.919,
+      "duration": 2.0,
+      "text": "does it work if I sign up today i want",
+      "timestamp": "06:45"
+    },
+    {
+      "start": 407.919,
+      "duration": 1.921,
+      "text": "to I want to use your solution like how",
+      "timestamp": "06:47"
+    },
+    {
+      "start": 409.84,
+      "duration": 2.079,
+      "text": "quickly can I scan my existing systems",
+      "timestamp": "06:49"
+    },
+    {
+      "start": 411.919,
+      "duration": 1.441,
+      "text": "and then again you mentioned for example",
+      "timestamp": "06:51"
+    },
+    {
+      "start": 413.36,
+      "duration": 2.72,
+      "text": "AWS integration and follow up to that um",
+      "timestamp": "06:53"
+    },
+    {
+      "start": 416.08,
+      "duration": 1.44,
+      "text": "are you currently integrated into all",
+      "timestamp": "06:56"
+    },
+    {
+      "start": 417.52,
+      "duration": 2.0,
+      "text": "the different cloud platforms and does",
+      "timestamp": "06:57"
+    },
+    {
+      "start": 419.52,
+      "duration": 1.92,
+      "text": "it also work with on premise for example",
+      "timestamp": "06:59"
+    },
+    {
+      "start": 421.44,
+      "duration": 1.599,
+      "text": "just a little bit further detail",
+      "timestamp": "07:01"
+    },
+    {
+      "start": 423.039,
+      "duration": 3.44,
+      "text": "clarification there\n sure thank you so",
+      "timestamp": "07:03"
+    },
+    {
+      "start": 426.479,
+      "duration": 3.521,
+      "text": "currently 70% of our customers are doing",
+      "timestamp": "07:06"
+    },
+    {
+      "start": 430.0,
+      "duration": 2.96,
+      "text": "on premise deployment meaning that uh",
+      "timestamp": "07:10"
+    },
+    {
+      "start": 432.96,
+      "duration": 2.72,
+      "text": "they are working in a contain air gap",
+      "timestamp": "07:12"
+    },
+    {
+      "start": 435.68,
+      "duration": 3.2,
+      "text": "situations s currently yes we have an",
+      "timestamp": "07:15"
+    },
+    {
+      "start": 438.88,
+      "duration": 3.28,
+      "text": "auto scan tools that we run in the",
+      "timestamp": "07:18"
+    },
+    {
+      "start": 442.16,
+      "duration": 3.12,
+      "text": "beginning of our deployment to see all",
+      "timestamp": "07:22"
+    },
+    {
+      "start": 445.28,
+      "duration": 3.039,
+      "text": "the cyber tools topology networks and",
+      "timestamp": "07:25"
+    },
+    {
+      "start": 448.319,
+      "duration": 1.921,
+      "text": "then integrate as much as possible",
+      "timestamp": "07:28"
+    },
+    {
+      "start": 450.24,
+      "duration": 2.64,
+      "text": "although they can also put in manually",
+      "timestamp": "07:30"
+    },
+    {
+      "start": 452.88,
+      "duration": 2.8,
+      "text": "whether in some cases we don't recognize",
+      "timestamp": "07:32"
+    },
+    {
+      "start": 455.68,
+      "duration": 2.32,
+      "text": "a new tools or technology but 50 tools",
+      "timestamp": "07:35"
+    },
+    {
+      "start": 458.0,
+      "duration": 2.319,
+      "text": "cyber tools is already available out of",
+      "timestamp": "07:38"
+    },
+    {
+      "start": 460.319,
+      "duration": 2.481,
+      "text": "box from our mark uh from our uh",
+      "timestamp": "07:40"
+    },
+    {
+      "start": 462.8,
+      "duration": 3.6,
+      "text": "platforms and our next goal is actually",
+      "timestamp": "07:42"
+    },
+    {
+      "start": 466.4,
+      "duration": 3.199,
+      "text": "when you go to Paris AI www",
+      "timestamp": "07:46"
+    },
+    {
+      "start": 469.599,
+      "duration": 3.201,
+      "text": "paris.ai I you can uh schedule a demo or",
+      "timestamp": "07:49"
+    },
+    {
+      "start": 472.8,
+      "duration": 1.92,
+      "text": "book our demo our goal is actually to",
+      "timestamp": "07:52"
+    },
+    {
+      "start": 474.72,
+      "duration": 4.56,
+      "text": "make it like uh product growth that you",
+      "timestamp": "07:54"
+    },
+    {
+      "start": 479.28,
+      "duration": 2.319,
+      "text": "can also register you can put in your",
+      "timestamp": "07:59"
+    },
+    {
+      "start": 481.599,
+      "duration": 2.481,
+      "text": "your website domain which uh",
+      "timestamp": "08:01"
+    },
+    {
+      "start": 484.08,
+      "duration": 1.839,
+      "text": "infrastructures and cloud environments",
+      "timestamp": "08:04"
+    },
+    {
+      "start": 485.919,
+      "duration": 2.321,
+      "text": "that you are using now and just",
+      "timestamp": "08:05"
+    },
+    {
+      "start": 488.24,
+      "duration": 2.56,
+      "text": "integrate our hyper automation platform",
+      "timestamp": "08:08"
+    },
+    {
+      "start": 490.8,
+      "duration": 2.72,
+      "text": "well yesterday you mentioned um your",
+      "timestamp": "08:10"
+    },
+    {
+      "start": 493.52,
+      "duration": 2.64,
+      "text": "sales cycle is about like around up to 6",
+      "timestamp": "08:13"
+    },
+    {
+      "start": 496.16,
+      "duration": 2.56,
+      "text": "months um what are your strategies to",
+      "timestamp": "08:16"
+    },
+    {
+      "start": 498.72,
+      "duration": 3.12,
+      "text": "sort of reduce the sales cycle or um",
+      "timestamp": "08:18"
+    },
+    {
+      "start": 501.84,
+      "duration": 2.799,
+      "text": "increase your contract value\n yes thank",
+      "timestamp": "08:21"
+    },
+    {
+      "start": 504.639,
+      "duration": 3.601,
+      "text": "you so yes in the beginning my",
+      "timestamp": "08:24"
+    },
+    {
+      "start": 508.24,
+      "duration": 1.92,
+      "text": "hypothesis is because we are also",
+      "timestamp": "08:28"
+    },
+    {
+      "start": 510.16,
+      "duration": 2.879,
+      "text": "exploring in the beginning what how can",
+      "timestamp": "08:30"
+    },
+    {
+      "start": 513.039,
+      "duration": 4.401,
+      "text": "we make uh give them the the best value",
+      "timestamp": "08:33"
+    },
+    {
+      "start": 517.44,
+      "duration": 2.399,
+      "text": "propositions what should we do in the",
+      "timestamp": "08:37"
+    },
+    {
+      "start": 519.839,
+      "duration": 2.08,
+      "text": "middle of this big elephants and big",
+      "timestamp": "08:39"
+    },
+    {
+      "start": 521.919,
+      "duration": 2.401,
+      "text": "players fenders and we find out that",
+      "timestamp": "08:41"
+    },
+    {
+      "start": 524.32,
+      "duration": 2.72,
+      "text": "hyper automations connecting tools from",
+      "timestamp": "08:44"
+    },
+    {
+      "start": 527.04,
+      "duration": 2.0,
+      "text": "player A to player B is what they need",
+      "timestamp": "08:47"
+    },
+    {
+      "start": 529.04,
+      "duration": 4.0,
+      "text": "the most and my hypothesis is during and",
+      "timestamp": "08:49"
+    },
+    {
+      "start": 533.04,
+      "duration": 2.88,
+      "text": "even now we are doing implementations as",
+      "timestamp": "08:53"
+    },
+    {
+      "start": 535.92,
+      "duration": 2.8,
+      "text": "long as in 3 weeks so the two quarters",
+      "timestamp": "08:55"
+    },
+    {
+      "start": 538.72,
+      "duration": 2.64,
+      "text": "is actually when you are start beginning",
+      "timestamp": "08:58"
+    },
+    {
+      "start": 541.36,
+      "duration": 3.36,
+      "text": "introducing your platforms until the",
+      "timestamp": "09:01"
+    },
+    {
+      "start": 544.72,
+      "duration": 2.08,
+      "text": "commercial process ends it takes 6",
+      "timestamp": "09:04"
+    },
+    {
+      "start": 546.8,
+      "duration": 2.88,
+      "text": "months but after that",
+      "timestamp": "09:06"
+    },
+    {
+      "start": 549.68,
+      "duration": 3.12,
+      "text": "we are shortening the process into as",
+      "timestamp": "09:09"
+    },
+    {
+      "start": 552.8,
+      "duration": 2.719,
+      "text": "long as 3 weeks from the starting of",
+      "timestamp": "09:12"
+    },
+    {
+      "start": 555.519,
+      "duration": 2.721,
+      "text": "giving our value at starting uh talking",
+      "timestamp": "09:15"
+    },
+    {
+      "start": 558.24,
+      "duration": 2.159,
+      "text": "with our customers until the purchase",
+      "timestamp": "09:18"
+    },
+    {
+      "start": 560.399,
+      "duration": 1.761,
+      "text": "order is coming into our platform so",
+      "timestamp": "09:20"
+    },
+    {
+      "start": 562.16,
+      "duration": 1.92,
+      "text": "it's getting shorter and number two we",
+      "timestamp": "09:22"
+    },
+    {
+      "start": 564.08,
+      "duration": 2.56,
+      "text": "are always work now we are working with",
+      "timestamp": "09:24"
+    },
+    {
+      "start": 566.64,
+      "duration": 2.72,
+      "text": "distributors MSSP and partners to speed",
+      "timestamp": "09:26"
+    },
+    {
+      "start": 569.36,
+      "duration": 1.84,
+      "text": "up the process because they know the",
+      "timestamp": "09:29"
+    },
+    {
+      "start": 571.2,
+      "duration": 3.36,
+      "text": "regions they know their customers and we",
+      "timestamp": "09:31"
+    },
+    {
+      "start": 574.56,
+      "duration": 2.8,
+      "text": "focus more as a principle as an R&D",
+      "timestamp": "09:34"
+    },
+    {
+      "start": 577.36,
+      "duration": 2.0,
+      "text": "partner for them\n and just lastly you",
+      "timestamp": "09:37"
+    },
+    {
+      "start": 579.36,
+      "duration": 2.56,
+      "text": "mentioned earlier localized focuses as",
+      "timestamp": "09:39"
+    },
+    {
+      "start": 581.92,
+      "duration": 1.52,
+      "text": "as your focus can you just elaborate",
+      "timestamp": "09:41"
+    },
+    {
+      "start": 583.44,
+      "duration": 1.68,
+      "text": "what you mean with localized focus on",
+      "timestamp": "09:43"
+    },
+    {
+      "start": 585.12,
+      "duration": 2.0,
+      "text": "the\n Thank you so the foundational model",
+      "timestamp": "09:45"
+    },
+    {
+      "start": 587.12,
+      "duration": 2.96,
+      "text": "that we build is also can be fine-tuned",
+      "timestamp": "09:47"
+    },
+    {
+      "start": 590.08,
+      "duration": 2.64,
+      "text": "and this finetuning process happens in",
+      "timestamp": "09:50"
+    },
+    {
+      "start": 592.72,
+      "duration": 1.52,
+      "text": "the customer inside the customers",
+      "timestamp": "09:52"
+    },
+    {
+      "start": 594.24,
+      "duration": 2.08,
+      "text": "learning all the cyber threats incidents",
+      "timestamp": "09:54"
+    },
+    {
+      "start": 596.32,
+      "duration": 1.92,
+      "text": "that this AI agents is currently",
+      "timestamp": "09:56"
+    },
+    {
+      "start": 598.24,
+      "duration": 2.719,
+      "text": "processings it will weekly fine-tunes",
+      "timestamp": "09:58"
+    },
+    {
+      "start": 600.959,
+      "duration": 2.481,
+      "text": "and becomes more specialized toward the",
+      "timestamp": "10:00"
+    },
+    {
+      "start": 603.44,
+      "duration": 3.0,
+      "text": "customers",
+      "timestamp": "10:03"
+    }
+  ],
+  "extraction_timestamp": "2025-06-29T21:04:35.404942",
+  "playlist_title": "SuperAI Singapore 2025: WEKA Stage"
+}

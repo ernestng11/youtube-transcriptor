@@ -1,0 +1,2261 @@
+{
+  "video_id": "huoxVhrfRl4",
+  "video_title": "Chris Hallenbeck - The Responsible Path to Hyperproductivity with AI Agents - SuperAI Singapore 2025",
+  "video_url": "https://www.youtube.com/watch?v=huoxVhrfRl4",
+  "channel_title": "SuperAI",
+  "published_at": "2025-06-25T06:27:17+00:00",
+  "duration_seconds": null,
+  "view_count": 18,
+  "like_count": 0,
+  "description": "Learn more about SuperAI: superai.com\nFollow us on X: x.com/superai_conf\n\nKeynote: AI Agent Management: The Responsible Path to Hyperproductivity with AI Agents\n\nSpeaker:\nChris Hallenbeck, Senior VP and GM, AI and Platform @ Boomi\n\nStage: WEKA Stage\n#superai #boomi #aiagents #productivity #aiproductivity\n\nRecorded on 19 June 2025",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 373,
+    "aggregated_text": "i'm here to talk about responsible um hyperproductivity using agents and how we can actually begin to do this at scale um I'm going to talk about some things that are in we actually have a fully generally available product that people are using today i also want to be able to talk a road map so I have to have this slide the lawyers say we are moving from a period right now where we've gone through the last decade and we really talked about digital transformation how do we actually build end to end prize um endtoend processes that are fully interconnected even with different applications we began to look at how we can digitize the interaction with our customers but also build our processes not from our internal out perspective but by from the outside in which also led to brand new channels and and very innovative ways of working with our customers um and that's been fantastic but now we're beginning to transition we're beginning because that that is that phase is kind of over and actually been done well and now we're beginning to say how can I actually leverage aic how can I start to look at these non-deterministic processes and begin to do those and get away from hardcoded rigid approaches this isn't just marketing it's actually what the data says the data comes in and right now you see 73% of companies thinking that AI agents are going to be the biggest game changer in their business not top five not this the biggest change that is happening right now i think it's interesting that McKenzie just came out with a report targeted at CIO CEOs saying this is now that level of a topic you need to care what's interesting though and I'm sure many people in this audience have had the same result we speak to actually to the business they're not ready they're like I actually don't trust agents i don't understand the security i don't understand non-determinism i like my rigid processes even though they're not really being honest with themselves that many of these have humans involved in them and humans are inherently non-deterministic now why Boommy exists is actually to take that 2% and bring that up to 100% how do we actually build trust in Agent Workflows now like any enterprise software company out there you either know them to death and you've heard about them all the time or you don't know them boomie's actually been around for a while you might have seen in the latest Gartner Magic Quadrant integration platform as a service we're in the top right hand corner uh we're the only companies that been there for 11 time for 11 years straight um within that we have um over 170,000 runtimes of Boommy running out in our SAS platform and it runs in manage clouds private clouds all the way down to onrem all ser all all seamlessly we also have many different data capabilities including master data management which becomes key to agentic when we think of reference data with over 8.7 billion records um added annually and I think more more importantly 3.6 trillion messages are being processed across our framework seamlessly every year so we have tremendous reach and power of looking at workflows looking at automations looking at integrations which is where we talk about now driving agentic and this is why Boommy now Boom is not new to this at all actually so we built and started using classical machine learning in our platform starting back in 2010 and using those approaches to actually make it easier to build integrations um but over the last two years we've been driving Gen AI directly into the platform to make it easier for people to do things like build integrations so that I can define two endpoints and it will pull on our history of over 300 million integrations built on our platform and apply that to your unique situation and make recommendations we take 80% of the time out of building all the documentation required we can point at an API and automatically scrub through the documentation gen the YAML and then create the endpoint for you to start extracting data and putting into things like Snowflake and data bricks and doing that automatically and generating all all the documentation on your behalf within this we have over 39,000 agents currently in production in our system for our customer base we also use it extensively through Boommy ourselves to be honest it uses everything from our sales department finance group marketing etc we identify everything in our company what this led us to do though in hearing from customers was that yes we love having AI in Boommy to make Boommy easier to use i now want to use it in my own processes to do this and for that we have agent studio which is generally available today not early access not anything like that everything I'm talking about here today is generally available unless of course I talk about roadmap what we designed the system first is to make it easier and to design agents with confidence we're great use bedrock build it there grab a Salesforce agent all for it but there are times where I want to build an agent seamlessly and easily in under five minutes on a platform and be able to deploy that much more straightforward use cases where I don't need to train it on data i simply want to actually use a genai agent and deploy it seamlessly talk about that the thing that is big though that we keep hearing now in the last week everyone's talking about agentic mesh is the ability to actually have complete governance can I have a control plane that looks not only at the agents I've built with a platform like Boommy but with all my different platforms in a common control plane with full management observability and governance including the audit logs that I need to actually see that and show to auditors so when I'm doing regulated processes I'm okay so people are talking about the need for this boommy does this today and of course though that's all cool but how do I unleash that that energy i need to be able to put it into a workflow into an automation into a custom application we do that as well so step back and think about what goes into an agent because many people sure if you're an engineer you do this and you think about it but for everybody else to me I think about a genai agent and I like to think of it as potential energy and actually relatively low potential energy and now I need to give that thing context tell me about the customer tell me how important they are how many years they've worked with me tell me then about how they've about what they their purchase industry all that tell me about the current open service tickets they have with us now I've risen that agent up and given it huge amounts of potential energy but now I actually want to unleash that as kinetic energy how do you do that well I need to be able to take that and actually drop it into an automation drop it into an integration expose it as an API so that I can tie it into the rest of my software stack or build it out into a custom app this is what Boommy allows in the platform not only building up and having all those connections but the ability to then unleash that and do these things in less than an hour so number one how do I build and design agents with confidence you can of course like I said build these things with you build them over in bedrock if you're going to do your own training that's not what we do but if I'm just building a a straightforward agent where I want to give it a goal using a classical model like something from Anthropic or Open AI and I want to gen that out I need to have a very simple builder to do this one that allows me to go through define the profile define the reasoning and the tasks what are those steps then linking in the tools to provide all of that context and history to that task to make it intelligent obviously proving all the guard rails and automatically doing stuff like protecting you against prompt injection and then letting me do attributes and then do full QA and review of that agent before I deploy it including full traceability of all the tools coming in and doing this with no code that means I don't need a specialized team that works for weeks building something bespoke i can actually do this on I can do this by the teams working close to the business i can put this in the product teams and have them be fully self-sufficient and do revisions of this as often as they like as they want to build out new versions now I talk about governance we then have agent control tower which here you see automatically integrates with Amazon Bedrock i should have mentioned back here you can also we are only one of five companies that have passed the security certifications to type into Amazon Q index for I can actually bring in context directly in we're very close partner with Amazon I can then come back here though and do govern I can go directly into bedrock and bring all their agents in I'll be announcing several more platforms in the coming weeks from the largest providers that automatically bring them in but of course you can register any agent manually directly into the system i then have the ability to see complete complete observability on how it's being consumed how many tokens i can do forecasting on that usage i can see their performance metrics um response times dig into their tools and see how they're performing throughout but as I get into more and more agents and I'm concerned with Agentex sprawl I can't do that for every tool so of course we then bring in anomaly detection so we're automatically finding what you need to hunt down and look at and then make decisions do I maybe need to turn off this agent which I can also do directly from within the platform so and then we get into getting into immutable logs which actually comes out very shortly in the platform that we have where I can actually so for fully regulated processes I have those audit logs that are needed by like the EU AI act and for and just generally by your auditors if they come check out things in like finance and lastly we get into how do I then unleash that energy kinetically and that's where I can drop it in here you can see where somebody was in a workflow and they had had a code block that was completely deterministic and suboptimal and didn't actually really meet all my needs and here I've built an agent and I'm just going to click on agent and drop it into that workflow instantly deployed i do that in dev i'm happy click transport and it's in production this is production software today not a demo not a thought built here today coming out very shortly in a few weeks we also have complete MCP support not only built into the agent building but also within our API management we're one of the biggest API management companies out there with a complete API control plane and in there we'll also give the full ability for you to build and take your individual AC uh APIs also taking in your data pipelines your events and exposing those out automatically internally as MCP servers so a complete endtoend entire platform for agentic so as we start to talk about why boommy I've talked about universal governance we talk to CIOS they skip the agents and they go talk to me about governance talk to me about talk to me about actually your audit logs and other components I've put production algorithms into production in finance and gone through the auditors we already understand the requirements and that's what we built into Boommy we've built it for thousands and thousands of agents and how do I manage all those agents at scale which is something we learned when we had the API problem and that got running away and we realized we needed control planes next up is no walled gardens every vendor out there is trying to lock you into their platform build agents with me use my platform and then you're stuck with that individual system we don't know who's going to be better today anthropics got incredible model then I see open AI now some of the upcoming small models that are being working with um that are coming up on the industry and line of business specific are phenomenal or maybe I have a narrower use case and I realize I don't need to use a big large model like something like a sonnet and I want to drop down to haiku i can do that at a tenth the cost run 20 times faster have a better user experience let me swap back and forth the problem today is when I do that I have to recode and redo everything boommy makes that seamless so I don't have to rebuild all my tools i don't also need to build the outputs in the integration it's just an upgrade now some people are saying don't you have to reorder the prompt and redo that to have an optimized answer and the answer is yes we do that you need powerful tools i had that huge list up there api access they don't have to be built with Boommy you've got Kong APIs use Kong APIs bring those in but data pipelines database access files access to all those systems all provided drag and drop in the Boommy platform when I'm building my agents also mentioned Amazon QX and that very shortly in a few weeks we'll be releasing full MCP support also then no code we're not saying you don't need agents that you build with your own data that you may want to build via command line interface go build those inside Amazon go build those in Langchain but you need to be able to manage and orchestrate those and drop them into Boommy and now I have that full governance platform so that I can have observability and management and governance of those systems built in um so with that I'd like to thank you all what I'd like to do is introduce you we're in a booth right over there we hope you stop by if you see one of the lovely women in the pink shirts they can give you cards we have some great giveaways if you do that you can come by and take your pick so anyways thank you very much for coming i appreciate your time",
+    "text_length": 13891,
+    "word_count": 2570
+  },
+  "segments": [
+    {
+      "start": 7.44,
+      "duration": 2.96,
+      "text": "i'm here to talk about responsible um",
+      "timestamp": "00:07"
+    },
+    {
+      "start": 10.4,
+      "duration": 2.319,
+      "text": "hyperproductivity using agents and how",
+      "timestamp": "00:10"
+    },
+    {
+      "start": 12.719,
+      "duration": 1.441,
+      "text": "we can actually begin to do this at",
+      "timestamp": "00:12"
+    },
+    {
+      "start": 14.16,
+      "duration": 2.32,
+      "text": "scale",
+      "timestamp": "00:14"
+    },
+    {
+      "start": 16.48,
+      "duration": 1.68,
+      "text": "um I'm going to talk about some things",
+      "timestamp": "00:16"
+    },
+    {
+      "start": 18.16,
+      "duration": 1.52,
+      "text": "that are in we actually have a fully",
+      "timestamp": "00:18"
+    },
+    {
+      "start": 19.68,
+      "duration": 1.599,
+      "text": "generally available product that people",
+      "timestamp": "00:19"
+    },
+    {
+      "start": 21.279,
+      "duration": 2.321,
+      "text": "are using today i also want to be able",
+      "timestamp": "00:21"
+    },
+    {
+      "start": 23.6,
+      "duration": 1.759,
+      "text": "to talk a road map so I have to have",
+      "timestamp": "00:23"
+    },
+    {
+      "start": 25.359,
+      "duration": 3.601,
+      "text": "this slide the lawyers say",
+      "timestamp": "00:25"
+    },
+    {
+      "start": 28.96,
+      "duration": 2.8,
+      "text": "we are moving from a period right now",
+      "timestamp": "00:28"
+    },
+    {
+      "start": 31.76,
+      "duration": 1.84,
+      "text": "where we've gone through the last decade",
+      "timestamp": "00:31"
+    },
+    {
+      "start": 33.6,
+      "duration": 1.44,
+      "text": "and we really talked about digital",
+      "timestamp": "00:33"
+    },
+    {
+      "start": 35.04,
+      "duration": 2.48,
+      "text": "transformation how do we actually build",
+      "timestamp": "00:35"
+    },
+    {
+      "start": 37.52,
+      "duration": 3.359,
+      "text": "end to end prize um endtoend processes",
+      "timestamp": "00:37"
+    },
+    {
+      "start": 40.879,
+      "duration": 1.68,
+      "text": "that are fully interconnected even with",
+      "timestamp": "00:40"
+    },
+    {
+      "start": 42.559,
+      "duration": 2.401,
+      "text": "different applications we began to look",
+      "timestamp": "00:42"
+    },
+    {
+      "start": 44.96,
+      "duration": 2.64,
+      "text": "at how we can digitize the interaction",
+      "timestamp": "00:44"
+    },
+    {
+      "start": 47.6,
+      "duration": 2.08,
+      "text": "with our customers but also build our",
+      "timestamp": "00:47"
+    },
+    {
+      "start": 49.68,
+      "duration": 2.16,
+      "text": "processes not from our internal out",
+      "timestamp": "00:49"
+    },
+    {
+      "start": 51.84,
+      "duration": 2.48,
+      "text": "perspective but by from the outside in",
+      "timestamp": "00:51"
+    },
+    {
+      "start": 54.32,
+      "duration": 2.0,
+      "text": "which also led to brand new channels and",
+      "timestamp": "00:54"
+    },
+    {
+      "start": 56.32,
+      "duration": 2.32,
+      "text": "and very innovative ways of working with",
+      "timestamp": "00:56"
+    },
+    {
+      "start": 58.64,
+      "duration": 2.399,
+      "text": "our customers um and that's been",
+      "timestamp": "00:58"
+    },
+    {
+      "start": 61.039,
+      "duration": 1.84,
+      "text": "fantastic but now we're beginning to",
+      "timestamp": "01:01"
+    },
+    {
+      "start": 62.879,
+      "duration": 2.161,
+      "text": "transition we're beginning because that",
+      "timestamp": "01:02"
+    },
+    {
+      "start": 65.04,
+      "duration": 2.079,
+      "text": "that is that phase is kind of over and",
+      "timestamp": "01:05"
+    },
+    {
+      "start": 67.119,
+      "duration": 1.601,
+      "text": "actually been done well and now we're",
+      "timestamp": "01:07"
+    },
+    {
+      "start": 68.72,
+      "duration": 1.439,
+      "text": "beginning to say how can I actually",
+      "timestamp": "01:08"
+    },
+    {
+      "start": 70.159,
+      "duration": 2.64,
+      "text": "leverage aic how can I start to look at",
+      "timestamp": "01:10"
+    },
+    {
+      "start": 72.799,
+      "duration": 2.401,
+      "text": "these non-deterministic processes and",
+      "timestamp": "01:12"
+    },
+    {
+      "start": 75.2,
+      "duration": 2.32,
+      "text": "begin to do those and get away from",
+      "timestamp": "01:15"
+    },
+    {
+      "start": 77.52,
+      "duration": 3.04,
+      "text": "hardcoded rigid approaches",
+      "timestamp": "01:17"
+    },
+    {
+      "start": 80.56,
+      "duration": 2.4,
+      "text": "this isn't just marketing it's actually",
+      "timestamp": "01:20"
+    },
+    {
+      "start": 82.96,
+      "duration": 3.12,
+      "text": "what the data says the data comes in and",
+      "timestamp": "01:22"
+    },
+    {
+      "start": 86.08,
+      "duration": 2.16,
+      "text": "right now you see 73% of companies",
+      "timestamp": "01:26"
+    },
+    {
+      "start": 88.24,
+      "duration": 2.559,
+      "text": "thinking that AI agents are going to be",
+      "timestamp": "01:28"
+    },
+    {
+      "start": 90.799,
+      "duration": 1.28,
+      "text": "the biggest game changer in their",
+      "timestamp": "01:30"
+    },
+    {
+      "start": 92.079,
+      "duration": 3.121,
+      "text": "business not top five not this the",
+      "timestamp": "01:32"
+    },
+    {
+      "start": 95.2,
+      "duration": 2.4,
+      "text": "biggest change that is happening right",
+      "timestamp": "01:35"
+    },
+    {
+      "start": 97.6,
+      "duration": 1.6,
+      "text": "now i think it's interesting that",
+      "timestamp": "01:37"
+    },
+    {
+      "start": 99.2,
+      "duration": 1.44,
+      "text": "McKenzie just came out with a report",
+      "timestamp": "01:39"
+    },
+    {
+      "start": 100.64,
+      "duration": 3.92,
+      "text": "targeted at CIO CEOs saying this is now",
+      "timestamp": "01:40"
+    },
+    {
+      "start": 104.56,
+      "duration": 2.559,
+      "text": "that level of a topic you need to care",
+      "timestamp": "01:44"
+    },
+    {
+      "start": 107.119,
+      "duration": 1.921,
+      "text": "what's interesting though and I'm sure",
+      "timestamp": "01:47"
+    },
+    {
+      "start": 109.04,
+      "duration": 1.2,
+      "text": "many people in this audience have had",
+      "timestamp": "01:49"
+    },
+    {
+      "start": 110.24,
+      "duration": 2.8,
+      "text": "the same result we speak to actually to",
+      "timestamp": "01:50"
+    },
+    {
+      "start": 113.04,
+      "duration": 2.96,
+      "text": "the business they're not ready they're",
+      "timestamp": "01:53"
+    },
+    {
+      "start": 116.0,
+      "duration": 2.0,
+      "text": "like I actually don't trust agents i",
+      "timestamp": "01:56"
+    },
+    {
+      "start": 118.0,
+      "duration": 2.079,
+      "text": "don't understand the security i don't",
+      "timestamp": "01:58"
+    },
+    {
+      "start": 120.079,
+      "duration": 1.841,
+      "text": "understand non-determinism i like my",
+      "timestamp": "02:00"
+    },
+    {
+      "start": 121.92,
+      "duration": 2.32,
+      "text": "rigid processes even though they're not",
+      "timestamp": "02:01"
+    },
+    {
+      "start": 124.24,
+      "duration": 2.08,
+      "text": "really being honest with themselves that",
+      "timestamp": "02:04"
+    },
+    {
+      "start": 126.32,
+      "duration": 2.159,
+      "text": "many of these have humans involved in",
+      "timestamp": "02:06"
+    },
+    {
+      "start": 128.479,
+      "duration": 1.681,
+      "text": "them and humans are inherently",
+      "timestamp": "02:08"
+    },
+    {
+      "start": 130.16,
+      "duration": 3.0,
+      "text": "non-deterministic",
+      "timestamp": "02:10"
+    },
+    {
+      "start": 133.28,
+      "duration": 2.56,
+      "text": "now why Boommy exists is actually to",
+      "timestamp": "02:13"
+    },
+    {
+      "start": 135.84,
+      "duration": 4.24,
+      "text": "take that 2% and bring that up to 100%",
+      "timestamp": "02:15"
+    },
+    {
+      "start": 140.08,
+      "duration": 3.12,
+      "text": "how do we actually build trust in Agent",
+      "timestamp": "02:20"
+    },
+    {
+      "start": 143.2,
+      "duration": 2.32,
+      "text": "Workflows",
+      "timestamp": "02:23"
+    },
+    {
+      "start": 145.52,
+      "duration": 2.48,
+      "text": "now like any enterprise software company",
+      "timestamp": "02:25"
+    },
+    {
+      "start": 148.0,
+      "duration": 1.52,
+      "text": "out there you either know them to death",
+      "timestamp": "02:28"
+    },
+    {
+      "start": 149.52,
+      "duration": 1.92,
+      "text": "and you've heard about them all the time",
+      "timestamp": "02:29"
+    },
+    {
+      "start": 151.44,
+      "duration": 2.24,
+      "text": "or you don't know them boomie's actually",
+      "timestamp": "02:31"
+    },
+    {
+      "start": 153.68,
+      "duration": 1.52,
+      "text": "been around for a while you might have",
+      "timestamp": "02:33"
+    },
+    {
+      "start": 155.2,
+      "duration": 2.0,
+      "text": "seen in the latest Gartner Magic",
+      "timestamp": "02:35"
+    },
+    {
+      "start": 157.2,
+      "duration": 2.24,
+      "text": "Quadrant integration platform as a",
+      "timestamp": "02:37"
+    },
+    {
+      "start": 159.44,
+      "duration": 1.519,
+      "text": "service we're in the top right hand",
+      "timestamp": "02:39"
+    },
+    {
+      "start": 160.959,
+      "duration": 2.241,
+      "text": "corner uh we're the only companies that",
+      "timestamp": "02:40"
+    },
+    {
+      "start": 163.2,
+      "duration": 2.16,
+      "text": "been there for 11 time for 11 years",
+      "timestamp": "02:43"
+    },
+    {
+      "start": 165.36,
+      "duration": 5.36,
+      "text": "straight um within that we have um over",
+      "timestamp": "02:45"
+    },
+    {
+      "start": 170.72,
+      "duration": 2.72,
+      "text": "170,000 runtimes of Boommy running out",
+      "timestamp": "02:50"
+    },
+    {
+      "start": 173.44,
+      "duration": 2.159,
+      "text": "in our SAS platform and it runs in",
+      "timestamp": "02:53"
+    },
+    {
+      "start": 175.599,
+      "duration": 1.681,
+      "text": "manage clouds private clouds all the way",
+      "timestamp": "02:55"
+    },
+    {
+      "start": 177.28,
+      "duration": 3.84,
+      "text": "down to onrem all ser all all seamlessly",
+      "timestamp": "02:57"
+    },
+    {
+      "start": 181.12,
+      "duration": 2.24,
+      "text": "we also have many different data",
+      "timestamp": "03:01"
+    },
+    {
+      "start": 183.36,
+      "duration": 1.68,
+      "text": "capabilities including master data",
+      "timestamp": "03:03"
+    },
+    {
+      "start": 185.04,
+      "duration": 2.32,
+      "text": "management which becomes key to agentic",
+      "timestamp": "03:05"
+    },
+    {
+      "start": 187.36,
+      "duration": 2.0,
+      "text": "when we think of reference data with",
+      "timestamp": "03:07"
+    },
+    {
+      "start": 189.36,
+      "duration": 3.92,
+      "text": "over 8.7 billion records um added",
+      "timestamp": "03:09"
+    },
+    {
+      "start": 193.28,
+      "duration": 1.84,
+      "text": "annually and I think more more",
+      "timestamp": "03:13"
+    },
+    {
+      "start": 195.12,
+      "duration": 3.039,
+      "text": "importantly 3.6 trillion messages are",
+      "timestamp": "03:15"
+    },
+    {
+      "start": 198.159,
+      "duration": 2.0,
+      "text": "being processed across our framework",
+      "timestamp": "03:18"
+    },
+    {
+      "start": 200.159,
+      "duration": 2.881,
+      "text": "seamlessly every year so we have",
+      "timestamp": "03:20"
+    },
+    {
+      "start": 203.04,
+      "duration": 3.279,
+      "text": "tremendous reach and power of looking at",
+      "timestamp": "03:23"
+    },
+    {
+      "start": 206.319,
+      "duration": 3.361,
+      "text": "workflows looking at automations looking",
+      "timestamp": "03:26"
+    },
+    {
+      "start": 209.68,
+      "duration": 2.32,
+      "text": "at integrations which is where we talk",
+      "timestamp": "03:29"
+    },
+    {
+      "start": 212.0,
+      "duration": 2.799,
+      "text": "about now driving agentic and this is",
+      "timestamp": "03:32"
+    },
+    {
+      "start": 214.799,
+      "duration": 3.041,
+      "text": "why Boommy now Boom is not new to this",
+      "timestamp": "03:34"
+    },
+    {
+      "start": 217.84,
+      "duration": 2.399,
+      "text": "at all actually so we built and started",
+      "timestamp": "03:37"
+    },
+    {
+      "start": 220.239,
+      "duration": 1.681,
+      "text": "using classical machine learning in our",
+      "timestamp": "03:40"
+    },
+    {
+      "start": 221.92,
+      "duration": 3.92,
+      "text": "platform starting back in 2010 and using",
+      "timestamp": "03:41"
+    },
+    {
+      "start": 225.84,
+      "duration": 1.44,
+      "text": "those approaches to actually make it",
+      "timestamp": "03:45"
+    },
+    {
+      "start": 227.28,
+      "duration": 3.12,
+      "text": "easier to build integrations um but over",
+      "timestamp": "03:47"
+    },
+    {
+      "start": 230.4,
+      "duration": 2.24,
+      "text": "the last two years we've been driving",
+      "timestamp": "03:50"
+    },
+    {
+      "start": 232.64,
+      "duration": 2.239,
+      "text": "Gen AI directly into the platform to",
+      "timestamp": "03:52"
+    },
+    {
+      "start": 234.879,
+      "duration": 2.161,
+      "text": "make it easier for people to do things",
+      "timestamp": "03:54"
+    },
+    {
+      "start": 237.04,
+      "duration": 2.0,
+      "text": "like build integrations so that I can",
+      "timestamp": "03:57"
+    },
+    {
+      "start": 239.04,
+      "duration": 2.559,
+      "text": "define two endpoints and it will pull on",
+      "timestamp": "03:59"
+    },
+    {
+      "start": 241.599,
+      "duration": 2.56,
+      "text": "our history of over 300 million",
+      "timestamp": "04:01"
+    },
+    {
+      "start": 244.159,
+      "duration": 2.16,
+      "text": "integrations built on our platform and",
+      "timestamp": "04:04"
+    },
+    {
+      "start": 246.319,
+      "duration": 2.161,
+      "text": "apply that to your unique situation and",
+      "timestamp": "04:06"
+    },
+    {
+      "start": 248.48,
+      "duration": 2.72,
+      "text": "make recommendations we take 80% of the",
+      "timestamp": "04:08"
+    },
+    {
+      "start": 251.2,
+      "duration": 1.2,
+      "text": "time out of building all the",
+      "timestamp": "04:11"
+    },
+    {
+      "start": 252.4,
+      "duration": 2.399,
+      "text": "documentation required we can point at",
+      "timestamp": "04:12"
+    },
+    {
+      "start": 254.799,
+      "duration": 2.081,
+      "text": "an API and automatically scrub through",
+      "timestamp": "04:14"
+    },
+    {
+      "start": 256.88,
+      "duration": 3.199,
+      "text": "the documentation gen the YAML and then",
+      "timestamp": "04:16"
+    },
+    {
+      "start": 260.079,
+      "duration": 1.521,
+      "text": "create the endpoint for you to start",
+      "timestamp": "04:20"
+    },
+    {
+      "start": 261.6,
+      "duration": 1.76,
+      "text": "extracting data and putting into things",
+      "timestamp": "04:21"
+    },
+    {
+      "start": 263.36,
+      "duration": 2.16,
+      "text": "like Snowflake and data bricks and doing",
+      "timestamp": "04:23"
+    },
+    {
+      "start": 265.52,
+      "duration": 2.0,
+      "text": "that automatically and generating all",
+      "timestamp": "04:25"
+    },
+    {
+      "start": 267.52,
+      "duration": 1.92,
+      "text": "all the documentation on your behalf",
+      "timestamp": "04:27"
+    },
+    {
+      "start": 269.44,
+      "duration": 2.8,
+      "text": "within this we have over 39,000 agents",
+      "timestamp": "04:29"
+    },
+    {
+      "start": 272.24,
+      "duration": 2.08,
+      "text": "currently in production in our system",
+      "timestamp": "04:32"
+    },
+    {
+      "start": 274.32,
+      "duration": 2.72,
+      "text": "for our customer base",
+      "timestamp": "04:34"
+    },
+    {
+      "start": 277.04,
+      "duration": 1.36,
+      "text": "we also use it extensively through",
+      "timestamp": "04:37"
+    },
+    {
+      "start": 278.4,
+      "duration": 1.92,
+      "text": "Boommy ourselves to be honest it uses",
+      "timestamp": "04:38"
+    },
+    {
+      "start": 280.32,
+      "duration": 1.599,
+      "text": "everything from our sales department",
+      "timestamp": "04:40"
+    },
+    {
+      "start": 281.919,
+      "duration": 3.601,
+      "text": "finance group marketing etc we identify",
+      "timestamp": "04:41"
+    },
+    {
+      "start": 285.52,
+      "duration": 3.76,
+      "text": "everything in our company",
+      "timestamp": "04:45"
+    },
+    {
+      "start": 289.28,
+      "duration": 2.32,
+      "text": "what this led us to do though in hearing",
+      "timestamp": "04:49"
+    },
+    {
+      "start": 291.6,
+      "duration": 2.4,
+      "text": "from customers was that yes we love",
+      "timestamp": "04:51"
+    },
+    {
+      "start": 294.0,
+      "duration": 2.96,
+      "text": "having AI in Boommy to make Boommy",
+      "timestamp": "04:54"
+    },
+    {
+      "start": 296.96,
+      "duration": 2.56,
+      "text": "easier to use i now want to use it in my",
+      "timestamp": "04:56"
+    },
+    {
+      "start": 299.52,
+      "duration": 3.119,
+      "text": "own processes to do this and for that we",
+      "timestamp": "04:59"
+    },
+    {
+      "start": 302.639,
+      "duration": 1.921,
+      "text": "have agent studio which is generally",
+      "timestamp": "05:02"
+    },
+    {
+      "start": 304.56,
+      "duration": 3.919,
+      "text": "available today not early access not",
+      "timestamp": "05:04"
+    },
+    {
+      "start": 308.479,
+      "duration": 1.681,
+      "text": "anything like that everything I'm",
+      "timestamp": "05:08"
+    },
+    {
+      "start": 310.16,
+      "duration": 1.92,
+      "text": "talking about here today is generally",
+      "timestamp": "05:10"
+    },
+    {
+      "start": 312.08,
+      "duration": 1.679,
+      "text": "available unless of course I talk about",
+      "timestamp": "05:12"
+    },
+    {
+      "start": 313.759,
+      "duration": 2.401,
+      "text": "roadmap what we designed the system",
+      "timestamp": "05:13"
+    },
+    {
+      "start": 316.16,
+      "duration": 2.08,
+      "text": "first is to make it easier and to design",
+      "timestamp": "05:16"
+    },
+    {
+      "start": 318.24,
+      "duration": 3.2,
+      "text": "agents with confidence we're great use",
+      "timestamp": "05:18"
+    },
+    {
+      "start": 321.44,
+      "duration": 2.64,
+      "text": "bedrock build it there grab a Salesforce",
+      "timestamp": "05:21"
+    },
+    {
+      "start": 324.08,
+      "duration": 2.88,
+      "text": "agent all for it but there are times",
+      "timestamp": "05:24"
+    },
+    {
+      "start": 326.96,
+      "duration": 1.679,
+      "text": "where I want to build an agent",
+      "timestamp": "05:26"
+    },
+    {
+      "start": 328.639,
+      "duration": 2.4,
+      "text": "seamlessly and easily in under five",
+      "timestamp": "05:28"
+    },
+    {
+      "start": 331.039,
+      "duration": 1.841,
+      "text": "minutes on a platform and be able to",
+      "timestamp": "05:31"
+    },
+    {
+      "start": 332.88,
+      "duration": 2.08,
+      "text": "deploy that much more straightforward",
+      "timestamp": "05:32"
+    },
+    {
+      "start": 334.96,
+      "duration": 1.679,
+      "text": "use cases where I don't need to train it",
+      "timestamp": "05:34"
+    },
+    {
+      "start": 336.639,
+      "duration": 2.321,
+      "text": "on data i simply want to actually use a",
+      "timestamp": "05:36"
+    },
+    {
+      "start": 338.96,
+      "duration": 3.28,
+      "text": "genai agent and deploy it seamlessly",
+      "timestamp": "05:38"
+    },
+    {
+      "start": 342.24,
+      "duration": 2.239,
+      "text": "talk about that the thing that is big",
+      "timestamp": "05:42"
+    },
+    {
+      "start": 344.479,
+      "duration": 1.601,
+      "text": "though that we keep hearing now in the",
+      "timestamp": "05:44"
+    },
+    {
+      "start": 346.08,
+      "duration": 1.119,
+      "text": "last week everyone's talking about",
+      "timestamp": "05:46"
+    },
+    {
+      "start": 347.199,
+      "duration": 3.121,
+      "text": "agentic mesh is the ability to actually",
+      "timestamp": "05:47"
+    },
+    {
+      "start": 350.32,
+      "duration": 2.24,
+      "text": "have complete governance can I have a",
+      "timestamp": "05:50"
+    },
+    {
+      "start": 352.56,
+      "duration": 2.16,
+      "text": "control plane that looks not only at the",
+      "timestamp": "05:52"
+    },
+    {
+      "start": 354.72,
+      "duration": 1.44,
+      "text": "agents I've built with a platform like",
+      "timestamp": "05:54"
+    },
+    {
+      "start": 356.16,
+      "duration": 2.319,
+      "text": "Boommy but with all my different",
+      "timestamp": "05:56"
+    },
+    {
+      "start": 358.479,
+      "duration": 2.801,
+      "text": "platforms in a common control plane with",
+      "timestamp": "05:58"
+    },
+    {
+      "start": 361.28,
+      "duration": 3.039,
+      "text": "full management observability and",
+      "timestamp": "06:01"
+    },
+    {
+      "start": 364.319,
+      "duration": 2.641,
+      "text": "governance including the audit logs that",
+      "timestamp": "06:04"
+    },
+    {
+      "start": 366.96,
+      "duration": 2.16,
+      "text": "I need to actually see that and show to",
+      "timestamp": "06:06"
+    },
+    {
+      "start": 369.12,
+      "duration": 1.76,
+      "text": "auditors so when I'm doing regulated",
+      "timestamp": "06:09"
+    },
+    {
+      "start": 370.88,
+      "duration": 3.039,
+      "text": "processes I'm okay so people are talking",
+      "timestamp": "06:10"
+    },
+    {
+      "start": 373.919,
+      "duration": 2.4,
+      "text": "about the need for this boommy does this",
+      "timestamp": "06:13"
+    },
+    {
+      "start": 376.319,
+      "duration": 2.241,
+      "text": "today and of course though that's all",
+      "timestamp": "06:16"
+    },
+    {
+      "start": 378.56,
+      "duration": 2.16,
+      "text": "cool but how do I unleash that that",
+      "timestamp": "06:18"
+    },
+    {
+      "start": 380.72,
+      "duration": 2.4,
+      "text": "energy i need to be able to put it into",
+      "timestamp": "06:20"
+    },
+    {
+      "start": 383.12,
+      "duration": 2.72,
+      "text": "a workflow into an automation into a",
+      "timestamp": "06:23"
+    },
+    {
+      "start": 385.84,
+      "duration": 4.079,
+      "text": "custom application we do that as well",
+      "timestamp": "06:25"
+    },
+    {
+      "start": 389.919,
+      "duration": 1.521,
+      "text": "so",
+      "timestamp": "06:29"
+    },
+    {
+      "start": 391.44,
+      "duration": 1.84,
+      "text": "step back and think about what goes into",
+      "timestamp": "06:31"
+    },
+    {
+      "start": 393.28,
+      "duration": 2.32,
+      "text": "an agent because many people sure if",
+      "timestamp": "06:33"
+    },
+    {
+      "start": 395.6,
+      "duration": 1.439,
+      "text": "you're an engineer you do this and you",
+      "timestamp": "06:35"
+    },
+    {
+      "start": 397.039,
+      "duration": 2.961,
+      "text": "think about it but for everybody else to",
+      "timestamp": "06:37"
+    },
+    {
+      "start": 400.0,
+      "duration": 2.4,
+      "text": "me I think about a genai agent and I",
+      "timestamp": "06:40"
+    },
+    {
+      "start": 402.4,
+      "duration": 2.32,
+      "text": "like to think of it as potential energy",
+      "timestamp": "06:42"
+    },
+    {
+      "start": 404.72,
+      "duration": 1.84,
+      "text": "and actually relatively low potential",
+      "timestamp": "06:44"
+    },
+    {
+      "start": 406.56,
+      "duration": 3.12,
+      "text": "energy and now I need to give that thing",
+      "timestamp": "06:46"
+    },
+    {
+      "start": 409.68,
+      "duration": 2.56,
+      "text": "context tell me about the customer tell",
+      "timestamp": "06:49"
+    },
+    {
+      "start": 412.24,
+      "duration": 1.679,
+      "text": "me how important they are how many years",
+      "timestamp": "06:52"
+    },
+    {
+      "start": 413.919,
+      "duration": 1.761,
+      "text": "they've worked with me tell me then",
+      "timestamp": "06:53"
+    },
+    {
+      "start": 415.68,
+      "duration": 2.639,
+      "text": "about how they've about what they their",
+      "timestamp": "06:55"
+    },
+    {
+      "start": 418.319,
+      "duration": 2.561,
+      "text": "purchase industry all that tell me about",
+      "timestamp": "06:58"
+    },
+    {
+      "start": 420.88,
+      "duration": 1.84,
+      "text": "the current open service tickets they",
+      "timestamp": "07:00"
+    },
+    {
+      "start": 422.72,
+      "duration": 2.24,
+      "text": "have with us now I've risen that agent",
+      "timestamp": "07:02"
+    },
+    {
+      "start": 424.96,
+      "duration": 1.519,
+      "text": "up and given it huge amounts of",
+      "timestamp": "07:04"
+    },
+    {
+      "start": 426.479,
+      "duration": 2.56,
+      "text": "potential energy but now I actually want",
+      "timestamp": "07:06"
+    },
+    {
+      "start": 429.039,
+      "duration": 2.961,
+      "text": "to unleash that as kinetic energy how do",
+      "timestamp": "07:09"
+    },
+    {
+      "start": 432.0,
+      "duration": 2.4,
+      "text": "you do that well I need to be able to",
+      "timestamp": "07:12"
+    },
+    {
+      "start": 434.4,
+      "duration": 2.48,
+      "text": "take that and actually drop it into an",
+      "timestamp": "07:14"
+    },
+    {
+      "start": 436.88,
+      "duration": 2.8,
+      "text": "automation drop it into an integration",
+      "timestamp": "07:16"
+    },
+    {
+      "start": 439.68,
+      "duration": 2.16,
+      "text": "expose it as an API so that I can tie it",
+      "timestamp": "07:19"
+    },
+    {
+      "start": 441.84,
+      "duration": 1.759,
+      "text": "into the rest of my software stack or",
+      "timestamp": "07:21"
+    },
+    {
+      "start": 443.599,
+      "duration": 2.081,
+      "text": "build it out into a custom app this is",
+      "timestamp": "07:23"
+    },
+    {
+      "start": 445.68,
+      "duration": 2.32,
+      "text": "what Boommy allows in the platform not",
+      "timestamp": "07:25"
+    },
+    {
+      "start": 448.0,
+      "duration": 2.0,
+      "text": "only building up and having all those",
+      "timestamp": "07:28"
+    },
+    {
+      "start": 450.0,
+      "duration": 1.68,
+      "text": "connections but the ability to then",
+      "timestamp": "07:30"
+    },
+    {
+      "start": 451.68,
+      "duration": 2.16,
+      "text": "unleash that and do these things in less",
+      "timestamp": "07:31"
+    },
+    {
+      "start": 453.84,
+      "duration": 2.96,
+      "text": "than an hour",
+      "timestamp": "07:33"
+    },
+    {
+      "start": 456.8,
+      "duration": 2.399,
+      "text": "so number one how do I build and design",
+      "timestamp": "07:36"
+    },
+    {
+      "start": 459.199,
+      "duration": 2.56,
+      "text": "agents with confidence you can of course",
+      "timestamp": "07:39"
+    },
+    {
+      "start": 461.759,
+      "duration": 2.56,
+      "text": "like I said build these things with you",
+      "timestamp": "07:41"
+    },
+    {
+      "start": 464.319,
+      "duration": 1.44,
+      "text": "build them over in bedrock if you're",
+      "timestamp": "07:44"
+    },
+    {
+      "start": 465.759,
+      "duration": 1.84,
+      "text": "going to do your own training that's not",
+      "timestamp": "07:45"
+    },
+    {
+      "start": 467.599,
+      "duration": 2.481,
+      "text": "what we do but if I'm just building a a",
+      "timestamp": "07:47"
+    },
+    {
+      "start": 470.08,
+      "duration": 1.36,
+      "text": "straightforward agent where I want to",
+      "timestamp": "07:50"
+    },
+    {
+      "start": 471.44,
+      "duration": 2.64,
+      "text": "give it a goal using a classical model",
+      "timestamp": "07:51"
+    },
+    {
+      "start": 474.08,
+      "duration": 3.04,
+      "text": "like something from Anthropic or Open AI",
+      "timestamp": "07:54"
+    },
+    {
+      "start": 477.12,
+      "duration": 2.24,
+      "text": "and I want to gen that out I need to",
+      "timestamp": "07:57"
+    },
+    {
+      "start": 479.36,
+      "duration": 2.399,
+      "text": "have a very simple builder to do this",
+      "timestamp": "07:59"
+    },
+    {
+      "start": 481.759,
+      "duration": 2.0,
+      "text": "one that allows me to go through define",
+      "timestamp": "08:01"
+    },
+    {
+      "start": 483.759,
+      "duration": 2.72,
+      "text": "the profile define the reasoning and the",
+      "timestamp": "08:03"
+    },
+    {
+      "start": 486.479,
+      "duration": 2.961,
+      "text": "tasks what are those steps then linking",
+      "timestamp": "08:06"
+    },
+    {
+      "start": 489.44,
+      "duration": 2.4,
+      "text": "in the tools to provide all of that",
+      "timestamp": "08:09"
+    },
+    {
+      "start": 491.84,
+      "duration": 3.759,
+      "text": "context and history to that task to make",
+      "timestamp": "08:11"
+    },
+    {
+      "start": 495.599,
+      "duration": 1.761,
+      "text": "it intelligent",
+      "timestamp": "08:15"
+    },
+    {
+      "start": 497.36,
+      "duration": 2.08,
+      "text": "obviously proving all the guard rails",
+      "timestamp": "08:17"
+    },
+    {
+      "start": 499.44,
+      "duration": 1.759,
+      "text": "and automatically doing stuff like",
+      "timestamp": "08:19"
+    },
+    {
+      "start": 501.199,
+      "duration": 2.4,
+      "text": "protecting you against prompt injection",
+      "timestamp": "08:21"
+    },
+    {
+      "start": 503.599,
+      "duration": 2.081,
+      "text": "and then letting me do attributes and",
+      "timestamp": "08:23"
+    },
+    {
+      "start": 505.68,
+      "duration": 2.56,
+      "text": "then do full QA and review of that agent",
+      "timestamp": "08:25"
+    },
+    {
+      "start": 508.24,
+      "duration": 2.079,
+      "text": "before I deploy it including full",
+      "timestamp": "08:28"
+    },
+    {
+      "start": 510.319,
+      "duration": 2.481,
+      "text": "traceability of all the tools coming in",
+      "timestamp": "08:30"
+    },
+    {
+      "start": 512.8,
+      "duration": 4.0,
+      "text": "and doing this with no code",
+      "timestamp": "08:32"
+    },
+    {
+      "start": 516.8,
+      "duration": 1.76,
+      "text": "that means I don't need a specialized",
+      "timestamp": "08:36"
+    },
+    {
+      "start": 518.56,
+      "duration": 1.76,
+      "text": "team that works for weeks building",
+      "timestamp": "08:38"
+    },
+    {
+      "start": 520.32,
+      "duration": 3.12,
+      "text": "something bespoke i can actually do this",
+      "timestamp": "08:40"
+    },
+    {
+      "start": 523.44,
+      "duration": 2.48,
+      "text": "on I can do this by the teams working",
+      "timestamp": "08:43"
+    },
+    {
+      "start": 525.92,
+      "duration": 3.12,
+      "text": "close to the business i can put this in",
+      "timestamp": "08:45"
+    },
+    {
+      "start": 529.04,
+      "duration": 1.919,
+      "text": "the product teams and have them be fully",
+      "timestamp": "08:49"
+    },
+    {
+      "start": 530.959,
+      "duration": 2.241,
+      "text": "self-sufficient and do revisions of this",
+      "timestamp": "08:50"
+    },
+    {
+      "start": 533.2,
+      "duration": 1.6,
+      "text": "as often as they like as they want to",
+      "timestamp": "08:53"
+    },
+    {
+      "start": 534.8,
+      "duration": 2.88,
+      "text": "build out new versions",
+      "timestamp": "08:54"
+    },
+    {
+      "start": 537.68,
+      "duration": 2.88,
+      "text": "now I talk about governance we then have",
+      "timestamp": "08:57"
+    },
+    {
+      "start": 540.56,
+      "duration": 3.12,
+      "text": "agent control tower which here you see",
+      "timestamp": "09:00"
+    },
+    {
+      "start": 543.68,
+      "duration": 2.4,
+      "text": "automatically integrates with Amazon",
+      "timestamp": "09:03"
+    },
+    {
+      "start": 546.08,
+      "duration": 2.16,
+      "text": "Bedrock i should have mentioned back",
+      "timestamp": "09:06"
+    },
+    {
+      "start": 548.24,
+      "duration": 2.32,
+      "text": "here you can also we are only one of",
+      "timestamp": "09:08"
+    },
+    {
+      "start": 550.56,
+      "duration": 1.52,
+      "text": "five companies that have passed the",
+      "timestamp": "09:10"
+    },
+    {
+      "start": 552.08,
+      "duration": 3.04,
+      "text": "security certifications to type into",
+      "timestamp": "09:12"
+    },
+    {
+      "start": 555.12,
+      "duration": 2.56,
+      "text": "Amazon Q index for I can actually bring",
+      "timestamp": "09:15"
+    },
+    {
+      "start": 557.68,
+      "duration": 2.48,
+      "text": "in context directly in we're very close",
+      "timestamp": "09:17"
+    },
+    {
+      "start": 560.16,
+      "duration": 2.88,
+      "text": "partner with Amazon I can then come back",
+      "timestamp": "09:20"
+    },
+    {
+      "start": 563.04,
+      "duration": 1.84,
+      "text": "here though and do govern I can go",
+      "timestamp": "09:23"
+    },
+    {
+      "start": 564.88,
+      "duration": 1.519,
+      "text": "directly into bedrock and bring all",
+      "timestamp": "09:24"
+    },
+    {
+      "start": 566.399,
+      "duration": 2.0,
+      "text": "their agents in I'll be announcing",
+      "timestamp": "09:26"
+    },
+    {
+      "start": 568.399,
+      "duration": 1.681,
+      "text": "several more platforms in the coming",
+      "timestamp": "09:28"
+    },
+    {
+      "start": 570.08,
+      "duration": 1.68,
+      "text": "weeks from the largest providers that",
+      "timestamp": "09:30"
+    },
+    {
+      "start": 571.76,
+      "duration": 1.759,
+      "text": "automatically bring them in but of",
+      "timestamp": "09:31"
+    },
+    {
+      "start": 573.519,
+      "duration": 1.681,
+      "text": "course you can register any agent",
+      "timestamp": "09:33"
+    },
+    {
+      "start": 575.2,
+      "duration": 2.56,
+      "text": "manually directly into the system i then",
+      "timestamp": "09:35"
+    },
+    {
+      "start": 577.76,
+      "duration": 2.0,
+      "text": "have the ability to see complete",
+      "timestamp": "09:37"
+    },
+    {
+      "start": 579.76,
+      "duration": 2.32,
+      "text": "complete observability on how it's being",
+      "timestamp": "09:39"
+    },
+    {
+      "start": 582.08,
+      "duration": 3.199,
+      "text": "consumed how many tokens i can do",
+      "timestamp": "09:42"
+    },
+    {
+      "start": 585.279,
+      "duration": 1.921,
+      "text": "forecasting on that usage i can see",
+      "timestamp": "09:45"
+    },
+    {
+      "start": 587.2,
+      "duration": 2.88,
+      "text": "their performance metrics um response",
+      "timestamp": "09:47"
+    },
+    {
+      "start": 590.08,
+      "duration": 2.0,
+      "text": "times dig into their tools and see how",
+      "timestamp": "09:50"
+    },
+    {
+      "start": 592.08,
+      "duration": 2.24,
+      "text": "they're performing throughout but as I",
+      "timestamp": "09:52"
+    },
+    {
+      "start": 594.32,
+      "duration": 2.24,
+      "text": "get into more and more agents and I'm",
+      "timestamp": "09:54"
+    },
+    {
+      "start": 596.56,
+      "duration": 2.64,
+      "text": "concerned with Agentex sprawl I can't do",
+      "timestamp": "09:56"
+    },
+    {
+      "start": 599.2,
+      "duration": 2.16,
+      "text": "that for every tool so of course we then",
+      "timestamp": "09:59"
+    },
+    {
+      "start": 601.36,
+      "duration": 2.08,
+      "text": "bring in anomaly detection so we're",
+      "timestamp": "10:01"
+    },
+    {
+      "start": 603.44,
+      "duration": 2.079,
+      "text": "automatically finding what you need to",
+      "timestamp": "10:03"
+    },
+    {
+      "start": 605.519,
+      "duration": 2.561,
+      "text": "hunt down and look at and then make",
+      "timestamp": "10:05"
+    },
+    {
+      "start": 608.08,
+      "duration": 2.0,
+      "text": "decisions do I maybe need to turn off",
+      "timestamp": "10:08"
+    },
+    {
+      "start": 610.08,
+      "duration": 2.0,
+      "text": "this agent which I can also do directly",
+      "timestamp": "10:10"
+    },
+    {
+      "start": 612.08,
+      "duration": 3.199,
+      "text": "from within the platform so and then we",
+      "timestamp": "10:12"
+    },
+    {
+      "start": 615.279,
+      "duration": 2.481,
+      "text": "get into getting into immutable logs",
+      "timestamp": "10:15"
+    },
+    {
+      "start": 617.76,
+      "duration": 1.84,
+      "text": "which actually comes out very shortly in",
+      "timestamp": "10:17"
+    },
+    {
+      "start": 619.6,
+      "duration": 1.679,
+      "text": "the platform",
+      "timestamp": "10:19"
+    },
+    {
+      "start": 621.279,
+      "duration": 2.081,
+      "text": "that we have where I can actually so for",
+      "timestamp": "10:21"
+    },
+    {
+      "start": 623.36,
+      "duration": 2.24,
+      "text": "fully regulated processes I have those",
+      "timestamp": "10:23"
+    },
+    {
+      "start": 625.6,
+      "duration": 1.679,
+      "text": "audit logs that are needed by like the",
+      "timestamp": "10:25"
+    },
+    {
+      "start": 627.279,
+      "duration": 3.441,
+      "text": "EU AI act and for and just generally by",
+      "timestamp": "10:27"
+    },
+    {
+      "start": 630.72,
+      "duration": 1.359,
+      "text": "your auditors if they come check out",
+      "timestamp": "10:30"
+    },
+    {
+      "start": 632.079,
+      "duration": 2.481,
+      "text": "things in like finance",
+      "timestamp": "10:32"
+    },
+    {
+      "start": 634.56,
+      "duration": 2.399,
+      "text": "and lastly we get into how do I then",
+      "timestamp": "10:34"
+    },
+    {
+      "start": 636.959,
+      "duration": 2.401,
+      "text": "unleash that energy kinetically and",
+      "timestamp": "10:36"
+    },
+    {
+      "start": 639.36,
+      "duration": 2.08,
+      "text": "that's where I can drop it in here you",
+      "timestamp": "10:39"
+    },
+    {
+      "start": 641.44,
+      "duration": 2.16,
+      "text": "can see where somebody was in a workflow",
+      "timestamp": "10:41"
+    },
+    {
+      "start": 643.6,
+      "duration": 1.919,
+      "text": "and they had had a code block that was",
+      "timestamp": "10:43"
+    },
+    {
+      "start": 645.519,
+      "duration": 2.241,
+      "text": "completely deterministic and suboptimal",
+      "timestamp": "10:45"
+    },
+    {
+      "start": 647.76,
+      "duration": 1.84,
+      "text": "and didn't actually really meet all my",
+      "timestamp": "10:47"
+    },
+    {
+      "start": 649.6,
+      "duration": 2.799,
+      "text": "needs and here I've built an agent and",
+      "timestamp": "10:49"
+    },
+    {
+      "start": 652.399,
+      "duration": 1.521,
+      "text": "I'm just going to click on agent and",
+      "timestamp": "10:52"
+    },
+    {
+      "start": 653.92,
+      "duration": 2.0,
+      "text": "drop it into that workflow instantly",
+      "timestamp": "10:53"
+    },
+    {
+      "start": 655.92,
+      "duration": 2.24,
+      "text": "deployed i do that in dev i'm happy",
+      "timestamp": "10:55"
+    },
+    {
+      "start": 658.16,
+      "duration": 3.28,
+      "text": "click transport and it's in production",
+      "timestamp": "10:58"
+    },
+    {
+      "start": 661.44,
+      "duration": 2.959,
+      "text": "this is production software today not a",
+      "timestamp": "11:01"
+    },
+    {
+      "start": 664.399,
+      "duration": 4.88,
+      "text": "demo not a thought built here today",
+      "timestamp": "11:04"
+    },
+    {
+      "start": 669.279,
+      "duration": 1.921,
+      "text": "coming out very shortly in a few weeks",
+      "timestamp": "11:09"
+    },
+    {
+      "start": 671.2,
+      "duration": 2.72,
+      "text": "we also have complete MCP support not",
+      "timestamp": "11:11"
+    },
+    {
+      "start": 673.92,
+      "duration": 2.24,
+      "text": "only built into the agent building but",
+      "timestamp": "11:13"
+    },
+    {
+      "start": 676.16,
+      "duration": 2.239,
+      "text": "also within our API management we're one",
+      "timestamp": "11:16"
+    },
+    {
+      "start": 678.399,
+      "duration": 1.68,
+      "text": "of the biggest API management companies",
+      "timestamp": "11:18"
+    },
+    {
+      "start": 680.079,
+      "duration": 2.161,
+      "text": "out there with a complete API control",
+      "timestamp": "11:20"
+    },
+    {
+      "start": 682.24,
+      "duration": 2.159,
+      "text": "plane and in there we'll also give the",
+      "timestamp": "11:22"
+    },
+    {
+      "start": 684.399,
+      "duration": 2.241,
+      "text": "full ability for you to build and take",
+      "timestamp": "11:24"
+    },
+    {
+      "start": 686.64,
+      "duration": 3.92,
+      "text": "your individual AC uh APIs also taking",
+      "timestamp": "11:26"
+    },
+    {
+      "start": 690.56,
+      "duration": 2.8,
+      "text": "in your data pipelines your events and",
+      "timestamp": "11:30"
+    },
+    {
+      "start": 693.36,
+      "duration": 1.599,
+      "text": "exposing those out automatically",
+      "timestamp": "11:33"
+    },
+    {
+      "start": 694.959,
+      "duration": 2.721,
+      "text": "internally as MCP servers so a complete",
+      "timestamp": "11:34"
+    },
+    {
+      "start": 697.68,
+      "duration": 5.159,
+      "text": "endtoend entire platform for agentic",
+      "timestamp": "11:37"
+    },
+    {
+      "start": 703.839,
+      "duration": 1.921,
+      "text": "so as we start to talk about why boommy",
+      "timestamp": "11:43"
+    },
+    {
+      "start": 705.76,
+      "duration": 2.079,
+      "text": "I've talked about universal governance",
+      "timestamp": "11:45"
+    },
+    {
+      "start": 707.839,
+      "duration": 2.881,
+      "text": "we talk to CIOS they skip the agents and",
+      "timestamp": "11:47"
+    },
+    {
+      "start": 710.72,
+      "duration": 1.84,
+      "text": "they go talk to me about governance talk",
+      "timestamp": "11:50"
+    },
+    {
+      "start": 712.56,
+      "duration": 1.92,
+      "text": "to me about talk to me about actually",
+      "timestamp": "11:52"
+    },
+    {
+      "start": 714.48,
+      "duration": 2.08,
+      "text": "your audit logs and other components",
+      "timestamp": "11:54"
+    },
+    {
+      "start": 716.56,
+      "duration": 2.16,
+      "text": "I've put production algorithms into",
+      "timestamp": "11:56"
+    },
+    {
+      "start": 718.72,
+      "duration": 2.4,
+      "text": "production in finance and gone through",
+      "timestamp": "11:58"
+    },
+    {
+      "start": 721.12,
+      "duration": 2.159,
+      "text": "the auditors we already understand the",
+      "timestamp": "12:01"
+    },
+    {
+      "start": 723.279,
+      "duration": 1.281,
+      "text": "requirements and that's what we built",
+      "timestamp": "12:03"
+    },
+    {
+      "start": 724.56,
+      "duration": 2.64,
+      "text": "into Boommy we've built it for thousands",
+      "timestamp": "12:04"
+    },
+    {
+      "start": 727.2,
+      "duration": 1.92,
+      "text": "and thousands of agents and how do I",
+      "timestamp": "12:07"
+    },
+    {
+      "start": 729.12,
+      "duration": 2.8,
+      "text": "manage all those agents at scale which",
+      "timestamp": "12:09"
+    },
+    {
+      "start": 731.92,
+      "duration": 1.599,
+      "text": "is something we learned when we had the",
+      "timestamp": "12:11"
+    },
+    {
+      "start": 733.519,
+      "duration": 2.641,
+      "text": "API problem and that got running away",
+      "timestamp": "12:13"
+    },
+    {
+      "start": 736.16,
+      "duration": 3.76,
+      "text": "and we realized we needed control planes",
+      "timestamp": "12:16"
+    },
+    {
+      "start": 739.92,
+      "duration": 2.64,
+      "text": "next up is no walled gardens every",
+      "timestamp": "12:19"
+    },
+    {
+      "start": 742.56,
+      "duration": 1.519,
+      "text": "vendor out there is trying to lock you",
+      "timestamp": "12:22"
+    },
+    {
+      "start": 744.079,
+      "duration": 2.56,
+      "text": "into their platform build agents with me",
+      "timestamp": "12:24"
+    },
+    {
+      "start": 746.639,
+      "duration": 1.841,
+      "text": "use my platform and then you're stuck",
+      "timestamp": "12:26"
+    },
+    {
+      "start": 748.48,
+      "duration": 2.08,
+      "text": "with that individual system we don't",
+      "timestamp": "12:28"
+    },
+    {
+      "start": 750.56,
+      "duration": 1.68,
+      "text": "know who's going to be better today",
+      "timestamp": "12:30"
+    },
+    {
+      "start": 752.24,
+      "duration": 2.159,
+      "text": "anthropics got incredible model then I",
+      "timestamp": "12:32"
+    },
+    {
+      "start": 754.399,
+      "duration": 2.641,
+      "text": "see open AI now some of the upcoming",
+      "timestamp": "12:34"
+    },
+    {
+      "start": 757.04,
+      "duration": 2.4,
+      "text": "small models that are being working with",
+      "timestamp": "12:37"
+    },
+    {
+      "start": 759.44,
+      "duration": 1.519,
+      "text": "um that are coming up on the industry",
+      "timestamp": "12:39"
+    },
+    {
+      "start": 760.959,
+      "duration": 1.68,
+      "text": "and line of business specific are",
+      "timestamp": "12:40"
+    },
+    {
+      "start": 762.639,
+      "duration": 2.241,
+      "text": "phenomenal or maybe I have a narrower",
+      "timestamp": "12:42"
+    },
+    {
+      "start": 764.88,
+      "duration": 2.32,
+      "text": "use case and I realize I don't need to",
+      "timestamp": "12:44"
+    },
+    {
+      "start": 767.2,
+      "duration": 2.56,
+      "text": "use a big large model like something",
+      "timestamp": "12:47"
+    },
+    {
+      "start": 769.76,
+      "duration": 2.56,
+      "text": "like a sonnet and I want to drop down to",
+      "timestamp": "12:49"
+    },
+    {
+      "start": 772.32,
+      "duration": 2.079,
+      "text": "haiku i can do that at a tenth the cost",
+      "timestamp": "12:52"
+    },
+    {
+      "start": 774.399,
+      "duration": 2.401,
+      "text": "run 20 times faster have a better user",
+      "timestamp": "12:54"
+    },
+    {
+      "start": 776.8,
+      "duration": 2.8,
+      "text": "experience let me swap back and forth",
+      "timestamp": "12:56"
+    },
+    {
+      "start": 779.6,
+      "duration": 2.96,
+      "text": "the problem today is when I do that I",
+      "timestamp": "12:59"
+    },
+    {
+      "start": 782.56,
+      "duration": 3.68,
+      "text": "have to recode and redo everything",
+      "timestamp": "13:02"
+    },
+    {
+      "start": 786.24,
+      "duration": 2.88,
+      "text": "boommy makes that seamless so I don't",
+      "timestamp": "13:06"
+    },
+    {
+      "start": 789.12,
+      "duration": 2.8,
+      "text": "have to rebuild all my tools i don't",
+      "timestamp": "13:09"
+    },
+    {
+      "start": 791.92,
+      "duration": 1.76,
+      "text": "also need to build the outputs in the",
+      "timestamp": "13:11"
+    },
+    {
+      "start": 793.68,
+      "duration": 1.92,
+      "text": "integration it's just an upgrade now",
+      "timestamp": "13:13"
+    },
+    {
+      "start": 795.6,
+      "duration": 1.28,
+      "text": "some people are saying don't you have to",
+      "timestamp": "13:15"
+    },
+    {
+      "start": 796.88,
+      "duration": 2.079,
+      "text": "reorder the prompt and redo that to have",
+      "timestamp": "13:16"
+    },
+    {
+      "start": 798.959,
+      "duration": 1.601,
+      "text": "an optimized answer and the answer is",
+      "timestamp": "13:18"
+    },
+    {
+      "start": 800.56,
+      "duration": 2.88,
+      "text": "yes we do that",
+      "timestamp": "13:20"
+    },
+    {
+      "start": 803.44,
+      "duration": 2.88,
+      "text": "you need powerful tools i had that huge",
+      "timestamp": "13:23"
+    },
+    {
+      "start": 806.32,
+      "duration": 2.639,
+      "text": "list up there api access they don't have",
+      "timestamp": "13:26"
+    },
+    {
+      "start": 808.959,
+      "duration": 2.0,
+      "text": "to be built with Boommy you've got Kong",
+      "timestamp": "13:28"
+    },
+    {
+      "start": 810.959,
+      "duration": 2.641,
+      "text": "APIs use Kong APIs",
+      "timestamp": "13:30"
+    },
+    {
+      "start": 813.6,
+      "duration": 2.479,
+      "text": "bring those in but data pipelines",
+      "timestamp": "13:33"
+    },
+    {
+      "start": 816.079,
+      "duration": 3.041,
+      "text": "database access files access to all",
+      "timestamp": "13:36"
+    },
+    {
+      "start": 819.12,
+      "duration": 2.24,
+      "text": "those systems all provided drag and drop",
+      "timestamp": "13:39"
+    },
+    {
+      "start": 821.36,
+      "duration": 2.159,
+      "text": "in the Boommy platform when I'm building",
+      "timestamp": "13:41"
+    },
+    {
+      "start": 823.519,
+      "duration": 2.32,
+      "text": "my agents",
+      "timestamp": "13:43"
+    },
+    {
+      "start": 825.839,
+      "duration": 2.721,
+      "text": "also mentioned Amazon QX and that very",
+      "timestamp": "13:45"
+    },
+    {
+      "start": 828.56,
+      "duration": 1.76,
+      "text": "shortly in a few weeks we'll be",
+      "timestamp": "13:48"
+    },
+    {
+      "start": 830.32,
+      "duration": 3.519,
+      "text": "releasing full MCP support",
+      "timestamp": "13:50"
+    },
+    {
+      "start": 833.839,
+      "duration": 3.041,
+      "text": "also then no code we're not saying you",
+      "timestamp": "13:53"
+    },
+    {
+      "start": 836.88,
+      "duration": 1.44,
+      "text": "don't need agents that you build with",
+      "timestamp": "13:56"
+    },
+    {
+      "start": 838.32,
+      "duration": 1.44,
+      "text": "your own data that you may want to build",
+      "timestamp": "13:58"
+    },
+    {
+      "start": 839.76,
+      "duration": 2.8,
+      "text": "via command line interface go build",
+      "timestamp": "13:59"
+    },
+    {
+      "start": 842.56,
+      "duration": 2.639,
+      "text": "those inside Amazon go build those in",
+      "timestamp": "14:02"
+    },
+    {
+      "start": 845.199,
+      "duration": 2.32,
+      "text": "Langchain but you need to be able to",
+      "timestamp": "14:05"
+    },
+    {
+      "start": 847.519,
+      "duration": 2.0,
+      "text": "manage and orchestrate those and drop",
+      "timestamp": "14:07"
+    },
+    {
+      "start": 849.519,
+      "duration": 2.161,
+      "text": "them into Boommy and now I have that",
+      "timestamp": "14:09"
+    },
+    {
+      "start": 851.68,
+      "duration": 1.92,
+      "text": "full governance platform so that I can",
+      "timestamp": "14:11"
+    },
+    {
+      "start": 853.6,
+      "duration": 1.919,
+      "text": "have observability and management and",
+      "timestamp": "14:13"
+    },
+    {
+      "start": 855.519,
+      "duration": 3.841,
+      "text": "governance of those systems built in",
+      "timestamp": "14:15"
+    },
+    {
+      "start": 859.36,
+      "duration": 3.44,
+      "text": "um so with that I'd like to thank you",
+      "timestamp": "14:19"
+    },
+    {
+      "start": 862.8,
+      "duration": 2.96,
+      "text": "all what I'd like to do is introduce you",
+      "timestamp": "14:22"
+    },
+    {
+      "start": 865.76,
+      "duration": 2.16,
+      "text": "we're in a booth right over there we",
+      "timestamp": "14:25"
+    },
+    {
+      "start": 867.92,
+      "duration": 2.159,
+      "text": "hope you stop by if you see one of the",
+      "timestamp": "14:27"
+    },
+    {
+      "start": 870.079,
+      "duration": 1.76,
+      "text": "lovely women in the pink shirts they can",
+      "timestamp": "14:30"
+    },
+    {
+      "start": 871.839,
+      "duration": 1.201,
+      "text": "give you cards we have some great",
+      "timestamp": "14:31"
+    },
+    {
+      "start": 873.04,
+      "duration": 1.919,
+      "text": "giveaways if you do that you can come by",
+      "timestamp": "14:33"
+    },
+    {
+      "start": 874.959,
+      "duration": 2.24,
+      "text": "and take your pick so anyways thank you",
+      "timestamp": "14:34"
+    },
+    {
+      "start": 877.199,
+      "duration": 1.681,
+      "text": "very much for coming i appreciate your",
+      "timestamp": "14:37"
+    },
+    {
+      "start": 878.88,
+      "duration": 3.0,
+      "text": "time",
+      "timestamp": "14:38"
+    }
+  ],
+  "extraction_timestamp": "2025-06-29T21:04:35.399255",
+  "playlist_title": "SuperAI Singapore 2025: WEKA Stage"
+}

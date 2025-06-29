@@ -1,0 +1,1823 @@
+{
+  "video_id": "WHNSArBFcH8",
+  "video_title": "Rose Bernard - Power, Abuse, and Pixels: INTERPOL’s Response to an AI World - SuperAI Singapore 2025",
+  "video_url": "https://www.youtube.com/watch?v=WHNSArBFcH8",
+  "channel_title": "SuperAI",
+  "published_at": "2025-06-25T06:27:40+00:00",
+  "duration_seconds": null,
+  "view_count": 9,
+  "like_count": 0,
+  "description": "Learn more about SuperAI: superai.com\nFollow us on X: x.com/superai_conf\n\nKeynote: Power, Abuse, and Pixels: INTERPOL’s Response to an AI World\n\nSpeaker:\nRose Bernard, Coordinator @ INTERPOL\n\nStage: WEKA Stage\n#superai #interpol #ai #crime #police\n\nRecorded on 19 June 2025",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 300,
+    "aggregated_text": "hi everybody it's an absolute pleasure to be here at this conference thank you so much to our hosts for inviting us to speak i do want to start off with a little confession to you all which is that I'm a little out of my element here so my background is I'm 15 years now in cyber security i started out in threat intelligence and as a bunch cyber security people ironically tend to be very wary of new technologies we don't like new things we like the things that we can assess and risk assess and know there's a very memeable joke that is tell me you work in cyber security without telling me you work in cyber security and the answer is give me a dumb appliance i will pay more to have something that does not connect to anything so when I was asked to come and speak to you all about what we're doing in the face of AI I was a little you know a little I've got a little bit of trepidation but here we are also if you have any complaints you can see my colleague who bullied me into it she's right there c.nor.int please email her don't email me thank you so much um but it's a pleasure to be with you and I'm going to talk to you a little bit about what we see from perhaps the other side of AI how criminals are exploiting generative AI and large language models in today's environment and there are essentially three ways that we see currently AI enabled cyber crime working the first and most prevalent of these is fishing 3.0 we see the growth and development of fishing as a service platforms on the deep and dark web they are using AI to generate fishing emails with increased volume and increased veracity so perhaps where before you might have been able to screen fishing emails due to language due to change AI is making all of these more believable more important and a greater volume into your inbox the fact that this is smarter faster global fraud on an international basis is a significant step change from what we've seen previously one of the things that we've seen increasingly is that it now uh goes over language barriers so previously where language might have been a barrier we might have seen different scripts being important for cyber criminals we see a completely different aspect with AI it also enables it to adjust tactics in real time based on a victim's response patterns so if you deleted or reported a specific email it's able to change that and give you a different one next time this global reach and localization has led to even more targeted business email compromise and BEC attacks where AI tools analyze professional networks to tailor contextually accurate fishing attempts this might seem relatively anodine because of the volume of fishing emails when that we've all seen but when we talk about the fact that ransomware is increasingly using compromised credentials derived from fishing emails to perpetrate attacks the risk becomes a lot higher so this fishing increase at a volume is a really really significant step change we also see deep fakes in action the idea that you can mimic somebody's voice to fish somebody we see convincing faces in real time i'm sure we're all aware of the incidents in Hong Kong where a company's chief financial officer thought that he was on a call with somebody and was able to transfer $25 million to a criminal's account because he believed that he was on a call he wasn't it was completely deep faked technology if that was in 2024 imagine what they're doing now imagine what they will be able to do next year imagine what they will be able to do in 3 years time the pace of this and the accessibility of this technology is astounding and then finally we see criminals exploiting AI in terms of creating and using platforms such as worm GPT and fraud GPT these are AIP specific chat models like chatgbt that you can ask to create your own code you can ask to create your own fishing email you can ask to create your own crime they can create and automate social engineering campaigns with AIdriven precision generate malicious code and create and convince narratives that are really hard to detect we also see a huge increase in using AI to enumerate supply chain so before I worked at Interol I worked at a private company I was working at a financial company and our cyber security estate was huge because you have not only your software on prem but you're also looking at your estate off-rem you're looking at your software providers you're looking at their software providers you're looking at their software providers and what we're now seeing is AI enumeration of the vulnerabilities in your fourthline supply chain to try and infiltrate your company it's a huge mapping exercise that previously would have been too difficult criminals want to make money in the easiest and fastest way possible the idea of mapping out a supply chain it takes time now it doesn't we also see mass- prodducing of compromising content so targeting thousands of people with extortion campaigns because of emails that they are able to synthesize they are able to implement images to extort companies and individuals and that's one of the things that we are really looking at this year at Interiple is online image-based sexual abuse and digital sex crimes the landscape for this has increased thousands in the last year alone on the deep fake of technology it's increasing the use of deep fakes in IBSA threat actors are now able to generate deep fakes we're all used to the headlines coming out about people who have had uh images leaked from them online and are extorted we asked the question what if you didn't have to have images leaked in the first place what if they could just be generated and then used to extort you studies have suggested now that pornographic deep fakes currently constitute something like 98% of images available on the internet with 99% of those images targeting women and girls it also includes things like nudification apps which can be used to strip clothing from women ai companies have had to retrain their models which have previously used data sets linked to spec uh to suspected child sexual abuse material there were a case in August 2024 when researchers at the Leyon research database which is a huge online image and database of captions used as a source for AI image makers to train their LLMs uh they had to delete more than 2,000 web links related to CESAM and we see huge amounts so financial sextortion which is targeting minors is increasing a huge amount there are approximately one in five people who now experience sextortion or know somebody who have and this is all genders so it's not just women it's also men it's young boys and it's a huge issue we are currently looking at this in projects and I want to say that what we found is that the consequences of such crimes are very much not specific to AI or sextor it doesn't matter if the image isn't real it's still going to cause things like financial loss reputational harm and in some cases it has led to suicide this is a huge issue and we see a lot of platforms complicit in this i want to stress that this is a huge operation and it is sophisticated so while we talk about individual cases there are also cases of organized crime groups using these tactics to do a very very similar thing to scam centers and we see what happens is contact is made on an initial platform so Instagram and Snapchat I don't know if anyone from Instagram or Snapchat is if here if they are please please see me please at me um but they are the most used platforms for initial contact and what happens is following that initial contact is it's then moved to a secondary chat because the criminals want to obiscate their involvement they want to change their tactics they don't want to be found or reported and so Snapchat WhatsApp WhatsApp iMessage and Telegram are the most used secondary locations because of their ability to create uh encrypted chats and we see threatened dissemination platforms across Instagram Facebook YouTube Twitter X um and then payment platforms again are given to that same level of obfiscation so they use things like gift cards cash apps PayPal anything where you can hide your involvement this is a mass issue that is being done at scale for huge financial gain for the criminals and at huge emotional loss for the victims so what are we doing to combat this we are starting a new project and we are calling it project echo project Echo is an interpolled uh project into combating online image-based sexual abuse and digital sex crimes as part of that we are gathering experts from not just law enforcement but also victims of these these scams we are gathering academia we are gathering private companies and bringing them all to the table to understand what we can do operationally at scale to combat this and it's been hugely successful so far i come from this from a cyber security place i've got an intelligence background i was specifically looking at the crimes i was laser focused on TTPs and we were very honored to have presentations from some of the victims of widescale romance fraud and they were able to talk us through not just the impact on them by the scam itself but also the impact of the treatment of law enforcement and private companies and their family and friends afterwards it's not just the idea that they are victimized by a single crime but there's also a stigma surrounding this sort of crime which we need to work on in order to assist people to come forwards and identify the perpetrators we're also using part of our Cyber X program which is the empowerment pillar which is a pillar really really focused on bringing people together and identifying best practices in the space of this crime and this crime focus area we understand that it's new and evolving and we want to make sure that everyone has a seat around the table so we can best combat it because if we don't talk about it from all of the different perspectives we're not going to be able to do anything and everyone is harmed through this crime so this is our final plea if you want to work together with us please reach out to us my email is there we are very conscious that we can't do this alone it takes partnerships to do this we are also very conscious that from a cyber crime perspective AI is just another tool we're talking about it now we probably won't be talking about it in two or three years we'll be talking about the next tool we might be talking about quantum in the same way that you know 10 years ago we were talking about the tour network it's cyber criminals are doing the same types of crime over and over and over again and they are exploiting new technologies to do that and we want to ensure that we are targeting and disrupting them in a sustainable manner we are not targeting the technology we are targeting the crime and we can only do that with a coalition of partners to assist us from all walks of life thank you so much for listening to me i really appreciate your time today please don't hesitate to reach out to us and I and my colleague will be around at the conference if you have any questions thank you so much",
+    "text_length": 11133,
+    "word_count": 2024
+  },
+  "segments": [
+    {
+      "start": 7.44,
+      "duration": 2.96,
+      "text": "hi everybody it's an absolute pleasure",
+      "timestamp": "00:07"
+    },
+    {
+      "start": 10.4,
+      "duration": 2.88,
+      "text": "to be here at this conference thank you",
+      "timestamp": "00:10"
+    },
+    {
+      "start": 13.28,
+      "duration": 2.88,
+      "text": "so much to our hosts for inviting us to",
+      "timestamp": "00:13"
+    },
+    {
+      "start": 16.16,
+      "duration": 4.16,
+      "text": "speak i do want to start off with a",
+      "timestamp": "00:16"
+    },
+    {
+      "start": 20.32,
+      "duration": 2.32,
+      "text": "little confession to you all which is",
+      "timestamp": "00:20"
+    },
+    {
+      "start": 22.64,
+      "duration": 3.2,
+      "text": "that I'm a little out of my element here",
+      "timestamp": "00:22"
+    },
+    {
+      "start": 25.84,
+      "duration": 3.279,
+      "text": "so my background is I'm 15 years now in",
+      "timestamp": "00:25"
+    },
+    {
+      "start": 29.119,
+      "duration": 2.721,
+      "text": "cyber security i started out in threat",
+      "timestamp": "00:29"
+    },
+    {
+      "start": 31.84,
+      "duration": 4.559,
+      "text": "intelligence and as a bunch cyber",
+      "timestamp": "00:31"
+    },
+    {
+      "start": 36.399,
+      "duration": 2.16,
+      "text": "security people ironically tend to be",
+      "timestamp": "00:36"
+    },
+    {
+      "start": 38.559,
+      "duration": 3.281,
+      "text": "very wary of new technologies we don't",
+      "timestamp": "00:38"
+    },
+    {
+      "start": 41.84,
+      "duration": 2.399,
+      "text": "like new things we like the things that",
+      "timestamp": "00:41"
+    },
+    {
+      "start": 44.239,
+      "duration": 3.121,
+      "text": "we can assess and risk assess and know",
+      "timestamp": "00:44"
+    },
+    {
+      "start": 47.36,
+      "duration": 2.719,
+      "text": "there's a very memeable joke that is",
+      "timestamp": "00:47"
+    },
+    {
+      "start": 50.079,
+      "duration": 1.681,
+      "text": "tell me you work in cyber security",
+      "timestamp": "00:50"
+    },
+    {
+      "start": 51.76,
+      "duration": 1.6,
+      "text": "without telling me you work in cyber",
+      "timestamp": "00:51"
+    },
+    {
+      "start": 53.36,
+      "duration": 2.16,
+      "text": "security and the answer is give me a",
+      "timestamp": "00:53"
+    },
+    {
+      "start": 55.52,
+      "duration": 2.96,
+      "text": "dumb appliance i will pay more to have",
+      "timestamp": "00:55"
+    },
+    {
+      "start": 58.48,
+      "duration": 2.079,
+      "text": "something that does not connect to",
+      "timestamp": "00:58"
+    },
+    {
+      "start": 60.559,
+      "duration": 3.201,
+      "text": "anything so when I was asked to come and",
+      "timestamp": "01:00"
+    },
+    {
+      "start": 63.76,
+      "duration": 1.359,
+      "text": "speak to you all about what we're doing",
+      "timestamp": "01:03"
+    },
+    {
+      "start": 65.119,
+      "duration": 3.36,
+      "text": "in the face of AI I was a little you",
+      "timestamp": "01:05"
+    },
+    {
+      "start": 68.479,
+      "duration": 2.161,
+      "text": "know a little I've got a little bit of",
+      "timestamp": "01:08"
+    },
+    {
+      "start": 70.64,
+      "duration": 2.0,
+      "text": "trepidation but here we are also if you",
+      "timestamp": "01:10"
+    },
+    {
+      "start": 72.64,
+      "duration": 1.44,
+      "text": "have any complaints you can see my",
+      "timestamp": "01:12"
+    },
+    {
+      "start": 74.08,
+      "duration": 1.6,
+      "text": "colleague who bullied me into it she's",
+      "timestamp": "01:14"
+    },
+    {
+      "start": 75.68,
+      "duration": 3.92,
+      "text": "right there c.nor.int",
+      "timestamp": "01:15"
+    },
+    {
+      "start": 79.6,
+      "duration": 2.32,
+      "text": "please email her don't email me thank",
+      "timestamp": "01:19"
+    },
+    {
+      "start": 81.92,
+      "duration": 4.0,
+      "text": "you so much um but it's a pleasure to be",
+      "timestamp": "01:21"
+    },
+    {
+      "start": 85.92,
+      "duration": 1.519,
+      "text": "with you and I'm going to talk to you a",
+      "timestamp": "01:25"
+    },
+    {
+      "start": 87.439,
+      "duration": 2.081,
+      "text": "little bit about what we see from",
+      "timestamp": "01:27"
+    },
+    {
+      "start": 89.52,
+      "duration": 2.959,
+      "text": "perhaps the other side of AI how",
+      "timestamp": "01:29"
+    },
+    {
+      "start": 92.479,
+      "duration": 3.201,
+      "text": "criminals are exploiting generative AI",
+      "timestamp": "01:32"
+    },
+    {
+      "start": 95.68,
+      "duration": 2.24,
+      "text": "and large language models in today's",
+      "timestamp": "01:35"
+    },
+    {
+      "start": 97.92,
+      "duration": 1.92,
+      "text": "environment",
+      "timestamp": "01:37"
+    },
+    {
+      "start": 99.84,
+      "duration": 2.4,
+      "text": "and there are essentially three ways",
+      "timestamp": "01:39"
+    },
+    {
+      "start": 102.24,
+      "duration": 3.44,
+      "text": "that we see currently AI enabled cyber",
+      "timestamp": "01:42"
+    },
+    {
+      "start": 105.68,
+      "duration": 2.96,
+      "text": "crime working the first and most",
+      "timestamp": "01:45"
+    },
+    {
+      "start": 108.64,
+      "duration": 3.36,
+      "text": "prevalent of these is fishing 3.0",
+      "timestamp": "01:48"
+    },
+    {
+      "start": 112.0,
+      "duration": 3.439,
+      "text": "we see the growth and development of",
+      "timestamp": "01:52"
+    },
+    {
+      "start": 115.439,
+      "duration": 2.32,
+      "text": "fishing as a service platforms on the",
+      "timestamp": "01:55"
+    },
+    {
+      "start": 117.759,
+      "duration": 3.121,
+      "text": "deep and dark web they are using AI to",
+      "timestamp": "01:57"
+    },
+    {
+      "start": 120.88,
+      "duration": 3.36,
+      "text": "generate fishing emails with increased",
+      "timestamp": "02:00"
+    },
+    {
+      "start": 124.24,
+      "duration": 3.519,
+      "text": "volume and increased veracity so perhaps",
+      "timestamp": "02:04"
+    },
+    {
+      "start": 127.759,
+      "duration": 2.241,
+      "text": "where before you might have been able to",
+      "timestamp": "02:07"
+    },
+    {
+      "start": 130.0,
+      "duration": 2.879,
+      "text": "screen fishing emails due to language",
+      "timestamp": "02:10"
+    },
+    {
+      "start": 132.879,
+      "duration": 2.08,
+      "text": "due to change",
+      "timestamp": "02:12"
+    },
+    {
+      "start": 134.959,
+      "duration": 2.481,
+      "text": "AI is making all of these more",
+      "timestamp": "02:14"
+    },
+    {
+      "start": 137.44,
+      "duration": 3.439,
+      "text": "believable more important and a greater",
+      "timestamp": "02:17"
+    },
+    {
+      "start": 140.879,
+      "duration": 2.801,
+      "text": "volume into your inbox the fact that",
+      "timestamp": "02:20"
+    },
+    {
+      "start": 143.68,
+      "duration": 3.36,
+      "text": "this is smarter faster global fraud on",
+      "timestamp": "02:23"
+    },
+    {
+      "start": 147.04,
+      "duration": 3.76,
+      "text": "an international basis is a significant",
+      "timestamp": "02:27"
+    },
+    {
+      "start": 150.8,
+      "duration": 1.84,
+      "text": "step change from what we've seen",
+      "timestamp": "02:30"
+    },
+    {
+      "start": 152.64,
+      "duration": 1.599,
+      "text": "previously",
+      "timestamp": "02:32"
+    },
+    {
+      "start": 154.239,
+      "duration": 1.521,
+      "text": "one of the things that we've seen",
+      "timestamp": "02:34"
+    },
+    {
+      "start": 155.76,
+      "duration": 3.92,
+      "text": "increasingly is that it now uh goes over",
+      "timestamp": "02:35"
+    },
+    {
+      "start": 159.68,
+      "duration": 3.04,
+      "text": "language barriers so previously where",
+      "timestamp": "02:39"
+    },
+    {
+      "start": 162.72,
+      "duration": 1.84,
+      "text": "language might have been a barrier we",
+      "timestamp": "02:42"
+    },
+    {
+      "start": 164.56,
+      "duration": 2.08,
+      "text": "might have seen different scripts being",
+      "timestamp": "02:44"
+    },
+    {
+      "start": 166.64,
+      "duration": 2.16,
+      "text": "important for cyber criminals we see a",
+      "timestamp": "02:46"
+    },
+    {
+      "start": 168.8,
+      "duration": 3.92,
+      "text": "completely different aspect with AI it",
+      "timestamp": "02:48"
+    },
+    {
+      "start": 172.72,
+      "duration": 2.64,
+      "text": "also enables it to adjust tactics in",
+      "timestamp": "02:52"
+    },
+    {
+      "start": 175.36,
+      "duration": 3.12,
+      "text": "real time based on a victim's response",
+      "timestamp": "02:55"
+    },
+    {
+      "start": 178.48,
+      "duration": 3.039,
+      "text": "patterns so if you deleted or reported a",
+      "timestamp": "02:58"
+    },
+    {
+      "start": 181.519,
+      "duration": 2.401,
+      "text": "specific email it's able to change that",
+      "timestamp": "03:01"
+    },
+    {
+      "start": 183.92,
+      "duration": 2.56,
+      "text": "and give you a different one next time",
+      "timestamp": "03:03"
+    },
+    {
+      "start": 186.48,
+      "duration": 2.399,
+      "text": "this global reach and localization has",
+      "timestamp": "03:06"
+    },
+    {
+      "start": 188.879,
+      "duration": 2.881,
+      "text": "led to even more targeted business email",
+      "timestamp": "03:08"
+    },
+    {
+      "start": 191.76,
+      "duration": 3.52,
+      "text": "compromise and BEC attacks where AI",
+      "timestamp": "03:11"
+    },
+    {
+      "start": 195.28,
+      "duration": 2.959,
+      "text": "tools analyze professional networks to",
+      "timestamp": "03:15"
+    },
+    {
+      "start": 198.239,
+      "duration": 2.961,
+      "text": "tailor contextually accurate fishing",
+      "timestamp": "03:18"
+    },
+    {
+      "start": 201.2,
+      "duration": 3.92,
+      "text": "attempts this might seem relatively",
+      "timestamp": "03:21"
+    },
+    {
+      "start": 205.12,
+      "duration": 2.399,
+      "text": "anodine because of the volume of fishing",
+      "timestamp": "03:25"
+    },
+    {
+      "start": 207.519,
+      "duration": 2.72,
+      "text": "emails when that we've all seen but when",
+      "timestamp": "03:27"
+    },
+    {
+      "start": 210.239,
+      "duration": 2.0,
+      "text": "we talk about the fact that ransomware",
+      "timestamp": "03:30"
+    },
+    {
+      "start": 212.239,
+      "duration": 2.401,
+      "text": "is increasingly using compromised",
+      "timestamp": "03:32"
+    },
+    {
+      "start": 214.64,
+      "duration": 3.04,
+      "text": "credentials derived from fishing emails",
+      "timestamp": "03:34"
+    },
+    {
+      "start": 217.68,
+      "duration": 3.44,
+      "text": "to perpetrate attacks the risk becomes a",
+      "timestamp": "03:37"
+    },
+    {
+      "start": 221.12,
+      "duration": 4.08,
+      "text": "lot higher so this fishing increase at a",
+      "timestamp": "03:41"
+    },
+    {
+      "start": 225.2,
+      "duration": 2.64,
+      "text": "volume is a really really significant",
+      "timestamp": "03:45"
+    },
+    {
+      "start": 227.84,
+      "duration": 3.36,
+      "text": "step change we also see deep fakes in",
+      "timestamp": "03:47"
+    },
+    {
+      "start": 231.2,
+      "duration": 2.64,
+      "text": "action the idea that you can mimic",
+      "timestamp": "03:51"
+    },
+    {
+      "start": 233.84,
+      "duration": 3.36,
+      "text": "somebody's voice to fish somebody we see",
+      "timestamp": "03:53"
+    },
+    {
+      "start": 237.2,
+      "duration": 3.44,
+      "text": "convincing faces in real time i'm sure",
+      "timestamp": "03:57"
+    },
+    {
+      "start": 240.64,
+      "duration": 2.64,
+      "text": "we're all aware of the incidents in Hong",
+      "timestamp": "04:00"
+    },
+    {
+      "start": 243.28,
+      "duration": 3.28,
+      "text": "Kong where a company's chief financial",
+      "timestamp": "04:03"
+    },
+    {
+      "start": 246.56,
+      "duration": 2.959,
+      "text": "officer thought that he was on a call",
+      "timestamp": "04:06"
+    },
+    {
+      "start": 249.519,
+      "duration": 2.561,
+      "text": "with somebody and was able to transfer",
+      "timestamp": "04:09"
+    },
+    {
+      "start": 252.08,
+      "duration": 2.96,
+      "text": "$25 million",
+      "timestamp": "04:12"
+    },
+    {
+      "start": 255.04,
+      "duration": 3.12,
+      "text": "to a criminal's account because he",
+      "timestamp": "04:15"
+    },
+    {
+      "start": 258.16,
+      "duration": 2.799,
+      "text": "believed that he was on a call he wasn't",
+      "timestamp": "04:18"
+    },
+    {
+      "start": 260.959,
+      "duration": 3.121,
+      "text": "it was completely deep faked technology",
+      "timestamp": "04:20"
+    },
+    {
+      "start": 264.08,
+      "duration": 2.64,
+      "text": "if that was in 2024",
+      "timestamp": "04:24"
+    },
+    {
+      "start": 266.72,
+      "duration": 2.16,
+      "text": "imagine what they're doing now imagine",
+      "timestamp": "04:26"
+    },
+    {
+      "start": 268.88,
+      "duration": 2.319,
+      "text": "what they will be able to do next year",
+      "timestamp": "04:28"
+    },
+    {
+      "start": 271.199,
+      "duration": 2.081,
+      "text": "imagine what they will be able to do in",
+      "timestamp": "04:31"
+    },
+    {
+      "start": 273.28,
+      "duration": 4.08,
+      "text": "3 years time the pace of this and the",
+      "timestamp": "04:33"
+    },
+    {
+      "start": 277.36,
+      "duration": 3.36,
+      "text": "accessibility of this technology is",
+      "timestamp": "04:37"
+    },
+    {
+      "start": 280.72,
+      "duration": 1.68,
+      "text": "astounding",
+      "timestamp": "04:40"
+    },
+    {
+      "start": 282.4,
+      "duration": 2.239,
+      "text": "and then finally we see criminals",
+      "timestamp": "04:42"
+    },
+    {
+      "start": 284.639,
+      "duration": 2.56,
+      "text": "exploiting AI in terms of creating and",
+      "timestamp": "04:44"
+    },
+    {
+      "start": 287.199,
+      "duration": 3.361,
+      "text": "using platforms such as worm GPT and",
+      "timestamp": "04:47"
+    },
+    {
+      "start": 290.56,
+      "duration": 4.4,
+      "text": "fraud GPT these are AIP specific chat",
+      "timestamp": "04:50"
+    },
+    {
+      "start": 294.96,
+      "duration": 3.12,
+      "text": "models like chatgbt that you can ask to",
+      "timestamp": "04:54"
+    },
+    {
+      "start": 298.08,
+      "duration": 2.88,
+      "text": "create your own code you can ask to",
+      "timestamp": "04:58"
+    },
+    {
+      "start": 300.96,
+      "duration": 1.84,
+      "text": "create your own fishing email you can",
+      "timestamp": "05:00"
+    },
+    {
+      "start": 302.8,
+      "duration": 2.48,
+      "text": "ask to create your own crime they can",
+      "timestamp": "05:02"
+    },
+    {
+      "start": 305.28,
+      "duration": 2.72,
+      "text": "create and automate social engineering",
+      "timestamp": "05:05"
+    },
+    {
+      "start": 308.0,
+      "duration": 3.12,
+      "text": "campaigns with AIdriven precision",
+      "timestamp": "05:08"
+    },
+    {
+      "start": 311.12,
+      "duration": 2.32,
+      "text": "generate malicious code and create and",
+      "timestamp": "05:11"
+    },
+    {
+      "start": 313.44,
+      "duration": 1.759,
+      "text": "convince narratives that are really hard",
+      "timestamp": "05:13"
+    },
+    {
+      "start": 315.199,
+      "duration": 4.081,
+      "text": "to detect we also see a huge increase in",
+      "timestamp": "05:15"
+    },
+    {
+      "start": 319.28,
+      "duration": 4.4,
+      "text": "using AI to enumerate supply chain so",
+      "timestamp": "05:19"
+    },
+    {
+      "start": 323.68,
+      "duration": 3.68,
+      "text": "before I worked at Interol I worked at a",
+      "timestamp": "05:23"
+    },
+    {
+      "start": 327.36,
+      "duration": 1.6,
+      "text": "private company I was working at a",
+      "timestamp": "05:27"
+    },
+    {
+      "start": 328.96,
+      "duration": 2.799,
+      "text": "financial company and our cyber security",
+      "timestamp": "05:28"
+    },
+    {
+      "start": 331.759,
+      "duration": 3.761,
+      "text": "estate was huge because you have not",
+      "timestamp": "05:31"
+    },
+    {
+      "start": 335.52,
+      "duration": 2.8,
+      "text": "only your software on prem but you're",
+      "timestamp": "05:35"
+    },
+    {
+      "start": 338.32,
+      "duration": 2.08,
+      "text": "also looking at your estate off-rem",
+      "timestamp": "05:38"
+    },
+    {
+      "start": 340.4,
+      "duration": 1.2,
+      "text": "you're looking at your software",
+      "timestamp": "05:40"
+    },
+    {
+      "start": 341.6,
+      "duration": 1.599,
+      "text": "providers you're looking at their",
+      "timestamp": "05:41"
+    },
+    {
+      "start": 343.199,
+      "duration": 1.761,
+      "text": "software providers you're looking at",
+      "timestamp": "05:43"
+    },
+    {
+      "start": 344.96,
+      "duration": 2.56,
+      "text": "their software providers and what we're",
+      "timestamp": "05:44"
+    },
+    {
+      "start": 347.52,
+      "duration": 3.36,
+      "text": "now seeing is AI enumeration of the",
+      "timestamp": "05:47"
+    },
+    {
+      "start": 350.88,
+      "duration": 2.72,
+      "text": "vulnerabilities in your fourthline",
+      "timestamp": "05:50"
+    },
+    {
+      "start": 353.6,
+      "duration": 2.8,
+      "text": "supply chain to try and infiltrate your",
+      "timestamp": "05:53"
+    },
+    {
+      "start": 356.4,
+      "duration": 3.359,
+      "text": "company it's a huge mapping exercise",
+      "timestamp": "05:56"
+    },
+    {
+      "start": 359.759,
+      "duration": 2.561,
+      "text": "that previously would have been too",
+      "timestamp": "05:59"
+    },
+    {
+      "start": 362.32,
+      "duration": 1.52,
+      "text": "difficult criminals want to make money",
+      "timestamp": "06:02"
+    },
+    {
+      "start": 363.84,
+      "duration": 2.079,
+      "text": "in the easiest and fastest way possible",
+      "timestamp": "06:03"
+    },
+    {
+      "start": 365.919,
+      "duration": 2.0,
+      "text": "the idea of mapping out a supply chain",
+      "timestamp": "06:05"
+    },
+    {
+      "start": 367.919,
+      "duration": 4.4,
+      "text": "it takes time now it doesn't we also see",
+      "timestamp": "06:07"
+    },
+    {
+      "start": 372.319,
+      "duration": 2.88,
+      "text": "mass- prodducing of compromising content",
+      "timestamp": "06:12"
+    },
+    {
+      "start": 375.199,
+      "duration": 2.961,
+      "text": "so targeting thousands of people with",
+      "timestamp": "06:15"
+    },
+    {
+      "start": 378.16,
+      "duration": 2.879,
+      "text": "extortion campaigns because of emails",
+      "timestamp": "06:18"
+    },
+    {
+      "start": 381.039,
+      "duration": 1.921,
+      "text": "that they are able to synthesize they",
+      "timestamp": "06:21"
+    },
+    {
+      "start": 382.96,
+      "duration": 3.2,
+      "text": "are able to implement images to extort",
+      "timestamp": "06:22"
+    },
+    {
+      "start": 386.16,
+      "duration": 3.2,
+      "text": "companies and individuals",
+      "timestamp": "06:26"
+    },
+    {
+      "start": 389.36,
+      "duration": 1.76,
+      "text": "and that's one of the things that we are",
+      "timestamp": "06:29"
+    },
+    {
+      "start": 391.12,
+      "duration": 2.639,
+      "text": "really looking at this year at Interiple",
+      "timestamp": "06:31"
+    },
+    {
+      "start": 393.759,
+      "duration": 3.521,
+      "text": "is online image-based sexual abuse and",
+      "timestamp": "06:33"
+    },
+    {
+      "start": 397.28,
+      "duration": 2.96,
+      "text": "digital sex crimes the landscape for",
+      "timestamp": "06:37"
+    },
+    {
+      "start": 400.24,
+      "duration": 2.72,
+      "text": "this has increased",
+      "timestamp": "06:40"
+    },
+    {
+      "start": 402.96,
+      "duration": 3.44,
+      "text": "thousands in the last year alone",
+      "timestamp": "06:42"
+    },
+    {
+      "start": 406.4,
+      "duration": 2.079,
+      "text": "on the deep fake of technology it's",
+      "timestamp": "06:46"
+    },
+    {
+      "start": 408.479,
+      "duration": 2.641,
+      "text": "increasing the use of deep fakes in IBSA",
+      "timestamp": "06:48"
+    },
+    {
+      "start": 411.12,
+      "duration": 2.56,
+      "text": "threat actors are now able to generate",
+      "timestamp": "06:51"
+    },
+    {
+      "start": 413.68,
+      "duration": 2.32,
+      "text": "deep fakes we're all used to the",
+      "timestamp": "06:53"
+    },
+    {
+      "start": 416.0,
+      "duration": 2.56,
+      "text": "headlines coming out about people who",
+      "timestamp": "06:56"
+    },
+    {
+      "start": 418.56,
+      "duration": 3.12,
+      "text": "have had uh images leaked from them",
+      "timestamp": "06:58"
+    },
+    {
+      "start": 421.68,
+      "duration": 2.959,
+      "text": "online and are extorted we asked the",
+      "timestamp": "07:01"
+    },
+    {
+      "start": 424.639,
+      "duration": 1.68,
+      "text": "question what if you didn't have to have",
+      "timestamp": "07:04"
+    },
+    {
+      "start": 426.319,
+      "duration": 2.401,
+      "text": "images leaked in the first place what if",
+      "timestamp": "07:06"
+    },
+    {
+      "start": 428.72,
+      "duration": 2.0,
+      "text": "they could just be generated and then",
+      "timestamp": "07:08"
+    },
+    {
+      "start": 430.72,
+      "duration": 2.4,
+      "text": "used to extort you studies have",
+      "timestamp": "07:10"
+    },
+    {
+      "start": 433.12,
+      "duration": 1.84,
+      "text": "suggested now that pornographic deep",
+      "timestamp": "07:13"
+    },
+    {
+      "start": 434.96,
+      "duration": 1.679,
+      "text": "fakes currently constitute something",
+      "timestamp": "07:14"
+    },
+    {
+      "start": 436.639,
+      "duration": 4.0,
+      "text": "like 98% of images available on the",
+      "timestamp": "07:16"
+    },
+    {
+      "start": 440.639,
+      "duration": 3.201,
+      "text": "internet with 99% of those images",
+      "timestamp": "07:20"
+    },
+    {
+      "start": 443.84,
+      "duration": 2.32,
+      "text": "targeting women and girls it also",
+      "timestamp": "07:23"
+    },
+    {
+      "start": 446.16,
+      "duration": 2.319,
+      "text": "includes things like nudification apps",
+      "timestamp": "07:26"
+    },
+    {
+      "start": 448.479,
+      "duration": 2.72,
+      "text": "which can be used to strip clothing from",
+      "timestamp": "07:28"
+    },
+    {
+      "start": 451.199,
+      "duration": 1.361,
+      "text": "women",
+      "timestamp": "07:31"
+    },
+    {
+      "start": 452.56,
+      "duration": 2.8,
+      "text": "ai companies have had to retrain their",
+      "timestamp": "07:32"
+    },
+    {
+      "start": 455.36,
+      "duration": 3.119,
+      "text": "models which have previously used data",
+      "timestamp": "07:35"
+    },
+    {
+      "start": 458.479,
+      "duration": 2.72,
+      "text": "sets linked to spec uh to suspected",
+      "timestamp": "07:38"
+    },
+    {
+      "start": 461.199,
+      "duration": 3.601,
+      "text": "child sexual abuse material there were a",
+      "timestamp": "07:41"
+    },
+    {
+      "start": 464.8,
+      "duration": 3.04,
+      "text": "case in August 2024 when researchers at",
+      "timestamp": "07:44"
+    },
+    {
+      "start": 467.84,
+      "duration": 2.079,
+      "text": "the Leyon research database which is a",
+      "timestamp": "07:47"
+    },
+    {
+      "start": 469.919,
+      "duration": 3.28,
+      "text": "huge online image and database of",
+      "timestamp": "07:49"
+    },
+    {
+      "start": 473.199,
+      "duration": 2.801,
+      "text": "captions used as a source for AI image",
+      "timestamp": "07:53"
+    },
+    {
+      "start": 476.0,
+      "duration": 4.479,
+      "text": "makers to train their LLMs uh they had",
+      "timestamp": "07:56"
+    },
+    {
+      "start": 480.479,
+      "duration": 4.321,
+      "text": "to delete more than 2,000 web links",
+      "timestamp": "08:00"
+    },
+    {
+      "start": 484.8,
+      "duration": 3.519,
+      "text": "related to CESAM and we see huge amounts",
+      "timestamp": "08:04"
+    },
+    {
+      "start": 488.319,
+      "duration": 2.32,
+      "text": "so financial sextortion which is",
+      "timestamp": "08:08"
+    },
+    {
+      "start": 490.639,
+      "duration": 2.641,
+      "text": "targeting minors is increasing a huge",
+      "timestamp": "08:10"
+    },
+    {
+      "start": 493.28,
+      "duration": 2.639,
+      "text": "amount there are approximately one in",
+      "timestamp": "08:13"
+    },
+    {
+      "start": 495.919,
+      "duration": 2.481,
+      "text": "five people who now experience",
+      "timestamp": "08:15"
+    },
+    {
+      "start": 498.4,
+      "duration": 2.96,
+      "text": "sextortion or know somebody who have and",
+      "timestamp": "08:18"
+    },
+    {
+      "start": 501.36,
+      "duration": 2.08,
+      "text": "this is all genders so it's not just",
+      "timestamp": "08:21"
+    },
+    {
+      "start": 503.44,
+      "duration": 3.199,
+      "text": "women it's also men it's young boys and",
+      "timestamp": "08:23"
+    },
+    {
+      "start": 506.639,
+      "duration": 2.641,
+      "text": "it's a huge issue",
+      "timestamp": "08:26"
+    },
+    {
+      "start": 509.28,
+      "duration": 2.4,
+      "text": "we are currently looking at this in",
+      "timestamp": "08:29"
+    },
+    {
+      "start": 511.68,
+      "duration": 2.32,
+      "text": "projects and I want to say that what we",
+      "timestamp": "08:31"
+    },
+    {
+      "start": 514.0,
+      "duration": 3.68,
+      "text": "found is that the consequences of such",
+      "timestamp": "08:34"
+    },
+    {
+      "start": 517.68,
+      "duration": 4.56,
+      "text": "crimes are very much not specific to AI",
+      "timestamp": "08:37"
+    },
+    {
+      "start": 522.24,
+      "duration": 2.4,
+      "text": "or sextor it doesn't matter if the image",
+      "timestamp": "08:42"
+    },
+    {
+      "start": 524.64,
+      "duration": 2.8,
+      "text": "isn't real it's still going to cause",
+      "timestamp": "08:44"
+    },
+    {
+      "start": 527.44,
+      "duration": 2.72,
+      "text": "things like financial loss reputational",
+      "timestamp": "08:47"
+    },
+    {
+      "start": 530.16,
+      "duration": 3.6,
+      "text": "harm and in some cases it has led to",
+      "timestamp": "08:50"
+    },
+    {
+      "start": 533.76,
+      "duration": 5.28,
+      "text": "suicide this is a huge issue",
+      "timestamp": "08:53"
+    },
+    {
+      "start": 539.04,
+      "duration": 2.799,
+      "text": "and we see a lot of platforms complicit",
+      "timestamp": "08:59"
+    },
+    {
+      "start": 541.839,
+      "duration": 3.361,
+      "text": "in this i want to stress that this is a",
+      "timestamp": "09:01"
+    },
+    {
+      "start": 545.2,
+      "duration": 2.56,
+      "text": "huge operation and it is sophisticated",
+      "timestamp": "09:05"
+    },
+    {
+      "start": 547.76,
+      "duration": 2.88,
+      "text": "so while we talk about individual cases",
+      "timestamp": "09:07"
+    },
+    {
+      "start": 550.64,
+      "duration": 2.319,
+      "text": "there are also cases of organized crime",
+      "timestamp": "09:10"
+    },
+    {
+      "start": 552.959,
+      "duration": 3.601,
+      "text": "groups using these tactics to do a very",
+      "timestamp": "09:12"
+    },
+    {
+      "start": 556.56,
+      "duration": 3.12,
+      "text": "very similar thing to scam centers and",
+      "timestamp": "09:16"
+    },
+    {
+      "start": 559.68,
+      "duration": 2.719,
+      "text": "we see what happens is contact is made",
+      "timestamp": "09:19"
+    },
+    {
+      "start": 562.399,
+      "duration": 2.56,
+      "text": "on an initial platform so Instagram and",
+      "timestamp": "09:22"
+    },
+    {
+      "start": 564.959,
+      "duration": 1.921,
+      "text": "Snapchat I don't know if anyone from",
+      "timestamp": "09:24"
+    },
+    {
+      "start": 566.88,
+      "duration": 2.56,
+      "text": "Instagram or Snapchat is if here if they",
+      "timestamp": "09:26"
+    },
+    {
+      "start": 569.44,
+      "duration": 3.36,
+      "text": "are please please see me please at me um",
+      "timestamp": "09:29"
+    },
+    {
+      "start": 572.8,
+      "duration": 2.88,
+      "text": "but they are the most used platforms for",
+      "timestamp": "09:32"
+    },
+    {
+      "start": 575.68,
+      "duration": 2.719,
+      "text": "initial contact and what happens is",
+      "timestamp": "09:35"
+    },
+    {
+      "start": 578.399,
+      "duration": 2.161,
+      "text": "following that initial contact is it's",
+      "timestamp": "09:38"
+    },
+    {
+      "start": 580.56,
+      "duration": 3.2,
+      "text": "then moved to a secondary chat because",
+      "timestamp": "09:40"
+    },
+    {
+      "start": 583.76,
+      "duration": 2.32,
+      "text": "the criminals want to obiscate their",
+      "timestamp": "09:43"
+    },
+    {
+      "start": 586.08,
+      "duration": 2.879,
+      "text": "involvement they want to change their",
+      "timestamp": "09:46"
+    },
+    {
+      "start": 588.959,
+      "duration": 2.241,
+      "text": "tactics they don't want to be found or",
+      "timestamp": "09:48"
+    },
+    {
+      "start": 591.2,
+      "duration": 2.24,
+      "text": "reported and so Snapchat WhatsApp",
+      "timestamp": "09:51"
+    },
+    {
+      "start": 593.44,
+      "duration": 2.56,
+      "text": "WhatsApp iMessage and Telegram are the",
+      "timestamp": "09:53"
+    },
+    {
+      "start": 596.0,
+      "duration": 2.959,
+      "text": "most used secondary locations because of",
+      "timestamp": "09:56"
+    },
+    {
+      "start": 598.959,
+      "duration": 3.281,
+      "text": "their ability to create uh encrypted",
+      "timestamp": "09:58"
+    },
+    {
+      "start": 602.24,
+      "duration": 2.24,
+      "text": "chats and we see threatened",
+      "timestamp": "10:02"
+    },
+    {
+      "start": 604.48,
+      "duration": 2.799,
+      "text": "dissemination platforms across Instagram",
+      "timestamp": "10:04"
+    },
+    {
+      "start": 607.279,
+      "duration": 4.24,
+      "text": "Facebook YouTube Twitter X um and then",
+      "timestamp": "10:07"
+    },
+    {
+      "start": 611.519,
+      "duration": 1.921,
+      "text": "payment platforms again are given to",
+      "timestamp": "10:11"
+    },
+    {
+      "start": 613.44,
+      "duration": 2.32,
+      "text": "that same level of obfiscation so they",
+      "timestamp": "10:13"
+    },
+    {
+      "start": 615.76,
+      "duration": 3.199,
+      "text": "use things like gift cards cash apps",
+      "timestamp": "10:15"
+    },
+    {
+      "start": 618.959,
+      "duration": 2.641,
+      "text": "PayPal anything where you can hide your",
+      "timestamp": "10:18"
+    },
+    {
+      "start": 621.6,
+      "duration": 3.12,
+      "text": "involvement this is a mass issue that is",
+      "timestamp": "10:21"
+    },
+    {
+      "start": 624.72,
+      "duration": 3.44,
+      "text": "being done at scale for huge financial",
+      "timestamp": "10:24"
+    },
+    {
+      "start": 628.16,
+      "duration": 3.359,
+      "text": "gain for the criminals and at huge",
+      "timestamp": "10:28"
+    },
+    {
+      "start": 631.519,
+      "duration": 5.081,
+      "text": "emotional loss for the victims",
+      "timestamp": "10:31"
+    },
+    {
+      "start": 637.279,
+      "duration": 2.961,
+      "text": "so what are we doing to combat this we",
+      "timestamp": "10:37"
+    },
+    {
+      "start": 640.24,
+      "duration": 3.36,
+      "text": "are starting a new project and we are",
+      "timestamp": "10:40"
+    },
+    {
+      "start": 643.6,
+      "duration": 3.52,
+      "text": "calling it project echo project Echo is",
+      "timestamp": "10:43"
+    },
+    {
+      "start": 647.12,
+      "duration": 3.6,
+      "text": "an interpolled uh project into combating",
+      "timestamp": "10:47"
+    },
+    {
+      "start": 650.72,
+      "duration": 1.92,
+      "text": "online image-based sexual abuse and",
+      "timestamp": "10:50"
+    },
+    {
+      "start": 652.64,
+      "duration": 3.28,
+      "text": "digital sex crimes as part of that we",
+      "timestamp": "10:52"
+    },
+    {
+      "start": 655.92,
+      "duration": 3.12,
+      "text": "are gathering experts from not just law",
+      "timestamp": "10:55"
+    },
+    {
+      "start": 659.04,
+      "duration": 4.56,
+      "text": "enforcement but also victims of these",
+      "timestamp": "10:59"
+    },
+    {
+      "start": 663.6,
+      "duration": 3.679,
+      "text": "these scams we are gathering academia we",
+      "timestamp": "11:03"
+    },
+    {
+      "start": 667.279,
+      "duration": 1.601,
+      "text": "are gathering private companies and",
+      "timestamp": "11:07"
+    },
+    {
+      "start": 668.88,
+      "duration": 2.24,
+      "text": "bringing them all to the table to",
+      "timestamp": "11:08"
+    },
+    {
+      "start": 671.12,
+      "duration": 3.52,
+      "text": "understand what we can do operationally",
+      "timestamp": "11:11"
+    },
+    {
+      "start": 674.64,
+      "duration": 3.6,
+      "text": "at scale to combat this and it's been",
+      "timestamp": "11:14"
+    },
+    {
+      "start": 678.24,
+      "duration": 3.2,
+      "text": "hugely successful so far i come from",
+      "timestamp": "11:18"
+    },
+    {
+      "start": 681.44,
+      "duration": 1.76,
+      "text": "this from a cyber security place i've",
+      "timestamp": "11:21"
+    },
+    {
+      "start": 683.2,
+      "duration": 2.079,
+      "text": "got an intelligence background i was",
+      "timestamp": "11:23"
+    },
+    {
+      "start": 685.279,
+      "duration": 2.081,
+      "text": "specifically looking at the crimes i was",
+      "timestamp": "11:25"
+    },
+    {
+      "start": 687.36,
+      "duration": 3.599,
+      "text": "laser focused on TTPs and we were very",
+      "timestamp": "11:27"
+    },
+    {
+      "start": 690.959,
+      "duration": 2.481,
+      "text": "honored to have presentations from some",
+      "timestamp": "11:30"
+    },
+    {
+      "start": 693.44,
+      "duration": 2.56,
+      "text": "of the victims of widescale romance",
+      "timestamp": "11:33"
+    },
+    {
+      "start": 696.0,
+      "duration": 2.24,
+      "text": "fraud and they were able to talk us",
+      "timestamp": "11:36"
+    },
+    {
+      "start": 698.24,
+      "duration": 3.52,
+      "text": "through not just the impact on them by",
+      "timestamp": "11:38"
+    },
+    {
+      "start": 701.76,
+      "duration": 3.04,
+      "text": "the scam itself but also the impact of",
+      "timestamp": "11:41"
+    },
+    {
+      "start": 704.8,
+      "duration": 2.32,
+      "text": "the treatment of law enforcement and",
+      "timestamp": "11:44"
+    },
+    {
+      "start": 707.12,
+      "duration": 2.32,
+      "text": "private companies and their family and",
+      "timestamp": "11:47"
+    },
+    {
+      "start": 709.44,
+      "duration": 2.24,
+      "text": "friends afterwards",
+      "timestamp": "11:49"
+    },
+    {
+      "start": 711.68,
+      "duration": 1.68,
+      "text": "it's not just the idea that they are",
+      "timestamp": "11:51"
+    },
+    {
+      "start": 713.36,
+      "duration": 2.56,
+      "text": "victimized by a single crime but there's",
+      "timestamp": "11:53"
+    },
+    {
+      "start": 715.92,
+      "duration": 2.88,
+      "text": "also a stigma surrounding this sort of",
+      "timestamp": "11:55"
+    },
+    {
+      "start": 718.8,
+      "duration": 2.4,
+      "text": "crime which we need to work on in order",
+      "timestamp": "11:58"
+    },
+    {
+      "start": 721.2,
+      "duration": 2.639,
+      "text": "to assist people to come forwards and",
+      "timestamp": "12:01"
+    },
+    {
+      "start": 723.839,
+      "duration": 2.24,
+      "text": "identify the perpetrators",
+      "timestamp": "12:03"
+    },
+    {
+      "start": 726.079,
+      "duration": 2.801,
+      "text": "we're also using part of our Cyber X",
+      "timestamp": "12:06"
+    },
+    {
+      "start": 728.88,
+      "duration": 3.04,
+      "text": "program which is the empowerment pillar",
+      "timestamp": "12:08"
+    },
+    {
+      "start": 731.92,
+      "duration": 2.4,
+      "text": "which is a pillar really really focused",
+      "timestamp": "12:11"
+    },
+    {
+      "start": 734.32,
+      "duration": 2.56,
+      "text": "on bringing people together and",
+      "timestamp": "12:14"
+    },
+    {
+      "start": 736.88,
+      "duration": 3.28,
+      "text": "identifying best practices in the space",
+      "timestamp": "12:16"
+    },
+    {
+      "start": 740.16,
+      "duration": 3.119,
+      "text": "of this crime and this crime focus area",
+      "timestamp": "12:20"
+    },
+    {
+      "start": 743.279,
+      "duration": 2.8,
+      "text": "we understand that it's new and evolving",
+      "timestamp": "12:23"
+    },
+    {
+      "start": 746.079,
+      "duration": 1.681,
+      "text": "and we want to make sure that everyone",
+      "timestamp": "12:26"
+    },
+    {
+      "start": 747.76,
+      "duration": 2.48,
+      "text": "has a seat around the table so we can",
+      "timestamp": "12:27"
+    },
+    {
+      "start": 750.24,
+      "duration": 3.039,
+      "text": "best combat it because if we don't talk",
+      "timestamp": "12:30"
+    },
+    {
+      "start": 753.279,
+      "duration": 2.0,
+      "text": "about it from all of the different",
+      "timestamp": "12:33"
+    },
+    {
+      "start": 755.279,
+      "duration": 2.321,
+      "text": "perspectives we're not going to be able",
+      "timestamp": "12:35"
+    },
+    {
+      "start": 757.6,
+      "duration": 2.96,
+      "text": "to do anything and everyone is harmed",
+      "timestamp": "12:37"
+    },
+    {
+      "start": 760.56,
+      "duration": 3.36,
+      "text": "through this crime",
+      "timestamp": "12:40"
+    },
+    {
+      "start": 763.92,
+      "duration": 3.44,
+      "text": "so this is our final plea if you want to",
+      "timestamp": "12:43"
+    },
+    {
+      "start": 767.36,
+      "duration": 2.479,
+      "text": "work together with us please reach out",
+      "timestamp": "12:47"
+    },
+    {
+      "start": 769.839,
+      "duration": 3.281,
+      "text": "to us my email is there we are very",
+      "timestamp": "12:49"
+    },
+    {
+      "start": 773.12,
+      "duration": 2.48,
+      "text": "conscious that we can't do this alone it",
+      "timestamp": "12:53"
+    },
+    {
+      "start": 775.6,
+      "duration": 2.799,
+      "text": "takes partnerships to do this we are",
+      "timestamp": "12:55"
+    },
+    {
+      "start": 778.399,
+      "duration": 2.88,
+      "text": "also very conscious that from a cyber",
+      "timestamp": "12:58"
+    },
+    {
+      "start": 781.279,
+      "duration": 2.8,
+      "text": "crime perspective AI is just another",
+      "timestamp": "13:01"
+    },
+    {
+      "start": 784.079,
+      "duration": 2.641,
+      "text": "tool we're talking about it now we",
+      "timestamp": "13:04"
+    },
+    {
+      "start": 786.72,
+      "duration": 1.84,
+      "text": "probably won't be talking about it in",
+      "timestamp": "13:06"
+    },
+    {
+      "start": 788.56,
+      "duration": 1.44,
+      "text": "two or three years we'll be talking",
+      "timestamp": "13:08"
+    },
+    {
+      "start": 790.0,
+      "duration": 1.519,
+      "text": "about the next tool we might be talking",
+      "timestamp": "13:10"
+    },
+    {
+      "start": 791.519,
+      "duration": 4.241,
+      "text": "about quantum in the same way that",
+      "timestamp": "13:11"
+    },
+    {
+      "start": 795.76,
+      "duration": 1.759,
+      "text": "you know 10 years ago we were talking",
+      "timestamp": "13:15"
+    },
+    {
+      "start": 797.519,
+      "duration": 2.401,
+      "text": "about the tour network it's cyber",
+      "timestamp": "13:17"
+    },
+    {
+      "start": 799.92,
+      "duration": 2.56,
+      "text": "criminals are doing the same types of",
+      "timestamp": "13:19"
+    },
+    {
+      "start": 802.48,
+      "duration": 3.2,
+      "text": "crime over and over and over again and",
+      "timestamp": "13:22"
+    },
+    {
+      "start": 805.68,
+      "duration": 2.48,
+      "text": "they are exploiting new technologies to",
+      "timestamp": "13:25"
+    },
+    {
+      "start": 808.16,
+      "duration": 2.88,
+      "text": "do that and we want to ensure that we",
+      "timestamp": "13:28"
+    },
+    {
+      "start": 811.04,
+      "duration": 2.4,
+      "text": "are targeting and disrupting them in a",
+      "timestamp": "13:31"
+    },
+    {
+      "start": 813.44,
+      "duration": 2.399,
+      "text": "sustainable manner we are not targeting",
+      "timestamp": "13:33"
+    },
+    {
+      "start": 815.839,
+      "duration": 2.24,
+      "text": "the technology we are targeting the",
+      "timestamp": "13:35"
+    },
+    {
+      "start": 818.079,
+      "duration": 3.041,
+      "text": "crime and we can only do that with a",
+      "timestamp": "13:38"
+    },
+    {
+      "start": 821.12,
+      "duration": 3.04,
+      "text": "coalition of partners to assist us from",
+      "timestamp": "13:41"
+    },
+    {
+      "start": 824.16,
+      "duration": 2.799,
+      "text": "all walks of life thank you so much for",
+      "timestamp": "13:44"
+    },
+    {
+      "start": 826.959,
+      "duration": 2.081,
+      "text": "listening to me i really appreciate your",
+      "timestamp": "13:46"
+    },
+    {
+      "start": 829.04,
+      "duration": 2.0,
+      "text": "time today please don't hesitate to",
+      "timestamp": "13:49"
+    },
+    {
+      "start": 831.04,
+      "duration": 3.039,
+      "text": "reach out to us and I and my colleague",
+      "timestamp": "13:51"
+    },
+    {
+      "start": 834.079,
+      "duration": 1.76,
+      "text": "will be around at the conference if you",
+      "timestamp": "13:54"
+    },
+    {
+      "start": 835.839,
+      "duration": 4.921,
+      "text": "have any questions thank you so much",
+      "timestamp": "13:55"
+    }
+  ],
+  "extraction_timestamp": "2025-06-29T21:04:35.408118",
+  "playlist_title": "SuperAI Singapore 2025: WEKA Stage"
+}

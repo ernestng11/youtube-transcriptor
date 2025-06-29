@@ -1,0 +1,1253 @@
+{
+  "video_id": "8poc1ebJOls",
+  "video_title": "Jakub Suchánek - Genesis Startup Competition Pitch - Fabrica AI - SuperAI Singapore 2025",
+  "video_url": "https://www.youtube.com/watch?v=8poc1ebJOls",
+  "channel_title": "SuperAI",
+  "published_at": "2025-06-25T14:33:47+00:00",
+  "duration_seconds": null,
+  "view_count": 6,
+  "like_count": 0,
+  "description": "Learn more about SuperAI: superai.com\nFollow us on X: x.com/superai_conf\n\nGenesis Startup Competition Pitch - Fabrica AI\n\nSpeaker:\nJakub Suchánek, Co-Founder and CEO @ Fabrica AI\n\nStage: WEKA Stage\n#superai #fabricaai #startups #competition #ai\n\nRecorded on 18 June 2025",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 205,
+    "aggregated_text": "let me start with a question why are there so few robots robots tackling new tasks generally take 5 to 10 years to develop and even if you look at the most successful companies out there they like hea in logistics dusty in construction or blue river in agriculture they took around three years to reach revenue and even if a novel robot reaches revenue the scaling is often slow because the company wasn't able to iterate the product enough to reach perfect product market fit so why is this the case robots are very complex even with advances like Ross deep learning or cheap open source hardware there are a lot of aspects that you need to figure out for every application yourself and development time scales nonlinearly with with complexity let's go through how this tends to play out say you're building a robot to assemble salad bowls first you spend a few months speaking with restaurant managers and uh sketching out concept designs once you stop learning new things you build a prototype um then it turns out that the two arms are clashing with each other and uh and you need to remove one and slow down the other then you actually deploy it and find out that the operators cannot reach some of the food containers given the kitchen layout so you need to reorganize them then then after deploying it for a few days you find out that uh um it doesn't actually save the restaurant any time because uh it frees up the person at the counter but not enough for them to do anything else and this is even though the restaurant manager before said that a robot doing exactly this will be very useful so you have to go through the whole cycle again for a slightly different product and we've spoken with over 100 robotics companies and heard stories like this all the time so how do we fix this technical aspects you need to automate and for product aspects we need to build faster learning loops we're doing that with fabricator the backbone is reinforcement learning in simulation um we try mi millions of designs train foundation models to control them to do the complete task and then measure product metrics and generate videos by having the complete behavior in simulation um by having the complete behavior in simulation you can for all the different designs you can quickly figure out that what is even feasible and uh find a design that will actually work once deployed to your clients so this means removing some of the technical work and creating a faster iteration loop here's an example of what you get out of fabricator this is wall drilling robots with three different different arms uh is it possible to get away with using a simpler cheaper arm it's impossible to know unless you try it out and testing it even in simulation traditionally takes a month of work u for just one arm with Fabricator you get the same in just a couple days for all the different design aspects which means arms drivetrains sensor placements sensor types morphologies and everything else we're currently deploying this with a few major European robotics companies next we expand Fabricator to simulate hardware and software hierarchically to um and uh simulate all day workflows to bring more learning into faster cycles ultimately we bring manufacturers on board and uh uh simulate the interaction between the user and the robot this is all only possible from the backbone of being able to train any robot in simulation and make accurate predictions but to make accurate predictions you need a lot of real world learning so uh from software deployed on robots built by other companies you can get a lot of data but you can't do all the experiments needed you need to be able to do things like fabricator says that swapping the wheels on this robot for omnidirectional ones makes the robot 5% faster but 5% less accurate does that actually happen in reality so we need to build up both of these loops uh to develop fabricator further and faster than anyone else for the experiment loop we have tile grouting robots we developed these uh from scratch internally and are now deploying them with paying customers um that means we have a the experimentation loop all the way to actual construction sites cool so why us ever since I met Ron at Informatics Olympiad we've been thinking about how to bring more AI into robotics um eventually we realized that the biggest bottleneck is the slow development speed then Keefe who I met at Cambridge brought the construction robotic starting angle between us we have the experience in AI physics hardware and business needed and are willing to the willingness to learn anything necessary now is this even necessary with general robots coming to market specialized robots have a 10 to 100x advantage in value per cost um coming from them being optimized to the exact use case um economies of scale will not bridge that but but they are mainly limited by the slow development cycles slowing down their expansion into new new applications resolving that means robots can be developed at the speed and cost of SAS and uh fill up the 20 trillion of manual labor finally why does this even matter there's 10% and growing shortages across industry uh labor shortages across industries and continents resolving that uh means very real GDP growth but also addressing housing shortages and the rising need for elder care but robots also open up new new environments like deserts or space that are not suited for human labor that fully removes the cap on GDP growth but also so since industry doesn't need to happen in places suitable for people and other living beings it removes much of the pressure on the removal of nature and that's the future I want to live in thank you maybe let me start here a little bit of a similar question then with sentium for the simulation is that something you build yourself uh why no we're just building on Isaac on Isaac itself okay and then the reinforcement learning part is that uh is that just automated or somebody manually kind of goes in and says well when's good so like we have some advancements with foundation models to get a lot of designs to learn very quickly and how much tweaking you need to do to get uh reinforcement learning to actually learn currently it still needs maybe a couple days of tweaking for the millions of designs but like in literature that's usually like that much per each design and we think in the next few months we can bring it to nothing um so one of our founders is actually building a general purpose robot company okay um and he his thesis is that in the next 5 years the cost efficiency gap between general purpose robots and specialized robots is going to it's going to shrink right and as time goes on that will continue to shrink how long do you think that will happen or do you think that general purpose robots will always be lagging i think it's mainly because it's difficult to make a specialized robots that's really good for most use cases currently so speeding up the development actually means that specialized robots can get a lot farther and if you look at the cases where the specialized robots are already very optimized it doesn't really make any sense to put general robots there like that's Rooma is most obvious but even like as arms at assembly lines why do you add legs for no reason",
+    "text_length": 7308,
+    "word_count": 1304
+  },
+  "segments": [
+    {
+      "start": 7.44,
+      "duration": 2.159,
+      "text": "let me start with a question why are",
+      "timestamp": "00:07"
+    },
+    {
+      "start": 9.599,
+      "duration": 2.881,
+      "text": "there so few robots robots tackling new",
+      "timestamp": "00:09"
+    },
+    {
+      "start": 12.48,
+      "duration": 2.48,
+      "text": "tasks generally take 5 to 10 years to",
+      "timestamp": "00:12"
+    },
+    {
+      "start": 14.96,
+      "duration": 2.079,
+      "text": "develop and even if you look at the most",
+      "timestamp": "00:14"
+    },
+    {
+      "start": 17.039,
+      "duration": 3.041,
+      "text": "successful companies out there they like",
+      "timestamp": "00:17"
+    },
+    {
+      "start": 20.08,
+      "duration": 2.8,
+      "text": "hea in logistics dusty in construction",
+      "timestamp": "00:20"
+    },
+    {
+      "start": 22.88,
+      "duration": 2.72,
+      "text": "or blue river in agriculture they took",
+      "timestamp": "00:22"
+    },
+    {
+      "start": 25.6,
+      "duration": 2.56,
+      "text": "around three years to reach revenue and",
+      "timestamp": "00:25"
+    },
+    {
+      "start": 28.16,
+      "duration": 1.92,
+      "text": "even if",
+      "timestamp": "00:28"
+    },
+    {
+      "start": 30.08,
+      "duration": 2.88,
+      "text": "a novel robot reaches revenue the",
+      "timestamp": "00:30"
+    },
+    {
+      "start": 32.96,
+      "duration": 2.72,
+      "text": "scaling is often slow because the",
+      "timestamp": "00:32"
+    },
+    {
+      "start": 35.68,
+      "duration": 1.68,
+      "text": "company wasn't able to iterate the",
+      "timestamp": "00:35"
+    },
+    {
+      "start": 37.36,
+      "duration": 2.24,
+      "text": "product enough to reach perfect product",
+      "timestamp": "00:37"
+    },
+    {
+      "start": 39.6,
+      "duration": 2.72,
+      "text": "market fit so why is this the case",
+      "timestamp": "00:39"
+    },
+    {
+      "start": 42.32,
+      "duration": 2.72,
+      "text": "robots are very complex even with",
+      "timestamp": "00:42"
+    },
+    {
+      "start": 45.04,
+      "duration": 2.56,
+      "text": "advances like Ross deep learning or",
+      "timestamp": "00:45"
+    },
+    {
+      "start": 47.6,
+      "duration": 2.08,
+      "text": "cheap open source hardware there are a",
+      "timestamp": "00:47"
+    },
+    {
+      "start": 49.68,
+      "duration": 1.52,
+      "text": "lot of aspects that you need to figure",
+      "timestamp": "00:49"
+    },
+    {
+      "start": 51.2,
+      "duration": 4.24,
+      "text": "out for every application yourself and",
+      "timestamp": "00:51"
+    },
+    {
+      "start": 55.44,
+      "duration": 2.88,
+      "text": "development time scales nonlinearly with",
+      "timestamp": "00:55"
+    },
+    {
+      "start": 58.32,
+      "duration": 2.16,
+      "text": "with complexity let's go through how",
+      "timestamp": "00:58"
+    },
+    {
+      "start": 60.48,
+      "duration": 1.84,
+      "text": "this tends to play out say you're",
+      "timestamp": "01:00"
+    },
+    {
+      "start": 62.32,
+      "duration": 2.96,
+      "text": "building a robot to assemble salad bowls",
+      "timestamp": "01:02"
+    },
+    {
+      "start": 65.28,
+      "duration": 1.76,
+      "text": "first you spend a few months speaking",
+      "timestamp": "01:05"
+    },
+    {
+      "start": 67.04,
+      "duration": 2.88,
+      "text": "with restaurant managers",
+      "timestamp": "01:07"
+    },
+    {
+      "start": 69.92,
+      "duration": 2.96,
+      "text": "and uh sketching out concept designs",
+      "timestamp": "01:09"
+    },
+    {
+      "start": 72.88,
+      "duration": 1.84,
+      "text": "once you stop learning new things you",
+      "timestamp": "01:12"
+    },
+    {
+      "start": 74.72,
+      "duration": 3.84,
+      "text": "build a prototype um then it turns out",
+      "timestamp": "01:14"
+    },
+    {
+      "start": 78.56,
+      "duration": 1.919,
+      "text": "that the two arms are clashing with each",
+      "timestamp": "01:18"
+    },
+    {
+      "start": 80.479,
+      "duration": 2.64,
+      "text": "other and",
+      "timestamp": "01:20"
+    },
+    {
+      "start": 83.119,
+      "duration": 3.04,
+      "text": "uh and you need to remove one and slow",
+      "timestamp": "01:23"
+    },
+    {
+      "start": 86.159,
+      "duration": 2.721,
+      "text": "down the other then you actually deploy",
+      "timestamp": "01:26"
+    },
+    {
+      "start": 88.88,
+      "duration": 3.279,
+      "text": "it and find out that the operators",
+      "timestamp": "01:28"
+    },
+    {
+      "start": 92.159,
+      "duration": 1.761,
+      "text": "cannot reach some of the food containers",
+      "timestamp": "01:32"
+    },
+    {
+      "start": 93.92,
+      "duration": 2.08,
+      "text": "given the kitchen layout so you need to",
+      "timestamp": "01:33"
+    },
+    {
+      "start": 96.0,
+      "duration": 3.28,
+      "text": "reorganize them then then after",
+      "timestamp": "01:36"
+    },
+    {
+      "start": 99.28,
+      "duration": 2.64,
+      "text": "deploying it for a few days you find out",
+      "timestamp": "01:39"
+    },
+    {
+      "start": 101.92,
+      "duration": 2.32,
+      "text": "that uh",
+      "timestamp": "01:41"
+    },
+    {
+      "start": 104.24,
+      "duration": 1.76,
+      "text": "um it doesn't actually save the",
+      "timestamp": "01:44"
+    },
+    {
+      "start": 106.0,
+      "duration": 4.0,
+      "text": "restaurant any time because uh it frees",
+      "timestamp": "01:46"
+    },
+    {
+      "start": 110.0,
+      "duration": 1.92,
+      "text": "up the person at the counter but not",
+      "timestamp": "01:50"
+    },
+    {
+      "start": 111.92,
+      "duration": 2.64,
+      "text": "enough for them to do anything else and",
+      "timestamp": "01:51"
+    },
+    {
+      "start": 114.56,
+      "duration": 1.76,
+      "text": "this is even though the restaurant",
+      "timestamp": "01:54"
+    },
+    {
+      "start": 116.32,
+      "duration": 2.0,
+      "text": "manager before said that a robot doing",
+      "timestamp": "01:56"
+    },
+    {
+      "start": 118.32,
+      "duration": 2.88,
+      "text": "exactly this will be very useful",
+      "timestamp": "01:58"
+    },
+    {
+      "start": 121.2,
+      "duration": 1.919,
+      "text": "so you have to go through the whole",
+      "timestamp": "02:01"
+    },
+    {
+      "start": 123.119,
+      "duration": 2.0,
+      "text": "cycle again for a slightly different",
+      "timestamp": "02:03"
+    },
+    {
+      "start": 125.119,
+      "duration": 2.481,
+      "text": "product and we've spoken with over 100",
+      "timestamp": "02:05"
+    },
+    {
+      "start": 127.6,
+      "duration": 1.999,
+      "text": "robotics companies and heard stories",
+      "timestamp": "02:07"
+    },
+    {
+      "start": 129.599,
+      "duration": 2.241,
+      "text": "like this all the time so how do we fix",
+      "timestamp": "02:09"
+    },
+    {
+      "start": 131.84,
+      "duration": 2.24,
+      "text": "this technical aspects you need to",
+      "timestamp": "02:11"
+    },
+    {
+      "start": 134.08,
+      "duration": 2.239,
+      "text": "automate and for product aspects we need",
+      "timestamp": "02:14"
+    },
+    {
+      "start": 136.319,
+      "duration": 3.28,
+      "text": "to build faster learning loops we're",
+      "timestamp": "02:16"
+    },
+    {
+      "start": 139.599,
+      "duration": 2.241,
+      "text": "doing that with fabricator the backbone",
+      "timestamp": "02:19"
+    },
+    {
+      "start": 141.84,
+      "duration": 2.88,
+      "text": "is reinforcement learning in simulation",
+      "timestamp": "02:21"
+    },
+    {
+      "start": 144.72,
+      "duration": 4.64,
+      "text": "um we try mi millions of designs",
+      "timestamp": "02:24"
+    },
+    {
+      "start": 149.36,
+      "duration": 2.4,
+      "text": "train foundation models to control them",
+      "timestamp": "02:29"
+    },
+    {
+      "start": 151.76,
+      "duration": 2.4,
+      "text": "to do the complete task and then measure",
+      "timestamp": "02:31"
+    },
+    {
+      "start": 154.16,
+      "duration": 2.4,
+      "text": "product metrics and generate videos by",
+      "timestamp": "02:34"
+    },
+    {
+      "start": 156.56,
+      "duration": 1.52,
+      "text": "having the complete behavior in",
+      "timestamp": "02:36"
+    },
+    {
+      "start": 158.08,
+      "duration": 2.96,
+      "text": "simulation",
+      "timestamp": "02:38"
+    },
+    {
+      "start": 161.04,
+      "duration": 2.08,
+      "text": "um",
+      "timestamp": "02:41"
+    },
+    {
+      "start": 163.12,
+      "duration": 1.6,
+      "text": "by having the complete behavior in",
+      "timestamp": "02:43"
+    },
+    {
+      "start": 164.72,
+      "duration": 2.799,
+      "text": "simulation you can for all the different",
+      "timestamp": "02:44"
+    },
+    {
+      "start": 167.519,
+      "duration": 3.921,
+      "text": "designs you can quickly figure out that",
+      "timestamp": "02:47"
+    },
+    {
+      "start": 171.44,
+      "duration": 4.64,
+      "text": "what is even feasible and uh find a",
+      "timestamp": "02:51"
+    },
+    {
+      "start": 176.08,
+      "duration": 1.76,
+      "text": "design that will actually work once",
+      "timestamp": "02:56"
+    },
+    {
+      "start": 177.84,
+      "duration": 2.72,
+      "text": "deployed to your clients",
+      "timestamp": "02:57"
+    },
+    {
+      "start": 180.56,
+      "duration": 1.92,
+      "text": "so this means removing some of the",
+      "timestamp": "03:00"
+    },
+    {
+      "start": 182.48,
+      "duration": 1.839,
+      "text": "technical work and creating a faster",
+      "timestamp": "03:02"
+    },
+    {
+      "start": 184.319,
+      "duration": 3.521,
+      "text": "iteration loop here's an example of what",
+      "timestamp": "03:04"
+    },
+    {
+      "start": 187.84,
+      "duration": 2.96,
+      "text": "you get out of fabricator this is wall",
+      "timestamp": "03:07"
+    },
+    {
+      "start": 190.8,
+      "duration": 2.0,
+      "text": "drilling robots with three different",
+      "timestamp": "03:10"
+    },
+    {
+      "start": 192.8,
+      "duration": 2.079,
+      "text": "different arms",
+      "timestamp": "03:12"
+    },
+    {
+      "start": 194.879,
+      "duration": 2.241,
+      "text": "uh is it possible to get away with using",
+      "timestamp": "03:14"
+    },
+    {
+      "start": 197.12,
+      "duration": 3.039,
+      "text": "a simpler cheaper arm it's impossible to",
+      "timestamp": "03:17"
+    },
+    {
+      "start": 200.159,
+      "duration": 2.08,
+      "text": "know unless you try it out and testing",
+      "timestamp": "03:20"
+    },
+    {
+      "start": 202.239,
+      "duration": 2.161,
+      "text": "it even in simulation traditionally",
+      "timestamp": "03:22"
+    },
+    {
+      "start": 204.4,
+      "duration": 4.16,
+      "text": "takes a month of work u",
+      "timestamp": "03:24"
+    },
+    {
+      "start": 208.56,
+      "duration": 2.56,
+      "text": "for just one arm with Fabricator you get",
+      "timestamp": "03:28"
+    },
+    {
+      "start": 211.12,
+      "duration": 2.16,
+      "text": "the same in just a couple days for all",
+      "timestamp": "03:31"
+    },
+    {
+      "start": 213.28,
+      "duration": 3.28,
+      "text": "the different design aspects which means",
+      "timestamp": "03:33"
+    },
+    {
+      "start": 216.56,
+      "duration": 2.88,
+      "text": "arms drivetrains sensor placements",
+      "timestamp": "03:36"
+    },
+    {
+      "start": 219.44,
+      "duration": 2.879,
+      "text": "sensor types morphologies and everything",
+      "timestamp": "03:39"
+    },
+    {
+      "start": 222.319,
+      "duration": 2.401,
+      "text": "else we're currently deploying this with",
+      "timestamp": "03:42"
+    },
+    {
+      "start": 224.72,
+      "duration": 4.239,
+      "text": "a few major European robotics companies",
+      "timestamp": "03:44"
+    },
+    {
+      "start": 228.959,
+      "duration": 3.441,
+      "text": "next we expand Fabricator to simulate",
+      "timestamp": "03:48"
+    },
+    {
+      "start": 232.4,
+      "duration": 5.199,
+      "text": "hardware and software hierarchically to",
+      "timestamp": "03:52"
+    },
+    {
+      "start": 237.599,
+      "duration": 2.881,
+      "text": "um",
+      "timestamp": "03:57"
+    },
+    {
+      "start": 240.48,
+      "duration": 3.039,
+      "text": "and uh simulate all day workflows to",
+      "timestamp": "04:00"
+    },
+    {
+      "start": 243.519,
+      "duration": 2.481,
+      "text": "bring more learning into faster cycles",
+      "timestamp": "04:03"
+    },
+    {
+      "start": 246.0,
+      "duration": 2.159,
+      "text": "ultimately we bring manufacturers on",
+      "timestamp": "04:06"
+    },
+    {
+      "start": 248.159,
+      "duration": 3.521,
+      "text": "board and uh",
+      "timestamp": "04:08"
+    },
+    {
+      "start": 251.68,
+      "duration": 3.119,
+      "text": "uh simulate the interaction between the",
+      "timestamp": "04:11"
+    },
+    {
+      "start": 254.799,
+      "duration": 2.72,
+      "text": "user and the robot",
+      "timestamp": "04:14"
+    },
+    {
+      "start": 257.519,
+      "duration": 2.081,
+      "text": "this is all only possible from the",
+      "timestamp": "04:17"
+    },
+    {
+      "start": 259.6,
+      "duration": 1.919,
+      "text": "backbone of being able to train any",
+      "timestamp": "04:19"
+    },
+    {
+      "start": 261.519,
+      "duration": 2.24,
+      "text": "robot in simulation and make accurate",
+      "timestamp": "04:21"
+    },
+    {
+      "start": 263.759,
+      "duration": 2.0,
+      "text": "predictions but to make accurate",
+      "timestamp": "04:23"
+    },
+    {
+      "start": 265.759,
+      "duration": 1.921,
+      "text": "predictions you need a lot of real world",
+      "timestamp": "04:25"
+    },
+    {
+      "start": 267.68,
+      "duration": 5.76,
+      "text": "learning so uh from software deployed on",
+      "timestamp": "04:27"
+    },
+    {
+      "start": 273.44,
+      "duration": 2.0,
+      "text": "robots built by other companies you can",
+      "timestamp": "04:33"
+    },
+    {
+      "start": 275.44,
+      "duration": 2.4,
+      "text": "get a lot of data but you can't do all",
+      "timestamp": "04:35"
+    },
+    {
+      "start": 277.84,
+      "duration": 2.079,
+      "text": "the experiments needed you need to be",
+      "timestamp": "04:37"
+    },
+    {
+      "start": 279.919,
+      "duration": 2.881,
+      "text": "able to do things like fabricator says",
+      "timestamp": "04:39"
+    },
+    {
+      "start": 282.8,
+      "duration": 2.959,
+      "text": "that swapping the wheels on this robot",
+      "timestamp": "04:42"
+    },
+    {
+      "start": 285.759,
+      "duration": 3.041,
+      "text": "for omnidirectional ones makes the robot",
+      "timestamp": "04:45"
+    },
+    {
+      "start": 288.8,
+      "duration": 2.88,
+      "text": "5% faster but 5% less accurate does that",
+      "timestamp": "04:48"
+    },
+    {
+      "start": 291.68,
+      "duration": 2.239,
+      "text": "actually happen in reality so we need to",
+      "timestamp": "04:51"
+    },
+    {
+      "start": 293.919,
+      "duration": 2.481,
+      "text": "build up both of these loops",
+      "timestamp": "04:53"
+    },
+    {
+      "start": 296.4,
+      "duration": 2.0,
+      "text": "uh to develop fabricator further and",
+      "timestamp": "04:56"
+    },
+    {
+      "start": 298.4,
+      "duration": 2.96,
+      "text": "faster than anyone else for the",
+      "timestamp": "04:58"
+    },
+    {
+      "start": 301.36,
+      "duration": 2.32,
+      "text": "experiment loop we have tile grouting",
+      "timestamp": "05:01"
+    },
+    {
+      "start": 303.68,
+      "duration": 2.56,
+      "text": "robots we developed these uh from",
+      "timestamp": "05:03"
+    },
+    {
+      "start": 306.24,
+      "duration": 2.08,
+      "text": "scratch internally and are now deploying",
+      "timestamp": "05:06"
+    },
+    {
+      "start": 308.32,
+      "duration": 2.24,
+      "text": "them with paying customers",
+      "timestamp": "05:08"
+    },
+    {
+      "start": 310.56,
+      "duration": 3.44,
+      "text": "um that means we have a",
+      "timestamp": "05:10"
+    },
+    {
+      "start": 314.0,
+      "duration": 2.72,
+      "text": "the experimentation loop all the way to",
+      "timestamp": "05:14"
+    },
+    {
+      "start": 316.72,
+      "duration": 2.88,
+      "text": "actual construction sites",
+      "timestamp": "05:16"
+    },
+    {
+      "start": 319.6,
+      "duration": 3.28,
+      "text": "cool so why us ever since I met Ron at",
+      "timestamp": "05:19"
+    },
+    {
+      "start": 322.88,
+      "duration": 2.4,
+      "text": "Informatics Olympiad we've been thinking",
+      "timestamp": "05:22"
+    },
+    {
+      "start": 325.28,
+      "duration": 4.4,
+      "text": "about how to bring more AI into robotics",
+      "timestamp": "05:25"
+    },
+    {
+      "start": 329.68,
+      "duration": 2.4,
+      "text": "um",
+      "timestamp": "05:29"
+    },
+    {
+      "start": 332.08,
+      "duration": 1.76,
+      "text": "eventually we realized that the biggest",
+      "timestamp": "05:32"
+    },
+    {
+      "start": 333.84,
+      "duration": 3.6,
+      "text": "bottleneck is the slow development speed",
+      "timestamp": "05:33"
+    },
+    {
+      "start": 337.44,
+      "duration": 2.4,
+      "text": "then Keefe who I met at Cambridge",
+      "timestamp": "05:37"
+    },
+    {
+      "start": 339.84,
+      "duration": 1.44,
+      "text": "brought the construction robotic",
+      "timestamp": "05:39"
+    },
+    {
+      "start": 341.28,
+      "duration": 2.16,
+      "text": "starting angle",
+      "timestamp": "05:41"
+    },
+    {
+      "start": 343.44,
+      "duration": 2.479,
+      "text": "between us we have the experience in AI",
+      "timestamp": "05:43"
+    },
+    {
+      "start": 345.919,
+      "duration": 4.081,
+      "text": "physics hardware and business needed and",
+      "timestamp": "05:45"
+    },
+    {
+      "start": 350.0,
+      "duration": 2.0,
+      "text": "are willing to the willingness to learn",
+      "timestamp": "05:50"
+    },
+    {
+      "start": 352.0,
+      "duration": 2.16,
+      "text": "anything necessary",
+      "timestamp": "05:52"
+    },
+    {
+      "start": 354.16,
+      "duration": 2.24,
+      "text": "now is this even necessary with general",
+      "timestamp": "05:54"
+    },
+    {
+      "start": 356.4,
+      "duration": 2.48,
+      "text": "robots coming to market specialized",
+      "timestamp": "05:56"
+    },
+    {
+      "start": 358.88,
+      "duration": 2.8,
+      "text": "robots have a 10 to 100x advantage in",
+      "timestamp": "05:58"
+    },
+    {
+      "start": 361.68,
+      "duration": 3.6,
+      "text": "value per cost um coming from them being",
+      "timestamp": "06:01"
+    },
+    {
+      "start": 365.28,
+      "duration": 3.039,
+      "text": "optimized to the exact use case",
+      "timestamp": "06:05"
+    },
+    {
+      "start": 368.319,
+      "duration": 2.481,
+      "text": "um economies of scale will not bridge",
+      "timestamp": "06:08"
+    },
+    {
+      "start": 370.8,
+      "duration": 2.64,
+      "text": "that but",
+      "timestamp": "06:10"
+    },
+    {
+      "start": 373.44,
+      "duration": 3.199,
+      "text": "but they are mainly limited by the slow",
+      "timestamp": "06:13"
+    },
+    {
+      "start": 376.639,
+      "duration": 2.081,
+      "text": "development cycles slowing down their",
+      "timestamp": "06:16"
+    },
+    {
+      "start": 378.72,
+      "duration": 3.52,
+      "text": "expansion into new new applications",
+      "timestamp": "06:18"
+    },
+    {
+      "start": 382.24,
+      "duration": 2.079,
+      "text": "resolving that means robots can be",
+      "timestamp": "06:22"
+    },
+    {
+      "start": 384.319,
+      "duration": 2.401,
+      "text": "developed at the speed and cost of SAS",
+      "timestamp": "06:24"
+    },
+    {
+      "start": 386.72,
+      "duration": 1.599,
+      "text": "and",
+      "timestamp": "06:26"
+    },
+    {
+      "start": 388.319,
+      "duration": 2.16,
+      "text": "uh fill up the 20 trillion of manual",
+      "timestamp": "06:28"
+    },
+    {
+      "start": 390.479,
+      "duration": 2.801,
+      "text": "labor finally why does this even matter",
+      "timestamp": "06:30"
+    },
+    {
+      "start": 393.28,
+      "duration": 2.96,
+      "text": "there's 10% and growing shortages",
+      "timestamp": "06:33"
+    },
+    {
+      "start": 396.24,
+      "duration": 3.6,
+      "text": "across industry uh labor shortages",
+      "timestamp": "06:36"
+    },
+    {
+      "start": 399.84,
+      "duration": 1.919,
+      "text": "across industries and continents",
+      "timestamp": "06:39"
+    },
+    {
+      "start": 401.759,
+      "duration": 3.44,
+      "text": "resolving that uh means very real GDP",
+      "timestamp": "06:41"
+    },
+    {
+      "start": 405.199,
+      "duration": 2.881,
+      "text": "growth but also addressing housing",
+      "timestamp": "06:45"
+    },
+    {
+      "start": 408.08,
+      "duration": 2.559,
+      "text": "shortages and the rising need for elder",
+      "timestamp": "06:48"
+    },
+    {
+      "start": 410.639,
+      "duration": 5.041,
+      "text": "care but robots also open up new new",
+      "timestamp": "06:50"
+    },
+    {
+      "start": 415.68,
+      "duration": 2.4,
+      "text": "environments like deserts or space that",
+      "timestamp": "06:55"
+    },
+    {
+      "start": 418.08,
+      "duration": 3.119,
+      "text": "are not suited for human labor",
+      "timestamp": "06:58"
+    },
+    {
+      "start": 421.199,
+      "duration": 3.201,
+      "text": "that fully removes the cap on GDP growth",
+      "timestamp": "07:01"
+    },
+    {
+      "start": 424.4,
+      "duration": 3.28,
+      "text": "but also so since industry doesn't need",
+      "timestamp": "07:04"
+    },
+    {
+      "start": 427.68,
+      "duration": 2.72,
+      "text": "to happen in places suitable for people",
+      "timestamp": "07:07"
+    },
+    {
+      "start": 430.4,
+      "duration": 2.4,
+      "text": "and other living beings it removes much",
+      "timestamp": "07:10"
+    },
+    {
+      "start": 432.8,
+      "duration": 2.08,
+      "text": "of the pressure on the removal of nature",
+      "timestamp": "07:12"
+    },
+    {
+      "start": 434.88,
+      "duration": 2.08,
+      "text": "and that's the future I want to live in",
+      "timestamp": "07:14"
+    },
+    {
+      "start": 436.96,
+      "duration": 2.799,
+      "text": "thank you\n maybe let me start here a",
+      "timestamp": "07:16"
+    },
+    {
+      "start": 439.759,
+      "duration": 1.44,
+      "text": "little bit of a similar question then",
+      "timestamp": "07:19"
+    },
+    {
+      "start": 441.199,
+      "duration": 2.241,
+      "text": "with sentium for the simulation is that",
+      "timestamp": "07:21"
+    },
+    {
+      "start": 443.44,
+      "duration": 2.64,
+      "text": "something you build yourself uh why\n no",
+      "timestamp": "07:23"
+    },
+    {
+      "start": 446.08,
+      "duration": 2.48,
+      "text": "we're just building on Isaac\n on Isaac",
+      "timestamp": "07:26"
+    },
+    {
+      "start": 448.56,
+      "duration": 1.919,
+      "text": "itself okay and then the reinforcement",
+      "timestamp": "07:28"
+    },
+    {
+      "start": 450.479,
+      "duration": 2.081,
+      "text": "learning part is that uh is that just",
+      "timestamp": "07:30"
+    },
+    {
+      "start": 452.56,
+      "duration": 2.079,
+      "text": "automated or somebody manually kind of",
+      "timestamp": "07:32"
+    },
+    {
+      "start": 454.639,
+      "duration": 4.0,
+      "text": "goes in and says well when's good\n so",
+      "timestamp": "07:34"
+    },
+    {
+      "start": 458.639,
+      "duration": 2.321,
+      "text": "like we have some advancements with",
+      "timestamp": "07:38"
+    },
+    {
+      "start": 460.96,
+      "duration": 1.84,
+      "text": "foundation models to get a lot of",
+      "timestamp": "07:40"
+    },
+    {
+      "start": 462.8,
+      "duration": 3.28,
+      "text": "designs to learn very quickly and how",
+      "timestamp": "07:42"
+    },
+    {
+      "start": 466.08,
+      "duration": 2.959,
+      "text": "much tweaking you need to do to get uh",
+      "timestamp": "07:46"
+    },
+    {
+      "start": 469.039,
+      "duration": 2.481,
+      "text": "reinforcement learning to actually learn",
+      "timestamp": "07:49"
+    },
+    {
+      "start": 471.52,
+      "duration": 3.2,
+      "text": "currently it still needs maybe a couple",
+      "timestamp": "07:51"
+    },
+    {
+      "start": 474.72,
+      "duration": 2.08,
+      "text": "days of tweaking for the millions of",
+      "timestamp": "07:54"
+    },
+    {
+      "start": 476.8,
+      "duration": 2.959,
+      "text": "designs but",
+      "timestamp": "07:56"
+    },
+    {
+      "start": 479.759,
+      "duration": 2.88,
+      "text": "like in literature that's usually like",
+      "timestamp": "07:59"
+    },
+    {
+      "start": 482.639,
+      "duration": 2.801,
+      "text": "that much per each design and we think",
+      "timestamp": "08:02"
+    },
+    {
+      "start": 485.44,
+      "duration": 1.92,
+      "text": "in the next few months we can bring it",
+      "timestamp": "08:05"
+    },
+    {
+      "start": 487.36,
+      "duration": 2.64,
+      "text": "to nothing\n um so one of our founders is",
+      "timestamp": "08:07"
+    },
+    {
+      "start": 490.0,
+      "duration": 1.44,
+      "text": "actually building a general purpose",
+      "timestamp": "08:10"
+    },
+    {
+      "start": 491.44,
+      "duration": 3.599,
+      "text": "robot company\n okay um and he his thesis",
+      "timestamp": "08:11"
+    },
+    {
+      "start": 495.039,
+      "duration": 2.56,
+      "text": "is that in the next 5 years the cost",
+      "timestamp": "08:15"
+    },
+    {
+      "start": 497.599,
+      "duration": 2.481,
+      "text": "efficiency gap between general purpose",
+      "timestamp": "08:17"
+    },
+    {
+      "start": 500.08,
+      "duration": 1.92,
+      "text": "robots and specialized robots is going",
+      "timestamp": "08:20"
+    },
+    {
+      "start": 502.0,
+      "duration": 1.84,
+      "text": "to it's going to shrink right and as",
+      "timestamp": "08:22"
+    },
+    {
+      "start": 503.84,
+      "duration": 1.359,
+      "text": "time goes on that will continue to",
+      "timestamp": "08:23"
+    },
+    {
+      "start": 505.199,
+      "duration": 1.761,
+      "text": "shrink how long do you think that will",
+      "timestamp": "08:25"
+    },
+    {
+      "start": 506.96,
+      "duration": 1.84,
+      "text": "happen or do you think that general",
+      "timestamp": "08:26"
+    },
+    {
+      "start": 508.8,
+      "duration": 3.28,
+      "text": "purpose robots will always be lagging\n i",
+      "timestamp": "08:28"
+    },
+    {
+      "start": 512.08,
+      "duration": 2.8,
+      "text": "think it's mainly because it's difficult",
+      "timestamp": "08:32"
+    },
+    {
+      "start": 514.88,
+      "duration": 2.24,
+      "text": "to make a specialized robots that's",
+      "timestamp": "08:34"
+    },
+    {
+      "start": 517.12,
+      "duration": 2.799,
+      "text": "really good for most use cases currently",
+      "timestamp": "08:37"
+    },
+    {
+      "start": 519.919,
+      "duration": 3.04,
+      "text": "so speeding up the development actually",
+      "timestamp": "08:39"
+    },
+    {
+      "start": 522.959,
+      "duration": 2.161,
+      "text": "means that specialized robots can get a",
+      "timestamp": "08:42"
+    },
+    {
+      "start": 525.12,
+      "duration": 3.279,
+      "text": "lot farther and if you look at the cases",
+      "timestamp": "08:45"
+    },
+    {
+      "start": 528.399,
+      "duration": 2.161,
+      "text": "where the specialized robots are already",
+      "timestamp": "08:48"
+    },
+    {
+      "start": 530.56,
+      "duration": 2.24,
+      "text": "very optimized it doesn't really make",
+      "timestamp": "08:50"
+    },
+    {
+      "start": 532.8,
+      "duration": 2.08,
+      "text": "any sense to put general robots there",
+      "timestamp": "08:52"
+    },
+    {
+      "start": 534.88,
+      "duration": 3.519,
+      "text": "like that's Rooma is most obvious but",
+      "timestamp": "08:54"
+    },
+    {
+      "start": 538.399,
+      "duration": 3.361,
+      "text": "even like as arms at assembly lines why",
+      "timestamp": "08:58"
+    },
+    {
+      "start": 541.76,
+      "duration": 4.44,
+      "text": "do you add legs for no reason",
+      "timestamp": "09:01"
+    }
+  ],
+  "extraction_timestamp": "2025-06-29T21:04:35.380883",
+  "playlist_title": "SuperAI Singapore 2025: WEKA Stage"
+}

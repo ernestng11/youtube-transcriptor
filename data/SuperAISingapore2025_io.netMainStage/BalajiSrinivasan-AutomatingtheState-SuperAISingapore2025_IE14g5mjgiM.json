@@ -1,0 +1,2735 @@
+{
+  "video_id": "IE14g5mjgiM",
+  "video_title": "Balaji Srinivasan - Automating the State - SuperAI Singapore 2025",
+  "video_url": "https://www.youtube.com/watch?v=IE14g5mjgiM",
+  "channel_title": "SuperAI",
+  "published_at": "2025-06-27T08:03:31+00:00",
+  "duration_seconds": null,
+  "view_count": 142,
+  "like_count": 5,
+  "description": "Learn more about SuperAI: superai.com\nFollow us on X: x.com/superai_conf\n\nKeynote: Automating the State \n\nSpeaker:\nBalaji Srinivasan, Founder, Investor, and Author @ The Network State\n\nStage: io.net Main Stage\n#superai #networkstate #ai #internet #nations\n\nRecorded on 18 June 2025",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 452,
+    "aggregated_text": "going to talk today about automating the state uh and you know the 20th century state was built on paper can we do better um some of these ideas uh were kind of prefigured in the network state uh book which version 1.0 is out there we're working on version two and uh we're also talking about some of the stuff at network school which at ns.com um just to kind of motivate and then let me get into the AI part of this so the first half will be motivation then the second half we'll talk about the AI part the 20th century state helped build a high trust society but it's also into bureaucracy however we might be able to reinvent it with technology and I want to go through all the ways that we can improve the efficiency of government and also decentralizing technology to ensure equality and giving us time to finally touch grass and enjoy our humanity okay so um kind of three sections the rise of the state the decline of the state and then reinventing the state so let's start with that that first so the rise of the state basically to understand like what the government is like why the states arise at all this is like the code of Hammurabi maybe one of the first known instances of written law essentially once you get a group past the Dunbar number like past about 150 people not everybody doesn't know everybody and so handshakes fail people don't remember everybody so you need to have written rules and written rules scale right and that builds the preconditions for wealth there's a lot of people who have been critical of the state there's this great book called Seeing Like a State that goes through all the issues with states uh but in some ways even worse than seeing like a state is not seeing the value of a state if you read Fukuyama's origins of political order he talks about how various kinds of tribes went through different paths to build something like the modern state and one way of thinking about the emergence is the modern state is actually or the western state is a a technological phenomenon since you had all of these little city states and they they grouped together because they basically formed unions just like the United Kingdom that forms Britain is a union germany France Italy they're actually all unions cuz individual little principalities couldn't survive on their own and they used eventually essentially these laws these these these legal codes to kind of integrate and and uh unify all of these disparate peoples into one political entity and so you can think of laws as being like the first kind of code and you know when a policeman holds up his hand and says that's an illegal action it's a lot like window saying that's an illegal operation uh in a sense the the um judges served as interpreters of the law lawyers were like engineers and businesses were like apps on the state's platform and um it's basically kind of code before code and um so that's actually a very useful analogy we can think of the state as a platform certainly that you know analogy is not you know unique to me uh Lawrence Leic has written about you know code is law and so on and you look at the diagrams in his book and it really does look a lot like uh you know iOS or or any other uh tech platform where they've got APIs and they expose them and they also constantly change them because they're trying to move forward and sometimes the platform doesn't want certain apps it'll ban them in many ways it really is like a government where it's got written rules that you can abide by and then the government will say this is feasible this is not feasible in the same way the platform has written APIs you can use and then it says is it feasible or not feasible and you can choose between platforms just like you can choose between uh tech platforms so state platforms network platforms are similar right okay so we can think of the state as a platform and you know how is that platform doing today well in the west it's unfortunately not so Great so let's talk about the decline of the state just talked about the rise let's talk about the decline so basically many aspects of that state platform are now failing just you know for example the Delaware judiciary uh this is something that uh you know Delaware was for many many years just the obvious place to found a global tech company but Elon isn't there uh Dropbox isn't there uh Elad Gil who's uh you know very well-known investor runs a large fund friend of mine wrote this whole long post on leaving Delaware and why all these corporations are leaving Delaware where do they go well some are going to Texas some are going here some are going there I think eventually many will go to the internet and actually incorporate onchain but the point is that that API is broken right the Delaware API is broken and there's other APIs unfortunately that are broken for example SEC regulation failed right um you essentially the you know the Gary Gensler who's no longer running the SEC waged this jihad against cryptocurrency and his actions were called arbitrary and capriccious um western immigration failed it went from open borders to blocking tourists going from one extreme to the other uh you had western education failing you had a massive drop in educational achievement two decades of of educational growth wiped out by the pandemic and Western legislation's failed where essentially trust in government has just fallen off a cliff over the last several decades and if you put all of that together it's not just one thing it's not just one political party or another it's really a very bipartisan effort um essentially the western state is no longer a model right its own western people don't trust it anymore so what is the model and some will say the model is China but another answer is actually the internet and with AI and crypto perhaps we can reinvent the state and so let's get to part three so reinventing the state so we'll need one concept first and that concept is internet first and what does internet first mean it basically says that you know the first thing that hundreds of millions of people billions of people do every day they're not necessarily waiting waking up and saluting the flag they're checking their phones right so their people are actually online 99% of their transactions are online their communications are online um their you know their business is online their customers their friends many of their relationships are online and uh you know what that means is in many ways internet first it's it's a play on words it's both a kind of a political thing but it's also a technological thing and with using this lens we can go through many different kinds of things and ask what is the internet first version of this thing and let me give some examples so first let me give some examples of what the internet has already reinvented and then talk about what we can do with AI and crypto to reinvent other institutions so the internet is mail it's reinvented the US postal service it's taken over from that email and messaging and so on the internet is mobility it took over taxi regulation and hotel regulation from government regulators and it actually also took over the the writer side with driver's licenses um the internet is Mars uh because SpaceX took over from NASA and in fact the internet actually funds space exploration uh because Starlink is what's actually funding it the internet is money bitcoin is basically now rise risen to become you know a a reserve currency the internet is monetary policy it's taken over from the Fed's monetary policy in part in many countries because it's got a predictable monetary policy as opposed to a chaotic one and the internet's contract law so this is replacing Delaware with smart contracts that's actually cross country international binding contracts that are that are more reliable than Delaware finally you know the internet is freedom in the sense that zero knowledge Zcash things like that protect your freedom against uh uh surveillance and so now what else can the internet reinvent so now we go to AI as a tool right that is to say we define the application area first and then we say what can we use AI for among other things so first we can have an internet first judiciary this is a really good post in AI we trust part two on Substack and essentially this is actually from months ago um this author went and he took all the information in a Supreme Court case that was before the judges and asked the AI to predict the ruling that the judges would make and what it would be would it be 9 to 0 would it be 545 and so on and so forth and Claude just nailed it right the only things it got wrong were things that were four five votes that ended up being 54 or vice versa and its reasoning was also better than just about any Supreme Court clerk and way way way faster obviously because of spitting it out in seconds and you should read this guy's blog because uh you know it can give very original interpretations of things he can ask it give me a creative argument that somebody would make wouldn't make right so the reason this is important is if you want rule of law you want equal protection you want people to have basically the same legal process whatever judge they go and see the more predictable the law is the fewer uh court cases there are because people can predict what the judges are going to do and then they don't have to go to court right so that saves enormous amounts of money on litigation and so on and so forth it's like hitting an API and it just telling you this is legal this is not a legal operation versus having to go all the way to a judge to decide and one judge may decide differently than another judge but an AI judge an artificially intelligent judge might be much more consistent and certainly much faster right at a minimum you could imagine this as like a first cut layer before you go to a court case which gives a guess as to how the judges of this or that circuit this or that court would rule right so that's an internet first judiciary and it's more predictable than the Delaware judiciary which people are abandoning next let's talk about internet first regulation so this diagram will require a little bit of explanation um you know in AI and really in just standard machine learning there's this concept of a binary classifier and you can actually think of what a regulator does as essentially a binary classifier there's various companies coming through and you want to label the bad companies bad and you want to label the good companies good right and a bad regulator like the SEC would label the Bitcoin ETF bad but would meet with FTX and label them good and that's what the SEC did so you can see in this diagram like a false negative the the uh Bitcoin ETF got a zero but FTX got a one and so that's a false negative and false positive respectively right and we can once we have this framework on things we think of regulators as binary classifiers um well then we can actually start optimizing there's a whole well-known you know AU and ROC if if you guys are familiar with that where we can just start optimizing the area under the under the receiver operator characteristic and trading off the false positive and false negative rates and start thinking about a regulator as a binary classifier and what what's good about that is it doesn't just give a penalty for letting the wrong thing through it also uh gives a penalty for blocking the good thing right so false negatives and false positives are both very expensive to society we start trading them off right this also applies to immigration for example if a German teen is like detained and deported that's like a false negative you know and if you're just letting lots of unvetted people stream across the border those are false positives you can have a rational immigration system that's capable of filtering good for bad immigration in a sense is just like regulation singapore customs Singapore immigration is making a binary classifier decision on every person who walks through you conceptualize that as just a binary classifier problem and then you benchmark and you see if you're getting it right or wrong and you can make it consistent again you can still have a human reviewing the results of this AI but you can take all of these signals and integrate them a binary classifier can incorporate hundreds thousands of signals and it can spit out the decision and say why it's saying admit this person don't admit this person you can interrogate that and you can modify that and you can also train it on millions of past border crossings or regulatory decisions so it's initialized with all the past data and it basically models a customs officer or it models a regulatory officer so again you can have predictability before you cross a border before you go through a regulatory process will I get accepted or not right it's like a simulated version we automate the state for a fourth example this is an obvious one internet first education so we saw the learning drop in in western education but we might have the learning rise you know basically we're getting very close to having real-time video synthesis audio synthesis and language synthesis where an AI tutor infinitely patient with the knowledge of Fineman and the values of your parents uh that can that can teach any kid anything in any language at any time essentially almost for free you might need like a babysitter to accompany the children and make sure they're staying on task but that radically is more scalable than you know K through 12 um much larger percentage of people can just you know sit with a child as they're as they're going with a tutor um and so you'd have something which uh I mean the potential for that is is really remarkable so everybody gets the best tutor in the world and then fifth uh internet first legislation right so many bits of legislation are labeled in a certain way like a Patriot Act or a Heroes Act if you take that PDF and you drop it into Grock like Elon is suggesting or chatb Claude whatever and you just say what is the true title of this act what would I call it right it'll say oh it's not the Patriot Act it's the Surveillance Act or something like that right and so that lets you digest this 400page PDF and turn it into the true title and then you can share that result and so you can basically punch through the camouflage right this allows citizens to in a few seconds understand and get through all of the sort of verbiage and camouflage that the modern state unfortunately has evolved right and you don't need expensive lawyers to do this you don't need to spend a whole day reading 400 pages you can ask AI give me the one sentence summary give me the hundredword summary the thousandword summary you can have it say give me the most you know unusual things that are in this bill all this kind of stuff right and so that means you can be an informed citizenry once again right so this is internet first legislation this again restores trust in legislation when it's been dropping off in the western state we put all this together and it really means like internet first democracy right we use AI to understand the bills and you know we can also use cryptographic identities to vote on them and there's pieces of this that are already there online like social social media for discussion and AI for legal interpretation and Dows for sort of you know cryptographically voting on actual budgets but the synthesis of them is kind of like internet first democracy and really ultimately what we're talking about is internet first equality right i mean that's what the internet is it's a peer-to-peer network right most fundamentally you know with the with the decline of the western state most people uh aren't citizens of western states so they are secondass citizens in a western state if they're immigrants or you know 80% of the world they're not on the UN security council India is not on the UN security council many countries aren't they're sort of bystanders right to the world economy but they're not bystanders on the internet every node is equal on the internet it's a peer-to-peer network so they have the same AI the same crypto the same code and so in an internet first world everybody's equal to everybody else in on the internet right and so that means with AI you can get highquality education you can get highquality information and high-quality legal interpretation so this is a way that technology actually increases equality and increases uh you know the power for the people so that's how technology can give equality through AI and crypto we can reinvent the state and put you on par with anyone else online and put uh a decentralized AI agent or group of agents in your corner so um if you're interested in these ideas applied network school so ns.com thank you very",
+    "text_length": 16894,
+    "word_count": 3067
+  },
+  "segments": [
+    {
+      "start": 7.68,
+      "duration": 1.68,
+      "text": "going to talk today about automating the",
+      "timestamp": "00:07"
+    },
+    {
+      "start": 9.36,
+      "duration": 2.56,
+      "text": "state uh and you know the 20th century",
+      "timestamp": "00:09"
+    },
+    {
+      "start": 11.92,
+      "duration": 2.4,
+      "text": "state was built on paper can we do",
+      "timestamp": "00:11"
+    },
+    {
+      "start": 14.32,
+      "duration": 3.84,
+      "text": "better um some of these ideas uh were",
+      "timestamp": "00:14"
+    },
+    {
+      "start": 18.16,
+      "duration": 2.48,
+      "text": "kind of prefigured in the network state",
+      "timestamp": "00:18"
+    },
+    {
+      "start": 20.64,
+      "duration": 2.32,
+      "text": "uh book which version 1.0 is out there",
+      "timestamp": "00:20"
+    },
+    {
+      "start": 22.96,
+      "duration": 2.399,
+      "text": "we're working on version two and uh",
+      "timestamp": "00:22"
+    },
+    {
+      "start": 25.359,
+      "duration": 1.281,
+      "text": "we're also talking about some of the",
+      "timestamp": "00:25"
+    },
+    {
+      "start": 26.64,
+      "duration": 3.84,
+      "text": "stuff at network school which at ns.com",
+      "timestamp": "00:26"
+    },
+    {
+      "start": 30.48,
+      "duration": 1.758,
+      "text": "um just to kind of motivate and then let",
+      "timestamp": "00:30"
+    },
+    {
+      "start": 32.239,
+      "duration": 1.761,
+      "text": "me get into the AI part of this so the",
+      "timestamp": "00:32"
+    },
+    {
+      "start": 34.0,
+      "duration": 1.6,
+      "text": "first half will be motivation then the",
+      "timestamp": "00:34"
+    },
+    {
+      "start": 35.6,
+      "duration": 2.24,
+      "text": "second half we'll talk about the AI part",
+      "timestamp": "00:35"
+    },
+    {
+      "start": 37.84,
+      "duration": 1.76,
+      "text": "the 20th century state helped build a",
+      "timestamp": "00:37"
+    },
+    {
+      "start": 39.6,
+      "duration": 2.639,
+      "text": "high trust society but it's also into",
+      "timestamp": "00:39"
+    },
+    {
+      "start": 42.239,
+      "duration": 2.401,
+      "text": "bureaucracy",
+      "timestamp": "00:42"
+    },
+    {
+      "start": 44.64,
+      "duration": 2.48,
+      "text": "however we might be able to reinvent it",
+      "timestamp": "00:44"
+    },
+    {
+      "start": 47.12,
+      "duration": 2.16,
+      "text": "with technology",
+      "timestamp": "00:47"
+    },
+    {
+      "start": 49.28,
+      "duration": 1.439,
+      "text": "and I want to go through all the ways",
+      "timestamp": "00:49"
+    },
+    {
+      "start": 50.719,
+      "duration": 2.48,
+      "text": "that we can improve the efficiency of",
+      "timestamp": "00:50"
+    },
+    {
+      "start": 53.199,
+      "duration": 2.88,
+      "text": "government and also decentralizing",
+      "timestamp": "00:53"
+    },
+    {
+      "start": 56.079,
+      "duration": 3.28,
+      "text": "technology to ensure equality and giving",
+      "timestamp": "00:56"
+    },
+    {
+      "start": 59.359,
+      "duration": 2.88,
+      "text": "us time to finally touch grass and enjoy",
+      "timestamp": "00:59"
+    },
+    {
+      "start": 62.239,
+      "duration": 3.279,
+      "text": "our humanity okay so um kind of three",
+      "timestamp": "01:02"
+    },
+    {
+      "start": 65.519,
+      "duration": 1.841,
+      "text": "sections",
+      "timestamp": "01:05"
+    },
+    {
+      "start": 67.36,
+      "duration": 2.56,
+      "text": "the rise of the state the decline of the",
+      "timestamp": "01:07"
+    },
+    {
+      "start": 69.92,
+      "duration": 2.0,
+      "text": "state and then reinventing the state so",
+      "timestamp": "01:09"
+    },
+    {
+      "start": 71.92,
+      "duration": 2.96,
+      "text": "let's start with that that first so the",
+      "timestamp": "01:11"
+    },
+    {
+      "start": 74.88,
+      "duration": 2.64,
+      "text": "rise of the state basically to",
+      "timestamp": "01:14"
+    },
+    {
+      "start": 77.52,
+      "duration": 2.239,
+      "text": "understand like what the government is",
+      "timestamp": "01:17"
+    },
+    {
+      "start": 79.759,
+      "duration": 2.081,
+      "text": "like why the states arise at all this is",
+      "timestamp": "01:19"
+    },
+    {
+      "start": 81.84,
+      "duration": 2.0,
+      "text": "like the code of Hammurabi maybe one of",
+      "timestamp": "01:21"
+    },
+    {
+      "start": 83.84,
+      "duration": 2.16,
+      "text": "the first known instances of written law",
+      "timestamp": "01:23"
+    },
+    {
+      "start": 86.0,
+      "duration": 2.08,
+      "text": "essentially once you get a group past",
+      "timestamp": "01:26"
+    },
+    {
+      "start": 88.08,
+      "duration": 2.16,
+      "text": "the Dunbar number like past about 150",
+      "timestamp": "01:28"
+    },
+    {
+      "start": 90.24,
+      "duration": 1.839,
+      "text": "people not everybody doesn't know",
+      "timestamp": "01:30"
+    },
+    {
+      "start": 92.079,
+      "duration": 2.801,
+      "text": "everybody and so handshakes fail people",
+      "timestamp": "01:32"
+    },
+    {
+      "start": 94.88,
+      "duration": 1.36,
+      "text": "don't remember everybody so you need to",
+      "timestamp": "01:34"
+    },
+    {
+      "start": 96.24,
+      "duration": 2.08,
+      "text": "have written rules and written rules",
+      "timestamp": "01:36"
+    },
+    {
+      "start": 98.32,
+      "duration": 1.92,
+      "text": "scale right and that builds the",
+      "timestamp": "01:38"
+    },
+    {
+      "start": 100.24,
+      "duration": 1.76,
+      "text": "preconditions for wealth there's a lot",
+      "timestamp": "01:40"
+    },
+    {
+      "start": 102.0,
+      "duration": 1.68,
+      "text": "of people who have been critical of the",
+      "timestamp": "01:42"
+    },
+    {
+      "start": 103.68,
+      "duration": 1.28,
+      "text": "state there's this great book called",
+      "timestamp": "01:43"
+    },
+    {
+      "start": 104.96,
+      "duration": 1.199,
+      "text": "Seeing Like a State that goes through",
+      "timestamp": "01:44"
+    },
+    {
+      "start": 106.159,
+      "duration": 2.96,
+      "text": "all the issues with states uh but in",
+      "timestamp": "01:46"
+    },
+    {
+      "start": 109.119,
+      "duration": 1.841,
+      "text": "some ways even worse than seeing like a",
+      "timestamp": "01:49"
+    },
+    {
+      "start": 110.96,
+      "duration": 1.839,
+      "text": "state is not seeing the value of a state",
+      "timestamp": "01:50"
+    },
+    {
+      "start": 112.799,
+      "duration": 1.68,
+      "text": "if you read Fukuyama's origins of",
+      "timestamp": "01:52"
+    },
+    {
+      "start": 114.479,
+      "duration": 1.6,
+      "text": "political order he talks about how",
+      "timestamp": "01:54"
+    },
+    {
+      "start": 116.079,
+      "duration": 1.601,
+      "text": "various kinds of tribes went through",
+      "timestamp": "01:56"
+    },
+    {
+      "start": 117.68,
+      "duration": 1.52,
+      "text": "different paths to build something like",
+      "timestamp": "01:57"
+    },
+    {
+      "start": 119.2,
+      "duration": 2.879,
+      "text": "the modern state and one way of thinking",
+      "timestamp": "01:59"
+    },
+    {
+      "start": 122.079,
+      "duration": 2.881,
+      "text": "about the emergence is the modern state",
+      "timestamp": "02:02"
+    },
+    {
+      "start": 124.96,
+      "duration": 2.24,
+      "text": "is actually or the western state is a a",
+      "timestamp": "02:04"
+    },
+    {
+      "start": 127.2,
+      "duration": 1.759,
+      "text": "technological phenomenon since you had",
+      "timestamp": "02:07"
+    },
+    {
+      "start": 128.959,
+      "duration": 2.961,
+      "text": "all of these little city states and they",
+      "timestamp": "02:08"
+    },
+    {
+      "start": 131.92,
+      "duration": 2.08,
+      "text": "they grouped together because they",
+      "timestamp": "02:11"
+    },
+    {
+      "start": 134.0,
+      "duration": 1.76,
+      "text": "basically formed unions just like the",
+      "timestamp": "02:14"
+    },
+    {
+      "start": 135.76,
+      "duration": 1.92,
+      "text": "United Kingdom that forms Britain is a",
+      "timestamp": "02:15"
+    },
+    {
+      "start": 137.68,
+      "duration": 2.48,
+      "text": "union germany France Italy they're",
+      "timestamp": "02:17"
+    },
+    {
+      "start": 140.16,
+      "duration": 1.6,
+      "text": "actually all unions cuz individual",
+      "timestamp": "02:20"
+    },
+    {
+      "start": 141.76,
+      "duration": 1.68,
+      "text": "little principalities couldn't survive",
+      "timestamp": "02:21"
+    },
+    {
+      "start": 143.44,
+      "duration": 3.28,
+      "text": "on their own and they used eventually",
+      "timestamp": "02:23"
+    },
+    {
+      "start": 146.72,
+      "duration": 2.239,
+      "text": "essentially these laws these these these",
+      "timestamp": "02:26"
+    },
+    {
+      "start": 148.959,
+      "duration": 3.601,
+      "text": "legal codes to kind of integrate and and",
+      "timestamp": "02:28"
+    },
+    {
+      "start": 152.56,
+      "duration": 2.319,
+      "text": "uh unify all of these disparate peoples",
+      "timestamp": "02:32"
+    },
+    {
+      "start": 154.879,
+      "duration": 3.041,
+      "text": "into one political entity and so you can",
+      "timestamp": "02:34"
+    },
+    {
+      "start": 157.92,
+      "duration": 1.92,
+      "text": "think of laws as being like the first",
+      "timestamp": "02:37"
+    },
+    {
+      "start": 159.84,
+      "duration": 2.399,
+      "text": "kind of code and you know when a",
+      "timestamp": "02:39"
+    },
+    {
+      "start": 162.239,
+      "duration": 1.841,
+      "text": "policeman holds up his hand and says",
+      "timestamp": "02:42"
+    },
+    {
+      "start": 164.08,
+      "duration": 2.4,
+      "text": "that's an illegal action it's a lot like",
+      "timestamp": "02:44"
+    },
+    {
+      "start": 166.48,
+      "duration": 1.44,
+      "text": "window saying that's an illegal",
+      "timestamp": "02:46"
+    },
+    {
+      "start": 167.92,
+      "duration": 4.959,
+      "text": "operation uh in a sense the the um",
+      "timestamp": "02:47"
+    },
+    {
+      "start": 172.879,
+      "duration": 1.841,
+      "text": "judges served as interpreters of the law",
+      "timestamp": "02:52"
+    },
+    {
+      "start": 174.72,
+      "duration": 2.159,
+      "text": "lawyers were like engineers and",
+      "timestamp": "02:54"
+    },
+    {
+      "start": 176.879,
+      "duration": 1.921,
+      "text": "businesses were like apps on the state's",
+      "timestamp": "02:56"
+    },
+    {
+      "start": 178.8,
+      "duration": 3.84,
+      "text": "platform and um it's basically kind of",
+      "timestamp": "02:58"
+    },
+    {
+      "start": 182.64,
+      "duration": 4.48,
+      "text": "code before code and um so that's",
+      "timestamp": "03:02"
+    },
+    {
+      "start": 187.12,
+      "duration": 1.839,
+      "text": "actually a very useful analogy we can",
+      "timestamp": "03:07"
+    },
+    {
+      "start": 188.959,
+      "duration": 1.521,
+      "text": "think of the state as a platform",
+      "timestamp": "03:08"
+    },
+    {
+      "start": 190.48,
+      "duration": 2.08,
+      "text": "certainly that you know analogy is not",
+      "timestamp": "03:10"
+    },
+    {
+      "start": 192.56,
+      "duration": 2.24,
+      "text": "you know unique to me uh Lawrence Leic",
+      "timestamp": "03:12"
+    },
+    {
+      "start": 194.8,
+      "duration": 1.68,
+      "text": "has written about you know code is law",
+      "timestamp": "03:14"
+    },
+    {
+      "start": 196.48,
+      "duration": 1.6,
+      "text": "and so on and you look at the diagrams",
+      "timestamp": "03:16"
+    },
+    {
+      "start": 198.08,
+      "duration": 1.76,
+      "text": "in his book and it really does look a",
+      "timestamp": "03:18"
+    },
+    {
+      "start": 199.84,
+      "duration": 3.2,
+      "text": "lot like uh you know iOS or or any other",
+      "timestamp": "03:19"
+    },
+    {
+      "start": 203.04,
+      "duration": 1.919,
+      "text": "uh tech platform where they've got APIs",
+      "timestamp": "03:23"
+    },
+    {
+      "start": 204.959,
+      "duration": 1.36,
+      "text": "and they expose them and they also",
+      "timestamp": "03:24"
+    },
+    {
+      "start": 206.319,
+      "duration": 1.761,
+      "text": "constantly change them because they're",
+      "timestamp": "03:26"
+    },
+    {
+      "start": 208.08,
+      "duration": 1.519,
+      "text": "trying to move forward and sometimes the",
+      "timestamp": "03:28"
+    },
+    {
+      "start": 209.599,
+      "duration": 2.321,
+      "text": "platform doesn't want certain apps it'll",
+      "timestamp": "03:29"
+    },
+    {
+      "start": 211.92,
+      "duration": 2.319,
+      "text": "ban them in many ways it really is like",
+      "timestamp": "03:31"
+    },
+    {
+      "start": 214.239,
+      "duration": 1.841,
+      "text": "a government where it's got written",
+      "timestamp": "03:34"
+    },
+    {
+      "start": 216.08,
+      "duration": 1.92,
+      "text": "rules that you can abide by and then the",
+      "timestamp": "03:36"
+    },
+    {
+      "start": 218.0,
+      "duration": 1.68,
+      "text": "government will say this is feasible",
+      "timestamp": "03:38"
+    },
+    {
+      "start": 219.68,
+      "duration": 1.44,
+      "text": "this is not feasible in the same way the",
+      "timestamp": "03:39"
+    },
+    {
+      "start": 221.12,
+      "duration": 2.16,
+      "text": "platform has written APIs you can use",
+      "timestamp": "03:41"
+    },
+    {
+      "start": 223.28,
+      "duration": 1.92,
+      "text": "and then it says is it feasible or not",
+      "timestamp": "03:43"
+    },
+    {
+      "start": 225.2,
+      "duration": 2.16,
+      "text": "feasible and you can choose between",
+      "timestamp": "03:45"
+    },
+    {
+      "start": 227.36,
+      "duration": 1.439,
+      "text": "platforms just like you can choose",
+      "timestamp": "03:47"
+    },
+    {
+      "start": 228.799,
+      "duration": 2.481,
+      "text": "between uh tech platforms so state",
+      "timestamp": "03:48"
+    },
+    {
+      "start": 231.28,
+      "duration": 1.84,
+      "text": "platforms network platforms are similar",
+      "timestamp": "03:51"
+    },
+    {
+      "start": 233.12,
+      "duration": 2.24,
+      "text": "right okay so we can think of the state",
+      "timestamp": "03:53"
+    },
+    {
+      "start": 235.36,
+      "duration": 3.76,
+      "text": "as a platform and you know how is that",
+      "timestamp": "03:55"
+    },
+    {
+      "start": 239.12,
+      "duration": 1.759,
+      "text": "platform doing today well in the west",
+      "timestamp": "03:59"
+    },
+    {
+      "start": 240.879,
+      "duration": 2.241,
+      "text": "it's unfortunately not so Great so let's",
+      "timestamp": "04:00"
+    },
+    {
+      "start": 243.12,
+      "duration": 2.24,
+      "text": "talk about the decline of the state just",
+      "timestamp": "04:03"
+    },
+    {
+      "start": 245.36,
+      "duration": 1.04,
+      "text": "talked about the rise let's talk about",
+      "timestamp": "04:05"
+    },
+    {
+      "start": 246.4,
+      "duration": 3.199,
+      "text": "the decline so basically many aspects of",
+      "timestamp": "04:06"
+    },
+    {
+      "start": 249.599,
+      "duration": 2.801,
+      "text": "that state platform are now failing just",
+      "timestamp": "04:09"
+    },
+    {
+      "start": 252.4,
+      "duration": 1.28,
+      "text": "you know for example the Delaware",
+      "timestamp": "04:12"
+    },
+    {
+      "start": 253.68,
+      "duration": 3.04,
+      "text": "judiciary uh this is something that uh",
+      "timestamp": "04:13"
+    },
+    {
+      "start": 256.72,
+      "duration": 1.759,
+      "text": "you know Delaware was for many many",
+      "timestamp": "04:16"
+    },
+    {
+      "start": 258.479,
+      "duration": 2.72,
+      "text": "years just the obvious place to found a",
+      "timestamp": "04:18"
+    },
+    {
+      "start": 261.199,
+      "duration": 3.601,
+      "text": "global tech company but Elon isn't there",
+      "timestamp": "04:21"
+    },
+    {
+      "start": 264.8,
+      "duration": 3.44,
+      "text": "uh Dropbox isn't there uh Elad Gil who's",
+      "timestamp": "04:24"
+    },
+    {
+      "start": 268.24,
+      "duration": 1.679,
+      "text": "uh you know very well-known investor",
+      "timestamp": "04:28"
+    },
+    {
+      "start": 269.919,
+      "duration": 2.0,
+      "text": "runs a large fund friend of mine wrote",
+      "timestamp": "04:29"
+    },
+    {
+      "start": 271.919,
+      "duration": 1.84,
+      "text": "this whole long post on leaving Delaware",
+      "timestamp": "04:31"
+    },
+    {
+      "start": 273.759,
+      "duration": 1.521,
+      "text": "and why all these corporations are",
+      "timestamp": "04:33"
+    },
+    {
+      "start": 275.28,
+      "duration": 2.32,
+      "text": "leaving Delaware where do they go well",
+      "timestamp": "04:35"
+    },
+    {
+      "start": 277.6,
+      "duration": 1.44,
+      "text": "some are going to Texas some are going",
+      "timestamp": "04:37"
+    },
+    {
+      "start": 279.04,
+      "duration": 1.2,
+      "text": "here some are going there I think",
+      "timestamp": "04:39"
+    },
+    {
+      "start": 280.24,
+      "duration": 1.84,
+      "text": "eventually many will go to the internet",
+      "timestamp": "04:40"
+    },
+    {
+      "start": 282.08,
+      "duration": 2.24,
+      "text": "and actually incorporate onchain but the",
+      "timestamp": "04:42"
+    },
+    {
+      "start": 284.32,
+      "duration": 2.48,
+      "text": "point is that that API is broken right",
+      "timestamp": "04:44"
+    },
+    {
+      "start": 286.8,
+      "duration": 2.48,
+      "text": "the Delaware API is broken and there's",
+      "timestamp": "04:46"
+    },
+    {
+      "start": 289.28,
+      "duration": 2.96,
+      "text": "other APIs unfortunately that are broken",
+      "timestamp": "04:49"
+    },
+    {
+      "start": 292.24,
+      "duration": 3.44,
+      "text": "for example SEC regulation failed right",
+      "timestamp": "04:52"
+    },
+    {
+      "start": 295.68,
+      "duration": 2.799,
+      "text": "um you essentially the you know the Gary",
+      "timestamp": "04:55"
+    },
+    {
+      "start": 298.479,
+      "duration": 2.481,
+      "text": "Gensler who's no longer running the SEC",
+      "timestamp": "04:58"
+    },
+    {
+      "start": 300.96,
+      "duration": 2.08,
+      "text": "waged this jihad against cryptocurrency",
+      "timestamp": "05:00"
+    },
+    {
+      "start": 303.04,
+      "duration": 1.68,
+      "text": "and his actions were called arbitrary",
+      "timestamp": "05:03"
+    },
+    {
+      "start": 304.72,
+      "duration": 3.36,
+      "text": "and capriccious um",
+      "timestamp": "05:04"
+    },
+    {
+      "start": 308.08,
+      "duration": 1.6,
+      "text": "western immigration failed it went from",
+      "timestamp": "05:08"
+    },
+    {
+      "start": 309.68,
+      "duration": 2.16,
+      "text": "open borders to blocking tourists going",
+      "timestamp": "05:09"
+    },
+    {
+      "start": 311.84,
+      "duration": 3.68,
+      "text": "from one extreme to the other uh you had",
+      "timestamp": "05:11"
+    },
+    {
+      "start": 315.52,
+      "duration": 2.0,
+      "text": "western education failing you had a",
+      "timestamp": "05:15"
+    },
+    {
+      "start": 317.52,
+      "duration": 2.56,
+      "text": "massive drop in educational achievement",
+      "timestamp": "05:17"
+    },
+    {
+      "start": 320.08,
+      "duration": 2.559,
+      "text": "two decades of of educational growth",
+      "timestamp": "05:20"
+    },
+    {
+      "start": 322.639,
+      "duration": 2.56,
+      "text": "wiped out by the pandemic and Western",
+      "timestamp": "05:22"
+    },
+    {
+      "start": 325.199,
+      "duration": 1.761,
+      "text": "legislation's failed where essentially",
+      "timestamp": "05:25"
+    },
+    {
+      "start": 326.96,
+      "duration": 1.92,
+      "text": "trust in government has just fallen off",
+      "timestamp": "05:26"
+    },
+    {
+      "start": 328.88,
+      "duration": 2.48,
+      "text": "a cliff over the last several decades",
+      "timestamp": "05:28"
+    },
+    {
+      "start": 331.36,
+      "duration": 1.6,
+      "text": "and if you put all of that together it's",
+      "timestamp": "05:31"
+    },
+    {
+      "start": 332.96,
+      "duration": 1.6,
+      "text": "not just one thing it's not just one",
+      "timestamp": "05:32"
+    },
+    {
+      "start": 334.56,
+      "duration": 1.68,
+      "text": "political party or another it's really a",
+      "timestamp": "05:34"
+    },
+    {
+      "start": 336.24,
+      "duration": 3.28,
+      "text": "very bipartisan effort um essentially",
+      "timestamp": "05:36"
+    },
+    {
+      "start": 339.52,
+      "duration": 2.239,
+      "text": "the western state is no longer a model",
+      "timestamp": "05:39"
+    },
+    {
+      "start": 341.759,
+      "duration": 2.241,
+      "text": "right its own western people don't trust",
+      "timestamp": "05:41"
+    },
+    {
+      "start": 344.0,
+      "duration": 2.08,
+      "text": "it anymore so what is the model and some",
+      "timestamp": "05:44"
+    },
+    {
+      "start": 346.08,
+      "duration": 2.16,
+      "text": "will say the model is China but another",
+      "timestamp": "05:46"
+    },
+    {
+      "start": 348.24,
+      "duration": 2.399,
+      "text": "answer is actually the internet and with",
+      "timestamp": "05:48"
+    },
+    {
+      "start": 350.639,
+      "duration": 1.921,
+      "text": "AI and crypto perhaps we can reinvent",
+      "timestamp": "05:50"
+    },
+    {
+      "start": 352.56,
+      "duration": 2.24,
+      "text": "the state",
+      "timestamp": "05:52"
+    },
+    {
+      "start": 354.8,
+      "duration": 1.76,
+      "text": "and so let's get to part three so",
+      "timestamp": "05:54"
+    },
+    {
+      "start": 356.56,
+      "duration": 3.04,
+      "text": "reinventing the state",
+      "timestamp": "05:56"
+    },
+    {
+      "start": 359.6,
+      "duration": 2.159,
+      "text": "so we'll need one concept first and that",
+      "timestamp": "05:59"
+    },
+    {
+      "start": 361.759,
+      "duration": 2.961,
+      "text": "concept is internet first and what does",
+      "timestamp": "06:01"
+    },
+    {
+      "start": 364.72,
+      "duration": 2.319,
+      "text": "internet first mean it basically says",
+      "timestamp": "06:04"
+    },
+    {
+      "start": 367.039,
+      "duration": 1.521,
+      "text": "that you know the first thing that",
+      "timestamp": "06:07"
+    },
+    {
+      "start": 368.56,
+      "duration": 1.359,
+      "text": "hundreds of millions of people billions",
+      "timestamp": "06:08"
+    },
+    {
+      "start": 369.919,
+      "duration": 1.28,
+      "text": "of people do every day they're not",
+      "timestamp": "06:09"
+    },
+    {
+      "start": 371.199,
+      "duration": 1.521,
+      "text": "necessarily waiting waking up and",
+      "timestamp": "06:11"
+    },
+    {
+      "start": 372.72,
+      "duration": 1.84,
+      "text": "saluting the flag they're checking their",
+      "timestamp": "06:12"
+    },
+    {
+      "start": 374.56,
+      "duration": 2.479,
+      "text": "phones right so their people are",
+      "timestamp": "06:14"
+    },
+    {
+      "start": 377.039,
+      "duration": 1.921,
+      "text": "actually online 99% of their",
+      "timestamp": "06:17"
+    },
+    {
+      "start": 378.96,
+      "duration": 1.2,
+      "text": "transactions are online their",
+      "timestamp": "06:18"
+    },
+    {
+      "start": 380.16,
+      "duration": 3.12,
+      "text": "communications are online um their you",
+      "timestamp": "06:20"
+    },
+    {
+      "start": 383.28,
+      "duration": 1.6,
+      "text": "know their business is online their",
+      "timestamp": "06:23"
+    },
+    {
+      "start": 384.88,
+      "duration": 1.599,
+      "text": "customers their friends many of their",
+      "timestamp": "06:24"
+    },
+    {
+      "start": 386.479,
+      "duration": 3.121,
+      "text": "relationships are online and uh you know",
+      "timestamp": "06:26"
+    },
+    {
+      "start": 389.6,
+      "duration": 2.4,
+      "text": "what that means is in many ways internet",
+      "timestamp": "06:29"
+    },
+    {
+      "start": 392.0,
+      "duration": 1.919,
+      "text": "first it's it's a play on words it's",
+      "timestamp": "06:32"
+    },
+    {
+      "start": 393.919,
+      "duration": 1.601,
+      "text": "both a kind of a political thing but",
+      "timestamp": "06:33"
+    },
+    {
+      "start": 395.52,
+      "duration": 3.04,
+      "text": "it's also a technological thing and with",
+      "timestamp": "06:35"
+    },
+    {
+      "start": 398.56,
+      "duration": 1.84,
+      "text": "using this lens we can go through many",
+      "timestamp": "06:38"
+    },
+    {
+      "start": 400.4,
+      "duration": 1.44,
+      "text": "different kinds of things and ask what",
+      "timestamp": "06:40"
+    },
+    {
+      "start": 401.84,
+      "duration": 2.32,
+      "text": "is the internet first version of this",
+      "timestamp": "06:41"
+    },
+    {
+      "start": 404.16,
+      "duration": 3.12,
+      "text": "thing and let me give some examples",
+      "timestamp": "06:44"
+    },
+    {
+      "start": 407.28,
+      "duration": 1.52,
+      "text": "so first let me give some examples of",
+      "timestamp": "06:47"
+    },
+    {
+      "start": 408.8,
+      "duration": 1.6,
+      "text": "what the internet has already reinvented",
+      "timestamp": "06:48"
+    },
+    {
+      "start": 410.4,
+      "duration": 1.28,
+      "text": "and then talk about what we can do with",
+      "timestamp": "06:50"
+    },
+    {
+      "start": 411.68,
+      "duration": 2.16,
+      "text": "AI and crypto to reinvent other",
+      "timestamp": "06:51"
+    },
+    {
+      "start": 413.84,
+      "duration": 2.56,
+      "text": "institutions",
+      "timestamp": "06:53"
+    },
+    {
+      "start": 416.4,
+      "duration": 2.48,
+      "text": "so the internet is mail it's reinvented",
+      "timestamp": "06:56"
+    },
+    {
+      "start": 418.88,
+      "duration": 2.0,
+      "text": "the US postal service it's taken over",
+      "timestamp": "06:58"
+    },
+    {
+      "start": 420.88,
+      "duration": 2.8,
+      "text": "from that email and messaging and so on",
+      "timestamp": "07:00"
+    },
+    {
+      "start": 423.68,
+      "duration": 1.919,
+      "text": "the internet is mobility it took over",
+      "timestamp": "07:03"
+    },
+    {
+      "start": 425.599,
+      "duration": 1.921,
+      "text": "taxi regulation and hotel regulation",
+      "timestamp": "07:05"
+    },
+    {
+      "start": 427.52,
+      "duration": 1.92,
+      "text": "from government regulators and it",
+      "timestamp": "07:07"
+    },
+    {
+      "start": 429.44,
+      "duration": 1.759,
+      "text": "actually also took over the the writer",
+      "timestamp": "07:09"
+    },
+    {
+      "start": 431.199,
+      "duration": 3.28,
+      "text": "side with driver's licenses",
+      "timestamp": "07:11"
+    },
+    {
+      "start": 434.479,
+      "duration": 4.241,
+      "text": "um the internet is Mars uh because",
+      "timestamp": "07:14"
+    },
+    {
+      "start": 438.72,
+      "duration": 3.039,
+      "text": "SpaceX took over from NASA and in fact",
+      "timestamp": "07:18"
+    },
+    {
+      "start": 441.759,
+      "duration": 1.681,
+      "text": "the internet actually funds space",
+      "timestamp": "07:21"
+    },
+    {
+      "start": 443.44,
+      "duration": 2.479,
+      "text": "exploration uh because Starlink is",
+      "timestamp": "07:23"
+    },
+    {
+      "start": 445.919,
+      "duration": 2.641,
+      "text": "what's actually funding it the internet",
+      "timestamp": "07:25"
+    },
+    {
+      "start": 448.56,
+      "duration": 2.96,
+      "text": "is money bitcoin is basically now rise",
+      "timestamp": "07:28"
+    },
+    {
+      "start": 451.52,
+      "duration": 2.56,
+      "text": "risen to become you know a a reserve",
+      "timestamp": "07:31"
+    },
+    {
+      "start": 454.08,
+      "duration": 1.76,
+      "text": "currency",
+      "timestamp": "07:34"
+    },
+    {
+      "start": 455.84,
+      "duration": 1.759,
+      "text": "the internet is monetary policy it's",
+      "timestamp": "07:35"
+    },
+    {
+      "start": 457.599,
+      "duration": 2.0,
+      "text": "taken over from the Fed's monetary",
+      "timestamp": "07:37"
+    },
+    {
+      "start": 459.599,
+      "duration": 2.16,
+      "text": "policy in part in many countries because",
+      "timestamp": "07:39"
+    },
+    {
+      "start": 461.759,
+      "duration": 1.601,
+      "text": "it's got a predictable monetary policy",
+      "timestamp": "07:41"
+    },
+    {
+      "start": 463.36,
+      "duration": 3.44,
+      "text": "as opposed to a chaotic one",
+      "timestamp": "07:43"
+    },
+    {
+      "start": 466.8,
+      "duration": 1.679,
+      "text": "and the internet's contract law so this",
+      "timestamp": "07:46"
+    },
+    {
+      "start": 468.479,
+      "duration": 1.521,
+      "text": "is replacing Delaware with smart",
+      "timestamp": "07:48"
+    },
+    {
+      "start": 470.0,
+      "duration": 2.16,
+      "text": "contracts that's actually cross country",
+      "timestamp": "07:50"
+    },
+    {
+      "start": 472.16,
+      "duration": 2.08,
+      "text": "international binding contracts that are",
+      "timestamp": "07:52"
+    },
+    {
+      "start": 474.24,
+      "duration": 4.079,
+      "text": "that are more reliable than Delaware",
+      "timestamp": "07:54"
+    },
+    {
+      "start": 478.319,
+      "duration": 1.44,
+      "text": "finally you know the internet is freedom",
+      "timestamp": "07:58"
+    },
+    {
+      "start": 479.759,
+      "duration": 1.921,
+      "text": "in the sense that zero knowledge Zcash",
+      "timestamp": "07:59"
+    },
+    {
+      "start": 481.68,
+      "duration": 1.359,
+      "text": "things like that protect your freedom",
+      "timestamp": "08:01"
+    },
+    {
+      "start": 483.039,
+      "duration": 3.28,
+      "text": "against uh uh surveillance",
+      "timestamp": "08:03"
+    },
+    {
+      "start": 486.319,
+      "duration": 2.241,
+      "text": "and so now what else can the internet",
+      "timestamp": "08:06"
+    },
+    {
+      "start": 488.56,
+      "duration": 2.72,
+      "text": "reinvent so now we go to AI as a tool",
+      "timestamp": "08:08"
+    },
+    {
+      "start": 491.28,
+      "duration": 1.759,
+      "text": "right that is to say we define the",
+      "timestamp": "08:11"
+    },
+    {
+      "start": 493.039,
+      "duration": 1.761,
+      "text": "application area first and then we say",
+      "timestamp": "08:13"
+    },
+    {
+      "start": 494.8,
+      "duration": 2.239,
+      "text": "what can we use AI for among other",
+      "timestamp": "08:14"
+    },
+    {
+      "start": 497.039,
+      "duration": 2.321,
+      "text": "things",
+      "timestamp": "08:17"
+    },
+    {
+      "start": 499.36,
+      "duration": 2.399,
+      "text": "so first we can have an internet first",
+      "timestamp": "08:19"
+    },
+    {
+      "start": 501.759,
+      "duration": 2.321,
+      "text": "judiciary this is a really good post in",
+      "timestamp": "08:21"
+    },
+    {
+      "start": 504.08,
+      "duration": 2.88,
+      "text": "AI we trust part two on Substack and",
+      "timestamp": "08:24"
+    },
+    {
+      "start": 506.96,
+      "duration": 1.6,
+      "text": "essentially this is actually from months",
+      "timestamp": "08:26"
+    },
+    {
+      "start": 508.56,
+      "duration": 4.479,
+      "text": "ago um this author went and he took all",
+      "timestamp": "08:28"
+    },
+    {
+      "start": 513.039,
+      "duration": 2.641,
+      "text": "the information in a Supreme Court case",
+      "timestamp": "08:33"
+    },
+    {
+      "start": 515.68,
+      "duration": 2.64,
+      "text": "that was before the judges and asked the",
+      "timestamp": "08:35"
+    },
+    {
+      "start": 518.32,
+      "duration": 2.959,
+      "text": "AI to predict the ruling that the judges",
+      "timestamp": "08:38"
+    },
+    {
+      "start": 521.279,
+      "duration": 2.481,
+      "text": "would make and what it would be would it",
+      "timestamp": "08:41"
+    },
+    {
+      "start": 523.76,
+      "duration": 3.519,
+      "text": "be 9 to 0 would it be 545 and so on and",
+      "timestamp": "08:43"
+    },
+    {
+      "start": 527.279,
+      "duration": 3.441,
+      "text": "so forth and Claude just nailed it right",
+      "timestamp": "08:47"
+    },
+    {
+      "start": 530.72,
+      "duration": 1.76,
+      "text": "the only things it got wrong were things",
+      "timestamp": "08:50"
+    },
+    {
+      "start": 532.48,
+      "duration": 1.76,
+      "text": "that were four five votes that ended up",
+      "timestamp": "08:52"
+    },
+    {
+      "start": 534.24,
+      "duration": 3.68,
+      "text": "being 54 or vice versa and its reasoning",
+      "timestamp": "08:54"
+    },
+    {
+      "start": 537.92,
+      "duration": 2.96,
+      "text": "was also better than just about any",
+      "timestamp": "08:57"
+    },
+    {
+      "start": 540.88,
+      "duration": 2.399,
+      "text": "Supreme Court clerk and way way way",
+      "timestamp": "09:00"
+    },
+    {
+      "start": 543.279,
+      "duration": 1.841,
+      "text": "faster obviously because of spitting it",
+      "timestamp": "09:03"
+    },
+    {
+      "start": 545.12,
+      "duration": 2.8,
+      "text": "out in seconds and you should read this",
+      "timestamp": "09:05"
+    },
+    {
+      "start": 547.92,
+      "duration": 3.12,
+      "text": "guy's blog because uh you know it can",
+      "timestamp": "09:07"
+    },
+    {
+      "start": 551.04,
+      "duration": 2.08,
+      "text": "give very original interpretations of",
+      "timestamp": "09:11"
+    },
+    {
+      "start": 553.12,
+      "duration": 1.92,
+      "text": "things he can ask it give me a creative",
+      "timestamp": "09:13"
+    },
+    {
+      "start": 555.04,
+      "duration": 1.28,
+      "text": "argument that somebody would make",
+      "timestamp": "09:15"
+    },
+    {
+      "start": 556.32,
+      "duration": 2.32,
+      "text": "wouldn't make right so the reason this",
+      "timestamp": "09:16"
+    },
+    {
+      "start": 558.64,
+      "duration": 2.48,
+      "text": "is important is if you want rule of law",
+      "timestamp": "09:18"
+    },
+    {
+      "start": 561.12,
+      "duration": 1.68,
+      "text": "you want equal protection you want",
+      "timestamp": "09:21"
+    },
+    {
+      "start": 562.8,
+      "duration": 2.56,
+      "text": "people to have basically the same legal",
+      "timestamp": "09:22"
+    },
+    {
+      "start": 565.36,
+      "duration": 2.32,
+      "text": "process whatever judge they go and see",
+      "timestamp": "09:25"
+    },
+    {
+      "start": 567.68,
+      "duration": 2.159,
+      "text": "the more predictable the law is the",
+      "timestamp": "09:27"
+    },
+    {
+      "start": 569.839,
+      "duration": 2.801,
+      "text": "fewer uh court cases there are because",
+      "timestamp": "09:29"
+    },
+    {
+      "start": 572.64,
+      "duration": 1.52,
+      "text": "people can predict what the judges are",
+      "timestamp": "09:32"
+    },
+    {
+      "start": 574.16,
+      "duration": 1.2,
+      "text": "going to do and then they don't have to",
+      "timestamp": "09:34"
+    },
+    {
+      "start": 575.36,
+      "duration": 2.88,
+      "text": "go to court right so that saves enormous",
+      "timestamp": "09:35"
+    },
+    {
+      "start": 578.24,
+      "duration": 2.24,
+      "text": "amounts of money on litigation and so on",
+      "timestamp": "09:38"
+    },
+    {
+      "start": 580.48,
+      "duration": 2.24,
+      "text": "and so forth it's like hitting an API",
+      "timestamp": "09:40"
+    },
+    {
+      "start": 582.72,
+      "duration": 2.239,
+      "text": "and it just telling you this is legal",
+      "timestamp": "09:42"
+    },
+    {
+      "start": 584.959,
+      "duration": 2.32,
+      "text": "this is not a legal operation versus",
+      "timestamp": "09:44"
+    },
+    {
+      "start": 587.279,
+      "duration": 2.0,
+      "text": "having to go all the way to a judge to",
+      "timestamp": "09:47"
+    },
+    {
+      "start": 589.279,
+      "duration": 1.921,
+      "text": "decide and one judge may decide",
+      "timestamp": "09:49"
+    },
+    {
+      "start": 591.2,
+      "duration": 1.84,
+      "text": "differently than another judge but an AI",
+      "timestamp": "09:51"
+    },
+    {
+      "start": 593.04,
+      "duration": 2.56,
+      "text": "judge an artificially intelligent judge",
+      "timestamp": "09:53"
+    },
+    {
+      "start": 595.6,
+      "duration": 1.76,
+      "text": "might be much more consistent and",
+      "timestamp": "09:55"
+    },
+    {
+      "start": 597.36,
+      "duration": 2.72,
+      "text": "certainly much faster right at a minimum",
+      "timestamp": "09:57"
+    },
+    {
+      "start": 600.08,
+      "duration": 1.84,
+      "text": "you could imagine this as like a first",
+      "timestamp": "10:00"
+    },
+    {
+      "start": 601.92,
+      "duration": 2.64,
+      "text": "cut layer before you go to a court case",
+      "timestamp": "10:01"
+    },
+    {
+      "start": 604.56,
+      "duration": 3.36,
+      "text": "which gives a guess as to how the judges",
+      "timestamp": "10:04"
+    },
+    {
+      "start": 607.92,
+      "duration": 1.76,
+      "text": "of this or that circuit this or that",
+      "timestamp": "10:07"
+    },
+    {
+      "start": 609.68,
+      "duration": 1.839,
+      "text": "court would rule right so that's an",
+      "timestamp": "10:09"
+    },
+    {
+      "start": 611.519,
+      "duration": 1.921,
+      "text": "internet first judiciary and it's more",
+      "timestamp": "10:11"
+    },
+    {
+      "start": 613.44,
+      "duration": 1.839,
+      "text": "predictable than the Delaware judiciary",
+      "timestamp": "10:13"
+    },
+    {
+      "start": 615.279,
+      "duration": 2.641,
+      "text": "which people are abandoning",
+      "timestamp": "10:15"
+    },
+    {
+      "start": 617.92,
+      "duration": 1.84,
+      "text": "next let's talk about internet first",
+      "timestamp": "10:17"
+    },
+    {
+      "start": 619.76,
+      "duration": 2.4,
+      "text": "regulation so this diagram will require",
+      "timestamp": "10:19"
+    },
+    {
+      "start": 622.16,
+      "duration": 2.56,
+      "text": "a little bit of explanation um you know",
+      "timestamp": "10:22"
+    },
+    {
+      "start": 624.72,
+      "duration": 2.0,
+      "text": "in AI and really in just standard",
+      "timestamp": "10:24"
+    },
+    {
+      "start": 626.72,
+      "duration": 1.6,
+      "text": "machine learning there's this concept of",
+      "timestamp": "10:26"
+    },
+    {
+      "start": 628.32,
+      "duration": 2.4,
+      "text": "a binary classifier and you can actually",
+      "timestamp": "10:28"
+    },
+    {
+      "start": 630.72,
+      "duration": 2.4,
+      "text": "think of what a regulator does as",
+      "timestamp": "10:30"
+    },
+    {
+      "start": 633.12,
+      "duration": 2.32,
+      "text": "essentially a binary classifier there's",
+      "timestamp": "10:33"
+    },
+    {
+      "start": 635.44,
+      "duration": 2.959,
+      "text": "various companies coming through and you",
+      "timestamp": "10:35"
+    },
+    {
+      "start": 638.399,
+      "duration": 2.241,
+      "text": "want to label the bad companies bad and",
+      "timestamp": "10:38"
+    },
+    {
+      "start": 640.64,
+      "duration": 1.759,
+      "text": "you want to label the good companies",
+      "timestamp": "10:40"
+    },
+    {
+      "start": 642.399,
+      "duration": 3.68,
+      "text": "good right and a bad regulator like the",
+      "timestamp": "10:42"
+    },
+    {
+      "start": 646.079,
+      "duration": 4.0,
+      "text": "SEC would label the Bitcoin ETF bad but",
+      "timestamp": "10:46"
+    },
+    {
+      "start": 650.079,
+      "duration": 2.32,
+      "text": "would meet with FTX and label them good",
+      "timestamp": "10:50"
+    },
+    {
+      "start": 652.399,
+      "duration": 2.081,
+      "text": "and that's what the SEC did so you can",
+      "timestamp": "10:52"
+    },
+    {
+      "start": 654.48,
+      "duration": 1.84,
+      "text": "see in this diagram like a false",
+      "timestamp": "10:54"
+    },
+    {
+      "start": 656.32,
+      "duration": 2.959,
+      "text": "negative the the uh Bitcoin ETF got a",
+      "timestamp": "10:56"
+    },
+    {
+      "start": 659.279,
+      "duration": 3.761,
+      "text": "zero but FTX got a one and so that's a",
+      "timestamp": "10:59"
+    },
+    {
+      "start": 663.04,
+      "duration": 1.44,
+      "text": "false negative and false positive",
+      "timestamp": "11:03"
+    },
+    {
+      "start": 664.48,
+      "duration": 3.039,
+      "text": "respectively right and we can once we",
+      "timestamp": "11:04"
+    },
+    {
+      "start": 667.519,
+      "duration": 1.44,
+      "text": "have this framework on things we think",
+      "timestamp": "11:07"
+    },
+    {
+      "start": 668.959,
+      "duration": 3.12,
+      "text": "of regulators as binary classifiers um",
+      "timestamp": "11:08"
+    },
+    {
+      "start": 672.079,
+      "duration": 1.361,
+      "text": "well then we can actually start",
+      "timestamp": "11:12"
+    },
+    {
+      "start": 673.44,
+      "duration": 2.88,
+      "text": "optimizing there's a whole well-known",
+      "timestamp": "11:13"
+    },
+    {
+      "start": 676.32,
+      "duration": 2.639,
+      "text": "you know AU and ROC if if you guys are",
+      "timestamp": "11:16"
+    },
+    {
+      "start": 678.959,
+      "duration": 1.841,
+      "text": "familiar with that where we can just",
+      "timestamp": "11:18"
+    },
+    {
+      "start": 680.8,
+      "duration": 1.76,
+      "text": "start optimizing the area under the",
+      "timestamp": "11:20"
+    },
+    {
+      "start": 682.56,
+      "duration": 1.44,
+      "text": "under the receiver operator",
+      "timestamp": "11:22"
+    },
+    {
+      "start": 684.0,
+      "duration": 2.32,
+      "text": "characteristic and trading off the false",
+      "timestamp": "11:24"
+    },
+    {
+      "start": 686.32,
+      "duration": 1.44,
+      "text": "positive and false negative rates and",
+      "timestamp": "11:26"
+    },
+    {
+      "start": 687.76,
+      "duration": 1.519,
+      "text": "start thinking about a regulator as a",
+      "timestamp": "11:27"
+    },
+    {
+      "start": 689.279,
+      "duration": 2.56,
+      "text": "binary classifier and what what's good",
+      "timestamp": "11:29"
+    },
+    {
+      "start": 691.839,
+      "duration": 2.881,
+      "text": "about that is it doesn't just give a",
+      "timestamp": "11:31"
+    },
+    {
+      "start": 694.72,
+      "duration": 2.96,
+      "text": "penalty for letting the wrong thing",
+      "timestamp": "11:34"
+    },
+    {
+      "start": 697.68,
+      "duration": 3.2,
+      "text": "through it also uh gives a penalty for",
+      "timestamp": "11:37"
+    },
+    {
+      "start": 700.88,
+      "duration": 2.079,
+      "text": "blocking the good thing right so false",
+      "timestamp": "11:40"
+    },
+    {
+      "start": 702.959,
+      "duration": 1.521,
+      "text": "negatives and false positives are both",
+      "timestamp": "11:42"
+    },
+    {
+      "start": 704.48,
+      "duration": 2.0,
+      "text": "very expensive to society we start",
+      "timestamp": "11:44"
+    },
+    {
+      "start": 706.48,
+      "duration": 2.479,
+      "text": "trading them off right",
+      "timestamp": "11:46"
+    },
+    {
+      "start": 708.959,
+      "duration": 2.081,
+      "text": "this also applies to immigration for",
+      "timestamp": "11:48"
+    },
+    {
+      "start": 711.04,
+      "duration": 2.0,
+      "text": "example if a German teen is like",
+      "timestamp": "11:51"
+    },
+    {
+      "start": 713.04,
+      "duration": 2.08,
+      "text": "detained and deported that's like a",
+      "timestamp": "11:53"
+    },
+    {
+      "start": 715.12,
+      "duration": 2.08,
+      "text": "false negative you know and if you're",
+      "timestamp": "11:55"
+    },
+    {
+      "start": 717.2,
+      "duration": 1.759,
+      "text": "just letting lots of unvetted people",
+      "timestamp": "11:57"
+    },
+    {
+      "start": 718.959,
+      "duration": 1.521,
+      "text": "stream across the border those are false",
+      "timestamp": "11:58"
+    },
+    {
+      "start": 720.48,
+      "duration": 3.28,
+      "text": "positives you can have a rational",
+      "timestamp": "12:00"
+    },
+    {
+      "start": 723.76,
+      "duration": 1.6,
+      "text": "immigration system that's capable of",
+      "timestamp": "12:03"
+    },
+    {
+      "start": 725.36,
+      "duration": 2.08,
+      "text": "filtering good for bad immigration in a",
+      "timestamp": "12:05"
+    },
+    {
+      "start": 727.44,
+      "duration": 2.0,
+      "text": "sense is just like regulation singapore",
+      "timestamp": "12:07"
+    },
+    {
+      "start": 729.44,
+      "duration": 1.68,
+      "text": "customs Singapore immigration is making",
+      "timestamp": "12:09"
+    },
+    {
+      "start": 731.12,
+      "duration": 2.48,
+      "text": "a binary classifier decision on every",
+      "timestamp": "12:11"
+    },
+    {
+      "start": 733.6,
+      "duration": 1.52,
+      "text": "person who walks through you",
+      "timestamp": "12:13"
+    },
+    {
+      "start": 735.12,
+      "duration": 1.6,
+      "text": "conceptualize that as just a binary",
+      "timestamp": "12:15"
+    },
+    {
+      "start": 736.72,
+      "duration": 1.84,
+      "text": "classifier problem and then you",
+      "timestamp": "12:16"
+    },
+    {
+      "start": 738.56,
+      "duration": 1.279,
+      "text": "benchmark and you see if you're getting",
+      "timestamp": "12:18"
+    },
+    {
+      "start": 739.839,
+      "duration": 1.601,
+      "text": "it right or wrong and you can make it",
+      "timestamp": "12:19"
+    },
+    {
+      "start": 741.44,
+      "duration": 2.0,
+      "text": "consistent again you can still have a",
+      "timestamp": "12:21"
+    },
+    {
+      "start": 743.44,
+      "duration": 2.399,
+      "text": "human reviewing the results of this AI",
+      "timestamp": "12:23"
+    },
+    {
+      "start": 745.839,
+      "duration": 1.68,
+      "text": "but you can take all of these signals",
+      "timestamp": "12:25"
+    },
+    {
+      "start": 747.519,
+      "duration": 1.841,
+      "text": "and integrate them a binary classifier",
+      "timestamp": "12:27"
+    },
+    {
+      "start": 749.36,
+      "duration": 2.479,
+      "text": "can incorporate hundreds thousands of",
+      "timestamp": "12:29"
+    },
+    {
+      "start": 751.839,
+      "duration": 2.401,
+      "text": "signals and it can spit out the decision",
+      "timestamp": "12:31"
+    },
+    {
+      "start": 754.24,
+      "duration": 2.48,
+      "text": "and say why it's saying admit this",
+      "timestamp": "12:34"
+    },
+    {
+      "start": 756.72,
+      "duration": 1.84,
+      "text": "person don't admit this person you can",
+      "timestamp": "12:36"
+    },
+    {
+      "start": 758.56,
+      "duration": 1.839,
+      "text": "interrogate that and you can modify that",
+      "timestamp": "12:38"
+    },
+    {
+      "start": 760.399,
+      "duration": 2.321,
+      "text": "and you can also train it on millions of",
+      "timestamp": "12:40"
+    },
+    {
+      "start": 762.72,
+      "duration": 2.32,
+      "text": "past border crossings or regulatory",
+      "timestamp": "12:42"
+    },
+    {
+      "start": 765.04,
+      "duration": 1.68,
+      "text": "decisions so it's initialized with all",
+      "timestamp": "12:45"
+    },
+    {
+      "start": 766.72,
+      "duration": 2.32,
+      "text": "the past data and it basically models a",
+      "timestamp": "12:46"
+    },
+    {
+      "start": 769.04,
+      "duration": 2.16,
+      "text": "customs officer or it models a",
+      "timestamp": "12:49"
+    },
+    {
+      "start": 771.2,
+      "duration": 2.0,
+      "text": "regulatory officer so again you can have",
+      "timestamp": "12:51"
+    },
+    {
+      "start": 773.2,
+      "duration": 2.56,
+      "text": "predictability before you cross a border",
+      "timestamp": "12:53"
+    },
+    {
+      "start": 775.76,
+      "duration": 1.92,
+      "text": "before you go through a regulatory",
+      "timestamp": "12:55"
+    },
+    {
+      "start": 777.68,
+      "duration": 2.08,
+      "text": "process will I get accepted or not right",
+      "timestamp": "12:57"
+    },
+    {
+      "start": 779.76,
+      "duration": 2.079,
+      "text": "it's like a simulated version we",
+      "timestamp": "12:59"
+    },
+    {
+      "start": 781.839,
+      "duration": 3.201,
+      "text": "automate the state",
+      "timestamp": "13:01"
+    },
+    {
+      "start": 785.04,
+      "duration": 1.919,
+      "text": "for a fourth example this is an obvious",
+      "timestamp": "13:05"
+    },
+    {
+      "start": 786.959,
+      "duration": 2.0,
+      "text": "one internet first education so we saw",
+      "timestamp": "13:06"
+    },
+    {
+      "start": 788.959,
+      "duration": 2.56,
+      "text": "the learning drop in in western",
+      "timestamp": "13:08"
+    },
+    {
+      "start": 791.519,
+      "duration": 2.081,
+      "text": "education but we might have the learning",
+      "timestamp": "13:11"
+    },
+    {
+      "start": 793.6,
+      "duration": 1.84,
+      "text": "rise you know basically we're getting",
+      "timestamp": "13:13"
+    },
+    {
+      "start": 795.44,
+      "duration": 2.48,
+      "text": "very close to having real-time video",
+      "timestamp": "13:15"
+    },
+    {
+      "start": 797.92,
+      "duration": 2.96,
+      "text": "synthesis audio synthesis and language",
+      "timestamp": "13:17"
+    },
+    {
+      "start": 800.88,
+      "duration": 2.48,
+      "text": "synthesis where an AI tutor infinitely",
+      "timestamp": "13:20"
+    },
+    {
+      "start": 803.36,
+      "duration": 2.24,
+      "text": "patient with the knowledge of Fineman",
+      "timestamp": "13:23"
+    },
+    {
+      "start": 805.6,
+      "duration": 2.4,
+      "text": "and the values of your parents uh that",
+      "timestamp": "13:25"
+    },
+    {
+      "start": 808.0,
+      "duration": 2.079,
+      "text": "can that can teach any kid anything in",
+      "timestamp": "13:28"
+    },
+    {
+      "start": 810.079,
+      "duration": 2.481,
+      "text": "any language at any time essentially",
+      "timestamp": "13:30"
+    },
+    {
+      "start": 812.56,
+      "duration": 2.079,
+      "text": "almost for free you might need like a",
+      "timestamp": "13:32"
+    },
+    {
+      "start": 814.639,
+      "duration": 2.801,
+      "text": "babysitter to accompany the children and",
+      "timestamp": "13:34"
+    },
+    {
+      "start": 817.44,
+      "duration": 2.0,
+      "text": "make sure they're staying on task but",
+      "timestamp": "13:37"
+    },
+    {
+      "start": 819.44,
+      "duration": 3.28,
+      "text": "that radically is more scalable than you",
+      "timestamp": "13:39"
+    },
+    {
+      "start": 822.72,
+      "duration": 2.72,
+      "text": "know K through 12 um much larger",
+      "timestamp": "13:42"
+    },
+    {
+      "start": 825.44,
+      "duration": 2.079,
+      "text": "percentage of people can just you know",
+      "timestamp": "13:45"
+    },
+    {
+      "start": 827.519,
+      "duration": 1.841,
+      "text": "sit with a child as they're as they're",
+      "timestamp": "13:47"
+    },
+    {
+      "start": 829.36,
+      "duration": 3.2,
+      "text": "going with a tutor um and so you'd have",
+      "timestamp": "13:49"
+    },
+    {
+      "start": 832.56,
+      "duration": 1.76,
+      "text": "something which uh I mean the potential",
+      "timestamp": "13:52"
+    },
+    {
+      "start": 834.32,
+      "duration": 2.319,
+      "text": "for that is is really remarkable so",
+      "timestamp": "13:54"
+    },
+    {
+      "start": 836.639,
+      "duration": 1.76,
+      "text": "everybody gets the best tutor in the",
+      "timestamp": "13:56"
+    },
+    {
+      "start": 838.399,
+      "duration": 2.0,
+      "text": "world",
+      "timestamp": "13:58"
+    },
+    {
+      "start": 840.399,
+      "duration": 2.56,
+      "text": "and then fifth uh internet first",
+      "timestamp": "14:00"
+    },
+    {
+      "start": 842.959,
+      "duration": 3.041,
+      "text": "legislation right so many bits of",
+      "timestamp": "14:02"
+    },
+    {
+      "start": 846.0,
+      "duration": 1.92,
+      "text": "legislation are labeled in a certain way",
+      "timestamp": "14:06"
+    },
+    {
+      "start": 847.92,
+      "duration": 2.64,
+      "text": "like a Patriot Act or a Heroes Act if",
+      "timestamp": "14:07"
+    },
+    {
+      "start": 850.56,
+      "duration": 2.719,
+      "text": "you take that PDF and you drop it into",
+      "timestamp": "14:10"
+    },
+    {
+      "start": 853.279,
+      "duration": 2.641,
+      "text": "Grock like Elon is suggesting or chatb",
+      "timestamp": "14:13"
+    },
+    {
+      "start": 855.92,
+      "duration": 2.32,
+      "text": "Claude whatever and you just say what is",
+      "timestamp": "14:15"
+    },
+    {
+      "start": 858.24,
+      "duration": 2.399,
+      "text": "the true title of this act what would I",
+      "timestamp": "14:18"
+    },
+    {
+      "start": 860.639,
+      "duration": 2.081,
+      "text": "call it right it'll say oh it's not the",
+      "timestamp": "14:20"
+    },
+    {
+      "start": 862.72,
+      "duration": 1.76,
+      "text": "Patriot Act it's the Surveillance Act or",
+      "timestamp": "14:22"
+    },
+    {
+      "start": 864.48,
+      "duration": 1.84,
+      "text": "something like that right and so that",
+      "timestamp": "14:24"
+    },
+    {
+      "start": 866.32,
+      "duration": 3.44,
+      "text": "lets you digest this 400page PDF and",
+      "timestamp": "14:26"
+    },
+    {
+      "start": 869.76,
+      "duration": 2.72,
+      "text": "turn it into the true title and then you",
+      "timestamp": "14:29"
+    },
+    {
+      "start": 872.48,
+      "duration": 2.159,
+      "text": "can share that result and so you can",
+      "timestamp": "14:32"
+    },
+    {
+      "start": 874.639,
+      "duration": 1.921,
+      "text": "basically punch through the camouflage",
+      "timestamp": "14:34"
+    },
+    {
+      "start": 876.56,
+      "duration": 3.76,
+      "text": "right this allows citizens to in a few",
+      "timestamp": "14:36"
+    },
+    {
+      "start": 880.32,
+      "duration": 3.04,
+      "text": "seconds understand and get through all",
+      "timestamp": "14:40"
+    },
+    {
+      "start": 883.36,
+      "duration": 2.56,
+      "text": "of the sort of verbiage and camouflage",
+      "timestamp": "14:43"
+    },
+    {
+      "start": 885.92,
+      "duration": 2.08,
+      "text": "that the modern state unfortunately has",
+      "timestamp": "14:45"
+    },
+    {
+      "start": 888.0,
+      "duration": 1.92,
+      "text": "evolved right and you don't need",
+      "timestamp": "14:48"
+    },
+    {
+      "start": 889.92,
+      "duration": 1.359,
+      "text": "expensive lawyers to do this you don't",
+      "timestamp": "14:49"
+    },
+    {
+      "start": 891.279,
+      "duration": 1.68,
+      "text": "need to spend a whole day reading 400",
+      "timestamp": "14:51"
+    },
+    {
+      "start": 892.959,
+      "duration": 2.24,
+      "text": "pages you can ask AI give me the one",
+      "timestamp": "14:52"
+    },
+    {
+      "start": 895.199,
+      "duration": 1.601,
+      "text": "sentence summary give me the hundredword",
+      "timestamp": "14:55"
+    },
+    {
+      "start": 896.8,
+      "duration": 2.24,
+      "text": "summary the thousandword summary you can",
+      "timestamp": "14:56"
+    },
+    {
+      "start": 899.04,
+      "duration": 1.84,
+      "text": "have it say give me the most you know",
+      "timestamp": "14:59"
+    },
+    {
+      "start": 900.88,
+      "duration": 1.84,
+      "text": "unusual things that are in this bill all",
+      "timestamp": "15:00"
+    },
+    {
+      "start": 902.72,
+      "duration": 2.239,
+      "text": "this kind of stuff right and so that",
+      "timestamp": "15:02"
+    },
+    {
+      "start": 904.959,
+      "duration": 2.161,
+      "text": "means you can be an informed citizenry",
+      "timestamp": "15:04"
+    },
+    {
+      "start": 907.12,
+      "duration": 1.76,
+      "text": "once again right so this is internet",
+      "timestamp": "15:07"
+    },
+    {
+      "start": 908.88,
+      "duration": 2.0,
+      "text": "first legislation this again restores",
+      "timestamp": "15:08"
+    },
+    {
+      "start": 910.88,
+      "duration": 1.68,
+      "text": "trust in legislation when it's been",
+      "timestamp": "15:10"
+    },
+    {
+      "start": 912.56,
+      "duration": 3.04,
+      "text": "dropping off in the western state",
+      "timestamp": "15:12"
+    },
+    {
+      "start": 915.6,
+      "duration": 1.359,
+      "text": "we put all this together and it really",
+      "timestamp": "15:15"
+    },
+    {
+      "start": 916.959,
+      "duration": 1.761,
+      "text": "means like internet first democracy",
+      "timestamp": "15:16"
+    },
+    {
+      "start": 918.72,
+      "duration": 2.239,
+      "text": "right we use AI to understand the bills",
+      "timestamp": "15:18"
+    },
+    {
+      "start": 920.959,
+      "duration": 1.041,
+      "text": "and you know we can also use",
+      "timestamp": "15:20"
+    },
+    {
+      "start": 922.0,
+      "duration": 1.839,
+      "text": "cryptographic identities to vote on them",
+      "timestamp": "15:22"
+    },
+    {
+      "start": 923.839,
+      "duration": 1.281,
+      "text": "and there's pieces of this that are",
+      "timestamp": "15:23"
+    },
+    {
+      "start": 925.12,
+      "duration": 2.0,
+      "text": "already there online like social social",
+      "timestamp": "15:25"
+    },
+    {
+      "start": 927.12,
+      "duration": 2.24,
+      "text": "media for discussion and AI for legal",
+      "timestamp": "15:27"
+    },
+    {
+      "start": 929.36,
+      "duration": 3.039,
+      "text": "interpretation and Dows for sort of you",
+      "timestamp": "15:29"
+    },
+    {
+      "start": 932.399,
+      "duration": 1.921,
+      "text": "know cryptographically voting on actual",
+      "timestamp": "15:32"
+    },
+    {
+      "start": 934.32,
+      "duration": 2.56,
+      "text": "budgets but the synthesis of them is",
+      "timestamp": "15:34"
+    },
+    {
+      "start": 936.88,
+      "duration": 2.8,
+      "text": "kind of like internet first democracy",
+      "timestamp": "15:36"
+    },
+    {
+      "start": 939.68,
+      "duration": 1.519,
+      "text": "and really ultimately what we're talking",
+      "timestamp": "15:39"
+    },
+    {
+      "start": 941.199,
+      "duration": 2.88,
+      "text": "about is internet first equality right i",
+      "timestamp": "15:41"
+    },
+    {
+      "start": 944.079,
+      "duration": 1.2,
+      "text": "mean that's what the internet is it's a",
+      "timestamp": "15:44"
+    },
+    {
+      "start": 945.279,
+      "duration": 2.0,
+      "text": "peer-to-peer network right most",
+      "timestamp": "15:45"
+    },
+    {
+      "start": 947.279,
+      "duration": 2.161,
+      "text": "fundamentally you know with the with the",
+      "timestamp": "15:47"
+    },
+    {
+      "start": 949.44,
+      "duration": 3.04,
+      "text": "decline of the western state most people",
+      "timestamp": "15:49"
+    },
+    {
+      "start": 952.48,
+      "duration": 1.919,
+      "text": "uh aren't citizens of western states so",
+      "timestamp": "15:52"
+    },
+    {
+      "start": 954.399,
+      "duration": 2.481,
+      "text": "they are secondass citizens in a western",
+      "timestamp": "15:54"
+    },
+    {
+      "start": 956.88,
+      "duration": 2.72,
+      "text": "state if they're immigrants or you know",
+      "timestamp": "15:56"
+    },
+    {
+      "start": 959.6,
+      "duration": 1.599,
+      "text": "80% of the world they're not on the UN",
+      "timestamp": "15:59"
+    },
+    {
+      "start": 961.199,
+      "duration": 1.521,
+      "text": "security council India is not on the UN",
+      "timestamp": "16:01"
+    },
+    {
+      "start": 962.72,
+      "duration": 1.52,
+      "text": "security council many countries aren't",
+      "timestamp": "16:02"
+    },
+    {
+      "start": 964.24,
+      "duration": 1.68,
+      "text": "they're sort of bystanders right to the",
+      "timestamp": "16:04"
+    },
+    {
+      "start": 965.92,
+      "duration": 2.24,
+      "text": "world economy but they're not bystanders",
+      "timestamp": "16:05"
+    },
+    {
+      "start": 968.16,
+      "duration": 1.919,
+      "text": "on the internet every node is equal on",
+      "timestamp": "16:08"
+    },
+    {
+      "start": 970.079,
+      "duration": 2.081,
+      "text": "the internet it's a peer-to-peer network",
+      "timestamp": "16:10"
+    },
+    {
+      "start": 972.16,
+      "duration": 2.479,
+      "text": "so they have the same AI the same crypto",
+      "timestamp": "16:12"
+    },
+    {
+      "start": 974.639,
+      "duration": 2.241,
+      "text": "the same code and so in an internet",
+      "timestamp": "16:14"
+    },
+    {
+      "start": 976.88,
+      "duration": 2.24,
+      "text": "first world everybody's equal to",
+      "timestamp": "16:16"
+    },
+    {
+      "start": 979.12,
+      "duration": 3.519,
+      "text": "everybody else in on the internet right",
+      "timestamp": "16:19"
+    },
+    {
+      "start": 982.639,
+      "duration": 2.241,
+      "text": "and so that means with AI you can get",
+      "timestamp": "16:22"
+    },
+    {
+      "start": 984.88,
+      "duration": 1.84,
+      "text": "highquality education you can get",
+      "timestamp": "16:24"
+    },
+    {
+      "start": 986.72,
+      "duration": 2.479,
+      "text": "highquality information and high-quality",
+      "timestamp": "16:26"
+    },
+    {
+      "start": 989.199,
+      "duration": 2.161,
+      "text": "legal interpretation so this is a way",
+      "timestamp": "16:29"
+    },
+    {
+      "start": 991.36,
+      "duration": 1.599,
+      "text": "that technology actually increases",
+      "timestamp": "16:31"
+    },
+    {
+      "start": 992.959,
+      "duration": 2.56,
+      "text": "equality and increases uh you know the",
+      "timestamp": "16:32"
+    },
+    {
+      "start": 995.519,
+      "duration": 3.12,
+      "text": "power for the people",
+      "timestamp": "16:35"
+    },
+    {
+      "start": 998.639,
+      "duration": 1.601,
+      "text": "so that's how technology can give",
+      "timestamp": "16:38"
+    },
+    {
+      "start": 1000.24,
+      "duration": 1.76,
+      "text": "equality through AI and crypto we can",
+      "timestamp": "16:40"
+    },
+    {
+      "start": 1002.0,
+      "duration": 2.079,
+      "text": "reinvent the state and put you on par",
+      "timestamp": "16:42"
+    },
+    {
+      "start": 1004.079,
+      "duration": 2.801,
+      "text": "with anyone else online and put uh a",
+      "timestamp": "16:44"
+    },
+    {
+      "start": 1006.88,
+      "duration": 1.759,
+      "text": "decentralized AI agent or group of",
+      "timestamp": "16:46"
+    },
+    {
+      "start": 1008.639,
+      "duration": 4.401,
+      "text": "agents in your corner so um",
+      "timestamp": "16:48"
+    },
+    {
+      "start": 1013.04,
+      "duration": 1.039,
+      "text": "if you're interested in these ideas",
+      "timestamp": "16:53"
+    },
+    {
+      "start": 1014.079,
+      "duration": 2.241,
+      "text": "applied network school so ns.com thank",
+      "timestamp": "16:54"
+    },
+    {
+      "start": 1016.32,
+      "duration": 2.24,
+      "text": "you very",
+      "timestamp": "16:56"
+    }
+  ],
+  "extraction_timestamp": "2025-06-29T20:47:10.684695",
+  "playlist_title": "SuperAI Singapore 2025: io.net Main Stage"
+}

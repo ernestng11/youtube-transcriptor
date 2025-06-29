@@ -1,0 +1,2177 @@
+{
+  "video_id": "HB12XWVaWKM",
+  "video_title": "When Machines Decide: Who Do You Trust? - SuperAI Singapore 2025",
+  "video_url": "https://www.youtube.com/watch?v=HB12XWVaWKM",
+  "channel_title": "SuperAI",
+  "published_at": "2025-06-27T07:49:58+00:00",
+  "duration_seconds": null,
+  "view_count": 5,
+  "like_count": 0,
+  "description": "Learn more about SuperAI: superai.com\nFollow us on X: x.com/superai_conf\n\nPanel: When Machines Decide: Who Do You Trust?\n\nSpeakers:\nJoe Hooper, Director, GCTISD @ UNDP\nAngela Chee, Director, Special Projects AI @ A*STAR I²R\nChi Hung Chi, Senior Principal Research Scientist @ Nanyang Technological University\n\nModerator:\nNuno Sebastião, Co-Founder, Chairman, and CEO @ Feedzai\n\nStage: io.net Main Stage\n#superai #trust #ai #security #transparency \n\nRecorded on 19 June 2025",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 359,
+    "aggregated_text": "hello everyone as just being said I'm Nastia i'm the CEO of FISA and um our mission just for those who don't know is to protect uh financial transactions organizations uh from financial crime so in our world you know trust and and in systems and compliance is not a nice to have it's a must it's a must have and um one of the things I've been challenging with or thinking a lot about is you know humans are wired to trust i mean our social interactions over you know centuries millennia has been about how do we build relationships how do we trust the systems uh around people institutions societies and um you know when we were thinking about this you know trust is not just about the technology aspect of it is how do we trust in what surrounds us there's a context there's a uh geographical there's a political uh environment to all to all that that trust it's not a single concept this one of trust it's a composite build on on on foundational things like safety uh assurance accountability so for this panel um you know it's really important to have the opinion of peoples i mean I'll start with saying that everyone say says they want trustworthy AI i mean I assume the one people in the room I've never met I personally I've never met an engineer and I you know there's a lot of them here that says I'm going to build an untrusty untrustworthy system you know people by definition want to build trustworthy systems but our biases our backgrounds always kick in right and um the example we're discussing back there biometrics 98% uh accuracy well if you zoom into that is maybe 65% if you are of a particular race so for the 35% people for who the system is not accurate they suffer from it um and they don't trust the system so let's talk into you know the panel here um and I would start with you know framing trust you know with national international and here you know with the United Nations Development Program with local um authorities in the in the area um I'll start with with Angela what and where do you see this urgent need for trust and what does it mean for you and what does it mean for the context here in AI trust in AI m uh thank you first of all happy to be here and uh discussing about this topic which is so close to everybody's heart as we you know as everybody's embracing AI and especially gen AI uh we tend to forot uh what happen when the machine makes mistake that uh could impact that have very catastrophic uh outcome uh if it makes a decision that's wrong it might impact lives or impact certain decisions that it goes very wrong so I think uh the the the the question the answer to the question is that in what situations that uh trust is so important I would say is for mission critical kind of applications uh especially in healthcare area or in financials where money is involved uh when a person's uh health is involved i think those areas I would say uh trust is extremely important yeah i would you know uh move over to to Joe i mean you know first of all I just wanted to thank for you know people that work in in causes of for good i mean Joe here we're talking backstage and you know someone that worked in Kosovo and in many other you know regions throughout the world uh that needed help and where trust in someone like United Nations uh it's really important right so how do you look at it from a national international and especially something we were talking about that is you know as coming from a developing country is very close to me we don't want to leave anyone behind in this new revolution right can you elaborate in in those things uh thanks N I mean what a great question how do we not leave anyone behind especially when we're talking about trust I think we have to recognize that we're really in a formative moment around the discussions on governance coordination around AI and AI safety and trust and those mechanisms there's multilateral mechanisms UN OECD at the regional level you see a lot of good work as well a lot of interesting discussions but what I also see and what really concerns me the most about this movement I would say is what's happening to these countries as they try to navigate these this polarization east versus west we know that one right public versus private Where is the regulation the accountability assurance going to lie is it going to be a public sectordriven model or private sector and then within that north versus south broadly speaking developed versus developing countries and it's not just around access to the technology and that's a cost issue it's the capacity to use that it's the institutional strength in developing countries to determine their own course of action whether they're rule takers or rule makers it's a very very complex world out there for them but what I do see though is a lot of potential and a lot of I would say agility many people look at this as a question of have or have not and that's not correct developing countries have a lot of assets which I think they can leverage in this space young populations that have been exposed to and utilizing technology from very early on you see a lot of investment that has gone into their education systems that's a massive asset uh I think access to the resources needed the electricity to establish data centers the natural resources necessary to build the foundations uh of course not saying that they don't have barriers data availability and structuring quality is one of them but I view this in with a lens of hope i do think that there's assets there that they can leverage and utilize as long as they're part of the discussion so you believe no one's going to be left behind or I'm not that naive so so on on on on that of you know real world and how is this technology that we're all building together you know impacting out there um I would you know for for both Dr ch and Angela um real world examples where you know in your research healthcare financial services where you see the application of a trust framework working but also not working Dr she I'll start with you okay i think we asked about trust uh I better ask you a question first why do you want to ask this question what do you really want and why is so important because apparently there's no context just like can you trust me yes get a cup of coffee you can trust me you give me the $10 billion cash and then you go away can you trust me no okay so the uh a lot of time I think at this particular moment okay we are also have the Singapore AI safety institute so when we talk about trust a lot of time we talk about trust from the viewpoint of a developer so I develop a software I develop a I mean a platform so you should trust okay so I say you should whether you really trust or not don't know okay but from your viewpoint from the end user viewpoint then why you want to ask this particular question because you are taking some risk so are you willing to take the risk now this is interesting because uh if you want to ask the I want to lower my risk technology is one aspect I think function as it is but there are many others that you forget for example if someone guaranteed that anything is wrong I pay you 10 million cash do you trust you trust okay that means There are much more dimension that you may want to focus and as a matter of fact those dimension are more important then you understand the internal working of this particular equipment i mean I give you an example uh healthcare okay healthcare uh I think about two weeks ago I was in Shanghai okay I rushed to Shanghai uh one of my immediate family um he got the stroke about a year ago mhm so then uh when he was rushed to the hospital then you know that hospital has a set of rules sky knife that you can trust okay and and then to do operation so you need to have the close relative to sign without signing the hospital is not allowed to do the operation so it takes six hours to finish this particular process whoa okay then after that the recovery is not that good so his immediate family want to show the come want to show the hospital then what should we do okay so we see that the hospital all the equipment doctor certified everything perfect but then who is taking up the accountability this is why I say what do you why do you want to ask this particular question if you are asking from the user viewpoint you better understand what you want to get out from that one mhm and then from that one actually um I mean I always say uh technology people like to say whatever he like to say okay but then uh from the viewpoint of the of the end user I think we need to sit back and then to rethink what we mean by AI trust AI safety and so on because you are asking actually different question different question angela any like to add yeah I think I just want to to to share a little bit on the fact that uh today the trust uh of the AI system can be eroded sometimes or it's either due to the AI product is not developed very well or due to adversarial attacks so there are two two ways right i I have to mention if you if you allow me you know just even yesterday as I was walking the the floor show the show floor and and I hope you know the people the developers out there don't don't take me the wrong way you know there was a lot of focus on I can enable this I can enable that and you know the same way as any developer out there you know and I see it certainly in the developers in my company you might have a policy to use this AI tool or this or this you know development uh uh helper everything what I do know is for a fact is that they'll go and do whatever they want you know the you know even though you have corporate uh let's say policy on something and yesterday out there the development in the demos I've seen it was exactly that you know developers were you know and all the demos I've seen were still at a very basic level of people are building stuff uh probably the level of care to the point you know where healthcare has been to responsibility safety uh it's not yet there so yeah I totally agree with you yeah I think that is uh the question here right uh uh I totally agree with you as well um so in the healthcare I mean we know that uh we are increasingly relying on chatbot all right which is supposed to take away the load of uh the the hospital staff and uh so but the thing is that we have to be very very careful here because like just a few years ago there was this chatbot I think it's called Tesla is in US where it's supposed to give some advice on people with eating disorders but uh it's sort of like uh it wasn't really trained that well is giving harmful advices so when incidents like that happen you can imagine that uh they have to quickly put a stop to it because the harm is already done by giving false advices uh so that's why I say healthcare is very important and for finance sectors I think the problem is there are a lot of uh incidents of adversary attacks scams right uh you know people are being spooked to imagine the video conference was real I think the case in points in Hong Kong you know where where they the staff thought that the CFO had a video conference with him and asked for money and he actually thought it's real this is a result of adversarial attacks um and also the failure of the companies system maybe to sort of authenticate or you know sort of like identify this threat early enough i think these are the two two main points and what I see absolutely and what I see out there is people actually incorporating in their training and development method labs how do you deal with impersonation you know CEO impersonation CFO impersonation in all these organizations so on this on this topic of safety Joe um you know AI safety it's from the way I see it a lot of it is the way we behave as humans and kind of like how do we build these systems but there's also the way they're developed and validated i mean what do you see out there because you travel the real world i mean we're just giving you just giving me an example backstage on Kenya and stuff like that i mean do you see progress being made i mean you're a positive person so tell me about that uh I think really that's sort of in the eye of the beholder is progress being made i am an optimist i do see progress being made in that these types of discussions actually are happening and we're starting to get into the granularity and the complexity of what trust and safety actually means and I see those discussions happening in different places because it's inherently subjective and it's inherently culturally specific about how trust and safety is imbued and that's picking up on what Prof was saying earlier and I think there's also a shift I'm seeing in in many of the countries saying why are we starting from a point of zero when we have systems in place to manage some of these questions already you know tortas-based systems or compensation based systems in the medical malpractice field they exist and countries are saying really why don't we start from examining how those systems can work visav this technology so there's an element of pragmatism yeah one of the things I would recommend to the developers in the that we do in our own company is you know we mimic the hypocratic oath right which is something that in medicine it's been there for quite some time is ext a very simple set of principles on which you should abide every doctor you know abides by right is that what you're referring to or mimicking certain types of systems I think that but you also have of course different accountability mechanisms for when something goes wrong in in many countries these have existed for a long time So if you're in the US and a medical practice goes wrong medical procedure goes wrong there's a TOR-based system for which you can then seek redress in the EU it's a no fault compensation model and you can seek redress through that so these these are established systems in the developing countries largely because of history similar models exist and that's the starting point I think for many of them saying why don't I start from where I am now and rather than focus specifically on setting up something completely for the technology in absence of a sectoral application why don't we look at it from another perspective we already have this system what are the risks or perceptions of risk that are going to be imbued or enhanced by this technology and start from that point and you know that that actually made me think will we see anytime soon an AI system being sued for everyone uh I completely agree with Joe uh when we talk about the trust or safety and so on in depending of what technology you are using whether it's AI or AI actually uh if you want to focus on the outcome I mean I said it depend on what you are asking mhm so if I'm talking about the risk let's say in the healthcare sector the patient so there are already rules guid principle protocol that people agree it's not perfect but is accepted by the community okay so I think it will be extremely critical for AI people to understand what has been accepted to start with then after that I always say two question okay question number one you say AI is powerful how can this powerful AI help to fulfill the requirement that I accept okay you can do faster you can do it smartly you can do it collaboratively and so on second question you can propose let's say this is the existent um safety or the trust framework is there I mean with new technology no matter this AI not AI the community will regularly revision okay whether this set of guideline rules should be updated or not so I think this is a more practical approach to the so-called AI trust okay so I'm a developer let's assume that right and you know I hear all this stuff talking about trust but I have to ship a product and I have a deadline to get it done you know like all the startups here trying to you know survive define a market i got to get the product out because otherwise you know I don't have a business um so it's all about you know performance of my product you know speed to market and transparency or you know trust in whatever model I'm building um let's start with with Angela i mean if you have to drop if I'm a developer software company and if you have to drop any of these to ship a product tomorrow what kind of tradeoff should the audience make i mean if if you know because it's easy for us to say oh you have to build systems that are trustworthy and all that but I have to ship a product how what would I drop from between transparency trust or performance h wow well I I think it depends on the intended use of the AI product mhm if it's something very for for very critical outcomes i I don't think you should drop any of that i mean to me I I feel that um some of the ways to make sure your AI model works and is trustworthy or trust uh can deliver what it's supposed to do it's really the accuracy of the model and just now you use the word transparency right uh could could you explain or there's explanability factor there that means we understand how and why the AI makes certain decision in this way so the developers has to understand that very clearly uh it cannot be a guess work uh and accuracy level of the AI systems needs to be really really very high as high as you can to a certain level that you feel that's acceptable for that use case uh before you roll it out I think that one is no compromise and I think just when we were talking I I thought of this point about you know uh the developers always think that what they've done is the best and they have superb confidence in it uh how about having a independent team to do a red teaming or you know just to check the quotes right I think this could be some of the the ideas that we might want to think about all right today when we said you said it's trustworthy how do we know uh can we actually test it and prove that it's really working as you said yeah I think these are some of the points I like to share Joe what do you want to what do you want to anything I I mean I I would almost pity the developer right if it's their choice choice only uh on whether to do this or not uh my goodness that they're going to be having some sleepless nights in many jurisdictions I would suspect but I guess that's the matter for me is whose choice who sets these parameters and how do we collectively decide what those trade-offs are based upon the culture the the needs of the country and what's happening and that's why I say it's not the private sector's sole responsibility i don't believe that to be true uh I believe the role of the public sector is critical the role of government is critical uh in this space and I guess to to try to answer your question about who makes those choices uh and that is the framework that needs to be examined because I don't believe it should be on the developer to to have to weigh that if they're not provided with those guardrails now again being pragmatic technology is always outpacing regulation there's always this time of uncertainty where there's the a lag behind what we as societies choose and the parameters we establish and where the technology is pushing us and I think at that point it comes down to these discussions on really prioritizing missionritical highest risk versus perhaps something that is of lower risk and again risk in the eye of the beholder in terms of the country in its uh specific context one of the things you you mentioned when we're talking backstage was you know you know the reason why you set up shop here was to export some of the best practices you see happening here in Singapore due to the you know sophistication of government the kind of you know the approach they they go about it so and you talk about the role of regulation and governments you know with together with the private sector so what do you think should be should it be like you know as Dr she was saying in some areas where you know for you to deploy a certain system you have to pass a set of regulation tests you know Europe you know I'm European I think I can say that we're we're proal at everything that is overregulated and you know but there are some good things that come out of it what's your take of you know regulation uh and let's call it assurance in a way and and what what should governments or regulators do and the fine line between imposing and letting the market play i mean the the joy I have about being in Singapore is that I do get to revel in this ecosystem and one thing that's always struck me about Singapore is the pragmatism that's present here testing trying didn't work move on and learn there's something to be said about that approach especially in a rapidly evolving uh technological context that I find you know quite it's quite unique in many ways but I think there's a lot of lessons to be learned there across multiple sectors here in Singapore I see very active communities of public private academia working as holistic ecosystems asking these questions and asking them openly and exploring give me an example give me an example of one on the in the health side so they have AI and health guidelines here in Singapore that were very much a collective uh product there was a declaration that came out a month ago uh of bottom-up research from around the world issued by Singapore discussing some of these elements in the legal sector singapore is looking at AI use in the judiciary when do you need a lawyer in the loop when do you not at what extent can you trust that there's this type of pragmatism in Singapore I think bodess well because it shows how you can bring together different aspects of your society to have very open conversations and to iterative iteratively build the regulation and the policy as you learn and as you apply and I find that approach very very powerful and I know that's also something maybe unique to Singapore but I think there's lessons that we can learn from it certainly that we are learning as the UN development program awesome anything you you want to add on this i think uh there is something basic that we need to offer two things number one is the transparency mhm that means before you make any decision things need to belong to you okay i think this apply to all the sectors let's say the financial investment they need to let you know what are the terms condition consequence and so on so transparency is the number one then you want people don't get confused on many things so you want to say I want to so control the quality okay so you do different kind of testing say that this is good this is not good and so on okay but this is only the starting this not the end and this not your end result your end result is always your risk and your cause that means after this is transparent after you know that this is what you get okay you need to make a decision for example if if I say um uh this AI system the accuracy 70% then then you say why not 90% of course I want 90% but you ask me for a million dollar I don't have i don't have okay so I think a lot of time this always boils down to the cause and the risk okay and you have I mean if you can help people to understand to following then that is good regulation is important why is important because regulation try to take up the accountability that means like I do this testing if it fails I mean if the accuracy below 70% but I certify that I take up the accountability okay so regulation only helps you but still the same at the end of the day you decide you decide because nothing is perfect that that actually takes me to the to the next point which is I call it this fairness narrative right we say oh the systems you know uh should be fair and you know we're talking about fairness as a as a goal when in reality in these systems it should be the floor it should be the minimum um so the question would be you know and talking about this north and south you know differences and and and the fear fear that countries have today that they're going to be left out so shouldn't we be aiming for systems that actually create and foster equity or equality among um all these stakeholders all the people and taking this to an area where we talk about agents and agentic AI and you know that by definition is the replacement end to end of tasks that today are done by humans that actually seems that it's going to get worse before it gets better so Dr angel I mean how do you see people getting comfortable with that trusting those agents where as we are at the beginning of that phase we see companies trying the very examples of you know Clara in Europe that they replaced uh a lot of their their people with agents and they had to roll that back um sales de development representative companies out there so they're they're actually not creating equality or equity they're actually taking some of that away how should we balance and trust the systems while we see these experiments going on any thoughts yeah I think when you talk about agent uh uh AI which is uh having the machines uh make decisions on your behalf we're talking about a different level of uh autonomy that you've given to the machine which is can be very scary if you don't manage it well uh I think like Dr chi said sometimes the weighing of budget versus accuracy you don't have all the time or budget to develop something that's close to 100% m and sometimes corporations make certain decisions uh for whatever reasons right um I feel that uh yeah you need to weigh the pros and cons but more importantly can we build in some fail safes you know certain program certain conditions that the machine will never never do things like that uh you know sort of like u called hardcoded into the AI for example if you are giving out uh healthcare advice you just have to tell the machine that look you're not a certified or licensed doctor don't ever say this or don't ever prescribe certain thing or you know I I don't know something along that line so program it that way so that the machine ex I mean the response is sort of guarded within certain boundaries uh then the rest of the errors if it happens they are not that uh uh so-called uh cat uh catastrophic uh yeah so this is to minimize the kind of risk that you you get from deploying such a system Joe how do you how do you build on that you know and again as you work throughout the world you see you know the the easiest targets for some of these agents to do is actually replace you know labor in you know lower income or lower um type of countries how are they looking at that and how do they trust that okay AI is going to be an agent for good and these trust frameworks are actually going to enable them to do more as opposed to you know massive unemployment in these countries from a society standpoint um there's been some interesting research we just launched a a global report called it's a matter of choice focusing on human agency and AI because a lot of the countries are having very vibrant discussions developing countries around this specific issue and they are very informed by previous ways of technological change and how that has give us an example give us real examples uh for instance how uh call centers have uh created a massive labor market lots of jobs augmented by this technology that came what 25 30 years ago right um and some of the countries are seeing risk in that this technology could displace replace large proportions of that uh those jobs but they're also having a very nuanced conversation of saying well how can that technology also augment the skills so that those same people so that they provide more service or a higher degree or quality of service or that they're able to answer any tangible results that you're seeing out there i think on aentic it's too soon okay but that these discussions are are happening now are good because it is a matter of choice if we look at this technology with from the perspective of augmentation complementing and of course with almost any technology you will see some displacement in job loss but you may also see the creation of new roles i think within these developing countries they're especially cognizant of the fact that they have highly educated very high talent uh in the technological space in a lot of them and that it can be an accelerator for economic development in the right conditions it's not necessarily going only being viewed as strictly a risk of loss in display but as a possibility i'm I'm going to open the the the floor for questions uh really soon just after I get you know Dr and any any view on this you know okay i think aentic to me nothing new mhm nothing new okay i remember tell us more uh 10 20 years ago i mean we are talking about all these agents surfaces okay surface computing okay about 15 years ago I've been doing lots of this kind of thing automation okay uhhuh orchestration workflow all this kind of thing so why is so new okay uh is I mean all I mean we all want to have the automation this is for sure i think it's a matter of how you position yourself i think this is important on one hand you can say that I mean this particular entity replace my job okay i lost my job mhm but at the same time let's say uh I talk about Indonesia for example okay so that means you talk about agent AI that mean you need to build a lot of this agents right so to build it in Singapore mhm i think you need to pay about 10K per month for a lot more software engineer in Indonesia it's only about 1K wow that means if you position correctly suddenly there are lots of job waiting for you this is serious okay so it's really a matter of how you look at the techn I mean technology is advancing how you position yourself in order to get the maximum benefit i think this is more important then we always say ah I mean you do this I lost my job awesome i always say I love the positivity in in the in the panel here um and because I have 30 seconds before any questions come in otherwise they shut me down any questions from the audience i know there's some mics uh some microphones around i actually cannot see anything so there's even a question oh there you are hello everyone uh it was an amazing talk so I am a machine learning researcher myself and I come from India and I'm working on a research project in N US so when you are talking about you know agentic systems and there are two ways to control an agentic system it can be centralized or decentralized so in centralized as Angelina suggested that you have a particular sample space and the agentic system is going to give outputs just based on that and in decentralized we give control to the agentic system to give outputs according to itself so what are your views on that and which area should we focus on and in which particular fields should we focus on centralized systems and in which fields we should be focused on decentralized systems because uh some people you know in the research field they have views that if you give control to the agents uh it can be harmful but at the same time uh it can also be revolutionary so yeah want to go Angela is a chi and it okay uh maybe I say something on different centralized versus decentralized I think is still I mean I always like to do the trade off okay uh centralized there's good things I mean why not okay you take care of all my headache decentralized you think it's cheaper sometime it may not be cheaper okay decentralized you think is good there are always other things that you need to concern for example privacy okay so to build a decentralized privacy preserving solution is very way very much harder of course in some situation I just don't want to be centralized so it is hard to say it must be a or b you really look into exactly what you want what you are going to pay and then what are the constraints that you are sucked too well thank you anyone want to we have 7 seconds before we have to wrap so look thank you thank you everyone um I thoroughly enjoyed uh this panel you guys have been very you know gracious with your with your answers thank you we're going to be around so I'm sure there's more questions please reach out to to you know to any of these uh illustrious folks to myself and we'll be happy to to talk further thank you",
+    "text_length": 32286,
+    "word_count": 6155
+  },
+  "segments": [
+    {
+      "start": 7.44,
+      "duration": 6.48,
+      "text": "hello everyone as just being said I'm Nastia i'm the CEO of FISA and um our mission just for those who don't know is",
+      "timestamp": "00:07"
+    },
+    {
+      "start": 13.92,
+      "duration": 5.359,
+      "text": "to protect uh financial transactions organizations uh from financial crime so",
+      "timestamp": "00:13"
+    },
+    {
+      "start": 19.279,
+      "duration": 6.481,
+      "text": "in our world you know trust and and in systems and compliance is not a nice to have it's a must it's a must have and um",
+      "timestamp": "00:19"
+    },
+    {
+      "start": 25.76,
+      "duration": 6.56,
+      "text": "one of the things I've been challenging with or thinking a lot about is you know humans are wired to trust i mean our",
+      "timestamp": "00:25"
+    },
+    {
+      "start": 32.32,
+      "duration": 6.32,
+      "text": "social interactions over you know centuries millennia has been about how do we build relationships how do we",
+      "timestamp": "00:32"
+    },
+    {
+      "start": 38.64,
+      "duration": 7.12,
+      "text": "trust the systems uh around people institutions societies and um you know",
+      "timestamp": "00:38"
+    },
+    {
+      "start": 45.76,
+      "duration": 6.16,
+      "text": "when we were thinking about this you know trust is not just about the technology aspect of it is how do we",
+      "timestamp": "00:45"
+    },
+    {
+      "start": 51.92,
+      "duration": 7.119,
+      "text": "trust in what surrounds us there's a context there's a uh geographical there's a political uh environment to",
+      "timestamp": "00:51"
+    },
+    {
+      "start": 59.039,
+      "duration": 5.119,
+      "text": "all to all that that trust it's not a single concept this one of trust it's a",
+      "timestamp": "00:59"
+    },
+    {
+      "start": 64.159,
+      "duration": 5.28,
+      "text": "composite build on on on foundational things like safety uh assurance",
+      "timestamp": "01:04"
+    },
+    {
+      "start": 69.439,
+      "duration": 5.761,
+      "text": "accountability so for this panel um you know it's really important to have the",
+      "timestamp": "01:09"
+    },
+    {
+      "start": 75.2,
+      "duration": 6.959,
+      "text": "opinion of peoples i mean I'll start with saying that everyone say says they want trustworthy AI i mean I assume the",
+      "timestamp": "01:15"
+    },
+    {
+      "start": 82.159,
+      "duration": 5.6,
+      "text": "one people in the room I've never met I personally I've never met an engineer and I you know there's a lot of them",
+      "timestamp": "01:22"
+    },
+    {
+      "start": 87.759,
+      "duration": 6.881,
+      "text": "here that says I'm going to build an untrusty untrustworthy system you know people by definition want to build",
+      "timestamp": "01:27"
+    },
+    {
+      "start": 94.64,
+      "duration": 6.24,
+      "text": "trustworthy systems but our biases our backgrounds always kick in right and um",
+      "timestamp": "01:34"
+    },
+    {
+      "start": 100.88,
+      "duration": 7.76,
+      "text": "the example we're discussing back there biometrics 98% uh accuracy well if you zoom into that",
+      "timestamp": "01:40"
+    },
+    {
+      "start": 108.64,
+      "duration": 7.839,
+      "text": "is maybe 65% if you are of a particular race so for the 35% people for who the",
+      "timestamp": "01:48"
+    },
+    {
+      "start": 116.479,
+      "duration": 6.801,
+      "text": "system is not accurate they suffer from it um and they don't trust the system so",
+      "timestamp": "01:56"
+    },
+    {
+      "start": 123.28,
+      "duration": 5.679,
+      "text": "let's talk into you know the panel here um and I would start with you know",
+      "timestamp": "02:03"
+    },
+    {
+      "start": 128.959,
+      "duration": 5.121,
+      "text": "framing trust you know with national international and here you know with the",
+      "timestamp": "02:08"
+    },
+    {
+      "start": 134.08,
+      "duration": 5.76,
+      "text": "United Nations Development Program with local um authorities in the in the area",
+      "timestamp": "02:14"
+    },
+    {
+      "start": 139.84,
+      "duration": 7.2,
+      "text": "um I'll start with with Angela what and where do you see this urgent",
+      "timestamp": "02:19"
+    },
+    {
+      "start": 147.04,
+      "duration": 9.919,
+      "text": "need for trust and what does it mean for you and what does it mean for the context here in AI trust in AI m uh",
+      "timestamp": "02:27"
+    },
+    {
+      "start": 156.959,
+      "duration": 7.681,
+      "text": "thank you first of all happy to be here and uh discussing about this topic which is so close to everybody's heart as we",
+      "timestamp": "02:36"
+    },
+    {
+      "start": 164.64,
+      "duration": 6.56,
+      "text": "you know as everybody's embracing AI and especially gen AI uh we tend to forot uh",
+      "timestamp": "02:44"
+    },
+    {
+      "start": 171.2,
+      "duration": 5.44,
+      "text": "what happen when the machine makes mistake that uh could impact that have",
+      "timestamp": "02:51"
+    },
+    {
+      "start": 176.64,
+      "duration": 7.76,
+      "text": "very catastrophic uh outcome uh if it makes a decision that's wrong it might impact lives or impact certain decisions",
+      "timestamp": "02:56"
+    },
+    {
+      "start": 184.4,
+      "duration": 5.52,
+      "text": "that it goes very wrong so I think uh the the the the question the answer to",
+      "timestamp": "03:04"
+    },
+    {
+      "start": 189.92,
+      "duration": 5.599,
+      "text": "the question is that in what situations that uh trust is so important I would say is for mission critical kind of",
+      "timestamp": "03:09"
+    },
+    {
+      "start": 195.519,
+      "duration": 7.521,
+      "text": "applications uh especially in healthcare area or in financials where money is involved uh when a person's uh health is",
+      "timestamp": "03:15"
+    },
+    {
+      "start": 203.04,
+      "duration": 7.6,
+      "text": "involved i think those areas I would say uh trust is extremely important yeah i",
+      "timestamp": "03:23"
+    },
+    {
+      "start": 210.64,
+      "duration": 5.519,
+      "text": "would you know uh move over to to Joe i mean you know first of all I just wanted",
+      "timestamp": "03:30"
+    },
+    {
+      "start": 216.159,
+      "duration": 5.521,
+      "text": "to thank for you know people that work in in causes of for good i mean Joe here",
+      "timestamp": "03:36"
+    },
+    {
+      "start": 221.68,
+      "duration": 6.4,
+      "text": "we're talking backstage and you know someone that worked in Kosovo and in many other you know regions throughout",
+      "timestamp": "03:41"
+    },
+    {
+      "start": 228.08,
+      "duration": 6.239,
+      "text": "the world uh that needed help and where trust in someone like United Nations uh",
+      "timestamp": "03:48"
+    },
+    {
+      "start": 234.319,
+      "duration": 6.961,
+      "text": "it's really important right so how do you look at it from a national international and especially something",
+      "timestamp": "03:54"
+    },
+    {
+      "start": 241.28,
+      "duration": 7.12,
+      "text": "we were talking about that is you know as coming from a developing country is very close to me we don't want to leave",
+      "timestamp": "04:01"
+    },
+    {
+      "start": 248.4,
+      "duration": 7.839,
+      "text": "anyone behind in this new revolution right can you elaborate in in those things\n uh thanks N I mean what a great",
+      "timestamp": "04:08"
+    },
+    {
+      "start": 256.239,
+      "duration": 6.561,
+      "text": "question how do we not leave anyone behind especially when we're talking about trust I think we have to recognize that we're",
+      "timestamp": "04:16"
+    },
+    {
+      "start": 262.8,
+      "duration": 7.119,
+      "text": "really in a formative moment around the discussions on governance coordination around AI and AI safety and trust and",
+      "timestamp": "04:22"
+    },
+    {
+      "start": 269.919,
+      "duration": 5.121,
+      "text": "those mechanisms there's multilateral mechanisms UN OECD at the regional level",
+      "timestamp": "04:29"
+    },
+    {
+      "start": 275.04,
+      "duration": 7.12,
+      "text": "you see a lot of good work as well a lot of interesting discussions but what I also see and what really concerns me the",
+      "timestamp": "04:35"
+    },
+    {
+      "start": 282.16,
+      "duration": 5.039,
+      "text": "most about this movement I would say is what's happening to these countries as",
+      "timestamp": "04:42"
+    },
+    {
+      "start": 287.199,
+      "duration": 7.921,
+      "text": "they try to navigate these this polarization east versus west we know that one right\n public versus private",
+      "timestamp": "04:47"
+    },
+    {
+      "start": 295.12,
+      "duration": 5.12,
+      "text": "Where is the regulation the accountability assurance going to lie is it going to be a public sectordriven",
+      "timestamp": "04:55"
+    },
+    {
+      "start": 300.24,
+      "duration": 6.88,
+      "text": "model or private sector and then within that north versus south broadly speaking developed versus developing countries",
+      "timestamp": "05:00"
+    },
+    {
+      "start": 307.12,
+      "duration": 5.84,
+      "text": "and it's not just around access to the technology and that's a cost issue it's",
+      "timestamp": "05:07"
+    },
+    {
+      "start": 312.96,
+      "duration": 6.079,
+      "text": "the capacity to use that it's the institutional strength in developing countries to determine their own course",
+      "timestamp": "05:12"
+    },
+    {
+      "start": 319.039,
+      "duration": 7.44,
+      "text": "of action whether they're rule takers or rule makers it's a very very complex world out there for them but what I do",
+      "timestamp": "05:19"
+    },
+    {
+      "start": 326.479,
+      "duration": 5.921,
+      "text": "see though is a lot of potential and a lot of I would say agility many people",
+      "timestamp": "05:26"
+    },
+    {
+      "start": 332.4,
+      "duration": 5.84,
+      "text": "look at this as a question of have or have not and that's not correct developing countries have a lot of",
+      "timestamp": "05:32"
+    },
+    {
+      "start": 338.24,
+      "duration": 5.2,
+      "text": "assets which I think they can leverage in this space young populations that",
+      "timestamp": "05:38"
+    },
+    {
+      "start": 343.44,
+      "duration": 5.12,
+      "text": "have been exposed to and utilizing technology from very early on you see a",
+      "timestamp": "05:43"
+    },
+    {
+      "start": 348.56,
+      "duration": 7.359,
+      "text": "lot of investment that has gone into their education systems that's a massive asset uh I think access to the resources",
+      "timestamp": "05:48"
+    },
+    {
+      "start": 355.919,
+      "duration": 5.601,
+      "text": "needed the electricity to establish data centers the natural resources necessary",
+      "timestamp": "05:55"
+    },
+    {
+      "start": 361.52,
+      "duration": 6.08,
+      "text": "to build the foundations uh of course not saying that they don't have barriers data availability and structuring",
+      "timestamp": "06:01"
+    },
+    {
+      "start": 367.6,
+      "duration": 5.439,
+      "text": "quality is one of them but I view this in with a lens of hope i do think that there's assets there that they can",
+      "timestamp": "06:07"
+    },
+    {
+      "start": 373.039,
+      "duration": 6.481,
+      "text": "leverage and utilize as long as they're part of the discussion\n so you believe no one's going to be left behind or\n I'm not",
+      "timestamp": "06:13"
+    },
+    {
+      "start": 379.52,
+      "duration": 5.04,
+      "text": "that naive so so on on on on that of you know real",
+      "timestamp": "06:19"
+    },
+    {
+      "start": 384.56,
+      "duration": 7.199,
+      "text": "world and how is this technology that we're all building together you know impacting out there um I would you know",
+      "timestamp": "06:24"
+    },
+    {
+      "start": 391.759,
+      "duration": 6.0,
+      "text": "for for both Dr ch and Angela um real world examples where you know in your",
+      "timestamp": "06:31"
+    },
+    {
+      "start": 397.759,
+      "duration": 6.72,
+      "text": "research healthcare financial services where you see the application",
+      "timestamp": "06:37"
+    },
+    {
+      "start": 404.479,
+      "duration": 7.361,
+      "text": "of a trust framework working but also not working Dr she I'll start with you",
+      "timestamp": "06:44"
+    },
+    {
+      "start": 411.84,
+      "duration": 9.199,
+      "text": "okay i think we asked about trust uh I better ask you a question first",
+      "timestamp": "06:51"
+    },
+    {
+      "start": 421.039,
+      "duration": 6.321,
+      "text": "why do you want to ask this question what do you really want and why is so",
+      "timestamp": "07:01"
+    },
+    {
+      "start": 427.36,
+      "duration": 5.52,
+      "text": "important because apparently there's no context",
+      "timestamp": "07:07"
+    },
+    {
+      "start": 432.88,
+      "duration": 6.24,
+      "text": "just like can you trust me yes get a cup of coffee you can trust me you give me",
+      "timestamp": "07:12"
+    },
+    {
+      "start": 439.12,
+      "duration": 9.12,
+      "text": "the $10 billion cash and then you go away can you trust me no okay so the",
+      "timestamp": "07:19"
+    },
+    {
+      "start": 448.24,
+      "duration": 8.079,
+      "text": "uh a lot of time I think at this particular moment okay we are also have the Singapore AI safety institute",
+      "timestamp": "07:28"
+    },
+    {
+      "start": 456.319,
+      "duration": 7.28,
+      "text": "so when we talk about trust a lot of time we talk about trust from the viewpoint of a developer so I develop a",
+      "timestamp": "07:36"
+    },
+    {
+      "start": 463.599,
+      "duration": 6.641,
+      "text": "software I develop a I mean a platform so you should trust okay so I say you",
+      "timestamp": "07:43"
+    },
+    {
+      "start": 470.24,
+      "duration": 5.519,
+      "text": "should whether you really trust or not don't know okay but from your viewpoint",
+      "timestamp": "07:50"
+    },
+    {
+      "start": 475.759,
+      "duration": 5.601,
+      "text": "from the end user viewpoint then why you want to ask this particular",
+      "timestamp": "07:55"
+    },
+    {
+      "start": 481.36,
+      "duration": 5.119,
+      "text": "question because you are taking some risk so",
+      "timestamp": "08:01"
+    },
+    {
+      "start": 486.479,
+      "duration": 5.681,
+      "text": "are you willing to take the risk now this is interesting because",
+      "timestamp": "08:06"
+    },
+    {
+      "start": 492.16,
+      "duration": 5.52,
+      "text": "uh if you want to ask the I want to lower",
+      "timestamp": "08:12"
+    },
+    {
+      "start": 497.68,
+      "duration": 7.199,
+      "text": "my risk technology is one aspect I think function as it is but there are",
+      "timestamp": "08:17"
+    },
+    {
+      "start": 504.879,
+      "duration": 6.0,
+      "text": "many others that you forget for example if someone guaranteed that",
+      "timestamp": "08:24"
+    },
+    {
+      "start": 510.879,
+      "duration": 7.04,
+      "text": "anything is wrong I pay you 10 million cash do you trust you trust okay that",
+      "timestamp": "08:30"
+    },
+    {
+      "start": 517.919,
+      "duration": 6.961,
+      "text": "means There are much more dimension that you may want to focus and as a matter of",
+      "timestamp": "08:37"
+    },
+    {
+      "start": 524.88,
+      "duration": 6.32,
+      "text": "fact those dimension are more important then you understand the internal working",
+      "timestamp": "08:44"
+    },
+    {
+      "start": 531.2,
+      "duration": 6.0,
+      "text": "of this particular equipment i mean I give you an example",
+      "timestamp": "08:51"
+    },
+    {
+      "start": 537.2,
+      "duration": 5.28,
+      "text": "uh healthcare okay healthcare",
+      "timestamp": "08:57"
+    },
+    {
+      "start": 542.48,
+      "duration": 7.76,
+      "text": "uh I think about two weeks ago I was in Shanghai okay I rushed to Shanghai uh",
+      "timestamp": "09:02"
+    },
+    {
+      "start": 550.24,
+      "duration": 7.2,
+      "text": "one of my immediate family um he got",
+      "timestamp": "09:10"
+    },
+    {
+      "start": 557.44,
+      "duration": 8.16,
+      "text": "the stroke about a year ago\n mhm so then uh when he was rushed to the",
+      "timestamp": "09:17"
+    },
+    {
+      "start": 565.6,
+      "duration": 7.76,
+      "text": "hospital then you know that hospital has a set of rules sky knife that you can trust okay",
+      "timestamp": "09:25"
+    },
+    {
+      "start": 573.36,
+      "duration": 5.44,
+      "text": "and and then to do operation so you need to have the close relative to sign",
+      "timestamp": "09:33"
+    },
+    {
+      "start": 578.8,
+      "duration": 7.12,
+      "text": "without signing the hospital is not allowed to do the operation",
+      "timestamp": "09:38"
+    },
+    {
+      "start": 585.92,
+      "duration": 5.2,
+      "text": "so it takes six hours to finish this particular process",
+      "timestamp": "09:45"
+    },
+    {
+      "start": 591.12,
+      "duration": 6.88,
+      "text": "whoa\n okay then after that the recovery is not that good so his immediate family",
+      "timestamp": "09:51"
+    },
+    {
+      "start": 598.0,
+      "duration": 6.72,
+      "text": "want to show the come want to show the hospital then",
+      "timestamp": "09:58"
+    },
+    {
+      "start": 604.72,
+      "duration": 5.76,
+      "text": "what should we do okay so we see that the hospital all the equipment doctor",
+      "timestamp": "10:04"
+    },
+    {
+      "start": 610.48,
+      "duration": 6.4,
+      "text": "certified everything perfect but then who is taking up the accountability this",
+      "timestamp": "10:10"
+    },
+    {
+      "start": 616.88,
+      "duration": 5.44,
+      "text": "is why I say what do you why do you want to ask this particular question if you",
+      "timestamp": "10:16"
+    },
+    {
+      "start": 622.32,
+      "duration": 5.199,
+      "text": "are asking from the user viewpoint you better understand what you want to get",
+      "timestamp": "10:22"
+    },
+    {
+      "start": 627.519,
+      "duration": 6.161,
+      "text": "out from that one\n mhm\n and then from that one actually",
+      "timestamp": "10:27"
+    },
+    {
+      "start": 633.68,
+      "duration": 6.64,
+      "text": "um I mean I always say uh technology people like to say whatever he like to",
+      "timestamp": "10:33"
+    },
+    {
+      "start": 640.32,
+      "duration": 5.12,
+      "text": "say okay but then",
+      "timestamp": "10:40"
+    },
+    {
+      "start": 645.44,
+      "duration": 6.88,
+      "text": "uh from the viewpoint of the of the end user I think we need to sit back and",
+      "timestamp": "10:45"
+    },
+    {
+      "start": 652.32,
+      "duration": 7.199,
+      "text": "then to rethink what we mean by AI trust AI safety and so on because you are",
+      "timestamp": "10:52"
+    },
+    {
+      "start": 659.519,
+      "duration": 5.281,
+      "text": "asking actually different question different question",
+      "timestamp": "10:59"
+    },
+    {
+      "start": 664.8,
+      "duration": 6.479,
+      "text": "angela any like to add yeah I think I just want to to to share a little bit on",
+      "timestamp": "11:04"
+    },
+    {
+      "start": 671.279,
+      "duration": 6.881,
+      "text": "the fact that uh today the trust uh of the AI system can be eroded sometimes or",
+      "timestamp": "11:11"
+    },
+    {
+      "start": 678.16,
+      "duration": 7.2,
+      "text": "it's either due to the AI product is not developed very well\n or due to adversarial attacks so there are two two",
+      "timestamp": "11:18"
+    },
+    {
+      "start": 685.36,
+      "duration": 5.76,
+      "text": "ways right i I have to mention if you if you allow me you know just even yesterday as I was walking the the floor",
+      "timestamp": "11:25"
+    },
+    {
+      "start": 691.12,
+      "duration": 5.76,
+      "text": "show the show floor and and I hope you know the people the developers out there don't don't take me the wrong way you",
+      "timestamp": "11:31"
+    },
+    {
+      "start": 696.88,
+      "duration": 5.12,
+      "text": "know there was a lot of focus on I can enable this I can enable that and you",
+      "timestamp": "11:36"
+    },
+    {
+      "start": 702.0,
+      "duration": 6.399,
+      "text": "know the same way as any developer out there you know and I see it certainly in the developers in my company you might",
+      "timestamp": "11:42"
+    },
+    {
+      "start": 708.399,
+      "duration": 5.361,
+      "text": "have a policy to use this AI tool or this or this you know development uh uh",
+      "timestamp": "11:48"
+    },
+    {
+      "start": 713.76,
+      "duration": 6.16,
+      "text": "helper everything what I do know is for a fact is that they'll go and do whatever they want you know the you know",
+      "timestamp": "11:53"
+    },
+    {
+      "start": 719.92,
+      "duration": 5.12,
+      "text": "even though you have corporate uh let's say policy on something and yesterday",
+      "timestamp": "11:59"
+    },
+    {
+      "start": 725.04,
+      "duration": 7.359,
+      "text": "out there the development in the demos I've seen it was exactly that you know developers were you know and all the",
+      "timestamp": "12:05"
+    },
+    {
+      "start": 732.399,
+      "duration": 8.721,
+      "text": "demos I've seen were still at a very basic level of people are building stuff",
+      "timestamp": "12:12"
+    },
+    {
+      "start": 741.12,
+      "duration": 8.48,
+      "text": "uh probably the level of care to the point you know where healthcare has been to responsibility safety uh it's not yet",
+      "timestamp": "12:21"
+    },
+    {
+      "start": 749.6,
+      "duration": 6.96,
+      "text": "there so yeah I totally agree with you yeah I think that is uh the question here right uh uh I totally agree with",
+      "timestamp": "12:29"
+    },
+    {
+      "start": 756.56,
+      "duration": 6.48,
+      "text": "you as well um so in the healthcare I mean we know that uh we are increasingly relying on chatbot all right which is",
+      "timestamp": "12:36"
+    },
+    {
+      "start": 763.04,
+      "duration": 5.52,
+      "text": "supposed to take away the load of uh the the hospital staff and uh so but the",
+      "timestamp": "12:43"
+    },
+    {
+      "start": 768.56,
+      "duration": 6.16,
+      "text": "thing is that we have to be very very careful here because like just a few years ago there was this chatbot I think",
+      "timestamp": "12:48"
+    },
+    {
+      "start": 774.72,
+      "duration": 7.04,
+      "text": "it's called Tesla is in US where it's supposed to give some advice on people with eating disorders but uh it's sort",
+      "timestamp": "12:54"
+    },
+    {
+      "start": 781.76,
+      "duration": 6.24,
+      "text": "of like uh it wasn't really trained that well is giving harmful advices so when incidents like that happen you can",
+      "timestamp": "13:01"
+    },
+    {
+      "start": 788.0,
+      "duration": 7.2,
+      "text": "imagine that uh they have to quickly put a stop to it because the harm is already done by giving false advices uh so",
+      "timestamp": "13:08"
+    },
+    {
+      "start": 795.2,
+      "duration": 6.079,
+      "text": "that's why I say healthcare is very important and for finance sectors I think the problem is there are a lot of",
+      "timestamp": "13:15"
+    },
+    {
+      "start": 801.279,
+      "duration": 5.12,
+      "text": "uh incidents of adversary attacks scams right uh you know people are being",
+      "timestamp": "13:21"
+    },
+    {
+      "start": 806.399,
+      "duration": 6.88,
+      "text": "spooked to imagine the video conference was real\n I think the case in points in Hong Kong you know where where they the",
+      "timestamp": "13:26"
+    },
+    {
+      "start": 813.279,
+      "duration": 5.921,
+      "text": "staff thought that the CFO had a video conference with him and asked for money and he actually thought it's real this",
+      "timestamp": "13:33"
+    },
+    {
+      "start": 819.2,
+      "duration": 5.12,
+      "text": "is a result of adversarial attacks um and also the failure of the companies",
+      "timestamp": "13:39"
+    },
+    {
+      "start": 824.32,
+      "duration": 6.0,
+      "text": "system maybe to sort of authenticate or you know sort of like identify this threat early enough i think these are",
+      "timestamp": "13:44"
+    },
+    {
+      "start": 830.32,
+      "duration": 5.519,
+      "text": "the two two main points\n and what I see absolutely and what I see out there is people actually incorporating in their",
+      "timestamp": "13:50"
+    },
+    {
+      "start": 835.839,
+      "duration": 7.521,
+      "text": "training and development method labs how do you deal with impersonation you know CEO impersonation CFO impersonation in",
+      "timestamp": "13:55"
+    },
+    {
+      "start": 843.36,
+      "duration": 6.159,
+      "text": "all these organizations so on this on this topic of safety Joe um",
+      "timestamp": "14:03"
+    },
+    {
+      "start": 849.519,
+      "duration": 5.921,
+      "text": "you know AI safety it's from the way I see it a lot of it is the way we behave",
+      "timestamp": "14:09"
+    },
+    {
+      "start": 855.44,
+      "duration": 5.759,
+      "text": "as humans and kind of like how do we build these systems but there's also the way they're developed and validated i",
+      "timestamp": "14:15"
+    },
+    {
+      "start": 861.199,
+      "duration": 5.601,
+      "text": "mean what do you see out there because you travel the real world i mean we're just giving you just giving me an",
+      "timestamp": "14:21"
+    },
+    {
+      "start": 866.8,
+      "duration": 5.279,
+      "text": "example backstage on Kenya and stuff like that i mean do you see progress being made i mean you're a positive",
+      "timestamp": "14:26"
+    },
+    {
+      "start": 872.079,
+      "duration": 5.44,
+      "text": "person so tell me about that uh I think really that's sort of in the",
+      "timestamp": "14:32"
+    },
+    {
+      "start": 877.519,
+      "duration": 5.521,
+      "text": "eye of the beholder is progress being made i am an optimist i do see progress being made in that these types of",
+      "timestamp": "14:37"
+    },
+    {
+      "start": 883.04,
+      "duration": 5.2,
+      "text": "discussions actually are happening and we're starting to get into the granularity and the complexity of what",
+      "timestamp": "14:43"
+    },
+    {
+      "start": 888.24,
+      "duration": 5.839,
+      "text": "trust and safety actually means and I see those discussions happening in different places because it's inherently",
+      "timestamp": "14:48"
+    },
+    {
+      "start": 894.079,
+      "duration": 6.32,
+      "text": "subjective and it's inherently culturally specific about how trust and safety is imbued and that's picking up",
+      "timestamp": "14:54"
+    },
+    {
+      "start": 900.399,
+      "duration": 6.56,
+      "text": "on what Prof was saying earlier and I think there's also a shift I'm seeing in in many of the countries saying why are",
+      "timestamp": "15:00"
+    },
+    {
+      "start": 906.959,
+      "duration": 5.841,
+      "text": "we starting from a point of zero when we have systems in place to manage some of",
+      "timestamp": "15:06"
+    },
+    {
+      "start": 912.8,
+      "duration": 6.399,
+      "text": "these questions already you know tortas-based systems or compensation based systems in the medical malpractice",
+      "timestamp": "15:12"
+    },
+    {
+      "start": 919.199,
+      "duration": 7.281,
+      "text": "field they exist and countries are saying really why don't we start from examining how those systems can work",
+      "timestamp": "15:19"
+    },
+    {
+      "start": 926.48,
+      "duration": 6.64,
+      "text": "visav this technology so there's an element of pragmatism\n yeah one of the things I would recommend to the developers in the that we do in our own",
+      "timestamp": "15:26"
+    },
+    {
+      "start": 933.12,
+      "duration": 6.0,
+      "text": "company is you know we mimic the hypocratic oath right which is something that in medicine it's been there for",
+      "timestamp": "15:33"
+    },
+    {
+      "start": 939.12,
+      "duration": 6.719,
+      "text": "quite some time is ext a very simple set of principles on which you should abide",
+      "timestamp": "15:39"
+    },
+    {
+      "start": 945.839,
+      "duration": 6.961,
+      "text": "every doctor you know abides by right is that what you're referring to or mimicking certain types of systems\n I",
+      "timestamp": "15:45"
+    },
+    {
+      "start": 952.8,
+      "duration": 5.76,
+      "text": "think that but you also have of course different accountability mechanisms for when something goes wrong in in many",
+      "timestamp": "15:52"
+    },
+    {
+      "start": 958.56,
+      "duration": 5.199,
+      "text": "countries these have existed for a long time So if you're in the US and a",
+      "timestamp": "15:58"
+    },
+    {
+      "start": 963.759,
+      "duration": 5.361,
+      "text": "medical practice goes wrong medical procedure goes wrong there's a TOR-based system for which you can then seek",
+      "timestamp": "16:03"
+    },
+    {
+      "start": 969.12,
+      "duration": 6.56,
+      "text": "redress in the EU it's a no fault compensation model and you can seek redress through that so these these are",
+      "timestamp": "16:09"
+    },
+    {
+      "start": 975.68,
+      "duration": 6.64,
+      "text": "established systems in the developing countries largely because of history similar models exist and that's the",
+      "timestamp": "16:15"
+    },
+    {
+      "start": 982.32,
+      "duration": 5.84,
+      "text": "starting point I think for many of them saying why don't I start from where I am now and rather than focus specifically",
+      "timestamp": "16:22"
+    },
+    {
+      "start": 988.16,
+      "duration": 6.479,
+      "text": "on setting up something completely for the technology in absence of a sectoral application why don't we look at it from",
+      "timestamp": "16:28"
+    },
+    {
+      "start": 994.639,
+      "duration": 6.241,
+      "text": "another perspective we already have this system what are the risks or perceptions of risk that are going to be imbued or",
+      "timestamp": "16:34"
+    },
+    {
+      "start": 1000.88,
+      "duration": 5.36,
+      "text": "enhanced by this technology and start from that point and\n you know that that actually made me think will we see",
+      "timestamp": "16:40"
+    },
+    {
+      "start": 1006.24,
+      "duration": 6.959,
+      "text": "anytime soon an AI system being sued for everyone",
+      "timestamp": "16:46"
+    },
+    {
+      "start": 1013.199,
+      "duration": 9.601,
+      "text": "uh I completely agree with Joe uh when we talk about the trust or safety",
+      "timestamp": "16:53"
+    },
+    {
+      "start": 1022.8,
+      "duration": 7.758,
+      "text": "and so on in depending of what technology you are using whether it's AI or AI actually",
+      "timestamp": "17:02"
+    },
+    {
+      "start": 1030.559,
+      "duration": 5.359,
+      "text": "uh if you want to focus on the outcome I mean I said it depend on what you are",
+      "timestamp": "17:10"
+    },
+    {
+      "start": 1035.919,
+      "duration": 6.321,
+      "text": "asking\n mhm so if I'm talking about the risk let's say in the healthcare sector",
+      "timestamp": "17:15"
+    },
+    {
+      "start": 1042.24,
+      "duration": 8.88,
+      "text": "the patient so there are already rules guid principle protocol that",
+      "timestamp": "17:22"
+    },
+    {
+      "start": 1051.12,
+      "duration": 9.2,
+      "text": "people agree it's not perfect but is accepted by the community okay so",
+      "timestamp": "17:31"
+    },
+    {
+      "start": 1060.32,
+      "duration": 7.92,
+      "text": "I think it will be extremely critical for AI people to understand what has",
+      "timestamp": "17:40"
+    },
+    {
+      "start": 1068.24,
+      "duration": 7.04,
+      "text": "been accepted to start with then after that I always say two question okay question number",
+      "timestamp": "17:48"
+    },
+    {
+      "start": 1075.28,
+      "duration": 8.32,
+      "text": "one you say AI is powerful how can this powerful AI help to fulfill",
+      "timestamp": "17:55"
+    },
+    {
+      "start": 1083.6,
+      "duration": 6.8,
+      "text": "the requirement that I accept okay you can do faster you can do it smartly you",
+      "timestamp": "18:03"
+    },
+    {
+      "start": 1090.4,
+      "duration": 5.12,
+      "text": "can do it collaboratively and so on second question",
+      "timestamp": "18:10"
+    },
+    {
+      "start": 1095.52,
+      "duration": 6.399,
+      "text": "you can propose let's say this is the existent um safety",
+      "timestamp": "18:15"
+    },
+    {
+      "start": 1101.919,
+      "duration": 6.561,
+      "text": "or the trust framework is there I mean with new technology no matter this AI",
+      "timestamp": "18:21"
+    },
+    {
+      "start": 1108.48,
+      "duration": 6.64,
+      "text": "not AI the community will regularly revision",
+      "timestamp": "18:28"
+    },
+    {
+      "start": 1115.12,
+      "duration": 7.6,
+      "text": "okay whether this set of guideline rules should be updated or not so I think this",
+      "timestamp": "18:35"
+    },
+    {
+      "start": 1122.72,
+      "duration": 6.24,
+      "text": "is a more practical approach to the so-called AI trust",
+      "timestamp": "18:42"
+    },
+    {
+      "start": 1128.96,
+      "duration": 6.32,
+      "text": "okay so I'm a developer let's assume that right and you know I hear all this",
+      "timestamp": "18:48"
+    },
+    {
+      "start": 1135.28,
+      "duration": 5.12,
+      "text": "stuff talking about trust but I have to ship a product and I have a deadline to get it done you know like all the",
+      "timestamp": "18:55"
+    },
+    {
+      "start": 1140.4,
+      "duration": 6.24,
+      "text": "startups here trying to you know survive define a market i got to get the product out because otherwise you know I don't",
+      "timestamp": "19:00"
+    },
+    {
+      "start": 1146.64,
+      "duration": 7.68,
+      "text": "have a business um so it's all about you know performance of my product you know speed to market and transparency or you",
+      "timestamp": "19:06"
+    },
+    {
+      "start": 1154.32,
+      "duration": 5.359,
+      "text": "know trust in whatever model I'm building um",
+      "timestamp": "19:14"
+    },
+    {
+      "start": 1159.679,
+      "duration": 6.321,
+      "text": "let's start with with Angela i mean if you have to drop if I'm a developer software company and if you have to drop",
+      "timestamp": "19:19"
+    },
+    {
+      "start": 1166.0,
+      "duration": 6.4,
+      "text": "any of these to ship a product tomorrow what kind of tradeoff should the audience make i mean if if you know",
+      "timestamp": "19:26"
+    },
+    {
+      "start": 1172.4,
+      "duration": 5.2,
+      "text": "because it's easy for us to say oh you have to build systems that are trustworthy and all that but I have to",
+      "timestamp": "19:32"
+    },
+    {
+      "start": 1177.6,
+      "duration": 6.16,
+      "text": "ship a product how what would I drop from between transparency trust or",
+      "timestamp": "19:37"
+    },
+    {
+      "start": 1183.76,
+      "duration": 6.36,
+      "text": "performance h wow",
+      "timestamp": "19:43"
+    },
+    {
+      "start": 1190.16,
+      "duration": 5.04,
+      "text": "well I I think it depends on the intended use of the AI product\n mhm if",
+      "timestamp": "19:50"
+    },
+    {
+      "start": 1195.2,
+      "duration": 9.28,
+      "text": "it's something very for for very critical outcomes i I don't think you should drop any of that i mean to me I I",
+      "timestamp": "19:55"
+    },
+    {
+      "start": 1204.48,
+      "duration": 5.04,
+      "text": "feel that um some of the ways to make sure your AI model works and is",
+      "timestamp": "20:04"
+    },
+    {
+      "start": 1209.52,
+      "duration": 6.72,
+      "text": "trustworthy or trust uh can deliver what it's supposed to do it's really the accuracy of the model and just now you",
+      "timestamp": "20:09"
+    },
+    {
+      "start": 1216.24,
+      "duration": 7.36,
+      "text": "use the word transparency right uh could could you explain or there's explanability factor there that means we",
+      "timestamp": "20:16"
+    },
+    {
+      "start": 1223.6,
+      "duration": 6.64,
+      "text": "understand how and why the AI makes certain decision in this way so the developers has to understand that very",
+      "timestamp": "20:23"
+    },
+    {
+      "start": 1230.24,
+      "duration": 7.439,
+      "text": "clearly uh it cannot be a guess work uh and accuracy level of the AI systems needs to be really really very high as",
+      "timestamp": "20:30"
+    },
+    {
+      "start": 1237.679,
+      "duration": 6.321,
+      "text": "high as you can to a certain level that you feel that's acceptable for that use case uh before you roll it out I think",
+      "timestamp": "20:37"
+    },
+    {
+      "start": 1244.0,
+      "duration": 7.36,
+      "text": "that one is no compromise and I think just when we were talking I I thought of this point about you know uh the",
+      "timestamp": "20:44"
+    },
+    {
+      "start": 1251.36,
+      "duration": 6.64,
+      "text": "developers always think that what they've done is the best and they have superb confidence in it uh how about",
+      "timestamp": "20:51"
+    },
+    {
+      "start": 1258.0,
+      "duration": 6.72,
+      "text": "having a independent team to do a red teaming or you know just to check the quotes right I think this could be some",
+      "timestamp": "20:58"
+    },
+    {
+      "start": 1264.72,
+      "duration": 7.6,
+      "text": "of the the ideas that we might want to think about all right today when we said you said it's trustworthy how do we know",
+      "timestamp": "21:04"
+    },
+    {
+      "start": 1272.32,
+      "duration": 5.04,
+      "text": "uh can we actually test it and prove that it's really working as you said",
+      "timestamp": "21:12"
+    },
+    {
+      "start": 1277.36,
+      "duration": 5.84,
+      "text": "yeah I think these are some of the points I like to share\n Joe what do you want to what do you want to anything I\n I",
+      "timestamp": "21:17"
+    },
+    {
+      "start": 1283.2,
+      "duration": 5.359,
+      "text": "mean I I would almost pity the developer right if it's their choice choice\n only",
+      "timestamp": "21:23"
+    },
+    {
+      "start": 1288.559,
+      "duration": 5.6,
+      "text": "uh on whether to do this or not uh my goodness that they're going to be having some sleepless nights in many",
+      "timestamp": "21:28"
+    },
+    {
+      "start": 1294.159,
+      "duration": 6.161,
+      "text": "jurisdictions I would suspect but I guess that's the matter for me is whose choice who sets these parameters and how",
+      "timestamp": "21:34"
+    },
+    {
+      "start": 1300.32,
+      "duration": 5.12,
+      "text": "do we collectively decide what those trade-offs are based upon the culture",
+      "timestamp": "21:40"
+    },
+    {
+      "start": 1305.44,
+      "duration": 7.76,
+      "text": "the the needs of the country and what's happening and that's why I say it's not the private sector's sole responsibility",
+      "timestamp": "21:45"
+    },
+    {
+      "start": 1313.2,
+      "duration": 6.4,
+      "text": "i don't believe that to be true uh I believe the role of the public sector is critical the role of government is",
+      "timestamp": "21:53"
+    },
+    {
+      "start": 1319.6,
+      "duration": 5.84,
+      "text": "critical uh in this space and I guess to to try to answer your question about who",
+      "timestamp": "21:59"
+    },
+    {
+      "start": 1325.44,
+      "duration": 5.04,
+      "text": "makes those choices\n uh and that is the framework that needs to be examined",
+      "timestamp": "22:05"
+    },
+    {
+      "start": 1330.48,
+      "duration": 6.0,
+      "text": "because I don't believe it should be on the developer to to have to weigh that",
+      "timestamp": "22:10"
+    },
+    {
+      "start": 1336.48,
+      "duration": 7.6,
+      "text": "if they're not provided with those guardrails now again being pragmatic technology is always outpacing regulation there's always this time of",
+      "timestamp": "22:16"
+    },
+    {
+      "start": 1344.08,
+      "duration": 5.44,
+      "text": "uncertainty where there's the a lag behind what we as societies choose and",
+      "timestamp": "22:24"
+    },
+    {
+      "start": 1349.52,
+      "duration": 6.399,
+      "text": "the parameters we establish and where the technology is pushing us and I think at that point it comes down to these",
+      "timestamp": "22:29"
+    },
+    {
+      "start": 1355.919,
+      "duration": 5.281,
+      "text": "discussions on really prioritizing missionritical highest risk versus",
+      "timestamp": "22:35"
+    },
+    {
+      "start": 1361.2,
+      "duration": 5.359,
+      "text": "perhaps something that is of lower risk and again risk in the eye of the beholder in terms of the country in its",
+      "timestamp": "22:41"
+    },
+    {
+      "start": 1366.559,
+      "duration": 6.081,
+      "text": "uh specific context one of the things you you mentioned when we're talking backstage was you know you know the",
+      "timestamp": "22:46"
+    },
+    {
+      "start": 1372.64,
+      "duration": 6.32,
+      "text": "reason why you set up shop here was to export some of the best practices you",
+      "timestamp": "22:52"
+    },
+    {
+      "start": 1378.96,
+      "duration": 5.36,
+      "text": "see happening here in Singapore due to the you know sophistication of government the kind of you know the",
+      "timestamp": "22:58"
+    },
+    {
+      "start": 1384.32,
+      "duration": 7.52,
+      "text": "approach they they go about it so and you talk about the role of regulation and governments you know with together",
+      "timestamp": "23:04"
+    },
+    {
+      "start": 1391.84,
+      "duration": 6.48,
+      "text": "with the private sector so what do you think should be should it be like you know as Dr she was saying in some areas",
+      "timestamp": "23:11"
+    },
+    {
+      "start": 1398.32,
+      "duration": 6.96,
+      "text": "where you know for you to deploy a certain system you have to pass a set of regulation tests you know Europe you",
+      "timestamp": "23:18"
+    },
+    {
+      "start": 1405.28,
+      "duration": 6.16,
+      "text": "know I'm European I think I can say that we're we're proal at everything that is overregulated and you know but there are",
+      "timestamp": "23:25"
+    },
+    {
+      "start": 1411.44,
+      "duration": 5.04,
+      "text": "some good things that come out of it what's your take of you know regulation",
+      "timestamp": "23:31"
+    },
+    {
+      "start": 1416.48,
+      "duration": 7.36,
+      "text": "uh and let's call it assurance in a way and and what what should governments or",
+      "timestamp": "23:36"
+    },
+    {
+      "start": 1423.84,
+      "duration": 7.839,
+      "text": "regulators do and the fine line between imposing and letting the market play",
+      "timestamp": "23:43"
+    },
+    {
+      "start": 1431.679,
+      "duration": 5.761,
+      "text": "i mean the the joy I have about being in Singapore is that I do get to revel in this ecosystem and one thing that's",
+      "timestamp": "23:51"
+    },
+    {
+      "start": 1437.44,
+      "duration": 7.84,
+      "text": "always struck me about Singapore is the pragmatism\n that's present here testing trying didn't work move on and learn",
+      "timestamp": "23:57"
+    },
+    {
+      "start": 1445.28,
+      "duration": 6.399,
+      "text": "there's something to be said about that approach especially in a rapidly evolving uh technological context that I",
+      "timestamp": "24:05"
+    },
+    {
+      "start": 1451.679,
+      "duration": 6.0,
+      "text": "find you know quite it's quite unique in many ways but I think there's a lot of lessons to be learned there across",
+      "timestamp": "24:11"
+    },
+    {
+      "start": 1457.679,
+      "duration": 5.12,
+      "text": "multiple sectors here in Singapore I see very active communities of public",
+      "timestamp": "24:17"
+    },
+    {
+      "start": 1462.799,
+      "duration": 5.441,
+      "text": "private academia working as holistic ecosystems asking these questions and",
+      "timestamp": "24:22"
+    },
+    {
+      "start": 1468.24,
+      "duration": 6.72,
+      "text": "asking them openly and exploring give me an example give me an example of one\n on the in the health side so they have AI",
+      "timestamp": "24:28"
+    },
+    {
+      "start": 1474.96,
+      "duration": 6.959,
+      "text": "and health guidelines here in Singapore that were very much a collective uh product there was a declaration that",
+      "timestamp": "24:34"
+    },
+    {
+      "start": 1481.919,
+      "duration": 6.961,
+      "text": "came out a month ago uh of bottom-up research from around the world issued by Singapore discussing some of these",
+      "timestamp": "24:41"
+    },
+    {
+      "start": 1488.88,
+      "duration": 5.039,
+      "text": "elements in the legal sector singapore is looking at AI use in the judiciary",
+      "timestamp": "24:48"
+    },
+    {
+      "start": 1493.919,
+      "duration": 6.561,
+      "text": "when do you need a lawyer in the loop when do you not at what extent can you trust that there's this type of",
+      "timestamp": "24:53"
+    },
+    {
+      "start": 1500.48,
+      "duration": 6.799,
+      "text": "pragmatism in Singapore I think bodess well because it shows how you can bring together different aspects of your",
+      "timestamp": "25:00"
+    },
+    {
+      "start": 1507.279,
+      "duration": 5.361,
+      "text": "society to have very open conversations and to iterative iteratively build the",
+      "timestamp": "25:07"
+    },
+    {
+      "start": 1512.64,
+      "duration": 5.519,
+      "text": "regulation and the policy as you learn and as you apply and I find that",
+      "timestamp": "25:12"
+    },
+    {
+      "start": 1518.159,
+      "duration": 6.4,
+      "text": "approach very very powerful and I know that's also something maybe unique to Singapore but I think there's lessons",
+      "timestamp": "25:18"
+    },
+    {
+      "start": 1524.559,
+      "duration": 6.081,
+      "text": "that we can learn from it certainly that we are learning as the UN development program awesome anything you you want to",
+      "timestamp": "25:24"
+    },
+    {
+      "start": 1530.64,
+      "duration": 7.2,
+      "text": "add on this\n i think uh there is something basic that we need to",
+      "timestamp": "25:30"
+    },
+    {
+      "start": 1537.84,
+      "duration": 6.64,
+      "text": "offer two things number one is the transparency\n mhm\n that means before you",
+      "timestamp": "25:37"
+    },
+    {
+      "start": 1544.48,
+      "duration": 7.439,
+      "text": "make any decision things need to belong to you okay i think this apply to all the sectors",
+      "timestamp": "25:44"
+    },
+    {
+      "start": 1551.919,
+      "duration": 6.161,
+      "text": "let's say the financial investment they need to let you know what are the terms",
+      "timestamp": "25:51"
+    },
+    {
+      "start": 1558.08,
+      "duration": 6.4,
+      "text": "condition consequence and so on so transparency is the number one",
+      "timestamp": "25:58"
+    },
+    {
+      "start": 1564.48,
+      "duration": 6.96,
+      "text": "then you want people don't get confused on many things so you want to say I want",
+      "timestamp": "26:04"
+    },
+    {
+      "start": 1571.44,
+      "duration": 6.16,
+      "text": "to so control the quality okay so you do different kind of testing say that this",
+      "timestamp": "26:11"
+    },
+    {
+      "start": 1577.6,
+      "duration": 6.88,
+      "text": "is good this is not good and so on okay but this is only the starting this not the end and this not your end result",
+      "timestamp": "26:17"
+    },
+    {
+      "start": 1584.48,
+      "duration": 5.12,
+      "text": "your end result is always your risk and your cause",
+      "timestamp": "26:24"
+    },
+    {
+      "start": 1589.6,
+      "duration": 5.199,
+      "text": "that means after this is transparent after you know that",
+      "timestamp": "26:29"
+    },
+    {
+      "start": 1594.799,
+      "duration": 10.401,
+      "text": "this is what you get okay you need to make a decision for example if if I say um",
+      "timestamp": "26:34"
+    },
+    {
+      "start": 1605.2,
+      "duration": 5.12,
+      "text": "uh this AI system the accuracy 70%",
+      "timestamp": "26:45"
+    },
+    {
+      "start": 1610.32,
+      "duration": 5.28,
+      "text": "then then you say why not 90% of course I want 90% but you ask me for a million",
+      "timestamp": "26:50"
+    },
+    {
+      "start": 1615.6,
+      "duration": 7.28,
+      "text": "dollar I don't have i don't have okay so I think a lot of",
+      "timestamp": "26:55"
+    },
+    {
+      "start": 1622.88,
+      "duration": 8.399,
+      "text": "time this always boils down to the cause and the risk okay and",
+      "timestamp": "27:02"
+    },
+    {
+      "start": 1631.279,
+      "duration": 5.921,
+      "text": "you have I mean if you can help people to understand to following then that is",
+      "timestamp": "27:11"
+    },
+    {
+      "start": 1637.2,
+      "duration": 5.359,
+      "text": "good regulation is important why is important because regulation try to take",
+      "timestamp": "27:17"
+    },
+    {
+      "start": 1642.559,
+      "duration": 6.0,
+      "text": "up the accountability that means like I do this testing if it",
+      "timestamp": "27:22"
+    },
+    {
+      "start": 1648.559,
+      "duration": 5.441,
+      "text": "fails I mean if the accuracy below 70% but I certify that I take up the",
+      "timestamp": "27:28"
+    },
+    {
+      "start": 1654.0,
+      "duration": 6.559,
+      "text": "accountability\n okay so regulation only helps you but still the same at the end",
+      "timestamp": "27:34"
+    },
+    {
+      "start": 1660.559,
+      "duration": 6.48,
+      "text": "of the day you decide you decide because nothing is perfect",
+      "timestamp": "27:40"
+    },
+    {
+      "start": 1667.039,
+      "duration": 7.76,
+      "text": "that that actually takes me to the to the next point which is I call it this fairness narrative right we say oh the",
+      "timestamp": "27:47"
+    },
+    {
+      "start": 1674.799,
+      "duration": 6.801,
+      "text": "systems you know uh should be fair and you know we're talking about fairness as",
+      "timestamp": "27:54"
+    },
+    {
+      "start": 1681.6,
+      "duration": 7.199,
+      "text": "a as a goal when in reality in these systems it should be the floor it should be the minimum um so the question would",
+      "timestamp": "28:01"
+    },
+    {
+      "start": 1688.799,
+      "duration": 6.801,
+      "text": "be you know and talking about this north and south you know differences and and",
+      "timestamp": "28:08"
+    },
+    {
+      "start": 1695.6,
+      "duration": 6.48,
+      "text": "and the fear fear that countries have today that they're going to be left out so shouldn't we be aiming for systems",
+      "timestamp": "28:15"
+    },
+    {
+      "start": 1702.08,
+      "duration": 7.12,
+      "text": "that actually create and foster equity or equality among um all these",
+      "timestamp": "28:22"
+    },
+    {
+      "start": 1709.2,
+      "duration": 7.76,
+      "text": "stakeholders all the people and taking this to an area where we talk about agents and agentic AI and you know that",
+      "timestamp": "28:29"
+    },
+    {
+      "start": 1716.96,
+      "duration": 5.52,
+      "text": "by definition is the replacement end to end of tasks that today are done by",
+      "timestamp": "28:36"
+    },
+    {
+      "start": 1722.48,
+      "duration": 6.16,
+      "text": "humans that actually seems that it's going to get worse before it gets better so Dr",
+      "timestamp": "28:42"
+    },
+    {
+      "start": 1728.64,
+      "duration": 5.36,
+      "text": "angel I mean how do you see people getting comfortable with that trusting",
+      "timestamp": "28:48"
+    },
+    {
+      "start": 1734.0,
+      "duration": 6.88,
+      "text": "those agents where as we are at the beginning of that phase we see companies trying the very examples of you know",
+      "timestamp": "28:54"
+    },
+    {
+      "start": 1740.88,
+      "duration": 5.039,
+      "text": "Clara in Europe that they replaced uh a lot of their their people with agents",
+      "timestamp": "29:00"
+    },
+    {
+      "start": 1745.919,
+      "duration": 6.24,
+      "text": "and they had to roll that back um sales de development representative companies out there so they're they're actually",
+      "timestamp": "29:05"
+    },
+    {
+      "start": 1752.159,
+      "duration": 7.441,
+      "text": "not creating\n equality or equity they're actually taking some of that away how should we balance and trust the systems",
+      "timestamp": "29:12"
+    },
+    {
+      "start": 1759.6,
+      "duration": 6.439,
+      "text": "while we see these experiments going on any thoughts",
+      "timestamp": "29:19"
+    },
+    {
+      "start": 1766.08,
+      "duration": 6.24,
+      "text": "yeah I think when you talk about agent uh uh AI which is uh having the machines",
+      "timestamp": "29:26"
+    },
+    {
+      "start": 1772.32,
+      "duration": 6.56,
+      "text": "uh make decisions on your behalf\n we're talking about a different level of uh autonomy that you've given to the",
+      "timestamp": "29:32"
+    },
+    {
+      "start": 1778.88,
+      "duration": 5.36,
+      "text": "machine which is can be very scary if you don't manage it well\n uh I think like",
+      "timestamp": "29:38"
+    },
+    {
+      "start": 1784.24,
+      "duration": 5.84,
+      "text": "Dr chi said sometimes the weighing of budget versus accuracy you don't have all the time or budget to develop",
+      "timestamp": "29:44"
+    },
+    {
+      "start": 1790.08,
+      "duration": 8.56,
+      "text": "something that's close to 100% m\n and sometimes corporations make certain decisions uh for whatever reasons right",
+      "timestamp": "29:50"
+    },
+    {
+      "start": 1798.64,
+      "duration": 6.399,
+      "text": "um I feel that uh yeah you need to weigh the pros and cons but more importantly",
+      "timestamp": "29:58"
+    },
+    {
+      "start": 1805.039,
+      "duration": 6.0,
+      "text": "can we build in some fail safes you know certain program certain conditions that",
+      "timestamp": "30:05"
+    },
+    {
+      "start": 1811.039,
+      "duration": 5.441,
+      "text": "the machine will never never do things like that uh you know sort of like u",
+      "timestamp": "30:11"
+    },
+    {
+      "start": 1816.48,
+      "duration": 6.4,
+      "text": "called hardcoded into the AI for example if you are giving out uh healthcare",
+      "timestamp": "30:16"
+    },
+    {
+      "start": 1822.88,
+      "duration": 7.039,
+      "text": "advice you just have to tell the machine that look you're not a certified or licensed doctor don't ever say this or",
+      "timestamp": "30:22"
+    },
+    {
+      "start": 1829.919,
+      "duration": 6.321,
+      "text": "don't ever prescribe certain thing or you know I I don't know something along that line so program it that way so that",
+      "timestamp": "30:29"
+    },
+    {
+      "start": 1836.24,
+      "duration": 5.6,
+      "text": "the machine ex I mean the response is sort of guarded within certain boundaries",
+      "timestamp": "30:36"
+    },
+    {
+      "start": 1841.84,
+      "duration": 5.6,
+      "text": "uh then the rest of the errors if it happens they are not that uh uh",
+      "timestamp": "30:41"
+    },
+    {
+      "start": 1847.44,
+      "duration": 5.44,
+      "text": "so-called uh cat uh catastrophic uh yeah so this is to minimize the kind of risk",
+      "timestamp": "30:47"
+    },
+    {
+      "start": 1852.88,
+      "duration": 7.36,
+      "text": "that you you get from deploying such a system\n Joe how do you how do you build on that you know and again as you work",
+      "timestamp": "30:52"
+    },
+    {
+      "start": 1860.24,
+      "duration": 5.2,
+      "text": "throughout the world you see you know the the easiest targets for some of",
+      "timestamp": "31:00"
+    },
+    {
+      "start": 1865.44,
+      "duration": 5.359,
+      "text": "these agents to do is actually replace you know labor in you know lower income",
+      "timestamp": "31:05"
+    },
+    {
+      "start": 1870.799,
+      "duration": 5.6,
+      "text": "or lower um type of countries how are they looking at that and how do they",
+      "timestamp": "31:10"
+    },
+    {
+      "start": 1876.399,
+      "duration": 6.081,
+      "text": "trust that okay AI is going to be an agent for good and these trust frameworks are actually going to enable",
+      "timestamp": "31:16"
+    },
+    {
+      "start": 1882.48,
+      "duration": 6.64,
+      "text": "them to do more as opposed to you know massive unemployment in these countries",
+      "timestamp": "31:22"
+    },
+    {
+      "start": 1889.12,
+      "duration": 6.72,
+      "text": "from a society standpoint um there's been some interesting research we just launched a a global",
+      "timestamp": "31:29"
+    },
+    {
+      "start": 1895.84,
+      "duration": 6.8,
+      "text": "report called it's a matter of choice focusing on human agency and AI because a lot of the countries are having very",
+      "timestamp": "31:35"
+    },
+    {
+      "start": 1902.64,
+      "duration": 5.12,
+      "text": "vibrant discussions developing countries around this specific issue and they are",
+      "timestamp": "31:42"
+    },
+    {
+      "start": 1907.76,
+      "duration": 5.44,
+      "text": "very informed by previous ways of technological change and how that has",
+      "timestamp": "31:47"
+    },
+    {
+      "start": 1913.2,
+      "duration": 5.76,
+      "text": "give us an example give us real examples uh for instance how uh call centers have",
+      "timestamp": "31:53"
+    },
+    {
+      "start": 1918.96,
+      "duration": 5.12,
+      "text": "uh created a massive labor market lots of jobs augmented by this technology",
+      "timestamp": "31:58"
+    },
+    {
+      "start": 1924.08,
+      "duration": 5.68,
+      "text": "that came what 25 30 years ago right um and some of the countries are seeing",
+      "timestamp": "32:04"
+    },
+    {
+      "start": 1929.76,
+      "duration": 5.039,
+      "text": "risk in that this technology could displace replace large proportions of",
+      "timestamp": "32:09"
+    },
+    {
+      "start": 1934.799,
+      "duration": 5.681,
+      "text": "that uh those jobs but they're also having a very nuanced conversation of",
+      "timestamp": "32:14"
+    },
+    {
+      "start": 1940.48,
+      "duration": 6.48,
+      "text": "saying well how can that technology also augment the skills so that those same",
+      "timestamp": "32:20"
+    },
+    {
+      "start": 1946.96,
+      "duration": 6.0,
+      "text": "people so that they provide more service or a higher degree or quality of service",
+      "timestamp": "32:26"
+    },
+    {
+      "start": 1952.96,
+      "duration": 5.68,
+      "text": "or that they're able to answer\n any tangible results that you're seeing out there\n i think on aentic it's too soon",
+      "timestamp": "32:32"
+    },
+    {
+      "start": 1958.64,
+      "duration": 6.399,
+      "text": "okay but that these discussions are are happening now are good because it is a matter of choice if we look at this",
+      "timestamp": "32:38"
+    },
+    {
+      "start": 1965.039,
+      "duration": 6.801,
+      "text": "technology with from the perspective of augmentation complementing and of course with almost any technology you will see",
+      "timestamp": "32:45"
+    },
+    {
+      "start": 1971.84,
+      "duration": 5.92,
+      "text": "some displacement in job loss but you may also see the creation of new roles i",
+      "timestamp": "32:51"
+    },
+    {
+      "start": 1977.76,
+      "duration": 6.159,
+      "text": "think within these developing countries they're especially cognizant of the fact that they have highly educated very high",
+      "timestamp": "32:57"
+    },
+    {
+      "start": 1983.919,
+      "duration": 7.12,
+      "text": "talent uh in the technological space in a lot of them and that it can be an accelerator for economic development in",
+      "timestamp": "33:03"
+    },
+    {
+      "start": 1991.039,
+      "duration": 7.201,
+      "text": "the right conditions\n it's not necessarily going only being viewed as strictly a risk of loss in display\n but",
+      "timestamp": "33:11"
+    },
+    {
+      "start": 1998.24,
+      "duration": 5.2,
+      "text": "as a possibility\n i'm I'm going to open the the the floor for questions uh",
+      "timestamp": "33:18"
+    },
+    {
+      "start": 2003.44,
+      "duration": 6.16,
+      "text": "really soon just after I get you know Dr and any any view on this you know\n okay i",
+      "timestamp": "33:23"
+    },
+    {
+      "start": 2009.6,
+      "duration": 5.6,
+      "text": "think aentic to me nothing new\n mhm",
+      "timestamp": "33:29"
+    },
+    {
+      "start": 2015.2,
+      "duration": 5.76,
+      "text": "nothing new okay i remember\n tell us more uh 10 20 years ago i mean we are talking",
+      "timestamp": "33:35"
+    },
+    {
+      "start": 2020.96,
+      "duration": 5.04,
+      "text": "about all these agents surfaces okay surface computing okay",
+      "timestamp": "33:40"
+    },
+    {
+      "start": 2026.0,
+      "duration": 7.6,
+      "text": "about 15 years ago I've been doing lots of this kind of thing automation okay uhhuh\n orchestration workflow all this",
+      "timestamp": "33:46"
+    },
+    {
+      "start": 2033.6,
+      "duration": 6.0,
+      "text": "kind of thing so why is so new okay uh",
+      "timestamp": "33:53"
+    },
+    {
+      "start": 2039.6,
+      "duration": 7.439,
+      "text": "is I mean all I mean we all want to have the automation this is for sure i think",
+      "timestamp": "33:59"
+    },
+    {
+      "start": 2047.039,
+      "duration": 6.001,
+      "text": "it's a matter of how you position yourself i think this is important on",
+      "timestamp": "34:07"
+    },
+    {
+      "start": 2053.04,
+      "duration": 6.559,
+      "text": "one hand you can say that I mean this particular entity",
+      "timestamp": "34:13"
+    },
+    {
+      "start": 2059.599,
+      "duration": 7.039,
+      "text": "replace my job okay i lost my job\n mhm but at the same time let's say uh I talk",
+      "timestamp": "34:19"
+    },
+    {
+      "start": 2066.639,
+      "duration": 6.719,
+      "text": "about Indonesia for example okay so that means you talk about agent AI",
+      "timestamp": "34:26"
+    },
+    {
+      "start": 2073.359,
+      "duration": 7.999,
+      "text": "that mean you need to build a lot of this agents right so to build it in Singapore\n mhm\n i think",
+      "timestamp": "34:33"
+    },
+    {
+      "start": 2081.359,
+      "duration": 5.361,
+      "text": "you need to pay about 10K per month for a lot more software engineer",
+      "timestamp": "34:41"
+    },
+    {
+      "start": 2086.72,
+      "duration": 7.918,
+      "text": "in Indonesia it's only about 1K\n wow that means if you position correctly",
+      "timestamp": "34:46"
+    },
+    {
+      "start": 2094.639,
+      "duration": 7.2,
+      "text": "suddenly there are lots of job waiting for you this is serious okay so it's",
+      "timestamp": "34:54"
+    },
+    {
+      "start": 2101.839,
+      "duration": 5.28,
+      "text": "really a matter of how you look at the techn I mean technology is advancing how",
+      "timestamp": "35:01"
+    },
+    {
+      "start": 2107.119,
+      "duration": 5.601,
+      "text": "you position yourself in order to get the maximum benefit i think this is more",
+      "timestamp": "35:07"
+    },
+    {
+      "start": 2112.72,
+      "duration": 7.04,
+      "text": "important then we always say ah I mean you do this I lost my job\n awesome i",
+      "timestamp": "35:12"
+    },
+    {
+      "start": 2119.76,
+      "duration": 6.319,
+      "text": "always say I love the positivity in in the in the panel here um and because I have 30 seconds before any questions",
+      "timestamp": "35:19"
+    },
+    {
+      "start": 2126.079,
+      "duration": 5.04,
+      "text": "come in otherwise they shut me down any questions from the audience i know there's some mics uh some microphones",
+      "timestamp": "35:26"
+    },
+    {
+      "start": 2131.119,
+      "duration": 5.441,
+      "text": "around i actually cannot see anything so",
+      "timestamp": "35:31"
+    },
+    {
+      "start": 2136.56,
+      "duration": 5.08,
+      "text": "there's even a question oh there you are",
+      "timestamp": "35:36"
+    },
+    {
+      "start": 2143.599,
+      "duration": 5.041,
+      "text": "hello everyone uh it was an amazing talk so I am a machine learning researcher",
+      "timestamp": "35:43"
+    },
+    {
+      "start": 2148.64,
+      "duration": 5.12,
+      "text": "myself and I come from India and I'm working on a research project in N US so",
+      "timestamp": "35:48"
+    },
+    {
+      "start": 2153.76,
+      "duration": 6.8,
+      "text": "when you are talking about you know agentic systems and there are two ways to control an agentic system it can be",
+      "timestamp": "35:53"
+    },
+    {
+      "start": 2160.56,
+      "duration": 5.279,
+      "text": "centralized or decentralized so in centralized as Angelina suggested that",
+      "timestamp": "36:00"
+    },
+    {
+      "start": 2165.839,
+      "duration": 6.321,
+      "text": "you have a particular sample space and the agentic system is going to give outputs just based on that and in",
+      "timestamp": "36:05"
+    },
+    {
+      "start": 2172.16,
+      "duration": 7.36,
+      "text": "decentralized we give control to the agentic system to give outputs according to itself so what are your views on that",
+      "timestamp": "36:12"
+    },
+    {
+      "start": 2179.52,
+      "duration": 6.4,
+      "text": "and which area should we focus on and in which particular fields should we focus on centralized systems and in which",
+      "timestamp": "36:19"
+    },
+    {
+      "start": 2185.92,
+      "duration": 6.0,
+      "text": "fields we should be focused on decentralized systems because uh some people you know in the research field",
+      "timestamp": "36:25"
+    },
+    {
+      "start": 2191.92,
+      "duration": 5.439,
+      "text": "they have views that if you give control to the agents uh it can be harmful but",
+      "timestamp": "36:31"
+    },
+    {
+      "start": 2197.359,
+      "duration": 6.48,
+      "text": "at the same time uh it can also be revolutionary so yeah",
+      "timestamp": "36:37"
+    },
+    {
+      "start": 2203.839,
+      "duration": 5.52,
+      "text": "want to go Angela is a chi and it\n okay uh maybe I say something on different",
+      "timestamp": "36:43"
+    },
+    {
+      "start": 2209.359,
+      "duration": 7.441,
+      "text": "centralized versus decentralized I think is still I mean I always like to do the trade off okay",
+      "timestamp": "36:49"
+    },
+    {
+      "start": 2216.8,
+      "duration": 5.44,
+      "text": "uh centralized there's good things I mean why not okay\n you take care of all",
+      "timestamp": "36:56"
+    },
+    {
+      "start": 2222.24,
+      "duration": 7.92,
+      "text": "my headache decentralized you think it's cheaper sometime it may not be cheaper okay",
+      "timestamp": "37:02"
+    },
+    {
+      "start": 2230.16,
+      "duration": 7.439,
+      "text": "decentralized you think is good there are always other things that you need to concern for example privacy",
+      "timestamp": "37:10"
+    },
+    {
+      "start": 2237.599,
+      "duration": 6.641,
+      "text": "okay so to build a decentralized privacy preserving solution is very way very",
+      "timestamp": "37:17"
+    },
+    {
+      "start": 2244.24,
+      "duration": 5.76,
+      "text": "much harder of course in some situation I just don't want to be centralized so",
+      "timestamp": "37:24"
+    },
+    {
+      "start": 2250.0,
+      "duration": 6.4,
+      "text": "it is hard to say it must be a or b you really look into exactly what you want",
+      "timestamp": "37:30"
+    },
+    {
+      "start": 2256.4,
+      "duration": 6.48,
+      "text": "what you are going to pay and then what are the constraints that you are sucked too",
+      "timestamp": "37:36"
+    },
+    {
+      "start": 2262.88,
+      "duration": 6.56,
+      "text": "well thank you anyone want to we have 7 seconds before we have to wrap so look",
+      "timestamp": "37:42"
+    },
+    {
+      "start": 2269.44,
+      "duration": 5.04,
+      "text": "thank you thank you everyone um I thoroughly enjoyed uh this panel you",
+      "timestamp": "37:49"
+    },
+    {
+      "start": 2274.48,
+      "duration": 5.68,
+      "text": "guys have been very you know gracious with your with your answers thank you we're going to be around so I'm sure",
+      "timestamp": "37:54"
+    },
+    {
+      "start": 2280.16,
+      "duration": 6.16,
+      "text": "there's more questions please reach out to to you know to any of these uh illustrious folks to myself and we'll be",
+      "timestamp": "38:00"
+    },
+    {
+      "start": 2286.32,
+      "duration": 4.32,
+      "text": "happy to to talk further thank you",
+      "timestamp": "38:06"
+    }
+  ],
+  "extraction_timestamp": "2025-06-29T20:47:10.717837",
+  "playlist_title": "SuperAI Singapore 2025: io.net Main Stage"
+}

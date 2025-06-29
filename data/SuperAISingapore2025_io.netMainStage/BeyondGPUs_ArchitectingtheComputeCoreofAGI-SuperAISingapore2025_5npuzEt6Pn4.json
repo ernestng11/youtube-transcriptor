@@ -1,0 +1,1901 @@
+{
+  "video_id": "5npuzEt6Pn4",
+  "video_title": "Beyond GPUs: Architecting the Compute Core of AGI - SuperAI Singapore 2025",
+  "video_url": "https://www.youtube.com/watch?v=5npuzEt6Pn4",
+  "channel_title": "SuperAI",
+  "published_at": "2025-06-27T08:02:56+00:00",
+  "duration_seconds": null,
+  "view_count": 11,
+  "like_count": 0,
+  "description": "Learn more about SuperAI: superai.com\nFollow us on X: x.com/superai_conf\n\nPanel: Beyond GPUs: Architecting the Compute Core of AGI\n\nSpeakers:\nWenhui Zhu, Founder @ AMQ Semiconductor\nJune Paik, Founder and CEO @ FuriosaAI\nScott Albin, GM, APAC @ Groq\n\nModerator:\nOlivier Klein, Chief Technologist, APAC @ AWS\n\nStage: io.net Main Stage\n#superai #hardware #ai #aidevelopment #agi\n\nRecorded on 18 June 2025",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 313,
+    "aggregated_text": "i normally focus on cloud computing and everything that comes on top and today we're going to go really really deep into the deep down architectures but you know I figured uh before starting to go really deep um maybe a quick introduction of your company and roughly uh what you're doing so why don't we start with you Chu okay yeah um my name is Chu Wi from AMQ Q is an company of advanced packaging we uh focus on this uh um advanced packaging for CPU GPU and AI and also create chips okay um using this so-called flip sheet SIP technology all right um we uh actually raised about 1 billion REM in the past few years and we were able to get more money to expand globally okay we're having a design simulation center in Singapore and also manufacturing site in Hulan province so you're welcome to visit us yeah thank you very much i I'll definitely make my way over it's not too far from Hong Kong hey June how about yourself uh we are building a silicon chip product and system uh for AI uh especially we are very focusing on the inference inferencing at data center scale uh that can accelerate the most frontier AI models like Adam yeah yeah great to be here so Rock is building uh chips LPUs for inference uh the LPU is purely designed for inference manufactured in America uh and we're distributing it all over the world nice now you might wonder why why do we have you all on stage and I think you know this panel is called beyond GPUs um we obviously can't scale GPUs quick enough even in in AWS but there's an interesting thing about bringing down the cost of operating AI uh and I think that's specifically where some of these chips potentially uh come in just staying with you there for a second Scott because I think that's a good leadin into you know what Grog is doing why are we not just using GPUs what why are we doing this why how do we bring down the cost of inference well I think it's important to remember that GPUs were never designed for AI they were originally designed for gaming for graphic processing and then people figured out that they were really good for training AI models and there's been this flood of GPUs in the market because it was the best architecture available at the time to run AI models to train AI models uh but there's nothing to say that that's the future that that we have to run AI on GPUs GPUs are very very power hungry uh and that's becoming a problem for many nations uh the costs are also becoming exorbitant as I'm sure AWS knows and so now we're looking at well what comes next you know our founder Jonathan Ross he invented the TPU at Google and then he left to create Grock uh and he did that deliberately because he wanted to drive the cost of AI down to zero m and I think it's going to take new architectures from companies like Furiosa Gro and others that are designed for low power consumption fast throughput much faster than GPUs in order to power all the applications that people want to build with AI yeah and there's no technical no technical architectural change if I run some of those models on you right like I can potentially just use some of those those inference models with existing llama models or other That's right so you know we make our chips but they power gro cloud grock cloud is a way for developers to access AI models without having to fine-tune and and operate hardware i think the future is not operating hardware for most developers they don't necessarily want to own the individual chips they want APIs that are easy to use they want to run the latest models exactly they want all that complexity abstracted away exactly that's that's a beauty to my ears because I like that abstraction how about Fury Arsa i think you're in a similar space here building this out yeah yeah i have a quite similar view we need to make this AI computing uh much more sustainable uh than now if you look at all this carex kind of mount and also the quick enough yeah yeah we are projecting right now and uh as we I think agree that it's still very early stage of AI and uh still I mean we are expecting much more demand uh for compute basically uh so uh it's not good healthy that there is just one architecture in one direction uh like uh you know we call this AI the age of uh discovery I think on computer side we need the same approach we need to explore new architecture there are tons of innovation we can make so uh I think uh yeah it's very important that like there are many kind of uh uh innovative approach to this makes sense makes sense in that in that scenario I think Juan I mean we you talked about you're doing packaging um you know and I I think you briefly explained what packaging means of like combining different chipsets together i think one of the interesting things of that is also you have some innovative ways of doing it to potentially reduce for example electricity consumption right yeah um um if we look at this the new chips we see that okay the packaging cost takes almost half of the whole thing yeah so uh uh energy is one thing because we need to for advanced packing we need to put different a lot of uh different functional chips all together to form a to form a new system mhm so uh there's actually a lot of limits for GPUs all right yeah um right uh the for example the number of transistors in each package when each chips and uh and also the size of the chips okay limited the number of performance and in the end the performance of GPUs right so uh to reduce the cost and also to bring up higher performance we need to have some new technologies to to uh how do you say to bring up the the the the band Mhm yeah uh to a high level and also to reduce this uh how to say to improve this uh energy efficiency say optimize um the the energy consumptions and also with the increase of the chip size okay the reliability becomes more and more challenges because it's limited by those physical fundamentals right the stress will be inside the chip will be will be higher and higher with the increase of chip size there's a lot of challenge issues to to do so this is What we are doing now in trying to offering this solutions for this excellent chips like you guys are doing now and try to bring to a higher performance level and more energy effective nice nice and staying a bit with the concept of size um and now I'm going a little bit up the stack while staying obviously on the chip sides um I think even in AWS we start seeing this trend of you know 2022 2023 was about making models bigger and bigger and bigger and bigger um and we start seeing especially with aentic AI the scenarios of having smaller models having faster speed of inference as we all know time is money especially when it's in cloud computing um so maybe June from from your perspective and I jump to same question for you Scott later on terms of like is is that something you see the same thing with your customers like kind of smaller models faster inference speed what what are you seeing here yeah I I I I see actually two two direction happening simultaneously right now definitely uh that we are still pushing uh the AI models i mean we are like exploring uh how how capable the AI model can be uh that direction still we are trying to scale AI models uh actually to even like a larger model uh at the same time right now on practical side on business side definitely we try to make them more efficient smaller actually so to the two opposite forces are still uh going at the same time uh and uh so uh I I still believe that uh so we need more kind of uh high performance compute memory and all those things to support this ever growing large model yeah um but also at the same time you know making them more efficient smaller is also uh happening so uh I see the three trend so you with furious AI you kind of work into those both dimensions then from larger models to really small nimble nimble models like great love that Scott I think just popping roughly the same question you think see similar things in the market yeah I think what we've seen in GRC cloud is that there's large medium and small models and there's state-of-the-art models at each class of of of size but there's an insatiable demand for these large state-of-the-art models uh like DeepSeek you know almost 700 billion parameters yeah llama for Maverick I think around 400 i don't think that that's going to go away anytime soon i think there's going to continue to be larger and larger models but I don't like to think about the parameter count when we think about the infrastructure that's required to power them obviously it takes more memory it takes more chips but really what we want to focus on is the cost per token and for those who don't know tokens are the measure of inputs and outputs in these AI models and if we can look at the cost per token we can look at the jewels per token the power required to generate that token that's what we need to focus on and even with these large models we can get very very very efficient now I think over time as these models get more capable people will look to optimize them but I think it's a bit of a fairy tale to think that we're going to be running these models on our phones anytime soon right we're still going to need data center scale infrastructure for the foreseeable future to run these models yeah again that's something I definitely like to hear we're definitely in the process of building out a lot of things here um going a little bit into this the into the spectrum of electricity usage again um and one reason is because there's cost attached to it and that's a cost that you know cloud computing provider will will push forward uh you know the more electricity you use uh the more costly it becomes and the larger the models the more the electricity at the same time there are situations I mean we're all here in Singapore where electricity is relatively scarce right now um in in that perspective do you do you see that and maybe I start with all three of you but I start with you Ch and I in terms of do you think that's that's going to be an issue moving forward as AI keeps being adopted more will we see problems where we run out of electricity and you know what are your thoughts maybe of uh solving that and uh there's only so fast that we can build solar power panels or nuclear reactors right any thoughts there yeah uh uh energy definitely is an issue right so uh with this uh the the improvement of the uh the cheap performance yeah and the increase the model um the model becomes big and big energy consumption becomes more and more so um so currently right uh the so-called thermal management for packaging is a very very challenging issue right yeah um so uh to this we have a different ways and we're not going to talk about this thermal management itself but in in in general the NH will be uh coming from say uh sona panel this is could be this could be one of this uh a general solution for the whole What yeah and when this uh we we put different chips all together the heat actually generated in in the package cannot be dissipated okay very good point uh and meet our expectation okay but in in end that there's a lot actually a waste of the energy uh the only way I think in the future is to use the sona energ yeah so uh this is what I I'm thinking more also moving forward i I like what you're saying especially about heat dissipation because we cannot forget that cooling is obviously also very important when it comes to that that's a that's another direction that okay when the energy consumption is is not unwarable right what we need to do is that to remove this uh the the heat from from inside the package and to ensure that the performance yeah that's a that's another way that working on right so it's also part of the packaging and makes sense makes sense for furiosa is that also uh an area that is of interest like how to reduce electricity consumption yeah definitely uh so uh energy is a kind of fundamental bottleneck uh to to uh to AI uh and um and also it's one of the fundamental cost of uh running AI uh we are right now talking about not like 100 megawatt data center we are right now this talking about even like a gigawatt data center yeah uh like uh to generating this power and supplying the power will be a huge challenge uh and uh so definitely on our side we tried to this uh computing as energy efficient as possible uh it involved uh many layers of innovations like on this let's say on this semiconductor device level like TSMC Samsung all those guys are pushing to make the transistor as efficient as possible on packaging side you know there's tons of innovation to make this um data moves inside and out as efficient as possible and cooling side you mentioned like all these innovation on cooling yeah like liquid immersion cooling all those things and we are very focusing on this computer side to make this compute on fundamentally uh like on the architectural level uh like we try to make them as efficient as possible I think u but the energy efficiency will become uh much more uh serious issue and and we are working on it actually yeah I love it love it any thoughts before I switch it up to models yeah a few things so I think we have to just recognize that the the trajectory that we're on with GPUs is unsustainable Yeah you they went from you we went from it hardware in data centers that was consuming you know 4 kilowatts a rack now GPUs are consuming 50 100 150 megawatt a kilowatt sorry uh and they're talking about 500 600 700 you imagine a data center a giant hall that normally had maybe hundreds of hundreds of server racks in it will just have one rack of GPUs in the middle of the room because that's all the power that that facility can can Exactly it's totally impractical and unsustainable and the innovation cycle is is still 18 months for a lot of these chips so it's outpacing the actual investment to build infrastructure you can't build data centers that fast so there's there's this tipping point that that we're reaching very quickly you know and we're here at Super AI in Singapore you know Singapore is a very land and power constrained country they have a lot of data centers here but these are not gigawatt you know data centers like they're getting built in the US and some other places and so I think in Singapore particularly there's this need to look past GPUs i don't think Singapore is going to be a hub for training AI models there's just not enough power and land here to house it so they have to look at new architectures to power applications here in Singapore and they have to be dramatically more power efficient yeah no to totally agree and you know Singapore is a good example as such but I think we see similar similar scenarios in other other jurisdictions I should say um let me focus a little bit on on models for a second because I think a lot of people in the room are probably training implementing things might not be in the chip space itself so I think the next question is probably more for for you June and and Scott if I want to use for example the Furiosa you AI chip i mean we know that a lot of people just train on GPUs they use CUDA how easy how difficult would it be for me to implement um your chips and I know I come to Grock right later on that too okay you start from us yeah um the uh actually from um developer point of view uh the software is also uh the kind of key challenge for using kind of new architecture and new direction actually and uh and the CUDA is has a definitely very strong developer ecosystem yeah um but like if you on training side actually it's uh the kind dependency on cuda uh is not easy to solve problem I'll say but if you move to inference side you know uh inference case you usually your model is already uh decided your model is already developed uh the next thing the purpose of inference is you like to run deploy this model rather than you experiment all this kind of model architecture uh with uh some general kind of developer framework so your uh software stack requirement is much more streamlined than uh than the the train training software stack and kuda depend there is no not much cuda dependency I will say so but still we need to develop provide a quite compelling easy to use software stack that's quite challenging part but um I think uh especially on inference side uh there is not much kuda dependency yeah makes sense you know I think the novel observation that Grock's founder Jonathan Ross had after he left Google was that the software is the key yeah that was one of the novel observations you know we're we're in the business of physically making chips and deploying those all over the world but it's really software defined we actually defined the software compiler before we actually ever made the chips the chip was designed to match the software uh and I think that's really important because ultimately you need to make this easy to adopt and if you're out there just selling chips and you're telling the developers well you build software for this the adoption is impossible i mean look at how many new generations of chip have come out in the last decade very very few i mean most people could only name the GPU since the CPU and so I think this is this is a really compelling observation because you have to make it easy uh and so that's why we decided to build the full stack from silicon to cloud yeah so that the developers the engineers big companies startups they don't have to think about it they just can access it via an API it's very predictable it's very resilient um and we just abstract all that complexity away i don't think people want to live in that world of CUDA um in the future as they think about building these applications yeah look I think I'm I'm always for for openness and flexibility i mean in AWS we always say it's about flexibility and choice for our customers so I very much embrace that with that in mind then let's talk a bit about you that kind of that ecosystem let's say that we're building and I think um I'll pass that back over to you like how important do you think is it to you know that collaboration between let's say advanced hardware chips to support some of these language models to maybe reduce electricity for inference like how important is that collaboration and I assume especially when we talk about packaging that's probably very relevant yeah ecology is an issue that uh um we we we have to move forward carefully right so we see when we're talking about packaging is always related to chip right and the fat and also uh the so-called uh um testing and so all this so let's say the so we we come to an age that cheap package interaction we do a packaging that again has to be res to this uh the chip design as well okay and also when we output our packaging solution to our end customer we also need to look at the system network uh interaction so uh the this so-called the whole chain ecosystem is definitely uh supportive for the whole uh movement all together all right yeah so uh especially at this uh at this point we come to urge that the energy consumption comes to a very critical period means that the power say for example for single chip that the power could up to a few hundred watts uh which result in a very high Yeah heat density power density and uh to this we we need to come out a lot of uh uh for example right the the so-called symbol management positions and the relability issues and so on so forth so so we need to work all together uh another issues that as uh just you you mentioned that the hardware should somehow work together with software okay they should be compatible yeah uh and and and very very challenging is that this software is actually uh psychologically based and also linguistically based I would say so it's language dependent and so on so forth so this the the collaboration between how and software is also important and of course that global collaboration is is definitely helpful for us to move the whole industry together makes sense makes sense um and you want to add something that's now you're nodding very strongly I want to just um maybe put a little bit if we look ahead in that regard into the future like do you anticipate that you know let's say model sizes hardware requirements what what's your future outlook how will it change we going to get just bigger do we create different chips like what what's your your future outlook there and I know you don't have a crystal ball neither do I but I'd be curious to hear your your thoughts um yeah uh we we still expect the uh the this uh plenty scale effort on this uh uh AI research and uh like trying to explore the new AI capability will push the the frontier uh on the model sizes as well yeah because um like every one has different idea about AGI but still we try to develop the more capable AI model and push the boundary meaning that uh that will uh actually push the model size even further uh that will be quite efforts to do so in my opinion but but on that side also you know the scaling paradigm is just shifting from as you know from the training to the inference side actually so uh we try to do more inference compute to make AI cap models more capable actually as you using the all this deep sigma uh deep research model all those things so uh model side I expect Well still we have room for grow at the bigger model size and uh and there will be more like uh kind of token generation of using this large model meaning that uh it will push uh the uh all the uh semiconductor data center still much further yeah just to follow up on that because totally agree but at the same time I think one of the the things that I see a lot with our customers on AWS they adopt a lot of this agentic AI capabilities where you say I might have an entry model but then it it chains to many other models to smaller kind of agents do you see the same thing also where we might also have an inference future where you'll have all these very small agents and maybe just one big model is that is that an area that you see foresee yeah that'll be quite heterogeneous so we definitely compound way a kind of AI system there will be many specialized efficient small models while working with very powerful big models i think it will be mixture of all these uh yeah uh heterogeneous models it makes sense i agree with that but the challenge that you have today when you run these agentic solutions on GPUs is you press the button and you have to go get a coffee and come back right it takes a really long time uh and I think this is preventing a whole class of software a whole class of innovation because of this delay right and so the models might be heterogeneous they might be quite diverse they might be small they might be large depending on what you're trying to achieve but you ultimately need the throughput to be able to create that responsiveness like if you're trying to do voicetooice Yeah right this kind of you know highly interactive experience it has to be ultra low latency right and you cannot just optimize for the size of the model you really have to go down to the architecture and I think that connects back to your prior question we have to think about the the whole supply chain yeah not just the processor but the memory everything that goes into actually producing these systems because they're more than just chips they're really really large systems i mean these things are massive when you look at the scale of these things to run one single query could you know for us at least could be hundreds or thousands of chips for every single prompt uh and so we really have to think about optimization uh in every aspect of of the system even the the networking is really important and I think there's many companies out there innovating in everything from the optics to the packaging to the silicon to the software trying to squeak out you know squeeze out this performance uh in order to allow these applications to exist yeah I I like that point especially also we think about what can you parallelize versus what can you not um especially when we talk voice right we had uh where we had the where we now have speech to speech models which is great because now suddenly you get a very quick response versus previous loves like text to speech to text put it in LM put it back in and what about video right like you think about I don't think people realize we're probably less than two years away from real time generative video that's Right you know today it takes you know 4550 seconds to make 5 seconds of generative AI video right it's going to be real time in in less than two years um you know that has a lot of implications uh for what people are using what people are building yeah um yeah and even down to like gaming or dreaming up your little virtual realities um I'm not sure if that's a little bit scary to me at times but also super exciting um just being mindful of time here this panel was also named that we're building the compute core for AGI um and so I figured it would also be nice to get your ideas of AGI i know there were lots of opinionated uh people here on stage before but I'd love to kind of hear maybe all the three of your Fords of you know what's your take on it are we are we close to AGI and you know how relevant will be the architectures you know the underlying chips to to maybe achieve that yeah uh I think we are already in an age of intelligent enough and then we're moving faster uh towards the more intelligent uh uh environment but the the here the foundation here is that actually we talk about the hardware okay uh we need to first of all to to generate this data uh now for uh for for chips we're already coming to the age of a so-called uh u post more uh stage okay uh and means that okay for each single chips the performance is already limited by a lot of uh uh uh conditions but yet we still have some quite a lot of channels to improve to move the the semiconductor forward continuously so uh we will see a single chip performance is there but uh we we can use actually the so so-called uh the quantity okay to to overcome this so-called quality uh programs moving from quality to quantity means that we can use more chips right uh to integrate together yeah and uh to to achieve and higher performance of the whole system this is uh the uh one thing say like for packaging we have so-called 3D integration put more chips in one uh one single chip to to to uh to re to achieve uh a high performance and lower cost and uh uh uh to more energy efficient okay uh so this is uh one thing okay uh from manufacturing point of view we do we do face a lot of manufacturing ch uh uh problems but in the long run that uh we could probably need to move from the current so-called mechanical system which remove in the u uh the so we remove an assembly kind of system okay use uh this uh uh existing material system but in the future the the the actual the best way in the future is that so-called organic system means that it's like a fertilized earth for human beings right they they inherit all this information and deposit it and can uh transmit all the way okay along the life so um I think this is probably a a long way to go um but yet if we cannot break through what I call this inorganic which is the cabinet mechanical system then uh okay the intangent thing could be far away to go that's what I mean okay i like those insights i remember soldering my first chip still at by hand i think that would be absolutely impossible to do right now um just channeling it a little bit back on like you know your take on AGI June any any take on are we closed what's the right way to go yeah um or any takeaway yeah we I mean when you started the company uh we saw the AlphaGago i mean uh Arpago definitely surprised us cuz uh it beats a human uh with a game go but uh nowadays uh we see that this uh the ARPA capability extends to more kind of general kind of area like a coding and we definitely see that AIQ can do really good math right now like graduate student level math uh and uh like we also we expect that that AI will apply to show more capability in more diverse domains definitely that's what I definitely uh am projecting and we are definitely exciting to build this thinking machine focusing on this compute part that can support all these new innovative AI applications yeah I mean especially when I think about image generation when I played around with stable diffusion two three years ago to what you can do now I mean that's pretty impressive um slowly running out of time so Scott I think I give you the last closing thoughts then here um both on Asia or anything any good takeaway for our audience so I I think I'll I'll repeat a pretty well-known quote people overestimate what will happen in two years and underestimate what will happen in 10 mhm uh now my crystal balls no better than yours but I don't believe there'll be this singular moment where there's this aha moment breakthrough yeah but I do think we're entering this era of intelligence abundance where AI is slowly eating all the work that people have been doing for a very long time it's starting with the co-pilots and software engineering and productivity with for employees but it's going to get into the physical world with all the robots that you see on the floor and I think this intelligence abundance is going to be uh everywhere in every facet of life but it's ultimately still constrained by the physical infrastructure to power it and so while our companies are trying to innovate and drive the marginal cost of AI to zero um you know we're we're that's going to be critical in order to allow this intelligence abundance to really happen so I don't think about as AGI I just think about it as this really ubiquitous spread of intelligence around the industry and I think as our companies are successful we'll move past this era of GPUs they won't go away they'll still be very useful but we'll start to enable whole new classes of software application robotics that people didn't even know ex could exist before and I think people will look back in 10 years and see the world very differently um I don't know if we'll call it AGI but life will certainly be very different ah look I think those are some fantastic closing words i mean I hope this was insightful to the audience i certainly learned a lot here and I'm really looking forward to that future so thanks again Scott Chu when Chu and Ho thank thank you very much for your time i appreciate it",
+    "text_length": 30591,
+    "word_count": 5808
+  },
+  "segments": [
+    {
+      "start": 7.52,
+      "duration": 5.52,
+      "text": "i normally focus on cloud computing and everything that comes on top and today we're going to go really really deep",
+      "timestamp": "00:07"
+    },
+    {
+      "start": 13.04,
+      "duration": 5.36,
+      "text": "into the deep down architectures but you know I figured uh before starting to go",
+      "timestamp": "00:13"
+    },
+    {
+      "start": 18.4,
+      "duration": 5.68,
+      "text": "really deep um maybe a quick introduction of your company and roughly uh what you're doing so why don't we",
+      "timestamp": "00:18"
+    },
+    {
+      "start": 24.08,
+      "duration": 8.318,
+      "text": "start with you Chu\n okay yeah um my name is Chu Wi from AMQ Q is an company of",
+      "timestamp": "00:24"
+    },
+    {
+      "start": 32.399,
+      "duration": 8.241,
+      "text": "advanced packaging we uh focus on this uh um advanced packaging for CPU GPU and",
+      "timestamp": "00:32"
+    },
+    {
+      "start": 40.64,
+      "duration": 7.36,
+      "text": "AI and also create chips okay um using this so-called flip sheet SIP technology",
+      "timestamp": "00:40"
+    },
+    {
+      "start": 48.0,
+      "duration": 6.559,
+      "text": "all right um we uh actually raised about 1 billion REM in the past few years and",
+      "timestamp": "00:48"
+    },
+    {
+      "start": 54.559,
+      "duration": 6.64,
+      "text": "we were able to get more money to expand globally okay we're having a design simulation center in Singapore and also",
+      "timestamp": "00:54"
+    },
+    {
+      "start": 61.199,
+      "duration": 6.561,
+      "text": "manufacturing site in Hulan province so you're welcome to visit us yeah thank you very much i I'll definitely make my",
+      "timestamp": "01:01"
+    },
+    {
+      "start": 67.76,
+      "duration": 9.12,
+      "text": "way over it's not too far from Hong Kong hey June how about yourself uh we are building a silicon chip product and",
+      "timestamp": "01:07"
+    },
+    {
+      "start": 76.88,
+      "duration": 6.48,
+      "text": "system uh for AI uh especially we are very focusing on the inference",
+      "timestamp": "01:16"
+    },
+    {
+      "start": 83.36,
+      "duration": 6.24,
+      "text": "inferencing at data center scale uh that can accelerate the most frontier AI",
+      "timestamp": "01:23"
+    },
+    {
+      "start": 89.6,
+      "duration": 7.199,
+      "text": "models like Adam\n yeah yeah great to be here so Rock is building uh chips LPUs",
+      "timestamp": "01:29"
+    },
+    {
+      "start": 96.799,
+      "duration": 6.401,
+      "text": "for inference uh the LPU is purely designed for inference manufactured in",
+      "timestamp": "01:36"
+    },
+    {
+      "start": 103.2,
+      "duration": 6.239,
+      "text": "America uh and we're distributing it all over the world\n nice now you might wonder",
+      "timestamp": "01:43"
+    },
+    {
+      "start": 109.439,
+      "duration": 6.96,
+      "text": "why why do we have you all on stage and I think you know this panel is called beyond GPUs um we obviously can't scale",
+      "timestamp": "01:49"
+    },
+    {
+      "start": 116.399,
+      "duration": 7.76,
+      "text": "GPUs quick enough even in in AWS but there's an interesting thing about bringing down the cost of operating AI",
+      "timestamp": "01:56"
+    },
+    {
+      "start": 124.159,
+      "duration": 6.481,
+      "text": "uh and I think that's specifically where some of these chips potentially uh come in just staying with you there for a",
+      "timestamp": "02:04"
+    },
+    {
+      "start": 130.64,
+      "duration": 6.16,
+      "text": "second Scott because I think that's a good leadin into you know what Grog is doing why are we not just using GPUs",
+      "timestamp": "02:10"
+    },
+    {
+      "start": 136.8,
+      "duration": 5.84,
+      "text": "what why are we doing this why how do we bring down the cost of inference well I think it's important to remember that",
+      "timestamp": "02:16"
+    },
+    {
+      "start": 142.64,
+      "duration": 6.64,
+      "text": "GPUs were never designed for AI they were originally designed for gaming for graphic processing and then people",
+      "timestamp": "02:22"
+    },
+    {
+      "start": 149.28,
+      "duration": 7.44,
+      "text": "figured out that they were really good for training AI models\n and there's been this flood of GPUs in the market because",
+      "timestamp": "02:29"
+    },
+    {
+      "start": 156.72,
+      "duration": 7.84,
+      "text": "it was the best architecture available at the time to run AI models to train AI models uh but there's nothing to say",
+      "timestamp": "02:36"
+    },
+    {
+      "start": 164.56,
+      "duration": 7.28,
+      "text": "that that's the future that that we have to run AI on GPUs GPUs are very very power hungry uh and",
+      "timestamp": "02:44"
+    },
+    {
+      "start": 171.84,
+      "duration": 7.28,
+      "text": "that's becoming a problem for many nations uh the costs are also becoming exorbitant as I'm sure AWS knows",
+      "timestamp": "02:51"
+    },
+    {
+      "start": 179.12,
+      "duration": 6.8,
+      "text": "and so now we're looking at well what comes next\n you know our founder Jonathan Ross he invented the TPU at Google\n and",
+      "timestamp": "02:59"
+    },
+    {
+      "start": 185.92,
+      "duration": 6.72,
+      "text": "then he left to create Grock uh and he did that deliberately because he wanted to drive the cost of AI down to zero m",
+      "timestamp": "03:05"
+    },
+    {
+      "start": 192.64,
+      "duration": 6.16,
+      "text": "and I think it's going to take new architectures from companies like Furiosa Gro and others\n that are designed",
+      "timestamp": "03:12"
+    },
+    {
+      "start": 198.8,
+      "duration": 6.48,
+      "text": "for low power consumption fast throughput much faster than GPUs in order to power all the applications that",
+      "timestamp": "03:18"
+    },
+    {
+      "start": 205.28,
+      "duration": 6.0,
+      "text": "people want to build with AI\n yeah and there's no technical no technical architectural change if I run some of",
+      "timestamp": "03:25"
+    },
+    {
+      "start": 211.28,
+      "duration": 6.239,
+      "text": "those models on you right like I can potentially just use some of those those inference models with existing llama",
+      "timestamp": "03:31"
+    },
+    {
+      "start": 217.519,
+      "duration": 6.64,
+      "text": "models or other\n That's right so you know we make our chips but they power gro cloud grock cloud is a way for",
+      "timestamp": "03:37"
+    },
+    {
+      "start": 224.159,
+      "duration": 7.201,
+      "text": "developers to access AI models without having to fine-tune and and operate hardware i think the future is not",
+      "timestamp": "03:44"
+    },
+    {
+      "start": 231.36,
+      "duration": 5.519,
+      "text": "operating hardware for most developers they don't necessarily want to own the individual chips they want APIs that are",
+      "timestamp": "03:51"
+    },
+    {
+      "start": 236.879,
+      "duration": 5.28,
+      "text": "easy to use they want to run the latest models exactly\n they want all that complexity abstracted away\n exactly",
+      "timestamp": "03:56"
+    },
+    {
+      "start": 242.159,
+      "duration": 5.36,
+      "text": "that's that's a beauty to my ears because I like that abstraction how about Fury Arsa i think you're in a",
+      "timestamp": "04:02"
+    },
+    {
+      "start": 247.519,
+      "duration": 7.28,
+      "text": "similar space here building this out yeah yeah i have a quite similar view we need to make this AI computing uh much",
+      "timestamp": "04:07"
+    },
+    {
+      "start": 254.799,
+      "duration": 7.361,
+      "text": "more sustainable uh than now if you look at all this carex kind of mount\n and also",
+      "timestamp": "04:14"
+    },
+    {
+      "start": 262.16,
+      "duration": 7.52,
+      "text": "the quick enough\n yeah yeah we are projecting right now and uh as we I think agree",
+      "timestamp": "04:22"
+    },
+    {
+      "start": 269.68,
+      "duration": 5.44,
+      "text": "that it's still very early stage of AI and uh still I mean we are expecting",
+      "timestamp": "04:29"
+    },
+    {
+      "start": 275.12,
+      "duration": 6.88,
+      "text": "much more demand uh for compute basically uh so uh it's not good healthy",
+      "timestamp": "04:35"
+    },
+    {
+      "start": 282.0,
+      "duration": 7.68,
+      "text": "that there is just one architecture in one direction uh like uh you know we call this AI the age of uh discovery I",
+      "timestamp": "04:42"
+    },
+    {
+      "start": 289.68,
+      "duration": 5.84,
+      "text": "think on computer side we need the same approach we need to explore new architecture there are tons of",
+      "timestamp": "04:49"
+    },
+    {
+      "start": 295.52,
+      "duration": 5.76,
+      "text": "innovation we can make so uh I think uh yeah it's very important that like there",
+      "timestamp": "04:55"
+    },
+    {
+      "start": 301.28,
+      "duration": 5.68,
+      "text": "are many kind of uh uh innovative approach to this\n makes sense makes sense",
+      "timestamp": "05:01"
+    },
+    {
+      "start": 306.96,
+      "duration": 7.2,
+      "text": "in that in that scenario I think Juan I mean we you talked about you're doing packaging um you know and I I think you",
+      "timestamp": "05:06"
+    },
+    {
+      "start": 314.16,
+      "duration": 5.44,
+      "text": "briefly explained what packaging means of like combining different chipsets together i think one of the interesting",
+      "timestamp": "05:14"
+    },
+    {
+      "start": 319.6,
+      "duration": 8.879,
+      "text": "things of that is also you have some innovative ways of doing it to potentially reduce for example electricity consumption right\n yeah um",
+      "timestamp": "05:19"
+    },
+    {
+      "start": 328.479,
+      "duration": 5.28,
+      "text": "um if we look at this the new chips we see that okay the packaging cost\n takes",
+      "timestamp": "05:28"
+    },
+    {
+      "start": 333.759,
+      "duration": 5.841,
+      "text": "almost half of the whole thing\n yeah so uh uh energy is one thing because we",
+      "timestamp": "05:33"
+    },
+    {
+      "start": 339.6,
+      "duration": 7.599,
+      "text": "need to for advanced packing we need to put different a lot of uh different functional chips all together to form a",
+      "timestamp": "05:39"
+    },
+    {
+      "start": 347.199,
+      "duration": 6.321,
+      "text": "to form a new system\n mhm\n so uh there's actually a lot of limits for GPUs all",
+      "timestamp": "05:47"
+    },
+    {
+      "start": 353.52,
+      "duration": 5.28,
+      "text": "right yeah um right uh the for example",
+      "timestamp": "05:53"
+    },
+    {
+      "start": 358.8,
+      "duration": 6.0,
+      "text": "the number of transistors in each package when each chips and uh and also",
+      "timestamp": "05:58"
+    },
+    {
+      "start": 364.8,
+      "duration": 8.399,
+      "text": "the size of the chips okay limited the number of performance and in the end the performance of GPUs right so uh to",
+      "timestamp": "06:04"
+    },
+    {
+      "start": 373.199,
+      "duration": 5.12,
+      "text": "reduce the cost and also to bring up higher performance we need to have some",
+      "timestamp": "06:13"
+    },
+    {
+      "start": 378.319,
+      "duration": 6.401,
+      "text": "new technologies to to uh how do you say to bring up the the the the band Mhm",
+      "timestamp": "06:18"
+    },
+    {
+      "start": 384.72,
+      "duration": 5.36,
+      "text": "yeah uh to a high level and also to reduce this uh how to say to improve",
+      "timestamp": "06:24"
+    },
+    {
+      "start": 390.08,
+      "duration": 7.6,
+      "text": "this uh energy efficiency say optimize um the the energy consumptions and also",
+      "timestamp": "06:30"
+    },
+    {
+      "start": 397.68,
+      "duration": 5.04,
+      "text": "with the increase of the chip size okay the reliability becomes more and more",
+      "timestamp": "06:37"
+    },
+    {
+      "start": 402.72,
+      "duration": 6.479,
+      "text": "challenges because it's limited by those physical fundamentals right the stress will be inside the chip will be will be",
+      "timestamp": "06:42"
+    },
+    {
+      "start": 409.199,
+      "duration": 6.321,
+      "text": "higher and higher with the increase of chip size there's a lot of challenge issues to to do so this is What we are",
+      "timestamp": "06:49"
+    },
+    {
+      "start": 415.52,
+      "duration": 6.88,
+      "text": "doing now in trying to offering this solutions for this excellent chips like you guys are doing now and try to bring",
+      "timestamp": "06:55"
+    },
+    {
+      "start": 422.4,
+      "duration": 5.919,
+      "text": "to a higher performance level and more energy effective\n nice nice and staying a",
+      "timestamp": "07:02"
+    },
+    {
+      "start": 428.319,
+      "duration": 5.041,
+      "text": "bit with the concept of size um and now I'm going a little bit up the stack",
+      "timestamp": "07:08"
+    },
+    {
+      "start": 433.36,
+      "duration": 8.08,
+      "text": "while staying obviously on the chip sides um I think even in AWS we start seeing this trend of you know 2022 2023",
+      "timestamp": "07:13"
+    },
+    {
+      "start": 441.44,
+      "duration": 5.28,
+      "text": "was about making models bigger and bigger and bigger and bigger um and we start seeing especially with aentic AI",
+      "timestamp": "07:21"
+    },
+    {
+      "start": 446.72,
+      "duration": 5.28,
+      "text": "the scenarios of having smaller models having faster speed of inference as we",
+      "timestamp": "07:26"
+    },
+    {
+      "start": 452.0,
+      "duration": 7.52,
+      "text": "all know time is money especially when it's in cloud computing um so maybe June from from your perspective and I jump to",
+      "timestamp": "07:32"
+    },
+    {
+      "start": 459.52,
+      "duration": 6.72,
+      "text": "same question for you Scott later on terms of like is is that something you see the same thing with your customers like kind of smaller models faster",
+      "timestamp": "07:39"
+    },
+    {
+      "start": 466.24,
+      "duration": 7.28,
+      "text": "inference speed what what are you seeing here yeah I I I I see actually two two direction happening simultaneously right",
+      "timestamp": "07:46"
+    },
+    {
+      "start": 473.52,
+      "duration": 7.92,
+      "text": "now definitely uh that we are still pushing uh the AI models i mean we are",
+      "timestamp": "07:53"
+    },
+    {
+      "start": 481.44,
+      "duration": 5.52,
+      "text": "like exploring uh how how capable the AI model can be uh that direction still we",
+      "timestamp": "08:01"
+    },
+    {
+      "start": 486.96,
+      "duration": 5.44,
+      "text": "are trying to scale AI models uh actually to even like a larger model uh",
+      "timestamp": "08:06"
+    },
+    {
+      "start": 492.4,
+      "duration": 5.12,
+      "text": "at the same time right now on practical side on business side definitely we try",
+      "timestamp": "08:12"
+    },
+    {
+      "start": 497.52,
+      "duration": 5.2,
+      "text": "to make them more efficient smaller actually so to the two opposite forces",
+      "timestamp": "08:17"
+    },
+    {
+      "start": 502.72,
+      "duration": 9.199,
+      "text": "are still uh going at the same time uh and uh so uh I I still believe that uh",
+      "timestamp": "08:22"
+    },
+    {
+      "start": 511.919,
+      "duration": 6.881,
+      "text": "so we need more kind of uh high performance compute memory and all those things to support this ever growing",
+      "timestamp": "08:31"
+    },
+    {
+      "start": 518.8,
+      "duration": 5.039,
+      "text": "large model yeah um but also at the same time you know making them more efficient",
+      "timestamp": "08:38"
+    },
+    {
+      "start": 523.839,
+      "duration": 5.44,
+      "text": "smaller is also uh happening so uh I see the three trend\n so you with furious AI",
+      "timestamp": "08:43"
+    },
+    {
+      "start": 529.279,
+      "duration": 6.721,
+      "text": "you kind of work into those both dimensions then from larger models to really small nimble nimble models like",
+      "timestamp": "08:49"
+    },
+    {
+      "start": 536.0,
+      "duration": 6.399,
+      "text": "great love that\n Scott I think just popping roughly the same question you think see similar things in the market",
+      "timestamp": "08:56"
+    },
+    {
+      "start": 542.399,
+      "duration": 6.961,
+      "text": "yeah I think what we've seen in GRC cloud is that there's large medium and small models and there's state-of-the-art models at each class of",
+      "timestamp": "09:02"
+    },
+    {
+      "start": 549.36,
+      "duration": 6.159,
+      "text": "of of size but there's an insatiable demand for these large state-of-the-art models uh",
+      "timestamp": "09:09"
+    },
+    {
+      "start": 555.519,
+      "duration": 6.561,
+      "text": "like DeepSeek you know almost 700 billion parameters yeah\n llama for Maverick I think around 400\n i don't",
+      "timestamp": "09:15"
+    },
+    {
+      "start": 562.08,
+      "duration": 5.12,
+      "text": "think that that's going to go away anytime soon i think there's going to continue to be larger and larger models",
+      "timestamp": "09:22"
+    },
+    {
+      "start": 567.2,
+      "duration": 5.04,
+      "text": "but I don't like to think about the parameter count when we think about the infrastructure that's required to power",
+      "timestamp": "09:27"
+    },
+    {
+      "start": 572.24,
+      "duration": 7.039,
+      "text": "them obviously it takes more memory it takes more chips but really what we want to focus on is the cost per token and",
+      "timestamp": "09:32"
+    },
+    {
+      "start": 579.279,
+      "duration": 6.081,
+      "text": "for those who don't know tokens are the measure of inputs and outputs in these AI models\n and if we can look at the cost",
+      "timestamp": "09:39"
+    },
+    {
+      "start": 585.36,
+      "duration": 6.32,
+      "text": "per token we can look at the jewels per token the power required to generate that token that's what we need to focus",
+      "timestamp": "09:45"
+    },
+    {
+      "start": 591.68,
+      "duration": 6.8,
+      "text": "on and even with these large models we can get very very very efficient\n now I think over time as these models get more",
+      "timestamp": "09:51"
+    },
+    {
+      "start": 598.48,
+      "duration": 5.6,
+      "text": "capable people will look to optimize them but I think it's a bit of a fairy tale to think that we're going to be running these models on our phones",
+      "timestamp": "09:58"
+    },
+    {
+      "start": 604.08,
+      "duration": 6.64,
+      "text": "anytime soon right we're still going to need data center scale infrastructure for the foreseeable future to run these",
+      "timestamp": "10:04"
+    },
+    {
+      "start": 610.72,
+      "duration": 6.4,
+      "text": "models\n yeah again that's something I definitely like to hear we're definitely in the process of building out a lot of",
+      "timestamp": "10:10"
+    },
+    {
+      "start": 617.12,
+      "duration": 8.399,
+      "text": "things here um going a little bit into this the into the spectrum of electricity usage again um and one",
+      "timestamp": "10:17"
+    },
+    {
+      "start": 625.519,
+      "duration": 5.841,
+      "text": "reason is because there's cost attached to it and that's a cost that you know cloud computing provider will will push",
+      "timestamp": "10:25"
+    },
+    {
+      "start": 631.36,
+      "duration": 6.0,
+      "text": "forward uh you know the more electricity you use uh the more costly it becomes and the larger the models the more the",
+      "timestamp": "10:31"
+    },
+    {
+      "start": 637.36,
+      "duration": 8.64,
+      "text": "electricity at the same time there are situations I mean we're all here in Singapore where electricity is relatively scarce right now um in in",
+      "timestamp": "10:37"
+    },
+    {
+      "start": 646.0,
+      "duration": 5.2,
+      "text": "that perspective do you do you see that and maybe I start with all three of you",
+      "timestamp": "10:46"
+    },
+    {
+      "start": 651.2,
+      "duration": 6.4,
+      "text": "but I start with you Ch and I in terms of do you think that's that's going to be an issue moving forward as AI keeps",
+      "timestamp": "10:51"
+    },
+    {
+      "start": 657.6,
+      "duration": 6.32,
+      "text": "being adopted more will we see problems where we run out of electricity and you know what are your thoughts maybe of uh",
+      "timestamp": "10:57"
+    },
+    {
+      "start": 663.92,
+      "duration": 6.64,
+      "text": "solving that and uh there's only so fast that we can build solar power panels or nuclear reactors right\n any thoughts",
+      "timestamp": "11:03"
+    },
+    {
+      "start": 670.56,
+      "duration": 8.08,
+      "text": "there\n yeah uh uh energy definitely is an issue right so uh with this uh the the",
+      "timestamp": "11:10"
+    },
+    {
+      "start": 678.64,
+      "duration": 5.36,
+      "text": "improvement of the uh the cheap performance yeah\n and the increase the",
+      "timestamp": "11:18"
+    },
+    {
+      "start": 684.0,
+      "duration": 5.92,
+      "text": "model um the model becomes big and big energy consumption becomes more and more",
+      "timestamp": "11:24"
+    },
+    {
+      "start": 689.92,
+      "duration": 6.72,
+      "text": "so um so currently right uh the so-called thermal management for",
+      "timestamp": "11:29"
+    },
+    {
+      "start": 696.64,
+      "duration": 6.72,
+      "text": "packaging is a very very challenging issue\n right\n yeah um so uh to this we",
+      "timestamp": "11:36"
+    },
+    {
+      "start": 703.36,
+      "duration": 6.56,
+      "text": "have a different ways and we're not going to talk about this thermal management itself but in in in general",
+      "timestamp": "11:43"
+    },
+    {
+      "start": 709.92,
+      "duration": 6.4,
+      "text": "the NH will be uh coming from say uh sona panel this is could be this could",
+      "timestamp": "11:49"
+    },
+    {
+      "start": 716.32,
+      "duration": 6.48,
+      "text": "be one of this uh a general solution for the whole What yeah and when this uh we",
+      "timestamp": "11:56"
+    },
+    {
+      "start": 722.8,
+      "duration": 5.52,
+      "text": "we put different chips all together\n the heat actually generated in in the",
+      "timestamp": "12:02"
+    },
+    {
+      "start": 728.32,
+      "duration": 5.6,
+      "text": "package cannot be dissipated okay very good point uh\n and meet our expectation",
+      "timestamp": "12:08"
+    },
+    {
+      "start": 733.92,
+      "duration": 8.52,
+      "text": "okay but in in end that there's a lot actually a waste of the energy",
+      "timestamp": "12:13"
+    },
+    {
+      "start": 743.2,
+      "duration": 7.759,
+      "text": "uh the only way I think in the future is to use the sona energ yeah so uh this is what I I'm thinking",
+      "timestamp": "12:23"
+    },
+    {
+      "start": 750.959,
+      "duration": 5.44,
+      "text": "more also moving forward\n i I like what you're saying especially about heat dissipation because we cannot forget",
+      "timestamp": "12:30"
+    },
+    {
+      "start": 756.399,
+      "duration": 6.0,
+      "text": "that cooling is obviously also very important when it comes to that that's a that's another direction that okay when",
+      "timestamp": "12:36"
+    },
+    {
+      "start": 762.399,
+      "duration": 7.201,
+      "text": "the energy consumption is is not unwarable right what we need to do is that to remove this uh the the heat from",
+      "timestamp": "12:42"
+    },
+    {
+      "start": 769.6,
+      "duration": 6.16,
+      "text": "from inside the package and to ensure that the performance yeah\n that's a that's another way that working on right",
+      "timestamp": "12:49"
+    },
+    {
+      "start": 775.76,
+      "duration": 5.36,
+      "text": "so it's also part of the packaging and makes\n sense makes sense for furiosa is",
+      "timestamp": "12:55"
+    },
+    {
+      "start": 781.12,
+      "duration": 7.2,
+      "text": "that also uh an area that is of interest like how to reduce electricity consumption\n yeah definitely uh so uh",
+      "timestamp": "13:01"
+    },
+    {
+      "start": 788.32,
+      "duration": 9.28,
+      "text": "energy is a kind of fundamental bottleneck uh to to uh to AI uh and um and also it's",
+      "timestamp": "13:08"
+    },
+    {
+      "start": 797.6,
+      "duration": 5.44,
+      "text": "one of the fundamental cost of uh running AI uh we are right now talking",
+      "timestamp": "13:17"
+    },
+    {
+      "start": 803.04,
+      "duration": 8.4,
+      "text": "about not like 100 megawatt data center we are right now this talking about even like a gigawatt data center yeah\n uh like",
+      "timestamp": "13:23"
+    },
+    {
+      "start": 811.44,
+      "duration": 8.639,
+      "text": "uh to generating this power and supplying the power will be a huge challenge uh\n and uh so definitely on our",
+      "timestamp": "13:31"
+    },
+    {
+      "start": 820.079,
+      "duration": 5.521,
+      "text": "side we tried to this uh computing as energy efficient as possible uh it",
+      "timestamp": "13:40"
+    },
+    {
+      "start": 825.6,
+      "duration": 5.12,
+      "text": "involved uh many layers of innovations like on this let's say on this",
+      "timestamp": "13:45"
+    },
+    {
+      "start": 830.72,
+      "duration": 5.04,
+      "text": "semiconductor device level like TSMC Samsung all those guys are pushing to",
+      "timestamp": "13:50"
+    },
+    {
+      "start": 835.76,
+      "duration": 7.519,
+      "text": "make the transistor as efficient as possible on packaging side you know there's tons of innovation to make this",
+      "timestamp": "13:55"
+    },
+    {
+      "start": 843.279,
+      "duration": 6.721,
+      "text": "um data moves inside and out as efficient as possible and cooling side you mentioned like all these innovation",
+      "timestamp": "14:03"
+    },
+    {
+      "start": 850.0,
+      "duration": 6.88,
+      "text": "on cooling yeah\n like liquid immersion cooling all those things and we are very focusing on this computer side to make",
+      "timestamp": "14:10"
+    },
+    {
+      "start": 856.88,
+      "duration": 6.399,
+      "text": "this compute on fundamentally uh like on the architectural level uh like we try",
+      "timestamp": "14:16"
+    },
+    {
+      "start": 863.279,
+      "duration": 5.041,
+      "text": "to make them as efficient as possible I think u but the energy efficiency will",
+      "timestamp": "14:23"
+    },
+    {
+      "start": 868.32,
+      "duration": 5.36,
+      "text": "become uh much more uh serious issue and and we are working on it actually\n yeah I",
+      "timestamp": "14:28"
+    },
+    {
+      "start": 873.68,
+      "duration": 6.24,
+      "text": "love it love it any thoughts before I switch it up to models\n yeah a few things so I think we have to just recognize",
+      "timestamp": "14:33"
+    },
+    {
+      "start": 879.92,
+      "duration": 5.12,
+      "text": "that the the trajectory that we're on with GPUs is unsustainable Yeah\n you they",
+      "timestamp": "14:39"
+    },
+    {
+      "start": 885.04,
+      "duration": 5.599,
+      "text": "went from you we went from it hardware in data centers that was consuming you",
+      "timestamp": "14:45"
+    },
+    {
+      "start": 890.639,
+      "duration": 6.961,
+      "text": "know 4 kilowatts a rack now GPUs are consuming 50 100 150 megawatt a kilowatt",
+      "timestamp": "14:50"
+    },
+    {
+      "start": 897.6,
+      "duration": 5.12,
+      "text": "sorry uh and they're talking about 500 600 700",
+      "timestamp": "14:57"
+    },
+    {
+      "start": 902.72,
+      "duration": 5.76,
+      "text": "you imagine a data center a giant hall that normally had maybe hundreds of hundreds of server racks in it will just",
+      "timestamp": "15:02"
+    },
+    {
+      "start": 908.48,
+      "duration": 6.0,
+      "text": "have one rack of GPUs in the middle of the room because that's all the power that that facility can can Exactly\n it's",
+      "timestamp": "15:08"
+    },
+    {
+      "start": 914.48,
+      "duration": 6.96,
+      "text": "totally impractical and unsustainable and the innovation cycle is is still 18 months for a lot of these chips so it's",
+      "timestamp": "15:14"
+    },
+    {
+      "start": 921.44,
+      "duration": 6.24,
+      "text": "outpacing the actual investment to build infrastructure you can't build data centers that fast\n so there's there's",
+      "timestamp": "15:21"
+    },
+    {
+      "start": 927.68,
+      "duration": 5.12,
+      "text": "this tipping point that that we're reaching very quickly\n you know and we're here at Super AI in Singapore you know",
+      "timestamp": "15:27"
+    },
+    {
+      "start": 932.8,
+      "duration": 5.2,
+      "text": "Singapore is a very land and power constrained country they have a lot of data centers here but these are not",
+      "timestamp": "15:32"
+    },
+    {
+      "start": 938.0,
+      "duration": 6.24,
+      "text": "gigawatt you know data centers like they're getting built in the US and some other places and so I think in Singapore",
+      "timestamp": "15:38"
+    },
+    {
+      "start": 944.24,
+      "duration": 6.48,
+      "text": "particularly there's this need to look past GPUs i don't think Singapore is going to be a hub for training AI models",
+      "timestamp": "15:44"
+    },
+    {
+      "start": 950.72,
+      "duration": 6.08,
+      "text": "there's just not enough power and land here to house it so they have to look at new architectures to power applications",
+      "timestamp": "15:50"
+    },
+    {
+      "start": 956.8,
+      "duration": 5.68,
+      "text": "here in Singapore and they have to be dramatically more power efficient\n yeah no to totally agree and you know",
+      "timestamp": "15:56"
+    },
+    {
+      "start": 962.48,
+      "duration": 6.24,
+      "text": "Singapore is a good example as such but I think we see similar similar scenarios in other other jurisdictions I should",
+      "timestamp": "16:02"
+    },
+    {
+      "start": 968.72,
+      "duration": 5.76,
+      "text": "say um let me focus a little bit on on models for a second because I think a lot of people in the room are probably",
+      "timestamp": "16:08"
+    },
+    {
+      "start": 974.48,
+      "duration": 5.359,
+      "text": "training implementing things might not be in the chip space itself so I think the next question is probably more for",
+      "timestamp": "16:14"
+    },
+    {
+      "start": 979.839,
+      "duration": 5.601,
+      "text": "for you June and and Scott if I want to use for example the Furiosa you AI chip",
+      "timestamp": "16:19"
+    },
+    {
+      "start": 985.44,
+      "duration": 5.519,
+      "text": "i mean we know that a lot of people just train on GPUs they use CUDA how easy how",
+      "timestamp": "16:25"
+    },
+    {
+      "start": 990.959,
+      "duration": 6.0,
+      "text": "difficult would it be for me to implement um your chips and I know I come to Grock right later on that too",
+      "timestamp": "16:30"
+    },
+    {
+      "start": 996.959,
+      "duration": 9.281,
+      "text": "okay you start from us yeah um the uh actually from um developer point",
+      "timestamp": "16:36"
+    },
+    {
+      "start": 1006.24,
+      "duration": 6.959,
+      "text": "of view uh the software is also uh the kind of key challenge for using kind of",
+      "timestamp": "16:46"
+    },
+    {
+      "start": 1013.199,
+      "duration": 5.681,
+      "text": "new architecture and new direction actually and uh and the CUDA is has a",
+      "timestamp": "16:53"
+    },
+    {
+      "start": 1018.88,
+      "duration": 6.798,
+      "text": "definitely very strong developer ecosystem\n yeah um but like if you on",
+      "timestamp": "16:58"
+    },
+    {
+      "start": 1025.679,
+      "duration": 6.239,
+      "text": "training side actually it's uh the kind dependency on cuda uh is not easy to",
+      "timestamp": "17:05"
+    },
+    {
+      "start": 1031.919,
+      "duration": 5.681,
+      "text": "solve problem I'll say but if you move to inference side\n you know uh inference",
+      "timestamp": "17:11"
+    },
+    {
+      "start": 1037.6,
+      "duration": 5.198,
+      "text": "case you usually your model is already uh decided your model is already",
+      "timestamp": "17:17"
+    },
+    {
+      "start": 1042.799,
+      "duration": 5.601,
+      "text": "developed uh the next thing the purpose of inference is you like to run deploy",
+      "timestamp": "17:22"
+    },
+    {
+      "start": 1048.4,
+      "duration": 5.12,
+      "text": "this model rather than you experiment all this kind of model architecture uh",
+      "timestamp": "17:28"
+    },
+    {
+      "start": 1053.52,
+      "duration": 7.2,
+      "text": "with uh some general kind of developer framework so your uh software stack requirement is much more streamlined",
+      "timestamp": "17:33"
+    },
+    {
+      "start": 1060.72,
+      "duration": 5.199,
+      "text": "than uh than the the train training software stack and kuda depend there is",
+      "timestamp": "17:40"
+    },
+    {
+      "start": 1065.919,
+      "duration": 5.441,
+      "text": "no not much cuda dependency I will say so but still we need to develop provide",
+      "timestamp": "17:45"
+    },
+    {
+      "start": 1071.36,
+      "duration": 5.28,
+      "text": "a quite compelling easy to use software stack that's quite challenging part but",
+      "timestamp": "17:51"
+    },
+    {
+      "start": 1076.64,
+      "duration": 5.12,
+      "text": "um I think uh especially on inference side uh there is not much kuda",
+      "timestamp": "17:56"
+    },
+    {
+      "start": 1081.76,
+      "duration": 5.039,
+      "text": "dependency yeah makes sense\n you know I think the novel observation that Grock's",
+      "timestamp": "18:01"
+    },
+    {
+      "start": 1086.799,
+      "duration": 5.681,
+      "text": "founder Jonathan Ross had after he left Google was that the software is the key",
+      "timestamp": "18:06"
+    },
+    {
+      "start": 1092.48,
+      "duration": 5.199,
+      "text": "yeah that was one of the novel observations you know we're we're in the business of physically making chips and",
+      "timestamp": "18:12"
+    },
+    {
+      "start": 1097.679,
+      "duration": 6.401,
+      "text": "deploying those all over the world but it's really software defined we actually defined the software compiler before we",
+      "timestamp": "18:17"
+    },
+    {
+      "start": 1104.08,
+      "duration": 6.16,
+      "text": "actually ever made the chips\n the chip was designed to match the software\n uh and I think that's really important",
+      "timestamp": "18:24"
+    },
+    {
+      "start": 1110.24,
+      "duration": 5.92,
+      "text": "because ultimately you need to make this easy to adopt and if you're out there just selling chips and you're telling",
+      "timestamp": "18:30"
+    },
+    {
+      "start": 1116.16,
+      "duration": 6.399,
+      "text": "the developers well you build software for this the adoption is impossible i mean look at how many new generations of",
+      "timestamp": "18:36"
+    },
+    {
+      "start": 1122.559,
+      "duration": 6.801,
+      "text": "chip have come out in the last decade very very few i mean most people could only name the GPU since the CPU\n and so I",
+      "timestamp": "18:42"
+    },
+    {
+      "start": 1129.36,
+      "duration": 6.8,
+      "text": "think this is this is a really compelling observation because you have to make it easy uh and so that's why we",
+      "timestamp": "18:49"
+    },
+    {
+      "start": 1136.16,
+      "duration": 5.519,
+      "text": "decided to build the full stack from silicon to cloud yeah\n so that the developers the engineers big companies",
+      "timestamp": "18:56"
+    },
+    {
+      "start": 1141.679,
+      "duration": 6.0,
+      "text": "startups they don't have to think about it they just can access it via an API it's very predictable it's very",
+      "timestamp": "19:01"
+    },
+    {
+      "start": 1147.679,
+      "duration": 5.681,
+      "text": "resilient um and we just abstract all that complexity away i don't think people want to live in that world of",
+      "timestamp": "19:07"
+    },
+    {
+      "start": 1153.36,
+      "duration": 6.559,
+      "text": "CUDA um in the future as they think about building these applications\n yeah look I think I'm I'm always for for",
+      "timestamp": "19:13"
+    },
+    {
+      "start": 1159.919,
+      "duration": 6.721,
+      "text": "openness and flexibility i mean in AWS we always say it's about flexibility and choice for our customers so I very much",
+      "timestamp": "19:19"
+    },
+    {
+      "start": 1166.64,
+      "duration": 6.56,
+      "text": "embrace that with that in mind then let's talk a bit about you that kind of that ecosystem let's say that we're",
+      "timestamp": "19:26"
+    },
+    {
+      "start": 1173.2,
+      "duration": 5.04,
+      "text": "building and I think um I'll pass that back over to you like how important do",
+      "timestamp": "19:33"
+    },
+    {
+      "start": 1178.24,
+      "duration": 6.16,
+      "text": "you think is it to you know that collaboration between let's say advanced hardware chips to support some of these",
+      "timestamp": "19:38"
+    },
+    {
+      "start": 1184.4,
+      "duration": 5.12,
+      "text": "language models to maybe reduce electricity for inference like how important is that collaboration and I",
+      "timestamp": "19:44"
+    },
+    {
+      "start": 1189.52,
+      "duration": 7.84,
+      "text": "assume especially when we talk about packaging that's probably very relevant yeah ecology is an issue that uh um we",
+      "timestamp": "19:49"
+    },
+    {
+      "start": 1197.36,
+      "duration": 5.04,
+      "text": "we we have to move forward carefully right so we see when we're talking about",
+      "timestamp": "19:57"
+    },
+    {
+      "start": 1202.4,
+      "duration": 6.639,
+      "text": "packaging is always related to chip right and the fat and also uh the",
+      "timestamp": "20:02"
+    },
+    {
+      "start": 1209.039,
+      "duration": 7.201,
+      "text": "so-called uh um testing and so all this so let's say the",
+      "timestamp": "20:09"
+    },
+    {
+      "start": 1216.24,
+      "duration": 7.6,
+      "text": "so we we come to an age that cheap package interaction we do a packaging that again has to be res to this uh the",
+      "timestamp": "20:16"
+    },
+    {
+      "start": 1223.84,
+      "duration": 6.64,
+      "text": "chip design as well okay and also when we output our packaging solution to our",
+      "timestamp": "20:23"
+    },
+    {
+      "start": 1230.48,
+      "duration": 5.84,
+      "text": "end customer we also need to look at the system network uh interaction so uh the",
+      "timestamp": "20:30"
+    },
+    {
+      "start": 1236.32,
+      "duration": 6.08,
+      "text": "this so-called the whole chain ecosystem is definitely uh supportive for the",
+      "timestamp": "20:36"
+    },
+    {
+      "start": 1242.4,
+      "duration": 5.759,
+      "text": "whole uh movement all together all right yeah\n so uh especially at this uh at this",
+      "timestamp": "20:42"
+    },
+    {
+      "start": 1248.159,
+      "duration": 5.041,
+      "text": "point we come to urge that the energy consumption comes to a very critical",
+      "timestamp": "20:48"
+    },
+    {
+      "start": 1253.2,
+      "duration": 7.68,
+      "text": "period\n means that the power say for example for single chip that the power could up to a few hundred watts\n uh which",
+      "timestamp": "20:53"
+    },
+    {
+      "start": 1260.88,
+      "duration": 6.32,
+      "text": "result in a very high Yeah heat density power density and uh to this we we need",
+      "timestamp": "21:00"
+    },
+    {
+      "start": 1267.2,
+      "duration": 6.4,
+      "text": "to come out a lot of uh uh for example right the the so-called symbol management positions and the relability",
+      "timestamp": "21:07"
+    },
+    {
+      "start": 1273.6,
+      "duration": 5.52,
+      "text": "issues and so on so forth so so we need to work all together uh another issues",
+      "timestamp": "21:13"
+    },
+    {
+      "start": 1279.12,
+      "duration": 5.52,
+      "text": "that as uh just you you mentioned that the hardware should somehow work",
+      "timestamp": "21:19"
+    },
+    {
+      "start": 1284.64,
+      "duration": 6.48,
+      "text": "together with software\n okay they should be compatible yeah uh and and and very",
+      "timestamp": "21:24"
+    },
+    {
+      "start": 1291.12,
+      "duration": 7.76,
+      "text": "very challenging is that this software is actually uh psychologically based and also linguistically based\n I would say so",
+      "timestamp": "21:31"
+    },
+    {
+      "start": 1298.88,
+      "duration": 8.0,
+      "text": "it's language dependent and so on so forth so this the the collaboration between how and software is also",
+      "timestamp": "21:38"
+    },
+    {
+      "start": 1306.88,
+      "duration": 5.039,
+      "text": "important and of course that global collaboration is is definitely helpful",
+      "timestamp": "21:46"
+    },
+    {
+      "start": 1311.919,
+      "duration": 5.841,
+      "text": "for us to move the whole industry together\n makes sense makes sense um and",
+      "timestamp": "21:51"
+    },
+    {
+      "start": 1317.76,
+      "duration": 6.24,
+      "text": "you want to add something that's now you're nodding very strongly I want to just um maybe put a little bit if we",
+      "timestamp": "21:57"
+    },
+    {
+      "start": 1324.0,
+      "duration": 6.799,
+      "text": "look ahead in that regard into the future like do you anticipate that you know let's say model sizes hardware",
+      "timestamp": "22:04"
+    },
+    {
+      "start": 1330.799,
+      "duration": 6.0,
+      "text": "requirements what what's your future outlook how will it change we going to get just bigger do",
+      "timestamp": "22:10"
+    },
+    {
+      "start": 1336.799,
+      "duration": 5.281,
+      "text": "we create different chips like what what's your your future outlook there and I know you don't have a crystal ball",
+      "timestamp": "22:16"
+    },
+    {
+      "start": 1342.08,
+      "duration": 8.8,
+      "text": "neither do I but I'd be curious to hear your your thoughts um yeah uh we we still expect the uh the",
+      "timestamp": "22:22"
+    },
+    {
+      "start": 1350.88,
+      "duration": 7.12,
+      "text": "this uh plenty scale effort on this uh uh AI research\n and uh",
+      "timestamp": "22:30"
+    },
+    {
+      "start": 1358.0,
+      "duration": 6.799,
+      "text": "like trying to explore the new AI capability will push the the frontier uh",
+      "timestamp": "22:38"
+    },
+    {
+      "start": 1364.799,
+      "duration": 7.601,
+      "text": "on the model sizes as well yeah because um like every one has different idea about AGI but still we try to develop",
+      "timestamp": "22:44"
+    },
+    {
+      "start": 1372.4,
+      "duration": 6.399,
+      "text": "the more capable AI model and push the boundary meaning that uh that will uh",
+      "timestamp": "22:52"
+    },
+    {
+      "start": 1378.799,
+      "duration": 7.76,
+      "text": "actually push the model size even further uh that will be quite efforts to do so in my opinion but",
+      "timestamp": "22:58"
+    },
+    {
+      "start": 1386.559,
+      "duration": 7.6,
+      "text": "but on that side also you know the scaling paradigm is just shifting from as you know from the training to the",
+      "timestamp": "23:06"
+    },
+    {
+      "start": 1394.159,
+      "duration": 6.481,
+      "text": "inference side actually so uh we try to do more inference compute to make AI cap",
+      "timestamp": "23:14"
+    },
+    {
+      "start": 1400.64,
+      "duration": 5.36,
+      "text": "models more capable actually as you using the all this deep sigma uh deep",
+      "timestamp": "23:20"
+    },
+    {
+      "start": 1406.0,
+      "duration": 6.159,
+      "text": "research model all those things so uh model side I expect Well still we have",
+      "timestamp": "23:26"
+    },
+    {
+      "start": 1412.159,
+      "duration": 6.081,
+      "text": "room for grow at the bigger model size and uh and there will be more like uh",
+      "timestamp": "23:32"
+    },
+    {
+      "start": 1418.24,
+      "duration": 5.679,
+      "text": "kind of token generation of using this large model meaning that uh it will push",
+      "timestamp": "23:38"
+    },
+    {
+      "start": 1423.919,
+      "duration": 6.961,
+      "text": "uh the uh all the uh semiconductor data center still much further yeah just to",
+      "timestamp": "23:43"
+    },
+    {
+      "start": 1430.88,
+      "duration": 6.32,
+      "text": "follow up on that because totally agree but at the same time I think one of the the things that I see a lot with our",
+      "timestamp": "23:50"
+    },
+    {
+      "start": 1437.2,
+      "duration": 6.56,
+      "text": "customers on AWS they adopt a lot of this agentic AI capabilities where you say I might have an entry model but then",
+      "timestamp": "23:57"
+    },
+    {
+      "start": 1443.76,
+      "duration": 6.72,
+      "text": "it it chains to many other models to smaller kind of agents\n do you see the same thing also where we might also have",
+      "timestamp": "24:03"
+    },
+    {
+      "start": 1450.48,
+      "duration": 6.559,
+      "text": "an inference future where you'll have all these very small agents and maybe just one big model is that is that an",
+      "timestamp": "24:10"
+    },
+    {
+      "start": 1457.039,
+      "duration": 7.041,
+      "text": "area that you see foresee yeah that'll be quite heterogeneous so we definitely compound way a kind of AI system there",
+      "timestamp": "24:17"
+    },
+    {
+      "start": 1464.08,
+      "duration": 6.079,
+      "text": "will be many specialized efficient small models while working with very powerful",
+      "timestamp": "24:24"
+    },
+    {
+      "start": 1470.159,
+      "duration": 7.12,
+      "text": "big models i think it will be mixture of all these uh yeah uh heterogeneous models it makes sense\n i agree with that",
+      "timestamp": "24:30"
+    },
+    {
+      "start": 1477.279,
+      "duration": 6.4,
+      "text": "but the challenge that you have today when you run these agentic solutions on GPUs is you press the button and you",
+      "timestamp": "24:37"
+    },
+    {
+      "start": 1483.679,
+      "duration": 7.521,
+      "text": "have to go get a coffee and come back right it takes a really long time uh and I think this is preventing a whole class",
+      "timestamp": "24:43"
+    },
+    {
+      "start": 1491.2,
+      "duration": 5.599,
+      "text": "of software a whole class of innovation because of this delay\n right and so the",
+      "timestamp": "24:51"
+    },
+    {
+      "start": 1496.799,
+      "duration": 6.641,
+      "text": "models might be heterogeneous they might be quite diverse they might be small they might be large depending on what you're trying to achieve\n but you",
+      "timestamp": "24:56"
+    },
+    {
+      "start": 1503.44,
+      "duration": 6.0,
+      "text": "ultimately need the throughput to be able to create that responsiveness like if you're trying to do voicetooice\n Yeah",
+      "timestamp": "25:03"
+    },
+    {
+      "start": 1509.44,
+      "duration": 8.64,
+      "text": "right this kind of you know highly interactive experience it has to be ultra low latency\n right and you cannot",
+      "timestamp": "25:09"
+    },
+    {
+      "start": 1518.08,
+      "duration": 6.56,
+      "text": "just optimize for the size of the model you really have to go down to the architecture and I think that connects back to your prior question we have to",
+      "timestamp": "25:18"
+    },
+    {
+      "start": 1524.64,
+      "duration": 5.76,
+      "text": "think about the the whole supply chain yeah not just the processor but the memory everything that goes into",
+      "timestamp": "25:24"
+    },
+    {
+      "start": 1530.4,
+      "duration": 6.24,
+      "text": "actually producing these systems because they're more than just chips they're really really large systems i mean these",
+      "timestamp": "25:30"
+    },
+    {
+      "start": 1536.64,
+      "duration": 5.44,
+      "text": "things are massive when you look at the scale of these things to run one single query could you know for us at least",
+      "timestamp": "25:36"
+    },
+    {
+      "start": 1542.08,
+      "duration": 6.479,
+      "text": "could be hundreds or thousands of chips for every single prompt uh and so we really have to think about optimization",
+      "timestamp": "25:42"
+    },
+    {
+      "start": 1548.559,
+      "duration": 6.321,
+      "text": "uh in every aspect of of the system even the the networking is really important and I think there's many companies out",
+      "timestamp": "25:48"
+    },
+    {
+      "start": 1554.88,
+      "duration": 6.0,
+      "text": "there innovating in everything from the optics to the packaging to the silicon to the software trying to squeak out you",
+      "timestamp": "25:54"
+    },
+    {
+      "start": 1560.88,
+      "duration": 5.76,
+      "text": "know squeeze out this performance uh in order to allow these applications to exist yeah I I like that point",
+      "timestamp": "26:00"
+    },
+    {
+      "start": 1566.64,
+      "duration": 5.519,
+      "text": "especially also we think about what can you parallelize versus what can you not",
+      "timestamp": "26:06"
+    },
+    {
+      "start": 1572.159,
+      "duration": 5.76,
+      "text": "um especially when we talk voice right we had uh where we had the where we now have speech to speech models which is",
+      "timestamp": "26:12"
+    },
+    {
+      "start": 1577.919,
+      "duration": 6.721,
+      "text": "great because now suddenly you get a very quick response versus previous loves like text to speech to text put it",
+      "timestamp": "26:17"
+    },
+    {
+      "start": 1584.64,
+      "duration": 6.0,
+      "text": "in LM put it back in and\n what about video right like you think about I don't think people realize we're probably less",
+      "timestamp": "26:24"
+    },
+    {
+      "start": 1590.64,
+      "duration": 6.159,
+      "text": "than two years away from real time generative video\n that's Right you know today it takes you know",
+      "timestamp": "26:30"
+    },
+    {
+      "start": 1596.799,
+      "duration": 6.321,
+      "text": "4550 seconds to make 5 seconds of generative AI video right it's going to",
+      "timestamp": "26:36"
+    },
+    {
+      "start": 1603.12,
+      "duration": 6.08,
+      "text": "be real time in in less than two years um you know that has a lot of implications uh for what people are",
+      "timestamp": "26:43"
+    },
+    {
+      "start": 1609.2,
+      "duration": 6.0,
+      "text": "using what people are building\n yeah um yeah and even down to like gaming or dreaming up your little virtual",
+      "timestamp": "26:49"
+    },
+    {
+      "start": 1615.2,
+      "duration": 5.12,
+      "text": "realities\n um I'm not sure if that's a little bit scary to me at times but also",
+      "timestamp": "26:55"
+    },
+    {
+      "start": 1620.32,
+      "duration": 7.599,
+      "text": "super exciting um just being mindful of time here this panel was also named that",
+      "timestamp": "27:00"
+    },
+    {
+      "start": 1627.919,
+      "duration": 9.12,
+      "text": "we're building the compute core for AGI um and so I figured it would also be nice to get your ideas of AGI i know",
+      "timestamp": "27:07"
+    },
+    {
+      "start": 1637.039,
+      "duration": 5.041,
+      "text": "there were lots of opinionated uh people here on stage before but I'd love to",
+      "timestamp": "27:17"
+    },
+    {
+      "start": 1642.08,
+      "duration": 7.199,
+      "text": "kind of hear maybe all the three of your Fords of you know what's your take on it are we are we close to AGI and you know",
+      "timestamp": "27:22"
+    },
+    {
+      "start": 1649.279,
+      "duration": 8.161,
+      "text": "how relevant will be the architectures you know the underlying chips to to maybe achieve that\n yeah uh I think we",
+      "timestamp": "27:29"
+    },
+    {
+      "start": 1657.44,
+      "duration": 6.96,
+      "text": "are already in an age of intelligent enough and then we're moving faster uh",
+      "timestamp": "27:37"
+    },
+    {
+      "start": 1664.4,
+      "duration": 6.24,
+      "text": "towards the more intelligent uh uh environment but the the here the foundation here is",
+      "timestamp": "27:44"
+    },
+    {
+      "start": 1670.64,
+      "duration": 6.24,
+      "text": "that actually we talk about the hardware okay uh we need to first of all to to",
+      "timestamp": "27:50"
+    },
+    {
+      "start": 1676.88,
+      "duration": 6.159,
+      "text": "generate this data uh now for uh for for chips we're",
+      "timestamp": "27:56"
+    },
+    {
+      "start": 1683.039,
+      "duration": 7.36,
+      "text": "already coming to the age of a so-called uh u post more uh stage okay uh and",
+      "timestamp": "28:03"
+    },
+    {
+      "start": 1690.399,
+      "duration": 7.52,
+      "text": "means that okay for each single chips the performance is already limited by a lot of uh uh uh conditions\n but yet we",
+      "timestamp": "28:10"
+    },
+    {
+      "start": 1697.919,
+      "duration": 5.041,
+      "text": "still have some quite a lot of channels to improve to move the the semiconductor",
+      "timestamp": "28:17"
+    },
+    {
+      "start": 1702.96,
+      "duration": 6.24,
+      "text": "forward continuously\n so uh we will see a single chip performance is there but uh",
+      "timestamp": "28:22"
+    },
+    {
+      "start": 1709.2,
+      "duration": 7.199,
+      "text": "we we can use actually the so so-called uh the quantity okay to to overcome this",
+      "timestamp": "28:29"
+    },
+    {
+      "start": 1716.399,
+      "duration": 7.041,
+      "text": "so-called quality uh programs moving from quality to quantity means that we can use more chips right uh to integrate",
+      "timestamp": "28:36"
+    },
+    {
+      "start": 1723.44,
+      "duration": 5.2,
+      "text": "together yeah and uh to to achieve and higher performance of the whole system",
+      "timestamp": "28:43"
+    },
+    {
+      "start": 1728.64,
+      "duration": 5.519,
+      "text": "this is uh the uh one thing say like for packaging we have so-called 3D",
+      "timestamp": "28:48"
+    },
+    {
+      "start": 1734.159,
+      "duration": 7.281,
+      "text": "integration\n put more chips in one uh one single chip to to to uh to re to achieve",
+      "timestamp": "28:54"
+    },
+    {
+      "start": 1741.44,
+      "duration": 6.479,
+      "text": "uh a high performance and lower cost and uh uh uh to more energy efficient okay",
+      "timestamp": "29:01"
+    },
+    {
+      "start": 1747.919,
+      "duration": 6.081,
+      "text": "uh so this is uh one thing okay uh from manufacturing point of view we do we do",
+      "timestamp": "29:07"
+    },
+    {
+      "start": 1754.0,
+      "duration": 6.799,
+      "text": "face a lot of manufacturing ch uh uh problems but in the long run that uh we",
+      "timestamp": "29:14"
+    },
+    {
+      "start": 1760.799,
+      "duration": 8.88,
+      "text": "could probably need to move from the current so-called mechanical system which remove in the u uh the so we",
+      "timestamp": "29:20"
+    },
+    {
+      "start": 1769.679,
+      "duration": 6.0,
+      "text": "remove an assembly kind of system okay use uh this uh uh existing material",
+      "timestamp": "29:29"
+    },
+    {
+      "start": 1775.679,
+      "duration": 5.041,
+      "text": "system but in the future the the the actual the best way in the future is",
+      "timestamp": "29:35"
+    },
+    {
+      "start": 1780.72,
+      "duration": 6.0,
+      "text": "that so-called organic system means that it's like a fertilized earth for human",
+      "timestamp": "29:40"
+    },
+    {
+      "start": 1786.72,
+      "duration": 6.079,
+      "text": "beings right they they inherit all this information and deposit it and can uh",
+      "timestamp": "29:46"
+    },
+    {
+      "start": 1792.799,
+      "duration": 5.36,
+      "text": "transmit all the way okay along the life so um I think this is probably a a long",
+      "timestamp": "29:52"
+    },
+    {
+      "start": 1798.159,
+      "duration": 6.88,
+      "text": "way to go um but yet if we cannot break through what I call this inorganic which",
+      "timestamp": "29:58"
+    },
+    {
+      "start": 1805.039,
+      "duration": 5.921,
+      "text": "is the cabinet mechanical system then uh okay the intangent thing could be far",
+      "timestamp": "30:05"
+    },
+    {
+      "start": 1810.96,
+      "duration": 6.0,
+      "text": "away to go that's what I mean okay\n i like those insights i remember soldering",
+      "timestamp": "30:10"
+    },
+    {
+      "start": 1816.96,
+      "duration": 7.04,
+      "text": "my first chip still at by hand i think that would be absolutely impossible to do right now um just channeling it a",
+      "timestamp": "30:16"
+    },
+    {
+      "start": 1824.0,
+      "duration": 7.679,
+      "text": "little bit back on like you know your take on AGI June any any take on are we closed what's the right way to go",
+      "timestamp": "30:24"
+    },
+    {
+      "start": 1831.679,
+      "duration": 5.36,
+      "text": "yeah um\n or any takeaway yeah we I mean when you started the company uh we saw",
+      "timestamp": "30:31"
+    },
+    {
+      "start": 1837.039,
+      "duration": 8.24,
+      "text": "the AlphaGago i mean uh Arpago definitely surprised us cuz uh it beats a human uh with a game go but uh",
+      "timestamp": "30:37"
+    },
+    {
+      "start": 1845.279,
+      "duration": 6.721,
+      "text": "nowadays uh we see that this uh the ARPA capability extends to more kind of",
+      "timestamp": "30:45"
+    },
+    {
+      "start": 1852.0,
+      "duration": 5.76,
+      "text": "general kind of area like a coding and we definitely see that AIQ can do really",
+      "timestamp": "30:52"
+    },
+    {
+      "start": 1857.76,
+      "duration": 6.08,
+      "text": "good math right now like graduate student level math uh and uh like we",
+      "timestamp": "30:57"
+    },
+    {
+      "start": 1863.84,
+      "duration": 6.64,
+      "text": "also we expect that that AI will apply to show more capability in more diverse",
+      "timestamp": "31:03"
+    },
+    {
+      "start": 1870.48,
+      "duration": 5.84,
+      "text": "domains definitely that's what I definitely uh am projecting and we are",
+      "timestamp": "31:10"
+    },
+    {
+      "start": 1876.32,
+      "duration": 6.8,
+      "text": "definitely exciting to build this thinking machine focusing on this compute part that can support all these",
+      "timestamp": "31:16"
+    },
+    {
+      "start": 1883.12,
+      "duration": 5.439,
+      "text": "new innovative AI applications yeah I mean especially when I think about image",
+      "timestamp": "31:23"
+    },
+    {
+      "start": 1888.559,
+      "duration": 7.441,
+      "text": "generation when I played around with stable diffusion two three years ago to what you can do now I mean that's pretty impressive um slowly running out of time",
+      "timestamp": "31:28"
+    },
+    {
+      "start": 1896.0,
+      "duration": 6.48,
+      "text": "so Scott I think I give you the last closing thoughts then here um both on Asia or anything any good takeaway for",
+      "timestamp": "31:36"
+    },
+    {
+      "start": 1902.48,
+      "duration": 6.319,
+      "text": "our audience\n so I I think I'll I'll repeat a pretty well-known quote people overestimate what will happen in two",
+      "timestamp": "31:42"
+    },
+    {
+      "start": 1908.799,
+      "duration": 6.161,
+      "text": "years and underestimate what will happen in 10\n mhm\n uh now my crystal balls no better than yours but I don't believe",
+      "timestamp": "31:48"
+    },
+    {
+      "start": 1914.96,
+      "duration": 5.68,
+      "text": "there'll be this singular moment where there's this aha moment breakthrough yeah but I do think we're entering this",
+      "timestamp": "31:54"
+    },
+    {
+      "start": 1920.64,
+      "duration": 5.919,
+      "text": "era of intelligence abundance where AI is slowly eating all the work that",
+      "timestamp": "32:00"
+    },
+    {
+      "start": 1926.559,
+      "duration": 6.24,
+      "text": "people have been doing for a very long time it's starting with the co-pilots and software engineering and productivity with for employees but it's",
+      "timestamp": "32:06"
+    },
+    {
+      "start": 1932.799,
+      "duration": 5.201,
+      "text": "going to get into the physical world with all the robots that you see on the floor\n and I think this intelligence",
+      "timestamp": "32:12"
+    },
+    {
+      "start": 1938.0,
+      "duration": 6.64,
+      "text": "abundance is going to be uh everywhere in every facet of life but it's ultimately still constrained by the",
+      "timestamp": "32:18"
+    },
+    {
+      "start": 1944.64,
+      "duration": 5.759,
+      "text": "physical infrastructure to power it and so while our companies are trying to innovate and drive the marginal cost of",
+      "timestamp": "32:24"
+    },
+    {
+      "start": 1950.399,
+      "duration": 6.16,
+      "text": "AI to zero um you know we're we're that's going to be critical in order to allow this",
+      "timestamp": "32:30"
+    },
+    {
+      "start": 1956.559,
+      "duration": 5.84,
+      "text": "intelligence abundance to really happen so I don't think about as AGI I just think about it as this really ubiquitous",
+      "timestamp": "32:36"
+    },
+    {
+      "start": 1962.399,
+      "duration": 6.321,
+      "text": "spread of intelligence around the industry and I think as our companies are successful we'll move past this era",
+      "timestamp": "32:42"
+    },
+    {
+      "start": 1968.72,
+      "duration": 6.079,
+      "text": "of GPUs they won't go away they'll still be very useful but we'll start to enable whole new classes of software",
+      "timestamp": "32:48"
+    },
+    {
+      "start": 1974.799,
+      "duration": 6.0,
+      "text": "application robotics that people didn't even know ex could exist before and I think people will look back in 10 years",
+      "timestamp": "32:54"
+    },
+    {
+      "start": 1980.799,
+      "duration": 6.48,
+      "text": "and see the world very differently\n um I don't know if we'll call it AGI but life will certainly be very different\n ah look",
+      "timestamp": "33:00"
+    },
+    {
+      "start": 1987.279,
+      "duration": 6.161,
+      "text": "I think those are some fantastic closing words i mean I hope this was insightful to the audience i certainly learned a",
+      "timestamp": "33:07"
+    },
+    {
+      "start": 1993.44,
+      "duration": 6.16,
+      "text": "lot here and I'm really looking forward to that future so thanks again Scott Chu when Chu and Ho thank thank you very",
+      "timestamp": "33:13"
+    },
+    {
+      "start": 1999.6,
+      "duration": 4.439,
+      "text": "much for your time i appreciate it",
+      "timestamp": "33:19"
+    }
+  ],
+  "extraction_timestamp": "2025-06-29T20:47:10.692870",
+  "playlist_title": "SuperAI Singapore 2025: io.net Main Stage"
+}

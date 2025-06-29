@@ -1,0 +1,791 @@
+{
+  "video_id": "lwAn8KGVVxQ",
+  "video_title": "Genesis Startup Competition Winner Announcement - SuperAI Singapore 2025",
+  "video_url": "https://www.youtube.com/watch?v=lwAn8KGVVxQ",
+  "channel_title": "SuperAI",
+  "published_at": "2025-06-27T07:46:33+00:00",
+  "duration_seconds": null,
+  "view_count": 3,
+  "like_count": 0,
+  "description": "Learn more about SuperAI: superai.com\nFollow us on X: x.com/superai_conf\n\nGenesis Startup Competition Winner Announcement\n\nWinner:\nDuy Trieu, Director of Engineering @ Nanyang Biologics\n\nStage: io.net Main Stage\n#superai #nanyangbiologics #startups #competition #healthcare \n\nRecorded on 19 June 2025",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 128,
+    "aggregated_text": "there has been a very exciting process happening here startups from around the world have come to this event to pitch their ideas many of you might have seen them present over on the WA stage next door but in the end there can only be one we have the finalists of the Genesis startup uh uh competition right down here in front of us and they are waiting to find out who is going to be the winner of the contest i have two of the three judges that are going to come up and join me on stage to make the announcement uh please welcome Chrissy Hu who is the investments director from 500 Global and Angier Lun who is a senior director of ventures APAC with the plug-andplay tech center please big warm welcome for our judges there we go thank you very much good to have you all right let's bring you guys over here center stage they put a huge amount of work into evaluating the applications sitting through the presentations thinking about their scores debating um but we'd like to know what was it that really struck you about the uh what's what struck you about the entries that we had the quality the trends and and what distinguished the winners the finalists and maybe even the winner all right thank you um this was quite difficult because um I'd say the average VC might look and work with founders for I don't know up to 10 weeks this time we had 10 minutes right it's like 5 minutes the first day 5 minutes the second day so for us we really had to distill it to just a couple very simple things um the one that I really like to talk about is that AI has really uh commoditized a technology layer right so I've been to a hackathon where there's like a hundred versions of the same product in one hour right so what what creates the winner there um so one of the things we talked about quite often is what is the asset that that founding team brings to this idea okay right it could be anything it could be the team's experience it could be a specific research asset it could be something else um but that was one of the critical things that we spoke about and the depth of that asset to create long-lasting value okay fantastic jayen you want to get your digs in yeah I was I would agree with Chrissy uh it was a tough job for all of us um Oliver wasn't here isn't here but um yeah all the founders are working on really uh cool technologies and products so it was really a tough choice for all all of us we took like I think almost an hour deliberating on the first day um yeah and on the second day I think uh it was a bit faster but um yeah without giving away too much uh of who's the winner I think the the winner stood out because of I think their proprietary access to data as well as uh years of research um um which which eventually led to the creation of their you know AI models so I think um I think welld deserved all right sounds good i'll take a hold of that and with that ladies and gentlemen I know a lot of you in the room were probably the contestants were part of this process and thank you very much for your participation we know you put a lot of work into it and you've got a lot of success ahead of you being here at Super AI is already a mark of success if you made our final group of finalists so much the better but in the end there can only be one and so we now announce the winner of the 2025 Genesis AI startup competition is Nyang Bologic [Applause] congratulations come on up yes sir right up here on stage let's have the team up here congratulations big round of applause for our winner congratulations and here we go jon if you would like to do the honors we have the trophy here for you to present to Deut from Nanyang Biologics congratulations there we go fantastic we'll get a photo first and then a few and then a few words from our winner there we go congratulations one hand on the trophy and one on the microphone uh very quickly because not everybody necessarily saw the presentation so tell us quickly who you are what you're up to and um so I didn't prepare a speech for this un unlike my pitch thank your mom uh so my name is Zui i'm the CTO of Nany Bologics um so in short we build an AI model that scan through chemical compounds and predict how it would interact with your body so that's very crucial for drug discovery uh and help fast track like years of uh R&D into just months so yeah um I'm very uh quite surprised I win so yeah very happy for this all right one more time big round of applause for our winners at Ny Young Biologics congratulations good on you and we will keep an eye out for you and be excited to see your progress over the next few years as you build the company fantastic",
+    "text_length": 4650,
+    "word_count": 913
+  },
+  "segments": [
+    {
+      "start": 4.48,
+      "duration": 2.08,
+      "text": "there has been a very exciting process",
+      "timestamp": "00:04"
+    },
+    {
+      "start": 6.56,
+      "duration": 3.039,
+      "text": "happening here startups from around the",
+      "timestamp": "00:06"
+    },
+    {
+      "start": 9.599,
+      "duration": 3.601,
+      "text": "world have come to this event to pitch",
+      "timestamp": "00:09"
+    },
+    {
+      "start": 13.2,
+      "duration": 1.68,
+      "text": "their ideas many of you might have seen",
+      "timestamp": "00:13"
+    },
+    {
+      "start": 14.88,
+      "duration": 2.64,
+      "text": "them present over on the WA stage next",
+      "timestamp": "00:14"
+    },
+    {
+      "start": 17.52,
+      "duration": 2.0,
+      "text": "door but in the end there can only be",
+      "timestamp": "00:17"
+    },
+    {
+      "start": 19.52,
+      "duration": 3.04,
+      "text": "one we have the finalists of the Genesis",
+      "timestamp": "00:19"
+    },
+    {
+      "start": 22.56,
+      "duration": 3.36,
+      "text": "startup uh uh competition right down",
+      "timestamp": "00:22"
+    },
+    {
+      "start": 25.92,
+      "duration": 2.08,
+      "text": "here in front of us and they are waiting",
+      "timestamp": "00:25"
+    },
+    {
+      "start": 28.0,
+      "duration": 2.4,
+      "text": "to find out who is going to be the",
+      "timestamp": "00:28"
+    },
+    {
+      "start": 30.4,
+      "duration": 2.24,
+      "text": "winner of the contest i have two of the",
+      "timestamp": "00:30"
+    },
+    {
+      "start": 32.64,
+      "duration": 1.12,
+      "text": "three judges that are going to come up",
+      "timestamp": "00:32"
+    },
+    {
+      "start": 33.76,
+      "duration": 2.0,
+      "text": "and join me on stage to make the",
+      "timestamp": "00:33"
+    },
+    {
+      "start": 35.76,
+      "duration": 2.24,
+      "text": "announcement uh please welcome Chrissy",
+      "timestamp": "00:35"
+    },
+    {
+      "start": 38.0,
+      "duration": 2.239,
+      "text": "Hu who is the investments director from",
+      "timestamp": "00:38"
+    },
+    {
+      "start": 40.239,
+      "duration": 3.041,
+      "text": "500 Global and Angier Lun who is a",
+      "timestamp": "00:40"
+    },
+    {
+      "start": 43.28,
+      "duration": 3.119,
+      "text": "senior director of ventures APAC with",
+      "timestamp": "00:43"
+    },
+    {
+      "start": 46.399,
+      "duration": 2.081,
+      "text": "the plug-andplay tech center please big",
+      "timestamp": "00:46"
+    },
+    {
+      "start": 48.48,
+      "duration": 3.04,
+      "text": "warm welcome for our judges there we go",
+      "timestamp": "00:48"
+    },
+    {
+      "start": 51.52,
+      "duration": 2.0,
+      "text": "thank you very much good to have you all",
+      "timestamp": "00:51"
+    },
+    {
+      "start": 53.52,
+      "duration": 1.679,
+      "text": "right let's bring you guys over here",
+      "timestamp": "00:53"
+    },
+    {
+      "start": 55.199,
+      "duration": 1.84,
+      "text": "center stage they put a huge amount of",
+      "timestamp": "00:55"
+    },
+    {
+      "start": 57.039,
+      "duration": 2.881,
+      "text": "work into evaluating the applications",
+      "timestamp": "00:57"
+    },
+    {
+      "start": 59.92,
+      "duration": 1.52,
+      "text": "sitting through the presentations",
+      "timestamp": "00:59"
+    },
+    {
+      "start": 61.44,
+      "duration": 2.48,
+      "text": "thinking about their scores debating um",
+      "timestamp": "01:01"
+    },
+    {
+      "start": 63.92,
+      "duration": 2.0,
+      "text": "but we'd like to know what was it that",
+      "timestamp": "01:03"
+    },
+    {
+      "start": 65.92,
+      "duration": 2.96,
+      "text": "really struck you about the uh what's",
+      "timestamp": "01:05"
+    },
+    {
+      "start": 68.88,
+      "duration": 1.52,
+      "text": "what struck you about the entries that",
+      "timestamp": "01:08"
+    },
+    {
+      "start": 70.4,
+      "duration": 2.48,
+      "text": "we had the quality the trends and and",
+      "timestamp": "01:10"
+    },
+    {
+      "start": 72.88,
+      "duration": 2.08,
+      "text": "what distinguished the winners the",
+      "timestamp": "01:12"
+    },
+    {
+      "start": 74.96,
+      "duration": 1.68,
+      "text": "finalists and maybe even the winner\n all",
+      "timestamp": "01:14"
+    },
+    {
+      "start": 76.64,
+      "duration": 3.119,
+      "text": "right thank you um this was quite",
+      "timestamp": "01:16"
+    },
+    {
+      "start": 79.759,
+      "duration": 3.68,
+      "text": "difficult because um I'd say the average",
+      "timestamp": "01:19"
+    },
+    {
+      "start": 83.439,
+      "duration": 2.641,
+      "text": "VC might look and work with founders for",
+      "timestamp": "01:23"
+    },
+    {
+      "start": 86.08,
+      "duration": 2.0,
+      "text": "I don't know up to 10 weeks this time we",
+      "timestamp": "01:26"
+    },
+    {
+      "start": 88.08,
+      "duration": 1.6,
+      "text": "had 10 minutes right it's like 5 minutes",
+      "timestamp": "01:28"
+    },
+    {
+      "start": 89.68,
+      "duration": 2.0,
+      "text": "the first day 5 minutes the second day",
+      "timestamp": "01:29"
+    },
+    {
+      "start": 91.68,
+      "duration": 2.479,
+      "text": "so for us we really had to distill it to",
+      "timestamp": "01:31"
+    },
+    {
+      "start": 94.159,
+      "duration": 2.801,
+      "text": "just a couple very simple things\n um the",
+      "timestamp": "01:34"
+    },
+    {
+      "start": 96.96,
+      "duration": 2.56,
+      "text": "one that I really like to talk about is",
+      "timestamp": "01:36"
+    },
+    {
+      "start": 99.52,
+      "duration": 3.279,
+      "text": "that AI has really uh commoditized a",
+      "timestamp": "01:39"
+    },
+    {
+      "start": 102.799,
+      "duration": 2.081,
+      "text": "technology layer right so I've been to a",
+      "timestamp": "01:42"
+    },
+    {
+      "start": 104.88,
+      "duration": 1.44,
+      "text": "hackathon where there's like a hundred",
+      "timestamp": "01:44"
+    },
+    {
+      "start": 106.32,
+      "duration": 2.479,
+      "text": "versions of the same product in one hour",
+      "timestamp": "01:46"
+    },
+    {
+      "start": 108.799,
+      "duration": 2.081,
+      "text": "right so what what creates the winner",
+      "timestamp": "01:48"
+    },
+    {
+      "start": 110.88,
+      "duration": 2.0,
+      "text": "there um so one of the things we talked",
+      "timestamp": "01:50"
+    },
+    {
+      "start": 112.88,
+      "duration": 2.879,
+      "text": "about quite often is what is the asset",
+      "timestamp": "01:52"
+    },
+    {
+      "start": 115.759,
+      "duration": 1.921,
+      "text": "that that founding team brings to this",
+      "timestamp": "01:55"
+    },
+    {
+      "start": 117.68,
+      "duration": 1.92,
+      "text": "idea okay\n right it could be anything it",
+      "timestamp": "01:57"
+    },
+    {
+      "start": 119.6,
+      "duration": 2.559,
+      "text": "could be the team's experience it could",
+      "timestamp": "01:59"
+    },
+    {
+      "start": 122.159,
+      "duration": 2.56,
+      "text": "be a specific research asset it could be",
+      "timestamp": "02:02"
+    },
+    {
+      "start": 124.719,
+      "duration": 2.0,
+      "text": "something else um but that was one of",
+      "timestamp": "02:04"
+    },
+    {
+      "start": 126.719,
+      "duration": 1.76,
+      "text": "the critical things that we spoke about",
+      "timestamp": "02:06"
+    },
+    {
+      "start": 128.479,
+      "duration": 2.241,
+      "text": "and the depth of that asset to create",
+      "timestamp": "02:08"
+    },
+    {
+      "start": 130.72,
+      "duration": 4.159,
+      "text": "long-lasting value\n okay fantastic jayen",
+      "timestamp": "02:10"
+    },
+    {
+      "start": 134.879,
+      "duration": 2.801,
+      "text": "you want to get your digs in\n yeah I was",
+      "timestamp": "02:14"
+    },
+    {
+      "start": 137.68,
+      "duration": 2.4,
+      "text": "I would agree with Chrissy uh it was a",
+      "timestamp": "02:17"
+    },
+    {
+      "start": 140.08,
+      "duration": 2.799,
+      "text": "tough job for all of us um Oliver wasn't",
+      "timestamp": "02:20"
+    },
+    {
+      "start": 142.879,
+      "duration": 2.72,
+      "text": "here isn't here but um yeah all the",
+      "timestamp": "02:22"
+    },
+    {
+      "start": 145.599,
+      "duration": 2.161,
+      "text": "founders are working on really uh cool",
+      "timestamp": "02:25"
+    },
+    {
+      "start": 147.76,
+      "duration": 2.0,
+      "text": "technologies and products so it was",
+      "timestamp": "02:27"
+    },
+    {
+      "start": 149.76,
+      "duration": 2.0,
+      "text": "really a tough choice for all all of us",
+      "timestamp": "02:29"
+    },
+    {
+      "start": 151.76,
+      "duration": 2.24,
+      "text": "we took like I think almost an hour",
+      "timestamp": "02:31"
+    },
+    {
+      "start": 154.0,
+      "duration": 2.879,
+      "text": "deliberating on the first day um yeah",
+      "timestamp": "02:34"
+    },
+    {
+      "start": 156.879,
+      "duration": 1.921,
+      "text": "and on the second day I think uh it was",
+      "timestamp": "02:36"
+    },
+    {
+      "start": 158.8,
+      "duration": 3.28,
+      "text": "a bit faster but um yeah without giving",
+      "timestamp": "02:38"
+    },
+    {
+      "start": 162.08,
+      "duration": 2.56,
+      "text": "away too much uh of who's the winner I",
+      "timestamp": "02:42"
+    },
+    {
+      "start": 164.64,
+      "duration": 2.16,
+      "text": "think the the winner stood out because",
+      "timestamp": "02:44"
+    },
+    {
+      "start": 166.8,
+      "duration": 2.719,
+      "text": "of I think their proprietary access to",
+      "timestamp": "02:46"
+    },
+    {
+      "start": 169.519,
+      "duration": 3.44,
+      "text": "data as well as uh years of research um",
+      "timestamp": "02:49"
+    },
+    {
+      "start": 172.959,
+      "duration": 2.0,
+      "text": "um which which eventually led to the",
+      "timestamp": "02:52"
+    },
+    {
+      "start": 174.959,
+      "duration": 2.801,
+      "text": "creation of their you know AI models so",
+      "timestamp": "02:54"
+    },
+    {
+      "start": 177.76,
+      "duration": 2.88,
+      "text": "I think um I think welld deserved\n all",
+      "timestamp": "02:57"
+    },
+    {
+      "start": 180.64,
+      "duration": 2.56,
+      "text": "right sounds good i'll take a hold of",
+      "timestamp": "03:00"
+    },
+    {
+      "start": 183.2,
+      "duration": 1.84,
+      "text": "that",
+      "timestamp": "03:03"
+    },
+    {
+      "start": 185.04,
+      "duration": 1.279,
+      "text": "and with that ladies and gentlemen I",
+      "timestamp": "03:05"
+    },
+    {
+      "start": 186.319,
+      "duration": 1.2,
+      "text": "know a lot of you in the room were",
+      "timestamp": "03:06"
+    },
+    {
+      "start": 187.519,
+      "duration": 1.601,
+      "text": "probably the contestants were part of",
+      "timestamp": "03:07"
+    },
+    {
+      "start": 189.12,
+      "duration": 1.6,
+      "text": "this process and thank you very much for",
+      "timestamp": "03:09"
+    },
+    {
+      "start": 190.72,
+      "duration": 1.68,
+      "text": "your participation we know you put a lot",
+      "timestamp": "03:10"
+    },
+    {
+      "start": 192.4,
+      "duration": 1.759,
+      "text": "of work into it and you've got a lot of",
+      "timestamp": "03:12"
+    },
+    {
+      "start": 194.159,
+      "duration": 2.08,
+      "text": "success ahead of you being here at Super",
+      "timestamp": "03:14"
+    },
+    {
+      "start": 196.239,
+      "duration": 4.08,
+      "text": "AI is already a mark of success if you",
+      "timestamp": "03:16"
+    },
+    {
+      "start": 200.319,
+      "duration": 2.081,
+      "text": "made our final group of finalists so",
+      "timestamp": "03:20"
+    },
+    {
+      "start": 202.4,
+      "duration": 2.8,
+      "text": "much the better but in the end there can",
+      "timestamp": "03:22"
+    },
+    {
+      "start": 205.2,
+      "duration": 3.28,
+      "text": "only be one and so we now announce the",
+      "timestamp": "03:25"
+    },
+    {
+      "start": 208.48,
+      "duration": 3.119,
+      "text": "winner of the 2025 Genesis AI startup",
+      "timestamp": "03:28"
+    },
+    {
+      "start": 211.599,
+      "duration": 3.92,
+      "text": "competition is",
+      "timestamp": "03:31"
+    },
+    {
+      "start": 215.519,
+      "duration": 3.531,
+      "text": "Nyang Bologic",
+      "timestamp": "03:35"
+    },
+    {
+      "start": 219.05,
+      "duration": 1.189,
+      "text": "[Applause]",
+      "timestamp": "03:39"
+    },
+    {
+      "start": 220.239,
+      "duration": 3.121,
+      "text": "congratulations come on up",
+      "timestamp": "03:40"
+    },
+    {
+      "start": 223.36,
+      "duration": 2.08,
+      "text": "yes sir right up here on stage let's",
+      "timestamp": "03:43"
+    },
+    {
+      "start": 225.44,
+      "duration": 3.6,
+      "text": "have the team up here",
+      "timestamp": "03:45"
+    },
+    {
+      "start": 229.04,
+      "duration": 2.0,
+      "text": "congratulations big round of applause",
+      "timestamp": "03:49"
+    },
+    {
+      "start": 231.04,
+      "duration": 2.8,
+      "text": "for our winner",
+      "timestamp": "03:51"
+    },
+    {
+      "start": 233.84,
+      "duration": 2.399,
+      "text": "congratulations",
+      "timestamp": "03:53"
+    },
+    {
+      "start": 236.239,
+      "duration": 2.241,
+      "text": "and here we go jon if you would like to",
+      "timestamp": "03:56"
+    },
+    {
+      "start": 238.48,
+      "duration": 1.52,
+      "text": "do the honors we have the trophy here",
+      "timestamp": "03:58"
+    },
+    {
+      "start": 240.0,
+      "duration": 2.72,
+      "text": "for you to present to Deut from Nanyang",
+      "timestamp": "04:00"
+    },
+    {
+      "start": 242.72,
+      "duration": 1.92,
+      "text": "Biologics",
+      "timestamp": "04:02"
+    },
+    {
+      "start": 244.64,
+      "duration": 1.599,
+      "text": "congratulations",
+      "timestamp": "04:04"
+    },
+    {
+      "start": 246.239,
+      "duration": 3.2,
+      "text": "there we go fantastic",
+      "timestamp": "04:06"
+    },
+    {
+      "start": 249.439,
+      "duration": 2.16,
+      "text": "we'll get a photo first and then a few",
+      "timestamp": "04:09"
+    },
+    {
+      "start": 251.599,
+      "duration": 1.761,
+      "text": "and then a few words from our winner",
+      "timestamp": "04:11"
+    },
+    {
+      "start": 253.36,
+      "duration": 3.32,
+      "text": "there we go",
+      "timestamp": "04:13"
+    },
+    {
+      "start": 257.84,
+      "duration": 2.32,
+      "text": "congratulations",
+      "timestamp": "04:17"
+    },
+    {
+      "start": 260.16,
+      "duration": 2.08,
+      "text": "one hand on the trophy and one on the",
+      "timestamp": "04:20"
+    },
+    {
+      "start": 262.24,
+      "duration": 2.239,
+      "text": "microphone uh very quickly because not",
+      "timestamp": "04:22"
+    },
+    {
+      "start": 264.479,
+      "duration": 1.361,
+      "text": "everybody necessarily saw the",
+      "timestamp": "04:24"
+    },
+    {
+      "start": 265.84,
+      "duration": 1.6,
+      "text": "presentation so tell us quickly who you",
+      "timestamp": "04:25"
+    },
+    {
+      "start": 267.44,
+      "duration": 3.68,
+      "text": "are what you're up to and\n um so I didn't",
+      "timestamp": "04:27"
+    },
+    {
+      "start": 271.12,
+      "duration": 2.799,
+      "text": "prepare a speech for this un unlike my",
+      "timestamp": "04:31"
+    },
+    {
+      "start": 273.919,
+      "duration": 3.041,
+      "text": "pitch\n thank your mom\n uh so my name is",
+      "timestamp": "04:33"
+    },
+    {
+      "start": 276.96,
+      "duration": 2.799,
+      "text": "Zui i'm the CTO of Nany Bologics um so",
+      "timestamp": "04:36"
+    },
+    {
+      "start": 279.759,
+      "duration": 2.88,
+      "text": "in short we build an AI model that scan",
+      "timestamp": "04:39"
+    },
+    {
+      "start": 282.639,
+      "duration": 2.961,
+      "text": "through chemical compounds and predict",
+      "timestamp": "04:42"
+    },
+    {
+      "start": 285.6,
+      "duration": 1.92,
+      "text": "how it would interact with your body so",
+      "timestamp": "04:45"
+    },
+    {
+      "start": 287.52,
+      "duration": 2.88,
+      "text": "that's very crucial for drug discovery",
+      "timestamp": "04:47"
+    },
+    {
+      "start": 290.4,
+      "duration": 2.64,
+      "text": "uh and help fast track like years of uh",
+      "timestamp": "04:50"
+    },
+    {
+      "start": 293.04,
+      "duration": 4.08,
+      "text": "R&D into just months so yeah um I'm very",
+      "timestamp": "04:53"
+    },
+    {
+      "start": 297.12,
+      "duration": 3.04,
+      "text": "uh quite surprised I win so yeah very",
+      "timestamp": "04:57"
+    },
+    {
+      "start": 300.16,
+      "duration": 2.319,
+      "text": "happy for this\n all right one more time",
+      "timestamp": "05:00"
+    },
+    {
+      "start": 302.479,
+      "duration": 1.601,
+      "text": "big round of applause for our winners at",
+      "timestamp": "05:02"
+    },
+    {
+      "start": 304.08,
+      "duration": 3.2,
+      "text": "Ny Young Biologics congratulations",
+      "timestamp": "05:04"
+    },
+    {
+      "start": 307.28,
+      "duration": 2.16,
+      "text": "good on you and we will keep an eye out",
+      "timestamp": "05:07"
+    },
+    {
+      "start": 309.44,
+      "duration": 1.44,
+      "text": "for you and be excited to see your",
+      "timestamp": "05:09"
+    },
+    {
+      "start": 310.88,
+      "duration": 1.68,
+      "text": "progress over the next few years as you",
+      "timestamp": "05:10"
+    },
+    {
+      "start": 312.56,
+      "duration": 3.8,
+      "text": "build the company fantastic",
+      "timestamp": "05:12"
+    }
+  ],
+  "extraction_timestamp": "2025-06-29T20:47:10.738628",
+  "playlist_title": "SuperAI Singapore 2025: io.net Main Stage"
+}

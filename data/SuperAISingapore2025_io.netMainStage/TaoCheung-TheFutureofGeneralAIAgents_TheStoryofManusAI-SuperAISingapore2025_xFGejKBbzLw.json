@@ -1,0 +1,3047 @@
+{
+  "video_id": "xFGejKBbzLw",
+  "video_title": "Tao Cheung - The Future of General AI Agents: The Story of Manus AI - SuperAI Singapore 2025",
+  "video_url": "https://www.youtube.com/watch?v=xFGejKBbzLw",
+  "channel_title": "SuperAI",
+  "published_at": "2025-06-27T08:03:34+00:00",
+  "duration_seconds": null,
+  "view_count": 124,
+  "like_count": 3,
+  "description": "Learn more about SuperAI: superai.com\nFollow us on X: x.com/superai_conf\n\nKeynote: The Future of General AI Agents: The Story of Manus AI\n\nSpeaker:\nTao Cheung, Co-Founder @ Manus AI\n\nStage: io.net Main Stage\n#superai #manus #ai #llms #aiassistants \n\nRecorded on 18 June 2025",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 504,
+    "aggregated_text": "hi hello everyone uh welcome to Singapore uh I'm Tao from Masai and I'm co-founder of this company and also right now acting as our chief product officer so this company right now is headquartered in Singapore and we also have like offices in Tokyo and uh California so after I share the story behind manus if you are interested you can check our website we have like many open positions I hope maybe some of you can join us yeah this is advertisement yeah so let's start uh in today's uh presentation so today's topic is about I want to share the story behind manas about how we come up with this idea and uh why we want to build this thing in the first place so the first topic is always about what is manus because you know after we released manus I spend like 22 days in United States and you know even in United States many people don't know this word manas because you know actually this word is not an English word this word is come from a very old Latin words which is from the MIT's moto men's at manos which means man and hand why we want to choose this name Manis which is the hand is because we seen for the past like two year two and a half years all these frontier models like open eyes models anthropic Google Gemini a lot of like very smart models they are already like smarter than most of humans but they are just the brain you know we think only use brain can solve very complex problems in the physical world yeah like for me yeah I was born in like 1986 so when I was uh when I was nine uh I started coding in my primary school but but that is like 1996 so in that time back in China not every family can afford a computer uh so I only have like two chances a week to went to my primary school's computing room to practice my coding skills so at that time I was the best in my class uh in the coding area so even I was the best but if I can't go to the computer room I can only use a pen and a paper to write all this code under the paper i can't get them done just in one time i have to go to the computer room to practice to debug and then I can get the code down right and that's exactly what we did in the past whole two years it's like we we've already have a PhD level intelligence like maybe like GBD43 these models yeah we have this PhD level intelligence but we only give them a pen and a paper and we don't give it a computer we only give the pen and paper and we ask them to solve very complex problems for us we think that's a program and we think why we choose this in hand is because we think we've already have a very smart brain right now the thing we need is like we have to build a hands for all these smart LMS so that's why we choose this name manas so this company is not about a model company we're just a uh application company build an is very smart models yeah so that's why we choose the name manus yeah and the second topic is about why we want to build this thing yeah in the first place yeah so actually you know manus is not our first product this company started like uh two years and seven months ago just one week before CH GBT so at that time we've already uh saw the GPT3 and we're saying wow this thing is cool maybe we should build something on this model and one week later chedd came out so there's no reason you have to build something else but we don't want to just you know just build another chatbot so we were looking at the chat GBT how users are using it and we found there's like a very ma major issue which is like when you are using chatbot You have to do a lot of copy paste back and forth you know like it's like a uh when chat GBT give you an answer you have to copy the answer to your workflow maybe your browser like your another applications and then you have to copy uh something from the application back to the chat GBT there are a lot of like back and forth copy copy pasting so the first thing we build is mod is kind of like a chrome browser extension which is like we made hundreds of integrations of different websites so the thing is like when you are watching YouTube there's a button at the right and if you click the button we can summarize the whole video for you with timestamps and when you are reading some paper on actively you can also like click some button in the website and you can get the explanation and the translation of the paper so it's like a or like when you are drafting an email in Gmail we can help you to leverage different LM's power to write this email and we implemented this feature one year before Google did that so when you are using Monica it's like you will have all these AI power just inside your web page not out of the context so that's Monica and actually you know Monica is the best in its category yeah we have like 20 million users now and it's generating like maybe 50 million AR right now and it's still growing yeah but the thing is that because you know all these three words a Chrome browser extension all these three words each of them just lower the ceiling for us because not everyone is using Chrome right not everyone is just using browser for their work and for the third world extension i think for many people yeah even like in today's room some of you may not know what is uh what is a browser extension right so we are always thinking about what is the l what is the next thing for us yeah so we always looking about to say yeah what is the next chipd moment we think chipd actually is very good because it defines how humans should interact with inter with lm before chipd no one knows Because you know before CH GBD GBD3 is already there for one year nobody knows how to use that model but chat GBD just you know tell the whole world this is the way uh to interact with ALM but we don't think the chatbot is the final phone of how human should interact with ALM because you know at the bottom of my heart actually I don't believe that for the motivation and the capability to ask a question this this capability actually is very rare in in human because we run modim for maybe like more than two years so we kind of know how the user behavior is for an average user they only have one question per day and for a lot of maybe like heavy users they also like only five questions a day so that is a problem that is like your product value is limited by your user so if your user have a lot of questions and they know how to ask a right question they can get the value from your product if they if they don't ask at all or they don't have questions they can feel the value from your product so we think that's a problem it's like we have a P devil intelligence there but it is only triggered by ourselves they can work by themselves we think that's a problem yeah so for us because we are already very successful in the browser extension category so it's very easy for us to come up with the idea that maybe we should build a AI browser so yeah it's not manos so from last March to last October seven months yeah we spent seven months on the AI browser thing and actually you know we put a lot of resources on that we built like a lot of uh AI features in the uh AI browser thing yeah like for this one uh the the uh the image on the right on the left uh is my favorite we call it uh the O room which is like you everyone has a lot of tabs in your browser right and it can auto group them into different topics based on the context so you don't have to group them by yourself and we also we can like upscale any images videos in your browser and we can preview summary like any uh links on your browser and we even like you know build some like AI controlling your browser which has you know you can use natural language to find people on LinkedIn yeah so you know we did a lot of thing extract data from the web page and automate the whole thing in the browser but you know after seven months of work we never release this product so like today no one knows we have this thing but we spent seven months on that that project why we didn't release these things because you know after 7 months of work we found there's a major issue for AI browser what is that issue it's like after after seven months of work when I I am the creator of that browser or I'm sitting at my computer and you will find once AI starts to control your browser you have to keep your hands off the keyboard because any movement to the computer will break the AI process and in the meantime because you don't know when AI will finish its job when you keep your hands off the keyboard but you still have to pay attention to it because you don't know when it will finish so the whole experience is kind of weird it's like keep your hands off but keep staring to the screen so you know when when I'm the creator of the I use it every day i found this is a very stupid experience so we don't think this is a product we want to deliver to our users so even we spend seven months as a very tidy stop at that time at that time we only maybe like have 40 people and we put half of the company on that project but after seven months work the product is release ready but we never release it that's a problem but we we don't just you know get some problems from the AI browser thing we also have some nerings too yeah the first learning is that we think AI should use browser ai should use because you know when we are testing this project we found AI actually has a lot of knowledge for the internet yeah the AI just knows how to use the internet it has knows many tricks many shortcuts to use the internet but the problem is that the AI should not use your browser ai should use its own browser so you can continue your work yeah you can just maybe like chat with your colleague replying to some emails maybe also just watching some YouTube on your computer so AI should use its own browser and the browser should be in the cloud so you don't have to pay attention to it you can just assign a task to the AI and you can just leave yeah this whole thing is running in the cloud yeah so that's the learnings we get from the AI browser thing and you know we sunset this project in last October and during last March to last October 7 months one thing very big happening uh during that period which is last Junai yeah cursor came out you know a lot of you know yeah cursor actually is a very great thing like the all three co-founder of this company red pig and I we are all coders from our very early stage our very early years so for us we're coders when we are using cursor we think cursor is actually a very great tool it can like speeds our speeds up our efficiency yeah and we I can code with the language I never know so I think that is actually a very great tool but the most interesting part is not us not our coders are using cursor you know the most interesting part is when we watching our friends our colleagues who are long coders when we are watching Zing using cursor this is the most interesting part yeah like this is an interface of cursor yeah and you can say like uh twoirds of the uh area is the left side is the code editor side right so when we are watching our friends watching they using cursor They are using cursor to solve their daily tasks like doing data visualization based on some excels or maybe convert a video file into an audio file or do some maybe like batch file processing just using cursor they are using cursor to solve their own tasks they're not using cursor to generate codes they're not just they're just using cursor to solve their task and when these people when these long coders using cursor they don't care they they they don't they don't they don't care about the left side because they can't evaluate the code generated by cursor the only thing they can do is keep pressing the accept button in the right right yeah a lot of people are laughing I know yeah you are the like vibe coding guys yeah so the only the only thing they can do is keep pressing the accept accept accept button Yeah so that's the moment you know we come up with this idea is that maybe we should build the right panel of cursor and build it for average people not for coders yeah we build the right panel of cursor and for average users and we combining the learnings we get from you know we get from our AI browser project it's like we should build the right thing the right panel and net it running in the cloud so it has like two advantages the first one is that you know because this thing running in the cloud so you don't have to keep pressing accept accept accept why cursor ask a user to keep accept because this thing happens on your computer so there are like maybe like some security and risks yeah if you don't get permission from user it may break your computer but if AI is using its own computer in the cloud AI can just you know keep the accept button by itself because the uh in manas each task will be assigned a fully functional virtual machine so this virtual machine is own by manus itself so anything m did to the virtual machine just will not harm your computer so if you if we let this thing run in the cloud it can you know reduce the risk uh and it won't break your computer and the second advantage is that because this is running in the cloud so actually the whole process is a synchronous so it's like when you just assign a task to us you don't have to you you don't have to care about it you can just close your computer or maybe you can just put your phone back to your pocket and leave and when the task is done you will get a notification from manus and they like okay this is the result so what we found from this whole thing is actually you know we think coding is not the ultimate goal coding is just an intermediate step for solving the task so these users all the all the people around the world these long coders they don't care about the code they only think if you can solve my task that's good i don't care what's behind this whole thing so actually you know the the whole idea of manus just comes from the learnings we get from our AI browser and also the inspirations we learn from cursor yeah so that is like maybe the whole story behind the manus about how we come up with this idea yeah so after I share like today's story uh maybe we can like have some Q&A yeah thank you my name is Tina um I want to know uh what are the most use cases that people are using your platform for and if you see any trends or patterns because I also run an AI company um we do marketing uh agents so we want to know from your experience what is it that people are using it for what are the trends that you see thank you okay a very good question yeah so right now I think the main use cases in manas uh maybe I can just define into three categories so the first one is always about building a website because you know we are we are building an AI tool for the average people so like like for most of people this may be their first website in their lifetime but we don't consider matters just as another website builder because I I I know today is like a AI event i think many of you try other like AI tools to build a website but when you are trying manage to build a website you will find the difference because you know we only think website this web pages is just a a phone to express yourself it's just maybe just like a word file like a powerpoint file just a phone to express yourself so what matters is building a website is not just about building the website itself It's always about man will do the research first to gather all this data and the information and then build the website which we so we think the content is the is the first priority is not just the website but a lot of people are building websites with with manus and the second category is slides yeah we released the manus slides like three weeks ago and this thing is kind of like went viral a lot of a lot of manus users are generating slides with manus now yeah because you know with a very simple prompt or maybe you can drop your PDF your word file to manus and man will will like convert all these text prompts uh all these images excels pdfs into a slide and you can export it into a powerpoint and the third categories is about research yeah people are using manus for like different types of research it's not just a it's not just about a deep research because you know deep research only returns you with a maybe with a very long article but only full of texts but if you're using manas to doing research you will find there are not just a text there will be like some some charts generating by Python or it will have like some real time data to fetched from some like real time uh financial sources things like that so these are like main three categories it's like web building websites slides and research yeah so that's the three thing yeah uh uh uh sorry that man yeah you are the you are the third yeah okay yeah oh yeah yeah it's me it's me yeah here's the third one yeah thank you uh hello uh my name is Loka i am from Jakarta Indonesia my company is JT4i i uh we serve LLM in France so uh I'm one of early adopter of manus and I got whit listed and I is uh just just share a thought uh yesterday I two weeks ago I tried a manus and I top up $25 for around $4,000 credits I remember and there is bonus if we sign up but there is a problem uh I run a deep uh I run a deep research using GP201 uh last year and GPT3 and anything else it takes 20 or 30 minutes and then I tried minus uh I hope and uh in my expectation it has better uh better results when I try to search hey list me a company in Asia Pacific with 10 millions revenue per year that's my expectation that minus will try in browser and list me the list of the company but the disappointment I it cost me 1.500 credits 1,500 and the result is not very good so what I'm asking here uh do you have a plan to make the prom better and make let's let's let's say this is my fault that my prom is not better enough and uh it cost me a lot of uh maybe three 30% of my credits for the bad result uh I being honest that that's very bad result and when I compare with maybe one of your competitor started with the G the company started with G it's get better result and can you explain is it my fault because it's my prom is bad or there is a lack of browser that you can try to dick into the browser I hope you can develop more better result with the browser you dip in the Google or any browser and you get solve the best result thank you yeah yeah like uh I don't think it's like a question you know it's more like an advice and we totally get it yeah you know like in today's AI tools is also about there will be some like maybe problems and we also have like a rating system yeah if sometimes you face some problems okay this result is not met my requirements you can just rate it into maybe one or two stars and after re reviewed by my colleagues we will like return all the credits for you so that's kind of my kism uh we we can like save users from this circumstances yeah so this one is the third one right uh I I forget which one yeah you yeah yeah yeah so this is the last one because my time is running out oh oh we don't have this one okay yeah yeah sorry yeah we can maybe talk later yeah so nice thanks",
+    "text_length": 19219,
+    "word_count": 3838
+  },
+  "segments": [
+    {
+      "start": 7.68,
+      "duration": 2.24,
+      "text": "hi hello everyone uh welcome to",
+      "timestamp": "00:07"
+    },
+    {
+      "start": 9.92,
+      "duration": 3.36,
+      "text": "Singapore uh I'm Tao from Masai and I'm",
+      "timestamp": "00:09"
+    },
+    {
+      "start": 13.28,
+      "duration": 2.16,
+      "text": "co-founder of this company and also",
+      "timestamp": "00:13"
+    },
+    {
+      "start": 15.44,
+      "duration": 2.32,
+      "text": "right now acting as our chief product",
+      "timestamp": "00:15"
+    },
+    {
+      "start": 17.76,
+      "duration": 2.56,
+      "text": "officer so this company right now is",
+      "timestamp": "00:17"
+    },
+    {
+      "start": 20.32,
+      "duration": 1.92,
+      "text": "headquartered in Singapore and we also",
+      "timestamp": "00:20"
+    },
+    {
+      "start": 22.24,
+      "duration": 2.64,
+      "text": "have like offices in Tokyo and uh",
+      "timestamp": "00:22"
+    },
+    {
+      "start": 24.88,
+      "duration": 3.36,
+      "text": "California so after I share the story",
+      "timestamp": "00:24"
+    },
+    {
+      "start": 28.24,
+      "duration": 2.56,
+      "text": "behind manus if you are interested you",
+      "timestamp": "00:28"
+    },
+    {
+      "start": 30.8,
+      "duration": 2.16,
+      "text": "can check our website we have like many",
+      "timestamp": "00:30"
+    },
+    {
+      "start": 32.96,
+      "duration": 2.72,
+      "text": "open positions I hope maybe some of you",
+      "timestamp": "00:32"
+    },
+    {
+      "start": 35.68,
+      "duration": 2.96,
+      "text": "can join us yeah this is advertisement",
+      "timestamp": "00:35"
+    },
+    {
+      "start": 38.64,
+      "duration": 4.079,
+      "text": "yeah so let's start uh in today's uh",
+      "timestamp": "00:38"
+    },
+    {
+      "start": 42.719,
+      "duration": 2.641,
+      "text": "presentation so today's topic is about I",
+      "timestamp": "00:42"
+    },
+    {
+      "start": 45.36,
+      "duration": 2.4,
+      "text": "want to share the story behind manas",
+      "timestamp": "00:45"
+    },
+    {
+      "start": 47.76,
+      "duration": 3.04,
+      "text": "about how we come up with this idea and",
+      "timestamp": "00:47"
+    },
+    {
+      "start": 50.8,
+      "duration": 2.16,
+      "text": "uh why we want to build this thing in",
+      "timestamp": "00:50"
+    },
+    {
+      "start": 52.96,
+      "duration": 2.72,
+      "text": "the first place so the first topic is",
+      "timestamp": "00:52"
+    },
+    {
+      "start": 55.68,
+      "duration": 3.12,
+      "text": "always about what is manus because you",
+      "timestamp": "00:55"
+    },
+    {
+      "start": 58.8,
+      "duration": 2.88,
+      "text": "know after we released manus I spend",
+      "timestamp": "00:58"
+    },
+    {
+      "start": 61.68,
+      "duration": 3.198,
+      "text": "like 22 days in United States and you",
+      "timestamp": "01:01"
+    },
+    {
+      "start": 64.879,
+      "duration": 3.841,
+      "text": "know even in United States many people",
+      "timestamp": "01:04"
+    },
+    {
+      "start": 68.72,
+      "duration": 2.88,
+      "text": "don't know this word manas because you",
+      "timestamp": "01:08"
+    },
+    {
+      "start": 71.6,
+      "duration": 1.68,
+      "text": "know actually this word is not an",
+      "timestamp": "01:11"
+    },
+    {
+      "start": 73.28,
+      "duration": 2.64,
+      "text": "English word this word is come from a",
+      "timestamp": "01:13"
+    },
+    {
+      "start": 75.92,
+      "duration": 3.04,
+      "text": "very old Latin words which is from the",
+      "timestamp": "01:15"
+    },
+    {
+      "start": 78.96,
+      "duration": 4.08,
+      "text": "MIT's moto men's at manos which means",
+      "timestamp": "01:18"
+    },
+    {
+      "start": 83.04,
+      "duration": 3.84,
+      "text": "man and hand why we want to choose this",
+      "timestamp": "01:23"
+    },
+    {
+      "start": 86.88,
+      "duration": 3.84,
+      "text": "name Manis which is the hand is because",
+      "timestamp": "01:26"
+    },
+    {
+      "start": 90.72,
+      "duration": 3.039,
+      "text": "we seen for the past like two year two",
+      "timestamp": "01:30"
+    },
+    {
+      "start": 93.759,
+      "duration": 2.081,
+      "text": "and a half years",
+      "timestamp": "01:33"
+    },
+    {
+      "start": 95.84,
+      "duration": 3.12,
+      "text": "all these frontier models like open eyes",
+      "timestamp": "01:35"
+    },
+    {
+      "start": 98.96,
+      "duration": 2.96,
+      "text": "models anthropic Google Gemini a lot of",
+      "timestamp": "01:38"
+    },
+    {
+      "start": 101.92,
+      "duration": 3.6,
+      "text": "like very smart models they are already",
+      "timestamp": "01:41"
+    },
+    {
+      "start": 105.52,
+      "duration": 3.599,
+      "text": "like smarter than most of humans but",
+      "timestamp": "01:45"
+    },
+    {
+      "start": 109.119,
+      "duration": 2.96,
+      "text": "they are just the brain you know we",
+      "timestamp": "01:49"
+    },
+    {
+      "start": 112.079,
+      "duration": 2.241,
+      "text": "think only use brain",
+      "timestamp": "01:52"
+    },
+    {
+      "start": 114.32,
+      "duration": 2.88,
+      "text": "can solve very complex problems in the",
+      "timestamp": "01:54"
+    },
+    {
+      "start": 117.2,
+      "duration": 3.599,
+      "text": "physical world yeah like for me yeah I",
+      "timestamp": "01:57"
+    },
+    {
+      "start": 120.799,
+      "duration": 2.64,
+      "text": "was born in like 1986",
+      "timestamp": "02:00"
+    },
+    {
+      "start": 123.439,
+      "duration": 3.36,
+      "text": "so when I was uh when I was nine uh I",
+      "timestamp": "02:03"
+    },
+    {
+      "start": 126.799,
+      "duration": 2.721,
+      "text": "started coding in my primary school but",
+      "timestamp": "02:06"
+    },
+    {
+      "start": 129.52,
+      "duration": 3.12,
+      "text": "but that is like 1996",
+      "timestamp": "02:09"
+    },
+    {
+      "start": 132.64,
+      "duration": 3.04,
+      "text": "so in that time back in China not every",
+      "timestamp": "02:12"
+    },
+    {
+      "start": 135.68,
+      "duration": 3.199,
+      "text": "family can afford a computer uh so I",
+      "timestamp": "02:15"
+    },
+    {
+      "start": 138.879,
+      "duration": 2.641,
+      "text": "only have like two chances a week to",
+      "timestamp": "02:18"
+    },
+    {
+      "start": 141.52,
+      "duration": 1.68,
+      "text": "went to my primary school's computing",
+      "timestamp": "02:21"
+    },
+    {
+      "start": 143.2,
+      "duration": 3.6,
+      "text": "room to practice my coding skills so at",
+      "timestamp": "02:23"
+    },
+    {
+      "start": 146.8,
+      "duration": 2.72,
+      "text": "that time I was the best in my class uh",
+      "timestamp": "02:26"
+    },
+    {
+      "start": 149.52,
+      "duration": 2.96,
+      "text": "in the coding area so even I was the",
+      "timestamp": "02:29"
+    },
+    {
+      "start": 152.48,
+      "duration": 3.52,
+      "text": "best but if I can't go to the computer",
+      "timestamp": "02:32"
+    },
+    {
+      "start": 156.0,
+      "duration": 3.2,
+      "text": "room I can only use a pen and a paper to",
+      "timestamp": "02:36"
+    },
+    {
+      "start": 159.2,
+      "duration": 2.72,
+      "text": "write all this code under the paper i",
+      "timestamp": "02:39"
+    },
+    {
+      "start": 161.92,
+      "duration": 2.88,
+      "text": "can't get them done just in one time i",
+      "timestamp": "02:41"
+    },
+    {
+      "start": 164.8,
+      "duration": 1.92,
+      "text": "have to go to the computer room to",
+      "timestamp": "02:44"
+    },
+    {
+      "start": 166.72,
+      "duration": 2.96,
+      "text": "practice to debug and then I can get the",
+      "timestamp": "02:46"
+    },
+    {
+      "start": 169.68,
+      "duration": 3.6,
+      "text": "code down right and that's exactly what",
+      "timestamp": "02:49"
+    },
+    {
+      "start": 173.28,
+      "duration": 3.52,
+      "text": "we did in the past whole two years it's",
+      "timestamp": "02:53"
+    },
+    {
+      "start": 176.8,
+      "duration": 3.04,
+      "text": "like we we've already have a PhD level",
+      "timestamp": "02:56"
+    },
+    {
+      "start": 179.84,
+      "duration": 4.319,
+      "text": "intelligence like maybe like GBD43",
+      "timestamp": "02:59"
+    },
+    {
+      "start": 184.159,
+      "duration": 2.481,
+      "text": "these models yeah we have this PhD level",
+      "timestamp": "03:04"
+    },
+    {
+      "start": 186.64,
+      "duration": 3.2,
+      "text": "intelligence but we only give them a pen",
+      "timestamp": "03:06"
+    },
+    {
+      "start": 189.84,
+      "duration": 2.08,
+      "text": "and a paper and we don't give it a",
+      "timestamp": "03:09"
+    },
+    {
+      "start": 191.92,
+      "duration": 1.92,
+      "text": "computer we only give the pen and paper",
+      "timestamp": "03:11"
+    },
+    {
+      "start": 193.84,
+      "duration": 3.36,
+      "text": "and we ask them to solve very complex",
+      "timestamp": "03:13"
+    },
+    {
+      "start": 197.2,
+      "duration": 2.72,
+      "text": "problems for us we think that's a",
+      "timestamp": "03:17"
+    },
+    {
+      "start": 199.92,
+      "duration": 2.8,
+      "text": "program and we think why we choose this",
+      "timestamp": "03:19"
+    },
+    {
+      "start": 202.72,
+      "duration": 2.4,
+      "text": "in hand is because we think we've",
+      "timestamp": "03:22"
+    },
+    {
+      "start": 205.12,
+      "duration": 2.64,
+      "text": "already have a very smart brain right",
+      "timestamp": "03:25"
+    },
+    {
+      "start": 207.76,
+      "duration": 3.039,
+      "text": "now the thing we need is like we have to",
+      "timestamp": "03:27"
+    },
+    {
+      "start": 210.799,
+      "duration": 3.841,
+      "text": "build a hands for all these smart LMS so",
+      "timestamp": "03:30"
+    },
+    {
+      "start": 214.64,
+      "duration": 3.12,
+      "text": "that's why we choose this name manas so",
+      "timestamp": "03:34"
+    },
+    {
+      "start": 217.76,
+      "duration": 2.16,
+      "text": "this company is not about a model",
+      "timestamp": "03:37"
+    },
+    {
+      "start": 219.92,
+      "duration": 2.72,
+      "text": "company we're just a uh application",
+      "timestamp": "03:39"
+    },
+    {
+      "start": 222.64,
+      "duration": 3.36,
+      "text": "company build an is very smart models",
+      "timestamp": "03:42"
+    },
+    {
+      "start": 226.0,
+      "duration": 2.159,
+      "text": "yeah so that's why we choose the name",
+      "timestamp": "03:46"
+    },
+    {
+      "start": 228.159,
+      "duration": 3.921,
+      "text": "manus yeah and the second topic is about",
+      "timestamp": "03:48"
+    },
+    {
+      "start": 232.08,
+      "duration": 2.239,
+      "text": "why we want to build this thing yeah in",
+      "timestamp": "03:52"
+    },
+    {
+      "start": 234.319,
+      "duration": 3.601,
+      "text": "the first place yeah so actually you",
+      "timestamp": "03:54"
+    },
+    {
+      "start": 237.92,
+      "duration": 3.28,
+      "text": "know manus is not our first product this",
+      "timestamp": "03:57"
+    },
+    {
+      "start": 241.2,
+      "duration": 3.44,
+      "text": "company started like uh two years and",
+      "timestamp": "04:01"
+    },
+    {
+      "start": 244.64,
+      "duration": 3.04,
+      "text": "seven months ago just one week before CH",
+      "timestamp": "04:04"
+    },
+    {
+      "start": 247.68,
+      "duration": 3.839,
+      "text": "GBT so at that time we've already uh saw",
+      "timestamp": "04:07"
+    },
+    {
+      "start": 251.519,
+      "duration": 2.72,
+      "text": "the GPT3 and we're saying wow this thing",
+      "timestamp": "04:11"
+    },
+    {
+      "start": 254.239,
+      "duration": 2.081,
+      "text": "is cool maybe we should build something",
+      "timestamp": "04:14"
+    },
+    {
+      "start": 256.32,
+      "duration": 3.28,
+      "text": "on this model and one week later chedd",
+      "timestamp": "04:16"
+    },
+    {
+      "start": 259.6,
+      "duration": 2.24,
+      "text": "came out so there's no reason you have",
+      "timestamp": "04:19"
+    },
+    {
+      "start": 261.84,
+      "duration": 2.72,
+      "text": "to build something else but we don't",
+      "timestamp": "04:21"
+    },
+    {
+      "start": 264.56,
+      "duration": 2.24,
+      "text": "want to just you know just build another",
+      "timestamp": "04:24"
+    },
+    {
+      "start": 266.8,
+      "duration": 3.119,
+      "text": "chatbot so we were looking at the chat",
+      "timestamp": "04:26"
+    },
+    {
+      "start": 269.919,
+      "duration": 3.201,
+      "text": "GBT how users are using it and we found",
+      "timestamp": "04:29"
+    },
+    {
+      "start": 273.12,
+      "duration": 3.2,
+      "text": "there's like a very ma major issue which",
+      "timestamp": "04:33"
+    },
+    {
+      "start": 276.32,
+      "duration": 2.24,
+      "text": "is like when you are using chatbot",
+      "timestamp": "04:36"
+    },
+    {
+      "start": 278.56,
+      "duration": 2.88,
+      "text": "You have to do a lot of copy paste back",
+      "timestamp": "04:38"
+    },
+    {
+      "start": 281.44,
+      "duration": 2.24,
+      "text": "and forth you know like it's like a uh",
+      "timestamp": "04:41"
+    },
+    {
+      "start": 283.68,
+      "duration": 2.079,
+      "text": "when chat GBT give you an answer you",
+      "timestamp": "04:43"
+    },
+    {
+      "start": 285.759,
+      "duration": 2.481,
+      "text": "have to copy the answer to your workflow",
+      "timestamp": "04:45"
+    },
+    {
+      "start": 288.24,
+      "duration": 2.48,
+      "text": "maybe your browser like your another",
+      "timestamp": "04:48"
+    },
+    {
+      "start": 290.72,
+      "duration": 3.12,
+      "text": "applications and then you have to copy",
+      "timestamp": "04:50"
+    },
+    {
+      "start": 293.84,
+      "duration": 1.76,
+      "text": "uh something from the application back",
+      "timestamp": "04:53"
+    },
+    {
+      "start": 295.6,
+      "duration": 2.4,
+      "text": "to the chat GBT there are a lot of like",
+      "timestamp": "04:55"
+    },
+    {
+      "start": 298.0,
+      "duration": 2.96,
+      "text": "back and forth copy copy pasting so the",
+      "timestamp": "04:58"
+    },
+    {
+      "start": 300.96,
+      "duration": 4.239,
+      "text": "first thing we build is mod",
+      "timestamp": "05:00"
+    },
+    {
+      "start": 305.199,
+      "duration": 2.0,
+      "text": "is kind of like a chrome browser",
+      "timestamp": "05:05"
+    },
+    {
+      "start": 307.199,
+      "duration": 0.961,
+      "text": "extension",
+      "timestamp": "05:07"
+    },
+    {
+      "start": 308.16,
+      "duration": 2.64,
+      "text": "which is like we made hundreds of",
+      "timestamp": "05:08"
+    },
+    {
+      "start": 310.8,
+      "duration": 3.44,
+      "text": "integrations of different websites so",
+      "timestamp": "05:10"
+    },
+    {
+      "start": 314.24,
+      "duration": 2.08,
+      "text": "the thing is like when you are watching",
+      "timestamp": "05:14"
+    },
+    {
+      "start": 316.32,
+      "duration": 2.159,
+      "text": "YouTube there's a button at the right",
+      "timestamp": "05:16"
+    },
+    {
+      "start": 318.479,
+      "duration": 2.16,
+      "text": "and if you click the button we can",
+      "timestamp": "05:18"
+    },
+    {
+      "start": 320.639,
+      "duration": 2.161,
+      "text": "summarize the whole video for you with",
+      "timestamp": "05:20"
+    },
+    {
+      "start": 322.8,
+      "duration": 2.399,
+      "text": "timestamps and when you are reading some",
+      "timestamp": "05:22"
+    },
+    {
+      "start": 325.199,
+      "duration": 2.321,
+      "text": "paper on actively you can also like",
+      "timestamp": "05:25"
+    },
+    {
+      "start": 327.52,
+      "duration": 2.239,
+      "text": "click some button in the website and you",
+      "timestamp": "05:27"
+    },
+    {
+      "start": 329.759,
+      "duration": 2.081,
+      "text": "can get the explanation and the",
+      "timestamp": "05:29"
+    },
+    {
+      "start": 331.84,
+      "duration": 2.96,
+      "text": "translation of the paper so it's like a",
+      "timestamp": "05:31"
+    },
+    {
+      "start": 334.8,
+      "duration": 1.92,
+      "text": "or like when you are drafting an email",
+      "timestamp": "05:34"
+    },
+    {
+      "start": 336.72,
+      "duration": 2.479,
+      "text": "in Gmail we can help you to leverage",
+      "timestamp": "05:36"
+    },
+    {
+      "start": 339.199,
+      "duration": 2.641,
+      "text": "different LM's power to write this email",
+      "timestamp": "05:39"
+    },
+    {
+      "start": 341.84,
+      "duration": 3.199,
+      "text": "and we implemented this feature one year",
+      "timestamp": "05:41"
+    },
+    {
+      "start": 345.039,
+      "duration": 2.801,
+      "text": "before Google did that so when you are",
+      "timestamp": "05:45"
+    },
+    {
+      "start": 347.84,
+      "duration": 2.88,
+      "text": "using Monica it's like you will have all",
+      "timestamp": "05:47"
+    },
+    {
+      "start": 350.72,
+      "duration": 3.28,
+      "text": "these AI power just inside your web page",
+      "timestamp": "05:50"
+    },
+    {
+      "start": 354.0,
+      "duration": 3.12,
+      "text": "not out of the context so that's Monica",
+      "timestamp": "05:54"
+    },
+    {
+      "start": 357.12,
+      "duration": 3.84,
+      "text": "and actually you know Monica is the best",
+      "timestamp": "05:57"
+    },
+    {
+      "start": 360.96,
+      "duration": 2.64,
+      "text": "in its category yeah we have like 20",
+      "timestamp": "06:00"
+    },
+    {
+      "start": 363.6,
+      "duration": 2.319,
+      "text": "million users now and it's generating",
+      "timestamp": "06:03"
+    },
+    {
+      "start": 365.919,
+      "duration": 2.481,
+      "text": "like maybe 50 million AR right now and",
+      "timestamp": "06:05"
+    },
+    {
+      "start": 368.4,
+      "duration": 3.28,
+      "text": "it's still growing yeah but the thing is",
+      "timestamp": "06:08"
+    },
+    {
+      "start": 371.68,
+      "duration": 2.16,
+      "text": "that because you know all these three",
+      "timestamp": "06:11"
+    },
+    {
+      "start": 373.84,
+      "duration": 4.079,
+      "text": "words a Chrome browser extension all",
+      "timestamp": "06:13"
+    },
+    {
+      "start": 377.919,
+      "duration": 2.321,
+      "text": "these three words each of them just",
+      "timestamp": "06:17"
+    },
+    {
+      "start": 380.24,
+      "duration": 2.56,
+      "text": "lower the ceiling for us because not",
+      "timestamp": "06:20"
+    },
+    {
+      "start": 382.8,
+      "duration": 2.399,
+      "text": "everyone is using Chrome right not",
+      "timestamp": "06:22"
+    },
+    {
+      "start": 385.199,
+      "duration": 2.081,
+      "text": "everyone is just using browser for their",
+      "timestamp": "06:25"
+    },
+    {
+      "start": 387.28,
+      "duration": 3.359,
+      "text": "work and for the third world extension i",
+      "timestamp": "06:27"
+    },
+    {
+      "start": 390.639,
+      "duration": 2.56,
+      "text": "think for many people yeah even like in",
+      "timestamp": "06:30"
+    },
+    {
+      "start": 393.199,
+      "duration": 2.321,
+      "text": "today's room some of you may not know",
+      "timestamp": "06:33"
+    },
+    {
+      "start": 395.52,
+      "duration": 3.2,
+      "text": "what is uh what is a browser extension",
+      "timestamp": "06:35"
+    },
+    {
+      "start": 398.72,
+      "duration": 2.96,
+      "text": "right so we are always thinking about",
+      "timestamp": "06:38"
+    },
+    {
+      "start": 401.68,
+      "duration": 2.799,
+      "text": "what is the l what is the next thing for",
+      "timestamp": "06:41"
+    },
+    {
+      "start": 404.479,
+      "duration": 3.761,
+      "text": "us yeah so we always looking about to",
+      "timestamp": "06:44"
+    },
+    {
+      "start": 408.24,
+      "duration": 2.399,
+      "text": "say yeah what is the next chipd moment",
+      "timestamp": "06:48"
+    },
+    {
+      "start": 410.639,
+      "duration": 2.481,
+      "text": "we think chipd actually is very good",
+      "timestamp": "06:50"
+    },
+    {
+      "start": 413.12,
+      "duration": 2.88,
+      "text": "because it defines how humans should",
+      "timestamp": "06:53"
+    },
+    {
+      "start": 416.0,
+      "duration": 3.44,
+      "text": "interact with inter with lm before chipd",
+      "timestamp": "06:56"
+    },
+    {
+      "start": 419.44,
+      "duration": 2.159,
+      "text": "no one knows Because you know before CH",
+      "timestamp": "06:59"
+    },
+    {
+      "start": 421.599,
+      "duration": 3.121,
+      "text": "GBD GBD3 is already there for one year",
+      "timestamp": "07:01"
+    },
+    {
+      "start": 424.72,
+      "duration": 2.24,
+      "text": "nobody knows how to use that model but",
+      "timestamp": "07:04"
+    },
+    {
+      "start": 426.96,
+      "duration": 2.639,
+      "text": "chat GBD just you know tell the whole",
+      "timestamp": "07:06"
+    },
+    {
+      "start": 429.599,
+      "duration": 2.561,
+      "text": "world this is the way uh to interact",
+      "timestamp": "07:09"
+    },
+    {
+      "start": 432.16,
+      "duration": 3.759,
+      "text": "with ALM but we don't think the chatbot",
+      "timestamp": "07:12"
+    },
+    {
+      "start": 435.919,
+      "duration": 2.881,
+      "text": "is the final phone of how human should",
+      "timestamp": "07:15"
+    },
+    {
+      "start": 438.8,
+      "duration": 2.48,
+      "text": "interact with ALM because you know at",
+      "timestamp": "07:18"
+    },
+    {
+      "start": 441.28,
+      "duration": 2.56,
+      "text": "the bottom of my heart actually I don't",
+      "timestamp": "07:21"
+    },
+    {
+      "start": 443.84,
+      "duration": 3.44,
+      "text": "believe that for the motivation and the",
+      "timestamp": "07:23"
+    },
+    {
+      "start": 447.28,
+      "duration": 3.359,
+      "text": "capability to ask a question this this",
+      "timestamp": "07:27"
+    },
+    {
+      "start": 450.639,
+      "duration": 3.041,
+      "text": "capability actually is very rare in in",
+      "timestamp": "07:30"
+    },
+    {
+      "start": 453.68,
+      "duration": 2.88,
+      "text": "human because we run modim for maybe",
+      "timestamp": "07:33"
+    },
+    {
+      "start": 456.56,
+      "duration": 2.8,
+      "text": "like more than two years so we kind of",
+      "timestamp": "07:36"
+    },
+    {
+      "start": 459.36,
+      "duration": 3.52,
+      "text": "know how the user behavior is for an",
+      "timestamp": "07:39"
+    },
+    {
+      "start": 462.88,
+      "duration": 2.64,
+      "text": "average user they only have one question",
+      "timestamp": "07:42"
+    },
+    {
+      "start": 465.52,
+      "duration": 2.72,
+      "text": "per day and for a lot of maybe like",
+      "timestamp": "07:45"
+    },
+    {
+      "start": 468.24,
+      "duration": 3.28,
+      "text": "heavy users they also like only five",
+      "timestamp": "07:48"
+    },
+    {
+      "start": 471.52,
+      "duration": 2.72,
+      "text": "questions a day so that is a problem",
+      "timestamp": "07:51"
+    },
+    {
+      "start": 474.24,
+      "duration": 3.12,
+      "text": "that is like your product value is",
+      "timestamp": "07:54"
+    },
+    {
+      "start": 477.36,
+      "duration": 3.76,
+      "text": "limited by your user so if your user",
+      "timestamp": "07:57"
+    },
+    {
+      "start": 481.12,
+      "duration": 2.0,
+      "text": "have a lot of questions and they know",
+      "timestamp": "08:01"
+    },
+    {
+      "start": 483.12,
+      "duration": 2.96,
+      "text": "how to ask a right question they can get",
+      "timestamp": "08:03"
+    },
+    {
+      "start": 486.08,
+      "duration": 3.119,
+      "text": "the value from your product if they if",
+      "timestamp": "08:06"
+    },
+    {
+      "start": 489.199,
+      "duration": 2.241,
+      "text": "they don't ask at all or they don't have",
+      "timestamp": "08:09"
+    },
+    {
+      "start": 491.44,
+      "duration": 2.64,
+      "text": "questions they can feel the value from",
+      "timestamp": "08:11"
+    },
+    {
+      "start": 494.08,
+      "duration": 1.92,
+      "text": "your product so we think that's a",
+      "timestamp": "08:14"
+    },
+    {
+      "start": 496.0,
+      "duration": 3.12,
+      "text": "problem it's like we have a P devil",
+      "timestamp": "08:16"
+    },
+    {
+      "start": 499.12,
+      "duration": 2.96,
+      "text": "intelligence there but it is only",
+      "timestamp": "08:19"
+    },
+    {
+      "start": 502.08,
+      "duration": 2.799,
+      "text": "triggered by ourselves they can work by",
+      "timestamp": "08:22"
+    },
+    {
+      "start": 504.879,
+      "duration": 2.081,
+      "text": "themselves we think that's a problem",
+      "timestamp": "08:24"
+    },
+    {
+      "start": 506.96,
+      "duration": 3.76,
+      "text": "yeah so for us because we are already",
+      "timestamp": "08:26"
+    },
+    {
+      "start": 510.72,
+      "duration": 2.559,
+      "text": "very successful in the browser extension",
+      "timestamp": "08:30"
+    },
+    {
+      "start": 513.279,
+      "duration": 2.239,
+      "text": "category so it's very easy for us to",
+      "timestamp": "08:33"
+    },
+    {
+      "start": 515.519,
+      "duration": 2.32,
+      "text": "come up with the idea that maybe we",
+      "timestamp": "08:35"
+    },
+    {
+      "start": 517.839,
+      "duration": 4.241,
+      "text": "should build a AI browser so yeah it's",
+      "timestamp": "08:37"
+    },
+    {
+      "start": 522.08,
+      "duration": 2.879,
+      "text": "not manos so from last March to last",
+      "timestamp": "08:42"
+    },
+    {
+      "start": 524.959,
+      "duration": 3.361,
+      "text": "October seven months yeah we spent seven",
+      "timestamp": "08:44"
+    },
+    {
+      "start": 528.32,
+      "duration": 3.04,
+      "text": "months on the AI browser thing and",
+      "timestamp": "08:48"
+    },
+    {
+      "start": 531.36,
+      "duration": 2.08,
+      "text": "actually you know we put a lot of",
+      "timestamp": "08:51"
+    },
+    {
+      "start": 533.44,
+      "duration": 3.92,
+      "text": "resources on that we built like a lot of",
+      "timestamp": "08:53"
+    },
+    {
+      "start": 537.36,
+      "duration": 3.039,
+      "text": "uh AI features in the uh AI browser",
+      "timestamp": "08:57"
+    },
+    {
+      "start": 540.399,
+      "duration": 2.721,
+      "text": "thing yeah like for this one uh the the",
+      "timestamp": "09:00"
+    },
+    {
+      "start": 543.12,
+      "duration": 2.32,
+      "text": "uh the image on the right on the left uh",
+      "timestamp": "09:03"
+    },
+    {
+      "start": 545.44,
+      "duration": 3.04,
+      "text": "is my favorite we call it uh the O room",
+      "timestamp": "09:05"
+    },
+    {
+      "start": 548.48,
+      "duration": 2.799,
+      "text": "which is like you everyone has a lot of",
+      "timestamp": "09:08"
+    },
+    {
+      "start": 551.279,
+      "duration": 3.921,
+      "text": "tabs in your browser right and it can",
+      "timestamp": "09:11"
+    },
+    {
+      "start": 555.2,
+      "duration": 3.44,
+      "text": "auto group them into different topics",
+      "timestamp": "09:15"
+    },
+    {
+      "start": 558.64,
+      "duration": 2.16,
+      "text": "based on the context so you don't have",
+      "timestamp": "09:18"
+    },
+    {
+      "start": 560.8,
+      "duration": 2.56,
+      "text": "to group them by yourself and we also we",
+      "timestamp": "09:20"
+    },
+    {
+      "start": 563.36,
+      "duration": 2.32,
+      "text": "can like upscale any images videos in",
+      "timestamp": "09:23"
+    },
+    {
+      "start": 565.68,
+      "duration": 2.8,
+      "text": "your browser and we can preview summary",
+      "timestamp": "09:25"
+    },
+    {
+      "start": 568.48,
+      "duration": 3.2,
+      "text": "like any uh links on your browser and we",
+      "timestamp": "09:28"
+    },
+    {
+      "start": 571.68,
+      "duration": 2.8,
+      "text": "even like you know build some like AI",
+      "timestamp": "09:31"
+    },
+    {
+      "start": 574.48,
+      "duration": 2.16,
+      "text": "controlling your browser which has you",
+      "timestamp": "09:34"
+    },
+    {
+      "start": 576.64,
+      "duration": 2.08,
+      "text": "know you can use natural language to",
+      "timestamp": "09:36"
+    },
+    {
+      "start": 578.72,
+      "duration": 2.559,
+      "text": "find people on LinkedIn yeah so you know",
+      "timestamp": "09:38"
+    },
+    {
+      "start": 581.279,
+      "duration": 2.161,
+      "text": "we did a lot of thing extract data from",
+      "timestamp": "09:41"
+    },
+    {
+      "start": 583.44,
+      "duration": 2.24,
+      "text": "the web page and automate the whole",
+      "timestamp": "09:43"
+    },
+    {
+      "start": 585.68,
+      "duration": 2.56,
+      "text": "thing in the browser but you know after",
+      "timestamp": "09:45"
+    },
+    {
+      "start": 588.24,
+      "duration": 3.68,
+      "text": "seven months of work we never release",
+      "timestamp": "09:48"
+    },
+    {
+      "start": 591.92,
+      "duration": 2.96,
+      "text": "this product so like today no one knows",
+      "timestamp": "09:51"
+    },
+    {
+      "start": 594.88,
+      "duration": 2.0,
+      "text": "we have this thing but we spent seven",
+      "timestamp": "09:54"
+    },
+    {
+      "start": 596.88,
+      "duration": 2.8,
+      "text": "months on that that project why we",
+      "timestamp": "09:56"
+    },
+    {
+      "start": 599.68,
+      "duration": 1.68,
+      "text": "didn't release these things because you",
+      "timestamp": "09:59"
+    },
+    {
+      "start": 601.36,
+      "duration": 2.72,
+      "text": "know after 7 months of work we found",
+      "timestamp": "10:01"
+    },
+    {
+      "start": 604.08,
+      "duration": 3.52,
+      "text": "there's a major issue for AI browser",
+      "timestamp": "10:04"
+    },
+    {
+      "start": 607.6,
+      "duration": 2.64,
+      "text": "what is that issue it's like after after",
+      "timestamp": "10:07"
+    },
+    {
+      "start": 610.24,
+      "duration": 2.0,
+      "text": "seven months of work when I I am the",
+      "timestamp": "10:10"
+    },
+    {
+      "start": 612.24,
+      "duration": 2.719,
+      "text": "creator of that browser or I'm sitting",
+      "timestamp": "10:12"
+    },
+    {
+      "start": 614.959,
+      "duration": 4.0,
+      "text": "at my computer and you will find once AI",
+      "timestamp": "10:14"
+    },
+    {
+      "start": 618.959,
+      "duration": 2.481,
+      "text": "starts to control your browser you have",
+      "timestamp": "10:18"
+    },
+    {
+      "start": 621.44,
+      "duration": 2.48,
+      "text": "to keep your hands off the keyboard",
+      "timestamp": "10:21"
+    },
+    {
+      "start": 623.92,
+      "duration": 1.76,
+      "text": "because any movement to the computer",
+      "timestamp": "10:23"
+    },
+    {
+      "start": 625.68,
+      "duration": 2.48,
+      "text": "will break the AI process and in the",
+      "timestamp": "10:25"
+    },
+    {
+      "start": 628.16,
+      "duration": 2.239,
+      "text": "meantime because you don't know when AI",
+      "timestamp": "10:28"
+    },
+    {
+      "start": 630.399,
+      "duration": 2.401,
+      "text": "will finish its job when you keep your",
+      "timestamp": "10:30"
+    },
+    {
+      "start": 632.8,
+      "duration": 1.76,
+      "text": "hands off the keyboard but you still",
+      "timestamp": "10:32"
+    },
+    {
+      "start": 634.56,
+      "duration": 1.44,
+      "text": "have to pay attention to it because you",
+      "timestamp": "10:34"
+    },
+    {
+      "start": 636.0,
+      "duration": 2.079,
+      "text": "don't know when it will finish so the",
+      "timestamp": "10:36"
+    },
+    {
+      "start": 638.079,
+      "duration": 2.081,
+      "text": "whole experience is kind of weird it's",
+      "timestamp": "10:38"
+    },
+    {
+      "start": 640.16,
+      "duration": 1.76,
+      "text": "like keep your hands off but keep",
+      "timestamp": "10:40"
+    },
+    {
+      "start": 641.92,
+      "duration": 2.32,
+      "text": "staring to the screen so you know when",
+      "timestamp": "10:41"
+    },
+    {
+      "start": 644.24,
+      "duration": 1.839,
+      "text": "when I'm the creator of the I use it",
+      "timestamp": "10:44"
+    },
+    {
+      "start": 646.079,
+      "duration": 2.32,
+      "text": "every day i found this is a very stupid",
+      "timestamp": "10:46"
+    },
+    {
+      "start": 648.399,
+      "duration": 2.721,
+      "text": "experience so we don't think this is a",
+      "timestamp": "10:48"
+    },
+    {
+      "start": 651.12,
+      "duration": 3.279,
+      "text": "product we want to deliver to our users",
+      "timestamp": "10:51"
+    },
+    {
+      "start": 654.399,
+      "duration": 2.801,
+      "text": "so even we spend seven months as a very",
+      "timestamp": "10:54"
+    },
+    {
+      "start": 657.2,
+      "duration": 2.4,
+      "text": "tidy stop at that time at that time we",
+      "timestamp": "10:57"
+    },
+    {
+      "start": 659.6,
+      "duration": 3.2,
+      "text": "only maybe like have 40 people and we",
+      "timestamp": "10:59"
+    },
+    {
+      "start": 662.8,
+      "duration": 2.56,
+      "text": "put half of the company on that project",
+      "timestamp": "11:02"
+    },
+    {
+      "start": 665.36,
+      "duration": 2.32,
+      "text": "but after seven months work the product",
+      "timestamp": "11:05"
+    },
+    {
+      "start": 667.68,
+      "duration": 3.599,
+      "text": "is release ready but we never release it",
+      "timestamp": "11:07"
+    },
+    {
+      "start": 671.279,
+      "duration": 3.441,
+      "text": "that's a problem but we we don't just",
+      "timestamp": "11:11"
+    },
+    {
+      "start": 674.72,
+      "duration": 2.88,
+      "text": "you know get some problems from the AI",
+      "timestamp": "11:14"
+    },
+    {
+      "start": 677.6,
+      "duration": 2.799,
+      "text": "browser thing we also have some nerings",
+      "timestamp": "11:17"
+    },
+    {
+      "start": 680.399,
+      "duration": 2.641,
+      "text": "too yeah the first learning is that we",
+      "timestamp": "11:20"
+    },
+    {
+      "start": 683.04,
+      "duration": 3.039,
+      "text": "think AI should use browser ai should",
+      "timestamp": "11:23"
+    },
+    {
+      "start": 686.079,
+      "duration": 2.641,
+      "text": "use because you know when we are testing",
+      "timestamp": "11:26"
+    },
+    {
+      "start": 688.72,
+      "duration": 3.76,
+      "text": "this project we found AI actually has a",
+      "timestamp": "11:28"
+    },
+    {
+      "start": 692.48,
+      "duration": 3.76,
+      "text": "lot of knowledge for the internet yeah",
+      "timestamp": "11:32"
+    },
+    {
+      "start": 696.24,
+      "duration": 2.24,
+      "text": "the AI just knows how to use the",
+      "timestamp": "11:36"
+    },
+    {
+      "start": 698.48,
+      "duration": 2.96,
+      "text": "internet it has knows many tricks many",
+      "timestamp": "11:38"
+    },
+    {
+      "start": 701.44,
+      "duration": 2.48,
+      "text": "shortcuts to use the internet but the",
+      "timestamp": "11:41"
+    },
+    {
+      "start": 703.92,
+      "duration": 2.72,
+      "text": "problem is that the AI should not use",
+      "timestamp": "11:43"
+    },
+    {
+      "start": 706.64,
+      "duration": 2.319,
+      "text": "your browser ai should use its own",
+      "timestamp": "11:46"
+    },
+    {
+      "start": 708.959,
+      "duration": 2.721,
+      "text": "browser so you can continue your work",
+      "timestamp": "11:48"
+    },
+    {
+      "start": 711.68,
+      "duration": 1.76,
+      "text": "yeah you can just maybe like chat with",
+      "timestamp": "11:51"
+    },
+    {
+      "start": 713.44,
+      "duration": 2.0,
+      "text": "your colleague replying to some emails",
+      "timestamp": "11:53"
+    },
+    {
+      "start": 715.44,
+      "duration": 2.48,
+      "text": "maybe also just watching some YouTube on",
+      "timestamp": "11:55"
+    },
+    {
+      "start": 717.92,
+      "duration": 2.88,
+      "text": "your computer so AI should use its own",
+      "timestamp": "11:57"
+    },
+    {
+      "start": 720.8,
+      "duration": 2.64,
+      "text": "browser and the browser should be in the",
+      "timestamp": "12:00"
+    },
+    {
+      "start": 723.44,
+      "duration": 2.8,
+      "text": "cloud so you don't have to pay attention",
+      "timestamp": "12:03"
+    },
+    {
+      "start": 726.24,
+      "duration": 2.8,
+      "text": "to it you can just assign a task to the",
+      "timestamp": "12:06"
+    },
+    {
+      "start": 729.04,
+      "duration": 2.72,
+      "text": "AI and you can just leave yeah this",
+      "timestamp": "12:09"
+    },
+    {
+      "start": 731.76,
+      "duration": 2.48,
+      "text": "whole thing is running in the cloud yeah",
+      "timestamp": "12:11"
+    },
+    {
+      "start": 734.24,
+      "duration": 2.399,
+      "text": "so that's the learnings we get from the",
+      "timestamp": "12:14"
+    },
+    {
+      "start": 736.639,
+      "duration": 5.041,
+      "text": "AI browser thing and you know we sunset",
+      "timestamp": "12:16"
+    },
+    {
+      "start": 741.68,
+      "duration": 3.68,
+      "text": "this project in last October and during",
+      "timestamp": "12:21"
+    },
+    {
+      "start": 745.36,
+      "duration": 3.76,
+      "text": "last March to last October 7 months one",
+      "timestamp": "12:25"
+    },
+    {
+      "start": 749.12,
+      "duration": 2.88,
+      "text": "thing very big happening uh during that",
+      "timestamp": "12:29"
+    },
+    {
+      "start": 752.0,
+      "duration": 3.68,
+      "text": "period which is last Junai yeah cursor",
+      "timestamp": "12:32"
+    },
+    {
+      "start": 755.68,
+      "duration": 2.24,
+      "text": "came out you know a lot of you know yeah",
+      "timestamp": "12:35"
+    },
+    {
+      "start": 757.92,
+      "duration": 1.84,
+      "text": "cursor actually is a very great thing",
+      "timestamp": "12:37"
+    },
+    {
+      "start": 759.76,
+      "duration": 1.92,
+      "text": "like the all three co-founder of this",
+      "timestamp": "12:39"
+    },
+    {
+      "start": 761.68,
+      "duration": 2.959,
+      "text": "company red pig and I we are all coders",
+      "timestamp": "12:41"
+    },
+    {
+      "start": 764.639,
+      "duration": 2.401,
+      "text": "from our very early stage our very early",
+      "timestamp": "12:44"
+    },
+    {
+      "start": 767.04,
+      "duration": 3.28,
+      "text": "years so for us we're coders when we are",
+      "timestamp": "12:47"
+    },
+    {
+      "start": 770.32,
+      "duration": 2.639,
+      "text": "using cursor we think cursor is actually",
+      "timestamp": "12:50"
+    },
+    {
+      "start": 772.959,
+      "duration": 4.081,
+      "text": "a very great tool it can like speeds our",
+      "timestamp": "12:52"
+    },
+    {
+      "start": 777.04,
+      "duration": 3.12,
+      "text": "speeds up our efficiency yeah and we I",
+      "timestamp": "12:57"
+    },
+    {
+      "start": 780.16,
+      "duration": 2.799,
+      "text": "can code with the language I never know",
+      "timestamp": "13:00"
+    },
+    {
+      "start": 782.959,
+      "duration": 2.401,
+      "text": "so I think that is actually a very great",
+      "timestamp": "13:02"
+    },
+    {
+      "start": 785.36,
+      "duration": 2.64,
+      "text": "tool but the most interesting part is",
+      "timestamp": "13:05"
+    },
+    {
+      "start": 788.0,
+      "duration": 3.839,
+      "text": "not us not our coders are using cursor",
+      "timestamp": "13:08"
+    },
+    {
+      "start": 791.839,
+      "duration": 3.041,
+      "text": "you know the most interesting part is",
+      "timestamp": "13:11"
+    },
+    {
+      "start": 794.88,
+      "duration": 3.04,
+      "text": "when we watching our friends our",
+      "timestamp": "13:14"
+    },
+    {
+      "start": 797.92,
+      "duration": 3.039,
+      "text": "colleagues who are long coders when we",
+      "timestamp": "13:17"
+    },
+    {
+      "start": 800.959,
+      "duration": 2.56,
+      "text": "are watching Zing using cursor this is",
+      "timestamp": "13:20"
+    },
+    {
+      "start": 803.519,
+      "duration": 3.281,
+      "text": "the most interesting part yeah like this",
+      "timestamp": "13:23"
+    },
+    {
+      "start": 806.8,
+      "duration": 3.2,
+      "text": "is an interface of cursor yeah and you",
+      "timestamp": "13:26"
+    },
+    {
+      "start": 810.0,
+      "duration": 3.839,
+      "text": "can say like uh twoirds of the uh area",
+      "timestamp": "13:30"
+    },
+    {
+      "start": 813.839,
+      "duration": 2.8,
+      "text": "is the left side is the code editor side",
+      "timestamp": "13:33"
+    },
+    {
+      "start": 816.639,
+      "duration": 2.481,
+      "text": "right so when we are watching our",
+      "timestamp": "13:36"
+    },
+    {
+      "start": 819.12,
+      "duration": 2.64,
+      "text": "friends watching they using cursor They",
+      "timestamp": "13:39"
+    },
+    {
+      "start": 821.76,
+      "duration": 2.16,
+      "text": "are using cursor to solve their daily",
+      "timestamp": "13:41"
+    },
+    {
+      "start": 823.92,
+      "duration": 2.8,
+      "text": "tasks like doing data visualization",
+      "timestamp": "13:43"
+    },
+    {
+      "start": 826.72,
+      "duration": 3.679,
+      "text": "based on some excels or maybe convert a",
+      "timestamp": "13:46"
+    },
+    {
+      "start": 830.399,
+      "duration": 3.041,
+      "text": "video file into an audio file or do some",
+      "timestamp": "13:50"
+    },
+    {
+      "start": 833.44,
+      "duration": 2.24,
+      "text": "maybe like batch file processing just",
+      "timestamp": "13:53"
+    },
+    {
+      "start": 835.68,
+      "duration": 2.24,
+      "text": "using cursor they are using cursor to",
+      "timestamp": "13:55"
+    },
+    {
+      "start": 837.92,
+      "duration": 3.279,
+      "text": "solve their own tasks they're not using",
+      "timestamp": "13:57"
+    },
+    {
+      "start": 841.199,
+      "duration": 2.801,
+      "text": "cursor to generate codes they're not",
+      "timestamp": "14:01"
+    },
+    {
+      "start": 844.0,
+      "duration": 1.839,
+      "text": "just they're just using cursor to solve",
+      "timestamp": "14:04"
+    },
+    {
+      "start": 845.839,
+      "duration": 2.641,
+      "text": "their task and when these people when",
+      "timestamp": "14:05"
+    },
+    {
+      "start": 848.48,
+      "duration": 2.479,
+      "text": "these long coders using cursor they",
+      "timestamp": "14:08"
+    },
+    {
+      "start": 850.959,
+      "duration": 1.601,
+      "text": "don't care they they they don't they",
+      "timestamp": "14:10"
+    },
+    {
+      "start": 852.56,
+      "duration": 2.16,
+      "text": "don't they don't care about the left",
+      "timestamp": "14:12"
+    },
+    {
+      "start": 854.72,
+      "duration": 2.64,
+      "text": "side because they can't evaluate the",
+      "timestamp": "14:14"
+    },
+    {
+      "start": 857.36,
+      "duration": 3.2,
+      "text": "code generated by cursor the only thing",
+      "timestamp": "14:17"
+    },
+    {
+      "start": 860.56,
+      "duration": 3.519,
+      "text": "they can do is keep pressing the accept",
+      "timestamp": "14:20"
+    },
+    {
+      "start": 864.079,
+      "duration": 2.721,
+      "text": "button in the right right yeah a lot of",
+      "timestamp": "14:24"
+    },
+    {
+      "start": 866.8,
+      "duration": 1.44,
+      "text": "people are laughing I know yeah you are",
+      "timestamp": "14:26"
+    },
+    {
+      "start": 868.24,
+      "duration": 3.44,
+      "text": "the like vibe coding guys yeah so the",
+      "timestamp": "14:28"
+    },
+    {
+      "start": 871.68,
+      "duration": 1.76,
+      "text": "only the only thing they can do is keep",
+      "timestamp": "14:31"
+    },
+    {
+      "start": 873.44,
+      "duration": 3.04,
+      "text": "pressing the accept accept accept button",
+      "timestamp": "14:33"
+    },
+    {
+      "start": 876.48,
+      "duration": 2.88,
+      "text": "Yeah so that's the moment you know we",
+      "timestamp": "14:36"
+    },
+    {
+      "start": 879.36,
+      "duration": 3.599,
+      "text": "come up with this idea is that maybe we",
+      "timestamp": "14:39"
+    },
+    {
+      "start": 882.959,
+      "duration": 4.0,
+      "text": "should build the right panel of cursor",
+      "timestamp": "14:42"
+    },
+    {
+      "start": 886.959,
+      "duration": 3.761,
+      "text": "and build it for average people not for",
+      "timestamp": "14:46"
+    },
+    {
+      "start": 890.72,
+      "duration": 2.32,
+      "text": "coders yeah we build the right panel of",
+      "timestamp": "14:50"
+    },
+    {
+      "start": 893.04,
+      "duration": 3.359,
+      "text": "cursor and for average users and we",
+      "timestamp": "14:53"
+    },
+    {
+      "start": 896.399,
+      "duration": 3.44,
+      "text": "combining the learnings we get from you",
+      "timestamp": "14:56"
+    },
+    {
+      "start": 899.839,
+      "duration": 4.0,
+      "text": "know we get from our AI browser project",
+      "timestamp": "14:59"
+    },
+    {
+      "start": 903.839,
+      "duration": 1.68,
+      "text": "it's like we should build the right",
+      "timestamp": "15:03"
+    },
+    {
+      "start": 905.519,
+      "duration": 2.641,
+      "text": "thing the right panel and net it running",
+      "timestamp": "15:05"
+    },
+    {
+      "start": 908.16,
+      "duration": 2.4,
+      "text": "in the cloud so it has like two",
+      "timestamp": "15:08"
+    },
+    {
+      "start": 910.56,
+      "duration": 3.279,
+      "text": "advantages the first one is that you",
+      "timestamp": "15:10"
+    },
+    {
+      "start": 913.839,
+      "duration": 2.481,
+      "text": "know because this thing running in the",
+      "timestamp": "15:13"
+    },
+    {
+      "start": 916.32,
+      "duration": 3.04,
+      "text": "cloud so you don't have to keep pressing",
+      "timestamp": "15:16"
+    },
+    {
+      "start": 919.36,
+      "duration": 4.0,
+      "text": "accept accept accept why cursor ask a",
+      "timestamp": "15:19"
+    },
+    {
+      "start": 923.36,
+      "duration": 2.4,
+      "text": "user to keep accept because this thing",
+      "timestamp": "15:23"
+    },
+    {
+      "start": 925.76,
+      "duration": 2.319,
+      "text": "happens on your computer so there are",
+      "timestamp": "15:25"
+    },
+    {
+      "start": 928.079,
+      "duration": 2.721,
+      "text": "like maybe like some security and risks",
+      "timestamp": "15:28"
+    },
+    {
+      "start": 930.8,
+      "duration": 1.839,
+      "text": "yeah if you don't get permission from",
+      "timestamp": "15:30"
+    },
+    {
+      "start": 932.639,
+      "duration": 3.281,
+      "text": "user it may break your computer but if",
+      "timestamp": "15:32"
+    },
+    {
+      "start": 935.92,
+      "duration": 2.88,
+      "text": "AI is using its own computer in the",
+      "timestamp": "15:35"
+    },
+    {
+      "start": 938.8,
+      "duration": 2.399,
+      "text": "cloud AI can just you know keep the",
+      "timestamp": "15:38"
+    },
+    {
+      "start": 941.199,
+      "duration": 3.2,
+      "text": "accept button by itself because the uh",
+      "timestamp": "15:41"
+    },
+    {
+      "start": 944.399,
+      "duration": 3.601,
+      "text": "in manas each task will be assigned a",
+      "timestamp": "15:44"
+    },
+    {
+      "start": 948.0,
+      "duration": 2.48,
+      "text": "fully functional virtual machine so this",
+      "timestamp": "15:48"
+    },
+    {
+      "start": 950.48,
+      "duration": 4.719,
+      "text": "virtual machine is own by manus itself",
+      "timestamp": "15:50"
+    },
+    {
+      "start": 955.199,
+      "duration": 3.44,
+      "text": "so anything m did to the virtual machine",
+      "timestamp": "15:55"
+    },
+    {
+      "start": 958.639,
+      "duration": 3.841,
+      "text": "just will not harm your computer so if",
+      "timestamp": "15:58"
+    },
+    {
+      "start": 962.48,
+      "duration": 1.919,
+      "text": "you if we let this thing run in the",
+      "timestamp": "16:02"
+    },
+    {
+      "start": 964.399,
+      "duration": 3.761,
+      "text": "cloud it can you know reduce the risk uh",
+      "timestamp": "16:04"
+    },
+    {
+      "start": 968.16,
+      "duration": 2.239,
+      "text": "and it won't break your computer and the",
+      "timestamp": "16:08"
+    },
+    {
+      "start": 970.399,
+      "duration": 2.56,
+      "text": "second advantage is that because this is",
+      "timestamp": "16:10"
+    },
+    {
+      "start": 972.959,
+      "duration": 2.081,
+      "text": "running in the cloud so actually the",
+      "timestamp": "16:12"
+    },
+    {
+      "start": 975.04,
+      "duration": 3.12,
+      "text": "whole process is a synchronous",
+      "timestamp": "16:15"
+    },
+    {
+      "start": 978.16,
+      "duration": 2.72,
+      "text": "so it's like when you just assign a task",
+      "timestamp": "16:18"
+    },
+    {
+      "start": 980.88,
+      "duration": 2.879,
+      "text": "to us you don't have to you you don't",
+      "timestamp": "16:20"
+    },
+    {
+      "start": 983.759,
+      "duration": 2.0,
+      "text": "have to care about it you can just close",
+      "timestamp": "16:23"
+    },
+    {
+      "start": 985.759,
+      "duration": 1.921,
+      "text": "your computer or maybe you can just put",
+      "timestamp": "16:25"
+    },
+    {
+      "start": 987.68,
+      "duration": 2.48,
+      "text": "your phone back to your pocket and leave",
+      "timestamp": "16:27"
+    },
+    {
+      "start": 990.16,
+      "duration": 2.64,
+      "text": "and when the task is done you will get a",
+      "timestamp": "16:30"
+    },
+    {
+      "start": 992.8,
+      "duration": 3.68,
+      "text": "notification from manus and they like",
+      "timestamp": "16:32"
+    },
+    {
+      "start": 996.48,
+      "duration": 4.56,
+      "text": "okay this is the result so what we found",
+      "timestamp": "16:36"
+    },
+    {
+      "start": 1001.04,
+      "duration": 2.159,
+      "text": "from this whole thing is actually you",
+      "timestamp": "16:41"
+    },
+    {
+      "start": 1003.199,
+      "duration": 3.44,
+      "text": "know we think coding is not the ultimate",
+      "timestamp": "16:43"
+    },
+    {
+      "start": 1006.639,
+      "duration": 4.961,
+      "text": "goal coding is just an intermediate step",
+      "timestamp": "16:46"
+    },
+    {
+      "start": 1011.6,
+      "duration": 4.88,
+      "text": "for solving the task so these users all",
+      "timestamp": "16:51"
+    },
+    {
+      "start": 1016.48,
+      "duration": 1.76,
+      "text": "the all the people around the world",
+      "timestamp": "16:56"
+    },
+    {
+      "start": 1018.24,
+      "duration": 2.719,
+      "text": "these long coders they don't care about",
+      "timestamp": "16:58"
+    },
+    {
+      "start": 1020.959,
+      "duration": 2.32,
+      "text": "the code they only think if you can",
+      "timestamp": "17:00"
+    },
+    {
+      "start": 1023.279,
+      "duration": 2.399,
+      "text": "solve my task that's good i don't care",
+      "timestamp": "17:03"
+    },
+    {
+      "start": 1025.679,
+      "duration": 3.359,
+      "text": "what's behind this whole thing",
+      "timestamp": "17:05"
+    },
+    {
+      "start": 1029.039,
+      "duration": 3.841,
+      "text": "so actually you know the the whole idea",
+      "timestamp": "17:09"
+    },
+    {
+      "start": 1032.88,
+      "duration": 4.319,
+      "text": "of manus just comes from the learnings",
+      "timestamp": "17:12"
+    },
+    {
+      "start": 1037.199,
+      "duration": 3.281,
+      "text": "we get from our AI browser and also the",
+      "timestamp": "17:17"
+    },
+    {
+      "start": 1040.48,
+      "duration": 4.0,
+      "text": "inspirations we learn from cursor yeah",
+      "timestamp": "17:20"
+    },
+    {
+      "start": 1044.48,
+      "duration": 3.359,
+      "text": "so that is like maybe the whole story",
+      "timestamp": "17:24"
+    },
+    {
+      "start": 1047.839,
+      "duration": 2.801,
+      "text": "behind the manus about how we come up",
+      "timestamp": "17:27"
+    },
+    {
+      "start": 1050.64,
+      "duration": 3.84,
+      "text": "with this idea yeah so after I share",
+      "timestamp": "17:30"
+    },
+    {
+      "start": 1054.48,
+      "duration": 2.88,
+      "text": "like today's story uh maybe we can like",
+      "timestamp": "17:34"
+    },
+    {
+      "start": 1057.36,
+      "duration": 3.6,
+      "text": "have some Q&A yeah\n thank you my name is",
+      "timestamp": "17:37"
+    },
+    {
+      "start": 1060.96,
+      "duration": 4.0,
+      "text": "Tina um I want to know uh what are the",
+      "timestamp": "17:40"
+    },
+    {
+      "start": 1064.96,
+      "duration": 2.56,
+      "text": "most use cases that people are using",
+      "timestamp": "17:44"
+    },
+    {
+      "start": 1067.52,
+      "duration": 3.84,
+      "text": "your platform for\n and if you see any",
+      "timestamp": "17:47"
+    },
+    {
+      "start": 1071.36,
+      "duration": 3.28,
+      "text": "trends or patterns because I also run an",
+      "timestamp": "17:51"
+    },
+    {
+      "start": 1074.64,
+      "duration": 3.44,
+      "text": "AI company um we do marketing uh agents",
+      "timestamp": "17:54"
+    },
+    {
+      "start": 1078.08,
+      "duration": 3.36,
+      "text": "so we want to know from your experience",
+      "timestamp": "17:58"
+    },
+    {
+      "start": 1081.44,
+      "duration": 3.119,
+      "text": "what is it that people are using it for",
+      "timestamp": "18:01"
+    },
+    {
+      "start": 1084.559,
+      "duration": 1.761,
+      "text": "what are the trends that you see thank",
+      "timestamp": "18:04"
+    },
+    {
+      "start": 1086.32,
+      "duration": 3.359,
+      "text": "you\n okay a very good question yeah so",
+      "timestamp": "18:06"
+    },
+    {
+      "start": 1089.679,
+      "duration": 2.88,
+      "text": "right now I think the main use cases in",
+      "timestamp": "18:09"
+    },
+    {
+      "start": 1092.559,
+      "duration": 3.12,
+      "text": "manas uh maybe I can just define into",
+      "timestamp": "18:12"
+    },
+    {
+      "start": 1095.679,
+      "duration": 2.721,
+      "text": "three categories so the first one is",
+      "timestamp": "18:15"
+    },
+    {
+      "start": 1098.4,
+      "duration": 2.8,
+      "text": "always about building a website because",
+      "timestamp": "18:18"
+    },
+    {
+      "start": 1101.2,
+      "duration": 2.24,
+      "text": "you know we are we are building an AI",
+      "timestamp": "18:21"
+    },
+    {
+      "start": 1103.44,
+      "duration": 2.64,
+      "text": "tool for the average people so like like",
+      "timestamp": "18:23"
+    },
+    {
+      "start": 1106.08,
+      "duration": 2.4,
+      "text": "for most of people this may be their",
+      "timestamp": "18:26"
+    },
+    {
+      "start": 1108.48,
+      "duration": 3.6,
+      "text": "first website in their lifetime but we",
+      "timestamp": "18:28"
+    },
+    {
+      "start": 1112.08,
+      "duration": 2.16,
+      "text": "don't consider matters just as another",
+      "timestamp": "18:32"
+    },
+    {
+      "start": 1114.24,
+      "duration": 2.48,
+      "text": "website builder because I I I know today",
+      "timestamp": "18:34"
+    },
+    {
+      "start": 1116.72,
+      "duration": 2.64,
+      "text": "is like a AI event i think many of you",
+      "timestamp": "18:36"
+    },
+    {
+      "start": 1119.36,
+      "duration": 3.199,
+      "text": "try other like AI tools to build a",
+      "timestamp": "18:39"
+    },
+    {
+      "start": 1122.559,
+      "duration": 2.24,
+      "text": "website but when you are trying manage",
+      "timestamp": "18:42"
+    },
+    {
+      "start": 1124.799,
+      "duration": 2.161,
+      "text": "to build a website you will find the",
+      "timestamp": "18:44"
+    },
+    {
+      "start": 1126.96,
+      "duration": 2.48,
+      "text": "difference because you know we only",
+      "timestamp": "18:46"
+    },
+    {
+      "start": 1129.44,
+      "duration": 3.92,
+      "text": "think website this web pages is just a a",
+      "timestamp": "18:49"
+    },
+    {
+      "start": 1133.36,
+      "duration": 3.04,
+      "text": "phone to express yourself it's just",
+      "timestamp": "18:53"
+    },
+    {
+      "start": 1136.4,
+      "duration": 2.159,
+      "text": "maybe just like a word file like a",
+      "timestamp": "18:56"
+    },
+    {
+      "start": 1138.559,
+      "duration": 2.801,
+      "text": "powerpoint file just a phone to express",
+      "timestamp": "18:58"
+    },
+    {
+      "start": 1141.36,
+      "duration": 2.24,
+      "text": "yourself so what matters is building a",
+      "timestamp": "19:01"
+    },
+    {
+      "start": 1143.6,
+      "duration": 2.16,
+      "text": "website is not just about building the",
+      "timestamp": "19:03"
+    },
+    {
+      "start": 1145.76,
+      "duration": 1.919,
+      "text": "website itself",
+      "timestamp": "19:05"
+    },
+    {
+      "start": 1147.679,
+      "duration": 2.24,
+      "text": "It's always about man will do the",
+      "timestamp": "19:07"
+    },
+    {
+      "start": 1149.919,
+      "duration": 2.721,
+      "text": "research first to gather all this data",
+      "timestamp": "19:09"
+    },
+    {
+      "start": 1152.64,
+      "duration": 2.72,
+      "text": "and the information and then build the",
+      "timestamp": "19:12"
+    },
+    {
+      "start": 1155.36,
+      "duration": 2.64,
+      "text": "website which we so we think the content",
+      "timestamp": "19:15"
+    },
+    {
+      "start": 1158.0,
+      "duration": 2.72,
+      "text": "is the is the first priority is not just",
+      "timestamp": "19:18"
+    },
+    {
+      "start": 1160.72,
+      "duration": 2.24,
+      "text": "the website but a lot of people are",
+      "timestamp": "19:20"
+    },
+    {
+      "start": 1162.96,
+      "duration": 2.24,
+      "text": "building websites with with manus and",
+      "timestamp": "19:22"
+    },
+    {
+      "start": 1165.2,
+      "duration": 3.04,
+      "text": "the second category is slides yeah we",
+      "timestamp": "19:25"
+    },
+    {
+      "start": 1168.24,
+      "duration": 1.76,
+      "text": "released the manus slides like three",
+      "timestamp": "19:28"
+    },
+    {
+      "start": 1170.0,
+      "duration": 2.16,
+      "text": "weeks ago and this thing is kind of like",
+      "timestamp": "19:30"
+    },
+    {
+      "start": 1172.16,
+      "duration": 3.2,
+      "text": "went viral a lot of a lot of manus users",
+      "timestamp": "19:32"
+    },
+    {
+      "start": 1175.36,
+      "duration": 2.48,
+      "text": "are generating slides with manus now",
+      "timestamp": "19:35"
+    },
+    {
+      "start": 1177.84,
+      "duration": 1.76,
+      "text": "yeah because you know with a very simple",
+      "timestamp": "19:37"
+    },
+    {
+      "start": 1179.6,
+      "duration": 2.72,
+      "text": "prompt or maybe you can drop your PDF",
+      "timestamp": "19:39"
+    },
+    {
+      "start": 1182.32,
+      "duration": 2.96,
+      "text": "your word file to manus and man will",
+      "timestamp": "19:42"
+    },
+    {
+      "start": 1185.28,
+      "duration": 3.2,
+      "text": "will like convert all these text prompts",
+      "timestamp": "19:45"
+    },
+    {
+      "start": 1188.48,
+      "duration": 4.8,
+      "text": "uh all these images excels pdfs into a",
+      "timestamp": "19:48"
+    },
+    {
+      "start": 1193.28,
+      "duration": 2.56,
+      "text": "slide and you can export it into a",
+      "timestamp": "19:53"
+    },
+    {
+      "start": 1195.84,
+      "duration": 2.8,
+      "text": "powerpoint and the third categories is",
+      "timestamp": "19:55"
+    },
+    {
+      "start": 1198.64,
+      "duration": 2.24,
+      "text": "about research yeah people are using",
+      "timestamp": "19:58"
+    },
+    {
+      "start": 1200.88,
+      "duration": 2.24,
+      "text": "manus for like different types of",
+      "timestamp": "20:00"
+    },
+    {
+      "start": 1203.12,
+      "duration": 2.96,
+      "text": "research it's not just a it's not just",
+      "timestamp": "20:03"
+    },
+    {
+      "start": 1206.08,
+      "duration": 2.0,
+      "text": "about a deep research because you know",
+      "timestamp": "20:06"
+    },
+    {
+      "start": 1208.08,
+      "duration": 2.08,
+      "text": "deep research only returns you with a",
+      "timestamp": "20:08"
+    },
+    {
+      "start": 1210.16,
+      "duration": 2.48,
+      "text": "maybe with a very long article but only",
+      "timestamp": "20:10"
+    },
+    {
+      "start": 1212.64,
+      "duration": 2.48,
+      "text": "full of texts but if you're using manas",
+      "timestamp": "20:12"
+    },
+    {
+      "start": 1215.12,
+      "duration": 2.48,
+      "text": "to doing research you will find there",
+      "timestamp": "20:15"
+    },
+    {
+      "start": 1217.6,
+      "duration": 2.64,
+      "text": "are not just a text there will be like",
+      "timestamp": "20:17"
+    },
+    {
+      "start": 1220.24,
+      "duration": 4.0,
+      "text": "some some charts generating by Python or",
+      "timestamp": "20:20"
+    },
+    {
+      "start": 1224.24,
+      "duration": 2.48,
+      "text": "it will have like some real time data to",
+      "timestamp": "20:24"
+    },
+    {
+      "start": 1226.72,
+      "duration": 2.4,
+      "text": "fetched from some like real time uh",
+      "timestamp": "20:26"
+    },
+    {
+      "start": 1229.12,
+      "duration": 2.24,
+      "text": "financial sources things like that so",
+      "timestamp": "20:29"
+    },
+    {
+      "start": 1231.36,
+      "duration": 1.84,
+      "text": "these are like main three categories",
+      "timestamp": "20:31"
+    },
+    {
+      "start": 1233.2,
+      "duration": 2.88,
+      "text": "it's like web building websites slides",
+      "timestamp": "20:33"
+    },
+    {
+      "start": 1236.08,
+      "duration": 3.36,
+      "text": "and research yeah so that's the three",
+      "timestamp": "20:36"
+    },
+    {
+      "start": 1239.44,
+      "duration": 4.4,
+      "text": "thing yeah uh uh uh sorry that man yeah",
+      "timestamp": "20:39"
+    },
+    {
+      "start": 1243.84,
+      "duration": 2.4,
+      "text": "you are the you are the third yeah okay",
+      "timestamp": "20:43"
+    },
+    {
+      "start": 1246.24,
+      "duration": 2.4,
+      "text": "yeah",
+      "timestamp": "20:46"
+    },
+    {
+      "start": 1248.64,
+      "duration": 1.919,
+      "text": "oh yeah yeah it's me it's me yeah here's",
+      "timestamp": "20:48"
+    },
+    {
+      "start": 1250.559,
+      "duration": 3.36,
+      "text": "the third one yeah\n thank you uh hello uh",
+      "timestamp": "20:50"
+    },
+    {
+      "start": 1253.919,
+      "duration": 2.081,
+      "text": "my name is Loka i am from Jakarta",
+      "timestamp": "20:53"
+    },
+    {
+      "start": 1256.0,
+      "duration": 2.799,
+      "text": "Indonesia my company is JT4i",
+      "timestamp": "20:56"
+    },
+    {
+      "start": 1258.799,
+      "duration": 4.24,
+      "text": "i uh we serve LLM in France so uh I'm",
+      "timestamp": "20:58"
+    },
+    {
+      "start": 1263.039,
+      "duration": 3.12,
+      "text": "one of early adopter of manus and I got",
+      "timestamp": "21:03"
+    },
+    {
+      "start": 1266.159,
+      "duration": 4.721,
+      "text": "whit listed and I is uh just just share",
+      "timestamp": "21:06"
+    },
+    {
+      "start": 1270.88,
+      "duration": 3.52,
+      "text": "a thought uh yesterday I two weeks ago I",
+      "timestamp": "21:10"
+    },
+    {
+      "start": 1274.4,
+      "duration": 3.2,
+      "text": "tried a manus and I top up $25 for",
+      "timestamp": "21:14"
+    },
+    {
+      "start": 1277.6,
+      "duration": 3.84,
+      "text": "around $4,000 credits I remember and",
+      "timestamp": "21:17"
+    },
+    {
+      "start": 1281.44,
+      "duration": 2.8,
+      "text": "there is bonus if we sign up but there",
+      "timestamp": "21:21"
+    },
+    {
+      "start": 1284.24,
+      "duration": 3.12,
+      "text": "is a problem uh I run a deep uh I run a",
+      "timestamp": "21:24"
+    },
+    {
+      "start": 1287.36,
+      "duration": 2.559,
+      "text": "deep research using GP201",
+      "timestamp": "21:27"
+    },
+    {
+      "start": 1289.919,
+      "duration": 3.201,
+      "text": "uh last year and GPT3 and anything else",
+      "timestamp": "21:29"
+    },
+    {
+      "start": 1293.12,
+      "duration": 2.799,
+      "text": "it takes 20 or 30 minutes and then I",
+      "timestamp": "21:33"
+    },
+    {
+      "start": 1295.919,
+      "duration": 4.401,
+      "text": "tried minus uh I hope and uh in my",
+      "timestamp": "21:35"
+    },
+    {
+      "start": 1300.32,
+      "duration": 3.44,
+      "text": "expectation it has better uh better",
+      "timestamp": "21:40"
+    },
+    {
+      "start": 1303.76,
+      "duration": 4.0,
+      "text": "results when I try to search hey list me",
+      "timestamp": "21:43"
+    },
+    {
+      "start": 1307.76,
+      "duration": 2.88,
+      "text": "a company in Asia Pacific with 10",
+      "timestamp": "21:47"
+    },
+    {
+      "start": 1310.64,
+      "duration": 2.32,
+      "text": "millions revenue per year that's my",
+      "timestamp": "21:50"
+    },
+    {
+      "start": 1312.96,
+      "duration": 2.719,
+      "text": "expectation that minus will try in",
+      "timestamp": "21:52"
+    },
+    {
+      "start": 1315.679,
+      "duration": 2.88,
+      "text": "browser and list me the list of the",
+      "timestamp": "21:55"
+    },
+    {
+      "start": 1318.559,
+      "duration": 4.0,
+      "text": "company but the disappointment I it cost",
+      "timestamp": "21:58"
+    },
+    {
+      "start": 1322.559,
+      "duration": 2.321,
+      "text": "me 1.500",
+      "timestamp": "22:02"
+    },
+    {
+      "start": 1324.88,
+      "duration": 3.84,
+      "text": "credits 1,500 and the result is not very",
+      "timestamp": "22:04"
+    },
+    {
+      "start": 1328.72,
+      "duration": 4.16,
+      "text": "good so what I'm asking here uh do you",
+      "timestamp": "22:08"
+    },
+    {
+      "start": 1332.88,
+      "duration": 4.0,
+      "text": "have a plan to make the prom better and",
+      "timestamp": "22:12"
+    },
+    {
+      "start": 1336.88,
+      "duration": 2.88,
+      "text": "make let's let's let's say this is my",
+      "timestamp": "22:16"
+    },
+    {
+      "start": 1339.76,
+      "duration": 2.24,
+      "text": "fault that my prom is not better enough",
+      "timestamp": "22:19"
+    },
+    {
+      "start": 1342.0,
+      "duration": 3.44,
+      "text": "and uh it cost me a lot of uh maybe",
+      "timestamp": "22:22"
+    },
+    {
+      "start": 1345.44,
+      "duration": 4.4,
+      "text": "three 30% of my credits for the bad",
+      "timestamp": "22:25"
+    },
+    {
+      "start": 1349.84,
+      "duration": 2.959,
+      "text": "result uh I being honest that that's",
+      "timestamp": "22:29"
+    },
+    {
+      "start": 1352.799,
+      "duration": 2.801,
+      "text": "very bad result and when I compare with",
+      "timestamp": "22:32"
+    },
+    {
+      "start": 1355.6,
+      "duration": 2.0,
+      "text": "maybe one of your competitor started",
+      "timestamp": "22:35"
+    },
+    {
+      "start": 1357.6,
+      "duration": 2.64,
+      "text": "with the G the company started with G",
+      "timestamp": "22:37"
+    },
+    {
+      "start": 1360.24,
+      "duration": 2.96,
+      "text": "it's get better result and can you",
+      "timestamp": "22:40"
+    },
+    {
+      "start": 1363.2,
+      "duration": 2.8,
+      "text": "explain is it my fault because it's my",
+      "timestamp": "22:43"
+    },
+    {
+      "start": 1366.0,
+      "duration": 3.52,
+      "text": "prom is bad or\n there is a lack of",
+      "timestamp": "22:46"
+    },
+    {
+      "start": 1369.52,
+      "duration": 2.96,
+      "text": "browser that you can try to dick into",
+      "timestamp": "22:49"
+    },
+    {
+      "start": 1372.48,
+      "duration": 3.12,
+      "text": "the browser I hope you can develop more",
+      "timestamp": "22:52"
+    },
+    {
+      "start": 1375.6,
+      "duration": 1.76,
+      "text": "better result with the browser you dip",
+      "timestamp": "22:55"
+    },
+    {
+      "start": 1377.36,
+      "duration": 3.28,
+      "text": "in the Google or any browser and you get",
+      "timestamp": "22:57"
+    },
+    {
+      "start": 1380.64,
+      "duration": 2.8,
+      "text": "solve the best result thank you\n yeah",
+      "timestamp": "23:00"
+    },
+    {
+      "start": 1383.44,
+      "duration": 2.8,
+      "text": "yeah like uh I don't think it's like a",
+      "timestamp": "23:03"
+    },
+    {
+      "start": 1386.24,
+      "duration": 1.6,
+      "text": "question you know it's more like an",
+      "timestamp": "23:06"
+    },
+    {
+      "start": 1387.84,
+      "duration": 2.48,
+      "text": "advice and we totally get it yeah you",
+      "timestamp": "23:07"
+    },
+    {
+      "start": 1390.32,
+      "duration": 2.32,
+      "text": "know like in today's AI tools is also",
+      "timestamp": "23:10"
+    },
+    {
+      "start": 1392.64,
+      "duration": 1.519,
+      "text": "about there will be some like maybe",
+      "timestamp": "23:12"
+    },
+    {
+      "start": 1394.159,
+      "duration": 2.321,
+      "text": "problems and we also have like a rating",
+      "timestamp": "23:14"
+    },
+    {
+      "start": 1396.48,
+      "duration": 2.16,
+      "text": "system yeah if sometimes you face some",
+      "timestamp": "23:16"
+    },
+    {
+      "start": 1398.64,
+      "duration": 3.039,
+      "text": "problems okay this result is not met my",
+      "timestamp": "23:18"
+    },
+    {
+      "start": 1401.679,
+      "duration": 2.161,
+      "text": "requirements you can just rate it into",
+      "timestamp": "23:21"
+    },
+    {
+      "start": 1403.84,
+      "duration": 2.8,
+      "text": "maybe one or two stars and after re",
+      "timestamp": "23:23"
+    },
+    {
+      "start": 1406.64,
+      "duration": 3.279,
+      "text": "reviewed by my colleagues we will like",
+      "timestamp": "23:26"
+    },
+    {
+      "start": 1409.919,
+      "duration": 2.64,
+      "text": "return all the credits for you so that's",
+      "timestamp": "23:29"
+    },
+    {
+      "start": 1412.559,
+      "duration": 3.201,
+      "text": "kind of my kism uh we we can like save",
+      "timestamp": "23:32"
+    },
+    {
+      "start": 1415.76,
+      "duration": 3.919,
+      "text": "users from this circumstances yeah so",
+      "timestamp": "23:35"
+    },
+    {
+      "start": 1419.679,
+      "duration": 2.801,
+      "text": "this one is the third one right uh I I",
+      "timestamp": "23:39"
+    },
+    {
+      "start": 1422.48,
+      "duration": 2.559,
+      "text": "forget which one yeah you yeah yeah yeah",
+      "timestamp": "23:42"
+    },
+    {
+      "start": 1425.039,
+      "duration": 2.241,
+      "text": "so this is the last one because my time",
+      "timestamp": "23:45"
+    },
+    {
+      "start": 1427.28,
+      "duration": 1.759,
+      "text": "is running out oh oh we don't have this",
+      "timestamp": "23:47"
+    },
+    {
+      "start": 1429.039,
+      "duration": 1.601,
+      "text": "one okay yeah yeah sorry yeah we can",
+      "timestamp": "23:49"
+    },
+    {
+      "start": 1430.64,
+      "duration": 4.76,
+      "text": "maybe talk later yeah so nice thanks",
+      "timestamp": "23:50"
+    }
+  ],
+  "extraction_timestamp": "2025-06-29T20:47:10.681524",
+  "playlist_title": "SuperAI Singapore 2025: io.net Main Stage"
+}

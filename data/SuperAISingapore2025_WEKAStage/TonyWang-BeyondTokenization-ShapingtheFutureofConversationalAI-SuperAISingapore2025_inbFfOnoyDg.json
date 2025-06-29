@@ -1,0 +1,2033 @@
+{
+  "video_id": "inbFfOnoyDg",
+  "video_title": "Tony Wang - Beyond Tokenization - Shaping the Future of Conversational AI - SuperAI Singapore 2025",
+  "video_url": "https://www.youtube.com/watch?v=inbFfOnoyDg",
+  "channel_title": "SuperAI",
+  "published_at": "2025-06-25T13:01:41+00:00",
+  "duration_seconds": null,
+  "view_count": 14,
+  "like_count": 1,
+  "description": "Learn more about SuperAI: superai.com\nFollow us on X: x.com/superai_conf\n\nKeynote: Beyond Tokenization - Shaping the Future of Conversational AI\n\nSpeaker:\nTony Wang, Co-Founder and Chief Revenue Officer @ Agora\n\nStage: WEKA Stage\n#superai #agora #tokenization #chatbots #llms\n\nRecorded on 18 June 2025",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 335,
+    "aggregated_text": "thank you everyone um so just a little bit about Agora uh it's a Greek word means everybody can talk together in a very large arena uh so Agora is a public traded company NASDAQ 11 years in the history we power roughly over three billion device uh mobile uh you know car uh inside the Xiaomi some of your drones uh cameras IoT device your watch uh so basically roughly about 7,000 customer using us clubhouse linking Facebook you know some of those ones right uh so now I'm here talking about beyond tokenization right the conversational AI talking here doesn't mean the token in the web 3 but more about tokenization of the language right uh a lot of time people thinking you know tech people usually have a lot passion uh they have a vision they have a passion but sometimes they come a little bit early so understand where we are what the difficulty we facing is actually the critical to capture the next generation of voice agent and uh human companionship which I believe is a tool of largest use case for the AI for now I'm 21 co-founder of agorat and the co as we said so this is It's not just a language last year we see the rise of chatbot right and you know very smart you can talk all day long but the language of human being go beyond that we have emotion there's an old word called read between the lines right you're talking about your body language your tone your emotion in it and as a result we see the first wave of the uh voice agent uh include some of the companion apps basically lacking right uh it's very easy for human to actually detect this is AI you know because there is no emotion in the language right so basically it's it's more than just large model plus TTS plus ASR which we have right now u real world interaction is about gazing i'm am I looking at you it is about emotion it is about you know the timing it is about context and all of those are very important for our conversation right without those it's basically nothing but a chatbot right so the true conversation is multimodel we already know that but it's also cognitive and embedded and also come with visual at this moment we always talking about voice agent but really I believe the future is basically conversational agent your camera on your device play a big role of capturing human emotion and that emotion is what needed for the four modality model to basically mimic the human emotion and that is critical missing piece at this very moment so what is the next deck looks like right we call this real-time interaction uh it's basically you put all those things together lip syncing have to be part of it gaze estimation head not your body language your hand everything have to be captured emotion tagging uh we already see from the actually from latest model of 11 lab you can basically tag emotion right we also see from other companies such as hume.ai AI can basically generate emotion based on context without tagging so all those are very interesting right so we're basically right now we're seeing we're shifting from just text to coordinated audio and visual sensory input and output and those is what Agora is working on and that's what I believe is what's coming next now multimodal integration there's a lot of challenges over here it's not easy and I would say the biggest challenge is actually unaware of the problem that we are facing you know there's an old saying called you don't know what you don't know right and I think we are at this stage we do not know what is the hard part people thinking oh you know just just give it a web socket you know deliver the audio in and audio out now you have conversation oh it's not that simple right there's so many things that missing for example audio latency and the video latency are always different right the sensor fusion breaks with clock drifting imagine you have a future of you have a interactive avatar one of your favorite singers who interact with a million fans all in different part of the earth how do you keep the clock sync how do you keep the mouse moving the lip sync how do you make make sure the audio and the visual are syncing and then imagine now those 1 million audience is interact with that virtual avatar interactive avatar right so all those are challenge that we are currently facing and by the way those are all actually coming use case we are seeing among our customers right so now what people don't realize is in a simple conversation let's say we you and I stand in this hallway 80% of your brain is processing subconscious task noise cancellation echo cancellation you will never answer your own question but AI will because he capture all the input of voice he think it's a question he think the people down on the other table talking is actually a question to him right and He has a hard time to interrupt you he does not know where you finish or not finish he has no way of gazing through your eyes and see if you are confused or if you're still following him you know so all those are the challenges for a true conversation and our human brain spend 80% processing power for that that is not defined because up to this moment every single communication protocol is designed for human to human num need to address those questions i mean you don't see me answer my own question unless I'm mad right so you don't have to design into a traditional protocol that hey make sure you do not answer your own question right you don't have to worry about that you don't have to worry about hey do not interrupt when human are speaking AI shut up you do not you don't have to do that but AI don't know about it ai thinking listen to his own voice why well because we call echo you just saw the announcement from Mattel and OpenAI very soon the AI is going to be all your toys but here's the challenge those toys unlike your mobile phone from Apple fine-tuned the echo the acoustic ability of the Apple cell phone and Samsung is being fine-tuned to the point all the echo is gone but when you put into a mass production device that is not the case your echo will come in you're like \"Oh that's very simple just filter it out just filter it out right it's very easy well that problem being there for years for dozens years right so it's not that easy right so basically everything breaks without it and then what you happen is user disengage and that's what we seeing we see I think couple months ago some of the US company a financial institution is hiring back their human service you know call center people and we see some of the early pioneer of the emotional companioning app last year sold for very low valuation because there is no emotion we pay the highest value is emotional value just look at who the largest startup here Tik Tok it's emotional value right so now we go into next phase is cognitive model as even more challenge we expect user the AI to just get it just like what you woman expect you to do just get it right well that's not that simple right we actually have a large model in our brain we've been trained until 35 years old when you get married you still don't get it but AI is very new only two three years how does it get it right it's very hard right it does not understand the visual irony like are you are you mad at me no I'm not well obviously you are but AI don't understand like well based on my tokeniz ganization you are happy about me right so let's continue about next happy topic that's very just you know very hard right and fail to react with timing sometimes human are very accurate you know when you see somebody lose your eye is gazing lost contract like hey are you are you with me well let me repeat what I said do you have a question right uh it's very hard for to think about that and but even even hard is we don't really have a standard right now when you fusing things together one thing you will see from every single company and you know we are not uh away from that every AI company thinking they are the best so all of a sudden you have 10 rankings about who is the best computational AI company out there because there's a lacking of multimodal uh standard for benchmark for this multimodal fusion right but even harder for that is there's no benchmark or definition for humanike interaction what do you mean by human like right put a voice over web socket human like adding a camera human like what exactly is human like there is no definition at this very moment without addressing this question there will be no engagement without without engagement there will be no conversation and this is basically one of the challenge the whole industry is facing all those companies you see is building on top of this very foundation when you're talking about voice agent when you're talking about future application here application over there they all build on top of this and yet this is undefined and not solved now what is really humanlike right context aware gaze and tracking basically just emotion you know hands your body language there's a there's a term called a body language it's there for a reason it's and it's very important you lean forward you lay back you look confused all those provide your other counterpart the conversational people a lot feedback of what your brain is at and those are vital Right latency composition and adaptive synchronization this is basically make sure your audio visual and your movement is all in together and last but not least is you're like \"Oh don't worry about it just send all my data to crowd.\" Well there's a thing called sovereign crowd right now right and there's device so what AI sense and what to said what you said in the language your tokenizable stuff is a small portion of what AI the future AI can sense about you right so how do you deal with it you know maybe should everything should be stored in your mobile phone I mean I believe the uh the mobile phone would be much more powerful later on and the model will be more efficient and smarter so maybe that is the future right versus everything in the crowd so yeah so But now let's look at this what driving all those things and there's so many use case so over the last 11 years we internally have categorized all the use case into two things there is one that's saving your time voice agent co-pilot uh coding cursor you know and this very deck was uh collaboration between me and AI right there's also another portion is now that you have saved couple hours in a day what you do oh you're going to waste it you're going to waste it on all those emotional companionship gaming you know medias you know swap right or swap up basically all those things where you're going to spend because it make you feel happy and that is a huge economics right so all those those two thing is going to continue driving this model and define what is human like in the next couple years it won't be easy it will be couple years and why it's important because if you're a founder or build something in this space you want to make sure you do not go too fast when you go too fast you are driving by pure passion and the vision you you basically the foundation is not there your application will be lacking right and in the end of day you're going to hide back all those human call center people you just let go last year right so what is the long-term future of conversational AI right we believe actually it will disappear a true conversation is superconscious that's just your brain is handling 80% of your superconscious task it will get into your device into your rooms into your space where you are your car right just like water and air you don't you don't really feel it there but imagine one second without it right it will be understanding timing aware and emotionally intelligent but it all starts with define and solving what most ignore that is basically people take for granted just send your voice and tokenize it into bits and bites over TC API IP and that's it the conversation is done right well my argument is we are just at the very beginning of it and this is very exciting because we're at the beginning it's exciting it's particularly exciting over here people might thinking well what Southeast Asia can participate with all the larger models you need like $10 billion to just get it started well I would say yes somebody doing larger model but there's AI is everywhere it's an industry revolution there's plenty of opportunity for us to build a vertical specific use case that large model fail to address and I would also argue a lot of the future of AI is datadriven your user data is going to be so important and that is something you can build on top right so anyway that is my notes and thank you everybody",
+    "text_length": 12672,
+    "word_count": 2363
+  },
+  "segments": [
+    {
+      "start": 7.359,
+      "duration": 2.16,
+      "text": "thank you everyone um so just a little",
+      "timestamp": "00:07"
+    },
+    {
+      "start": 9.519,
+      "duration": 2.24,
+      "text": "bit about Agora uh it's a Greek word",
+      "timestamp": "00:09"
+    },
+    {
+      "start": 11.759,
+      "duration": 2.8,
+      "text": "means everybody can talk together in a",
+      "timestamp": "00:11"
+    },
+    {
+      "start": 14.559,
+      "duration": 3.121,
+      "text": "very large arena uh so Agora is a public",
+      "timestamp": "00:14"
+    },
+    {
+      "start": 17.68,
+      "duration": 2.24,
+      "text": "traded company NASDAQ 11 years in the",
+      "timestamp": "00:17"
+    },
+    {
+      "start": 19.92,
+      "duration": 2.4,
+      "text": "history we power roughly over three",
+      "timestamp": "00:19"
+    },
+    {
+      "start": 22.32,
+      "duration": 3.68,
+      "text": "billion device uh mobile uh you know car",
+      "timestamp": "00:22"
+    },
+    {
+      "start": 26.0,
+      "duration": 2.48,
+      "text": "uh inside the Xiaomi some of your drones",
+      "timestamp": "00:26"
+    },
+    {
+      "start": 28.48,
+      "duration": 3.199,
+      "text": "uh cameras IoT device your watch uh so",
+      "timestamp": "00:28"
+    },
+    {
+      "start": 31.679,
+      "duration": 2.321,
+      "text": "basically roughly about 7,000 customer",
+      "timestamp": "00:31"
+    },
+    {
+      "start": 34.0,
+      "duration": 2.64,
+      "text": "using us clubhouse linking Facebook you",
+      "timestamp": "00:34"
+    },
+    {
+      "start": 36.64,
+      "duration": 2.96,
+      "text": "know some of those ones right uh so now",
+      "timestamp": "00:36"
+    },
+    {
+      "start": 39.6,
+      "duration": 2.72,
+      "text": "I'm here talking about beyond",
+      "timestamp": "00:39"
+    },
+    {
+      "start": 42.32,
+      "duration": 3.12,
+      "text": "tokenization right the conversational AI",
+      "timestamp": "00:42"
+    },
+    {
+      "start": 45.44,
+      "duration": 2.0,
+      "text": "talking here doesn't mean the token in",
+      "timestamp": "00:45"
+    },
+    {
+      "start": 47.44,
+      "duration": 2.56,
+      "text": "the web 3 but more about tokenization of",
+      "timestamp": "00:47"
+    },
+    {
+      "start": 50.0,
+      "duration": 2.64,
+      "text": "the language right uh a lot of time",
+      "timestamp": "00:50"
+    },
+    {
+      "start": 52.64,
+      "duration": 2.079,
+      "text": "people thinking you know tech people",
+      "timestamp": "00:52"
+    },
+    {
+      "start": 54.719,
+      "duration": 2.721,
+      "text": "usually have a lot passion uh they have",
+      "timestamp": "00:54"
+    },
+    {
+      "start": 57.44,
+      "duration": 1.439,
+      "text": "a vision they have a passion but",
+      "timestamp": "00:57"
+    },
+    {
+      "start": 58.879,
+      "duration": 2.081,
+      "text": "sometimes they come a little bit early",
+      "timestamp": "00:58"
+    },
+    {
+      "start": 60.96,
+      "duration": 2.32,
+      "text": "so understand where we are what the",
+      "timestamp": "01:00"
+    },
+    {
+      "start": 63.28,
+      "duration": 1.918,
+      "text": "difficulty we facing is actually the",
+      "timestamp": "01:03"
+    },
+    {
+      "start": 65.199,
+      "duration": 2.24,
+      "text": "critical to capture the next generation",
+      "timestamp": "01:05"
+    },
+    {
+      "start": 67.439,
+      "duration": 2.561,
+      "text": "of voice agent and uh human",
+      "timestamp": "01:07"
+    },
+    {
+      "start": 70.0,
+      "duration": 2.08,
+      "text": "companionship which I believe is a tool",
+      "timestamp": "01:10"
+    },
+    {
+      "start": 72.08,
+      "duration": 2.48,
+      "text": "of largest use case for the AI for now",
+      "timestamp": "01:12"
+    },
+    {
+      "start": 74.56,
+      "duration": 3.199,
+      "text": "I'm 21 co-founder of agorat and the co",
+      "timestamp": "01:14"
+    },
+    {
+      "start": 77.759,
+      "duration": 2.321,
+      "text": "as we said so this is It's not just a",
+      "timestamp": "01:17"
+    },
+    {
+      "start": 80.08,
+      "duration": 2.56,
+      "text": "language last year we see the rise of",
+      "timestamp": "01:20"
+    },
+    {
+      "start": 82.64,
+      "duration": 2.4,
+      "text": "chatbot right and you know very smart",
+      "timestamp": "01:22"
+    },
+    {
+      "start": 85.04,
+      "duration": 2.32,
+      "text": "you can talk all day long but the",
+      "timestamp": "01:25"
+    },
+    {
+      "start": 87.36,
+      "duration": 2.72,
+      "text": "language of human being go beyond that",
+      "timestamp": "01:27"
+    },
+    {
+      "start": 90.08,
+      "duration": 2.48,
+      "text": "we have emotion there's an old word",
+      "timestamp": "01:30"
+    },
+    {
+      "start": 92.56,
+      "duration": 2.48,
+      "text": "called read between the lines right",
+      "timestamp": "01:32"
+    },
+    {
+      "start": 95.04,
+      "duration": 1.92,
+      "text": "you're talking about your body language",
+      "timestamp": "01:35"
+    },
+    {
+      "start": 96.96,
+      "duration": 3.199,
+      "text": "your tone your emotion in it and as a",
+      "timestamp": "01:36"
+    },
+    {
+      "start": 100.159,
+      "duration": 2.64,
+      "text": "result we see the first wave of the uh",
+      "timestamp": "01:40"
+    },
+    {
+      "start": 102.799,
+      "duration": 2.241,
+      "text": "voice agent uh include some of the",
+      "timestamp": "01:42"
+    },
+    {
+      "start": 105.04,
+      "duration": 3.039,
+      "text": "companion apps basically lacking right",
+      "timestamp": "01:45"
+    },
+    {
+      "start": 108.079,
+      "duration": 2.961,
+      "text": "uh it's very easy for human to actually",
+      "timestamp": "01:48"
+    },
+    {
+      "start": 111.04,
+      "duration": 2.88,
+      "text": "detect this is AI you know because there",
+      "timestamp": "01:51"
+    },
+    {
+      "start": 113.92,
+      "duration": 3.68,
+      "text": "is no emotion in the language right so",
+      "timestamp": "01:53"
+    },
+    {
+      "start": 117.6,
+      "duration": 2.32,
+      "text": "basically it's it's more than just large",
+      "timestamp": "01:57"
+    },
+    {
+      "start": 119.92,
+      "duration": 3.12,
+      "text": "model plus TTS plus ASR which we have",
+      "timestamp": "01:59"
+    },
+    {
+      "start": 123.04,
+      "duration": 2.719,
+      "text": "right now u real world interaction is",
+      "timestamp": "02:03"
+    },
+    {
+      "start": 125.759,
+      "duration": 2.801,
+      "text": "about gazing i'm am I looking at you it",
+      "timestamp": "02:05"
+    },
+    {
+      "start": 128.56,
+      "duration": 2.96,
+      "text": "is about emotion it is about you know",
+      "timestamp": "02:08"
+    },
+    {
+      "start": 131.52,
+      "duration": 3.6,
+      "text": "the timing it is about context and all",
+      "timestamp": "02:11"
+    },
+    {
+      "start": 135.12,
+      "duration": 2.56,
+      "text": "of those are very important for our",
+      "timestamp": "02:15"
+    },
+    {
+      "start": 137.68,
+      "duration": 2.32,
+      "text": "conversation right without those it's",
+      "timestamp": "02:17"
+    },
+    {
+      "start": 140.0,
+      "duration": 2.72,
+      "text": "basically nothing but a chatbot right so",
+      "timestamp": "02:20"
+    },
+    {
+      "start": 142.72,
+      "duration": 2.08,
+      "text": "the true conversation is multimodel we",
+      "timestamp": "02:22"
+    },
+    {
+      "start": 144.8,
+      "duration": 1.6,
+      "text": "already know that but it's also",
+      "timestamp": "02:24"
+    },
+    {
+      "start": 146.4,
+      "duration": 2.479,
+      "text": "cognitive and embedded and also come",
+      "timestamp": "02:26"
+    },
+    {
+      "start": 148.879,
+      "duration": 2.401,
+      "text": "with visual at this moment we always",
+      "timestamp": "02:28"
+    },
+    {
+      "start": 151.28,
+      "duration": 2.56,
+      "text": "talking about voice agent but really I",
+      "timestamp": "02:31"
+    },
+    {
+      "start": 153.84,
+      "duration": 1.84,
+      "text": "believe the future is basically",
+      "timestamp": "02:33"
+    },
+    {
+      "start": 155.68,
+      "duration": 2.559,
+      "text": "conversational agent your camera on your",
+      "timestamp": "02:35"
+    },
+    {
+      "start": 158.239,
+      "duration": 2.801,
+      "text": "device play a big role of capturing",
+      "timestamp": "02:38"
+    },
+    {
+      "start": 161.04,
+      "duration": 2.559,
+      "text": "human emotion and that emotion is what",
+      "timestamp": "02:41"
+    },
+    {
+      "start": 163.599,
+      "duration": 2.801,
+      "text": "needed for the four modality model to",
+      "timestamp": "02:43"
+    },
+    {
+      "start": 166.4,
+      "duration": 3.199,
+      "text": "basically mimic the human emotion and",
+      "timestamp": "02:46"
+    },
+    {
+      "start": 169.599,
+      "duration": 2.081,
+      "text": "that is critical missing piece at this",
+      "timestamp": "02:49"
+    },
+    {
+      "start": 171.68,
+      "duration": 2.08,
+      "text": "very moment",
+      "timestamp": "02:51"
+    },
+    {
+      "start": 173.76,
+      "duration": 2.64,
+      "text": "so what is the next deck looks like",
+      "timestamp": "02:53"
+    },
+    {
+      "start": 176.4,
+      "duration": 2.4,
+      "text": "right we call this real-time interaction",
+      "timestamp": "02:56"
+    },
+    {
+      "start": 178.8,
+      "duration": 1.76,
+      "text": "uh it's basically you put all those",
+      "timestamp": "02:58"
+    },
+    {
+      "start": 180.56,
+      "duration": 2.8,
+      "text": "things together lip syncing have to be",
+      "timestamp": "03:00"
+    },
+    {
+      "start": 183.36,
+      "duration": 4.0,
+      "text": "part of it gaze estimation head not your",
+      "timestamp": "03:03"
+    },
+    {
+      "start": 187.36,
+      "duration": 2.08,
+      "text": "body language your hand everything have",
+      "timestamp": "03:07"
+    },
+    {
+      "start": 189.44,
+      "duration": 2.56,
+      "text": "to be captured emotion tagging uh we",
+      "timestamp": "03:09"
+    },
+    {
+      "start": 192.0,
+      "duration": 1.44,
+      "text": "already see from the actually from",
+      "timestamp": "03:12"
+    },
+    {
+      "start": 193.44,
+      "duration": 2.719,
+      "text": "latest model of 11 lab you can basically",
+      "timestamp": "03:13"
+    },
+    {
+      "start": 196.159,
+      "duration": 2.561,
+      "text": "tag emotion right we also see from other",
+      "timestamp": "03:16"
+    },
+    {
+      "start": 198.72,
+      "duration": 2.0,
+      "text": "companies such as hume.ai AI can",
+      "timestamp": "03:18"
+    },
+    {
+      "start": 200.72,
+      "duration": 2.32,
+      "text": "basically generate emotion based on",
+      "timestamp": "03:20"
+    },
+    {
+      "start": 203.04,
+      "duration": 2.479,
+      "text": "context without tagging so all those are",
+      "timestamp": "03:23"
+    },
+    {
+      "start": 205.519,
+      "duration": 1.761,
+      "text": "very interesting right so we're",
+      "timestamp": "03:25"
+    },
+    {
+      "start": 207.28,
+      "duration": 1.52,
+      "text": "basically right now we're seeing we're",
+      "timestamp": "03:27"
+    },
+    {
+      "start": 208.8,
+      "duration": 3.439,
+      "text": "shifting from just text to coordinated",
+      "timestamp": "03:28"
+    },
+    {
+      "start": 212.239,
+      "duration": 2.72,
+      "text": "audio and visual sensory input and",
+      "timestamp": "03:32"
+    },
+    {
+      "start": 214.959,
+      "duration": 2.401,
+      "text": "output and those is what Agora is",
+      "timestamp": "03:34"
+    },
+    {
+      "start": 217.36,
+      "duration": 1.68,
+      "text": "working on and that's what I believe is",
+      "timestamp": "03:37"
+    },
+    {
+      "start": 219.04,
+      "duration": 3.04,
+      "text": "what's coming next",
+      "timestamp": "03:39"
+    },
+    {
+      "start": 222.08,
+      "duration": 2.799,
+      "text": "now multimodal integration there's a lot",
+      "timestamp": "03:42"
+    },
+    {
+      "start": 224.879,
+      "duration": 1.681,
+      "text": "of challenges over here it's not easy",
+      "timestamp": "03:44"
+    },
+    {
+      "start": 226.56,
+      "duration": 2.319,
+      "text": "and I would say the biggest challenge is",
+      "timestamp": "03:46"
+    },
+    {
+      "start": 228.879,
+      "duration": 4.0,
+      "text": "actually unaware of the problem that we",
+      "timestamp": "03:48"
+    },
+    {
+      "start": 232.879,
+      "duration": 1.36,
+      "text": "are facing you know there's an old",
+      "timestamp": "03:52"
+    },
+    {
+      "start": 234.239,
+      "duration": 1.36,
+      "text": "saying called you don't know what you",
+      "timestamp": "03:54"
+    },
+    {
+      "start": 235.599,
+      "duration": 1.84,
+      "text": "don't know right and I think we are at",
+      "timestamp": "03:55"
+    },
+    {
+      "start": 237.439,
+      "duration": 2.8,
+      "text": "this stage we do not know what is the",
+      "timestamp": "03:57"
+    },
+    {
+      "start": 240.239,
+      "duration": 2.08,
+      "text": "hard part people thinking oh you know",
+      "timestamp": "04:00"
+    },
+    {
+      "start": 242.319,
+      "duration": 2.161,
+      "text": "just just give it a web socket you know",
+      "timestamp": "04:02"
+    },
+    {
+      "start": 244.48,
+      "duration": 2.0,
+      "text": "deliver the audio in and audio out now",
+      "timestamp": "04:04"
+    },
+    {
+      "start": 246.48,
+      "duration": 2.0,
+      "text": "you have conversation oh it's not that",
+      "timestamp": "04:06"
+    },
+    {
+      "start": 248.48,
+      "duration": 2.319,
+      "text": "simple right there's so many things that",
+      "timestamp": "04:08"
+    },
+    {
+      "start": 250.799,
+      "duration": 2.16,
+      "text": "missing for example audio latency and",
+      "timestamp": "04:10"
+    },
+    {
+      "start": 252.959,
+      "duration": 2.321,
+      "text": "the video latency are always different",
+      "timestamp": "04:12"
+    },
+    {
+      "start": 255.28,
+      "duration": 2.479,
+      "text": "right the sensor fusion breaks with",
+      "timestamp": "04:15"
+    },
+    {
+      "start": 257.759,
+      "duration": 3.2,
+      "text": "clock drifting imagine you have a future",
+      "timestamp": "04:17"
+    },
+    {
+      "start": 260.959,
+      "duration": 2.24,
+      "text": "of you have a interactive avatar",
+      "timestamp": "04:20"
+    },
+    {
+      "start": 263.199,
+      "duration": 2.56,
+      "text": "one of your favorite singers who",
+      "timestamp": "04:23"
+    },
+    {
+      "start": 265.759,
+      "duration": 2.241,
+      "text": "interact with a million fans all in",
+      "timestamp": "04:25"
+    },
+    {
+      "start": 268.0,
+      "duration": 2.479,
+      "text": "different part of the earth how do you",
+      "timestamp": "04:28"
+    },
+    {
+      "start": 270.479,
+      "duration": 2.401,
+      "text": "keep the clock sync how do you keep the",
+      "timestamp": "04:30"
+    },
+    {
+      "start": 272.88,
+      "duration": 1.759,
+      "text": "mouse moving the lip sync how do you",
+      "timestamp": "04:32"
+    },
+    {
+      "start": 274.639,
+      "duration": 1.84,
+      "text": "make make sure the audio and the visual",
+      "timestamp": "04:34"
+    },
+    {
+      "start": 276.479,
+      "duration": 2.16,
+      "text": "are syncing and then imagine now those 1",
+      "timestamp": "04:36"
+    },
+    {
+      "start": 278.639,
+      "duration": 2.721,
+      "text": "million audience is interact with that",
+      "timestamp": "04:38"
+    },
+    {
+      "start": 281.36,
+      "duration": 2.24,
+      "text": "virtual avatar interactive avatar right",
+      "timestamp": "04:41"
+    },
+    {
+      "start": 283.6,
+      "duration": 2.0,
+      "text": "so all those are challenge that we are",
+      "timestamp": "04:43"
+    },
+    {
+      "start": 285.6,
+      "duration": 1.44,
+      "text": "currently facing and by the way those",
+      "timestamp": "04:45"
+    },
+    {
+      "start": 287.04,
+      "duration": 2.4,
+      "text": "are all actually coming use case we are",
+      "timestamp": "04:47"
+    },
+    {
+      "start": 289.44,
+      "duration": 4.24,
+      "text": "seeing among our customers right so now",
+      "timestamp": "04:49"
+    },
+    {
+      "start": 293.68,
+      "duration": 2.88,
+      "text": "what people don't realize is in a simple",
+      "timestamp": "04:53"
+    },
+    {
+      "start": 296.56,
+      "duration": 1.84,
+      "text": "conversation let's say we you and I",
+      "timestamp": "04:56"
+    },
+    {
+      "start": 298.4,
+      "duration": 3.6,
+      "text": "stand in this hallway 80% of your brain",
+      "timestamp": "04:58"
+    },
+    {
+      "start": 302.0,
+      "duration": 3.199,
+      "text": "is processing subconscious task noise",
+      "timestamp": "05:02"
+    },
+    {
+      "start": 305.199,
+      "duration": 2.72,
+      "text": "cancellation echo cancellation you will",
+      "timestamp": "05:05"
+    },
+    {
+      "start": 307.919,
+      "duration": 2.641,
+      "text": "never answer your own question but AI",
+      "timestamp": "05:07"
+    },
+    {
+      "start": 310.56,
+      "duration": 2.639,
+      "text": "will because he capture all the input of",
+      "timestamp": "05:10"
+    },
+    {
+      "start": 313.199,
+      "duration": 2.401,
+      "text": "voice he think it's a question he think",
+      "timestamp": "05:13"
+    },
+    {
+      "start": 315.6,
+      "duration": 2.56,
+      "text": "the people down on the other table",
+      "timestamp": "05:15"
+    },
+    {
+      "start": 318.16,
+      "duration": 2.56,
+      "text": "talking is actually a question to him",
+      "timestamp": "05:18"
+    },
+    {
+      "start": 320.72,
+      "duration": 2.56,
+      "text": "right and He has a hard time to",
+      "timestamp": "05:20"
+    },
+    {
+      "start": 323.28,
+      "duration": 2.24,
+      "text": "interrupt you he does not know where you",
+      "timestamp": "05:23"
+    },
+    {
+      "start": 325.52,
+      "duration": 3.36,
+      "text": "finish or not finish he has no way of",
+      "timestamp": "05:25"
+    },
+    {
+      "start": 328.88,
+      "duration": 2.72,
+      "text": "gazing through your eyes and see if you",
+      "timestamp": "05:28"
+    },
+    {
+      "start": 331.6,
+      "duration": 1.68,
+      "text": "are confused or if you're still",
+      "timestamp": "05:31"
+    },
+    {
+      "start": 333.28,
+      "duration": 2.32,
+      "text": "following him you know so all those are",
+      "timestamp": "05:33"
+    },
+    {
+      "start": 335.6,
+      "duration": 2.08,
+      "text": "the challenges for a true conversation",
+      "timestamp": "05:35"
+    },
+    {
+      "start": 337.68,
+      "duration": 3.359,
+      "text": "and our human brain spend 80% processing",
+      "timestamp": "05:37"
+    },
+    {
+      "start": 341.039,
+      "duration": 3.44,
+      "text": "power for that that is not defined",
+      "timestamp": "05:41"
+    },
+    {
+      "start": 344.479,
+      "duration": 2.641,
+      "text": "because up to this moment every single",
+      "timestamp": "05:44"
+    },
+    {
+      "start": 347.12,
+      "duration": 2.16,
+      "text": "communication protocol is designed for",
+      "timestamp": "05:47"
+    },
+    {
+      "start": 349.28,
+      "duration": 3.759,
+      "text": "human to human num need to address those",
+      "timestamp": "05:49"
+    },
+    {
+      "start": 353.039,
+      "duration": 1.921,
+      "text": "questions i mean you don't see me answer",
+      "timestamp": "05:53"
+    },
+    {
+      "start": 354.96,
+      "duration": 2.48,
+      "text": "my own question unless I'm mad right so",
+      "timestamp": "05:54"
+    },
+    {
+      "start": 357.44,
+      "duration": 1.68,
+      "text": "you don't have to design into a",
+      "timestamp": "05:57"
+    },
+    {
+      "start": 359.12,
+      "duration": 2.32,
+      "text": "traditional protocol that hey make sure",
+      "timestamp": "05:59"
+    },
+    {
+      "start": 361.44,
+      "duration": 1.92,
+      "text": "you do not answer your own question",
+      "timestamp": "06:01"
+    },
+    {
+      "start": 363.36,
+      "duration": 1.52,
+      "text": "right you don't have to worry about that",
+      "timestamp": "06:03"
+    },
+    {
+      "start": 364.88,
+      "duration": 2.319,
+      "text": "you don't have to worry about hey do not",
+      "timestamp": "06:04"
+    },
+    {
+      "start": 367.199,
+      "duration": 2.961,
+      "text": "interrupt when human are speaking AI",
+      "timestamp": "06:07"
+    },
+    {
+      "start": 370.16,
+      "duration": 1.44,
+      "text": "shut up you do not you don't have to do",
+      "timestamp": "06:10"
+    },
+    {
+      "start": 371.6,
+      "duration": 2.0,
+      "text": "that but AI don't know about it ai",
+      "timestamp": "06:11"
+    },
+    {
+      "start": 373.6,
+      "duration": 3.2,
+      "text": "thinking listen to his own voice why",
+      "timestamp": "06:13"
+    },
+    {
+      "start": 376.8,
+      "duration": 2.959,
+      "text": "well because we call echo you just saw",
+      "timestamp": "06:16"
+    },
+    {
+      "start": 379.759,
+      "duration": 3.041,
+      "text": "the announcement from Mattel and OpenAI",
+      "timestamp": "06:19"
+    },
+    {
+      "start": 382.8,
+      "duration": 2.239,
+      "text": "very soon the AI is going to be all your",
+      "timestamp": "06:22"
+    },
+    {
+      "start": 385.039,
+      "duration": 2.801,
+      "text": "toys but here's the challenge",
+      "timestamp": "06:25"
+    },
+    {
+      "start": 387.84,
+      "duration": 2.639,
+      "text": "those toys unlike your mobile phone from",
+      "timestamp": "06:27"
+    },
+    {
+      "start": 390.479,
+      "duration": 3.84,
+      "text": "Apple fine-tuned the echo the acoustic",
+      "timestamp": "06:30"
+    },
+    {
+      "start": 394.319,
+      "duration": 2.241,
+      "text": "ability of the Apple cell phone and",
+      "timestamp": "06:34"
+    },
+    {
+      "start": 396.56,
+      "duration": 2.32,
+      "text": "Samsung is being fine-tuned to the point",
+      "timestamp": "06:36"
+    },
+    {
+      "start": 398.88,
+      "duration": 2.159,
+      "text": "all the echo is gone but when you put",
+      "timestamp": "06:38"
+    },
+    {
+      "start": 401.039,
+      "duration": 2.72,
+      "text": "into a mass production device that is",
+      "timestamp": "06:41"
+    },
+    {
+      "start": 403.759,
+      "duration": 2.401,
+      "text": "not the case your echo will come in",
+      "timestamp": "06:43"
+    },
+    {
+      "start": 406.16,
+      "duration": 1.84,
+      "text": "you're like \"Oh that's very simple just",
+      "timestamp": "06:46"
+    },
+    {
+      "start": 408.0,
+      "duration": 2.16,
+      "text": "filter it out just filter it out right",
+      "timestamp": "06:48"
+    },
+    {
+      "start": 410.16,
+      "duration": 1.759,
+      "text": "it's very easy well that problem being",
+      "timestamp": "06:50"
+    },
+    {
+      "start": 411.919,
+      "duration": 2.321,
+      "text": "there for years for dozens years right",
+      "timestamp": "06:51"
+    },
+    {
+      "start": 414.24,
+      "duration": 3.2,
+      "text": "so it's not that easy right so basically",
+      "timestamp": "06:54"
+    },
+    {
+      "start": 417.44,
+      "duration": 2.159,
+      "text": "everything breaks without it and then",
+      "timestamp": "06:57"
+    },
+    {
+      "start": 419.599,
+      "duration": 2.641,
+      "text": "what you happen is user disengage and",
+      "timestamp": "06:59"
+    },
+    {
+      "start": 422.24,
+      "duration": 2.079,
+      "text": "that's what we seeing we see I think",
+      "timestamp": "07:02"
+    },
+    {
+      "start": 424.319,
+      "duration": 1.761,
+      "text": "couple months ago some of the US company",
+      "timestamp": "07:04"
+    },
+    {
+      "start": 426.08,
+      "duration": 2.88,
+      "text": "a financial institution is hiring back",
+      "timestamp": "07:06"
+    },
+    {
+      "start": 428.96,
+      "duration": 2.239,
+      "text": "their human service you know call center",
+      "timestamp": "07:08"
+    },
+    {
+      "start": 431.199,
+      "duration": 2.4,
+      "text": "people and we see some of the early",
+      "timestamp": "07:11"
+    },
+    {
+      "start": 433.599,
+      "duration": 2.241,
+      "text": "pioneer of the emotional companioning",
+      "timestamp": "07:13"
+    },
+    {
+      "start": 435.84,
+      "duration": 2.479,
+      "text": "app last year sold for very low",
+      "timestamp": "07:15"
+    },
+    {
+      "start": 438.319,
+      "duration": 3.121,
+      "text": "valuation because there is no emotion we",
+      "timestamp": "07:18"
+    },
+    {
+      "start": 441.44,
+      "duration": 4.0,
+      "text": "pay the highest value is emotional value",
+      "timestamp": "07:21"
+    },
+    {
+      "start": 445.44,
+      "duration": 2.0,
+      "text": "just look at who the largest startup",
+      "timestamp": "07:25"
+    },
+    {
+      "start": 447.44,
+      "duration": 4.479,
+      "text": "here Tik Tok it's emotional value",
+      "timestamp": "07:27"
+    },
+    {
+      "start": 451.919,
+      "duration": 2.641,
+      "text": "right so now we go into next phase is",
+      "timestamp": "07:31"
+    },
+    {
+      "start": 454.56,
+      "duration": 3.12,
+      "text": "cognitive model as even more challenge",
+      "timestamp": "07:34"
+    },
+    {
+      "start": 457.68,
+      "duration": 5.2,
+      "text": "we expect user the AI to just get it",
+      "timestamp": "07:37"
+    },
+    {
+      "start": 462.88,
+      "duration": 2.64,
+      "text": "just like what you woman expect you to",
+      "timestamp": "07:42"
+    },
+    {
+      "start": 465.52,
+      "duration": 2.88,
+      "text": "do just get it right well that's not",
+      "timestamp": "07:45"
+    },
+    {
+      "start": 468.4,
+      "duration": 2.079,
+      "text": "that simple right we actually have a",
+      "timestamp": "07:48"
+    },
+    {
+      "start": 470.479,
+      "duration": 1.84,
+      "text": "large model in our brain we've been",
+      "timestamp": "07:50"
+    },
+    {
+      "start": 472.319,
+      "duration": 2.88,
+      "text": "trained until 35 years old when you get",
+      "timestamp": "07:52"
+    },
+    {
+      "start": 475.199,
+      "duration": 2.801,
+      "text": "married you still don't get it but AI is",
+      "timestamp": "07:55"
+    },
+    {
+      "start": 478.0,
+      "duration": 2.08,
+      "text": "very new only two three years how does",
+      "timestamp": "07:58"
+    },
+    {
+      "start": 480.08,
+      "duration": 3.04,
+      "text": "it get it right it's very hard right it",
+      "timestamp": "08:00"
+    },
+    {
+      "start": 483.12,
+      "duration": 2.72,
+      "text": "does not understand the visual irony",
+      "timestamp": "08:03"
+    },
+    {
+      "start": 485.84,
+      "duration": 4.4,
+      "text": "like are you are you mad at me no I'm",
+      "timestamp": "08:05"
+    },
+    {
+      "start": 490.24,
+      "duration": 3.2,
+      "text": "not well obviously you are but AI don't",
+      "timestamp": "08:10"
+    },
+    {
+      "start": 493.44,
+      "duration": 2.159,
+      "text": "understand like well based on my tokeniz",
+      "timestamp": "08:13"
+    },
+    {
+      "start": 495.599,
+      "duration": 2.641,
+      "text": "ganization you are happy about me right",
+      "timestamp": "08:15"
+    },
+    {
+      "start": 498.24,
+      "duration": 2.639,
+      "text": "so let's continue about next happy topic",
+      "timestamp": "08:18"
+    },
+    {
+      "start": 500.879,
+      "duration": 2.241,
+      "text": "that's very just you know very hard",
+      "timestamp": "08:20"
+    },
+    {
+      "start": 503.12,
+      "duration": 3.28,
+      "text": "right and fail to react with timing",
+      "timestamp": "08:23"
+    },
+    {
+      "start": 506.4,
+      "duration": 2.639,
+      "text": "sometimes human are very accurate you",
+      "timestamp": "08:26"
+    },
+    {
+      "start": 509.039,
+      "duration": 2.481,
+      "text": "know when you see somebody lose your eye",
+      "timestamp": "08:29"
+    },
+    {
+      "start": 511.52,
+      "duration": 2.48,
+      "text": "is gazing lost contract like hey are you",
+      "timestamp": "08:31"
+    },
+    {
+      "start": 514.0,
+      "duration": 2.0,
+      "text": "are you with me well let me repeat what",
+      "timestamp": "08:34"
+    },
+    {
+      "start": 516.0,
+      "duration": 2.159,
+      "text": "I said do you have a question right uh",
+      "timestamp": "08:36"
+    },
+    {
+      "start": 518.159,
+      "duration": 1.841,
+      "text": "it's very hard for to think about that",
+      "timestamp": "08:38"
+    },
+    {
+      "start": 520.0,
+      "duration": 2.479,
+      "text": "and but even even hard is we don't",
+      "timestamp": "08:40"
+    },
+    {
+      "start": 522.479,
+      "duration": 2.721,
+      "text": "really have a standard right now when",
+      "timestamp": "08:42"
+    },
+    {
+      "start": 525.2,
+      "duration": 2.56,
+      "text": "you fusing things together one thing you",
+      "timestamp": "08:45"
+    },
+    {
+      "start": 527.76,
+      "duration": 2.56,
+      "text": "will see from every single company and",
+      "timestamp": "08:47"
+    },
+    {
+      "start": 530.32,
+      "duration": 2.48,
+      "text": "you know we are not uh away from that",
+      "timestamp": "08:50"
+    },
+    {
+      "start": 532.8,
+      "duration": 2.08,
+      "text": "every AI company thinking they are the",
+      "timestamp": "08:52"
+    },
+    {
+      "start": 534.88,
+      "duration": 2.079,
+      "text": "best so all of a sudden you have 10",
+      "timestamp": "08:54"
+    },
+    {
+      "start": 536.959,
+      "duration": 2.161,
+      "text": "rankings about who is the best",
+      "timestamp": "08:56"
+    },
+    {
+      "start": 539.12,
+      "duration": 1.92,
+      "text": "computational AI company out there",
+      "timestamp": "08:59"
+    },
+    {
+      "start": 541.04,
+      "duration": 2.4,
+      "text": "because there's a lacking of multimodal",
+      "timestamp": "09:01"
+    },
+    {
+      "start": 543.44,
+      "duration": 2.32,
+      "text": "uh standard for benchmark for this",
+      "timestamp": "09:03"
+    },
+    {
+      "start": 545.76,
+      "duration": 2.56,
+      "text": "multimodal fusion right but even harder",
+      "timestamp": "09:05"
+    },
+    {
+      "start": 548.32,
+      "duration": 3.68,
+      "text": "for that is there's no benchmark or",
+      "timestamp": "09:08"
+    },
+    {
+      "start": 552.0,
+      "duration": 3.2,
+      "text": "definition for humanike interaction what",
+      "timestamp": "09:12"
+    },
+    {
+      "start": 555.2,
+      "duration": 2.56,
+      "text": "do you mean by human like right put a",
+      "timestamp": "09:15"
+    },
+    {
+      "start": 557.76,
+      "duration": 3.04,
+      "text": "voice over web socket human like adding",
+      "timestamp": "09:17"
+    },
+    {
+      "start": 560.8,
+      "duration": 2.88,
+      "text": "a camera human like what exactly is",
+      "timestamp": "09:20"
+    },
+    {
+      "start": 563.68,
+      "duration": 1.92,
+      "text": "human like there is no definition at",
+      "timestamp": "09:23"
+    },
+    {
+      "start": 565.6,
+      "duration": 2.32,
+      "text": "this very moment without addressing this",
+      "timestamp": "09:25"
+    },
+    {
+      "start": 567.92,
+      "duration": 2.24,
+      "text": "question there will be no engagement",
+      "timestamp": "09:27"
+    },
+    {
+      "start": 570.16,
+      "duration": 2.48,
+      "text": "without without engagement there will be",
+      "timestamp": "09:30"
+    },
+    {
+      "start": 572.64,
+      "duration": 2.48,
+      "text": "no conversation and this is basically",
+      "timestamp": "09:32"
+    },
+    {
+      "start": 575.12,
+      "duration": 1.92,
+      "text": "one of the challenge the whole industry",
+      "timestamp": "09:35"
+    },
+    {
+      "start": 577.04,
+      "duration": 3.76,
+      "text": "is facing all those companies you see is",
+      "timestamp": "09:37"
+    },
+    {
+      "start": 580.8,
+      "duration": 2.56,
+      "text": "building on top of this very foundation",
+      "timestamp": "09:40"
+    },
+    {
+      "start": 583.36,
+      "duration": 1.44,
+      "text": "when you're talking about voice agent",
+      "timestamp": "09:43"
+    },
+    {
+      "start": 584.8,
+      "duration": 0.96,
+      "text": "when you're talking about future",
+      "timestamp": "09:44"
+    },
+    {
+      "start": 585.76,
+      "duration": 2.24,
+      "text": "application here application over there",
+      "timestamp": "09:45"
+    },
+    {
+      "start": 588.0,
+      "duration": 3.04,
+      "text": "they all build on top of this and yet",
+      "timestamp": "09:48"
+    },
+    {
+      "start": 591.04,
+      "duration": 4.96,
+      "text": "this is undefined and not solved",
+      "timestamp": "09:51"
+    },
+    {
+      "start": 596.0,
+      "duration": 3.44,
+      "text": "now what is really humanlike right",
+      "timestamp": "09:56"
+    },
+    {
+      "start": 599.44,
+      "duration": 3.44,
+      "text": "context aware gaze and tracking",
+      "timestamp": "09:59"
+    },
+    {
+      "start": 602.88,
+      "duration": 3.2,
+      "text": "basically just emotion you know hands",
+      "timestamp": "10:02"
+    },
+    {
+      "start": 606.08,
+      "duration": 1.52,
+      "text": "your body language there's a there's a",
+      "timestamp": "10:06"
+    },
+    {
+      "start": 607.6,
+      "duration": 2.32,
+      "text": "term called a body language it's there",
+      "timestamp": "10:07"
+    },
+    {
+      "start": 609.92,
+      "duration": 2.0,
+      "text": "for a reason it's and it's very",
+      "timestamp": "10:09"
+    },
+    {
+      "start": 611.92,
+      "duration": 3.44,
+      "text": "important you lean forward you lay back",
+      "timestamp": "10:11"
+    },
+    {
+      "start": 615.36,
+      "duration": 2.64,
+      "text": "you look confused all those provide your",
+      "timestamp": "10:15"
+    },
+    {
+      "start": 618.0,
+      "duration": 2.079,
+      "text": "other counterpart the conversational",
+      "timestamp": "10:18"
+    },
+    {
+      "start": 620.079,
+      "duration": 3.2,
+      "text": "people a lot feedback of what your brain",
+      "timestamp": "10:20"
+    },
+    {
+      "start": 623.279,
+      "duration": 3.201,
+      "text": "is at and those are vital Right latency",
+      "timestamp": "10:23"
+    },
+    {
+      "start": 626.48,
+      "duration": 2.16,
+      "text": "composition and adaptive synchronization",
+      "timestamp": "10:26"
+    },
+    {
+      "start": 628.64,
+      "duration": 2.0,
+      "text": "this is basically make sure your audio",
+      "timestamp": "10:28"
+    },
+    {
+      "start": 630.64,
+      "duration": 2.16,
+      "text": "visual and your movement is all in",
+      "timestamp": "10:30"
+    },
+    {
+      "start": 632.8,
+      "duration": 3.279,
+      "text": "together and last but not least is",
+      "timestamp": "10:32"
+    },
+    {
+      "start": 636.079,
+      "duration": 1.2,
+      "text": "you're like \"Oh don't worry about it",
+      "timestamp": "10:36"
+    },
+    {
+      "start": 637.279,
+      "duration": 2.641,
+      "text": "just send all my data to crowd.\" Well",
+      "timestamp": "10:37"
+    },
+    {
+      "start": 639.92,
+      "duration": 1.76,
+      "text": "there's a thing called sovereign crowd",
+      "timestamp": "10:39"
+    },
+    {
+      "start": 641.68,
+      "duration": 3.44,
+      "text": "right now right and there's device so",
+      "timestamp": "10:41"
+    },
+    {
+      "start": 645.12,
+      "duration": 3.68,
+      "text": "what AI sense and what to said what you",
+      "timestamp": "10:45"
+    },
+    {
+      "start": 648.8,
+      "duration": 2.08,
+      "text": "said in the language your tokenizable",
+      "timestamp": "10:48"
+    },
+    {
+      "start": 650.88,
+      "duration": 3.28,
+      "text": "stuff is a small portion of what AI the",
+      "timestamp": "10:50"
+    },
+    {
+      "start": 654.16,
+      "duration": 3.119,
+      "text": "future AI can sense about you right so",
+      "timestamp": "10:54"
+    },
+    {
+      "start": 657.279,
+      "duration": 2.161,
+      "text": "how do you deal with it you know maybe",
+      "timestamp": "10:57"
+    },
+    {
+      "start": 659.44,
+      "duration": 1.839,
+      "text": "should everything should be stored in",
+      "timestamp": "10:59"
+    },
+    {
+      "start": 661.279,
+      "duration": 2.641,
+      "text": "your mobile phone I mean I believe the",
+      "timestamp": "11:01"
+    },
+    {
+      "start": 663.92,
+      "duration": 2.08,
+      "text": "uh the mobile phone would be much more",
+      "timestamp": "11:03"
+    },
+    {
+      "start": 666.0,
+      "duration": 1.519,
+      "text": "powerful later on and the model will be",
+      "timestamp": "11:06"
+    },
+    {
+      "start": 667.519,
+      "duration": 1.681,
+      "text": "more efficient and smarter so maybe that",
+      "timestamp": "11:07"
+    },
+    {
+      "start": 669.2,
+      "duration": 1.84,
+      "text": "is the future right versus everything in",
+      "timestamp": "11:09"
+    },
+    {
+      "start": 671.04,
+      "duration": 4.0,
+      "text": "the crowd so yeah so But now let's look",
+      "timestamp": "11:11"
+    },
+    {
+      "start": 675.04,
+      "duration": 2.799,
+      "text": "at this what driving all those things",
+      "timestamp": "11:15"
+    },
+    {
+      "start": 677.839,
+      "duration": 2.481,
+      "text": "and there's so many use case so over the",
+      "timestamp": "11:17"
+    },
+    {
+      "start": 680.32,
+      "duration": 2.48,
+      "text": "last 11 years we internally have",
+      "timestamp": "11:20"
+    },
+    {
+      "start": 682.8,
+      "duration": 3.12,
+      "text": "categorized all the use case into two",
+      "timestamp": "11:22"
+    },
+    {
+      "start": 685.92,
+      "duration": 2.479,
+      "text": "things there is one that's saving your",
+      "timestamp": "11:25"
+    },
+    {
+      "start": 688.399,
+      "duration": 4.161,
+      "text": "time voice agent co-pilot uh coding",
+      "timestamp": "11:28"
+    },
+    {
+      "start": 692.56,
+      "duration": 2.959,
+      "text": "cursor you know and this very deck was",
+      "timestamp": "11:32"
+    },
+    {
+      "start": 695.519,
+      "duration": 3.121,
+      "text": "uh collaboration between me and AI right",
+      "timestamp": "11:35"
+    },
+    {
+      "start": 698.64,
+      "duration": 2.639,
+      "text": "there's also another portion is now that",
+      "timestamp": "11:38"
+    },
+    {
+      "start": 701.279,
+      "duration": 1.841,
+      "text": "you have saved couple hours in a day",
+      "timestamp": "11:41"
+    },
+    {
+      "start": 703.12,
+      "duration": 2.0,
+      "text": "what you do oh you're going to waste it",
+      "timestamp": "11:43"
+    },
+    {
+      "start": 705.12,
+      "duration": 1.52,
+      "text": "you're going to waste it on all those",
+      "timestamp": "11:45"
+    },
+    {
+      "start": 706.64,
+      "duration": 2.56,
+      "text": "emotional companionship gaming you know",
+      "timestamp": "11:46"
+    },
+    {
+      "start": 709.2,
+      "duration": 2.96,
+      "text": "medias you know swap right or swap up",
+      "timestamp": "11:49"
+    },
+    {
+      "start": 712.16,
+      "duration": 1.679,
+      "text": "basically all those things where you're",
+      "timestamp": "11:52"
+    },
+    {
+      "start": 713.839,
+      "duration": 2.0,
+      "text": "going to spend because it make you feel",
+      "timestamp": "11:53"
+    },
+    {
+      "start": 715.839,
+      "duration": 3.44,
+      "text": "happy and that is a huge economics right",
+      "timestamp": "11:55"
+    },
+    {
+      "start": 719.279,
+      "duration": 2.401,
+      "text": "so all those those two thing is going to",
+      "timestamp": "11:59"
+    },
+    {
+      "start": 721.68,
+      "duration": 3.36,
+      "text": "continue driving this model and define",
+      "timestamp": "12:01"
+    },
+    {
+      "start": 725.04,
+      "duration": 2.32,
+      "text": "what is human like in the next couple",
+      "timestamp": "12:05"
+    },
+    {
+      "start": 727.36,
+      "duration": 2.24,
+      "text": "years it won't be easy it will be couple",
+      "timestamp": "12:07"
+    },
+    {
+      "start": 729.6,
+      "duration": 3.2,
+      "text": "years and why it's important because if",
+      "timestamp": "12:09"
+    },
+    {
+      "start": 732.8,
+      "duration": 1.76,
+      "text": "you're a founder or build something in",
+      "timestamp": "12:12"
+    },
+    {
+      "start": 734.56,
+      "duration": 2.64,
+      "text": "this space you want to make sure you do",
+      "timestamp": "12:14"
+    },
+    {
+      "start": 737.2,
+      "duration": 3.28,
+      "text": "not go too fast when you go too fast you",
+      "timestamp": "12:17"
+    },
+    {
+      "start": 740.48,
+      "duration": 1.919,
+      "text": "are driving by pure passion and the",
+      "timestamp": "12:20"
+    },
+    {
+      "start": 742.399,
+      "duration": 3.281,
+      "text": "vision you you basically the foundation",
+      "timestamp": "12:22"
+    },
+    {
+      "start": 745.68,
+      "duration": 2.32,
+      "text": "is not there your application will be",
+      "timestamp": "12:25"
+    },
+    {
+      "start": 748.0,
+      "duration": 2.32,
+      "text": "lacking right and in the end of day",
+      "timestamp": "12:28"
+    },
+    {
+      "start": 750.32,
+      "duration": 1.6,
+      "text": "you're going to hide back all those",
+      "timestamp": "12:30"
+    },
+    {
+      "start": 751.92,
+      "duration": 1.84,
+      "text": "human call center people you just let go",
+      "timestamp": "12:31"
+    },
+    {
+      "start": 753.76,
+      "duration": 1.759,
+      "text": "last year",
+      "timestamp": "12:33"
+    },
+    {
+      "start": 755.519,
+      "duration": 4.641,
+      "text": "right so what is the long-term future of",
+      "timestamp": "12:35"
+    },
+    {
+      "start": 760.16,
+      "duration": 2.799,
+      "text": "conversational AI right we believe",
+      "timestamp": "12:40"
+    },
+    {
+      "start": 762.959,
+      "duration": 2.481,
+      "text": "actually it will disappear a true",
+      "timestamp": "12:42"
+    },
+    {
+      "start": 765.44,
+      "duration": 2.48,
+      "text": "conversation is superconscious that's",
+      "timestamp": "12:45"
+    },
+    {
+      "start": 767.92,
+      "duration": 2.4,
+      "text": "just your brain is handling 80% of your",
+      "timestamp": "12:47"
+    },
+    {
+      "start": 770.32,
+      "duration": 2.4,
+      "text": "superconscious task it will get into",
+      "timestamp": "12:50"
+    },
+    {
+      "start": 772.72,
+      "duration": 2.88,
+      "text": "your device into your rooms into your",
+      "timestamp": "12:52"
+    },
+    {
+      "start": 775.6,
+      "duration": 2.72,
+      "text": "space where you are your car right just",
+      "timestamp": "12:55"
+    },
+    {
+      "start": 778.32,
+      "duration": 1.519,
+      "text": "like water and air you don't you don't",
+      "timestamp": "12:58"
+    },
+    {
+      "start": 779.839,
+      "duration": 2.0,
+      "text": "really feel it there but imagine one",
+      "timestamp": "12:59"
+    },
+    {
+      "start": 781.839,
+      "duration": 2.481,
+      "text": "second without it right it will be",
+      "timestamp": "13:01"
+    },
+    {
+      "start": 784.32,
+      "duration": 2.24,
+      "text": "understanding timing aware and",
+      "timestamp": "13:04"
+    },
+    {
+      "start": 786.56,
+      "duration": 2.64,
+      "text": "emotionally intelligent",
+      "timestamp": "13:06"
+    },
+    {
+      "start": 789.2,
+      "duration": 2.48,
+      "text": "but it all starts with define and",
+      "timestamp": "13:09"
+    },
+    {
+      "start": 791.68,
+      "duration": 1.52,
+      "text": "solving",
+      "timestamp": "13:11"
+    },
+    {
+      "start": 793.2,
+      "duration": 2.24,
+      "text": "what most ignore that is basically",
+      "timestamp": "13:13"
+    },
+    {
+      "start": 795.44,
+      "duration": 2.8,
+      "text": "people take for granted just send your",
+      "timestamp": "13:15"
+    },
+    {
+      "start": 798.24,
+      "duration": 2.399,
+      "text": "voice and tokenize it into bits and",
+      "timestamp": "13:18"
+    },
+    {
+      "start": 800.639,
+      "duration": 2.241,
+      "text": "bites over TC API IP and that's it the",
+      "timestamp": "13:20"
+    },
+    {
+      "start": 802.88,
+      "duration": 2.16,
+      "text": "conversation is done right well my",
+      "timestamp": "13:22"
+    },
+    {
+      "start": 805.04,
+      "duration": 2.0,
+      "text": "argument is we are just at the very",
+      "timestamp": "13:25"
+    },
+    {
+      "start": 807.04,
+      "duration": 1.68,
+      "text": "beginning of it and this is very",
+      "timestamp": "13:27"
+    },
+    {
+      "start": 808.72,
+      "duration": 1.76,
+      "text": "exciting because we're at the beginning",
+      "timestamp": "13:28"
+    },
+    {
+      "start": 810.48,
+      "duration": 2.159,
+      "text": "it's exciting it's particularly exciting",
+      "timestamp": "13:30"
+    },
+    {
+      "start": 812.639,
+      "duration": 1.921,
+      "text": "over here people might thinking well",
+      "timestamp": "13:32"
+    },
+    {
+      "start": 814.56,
+      "duration": 2.64,
+      "text": "what Southeast Asia can participate with",
+      "timestamp": "13:34"
+    },
+    {
+      "start": 817.2,
+      "duration": 1.84,
+      "text": "all the larger models you need like $10",
+      "timestamp": "13:37"
+    },
+    {
+      "start": 819.04,
+      "duration": 2.08,
+      "text": "billion to just get it started well I",
+      "timestamp": "13:39"
+    },
+    {
+      "start": 821.12,
+      "duration": 1.519,
+      "text": "would say yes somebody doing larger",
+      "timestamp": "13:41"
+    },
+    {
+      "start": 822.639,
+      "duration": 2.481,
+      "text": "model but there's AI is everywhere it's",
+      "timestamp": "13:42"
+    },
+    {
+      "start": 825.12,
+      "duration": 2.159,
+      "text": "an industry revolution there's plenty of",
+      "timestamp": "13:45"
+    },
+    {
+      "start": 827.279,
+      "duration": 2.56,
+      "text": "opportunity for us to build a vertical",
+      "timestamp": "13:47"
+    },
+    {
+      "start": 829.839,
+      "duration": 2.721,
+      "text": "specific use case that large model fail",
+      "timestamp": "13:49"
+    },
+    {
+      "start": 832.56,
+      "duration": 2.24,
+      "text": "to address and I would also argue a lot",
+      "timestamp": "13:52"
+    },
+    {
+      "start": 834.8,
+      "duration": 2.64,
+      "text": "of the future of AI is datadriven your",
+      "timestamp": "13:54"
+    },
+    {
+      "start": 837.44,
+      "duration": 2.32,
+      "text": "user data is going to be so important",
+      "timestamp": "13:57"
+    },
+    {
+      "start": 839.76,
+      "duration": 2.16,
+      "text": "and that is something you can build on",
+      "timestamp": "13:59"
+    },
+    {
+      "start": 841.92,
+      "duration": 5.76,
+      "text": "top right so anyway that is my notes and",
+      "timestamp": "14:01"
+    },
+    {
+      "start": 847.68,
+      "duration": 3.32,
+      "text": "thank you everybody",
+      "timestamp": "14:07"
+    }
+  ],
+  "extraction_timestamp": "2025-06-29T21:04:35.343914",
+  "playlist_title": "SuperAI Singapore 2025: WEKA Stage"
+}

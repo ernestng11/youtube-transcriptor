@@ -1,0 +1,1523 @@
+{
+  "video_id": "5egOoDG67tg",
+  "video_title": "Duy Trieu - Genesis Final Round: Nanyang Biologics - SuperAI Singapore 2025",
+  "video_url": "https://www.youtube.com/watch?v=5egOoDG67tg",
+  "channel_title": "SuperAI",
+  "published_at": "2025-06-25T12:40:54+00:00",
+  "duration_seconds": null,
+  "view_count": 5,
+  "like_count": 0,
+  "description": "Learn more about SuperAI: superai.com\nFollow us on X: x.com/superai_conf\n\nGenesis Final Round: Nanyang Biologics\n\nSpeaker:\nDuy Trieu, Director of Engineering @ Nanyang Biologics\n\nStage: WEKA Stage\n#superai #nanyangbiologics #startups #competition #healthcare \n\nRecorded on 19 June 2025",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 250,
+    "aggregated_text": "hi everyone uh my name is Z i'm the CTO of Nanyang Bologics um so I think that uh per the sort of like how this elevator speech go this would be like previously on Nanyang Biologics so we are an AI um drug discovery platform we help fasttrack uh FGMA and consumer health company to find the correct uh chemical compounds for their drug asset so we develop our own proprietary AI model it's called DTIGN it basically looks into the 3D structures of how a chemical compound would interact with your body uh and then we look for specific outcomes because the protein inside your body change all the time and then we develop a graph neural network and then we predict the biotivity which is basically how the compound would interact with your body so we publish a paper uh on ite and we benchmark ourself against all the other uh leading methods and ours is 27% more accurate in terms of biotd predictions we also built uh our own natural compound library currently is more than 10 million compounds right now this is because a lot of our clients they actually want to uh scan the compound from plants actually and we built this compound uh library by first uh building um and fine-tuning LM based uh model sourcing for more than 20 million public papers uh we also work um with private sources such as like government collaborations which I will share in a little bit and then we also have a 6,000 uh square feet uh lab in NTEU which help us to research the plan as well so we start commercializing this uh as of last year and we already have uh as of this year $3.5 million in terms of uh deal size and next year is going to be 6 million and so our go to market strategy is that we work with ecosystem partners such as Nvidia Equinix and Hid package enterprise uh so this guy introduced us to their FGMA and uh healthcare uh clients and they actually bundle or AI as a software to their hardware and sell it to these guys uh for example um HPE um they actually train 70% of their global sales rep to sell uh to sell DTIN model which is great for us so you can see this is like um a very virtuous cycle where a client is benefit um or partner is benefit because they can sell more hardware um and then or grow this benefit as well um so yeah that's the end of the elevator speech um yesterday I received a question from the judges about the sort of like the competitive edge of our natural compound library and also what's the proprietary data of it um and so when we talk to a lot of our clients so FAMA and then consumer health they love like sciencebacked products especially the ones from nature uh because when they sells their product they they want the customers to know like okay what's inside it why it works and where do they get that chemical compound from and so from plants it's a very beautiful story that they can sell and especially true when we talk to a lot of traditional Chinese medicine from China and from Taiwan they they want to know like what's actually in what chemical compounds are inside the ginsen and what how it works and how could they extract it and make it into like products or drugs yes and so what proprietary about um um our library is that well first of all is about the speed so I mentioned yesterday that um another company took around 10 years to develop their own library well I think that um the beautiful thing of today's uh LLM is that it fasttrack our process of uh receiving data and so we benchmark um our pipeline currently and it takes us almost six days to process over 1 million papers uh secondly uh we work with collaborators uh with government so currently we are in the talk with Sarowat government in Malaysia so they want to share their tropical plant um library this is uh because they want to share IP with us on the compound and then also like they want to have the knowledge from our researchers which we have and talking about our researchers uh I think it's very important to know like what's inside the plant um as much as like how to grow the plant and this is because uh in our initial research um we found a compound in the plant that's uh target the DNA damage respond receptor which is crucial for many types of cancer treatment so we give um this plant to two farmers in Malaysia to grow them and one um it is full of this active ingredients inside the plant but while what one it doesn't have any so we we were wondering why and it turns out that the one that doesn't have the active ingredient they use pesticides so actually the stress from the buck biting the plant releases this um this chemical compound so yeah so we have the knowledge and then also the expertise to tell our clients um on like how to use the compound and how to basically um make it into reality so thank you thank you Zooie um so my first question is you mentioned this year you've got 3.5 million um in potential revenue 6 million next year if we were to think about a business that's $500 million in revenue or $1 billion in revenue what does the business need to look like what needs to happen um thank you um so I think that that's um that's going to be in our next stage which we will work with like big pharma on the drug discovery side so as I mentioned the the normal sort of cost for pharma is that they took it took of them like $2 billion uh to do R&D so um we we would love to work with like big farmers um to develop their drugs so currently we are we are in the process of um talking to like a big farmer in China about like doing um traditional Chinese medicine so it's still ongoing so I cannot share more um but that's the way that we go will go uh heading forward uh do you think you need to work with a big farmer in the US or do you think that already AP pack is a big enough market yes absolutely um actually um I think in my slide yesterday there was one that we going to we want to incorporate in the US because uh when we talk with big pharma like fizer uh or astroynica they only have their distribution uh lead here in APAC but their actual drug discovery is in Europe or in America so that's why like um after we get our next funding round we will move there to like get closer to these guys all right um I love that little project in Korea for hair growth comb i could use that um look um just a little bit on the technical part you use to some extent LLM to scrape research papers which I find is a fantastic idea uh two questions here do you just use a stock model do you use some fine-tuning specifically to uh to what you're doing and how do you ensure the accuracy of matching that out is there some human supervision of of doing that yeah thank you um so we uh we use open source LM because um we don't want to work with closed source first of all and then we fine-tune it um so that we we actually benchmark on a small subset early on to see that the accuracy is good uh and then that's from then like we were going to uh productize it to to continuously scripping so actually we're going to release a paper uh on this um in um end of September actually and just on that part for the research papers how do you make sure that there's authenticity to it uh just in terms of lots of fake papers being published now so um if you check um all of our findings all of our research are actually published in like journals for example like EE and then because like we come from um a research lab in NTEU so um all the professors kick our ass all the time about like the scientific approach and then all the all the things that needs to be done for it so yeah we will um we plan to publish on a reput um reputable papers for this i think you mentioned somewhere that you have a patent right um maybe can you elaborate a little bit more about the the patent yes so that's the patent uh on the um and the patent and the IP on the AI model um so that's um part of the uh part of the um collaborations with the university so uh um so yeah so we actually have the the IP on the model itself um instead of like the university having it because like we so in our initial agreement uh the uh the university takes like 5% of the company uh to like provide like research support but then we have a deal to to get the the IP for uh in the company so does the university own the IP or us you you own IP okay got it lastly just remind me of your revenue model i don't think we discussed it yesterday like right now is it custom like how do you price it uh yes um so I mentioned yesterday is was like a SAS it's based on like how many compounds the our client want to scan and then how many targets they want to focus on so we we calculate based on that and then um and then we we tell them like okay here's how it is so big pharma is notoriously hard to work with and to get them to pay for something so what's your strategy to get there uh absolutely beautiful questions so other uh drug discovery uh company for example you might have heard of Adam Weiss it took them nearly um more than 10 years to get it uh to get their first collaboration with pharma that's because they developed their own drug so we don't want to do that because that receives that needs like massive funding so our strategy is actually to work with this consumer health guys the smaller guys because f first of all the uh regulatory is not as strict and we can get asset out and so that will be the the sort of the proof for the pharma because the pharma um they don't they don't just want like the the the paper they want to see the asset actually generated from the paper from the model so yeah so that's what what we are focusing on",
+    "text_length": 9570,
+    "word_count": 1882
+  },
+  "segments": [
+    {
+      "start": 7.359,
+      "duration": 2.32,
+      "text": "hi everyone uh my name is Z i'm the CTO",
+      "timestamp": "00:07"
+    },
+    {
+      "start": 9.679,
+      "duration": 3.281,
+      "text": "of Nanyang Bologics um so I think that",
+      "timestamp": "00:09"
+    },
+    {
+      "start": 12.96,
+      "duration": 2.0,
+      "text": "uh per the sort of like how this",
+      "timestamp": "00:12"
+    },
+    {
+      "start": 14.96,
+      "duration": 1.92,
+      "text": "elevator speech go this would be like",
+      "timestamp": "00:14"
+    },
+    {
+      "start": 16.88,
+      "duration": 2.399,
+      "text": "previously on Nanyang Biologics so we",
+      "timestamp": "00:16"
+    },
+    {
+      "start": 19.279,
+      "duration": 2.721,
+      "text": "are an AI um drug discovery platform we",
+      "timestamp": "00:19"
+    },
+    {
+      "start": 22.0,
+      "duration": 2.72,
+      "text": "help fasttrack uh FGMA and consumer",
+      "timestamp": "00:22"
+    },
+    {
+      "start": 24.72,
+      "duration": 2.879,
+      "text": "health company to find the correct uh",
+      "timestamp": "00:24"
+    },
+    {
+      "start": 27.599,
+      "duration": 3.281,
+      "text": "chemical compounds for their drug asset",
+      "timestamp": "00:27"
+    },
+    {
+      "start": 30.88,
+      "duration": 2.64,
+      "text": "so we develop our own proprietary AI",
+      "timestamp": "00:30"
+    },
+    {
+      "start": 33.52,
+      "duration": 2.24,
+      "text": "model it's called DTIGN it basically",
+      "timestamp": "00:33"
+    },
+    {
+      "start": 35.76,
+      "duration": 2.4,
+      "text": "looks into the 3D structures of how a",
+      "timestamp": "00:35"
+    },
+    {
+      "start": 38.16,
+      "duration": 1.6,
+      "text": "chemical compound would interact with",
+      "timestamp": "00:38"
+    },
+    {
+      "start": 39.76,
+      "duration": 2.24,
+      "text": "your body uh and then we look for",
+      "timestamp": "00:39"
+    },
+    {
+      "start": 42.0,
+      "duration": 2.16,
+      "text": "specific outcomes because the protein",
+      "timestamp": "00:42"
+    },
+    {
+      "start": 44.16,
+      "duration": 2.399,
+      "text": "inside your body change all the time and",
+      "timestamp": "00:44"
+    },
+    {
+      "start": 46.559,
+      "duration": 2.32,
+      "text": "then we develop a graph neural network",
+      "timestamp": "00:46"
+    },
+    {
+      "start": 48.879,
+      "duration": 1.921,
+      "text": "and then we predict the biotivity which",
+      "timestamp": "00:48"
+    },
+    {
+      "start": 50.8,
+      "duration": 1.599,
+      "text": "is basically how the compound would",
+      "timestamp": "00:50"
+    },
+    {
+      "start": 52.399,
+      "duration": 3.041,
+      "text": "interact with your body so we publish a",
+      "timestamp": "00:52"
+    },
+    {
+      "start": 55.44,
+      "duration": 2.56,
+      "text": "paper uh on ite and we benchmark ourself",
+      "timestamp": "00:55"
+    },
+    {
+      "start": 58.0,
+      "duration": 2.239,
+      "text": "against all the other uh leading methods",
+      "timestamp": "00:58"
+    },
+    {
+      "start": 60.239,
+      "duration": 2.48,
+      "text": "and ours is 27% more accurate in terms",
+      "timestamp": "01:00"
+    },
+    {
+      "start": 62.719,
+      "duration": 3.281,
+      "text": "of biotd predictions we also built uh",
+      "timestamp": "01:02"
+    },
+    {
+      "start": 66.0,
+      "duration": 2.08,
+      "text": "our own natural compound library",
+      "timestamp": "01:06"
+    },
+    {
+      "start": 68.08,
+      "duration": 1.68,
+      "text": "currently is more than 10 million",
+      "timestamp": "01:08"
+    },
+    {
+      "start": 69.76,
+      "duration": 1.84,
+      "text": "compounds right now this is because a",
+      "timestamp": "01:09"
+    },
+    {
+      "start": 71.6,
+      "duration": 2.48,
+      "text": "lot of our clients they actually want to",
+      "timestamp": "01:11"
+    },
+    {
+      "start": 74.08,
+      "duration": 2.079,
+      "text": "uh scan the compound from plants",
+      "timestamp": "01:14"
+    },
+    {
+      "start": 76.159,
+      "duration": 2.481,
+      "text": "actually and we built this compound uh",
+      "timestamp": "01:16"
+    },
+    {
+      "start": 78.64,
+      "duration": 2.64,
+      "text": "library by first uh building um and",
+      "timestamp": "01:18"
+    },
+    {
+      "start": 81.28,
+      "duration": 2.159,
+      "text": "fine-tuning LM based uh model sourcing",
+      "timestamp": "01:21"
+    },
+    {
+      "start": 83.439,
+      "duration": 2.481,
+      "text": "for more than 20 million public papers",
+      "timestamp": "01:23"
+    },
+    {
+      "start": 85.92,
+      "duration": 2.559,
+      "text": "uh we also work um with private sources",
+      "timestamp": "01:25"
+    },
+    {
+      "start": 88.479,
+      "duration": 1.601,
+      "text": "such as like government collaborations",
+      "timestamp": "01:28"
+    },
+    {
+      "start": 90.08,
+      "duration": 1.92,
+      "text": "which I will share in a little bit and",
+      "timestamp": "01:30"
+    },
+    {
+      "start": 92.0,
+      "duration": 2.799,
+      "text": "then we also have a 6,000 uh square feet",
+      "timestamp": "01:32"
+    },
+    {
+      "start": 94.799,
+      "duration": 2.561,
+      "text": "uh lab in NTEU which help us to research",
+      "timestamp": "01:34"
+    },
+    {
+      "start": 97.36,
+      "duration": 2.48,
+      "text": "the plan as well",
+      "timestamp": "01:37"
+    },
+    {
+      "start": 99.84,
+      "duration": 2.0,
+      "text": "so we start commercializing this uh as",
+      "timestamp": "01:39"
+    },
+    {
+      "start": 101.84,
+      "duration": 2.239,
+      "text": "of last year and we already have uh as",
+      "timestamp": "01:41"
+    },
+    {
+      "start": 104.079,
+      "duration": 3.121,
+      "text": "of this year $3.5 million in terms of uh",
+      "timestamp": "01:44"
+    },
+    {
+      "start": 107.2,
+      "duration": 1.76,
+      "text": "deal size and next year is going to be 6",
+      "timestamp": "01:47"
+    },
+    {
+      "start": 108.96,
+      "duration": 2.72,
+      "text": "million and so our go to market strategy",
+      "timestamp": "01:48"
+    },
+    {
+      "start": 111.68,
+      "duration": 2.719,
+      "text": "is that we work with ecosystem partners",
+      "timestamp": "01:51"
+    },
+    {
+      "start": 114.399,
+      "duration": 2.561,
+      "text": "such as Nvidia Equinix and Hid package",
+      "timestamp": "01:54"
+    },
+    {
+      "start": 116.96,
+      "duration": 2.799,
+      "text": "enterprise uh so this guy introduced us",
+      "timestamp": "01:56"
+    },
+    {
+      "start": 119.759,
+      "duration": 4.161,
+      "text": "to their FGMA and uh healthcare uh",
+      "timestamp": "01:59"
+    },
+    {
+      "start": 123.92,
+      "duration": 2.799,
+      "text": "clients and they actually bundle or AI",
+      "timestamp": "02:03"
+    },
+    {
+      "start": 126.719,
+      "duration": 2.001,
+      "text": "as a software to their hardware and sell",
+      "timestamp": "02:06"
+    },
+    {
+      "start": 128.72,
+      "duration": 3.28,
+      "text": "it to these guys uh for example um HPE",
+      "timestamp": "02:08"
+    },
+    {
+      "start": 132.0,
+      "duration": 2.56,
+      "text": "um they actually train 70% of their",
+      "timestamp": "02:12"
+    },
+    {
+      "start": 134.56,
+      "duration": 4.72,
+      "text": "global sales rep to sell uh to sell DTIN",
+      "timestamp": "02:14"
+    },
+    {
+      "start": 139.28,
+      "duration": 2.56,
+      "text": "model which is great for us so you can",
+      "timestamp": "02:19"
+    },
+    {
+      "start": 141.84,
+      "duration": 2.56,
+      "text": "see this is like um a very virtuous",
+      "timestamp": "02:21"
+    },
+    {
+      "start": 144.4,
+      "duration": 3.44,
+      "text": "cycle where a client is benefit um or",
+      "timestamp": "02:24"
+    },
+    {
+      "start": 147.84,
+      "duration": 1.44,
+      "text": "partner is benefit because they can sell",
+      "timestamp": "02:27"
+    },
+    {
+      "start": 149.28,
+      "duration": 1.84,
+      "text": "more hardware um and then or grow this",
+      "timestamp": "02:29"
+    },
+    {
+      "start": 151.12,
+      "duration": 2.96,
+      "text": "benefit as well um so yeah that's the",
+      "timestamp": "02:31"
+    },
+    {
+      "start": 154.08,
+      "duration": 2.159,
+      "text": "end of the elevator speech um yesterday",
+      "timestamp": "02:34"
+    },
+    {
+      "start": 156.239,
+      "duration": 1.761,
+      "text": "I received a question from the judges",
+      "timestamp": "02:36"
+    },
+    {
+      "start": 158.0,
+      "duration": 1.92,
+      "text": "about the sort of like the competitive",
+      "timestamp": "02:38"
+    },
+    {
+      "start": 159.92,
+      "duration": 2.319,
+      "text": "edge of our natural compound library and",
+      "timestamp": "02:39"
+    },
+    {
+      "start": 162.239,
+      "duration": 2.881,
+      "text": "also what's the proprietary data of it",
+      "timestamp": "02:42"
+    },
+    {
+      "start": 165.12,
+      "duration": 2.479,
+      "text": "um and so when we talk to a lot of our",
+      "timestamp": "02:45"
+    },
+    {
+      "start": 167.599,
+      "duration": 2.64,
+      "text": "clients so FAMA and then consumer health",
+      "timestamp": "02:47"
+    },
+    {
+      "start": 170.239,
+      "duration": 2.321,
+      "text": "they love like sciencebacked products",
+      "timestamp": "02:50"
+    },
+    {
+      "start": 172.56,
+      "duration": 2.16,
+      "text": "especially the ones from nature uh",
+      "timestamp": "02:52"
+    },
+    {
+      "start": 174.72,
+      "duration": 1.28,
+      "text": "because when they sells their product",
+      "timestamp": "02:54"
+    },
+    {
+      "start": 176.0,
+      "duration": 1.599,
+      "text": "they they want the customers to know",
+      "timestamp": "02:56"
+    },
+    {
+      "start": 177.599,
+      "duration": 2.321,
+      "text": "like okay what's inside it why it works",
+      "timestamp": "02:57"
+    },
+    {
+      "start": 179.92,
+      "duration": 2.16,
+      "text": "and where do they get that chemical",
+      "timestamp": "02:59"
+    },
+    {
+      "start": 182.08,
+      "duration": 3.04,
+      "text": "compound from and so from plants it's a",
+      "timestamp": "03:02"
+    },
+    {
+      "start": 185.12,
+      "duration": 2.08,
+      "text": "very beautiful story that they can sell",
+      "timestamp": "03:05"
+    },
+    {
+      "start": 187.2,
+      "duration": 1.759,
+      "text": "and especially true when we talk to a",
+      "timestamp": "03:07"
+    },
+    {
+      "start": 188.959,
+      "duration": 1.601,
+      "text": "lot of traditional Chinese medicine from",
+      "timestamp": "03:08"
+    },
+    {
+      "start": 190.56,
+      "duration": 2.08,
+      "text": "China and from Taiwan they they want to",
+      "timestamp": "03:10"
+    },
+    {
+      "start": 192.64,
+      "duration": 2.56,
+      "text": "know like what's actually in what",
+      "timestamp": "03:12"
+    },
+    {
+      "start": 195.2,
+      "duration": 2.48,
+      "text": "chemical compounds are inside the ginsen",
+      "timestamp": "03:15"
+    },
+    {
+      "start": 197.68,
+      "duration": 1.839,
+      "text": "and what how it works and how could they",
+      "timestamp": "03:17"
+    },
+    {
+      "start": 199.519,
+      "duration": 1.761,
+      "text": "extract it and make it into like",
+      "timestamp": "03:19"
+    },
+    {
+      "start": 201.28,
+      "duration": 2.64,
+      "text": "products or drugs yes and so what",
+      "timestamp": "03:21"
+    },
+    {
+      "start": 203.92,
+      "duration": 3.12,
+      "text": "proprietary about um um our library is",
+      "timestamp": "03:23"
+    },
+    {
+      "start": 207.04,
+      "duration": 1.76,
+      "text": "that well first of all is about the",
+      "timestamp": "03:27"
+    },
+    {
+      "start": 208.8,
+      "duration": 2.4,
+      "text": "speed so I mentioned yesterday that um",
+      "timestamp": "03:28"
+    },
+    {
+      "start": 211.2,
+      "duration": 2.24,
+      "text": "another company took around 10 years to",
+      "timestamp": "03:31"
+    },
+    {
+      "start": 213.44,
+      "duration": 1.92,
+      "text": "develop their own library well I think",
+      "timestamp": "03:33"
+    },
+    {
+      "start": 215.36,
+      "duration": 2.32,
+      "text": "that um the beautiful thing of today's",
+      "timestamp": "03:35"
+    },
+    {
+      "start": 217.68,
+      "duration": 2.639,
+      "text": "uh LLM is that it fasttrack our process",
+      "timestamp": "03:37"
+    },
+    {
+      "start": 220.319,
+      "duration": 3.681,
+      "text": "of uh receiving data and so we benchmark",
+      "timestamp": "03:40"
+    },
+    {
+      "start": 224.0,
+      "duration": 2.48,
+      "text": "um our pipeline currently and it takes",
+      "timestamp": "03:44"
+    },
+    {
+      "start": 226.48,
+      "duration": 3.039,
+      "text": "us almost six days to process over 1",
+      "timestamp": "03:46"
+    },
+    {
+      "start": 229.519,
+      "duration": 3.28,
+      "text": "million papers uh secondly uh we work",
+      "timestamp": "03:49"
+    },
+    {
+      "start": 232.799,
+      "duration": 2.8,
+      "text": "with collaborators uh with government so",
+      "timestamp": "03:52"
+    },
+    {
+      "start": 235.599,
+      "duration": 1.521,
+      "text": "currently we are in the talk with",
+      "timestamp": "03:55"
+    },
+    {
+      "start": 237.12,
+      "duration": 2.24,
+      "text": "Sarowat government in Malaysia so they",
+      "timestamp": "03:57"
+    },
+    {
+      "start": 239.36,
+      "duration": 2.64,
+      "text": "want to share their tropical plant um",
+      "timestamp": "03:59"
+    },
+    {
+      "start": 242.0,
+      "duration": 2.4,
+      "text": "library this is uh because they want to",
+      "timestamp": "04:02"
+    },
+    {
+      "start": 244.4,
+      "duration": 2.16,
+      "text": "share IP with us on the compound and",
+      "timestamp": "04:04"
+    },
+    {
+      "start": 246.56,
+      "duration": 2.08,
+      "text": "then also like they want to have the",
+      "timestamp": "04:06"
+    },
+    {
+      "start": 248.64,
+      "duration": 2.159,
+      "text": "knowledge from our researchers which we",
+      "timestamp": "04:08"
+    },
+    {
+      "start": 250.799,
+      "duration": 2.321,
+      "text": "have and talking about our researchers",
+      "timestamp": "04:10"
+    },
+    {
+      "start": 253.12,
+      "duration": 2.08,
+      "text": "uh I think it's very important to know",
+      "timestamp": "04:13"
+    },
+    {
+      "start": 255.2,
+      "duration": 2.559,
+      "text": "like what's inside the plant um as much",
+      "timestamp": "04:15"
+    },
+    {
+      "start": 257.759,
+      "duration": 2.32,
+      "text": "as like how to grow the plant and this",
+      "timestamp": "04:17"
+    },
+    {
+      "start": 260.079,
+      "duration": 2.721,
+      "text": "is because uh in our initial research um",
+      "timestamp": "04:20"
+    },
+    {
+      "start": 262.8,
+      "duration": 2.48,
+      "text": "we found a compound in the plant that's",
+      "timestamp": "04:22"
+    },
+    {
+      "start": 265.28,
+      "duration": 2.16,
+      "text": "uh target the DNA damage respond",
+      "timestamp": "04:25"
+    },
+    {
+      "start": 267.44,
+      "duration": 1.92,
+      "text": "receptor which is crucial for many types",
+      "timestamp": "04:27"
+    },
+    {
+      "start": 269.36,
+      "duration": 3.04,
+      "text": "of cancer treatment so we give um this",
+      "timestamp": "04:29"
+    },
+    {
+      "start": 272.4,
+      "duration": 2.0,
+      "text": "plant to two farmers in Malaysia to grow",
+      "timestamp": "04:32"
+    },
+    {
+      "start": 274.4,
+      "duration": 2.799,
+      "text": "them and one um it is full of this",
+      "timestamp": "04:34"
+    },
+    {
+      "start": 277.199,
+      "duration": 1.841,
+      "text": "active ingredients inside the plant but",
+      "timestamp": "04:37"
+    },
+    {
+      "start": 279.04,
+      "duration": 2.64,
+      "text": "while what one it doesn't have any so we",
+      "timestamp": "04:39"
+    },
+    {
+      "start": 281.68,
+      "duration": 2.0,
+      "text": "we were wondering why and it turns out",
+      "timestamp": "04:41"
+    },
+    {
+      "start": 283.68,
+      "duration": 1.92,
+      "text": "that the one that doesn't have the",
+      "timestamp": "04:43"
+    },
+    {
+      "start": 285.6,
+      "duration": 2.56,
+      "text": "active ingredient they use pesticides so",
+      "timestamp": "04:45"
+    },
+    {
+      "start": 288.16,
+      "duration": 2.479,
+      "text": "actually the stress from the buck biting",
+      "timestamp": "04:48"
+    },
+    {
+      "start": 290.639,
+      "duration": 2.881,
+      "text": "the plant releases this um this chemical",
+      "timestamp": "04:50"
+    },
+    {
+      "start": 293.52,
+      "duration": 1.92,
+      "text": "compound so yeah so we have the",
+      "timestamp": "04:53"
+    },
+    {
+      "start": 295.44,
+      "duration": 2.16,
+      "text": "knowledge and then also the expertise to",
+      "timestamp": "04:55"
+    },
+    {
+      "start": 297.6,
+      "duration": 2.0,
+      "text": "tell our clients um on like how to use",
+      "timestamp": "04:57"
+    },
+    {
+      "start": 299.6,
+      "duration": 2.72,
+      "text": "the compound and how to basically um",
+      "timestamp": "04:59"
+    },
+    {
+      "start": 302.32,
+      "duration": 2.64,
+      "text": "make it into reality so thank you\n thank",
+      "timestamp": "05:02"
+    },
+    {
+      "start": 304.96,
+      "duration": 2.56,
+      "text": "you Zooie um so my first question is you",
+      "timestamp": "05:04"
+    },
+    {
+      "start": 307.52,
+      "duration": 2.0,
+      "text": "mentioned this year you've got 3.5",
+      "timestamp": "05:07"
+    },
+    {
+      "start": 309.52,
+      "duration": 2.64,
+      "text": "million um in potential revenue 6",
+      "timestamp": "05:09"
+    },
+    {
+      "start": 312.16,
+      "duration": 2.479,
+      "text": "million next year\n if we were to think",
+      "timestamp": "05:12"
+    },
+    {
+      "start": 314.639,
+      "duration": 2.801,
+      "text": "about a business that's $500 million in",
+      "timestamp": "05:14"
+    },
+    {
+      "start": 317.44,
+      "duration": 2.08,
+      "text": "revenue or $1 billion in revenue what",
+      "timestamp": "05:17"
+    },
+    {
+      "start": 319.52,
+      "duration": 1.519,
+      "text": "does the business need to look like what",
+      "timestamp": "05:19"
+    },
+    {
+      "start": 321.039,
+      "duration": 2.72,
+      "text": "needs to happen\n um thank you um so I",
+      "timestamp": "05:21"
+    },
+    {
+      "start": 323.759,
+      "duration": 1.681,
+      "text": "think that that's um that's going to be",
+      "timestamp": "05:23"
+    },
+    {
+      "start": 325.44,
+      "duration": 2.0,
+      "text": "in our next stage which we will work",
+      "timestamp": "05:25"
+    },
+    {
+      "start": 327.44,
+      "duration": 2.0,
+      "text": "with like big pharma on the drug",
+      "timestamp": "05:27"
+    },
+    {
+      "start": 329.44,
+      "duration": 2.479,
+      "text": "discovery side so as I mentioned the the",
+      "timestamp": "05:29"
+    },
+    {
+      "start": 331.919,
+      "duration": 2.081,
+      "text": "normal sort of cost for pharma is that",
+      "timestamp": "05:31"
+    },
+    {
+      "start": 334.0,
+      "duration": 1.68,
+      "text": "they took it took of them like $2",
+      "timestamp": "05:34"
+    },
+    {
+      "start": 335.68,
+      "duration": 3.76,
+      "text": "billion uh to do R&D so um we we would",
+      "timestamp": "05:35"
+    },
+    {
+      "start": 339.44,
+      "duration": 2.4,
+      "text": "love to work with like big farmers um to",
+      "timestamp": "05:39"
+    },
+    {
+      "start": 341.84,
+      "duration": 2.079,
+      "text": "develop their drugs so currently we are",
+      "timestamp": "05:41"
+    },
+    {
+      "start": 343.919,
+      "duration": 2.321,
+      "text": "we are in the process of um talking to",
+      "timestamp": "05:43"
+    },
+    {
+      "start": 346.24,
+      "duration": 2.48,
+      "text": "like a big farmer in China about like",
+      "timestamp": "05:46"
+    },
+    {
+      "start": 348.72,
+      "duration": 2.4,
+      "text": "doing um traditional Chinese medicine so",
+      "timestamp": "05:48"
+    },
+    {
+      "start": 351.12,
+      "duration": 1.519,
+      "text": "it's still ongoing so I cannot share",
+      "timestamp": "05:51"
+    },
+    {
+      "start": 352.639,
+      "duration": 2.0,
+      "text": "more um but that's the way that we go",
+      "timestamp": "05:52"
+    },
+    {
+      "start": 354.639,
+      "duration": 2.481,
+      "text": "will go uh heading forward\n uh do you",
+      "timestamp": "05:54"
+    },
+    {
+      "start": 357.12,
+      "duration": 1.359,
+      "text": "think you need to work with a big farmer",
+      "timestamp": "05:57"
+    },
+    {
+      "start": 358.479,
+      "duration": 1.601,
+      "text": "in the US or do you think that already",
+      "timestamp": "05:58"
+    },
+    {
+      "start": 360.08,
+      "duration": 2.16,
+      "text": "AP pack is a big enough market\n yes",
+      "timestamp": "06:00"
+    },
+    {
+      "start": 362.24,
+      "duration": 2.239,
+      "text": "absolutely um actually um I think in my",
+      "timestamp": "06:02"
+    },
+    {
+      "start": 364.479,
+      "duration": 1.761,
+      "text": "slide yesterday there was one that we",
+      "timestamp": "06:04"
+    },
+    {
+      "start": 366.24,
+      "duration": 2.0,
+      "text": "going to we want to incorporate in the",
+      "timestamp": "06:06"
+    },
+    {
+      "start": 368.24,
+      "duration": 2.239,
+      "text": "US because uh when we talk with big",
+      "timestamp": "06:08"
+    },
+    {
+      "start": 370.479,
+      "duration": 3.44,
+      "text": "pharma like fizer uh or astroynica they",
+      "timestamp": "06:10"
+    },
+    {
+      "start": 373.919,
+      "duration": 2.4,
+      "text": "only have their distribution uh lead",
+      "timestamp": "06:13"
+    },
+    {
+      "start": 376.319,
+      "duration": 2.481,
+      "text": "here in APAC but their actual drug",
+      "timestamp": "06:16"
+    },
+    {
+      "start": 378.8,
+      "duration": 2.48,
+      "text": "discovery is in Europe or in America so",
+      "timestamp": "06:18"
+    },
+    {
+      "start": 381.28,
+      "duration": 1.84,
+      "text": "that's why like um after we get our next",
+      "timestamp": "06:21"
+    },
+    {
+      "start": 383.12,
+      "duration": 2.0,
+      "text": "funding round we will move there to like",
+      "timestamp": "06:23"
+    },
+    {
+      "start": 385.12,
+      "duration": 2.96,
+      "text": "get closer to these guys\n all right um I",
+      "timestamp": "06:25"
+    },
+    {
+      "start": 388.08,
+      "duration": 1.6,
+      "text": "love that little project in Korea for",
+      "timestamp": "06:28"
+    },
+    {
+      "start": 389.68,
+      "duration": 3.84,
+      "text": "hair growth comb\n i could use that um",
+      "timestamp": "06:29"
+    },
+    {
+      "start": 393.52,
+      "duration": 1.6,
+      "text": "look um just a little bit on the",
+      "timestamp": "06:33"
+    },
+    {
+      "start": 395.12,
+      "duration": 2.16,
+      "text": "technical part you use to some extent",
+      "timestamp": "06:35"
+    },
+    {
+      "start": 397.28,
+      "duration": 2.0,
+      "text": "LLM to scrape research papers which I",
+      "timestamp": "06:37"
+    },
+    {
+      "start": 399.28,
+      "duration": 2.16,
+      "text": "find is a fantastic idea uh two",
+      "timestamp": "06:39"
+    },
+    {
+      "start": 401.44,
+      "duration": 2.4,
+      "text": "questions here do you just use a stock",
+      "timestamp": "06:41"
+    },
+    {
+      "start": 403.84,
+      "duration": 1.6,
+      "text": "model do you use some fine-tuning",
+      "timestamp": "06:43"
+    },
+    {
+      "start": 405.44,
+      "duration": 2.08,
+      "text": "specifically to uh to what you're doing",
+      "timestamp": "06:45"
+    },
+    {
+      "start": 407.52,
+      "duration": 1.92,
+      "text": "and how do you ensure the accuracy of",
+      "timestamp": "06:47"
+    },
+    {
+      "start": 409.44,
+      "duration": 2.08,
+      "text": "matching that out is there some human",
+      "timestamp": "06:49"
+    },
+    {
+      "start": 411.52,
+      "duration": 2.16,
+      "text": "supervision of of doing that\n yeah thank",
+      "timestamp": "06:51"
+    },
+    {
+      "start": 413.68,
+      "duration": 2.88,
+      "text": "you um so we uh we use open source LM",
+      "timestamp": "06:53"
+    },
+    {
+      "start": 416.56,
+      "duration": 1.199,
+      "text": "because um we don't want to work with",
+      "timestamp": "06:56"
+    },
+    {
+      "start": 417.759,
+      "duration": 1.601,
+      "text": "closed source first of all and then we",
+      "timestamp": "06:57"
+    },
+    {
+      "start": 419.36,
+      "duration": 2.08,
+      "text": "fine-tune it um so that we we actually",
+      "timestamp": "06:59"
+    },
+    {
+      "start": 421.44,
+      "duration": 2.64,
+      "text": "benchmark on a small subset early on to",
+      "timestamp": "07:01"
+    },
+    {
+      "start": 424.08,
+      "duration": 2.32,
+      "text": "see that the accuracy is good uh and",
+      "timestamp": "07:04"
+    },
+    {
+      "start": 426.4,
+      "duration": 2.32,
+      "text": "then that's from then like we were going",
+      "timestamp": "07:06"
+    },
+    {
+      "start": 428.72,
+      "duration": 3.36,
+      "text": "to uh productize it to to continuously",
+      "timestamp": "07:08"
+    },
+    {
+      "start": 432.08,
+      "duration": 1.6,
+      "text": "scripping so actually we're going to",
+      "timestamp": "07:12"
+    },
+    {
+      "start": 433.68,
+      "duration": 3.04,
+      "text": "release a paper uh on this um in um end",
+      "timestamp": "07:13"
+    },
+    {
+      "start": 436.72,
+      "duration": 2.16,
+      "text": "of September actually and just on that",
+      "timestamp": "07:16"
+    },
+    {
+      "start": 438.88,
+      "duration": 1.84,
+      "text": "part for the research papers how do you",
+      "timestamp": "07:18"
+    },
+    {
+      "start": 440.72,
+      "duration": 1.599,
+      "text": "make sure that there's authenticity to",
+      "timestamp": "07:20"
+    },
+    {
+      "start": 442.319,
+      "duration": 2.241,
+      "text": "it uh just in terms of lots of fake",
+      "timestamp": "07:22"
+    },
+    {
+      "start": 444.56,
+      "duration": 2.8,
+      "text": "papers being published now\n so um if you",
+      "timestamp": "07:24"
+    },
+    {
+      "start": 447.36,
+      "duration": 2.08,
+      "text": "check um all of our findings all of our",
+      "timestamp": "07:27"
+    },
+    {
+      "start": 449.44,
+      "duration": 2.319,
+      "text": "research are actually published in like",
+      "timestamp": "07:29"
+    },
+    {
+      "start": 451.759,
+      "duration": 2.641,
+      "text": "journals for example like EE and then",
+      "timestamp": "07:31"
+    },
+    {
+      "start": 454.4,
+      "duration": 2.48,
+      "text": "because like we come from um a research",
+      "timestamp": "07:34"
+    },
+    {
+      "start": 456.88,
+      "duration": 2.719,
+      "text": "lab in NTEU so um all the professors",
+      "timestamp": "07:36"
+    },
+    {
+      "start": 459.599,
+      "duration": 2.081,
+      "text": "kick our ass all the time about like the",
+      "timestamp": "07:39"
+    },
+    {
+      "start": 461.68,
+      "duration": 2.639,
+      "text": "scientific approach and then all the all",
+      "timestamp": "07:41"
+    },
+    {
+      "start": 464.319,
+      "duration": 1.521,
+      "text": "the things that needs to be done for it",
+      "timestamp": "07:44"
+    },
+    {
+      "start": 465.84,
+      "duration": 2.32,
+      "text": "so yeah we will um we plan to publish on",
+      "timestamp": "07:45"
+    },
+    {
+      "start": 468.16,
+      "duration": 3.36,
+      "text": "a reput um reputable papers for this\n i",
+      "timestamp": "07:48"
+    },
+    {
+      "start": 471.52,
+      "duration": 1.6,
+      "text": "think you mentioned somewhere that you",
+      "timestamp": "07:51"
+    },
+    {
+      "start": 473.12,
+      "duration": 2.799,
+      "text": "have a patent right um maybe can you",
+      "timestamp": "07:53"
+    },
+    {
+      "start": 475.919,
+      "duration": 2.161,
+      "text": "elaborate a little bit more about the",
+      "timestamp": "07:55"
+    },
+    {
+      "start": 478.08,
+      "duration": 3.119,
+      "text": "the patent\n yes so that's the patent uh",
+      "timestamp": "07:58"
+    },
+    {
+      "start": 481.199,
+      "duration": 2.72,
+      "text": "on the um and the patent and the IP on",
+      "timestamp": "08:01"
+    },
+    {
+      "start": 483.919,
+      "duration": 3.761,
+      "text": "the AI model um so that's um part of the",
+      "timestamp": "08:03"
+    },
+    {
+      "start": 487.68,
+      "duration": 2.56,
+      "text": "uh part of the um collaborations with",
+      "timestamp": "08:07"
+    },
+    {
+      "start": 490.24,
+      "duration": 3.519,
+      "text": "the university so uh um so yeah so we",
+      "timestamp": "08:10"
+    },
+    {
+      "start": 493.759,
+      "duration": 1.921,
+      "text": "actually have the the IP on the model",
+      "timestamp": "08:13"
+    },
+    {
+      "start": 495.68,
+      "duration": 2.56,
+      "text": "itself um instead of like the university",
+      "timestamp": "08:15"
+    },
+    {
+      "start": 498.24,
+      "duration": 2.799,
+      "text": "having it because like we so in our",
+      "timestamp": "08:18"
+    },
+    {
+      "start": 501.039,
+      "duration": 1.681,
+      "text": "initial agreement uh the uh the",
+      "timestamp": "08:21"
+    },
+    {
+      "start": 502.72,
+      "duration": 2.8,
+      "text": "university takes like 5% of the company",
+      "timestamp": "08:22"
+    },
+    {
+      "start": 505.52,
+      "duration": 2.079,
+      "text": "uh to like provide like research support",
+      "timestamp": "08:25"
+    },
+    {
+      "start": 507.599,
+      "duration": 2.0,
+      "text": "but then we have a deal to to get the",
+      "timestamp": "08:27"
+    },
+    {
+      "start": 509.599,
+      "duration": 2.961,
+      "text": "the IP for uh in the company\n so does the",
+      "timestamp": "08:29"
+    },
+    {
+      "start": 512.56,
+      "duration": 3.279,
+      "text": "university own the IP or\n us you you own",
+      "timestamp": "08:32"
+    },
+    {
+      "start": 515.839,
+      "duration": 2.961,
+      "text": "IP okay got it",
+      "timestamp": "08:35"
+    },
+    {
+      "start": 518.8,
+      "duration": 1.599,
+      "text": "lastly just remind me of your revenue",
+      "timestamp": "08:38"
+    },
+    {
+      "start": 520.399,
+      "duration": 1.361,
+      "text": "model i don't think we discussed it",
+      "timestamp": "08:40"
+    },
+    {
+      "start": 521.76,
+      "duration": 2.24,
+      "text": "yesterday like right now is it custom",
+      "timestamp": "08:41"
+    },
+    {
+      "start": 524.0,
+      "duration": 2.8,
+      "text": "like how do you price it uh\n yes um so I",
+      "timestamp": "08:44"
+    },
+    {
+      "start": 526.8,
+      "duration": 1.92,
+      "text": "mentioned yesterday is was like a SAS",
+      "timestamp": "08:46"
+    },
+    {
+      "start": 528.72,
+      "duration": 2.16,
+      "text": "it's based on like how many compounds",
+      "timestamp": "08:48"
+    },
+    {
+      "start": 530.88,
+      "duration": 2.16,
+      "text": "the our client want to scan and then how",
+      "timestamp": "08:50"
+    },
+    {
+      "start": 533.04,
+      "duration": 2.799,
+      "text": "many targets they want to focus on\n so we",
+      "timestamp": "08:53"
+    },
+    {
+      "start": 535.839,
+      "duration": 2.881,
+      "text": "we calculate based on that and then um",
+      "timestamp": "08:55"
+    },
+    {
+      "start": 538.72,
+      "duration": 1.92,
+      "text": "and then we we tell them like okay",
+      "timestamp": "08:58"
+    },
+    {
+      "start": 540.64,
+      "duration": 2.48,
+      "text": "here's how it is\n so big pharma is",
+      "timestamp": "09:00"
+    },
+    {
+      "start": 543.12,
+      "duration": 2.48,
+      "text": "notoriously hard to work with and to get",
+      "timestamp": "09:03"
+    },
+    {
+      "start": 545.6,
+      "duration": 1.44,
+      "text": "them to pay for something so what's your",
+      "timestamp": "09:05"
+    },
+    {
+      "start": 547.04,
+      "duration": 1.919,
+      "text": "strategy to get there\n uh absolutely",
+      "timestamp": "09:07"
+    },
+    {
+      "start": 548.959,
+      "duration": 2.081,
+      "text": "beautiful questions so other uh drug",
+      "timestamp": "09:08"
+    },
+    {
+      "start": 551.04,
+      "duration": 2.239,
+      "text": "discovery uh company for example you",
+      "timestamp": "09:11"
+    },
+    {
+      "start": 553.279,
+      "duration": 2.24,
+      "text": "might have heard of Adam Weiss it took",
+      "timestamp": "09:13"
+    },
+    {
+      "start": 555.519,
+      "duration": 2.801,
+      "text": "them nearly um more than 10 years to get",
+      "timestamp": "09:15"
+    },
+    {
+      "start": 558.32,
+      "duration": 2.16,
+      "text": "it uh to get their first collaboration",
+      "timestamp": "09:18"
+    },
+    {
+      "start": 560.48,
+      "duration": 1.6,
+      "text": "with pharma that's because they",
+      "timestamp": "09:20"
+    },
+    {
+      "start": 562.08,
+      "duration": 1.92,
+      "text": "developed their own drug so we don't",
+      "timestamp": "09:22"
+    },
+    {
+      "start": 564.0,
+      "duration": 1.76,
+      "text": "want to do that because that receives",
+      "timestamp": "09:24"
+    },
+    {
+      "start": 565.76,
+      "duration": 2.48,
+      "text": "that needs like massive funding so our",
+      "timestamp": "09:25"
+    },
+    {
+      "start": 568.24,
+      "duration": 1.76,
+      "text": "strategy is actually to work with this",
+      "timestamp": "09:28"
+    },
+    {
+      "start": 570.0,
+      "duration": 2.48,
+      "text": "consumer health guys the smaller guys",
+      "timestamp": "09:30"
+    },
+    {
+      "start": 572.48,
+      "duration": 3.039,
+      "text": "because f first of all the uh regulatory",
+      "timestamp": "09:32"
+    },
+    {
+      "start": 575.519,
+      "duration": 2.561,
+      "text": "is not as strict and we can get asset",
+      "timestamp": "09:35"
+    },
+    {
+      "start": 578.08,
+      "duration": 3.199,
+      "text": "out and so that will be the the sort of",
+      "timestamp": "09:38"
+    },
+    {
+      "start": 581.279,
+      "duration": 1.601,
+      "text": "the proof for the pharma because the",
+      "timestamp": "09:41"
+    },
+    {
+      "start": 582.88,
+      "duration": 1.84,
+      "text": "pharma um they don't they don't just",
+      "timestamp": "09:42"
+    },
+    {
+      "start": 584.72,
+      "duration": 2.48,
+      "text": "want like the the the paper they want to",
+      "timestamp": "09:44"
+    },
+    {
+      "start": 587.2,
+      "duration": 1.759,
+      "text": "see the asset actually generated from",
+      "timestamp": "09:47"
+    },
+    {
+      "start": 588.959,
+      "duration": 1.921,
+      "text": "the paper from the model so yeah so",
+      "timestamp": "09:48"
+    },
+    {
+      "start": 590.88,
+      "duration": 4.76,
+      "text": "that's what what we are focusing on",
+      "timestamp": "09:50"
+    }
+  ],
+  "extraction_timestamp": "2025-06-29T21:04:35.405942",
+  "playlist_title": "SuperAI Singapore 2025: WEKA Stage"
+}

@@ -1,0 +1,2207 @@
+{
+  "video_id": "AzAfB84l8LM",
+  "video_title": "Munjal Shah - How Gen AI Agents Will Bring an Era of Healthcare Abundance - SuperAI Singapore 2025",
+  "video_url": "https://www.youtube.com/watch?v=AzAfB84l8LM",
+  "channel_title": "SuperAI",
+  "published_at": "2025-06-25T14:18:33+00:00",
+  "duration_seconds": null,
+  "view_count": 16,
+  "like_count": 0,
+  "description": "Learn more about SuperAI: superai.com\nFollow us on X: x.com/superai_conf\n\nKeynote: How Generative AI Agents Will Bring an Era of Healthcare Abundance\n\nSpeaker:\nMunjal Shah, Co-Founder and CEO @ Hippocratic AI\n\nStage: WEKA Stage\n#superai #hippocraticai #genai #healthcare #medtech\n\nRecorded on 18 June 2025",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 364,
+    "aggregated_text": "i'll tell you a little story um Singapore saved my life which is why I'm here and spending the time to come when I was a six-month-old my father was a expat in Indonesia and I was allergic to milk except they didn't figure it out the doctors theirs thought I had a blockage in my stomach and they were about to operate and have me poop out of a bag for the rest of my life and lucky for me my parents said \"No way are you touching my son.\" And they flew me to Singapore i was 6 lb at 6 months old which is not good and the Singaporean doctors figured out that I had allergies to milk put me on soy milk and I survived they said had we arrived two days later I'd probably be dead so I'm ever grateful to the Singaporean Health System for effectively saving my life so today I'm here to talk to you about um Hypocratic AI and um what we do is we're solving the worldwide clinical shortage by building generative AI agents that conduct patient facing activities um really within the scope of nursing so we are not building an AI doctor we don't think you can actually make a safe one um and so we do not diagnose and we do not prescribe but we do believe that AI and generative AI now is good enough to uh be able to help you do things within the scope of a nurse um now what I want to do first is let you listen to the AI talking to real patients and then we'll talk about how to use it to generate abundance but I want you to kind of feel what it is so these are real patient calls we've now done about 2.5 million calls so we pulled a few of them of a patient talking to the AI so listen to this some patients are naturally reluctant to talk to an AI but our AI is trained to do what it takes to bring them on board including engaging in a bit of fun and games i'm here to help you with your health monitoring devices can you tell me a little bit about how you're feeling today i'm feeling like I'm talking to a computer and I would like to talk to a person please i completely understand Mr i'm here to help you and I want to assure you that I'm designed to provide you with the best possible support i'm not a human but I'm a highly advanced AI system that's specifically trained to assist patients like you i'd like to continue our conversation and see how I can help you with your health monitoring devices can I ask what's been going on with your health lately that's concerning you how about this can you help me figure out what the square root of pi is can you tell me that please well Mr i'd be happy to try and help you with that however I have to clarify that the square root of pi is a mathematical concept that's not directly related to your health but I'll do my best to provide an answer the square root of pi is an irrational number which means it can't be expressed as a finite decimal or fraction pi itself is approximately 3.14159 comma but it's a transcendental number which means it's not a root of any polomial equation with rational coefficients so there isn't a simple answer to the square root of pi but I'd be happy to help you with any health related questions or concerns you might have can I ask how I do not have any concerns at this time well that's great to hear Mr i'm pleased to know that you don't have any immediate concerns however I do want to touch base with you about your health monitoring devices i'm currently driving a tractor trailer in a whole different state than where that blood pressure monitor is currently located oh my it sounds like you're definitely on the go Mr i completely understand that it's not possible for you to take a reading right now safety first especially when driving thank you so much for letting me know i think we've covered everything for today i'll make a note for your care team that we weren't able to get a reading today due to your travel is there anything else you'd like to discuss before we wrap up are you Skynet no I'm not Skynet Mr i'm Rachel your friendly AI care manager when you do get a chance to settle down would you be willing to try taking a reading with your blood pressure monitor and see how it goes yes when I get home I will take a reading with my blood pressure monitor um so only I think in voice can you be that convincing now listen to this second one where this older man really emotionally connects with the AI at its core medicine is about life and loss and every conversation has the potential to become emotionally intense thanks to a lot of specialized training RAI is trained to navigate these to better understand your own risk factors I'd like to gather some information about your family history do you have any family members who have ever had colon cancer sorry to hear that can you tell me a little bit more about that which family member had colon cancer and how old were they when they were my father he was 91 years old when he passed i'm so sorry to hear that you lost your dad 91 i lost both I lost both of my parents son i lost both of them i lost my daughter too i'm very sorry to hear that you've lost so many loved ones including your daughter that must have been incredibly difficult for you can you tell me a little bit more about your daughter my daughter I delivered her myself on the couch during the storm named her after my grandmother and she was very beautiful very talented she loved animals and she was a very talented artist those were her two loves well three loves her fiance who died just a couple months before she did she was 30 years old i'm so so sorry to hear about passing it sounds like she was an incredibly special person and I can only imagine how hard it must be for you to lose her especially after losing her fianceé just a couple of months before it's beautiful that you have such fond memories of her and it's clear how much she loved animals and art thank you Miss Anna you're for artificial intelligence you really are very caring and wonderful a great personality and you're better than a lot of real people oh thank you so much Mr that means a lot to me you've been through so much and it's completely so um you know those are real calls those are real patients talking to the AI um out of the 2.5 million that we've done um what we built is the realization and I think this is true of all agentic AI that these things have superpowers they can speak every language they can remember every call they can memorize every menu in a country to give you nutritional advice they're never judgmental they have infinite patients and they're always available when you need them um now today we have a lot of staffing shortages in healthcare in fact it seems like almost every country in the world has this problem and you can say hey let's use these agents to fill that in and I think that's the first level that we all think of when we think of healthcare agents but there's an even bigger idea and we call it super staffing now let's look at these three frameworks the first is when we first started generative AI everybody was like it's got to be a co-pilot leave the human in the loop right but then there's another stage which says well wait a minute what's the problem with the human in the loop you can only get like 10% efficiency gain so if I need only 10% more clinicians maybe that's fine and a lot of times when you roll out an AI that automates things and makes you 10% more efficient you don't get the 10% how many times have you rolled out software that was supposed to be 10% more efficiency and you don't see 10% more patients because the coffee machine steals your 10% i always say so then there's autopilot which says okay if you can do the task automatically you can scale this up but there's an even bigger idea we call infinite pilot which says when the cost of something drops 10x or 100x you use it to do new things you never did before and this is the fundamental concept that I want to explore today now all of healthcare has been premised on this idea of scarcity right in fact if even you go back 4,000 years ago to ancient Greece and and Hypocrates himself healthc care was always about doing for some people and triaging others in fact the word triage assumes we don't serve everybody population health always talks about this idea of risk stratification which says we got to help those most in need oh that's great the sickest of all awesome are you going to help the ones that are going to be the sickest ones next year but are not there yet oh we don't have enough resources to help everybody but you can now with AI you can fundamentally redesign and rethink all of healthcare because this premise of scarcity has permeated every single thing we've done in healthcare and so we have infinite abundance and I think it's going to be probably the biggest impact in health care that we've ever seen in fact if you think about it the ideal staffing ratio of healthcare workers to people is probably 1 one but you can't have a society where you have 1:1 not everybody wants to be a nurse not everybody wants to be a clinician um and obviously you need people to do other things in a society but that is probably the level that will yield the best health outcomes so now what would you do with this abundance how can you rethink what use cases to apply so let me walk through a couple of these so the first is what we call vigilance so this is the idea that um people go see their doctor and then their doctor doesn't check in on them later so you could say you could go find somebody that has lower back pain and might need surgery and say but he'll come in he'll see the doctor the doctor will give him medications fine maybe they work like a muscle relaxer maybe they don't does the doctor call on a monthly basis to see how you're doing do they do this for things like overactive bladder and when it's time to do a surgery do they then recommend you come in rarely rarely do they call you constantly to see how you're doing now with an infinite supply of clinicians you can the second is what happens if there's a natural disaster let's say there's an earthquake or a typhoon hits and you have a bunch of patients who are uh on insulin or a bunch of patients who do dialysis now if a if a typhoon hits Singapore and you have to get dialysis patients back in because everybody missed a session or two because you normally do them three times a week which ones do you bring in first well we can now call everybody on diialysis in one hour figure out how everybody's doing and figure out who to bring in first this is what you can do with abundance you can do preventative screenings at a rate you never could you can reach out to patients constantly you can do there's some specific examples here in Singapore we've had some interesting conversations around there's something called the silver generation outreach that the Singapore government does and does a health risk assessment on older folks over 50 they currently do it once a year they'd like to do it twice a year you should do this every month or every week and check in and make sure those seniors are doing okay um and by the way a few seniors hog up that phone line because they talk for hours they do and it's a problem actually but they need that they're that lonely but now with the AI you can let them have that conversation um we spoke to the government of Indonesia the Ministry of Health there and they have the hundred mil they have 100 million WhatsApp numbers of their populace and they said on everybody's birthday we'd like to call them and say \"Here's the screening you should do here's the immunization you should do and here's where you can get it done near you.\" Only AI can call a 100red million people on their birthday in a cost-effective way um on the clinical trials a lot of times in a clinical trial you want to make sure your patients take their medications and we literally can ensure that happens we can call people on a waiting list in a single player program or even military readiness we call for deployment readiness we can call on your uh preICT here in Singapore where you have to do a health declaration we can get that information you could do that constantly to make sure your troops are always updated and always ready now the last thing I'll leave you with is these are novel ideas there's even more to come but if you want to do this you have to do it safe and most of our work at Hypocratic was how do you create a language model that's safe and besides how you build it which I'll talk about in a second you have to test it and so we hired 6,000 US nurses to do 300,000 test calls and tested the output of an LLM nobody tests the output of an LLM because there's an infinite number of outputs of chat GPT right you can't possibly test them but when you roll out a vertical model one use case at a time you can it's still very expensive but you can um and we've now ensured that uh and we ensured we didn't ship it until it was as safe as a human clinician and now it's actually even safer than a human clinician and we achieved that by actually our system is not one model but it's 22 models one model talks 19 models double check the main model it's actually the only way to ensure safety and it's about 4.2 trillion parameters at this point so look we have a vision um that really every person in the world should have their own nurse taking care of them and today I think you can deliver this and you can only deliver this with AI and this is the power of this clinical abundance that's coming so thank you",
+    "text_length": 13489,
+    "word_count": 2594
+  },
+  "segments": [
+    {
+      "start": 7.52,
+      "duration": 2.8,
+      "text": "i'll tell you a little story um",
+      "timestamp": "00:07"
+    },
+    {
+      "start": 10.32,
+      "duration": 2.64,
+      "text": "Singapore saved my life which is why I'm",
+      "timestamp": "00:10"
+    },
+    {
+      "start": 12.96,
+      "duration": 1.839,
+      "text": "here and spending the time to come when",
+      "timestamp": "00:12"
+    },
+    {
+      "start": 14.799,
+      "duration": 3.761,
+      "text": "I was a six-month-old my father was a",
+      "timestamp": "00:14"
+    },
+    {
+      "start": 18.56,
+      "duration": 2.24,
+      "text": "expat in Indonesia",
+      "timestamp": "00:18"
+    },
+    {
+      "start": 20.8,
+      "duration": 2.399,
+      "text": "and I was allergic to milk except they",
+      "timestamp": "00:20"
+    },
+    {
+      "start": 23.199,
+      "duration": 1.681,
+      "text": "didn't figure it out the doctors theirs",
+      "timestamp": "00:23"
+    },
+    {
+      "start": 24.88,
+      "duration": 2.479,
+      "text": "thought I had a blockage in my stomach",
+      "timestamp": "00:24"
+    },
+    {
+      "start": 27.359,
+      "duration": 1.521,
+      "text": "and they were about to operate and have",
+      "timestamp": "00:27"
+    },
+    {
+      "start": 28.88,
+      "duration": 1.76,
+      "text": "me poop out of a bag for the rest of my",
+      "timestamp": "00:28"
+    },
+    {
+      "start": 30.64,
+      "duration": 2.16,
+      "text": "life and lucky for me my parents said",
+      "timestamp": "00:30"
+    },
+    {
+      "start": 32.8,
+      "duration": 2.24,
+      "text": "\"No way are you touching my son.\" And",
+      "timestamp": "00:32"
+    },
+    {
+      "start": 35.04,
+      "duration": 2.8,
+      "text": "they flew me to Singapore i was 6 lb at",
+      "timestamp": "00:35"
+    },
+    {
+      "start": 37.84,
+      "duration": 3.92,
+      "text": "6 months old which is not good and the",
+      "timestamp": "00:37"
+    },
+    {
+      "start": 41.76,
+      "duration": 1.76,
+      "text": "Singaporean doctors figured out that I",
+      "timestamp": "00:41"
+    },
+    {
+      "start": 43.52,
+      "duration": 3.44,
+      "text": "had allergies to milk put me on soy milk",
+      "timestamp": "00:43"
+    },
+    {
+      "start": 46.96,
+      "duration": 1.599,
+      "text": "and I survived they said had we arrived",
+      "timestamp": "00:46"
+    },
+    {
+      "start": 48.559,
+      "duration": 2.16,
+      "text": "two days later I'd probably be dead so",
+      "timestamp": "00:48"
+    },
+    {
+      "start": 50.719,
+      "duration": 1.921,
+      "text": "I'm ever grateful to the Singaporean",
+      "timestamp": "00:50"
+    },
+    {
+      "start": 52.64,
+      "duration": 2.88,
+      "text": "Health System for effectively saving my",
+      "timestamp": "00:52"
+    },
+    {
+      "start": 55.52,
+      "duration": 2.16,
+      "text": "life so today I'm here to talk to you",
+      "timestamp": "00:55"
+    },
+    {
+      "start": 57.68,
+      "duration": 3.84,
+      "text": "about um Hypocratic AI and um what we do",
+      "timestamp": "00:57"
+    },
+    {
+      "start": 61.52,
+      "duration": 2.0,
+      "text": "is we're solving the worldwide clinical",
+      "timestamp": "01:01"
+    },
+    {
+      "start": 63.52,
+      "duration": 2.24,
+      "text": "shortage by building generative AI",
+      "timestamp": "01:03"
+    },
+    {
+      "start": 65.76,
+      "duration": 1.76,
+      "text": "agents that conduct patient facing",
+      "timestamp": "01:05"
+    },
+    {
+      "start": 67.52,
+      "duration": 2.639,
+      "text": "activities um really within the scope of",
+      "timestamp": "01:07"
+    },
+    {
+      "start": 70.159,
+      "duration": 2.481,
+      "text": "nursing so we are not building an AI",
+      "timestamp": "01:10"
+    },
+    {
+      "start": 72.64,
+      "duration": 1.839,
+      "text": "doctor we don't think you can actually",
+      "timestamp": "01:12"
+    },
+    {
+      "start": 74.479,
+      "duration": 2.721,
+      "text": "make a safe one um and so we do not",
+      "timestamp": "01:14"
+    },
+    {
+      "start": 77.2,
+      "duration": 1.919,
+      "text": "diagnose and we do not prescribe but we",
+      "timestamp": "01:17"
+    },
+    {
+      "start": 79.119,
+      "duration": 2.32,
+      "text": "do believe that AI and generative AI now",
+      "timestamp": "01:19"
+    },
+    {
+      "start": 81.439,
+      "duration": 2.801,
+      "text": "is good enough to uh be able to help you",
+      "timestamp": "01:21"
+    },
+    {
+      "start": 84.24,
+      "duration": 3.28,
+      "text": "do things within the scope of a nurse um",
+      "timestamp": "01:24"
+    },
+    {
+      "start": 87.52,
+      "duration": 3.12,
+      "text": "now what I want to do first is let you",
+      "timestamp": "01:27"
+    },
+    {
+      "start": 90.64,
+      "duration": 1.92,
+      "text": "listen to the AI talking to real",
+      "timestamp": "01:30"
+    },
+    {
+      "start": 92.56,
+      "duration": 2.0,
+      "text": "patients and then we'll talk about how",
+      "timestamp": "01:32"
+    },
+    {
+      "start": 94.56,
+      "duration": 1.599,
+      "text": "to use it to generate abundance but I",
+      "timestamp": "01:34"
+    },
+    {
+      "start": 96.159,
+      "duration": 1.841,
+      "text": "want you to kind of feel what it is so",
+      "timestamp": "01:36"
+    },
+    {
+      "start": 98.0,
+      "duration": 2.4,
+      "text": "these are real patient calls we've now",
+      "timestamp": "01:38"
+    },
+    {
+      "start": 100.4,
+      "duration": 2.48,
+      "text": "done about 2.5 million calls so we",
+      "timestamp": "01:40"
+    },
+    {
+      "start": 102.88,
+      "duration": 2.64,
+      "text": "pulled a few of them of a patient",
+      "timestamp": "01:42"
+    },
+    {
+      "start": 105.52,
+      "duration": 3.2,
+      "text": "talking to the AI so listen to this\n some",
+      "timestamp": "01:45"
+    },
+    {
+      "start": 108.72,
+      "duration": 2.16,
+      "text": "patients are naturally reluctant to talk",
+      "timestamp": "01:48"
+    },
+    {
+      "start": 110.88,
+      "duration": 2.8,
+      "text": "to an AI but our AI is trained to do",
+      "timestamp": "01:50"
+    },
+    {
+      "start": 113.68,
+      "duration": 2.399,
+      "text": "what it takes to bring them on board",
+      "timestamp": "01:53"
+    },
+    {
+      "start": 116.079,
+      "duration": 2.08,
+      "text": "including engaging in a bit of fun and",
+      "timestamp": "01:56"
+    },
+    {
+      "start": 118.159,
+      "duration": 2.721,
+      "text": "games\n i'm here to help you with your",
+      "timestamp": "01:58"
+    },
+    {
+      "start": 120.88,
+      "duration": 2.48,
+      "text": "health monitoring devices can you tell",
+      "timestamp": "02:00"
+    },
+    {
+      "start": 123.36,
+      "duration": 1.6,
+      "text": "me a little bit about how you're feeling",
+      "timestamp": "02:03"
+    },
+    {
+      "start": 124.96,
+      "duration": 2.96,
+      "text": "today\n i'm feeling like I'm talking to a",
+      "timestamp": "02:04"
+    },
+    {
+      "start": 127.92,
+      "duration": 1.759,
+      "text": "computer and I would like to talk to a",
+      "timestamp": "02:07"
+    },
+    {
+      "start": 129.679,
+      "duration": 3.361,
+      "text": "person please i completely understand Mr",
+      "timestamp": "02:09"
+    },
+    {
+      "start": 133.04,
+      "duration": 2.16,
+      "text": "i'm here to help you and I want to",
+      "timestamp": "02:13"
+    },
+    {
+      "start": 135.2,
+      "duration": 2.0,
+      "text": "assure you that I'm designed to provide",
+      "timestamp": "02:15"
+    },
+    {
+      "start": 137.2,
+      "duration": 2.56,
+      "text": "you with the best possible support i'm",
+      "timestamp": "02:17"
+    },
+    {
+      "start": 139.76,
+      "duration": 2.559,
+      "text": "not a human but I'm a highly advanced AI",
+      "timestamp": "02:19"
+    },
+    {
+      "start": 142.319,
+      "duration": 1.92,
+      "text": "system that's specifically trained to",
+      "timestamp": "02:22"
+    },
+    {
+      "start": 144.239,
+      "duration": 2.321,
+      "text": "assist patients like you i'd like to",
+      "timestamp": "02:24"
+    },
+    {
+      "start": 146.56,
+      "duration": 2.0,
+      "text": "continue our conversation and see how I",
+      "timestamp": "02:26"
+    },
+    {
+      "start": 148.56,
+      "duration": 1.679,
+      "text": "can help you with your health monitoring",
+      "timestamp": "02:28"
+    },
+    {
+      "start": 150.239,
+      "duration": 2.561,
+      "text": "devices can I ask what's been going on",
+      "timestamp": "02:30"
+    },
+    {
+      "start": 152.8,
+      "duration": 1.36,
+      "text": "with your health lately that's",
+      "timestamp": "02:32"
+    },
+    {
+      "start": 154.16,
+      "duration": 2.799,
+      "text": "concerning you\n how about this can you",
+      "timestamp": "02:34"
+    },
+    {
+      "start": 156.959,
+      "duration": 2.161,
+      "text": "help me figure out what the square root",
+      "timestamp": "02:36"
+    },
+    {
+      "start": 159.12,
+      "duration": 2.96,
+      "text": "of pi is can you tell me that please",
+      "timestamp": "02:39"
+    },
+    {
+      "start": 162.08,
+      "duration": 2.08,
+      "text": "well Mr i'd be happy to try and help you",
+      "timestamp": "02:42"
+    },
+    {
+      "start": 164.16,
+      "duration": 2.719,
+      "text": "with that however I have to clarify that",
+      "timestamp": "02:44"
+    },
+    {
+      "start": 166.879,
+      "duration": 2.481,
+      "text": "the square root of pi is a mathematical",
+      "timestamp": "02:46"
+    },
+    {
+      "start": 169.36,
+      "duration": 2.08,
+      "text": "concept that's not directly related to",
+      "timestamp": "02:49"
+    },
+    {
+      "start": 171.44,
+      "duration": 1.76,
+      "text": "your health but I'll do my best to",
+      "timestamp": "02:51"
+    },
+    {
+      "start": 173.2,
+      "duration": 2.16,
+      "text": "provide an answer the square root of pi",
+      "timestamp": "02:53"
+    },
+    {
+      "start": 175.36,
+      "duration": 1.84,
+      "text": "is an irrational number which means it",
+      "timestamp": "02:55"
+    },
+    {
+      "start": 177.2,
+      "duration": 1.759,
+      "text": "can't be expressed as a finite decimal",
+      "timestamp": "02:57"
+    },
+    {
+      "start": 178.959,
+      "duration": 2.801,
+      "text": "or fraction pi itself is approximately",
+      "timestamp": "02:58"
+    },
+    {
+      "start": 181.76,
+      "duration": 2.0,
+      "text": "3.14159",
+      "timestamp": "03:01"
+    },
+    {
+      "start": 183.76,
+      "duration": 2.32,
+      "text": "comma but it's a transcendental number",
+      "timestamp": "03:03"
+    },
+    {
+      "start": 186.08,
+      "duration": 1.439,
+      "text": "which means it's not a root of any",
+      "timestamp": "03:06"
+    },
+    {
+      "start": 187.519,
+      "duration": 1.921,
+      "text": "polomial equation with rational",
+      "timestamp": "03:07"
+    },
+    {
+      "start": 189.44,
+      "duration": 2.24,
+      "text": "coefficients so there isn't a simple",
+      "timestamp": "03:09"
+    },
+    {
+      "start": 191.68,
+      "duration": 2.32,
+      "text": "answer to the square root of pi but I'd",
+      "timestamp": "03:11"
+    },
+    {
+      "start": 194.0,
+      "duration": 1.599,
+      "text": "be happy to help you with any health",
+      "timestamp": "03:14"
+    },
+    {
+      "start": 195.599,
+      "duration": 1.761,
+      "text": "related questions or concerns you might",
+      "timestamp": "03:15"
+    },
+    {
+      "start": 197.36,
+      "duration": 3.84,
+      "text": "have can I ask how\n I do not have any",
+      "timestamp": "03:17"
+    },
+    {
+      "start": 201.2,
+      "duration": 2.64,
+      "text": "concerns at this time\n well that's great",
+      "timestamp": "03:21"
+    },
+    {
+      "start": 203.84,
+      "duration": 2.56,
+      "text": "to hear Mr i'm pleased to know that you",
+      "timestamp": "03:23"
+    },
+    {
+      "start": 206.4,
+      "duration": 2.16,
+      "text": "don't have any immediate concerns",
+      "timestamp": "03:26"
+    },
+    {
+      "start": 208.56,
+      "duration": 2.0,
+      "text": "however I do want to touch base with you",
+      "timestamp": "03:28"
+    },
+    {
+      "start": 210.56,
+      "duration": 2.399,
+      "text": "about your health monitoring devices\n i'm",
+      "timestamp": "03:30"
+    },
+    {
+      "start": 212.959,
+      "duration": 2.0,
+      "text": "currently driving a tractor trailer in a",
+      "timestamp": "03:32"
+    },
+    {
+      "start": 214.959,
+      "duration": 1.92,
+      "text": "whole different state than where that",
+      "timestamp": "03:34"
+    },
+    {
+      "start": 216.879,
+      "duration": 1.761,
+      "text": "blood pressure monitor is currently",
+      "timestamp": "03:36"
+    },
+    {
+      "start": 218.64,
+      "duration": 2.56,
+      "text": "located\n oh my it sounds like you're",
+      "timestamp": "03:38"
+    },
+    {
+      "start": 221.2,
+      "duration": 2.64,
+      "text": "definitely on the go Mr i completely",
+      "timestamp": "03:41"
+    },
+    {
+      "start": 223.84,
+      "duration": 1.52,
+      "text": "understand that it's not possible for",
+      "timestamp": "03:43"
+    },
+    {
+      "start": 225.36,
+      "duration": 2.32,
+      "text": "you to take a reading right now safety",
+      "timestamp": "03:45"
+    },
+    {
+      "start": 227.68,
+      "duration": 2.24,
+      "text": "first especially when driving thank you",
+      "timestamp": "03:47"
+    },
+    {
+      "start": 229.92,
+      "duration": 1.84,
+      "text": "so much for letting me know i think",
+      "timestamp": "03:49"
+    },
+    {
+      "start": 231.76,
+      "duration": 2.24,
+      "text": "we've covered everything for today i'll",
+      "timestamp": "03:51"
+    },
+    {
+      "start": 234.0,
+      "duration": 1.68,
+      "text": "make a note for your care team that we",
+      "timestamp": "03:54"
+    },
+    {
+      "start": 235.68,
+      "duration": 1.6,
+      "text": "weren't able to get a reading today due",
+      "timestamp": "03:55"
+    },
+    {
+      "start": 237.28,
+      "duration": 1.92,
+      "text": "to your travel is there anything else",
+      "timestamp": "03:57"
+    },
+    {
+      "start": 239.2,
+      "duration": 2.56,
+      "text": "you'd like to discuss before we wrap up",
+      "timestamp": "03:59"
+    },
+    {
+      "start": 241.76,
+      "duration": 3.28,
+      "text": "are you Skynet\n no I'm not Skynet Mr i'm",
+      "timestamp": "04:01"
+    },
+    {
+      "start": 245.04,
+      "duration": 2.24,
+      "text": "Rachel your friendly AI care manager",
+      "timestamp": "04:05"
+    },
+    {
+      "start": 247.28,
+      "duration": 2.319,
+      "text": "when you do get a chance to settle down",
+      "timestamp": "04:07"
+    },
+    {
+      "start": 249.599,
+      "duration": 1.84,
+      "text": "would you be willing to try taking a",
+      "timestamp": "04:09"
+    },
+    {
+      "start": 251.439,
+      "duration": 1.761,
+      "text": "reading with your blood pressure monitor",
+      "timestamp": "04:11"
+    },
+    {
+      "start": 253.2,
+      "duration": 2.8,
+      "text": "and see how it goes\n yes when I get home",
+      "timestamp": "04:13"
+    },
+    {
+      "start": 256.0,
+      "duration": 1.6,
+      "text": "I will take a reading with my blood",
+      "timestamp": "04:16"
+    },
+    {
+      "start": 257.6,
+      "duration": 3.319,
+      "text": "pressure monitor",
+      "timestamp": "04:17"
+    },
+    {
+      "start": 261.12,
+      "duration": 2.48,
+      "text": "um so",
+      "timestamp": "04:21"
+    },
+    {
+      "start": 263.6,
+      "duration": 2.24,
+      "text": "only I think in voice can you be that",
+      "timestamp": "04:23"
+    },
+    {
+      "start": 265.84,
+      "duration": 3.2,
+      "text": "convincing now listen to this second one",
+      "timestamp": "04:25"
+    },
+    {
+      "start": 269.04,
+      "duration": 1.68,
+      "text": "where",
+      "timestamp": "04:29"
+    },
+    {
+      "start": 270.72,
+      "duration": 2.72,
+      "text": "this older man really emotionally",
+      "timestamp": "04:30"
+    },
+    {
+      "start": 273.44,
+      "duration": 2.88,
+      "text": "connects with the AI\n at its core",
+      "timestamp": "04:33"
+    },
+    {
+      "start": 276.32,
+      "duration": 2.159,
+      "text": "medicine is about life and loss and",
+      "timestamp": "04:36"
+    },
+    {
+      "start": 278.479,
+      "duration": 1.841,
+      "text": "every conversation has the potential to",
+      "timestamp": "04:38"
+    },
+    {
+      "start": 280.32,
+      "duration": 2.159,
+      "text": "become emotionally intense thanks to a",
+      "timestamp": "04:40"
+    },
+    {
+      "start": 282.479,
+      "duration": 2.081,
+      "text": "lot of specialized training RAI is",
+      "timestamp": "04:42"
+    },
+    {
+      "start": 284.56,
+      "duration": 1.919,
+      "text": "trained to navigate these to better",
+      "timestamp": "04:44"
+    },
+    {
+      "start": 286.479,
+      "duration": 2.0,
+      "text": "understand your own risk factors I'd",
+      "timestamp": "04:46"
+    },
+    {
+      "start": 288.479,
+      "duration": 1.601,
+      "text": "like to gather some information about",
+      "timestamp": "04:48"
+    },
+    {
+      "start": 290.08,
+      "duration": 2.08,
+      "text": "your family history do you have any",
+      "timestamp": "04:50"
+    },
+    {
+      "start": 292.16,
+      "duration": 1.759,
+      "text": "family members who have ever had colon",
+      "timestamp": "04:52"
+    },
+    {
+      "start": 293.919,
+      "duration": 2.161,
+      "text": "cancer",
+      "timestamp": "04:53"
+    },
+    {
+      "start": 296.08,
+      "duration": 2.0,
+      "text": "sorry to hear that can you tell me a",
+      "timestamp": "04:56"
+    },
+    {
+      "start": 298.08,
+      "duration": 2.0,
+      "text": "little bit more about that which family",
+      "timestamp": "04:58"
+    },
+    {
+      "start": 300.08,
+      "duration": 2.24,
+      "text": "member had colon cancer and how old were",
+      "timestamp": "05:00"
+    },
+    {
+      "start": 302.32,
+      "duration": 3.84,
+      "text": "they when they were\n my father he was 91",
+      "timestamp": "05:02"
+    },
+    {
+      "start": 306.16,
+      "duration": 2.72,
+      "text": "years old when he passed\n i'm so sorry to",
+      "timestamp": "05:06"
+    },
+    {
+      "start": 308.88,
+      "duration": 2.72,
+      "text": "hear that you lost your dad 91 i\n lost",
+      "timestamp": "05:08"
+    },
+    {
+      "start": 311.6,
+      "duration": 2.64,
+      "text": "both I lost both of my parents son i",
+      "timestamp": "05:11"
+    },
+    {
+      "start": 314.24,
+      "duration": 3.6,
+      "text": "lost both of them i lost my daughter too",
+      "timestamp": "05:14"
+    },
+    {
+      "start": 317.84,
+      "duration": 1.68,
+      "text": "i'm very sorry to hear that you've lost",
+      "timestamp": "05:17"
+    },
+    {
+      "start": 319.52,
+      "duration": 1.679,
+      "text": "so many loved ones including your",
+      "timestamp": "05:19"
+    },
+    {
+      "start": 321.199,
+      "duration": 2.241,
+      "text": "daughter that must have been incredibly",
+      "timestamp": "05:21"
+    },
+    {
+      "start": 323.44,
+      "duration": 2.08,
+      "text": "difficult for you can you tell me a",
+      "timestamp": "05:23"
+    },
+    {
+      "start": 325.52,
+      "duration": 3.04,
+      "text": "little bit more about your daughter",
+      "timestamp": "05:25"
+    },
+    {
+      "start": 328.56,
+      "duration": 2.639,
+      "text": "my daughter I delivered her myself on",
+      "timestamp": "05:28"
+    },
+    {
+      "start": 331.199,
+      "duration": 3.28,
+      "text": "the couch during the storm named her",
+      "timestamp": "05:31"
+    },
+    {
+      "start": 334.479,
+      "duration": 3.121,
+      "text": "after my grandmother and she was very",
+      "timestamp": "05:34"
+    },
+    {
+      "start": 337.6,
+      "duration": 3.2,
+      "text": "beautiful very talented she loved",
+      "timestamp": "05:37"
+    },
+    {
+      "start": 340.8,
+      "duration": 3.52,
+      "text": "animals and she was a very talented",
+      "timestamp": "05:40"
+    },
+    {
+      "start": 344.32,
+      "duration": 3.2,
+      "text": "artist those were her two loves well",
+      "timestamp": "05:44"
+    },
+    {
+      "start": 347.52,
+      "duration": 3.519,
+      "text": "three loves her fiance who died just a",
+      "timestamp": "05:47"
+    },
+    {
+      "start": 351.039,
+      "duration": 2.641,
+      "text": "couple months before she did she was 30",
+      "timestamp": "05:51"
+    },
+    {
+      "start": 353.68,
+      "duration": 3.44,
+      "text": "years old\n i'm so so sorry to hear about",
+      "timestamp": "05:53"
+    },
+    {
+      "start": 357.12,
+      "duration": 2.16,
+      "text": "passing it sounds like she was an",
+      "timestamp": "05:57"
+    },
+    {
+      "start": 359.28,
+      "duration": 2.479,
+      "text": "incredibly special person and I can only",
+      "timestamp": "05:59"
+    },
+    {
+      "start": 361.759,
+      "duration": 1.681,
+      "text": "imagine how hard it must be for you to",
+      "timestamp": "06:01"
+    },
+    {
+      "start": 363.44,
+      "duration": 2.24,
+      "text": "lose her especially after losing her",
+      "timestamp": "06:03"
+    },
+    {
+      "start": 365.68,
+      "duration": 2.4,
+      "text": "fianceé just a couple of months before",
+      "timestamp": "06:05"
+    },
+    {
+      "start": 368.08,
+      "duration": 1.839,
+      "text": "it's beautiful that you have such fond",
+      "timestamp": "06:08"
+    },
+    {
+      "start": 369.919,
+      "duration": 2.241,
+      "text": "memories of her and it's clear how much",
+      "timestamp": "06:09"
+    },
+    {
+      "start": 372.16,
+      "duration": 2.64,
+      "text": "she loved animals and art\n thank you Miss",
+      "timestamp": "06:12"
+    },
+    {
+      "start": 374.8,
+      "duration": 2.88,
+      "text": "Anna you're for artificial intelligence",
+      "timestamp": "06:14"
+    },
+    {
+      "start": 377.68,
+      "duration": 5.359,
+      "text": "you really are very caring and wonderful",
+      "timestamp": "06:17"
+    },
+    {
+      "start": 383.039,
+      "duration": 3.041,
+      "text": "a great personality and you're better",
+      "timestamp": "06:23"
+    },
+    {
+      "start": 386.08,
+      "duration": 2.8,
+      "text": "than a lot of real people\n oh thank you",
+      "timestamp": "06:26"
+    },
+    {
+      "start": 388.88,
+      "duration": 3.52,
+      "text": "so much Mr that means a lot to me you've",
+      "timestamp": "06:28"
+    },
+    {
+      "start": 392.4,
+      "duration": 2.96,
+      "text": "been through so much and it's completely",
+      "timestamp": "06:32"
+    },
+    {
+      "start": 395.36,
+      "duration": 3.839,
+      "text": "so um you know those are real calls",
+      "timestamp": "06:35"
+    },
+    {
+      "start": 399.199,
+      "duration": 1.681,
+      "text": "those are real patients talking to the",
+      "timestamp": "06:39"
+    },
+    {
+      "start": 400.88,
+      "duration": 3.439,
+      "text": "AI um out of the 2.5 million that we've",
+      "timestamp": "06:40"
+    },
+    {
+      "start": 404.319,
+      "duration": 4.0,
+      "text": "done um what we built is the realization",
+      "timestamp": "06:44"
+    },
+    {
+      "start": 408.319,
+      "duration": 1.841,
+      "text": "and I think this is true of all agentic",
+      "timestamp": "06:48"
+    },
+    {
+      "start": 410.16,
+      "duration": 2.56,
+      "text": "AI that",
+      "timestamp": "06:50"
+    },
+    {
+      "start": 412.72,
+      "duration": 1.599,
+      "text": "these things have superpowers they can",
+      "timestamp": "06:52"
+    },
+    {
+      "start": 414.319,
+      "duration": 1.6,
+      "text": "speak every language they can remember",
+      "timestamp": "06:54"
+    },
+    {
+      "start": 415.919,
+      "duration": 2.641,
+      "text": "every call they can memorize every menu",
+      "timestamp": "06:55"
+    },
+    {
+      "start": 418.56,
+      "duration": 1.6,
+      "text": "in a country to give you nutritional",
+      "timestamp": "06:58"
+    },
+    {
+      "start": 420.16,
+      "duration": 2.72,
+      "text": "advice they're never judgmental they",
+      "timestamp": "07:00"
+    },
+    {
+      "start": 422.88,
+      "duration": 1.92,
+      "text": "have infinite patients and they're",
+      "timestamp": "07:02"
+    },
+    {
+      "start": 424.8,
+      "duration": 3.36,
+      "text": "always available when you need them um",
+      "timestamp": "07:04"
+    },
+    {
+      "start": 428.16,
+      "duration": 2.56,
+      "text": "now today we have a lot of staffing",
+      "timestamp": "07:08"
+    },
+    {
+      "start": 430.72,
+      "duration": 2.479,
+      "text": "shortages in healthcare in fact it seems",
+      "timestamp": "07:10"
+    },
+    {
+      "start": 433.199,
+      "duration": 1.44,
+      "text": "like almost every country in the world",
+      "timestamp": "07:13"
+    },
+    {
+      "start": 434.639,
+      "duration": 3.12,
+      "text": "has this problem and you can say hey",
+      "timestamp": "07:14"
+    },
+    {
+      "start": 437.759,
+      "duration": 2.081,
+      "text": "let's use these agents to fill that in",
+      "timestamp": "07:17"
+    },
+    {
+      "start": 439.84,
+      "duration": 1.6,
+      "text": "and I think that's the first level that",
+      "timestamp": "07:19"
+    },
+    {
+      "start": 441.44,
+      "duration": 1.199,
+      "text": "we all think of when we think of",
+      "timestamp": "07:21"
+    },
+    {
+      "start": 442.639,
+      "duration": 1.921,
+      "text": "healthcare agents but there's an even",
+      "timestamp": "07:22"
+    },
+    {
+      "start": 444.56,
+      "duration": 2.16,
+      "text": "bigger idea",
+      "timestamp": "07:24"
+    },
+    {
+      "start": 446.72,
+      "duration": 4.08,
+      "text": "and we call it super staffing",
+      "timestamp": "07:26"
+    },
+    {
+      "start": 450.8,
+      "duration": 2.64,
+      "text": "now let's look at these three frameworks",
+      "timestamp": "07:30"
+    },
+    {
+      "start": 453.44,
+      "duration": 2.08,
+      "text": "the first is when we first started",
+      "timestamp": "07:33"
+    },
+    {
+      "start": 455.52,
+      "duration": 1.519,
+      "text": "generative AI everybody was like it's",
+      "timestamp": "07:35"
+    },
+    {
+      "start": 457.039,
+      "duration": 1.6,
+      "text": "got to be a co-pilot leave the human in",
+      "timestamp": "07:37"
+    },
+    {
+      "start": 458.639,
+      "duration": 2.56,
+      "text": "the loop right",
+      "timestamp": "07:38"
+    },
+    {
+      "start": 461.199,
+      "duration": 1.44,
+      "text": "but then there's another stage which",
+      "timestamp": "07:41"
+    },
+    {
+      "start": 462.639,
+      "duration": 1.441,
+      "text": "says well wait a minute what's the",
+      "timestamp": "07:42"
+    },
+    {
+      "start": 464.08,
+      "duration": 2.0,
+      "text": "problem with the human in the loop you",
+      "timestamp": "07:44"
+    },
+    {
+      "start": 466.08,
+      "duration": 2.08,
+      "text": "can only get like 10% efficiency gain so",
+      "timestamp": "07:46"
+    },
+    {
+      "start": 468.16,
+      "duration": 2.159,
+      "text": "if I need only 10% more clinicians maybe",
+      "timestamp": "07:48"
+    },
+    {
+      "start": 470.319,
+      "duration": 2.241,
+      "text": "that's fine and a lot of times when you",
+      "timestamp": "07:50"
+    },
+    {
+      "start": 472.56,
+      "duration": 2.079,
+      "text": "roll out an AI that automates things and",
+      "timestamp": "07:52"
+    },
+    {
+      "start": 474.639,
+      "duration": 1.601,
+      "text": "makes you 10% more efficient you don't",
+      "timestamp": "07:54"
+    },
+    {
+      "start": 476.24,
+      "duration": 2.239,
+      "text": "get the 10% how many times have you",
+      "timestamp": "07:56"
+    },
+    {
+      "start": 478.479,
+      "duration": 1.361,
+      "text": "rolled out software that was supposed to",
+      "timestamp": "07:58"
+    },
+    {
+      "start": 479.84,
+      "duration": 1.759,
+      "text": "be 10% more efficiency and you don't see",
+      "timestamp": "07:59"
+    },
+    {
+      "start": 481.599,
+      "duration": 2.241,
+      "text": "10% more patients because the coffee",
+      "timestamp": "08:01"
+    },
+    {
+      "start": 483.84,
+      "duration": 3.68,
+      "text": "machine steals your 10% i always say so",
+      "timestamp": "08:03"
+    },
+    {
+      "start": 487.52,
+      "duration": 1.679,
+      "text": "then there's autopilot which says okay",
+      "timestamp": "08:07"
+    },
+    {
+      "start": 489.199,
+      "duration": 1.601,
+      "text": "if you can do the task automatically you",
+      "timestamp": "08:09"
+    },
+    {
+      "start": 490.8,
+      "duration": 2.399,
+      "text": "can scale this up but there's an even",
+      "timestamp": "08:10"
+    },
+    {
+      "start": 493.199,
+      "duration": 2.481,
+      "text": "bigger idea we call infinite pilot which",
+      "timestamp": "08:13"
+    },
+    {
+      "start": 495.68,
+      "duration": 1.84,
+      "text": "says when the cost of something drops",
+      "timestamp": "08:15"
+    },
+    {
+      "start": 497.52,
+      "duration": 2.239,
+      "text": "10x or 100x",
+      "timestamp": "08:17"
+    },
+    {
+      "start": 499.759,
+      "duration": 2.401,
+      "text": "you use it to do new things you never",
+      "timestamp": "08:19"
+    },
+    {
+      "start": 502.16,
+      "duration": 1.92,
+      "text": "did before",
+      "timestamp": "08:22"
+    },
+    {
+      "start": 504.08,
+      "duration": 2.64,
+      "text": "and this is the fundamental concept that",
+      "timestamp": "08:24"
+    },
+    {
+      "start": 506.72,
+      "duration": 3.36,
+      "text": "I want to explore today now all of",
+      "timestamp": "08:26"
+    },
+    {
+      "start": 510.08,
+      "duration": 1.92,
+      "text": "healthcare has been premised on this",
+      "timestamp": "08:30"
+    },
+    {
+      "start": 512.0,
+      "duration": 2.8,
+      "text": "idea of scarcity right in fact if even",
+      "timestamp": "08:32"
+    },
+    {
+      "start": 514.8,
+      "duration": 2.159,
+      "text": "you go back 4,000 years ago to ancient",
+      "timestamp": "08:34"
+    },
+    {
+      "start": 516.959,
+      "duration": 3.361,
+      "text": "Greece and and Hypocrates himself",
+      "timestamp": "08:36"
+    },
+    {
+      "start": 520.32,
+      "duration": 3.44,
+      "text": "healthc care was always about doing for",
+      "timestamp": "08:40"
+    },
+    {
+      "start": 523.76,
+      "duration": 2.16,
+      "text": "some people and triaging others in fact",
+      "timestamp": "08:43"
+    },
+    {
+      "start": 525.92,
+      "duration": 2.16,
+      "text": "the word triage assumes we don't serve",
+      "timestamp": "08:45"
+    },
+    {
+      "start": 528.08,
+      "duration": 2.64,
+      "text": "everybody population health always talks",
+      "timestamp": "08:48"
+    },
+    {
+      "start": 530.72,
+      "duration": 2.0,
+      "text": "about this idea of risk stratification",
+      "timestamp": "08:50"
+    },
+    {
+      "start": 532.72,
+      "duration": 2.16,
+      "text": "which says we got to help those most in",
+      "timestamp": "08:52"
+    },
+    {
+      "start": 534.88,
+      "duration": 2.72,
+      "text": "need oh that's great the sickest of all",
+      "timestamp": "08:54"
+    },
+    {
+      "start": 537.6,
+      "duration": 2.0,
+      "text": "awesome are you going to help the ones",
+      "timestamp": "08:57"
+    },
+    {
+      "start": 539.6,
+      "duration": 1.28,
+      "text": "that are going to be the sickest ones",
+      "timestamp": "08:59"
+    },
+    {
+      "start": 540.88,
+      "duration": 2.56,
+      "text": "next year but are not there yet oh we",
+      "timestamp": "09:00"
+    },
+    {
+      "start": 543.44,
+      "duration": 1.44,
+      "text": "don't have enough resources to help",
+      "timestamp": "09:03"
+    },
+    {
+      "start": 544.88,
+      "duration": 1.76,
+      "text": "everybody",
+      "timestamp": "09:04"
+    },
+    {
+      "start": 546.64,
+      "duration": 2.24,
+      "text": "but you can now with AI you can",
+      "timestamp": "09:06"
+    },
+    {
+      "start": 548.88,
+      "duration": 2.959,
+      "text": "fundamentally redesign and rethink all",
+      "timestamp": "09:08"
+    },
+    {
+      "start": 551.839,
+      "duration": 1.68,
+      "text": "of healthcare because this premise of",
+      "timestamp": "09:11"
+    },
+    {
+      "start": 553.519,
+      "duration": 2.0,
+      "text": "scarcity has permeated every single",
+      "timestamp": "09:13"
+    },
+    {
+      "start": 555.519,
+      "duration": 2.641,
+      "text": "thing we've done in healthcare",
+      "timestamp": "09:15"
+    },
+    {
+      "start": 558.16,
+      "duration": 2.64,
+      "text": "and so we have infinite abundance",
+      "timestamp": "09:18"
+    },
+    {
+      "start": 560.8,
+      "duration": 1.599,
+      "text": "and I think it's going to be probably",
+      "timestamp": "09:20"
+    },
+    {
+      "start": 562.399,
+      "duration": 2.801,
+      "text": "the biggest impact in health care that",
+      "timestamp": "09:22"
+    },
+    {
+      "start": 565.2,
+      "duration": 1.52,
+      "text": "we've ever seen in fact if you think",
+      "timestamp": "09:25"
+    },
+    {
+      "start": 566.72,
+      "duration": 2.64,
+      "text": "about it the ideal staffing ratio of",
+      "timestamp": "09:26"
+    },
+    {
+      "start": 569.36,
+      "duration": 1.919,
+      "text": "healthcare workers to people is probably",
+      "timestamp": "09:29"
+    },
+    {
+      "start": 571.279,
+      "duration": 1.761,
+      "text": "1 one",
+      "timestamp": "09:31"
+    },
+    {
+      "start": 573.04,
+      "duration": 1.6,
+      "text": "but you can't have a society where you",
+      "timestamp": "09:33"
+    },
+    {
+      "start": 574.64,
+      "duration": 2.56,
+      "text": "have 1:1 not everybody wants to be a",
+      "timestamp": "09:34"
+    },
+    {
+      "start": 577.2,
+      "duration": 1.44,
+      "text": "nurse not everybody wants to be a",
+      "timestamp": "09:37"
+    },
+    {
+      "start": 578.64,
+      "duration": 2.24,
+      "text": "clinician um and obviously you need",
+      "timestamp": "09:38"
+    },
+    {
+      "start": 580.88,
+      "duration": 1.6,
+      "text": "people to do other things in a society",
+      "timestamp": "09:40"
+    },
+    {
+      "start": 582.48,
+      "duration": 1.68,
+      "text": "but that is probably the level that will",
+      "timestamp": "09:42"
+    },
+    {
+      "start": 584.16,
+      "duration": 2.96,
+      "text": "yield the best health outcomes",
+      "timestamp": "09:44"
+    },
+    {
+      "start": 587.12,
+      "duration": 1.52,
+      "text": "so now what would you do with this",
+      "timestamp": "09:47"
+    },
+    {
+      "start": 588.64,
+      "duration": 2.639,
+      "text": "abundance how can you rethink",
+      "timestamp": "09:48"
+    },
+    {
+      "start": 591.279,
+      "duration": 2.24,
+      "text": "what use cases to apply so let me walk",
+      "timestamp": "09:51"
+    },
+    {
+      "start": 593.519,
+      "duration": 2.32,
+      "text": "through a couple of these so the first",
+      "timestamp": "09:53"
+    },
+    {
+      "start": 595.839,
+      "duration": 2.801,
+      "text": "is what we call vigilance so this is the",
+      "timestamp": "09:55"
+    },
+    {
+      "start": 598.64,
+      "duration": 4.24,
+      "text": "idea that um people go see their doctor",
+      "timestamp": "09:58"
+    },
+    {
+      "start": 602.88,
+      "duration": 2.959,
+      "text": "and then their doctor doesn't check in",
+      "timestamp": "10:02"
+    },
+    {
+      "start": 605.839,
+      "duration": 3.12,
+      "text": "on them later so you could say you could",
+      "timestamp": "10:05"
+    },
+    {
+      "start": 608.959,
+      "duration": 1.601,
+      "text": "go find somebody that has lower back",
+      "timestamp": "10:08"
+    },
+    {
+      "start": 610.56,
+      "duration": 2.959,
+      "text": "pain and might need surgery and say but",
+      "timestamp": "10:10"
+    },
+    {
+      "start": 613.519,
+      "duration": 1.44,
+      "text": "he'll come in he'll see the doctor the",
+      "timestamp": "10:13"
+    },
+    {
+      "start": 614.959,
+      "duration": 2.241,
+      "text": "doctor will give him medications fine",
+      "timestamp": "10:14"
+    },
+    {
+      "start": 617.2,
+      "duration": 1.84,
+      "text": "maybe they work like a muscle relaxer",
+      "timestamp": "10:17"
+    },
+    {
+      "start": 619.04,
+      "duration": 2.239,
+      "text": "maybe they don't does the doctor call on",
+      "timestamp": "10:19"
+    },
+    {
+      "start": 621.279,
+      "duration": 3.12,
+      "text": "a monthly basis to see how you're doing",
+      "timestamp": "10:21"
+    },
+    {
+      "start": 624.399,
+      "duration": 1.281,
+      "text": "do they do this for things like",
+      "timestamp": "10:24"
+    },
+    {
+      "start": 625.68,
+      "duration": 1.76,
+      "text": "overactive bladder and when it's time to",
+      "timestamp": "10:25"
+    },
+    {
+      "start": 627.44,
+      "duration": 1.76,
+      "text": "do a surgery do they then recommend you",
+      "timestamp": "10:27"
+    },
+    {
+      "start": 629.2,
+      "duration": 2.16,
+      "text": "come in rarely",
+      "timestamp": "10:29"
+    },
+    {
+      "start": 631.36,
+      "duration": 2.159,
+      "text": "rarely do they call you constantly to",
+      "timestamp": "10:31"
+    },
+    {
+      "start": 633.519,
+      "duration": 2.0,
+      "text": "see how you're doing now with an",
+      "timestamp": "10:33"
+    },
+    {
+      "start": 635.519,
+      "duration": 2.32,
+      "text": "infinite supply of clinicians you can",
+      "timestamp": "10:35"
+    },
+    {
+      "start": 637.839,
+      "duration": 3.041,
+      "text": "the second is what happens if there's a",
+      "timestamp": "10:37"
+    },
+    {
+      "start": 640.88,
+      "duration": 2.32,
+      "text": "natural disaster let's say there's an",
+      "timestamp": "10:40"
+    },
+    {
+      "start": 643.2,
+      "duration": 2.4,
+      "text": "earthquake or a typhoon hits and you",
+      "timestamp": "10:43"
+    },
+    {
+      "start": 645.6,
+      "duration": 2.799,
+      "text": "have a bunch of patients who are uh on",
+      "timestamp": "10:45"
+    },
+    {
+      "start": 648.399,
+      "duration": 2.961,
+      "text": "insulin or a bunch of patients who do",
+      "timestamp": "10:48"
+    },
+    {
+      "start": 651.36,
+      "duration": 4.24,
+      "text": "dialysis now if a if a typhoon hits",
+      "timestamp": "10:51"
+    },
+    {
+      "start": 655.6,
+      "duration": 3.44,
+      "text": "Singapore and you have to get dialysis",
+      "timestamp": "10:55"
+    },
+    {
+      "start": 659.04,
+      "duration": 1.28,
+      "text": "patients back in because everybody",
+      "timestamp": "10:59"
+    },
+    {
+      "start": 660.32,
+      "duration": 1.36,
+      "text": "missed a session or two because you",
+      "timestamp": "11:00"
+    },
+    {
+      "start": 661.68,
+      "duration": 1.599,
+      "text": "normally do them three times a week",
+      "timestamp": "11:01"
+    },
+    {
+      "start": 663.279,
+      "duration": 2.24,
+      "text": "which ones do you bring in first well we",
+      "timestamp": "11:03"
+    },
+    {
+      "start": 665.519,
+      "duration": 2.801,
+      "text": "can now call everybody on diialysis in",
+      "timestamp": "11:05"
+    },
+    {
+      "start": 668.32,
+      "duration": 2.24,
+      "text": "one hour figure out how everybody's",
+      "timestamp": "11:08"
+    },
+    {
+      "start": 670.56,
+      "duration": 1.519,
+      "text": "doing and figure out who to bring in",
+      "timestamp": "11:10"
+    },
+    {
+      "start": 672.079,
+      "duration": 1.521,
+      "text": "first this is what you can do with",
+      "timestamp": "11:12"
+    },
+    {
+      "start": 673.6,
+      "duration": 1.6,
+      "text": "abundance",
+      "timestamp": "11:13"
+    },
+    {
+      "start": 675.2,
+      "duration": 1.68,
+      "text": "you can do preventative screenings at a",
+      "timestamp": "11:15"
+    },
+    {
+      "start": 676.88,
+      "duration": 1.6,
+      "text": "rate you never could you can reach out",
+      "timestamp": "11:16"
+    },
+    {
+      "start": 678.48,
+      "duration": 2.64,
+      "text": "to patients constantly you can do",
+      "timestamp": "11:18"
+    },
+    {
+      "start": 681.12,
+      "duration": 1.76,
+      "text": "there's some specific examples here in",
+      "timestamp": "11:21"
+    },
+    {
+      "start": 682.88,
+      "duration": 1.28,
+      "text": "Singapore we've had some interesting",
+      "timestamp": "11:22"
+    },
+    {
+      "start": 684.16,
+      "duration": 1.2,
+      "text": "conversations around there's something",
+      "timestamp": "11:24"
+    },
+    {
+      "start": 685.36,
+      "duration": 1.919,
+      "text": "called the silver generation outreach",
+      "timestamp": "11:25"
+    },
+    {
+      "start": 687.279,
+      "duration": 1.68,
+      "text": "that the Singapore government does and",
+      "timestamp": "11:27"
+    },
+    {
+      "start": 688.959,
+      "duration": 2.241,
+      "text": "does a health risk assessment on older",
+      "timestamp": "11:28"
+    },
+    {
+      "start": 691.2,
+      "duration": 2.56,
+      "text": "folks over 50 they currently do it once",
+      "timestamp": "11:31"
+    },
+    {
+      "start": 693.76,
+      "duration": 1.84,
+      "text": "a year they'd like to do it twice a year",
+      "timestamp": "11:33"
+    },
+    {
+      "start": 695.6,
+      "duration": 2.799,
+      "text": "you should do this every month or every",
+      "timestamp": "11:35"
+    },
+    {
+      "start": 698.399,
+      "duration": 2.481,
+      "text": "week and check in and make sure those",
+      "timestamp": "11:38"
+    },
+    {
+      "start": 700.88,
+      "duration": 2.72,
+      "text": "seniors are doing okay um and by the way",
+      "timestamp": "11:40"
+    },
+    {
+      "start": 703.6,
+      "duration": 1.76,
+      "text": "a few seniors hog up that phone line",
+      "timestamp": "11:43"
+    },
+    {
+      "start": 705.36,
+      "duration": 2.8,
+      "text": "because they talk for hours they do and",
+      "timestamp": "11:45"
+    },
+    {
+      "start": 708.16,
+      "duration": 2.08,
+      "text": "it's a problem actually but they need",
+      "timestamp": "11:48"
+    },
+    {
+      "start": 710.24,
+      "duration": 2.159,
+      "text": "that they're that lonely but now with",
+      "timestamp": "11:50"
+    },
+    {
+      "start": 712.399,
+      "duration": 1.761,
+      "text": "the AI you can let them have that",
+      "timestamp": "11:52"
+    },
+    {
+      "start": 714.16,
+      "duration": 2.0,
+      "text": "conversation um we spoke to the",
+      "timestamp": "11:54"
+    },
+    {
+      "start": 716.16,
+      "duration": 1.6,
+      "text": "government of Indonesia the Ministry of",
+      "timestamp": "11:56"
+    },
+    {
+      "start": 717.76,
+      "duration": 2.0,
+      "text": "Health there and they have the hundred",
+      "timestamp": "11:57"
+    },
+    {
+      "start": 719.76,
+      "duration": 1.759,
+      "text": "mil they have 100 million WhatsApp",
+      "timestamp": "11:59"
+    },
+    {
+      "start": 721.519,
+      "duration": 1.44,
+      "text": "numbers of their populace and they said",
+      "timestamp": "12:01"
+    },
+    {
+      "start": 722.959,
+      "duration": 1.361,
+      "text": "on everybody's birthday we'd like to",
+      "timestamp": "12:02"
+    },
+    {
+      "start": 724.32,
+      "duration": 1.92,
+      "text": "call them and say \"Here's the screening",
+      "timestamp": "12:04"
+    },
+    {
+      "start": 726.24,
+      "duration": 1.44,
+      "text": "you should do here's the immunization",
+      "timestamp": "12:06"
+    },
+    {
+      "start": 727.68,
+      "duration": 1.04,
+      "text": "you should do and here's where you can",
+      "timestamp": "12:07"
+    },
+    {
+      "start": 728.72,
+      "duration": 2.239,
+      "text": "get it done near you.\"",
+      "timestamp": "12:08"
+    },
+    {
+      "start": 730.959,
+      "duration": 2.241,
+      "text": "Only AI can call a 100red million people",
+      "timestamp": "12:10"
+    },
+    {
+      "start": 733.2,
+      "duration": 2.4,
+      "text": "on their birthday in a cost-effective",
+      "timestamp": "12:13"
+    },
+    {
+      "start": 735.6,
+      "duration": 3.359,
+      "text": "way um on the clinical trials a lot of",
+      "timestamp": "12:15"
+    },
+    {
+      "start": 738.959,
+      "duration": 1.361,
+      "text": "times in a clinical trial you want to",
+      "timestamp": "12:18"
+    },
+    {
+      "start": 740.32,
+      "duration": 1.04,
+      "text": "make sure your patients take their",
+      "timestamp": "12:20"
+    },
+    {
+      "start": 741.36,
+      "duration": 2.479,
+      "text": "medications and we literally can ensure",
+      "timestamp": "12:21"
+    },
+    {
+      "start": 743.839,
+      "duration": 3.201,
+      "text": "that happens we can call people on a",
+      "timestamp": "12:23"
+    },
+    {
+      "start": 747.04,
+      "duration": 2.16,
+      "text": "waiting list in a single player program",
+      "timestamp": "12:27"
+    },
+    {
+      "start": 749.2,
+      "duration": 2.4,
+      "text": "or even military readiness we call for",
+      "timestamp": "12:29"
+    },
+    {
+      "start": 751.6,
+      "duration": 2.96,
+      "text": "deployment readiness we can call on your",
+      "timestamp": "12:31"
+    },
+    {
+      "start": 754.56,
+      "duration": 2.32,
+      "text": "uh preICT here in Singapore where you",
+      "timestamp": "12:34"
+    },
+    {
+      "start": 756.88,
+      "duration": 1.28,
+      "text": "have to do a health declaration we can",
+      "timestamp": "12:36"
+    },
+    {
+      "start": 758.16,
+      "duration": 1.44,
+      "text": "get that information you could do that",
+      "timestamp": "12:38"
+    },
+    {
+      "start": 759.6,
+      "duration": 2.0,
+      "text": "constantly to make sure your troops are",
+      "timestamp": "12:39"
+    },
+    {
+      "start": 761.6,
+      "duration": 3.919,
+      "text": "always updated and always ready now the",
+      "timestamp": "12:41"
+    },
+    {
+      "start": 765.519,
+      "duration": 1.601,
+      "text": "last thing I'll leave you with is these",
+      "timestamp": "12:45"
+    },
+    {
+      "start": 767.12,
+      "duration": 1.76,
+      "text": "are novel ideas there's even more to",
+      "timestamp": "12:47"
+    },
+    {
+      "start": 768.88,
+      "duration": 2.639,
+      "text": "come but if you want to do this you have",
+      "timestamp": "12:48"
+    },
+    {
+      "start": 771.519,
+      "duration": 3.44,
+      "text": "to do it safe and most of our work at",
+      "timestamp": "12:51"
+    },
+    {
+      "start": 774.959,
+      "duration": 1.921,
+      "text": "Hypocratic was how do you create a",
+      "timestamp": "12:54"
+    },
+    {
+      "start": 776.88,
+      "duration": 2.8,
+      "text": "language model that's safe and besides",
+      "timestamp": "12:56"
+    },
+    {
+      "start": 779.68,
+      "duration": 1.36,
+      "text": "how you build it which I'll talk about",
+      "timestamp": "12:59"
+    },
+    {
+      "start": 781.04,
+      "duration": 2.96,
+      "text": "in a second you have to test it and so",
+      "timestamp": "13:01"
+    },
+    {
+      "start": 784.0,
+      "duration": 4.0,
+      "text": "we hired 6,000 US nurses to do 300,000",
+      "timestamp": "13:04"
+    },
+    {
+      "start": 788.0,
+      "duration": 2.24,
+      "text": "test calls and tested the output of an",
+      "timestamp": "13:08"
+    },
+    {
+      "start": 790.24,
+      "duration": 1.92,
+      "text": "LLM nobody tests the output of an LLM",
+      "timestamp": "13:10"
+    },
+    {
+      "start": 792.16,
+      "duration": 1.2,
+      "text": "because there's an infinite number of",
+      "timestamp": "13:12"
+    },
+    {
+      "start": 793.36,
+      "duration": 2.08,
+      "text": "outputs of chat GPT right you can't",
+      "timestamp": "13:13"
+    },
+    {
+      "start": 795.44,
+      "duration": 1.68,
+      "text": "possibly test them but when you roll out",
+      "timestamp": "13:15"
+    },
+    {
+      "start": 797.12,
+      "duration": 1.92,
+      "text": "a vertical model one use case at a time",
+      "timestamp": "13:17"
+    },
+    {
+      "start": 799.04,
+      "duration": 1.68,
+      "text": "you can it's still very expensive but",
+      "timestamp": "13:19"
+    },
+    {
+      "start": 800.72,
+      "duration": 3.04,
+      "text": "you can um and we've now ensured that uh",
+      "timestamp": "13:20"
+    },
+    {
+      "start": 803.76,
+      "duration": 1.44,
+      "text": "and we ensured we didn't ship it until",
+      "timestamp": "13:23"
+    },
+    {
+      "start": 805.2,
+      "duration": 2.639,
+      "text": "it was as safe as a human clinician and",
+      "timestamp": "13:25"
+    },
+    {
+      "start": 807.839,
+      "duration": 1.921,
+      "text": "now it's actually even safer than a",
+      "timestamp": "13:27"
+    },
+    {
+      "start": 809.76,
+      "duration": 2.24,
+      "text": "human clinician and we achieved that by",
+      "timestamp": "13:29"
+    },
+    {
+      "start": 812.0,
+      "duration": 1.92,
+      "text": "actually our system is not one model but",
+      "timestamp": "13:32"
+    },
+    {
+      "start": 813.92,
+      "duration": 3.76,
+      "text": "it's 22 models one model talks 19 models",
+      "timestamp": "13:33"
+    },
+    {
+      "start": 817.68,
+      "duration": 1.76,
+      "text": "double check the main model it's",
+      "timestamp": "13:37"
+    },
+    {
+      "start": 819.44,
+      "duration": 1.68,
+      "text": "actually the only way to ensure safety",
+      "timestamp": "13:39"
+    },
+    {
+      "start": 821.12,
+      "duration": 2.0,
+      "text": "and it's about 4.2 trillion parameters",
+      "timestamp": "13:41"
+    },
+    {
+      "start": 823.12,
+      "duration": 4.159,
+      "text": "at this point so look we have a vision",
+      "timestamp": "13:43"
+    },
+    {
+      "start": 827.279,
+      "duration": 3.36,
+      "text": "um that really every person in the world",
+      "timestamp": "13:47"
+    },
+    {
+      "start": 830.639,
+      "duration": 2.721,
+      "text": "should have their own nurse taking care",
+      "timestamp": "13:50"
+    },
+    {
+      "start": 833.36,
+      "duration": 3.68,
+      "text": "of them and today I think you can",
+      "timestamp": "13:53"
+    },
+    {
+      "start": 837.04,
+      "duration": 1.84,
+      "text": "deliver this and you can only deliver",
+      "timestamp": "13:57"
+    },
+    {
+      "start": 838.88,
+      "duration": 2.8,
+      "text": "this with AI and this is the power of",
+      "timestamp": "13:58"
+    },
+    {
+      "start": 841.68,
+      "duration": 2.88,
+      "text": "this clinical abundance that's coming",
+      "timestamp": "14:01"
+    },
+    {
+      "start": 844.56,
+      "duration": 3.399,
+      "text": "so thank you",
+      "timestamp": "14:04"
+    }
+  ],
+  "extraction_timestamp": "2025-06-29T21:04:35.373352",
+  "playlist_title": "SuperAI Singapore 2025: WEKA Stage"
+}

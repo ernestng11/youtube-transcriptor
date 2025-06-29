@@ -1,0 +1,1829 @@
+{
+  "video_id": "1e48ojV9xf8",
+  "video_title": "Swapnil Jain - AI Agents for CX - SuperAI Singapore 2025",
+  "video_url": "https://www.youtube.com/watch?v=1e48ojV9xf8",
+  "channel_title": "SuperAI",
+  "published_at": "2025-06-25T06:28:20+00:00",
+  "duration_seconds": null,
+  "view_count": 15,
+  "like_count": 0,
+  "description": "Learn more about SuperAI: superai.com\nFollow us on X: x.com/superai_conf\n\nKeynote: AI Agents for CX\n\nSpeaker:\nSwapnil Jain, Co-Founder and CEO @ Observe.AI\n\nStage: WEKA Stage\n#superai #observeai #customerservice #customerexperience #ai\n\nRecorded on 19 June 2025",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 301,
+    "aggregated_text": "hello everyone i'm Swapnil i'm the founder and CEO of observe.ai you obviously heard a lot about compute storage GPUs Nvidia and so on what I'm going to talk to you about a real world application of AI agents that you're going to experience very very soon in your life when we think about AI and when we think about applications some of the biggest markets to apply these technologies exist in customer support last year alone customer service was a $400 billion spend for businesses businesses globally would hire these human agents i'm going to say human just to not confuse with AI agents would hire these human agents to do customer service these people are sitting obviously all over the world handling queries when we have a problem when a package gets delayed we call them when we need a healthcare appointment we call them there's a big spend last year and the interesting thing about the work that happens in customer support and customer service is what it what makes it very very unique for AI agents customer service is a very repetitive job you talk to a person working in customer support and customer service and they will tell you they handle 50 calls in a day and a big majority of them were very similar where's my package when will I get my return you know can I refer this package and so on and so forth that makes it very very appealing for AI agents because AI looks for repeatability ai looks for something to do it again and again and again now while the cost is going up for customer service the challenge in the current model is that the customer experience is going down none of us wake up in the morning saying \"I'm excited to call customer service.\" Never happens we don't wake up and say \"Oh you know what my phone is not working my internet is not working and I'm super excited i'm going to call customer service no it's always very very dreadful we're always scared about talking to customer service because we know that we're going to be put on hold for a long time we might not be able to talk to them in one drive we might have to call them again and again we might get transferred from one agent to another agent and our experience is never never going to be great and the reason for that is today's customer service model and the way businesses support their consumers is built for a humanto human model it's built for you know human customer service agents to support these millions of consumers who are calling uh customer support every single day and that's why whenever we call in raise your hand if you ever you know when we call in and we hear like uh press one press two we always dread it was like a and now you have to figure out the option to get to a human agent because you're this is a mess so it's never built uh for for AI and the interesting thing which I shared with you earlier a big part of what happens in customer service a big part of what happens in customer support is extremely repetitive if you look at any industry if you look at financial services insurance you know healthcare payers in the US healthcare providers in the US the customer service agents are doing the same thing again and again and again in financial services you would look at things like account management banking checkings account credit card very similar queries again and again and this is not just about one company it's about if you look at all the large banks the customer service across all those banks is doing similar things there's nothing unique about uh what happens in customer service in these industries and that is what makes great for AI so what is AI going to do uh for customer service tomorrow and I'm going to show you some of our customers tomorrow if you call any of our customers you will be greeted by a voice AI agent it's an AI agent which will be very very conversational it's an AI agent which will sound very very human maybe to you know to a scary point it's an AI agent which will talk to you uh will do uh and h sounding very human to you uh they will understand what you're calling for they will try to make sense of sense of it it's an agent so they're going to reason and they're going to think about the situation on the fly just like a human does and they would go and integrate with different business systems to really understand how do we solve your problem so just like a human does when you call them and you tell them hey your flight is delayed and you're looking for a flight change what do they do they ask you okay tell me what's your flight number you know how uh from where to where for how long is it delayed for the AI agent without any training without any supervision through its reasoning capabilities through its agentic capabilities is going to do all of that and then it is going to go into different systems just like a human agent does to look for the flights and look for alternate flights and if you pick and choose an alternate flight it will go and execute a flight change for you all autonomously so that's the beauty of these AI agents they're autonomous and they can execute this task end to end the other interesting thing that's changed with AI agents they're very very easy to create think about you know in our personal life I'm sure all of you use chat GPT the way we work with chat GPT is through a human language not through a computer language we write in English and we tell chat GPT a computer what needs to be done similarly the way you create these AI agents in customer service is very very easy you basically tell the AI agent in plain English what needs to be done and give it some instructions and the AI agent just learns you're not writing code you're not doing that you're not hiring these software engineers and machine learning engineers and AI engineers no each of you can actually build these voice AI agents very very quickly and start using them in your business interestingly you can also build real-time feedback loops for these AI agents if you monitor each of these AI agents in production when they're taking millions of these calls each of these AI agents once you monitor them really understand what's working what's not working you come back and again in plain English improve the AI agent it's that simple so the next generation of customer service that you all will experience will not be the one where you call in and you're dealing with an IVR or a really shitty voice bot and you're figuring out how to talk to a human you will be dealt with these amazing amazing conversational AI agents which will solve your customer service problems these AI agents not just talk you know obviously we have seen chat GP chat GP is great at talking but in customer service is just not about talking it's about executing actions i have to make a flight change i have to go ahead and reschedule your appointment i have to refund your product i have to send you a refund things of that nature so these AI agents connect with a bunch of systems that a business uses this could be a service now or Salesforce or CRM or order management system and on the fly figure out what system they need to use and again autonomously would go just like in this picture here go a multi-step workflow and execute that workflow all autonomously without any human intervention so while you're talking to the voice AI agent for your customer service queries the AI agent behind the scene is accessing these various systems to execute a certain workflow why is this possible why am I standing here and well why have all of us are here in super AI it's because of what has changed in the last 12 months is because of the new agentic stack that we are talking about we didn't have this technology 12 months ago we now have this agentic stack where you can build these AI agents which are autonomous can take actions and can can execute multi-step workflows for you so what what's in the stack so if you start from the bottom of course we're talking about infrastructure we're talking about cloud and and databases and things of that nature the two layers that you've seen in the middle the agent AI platform and the LLM layer that's where the secret sauce is that's where things have changed in the last 12 months obviously we all know about LLM tts stands for text to speech this is where the AI agent uh when they have to talk to talk back to you they take a text and speak to you in your human language when we hear an AI agent talk to us ST is how an AI agent understands what we are saying that's speechto text when I talk to an AI agent they're taking that audio they're transcribing it they're getting text out of it and they're using it to understand and then you have LLMs where all this data goes in to really understand what the customer is saying and what the human agent is saying on top of this once you have this raw data which is you know the transcripts and and the raw communication layer you bring in an agentic platform you bring in a workflow platform where you now say okay you got the raw data sets what are these agents about to do and that's where you do multi-agent orchestration i think you heard from bunch of folks today about it's not just about a single agent we're talking about multi- aents doing different things in parallel and all of them orchestrated through a common call it like a parent AI agent important in in businesses and customer service world is security safety guardrails you don't want an AI agent to go rogue uh you don't want an AI agent to talk about something that they shouldn't be talking about especially in banking you don't want an AI agent to go and change the change the ledger and change the balance that you have in your bank account uh so you need a lot of security and guardrails so the AI agents stay on track and not do anything that they shouldn't be doing and finally as I said before we are in the world where software engineering and and and AI agent engineering is no longer about writing code and writing integrations and writing APIs it is slowly and slowly becoming about writing prompts no code tooling where you come in and so the the the paradigm has flipped earlier the way we used to communicate to machines used to be through machines language which is coding and bits and bites now the paradigm is machine talks machine understands our language so the human computer interface is changing from coding and software in bits and bites to English and other languages that now machines have started to understand and on top of this we have a bunch of applications AI agents omni channel AI agents AI co-pilots and so on observe AI does this at scale we've been in this business for 7 years work with 350 of the largest enterprise globally you know some of the favorite brands globally use observe every single day to improve their customer service and customer experience we are a ventureback business we have raised serious C uh $250 million in venture capital from investors like SoftBank Melo Y Combinator big in research you would find you know papers from observe uh and different patents in in this space that's observe if you're interested in learning more about customer service and application of AI agents in customer service I'm around please reach out thank",
+    "text_length": 11244,
+    "word_count": 2083
+  },
+  "segments": [
+    {
+      "start": 7.359,
+      "duration": 2.32,
+      "text": "hello everyone i'm Swapnil i'm the",
+      "timestamp": "00:07"
+    },
+    {
+      "start": 9.679,
+      "duration": 2.401,
+      "text": "founder and CEO of observe.ai",
+      "timestamp": "00:09"
+    },
+    {
+      "start": 12.08,
+      "duration": 2.0,
+      "text": "you obviously heard a lot about compute",
+      "timestamp": "00:12"
+    },
+    {
+      "start": 14.08,
+      "duration": 3.76,
+      "text": "storage GPUs Nvidia and so on what I'm",
+      "timestamp": "00:14"
+    },
+    {
+      "start": 17.84,
+      "duration": 1.359,
+      "text": "going to talk to you about a real world",
+      "timestamp": "00:17"
+    },
+    {
+      "start": 19.199,
+      "duration": 1.92,
+      "text": "application of AI agents that you're",
+      "timestamp": "00:19"
+    },
+    {
+      "start": 21.119,
+      "duration": 1.601,
+      "text": "going to experience very very soon in",
+      "timestamp": "00:21"
+    },
+    {
+      "start": 22.72,
+      "duration": 1.76,
+      "text": "your life",
+      "timestamp": "00:22"
+    },
+    {
+      "start": 24.48,
+      "duration": 2.16,
+      "text": "when we think about AI and when we think",
+      "timestamp": "00:24"
+    },
+    {
+      "start": 26.64,
+      "duration": 1.76,
+      "text": "about applications some of the biggest",
+      "timestamp": "00:26"
+    },
+    {
+      "start": 28.4,
+      "duration": 1.84,
+      "text": "markets to apply these technologies",
+      "timestamp": "00:28"
+    },
+    {
+      "start": 30.24,
+      "duration": 2.96,
+      "text": "exist in customer support last year",
+      "timestamp": "00:30"
+    },
+    {
+      "start": 33.2,
+      "duration": 2.56,
+      "text": "alone customer service was a $400",
+      "timestamp": "00:33"
+    },
+    {
+      "start": 35.76,
+      "duration": 3.2,
+      "text": "billion spend for businesses businesses",
+      "timestamp": "00:35"
+    },
+    {
+      "start": 38.96,
+      "duration": 2.16,
+      "text": "globally would hire these human agents",
+      "timestamp": "00:38"
+    },
+    {
+      "start": 41.12,
+      "duration": 1.36,
+      "text": "i'm going to say human just to not",
+      "timestamp": "00:41"
+    },
+    {
+      "start": 42.48,
+      "duration": 2.079,
+      "text": "confuse with AI agents would hire these",
+      "timestamp": "00:42"
+    },
+    {
+      "start": 44.559,
+      "duration": 2.32,
+      "text": "human agents to do customer service",
+      "timestamp": "00:44"
+    },
+    {
+      "start": 46.879,
+      "duration": 1.52,
+      "text": "these people are sitting obviously all",
+      "timestamp": "00:46"
+    },
+    {
+      "start": 48.399,
+      "duration": 1.601,
+      "text": "over the world handling queries when we",
+      "timestamp": "00:48"
+    },
+    {
+      "start": 50.0,
+      "duration": 1.52,
+      "text": "have a problem when a package gets",
+      "timestamp": "00:50"
+    },
+    {
+      "start": 51.52,
+      "duration": 2.16,
+      "text": "delayed we call them when we need a",
+      "timestamp": "00:51"
+    },
+    {
+      "start": 53.68,
+      "duration": 2.399,
+      "text": "healthcare appointment we call them",
+      "timestamp": "00:53"
+    },
+    {
+      "start": 56.079,
+      "duration": 2.561,
+      "text": "there's a big spend last year and the",
+      "timestamp": "00:56"
+    },
+    {
+      "start": 58.64,
+      "duration": 1.36,
+      "text": "interesting thing about the work that",
+      "timestamp": "00:58"
+    },
+    {
+      "start": 60.0,
+      "duration": 1.52,
+      "text": "happens in customer support and customer",
+      "timestamp": "01:00"
+    },
+    {
+      "start": 61.52,
+      "duration": 2.0,
+      "text": "service is what it what makes it very",
+      "timestamp": "01:01"
+    },
+    {
+      "start": 63.52,
+      "duration": 2.959,
+      "text": "very unique for AI agents customer",
+      "timestamp": "01:03"
+    },
+    {
+      "start": 66.479,
+      "duration": 3.441,
+      "text": "service is a very repetitive job you",
+      "timestamp": "01:06"
+    },
+    {
+      "start": 69.92,
+      "duration": 1.519,
+      "text": "talk to a person working in customer",
+      "timestamp": "01:09"
+    },
+    {
+      "start": 71.439,
+      "duration": 1.441,
+      "text": "support and customer service and they",
+      "timestamp": "01:11"
+    },
+    {
+      "start": 72.88,
+      "duration": 2.4,
+      "text": "will tell you they handle 50 calls in a",
+      "timestamp": "01:12"
+    },
+    {
+      "start": 75.28,
+      "duration": 2.32,
+      "text": "day and a big majority of them were very",
+      "timestamp": "01:15"
+    },
+    {
+      "start": 77.6,
+      "duration": 1.92,
+      "text": "similar where's my package when will I",
+      "timestamp": "01:17"
+    },
+    {
+      "start": 79.52,
+      "duration": 2.56,
+      "text": "get my return you know can I refer this",
+      "timestamp": "01:19"
+    },
+    {
+      "start": 82.08,
+      "duration": 2.399,
+      "text": "package and so on and so forth that",
+      "timestamp": "01:22"
+    },
+    {
+      "start": 84.479,
+      "duration": 1.761,
+      "text": "makes it very very appealing for AI",
+      "timestamp": "01:24"
+    },
+    {
+      "start": 86.24,
+      "duration": 1.36,
+      "text": "agents because AI looks for",
+      "timestamp": "01:26"
+    },
+    {
+      "start": 87.6,
+      "duration": 1.76,
+      "text": "repeatability ai looks for something to",
+      "timestamp": "01:27"
+    },
+    {
+      "start": 89.36,
+      "duration": 3.28,
+      "text": "do it again and again and again",
+      "timestamp": "01:29"
+    },
+    {
+      "start": 92.64,
+      "duration": 1.92,
+      "text": "now while the cost is going up for",
+      "timestamp": "01:32"
+    },
+    {
+      "start": 94.56,
+      "duration": 1.599,
+      "text": "customer service the challenge in the",
+      "timestamp": "01:34"
+    },
+    {
+      "start": 96.159,
+      "duration": 2.401,
+      "text": "current model is that the customer",
+      "timestamp": "01:36"
+    },
+    {
+      "start": 98.56,
+      "duration": 2.8,
+      "text": "experience is going down none of us wake",
+      "timestamp": "01:38"
+    },
+    {
+      "start": 101.36,
+      "duration": 2.32,
+      "text": "up in the morning saying \"I'm excited to",
+      "timestamp": "01:41"
+    },
+    {
+      "start": 103.68,
+      "duration": 2.479,
+      "text": "call customer service.\" Never happens we",
+      "timestamp": "01:43"
+    },
+    {
+      "start": 106.159,
+      "duration": 1.201,
+      "text": "don't wake up and say \"Oh you know what",
+      "timestamp": "01:46"
+    },
+    {
+      "start": 107.36,
+      "duration": 1.52,
+      "text": "my phone is not working my internet is",
+      "timestamp": "01:47"
+    },
+    {
+      "start": 108.88,
+      "duration": 2.0,
+      "text": "not working and I'm super excited i'm",
+      "timestamp": "01:48"
+    },
+    {
+      "start": 110.88,
+      "duration": 2.32,
+      "text": "going to call customer service no it's",
+      "timestamp": "01:50"
+    },
+    {
+      "start": 113.2,
+      "duration": 2.64,
+      "text": "always very very dreadful we're always",
+      "timestamp": "01:53"
+    },
+    {
+      "start": 115.84,
+      "duration": 1.76,
+      "text": "scared about talking to customer service",
+      "timestamp": "01:55"
+    },
+    {
+      "start": 117.6,
+      "duration": 2.08,
+      "text": "because we know that we're going to be",
+      "timestamp": "01:57"
+    },
+    {
+      "start": 119.68,
+      "duration": 2.399,
+      "text": "put on hold for a long time we might not",
+      "timestamp": "01:59"
+    },
+    {
+      "start": 122.079,
+      "duration": 1.68,
+      "text": "be able to talk to them in one drive we",
+      "timestamp": "02:02"
+    },
+    {
+      "start": 123.759,
+      "duration": 1.761,
+      "text": "might have to call them again and again",
+      "timestamp": "02:03"
+    },
+    {
+      "start": 125.52,
+      "duration": 1.76,
+      "text": "we might get transferred from one agent",
+      "timestamp": "02:05"
+    },
+    {
+      "start": 127.28,
+      "duration": 2.24,
+      "text": "to another agent and our experience is",
+      "timestamp": "02:07"
+    },
+    {
+      "start": 129.52,
+      "duration": 2.719,
+      "text": "never never going to be great",
+      "timestamp": "02:09"
+    },
+    {
+      "start": 132.239,
+      "duration": 1.761,
+      "text": "and the reason for that is today's",
+      "timestamp": "02:12"
+    },
+    {
+      "start": 134.0,
+      "duration": 2.16,
+      "text": "customer service model and the way",
+      "timestamp": "02:14"
+    },
+    {
+      "start": 136.16,
+      "duration": 3.36,
+      "text": "businesses support their consumers is",
+      "timestamp": "02:16"
+    },
+    {
+      "start": 139.52,
+      "duration": 2.96,
+      "text": "built for a humanto human model it's",
+      "timestamp": "02:19"
+    },
+    {
+      "start": 142.48,
+      "duration": 2.56,
+      "text": "built for you know human customer",
+      "timestamp": "02:22"
+    },
+    {
+      "start": 145.04,
+      "duration": 2.08,
+      "text": "service agents to support these millions",
+      "timestamp": "02:25"
+    },
+    {
+      "start": 147.12,
+      "duration": 1.839,
+      "text": "of consumers who are calling uh customer",
+      "timestamp": "02:27"
+    },
+    {
+      "start": 148.959,
+      "duration": 1.841,
+      "text": "support every single day and that's why",
+      "timestamp": "02:28"
+    },
+    {
+      "start": 150.8,
+      "duration": 2.079,
+      "text": "whenever we call in raise your hand if",
+      "timestamp": "02:30"
+    },
+    {
+      "start": 152.879,
+      "duration": 1.681,
+      "text": "you ever you know when we call in and we",
+      "timestamp": "02:32"
+    },
+    {
+      "start": 154.56,
+      "duration": 2.48,
+      "text": "hear like uh press one press two we",
+      "timestamp": "02:34"
+    },
+    {
+      "start": 157.04,
+      "duration": 2.4,
+      "text": "always dread it was like a and now",
+      "timestamp": "02:37"
+    },
+    {
+      "start": 159.44,
+      "duration": 1.6,
+      "text": "you have to figure out the option to get",
+      "timestamp": "02:39"
+    },
+    {
+      "start": 161.04,
+      "duration": 1.839,
+      "text": "to a human agent because you're this is",
+      "timestamp": "02:41"
+    },
+    {
+      "start": 162.879,
+      "duration": 6.161,
+      "text": "a mess so it's never built uh for for AI",
+      "timestamp": "02:42"
+    },
+    {
+      "start": 169.04,
+      "duration": 1.44,
+      "text": "and the interesting thing which I shared",
+      "timestamp": "02:49"
+    },
+    {
+      "start": 170.48,
+      "duration": 2.56,
+      "text": "with you earlier",
+      "timestamp": "02:50"
+    },
+    {
+      "start": 173.04,
+      "duration": 1.839,
+      "text": "a big part of what happens in customer",
+      "timestamp": "02:53"
+    },
+    {
+      "start": 174.879,
+      "duration": 1.521,
+      "text": "service a big part of what happens in",
+      "timestamp": "02:54"
+    },
+    {
+      "start": 176.4,
+      "duration": 3.36,
+      "text": "customer support is extremely repetitive",
+      "timestamp": "02:56"
+    },
+    {
+      "start": 179.76,
+      "duration": 1.44,
+      "text": "if you look at any industry if you look",
+      "timestamp": "02:59"
+    },
+    {
+      "start": 181.2,
+      "duration": 2.08,
+      "text": "at financial services insurance you know",
+      "timestamp": "03:01"
+    },
+    {
+      "start": 183.28,
+      "duration": 2.0,
+      "text": "healthcare payers in the US healthcare",
+      "timestamp": "03:03"
+    },
+    {
+      "start": 185.28,
+      "duration": 3.039,
+      "text": "providers in the US the customer service",
+      "timestamp": "03:05"
+    },
+    {
+      "start": 188.319,
+      "duration": 1.441,
+      "text": "agents are doing the same thing again",
+      "timestamp": "03:08"
+    },
+    {
+      "start": 189.76,
+      "duration": 1.28,
+      "text": "and again and again in financial",
+      "timestamp": "03:09"
+    },
+    {
+      "start": 191.04,
+      "duration": 2.24,
+      "text": "services you would look at things like",
+      "timestamp": "03:11"
+    },
+    {
+      "start": 193.28,
+      "duration": 2.08,
+      "text": "account management banking checkings",
+      "timestamp": "03:13"
+    },
+    {
+      "start": 195.36,
+      "duration": 2.0,
+      "text": "account credit card very similar queries",
+      "timestamp": "03:15"
+    },
+    {
+      "start": 197.36,
+      "duration": 1.76,
+      "text": "again and again and this is not just",
+      "timestamp": "03:17"
+    },
+    {
+      "start": 199.12,
+      "duration": 1.92,
+      "text": "about one company it's about if you look",
+      "timestamp": "03:19"
+    },
+    {
+      "start": 201.04,
+      "duration": 2.24,
+      "text": "at all the large banks the customer",
+      "timestamp": "03:21"
+    },
+    {
+      "start": 203.28,
+      "duration": 1.599,
+      "text": "service across all those banks is doing",
+      "timestamp": "03:23"
+    },
+    {
+      "start": 204.879,
+      "duration": 1.601,
+      "text": "similar things there's nothing unique",
+      "timestamp": "03:24"
+    },
+    {
+      "start": 206.48,
+      "duration": 1.52,
+      "text": "about uh what happens in customer",
+      "timestamp": "03:26"
+    },
+    {
+      "start": 208.0,
+      "duration": 2.159,
+      "text": "service in these industries and that is",
+      "timestamp": "03:28"
+    },
+    {
+      "start": 210.159,
+      "duration": 2.8,
+      "text": "what makes great for AI so what is AI",
+      "timestamp": "03:30"
+    },
+    {
+      "start": 212.959,
+      "duration": 3.441,
+      "text": "going to do uh for customer service",
+      "timestamp": "03:32"
+    },
+    {
+      "start": 216.4,
+      "duration": 1.839,
+      "text": "tomorrow and I'm going to show you some",
+      "timestamp": "03:36"
+    },
+    {
+      "start": 218.239,
+      "duration": 2.0,
+      "text": "of our customers tomorrow if you call",
+      "timestamp": "03:38"
+    },
+    {
+      "start": 220.239,
+      "duration": 2.241,
+      "text": "any of our customers you will be greeted",
+      "timestamp": "03:40"
+    },
+    {
+      "start": 222.48,
+      "duration": 2.479,
+      "text": "by a voice AI agent",
+      "timestamp": "03:42"
+    },
+    {
+      "start": 224.959,
+      "duration": 2.481,
+      "text": "it's an AI agent which will be very very",
+      "timestamp": "03:44"
+    },
+    {
+      "start": 227.44,
+      "duration": 2.56,
+      "text": "conversational it's an AI agent which",
+      "timestamp": "03:47"
+    },
+    {
+      "start": 230.0,
+      "duration": 2.56,
+      "text": "will sound very very human maybe to you",
+      "timestamp": "03:50"
+    },
+    {
+      "start": 232.56,
+      "duration": 2.64,
+      "text": "know to a scary point it's an AI agent",
+      "timestamp": "03:52"
+    },
+    {
+      "start": 235.2,
+      "duration": 2.88,
+      "text": "which will talk to you uh will do uh and",
+      "timestamp": "03:55"
+    },
+    {
+      "start": 238.08,
+      "duration": 2.96,
+      "text": "h sounding very human to you uh they",
+      "timestamp": "03:58"
+    },
+    {
+      "start": 241.04,
+      "duration": 1.919,
+      "text": "will understand what you're calling for",
+      "timestamp": "04:01"
+    },
+    {
+      "start": 242.959,
+      "duration": 1.601,
+      "text": "they will try to make sense of sense of",
+      "timestamp": "04:02"
+    },
+    {
+      "start": 244.56,
+      "duration": 2.8,
+      "text": "it it's an agent so they're going to",
+      "timestamp": "04:04"
+    },
+    {
+      "start": 247.36,
+      "duration": 1.599,
+      "text": "reason and they're going to think about",
+      "timestamp": "04:07"
+    },
+    {
+      "start": 248.959,
+      "duration": 1.681,
+      "text": "the situation on the fly just like a",
+      "timestamp": "04:08"
+    },
+    {
+      "start": 250.64,
+      "duration": 2.4,
+      "text": "human does and they would go and",
+      "timestamp": "04:10"
+    },
+    {
+      "start": 253.04,
+      "duration": 1.119,
+      "text": "integrate with different business",
+      "timestamp": "04:13"
+    },
+    {
+      "start": 254.159,
+      "duration": 2.001,
+      "text": "systems to really understand how do we",
+      "timestamp": "04:14"
+    },
+    {
+      "start": 256.16,
+      "duration": 2.319,
+      "text": "solve your problem so just like a human",
+      "timestamp": "04:16"
+    },
+    {
+      "start": 258.479,
+      "duration": 1.201,
+      "text": "does when you call them and you tell",
+      "timestamp": "04:18"
+    },
+    {
+      "start": 259.68,
+      "duration": 1.44,
+      "text": "them hey your flight is delayed and",
+      "timestamp": "04:19"
+    },
+    {
+      "start": 261.12,
+      "duration": 2.0,
+      "text": "you're looking for a flight change what",
+      "timestamp": "04:21"
+    },
+    {
+      "start": 263.12,
+      "duration": 1.44,
+      "text": "do they do they ask you okay tell me",
+      "timestamp": "04:23"
+    },
+    {
+      "start": 264.56,
+      "duration": 2.079,
+      "text": "what's your flight number you know how",
+      "timestamp": "04:24"
+    },
+    {
+      "start": 266.639,
+      "duration": 1.921,
+      "text": "uh from where to where for how long is",
+      "timestamp": "04:26"
+    },
+    {
+      "start": 268.56,
+      "duration": 2.639,
+      "text": "it delayed for the AI agent without any",
+      "timestamp": "04:28"
+    },
+    {
+      "start": 271.199,
+      "duration": 2.481,
+      "text": "training without any supervision through",
+      "timestamp": "04:31"
+    },
+    {
+      "start": 273.68,
+      "duration": 1.6,
+      "text": "its reasoning capabilities through its",
+      "timestamp": "04:33"
+    },
+    {
+      "start": 275.28,
+      "duration": 2.0,
+      "text": "agentic capabilities is going to do all",
+      "timestamp": "04:35"
+    },
+    {
+      "start": 277.28,
+      "duration": 2.8,
+      "text": "of that and then it is going to go into",
+      "timestamp": "04:37"
+    },
+    {
+      "start": 280.08,
+      "duration": 1.6,
+      "text": "different systems just like a human",
+      "timestamp": "04:40"
+    },
+    {
+      "start": 281.68,
+      "duration": 2.32,
+      "text": "agent does to look for the flights and",
+      "timestamp": "04:41"
+    },
+    {
+      "start": 284.0,
+      "duration": 2.16,
+      "text": "look for alternate flights and if you",
+      "timestamp": "04:44"
+    },
+    {
+      "start": 286.16,
+      "duration": 1.599,
+      "text": "pick and choose an alternate flight it",
+      "timestamp": "04:46"
+    },
+    {
+      "start": 287.759,
+      "duration": 2.16,
+      "text": "will go and execute a flight change for",
+      "timestamp": "04:47"
+    },
+    {
+      "start": 289.919,
+      "duration": 2.72,
+      "text": "you all autonomously so that's the",
+      "timestamp": "04:49"
+    },
+    {
+      "start": 292.639,
+      "duration": 1.28,
+      "text": "beauty of these AI agents they're",
+      "timestamp": "04:52"
+    },
+    {
+      "start": 293.919,
+      "duration": 1.921,
+      "text": "autonomous and they can execute this",
+      "timestamp": "04:53"
+    },
+    {
+      "start": 295.84,
+      "duration": 2.32,
+      "text": "task end to end",
+      "timestamp": "04:55"
+    },
+    {
+      "start": 298.16,
+      "duration": 1.2,
+      "text": "the other interesting thing that's",
+      "timestamp": "04:58"
+    },
+    {
+      "start": 299.36,
+      "duration": 2.64,
+      "text": "changed with AI agents",
+      "timestamp": "04:59"
+    },
+    {
+      "start": 302.0,
+      "duration": 2.639,
+      "text": "they're very very easy to create",
+      "timestamp": "05:02"
+    },
+    {
+      "start": 304.639,
+      "duration": 1.601,
+      "text": "think about you know in our personal",
+      "timestamp": "05:04"
+    },
+    {
+      "start": 306.24,
+      "duration": 2.959,
+      "text": "life I'm sure all of you use chat GPT",
+      "timestamp": "05:06"
+    },
+    {
+      "start": 309.199,
+      "duration": 1.921,
+      "text": "the way we work with chat GPT is through",
+      "timestamp": "05:09"
+    },
+    {
+      "start": 311.12,
+      "duration": 1.68,
+      "text": "a human language not through a computer",
+      "timestamp": "05:11"
+    },
+    {
+      "start": 312.8,
+      "duration": 2.8,
+      "text": "language we write in English and we tell",
+      "timestamp": "05:12"
+    },
+    {
+      "start": 315.6,
+      "duration": 2.96,
+      "text": "chat GPT a computer what needs to be",
+      "timestamp": "05:15"
+    },
+    {
+      "start": 318.56,
+      "duration": 2.24,
+      "text": "done similarly the way you create these",
+      "timestamp": "05:18"
+    },
+    {
+      "start": 320.8,
+      "duration": 2.32,
+      "text": "AI agents in customer service is very",
+      "timestamp": "05:20"
+    },
+    {
+      "start": 323.12,
+      "duration": 2.96,
+      "text": "very easy you basically tell the AI",
+      "timestamp": "05:23"
+    },
+    {
+      "start": 326.08,
+      "duration": 2.559,
+      "text": "agent in plain English what needs to be",
+      "timestamp": "05:26"
+    },
+    {
+      "start": 328.639,
+      "duration": 3.041,
+      "text": "done and give it some instructions and",
+      "timestamp": "05:28"
+    },
+    {
+      "start": 331.68,
+      "duration": 1.92,
+      "text": "the AI agent just learns you're not",
+      "timestamp": "05:31"
+    },
+    {
+      "start": 333.6,
+      "duration": 2.8,
+      "text": "writing code you're not doing that",
+      "timestamp": "05:33"
+    },
+    {
+      "start": 336.4,
+      "duration": 1.12,
+      "text": "you're not hiring these software",
+      "timestamp": "05:36"
+    },
+    {
+      "start": 337.52,
+      "duration": 1.36,
+      "text": "engineers and machine learning engineers",
+      "timestamp": "05:37"
+    },
+    {
+      "start": 338.88,
+      "duration": 2.4,
+      "text": "and AI engineers no each of you can",
+      "timestamp": "05:38"
+    },
+    {
+      "start": 341.28,
+      "duration": 1.919,
+      "text": "actually build these voice AI agents",
+      "timestamp": "05:41"
+    },
+    {
+      "start": 343.199,
+      "duration": 1.601,
+      "text": "very very quickly and start using them",
+      "timestamp": "05:43"
+    },
+    {
+      "start": 344.8,
+      "duration": 2.8,
+      "text": "in your business",
+      "timestamp": "05:44"
+    },
+    {
+      "start": 347.6,
+      "duration": 1.439,
+      "text": "interestingly you can also build",
+      "timestamp": "05:47"
+    },
+    {
+      "start": 349.039,
+      "duration": 1.521,
+      "text": "real-time feedback loops for these AI",
+      "timestamp": "05:49"
+    },
+    {
+      "start": 350.56,
+      "duration": 1.52,
+      "text": "agents if you monitor each of these AI",
+      "timestamp": "05:50"
+    },
+    {
+      "start": 352.08,
+      "duration": 1.6,
+      "text": "agents in production when they're taking",
+      "timestamp": "05:52"
+    },
+    {
+      "start": 353.68,
+      "duration": 2.48,
+      "text": "millions of these calls each of these AI",
+      "timestamp": "05:53"
+    },
+    {
+      "start": 356.16,
+      "duration": 1.599,
+      "text": "agents once you monitor them really",
+      "timestamp": "05:56"
+    },
+    {
+      "start": 357.759,
+      "duration": 1.361,
+      "text": "understand what's working what's not",
+      "timestamp": "05:57"
+    },
+    {
+      "start": 359.12,
+      "duration": 2.24,
+      "text": "working you come back and again in plain",
+      "timestamp": "05:59"
+    },
+    {
+      "start": 361.36,
+      "duration": 2.64,
+      "text": "English improve the AI agent it's that",
+      "timestamp": "06:01"
+    },
+    {
+      "start": 364.0,
+      "duration": 1.68,
+      "text": "simple",
+      "timestamp": "06:04"
+    },
+    {
+      "start": 365.68,
+      "duration": 1.519,
+      "text": "so the next generation of customer",
+      "timestamp": "06:05"
+    },
+    {
+      "start": 367.199,
+      "duration": 1.521,
+      "text": "service that you all will experience",
+      "timestamp": "06:07"
+    },
+    {
+      "start": 368.72,
+      "duration": 2.0,
+      "text": "will not be the one where you call in",
+      "timestamp": "06:08"
+    },
+    {
+      "start": 370.72,
+      "duration": 2.08,
+      "text": "and you're dealing with an IVR or a",
+      "timestamp": "06:10"
+    },
+    {
+      "start": 372.8,
+      "duration": 2.239,
+      "text": "really shitty voice bot and you're",
+      "timestamp": "06:12"
+    },
+    {
+      "start": 375.039,
+      "duration": 1.921,
+      "text": "figuring out how to talk to a human you",
+      "timestamp": "06:15"
+    },
+    {
+      "start": 376.96,
+      "duration": 2.079,
+      "text": "will be dealt with these amazing amazing",
+      "timestamp": "06:16"
+    },
+    {
+      "start": 379.039,
+      "duration": 1.921,
+      "text": "conversational AI agents which will",
+      "timestamp": "06:19"
+    },
+    {
+      "start": 380.96,
+      "duration": 2.56,
+      "text": "solve your customer service problems",
+      "timestamp": "06:20"
+    },
+    {
+      "start": 383.52,
+      "duration": 2.399,
+      "text": "these AI agents not just talk you know",
+      "timestamp": "06:23"
+    },
+    {
+      "start": 385.919,
+      "duration": 1.84,
+      "text": "obviously we have seen chat GP chat GP",
+      "timestamp": "06:25"
+    },
+    {
+      "start": 387.759,
+      "duration": 1.841,
+      "text": "is great at talking but in customer",
+      "timestamp": "06:27"
+    },
+    {
+      "start": 389.6,
+      "duration": 1.68,
+      "text": "service is just not about talking it's",
+      "timestamp": "06:29"
+    },
+    {
+      "start": 391.28,
+      "duration": 2.96,
+      "text": "about executing actions i have to make a",
+      "timestamp": "06:31"
+    },
+    {
+      "start": 394.24,
+      "duration": 2.48,
+      "text": "flight change i have to go ahead and",
+      "timestamp": "06:34"
+    },
+    {
+      "start": 396.72,
+      "duration": 2.4,
+      "text": "reschedule your appointment i have to",
+      "timestamp": "06:36"
+    },
+    {
+      "start": 399.12,
+      "duration": 1.919,
+      "text": "refund your product i have to send you a",
+      "timestamp": "06:39"
+    },
+    {
+      "start": 401.039,
+      "duration": 2.641,
+      "text": "refund things of that nature so these AI",
+      "timestamp": "06:41"
+    },
+    {
+      "start": 403.68,
+      "duration": 2.88,
+      "text": "agents connect with a bunch of systems",
+      "timestamp": "06:43"
+    },
+    {
+      "start": 406.56,
+      "duration": 1.759,
+      "text": "that a business uses this could be a",
+      "timestamp": "06:46"
+    },
+    {
+      "start": 408.319,
+      "duration": 2.0,
+      "text": "service now or Salesforce or CRM or",
+      "timestamp": "06:48"
+    },
+    {
+      "start": 410.319,
+      "duration": 2.801,
+      "text": "order management system and on the fly",
+      "timestamp": "06:50"
+    },
+    {
+      "start": 413.12,
+      "duration": 2.799,
+      "text": "figure out what system they need to use",
+      "timestamp": "06:53"
+    },
+    {
+      "start": 415.919,
+      "duration": 2.56,
+      "text": "and again autonomously would go just",
+      "timestamp": "06:55"
+    },
+    {
+      "start": 418.479,
+      "duration": 1.521,
+      "text": "like in this picture here go a",
+      "timestamp": "06:58"
+    },
+    {
+      "start": 420.0,
+      "duration": 2.16,
+      "text": "multi-step workflow and execute that",
+      "timestamp": "07:00"
+    },
+    {
+      "start": 422.16,
+      "duration": 2.879,
+      "text": "workflow all autonomously without any",
+      "timestamp": "07:02"
+    },
+    {
+      "start": 425.039,
+      "duration": 2.0,
+      "text": "human intervention",
+      "timestamp": "07:05"
+    },
+    {
+      "start": 427.039,
+      "duration": 1.841,
+      "text": "so while you're talking to the voice AI",
+      "timestamp": "07:07"
+    },
+    {
+      "start": 428.88,
+      "duration": 2.319,
+      "text": "agent for your customer service queries",
+      "timestamp": "07:08"
+    },
+    {
+      "start": 431.199,
+      "duration": 1.921,
+      "text": "the AI agent behind the scene is",
+      "timestamp": "07:11"
+    },
+    {
+      "start": 433.12,
+      "duration": 1.919,
+      "text": "accessing these various systems to",
+      "timestamp": "07:13"
+    },
+    {
+      "start": 435.039,
+      "duration": 3.041,
+      "text": "execute a certain workflow",
+      "timestamp": "07:15"
+    },
+    {
+      "start": 438.08,
+      "duration": 2.64,
+      "text": "why is this possible why am I standing",
+      "timestamp": "07:18"
+    },
+    {
+      "start": 440.72,
+      "duration": 1.599,
+      "text": "here and well why have all of us are",
+      "timestamp": "07:20"
+    },
+    {
+      "start": 442.319,
+      "duration": 2.32,
+      "text": "here in super AI it's because of what",
+      "timestamp": "07:22"
+    },
+    {
+      "start": 444.639,
+      "duration": 2.0,
+      "text": "has changed in the last 12 months is",
+      "timestamp": "07:24"
+    },
+    {
+      "start": 446.639,
+      "duration": 1.921,
+      "text": "because of the new agentic stack that we",
+      "timestamp": "07:26"
+    },
+    {
+      "start": 448.56,
+      "duration": 2.0,
+      "text": "are talking about we didn't have this",
+      "timestamp": "07:28"
+    },
+    {
+      "start": 450.56,
+      "duration": 2.24,
+      "text": "technology 12 months ago we now have",
+      "timestamp": "07:30"
+    },
+    {
+      "start": 452.8,
+      "duration": 2.32,
+      "text": "this agentic stack where you can build",
+      "timestamp": "07:32"
+    },
+    {
+      "start": 455.12,
+      "duration": 1.84,
+      "text": "these AI agents which are autonomous can",
+      "timestamp": "07:35"
+    },
+    {
+      "start": 456.96,
+      "duration": 2.0,
+      "text": "take actions and can can execute",
+      "timestamp": "07:36"
+    },
+    {
+      "start": 458.96,
+      "duration": 2.32,
+      "text": "multi-step workflows for you so what",
+      "timestamp": "07:38"
+    },
+    {
+      "start": 461.28,
+      "duration": 1.44,
+      "text": "what's in the stack so if you start from",
+      "timestamp": "07:41"
+    },
+    {
+      "start": 462.72,
+      "duration": 1.44,
+      "text": "the bottom of course we're talking about",
+      "timestamp": "07:42"
+    },
+    {
+      "start": 464.16,
+      "duration": 1.92,
+      "text": "infrastructure we're talking about cloud",
+      "timestamp": "07:44"
+    },
+    {
+      "start": 466.08,
+      "duration": 2.16,
+      "text": "and and databases and things of that",
+      "timestamp": "07:46"
+    },
+    {
+      "start": 468.24,
+      "duration": 2.48,
+      "text": "nature the two layers that you've seen",
+      "timestamp": "07:48"
+    },
+    {
+      "start": 470.72,
+      "duration": 2.319,
+      "text": "in the middle the agent AI platform and",
+      "timestamp": "07:50"
+    },
+    {
+      "start": 473.039,
+      "duration": 1.921,
+      "text": "the LLM layer that's where the secret",
+      "timestamp": "07:53"
+    },
+    {
+      "start": 474.96,
+      "duration": 1.44,
+      "text": "sauce is that's where things have",
+      "timestamp": "07:54"
+    },
+    {
+      "start": 476.4,
+      "duration": 2.239,
+      "text": "changed in the last 12 months obviously",
+      "timestamp": "07:56"
+    },
+    {
+      "start": 478.639,
+      "duration": 2.161,
+      "text": "we all know about LLM tts stands for",
+      "timestamp": "07:58"
+    },
+    {
+      "start": 480.8,
+      "duration": 2.16,
+      "text": "text to speech this is where the AI",
+      "timestamp": "08:00"
+    },
+    {
+      "start": 482.96,
+      "duration": 2.32,
+      "text": "agent uh when they have to talk to talk",
+      "timestamp": "08:02"
+    },
+    {
+      "start": 485.28,
+      "duration": 2.24,
+      "text": "back to you they take a text and speak",
+      "timestamp": "08:05"
+    },
+    {
+      "start": 487.52,
+      "duration": 1.6,
+      "text": "to you in your human language when we",
+      "timestamp": "08:07"
+    },
+    {
+      "start": 489.12,
+      "duration": 3.68,
+      "text": "hear an AI agent talk to us ST is how an",
+      "timestamp": "08:09"
+    },
+    {
+      "start": 492.8,
+      "duration": 2.64,
+      "text": "AI agent understands what we are saying",
+      "timestamp": "08:12"
+    },
+    {
+      "start": 495.44,
+      "duration": 1.759,
+      "text": "that's speechto text when I talk to an",
+      "timestamp": "08:15"
+    },
+    {
+      "start": 497.199,
+      "duration": 1.44,
+      "text": "AI agent they're taking that audio",
+      "timestamp": "08:17"
+    },
+    {
+      "start": 498.639,
+      "duration": 1.28,
+      "text": "they're transcribing it they're getting",
+      "timestamp": "08:18"
+    },
+    {
+      "start": 499.919,
+      "duration": 1.921,
+      "text": "text out of it and they're using it to",
+      "timestamp": "08:19"
+    },
+    {
+      "start": 501.84,
+      "duration": 2.0,
+      "text": "understand and then you have LLMs where",
+      "timestamp": "08:21"
+    },
+    {
+      "start": 503.84,
+      "duration": 1.919,
+      "text": "all this data goes in to really",
+      "timestamp": "08:23"
+    },
+    {
+      "start": 505.759,
+      "duration": 1.361,
+      "text": "understand what the customer is saying",
+      "timestamp": "08:25"
+    },
+    {
+      "start": 507.12,
+      "duration": 1.919,
+      "text": "and what the human agent is saying on",
+      "timestamp": "08:27"
+    },
+    {
+      "start": 509.039,
+      "duration": 1.921,
+      "text": "top of this once you have this raw data",
+      "timestamp": "08:29"
+    },
+    {
+      "start": 510.96,
+      "duration": 2.079,
+      "text": "which is you know the transcripts and",
+      "timestamp": "08:30"
+    },
+    {
+      "start": 513.039,
+      "duration": 2.641,
+      "text": "and the raw communication layer you",
+      "timestamp": "08:33"
+    },
+    {
+      "start": 515.68,
+      "duration": 1.919,
+      "text": "bring in an agentic platform you bring",
+      "timestamp": "08:35"
+    },
+    {
+      "start": 517.599,
+      "duration": 1.841,
+      "text": "in a workflow platform where you now say",
+      "timestamp": "08:37"
+    },
+    {
+      "start": 519.44,
+      "duration": 1.839,
+      "text": "okay you got the raw data sets what are",
+      "timestamp": "08:39"
+    },
+    {
+      "start": 521.279,
+      "duration": 1.361,
+      "text": "these agents about to do and that's",
+      "timestamp": "08:41"
+    },
+    {
+      "start": 522.64,
+      "duration": 1.759,
+      "text": "where you do multi-agent orchestration i",
+      "timestamp": "08:42"
+    },
+    {
+      "start": 524.399,
+      "duration": 1.841,
+      "text": "think you heard from bunch of folks",
+      "timestamp": "08:44"
+    },
+    {
+      "start": 526.24,
+      "duration": 2.159,
+      "text": "today about it's not just about a single",
+      "timestamp": "08:46"
+    },
+    {
+      "start": 528.399,
+      "duration": 2.56,
+      "text": "agent we're talking about multi- aents",
+      "timestamp": "08:48"
+    },
+    {
+      "start": 530.959,
+      "duration": 1.521,
+      "text": "doing different things in parallel and",
+      "timestamp": "08:50"
+    },
+    {
+      "start": 532.48,
+      "duration": 1.44,
+      "text": "all of them orchestrated through a",
+      "timestamp": "08:52"
+    },
+    {
+      "start": 533.92,
+      "duration": 3.44,
+      "text": "common call it like a parent AI agent",
+      "timestamp": "08:53"
+    },
+    {
+      "start": 537.36,
+      "duration": 1.84,
+      "text": "important in in businesses and customer",
+      "timestamp": "08:57"
+    },
+    {
+      "start": 539.2,
+      "duration": 1.84,
+      "text": "service world is security safety",
+      "timestamp": "08:59"
+    },
+    {
+      "start": 541.04,
+      "duration": 1.919,
+      "text": "guardrails you don't want an AI agent to",
+      "timestamp": "09:01"
+    },
+    {
+      "start": 542.959,
+      "duration": 1.841,
+      "text": "go rogue uh you don't want an AI agent",
+      "timestamp": "09:02"
+    },
+    {
+      "start": 544.8,
+      "duration": 0.96,
+      "text": "to talk about something that they",
+      "timestamp": "09:04"
+    },
+    {
+      "start": 545.76,
+      "duration": 1.92,
+      "text": "shouldn't be talking about especially in",
+      "timestamp": "09:05"
+    },
+    {
+      "start": 547.68,
+      "duration": 1.68,
+      "text": "banking you don't want an AI agent to go",
+      "timestamp": "09:07"
+    },
+    {
+      "start": 549.36,
+      "duration": 1.68,
+      "text": "and change the change the ledger and",
+      "timestamp": "09:09"
+    },
+    {
+      "start": 551.04,
+      "duration": 1.68,
+      "text": "change the balance that you have in your",
+      "timestamp": "09:11"
+    },
+    {
+      "start": 552.72,
+      "duration": 2.0,
+      "text": "bank account uh so you need a lot of",
+      "timestamp": "09:12"
+    },
+    {
+      "start": 554.72,
+      "duration": 2.32,
+      "text": "security and guardrails so the AI agents",
+      "timestamp": "09:14"
+    },
+    {
+      "start": 557.04,
+      "duration": 1.44,
+      "text": "stay on track and not do anything that",
+      "timestamp": "09:17"
+    },
+    {
+      "start": 558.48,
+      "duration": 1.919,
+      "text": "they shouldn't be doing and finally as I",
+      "timestamp": "09:18"
+    },
+    {
+      "start": 560.399,
+      "duration": 1.601,
+      "text": "said before we are in the world where",
+      "timestamp": "09:20"
+    },
+    {
+      "start": 562.0,
+      "duration": 1.92,
+      "text": "software engineering and and and AI",
+      "timestamp": "09:22"
+    },
+    {
+      "start": 563.92,
+      "duration": 1.919,
+      "text": "agent engineering is no longer about",
+      "timestamp": "09:23"
+    },
+    {
+      "start": 565.839,
+      "duration": 1.68,
+      "text": "writing code and writing integrations",
+      "timestamp": "09:25"
+    },
+    {
+      "start": 567.519,
+      "duration": 2.561,
+      "text": "and writing APIs it is slowly and slowly",
+      "timestamp": "09:27"
+    },
+    {
+      "start": 570.08,
+      "duration": 2.24,
+      "text": "becoming about writing prompts no code",
+      "timestamp": "09:30"
+    },
+    {
+      "start": 572.32,
+      "duration": 2.639,
+      "text": "tooling where you come in and so the the",
+      "timestamp": "09:32"
+    },
+    {
+      "start": 574.959,
+      "duration": 2.56,
+      "text": "the paradigm has flipped earlier the way",
+      "timestamp": "09:34"
+    },
+    {
+      "start": 577.519,
+      "duration": 2.081,
+      "text": "we used to communicate to machines used",
+      "timestamp": "09:37"
+    },
+    {
+      "start": 579.6,
+      "duration": 1.52,
+      "text": "to be through machines language which is",
+      "timestamp": "09:39"
+    },
+    {
+      "start": 581.12,
+      "duration": 2.0,
+      "text": "coding and bits and bites now the",
+      "timestamp": "09:41"
+    },
+    {
+      "start": 583.12,
+      "duration": 1.68,
+      "text": "paradigm is machine talks machine",
+      "timestamp": "09:43"
+    },
+    {
+      "start": 584.8,
+      "duration": 2.24,
+      "text": "understands our language so the human",
+      "timestamp": "09:44"
+    },
+    {
+      "start": 587.04,
+      "duration": 1.919,
+      "text": "computer interface is changing from",
+      "timestamp": "09:47"
+    },
+    {
+      "start": 588.959,
+      "duration": 2.32,
+      "text": "coding and software in bits and bites to",
+      "timestamp": "09:48"
+    },
+    {
+      "start": 591.279,
+      "duration": 1.601,
+      "text": "English and other languages that now",
+      "timestamp": "09:51"
+    },
+    {
+      "start": 592.88,
+      "duration": 1.6,
+      "text": "machines have started to understand and",
+      "timestamp": "09:52"
+    },
+    {
+      "start": 594.48,
+      "duration": 1.12,
+      "text": "on top of this we have a bunch of",
+      "timestamp": "09:54"
+    },
+    {
+      "start": 595.6,
+      "duration": 2.88,
+      "text": "applications AI agents omni channel AI",
+      "timestamp": "09:55"
+    },
+    {
+      "start": 598.48,
+      "duration": 3.76,
+      "text": "agents AI co-pilots and so on",
+      "timestamp": "09:58"
+    },
+    {
+      "start": 602.24,
+      "duration": 2.24,
+      "text": "observe AI does this at scale we've been",
+      "timestamp": "10:02"
+    },
+    {
+      "start": 604.48,
+      "duration": 1.84,
+      "text": "in this business for 7 years work with",
+      "timestamp": "10:04"
+    },
+    {
+      "start": 606.32,
+      "duration": 2.24,
+      "text": "350 of the largest enterprise globally",
+      "timestamp": "10:06"
+    },
+    {
+      "start": 608.56,
+      "duration": 1.6,
+      "text": "you know some of the favorite brands",
+      "timestamp": "10:08"
+    },
+    {
+      "start": 610.16,
+      "duration": 2.32,
+      "text": "globally use observe every single day to",
+      "timestamp": "10:10"
+    },
+    {
+      "start": 612.48,
+      "duration": 1.2,
+      "text": "improve their customer service and",
+      "timestamp": "10:12"
+    },
+    {
+      "start": 613.68,
+      "duration": 1.92,
+      "text": "customer experience we are a ventureback",
+      "timestamp": "10:13"
+    },
+    {
+      "start": 615.6,
+      "duration": 2.16,
+      "text": "business we have raised serious C uh",
+      "timestamp": "10:15"
+    },
+    {
+      "start": 617.76,
+      "duration": 1.68,
+      "text": "$250 million in venture capital from",
+      "timestamp": "10:17"
+    },
+    {
+      "start": 619.44,
+      "duration": 1.92,
+      "text": "investors like SoftBank Melo Y",
+      "timestamp": "10:19"
+    },
+    {
+      "start": 621.36,
+      "duration": 2.32,
+      "text": "Combinator big in research you would",
+      "timestamp": "10:21"
+    },
+    {
+      "start": 623.68,
+      "duration": 2.56,
+      "text": "find you know papers from observe uh and",
+      "timestamp": "10:23"
+    },
+    {
+      "start": 626.24,
+      "duration": 2.08,
+      "text": "different patents in in this space",
+      "timestamp": "10:26"
+    },
+    {
+      "start": 628.32,
+      "duration": 1.36,
+      "text": "that's observe if you're interested in",
+      "timestamp": "10:28"
+    },
+    {
+      "start": 629.68,
+      "duration": 1.52,
+      "text": "learning more about customer service and",
+      "timestamp": "10:29"
+    },
+    {
+      "start": 631.2,
+      "duration": 1.36,
+      "text": "application of AI agents in customer",
+      "timestamp": "10:31"
+    },
+    {
+      "start": 632.56,
+      "duration": 2.08,
+      "text": "service I'm around please reach out",
+      "timestamp": "10:32"
+    },
+    {
+      "start": 634.64,
+      "duration": 2.16,
+      "text": "thank",
+      "timestamp": "10:34"
+    }
+  ],
+  "extraction_timestamp": "2025-06-29T21:04:35.421973",
+  "playlist_title": "SuperAI Singapore 2025: WEKA Stage"
+}

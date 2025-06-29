@@ -1,0 +1,3563 @@
+{
+  "video_id": "91VRjkwoCCA",
+  "video_title": "Edward Snowden - Freedom in the Age of Intelligent Machines - SuperAI Singapore 2025",
+  "video_url": "https://www.youtube.com/watch?v=91VRjkwoCCA",
+  "channel_title": "SuperAI",
+  "published_at": "2025-06-27T07:59:31+00:00",
+  "duration_seconds": null,
+  "view_count": 88,
+  "like_count": 3,
+  "description": "Learn more about SuperAI: superai.com\nFollow us on X: x.com/superai_conf\n\nKeynote: Freedom in the Age of Intelligent Machines\n\nSpeaker:\nEdward Snowden, Whistleblower\n\nStage: io.net Main Stage\n#superai #edwardsnowden #freedom #privacy #surveillance \n\nRecorded on 18 June 2025",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 590,
+    "aggregated_text": "i'll keep this quick because this is a pretty short session i think we've only got about 15 minutes uh what I want to think about I want everybody else to think about it since the last time we we talked here you know this space is moving very quickly what what changed and this is going to be a little bit technical uh in the beginning just I have some expectations of you in the audience since you're at an AI conference uh to understand the pace of progress here uh and I think the first thing that's most relevant to the context of you know data collection surveillance how all these systems are affecting our lives from someone who's not trying to sell you something uh is that audiovisisual ingestion interpretation has become uh wildly faster back in the day in 2013 13 when I came forward and revealed that the NSA was you know collecting in mass all of this data as much as they could at the backbone layer telecommunications providers internet service providers uh data centers internationally uh the first thing literally from the president of the United States uh their line of defense was nobody is listening to your phone calls because this was the image that they knew from their poll testing that everybody had of what surveillance is is some man with a headset you know listening and writing things down of course nobody was listening to your phone calls at scale you know that was done on a targeted basis uh but there were investigations even back then into the feasibility of it could they do it of course the reality was uh they couldn't then yet uh they could you know parse out a couple lines they did they they called them voice cuts would kick voice cuts over to analysts and translators to say for this person it was this uh but on the mass scale it wasn't really there well uh back then before um in in the intervening years it took about an hour uh to analyze a mi a minute of video right so the ratio wasn't really there was a whole lot of processing uh for a very small amount of data um now it's the reverse uh and you can use the recent models I think Nvidia just put one out as competitor to the whisper model uh which is very common uh where it can do I I think uh one hour of processing can interpret 30 hours of video uh and when you think about the the just distance in how quickly this is going uh the ratio of computation to ingestion uh this is going to be cheap enough computationally to put on chips and so what happens when this is done on chip you know the system on chip like a sock in your phone that handles video and whatnot they already have these like AI cores that they're starting to put um in things when it's in every convenience store camera right um when it is in every waiting room uh at the hospital when it's at the entryway to the shopping mall when it's above uh the checkout line when you're buying a ticket at the movie theater everything like this and then all of these things can just every conversation uh that is happening around them I mean they can do uh different voice identity like they it won't know who you are initially right it just sees the voices but then these things can begin to integrate all right uh we have speaker location we have this many faces in the scene we have this many voices in the scene we can begin doing uh you know this is the speaker is this face can we associate this face with this camera feed with over here it's the guy in the red shirt you already buy cameras off the shelf um from like uh Hike Vision and Dahwa they are the uh Chinese surveillance leaders um they can do this attribute detection where they go you know these are the different outfits that people are wearing in this scene and move them from camera A to a different field of vision camera B and and try to cross associate these and create sort of movements uh to track people across fields now what I'm saying is this is very crude right now you can take the feed of all this surveillance footage and you can shim this in uh for free uh sending your footage folder or your event stream which just clips out not the whole 24/7 camera feed but just when they see somebody cross a line when they see a license plate pop up when they see a face of interest or whatever pop that up over to your voice model and go I want to know everything this person said even though nobody's there no one ever listened uh listened to the footage and I want to start flagging on phrases that come out of that or I just want a report of that uh that can be done right now but once this is commoditized and productized the definition of public utterance right things you have said uh that are not in a protected space a private space begins to expand uh to include what you whisper to your wife in an elevator when you're alone there's no other passenger there but there's that security camera in the ceiling um and a lot of people now don't don't don't even think that the cameras have audio on them but increasingly they do because it's simply so cheap so uh that's the audio side of audio ingestion uh video model capability is what I would say is starting to get there um this is for generative imaging primarily uh but video data sets that are annotated for actions are being beginning to become publicly available uh I saw Google uh release one of these recently i think it's called Ava or Ava um where it's like little 5-second clips that say the man is walking he's giving something to someone else these people are fighting whatever uh the point of this sounds you know not tremendously uh interesting or useful as with audio this dovetales into the interpretability by machines of footage without what has been in the past uh sort of that choke point that nobody's listening to your phone calls with headsets there where we're paying a person a salary to do this uh now you've got a machine that can just be spinning 247 through this and that's coming uh because the interpretability of video which by which I mean the interrog the our ability to interrogate video uh is increasing and then beginning to scale then the third thing are are world models uh that I've seen this is the uh use of of generative models to simulate plausible physics interactions does a drop of water like go down the wall properly will it will it drip uh if you uh there's sort of co causality and basic memory uh the idea that if the camera starts you looking in a mirror in the bathroom or whatever and you spin uh the door behind you will it be the door that was seen in the mirror at the beginning of the scene or will it be a rainforest you know uh cinematically beautiful but somewhat less relevant to personal hygiene in the context those things are beginning to improve and the these are true now or you know baby's first step uh but this brings us to the next thing what is not public uh to my knowledge uh is what is the state-of-the-art in training models to understand our individual and collective network flows uh when we're talking about uh not audio data not not visual data not LLM you know just raw crunched text data from uh the common crawl or whatever um but the emissions of all of your devices uh packetized as they go across the routers of the world uh not just your phone um but your laptop your car which has a cellular modem in it uh and creates events as it goes down the roadway to all of these license plate readers that are everywhere uh your refrigerator your office your school your electronic payments uh your Amazon history your air travel your Gmail box and so on and so forth because all of this data has been carefully stockpiled and labeled and organized for decades uh to AI people who are constantly looking for training data uh this stuff is like a big beautiful turkey that's just sitting there waiting to be put in the oven and it's all sitting on the shelves in the hands of many many many governments i would say all major governments uh and many many many corporations now we know all of these institutions would be very very interested in the kind of capabilities that such a model would produce uh because they can tell us a lot about people that they will never reveal directly in text they will never reveal in voice uh these are things that are not public utterances uh but private habits proclivities where you go what you do the order that you open websites in the morning probably uniquely identifies you relative to even other people of your cohort even other people living in your building uh and they can start to identify you fingerprints you're targeting and that's just if you're generous enough to assume they're doing this for advertising purposes right uh Lord only knows how governments will apply these but my point is that nobody's talking about these capabilities uh the capabilities of these models yet we don't know if they exist in an operationally useful form uh 100% people are doing these in universities uh small scale uh we don't know how they're doing them at large scale but that doesn't mean that they don't exist my bet and I have a pretty good record here uh is that they do uh and uh if they haven't already been baked right if I'm wrong here I think they are certainly in the oven and so that means we have a matter of time until these things are out and being used uh I'll I'll try to go through my my conclusion here quickly but now I I I want to reflect on modern society and averages and how this relates to AI more broadly um popularity is really just another way to describe uh the average of our collective behavior but progress the thing that drives us away from the way that things have always been toward the new hot thing uh whether we're talking about practically or we're talking about politically uh that arises from deviation from the norm which is to say the it is unpopular it is abnormal it is new uh novel or a more generous way of describing it would be pre-popular but the idea here is that um the new can never be the average the new uh can never be the popular initially and all of these systems uh sort of are our training on the averages so what happens when we begin weaving in more and more systemic guard rails to return behavior through these government corporate systems through these flagging surveillance systems uh that go \"Oh something strange happened here you might want to take a look at this what happens when we start baking in guard rails to return behaviors from the abnormal toward the normal to nudge to flag to warn and eventually interdict deviations from behaviors that are desired by the system rather than desired by the individual by the person themselves the person who's out there living their free life and I think this raised the question can there be freedom without free choice and and how can we guarantee free choice when we're increasingly trapped in this little system menu of false choices that's being provided by Facebook by Twitter by whatever Tik Tok uh that's trying to keep you scrolling keep you in there like the casino removes the clock from the wall of course you personally uh magnificent little mavericks uh with your brave and irreressible souls uh you can make the free choice right u but can you still make a uh application to the human resources system and get a job afterwards uh can you get a mortgage will you qualify will the dating app uh match you with anybody except serial killers uh because you know that that's sort of where you want to think of the system valuing non-normative behaviors right uh they're not really looking for exceptional in a positive sense at least as I've seen in any examples uh they always see the departure from the average as kind of the garbage uh output and so if the different becomes the garbage where are we headed now if you believe that you're being unfairly bucketed evaluated or ranked or scored or otherwise mistreated by these systems will you be able to challenge that uh because right now you already can't find a phone number or an email address to contact somebody at Google or Facebook uh if they're idiot systems ruin your life it's it's impossible right they don't provide that they don't see themselves as being in the business of customerf facing support right you're not their customer anyway from their thing how's that going to work with you know surveillance systems how's that going to work with the human resources system how's that going to work with the mortgage loan system i don't think I don't know how any of us are going to be able to argue uh with a turn style how are you going to be able to argue with the parking lot denied access uh but I am confident sadly that there are going to be some very sad viral videos in the future of people who in a moment of furious desperation will be driven to try uh you know these are behaviors that right now we see as psychotic um and if you saw it on the internet if you saw somebody arguing with the surveillance camera right now just screaming at it you'd be like \"Oh that person is crazy.\" And maybe it is crazy um but I worry that that's going to be less crazy uh because there's no one else to argue with there's no human behind the machine the machine doesn't care it's you're not going to get the result you're looking for uh but what what is the target for our frustrations at that point the bottom the bottom line of of of all of this thing that I want you to remember is that what passes for artificial intelligence today again are largely just methods for trying to plot a path toward the average in any mass of arbitrary data and that is useful uh terribly terribly useful and someday soon I I think frightfully useful and so we have to guard ourselves right now from the beginning people in this audience the people who are in this industry the people who are working on this uh from the idea that the average is desired the fact that the average is the ideal collectively or individually uh the average is not the ideal the average is the enemy the average is slo the average is unoriginated the average is uninspired it is the bad habit it is the skip and workout it is the worthless television filler episode it is us at our lowest and most common uh more seriously it is the weight of all of our past mistakes that have built up as we have grown and learned we are smarter now today than we have ever been in the past as children we need technology to help humanity escape away from the average and toward our finest moments what I fear is that an ignorance of this uh is more likely instead to chain us toward that weight of our past mistakes so I'll leave you with this so we have some time for questions uh we must guarantee for our people everywhere a freedom from the system because if we do not have freedom from the system we will be reduced inevitably to simply pieces of it thank you let's go to questions [Applause] all right thank you very much Edward uh we do have time for one or maybe two questions from the audience and I know Edward thank you for joining us again i know you're keen to do so we're looking for a hand up i've got bright lights in my eyes so make sure you wave your hand high i've got a question right over here can we get a microphone on the double to this gentleman thank you very much hi Edward thank you for um the interesting overview my name is Ivan i wanted to ask you to give us one piece of advice of how you've changed your behavior in terms of how you behave online or services that you no longer use i know you're a very very special case because u you're a person of interest but to the average sort of AI fan out there um what what is sort of the most egregious stupidity that we display as a species online that you wish we we wouldn't um the uh the thing thing that I would say is yeah first off I'm not an average case so I don't want people to live who like me um you know I don't use any electronic payments ever uh for anything because they're connected to my identity um I I can't use anything registered in my real name uh it's it's just you know it's not a lifestyle that that you want to emulate uh and then of course I have to have fully true name uh connections for events like this and that it makes it very difficult to uh do things but the idea is you can try to create some private space in your life a private persona and have a public persona um where you don't cross-contaminate and most people do one thing for everything you have one email box that's your login for everything they use that you know Google knows all of these services because lo in with Gmail or you know sign in with Facebook whatever um and what happens when it stops working right what happens when you lose Facebook blocks you for some idiot reason paypal blocks your account uh and then you're screwed you see horror stories happening to everyone even you know people who are not uh sort of low status have no friends no access whatever but people who are in startups people who are founders people have connections uh they get disconnected they get deplatformed and they're they're frankly doomed um we are too dependent on these services because we haven't decentralized our own lives out enough uh from these silos uh it's not always possible you know some people have to do these things but just the basic basic level uh you know you should always be using a VPN or tour or at least have some awareness of how electronically your devices are connected back to your physical true name persona i I say true name because that's at the CIA what we use we had true name and pseudonym we had a little fake name that that was used uh for written communications um and yeah the the idea is that you have some sort of persona management here now I that that's not necessary for absolutely everybody some people like living their lives like an open book uh but but for me it it's less about you know are you going to be attacked uh but how are you going to be interpreted by all of these outside forces whether it's an advertiser whether it's a boss whether it's somebody who hates you and is trying to get you fired from your job uh what's your target surface like out there um and are you singlethreaded are you dependent on a a Gmail or a Facebook or an employer or whatever for your name your brand your platform whatever online or are you basically kind of bulletproof and you can be blown off of any platform in existence and it's not going to be uh any more than a speed bump in your life that week all right I think we've got time for maybe one more question i have a hand over here on this side of the audience if we can get a microphone to this woman thank you very much yes please hello Edward my name is Soye and I'm I mean you're an inspiration i I work with human rights so how would you say human rights can be expanded with AI uh yeah I mean this is thank you this is the hardest questions I don't really want to give policy advice except in the broadest term here which is the idea that we we need to recognize that there is a necessity of freedom from the system as I said as people you know complain about negative rights uh broadly in a uh lot of context there are ways to recontextualize this so it's not seen as a negative right it's it's more of a positive right which is freedom of choice Uh do we have free choices as these systems are increasingly shaping lives both individually and collectively at scale uh we are already being nudged uh by advertising systems by every platform by everything that we see today um everything from like algorithmic pricing uh taxi services right like you're getting an Uber or or whatever um and they give preferential pricing to one person another to another thing like these are the thin edge of the wedge uh as these things become systemically common as they become normalized as they become the average behavior of business they will become the average default behavior of government and as we begin making very serious impactful decisions about people's lives their futures we are determining their destiny based on the output of some random algorithm uh we need ways to basically challenge that and exempt ourselves from that and say no look I'd really like a human uh to evaluate this as opposed to a machine uh and we don't have any processes whatsoever for that and as you've seen from like the Google and Facebookization of the planet uh there's really no hunger or no appetite uh from companies to enable that uh because frankly they don't want to pay the salary for people to do that but if they occupy a privileged position on the planet such that they are shaping and ordering human lives they're determining what you read they're determining what you see and therefore they're determining what you think in in large ways and there's going to be new companies you know that we don't even know that exist and it'll be massive you know in 10 years uh but the idea is just right now to comprehend this is not a bullet we're going to dodge it's already been fired it's headed towards us uh we have very little time to react uh we have to protect ourselves we have to prepare for the world that is already headed here um and there's going to need to be some kind of like it's not like oh ban AI or there's a limit of this many flops in a data center all the idiot stuff that we see in terms of AI regulation right now uh it's more broadly uh what do people do what recourse do they have uh when they have been ruled against by some AI system uh you need visibility to them you need that decision delivered to you right you need to be able to basically challenge and say look here's the basis and their model spits out here's all the inputs that we uh use to determine this output that were ranked based on this order and the systems have to be doing that you can't just have the black box where it goes you know should John Doe uh be accepted for XYZ and the you know the person at the desk says well the computer says no and there's no way to interrogate that there's no way to go look into that that that's all I got there",
+    "text_length": 22048,
+    "word_count": 4159
+  },
+  "segments": [
+    {
+      "start": 7.6,
+      "duration": 1.6,
+      "text": "i'll keep this quick because this is a",
+      "timestamp": "00:07"
+    },
+    {
+      "start": 9.2,
+      "duration": 1.519,
+      "text": "pretty short session i think we've only",
+      "timestamp": "00:09"
+    },
+    {
+      "start": 10.719,
+      "duration": 4.0,
+      "text": "got about 15 minutes uh what I want to",
+      "timestamp": "00:10"
+    },
+    {
+      "start": 14.719,
+      "duration": 1.441,
+      "text": "think about I want everybody else to",
+      "timestamp": "00:14"
+    },
+    {
+      "start": 16.16,
+      "duration": 1.52,
+      "text": "think about it since the last time we we",
+      "timestamp": "00:16"
+    },
+    {
+      "start": 17.68,
+      "duration": 1.679,
+      "text": "talked here you know this space is",
+      "timestamp": "00:17"
+    },
+    {
+      "start": 19.359,
+      "duration": 2.641,
+      "text": "moving very quickly what what changed",
+      "timestamp": "00:19"
+    },
+    {
+      "start": 22.0,
+      "duration": 1.119,
+      "text": "and this is going to be a little bit",
+      "timestamp": "00:22"
+    },
+    {
+      "start": 23.119,
+      "duration": 2.32,
+      "text": "technical uh in the beginning just I",
+      "timestamp": "00:23"
+    },
+    {
+      "start": 25.439,
+      "duration": 1.521,
+      "text": "have some expectations of you in the",
+      "timestamp": "00:25"
+    },
+    {
+      "start": 26.96,
+      "duration": 1.2,
+      "text": "audience since you're at an AI",
+      "timestamp": "00:26"
+    },
+    {
+      "start": 28.16,
+      "duration": 2.0,
+      "text": "conference uh to understand the pace of",
+      "timestamp": "00:28"
+    },
+    {
+      "start": 30.16,
+      "duration": 2.16,
+      "text": "progress here uh and I think the first",
+      "timestamp": "00:30"
+    },
+    {
+      "start": 32.32,
+      "duration": 1.84,
+      "text": "thing that's most relevant to the",
+      "timestamp": "00:32"
+    },
+    {
+      "start": 34.16,
+      "duration": 1.68,
+      "text": "context of you know data collection",
+      "timestamp": "00:34"
+    },
+    {
+      "start": 35.84,
+      "duration": 2.239,
+      "text": "surveillance how all these systems are",
+      "timestamp": "00:35"
+    },
+    {
+      "start": 38.079,
+      "duration": 1.601,
+      "text": "affecting our lives from someone who's",
+      "timestamp": "00:38"
+    },
+    {
+      "start": 39.68,
+      "duration": 1.84,
+      "text": "not trying to sell you something uh is",
+      "timestamp": "00:39"
+    },
+    {
+      "start": 41.52,
+      "duration": 1.84,
+      "text": "that audiovisisual ingestion",
+      "timestamp": "00:41"
+    },
+    {
+      "start": 43.36,
+      "duration": 3.039,
+      "text": "interpretation has become uh wildly",
+      "timestamp": "00:43"
+    },
+    {
+      "start": 46.399,
+      "duration": 1.761,
+      "text": "faster",
+      "timestamp": "00:46"
+    },
+    {
+      "start": 48.16,
+      "duration": 2.719,
+      "text": "back in the day in 2013 13 when I came",
+      "timestamp": "00:48"
+    },
+    {
+      "start": 50.879,
+      "duration": 2.961,
+      "text": "forward and revealed that the NSA was",
+      "timestamp": "00:50"
+    },
+    {
+      "start": 53.84,
+      "duration": 2.32,
+      "text": "you know collecting in mass all of this",
+      "timestamp": "00:53"
+    },
+    {
+      "start": 56.16,
+      "duration": 2.0,
+      "text": "data as much as they could at the",
+      "timestamp": "00:56"
+    },
+    {
+      "start": 58.16,
+      "duration": 2.079,
+      "text": "backbone layer telecommunications",
+      "timestamp": "00:58"
+    },
+    {
+      "start": 60.239,
+      "duration": 2.561,
+      "text": "providers internet service providers uh",
+      "timestamp": "01:00"
+    },
+    {
+      "start": 62.8,
+      "duration": 2.319,
+      "text": "data centers internationally",
+      "timestamp": "01:02"
+    },
+    {
+      "start": 65.119,
+      "duration": 2.0,
+      "text": "uh the first thing literally from the",
+      "timestamp": "01:05"
+    },
+    {
+      "start": 67.119,
+      "duration": 1.921,
+      "text": "president of the United States uh their",
+      "timestamp": "01:07"
+    },
+    {
+      "start": 69.04,
+      "duration": 2.72,
+      "text": "line of defense was nobody is listening",
+      "timestamp": "01:09"
+    },
+    {
+      "start": 71.76,
+      "duration": 2.64,
+      "text": "to your phone calls because this was the",
+      "timestamp": "01:11"
+    },
+    {
+      "start": 74.4,
+      "duration": 1.52,
+      "text": "image that they knew from their poll",
+      "timestamp": "01:14"
+    },
+    {
+      "start": 75.92,
+      "duration": 1.92,
+      "text": "testing that everybody had of what",
+      "timestamp": "01:15"
+    },
+    {
+      "start": 77.84,
+      "duration": 1.919,
+      "text": "surveillance is is some man with a",
+      "timestamp": "01:17"
+    },
+    {
+      "start": 79.759,
+      "duration": 1.521,
+      "text": "headset you know listening and writing",
+      "timestamp": "01:19"
+    },
+    {
+      "start": 81.28,
+      "duration": 1.839,
+      "text": "things down",
+      "timestamp": "01:21"
+    },
+    {
+      "start": 83.119,
+      "duration": 2.32,
+      "text": "of course nobody was listening to your",
+      "timestamp": "01:23"
+    },
+    {
+      "start": 85.439,
+      "duration": 2.0,
+      "text": "phone calls at scale you know that was",
+      "timestamp": "01:25"
+    },
+    {
+      "start": 87.439,
+      "duration": 2.481,
+      "text": "done on a targeted basis uh but there",
+      "timestamp": "01:27"
+    },
+    {
+      "start": 89.92,
+      "duration": 1.68,
+      "text": "were investigations even back then into",
+      "timestamp": "01:29"
+    },
+    {
+      "start": 91.6,
+      "duration": 2.159,
+      "text": "the feasibility of it could they do it",
+      "timestamp": "01:31"
+    },
+    {
+      "start": 93.759,
+      "duration": 2.32,
+      "text": "of course the reality was uh they",
+      "timestamp": "01:33"
+    },
+    {
+      "start": 96.079,
+      "duration": 3.121,
+      "text": "couldn't then yet uh they could you know",
+      "timestamp": "01:36"
+    },
+    {
+      "start": 99.2,
+      "duration": 1.68,
+      "text": "parse out a couple lines they did they",
+      "timestamp": "01:39"
+    },
+    {
+      "start": 100.88,
+      "duration": 2.239,
+      "text": "they called them voice cuts would kick",
+      "timestamp": "01:40"
+    },
+    {
+      "start": 103.119,
+      "duration": 2.401,
+      "text": "voice cuts over to analysts and",
+      "timestamp": "01:43"
+    },
+    {
+      "start": 105.52,
+      "duration": 2.559,
+      "text": "translators to say for this person it",
+      "timestamp": "01:45"
+    },
+    {
+      "start": 108.079,
+      "duration": 2.241,
+      "text": "was this uh but on the mass scale it",
+      "timestamp": "01:48"
+    },
+    {
+      "start": 110.32,
+      "duration": 2.079,
+      "text": "wasn't really there",
+      "timestamp": "01:50"
+    },
+    {
+      "start": 112.399,
+      "duration": 3.36,
+      "text": "well uh back then before um in in the",
+      "timestamp": "01:52"
+    },
+    {
+      "start": 115.759,
+      "duration": 2.161,
+      "text": "intervening years it took about an hour",
+      "timestamp": "01:55"
+    },
+    {
+      "start": 117.92,
+      "duration": 3.12,
+      "text": "uh to analyze a mi a minute of video",
+      "timestamp": "01:57"
+    },
+    {
+      "start": 121.04,
+      "duration": 1.92,
+      "text": "right so the ratio wasn't really there",
+      "timestamp": "02:01"
+    },
+    {
+      "start": 122.96,
+      "duration": 2.08,
+      "text": "was a whole lot of processing uh for a",
+      "timestamp": "02:02"
+    },
+    {
+      "start": 125.04,
+      "duration": 2.719,
+      "text": "very small amount of data um now it's",
+      "timestamp": "02:05"
+    },
+    {
+      "start": 127.759,
+      "duration": 2.72,
+      "text": "the reverse uh and you can use the",
+      "timestamp": "02:07"
+    },
+    {
+      "start": 130.479,
+      "duration": 2.001,
+      "text": "recent models I think Nvidia just put",
+      "timestamp": "02:10"
+    },
+    {
+      "start": 132.48,
+      "duration": 2.08,
+      "text": "one out as competitor to the whisper",
+      "timestamp": "02:12"
+    },
+    {
+      "start": 134.56,
+      "duration": 3.039,
+      "text": "model uh which is very common",
+      "timestamp": "02:14"
+    },
+    {
+      "start": 137.599,
+      "duration": 2.881,
+      "text": "uh where it can do I I think uh one hour",
+      "timestamp": "02:17"
+    },
+    {
+      "start": 140.48,
+      "duration": 3.04,
+      "text": "of processing can interpret 30 hours of",
+      "timestamp": "02:20"
+    },
+    {
+      "start": 143.52,
+      "duration": 3.04,
+      "text": "video uh and when you think about the",
+      "timestamp": "02:23"
+    },
+    {
+      "start": 146.56,
+      "duration": 2.56,
+      "text": "the just distance in how quickly this is",
+      "timestamp": "02:26"
+    },
+    {
+      "start": 149.12,
+      "duration": 2.88,
+      "text": "going uh the ratio of computation to",
+      "timestamp": "02:29"
+    },
+    {
+      "start": 152.0,
+      "duration": 3.28,
+      "text": "ingestion uh this is going to be cheap",
+      "timestamp": "02:32"
+    },
+    {
+      "start": 155.28,
+      "duration": 2.959,
+      "text": "enough computationally to put on chips",
+      "timestamp": "02:35"
+    },
+    {
+      "start": 158.239,
+      "duration": 1.921,
+      "text": "and so what happens when this is done on",
+      "timestamp": "02:38"
+    },
+    {
+      "start": 160.16,
+      "duration": 2.159,
+      "text": "chip you know the system on chip like a",
+      "timestamp": "02:40"
+    },
+    {
+      "start": 162.319,
+      "duration": 1.601,
+      "text": "sock in your phone that handles video",
+      "timestamp": "02:42"
+    },
+    {
+      "start": 163.92,
+      "duration": 1.599,
+      "text": "and whatnot they already have these like",
+      "timestamp": "02:43"
+    },
+    {
+      "start": 165.519,
+      "duration": 2.881,
+      "text": "AI cores that they're starting to put um",
+      "timestamp": "02:45"
+    },
+    {
+      "start": 168.4,
+      "duration": 3.68,
+      "text": "in things when it's in every convenience",
+      "timestamp": "02:48"
+    },
+    {
+      "start": 172.08,
+      "duration": 3.92,
+      "text": "store camera right um when it is in",
+      "timestamp": "02:52"
+    },
+    {
+      "start": 176.0,
+      "duration": 2.8,
+      "text": "every waiting room uh at the hospital",
+      "timestamp": "02:56"
+    },
+    {
+      "start": 178.8,
+      "duration": 1.6,
+      "text": "when it's at the entryway to the",
+      "timestamp": "02:58"
+    },
+    {
+      "start": 180.4,
+      "duration": 2.32,
+      "text": "shopping mall when it's above uh the",
+      "timestamp": "03:00"
+    },
+    {
+      "start": 182.72,
+      "duration": 1.599,
+      "text": "checkout line when you're buying a",
+      "timestamp": "03:02"
+    },
+    {
+      "start": 184.319,
+      "duration": 2.081,
+      "text": "ticket at the movie theater everything",
+      "timestamp": "03:04"
+    },
+    {
+      "start": 186.4,
+      "duration": 2.479,
+      "text": "like this and then all of these things",
+      "timestamp": "03:06"
+    },
+    {
+      "start": 188.879,
+      "duration": 3.201,
+      "text": "can just every conversation uh that is",
+      "timestamp": "03:08"
+    },
+    {
+      "start": 192.08,
+      "duration": 1.92,
+      "text": "happening around them I mean they can do",
+      "timestamp": "03:12"
+    },
+    {
+      "start": 194.0,
+      "duration": 2.0,
+      "text": "uh different voice identity like they it",
+      "timestamp": "03:14"
+    },
+    {
+      "start": 196.0,
+      "duration": 2.48,
+      "text": "won't know who you are initially right",
+      "timestamp": "03:16"
+    },
+    {
+      "start": 198.48,
+      "duration": 2.24,
+      "text": "it just sees the voices but then these",
+      "timestamp": "03:18"
+    },
+    {
+      "start": 200.72,
+      "duration": 2.4,
+      "text": "things can begin to integrate all right",
+      "timestamp": "03:20"
+    },
+    {
+      "start": 203.12,
+      "duration": 2.0,
+      "text": "uh we have speaker location we have this",
+      "timestamp": "03:23"
+    },
+    {
+      "start": 205.12,
+      "duration": 1.92,
+      "text": "many faces in the scene we have this",
+      "timestamp": "03:25"
+    },
+    {
+      "start": 207.04,
+      "duration": 2.24,
+      "text": "many voices in the scene we can begin",
+      "timestamp": "03:27"
+    },
+    {
+      "start": 209.28,
+      "duration": 3.2,
+      "text": "doing uh you know this is the speaker is",
+      "timestamp": "03:29"
+    },
+    {
+      "start": 212.48,
+      "duration": 2.64,
+      "text": "this face can we associate this face",
+      "timestamp": "03:32"
+    },
+    {
+      "start": 215.12,
+      "duration": 1.839,
+      "text": "with this camera feed with over here",
+      "timestamp": "03:35"
+    },
+    {
+      "start": 216.959,
+      "duration": 2.0,
+      "text": "it's the guy in the red shirt you",
+      "timestamp": "03:36"
+    },
+    {
+      "start": 218.959,
+      "duration": 3.121,
+      "text": "already buy cameras off the shelf um",
+      "timestamp": "03:38"
+    },
+    {
+      "start": 222.08,
+      "duration": 2.879,
+      "text": "from like uh Hike Vision and Dahwa they",
+      "timestamp": "03:42"
+    },
+    {
+      "start": 224.959,
+      "duration": 2.961,
+      "text": "are the uh Chinese surveillance leaders",
+      "timestamp": "03:44"
+    },
+    {
+      "start": 227.92,
+      "duration": 2.239,
+      "text": "um they can do this attribute detection",
+      "timestamp": "03:47"
+    },
+    {
+      "start": 230.159,
+      "duration": 1.681,
+      "text": "where they go you know these are the",
+      "timestamp": "03:50"
+    },
+    {
+      "start": 231.84,
+      "duration": 1.119,
+      "text": "different outfits that people are",
+      "timestamp": "03:51"
+    },
+    {
+      "start": 232.959,
+      "duration": 1.681,
+      "text": "wearing in this scene and move them from",
+      "timestamp": "03:52"
+    },
+    {
+      "start": 234.64,
+      "duration": 2.56,
+      "text": "camera A to a different field of vision",
+      "timestamp": "03:54"
+    },
+    {
+      "start": 237.2,
+      "duration": 2.239,
+      "text": "camera B and and try to cross associate",
+      "timestamp": "03:57"
+    },
+    {
+      "start": 239.439,
+      "duration": 3.52,
+      "text": "these and create sort of movements uh to",
+      "timestamp": "03:59"
+    },
+    {
+      "start": 242.959,
+      "duration": 2.721,
+      "text": "track people across fields now what I'm",
+      "timestamp": "04:02"
+    },
+    {
+      "start": 245.68,
+      "duration": 2.24,
+      "text": "saying is this is very crude right now",
+      "timestamp": "04:05"
+    },
+    {
+      "start": 247.92,
+      "duration": 2.08,
+      "text": "you can take the feed of all this",
+      "timestamp": "04:07"
+    },
+    {
+      "start": 250.0,
+      "duration": 2.08,
+      "text": "surveillance footage and you can shim",
+      "timestamp": "04:10"
+    },
+    {
+      "start": 252.08,
+      "duration": 4.32,
+      "text": "this in uh for free uh sending your",
+      "timestamp": "04:12"
+    },
+    {
+      "start": 256.4,
+      "duration": 1.76,
+      "text": "footage folder or your event stream",
+      "timestamp": "04:16"
+    },
+    {
+      "start": 258.16,
+      "duration": 2.0,
+      "text": "which just clips out not the whole 24/7",
+      "timestamp": "04:18"
+    },
+    {
+      "start": 260.16,
+      "duration": 1.84,
+      "text": "camera feed but just when they see",
+      "timestamp": "04:20"
+    },
+    {
+      "start": 262.0,
+      "duration": 1.6,
+      "text": "somebody cross a line when they see a",
+      "timestamp": "04:22"
+    },
+    {
+      "start": 263.6,
+      "duration": 1.92,
+      "text": "license plate pop up when they see a",
+      "timestamp": "04:23"
+    },
+    {
+      "start": 265.52,
+      "duration": 2.0,
+      "text": "face of interest or whatever pop that up",
+      "timestamp": "04:25"
+    },
+    {
+      "start": 267.52,
+      "duration": 2.239,
+      "text": "over to your voice model and go I want",
+      "timestamp": "04:27"
+    },
+    {
+      "start": 269.759,
+      "duration": 2.081,
+      "text": "to know everything this person said even",
+      "timestamp": "04:29"
+    },
+    {
+      "start": 271.84,
+      "duration": 1.52,
+      "text": "though nobody's there no one ever",
+      "timestamp": "04:31"
+    },
+    {
+      "start": 273.36,
+      "duration": 2.96,
+      "text": "listened uh listened to the footage and",
+      "timestamp": "04:33"
+    },
+    {
+      "start": 276.32,
+      "duration": 1.92,
+      "text": "I want to start flagging on phrases that",
+      "timestamp": "04:36"
+    },
+    {
+      "start": 278.24,
+      "duration": 1.6,
+      "text": "come out of that or I just want a report",
+      "timestamp": "04:38"
+    },
+    {
+      "start": 279.84,
+      "duration": 3.359,
+      "text": "of that uh that can be done right now",
+      "timestamp": "04:39"
+    },
+    {
+      "start": 283.199,
+      "duration": 2.72,
+      "text": "but once this is commoditized",
+      "timestamp": "04:43"
+    },
+    {
+      "start": 285.919,
+      "duration": 3.201,
+      "text": "and productized the definition of public",
+      "timestamp": "04:45"
+    },
+    {
+      "start": 289.12,
+      "duration": 2.48,
+      "text": "utterance right things you have said uh",
+      "timestamp": "04:49"
+    },
+    {
+      "start": 291.6,
+      "duration": 2.319,
+      "text": "that are not in a protected space a",
+      "timestamp": "04:51"
+    },
+    {
+      "start": 293.919,
+      "duration": 3.361,
+      "text": "private space begins to expand",
+      "timestamp": "04:53"
+    },
+    {
+      "start": 297.28,
+      "duration": 2.08,
+      "text": "uh to include what you whisper to your",
+      "timestamp": "04:57"
+    },
+    {
+      "start": 299.36,
+      "duration": 2.24,
+      "text": "wife in an elevator when you're alone",
+      "timestamp": "04:59"
+    },
+    {
+      "start": 301.6,
+      "duration": 1.28,
+      "text": "there's no other passenger there but",
+      "timestamp": "05:01"
+    },
+    {
+      "start": 302.88,
+      "duration": 1.84,
+      "text": "there's that security camera in the",
+      "timestamp": "05:02"
+    },
+    {
+      "start": 304.72,
+      "duration": 3.44,
+      "text": "ceiling um and a lot of people now don't",
+      "timestamp": "05:04"
+    },
+    {
+      "start": 308.16,
+      "duration": 1.44,
+      "text": "don't don't even think that the cameras",
+      "timestamp": "05:08"
+    },
+    {
+      "start": 309.6,
+      "duration": 1.92,
+      "text": "have audio on them but increasingly they",
+      "timestamp": "05:09"
+    },
+    {
+      "start": 311.52,
+      "duration": 2.48,
+      "text": "do because it's simply so cheap so uh",
+      "timestamp": "05:11"
+    },
+    {
+      "start": 314.0,
+      "duration": 2.56,
+      "text": "that's the audio side of audio ingestion",
+      "timestamp": "05:14"
+    },
+    {
+      "start": 316.56,
+      "duration": 2.4,
+      "text": "uh video model capability is what I",
+      "timestamp": "05:16"
+    },
+    {
+      "start": 318.96,
+      "duration": 2.0,
+      "text": "would say is starting to get there um",
+      "timestamp": "05:18"
+    },
+    {
+      "start": 320.96,
+      "duration": 2.4,
+      "text": "this is for generative imaging primarily",
+      "timestamp": "05:20"
+    },
+    {
+      "start": 323.36,
+      "duration": 2.64,
+      "text": "uh but video data sets that are",
+      "timestamp": "05:23"
+    },
+    {
+      "start": 326.0,
+      "duration": 2.88,
+      "text": "annotated for actions are being",
+      "timestamp": "05:26"
+    },
+    {
+      "start": 328.88,
+      "duration": 2.48,
+      "text": "beginning to become publicly available",
+      "timestamp": "05:28"
+    },
+    {
+      "start": 331.36,
+      "duration": 2.72,
+      "text": "uh I saw Google uh release one of these",
+      "timestamp": "05:31"
+    },
+    {
+      "start": 334.08,
+      "duration": 2.399,
+      "text": "recently i think it's called Ava or Ava",
+      "timestamp": "05:34"
+    },
+    {
+      "start": 336.479,
+      "duration": 3.121,
+      "text": "um where it's like little 5-second clips",
+      "timestamp": "05:36"
+    },
+    {
+      "start": 339.6,
+      "duration": 1.84,
+      "text": "that say the man is walking he's giving",
+      "timestamp": "05:39"
+    },
+    {
+      "start": 341.44,
+      "duration": 1.44,
+      "text": "something to someone else these people",
+      "timestamp": "05:41"
+    },
+    {
+      "start": 342.88,
+      "duration": 2.319,
+      "text": "are fighting whatever uh the point of",
+      "timestamp": "05:42"
+    },
+    {
+      "start": 345.199,
+      "duration": 2.72,
+      "text": "this sounds you know not tremendously uh",
+      "timestamp": "05:45"
+    },
+    {
+      "start": 347.919,
+      "duration": 2.241,
+      "text": "interesting or useful as with audio this",
+      "timestamp": "05:47"
+    },
+    {
+      "start": 350.16,
+      "duration": 3.36,
+      "text": "dovetales into the interpretability",
+      "timestamp": "05:50"
+    },
+    {
+      "start": 353.52,
+      "duration": 2.88,
+      "text": "by machines of footage without what has",
+      "timestamp": "05:53"
+    },
+    {
+      "start": 356.4,
+      "duration": 2.88,
+      "text": "been in the past uh sort of that choke",
+      "timestamp": "05:56"
+    },
+    {
+      "start": 359.28,
+      "duration": 1.68,
+      "text": "point that nobody's listening to your",
+      "timestamp": "05:59"
+    },
+    {
+      "start": 360.96,
+      "duration": 1.6,
+      "text": "phone calls with headsets there where",
+      "timestamp": "06:00"
+    },
+    {
+      "start": 362.56,
+      "duration": 1.6,
+      "text": "we're paying a person a salary to do",
+      "timestamp": "06:02"
+    },
+    {
+      "start": 364.16,
+      "duration": 1.92,
+      "text": "this uh now you've got a machine that",
+      "timestamp": "06:04"
+    },
+    {
+      "start": 366.08,
+      "duration": 1.839,
+      "text": "can just be spinning 247 through this",
+      "timestamp": "06:06"
+    },
+    {
+      "start": 367.919,
+      "duration": 2.0,
+      "text": "and that's coming uh because the",
+      "timestamp": "06:07"
+    },
+    {
+      "start": 369.919,
+      "duration": 2.081,
+      "text": "interpretability of video which by which",
+      "timestamp": "06:09"
+    },
+    {
+      "start": 372.0,
+      "duration": 2.96,
+      "text": "I mean the interrog the our ability to",
+      "timestamp": "06:12"
+    },
+    {
+      "start": 374.96,
+      "duration": 2.799,
+      "text": "interrogate video uh is increasing and",
+      "timestamp": "06:14"
+    },
+    {
+      "start": 377.759,
+      "duration": 1.921,
+      "text": "then beginning to scale then the third",
+      "timestamp": "06:17"
+    },
+    {
+      "start": 379.68,
+      "duration": 2.56,
+      "text": "thing are are world models uh that I've",
+      "timestamp": "06:19"
+    },
+    {
+      "start": 382.24,
+      "duration": 3.519,
+      "text": "seen this is the uh use of of generative",
+      "timestamp": "06:22"
+    },
+    {
+      "start": 385.759,
+      "duration": 2.72,
+      "text": "models to simulate plausible physics",
+      "timestamp": "06:25"
+    },
+    {
+      "start": 388.479,
+      "duration": 2.72,
+      "text": "interactions does a drop of water like",
+      "timestamp": "06:28"
+    },
+    {
+      "start": 391.199,
+      "duration": 2.161,
+      "text": "go down the wall properly will it will",
+      "timestamp": "06:31"
+    },
+    {
+      "start": 393.36,
+      "duration": 4.24,
+      "text": "it drip uh if you uh there's sort of co",
+      "timestamp": "06:33"
+    },
+    {
+      "start": 397.6,
+      "duration": 2.719,
+      "text": "causality and basic memory uh the idea",
+      "timestamp": "06:37"
+    },
+    {
+      "start": 400.319,
+      "duration": 2.561,
+      "text": "that if the camera starts you looking in",
+      "timestamp": "06:40"
+    },
+    {
+      "start": 402.88,
+      "duration": 1.759,
+      "text": "a mirror in the bathroom or whatever and",
+      "timestamp": "06:42"
+    },
+    {
+      "start": 404.639,
+      "duration": 2.641,
+      "text": "you spin uh the door behind you will it",
+      "timestamp": "06:44"
+    },
+    {
+      "start": 407.28,
+      "duration": 1.52,
+      "text": "be the door that was seen in the mirror",
+      "timestamp": "06:47"
+    },
+    {
+      "start": 408.8,
+      "duration": 1.6,
+      "text": "at the beginning of the scene or will it",
+      "timestamp": "06:48"
+    },
+    {
+      "start": 410.4,
+      "duration": 3.68,
+      "text": "be a rainforest you know uh",
+      "timestamp": "06:50"
+    },
+    {
+      "start": 414.08,
+      "duration": 1.679,
+      "text": "cinematically beautiful but somewhat",
+      "timestamp": "06:54"
+    },
+    {
+      "start": 415.759,
+      "duration": 2.081,
+      "text": "less relevant to personal hygiene in the",
+      "timestamp": "06:55"
+    },
+    {
+      "start": 417.84,
+      "duration": 2.0,
+      "text": "context those things are beginning to",
+      "timestamp": "06:57"
+    },
+    {
+      "start": 419.84,
+      "duration": 2.56,
+      "text": "improve and the these are true now or",
+      "timestamp": "06:59"
+    },
+    {
+      "start": 422.4,
+      "duration": 4.16,
+      "text": "you know baby's first step uh but this",
+      "timestamp": "07:02"
+    },
+    {
+      "start": 426.56,
+      "duration": 2.72,
+      "text": "brings us to the next thing what is not",
+      "timestamp": "07:06"
+    },
+    {
+      "start": 429.28,
+      "duration": 3.039,
+      "text": "public uh to my knowledge uh is what is",
+      "timestamp": "07:09"
+    },
+    {
+      "start": 432.319,
+      "duration": 1.761,
+      "text": "the state-of-the-art in training models",
+      "timestamp": "07:12"
+    },
+    {
+      "start": 434.08,
+      "duration": 1.679,
+      "text": "to understand our individual and",
+      "timestamp": "07:14"
+    },
+    {
+      "start": 435.759,
+      "duration": 3.84,
+      "text": "collective network flows uh when we're",
+      "timestamp": "07:15"
+    },
+    {
+      "start": 439.599,
+      "duration": 2.16,
+      "text": "talking about uh not audio data not not",
+      "timestamp": "07:19"
+    },
+    {
+      "start": 441.759,
+      "duration": 3.121,
+      "text": "visual data not LLM you know just raw",
+      "timestamp": "07:21"
+    },
+    {
+      "start": 444.88,
+      "duration": 3.12,
+      "text": "crunched text data from uh the common",
+      "timestamp": "07:24"
+    },
+    {
+      "start": 448.0,
+      "duration": 3.36,
+      "text": "crawl or whatever um but the emissions",
+      "timestamp": "07:28"
+    },
+    {
+      "start": 451.36,
+      "duration": 2.88,
+      "text": "of all of your devices uh packetized as",
+      "timestamp": "07:31"
+    },
+    {
+      "start": 454.24,
+      "duration": 2.239,
+      "text": "they go across the routers of the world",
+      "timestamp": "07:34"
+    },
+    {
+      "start": 456.479,
+      "duration": 2.56,
+      "text": "uh not just your phone um but your",
+      "timestamp": "07:36"
+    },
+    {
+      "start": 459.039,
+      "duration": 2.801,
+      "text": "laptop your car which has a cellular",
+      "timestamp": "07:39"
+    },
+    {
+      "start": 461.84,
+      "duration": 2.32,
+      "text": "modem in it uh and creates events as it",
+      "timestamp": "07:41"
+    },
+    {
+      "start": 464.16,
+      "duration": 2.319,
+      "text": "goes down the roadway to all of these",
+      "timestamp": "07:44"
+    },
+    {
+      "start": 466.479,
+      "duration": 1.521,
+      "text": "license plate readers that are",
+      "timestamp": "07:46"
+    },
+    {
+      "start": 468.0,
+      "duration": 2.56,
+      "text": "everywhere uh your refrigerator your",
+      "timestamp": "07:48"
+    },
+    {
+      "start": 470.56,
+      "duration": 1.84,
+      "text": "office your school your electronic",
+      "timestamp": "07:50"
+    },
+    {
+      "start": 472.4,
+      "duration": 2.96,
+      "text": "payments uh your Amazon history your air",
+      "timestamp": "07:52"
+    },
+    {
+      "start": 475.36,
+      "duration": 2.8,
+      "text": "travel your Gmail box and so on and so",
+      "timestamp": "07:55"
+    },
+    {
+      "start": 478.16,
+      "duration": 2.56,
+      "text": "forth because all of this data has been",
+      "timestamp": "07:58"
+    },
+    {
+      "start": 480.72,
+      "duration": 2.08,
+      "text": "carefully stockpiled and labeled and",
+      "timestamp": "08:00"
+    },
+    {
+      "start": 482.8,
+      "duration": 3.44,
+      "text": "organized for decades uh to AI people",
+      "timestamp": "08:02"
+    },
+    {
+      "start": 486.24,
+      "duration": 1.84,
+      "text": "who are constantly looking for training",
+      "timestamp": "08:06"
+    },
+    {
+      "start": 488.08,
+      "duration": 2.72,
+      "text": "data uh this stuff is like a big",
+      "timestamp": "08:08"
+    },
+    {
+      "start": 490.8,
+      "duration": 1.679,
+      "text": "beautiful turkey that's just sitting",
+      "timestamp": "08:10"
+    },
+    {
+      "start": 492.479,
+      "duration": 2.801,
+      "text": "there waiting to be put in the oven and",
+      "timestamp": "08:12"
+    },
+    {
+      "start": 495.28,
+      "duration": 2.08,
+      "text": "it's all sitting on the shelves in the",
+      "timestamp": "08:15"
+    },
+    {
+      "start": 497.36,
+      "duration": 2.16,
+      "text": "hands of many many many governments i",
+      "timestamp": "08:17"
+    },
+    {
+      "start": 499.52,
+      "duration": 2.399,
+      "text": "would say all major governments uh and",
+      "timestamp": "08:19"
+    },
+    {
+      "start": 501.919,
+      "duration": 2.96,
+      "text": "many many many corporations",
+      "timestamp": "08:21"
+    },
+    {
+      "start": 504.879,
+      "duration": 2.241,
+      "text": "now we know all of these institutions",
+      "timestamp": "08:24"
+    },
+    {
+      "start": 507.12,
+      "duration": 2.639,
+      "text": "would be very very interested in the",
+      "timestamp": "08:27"
+    },
+    {
+      "start": 509.759,
+      "duration": 1.681,
+      "text": "kind of capabilities that such a model",
+      "timestamp": "08:29"
+    },
+    {
+      "start": 511.44,
+      "duration": 1.839,
+      "text": "would produce uh because they can tell",
+      "timestamp": "08:31"
+    },
+    {
+      "start": 513.279,
+      "duration": 1.921,
+      "text": "us a lot about people that they will",
+      "timestamp": "08:33"
+    },
+    {
+      "start": 515.2,
+      "duration": 2.079,
+      "text": "never reveal directly in text they will",
+      "timestamp": "08:35"
+    },
+    {
+      "start": 517.279,
+      "duration": 2.88,
+      "text": "never reveal in voice uh these are",
+      "timestamp": "08:37"
+    },
+    {
+      "start": 520.159,
+      "duration": 3.601,
+      "text": "things that are not public utterances uh",
+      "timestamp": "08:40"
+    },
+    {
+      "start": 523.76,
+      "duration": 2.96,
+      "text": "but private habits proclivities where",
+      "timestamp": "08:43"
+    },
+    {
+      "start": 526.72,
+      "duration": 2.0,
+      "text": "you go what you do the order that you",
+      "timestamp": "08:46"
+    },
+    {
+      "start": 528.72,
+      "duration": 2.72,
+      "text": "open websites in the morning probably",
+      "timestamp": "08:48"
+    },
+    {
+      "start": 531.44,
+      "duration": 2.399,
+      "text": "uniquely identifies you relative to even",
+      "timestamp": "08:51"
+    },
+    {
+      "start": 533.839,
+      "duration": 1.601,
+      "text": "other people of your cohort even other",
+      "timestamp": "08:53"
+    },
+    {
+      "start": 535.44,
+      "duration": 2.16,
+      "text": "people living in your building uh and",
+      "timestamp": "08:55"
+    },
+    {
+      "start": 537.6,
+      "duration": 1.679,
+      "text": "they can start to identify you",
+      "timestamp": "08:57"
+    },
+    {
+      "start": 539.279,
+      "duration": 1.361,
+      "text": "fingerprints you're targeting and that's",
+      "timestamp": "08:59"
+    },
+    {
+      "start": 540.64,
+      "duration": 1.68,
+      "text": "just if you're generous enough to assume",
+      "timestamp": "09:00"
+    },
+    {
+      "start": 542.32,
+      "duration": 1.44,
+      "text": "they're doing this for advertising",
+      "timestamp": "09:02"
+    },
+    {
+      "start": 543.76,
+      "duration": 2.8,
+      "text": "purposes right uh Lord only knows how",
+      "timestamp": "09:03"
+    },
+    {
+      "start": 546.56,
+      "duration": 1.44,
+      "text": "governments will apply these but my",
+      "timestamp": "09:06"
+    },
+    {
+      "start": 548.0,
+      "duration": 1.839,
+      "text": "point is that nobody's talking about",
+      "timestamp": "09:08"
+    },
+    {
+      "start": 549.839,
+      "duration": 2.56,
+      "text": "these capabilities uh the capabilities",
+      "timestamp": "09:09"
+    },
+    {
+      "start": 552.399,
+      "duration": 1.681,
+      "text": "of these models yet we don't know if",
+      "timestamp": "09:12"
+    },
+    {
+      "start": 554.08,
+      "duration": 3.28,
+      "text": "they exist in an operationally useful",
+      "timestamp": "09:14"
+    },
+    {
+      "start": 557.36,
+      "duration": 2.88,
+      "text": "form uh 100% people are doing these in",
+      "timestamp": "09:17"
+    },
+    {
+      "start": 560.24,
+      "duration": 2.88,
+      "text": "universities uh small scale uh we don't",
+      "timestamp": "09:20"
+    },
+    {
+      "start": 563.12,
+      "duration": 1.44,
+      "text": "know how they're doing them at large",
+      "timestamp": "09:23"
+    },
+    {
+      "start": 564.56,
+      "duration": 3.36,
+      "text": "scale but that doesn't mean that they",
+      "timestamp": "09:24"
+    },
+    {
+      "start": 567.92,
+      "duration": 2.8,
+      "text": "don't exist my bet and I have a pretty",
+      "timestamp": "09:27"
+    },
+    {
+      "start": 570.72,
+      "duration": 3.92,
+      "text": "good record here uh is that they do uh",
+      "timestamp": "09:30"
+    },
+    {
+      "start": 574.64,
+      "duration": 1.92,
+      "text": "and uh if they haven't already been",
+      "timestamp": "09:34"
+    },
+    {
+      "start": 576.56,
+      "duration": 2.719,
+      "text": "baked right if I'm wrong here I think",
+      "timestamp": "09:36"
+    },
+    {
+      "start": 579.279,
+      "duration": 3.281,
+      "text": "they are certainly in the oven and so",
+      "timestamp": "09:39"
+    },
+    {
+      "start": 582.56,
+      "duration": 1.44,
+      "text": "that means we have a matter of time",
+      "timestamp": "09:42"
+    },
+    {
+      "start": 584.0,
+      "duration": 1.92,
+      "text": "until these things are out and being",
+      "timestamp": "09:44"
+    },
+    {
+      "start": 585.92,
+      "duration": 2.16,
+      "text": "used uh I'll I'll try to go through my",
+      "timestamp": "09:45"
+    },
+    {
+      "start": 588.08,
+      "duration": 4.16,
+      "text": "my conclusion here quickly",
+      "timestamp": "09:48"
+    },
+    {
+      "start": 592.24,
+      "duration": 2.32,
+      "text": "but now I I I want to reflect on modern",
+      "timestamp": "09:52"
+    },
+    {
+      "start": 594.56,
+      "duration": 1.68,
+      "text": "society and averages and how this",
+      "timestamp": "09:54"
+    },
+    {
+      "start": 596.24,
+      "duration": 4.48,
+      "text": "relates to AI more broadly um",
+      "timestamp": "09:56"
+    },
+    {
+      "start": 600.72,
+      "duration": 1.92,
+      "text": "popularity is really just another way to",
+      "timestamp": "10:00"
+    },
+    {
+      "start": 602.64,
+      "duration": 2.4,
+      "text": "describe uh the average of our",
+      "timestamp": "10:02"
+    },
+    {
+      "start": 605.04,
+      "duration": 2.64,
+      "text": "collective behavior",
+      "timestamp": "10:05"
+    },
+    {
+      "start": 607.68,
+      "duration": 3.04,
+      "text": "but progress the thing that drives us",
+      "timestamp": "10:07"
+    },
+    {
+      "start": 610.72,
+      "duration": 1.44,
+      "text": "away from the way that things have",
+      "timestamp": "10:10"
+    },
+    {
+      "start": 612.16,
+      "duration": 4.0,
+      "text": "always been toward the new hot thing uh",
+      "timestamp": "10:12"
+    },
+    {
+      "start": 616.16,
+      "duration": 1.52,
+      "text": "whether we're talking about practically",
+      "timestamp": "10:16"
+    },
+    {
+      "start": 617.68,
+      "duration": 2.56,
+      "text": "or we're talking about politically",
+      "timestamp": "10:17"
+    },
+    {
+      "start": 620.24,
+      "duration": 3.839,
+      "text": "uh that arises from deviation from the",
+      "timestamp": "10:20"
+    },
+    {
+      "start": 624.079,
+      "duration": 2.801,
+      "text": "norm which is to say the it is unpopular",
+      "timestamp": "10:24"
+    },
+    {
+      "start": 626.88,
+      "duration": 4.959,
+      "text": "it is abnormal it is new uh novel",
+      "timestamp": "10:26"
+    },
+    {
+      "start": 631.839,
+      "duration": 2.0,
+      "text": "or a more generous way of describing it",
+      "timestamp": "10:31"
+    },
+    {
+      "start": 633.839,
+      "duration": 2.24,
+      "text": "would be pre-popular",
+      "timestamp": "10:33"
+    },
+    {
+      "start": 636.079,
+      "duration": 3.361,
+      "text": "but the idea here is that um the new can",
+      "timestamp": "10:36"
+    },
+    {
+      "start": 639.44,
+      "duration": 3.28,
+      "text": "never be the average the new uh can",
+      "timestamp": "10:39"
+    },
+    {
+      "start": 642.72,
+      "duration": 2.96,
+      "text": "never be the popular initially",
+      "timestamp": "10:42"
+    },
+    {
+      "start": 645.68,
+      "duration": 3.2,
+      "text": "and all of these systems uh sort of are",
+      "timestamp": "10:45"
+    },
+    {
+      "start": 648.88,
+      "duration": 3.12,
+      "text": "our training on the averages",
+      "timestamp": "10:48"
+    },
+    {
+      "start": 652.0,
+      "duration": 2.399,
+      "text": "so what happens when we begin weaving in",
+      "timestamp": "10:52"
+    },
+    {
+      "start": 654.399,
+      "duration": 2.081,
+      "text": "more and more systemic guard rails to",
+      "timestamp": "10:54"
+    },
+    {
+      "start": 656.48,
+      "duration": 2.96,
+      "text": "return behavior through these government",
+      "timestamp": "10:56"
+    },
+    {
+      "start": 659.44,
+      "duration": 2.079,
+      "text": "corporate systems through these flagging",
+      "timestamp": "10:59"
+    },
+    {
+      "start": 661.519,
+      "duration": 2.241,
+      "text": "surveillance systems uh that go \"Oh",
+      "timestamp": "11:01"
+    },
+    {
+      "start": 663.76,
+      "duration": 1.44,
+      "text": "something strange happened here you",
+      "timestamp": "11:03"
+    },
+    {
+      "start": 665.2,
+      "duration": 1.36,
+      "text": "might want to take a look at this what",
+      "timestamp": "11:05"
+    },
+    {
+      "start": 666.56,
+      "duration": 1.44,
+      "text": "happens when we start baking in guard",
+      "timestamp": "11:06"
+    },
+    {
+      "start": 668.0,
+      "duration": 2.959,
+      "text": "rails to return behaviors from the",
+      "timestamp": "11:08"
+    },
+    {
+      "start": 670.959,
+      "duration": 2.721,
+      "text": "abnormal toward the normal to nudge to",
+      "timestamp": "11:10"
+    },
+    {
+      "start": 673.68,
+      "duration": 2.24,
+      "text": "flag to warn and eventually interdict",
+      "timestamp": "11:13"
+    },
+    {
+      "start": 675.92,
+      "duration": 2.24,
+      "text": "deviations from behaviors that are",
+      "timestamp": "11:15"
+    },
+    {
+      "start": 678.16,
+      "duration": 3.119,
+      "text": "desired by the system rather than",
+      "timestamp": "11:18"
+    },
+    {
+      "start": 681.279,
+      "duration": 1.841,
+      "text": "desired by the individual by the person",
+      "timestamp": "11:21"
+    },
+    {
+      "start": 683.12,
+      "duration": 1.44,
+      "text": "themselves the person who's out there",
+      "timestamp": "11:23"
+    },
+    {
+      "start": 684.56,
+      "duration": 2.399,
+      "text": "living their free life and I think this",
+      "timestamp": "11:24"
+    },
+    {
+      "start": 686.959,
+      "duration": 2.481,
+      "text": "raised the question can there be freedom",
+      "timestamp": "11:26"
+    },
+    {
+      "start": 689.44,
+      "duration": 3.12,
+      "text": "without free choice and and how can we",
+      "timestamp": "11:29"
+    },
+    {
+      "start": 692.56,
+      "duration": 1.68,
+      "text": "guarantee free choice when we're",
+      "timestamp": "11:32"
+    },
+    {
+      "start": 694.24,
+      "duration": 1.839,
+      "text": "increasingly trapped in this little",
+      "timestamp": "11:34"
+    },
+    {
+      "start": 696.079,
+      "duration": 3.041,
+      "text": "system menu of false choices that's",
+      "timestamp": "11:36"
+    },
+    {
+      "start": 699.12,
+      "duration": 2.159,
+      "text": "being provided by Facebook by Twitter by",
+      "timestamp": "11:39"
+    },
+    {
+      "start": 701.279,
+      "duration": 2.081,
+      "text": "whatever Tik Tok uh that's trying to",
+      "timestamp": "11:41"
+    },
+    {
+      "start": 703.36,
+      "duration": 1.68,
+      "text": "keep you scrolling keep you in there",
+      "timestamp": "11:43"
+    },
+    {
+      "start": 705.04,
+      "duration": 1.76,
+      "text": "like the casino removes the clock from",
+      "timestamp": "11:45"
+    },
+    {
+      "start": 706.8,
+      "duration": 4.64,
+      "text": "the wall of course you personally uh",
+      "timestamp": "11:46"
+    },
+    {
+      "start": 711.44,
+      "duration": 2.48,
+      "text": "magnificent little mavericks uh with",
+      "timestamp": "11:51"
+    },
+    {
+      "start": 713.92,
+      "duration": 2.88,
+      "text": "your brave and irreressible souls uh you",
+      "timestamp": "11:53"
+    },
+    {
+      "start": 716.8,
+      "duration": 3.599,
+      "text": "can make the free choice right u but can",
+      "timestamp": "11:56"
+    },
+    {
+      "start": 720.399,
+      "duration": 4.161,
+      "text": "you still make a uh application to the",
+      "timestamp": "12:00"
+    },
+    {
+      "start": 724.56,
+      "duration": 2.399,
+      "text": "human resources system and get a job",
+      "timestamp": "12:04"
+    },
+    {
+      "start": 726.959,
+      "duration": 2.401,
+      "text": "afterwards uh can you get a mortgage",
+      "timestamp": "12:06"
+    },
+    {
+      "start": 729.36,
+      "duration": 2.96,
+      "text": "will you qualify will the dating app uh",
+      "timestamp": "12:09"
+    },
+    {
+      "start": 732.32,
+      "duration": 1.84,
+      "text": "match you with anybody except serial",
+      "timestamp": "12:12"
+    },
+    {
+      "start": 734.16,
+      "duration": 3.119,
+      "text": "killers uh because you know that that's",
+      "timestamp": "12:14"
+    },
+    {
+      "start": 737.279,
+      "duration": 1.841,
+      "text": "sort of where you want to think of the",
+      "timestamp": "12:17"
+    },
+    {
+      "start": 739.12,
+      "duration": 2.0,
+      "text": "system",
+      "timestamp": "12:19"
+    },
+    {
+      "start": 741.12,
+      "duration": 4.88,
+      "text": "valuing non-normative behaviors right uh",
+      "timestamp": "12:21"
+    },
+    {
+      "start": 746.0,
+      "duration": 1.6,
+      "text": "they're not really looking for",
+      "timestamp": "12:26"
+    },
+    {
+      "start": 747.6,
+      "duration": 1.919,
+      "text": "exceptional in a positive sense at least",
+      "timestamp": "12:27"
+    },
+    {
+      "start": 749.519,
+      "duration": 3.12,
+      "text": "as I've seen in any examples uh they",
+      "timestamp": "12:29"
+    },
+    {
+      "start": 752.639,
+      "duration": 2.481,
+      "text": "always see the departure from the",
+      "timestamp": "12:32"
+    },
+    {
+      "start": 755.12,
+      "duration": 4.399,
+      "text": "average as kind of the garbage uh output",
+      "timestamp": "12:35"
+    },
+    {
+      "start": 759.519,
+      "duration": 1.601,
+      "text": "and so if the different becomes the",
+      "timestamp": "12:39"
+    },
+    {
+      "start": 761.12,
+      "duration": 2.48,
+      "text": "garbage where are we headed",
+      "timestamp": "12:41"
+    },
+    {
+      "start": 763.6,
+      "duration": 2.4,
+      "text": "now if you believe that you're being",
+      "timestamp": "12:43"
+    },
+    {
+      "start": 766.0,
+      "duration": 2.399,
+      "text": "unfairly bucketed evaluated or ranked or",
+      "timestamp": "12:46"
+    },
+    {
+      "start": 768.399,
+      "duration": 2.081,
+      "text": "scored or otherwise mistreated by these",
+      "timestamp": "12:48"
+    },
+    {
+      "start": 770.48,
+      "duration": 2.159,
+      "text": "systems will you be able to challenge",
+      "timestamp": "12:50"
+    },
+    {
+      "start": 772.639,
+      "duration": 3.121,
+      "text": "that uh because right now you already",
+      "timestamp": "12:52"
+    },
+    {
+      "start": 775.76,
+      "duration": 1.759,
+      "text": "can't find a phone number or an email",
+      "timestamp": "12:55"
+    },
+    {
+      "start": 777.519,
+      "duration": 2.0,
+      "text": "address to contact somebody at Google or",
+      "timestamp": "12:57"
+    },
+    {
+      "start": 779.519,
+      "duration": 2.241,
+      "text": "Facebook uh if they're idiot systems",
+      "timestamp": "12:59"
+    },
+    {
+      "start": 781.76,
+      "duration": 2.4,
+      "text": "ruin your life it's it's impossible",
+      "timestamp": "13:01"
+    },
+    {
+      "start": 784.16,
+      "duration": 1.359,
+      "text": "right they don't provide that they don't",
+      "timestamp": "13:04"
+    },
+    {
+      "start": 785.519,
+      "duration": 2.0,
+      "text": "see themselves as being in the business",
+      "timestamp": "13:05"
+    },
+    {
+      "start": 787.519,
+      "duration": 2.241,
+      "text": "of customerf facing support right you're",
+      "timestamp": "13:07"
+    },
+    {
+      "start": 789.76,
+      "duration": 1.92,
+      "text": "not their customer anyway from their",
+      "timestamp": "13:09"
+    },
+    {
+      "start": 791.68,
+      "duration": 2.399,
+      "text": "thing how's that going to work with you",
+      "timestamp": "13:11"
+    },
+    {
+      "start": 794.079,
+      "duration": 1.44,
+      "text": "know surveillance systems how's that",
+      "timestamp": "13:14"
+    },
+    {
+      "start": 795.519,
+      "duration": 1.361,
+      "text": "going to work with the human resources",
+      "timestamp": "13:15"
+    },
+    {
+      "start": 796.88,
+      "duration": 1.36,
+      "text": "system how's that going to work with the",
+      "timestamp": "13:16"
+    },
+    {
+      "start": 798.24,
+      "duration": 2.88,
+      "text": "mortgage loan system i don't think I",
+      "timestamp": "13:18"
+    },
+    {
+      "start": 801.12,
+      "duration": 2.32,
+      "text": "don't know how any of us are going to be",
+      "timestamp": "13:21"
+    },
+    {
+      "start": 803.44,
+      "duration": 3.28,
+      "text": "able to argue uh with a turn style how",
+      "timestamp": "13:23"
+    },
+    {
+      "start": 806.72,
+      "duration": 1.28,
+      "text": "are you going to be able to argue with",
+      "timestamp": "13:26"
+    },
+    {
+      "start": 808.0,
+      "duration": 3.839,
+      "text": "the parking lot denied access uh",
+      "timestamp": "13:28"
+    },
+    {
+      "start": 811.839,
+      "duration": 2.321,
+      "text": "but I am confident sadly that there are",
+      "timestamp": "13:31"
+    },
+    {
+      "start": 814.16,
+      "duration": 2.16,
+      "text": "going to be some very sad viral videos",
+      "timestamp": "13:34"
+    },
+    {
+      "start": 816.32,
+      "duration": 1.519,
+      "text": "in the future of people who in a moment",
+      "timestamp": "13:36"
+    },
+    {
+      "start": 817.839,
+      "duration": 2.721,
+      "text": "of furious desperation will be driven to",
+      "timestamp": "13:37"
+    },
+    {
+      "start": 820.56,
+      "duration": 4.079,
+      "text": "try uh you know these are behaviors that",
+      "timestamp": "13:40"
+    },
+    {
+      "start": 824.639,
+      "duration": 2.481,
+      "text": "right now we see as psychotic um and if",
+      "timestamp": "13:44"
+    },
+    {
+      "start": 827.12,
+      "duration": 1.279,
+      "text": "you saw it on the internet if you saw",
+      "timestamp": "13:47"
+    },
+    {
+      "start": 828.399,
+      "duration": 1.281,
+      "text": "somebody arguing with the surveillance",
+      "timestamp": "13:48"
+    },
+    {
+      "start": 829.68,
+      "duration": 1.52,
+      "text": "camera right now just screaming at it",
+      "timestamp": "13:49"
+    },
+    {
+      "start": 831.2,
+      "duration": 2.56,
+      "text": "you'd be like \"Oh that person is crazy.\"",
+      "timestamp": "13:51"
+    },
+    {
+      "start": 833.76,
+      "duration": 3.12,
+      "text": "And maybe it is crazy um but I worry",
+      "timestamp": "13:53"
+    },
+    {
+      "start": 836.88,
+      "duration": 2.0,
+      "text": "that that's going to be less crazy uh",
+      "timestamp": "13:56"
+    },
+    {
+      "start": 838.88,
+      "duration": 2.16,
+      "text": "because there's no one else to argue",
+      "timestamp": "13:58"
+    },
+    {
+      "start": 841.04,
+      "duration": 2.32,
+      "text": "with there's no human behind the machine",
+      "timestamp": "14:01"
+    },
+    {
+      "start": 843.36,
+      "duration": 1.599,
+      "text": "the machine doesn't care it's you're not",
+      "timestamp": "14:03"
+    },
+    {
+      "start": 844.959,
+      "duration": 1.12,
+      "text": "going to get the result you're looking",
+      "timestamp": "14:04"
+    },
+    {
+      "start": 846.079,
+      "duration": 3.681,
+      "text": "for uh but what what is the target for",
+      "timestamp": "14:06"
+    },
+    {
+      "start": 849.76,
+      "duration": 1.84,
+      "text": "our frustrations at that point the",
+      "timestamp": "14:09"
+    },
+    {
+      "start": 851.6,
+      "duration": 1.76,
+      "text": "bottom the bottom line of of of all of",
+      "timestamp": "14:11"
+    },
+    {
+      "start": 853.36,
+      "duration": 1.839,
+      "text": "this thing that I want you to remember",
+      "timestamp": "14:13"
+    },
+    {
+      "start": 855.199,
+      "duration": 1.921,
+      "text": "is that what passes for artificial",
+      "timestamp": "14:15"
+    },
+    {
+      "start": 857.12,
+      "duration": 2.48,
+      "text": "intelligence today again",
+      "timestamp": "14:17"
+    },
+    {
+      "start": 859.6,
+      "duration": 1.919,
+      "text": "are largely just methods for trying to",
+      "timestamp": "14:19"
+    },
+    {
+      "start": 861.519,
+      "duration": 2.88,
+      "text": "plot a path toward the average in any",
+      "timestamp": "14:21"
+    },
+    {
+      "start": 864.399,
+      "duration": 2.721,
+      "text": "mass of arbitrary data and that is",
+      "timestamp": "14:24"
+    },
+    {
+      "start": 867.12,
+      "duration": 5.36,
+      "text": "useful uh terribly terribly useful",
+      "timestamp": "14:27"
+    },
+    {
+      "start": 872.48,
+      "duration": 2.88,
+      "text": "and someday soon I I think frightfully",
+      "timestamp": "14:32"
+    },
+    {
+      "start": 875.36,
+      "duration": 1.919,
+      "text": "useful",
+      "timestamp": "14:35"
+    },
+    {
+      "start": 877.279,
+      "duration": 1.841,
+      "text": "and so we have to guard ourselves right",
+      "timestamp": "14:37"
+    },
+    {
+      "start": 879.12,
+      "duration": 1.839,
+      "text": "now from the beginning people in this",
+      "timestamp": "14:39"
+    },
+    {
+      "start": 880.959,
+      "duration": 1.361,
+      "text": "audience the people who are in this",
+      "timestamp": "14:40"
+    },
+    {
+      "start": 882.32,
+      "duration": 1.68,
+      "text": "industry the people who are working on",
+      "timestamp": "14:42"
+    },
+    {
+      "start": 884.0,
+      "duration": 3.92,
+      "text": "this uh from the idea that the average",
+      "timestamp": "14:44"
+    },
+    {
+      "start": 887.92,
+      "duration": 2.08,
+      "text": "is desired the fact that the average is",
+      "timestamp": "14:47"
+    },
+    {
+      "start": 890.0,
+      "duration": 2.72,
+      "text": "the ideal collectively or individually",
+      "timestamp": "14:50"
+    },
+    {
+      "start": 892.72,
+      "duration": 2.08,
+      "text": "uh the average is not the ideal the",
+      "timestamp": "14:52"
+    },
+    {
+      "start": 894.8,
+      "duration": 2.88,
+      "text": "average is the enemy the average is slo",
+      "timestamp": "14:54"
+    },
+    {
+      "start": 897.68,
+      "duration": 2.0,
+      "text": "the average is unoriginated the average",
+      "timestamp": "14:57"
+    },
+    {
+      "start": 899.68,
+      "duration": 1.76,
+      "text": "is uninspired",
+      "timestamp": "14:59"
+    },
+    {
+      "start": 901.44,
+      "duration": 2.72,
+      "text": "it is the bad habit it is the skip and",
+      "timestamp": "15:01"
+    },
+    {
+      "start": 904.16,
+      "duration": 2.4,
+      "text": "workout it is the worthless television",
+      "timestamp": "15:04"
+    },
+    {
+      "start": 906.56,
+      "duration": 2.8,
+      "text": "filler episode it is us at our lowest",
+      "timestamp": "15:06"
+    },
+    {
+      "start": 909.36,
+      "duration": 2.8,
+      "text": "and most common",
+      "timestamp": "15:09"
+    },
+    {
+      "start": 912.16,
+      "duration": 2.56,
+      "text": "uh more seriously it is the weight of",
+      "timestamp": "15:12"
+    },
+    {
+      "start": 914.72,
+      "duration": 2.16,
+      "text": "all of our past mistakes that have built",
+      "timestamp": "15:14"
+    },
+    {
+      "start": 916.88,
+      "duration": 2.16,
+      "text": "up as we have grown and learned we are",
+      "timestamp": "15:16"
+    },
+    {
+      "start": 919.04,
+      "duration": 2.159,
+      "text": "smarter now today than we have ever been",
+      "timestamp": "15:19"
+    },
+    {
+      "start": 921.199,
+      "duration": 2.721,
+      "text": "in the past as children we need",
+      "timestamp": "15:21"
+    },
+    {
+      "start": 923.92,
+      "duration": 3.279,
+      "text": "technology to help humanity escape away",
+      "timestamp": "15:23"
+    },
+    {
+      "start": 927.199,
+      "duration": 3.041,
+      "text": "from the average and toward our finest",
+      "timestamp": "15:27"
+    },
+    {
+      "start": 930.24,
+      "duration": 1.68,
+      "text": "moments",
+      "timestamp": "15:30"
+    },
+    {
+      "start": 931.92,
+      "duration": 4.8,
+      "text": "what I fear is that an ignorance of this",
+      "timestamp": "15:31"
+    },
+    {
+      "start": 936.72,
+      "duration": 3.359,
+      "text": "uh is more likely instead to chain us",
+      "timestamp": "15:36"
+    },
+    {
+      "start": 940.079,
+      "duration": 2.721,
+      "text": "toward that weight of our past mistakes",
+      "timestamp": "15:40"
+    },
+    {
+      "start": 942.8,
+      "duration": 1.92,
+      "text": "so I'll leave you with this so we have",
+      "timestamp": "15:42"
+    },
+    {
+      "start": 944.72,
+      "duration": 4.4,
+      "text": "some time for questions uh",
+      "timestamp": "15:44"
+    },
+    {
+      "start": 949.12,
+      "duration": 2.399,
+      "text": "we must guarantee",
+      "timestamp": "15:49"
+    },
+    {
+      "start": 951.519,
+      "duration": 3.201,
+      "text": "for our people everywhere",
+      "timestamp": "15:51"
+    },
+    {
+      "start": 954.72,
+      "duration": 3.6,
+      "text": "a freedom from the system",
+      "timestamp": "15:54"
+    },
+    {
+      "start": 958.32,
+      "duration": 1.68,
+      "text": "because if we do not have freedom from",
+      "timestamp": "15:58"
+    },
+    {
+      "start": 960.0,
+      "duration": 3.44,
+      "text": "the system we will be reduced inevitably",
+      "timestamp": "16:00"
+    },
+    {
+      "start": 963.44,
+      "duration": 3.36,
+      "text": "to simply pieces of it thank you let's",
+      "timestamp": "16:03"
+    },
+    {
+      "start": 966.8,
+      "duration": 2.09,
+      "text": "go to questions",
+      "timestamp": "16:06"
+    },
+    {
+      "start": 968.89,
+      "duration": 4.07,
+      "text": "[Applause]",
+      "timestamp": "16:08"
+    },
+    {
+      "start": 973.12,
+      "duration": 1.519,
+      "text": "all right thank you very much Edward uh",
+      "timestamp": "16:13"
+    },
+    {
+      "start": 974.639,
+      "duration": 1.601,
+      "text": "we do have time for one or maybe two",
+      "timestamp": "16:14"
+    },
+    {
+      "start": 976.24,
+      "duration": 1.599,
+      "text": "questions from the audience and I know",
+      "timestamp": "16:16"
+    },
+    {
+      "start": 977.839,
+      "duration": 1.521,
+      "text": "Edward thank you for joining us again i",
+      "timestamp": "16:17"
+    },
+    {
+      "start": 979.36,
+      "duration": 1.52,
+      "text": "know you're keen to do so we're looking",
+      "timestamp": "16:19"
+    },
+    {
+      "start": 980.88,
+      "duration": 1.759,
+      "text": "for a hand up i've got bright lights in",
+      "timestamp": "16:20"
+    },
+    {
+      "start": 982.639,
+      "duration": 1.76,
+      "text": "my eyes so make sure you wave your hand",
+      "timestamp": "16:22"
+    },
+    {
+      "start": 984.399,
+      "duration": 1.44,
+      "text": "high i've got a question right over here",
+      "timestamp": "16:24"
+    },
+    {
+      "start": 985.839,
+      "duration": 2.081,
+      "text": "can we get a microphone on the double to",
+      "timestamp": "16:25"
+    },
+    {
+      "start": 987.92,
+      "duration": 4.32,
+      "text": "this gentleman thank you very much",
+      "timestamp": "16:27"
+    },
+    {
+      "start": 992.24,
+      "duration": 2.399,
+      "text": "hi Edward thank you for um the",
+      "timestamp": "16:32"
+    },
+    {
+      "start": 994.639,
+      "duration": 2.241,
+      "text": "interesting overview my name is Ivan i",
+      "timestamp": "16:34"
+    },
+    {
+      "start": 996.88,
+      "duration": 2.24,
+      "text": "wanted to ask you to give us one piece",
+      "timestamp": "16:36"
+    },
+    {
+      "start": 999.12,
+      "duration": 2.159,
+      "text": "of advice of how you've changed your",
+      "timestamp": "16:39"
+    },
+    {
+      "start": 1001.279,
+      "duration": 2.401,
+      "text": "behavior in terms of how you behave",
+      "timestamp": "16:41"
+    },
+    {
+      "start": 1003.68,
+      "duration": 2.0,
+      "text": "online or services that you no longer",
+      "timestamp": "16:43"
+    },
+    {
+      "start": 1005.68,
+      "duration": 1.599,
+      "text": "use i know you're a very very special",
+      "timestamp": "16:45"
+    },
+    {
+      "start": 1007.279,
+      "duration": 1.92,
+      "text": "case because u you're a person of",
+      "timestamp": "16:47"
+    },
+    {
+      "start": 1009.199,
+      "duration": 2.88,
+      "text": "interest but to the average sort of AI",
+      "timestamp": "16:49"
+    },
+    {
+      "start": 1012.079,
+      "duration": 2.401,
+      "text": "fan out there um what what is sort of",
+      "timestamp": "16:52"
+    },
+    {
+      "start": 1014.48,
+      "duration": 1.68,
+      "text": "the most egregious stupidity that we",
+      "timestamp": "16:54"
+    },
+    {
+      "start": 1016.16,
+      "duration": 2.4,
+      "text": "display as a species online that you",
+      "timestamp": "16:56"
+    },
+    {
+      "start": 1018.56,
+      "duration": 3.92,
+      "text": "wish we we wouldn't um the uh the thing",
+      "timestamp": "16:58"
+    },
+    {
+      "start": 1022.48,
+      "duration": 1.76,
+      "text": "thing that I would say is yeah first off",
+      "timestamp": "17:02"
+    },
+    {
+      "start": 1024.24,
+      "duration": 1.839,
+      "text": "I'm not an average case so I don't want",
+      "timestamp": "17:04"
+    },
+    {
+      "start": 1026.079,
+      "duration": 2.561,
+      "text": "people to live who like me um you know I",
+      "timestamp": "17:06"
+    },
+    {
+      "start": 1028.64,
+      "duration": 3.038,
+      "text": "don't use any electronic payments ever",
+      "timestamp": "17:08"
+    },
+    {
+      "start": 1031.679,
+      "duration": 2.4,
+      "text": "uh for anything because they're",
+      "timestamp": "17:11"
+    },
+    {
+      "start": 1034.079,
+      "duration": 2.641,
+      "text": "connected to my identity um I I can't",
+      "timestamp": "17:14"
+    },
+    {
+      "start": 1036.72,
+      "duration": 2.239,
+      "text": "use anything registered in my real name",
+      "timestamp": "17:16"
+    },
+    {
+      "start": 1038.959,
+      "duration": 3.36,
+      "text": "uh it's it's just you know it's not a",
+      "timestamp": "17:18"
+    },
+    {
+      "start": 1042.319,
+      "duration": 2.719,
+      "text": "lifestyle that that you want to emulate",
+      "timestamp": "17:22"
+    },
+    {
+      "start": 1045.039,
+      "duration": 2.16,
+      "text": "uh and then of course I have to have",
+      "timestamp": "17:25"
+    },
+    {
+      "start": 1047.199,
+      "duration": 3.121,
+      "text": "fully true name uh connections for",
+      "timestamp": "17:27"
+    },
+    {
+      "start": 1050.32,
+      "duration": 2.56,
+      "text": "events like this and that it makes it",
+      "timestamp": "17:30"
+    },
+    {
+      "start": 1052.88,
+      "duration": 2.799,
+      "text": "very difficult to uh do things but the",
+      "timestamp": "17:32"
+    },
+    {
+      "start": 1055.679,
+      "duration": 1.921,
+      "text": "idea is you can try to create some",
+      "timestamp": "17:35"
+    },
+    {
+      "start": 1057.6,
+      "duration": 2.4,
+      "text": "private space in your life a private",
+      "timestamp": "17:37"
+    },
+    {
+      "start": 1060.0,
+      "duration": 3.6,
+      "text": "persona and have a public persona",
+      "timestamp": "17:40"
+    },
+    {
+      "start": 1063.6,
+      "duration": 2.56,
+      "text": "um where you don't cross-contaminate and",
+      "timestamp": "17:43"
+    },
+    {
+      "start": 1066.16,
+      "duration": 1.44,
+      "text": "most people do one thing for everything",
+      "timestamp": "17:46"
+    },
+    {
+      "start": 1067.6,
+      "duration": 2.16,
+      "text": "you have one email box that's your login",
+      "timestamp": "17:47"
+    },
+    {
+      "start": 1069.76,
+      "duration": 2.159,
+      "text": "for everything they use that you know",
+      "timestamp": "17:49"
+    },
+    {
+      "start": 1071.919,
+      "duration": 1.76,
+      "text": "Google knows all of these services",
+      "timestamp": "17:51"
+    },
+    {
+      "start": 1073.679,
+      "duration": 2.0,
+      "text": "because lo in with Gmail or you know",
+      "timestamp": "17:53"
+    },
+    {
+      "start": 1075.679,
+      "duration": 3.681,
+      "text": "sign in with Facebook whatever um and",
+      "timestamp": "17:55"
+    },
+    {
+      "start": 1079.36,
+      "duration": 1.76,
+      "text": "what happens when it stops working right",
+      "timestamp": "17:59"
+    },
+    {
+      "start": 1081.12,
+      "duration": 1.84,
+      "text": "what happens when you lose Facebook",
+      "timestamp": "18:01"
+    },
+    {
+      "start": 1082.96,
+      "duration": 2.079,
+      "text": "blocks you for some idiot reason paypal",
+      "timestamp": "18:02"
+    },
+    {
+      "start": 1085.039,
+      "duration": 1.52,
+      "text": "blocks your account uh and then you're",
+      "timestamp": "18:05"
+    },
+    {
+      "start": 1086.559,
+      "duration": 1.761,
+      "text": "screwed you see horror stories happening",
+      "timestamp": "18:06"
+    },
+    {
+      "start": 1088.32,
+      "duration": 2.0,
+      "text": "to everyone even you know people who are",
+      "timestamp": "18:08"
+    },
+    {
+      "start": 1090.32,
+      "duration": 2.239,
+      "text": "not uh sort of low status have no",
+      "timestamp": "18:10"
+    },
+    {
+      "start": 1092.559,
+      "duration": 1.601,
+      "text": "friends no access whatever but people",
+      "timestamp": "18:12"
+    },
+    {
+      "start": 1094.16,
+      "duration": 1.68,
+      "text": "who are in startups people who are",
+      "timestamp": "18:14"
+    },
+    {
+      "start": 1095.84,
+      "duration": 2.48,
+      "text": "founders people have connections uh they",
+      "timestamp": "18:15"
+    },
+    {
+      "start": 1098.32,
+      "duration": 2.08,
+      "text": "get disconnected they get deplatformed",
+      "timestamp": "18:18"
+    },
+    {
+      "start": 1100.4,
+      "duration": 2.8,
+      "text": "and they're they're frankly doomed um we",
+      "timestamp": "18:20"
+    },
+    {
+      "start": 1103.2,
+      "duration": 2.08,
+      "text": "are too dependent on these services",
+      "timestamp": "18:23"
+    },
+    {
+      "start": 1105.28,
+      "duration": 2.639,
+      "text": "because we haven't decentralized our own",
+      "timestamp": "18:25"
+    },
+    {
+      "start": 1107.919,
+      "duration": 4.561,
+      "text": "lives out enough uh from these silos uh",
+      "timestamp": "18:27"
+    },
+    {
+      "start": 1112.48,
+      "duration": 1.76,
+      "text": "it's not always possible you know some",
+      "timestamp": "18:32"
+    },
+    {
+      "start": 1114.24,
+      "duration": 1.36,
+      "text": "people have to do these things but just",
+      "timestamp": "18:34"
+    },
+    {
+      "start": 1115.6,
+      "duration": 2.959,
+      "text": "the basic basic level uh you know you",
+      "timestamp": "18:35"
+    },
+    {
+      "start": 1118.559,
+      "duration": 2.161,
+      "text": "should always be using a VPN or tour or",
+      "timestamp": "18:38"
+    },
+    {
+      "start": 1120.72,
+      "duration": 2.8,
+      "text": "at least have some awareness of how",
+      "timestamp": "18:40"
+    },
+    {
+      "start": 1123.52,
+      "duration": 2.24,
+      "text": "electronically your devices are",
+      "timestamp": "18:43"
+    },
+    {
+      "start": 1125.76,
+      "duration": 2.32,
+      "text": "connected back to your physical true",
+      "timestamp": "18:45"
+    },
+    {
+      "start": 1128.08,
+      "duration": 2.32,
+      "text": "name persona i I say true name because",
+      "timestamp": "18:48"
+    },
+    {
+      "start": 1130.4,
+      "duration": 2.399,
+      "text": "that's at the CIA what we use we had",
+      "timestamp": "18:50"
+    },
+    {
+      "start": 1132.799,
+      "duration": 2.0,
+      "text": "true name and pseudonym we had a little",
+      "timestamp": "18:52"
+    },
+    {
+      "start": 1134.799,
+      "duration": 2.481,
+      "text": "fake name that that was used uh for",
+      "timestamp": "18:54"
+    },
+    {
+      "start": 1137.28,
+      "duration": 1.92,
+      "text": "written communications",
+      "timestamp": "18:57"
+    },
+    {
+      "start": 1139.2,
+      "duration": 2.8,
+      "text": "um and yeah the the idea is that you",
+      "timestamp": "18:59"
+    },
+    {
+      "start": 1142.0,
+      "duration": 2.32,
+      "text": "have some sort of persona management",
+      "timestamp": "19:02"
+    },
+    {
+      "start": 1144.32,
+      "duration": 2.8,
+      "text": "here now I that that's not necessary for",
+      "timestamp": "19:04"
+    },
+    {
+      "start": 1147.12,
+      "duration": 1.84,
+      "text": "absolutely everybody some people like",
+      "timestamp": "19:07"
+    },
+    {
+      "start": 1148.96,
+      "duration": 2.4,
+      "text": "living their lives like an open book uh",
+      "timestamp": "19:08"
+    },
+    {
+      "start": 1151.36,
+      "duration": 2.48,
+      "text": "but but for me it it's less about you",
+      "timestamp": "19:11"
+    },
+    {
+      "start": 1153.84,
+      "duration": 2.719,
+      "text": "know are you going to be attacked uh but",
+      "timestamp": "19:13"
+    },
+    {
+      "start": 1156.559,
+      "duration": 2.161,
+      "text": "how are you going to be interpreted by",
+      "timestamp": "19:16"
+    },
+    {
+      "start": 1158.72,
+      "duration": 1.68,
+      "text": "all of these outside forces whether it's",
+      "timestamp": "19:18"
+    },
+    {
+      "start": 1160.4,
+      "duration": 2.159,
+      "text": "an advertiser whether it's a boss",
+      "timestamp": "19:20"
+    },
+    {
+      "start": 1162.559,
+      "duration": 1.36,
+      "text": "whether it's somebody who hates you and",
+      "timestamp": "19:22"
+    },
+    {
+      "start": 1163.919,
+      "duration": 2.081,
+      "text": "is trying to get you fired from your job",
+      "timestamp": "19:23"
+    },
+    {
+      "start": 1166.0,
+      "duration": 2.4,
+      "text": "uh what's your target surface like out",
+      "timestamp": "19:26"
+    },
+    {
+      "start": 1168.4,
+      "duration": 2.96,
+      "text": "there um and are you singlethreaded are",
+      "timestamp": "19:28"
+    },
+    {
+      "start": 1171.36,
+      "duration": 3.04,
+      "text": "you dependent on a a Gmail or a Facebook",
+      "timestamp": "19:31"
+    },
+    {
+      "start": 1174.4,
+      "duration": 4.159,
+      "text": "or an employer or whatever for your name",
+      "timestamp": "19:34"
+    },
+    {
+      "start": 1178.559,
+      "duration": 2.801,
+      "text": "your brand your platform whatever online",
+      "timestamp": "19:38"
+    },
+    {
+      "start": 1181.36,
+      "duration": 2.0,
+      "text": "or are you basically kind of bulletproof",
+      "timestamp": "19:41"
+    },
+    {
+      "start": 1183.36,
+      "duration": 2.4,
+      "text": "and you can be blown off of any platform",
+      "timestamp": "19:43"
+    },
+    {
+      "start": 1185.76,
+      "duration": 2.4,
+      "text": "in existence and it's not going to be uh",
+      "timestamp": "19:45"
+    },
+    {
+      "start": 1188.16,
+      "duration": 1.92,
+      "text": "any more than a speed bump in your life",
+      "timestamp": "19:48"
+    },
+    {
+      "start": 1190.08,
+      "duration": 2.56,
+      "text": "that week\n all right I think we've got",
+      "timestamp": "19:50"
+    },
+    {
+      "start": 1192.64,
+      "duration": 1.52,
+      "text": "time for maybe one more question i have",
+      "timestamp": "19:52"
+    },
+    {
+      "start": 1194.16,
+      "duration": 1.36,
+      "text": "a hand over here on this side of the",
+      "timestamp": "19:54"
+    },
+    {
+      "start": 1195.52,
+      "duration": 1.36,
+      "text": "audience if we can get a microphone to",
+      "timestamp": "19:55"
+    },
+    {
+      "start": 1196.88,
+      "duration": 3.039,
+      "text": "this woman thank you very much",
+      "timestamp": "19:56"
+    },
+    {
+      "start": 1199.919,
+      "duration": 2.481,
+      "text": "yes please\n hello Edward my name is Soye",
+      "timestamp": "19:59"
+    },
+    {
+      "start": 1202.4,
+      "duration": 4.159,
+      "text": "and I'm I mean you're an inspiration i I",
+      "timestamp": "20:02"
+    },
+    {
+      "start": 1206.559,
+      "duration": 2.24,
+      "text": "work with human rights so how would you",
+      "timestamp": "20:06"
+    },
+    {
+      "start": 1208.799,
+      "duration": 4.88,
+      "text": "say human rights can be expanded with AI",
+      "timestamp": "20:08"
+    },
+    {
+      "start": 1213.679,
+      "duration": 2.24,
+      "text": "uh yeah I mean this is thank you this is",
+      "timestamp": "20:13"
+    },
+    {
+      "start": 1215.919,
+      "duration": 2.321,
+      "text": "the hardest questions I don't really",
+      "timestamp": "20:15"
+    },
+    {
+      "start": 1218.24,
+      "duration": 3.28,
+      "text": "want to give policy advice except in the",
+      "timestamp": "20:18"
+    },
+    {
+      "start": 1221.52,
+      "duration": 1.6,
+      "text": "broadest term here which is the idea",
+      "timestamp": "20:21"
+    },
+    {
+      "start": 1223.12,
+      "duration": 3.52,
+      "text": "that we we need to recognize that there",
+      "timestamp": "20:23"
+    },
+    {
+      "start": 1226.64,
+      "duration": 3.279,
+      "text": "is a necessity of freedom from the",
+      "timestamp": "20:26"
+    },
+    {
+      "start": 1229.919,
+      "duration": 2.161,
+      "text": "system as I said as people you know",
+      "timestamp": "20:29"
+    },
+    {
+      "start": 1232.08,
+      "duration": 1.599,
+      "text": "complain about negative rights uh",
+      "timestamp": "20:32"
+    },
+    {
+      "start": 1233.679,
+      "duration": 3.761,
+      "text": "broadly in a uh lot of context there are",
+      "timestamp": "20:33"
+    },
+    {
+      "start": 1237.44,
+      "duration": 1.84,
+      "text": "ways to recontextualize this so it's not",
+      "timestamp": "20:37"
+    },
+    {
+      "start": 1239.28,
+      "duration": 1.68,
+      "text": "seen as a negative right it's it's more",
+      "timestamp": "20:39"
+    },
+    {
+      "start": 1240.96,
+      "duration": 1.76,
+      "text": "of a positive right which is freedom of",
+      "timestamp": "20:40"
+    },
+    {
+      "start": 1242.72,
+      "duration": 0.959,
+      "text": "choice",
+      "timestamp": "20:42"
+    },
+    {
+      "start": 1243.679,
+      "duration": 3.281,
+      "text": "Uh do we have free choices as these",
+      "timestamp": "20:43"
+    },
+    {
+      "start": 1246.96,
+      "duration": 2.32,
+      "text": "systems are increasingly shaping lives",
+      "timestamp": "20:46"
+    },
+    {
+      "start": 1249.28,
+      "duration": 1.84,
+      "text": "both individually and collectively at",
+      "timestamp": "20:49"
+    },
+    {
+      "start": 1251.12,
+      "duration": 2.88,
+      "text": "scale uh we are already being nudged uh",
+      "timestamp": "20:51"
+    },
+    {
+      "start": 1254.0,
+      "duration": 2.32,
+      "text": "by advertising systems by every platform",
+      "timestamp": "20:54"
+    },
+    {
+      "start": 1256.32,
+      "duration": 2.64,
+      "text": "by everything that we see today um",
+      "timestamp": "20:56"
+    },
+    {
+      "start": 1258.96,
+      "duration": 2.56,
+      "text": "everything from like algorithmic pricing",
+      "timestamp": "20:58"
+    },
+    {
+      "start": 1261.52,
+      "duration": 1.76,
+      "text": "uh taxi services right like you're",
+      "timestamp": "21:01"
+    },
+    {
+      "start": 1263.28,
+      "duration": 3.44,
+      "text": "getting an Uber or or whatever um and",
+      "timestamp": "21:03"
+    },
+    {
+      "start": 1266.72,
+      "duration": 1.76,
+      "text": "they give preferential pricing to one",
+      "timestamp": "21:06"
+    },
+    {
+      "start": 1268.48,
+      "duration": 1.76,
+      "text": "person another to another thing like",
+      "timestamp": "21:08"
+    },
+    {
+      "start": 1270.24,
+      "duration": 3.439,
+      "text": "these are the thin edge of the wedge uh",
+      "timestamp": "21:10"
+    },
+    {
+      "start": 1273.679,
+      "duration": 2.321,
+      "text": "as these things become systemically",
+      "timestamp": "21:13"
+    },
+    {
+      "start": 1276.0,
+      "duration": 2.799,
+      "text": "common as they become normalized as they",
+      "timestamp": "21:16"
+    },
+    {
+      "start": 1278.799,
+      "duration": 3.041,
+      "text": "become the average behavior of business",
+      "timestamp": "21:18"
+    },
+    {
+      "start": 1281.84,
+      "duration": 2.079,
+      "text": "they will become the average default",
+      "timestamp": "21:21"
+    },
+    {
+      "start": 1283.919,
+      "duration": 2.961,
+      "text": "behavior of government and as we begin",
+      "timestamp": "21:23"
+    },
+    {
+      "start": 1286.88,
+      "duration": 3.279,
+      "text": "making very serious impactful decisions",
+      "timestamp": "21:26"
+    },
+    {
+      "start": 1290.159,
+      "duration": 2.321,
+      "text": "about people's lives their futures we",
+      "timestamp": "21:30"
+    },
+    {
+      "start": 1292.48,
+      "duration": 2.64,
+      "text": "are determining their destiny based on",
+      "timestamp": "21:32"
+    },
+    {
+      "start": 1295.12,
+      "duration": 3.6,
+      "text": "the output of some random algorithm",
+      "timestamp": "21:35"
+    },
+    {
+      "start": 1298.72,
+      "duration": 3.36,
+      "text": "uh we need ways to",
+      "timestamp": "21:38"
+    },
+    {
+      "start": 1302.08,
+      "duration": 2.4,
+      "text": "basically challenge that and exempt",
+      "timestamp": "21:42"
+    },
+    {
+      "start": 1304.48,
+      "duration": 1.84,
+      "text": "ourselves from that and say no look I'd",
+      "timestamp": "21:44"
+    },
+    {
+      "start": 1306.32,
+      "duration": 2.4,
+      "text": "really like a human uh to evaluate this",
+      "timestamp": "21:46"
+    },
+    {
+      "start": 1308.72,
+      "duration": 3.92,
+      "text": "as opposed to a machine uh and we don't",
+      "timestamp": "21:48"
+    },
+    {
+      "start": 1312.64,
+      "duration": 2.159,
+      "text": "have any processes whatsoever for that",
+      "timestamp": "21:52"
+    },
+    {
+      "start": 1314.799,
+      "duration": 1.921,
+      "text": "and as you've seen from like the Google",
+      "timestamp": "21:54"
+    },
+    {
+      "start": 1316.72,
+      "duration": 3.439,
+      "text": "and Facebookization of the planet uh",
+      "timestamp": "21:56"
+    },
+    {
+      "start": 1320.159,
+      "duration": 2.481,
+      "text": "there's really no hunger or no appetite",
+      "timestamp": "22:00"
+    },
+    {
+      "start": 1322.64,
+      "duration": 2.96,
+      "text": "uh from companies to enable that uh",
+      "timestamp": "22:02"
+    },
+    {
+      "start": 1325.6,
+      "duration": 1.6,
+      "text": "because frankly they don't want to pay",
+      "timestamp": "22:05"
+    },
+    {
+      "start": 1327.2,
+      "duration": 1.12,
+      "text": "the salary",
+      "timestamp": "22:07"
+    },
+    {
+      "start": 1328.32,
+      "duration": 2.64,
+      "text": "for people to do that but if they occupy",
+      "timestamp": "22:08"
+    },
+    {
+      "start": 1330.96,
+      "duration": 2.4,
+      "text": "a privileged position on the planet such",
+      "timestamp": "22:10"
+    },
+    {
+      "start": 1333.36,
+      "duration": 2.16,
+      "text": "that they are shaping and ordering human",
+      "timestamp": "22:13"
+    },
+    {
+      "start": 1335.52,
+      "duration": 2.639,
+      "text": "lives they're determining what you read",
+      "timestamp": "22:15"
+    },
+    {
+      "start": 1338.159,
+      "duration": 1.601,
+      "text": "they're determining what you see and",
+      "timestamp": "22:18"
+    },
+    {
+      "start": 1339.76,
+      "duration": 1.44,
+      "text": "therefore they're determining what you",
+      "timestamp": "22:19"
+    },
+    {
+      "start": 1341.2,
+      "duration": 3.44,
+      "text": "think in in large ways and there's going",
+      "timestamp": "22:21"
+    },
+    {
+      "start": 1344.64,
+      "duration": 1.36,
+      "text": "to be new companies you know that we",
+      "timestamp": "22:24"
+    },
+    {
+      "start": 1346.0,
+      "duration": 1.679,
+      "text": "don't even know that exist and it'll be",
+      "timestamp": "22:26"
+    },
+    {
+      "start": 1347.679,
+      "duration": 2.801,
+      "text": "massive you know in 10 years uh but the",
+      "timestamp": "22:27"
+    },
+    {
+      "start": 1350.48,
+      "duration": 3.199,
+      "text": "idea is just right now to comprehend",
+      "timestamp": "22:30"
+    },
+    {
+      "start": 1353.679,
+      "duration": 1.681,
+      "text": "this is not a bullet we're going to",
+      "timestamp": "22:33"
+    },
+    {
+      "start": 1355.36,
+      "duration": 2.24,
+      "text": "dodge it's already been fired it's",
+      "timestamp": "22:35"
+    },
+    {
+      "start": 1357.6,
+      "duration": 2.16,
+      "text": "headed towards us uh we have very little",
+      "timestamp": "22:37"
+    },
+    {
+      "start": 1359.76,
+      "duration": 3.12,
+      "text": "time to react uh we have to protect",
+      "timestamp": "22:39"
+    },
+    {
+      "start": 1362.88,
+      "duration": 1.919,
+      "text": "ourselves we have to prepare for the",
+      "timestamp": "22:42"
+    },
+    {
+      "start": 1364.799,
+      "duration": 4.561,
+      "text": "world that is already headed here um and",
+      "timestamp": "22:44"
+    },
+    {
+      "start": 1369.36,
+      "duration": 1.52,
+      "text": "there's going to need to be some kind of",
+      "timestamp": "22:49"
+    },
+    {
+      "start": 1370.88,
+      "duration": 2.159,
+      "text": "like it's not like oh ban AI or there's",
+      "timestamp": "22:50"
+    },
+    {
+      "start": 1373.039,
+      "duration": 1.681,
+      "text": "a limit of this many flops in a data",
+      "timestamp": "22:53"
+    },
+    {
+      "start": 1374.72,
+      "duration": 1.76,
+      "text": "center all the idiot stuff that we see",
+      "timestamp": "22:54"
+    },
+    {
+      "start": 1376.48,
+      "duration": 2.8,
+      "text": "in terms of AI regulation right now uh",
+      "timestamp": "22:56"
+    },
+    {
+      "start": 1379.28,
+      "duration": 3.279,
+      "text": "it's more broadly uh what do people do",
+      "timestamp": "22:59"
+    },
+    {
+      "start": 1382.559,
+      "duration": 2.321,
+      "text": "what recourse do they have uh when they",
+      "timestamp": "23:02"
+    },
+    {
+      "start": 1384.88,
+      "duration": 3.6,
+      "text": "have been ruled against by some AI",
+      "timestamp": "23:04"
+    },
+    {
+      "start": 1388.48,
+      "duration": 3.04,
+      "text": "system uh you need visibility to them",
+      "timestamp": "23:08"
+    },
+    {
+      "start": 1391.52,
+      "duration": 2.08,
+      "text": "you need that decision delivered to you",
+      "timestamp": "23:11"
+    },
+    {
+      "start": 1393.6,
+      "duration": 1.92,
+      "text": "right you need to be able to basically",
+      "timestamp": "23:13"
+    },
+    {
+      "start": 1395.52,
+      "duration": 1.68,
+      "text": "challenge and say look here's the basis",
+      "timestamp": "23:15"
+    },
+    {
+      "start": 1397.2,
+      "duration": 3.12,
+      "text": "and their model spits out here's all the",
+      "timestamp": "23:17"
+    },
+    {
+      "start": 1400.32,
+      "duration": 3.52,
+      "text": "inputs that we uh use to determine this",
+      "timestamp": "23:20"
+    },
+    {
+      "start": 1403.84,
+      "duration": 2.0,
+      "text": "output that were ranked based on this",
+      "timestamp": "23:23"
+    },
+    {
+      "start": 1405.84,
+      "duration": 2.0,
+      "text": "order and the systems have to be doing",
+      "timestamp": "23:25"
+    },
+    {
+      "start": 1407.84,
+      "duration": 2.0,
+      "text": "that you can't just have the black box",
+      "timestamp": "23:27"
+    },
+    {
+      "start": 1409.84,
+      "duration": 3.12,
+      "text": "where it goes you know should John Doe",
+      "timestamp": "23:29"
+    },
+    {
+      "start": 1412.96,
+      "duration": 2.88,
+      "text": "uh be accepted for XYZ and the you know",
+      "timestamp": "23:32"
+    },
+    {
+      "start": 1415.84,
+      "duration": 1.44,
+      "text": "the person at the desk says well the",
+      "timestamp": "23:35"
+    },
+    {
+      "start": 1417.28,
+      "duration": 1.92,
+      "text": "computer says no and there's no way to",
+      "timestamp": "23:37"
+    },
+    {
+      "start": 1419.2,
+      "duration": 1.68,
+      "text": "interrogate that there's no way to go",
+      "timestamp": "23:39"
+    },
+    {
+      "start": 1420.88,
+      "duration": 1.44,
+      "text": "look into that that that's all I got",
+      "timestamp": "23:40"
+    },
+    {
+      "start": 1422.32,
+      "duration": 3.0,
+      "text": "there",
+      "timestamp": "23:42"
+    }
+  ],
+  "extraction_timestamp": "2025-06-29T20:47:10.698742",
+  "playlist_title": "SuperAI Singapore 2025: io.net Main Stage"
+}

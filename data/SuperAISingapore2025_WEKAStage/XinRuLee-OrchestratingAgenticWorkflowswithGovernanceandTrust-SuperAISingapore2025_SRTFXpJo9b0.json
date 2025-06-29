@@ -1,0 +1,1841 @@
+{
+  "video_id": "SRTFXpJo9b0",
+  "video_title": "Xin Ru Lee - Orchestrating Agentic Workflows with Governance and Trust - SuperAI Singapore 2025",
+  "video_url": "https://www.youtube.com/watch?v=SRTFXpJo9b0",
+  "channel_title": "SuperAI",
+  "published_at": "2025-06-25T06:27:08+00:00",
+  "duration_seconds": null,
+  "view_count": 65,
+  "like_count": 3,
+  "description": "Learn more about SuperAI: superai.com\nFollow us on X: x.com/superai_conf\n\nKeynote: Orchestrating Agentic Workflows with Governance and Trust\n\nSpeaker:\nXin Ru Lee, Sr. Solutions Architect @ SAS\n\nStage: WEKA Stage\n#superai #sas #aiagents #aigovernance #trust \n\nRecorded on 19 June 2025",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 303,
+    "aggregated_text": "hi everyone thank you for attending my session today i am Sin Ru and I'm from the global technology practice team at SAS so today I'll be talking about how we can orchestrate agentic workflows with governance and trust so in other words what do we need when it comes to building future ready AI agents for enterprises so we have progressed from large language models uh to AI agents where AI agents can now autonomously take actions on behalf of humans they can also adapt to changing environments and they can enhance the productivity of humans by executing complex tasks however there are challenges that undermine the effectiveness of AI agents in the enterprise world so we need accuracy consistency and the transparency of how the agent came to that decision so in order for customers to feel comfortable or confident when they're using AI agents in fact in highly regulated industries they are not allowed to use AI agents if it they cannot achieve these criterias so what if the AI agent is wrong right uh when do we need to escalate it to a human for review so in some cases we want the AI agent to do the heavy lifting but um we still want humans to come in uh where it is crucial where the risk level is high and where the impact of making the wrong decision uh it's it's larger so sometimes we need to bring in subject matter expertise that cannot be automated so this is where we want human in the loop then we also need to consider the ethical and regulatory aspect of things so is the agent ethical and does it comply with um regulatory and organizational standards so this is where uh we think that the future of enterprise AI agents is hybrid right uh fully autonomous agent uh which is how the industry defines AI agents today um they they have some limitations they struggle in the enterprise environment and why is that so this is because LMS are probab probabilistic in nature so um when you ask the same question twice you might not even get the same answer so even if you write a super good prom right so there needs to be some sort of um accountability in a system to figure out and and figure out where you want human in the loop uh where you find with handing over the the degree of autonomy to the LM for example in a loan application scenario you might not want to use an LM to make the decision for you in terms of who is getting their loan approved or not so this is where you might want to bring in some sort of deterministic component say uh a scorecard model or a logistic regression model to determine um who is getting the loan approved and some sort of business rules behind that so this is why the future of enterprise AI agents is hybrid so these are some of the main use cases that we hear from our customers and these are all not new use cases right where do we see um the value of large language models in this industries for example um in a call center transformation uh scenario this is where personalization is key so large language model can uh bring a huge uh value in this case whereas uh in terms of processing insurance claims right it's a long tedious process it takes sometimes uh you have to wait weeks uh in order for your claims to be to know the status of your claims whether they are approved or rejected so this is where large language model can help speed up the time uh to make that decision and then in a production um optimization um scenario so these are things that uh have to be done regularly these are complex scenarios that have to be done again and again so this is where large language models can also be used uh to help the humans um do better so what do we think um what is required for us to build and design an AI agent firstly it needs to be on top of some sort of decisioning platform uh where you can uh bring in business logic so it needs to follow some sort of business logic uh you must have the ability to um access data whether it's internal data or an external call to let's say a credit bureau uh you must have the ability to bring in deterministic components like AI models so not just large language models which are probabilistic in nature then it is about balancing um human in the loop and out of the loop so it really depends on your use case the risk appetite that you have for your use case how much um control you want it over here and then lastly we talk about governance so uh the way you you come up with that decision it has to be uh tracked right you need to understand the lineage of how the decision reach that how we reach that decision so this are the various components um that make up um what's necessary in an agentic uh AI workflow so starting with the left hand side we have the building blocks so this is where you can bring in data so whether it's like a a rack rack u vector store or whether you're trying to access your enterprise data access third party uh applications um you must also think about the tools that uh we want to incorporate into the large language models it could be uh simple business rules it could be uh AI and machine learning um models and then the last piece is the large language model so you have your a repository of prompts that are the best practices that your organizations have created or it could be a repository of large language models really you're agnostic you can choose different ones depending on what suits you best then in the middle is about balancing human in the loop and human out of the loop right um sometimes you can um have a AI agents itself is uh really specialized so they are very good at executing a single task but in a normal business scenario is more complex than that right uh you sometimes need multiple AI agents that are orchestrated within the same workflow uh lastly deployment uh you can deploy it in real time or in batch or streaming and deploy it into the interface that you want so whether it's a chatbot or web application uh it's up to you so let's dive deep deeper let's look at this example it's a complaints agent right where we're trying to manage uh and summarize previous uh customer complaints to understand further in the first part we are trying to augment the enterprise agentic workflow with data so it could be a query to an internal database uh it could be a call to an external service and then we bring in large language models wherever we need uh wherever we find the greatest value um and sometimes not just large language model you want to bring in analytical models and how do we combine those with business rules next is to implement guardrails right large language model you you cannot really predict what kind of answer it's going to come up with how do you implement guardrails to check that uh the responses are accurate or how can you check whether they contain any sensitive or private uh or confidential information you want to block them out and how do we bring in human in the loop so this is where uh in some cases you might want to escalate it to a human for review lastly is about the ability to store uh the memory so this could be a session memory so that when you are conversing in a chatbot you don't have to repeat yourself uh it's able to understand the previous uh prompts that you have inserted into a chatbot before or sometimes you want to store the conversation history beyond the session so that uh you can personalize your future interactions with the customer so now um we've talked about building AI agents but sometimes we need more than one AI agent so how can we orchestrate a multi- aent system so let's look at this example which is a financial advisor agent uh that comprises of different tools the first one was the complaints agent that we we saw and then we have the churn agent as well as an email agent that we would like to use to maybe send a report at the end of it so this is how it looks like we have an orchestration which is essentially the brains of the agentic workflow is um trying to understand the customer's input and route it to the necessary agents whether it's complaints churn or email and it's able to understand that um what are the information that we are missing out uh do I need to ask the customer for more information those are handed by the large language model so let's dive deeper into the specialized AI agents there each of them are focused on their own task they cannot do another task well so for example the complaints agent is there to extract and summarize the customer complaints the churn agent is there where you have you have like um maybe a gradient boosting model to understand the probability of the customer churning what's their risk level and maybe you have another model that helps you to explain um why the customer received this probability then we have an email agent that's able to generate a report and send to the respective uh stakeholders lastly all of this is packaged uh into a single container and deployed as an endpoint um so whether it's a chatbot like you see here or whether it's a web application it's really up to you and let's see how it looks like so here we are saying um we're asking the chatbot how likely is it uh that Mary will leave us as a customer so it needs more details it's asking for its full name and a customer ID in order to call the right agent so now it's calling the churn agent behind the scenes and this is the explanation it's able to generate in real time uh the reasons why we think that Mary might churn so another thing is that okay can you route this whatever you send whatever you reply to me can you route all this information to uh this email address can you send a report to me so it's going to do that and this time the same agentic workflow is able to understand the customer's intention and route to the email agent instead of the churn agent and we'll see this report in just a So the email is sent successfully it called the CH agent and here we have a CH report for Mary Smith lastly to sum up um there has to be some sort of built-in governance right uh not just the AI agent itself where we want to see the lineage as to how the decision came about but also an end toend governance because there are data sets that you bring in uh there are models that you train um the data on and these have to be governed so you need to have end to-end lineage in this is so to to sum up what do we need in terms of building and deploying enterprise AI agents uh you need to orchestrate you have need to have a good orchestration system uh that takes into account multiple AI agents you you need to have the ability to work with different large language models so then you must be agnostic so that you can bring in the large language model that is best suited for your needs then we talk about data protection because you want to be able to access data but at the same time control who has access to this data and many other guardrails that uh we can see here but to sum up and end off before my time is up you can reach out to me at assess booth uh I'm happy to hear about more about your AI use cases and we can dive further into the demo that you saw earlier thank you",
+    "text_length": 11097,
+    "word_count": 2116
+  },
+  "segments": [
+    {
+      "start": 7.839,
+      "duration": 2.081,
+      "text": "hi everyone thank you for attending my",
+      "timestamp": "00:07"
+    },
+    {
+      "start": 9.92,
+      "duration": 2.799,
+      "text": "session today i am Sin Ru and I'm from",
+      "timestamp": "00:09"
+    },
+    {
+      "start": 12.719,
+      "duration": 2.08,
+      "text": "the global technology practice team at",
+      "timestamp": "00:12"
+    },
+    {
+      "start": 14.799,
+      "duration": 2.56,
+      "text": "SAS so today I'll be talking about how",
+      "timestamp": "00:14"
+    },
+    {
+      "start": 17.359,
+      "duration": 2.481,
+      "text": "we can orchestrate agentic workflows",
+      "timestamp": "00:17"
+    },
+    {
+      "start": 19.84,
+      "duration": 2.48,
+      "text": "with governance and trust so in other",
+      "timestamp": "00:19"
+    },
+    {
+      "start": 22.32,
+      "duration": 2.48,
+      "text": "words what do we need when it comes to",
+      "timestamp": "00:22"
+    },
+    {
+      "start": 24.8,
+      "duration": 2.719,
+      "text": "building future ready AI agents for",
+      "timestamp": "00:24"
+    },
+    {
+      "start": 27.519,
+      "duration": 3.0,
+      "text": "enterprises",
+      "timestamp": "00:27"
+    },
+    {
+      "start": 30.88,
+      "duration": 2.64,
+      "text": "so we have progressed from large",
+      "timestamp": "00:30"
+    },
+    {
+      "start": 33.52,
+      "duration": 3.36,
+      "text": "language models uh to AI agents where AI",
+      "timestamp": "00:33"
+    },
+    {
+      "start": 36.88,
+      "duration": 3.519,
+      "text": "agents can now autonomously take actions",
+      "timestamp": "00:36"
+    },
+    {
+      "start": 40.399,
+      "duration": 4.401,
+      "text": "on behalf of humans they can also adapt",
+      "timestamp": "00:40"
+    },
+    {
+      "start": 44.8,
+      "duration": 2.64,
+      "text": "to changing environments and they can",
+      "timestamp": "00:44"
+    },
+    {
+      "start": 47.44,
+      "duration": 2.88,
+      "text": "enhance the productivity of humans by",
+      "timestamp": "00:47"
+    },
+    {
+      "start": 50.32,
+      "duration": 4.239,
+      "text": "executing complex tasks",
+      "timestamp": "00:50"
+    },
+    {
+      "start": 54.559,
+      "duration": 1.84,
+      "text": "however there are challenges that",
+      "timestamp": "00:54"
+    },
+    {
+      "start": 56.399,
+      "duration": 2.16,
+      "text": "undermine the effectiveness of AI agents",
+      "timestamp": "00:56"
+    },
+    {
+      "start": 58.559,
+      "duration": 2.8,
+      "text": "in the enterprise world so we need",
+      "timestamp": "00:58"
+    },
+    {
+      "start": 61.359,
+      "duration": 1.52,
+      "text": "accuracy",
+      "timestamp": "01:01"
+    },
+    {
+      "start": 62.879,
+      "duration": 3.441,
+      "text": "consistency and the transparency of how",
+      "timestamp": "01:02"
+    },
+    {
+      "start": 66.32,
+      "duration": 2.96,
+      "text": "the agent came to that decision so in",
+      "timestamp": "01:06"
+    },
+    {
+      "start": 69.28,
+      "duration": 2.24,
+      "text": "order for customers to feel comfortable",
+      "timestamp": "01:09"
+    },
+    {
+      "start": 71.52,
+      "duration": 2.08,
+      "text": "or confident when they're using AI",
+      "timestamp": "01:11"
+    },
+    {
+      "start": 73.6,
+      "duration": 1.839,
+      "text": "agents",
+      "timestamp": "01:13"
+    },
+    {
+      "start": 75.439,
+      "duration": 3.201,
+      "text": "in fact in highly regulated industries",
+      "timestamp": "01:15"
+    },
+    {
+      "start": 78.64,
+      "duration": 2.24,
+      "text": "they are not allowed to use AI agents if",
+      "timestamp": "01:18"
+    },
+    {
+      "start": 80.88,
+      "duration": 2.96,
+      "text": "it they cannot achieve these criterias",
+      "timestamp": "01:20"
+    },
+    {
+      "start": 83.84,
+      "duration": 3.68,
+      "text": "so what if the AI agent is wrong right",
+      "timestamp": "01:23"
+    },
+    {
+      "start": 87.52,
+      "duration": 2.959,
+      "text": "uh when do we need to escalate it to a",
+      "timestamp": "01:27"
+    },
+    {
+      "start": 90.479,
+      "duration": 2.161,
+      "text": "human for review",
+      "timestamp": "01:30"
+    },
+    {
+      "start": 92.64,
+      "duration": 3.519,
+      "text": "so in some cases we want the AI agent to",
+      "timestamp": "01:32"
+    },
+    {
+      "start": 96.159,
+      "duration": 3.201,
+      "text": "do the heavy lifting but um we still",
+      "timestamp": "01:36"
+    },
+    {
+      "start": 99.36,
+      "duration": 2.64,
+      "text": "want humans to come in uh where it is",
+      "timestamp": "01:39"
+    },
+    {
+      "start": 102.0,
+      "duration": 2.64,
+      "text": "crucial where the risk level is high and",
+      "timestamp": "01:42"
+    },
+    {
+      "start": 104.64,
+      "duration": 2.159,
+      "text": "where the impact of making the wrong",
+      "timestamp": "01:44"
+    },
+    {
+      "start": 106.799,
+      "duration": 3.6,
+      "text": "decision uh it's it's larger so",
+      "timestamp": "01:46"
+    },
+    {
+      "start": 110.399,
+      "duration": 2.72,
+      "text": "sometimes we need to bring in subject",
+      "timestamp": "01:50"
+    },
+    {
+      "start": 113.119,
+      "duration": 2.0,
+      "text": "matter expertise that cannot be",
+      "timestamp": "01:53"
+    },
+    {
+      "start": 115.119,
+      "duration": 1.841,
+      "text": "automated so this is where we want human",
+      "timestamp": "01:55"
+    },
+    {
+      "start": 116.96,
+      "duration": 3.519,
+      "text": "in the loop then we also need to",
+      "timestamp": "01:56"
+    },
+    {
+      "start": 120.479,
+      "duration": 2.161,
+      "text": "consider the ethical and regulatory",
+      "timestamp": "02:00"
+    },
+    {
+      "start": 122.64,
+      "duration": 3.439,
+      "text": "aspect of things so is the agent ethical",
+      "timestamp": "02:02"
+    },
+    {
+      "start": 126.079,
+      "duration": 3.281,
+      "text": "and does it comply with um regulatory",
+      "timestamp": "02:06"
+    },
+    {
+      "start": 129.36,
+      "duration": 4.32,
+      "text": "and organizational standards",
+      "timestamp": "02:09"
+    },
+    {
+      "start": 133.68,
+      "duration": 3.84,
+      "text": "so this is where uh we think that",
+      "timestamp": "02:13"
+    },
+    {
+      "start": 137.52,
+      "duration": 2.719,
+      "text": "the future of enterprise AI agents is",
+      "timestamp": "02:17"
+    },
+    {
+      "start": 140.239,
+      "duration": 3.36,
+      "text": "hybrid right uh fully autonomous agent",
+      "timestamp": "02:20"
+    },
+    {
+      "start": 143.599,
+      "duration": 2.72,
+      "text": "uh which is how the industry defines AI",
+      "timestamp": "02:23"
+    },
+    {
+      "start": 146.319,
+      "duration": 2.881,
+      "text": "agents today um they they have some",
+      "timestamp": "02:26"
+    },
+    {
+      "start": 149.2,
+      "duration": 1.84,
+      "text": "limitations they struggle in the",
+      "timestamp": "02:29"
+    },
+    {
+      "start": 151.04,
+      "duration": 2.479,
+      "text": "enterprise environment and why is that",
+      "timestamp": "02:31"
+    },
+    {
+      "start": 153.519,
+      "duration": 4.241,
+      "text": "so this is because LMS are probab",
+      "timestamp": "02:33"
+    },
+    {
+      "start": 157.76,
+      "duration": 2.479,
+      "text": "probabilistic in nature so um when you",
+      "timestamp": "02:37"
+    },
+    {
+      "start": 160.239,
+      "duration": 1.921,
+      "text": "ask the same question twice you might",
+      "timestamp": "02:40"
+    },
+    {
+      "start": 162.16,
+      "duration": 2.56,
+      "text": "not even get the same answer so even if",
+      "timestamp": "02:42"
+    },
+    {
+      "start": 164.72,
+      "duration": 3.519,
+      "text": "you write a super good prom right so",
+      "timestamp": "02:44"
+    },
+    {
+      "start": 168.239,
+      "duration": 2.0,
+      "text": "there needs to be some sort of um",
+      "timestamp": "02:48"
+    },
+    {
+      "start": 170.239,
+      "duration": 2.881,
+      "text": "accountability in a system to figure out",
+      "timestamp": "02:50"
+    },
+    {
+      "start": 173.12,
+      "duration": 1.839,
+      "text": "and and figure out where you want human",
+      "timestamp": "02:53"
+    },
+    {
+      "start": 174.959,
+      "duration": 2.801,
+      "text": "in the loop uh where you find with",
+      "timestamp": "02:54"
+    },
+    {
+      "start": 177.76,
+      "duration": 3.04,
+      "text": "handing over the the degree of autonomy",
+      "timestamp": "02:57"
+    },
+    {
+      "start": 180.8,
+      "duration": 2.719,
+      "text": "to the LM for example in a loan",
+      "timestamp": "03:00"
+    },
+    {
+      "start": 183.519,
+      "duration": 2.0,
+      "text": "application scenario you might not want",
+      "timestamp": "03:03"
+    },
+    {
+      "start": 185.519,
+      "duration": 2.8,
+      "text": "to use an LM to make the decision for",
+      "timestamp": "03:05"
+    },
+    {
+      "start": 188.319,
+      "duration": 1.84,
+      "text": "you in terms of who is getting their",
+      "timestamp": "03:08"
+    },
+    {
+      "start": 190.159,
+      "duration": 2.8,
+      "text": "loan approved or not so this is where",
+      "timestamp": "03:10"
+    },
+    {
+      "start": 192.959,
+      "duration": 1.761,
+      "text": "you might want to bring in some sort of",
+      "timestamp": "03:12"
+    },
+    {
+      "start": 194.72,
+      "duration": 2.239,
+      "text": "deterministic component say uh a",
+      "timestamp": "03:14"
+    },
+    {
+      "start": 196.959,
+      "duration": 2.56,
+      "text": "scorecard model or a logistic regression",
+      "timestamp": "03:16"
+    },
+    {
+      "start": 199.519,
+      "duration": 3.281,
+      "text": "model to determine um who is getting the",
+      "timestamp": "03:19"
+    },
+    {
+      "start": 202.8,
+      "duration": 2.0,
+      "text": "loan approved and some sort of business",
+      "timestamp": "03:22"
+    },
+    {
+      "start": 204.8,
+      "duration": 3.12,
+      "text": "rules behind that so this is why the",
+      "timestamp": "03:24"
+    },
+    {
+      "start": 207.92,
+      "duration": 4.319,
+      "text": "future of enterprise AI agents is hybrid",
+      "timestamp": "03:27"
+    },
+    {
+      "start": 212.239,
+      "duration": 2.161,
+      "text": "so these are some of the main use cases",
+      "timestamp": "03:32"
+    },
+    {
+      "start": 214.4,
+      "duration": 1.919,
+      "text": "that we hear from our customers and",
+      "timestamp": "03:34"
+    },
+    {
+      "start": 216.319,
+      "duration": 3.28,
+      "text": "these are all not new use cases right",
+      "timestamp": "03:36"
+    },
+    {
+      "start": 219.599,
+      "duration": 2.801,
+      "text": "where do we see um the value of large",
+      "timestamp": "03:39"
+    },
+    {
+      "start": 222.4,
+      "duration": 2.88,
+      "text": "language models in this industries for",
+      "timestamp": "03:42"
+    },
+    {
+      "start": 225.28,
+      "duration": 2.48,
+      "text": "example um in a call center",
+      "timestamp": "03:45"
+    },
+    {
+      "start": 227.76,
+      "duration": 3.199,
+      "text": "transformation uh scenario this is where",
+      "timestamp": "03:47"
+    },
+    {
+      "start": 230.959,
+      "duration": 3.041,
+      "text": "personalization is key so large language",
+      "timestamp": "03:50"
+    },
+    {
+      "start": 234.0,
+      "duration": 3.04,
+      "text": "model can uh bring a huge uh value in",
+      "timestamp": "03:54"
+    },
+    {
+      "start": 237.04,
+      "duration": 3.52,
+      "text": "this case whereas uh in terms of",
+      "timestamp": "03:57"
+    },
+    {
+      "start": 240.56,
+      "duration": 1.039,
+      "text": "processing",
+      "timestamp": "04:00"
+    },
+    {
+      "start": 241.599,
+      "duration": 2.081,
+      "text": "insurance claims right it's a long",
+      "timestamp": "04:01"
+    },
+    {
+      "start": 243.68,
+      "duration": 2.32,
+      "text": "tedious process it takes sometimes uh",
+      "timestamp": "04:03"
+    },
+    {
+      "start": 246.0,
+      "duration": 2.239,
+      "text": "you have to wait weeks uh in order for",
+      "timestamp": "04:06"
+    },
+    {
+      "start": 248.239,
+      "duration": 2.321,
+      "text": "your claims to be to know the status of",
+      "timestamp": "04:08"
+    },
+    {
+      "start": 250.56,
+      "duration": 1.52,
+      "text": "your claims whether they are approved or",
+      "timestamp": "04:10"
+    },
+    {
+      "start": 252.08,
+      "duration": 2.56,
+      "text": "rejected so this is where large language",
+      "timestamp": "04:12"
+    },
+    {
+      "start": 254.64,
+      "duration": 3.2,
+      "text": "model can help speed up the time uh to",
+      "timestamp": "04:14"
+    },
+    {
+      "start": 257.84,
+      "duration": 2.16,
+      "text": "make that decision",
+      "timestamp": "04:17"
+    },
+    {
+      "start": 260.0,
+      "duration": 3.84,
+      "text": "and then in a production um optimization",
+      "timestamp": "04:20"
+    },
+    {
+      "start": 263.84,
+      "duration": 2.88,
+      "text": "um scenario so these are things that uh",
+      "timestamp": "04:23"
+    },
+    {
+      "start": 266.72,
+      "duration": 2.24,
+      "text": "have to be done regularly these are",
+      "timestamp": "04:26"
+    },
+    {
+      "start": 268.96,
+      "duration": 2.88,
+      "text": "complex scenarios that have to be done",
+      "timestamp": "04:28"
+    },
+    {
+      "start": 271.84,
+      "duration": 2.799,
+      "text": "again and again so this is where large",
+      "timestamp": "04:31"
+    },
+    {
+      "start": 274.639,
+      "duration": 2.481,
+      "text": "language models can also be used uh to",
+      "timestamp": "04:34"
+    },
+    {
+      "start": 277.12,
+      "duration": 4.72,
+      "text": "help the humans um do better",
+      "timestamp": "04:37"
+    },
+    {
+      "start": 281.84,
+      "duration": 3.76,
+      "text": "so what do we think um what is required",
+      "timestamp": "04:41"
+    },
+    {
+      "start": 285.6,
+      "duration": 3.84,
+      "text": "for us to build and design an AI agent",
+      "timestamp": "04:45"
+    },
+    {
+      "start": 289.44,
+      "duration": 2.24,
+      "text": "firstly it needs to be on top of some",
+      "timestamp": "04:49"
+    },
+    {
+      "start": 291.68,
+      "duration": 2.56,
+      "text": "sort of decisioning platform uh where",
+      "timestamp": "04:51"
+    },
+    {
+      "start": 294.24,
+      "duration": 2.88,
+      "text": "you can uh bring in business logic so it",
+      "timestamp": "04:54"
+    },
+    {
+      "start": 297.12,
+      "duration": 1.44,
+      "text": "needs to follow some sort of business",
+      "timestamp": "04:57"
+    },
+    {
+      "start": 298.56,
+      "duration": 4.16,
+      "text": "logic uh you must have the ability to um",
+      "timestamp": "04:58"
+    },
+    {
+      "start": 302.72,
+      "duration": 2.64,
+      "text": "access data whether it's internal data",
+      "timestamp": "05:02"
+    },
+    {
+      "start": 305.36,
+      "duration": 3.119,
+      "text": "or an external call to let's say a",
+      "timestamp": "05:05"
+    },
+    {
+      "start": 308.479,
+      "duration": 3.121,
+      "text": "credit bureau uh you must have the",
+      "timestamp": "05:08"
+    },
+    {
+      "start": 311.6,
+      "duration": 2.4,
+      "text": "ability to bring in deterministic",
+      "timestamp": "05:11"
+    },
+    {
+      "start": 314.0,
+      "duration": 2.88,
+      "text": "components like AI models so not just",
+      "timestamp": "05:14"
+    },
+    {
+      "start": 316.88,
+      "duration": 1.68,
+      "text": "large language models which are",
+      "timestamp": "05:16"
+    },
+    {
+      "start": 318.56,
+      "duration": 4.32,
+      "text": "probabilistic in nature then it is about",
+      "timestamp": "05:18"
+    },
+    {
+      "start": 322.88,
+      "duration": 3.599,
+      "text": "balancing um human in the loop and out",
+      "timestamp": "05:22"
+    },
+    {
+      "start": 326.479,
+      "duration": 2.0,
+      "text": "of the loop so it really depends on your",
+      "timestamp": "05:26"
+    },
+    {
+      "start": 328.479,
+      "duration": 1.841,
+      "text": "use case the risk appetite that you have",
+      "timestamp": "05:28"
+    },
+    {
+      "start": 330.32,
+      "duration": 3.12,
+      "text": "for your use case how much um control",
+      "timestamp": "05:30"
+    },
+    {
+      "start": 333.44,
+      "duration": 4.24,
+      "text": "you want it over here and then lastly we",
+      "timestamp": "05:33"
+    },
+    {
+      "start": 337.68,
+      "duration": 3.359,
+      "text": "talk about governance so uh the way you",
+      "timestamp": "05:37"
+    },
+    {
+      "start": 341.039,
+      "duration": 2.961,
+      "text": "you come up with that decision it has to",
+      "timestamp": "05:41"
+    },
+    {
+      "start": 344.0,
+      "duration": 2.4,
+      "text": "be uh tracked right you need to",
+      "timestamp": "05:44"
+    },
+    {
+      "start": 346.4,
+      "duration": 2.4,
+      "text": "understand the lineage of how the",
+      "timestamp": "05:46"
+    },
+    {
+      "start": 348.8,
+      "duration": 2.239,
+      "text": "decision reach that how we reach that",
+      "timestamp": "05:48"
+    },
+    {
+      "start": 351.039,
+      "duration": 3.0,
+      "text": "decision",
+      "timestamp": "05:51"
+    },
+    {
+      "start": 354.8,
+      "duration": 3.6,
+      "text": "so this are the various components um",
+      "timestamp": "05:54"
+    },
+    {
+      "start": 358.4,
+      "duration": 3.44,
+      "text": "that make up um what's necessary in an",
+      "timestamp": "05:58"
+    },
+    {
+      "start": 361.84,
+      "duration": 2.96,
+      "text": "agentic uh AI workflow so starting with",
+      "timestamp": "06:01"
+    },
+    {
+      "start": 364.8,
+      "duration": 1.519,
+      "text": "the left hand side we have the building",
+      "timestamp": "06:04"
+    },
+    {
+      "start": 366.319,
+      "duration": 1.841,
+      "text": "blocks so this is where you can bring in",
+      "timestamp": "06:06"
+    },
+    {
+      "start": 368.16,
+      "duration": 3.52,
+      "text": "data so whether it's like a a rack rack",
+      "timestamp": "06:08"
+    },
+    {
+      "start": 371.68,
+      "duration": 2.239,
+      "text": "u vector store or whether you're trying",
+      "timestamp": "06:11"
+    },
+    {
+      "start": 373.919,
+      "duration": 2.641,
+      "text": "to access your enterprise data access",
+      "timestamp": "06:13"
+    },
+    {
+      "start": 376.56,
+      "duration": 2.72,
+      "text": "third party uh applications",
+      "timestamp": "06:16"
+    },
+    {
+      "start": 379.28,
+      "duration": 2.639,
+      "text": "um you must also think about the tools",
+      "timestamp": "06:19"
+    },
+    {
+      "start": 381.919,
+      "duration": 2.481,
+      "text": "that uh we want to incorporate into the",
+      "timestamp": "06:21"
+    },
+    {
+      "start": 384.4,
+      "duration": 2.4,
+      "text": "large language models it could be uh",
+      "timestamp": "06:24"
+    },
+    {
+      "start": 386.8,
+      "duration": 2.72,
+      "text": "simple business rules it could be uh AI",
+      "timestamp": "06:26"
+    },
+    {
+      "start": 389.52,
+      "duration": 3.679,
+      "text": "and machine learning um models",
+      "timestamp": "06:29"
+    },
+    {
+      "start": 393.199,
+      "duration": 2.72,
+      "text": "and then the last piece is the large",
+      "timestamp": "06:33"
+    },
+    {
+      "start": 395.919,
+      "duration": 2.0,
+      "text": "language model so you have your a",
+      "timestamp": "06:35"
+    },
+    {
+      "start": 397.919,
+      "duration": 2.4,
+      "text": "repository of prompts that are the best",
+      "timestamp": "06:37"
+    },
+    {
+      "start": 400.319,
+      "duration": 2.16,
+      "text": "practices that your organizations have",
+      "timestamp": "06:40"
+    },
+    {
+      "start": 402.479,
+      "duration": 2.961,
+      "text": "created or it could be a repository of",
+      "timestamp": "06:42"
+    },
+    {
+      "start": 405.44,
+      "duration": 1.68,
+      "text": "large language models really you're",
+      "timestamp": "06:45"
+    },
+    {
+      "start": 407.12,
+      "duration": 2.0,
+      "text": "agnostic you can choose different ones",
+      "timestamp": "06:47"
+    },
+    {
+      "start": 409.12,
+      "duration": 3.68,
+      "text": "depending on what suits you best then in",
+      "timestamp": "06:49"
+    },
+    {
+      "start": 412.8,
+      "duration": 2.56,
+      "text": "the middle is about balancing human in",
+      "timestamp": "06:52"
+    },
+    {
+      "start": 415.36,
+      "duration": 2.559,
+      "text": "the loop and human out of the loop right",
+      "timestamp": "06:55"
+    },
+    {
+      "start": 417.919,
+      "duration": 3.601,
+      "text": "um sometimes you can um have a AI agents",
+      "timestamp": "06:57"
+    },
+    {
+      "start": 421.52,
+      "duration": 2.399,
+      "text": "itself is uh really specialized so they",
+      "timestamp": "07:01"
+    },
+    {
+      "start": 423.919,
+      "duration": 2.801,
+      "text": "are very good at executing a single task",
+      "timestamp": "07:03"
+    },
+    {
+      "start": 426.72,
+      "duration": 2.479,
+      "text": "but in a normal business scenario is",
+      "timestamp": "07:06"
+    },
+    {
+      "start": 429.199,
+      "duration": 2.56,
+      "text": "more complex than that right uh you",
+      "timestamp": "07:09"
+    },
+    {
+      "start": 431.759,
+      "duration": 2.081,
+      "text": "sometimes need multiple AI agents that",
+      "timestamp": "07:11"
+    },
+    {
+      "start": 433.84,
+      "duration": 1.44,
+      "text": "are orchestrated within the same",
+      "timestamp": "07:13"
+    },
+    {
+      "start": 435.28,
+      "duration": 1.759,
+      "text": "workflow",
+      "timestamp": "07:15"
+    },
+    {
+      "start": 437.039,
+      "duration": 2.88,
+      "text": "uh lastly deployment uh you can deploy",
+      "timestamp": "07:17"
+    },
+    {
+      "start": 439.919,
+      "duration": 3.68,
+      "text": "it in real time or in batch or streaming",
+      "timestamp": "07:19"
+    },
+    {
+      "start": 443.599,
+      "duration": 2.801,
+      "text": "and deploy it into the interface that",
+      "timestamp": "07:23"
+    },
+    {
+      "start": 446.4,
+      "duration": 1.84,
+      "text": "you want so whether it's a chatbot or",
+      "timestamp": "07:26"
+    },
+    {
+      "start": 448.24,
+      "duration": 3.44,
+      "text": "web application uh it's up to you so",
+      "timestamp": "07:28"
+    },
+    {
+      "start": 451.68,
+      "duration": 2.639,
+      "text": "let's dive deep deeper let's look at",
+      "timestamp": "07:31"
+    },
+    {
+      "start": 454.319,
+      "duration": 3.041,
+      "text": "this example it's a complaints agent",
+      "timestamp": "07:34"
+    },
+    {
+      "start": 457.36,
+      "duration": 2.72,
+      "text": "right where we're trying to manage uh",
+      "timestamp": "07:37"
+    },
+    {
+      "start": 460.08,
+      "duration": 2.32,
+      "text": "and summarize previous uh customer",
+      "timestamp": "07:40"
+    },
+    {
+      "start": 462.4,
+      "duration": 2.72,
+      "text": "complaints to understand further in the",
+      "timestamp": "07:42"
+    },
+    {
+      "start": 465.12,
+      "duration": 3.919,
+      "text": "first part we are trying to augment the",
+      "timestamp": "07:45"
+    },
+    {
+      "start": 469.039,
+      "duration": 3.44,
+      "text": "enterprise agentic workflow with data so",
+      "timestamp": "07:49"
+    },
+    {
+      "start": 472.479,
+      "duration": 1.84,
+      "text": "it could be a query to an internal",
+      "timestamp": "07:52"
+    },
+    {
+      "start": 474.319,
+      "duration": 3.121,
+      "text": "database uh it could be a call to an",
+      "timestamp": "07:54"
+    },
+    {
+      "start": 477.44,
+      "duration": 2.159,
+      "text": "external service",
+      "timestamp": "07:57"
+    },
+    {
+      "start": 479.599,
+      "duration": 2.16,
+      "text": "and then we bring in large language",
+      "timestamp": "07:59"
+    },
+    {
+      "start": 481.759,
+      "duration": 2.401,
+      "text": "models wherever we need uh wherever we",
+      "timestamp": "08:01"
+    },
+    {
+      "start": 484.16,
+      "duration": 3.36,
+      "text": "find the greatest value um and sometimes",
+      "timestamp": "08:04"
+    },
+    {
+      "start": 487.52,
+      "duration": 1.44,
+      "text": "not just large language model you want",
+      "timestamp": "08:07"
+    },
+    {
+      "start": 488.96,
+      "duration": 2.4,
+      "text": "to bring in analytical models and how do",
+      "timestamp": "08:08"
+    },
+    {
+      "start": 491.36,
+      "duration": 4.8,
+      "text": "we combine those with business rules",
+      "timestamp": "08:11"
+    },
+    {
+      "start": 496.16,
+      "duration": 2.159,
+      "text": "next is to implement guardrails right",
+      "timestamp": "08:16"
+    },
+    {
+      "start": 498.319,
+      "duration": 2.241,
+      "text": "large language model you you cannot",
+      "timestamp": "08:18"
+    },
+    {
+      "start": 500.56,
+      "duration": 1.84,
+      "text": "really predict what kind of answer it's",
+      "timestamp": "08:20"
+    },
+    {
+      "start": 502.4,
+      "duration": 1.84,
+      "text": "going to come up with how do you",
+      "timestamp": "08:22"
+    },
+    {
+      "start": 504.24,
+      "duration": 2.639,
+      "text": "implement guardrails to check that uh",
+      "timestamp": "08:24"
+    },
+    {
+      "start": 506.879,
+      "duration": 3.681,
+      "text": "the responses are accurate or how can",
+      "timestamp": "08:26"
+    },
+    {
+      "start": 510.56,
+      "duration": 2.159,
+      "text": "you check whether they contain any",
+      "timestamp": "08:30"
+    },
+    {
+      "start": 512.719,
+      "duration": 2.56,
+      "text": "sensitive or private uh or confidential",
+      "timestamp": "08:32"
+    },
+    {
+      "start": 515.279,
+      "duration": 3.68,
+      "text": "information you want to block them out",
+      "timestamp": "08:35"
+    },
+    {
+      "start": 518.959,
+      "duration": 2.559,
+      "text": "and how do we bring in human in the loop",
+      "timestamp": "08:38"
+    },
+    {
+      "start": 521.519,
+      "duration": 2.561,
+      "text": "so this is where uh in some cases you",
+      "timestamp": "08:41"
+    },
+    {
+      "start": 524.08,
+      "duration": 2.319,
+      "text": "might want to escalate it to a human for",
+      "timestamp": "08:44"
+    },
+    {
+      "start": 526.399,
+      "duration": 2.161,
+      "text": "review",
+      "timestamp": "08:46"
+    },
+    {
+      "start": 528.56,
+      "duration": 2.88,
+      "text": "lastly is about the ability to store uh",
+      "timestamp": "08:48"
+    },
+    {
+      "start": 531.44,
+      "duration": 2.8,
+      "text": "the memory so this could be a session",
+      "timestamp": "08:51"
+    },
+    {
+      "start": 534.24,
+      "duration": 2.24,
+      "text": "memory so that when you are conversing",
+      "timestamp": "08:54"
+    },
+    {
+      "start": 536.48,
+      "duration": 2.08,
+      "text": "in a chatbot you don't have to repeat",
+      "timestamp": "08:56"
+    },
+    {
+      "start": 538.56,
+      "duration": 2.32,
+      "text": "yourself uh it's able to understand the",
+      "timestamp": "08:58"
+    },
+    {
+      "start": 540.88,
+      "duration": 1.76,
+      "text": "previous uh prompts that you have",
+      "timestamp": "09:00"
+    },
+    {
+      "start": 542.64,
+      "duration": 2.16,
+      "text": "inserted into a chatbot before or",
+      "timestamp": "09:02"
+    },
+    {
+      "start": 544.8,
+      "duration": 1.44,
+      "text": "sometimes you want to store the",
+      "timestamp": "09:04"
+    },
+    {
+      "start": 546.24,
+      "duration": 2.719,
+      "text": "conversation history beyond the session",
+      "timestamp": "09:06"
+    },
+    {
+      "start": 548.959,
+      "duration": 2.641,
+      "text": "so that uh you can personalize your",
+      "timestamp": "09:08"
+    },
+    {
+      "start": 551.6,
+      "duration": 4.0,
+      "text": "future interactions with the customer",
+      "timestamp": "09:11"
+    },
+    {
+      "start": 555.6,
+      "duration": 3.12,
+      "text": "so now um we've talked about building AI",
+      "timestamp": "09:15"
+    },
+    {
+      "start": 558.72,
+      "duration": 3.28,
+      "text": "agents but sometimes we need more than",
+      "timestamp": "09:18"
+    },
+    {
+      "start": 562.0,
+      "duration": 2.24,
+      "text": "one AI agent so how can we orchestrate a",
+      "timestamp": "09:22"
+    },
+    {
+      "start": 564.24,
+      "duration": 3.44,
+      "text": "multi- aent system",
+      "timestamp": "09:24"
+    },
+    {
+      "start": 567.68,
+      "duration": 1.76,
+      "text": "so let's look at this example which is a",
+      "timestamp": "09:27"
+    },
+    {
+      "start": 569.44,
+      "duration": 2.0,
+      "text": "financial advisor agent uh that",
+      "timestamp": "09:29"
+    },
+    {
+      "start": 571.44,
+      "duration": 2.32,
+      "text": "comprises of different tools the first",
+      "timestamp": "09:31"
+    },
+    {
+      "start": 573.76,
+      "duration": 2.079,
+      "text": "one was the complaints agent that we we",
+      "timestamp": "09:33"
+    },
+    {
+      "start": 575.839,
+      "duration": 3.041,
+      "text": "saw and then we have the churn agent as",
+      "timestamp": "09:35"
+    },
+    {
+      "start": 578.88,
+      "duration": 2.48,
+      "text": "well as an email agent that we would",
+      "timestamp": "09:38"
+    },
+    {
+      "start": 581.36,
+      "duration": 2.0,
+      "text": "like to use to maybe send a report at",
+      "timestamp": "09:41"
+    },
+    {
+      "start": 583.36,
+      "duration": 2.64,
+      "text": "the end of it",
+      "timestamp": "09:43"
+    },
+    {
+      "start": 586.0,
+      "duration": 2.399,
+      "text": "so this is how it looks like we have an",
+      "timestamp": "09:46"
+    },
+    {
+      "start": 588.399,
+      "duration": 1.761,
+      "text": "orchestration which is essentially the",
+      "timestamp": "09:48"
+    },
+    {
+      "start": 590.16,
+      "duration": 2.88,
+      "text": "brains of the agentic workflow is um",
+      "timestamp": "09:50"
+    },
+    {
+      "start": 593.04,
+      "duration": 1.68,
+      "text": "trying to understand the customer's",
+      "timestamp": "09:53"
+    },
+    {
+      "start": 594.72,
+      "duration": 2.48,
+      "text": "input and route it to the necessary",
+      "timestamp": "09:54"
+    },
+    {
+      "start": 597.2,
+      "duration": 2.48,
+      "text": "agents whether it's complaints churn or",
+      "timestamp": "09:57"
+    },
+    {
+      "start": 599.68,
+      "duration": 2.88,
+      "text": "email and it's able to understand that",
+      "timestamp": "09:59"
+    },
+    {
+      "start": 602.56,
+      "duration": 2.24,
+      "text": "um what are the information that we are",
+      "timestamp": "10:02"
+    },
+    {
+      "start": 604.8,
+      "duration": 2.479,
+      "text": "missing out uh do I need to ask the",
+      "timestamp": "10:04"
+    },
+    {
+      "start": 607.279,
+      "duration": 2.24,
+      "text": "customer for more information those are",
+      "timestamp": "10:07"
+    },
+    {
+      "start": 609.519,
+      "duration": 3.121,
+      "text": "handed by the large language model",
+      "timestamp": "10:09"
+    },
+    {
+      "start": 612.64,
+      "duration": 1.84,
+      "text": "so let's dive deeper into the",
+      "timestamp": "10:12"
+    },
+    {
+      "start": 614.48,
+      "duration": 2.56,
+      "text": "specialized AI agents there each of them",
+      "timestamp": "10:14"
+    },
+    {
+      "start": 617.04,
+      "duration": 1.919,
+      "text": "are focused on their own task they",
+      "timestamp": "10:17"
+    },
+    {
+      "start": 618.959,
+      "duration": 2.161,
+      "text": "cannot do another task well so for",
+      "timestamp": "10:18"
+    },
+    {
+      "start": 621.12,
+      "duration": 2.24,
+      "text": "example the complaints agent is there to",
+      "timestamp": "10:21"
+    },
+    {
+      "start": 623.36,
+      "duration": 2.08,
+      "text": "extract and summarize the customer",
+      "timestamp": "10:23"
+    },
+    {
+      "start": 625.44,
+      "duration": 2.56,
+      "text": "complaints the churn agent is there",
+      "timestamp": "10:25"
+    },
+    {
+      "start": 628.0,
+      "duration": 2.0,
+      "text": "where you have you have like um maybe a",
+      "timestamp": "10:28"
+    },
+    {
+      "start": 630.0,
+      "duration": 2.079,
+      "text": "gradient boosting model to understand",
+      "timestamp": "10:30"
+    },
+    {
+      "start": 632.079,
+      "duration": 2.081,
+      "text": "the probability of the customer churning",
+      "timestamp": "10:32"
+    },
+    {
+      "start": 634.16,
+      "duration": 2.08,
+      "text": "what's their risk level and maybe you",
+      "timestamp": "10:34"
+    },
+    {
+      "start": 636.24,
+      "duration": 1.68,
+      "text": "have another model that helps you to",
+      "timestamp": "10:36"
+    },
+    {
+      "start": 637.92,
+      "duration": 2.56,
+      "text": "explain um why the customer received",
+      "timestamp": "10:37"
+    },
+    {
+      "start": 640.48,
+      "duration": 2.96,
+      "text": "this probability then we have an email",
+      "timestamp": "10:40"
+    },
+    {
+      "start": 643.44,
+      "duration": 2.079,
+      "text": "agent that's able to generate a report",
+      "timestamp": "10:43"
+    },
+    {
+      "start": 645.519,
+      "duration": 2.481,
+      "text": "and send to the respective uh",
+      "timestamp": "10:45"
+    },
+    {
+      "start": 648.0,
+      "duration": 3.0,
+      "text": "stakeholders",
+      "timestamp": "10:48"
+    },
+    {
+      "start": 651.12,
+      "duration": 2.64,
+      "text": "lastly all of this is packaged uh into a",
+      "timestamp": "10:51"
+    },
+    {
+      "start": 653.76,
+      "duration": 2.24,
+      "text": "single container and deployed as an",
+      "timestamp": "10:53"
+    },
+    {
+      "start": 656.0,
+      "duration": 2.88,
+      "text": "endpoint um so whether it's a chatbot",
+      "timestamp": "10:56"
+    },
+    {
+      "start": 658.88,
+      "duration": 2.48,
+      "text": "like you see here or whether it's a web",
+      "timestamp": "10:58"
+    },
+    {
+      "start": 661.36,
+      "duration": 4.479,
+      "text": "application it's really up to you",
+      "timestamp": "11:01"
+    },
+    {
+      "start": 665.839,
+      "duration": 3.201,
+      "text": "and let's see how it looks like so here",
+      "timestamp": "11:05"
+    },
+    {
+      "start": 669.04,
+      "duration": 2.08,
+      "text": "we are saying um we're asking the",
+      "timestamp": "11:09"
+    },
+    {
+      "start": 671.12,
+      "duration": 2.399,
+      "text": "chatbot how likely is it uh that Mary",
+      "timestamp": "11:11"
+    },
+    {
+      "start": 673.519,
+      "duration": 2.481,
+      "text": "will leave us as a customer so it needs",
+      "timestamp": "11:13"
+    },
+    {
+      "start": 676.0,
+      "duration": 1.76,
+      "text": "more details it's asking for its full",
+      "timestamp": "11:16"
+    },
+    {
+      "start": 677.76,
+      "duration": 2.72,
+      "text": "name and a customer ID in order to call",
+      "timestamp": "11:17"
+    },
+    {
+      "start": 680.48,
+      "duration": 2.96,
+      "text": "the right agent so now it's calling the",
+      "timestamp": "11:20"
+    },
+    {
+      "start": 683.44,
+      "duration": 2.24,
+      "text": "churn agent behind the scenes and this",
+      "timestamp": "11:23"
+    },
+    {
+      "start": 685.68,
+      "duration": 2.08,
+      "text": "is the explanation it's able to generate",
+      "timestamp": "11:25"
+    },
+    {
+      "start": 687.76,
+      "duration": 2.8,
+      "text": "in real time uh the reasons why we think",
+      "timestamp": "11:27"
+    },
+    {
+      "start": 690.56,
+      "duration": 3.68,
+      "text": "that Mary might churn so another thing",
+      "timestamp": "11:30"
+    },
+    {
+      "start": 694.24,
+      "duration": 3.279,
+      "text": "is that okay can you route this whatever",
+      "timestamp": "11:34"
+    },
+    {
+      "start": 697.519,
+      "duration": 2.241,
+      "text": "you send whatever you reply to me can",
+      "timestamp": "11:37"
+    },
+    {
+      "start": 699.76,
+      "duration": 2.48,
+      "text": "you route all this information to uh",
+      "timestamp": "11:39"
+    },
+    {
+      "start": 702.24,
+      "duration": 2.08,
+      "text": "this email address can you send a report",
+      "timestamp": "11:42"
+    },
+    {
+      "start": 704.32,
+      "duration": 3.12,
+      "text": "to me so it's going to do that and this",
+      "timestamp": "11:44"
+    },
+    {
+      "start": 707.44,
+      "duration": 2.72,
+      "text": "time the same agentic workflow is able",
+      "timestamp": "11:47"
+    },
+    {
+      "start": 710.16,
+      "duration": 2.08,
+      "text": "to understand the customer's intention",
+      "timestamp": "11:50"
+    },
+    {
+      "start": 712.24,
+      "duration": 2.08,
+      "text": "and route to the email agent instead of",
+      "timestamp": "11:52"
+    },
+    {
+      "start": 714.32,
+      "duration": 2.72,
+      "text": "the churn agent and we'll see this",
+      "timestamp": "11:54"
+    },
+    {
+      "start": 717.04,
+      "duration": 2.799,
+      "text": "report in just a",
+      "timestamp": "11:57"
+    },
+    {
+      "start": 721.92,
+      "duration": 2.64,
+      "text": "So the email is sent successfully it",
+      "timestamp": "12:01"
+    },
+    {
+      "start": 724.56,
+      "duration": 2.32,
+      "text": "called the CH agent and here we have a",
+      "timestamp": "12:04"
+    },
+    {
+      "start": 726.88,
+      "duration": 4.12,
+      "text": "CH report for Mary Smith",
+      "timestamp": "12:06"
+    },
+    {
+      "start": 735.68,
+      "duration": 4.08,
+      "text": "lastly to sum up um there has to be some",
+      "timestamp": "12:15"
+    },
+    {
+      "start": 739.76,
+      "duration": 3.36,
+      "text": "sort of built-in governance right uh not",
+      "timestamp": "12:19"
+    },
+    {
+      "start": 743.12,
+      "duration": 2.32,
+      "text": "just the AI agent itself where we want",
+      "timestamp": "12:23"
+    },
+    {
+      "start": 745.44,
+      "duration": 2.079,
+      "text": "to see the lineage as to how the",
+      "timestamp": "12:25"
+    },
+    {
+      "start": 747.519,
+      "duration": 2.88,
+      "text": "decision came about but also an end",
+      "timestamp": "12:27"
+    },
+    {
+      "start": 750.399,
+      "duration": 2.321,
+      "text": "toend governance because there are data",
+      "timestamp": "12:30"
+    },
+    {
+      "start": 752.72,
+      "duration": 1.6,
+      "text": "sets that you bring in uh there are",
+      "timestamp": "12:32"
+    },
+    {
+      "start": 754.32,
+      "duration": 3.759,
+      "text": "models that you train um the data on and",
+      "timestamp": "12:34"
+    },
+    {
+      "start": 758.079,
+      "duration": 2.081,
+      "text": "these have to be governed so you need to",
+      "timestamp": "12:38"
+    },
+    {
+      "start": 760.16,
+      "duration": 4.919,
+      "text": "have end to-end lineage in this is",
+      "timestamp": "12:40"
+    },
+    {
+      "start": 765.2,
+      "duration": 3.199,
+      "text": "so to to sum up what do we need in terms",
+      "timestamp": "12:45"
+    },
+    {
+      "start": 768.399,
+      "duration": 2.56,
+      "text": "of building and deploying enterprise AI",
+      "timestamp": "12:48"
+    },
+    {
+      "start": 770.959,
+      "duration": 3.201,
+      "text": "agents uh you need to orchestrate you",
+      "timestamp": "12:50"
+    },
+    {
+      "start": 774.16,
+      "duration": 1.52,
+      "text": "have need to have a good orchestration",
+      "timestamp": "12:54"
+    },
+    {
+      "start": 775.68,
+      "duration": 2.64,
+      "text": "system uh that takes into account",
+      "timestamp": "12:55"
+    },
+    {
+      "start": 778.32,
+      "duration": 2.48,
+      "text": "multiple AI agents you you need to have",
+      "timestamp": "12:58"
+    },
+    {
+      "start": 780.8,
+      "duration": 1.839,
+      "text": "the ability to work with different large",
+      "timestamp": "13:00"
+    },
+    {
+      "start": 782.639,
+      "duration": 2.561,
+      "text": "language models so then you must be",
+      "timestamp": "13:02"
+    },
+    {
+      "start": 785.2,
+      "duration": 2.639,
+      "text": "agnostic so that you can bring in the",
+      "timestamp": "13:05"
+    },
+    {
+      "start": 787.839,
+      "duration": 2.081,
+      "text": "large language model that is best suited",
+      "timestamp": "13:07"
+    },
+    {
+      "start": 789.92,
+      "duration": 2.88,
+      "text": "for your needs then we talk about data",
+      "timestamp": "13:09"
+    },
+    {
+      "start": 792.8,
+      "duration": 1.839,
+      "text": "protection because you want to be able",
+      "timestamp": "13:12"
+    },
+    {
+      "start": 794.639,
+      "duration": 2.241,
+      "text": "to access data but at the same time",
+      "timestamp": "13:14"
+    },
+    {
+      "start": 796.88,
+      "duration": 3.44,
+      "text": "control who has access to this data",
+      "timestamp": "13:16"
+    },
+    {
+      "start": 800.32,
+      "duration": 2.16,
+      "text": "and many other guardrails that uh we can",
+      "timestamp": "13:20"
+    },
+    {
+      "start": 802.48,
+      "duration": 3.12,
+      "text": "see here but to sum up and end off",
+      "timestamp": "13:22"
+    },
+    {
+      "start": 805.6,
+      "duration": 3.12,
+      "text": "before my time is up",
+      "timestamp": "13:25"
+    },
+    {
+      "start": 808.72,
+      "duration": 2.64,
+      "text": "you can reach out to me at assess booth",
+      "timestamp": "13:28"
+    },
+    {
+      "start": 811.36,
+      "duration": 2.08,
+      "text": "uh I'm happy to hear about more about",
+      "timestamp": "13:31"
+    },
+    {
+      "start": 813.44,
+      "duration": 2.959,
+      "text": "your AI use cases and we can dive",
+      "timestamp": "13:33"
+    },
+    {
+      "start": 816.399,
+      "duration": 1.361,
+      "text": "further into the demo that you saw",
+      "timestamp": "13:36"
+    },
+    {
+      "start": 817.76,
+      "duration": 4.16,
+      "text": "earlier thank you",
+      "timestamp": "13:37"
+    }
+  ],
+  "extraction_timestamp": "2025-06-29T21:04:35.396418",
+  "playlist_title": "SuperAI Singapore 2025: WEKA Stage"
+}

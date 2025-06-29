@@ -1,0 +1,1757 @@
+{
+  "video_id": "jSasbW2tzbw",
+  "video_title": "From Wall Street to Neural Networks: AI’s Financial Frontier - SuperAI Singapore 2025",
+  "video_url": "https://www.youtube.com/watch?v=jSasbW2tzbw",
+  "channel_title": "SuperAI",
+  "published_at": "2025-06-27T07:47:33+00:00",
+  "duration_seconds": null,
+  "view_count": 12,
+  "like_count": 1,
+  "description": "Learn more about SuperAI: superai.com\nFollow us on X: x.com/superai_conf\n\nPanel: From Wall Street to Neural Networks: AI’s Financial Frontier\n\nSpeakers:\nCharles Dong, Co-Founder @ Arta Finance\nSambit Sahu, VP, Applied Research @ Capital One\nSigrid Rouam, Chief AI Officer @ EFG Bank\n\nModerator:\nAngel Hsu, Senior Engineering Leader, AI and ML\n\nStage: io.net Main Stage\n#superai #finance #wallstreet #ai #financialservices \n\nRecorded on 19 June 2025",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 289,
+    "aggregated_text": "all right let's get the session started I know everyone's really excited to hear maybe about finance a little bit more I know we had a session earlier this morning but happy to dive a little bit deeper into um what we're focusing on in finance and banking um overall in investment management I know in this conference we heard a lot about space bio intelligence different applications of AI um as well So happy to dive a little bit deeper into finance Um to get started my name is Angel I am most recently a senior engineering leader here at Stripe Um covering a IML applications for financial payments Uh previously spent some time at Facebook um as well as JP Morgan I'm based in New York but here in Singapore this week for this conference So excited to meet everyone and to moderate this panel We have an awesome um slate of panelists on the on the panel also have each of them give a brief overview about about themselves and uh their background and kind of their uh expertise as it relates to kind of finance and AI on our panel Off to you Charles Thanks Andrew Super excited to be here Thanks for having me So Charles Dong co-founder at Art of Finance I started my career actually as an investor private equity at Blackstone and venture long short hedge funds and then I moved saw the light moved to tech uh met my co-founders at Google actually where we led product for Google pay and Google finance really working on how people move and manage money at scale and the idea for ARTa came from a problem that we ran into in our own lives where you know spreadsheets robo advisor retail brokerage accounts just weren't cutting it anymore And then one of my co-founders graduated into this magical world of private banking right and immediately got access to private equity structured products worldclass expertise but only after meeting that $25 million asset bar And so we started ARTA to really digitize and democratize private banking to to the rest of us And we're using AI at its core to make that smarter more accessible more scalable Samit Hi Uh I'm Samit Sahu Uh I'm vice president of uh AI research at AI foundations at Capital One Uh my group focus actually is LM customization and agentic AI where actually we are building in and uh innovating how to solve all these financial uh problems business problems in capital one using LLMs Before that I was in Alexa uh where I focused on actually building the large language models for Alexa and prior to that I was in IBM research for a long time and also I am in the adjunct faculty at Columbia University where I teach a course in this area Um I live in New York and yeah that's about myself Hi my name is Sigrid I work for EFG Bank If you wonder it means European Financial Group not just ABCDFG Um I've been working in the world of data AI my whole career I studied statistics I've been working in research in the beginning and then transition into FMCG before moving to finance So at EFG we are in the middle of a transformation So EFG is a Swiss private bank based in out of Switzerland but with a big presence in Europe Asia Middle East and uh the Americas as well And so we are currently in a digital transformation and AI and data is obviously at the heart at the heart of this transformation and I'm based in Singapore I've been here for 16 years Uh originally from Europe as well Awesome Um as we think about finance more broadly I think from my experience in investment banking asset management even investment management a lot of it comes from either deals from your networks precedent um relationship based um banking So I'm curious in the age of kind of generative AI LLM um we can obviously leverage this tool to unlock maybe opportunities that previously we don't know about or um haven't discovered yet And so what do you guys think is kind of the primary value had here as we think about LLMs and how it can help us discover or unlock new opportunities especially in this kind of everchanging financial landscape And I know a lot of times in this conference we talk about hint techch AI and so I'm curious what you guys think are kind of the primary value ad here in terms of um applications specifically related to finance investment management and so on so forth All right So yeah so if you look at last five years the AI ML space actually has completely uh changed So we are talking about deep learning network millions of parameter models Now we're talking about billions of parameter model So these models actually have unlocked the potential to do lot of things lot of even in last one year the LLM actually have progressed from solving understanding to very complex task moving moving from simple task to more agentic approach So at least there are three areas uh where I see uh things are going So one actually is unlocking new values uh using this this complex models having the the ability to reason going through huge amount of data huge amount of things in in in a matter of seconds the understanding the is mimicking pretty much the super intelligence unlocking new values alphas second actually doing the same thing what we're doing but doing it much more efficiently because of the way all these financial investment uh bankings work they'll they deal huge amount of data text data images and audios and also visuals So processing this in a very small amount of time very efficiently having that ability to mimic human reasoning this models able do a lot So doing it more efficiently the same thing cost reduction and doing it more accurately also sometimes The third thing actually is uh uh making it uh uh assist So for example you may not have to solve other problems but you help the humans with assist like developer assist like all this code assist or summarizing some documents and came getting the 80% of the things done So the three areas where I'm see that lot of values have been getting created So we see that a variety of applications actually emerging in this space Um so at in the in the banking sector we are heavily regulated We deal with a lot of regulation overhead Uh EFG is based out of Switzerland So we have to abide to Swiss regulation We have to abide to EU regulation to all the regulation across the world uh where we operate So an obvious use case for us is everything related to compliance and there is really a lot of overhead and a lot of processes related to doing uh checks on KYC where your customer comes from source of wells making sure that the money that they're bringing to your bank is clean Um so on top of this the the clients that we serve are high net worth so they live in Singapore they have businesses in Hong Kong they're sending kids in the UK So all these crossber rules adds up as well a level of complexity and so a lot of compliance task and those tasks don't are not limited to the compliance function The front office staff also have to help in all these processes So it's it's a very obvious use cases to use genai and agentic in general to uh streamline all the processes Um there there are some scary statistics saying that relationship managers spend 70 70% of their time doing non-advisory tasks which should be honestly all this should be completely automated and streamlined So it's a very obvious use case Um and being the AI officer in a bank we obviously serve front to back So we also work closely uh with the front front uh office people as well on the product side So on the products which is more related to the investment side um obviously they use it for streaming line uh streamline research summarizing translating do their product due diligence so anything that has a lot of documentation and summarization required that's where we can serve and every everyone can actually benefit to the platform that we are using from HR marketing to to the front line very interesting and it we see that as well as we partner actually with a lot of banks and family offices to provide technology to them and power their businesses as they see us use it for our own regulated wealth management business for high netw worth clients And those are the the classic use cases right operations compliance front office advisory enablement tripling the uh effectiveness of the time that an adviser can spend with their clients from call it 50 to 100 clients per adviser to you know 150 200 300 But even if we can triple the effectiveness of advisor right if everything is still gated on a human advisor that means that high net worths being served at private banks go from 0.003% of the population to 0.009% And as my Asian tiger parents would say not good enough So what we're trying to do is push the ball forward in addition to all these sort of internal use cases for internal productivity which absolutely make AI u more accessible more scalable uh to many more people but also with direct to client-f facing experiences So we have a suite of AI agents that's purposebuilt for wealth with the right guard rails You know anything near your money has to be right has to be transparent has to be explainable Um but as an example we have a feature called research analyst and it mimics what I did as an investment analyst at at a hedge fund right i would go off for three weeks I would do deep detailed diligence across SEC filings I would do borrow factor analysis I would do the benchmarks build the model all that kind of stuff Now that can be done with a suite of 20 agents with the right quantitative investment tools and the right guard rails in minutes And so everyone can walk around with a research analyst in their pocket and you know instead of going to their adviser and getting a a report back from their research their bank's research team in days or weeks now you can get it in minutes and riff on that But of course you want human oversight before any trades are actually made So yeah I think that makes a lot of sense A lot of times we have these kind of outputs decisions outputed by these models but sometimes we need to have like a human loop to validate to make sure that whatever is being outputed is accurate and that we can use it um given the right safeguards I think to that end in this panel and throughout the rest of this conference we've talked a lot about how great um AI is more generally um how it can augment really people's lives and our interactions um with the world from a day-to-day perspective However we've also noticed more or less kind of a trade-off between performance as well as explanability and observability into what goes into the model Uh for example a lot of times we you know submit an input it goes through some of this blackbox modeling outputs um an output that we can use to make a decision or take an action Um so I'm curious on this panel's perspective on kind of how we can think about redefining explanability and especially in the context of um financial decision-m um especially given this kind of oftentimes what we see as a trade-off between performance and transparency How do we think about that trade-off um and how do we think about redefining explanability in this context so maybe I can take that Um so trading of innovation versus some of the risks basically So banks are in the risk tend to be risk averse So in the risk dealing business establishing trust with the various stakeholders is very important and so we take all the governance piece very seriously So we have a strong AI governance in place So the way we started is we had a bunch of people from around the company coming together because AI cannot be operated only in isolation with a few data scientists We really need the support of everybody So it includes the risk team obviously the compliance team to make sure we abide to regulation the data protection office legal IT info security and so we all formed that group that eventually became a governance body within the bank that is being used for the big decisions on how we bring uh models in production how we have any escalation path so that's uh one of the foundation layer that we have and then in this committee we take a very systematic risk and control based approach So we look at the different risks associated with different use cases Some use cases are less risky If I just run a IT ticket triage use case versus a credit risk scoring obviously the risk associated with it is going to be different and based on the risk level then for each we we we look at each of the risk be bias fairness explanability we have a list of them for each of them we have a level associated with it and based on that level then we'll have different types of controls and mitigations measures that we we put in place uh so it's very systematic approach uh the easiest way to to work around at and finally the last piece that we work a lot on is literacy making sure everyone understands that when they bring a new AI tool it cannot just be be brought this way we have a strict third party risk management meaning that when we want to bring in a new product that you guys are building uh they also need to abide to the same principles and making sure that we safeguards um the our clients and the trust that we have established with our different stakeholders so a systematic approach which sometimes is a bit more on the compliance I mean the the risk averse side of things but it's very important that we have the trust with our customers so and and I've seen walking around a lot of the companies are emphasizing on the tech part which is very exciting but you you can't forget that aspect that is why it's it makes our life a little bit difficult to actually incorporate some of those those tools very quickly in in the enterprise Yeah Yeah just to add uh finance industry is very riskaverse right but just to be honest gen is out of the box right out of the bottle So is lot of power but with power comes responsibility right so um so at Capital One actually um we we we pride ourselves as a very well-managed meaning that we have to be we have to do good things We have to adopt technology but it has to be done in the right way So initially what we are doing besides uh what you mentioned many of these applications actually u is is operating in the mode of like human is assist like more kind of augmenting the capability human agent actually in the decision making The machine in the back does all the ground work but finally it comes to the human being to actually approve or disapprove So with that actually you gain confidence So we go through this whole process uh to actually make sure besides the guardrails beside this thing lot of check and balance are done uh once actually you have lot of confidence then actually you slowly start actually trying to uh deploy this um in phases in phases to actually in real world so it is a it's also evolving in the sense that the AI regulations what was there earlier they is being reinvent re kind to contextualize what is mean here because LMS has a lot of powers but same time it has also a lot of tendenc it's actually innovation so when you're thinking you also like trying to be innovative right so but you have to make sure it is grounded it is following all the policies it's able to follow all the complex logics and regulatory policies so making sure that uh is very important so the good thing that is all these models especally the models reasoning capabilities are able to actually address this uh uh very nice way So if you use this models in a right way when actually say hey explain explain that why you're doing this they tend to actually adhere to the policies a lot So there are some policy issues there is some adoption issues like and al regulatory issues also there is also a lot of technical issues So all combining together is where we are seeing uh things are progressing and we're seeing some very good success very good results in this space So just add what to what Secret said I I think the entire wealth management industry is built upon one thing and that's trust right and so at the heart of it it's it's governance the right risk based approach and all of that and actually if we think about the the issues and the hiring practices company policies compliance policies and many of these risk controls aimed at human adviserss as well there's actually a lot of unobservable behavior that goes out and is presented to the client uh in a way that AI agents actually have a leg up on in certain cases right where you know advisers will typically use an internal tool It's a deterministic model to actually punch in the client suitability their risk you know whether they should have 30% or 40% allocations And that deterministic model is blessed by the bank by the advisory firm to give the right recommendation to that client But then they go to the client and they tweak it right with uh within the conversation and and all that kind of stuff Whereas I think with AI you can actually guarantee that the AI agent is using that deterministic model applying uh all the right compliance policies to make sure that they do the right thing And you know as a client sometimes you wonder am I being recommended this because it's earning them the highest sales commission or or because it's right for me and with AI we sort of have this opportunity to actually take the commissions out of the equation altogether AI doesn't earn commission And not only that but it doesn't need to know the fees that an institution actually charges on any particular product right that can be baked into the net expected return for the portfolio optimizer and and the the allocation model to relay to the client And so as we talk about transparency and performance I would say it's not a high frequency trading firm And so we're really doing you know asset allocation financial planning etc for the clients And so milliseconds are not really what matters here It's really the explanability the transparency that that we can provide to the client Awesome Yeah great insights from this panel I think we've spoken a lot about how AI LLMs can really streamline a lot of how we think about finance and some of the processes that are reproducible or streamlined and help us leverage our energy and our focus and attention a little bit better as humans to focus on the areas that really require our thinking and our expertise Um so it really helps us scale ourselves as well To that end I think um it be only fair if we took an objective view at generative AI and LLM So I'm curious um to this panel you know what do you all think I guess Secret and the rest of the panel um are some of the limitations when we think about applying generative AI and LLMs to finance um and along with some of these limitations what do you think are some potential solutions that we have here um that we can continue to um have AI um in this loop in finance um one of the big limitations I see is the alignment of incentive within the organization As I mentioned right AI cannot just operate in its corner in silo It has to be fully integrated with all the other functions And so it's really important that there is a top-down mandate on yes we're going to transform our company with AI but so everyone needs to be on the same page uh that also means that those people need to be educated on what AI can and cannot do Uh education is the second big big thing that we need to watch out for It means educating So when I first joined EFG the first thing I did is start from the top train the board the seuite on what AI can and cannot do Then the next level is all the the different employees making sure they have a literacy And the last piece that we shouldn't forget is actually the AI team The the tech technology that you guys are building is evolving so rapidly that we also need to keep up When I started there was no such thing as LLM or agent So we definitely need to keep up as well Uh the third thing I would say is technology banks being very risk averse A lot of us started on premise and with the agility and the rapidness in which things are changing I don't think we can afford to continue on premise bringing a server ordering it setting up the OS making sure you have the right software takes a long time it takes also a lot of engineering resources so it depends a little bit on the size of the company obviously but so for me ideally I want to outsource this as much as possible and so cloud is the obvious but it needs a a change of mindset needs to happen that yes it's okay to have some of the more confidential data moved there with the right controls So the right encryption and and measures in place through the technology and and the last piece is the governance as I mentioned it's always for us we see it as a prerequisites to establish the trust with the clients with the internal stakeholders that we are bringing in AI in a responsible manner So it's really a bunch of different dimensions before banks can fully leverage the all all the technology that is being um set up now Yeah Yeah That's great I think it's there's a lot of kind of um optimization required here as well I think in terms of as we think about how far AI has come initially we started out with traditional machine learnings and then later on we moved into kind of deep learning um sort of models and now we have generative AI Now we have also agentic um AI where we're able to make decisions on the outputs of these LLMs and not just having it spew kind of these uh list of citations resources and still a human having to be able to kind of babysit and also make determinations Now an agent is almost able to or sometimes already able to end to end spearhead these processes and make decisions on top of um the information that's being generated So that represents almost next step um of what we're thinking about in terms of kind of what we call autonomously operating um AI I think to that end I think as AI systems make more decisions autonomously I'm curious on this panel's kind of um thoughts in terms of um what audit mechanisms or what sort of stop gaps or guardrails do we have in place to make sure um that we're effectively managing risk and bias in these models I think a lot of times when we think about modeling you know a lot of the decision-m is based on the training data that we input And so I'm I'm curious um on Charles and Cigarettes as well as uh Sam's opinion on you know what are some of the guard rails um or mechanisms in terms of audit we can have in place to make sure that the outputs of AI are um are representative are ethical and are factual um when it comes to financial decision-m Yeah So as we talked about before I mean the risk based approach the governance the trust is at the center of of all things in our approach And so we invest most of our time actually in the guardrails in designing the processes There's a there's a human in the loop for any you know actual trade happening any mo money movement happening etc And of course in the eval right to make sure that the LLM is not going off script We use rag to make sure it has the right concept We use function calls to make sure that it's pulling the right expected returns or information about the client's account But actually at its core what we've learned is that it is much easier to make specialized agents in an agent architecture where different models are specialized for different use cases And for example we use traditional deterministic you know financial models to do things like borrow risk factor decomposition correlation analyses for asset allocation for processing long time series of data up to the second uh as as the market moves and things like that And we primarily use the LLM to orchestrate as well as to communicate these complex financial outputs in clear and intuitive manner to the client But the UX that we've noticed is also important right it's not just a chatbot that's that's spewing things It's actually built throughout the wealth journey so that the things that are backed by hard quantitative analysis the recommendations that are coming from the deterministic models are shown as such and the uh the LLM outputs and things like that are kind of explained on the side and and clearly marked as such as well Awesome Um yeah that's a great thought in terms of insight and how we can uh use some of these technologies I think looking forward um maybe within the next five years what do you guys think are going to be the largest kind of financial edge as we think about it in the context of generative AI LM is it going to be better data better modeling something else entirely um what is this panel's perspective on that um and in terms of how quickly AI is changing from day to day originally we had chat GBT come out and now we have almost uh let's say like three to five models daily that are coming out um each with new different kind of specialties as as well as different ways of training and optimization here um in terms of kind of expert expertise Um so in the in terms of the next 3 to 5 years given how rapidly AI is changing what does this panel see as um where we're going in terms of kind of the biggest um area of financial edge and you know where AI can take um its impact in finance um to the next step So better data better models it's obvious is going to be very important But I think the biggest hurdles for banks is to change their mindset and really really truly transform themselves It can't just be adding a feature in the background It we have to actually redesign entirely how we do banking And I think what Charles is doing is much more advanced than what we are doing on the more traditional side of thing is the ability to change mindset and start looking at processes as a whole and how they can be fully redesigned which means that the process is going to change What the people on the process are going to do is going to be different right the the compliance person probably won't will be moving from actually doing the process to supervising what the agent is doing And so the ability to really have that vision of shifting the mindset on how you look at processes and then the next step is the ability to actually implement those changes and have the technical expertise But it's really a true re revolution that we are living now and it can't just be adding one or two features It has to be an entire the entire company has to be on boarded and everyone has to pitch in to to make sure that we really redefine how we do finance today So I just quickly add uh few points on technical aspect and there many aspect as said uh data is gold here So uh scaling loss I mean if you have followed recently scaling loss so uh the models actually have trend seen all the data like all those human generated data now actually synthetic data generation right is a key topic that's one the other one I want to point out is that is the balance between the model built retraining versus test computing so the shift has happening basically while the model is inferring taking more time to sync it's like mimicking more human process we have some intelligence but I on the fly we kind of think so putting in the process like a pre-turning model training versus the test time the inference time so that is actually a big play we are seeing this in recent models so there are two things I want to call out the reason I'm most excited about LLMs in finance is that the traditional finance and expertise has always been a pyramid not a pyramid scheme just a pyramid where at the bottom you have public markets one sizefits-all Google global advice and at the very top you've always had this pinnacle that's called the family office where you have the world's foremost human experts in each vertical insurance derivatives private markets portfolio construction all working together to make the financial asset universe work for you your family your tax situation etc And for the first time we see with LLM the ability to potentially imbue that domain expertise in the LLM and put it in everyone's pocket so that everyone's walking around with these world-class experts that deeply understand their context every conversation that they've had their family situation has infinite commute compute to merge it with the financial asset universe and really deliver that advice personalized at scale at a low cost that's never been as accessible as before Great That brings us to time I'd like to thank everyone on the panel Charles Sambit and Sigrid for their insights and also um the audience for participating in this journey Thank you",
+    "text_length": 28538,
+    "word_count": 5304
+  },
+  "segments": [
+    {
+      "start": 7.68,
+      "duration": 5.6,
+      "text": "all right let's get the session started I know everyone's really excited to hear maybe about finance a little bit more I",
+      "timestamp": "00:07"
+    },
+    {
+      "start": 13.28,
+      "duration": 5.6,
+      "text": "know we had a session earlier this morning but happy to dive a little bit deeper into um what we're focusing on in",
+      "timestamp": "00:13"
+    },
+    {
+      "start": 18.88,
+      "duration": 6.639,
+      "text": "finance and banking um overall in investment management I know in this conference we heard a lot about space",
+      "timestamp": "00:18"
+    },
+    {
+      "start": 25.519,
+      "duration": 5.041,
+      "text": "bio intelligence different applications of AI um as well So happy to dive a",
+      "timestamp": "00:25"
+    },
+    {
+      "start": 30.56,
+      "duration": 6.08,
+      "text": "little bit deeper into finance Um to get started my name is Angel I am most recently a senior engineering leader",
+      "timestamp": "00:30"
+    },
+    {
+      "start": 36.64,
+      "duration": 5.04,
+      "text": "here at Stripe Um covering a IML applications for financial payments Uh",
+      "timestamp": "00:36"
+    },
+    {
+      "start": 41.68,
+      "duration": 5.76,
+      "text": "previously spent some time at Facebook um as well as JP Morgan I'm based in New York but here in Singapore this week for",
+      "timestamp": "00:41"
+    },
+    {
+      "start": 47.44,
+      "duration": 5.599,
+      "text": "this conference So excited to meet everyone and to moderate this panel We have an awesome um slate of panelists on",
+      "timestamp": "00:47"
+    },
+    {
+      "start": 53.039,
+      "duration": 5.36,
+      "text": "the on the panel also have each of them give a brief overview about about themselves and uh their background and",
+      "timestamp": "00:53"
+    },
+    {
+      "start": 58.399,
+      "duration": 5.521,
+      "text": "kind of their uh expertise as it relates to kind of finance and AI on our panel",
+      "timestamp": "00:58"
+    },
+    {
+      "start": 63.92,
+      "duration": 7.68,
+      "text": "Off to you Charles\n Thanks Andrew Super excited to be here Thanks for having me So Charles Dong co-founder at Art of",
+      "timestamp": "01:03"
+    },
+    {
+      "start": 71.6,
+      "duration": 7.68,
+      "text": "Finance I started my career actually as an investor private equity at Blackstone and venture long short hedge funds and",
+      "timestamp": "01:11"
+    },
+    {
+      "start": 79.28,
+      "duration": 6.56,
+      "text": "then I moved saw the light moved to tech uh met my co-founders at Google actually where we led product for Google pay and",
+      "timestamp": "01:19"
+    },
+    {
+      "start": 85.84,
+      "duration": 5.599,
+      "text": "Google finance really working on how people move and manage money at scale",
+      "timestamp": "01:25"
+    },
+    {
+      "start": 91.439,
+      "duration": 7.68,
+      "text": "and the idea for ARTa came from a problem that we ran into in our own lives where you know spreadsheets robo",
+      "timestamp": "01:31"
+    },
+    {
+      "start": 99.119,
+      "duration": 7.36,
+      "text": "advisor retail brokerage accounts just weren't cutting it anymore And then one of my co-founders graduated",
+      "timestamp": "01:39"
+    },
+    {
+      "start": 106.479,
+      "duration": 5.441,
+      "text": "into this magical world of private banking right and immediately got access",
+      "timestamp": "01:46"
+    },
+    {
+      "start": 111.92,
+      "duration": 7.76,
+      "text": "to private equity structured products worldclass expertise but only after meeting that $25 million asset bar And",
+      "timestamp": "01:51"
+    },
+    {
+      "start": 119.68,
+      "duration": 5.36,
+      "text": "so we started ARTA to really digitize and democratize private banking to to",
+      "timestamp": "01:59"
+    },
+    {
+      "start": 125.04,
+      "duration": 7.12,
+      "text": "the rest of us And we're using AI at its core to make that smarter more accessible more scalable",
+      "timestamp": "02:05"
+    },
+    {
+      "start": 132.16,
+      "duration": 6.64,
+      "text": "Samit\n Hi Uh I'm Samit Sahu Uh I'm vice president of uh AI research at AI",
+      "timestamp": "02:12"
+    },
+    {
+      "start": 138.8,
+      "duration": 5.2,
+      "text": "foundations at Capital One Uh my group focus actually is LM customization and",
+      "timestamp": "02:18"
+    },
+    {
+      "start": 144.0,
+      "duration": 5.599,
+      "text": "agentic AI where actually we are building in and uh innovating how to",
+      "timestamp": "02:24"
+    },
+    {
+      "start": 149.599,
+      "duration": 8.961,
+      "text": "solve all these financial uh problems business problems in capital one using LLMs Before that I was in Alexa uh where",
+      "timestamp": "02:29"
+    },
+    {
+      "start": 158.56,
+      "duration": 6.24,
+      "text": "I focused on actually building the large language models for Alexa and prior to that I was in IBM research for a long",
+      "timestamp": "02:38"
+    },
+    {
+      "start": 164.8,
+      "duration": 7.439,
+      "text": "time and also I am in the adjunct faculty at Columbia University where I teach a course in this area Um I live in",
+      "timestamp": "02:44"
+    },
+    {
+      "start": 172.239,
+      "duration": 8.161,
+      "text": "New York and yeah that's about myself Hi my name is Sigrid I work for EFG Bank",
+      "timestamp": "02:52"
+    },
+    {
+      "start": 180.4,
+      "duration": 7.28,
+      "text": "If you wonder it means European Financial Group not just ABCDFG Um I've been working in the world of",
+      "timestamp": "03:00"
+    },
+    {
+      "start": 187.68,
+      "duration": 5.68,
+      "text": "data AI my whole career I studied statistics I've been working in research in the beginning and then transition",
+      "timestamp": "03:07"
+    },
+    {
+      "start": 193.36,
+      "duration": 5.68,
+      "text": "into FMCG before moving to finance So at EFG we are in the middle of a",
+      "timestamp": "03:13"
+    },
+    {
+      "start": 199.04,
+      "duration": 6.32,
+      "text": "transformation So EFG is a Swiss private bank based in out of Switzerland but with a big presence in Europe Asia",
+      "timestamp": "03:19"
+    },
+    {
+      "start": 205.36,
+      "duration": 6.56,
+      "text": "Middle East and uh the Americas as well And so we are currently in a digital transformation and AI and data is",
+      "timestamp": "03:25"
+    },
+    {
+      "start": 211.92,
+      "duration": 6.56,
+      "text": "obviously at the heart at the heart of this transformation and I'm based in Singapore I've been here for 16 years Uh",
+      "timestamp": "03:31"
+    },
+    {
+      "start": 218.48,
+      "duration": 5.2,
+      "text": "originally from Europe as well Awesome Um as we think about finance more",
+      "timestamp": "03:38"
+    },
+    {
+      "start": 223.68,
+      "duration": 5.839,
+      "text": "broadly I think from my experience in investment banking asset management even investment management a lot of it comes",
+      "timestamp": "03:43"
+    },
+    {
+      "start": 229.519,
+      "duration": 7.36,
+      "text": "from either deals from your networks precedent um relationship based um banking So I'm curious in the age of",
+      "timestamp": "03:49"
+    },
+    {
+      "start": 236.879,
+      "duration": 5.521,
+      "text": "kind of generative AI LLM um we can obviously leverage this tool to unlock",
+      "timestamp": "03:56"
+    },
+    {
+      "start": 242.4,
+      "duration": 5.36,
+      "text": "maybe opportunities that previously we don't know about or um haven't discovered yet And so what do you guys",
+      "timestamp": "04:02"
+    },
+    {
+      "start": 247.76,
+      "duration": 6.479,
+      "text": "think is kind of the primary value had here as we think about LLMs and how it can help us discover or unlock new",
+      "timestamp": "04:07"
+    },
+    {
+      "start": 254.239,
+      "duration": 6.0,
+      "text": "opportunities especially in this kind of everchanging financial landscape And I know a lot of times in this conference",
+      "timestamp": "04:14"
+    },
+    {
+      "start": 260.239,
+      "duration": 6.561,
+      "text": "we talk about hint techch AI and so I'm curious what you guys think are kind of the primary value ad here in terms of um",
+      "timestamp": "04:20"
+    },
+    {
+      "start": 266.8,
+      "duration": 6.08,
+      "text": "applications specifically related to finance investment management and so on so forth",
+      "timestamp": "04:26"
+    },
+    {
+      "start": 272.88,
+      "duration": 6.24,
+      "text": "All right So yeah so if you look at last five years the AI ML space actually has",
+      "timestamp": "04:32"
+    },
+    {
+      "start": 279.12,
+      "duration": 6.32,
+      "text": "completely uh changed So we are talking about deep learning network millions of",
+      "timestamp": "04:39"
+    },
+    {
+      "start": 285.44,
+      "duration": 5.68,
+      "text": "parameter models Now we're talking about billions of parameter model So these models actually have unlocked the",
+      "timestamp": "04:45"
+    },
+    {
+      "start": 291.12,
+      "duration": 5.92,
+      "text": "potential to do lot of things lot of even in last one year the LLM actually",
+      "timestamp": "04:51"
+    },
+    {
+      "start": 297.04,
+      "duration": 6.96,
+      "text": "have progressed from solving understanding to very complex task moving moving from simple task to more",
+      "timestamp": "04:57"
+    },
+    {
+      "start": 304.0,
+      "duration": 6.72,
+      "text": "agentic approach So at least there are three areas uh where I see uh things are",
+      "timestamp": "05:04"
+    },
+    {
+      "start": 310.72,
+      "duration": 5.919,
+      "text": "going So one actually is unlocking new values uh using this this complex models",
+      "timestamp": "05:10"
+    },
+    {
+      "start": 316.639,
+      "duration": 6.4,
+      "text": "having the the ability to reason going through huge amount of data huge amount of things in in in a matter of seconds",
+      "timestamp": "05:16"
+    },
+    {
+      "start": 323.039,
+      "duration": 7.361,
+      "text": "the understanding the is mimicking pretty much the super intelligence unlocking new values alphas second",
+      "timestamp": "05:23"
+    },
+    {
+      "start": 330.4,
+      "duration": 6.56,
+      "text": "actually doing the same thing what we're doing but doing it much more efficiently because of the way all these financial",
+      "timestamp": "05:30"
+    },
+    {
+      "start": 336.96,
+      "duration": 5.84,
+      "text": "investment uh bankings work they'll they deal huge amount of data text data",
+      "timestamp": "05:36"
+    },
+    {
+      "start": 342.8,
+      "duration": 6.239,
+      "text": "images and audios and also visuals So processing this in a very small amount",
+      "timestamp": "05:42"
+    },
+    {
+      "start": 349.039,
+      "duration": 8.0,
+      "text": "of time very efficiently having that ability to mimic human reasoning this models able do a lot So doing it more",
+      "timestamp": "05:49"
+    },
+    {
+      "start": 357.039,
+      "duration": 5.921,
+      "text": "efficiently the same thing cost reduction and doing it more accurately also sometimes The third thing actually",
+      "timestamp": "05:57"
+    },
+    {
+      "start": 362.96,
+      "duration": 5.519,
+      "text": "is uh uh making it uh uh assist So for example you may not have to solve other",
+      "timestamp": "06:02"
+    },
+    {
+      "start": 368.479,
+      "duration": 6.56,
+      "text": "problems but you help the humans with assist like developer assist like all",
+      "timestamp": "06:08"
+    },
+    {
+      "start": 375.039,
+      "duration": 6.72,
+      "text": "this code assist or summarizing some documents and came getting the 80% of",
+      "timestamp": "06:15"
+    },
+    {
+      "start": 381.759,
+      "duration": 5.041,
+      "text": "the things done So the three areas where I'm see that lot of values have been",
+      "timestamp": "06:21"
+    },
+    {
+      "start": 386.8,
+      "duration": 7.72,
+      "text": "getting created So we see that a variety of applications actually emerging in this space",
+      "timestamp": "06:26"
+    },
+    {
+      "start": 394.72,
+      "duration": 6.08,
+      "text": "Um so at in the in the banking sector we are heavily regulated We deal with a lot",
+      "timestamp": "06:34"
+    },
+    {
+      "start": 400.8,
+      "duration": 5.04,
+      "text": "of regulation overhead Uh EFG is based out of Switzerland So we have to abide",
+      "timestamp": "06:40"
+    },
+    {
+      "start": 405.84,
+      "duration": 7.04,
+      "text": "to Swiss regulation We have to abide to EU regulation to all the regulation across the world uh where we operate So",
+      "timestamp": "06:45"
+    },
+    {
+      "start": 412.88,
+      "duration": 7.039,
+      "text": "an obvious use case for us is everything related to compliance and there is really a lot of overhead and a lot of",
+      "timestamp": "06:52"
+    },
+    {
+      "start": 419.919,
+      "duration": 5.28,
+      "text": "processes related to doing uh checks on KYC where your customer comes from",
+      "timestamp": "06:59"
+    },
+    {
+      "start": 425.199,
+      "duration": 7.041,
+      "text": "source of wells making sure that the money that they're bringing to your bank is clean Um so on top of this the the",
+      "timestamp": "07:05"
+    },
+    {
+      "start": 432.24,
+      "duration": 6.079,
+      "text": "clients that we serve are high net worth so they live in Singapore they have businesses in Hong Kong they're sending",
+      "timestamp": "07:12"
+    },
+    {
+      "start": 438.319,
+      "duration": 7.6,
+      "text": "kids in the UK So all these crossber rules adds up as well a level of complexity and so a lot of compliance",
+      "timestamp": "07:18"
+    },
+    {
+      "start": 445.919,
+      "duration": 6.241,
+      "text": "task and those tasks don't are not limited to the compliance function The front office staff also have to help in",
+      "timestamp": "07:25"
+    },
+    {
+      "start": 452.16,
+      "duration": 7.36,
+      "text": "all these processes So it's it's a very obvious use cases to use genai and agentic in general to uh streamline all",
+      "timestamp": "07:32"
+    },
+    {
+      "start": 459.52,
+      "duration": 7.119,
+      "text": "the processes Um there there are some scary statistics saying that relationship managers spend 70 70% of",
+      "timestamp": "07:39"
+    },
+    {
+      "start": 466.639,
+      "duration": 5.601,
+      "text": "their time doing non-advisory tasks which should be honestly all this should be completely automated and streamlined",
+      "timestamp": "07:46"
+    },
+    {
+      "start": 472.24,
+      "duration": 5.12,
+      "text": "So it's a very obvious use case Um and being the AI officer in a bank we",
+      "timestamp": "07:52"
+    },
+    {
+      "start": 477.36,
+      "duration": 6.959,
+      "text": "obviously serve front to back So we also work closely uh with the front front uh office people as well on the product",
+      "timestamp": "07:57"
+    },
+    {
+      "start": 484.319,
+      "duration": 6.72,
+      "text": "side So on the products which is more related to the investment side um obviously they use it for streaming line",
+      "timestamp": "08:04"
+    },
+    {
+      "start": 491.039,
+      "duration": 6.72,
+      "text": "uh streamline research summarizing translating do their product due diligence so anything that has a lot of",
+      "timestamp": "08:11"
+    },
+    {
+      "start": 497.759,
+      "duration": 6.241,
+      "text": "documentation and summarization required that's where we can serve and every everyone can actually benefit to the",
+      "timestamp": "08:17"
+    },
+    {
+      "start": 504.0,
+      "duration": 5.44,
+      "text": "platform that we are using from HR marketing to to the front line",
+      "timestamp": "08:24"
+    },
+    {
+      "start": 509.44,
+      "duration": 5.76,
+      "text": "very interesting and it we see that as well as we partner actually with a lot of banks and family offices to provide",
+      "timestamp": "08:29"
+    },
+    {
+      "start": 515.2,
+      "duration": 6.318,
+      "text": "technology to them and power their businesses as they see us use it for our own regulated wealth management business",
+      "timestamp": "08:35"
+    },
+    {
+      "start": 521.519,
+      "duration": 5.121,
+      "text": "for high netw worth clients And those are the the classic use cases right",
+      "timestamp": "08:41"
+    },
+    {
+      "start": 526.64,
+      "duration": 5.68,
+      "text": "operations compliance front office advisory enablement tripling the uh",
+      "timestamp": "08:46"
+    },
+    {
+      "start": 532.32,
+      "duration": 9.04,
+      "text": "effectiveness of the time that an adviser can spend with their clients from call it 50 to 100 clients per",
+      "timestamp": "08:52"
+    },
+    {
+      "start": 541.36,
+      "duration": 5.28,
+      "text": "adviser to you know 150 200 300",
+      "timestamp": "09:01"
+    },
+    {
+      "start": 546.64,
+      "duration": 5.04,
+      "text": "But even if we can triple the effectiveness",
+      "timestamp": "09:06"
+    },
+    {
+      "start": 551.68,
+      "duration": 6.32,
+      "text": "of advisor right if everything is still gated on a human advisor that means that high net worths being served at private",
+      "timestamp": "09:11"
+    },
+    {
+      "start": 558.0,
+      "duration": 8.44,
+      "text": "banks go from 0.003% of the population to 0.009%",
+      "timestamp": "09:18"
+    },
+    {
+      "start": 566.48,
+      "duration": 6.479,
+      "text": "And as my Asian tiger parents would say not good enough So what we're trying to",
+      "timestamp": "09:26"
+    },
+    {
+      "start": 572.959,
+      "duration": 6.0,
+      "text": "do is push the ball forward in addition to all these sort of internal use cases for internal productivity which",
+      "timestamp": "09:32"
+    },
+    {
+      "start": 578.959,
+      "duration": 6.481,
+      "text": "absolutely make AI u more accessible more scalable uh to many more people but",
+      "timestamp": "09:38"
+    },
+    {
+      "start": 585.44,
+      "duration": 5.04,
+      "text": "also with direct to client-f facing experiences So we have a suite of AI",
+      "timestamp": "09:45"
+    },
+    {
+      "start": 590.48,
+      "duration": 6.479,
+      "text": "agents that's purposebuilt for wealth with the right guard rails You know anything near your money has to be right",
+      "timestamp": "09:50"
+    },
+    {
+      "start": 596.959,
+      "duration": 6.961,
+      "text": "has to be transparent has to be explainable Um but as an example we have a feature called research analyst and it",
+      "timestamp": "09:56"
+    },
+    {
+      "start": 603.92,
+      "duration": 6.72,
+      "text": "mimics what I did as an investment analyst at at a hedge fund right i would go off for three weeks I would do deep",
+      "timestamp": "10:03"
+    },
+    {
+      "start": 610.64,
+      "duration": 5.04,
+      "text": "detailed diligence across SEC filings I would do borrow factor analysis I would",
+      "timestamp": "10:10"
+    },
+    {
+      "start": 615.68,
+      "duration": 7.2,
+      "text": "do the benchmarks build the model all that kind of stuff Now that can be done with a suite of 20 agents with the right",
+      "timestamp": "10:15"
+    },
+    {
+      "start": 622.88,
+      "duration": 6.32,
+      "text": "quantitative investment tools and the right guard rails in minutes And so everyone can walk around with a research",
+      "timestamp": "10:22"
+    },
+    {
+      "start": 629.2,
+      "duration": 5.12,
+      "text": "analyst in their pocket and you know instead of going to their adviser and",
+      "timestamp": "10:29"
+    },
+    {
+      "start": 634.32,
+      "duration": 6.32,
+      "text": "getting a a report back from their research their bank's research team in days or weeks now you can get it in",
+      "timestamp": "10:34"
+    },
+    {
+      "start": 640.64,
+      "duration": 7.84,
+      "text": "minutes and riff on that But of course you want human oversight before any trades are actually made So",
+      "timestamp": "10:40"
+    },
+    {
+      "start": 648.48,
+      "duration": 5.52,
+      "text": "yeah I think that makes a lot of sense A lot of times we have these kind of outputs decisions outputed by these",
+      "timestamp": "10:48"
+    },
+    {
+      "start": 654.0,
+      "duration": 6.32,
+      "text": "models but sometimes we need to have like a human loop to validate to make sure that whatever is being outputed is",
+      "timestamp": "10:54"
+    },
+    {
+      "start": 660.32,
+      "duration": 5.68,
+      "text": "accurate and that we can use it um given the right safeguards I think to that end in this panel and throughout the rest of",
+      "timestamp": "11:00"
+    },
+    {
+      "start": 666.0,
+      "duration": 5.6,
+      "text": "this conference we've talked a lot about how great um AI is more generally um how",
+      "timestamp": "11:06"
+    },
+    {
+      "start": 671.6,
+      "duration": 6.64,
+      "text": "it can augment really people's lives and our interactions um with the world from a day-to-day perspective However we've",
+      "timestamp": "11:11"
+    },
+    {
+      "start": 678.24,
+      "duration": 6.24,
+      "text": "also noticed more or less kind of a trade-off between performance as well as explanability and observability into",
+      "timestamp": "11:18"
+    },
+    {
+      "start": 684.48,
+      "duration": 5.359,
+      "text": "what goes into the model Uh for example a lot of times we you know submit an input it goes through some of this",
+      "timestamp": "11:24"
+    },
+    {
+      "start": 689.839,
+      "duration": 6.801,
+      "text": "blackbox modeling outputs um an output that we can use to make a decision or take an action Um so I'm curious on this",
+      "timestamp": "11:29"
+    },
+    {
+      "start": 696.64,
+      "duration": 6.72,
+      "text": "panel's perspective on kind of how we can think about redefining explanability and especially in the context of um",
+      "timestamp": "11:36"
+    },
+    {
+      "start": 703.36,
+      "duration": 5.039,
+      "text": "financial decision-m um especially given this kind of oftentimes what we see as a",
+      "timestamp": "11:43"
+    },
+    {
+      "start": 708.399,
+      "duration": 5.041,
+      "text": "trade-off between performance and transparency How do we think about that trade-off um and how do we think about",
+      "timestamp": "11:48"
+    },
+    {
+      "start": 713.44,
+      "duration": 7.28,
+      "text": "redefining explanability in this context so maybe I can take that Um so trading",
+      "timestamp": "11:53"
+    },
+    {
+      "start": 720.72,
+      "duration": 6.32,
+      "text": "of innovation versus some of the risks basically So banks are in the risk tend",
+      "timestamp": "12:00"
+    },
+    {
+      "start": 727.04,
+      "duration": 5.84,
+      "text": "to be risk averse So in the risk dealing business establishing trust with the various stakeholders is very important",
+      "timestamp": "12:07"
+    },
+    {
+      "start": 732.88,
+      "duration": 7.68,
+      "text": "and so we take all the governance piece very seriously So we have a strong AI governance in place So the way we",
+      "timestamp": "12:12"
+    },
+    {
+      "start": 740.56,
+      "duration": 6.88,
+      "text": "started is we had a bunch of people from around the company coming together because AI cannot be operated only in",
+      "timestamp": "12:20"
+    },
+    {
+      "start": 747.44,
+      "duration": 7.36,
+      "text": "isolation with a few data scientists We really need the support of everybody So it includes the risk team obviously the",
+      "timestamp": "12:27"
+    },
+    {
+      "start": 754.8,
+      "duration": 7.52,
+      "text": "compliance team to make sure we abide to regulation the data protection office legal IT info security and so we all",
+      "timestamp": "12:34"
+    },
+    {
+      "start": 762.32,
+      "duration": 6.4,
+      "text": "formed that group that eventually became a governance body within the bank that is being used for the big decisions on",
+      "timestamp": "12:42"
+    },
+    {
+      "start": 768.72,
+      "duration": 6.559,
+      "text": "how we bring uh models in production how we have any escalation path so that's uh",
+      "timestamp": "12:48"
+    },
+    {
+      "start": 775.279,
+      "duration": 6.56,
+      "text": "one of the foundation layer that we have and then in this committee we take a very systematic risk",
+      "timestamp": "12:55"
+    },
+    {
+      "start": 781.839,
+      "duration": 5.201,
+      "text": "and control based approach So we look at the different risks associated with",
+      "timestamp": "13:01"
+    },
+    {
+      "start": 787.04,
+      "duration": 5.599,
+      "text": "different use cases Some use cases are less risky If I just run a IT ticket",
+      "timestamp": "13:07"
+    },
+    {
+      "start": 792.639,
+      "duration": 6.0,
+      "text": "triage use case versus a credit risk scoring obviously the risk associated with it is going to be different and",
+      "timestamp": "13:12"
+    },
+    {
+      "start": 798.639,
+      "duration": 5.44,
+      "text": "based on the risk level then for each we we we look at each of the risk be bias",
+      "timestamp": "13:18"
+    },
+    {
+      "start": 804.079,
+      "duration": 5.76,
+      "text": "fairness explanability we have a list of them for each of them we have a level associated with it and based on that",
+      "timestamp": "13:24"
+    },
+    {
+      "start": 809.839,
+      "duration": 5.921,
+      "text": "level then we'll have different types of controls and mitigations measures that we we put in place uh so it's very",
+      "timestamp": "13:29"
+    },
+    {
+      "start": 815.76,
+      "duration": 5.12,
+      "text": "systematic approach uh the easiest way to to work around at and finally the",
+      "timestamp": "13:35"
+    },
+    {
+      "start": 820.88,
+      "duration": 5.519,
+      "text": "last piece that we work a lot on is literacy making sure everyone understands that when they bring a new",
+      "timestamp": "13:40"
+    },
+    {
+      "start": 826.399,
+      "duration": 6.081,
+      "text": "AI tool it cannot just be be brought this way we have a strict third party",
+      "timestamp": "13:46"
+    },
+    {
+      "start": 832.48,
+      "duration": 5.039,
+      "text": "risk management meaning that when we want to bring in a new product that you guys are building uh they also need to",
+      "timestamp": "13:52"
+    },
+    {
+      "start": 837.519,
+      "duration": 6.081,
+      "text": "abide to the same principles and making sure that we safeguards um the our clients and the trust that we have",
+      "timestamp": "13:57"
+    },
+    {
+      "start": 843.6,
+      "duration": 5.12,
+      "text": "established with our different stakeholders so a systematic approach",
+      "timestamp": "14:03"
+    },
+    {
+      "start": 848.72,
+      "duration": 6.96,
+      "text": "which sometimes is a bit more on the compliance I mean the the risk averse",
+      "timestamp": "14:08"
+    },
+    {
+      "start": 855.68,
+      "duration": 6.08,
+      "text": "side of things but it's very important that we have the trust with our customers so and and I've seen walking",
+      "timestamp": "14:15"
+    },
+    {
+      "start": 861.76,
+      "duration": 5.439,
+      "text": "around a lot of the companies are emphasizing on the tech part which is very exciting but you you can't forget",
+      "timestamp": "14:21"
+    },
+    {
+      "start": 867.199,
+      "duration": 6.32,
+      "text": "that aspect that is why it's it makes our life a little bit difficult to actually incorporate some of those those",
+      "timestamp": "14:27"
+    },
+    {
+      "start": 873.519,
+      "duration": 7.521,
+      "text": "tools very quickly in in the enterprise Yeah Yeah just to add uh finance industry is",
+      "timestamp": "14:33"
+    },
+    {
+      "start": 881.04,
+      "duration": 7.599,
+      "text": "very riskaverse right but just to be honest gen is out of the box right out of the bottle So is lot of power but",
+      "timestamp": "14:41"
+    },
+    {
+      "start": 888.639,
+      "duration": 5.121,
+      "text": "with power comes responsibility right so um so at Capital One actually um we we",
+      "timestamp": "14:48"
+    },
+    {
+      "start": 893.76,
+      "duration": 6.16,
+      "text": "we pride ourselves as a very well-managed meaning that we have to be we have to do good things We have to",
+      "timestamp": "14:53"
+    },
+    {
+      "start": 899.92,
+      "duration": 5.12,
+      "text": "adopt technology but it has to be done in the right way So initially what we",
+      "timestamp": "14:59"
+    },
+    {
+      "start": 905.04,
+      "duration": 6.64,
+      "text": "are doing besides uh what you mentioned many of these applications actually u is",
+      "timestamp": "15:05"
+    },
+    {
+      "start": 911.68,
+      "duration": 5.12,
+      "text": "is operating in the mode of like human is assist like more kind of augmenting",
+      "timestamp": "15:11"
+    },
+    {
+      "start": 916.8,
+      "duration": 7.76,
+      "text": "the capability human agent actually in the decision making The machine in the back does all the ground work but",
+      "timestamp": "15:16"
+    },
+    {
+      "start": 924.56,
+      "duration": 5.6,
+      "text": "finally it comes to the human being to actually approve or disapprove So with that actually you gain confidence So we",
+      "timestamp": "15:24"
+    },
+    {
+      "start": 930.16,
+      "duration": 5.28,
+      "text": "go through this whole process uh to actually make sure besides the guardrails beside this thing lot of",
+      "timestamp": "15:30"
+    },
+    {
+      "start": 935.44,
+      "duration": 6.8,
+      "text": "check and balance are done uh once actually you have lot of confidence then actually you slowly start actually",
+      "timestamp": "15:35"
+    },
+    {
+      "start": 942.24,
+      "duration": 6.959,
+      "text": "trying to uh deploy this um in phases in phases to actually in real world so it",
+      "timestamp": "15:42"
+    },
+    {
+      "start": 949.199,
+      "duration": 6.241,
+      "text": "is a it's also evolving in the sense that the AI regulations what was there",
+      "timestamp": "15:49"
+    },
+    {
+      "start": 955.44,
+      "duration": 5.6,
+      "text": "earlier they is being reinvent re kind to contextualize what is mean here",
+      "timestamp": "15:55"
+    },
+    {
+      "start": 961.04,
+      "duration": 6.159,
+      "text": "because LMS has a lot of powers but same time it has also a lot of tendenc",
+      "timestamp": "16:01"
+    },
+    {
+      "start": 967.199,
+      "duration": 6.801,
+      "text": "it's actually innovation so when you're thinking you also like trying to be innovative right so but you have to make sure it is grounded it is following all",
+      "timestamp": "16:07"
+    },
+    {
+      "start": 974.0,
+      "duration": 8.079,
+      "text": "the policies it's able to follow all the complex logics and regulatory policies so making sure that uh is very important",
+      "timestamp": "16:14"
+    },
+    {
+      "start": 982.079,
+      "duration": 6.721,
+      "text": "so the good thing that is all these models especally the models reasoning capabilities are able to actually",
+      "timestamp": "16:22"
+    },
+    {
+      "start": 988.8,
+      "duration": 7.12,
+      "text": "address this uh uh very nice way So if you use this models in a right way when",
+      "timestamp": "16:28"
+    },
+    {
+      "start": 995.92,
+      "duration": 6.159,
+      "text": "actually say hey explain explain that why you're doing this they tend to actually adhere to the policies a lot So",
+      "timestamp": "16:35"
+    },
+    {
+      "start": 1002.079,
+      "duration": 5.521,
+      "text": "there are some policy issues there is some adoption issues like and al regulatory issues also there is also a",
+      "timestamp": "16:42"
+    },
+    {
+      "start": 1007.6,
+      "duration": 5.28,
+      "text": "lot of technical issues So all combining together is where we are seeing uh",
+      "timestamp": "16:47"
+    },
+    {
+      "start": 1012.88,
+      "duration": 7.199,
+      "text": "things are progressing and we're seeing some very good success very good results in this space So",
+      "timestamp": "16:52"
+    },
+    {
+      "start": 1020.079,
+      "duration": 5.281,
+      "text": "just add what to what Secret said I I think the entire wealth management industry is built upon one thing and",
+      "timestamp": "17:00"
+    },
+    {
+      "start": 1025.36,
+      "duration": 7.678,
+      "text": "that's trust right and so at the heart of it it's it's governance the right risk based approach and all of that and",
+      "timestamp": "17:05"
+    },
+    {
+      "start": 1033.039,
+      "duration": 5.519,
+      "text": "actually if we think about the the issues and the hiring practices company",
+      "timestamp": "17:13"
+    },
+    {
+      "start": 1038.559,
+      "duration": 5.28,
+      "text": "policies compliance policies and many of these risk controls aimed at human",
+      "timestamp": "17:18"
+    },
+    {
+      "start": 1043.839,
+      "duration": 6.96,
+      "text": "adviserss as well there's actually a lot of unobservable behavior that goes out",
+      "timestamp": "17:23"
+    },
+    {
+      "start": 1050.799,
+      "duration": 8.161,
+      "text": "and is presented to the client uh in a way that AI agents actually have a leg up on in certain cases right where you",
+      "timestamp": "17:30"
+    },
+    {
+      "start": 1058.96,
+      "duration": 5.36,
+      "text": "know advisers will typically use an internal tool It's a deterministic model to actually punch in the client",
+      "timestamp": "17:38"
+    },
+    {
+      "start": 1064.32,
+      "duration": 7.359,
+      "text": "suitability their risk you know whether they should have 30% or 40% allocations And that deterministic model is blessed",
+      "timestamp": "17:44"
+    },
+    {
+      "start": 1071.679,
+      "duration": 5.601,
+      "text": "by the bank by the advisory firm to give the right recommendation to that client",
+      "timestamp": "17:51"
+    },
+    {
+      "start": 1077.28,
+      "duration": 5.92,
+      "text": "But then they go to the client and they tweak it right with uh within the conversation and and all that kind of",
+      "timestamp": "17:57"
+    },
+    {
+      "start": 1083.2,
+      "duration": 6.0,
+      "text": "stuff Whereas I think with AI you can actually guarantee that the AI agent is",
+      "timestamp": "18:03"
+    },
+    {
+      "start": 1089.2,
+      "duration": 6.16,
+      "text": "using that deterministic model applying uh all the right compliance policies to",
+      "timestamp": "18:09"
+    },
+    {
+      "start": 1095.36,
+      "duration": 7.28,
+      "text": "make sure that they do the right thing And you know as a client sometimes you wonder am I being recommended this",
+      "timestamp": "18:15"
+    },
+    {
+      "start": 1102.64,
+      "duration": 7.2,
+      "text": "because it's earning them the highest sales commission or or because it's right for me and with AI we sort of have",
+      "timestamp": "18:22"
+    },
+    {
+      "start": 1109.84,
+      "duration": 6.24,
+      "text": "this opportunity to actually take the commissions out of the equation altogether AI doesn't earn commission",
+      "timestamp": "18:29"
+    },
+    {
+      "start": 1116.08,
+      "duration": 6.56,
+      "text": "And not only that but it doesn't need to know the fees that an institution actually charges on any particular",
+      "timestamp": "18:36"
+    },
+    {
+      "start": 1122.64,
+      "duration": 7.6,
+      "text": "product right that can be baked into the net expected return for the portfolio optimizer and and the the allocation",
+      "timestamp": "18:42"
+    },
+    {
+      "start": 1130.24,
+      "duration": 6.64,
+      "text": "model to relay to the client And so as we talk about transparency and",
+      "timestamp": "18:50"
+    },
+    {
+      "start": 1136.88,
+      "duration": 5.84,
+      "text": "performance I would say it's not a high frequency trading firm And so we're",
+      "timestamp": "18:56"
+    },
+    {
+      "start": 1142.72,
+      "duration": 6.319,
+      "text": "really doing you know asset allocation financial planning etc for the clients And so milliseconds are not really what",
+      "timestamp": "19:02"
+    },
+    {
+      "start": 1149.039,
+      "duration": 6.801,
+      "text": "matters here It's really the explanability the transparency that that we can provide to the client",
+      "timestamp": "19:09"
+    },
+    {
+      "start": 1155.84,
+      "duration": 6.719,
+      "text": "Awesome Yeah great insights from this panel I think we've spoken a lot about how AI LLMs can really streamline a lot",
+      "timestamp": "19:15"
+    },
+    {
+      "start": 1162.559,
+      "duration": 5.841,
+      "text": "of how we think about finance and some of the processes that are reproducible or streamlined and help us leverage our",
+      "timestamp": "19:22"
+    },
+    {
+      "start": 1168.4,
+      "duration": 5.519,
+      "text": "energy and our focus and attention a little bit better as humans to focus on the areas that really require our",
+      "timestamp": "19:28"
+    },
+    {
+      "start": 1173.919,
+      "duration": 6.401,
+      "text": "thinking and our expertise Um so it really helps us scale ourselves as well To that end I think um it be only fair",
+      "timestamp": "19:33"
+    },
+    {
+      "start": 1180.32,
+      "duration": 7.28,
+      "text": "if we took an objective view at generative AI and LLM So I'm curious um to this panel you know what do you all",
+      "timestamp": "19:40"
+    },
+    {
+      "start": 1187.6,
+      "duration": 5.52,
+      "text": "think I guess Secret and the rest of the panel um are some of the limitations when we think about applying generative",
+      "timestamp": "19:47"
+    },
+    {
+      "start": 1193.12,
+      "duration": 6.32,
+      "text": "AI and LLMs to finance um and along with some of these limitations what do you think are some potential solutions that",
+      "timestamp": "19:53"
+    },
+    {
+      "start": 1199.44,
+      "duration": 7.2,
+      "text": "we have here um that we can continue to um have AI um in this loop in finance",
+      "timestamp": "19:59"
+    },
+    {
+      "start": 1206.64,
+      "duration": 6.88,
+      "text": "um one of the big limitations I see is the alignment of incentive within the",
+      "timestamp": "20:06"
+    },
+    {
+      "start": 1213.52,
+      "duration": 7.2,
+      "text": "organization As I mentioned right AI cannot just operate in its corner in silo It has to be fully integrated with",
+      "timestamp": "20:13"
+    },
+    {
+      "start": 1220.72,
+      "duration": 5.52,
+      "text": "all the other functions And so it's really important that there is a top-down mandate on yes we're going to",
+      "timestamp": "20:20"
+    },
+    {
+      "start": 1226.24,
+      "duration": 5.6,
+      "text": "transform our company with AI but so everyone needs to be on the same page uh",
+      "timestamp": "20:26"
+    },
+    {
+      "start": 1231.84,
+      "duration": 5.44,
+      "text": "that also means that those people need to be educated on what AI can and cannot",
+      "timestamp": "20:31"
+    },
+    {
+      "start": 1237.28,
+      "duration": 5.2,
+      "text": "do Uh education is the second big big thing that we need to watch out for It",
+      "timestamp": "20:37"
+    },
+    {
+      "start": 1242.48,
+      "duration": 7.52,
+      "text": "means educating So when I first joined EFG the first thing I did is start from the top train the board the seuite on",
+      "timestamp": "20:42"
+    },
+    {
+      "start": 1250.0,
+      "duration": 6.88,
+      "text": "what AI can and cannot do Then the next level is all the the different employees making sure they have a literacy And the",
+      "timestamp": "20:50"
+    },
+    {
+      "start": 1256.88,
+      "duration": 6.159,
+      "text": "last piece that we shouldn't forget is actually the AI team The the tech technology that you guys are building is",
+      "timestamp": "20:56"
+    },
+    {
+      "start": 1263.039,
+      "duration": 5.921,
+      "text": "evolving so rapidly that we also need to keep up When I started there was no such thing as LLM or agent So we definitely",
+      "timestamp": "21:03"
+    },
+    {
+      "start": 1268.96,
+      "duration": 5.68,
+      "text": "need to keep up as well Uh the third thing I would say is technology banks",
+      "timestamp": "21:08"
+    },
+    {
+      "start": 1274.64,
+      "duration": 5.76,
+      "text": "being very risk averse A lot of us started on premise and with the agility",
+      "timestamp": "21:14"
+    },
+    {
+      "start": 1280.4,
+      "duration": 6.88,
+      "text": "and the rapidness in which things are changing I don't think we can afford to continue on premise bringing a server",
+      "timestamp": "21:20"
+    },
+    {
+      "start": 1287.28,
+      "duration": 5.6,
+      "text": "ordering it setting up the OS making sure you have the right software takes a long time it takes also a lot of",
+      "timestamp": "21:27"
+    },
+    {
+      "start": 1292.88,
+      "duration": 5.36,
+      "text": "engineering resources so it depends a little bit on the size of the company obviously but so for me ideally I want",
+      "timestamp": "21:32"
+    },
+    {
+      "start": 1298.24,
+      "duration": 7.2,
+      "text": "to outsource this as much as possible and so cloud is the obvious but it needs a a change of mindset needs to happen",
+      "timestamp": "21:38"
+    },
+    {
+      "start": 1305.44,
+      "duration": 5.04,
+      "text": "that yes it's okay to have some of the more confidential data moved there with",
+      "timestamp": "21:45"
+    },
+    {
+      "start": 1310.48,
+      "duration": 5.04,
+      "text": "the right controls So the right encryption and and measures in place",
+      "timestamp": "21:50"
+    },
+    {
+      "start": 1315.52,
+      "duration": 6.24,
+      "text": "through the technology and and the last piece is the governance as I mentioned it's always for us we see it as a",
+      "timestamp": "21:55"
+    },
+    {
+      "start": 1321.76,
+      "duration": 6.32,
+      "text": "prerequisites to establish the trust with the clients with the internal stakeholders that we are bringing in AI",
+      "timestamp": "22:01"
+    },
+    {
+      "start": 1328.08,
+      "duration": 5.36,
+      "text": "in a responsible manner So it's really a bunch of different dimensions before",
+      "timestamp": "22:08"
+    },
+    {
+      "start": 1333.44,
+      "duration": 6.479,
+      "text": "banks can fully leverage the all all the technology that is being um set up now",
+      "timestamp": "22:13"
+    },
+    {
+      "start": 1339.919,
+      "duration": 5.921,
+      "text": "Yeah\n Yeah That's great I think it's there's a lot of kind of um optimization",
+      "timestamp": "22:19"
+    },
+    {
+      "start": 1345.84,
+      "duration": 5.68,
+      "text": "required here as well I think in terms of as we think about how far AI has come initially we started out with",
+      "timestamp": "22:25"
+    },
+    {
+      "start": 1351.52,
+      "duration": 6.24,
+      "text": "traditional machine learnings and then later on we moved into kind of deep learning um sort of models and now we",
+      "timestamp": "22:31"
+    },
+    {
+      "start": 1357.76,
+      "duration": 7.52,
+      "text": "have generative AI Now we have also agentic um AI where we're able to make decisions on the outputs of these LLMs",
+      "timestamp": "22:37"
+    },
+    {
+      "start": 1365.28,
+      "duration": 6.639,
+      "text": "and not just having it spew kind of these uh list of citations resources and still a human having to be able to kind",
+      "timestamp": "22:45"
+    },
+    {
+      "start": 1371.919,
+      "duration": 5.841,
+      "text": "of babysit and also make determinations Now an agent is almost able to or sometimes already able to end to end",
+      "timestamp": "22:51"
+    },
+    {
+      "start": 1377.76,
+      "duration": 5.44,
+      "text": "spearhead these processes and make decisions on top of um the information that's being generated So that",
+      "timestamp": "22:57"
+    },
+    {
+      "start": 1383.2,
+      "duration": 6.8,
+      "text": "represents almost next step um of what we're thinking about in terms of kind of what we call autonomously operating um",
+      "timestamp": "23:03"
+    },
+    {
+      "start": 1390.0,
+      "duration": 5.44,
+      "text": "AI I think to that end I think as AI systems make more decisions autonomously",
+      "timestamp": "23:10"
+    },
+    {
+      "start": 1395.44,
+      "duration": 5.599,
+      "text": "I'm curious on this panel's kind of um thoughts in terms of um what audit",
+      "timestamp": "23:15"
+    },
+    {
+      "start": 1401.039,
+      "duration": 6.401,
+      "text": "mechanisms or what sort of stop gaps or guardrails do we have in place to make sure um that we're effectively managing",
+      "timestamp": "23:21"
+    },
+    {
+      "start": 1407.44,
+      "duration": 6.08,
+      "text": "risk and bias in these models I think a lot of times when we think about modeling you know a lot of the",
+      "timestamp": "23:27"
+    },
+    {
+      "start": 1413.52,
+      "duration": 6.08,
+      "text": "decision-m is based on the training data that we input And so I'm I'm curious um on Charles and Cigarettes as well as uh",
+      "timestamp": "23:33"
+    },
+    {
+      "start": 1419.6,
+      "duration": 6.4,
+      "text": "Sam's opinion on you know what are some of the guard rails um or mechanisms in terms of audit we can have in place to",
+      "timestamp": "23:39"
+    },
+    {
+      "start": 1426.0,
+      "duration": 6.64,
+      "text": "make sure that the outputs of AI are um are representative are ethical and are factual um when it comes to financial",
+      "timestamp": "23:46"
+    },
+    {
+      "start": 1432.64,
+      "duration": 5.44,
+      "text": "decision-m Yeah So as we talked about before I mean",
+      "timestamp": "23:52"
+    },
+    {
+      "start": 1438.08,
+      "duration": 5.12,
+      "text": "the risk based approach the governance the trust is at the center of of all",
+      "timestamp": "23:58"
+    },
+    {
+      "start": 1443.2,
+      "duration": 6.56,
+      "text": "things in our approach And so we invest most of our time actually in the guardrails in designing the processes",
+      "timestamp": "24:03"
+    },
+    {
+      "start": 1449.76,
+      "duration": 7.919,
+      "text": "There's a there's a human in the loop for any you know actual trade happening any mo money movement happening etc And",
+      "timestamp": "24:09"
+    },
+    {
+      "start": 1457.679,
+      "duration": 5.761,
+      "text": "of course in the eval right to make sure that the LLM is not going off script We",
+      "timestamp": "24:17"
+    },
+    {
+      "start": 1463.44,
+      "duration": 5.599,
+      "text": "use rag to make sure it has the right concept We use function calls to make sure that it's pulling the right",
+      "timestamp": "24:23"
+    },
+    {
+      "start": 1469.039,
+      "duration": 5.12,
+      "text": "expected returns or information about the client's account But actually at its",
+      "timestamp": "24:29"
+    },
+    {
+      "start": 1474.159,
+      "duration": 7.76,
+      "text": "core what we've learned is that it is much easier to make specialized agents in an agent architecture where different",
+      "timestamp": "24:34"
+    },
+    {
+      "start": 1481.919,
+      "duration": 5.281,
+      "text": "models are specialized for different use cases And for example we use traditional",
+      "timestamp": "24:41"
+    },
+    {
+      "start": 1487.2,
+      "duration": 7.839,
+      "text": "deterministic you know financial models to do things like borrow risk factor decomposition correlation analyses for",
+      "timestamp": "24:47"
+    },
+    {
+      "start": 1495.039,
+      "duration": 5.52,
+      "text": "asset allocation for processing long time series of data up to the second uh",
+      "timestamp": "24:55"
+    },
+    {
+      "start": 1500.559,
+      "duration": 6.24,
+      "text": "as as the market moves and things like that And we primarily use the LLM to orchestrate as well as to communicate",
+      "timestamp": "25:00"
+    },
+    {
+      "start": 1506.799,
+      "duration": 5.841,
+      "text": "these complex financial outputs in clear and intuitive manner to the client But",
+      "timestamp": "25:06"
+    },
+    {
+      "start": 1512.64,
+      "duration": 5.279,
+      "text": "the UX that we've noticed is also important right it's not just a chatbot",
+      "timestamp": "25:12"
+    },
+    {
+      "start": 1517.919,
+      "duration": 5.201,
+      "text": "that's that's spewing things It's actually built throughout the wealth journey so that the things that are",
+      "timestamp": "25:17"
+    },
+    {
+      "start": 1523.12,
+      "duration": 7.28,
+      "text": "backed by hard quantitative analysis the recommendations that are coming from the deterministic models are shown as such",
+      "timestamp": "25:23"
+    },
+    {
+      "start": 1530.4,
+      "duration": 6.8,
+      "text": "and the uh the LLM outputs and things like that are kind of explained on the side and and clearly marked as such as",
+      "timestamp": "25:30"
+    },
+    {
+      "start": 1537.2,
+      "duration": 6.0,
+      "text": "well Awesome Um yeah that's a great thought",
+      "timestamp": "25:37"
+    },
+    {
+      "start": 1543.2,
+      "duration": 6.64,
+      "text": "in terms of insight and how we can uh use some of these technologies I think looking forward um maybe within the next",
+      "timestamp": "25:43"
+    },
+    {
+      "start": 1549.84,
+      "duration": 5.04,
+      "text": "five years what do you guys think are going to be the largest kind of financial edge as we think about it in",
+      "timestamp": "25:49"
+    },
+    {
+      "start": 1554.88,
+      "duration": 6.96,
+      "text": "the context of generative AI LM is it going to be better data better modeling something else entirely um what is this",
+      "timestamp": "25:54"
+    },
+    {
+      "start": 1561.84,
+      "duration": 6.64,
+      "text": "panel's perspective on that um and in terms of how quickly AI is changing from day to day originally we had chat GBT",
+      "timestamp": "26:01"
+    },
+    {
+      "start": 1568.48,
+      "duration": 6.319,
+      "text": "come out and now we have almost uh let's say like three to five models daily that are coming out um each with new",
+      "timestamp": "26:08"
+    },
+    {
+      "start": 1574.799,
+      "duration": 5.841,
+      "text": "different kind of specialties as as well as different ways of training and optimization here um in terms of kind of",
+      "timestamp": "26:14"
+    },
+    {
+      "start": 1580.64,
+      "duration": 6.24,
+      "text": "expert expertise Um so in the in terms of the next 3 to 5 years given how rapidly AI is changing what does this",
+      "timestamp": "26:20"
+    },
+    {
+      "start": 1586.88,
+      "duration": 5.12,
+      "text": "panel see as um where we're going in terms of kind of the biggest um area of",
+      "timestamp": "26:26"
+    },
+    {
+      "start": 1592.0,
+      "duration": 5.039,
+      "text": "financial edge and you know where AI can take um its impact in finance um to the",
+      "timestamp": "26:32"
+    },
+    {
+      "start": 1597.039,
+      "duration": 6.88,
+      "text": "next step So better data better models it's obvious is going to be very important",
+      "timestamp": "26:37"
+    },
+    {
+      "start": 1603.919,
+      "duration": 5.681,
+      "text": "But I think the biggest hurdles for banks is to change their mindset and",
+      "timestamp": "26:43"
+    },
+    {
+      "start": 1609.6,
+      "duration": 5.199,
+      "text": "really really truly transform themselves It can't just be adding a feature in the",
+      "timestamp": "26:49"
+    },
+    {
+      "start": 1614.799,
+      "duration": 6.561,
+      "text": "background It we have to actually redesign entirely how we do banking And I think what Charles is doing is much",
+      "timestamp": "26:54"
+    },
+    {
+      "start": 1621.36,
+      "duration": 6.559,
+      "text": "more advanced than what we are doing on the more traditional side of thing is the ability to change mindset and start",
+      "timestamp": "27:01"
+    },
+    {
+      "start": 1627.919,
+      "duration": 6.961,
+      "text": "looking at processes as a whole and how they can be fully redesigned which means that the process is going to",
+      "timestamp": "27:07"
+    },
+    {
+      "start": 1634.88,
+      "duration": 5.44,
+      "text": "change What the people on the process are going to do is going to be different right the the compliance person probably",
+      "timestamp": "27:14"
+    },
+    {
+      "start": 1640.32,
+      "duration": 6.88,
+      "text": "won't will be moving from actually doing the process to supervising what the agent is doing And so the ability to",
+      "timestamp": "27:20"
+    },
+    {
+      "start": 1647.2,
+      "duration": 6.479,
+      "text": "really have that vision of shifting the mindset on how you look at processes and then the next step is the ability to",
+      "timestamp": "27:27"
+    },
+    {
+      "start": 1653.679,
+      "duration": 7.841,
+      "text": "actually implement those changes and have the technical expertise But it's really a true re revolution that we are",
+      "timestamp": "27:33"
+    },
+    {
+      "start": 1661.52,
+      "duration": 6.8,
+      "text": "living now and it can't just be adding one or two features It has to be an entire the entire company has to be on",
+      "timestamp": "27:41"
+    },
+    {
+      "start": 1668.32,
+      "duration": 5.52,
+      "text": "boarded and everyone has to pitch in to to make sure that we really redefine how",
+      "timestamp": "27:48"
+    },
+    {
+      "start": 1673.84,
+      "duration": 7.04,
+      "text": "we do finance today So I just quickly add uh few points on",
+      "timestamp": "27:53"
+    },
+    {
+      "start": 1680.88,
+      "duration": 5.6,
+      "text": "technical aspect and there many aspect as said uh data is gold here So uh",
+      "timestamp": "28:00"
+    },
+    {
+      "start": 1686.48,
+      "duration": 5.199,
+      "text": "scaling loss I mean if you have followed recently scaling loss so uh the models",
+      "timestamp": "28:06"
+    },
+    {
+      "start": 1691.679,
+      "duration": 6.321,
+      "text": "actually have trend seen all the data like all those human generated data now actually synthetic data generation right",
+      "timestamp": "28:11"
+    },
+    {
+      "start": 1698.0,
+      "duration": 6.0,
+      "text": "is a key topic that's one the other one I want to point out is that is the balance between the model built",
+      "timestamp": "28:18"
+    },
+    {
+      "start": 1704.0,
+      "duration": 5.2,
+      "text": "retraining versus test computing so the shift has happening basically while the",
+      "timestamp": "28:24"
+    },
+    {
+      "start": 1709.2,
+      "duration": 6.16,
+      "text": "model is inferring taking more time to sync it's like mimicking more human process we have some intelligence but I",
+      "timestamp": "28:29"
+    },
+    {
+      "start": 1715.36,
+      "duration": 6.72,
+      "text": "on the fly we kind of think so putting in the process like a pre-turning model",
+      "timestamp": "28:35"
+    },
+    {
+      "start": 1722.08,
+      "duration": 6.56,
+      "text": "training versus the test time the inference time so that is actually a big play we are seeing this in recent models",
+      "timestamp": "28:42"
+    },
+    {
+      "start": 1728.64,
+      "duration": 4.279,
+      "text": "so there are two things I want to call out",
+      "timestamp": "28:48"
+    },
+    {
+      "start": 1733.679,
+      "duration": 6.48,
+      "text": "the reason I'm most excited about LLMs in finance is that the traditional",
+      "timestamp": "28:53"
+    },
+    {
+      "start": 1740.159,
+      "duration": 5.52,
+      "text": "finance and expertise has always been a pyramid not a pyramid scheme just a pyramid",
+      "timestamp": "29:00"
+    },
+    {
+      "start": 1745.679,
+      "duration": 6.0,
+      "text": "where at the bottom you have public markets one sizefits-all Google global advice and at the very top you've always",
+      "timestamp": "29:05"
+    },
+    {
+      "start": 1751.679,
+      "duration": 6.561,
+      "text": "had this pinnacle that's called the family office where you have the world's foremost human experts in each vertical",
+      "timestamp": "29:11"
+    },
+    {
+      "start": 1758.24,
+      "duration": 5.919,
+      "text": "insurance derivatives private markets portfolio construction all working together to make the financial asset",
+      "timestamp": "29:18"
+    },
+    {
+      "start": 1764.159,
+      "duration": 6.561,
+      "text": "universe work for you your family your tax situation etc And for the first time",
+      "timestamp": "29:24"
+    },
+    {
+      "start": 1770.72,
+      "duration": 7.12,
+      "text": "we see with LLM the ability to potentially imbue that domain expertise in the LLM and put it in everyone's",
+      "timestamp": "29:30"
+    },
+    {
+      "start": 1777.84,
+      "duration": 6.4,
+      "text": "pocket so that everyone's walking around with these world-class experts that deeply understand their context every",
+      "timestamp": "29:37"
+    },
+    {
+      "start": 1784.24,
+      "duration": 7.12,
+      "text": "conversation that they've had their family situation has infinite commute compute to merge it with the financial",
+      "timestamp": "29:44"
+    },
+    {
+      "start": 1791.36,
+      "duration": 5.84,
+      "text": "asset universe and really deliver that advice personalized at scale at a low",
+      "timestamp": "29:51"
+    },
+    {
+      "start": 1797.2,
+      "duration": 6.8,
+      "text": "cost that's never been as accessible as before Great That brings us to time I'd like to",
+      "timestamp": "29:57"
+    },
+    {
+      "start": 1804.0,
+      "duration": 5.84,
+      "text": "thank everyone on the panel Charles Sambit and Sigrid for their insights and also um the audience for participating",
+      "timestamp": "30:04"
+    },
+    {
+      "start": 1809.84,
+      "duration": 4.04,
+      "text": "in this journey Thank you",
+      "timestamp": "30:09"
+    }
+  ],
+  "extraction_timestamp": "2025-06-29T20:47:10.730884",
+  "playlist_title": "SuperAI Singapore 2025: io.net Main Stage"
+}
