@@ -58,6 +58,12 @@ class ConfigManager:
                 raise ValueError("Missing 'videos' section in config")
             if 'playlists' not in config:
                 raise ValueError("Missing 'playlists' section in config")
+            if 'llm' not in config:
+                raise ValueError("Missing 'llm' section in config")
+            if 'provider' not in config['llm']:
+                raise ValueError("Missing 'llm.provider' in config")
+            if 'model' not in config['llm']:
+                raise ValueError("Missing 'llm.model' in config")
             
             return config
             
@@ -67,6 +73,14 @@ class ConfigManager:
     def get_custom_prompt(self) -> str:
         """Get the custom prompt from configuration."""
         return self.config['prompts']['custom']
+    
+    def get_llm_provider(self) -> str:
+        """Get the LLM provider from configuration."""
+        return self.config['llm']['provider']
+    
+    def get_llm_model(self) -> str:
+        """Get the LLM model from configuration."""
+        return self.config['llm']['model']
     
     def is_valid_video_id(self, video_id: str) -> bool:
         """Check if video ID is valid according to config."""
@@ -211,6 +225,43 @@ class YouTubeLLMProcessor:
             print(f"❌ FAILED: {e}")
             raise
     
+    def save_results(self, video_data: dict, llm_result: str):
+        """Save transcript JSON and LLM analysis to files."""
+        try:
+            # Create results directory
+            results_dir = Path("results")
+            results_dir.mkdir(exist_ok=True)
+            
+            # Create video-specific directory
+            video_title = video_data.get("video_title", "Unknown_Video")
+            sanitized_title = sanitize_filename(video_title)
+            video_dir = results_dir / sanitized_title
+            video_dir.mkdir(exist_ok=True)
+            
+            # Save transcript JSON
+            json_file = video_dir / "transcript.json"
+            with open(json_file, 'w', encoding='utf-8') as f:
+                json.dump(video_data, f, indent=2, ensure_ascii=False)
+            
+            # Save LLM analysis
+            txt_file = video_dir / "analysis.txt"
+            with open(txt_file, 'w', encoding='utf-8') as f:
+                f.write(llm_result)
+            
+            # Save config file
+            config_file = video_dir / "config.yaml"
+            with open(config_file, 'w', encoding='utf-8') as f:
+                yaml.dump(self.config_manager.config, f, default_flow_style=False, allow_unicode=True)
+            
+            print(f"💾 Results saved:")
+            print(f"   📄 JSON: {json_file}")
+            print(f"   📝 Text: {txt_file}")
+            print(f"   ⚙️  Config: {config_file}")
+            print()
+            
+        except Exception as e:
+            print(f"⚠️  Warning: Failed to save results: {e}")
+    
     async def process_with_llm(self, video_data: dict, provider: str = "openai", 
                               model: str = "gpt-4o-mini") -> str:
         """Process the transcript with LLM analysis."""
@@ -231,9 +282,7 @@ class YouTubeLLMProcessor:
         if custom_prompt:
             prompt = f"""
 Video Title: {video_title}
-
 Video Description: {description}
-
 Transcript: {transcript_text}
 
 {custom_prompt}
@@ -312,6 +361,9 @@ Begin only after fully processing the transcript content. Do not summarize—wri
             # Step 2: Process with LLM
             llm_result = await self.process_with_llm(video_data, provider, model)
             
+            # Step 3: Save results
+            self.save_results(video_data, llm_result)
+            
             return llm_result
             
         except Exception as e:
@@ -363,14 +415,18 @@ Environment Variables:
         # Use video ID if available, otherwise playlist ID
         target_id = video_id if video_id else playlist_id
         
+        # Get LLM settings from config
+        provider = config_manager.get_llm_provider()
+        model = config_manager.get_llm_model()
+        
         # Initialize processor
         processor = YouTubeLLMProcessor(config_manager)
         
         # Run processing
         result = asyncio.run(processor.run(
             video_id=target_id,
-            provider="openai",  # Default provider
-            model="gpt-4o-mini"  # Default model
+            provider=provider,
+            model=model
         ))
         
         print("=" * 50)
