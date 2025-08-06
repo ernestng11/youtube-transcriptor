@@ -1,0 +1,2597 @@
+{
+  "video_id": "bjkI26nygxI",
+  "video_title": "Charles Guillemet (ledger) From Chaos to confidence: Simulate and clear sign your transactions",
+  "video_url": "https://www.youtube.com/watch?v=bjkI26nygxI",
+  "channel_title": "[EthCC] Livestream 4",
+  "published_at": "2025-07-02T23:39:45+00:00",
+  "duration_seconds": null,
+  "view_count": 60,
+  "like_count": 0,
+  "description": "\"Blind signing has been a notable obstacle in the digital asset ecosystem exploited by scammers to siphon off billions of dollars from unsuspecting customers.\n\nTo combat the issue, Ledger introduces Clear Signing and Transaction simulation on device.\"",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 429,
+    "aggregated_text": "[Music] Hello. Hello everyone. Um, after all this hacks, I'm going to try to explain how to prevent them. Uh, my name is Charles G. I'm CTO at Ledger and my talk is called from chaos to confidence, understanding and predicting transactions. And at the end of the presentation, there will be a there will be a small bonus. So uh who in the room h owns a ledger wallet? Raise your hand. Okay, almost everyone. And who is in the room as always like blindly sign hash? Raise your hand. Almost everyone also. Then that's that's not that good. Um it's very risky to sign to blindly sign hash uh because you have no way to understand what it means. uh maybe you are signing the transaction you intended to sign, but maybe you are signing away your assets. Uh when you see a hash, there is no way for you to understand if it's a legitimate operation, if you are um like interacting with the wild smart contract or if it's an intended unintended authorization or malicious payload. Uh that was said right before there are plenty of hacks out there. uh was X was the biggest one last year and um and this year unfortunately we saw by bit by bit hack so they lost more than one 1.4 four billions USD which is the biggest hack ever. Um and for me there are like several takeaways. Um I think the first one is that like using like when you are a financial institution like a big organization managing like that much money uh you shouldn't rely like on three devices that that that cost like 79 USD like I don't think it's something wise to have this kind of budget to secure 1.4 billion. And the second thing is like that is that like understanding the transaction that you uh that you are about to to sign is uh is really paramount. This is the only way to uh fix this. So clear signing fix this. What is clear signing? Clear signing is the power of information. Uh here you have like an interaction with 1 in which is clear sign and as a user you completely understand what kind of transaction you are about to sign. You are interacting with 1in fusion swap and you are about to swap 1,00 W medicic to 554 USDT and then as a user you will decide if it was the the transaction you wanted to sign or not. It's completely transparent human friendly and it really like empowers a user um to implement clear signing. uh this is not that easy because uh the device itself is not connected to the blockchain and it receives like a whole transaction and uh it's very complex for the for the the device to understand to understand the how to pass the transaction. So in order to solve this we have created a standard which is the ERC 7730 which consists in uh creating a high level description on how uh the smart contract is working. So we are working with DAPs. Uh DAPs are going to create a JSON file that describe on a high level mode how the the smart contract is working. What are the the name of the method? What are the parameters and and so on. So the idea is um is to create this JSON file to submit it uh to for review uh to our GitHub repository and uh and then we have all the information that are necessary uh for the device to understand the transaction. On the wallet side, uh we like it's supported within the JAR live and uh and if you are a wallet and want want to integrate this specific feature, you only have to integrate the the device SDK uh and partner with us in order to make this a reality. The device management kit is um is a high level library that allows to uh to discuss to communicate with the device. you can discover different devices. You have the connection, you can exchange data. You also have like state management um and OS command. So, it's a high level library that really is uh the process of uh integrating ledger devices into your stack. Uh let's go into like a very um um successful implementation example. Uh so I'm going to walk you you walk you through the the clear signing for a so we have created um a tool that will ease the process of creating this JSON file and um if you are an a developer you're going to this tool and you will input the address of your smart contract you will also um like give the information of the owner of the smart contract a name of the developer the URL of the of the of the DAP and then uh the tool will detect automatically the AI of your smart contract and then you will be guided through um the the tool in order to uh provide the name for the method the uh the name for the attribute the parameters and also the type of the parameters so that the device can properly passse uh those parameters and display them uh on on device and at the end of the process uh the JSON file is created by the file uh you only have to um submitted on our GitHub repository. So the GitHub repository is um is hosted by Ledger today but it's intended to be a public good and and we are we are really happy to decentralize it if the if the Ethereum Foundation wants to uh to use it uh to to host it uh we will be uh happy to to to do so and when the the the JSON file is submitted to the GitHub repository then we are doing a curation process uh we are verifying the the the JSON file and that it matches with the smart contract and finally we are signing it so that our devices can recognize uh there's um there's JSON file and whenever you are interacting with a uh the the device receive the row transaction to be signed along with this JSON metadata file and then the device is able to u to understand how to pass the transaction and how to uh display uh the necessary information for the user to uh to decide if he wants to to interact with a and then you have the name of the contract, you have the the amount to borrow uh and everything necessary to uh take a decision. So if you are a DAB developer, it it really it really takes like 15 minutes to create this JSON file. Then we will need a few days to review everything and then you are providing clear signing to your to your users. So if your DAP is uh is not clear signed yet uh please take this 15 minutes. We have started with uh with EVM and Etherum but the idea for us is really to clear sign all the things. Uh so we are continuing discussing with different DAPs to make sure that we have this JSON file and we are going to expand uh the methodology to the to the different chain in the ecosystem. So clear signing is is something very important and it would have avoided like all the hacks that that we have mentioned and to the safe specific smart contract which is a little more complex. uh we will have like more announcement to do like in the in the near future just the teasing uh we are working on on creating um a security layer in order to uh to clear sign uh safe uh but sometimes it might not be enough because with clear signing what you have is um an understanding of of what you are signing but it doesn't give uh really like information on the risk for uh the transaction you're about to to sign and that's why we uh I've created a transaction check on device. So the idea is to give uh to the user uh with like um a risk assessment for a specific transaction but on device and it's really important that it happens on device because uh if it happens on your smartphone or on your computer you might think you like the transaction that is simulated can be uh can be be one and the the transaction that you are signing can be another and this is exactly what happened to WX and and Bybit um on their front end the transaction was simulated Everything looked fine. Uh but this they this signed another transaction. So that's why it's important that this transaction check uh happens on device and it's really like complimentary to clear signing. Again the device is not connected to the internet. So uh there is some magic behind this. Um the way it works is pretty simple. Uh when you are about to sign a transaction uh you're going to connect on a or on your favorite wallet. Then the transaction is crafted and before sending the transaction the raw transaction to the device it's sent to a third party that are specialized into a risk assessment for transaction um mentioning like a blockade cyers and tenderly and they do their magic meaning that they do transaction simulation um they conduct a risk assessment with their own uh uristic and then they provide like a risk assessment report uh that will be uh given to the device And then on device uh you are receiving the row transaction to be signed with the JSON file in order to clear sign it plus this risk assessment report and on device this is what you what you see if the transaction if no threat is detected it's verified like nothing is displayed on on device and if a threat is detected then then you are um prompted with this screen you can't miss it like it's very very obvious. uh there was a critical threat detected and and then it's uh it's up to you. You can like be back to safety meaning you don't sign the transaction or if you if you feel lucky today uh you can uh you can accept the threat and continue. Um again like we what we want to do is really to empower your user but at the end users take enlightened enlightened decision with uh the information that we are providing them. So if they really want to sign this risky transaction, it's still possible. And we launched this specific feature only two months ago. Uh it's only available on flex and stacks. And in two months uh we prevented 20 millions uh in losses. So it's already very big. Uh especially like if we compare to um to the the time it's live and the number of devices it concerns. So if you don't have a flex on stacks uh I really like encourage you uh to to have one in order to benefit from uh the clear signing and also to the transaction check uh on device and this number will continue to uh increase over time and no doubt about that. So we are really like preventing hacks uh on the on the field. Um, a couple of uh useful links. Uh, if you are a DAPS and want uh to be clear signed, don't hesitate to scan the QR code and uh and and provide your uh JSON file to be clear sign. Uh if you are a wallet or a developer there are also the corresponding uh QR code uh that can be can be useful. As I mentioned, I have a small bonus. Uh we also have announced uh the ledger recovery key recently and the ledger recover key is an alternative for uh your backup. It's a small NFC card and um so now you so you you know pro probably the recovery sheet. I still advise any user to have a recovery sheet with the 24 words to store this recovery sheet uh inside the secure location maybe a safe in a bank or anything. We also launched uh ledger recover two years ago. It was it was a famous uh launch and it's an it's an online distributed backup uh that you can enable by proving your identity. Really cool product um and it's a pet subscript subscription. So if you really don't like this uh product, you don't have to pay for it. And today we are announcing uh this new product which is Ledger Recovery. Uh it's a small NFC card, a squared one. Uh easy to pair and use. Uh you will unlock it with a dedicated pin and you will interact with it using your stacks of flex. Um again at least with security. So uh it was designed with a very high level of security in mind. Uh the NFC card embeds a secure element. uh inside the secure element we have we have built our own application which is uh that you can review it on on GitHub and then we are mounting a secure channel between the flex uh and the and the NFC card the recovery recovery key card this secure channel um gives you like mutual mutual authentication guarantee meaning that the card proves it's ledger one flex prove it's ledger device and also the card proves It's this one. Um there is a there is a pairing code exactly the same type of experience that you have on Bluetooth. So that you are sure that you are discussing with this specific card and not another card in the room. So everything is uh really secure. Uh then you input the pin to unlock the card and then you will allow your 24 watts to be back up in into this card. There is a wipe me mechanism meaning that if you input like three wrong pin for this NFC card it it would be wiped. Um you can use like multiple card if you want to swap from one card to to another. Uh it's uh very uh very easy and very convenient to uh to back up and restore. So I'm really happy to announce it uh today. So that's it for me for today. Uh thank you for your attention and if you have questions I guess we have some time. Any [Applause] question in the room? Uh, thanks. Yeah, maybe I missed it. But why is netspec not enough for this service? Like why does the developer needs to interact with the system to uh provide the JSON file? What is not enough? netspec like the inline documentation of smart contracts or so yeah with the API you will have the the we have some name of the method but sometimes do you don't have the type of the of the attribute and the the attribute and the parameters for the method um and uh and also it needs to be provided by uh the developer so that we can curate it uh but there are other sources uh but we what we want is really really to create like a partnership with DAB so that we have there's their information and they are responsible for uh for for it. But yeah, there are many sources. The question is to trust the source and also to have the the right uh format for for for our ERC 7730. Any other question? Thank you for your talk. uh about the NFC card you just uh presented um is it protected against the NFC readers like the 3.0 device or stuff like that? Yeah, as as I as I mentioned like you have like the you have the NFC part which is like um only the communication channel but on top of this communication channel we have created our own secure channel that is authenticating both part. uh meaning that the card is has like a cryptographic warranty that discussed with a flex and the flex has cryptographic warranty that you discussed with the card and also with this specific card and as soon as this authentication is established then uh they are sharing a secret to encrypt everything on the between the card and the device uh so that it's end to end secure. Any other question? When you send a transaction to the third party for simulation, where is that uh request initiated from and how do you verify on device that it was an authentic simulation? Yeah, very good question. Um, so this uh this call happens by the is performed by the device SDK. So the device SDK is the layer between uh between the the device and the wallet. Uh and the the device SDK will uh create this request to block cyverse and and and tenderly and then um the risk assessment report uh is signed uh by blockhead and inside the report there is uh the hash of the transaction and the signature by blockhead. The device will receive the row transaction and the risk assessment report. The device will verify that the risk assessment report was signed by one of the third party that we that we mentioned and secondly it will verify that the risk assessment matches with the specific transaction in order to avoid uh the kind of attack you mentioned. I see a question at the bottom. Um when you have um a safe calling a time lock calling a contract calling a contract in more complex setup how do you do clear signing in this case? Do you have nesting of the calls? Do you analyze the sub calls? So this is the this is the challenge that we we are working on. Um the safe is a little more complex than a regular smart contract because you can uh you can do the nested transaction and the embedded call data and so on. uh and we are working on this um I don't think we we will do like a recursive things so that you can like sign a transaction inside a transaction set the transaction but for safe for one level uh it will work this is what we are working on any other question okay cool thank [Applause]",
+    "text_length": 15917,
+    "word_count": 3083
+  },
+  "segments": [
+    {
+      "start": 1.26,
+      "duration": 4.98,
+      "text": "[Music]",
+      "timestamp": "00:01"
+    },
+    {
+      "start": 6.24,
+      "duration": 2.48,
+      "text": "Hello. Hello everyone. Um, after all",
+      "timestamp": "00:06"
+    },
+    {
+      "start": 8.72,
+      "duration": 2.24,
+      "text": "this hacks, I'm going to try to explain",
+      "timestamp": "00:08"
+    },
+    {
+      "start": 10.96,
+      "duration": 2.48,
+      "text": "how to prevent them. Uh, my name is",
+      "timestamp": "00:10"
+    },
+    {
+      "start": 13.44,
+      "duration": 2.96,
+      "text": "Charles G. I'm CTO at Ledger and my talk",
+      "timestamp": "00:13"
+    },
+    {
+      "start": 16.4,
+      "duration": 2.799,
+      "text": "is called from chaos to confidence,",
+      "timestamp": "00:16"
+    },
+    {
+      "start": 19.199,
+      "duration": 1.361,
+      "text": "understanding and predicting",
+      "timestamp": "00:19"
+    },
+    {
+      "start": 20.56,
+      "duration": 2.16,
+      "text": "transactions. And at the end of the",
+      "timestamp": "00:20"
+    },
+    {
+      "start": 22.72,
+      "duration": 1.68,
+      "text": "presentation, there will be a there will",
+      "timestamp": "00:22"
+    },
+    {
+      "start": 24.4,
+      "duration": 4.24,
+      "text": "be a small bonus. So uh who in the room",
+      "timestamp": "00:24"
+    },
+    {
+      "start": 28.64,
+      "duration": 3.12,
+      "text": "h owns a ledger wallet? Raise your hand.",
+      "timestamp": "00:28"
+    },
+    {
+      "start": 31.76,
+      "duration": 3.12,
+      "text": "Okay, almost everyone. And who is in the",
+      "timestamp": "00:31"
+    },
+    {
+      "start": 34.88,
+      "duration": 2.96,
+      "text": "room as always like blindly sign hash?",
+      "timestamp": "00:34"
+    },
+    {
+      "start": 37.84,
+      "duration": 2.16,
+      "text": "Raise your hand.",
+      "timestamp": "00:37"
+    },
+    {
+      "start": 40.0,
+      "duration": 2.239,
+      "text": "Almost everyone also. Then that's that's",
+      "timestamp": "00:40"
+    },
+    {
+      "start": 42.239,
+      "duration": 2.48,
+      "text": "not that good. Um it's very risky to",
+      "timestamp": "00:42"
+    },
+    {
+      "start": 44.719,
+      "duration": 2.961,
+      "text": "sign to blindly sign hash uh because you",
+      "timestamp": "00:44"
+    },
+    {
+      "start": 47.68,
+      "duration": 2.16,
+      "text": "have no way to understand what it means.",
+      "timestamp": "00:47"
+    },
+    {
+      "start": 49.84,
+      "duration": 1.76,
+      "text": "uh maybe you are signing the transaction",
+      "timestamp": "00:49"
+    },
+    {
+      "start": 51.6,
+      "duration": 2.799,
+      "text": "you intended to sign, but maybe you are",
+      "timestamp": "00:51"
+    },
+    {
+      "start": 54.399,
+      "duration": 2.241,
+      "text": "signing away your assets. Uh when you",
+      "timestamp": "00:54"
+    },
+    {
+      "start": 56.64,
+      "duration": 1.919,
+      "text": "see a hash, there is no way for you to",
+      "timestamp": "00:56"
+    },
+    {
+      "start": 58.559,
+      "duration": 1.921,
+      "text": "understand if it's a legitimate",
+      "timestamp": "00:58"
+    },
+    {
+      "start": 60.48,
+      "duration": 2.399,
+      "text": "operation, if you are um like",
+      "timestamp": "01:00"
+    },
+    {
+      "start": 62.879,
+      "duration": 2.319,
+      "text": "interacting with the wild smart contract",
+      "timestamp": "01:02"
+    },
+    {
+      "start": 65.199,
+      "duration": 2.801,
+      "text": "or if it's an intended unintended",
+      "timestamp": "01:05"
+    },
+    {
+      "start": 68.0,
+      "duration": 2.64,
+      "text": "authorization or malicious payload. Uh",
+      "timestamp": "01:08"
+    },
+    {
+      "start": 70.64,
+      "duration": 2.799,
+      "text": "that was said right before there are",
+      "timestamp": "01:10"
+    },
+    {
+      "start": 73.439,
+      "duration": 3.121,
+      "text": "plenty of hacks out there. uh was X was",
+      "timestamp": "01:13"
+    },
+    {
+      "start": 76.56,
+      "duration": 2.64,
+      "text": "the biggest one last year and um and",
+      "timestamp": "01:16"
+    },
+    {
+      "start": 79.2,
+      "duration": 2.959,
+      "text": "this year unfortunately we saw by bit by",
+      "timestamp": "01:19"
+    },
+    {
+      "start": 82.159,
+      "duration": 3.361,
+      "text": "bit hack so they lost more than one 1.4",
+      "timestamp": "01:22"
+    },
+    {
+      "start": 85.52,
+      "duration": 2.8,
+      "text": "four billions USD which is the biggest",
+      "timestamp": "01:25"
+    },
+    {
+      "start": 88.32,
+      "duration": 3.04,
+      "text": "hack ever. Um and for me there are like",
+      "timestamp": "01:28"
+    },
+    {
+      "start": 91.36,
+      "duration": 2.16,
+      "text": "several takeaways. Um I think the first",
+      "timestamp": "01:31"
+    },
+    {
+      "start": 93.52,
+      "duration": 4.08,
+      "text": "one is that like using like when you are",
+      "timestamp": "01:33"
+    },
+    {
+      "start": 97.6,
+      "duration": 1.839,
+      "text": "a financial institution like a big",
+      "timestamp": "01:37"
+    },
+    {
+      "start": 99.439,
+      "duration": 2.081,
+      "text": "organization managing like that much",
+      "timestamp": "01:39"
+    },
+    {
+      "start": 101.52,
+      "duration": 2.239,
+      "text": "money uh you shouldn't rely like on",
+      "timestamp": "01:41"
+    },
+    {
+      "start": 103.759,
+      "duration": 2.081,
+      "text": "three devices that that that cost like",
+      "timestamp": "01:43"
+    },
+    {
+      "start": 105.84,
+      "duration": 2.8,
+      "text": "79 USD like I don't think it's something",
+      "timestamp": "01:45"
+    },
+    {
+      "start": 108.64,
+      "duration": 1.92,
+      "text": "wise to have this kind of budget to",
+      "timestamp": "01:48"
+    },
+    {
+      "start": 110.56,
+      "duration": 2.8,
+      "text": "secure 1.4 billion. And the second thing",
+      "timestamp": "01:50"
+    },
+    {
+      "start": 113.36,
+      "duration": 3.119,
+      "text": "is like that is that like understanding",
+      "timestamp": "01:53"
+    },
+    {
+      "start": 116.479,
+      "duration": 1.841,
+      "text": "the transaction that you uh that you are",
+      "timestamp": "01:56"
+    },
+    {
+      "start": 118.32,
+      "duration": 2.159,
+      "text": "about to to sign is uh is really",
+      "timestamp": "01:58"
+    },
+    {
+      "start": 120.479,
+      "duration": 2.24,
+      "text": "paramount. This is the only way to uh",
+      "timestamp": "02:00"
+    },
+    {
+      "start": 122.719,
+      "duration": 2.961,
+      "text": "fix this. So clear signing fix this.",
+      "timestamp": "02:02"
+    },
+    {
+      "start": 125.68,
+      "duration": 1.52,
+      "text": "What is clear signing? Clear signing is",
+      "timestamp": "02:05"
+    },
+    {
+      "start": 127.2,
+      "duration": 2.399,
+      "text": "the power of information. Uh here you",
+      "timestamp": "02:07"
+    },
+    {
+      "start": 129.599,
+      "duration": 2.881,
+      "text": "have like an interaction with 1 in which",
+      "timestamp": "02:09"
+    },
+    {
+      "start": 132.48,
+      "duration": 2.72,
+      "text": "is clear sign and as a user you",
+      "timestamp": "02:12"
+    },
+    {
+      "start": 135.2,
+      "duration": 1.92,
+      "text": "completely understand what kind of",
+      "timestamp": "02:15"
+    },
+    {
+      "start": 137.12,
+      "duration": 2.0,
+      "text": "transaction you are about to sign. You",
+      "timestamp": "02:17"
+    },
+    {
+      "start": 139.12,
+      "duration": 2.72,
+      "text": "are interacting with 1in fusion swap and",
+      "timestamp": "02:19"
+    },
+    {
+      "start": 141.84,
+      "duration": 4.72,
+      "text": "you are about to swap 1,00 W medicic to",
+      "timestamp": "02:21"
+    },
+    {
+      "start": 146.56,
+      "duration": 1.6,
+      "text": "554",
+      "timestamp": "02:26"
+    },
+    {
+      "start": 148.16,
+      "duration": 3.6,
+      "text": "USDT and then as a user you will decide",
+      "timestamp": "02:28"
+    },
+    {
+      "start": 151.76,
+      "duration": 2.08,
+      "text": "if it was the the transaction you wanted",
+      "timestamp": "02:31"
+    },
+    {
+      "start": 153.84,
+      "duration": 1.52,
+      "text": "to sign or not. It's completely",
+      "timestamp": "02:33"
+    },
+    {
+      "start": 155.36,
+      "duration": 2.4,
+      "text": "transparent human friendly and it really",
+      "timestamp": "02:35"
+    },
+    {
+      "start": 157.76,
+      "duration": 3.52,
+      "text": "like empowers a user",
+      "timestamp": "02:37"
+    },
+    {
+      "start": 161.28,
+      "duration": 2.56,
+      "text": "um to implement clear signing. uh this",
+      "timestamp": "02:41"
+    },
+    {
+      "start": 163.84,
+      "duration": 2.24,
+      "text": "is not that easy because uh the device",
+      "timestamp": "02:43"
+    },
+    {
+      "start": 166.08,
+      "duration": 1.519,
+      "text": "itself is not connected to the",
+      "timestamp": "02:46"
+    },
+    {
+      "start": 167.599,
+      "duration": 2.64,
+      "text": "blockchain and it receives like a whole",
+      "timestamp": "02:47"
+    },
+    {
+      "start": 170.239,
+      "duration": 2.561,
+      "text": "transaction and uh it's very complex for",
+      "timestamp": "02:50"
+    },
+    {
+      "start": 172.8,
+      "duration": 2.64,
+      "text": "the for the the device to understand to",
+      "timestamp": "02:52"
+    },
+    {
+      "start": 175.44,
+      "duration": 1.68,
+      "text": "understand the how to pass the",
+      "timestamp": "02:55"
+    },
+    {
+      "start": 177.12,
+      "duration": 2.0,
+      "text": "transaction. So in order to solve this",
+      "timestamp": "02:57"
+    },
+    {
+      "start": 179.12,
+      "duration": 2.72,
+      "text": "we have created a standard which is the",
+      "timestamp": "02:59"
+    },
+    {
+      "start": 181.84,
+      "duration": 3.84,
+      "text": "ERC 7730 which consists in uh creating a",
+      "timestamp": "03:01"
+    },
+    {
+      "start": 185.68,
+      "duration": 2.16,
+      "text": "high level description on how uh the",
+      "timestamp": "03:05"
+    },
+    {
+      "start": 187.84,
+      "duration": 2.24,
+      "text": "smart contract is working. So we are",
+      "timestamp": "03:07"
+    },
+    {
+      "start": 190.08,
+      "duration": 2.64,
+      "text": "working with DAPs. Uh DAPs are going to",
+      "timestamp": "03:10"
+    },
+    {
+      "start": 192.72,
+      "duration": 4.0,
+      "text": "create a JSON file that describe on a",
+      "timestamp": "03:12"
+    },
+    {
+      "start": 196.72,
+      "duration": 2.56,
+      "text": "high level mode how the the smart",
+      "timestamp": "03:16"
+    },
+    {
+      "start": 199.28,
+      "duration": 1.92,
+      "text": "contract is working. What are the the",
+      "timestamp": "03:19"
+    },
+    {
+      "start": 201.2,
+      "duration": 1.36,
+      "text": "name of the method? What are the",
+      "timestamp": "03:21"
+    },
+    {
+      "start": 202.56,
+      "duration": 2.64,
+      "text": "parameters and and so on. So the idea is",
+      "timestamp": "03:22"
+    },
+    {
+      "start": 205.2,
+      "duration": 2.8,
+      "text": "um is to create this JSON file to submit",
+      "timestamp": "03:25"
+    },
+    {
+      "start": 208.0,
+      "duration": 2.72,
+      "text": "it uh to for review uh to our GitHub",
+      "timestamp": "03:28"
+    },
+    {
+      "start": 210.72,
+      "duration": 2.799,
+      "text": "repository and uh and then we have all",
+      "timestamp": "03:30"
+    },
+    {
+      "start": 213.519,
+      "duration": 1.761,
+      "text": "the information that are necessary uh",
+      "timestamp": "03:33"
+    },
+    {
+      "start": 215.28,
+      "duration": 1.599,
+      "text": "for the device to understand the",
+      "timestamp": "03:35"
+    },
+    {
+      "start": 216.879,
+      "duration": 3.121,
+      "text": "transaction. On the wallet side, uh we",
+      "timestamp": "03:36"
+    },
+    {
+      "start": 220.0,
+      "duration": 2.48,
+      "text": "like it's supported within the JAR live",
+      "timestamp": "03:40"
+    },
+    {
+      "start": 222.48,
+      "duration": 2.08,
+      "text": "and uh and if you are a wallet and want",
+      "timestamp": "03:42"
+    },
+    {
+      "start": 224.56,
+      "duration": 2.959,
+      "text": "want to integrate this specific feature,",
+      "timestamp": "03:44"
+    },
+    {
+      "start": 227.519,
+      "duration": 2.321,
+      "text": "you only have to integrate the the",
+      "timestamp": "03:47"
+    },
+    {
+      "start": 229.84,
+      "duration": 2.959,
+      "text": "device SDK uh and partner with us in",
+      "timestamp": "03:49"
+    },
+    {
+      "start": 232.799,
+      "duration": 3.201,
+      "text": "order to make this a reality. The device",
+      "timestamp": "03:52"
+    },
+    {
+      "start": 236.0,
+      "duration": 2.4,
+      "text": "management kit is um is a high level",
+      "timestamp": "03:56"
+    },
+    {
+      "start": 238.4,
+      "duration": 3.119,
+      "text": "library that allows to uh to discuss to",
+      "timestamp": "03:58"
+    },
+    {
+      "start": 241.519,
+      "duration": 1.761,
+      "text": "communicate with the device. you can",
+      "timestamp": "04:01"
+    },
+    {
+      "start": 243.28,
+      "duration": 2.08,
+      "text": "discover different devices. You have the",
+      "timestamp": "04:03"
+    },
+    {
+      "start": 245.36,
+      "duration": 2.32,
+      "text": "connection, you can exchange data. You",
+      "timestamp": "04:05"
+    },
+    {
+      "start": 247.68,
+      "duration": 2.479,
+      "text": "also have like state management um and",
+      "timestamp": "04:07"
+    },
+    {
+      "start": 250.159,
+      "duration": 2.401,
+      "text": "OS command. So, it's a high level",
+      "timestamp": "04:10"
+    },
+    {
+      "start": 252.56,
+      "duration": 2.8,
+      "text": "library that really is uh the process of",
+      "timestamp": "04:12"
+    },
+    {
+      "start": 255.36,
+      "duration": 2.159,
+      "text": "uh integrating ledger devices into your",
+      "timestamp": "04:15"
+    },
+    {
+      "start": 257.519,
+      "duration": 4.0,
+      "text": "stack. Uh let's go into like a very um",
+      "timestamp": "04:17"
+    },
+    {
+      "start": 261.519,
+      "duration": 3.041,
+      "text": "um successful implementation example. Uh",
+      "timestamp": "04:21"
+    },
+    {
+      "start": 264.56,
+      "duration": 2.4,
+      "text": "so I'm going to walk you you walk you",
+      "timestamp": "04:24"
+    },
+    {
+      "start": 266.96,
+      "duration": 3.92,
+      "text": "through the the clear signing for a so",
+      "timestamp": "04:26"
+    },
+    {
+      "start": 270.88,
+      "duration": 3.039,
+      "text": "we have created um a tool that will ease",
+      "timestamp": "04:30"
+    },
+    {
+      "start": 273.919,
+      "duration": 2.56,
+      "text": "the process of creating this JSON file",
+      "timestamp": "04:33"
+    },
+    {
+      "start": 276.479,
+      "duration": 2.641,
+      "text": "and um if you are an a developer you're",
+      "timestamp": "04:36"
+    },
+    {
+      "start": 279.12,
+      "duration": 2.24,
+      "text": "going to this tool and you will input",
+      "timestamp": "04:39"
+    },
+    {
+      "start": 281.36,
+      "duration": 2.8,
+      "text": "the address of your smart contract you",
+      "timestamp": "04:41"
+    },
+    {
+      "start": 284.16,
+      "duration": 3.36,
+      "text": "will also um like give the information",
+      "timestamp": "04:44"
+    },
+    {
+      "start": 287.52,
+      "duration": 2.72,
+      "text": "of the owner of the smart contract a",
+      "timestamp": "04:47"
+    },
+    {
+      "start": 290.24,
+      "duration": 2.399,
+      "text": "name of the developer the URL of the of",
+      "timestamp": "04:50"
+    },
+    {
+      "start": 292.639,
+      "duration": 3.921,
+      "text": "the of the DAP and then uh the tool will",
+      "timestamp": "04:52"
+    },
+    {
+      "start": 296.56,
+      "duration": 2.24,
+      "text": "detect automatically the AI of your",
+      "timestamp": "04:56"
+    },
+    {
+      "start": 298.8,
+      "duration": 2.0,
+      "text": "smart contract and then you will be",
+      "timestamp": "04:58"
+    },
+    {
+      "start": 300.8,
+      "duration": 2.72,
+      "text": "guided through um the the tool in order",
+      "timestamp": "05:00"
+    },
+    {
+      "start": 303.52,
+      "duration": 2.48,
+      "text": "to uh provide the name for the method",
+      "timestamp": "05:03"
+    },
+    {
+      "start": 306.0,
+      "duration": 2.56,
+      "text": "the uh the name for the attribute the",
+      "timestamp": "05:06"
+    },
+    {
+      "start": 308.56,
+      "duration": 1.68,
+      "text": "parameters and also the type of the",
+      "timestamp": "05:08"
+    },
+    {
+      "start": 310.24,
+      "duration": 2.399,
+      "text": "parameters so that the device can",
+      "timestamp": "05:10"
+    },
+    {
+      "start": 312.639,
+      "duration": 2.241,
+      "text": "properly passse uh those parameters and",
+      "timestamp": "05:12"
+    },
+    {
+      "start": 314.88,
+      "duration": 3.44,
+      "text": "display them uh on on device and at the",
+      "timestamp": "05:14"
+    },
+    {
+      "start": 318.32,
+      "duration": 2.159,
+      "text": "end of the process uh the JSON file is",
+      "timestamp": "05:18"
+    },
+    {
+      "start": 320.479,
+      "duration": 2.56,
+      "text": "created by the file uh you only have to",
+      "timestamp": "05:20"
+    },
+    {
+      "start": 323.039,
+      "duration": 2.481,
+      "text": "um submitted on our GitHub repository.",
+      "timestamp": "05:23"
+    },
+    {
+      "start": 325.52,
+      "duration": 2.88,
+      "text": "So the GitHub repository is um is hosted",
+      "timestamp": "05:25"
+    },
+    {
+      "start": 328.4,
+      "duration": 2.56,
+      "text": "by Ledger today but it's intended to be",
+      "timestamp": "05:28"
+    },
+    {
+      "start": 330.96,
+      "duration": 3.12,
+      "text": "a public good and and we are we are",
+      "timestamp": "05:30"
+    },
+    {
+      "start": 334.08,
+      "duration": 2.399,
+      "text": "really happy to decentralize it if the",
+      "timestamp": "05:34"
+    },
+    {
+      "start": 336.479,
+      "duration": 2.0,
+      "text": "if the Ethereum Foundation wants to uh",
+      "timestamp": "05:36"
+    },
+    {
+      "start": 338.479,
+      "duration": 3.361,
+      "text": "to use it uh to to host it uh we will be",
+      "timestamp": "05:38"
+    },
+    {
+      "start": 341.84,
+      "duration": 3.04,
+      "text": "uh happy to to to do so and when the the",
+      "timestamp": "05:41"
+    },
+    {
+      "start": 344.88,
+      "duration": 3.44,
+      "text": "the JSON file is submitted to the GitHub",
+      "timestamp": "05:44"
+    },
+    {
+      "start": 348.32,
+      "duration": 2.159,
+      "text": "repository then we are doing a curation",
+      "timestamp": "05:48"
+    },
+    {
+      "start": 350.479,
+      "duration": 3.521,
+      "text": "process uh we are verifying the the the",
+      "timestamp": "05:50"
+    },
+    {
+      "start": 354.0,
+      "duration": 2.0,
+      "text": "JSON file and that it matches with the",
+      "timestamp": "05:54"
+    },
+    {
+      "start": 356.0,
+      "duration": 2.32,
+      "text": "smart contract and finally we are",
+      "timestamp": "05:56"
+    },
+    {
+      "start": 358.32,
+      "duration": 2.8,
+      "text": "signing it so that our devices can",
+      "timestamp": "05:58"
+    },
+    {
+      "start": 361.12,
+      "duration": 3.04,
+      "text": "recognize uh there's um there's JSON",
+      "timestamp": "06:01"
+    },
+    {
+      "start": 364.16,
+      "duration": 2.0,
+      "text": "file and whenever you are interacting",
+      "timestamp": "06:04"
+    },
+    {
+      "start": 366.16,
+      "duration": 3.68,
+      "text": "with a uh the the device receive the row",
+      "timestamp": "06:06"
+    },
+    {
+      "start": 369.84,
+      "duration": 2.16,
+      "text": "transaction to be signed along with this",
+      "timestamp": "06:09"
+    },
+    {
+      "start": 372.0,
+      "duration": 2.319,
+      "text": "JSON metadata file and then the device",
+      "timestamp": "06:12"
+    },
+    {
+      "start": 374.319,
+      "duration": 2.561,
+      "text": "is able to u to understand how to pass",
+      "timestamp": "06:14"
+    },
+    {
+      "start": 376.88,
+      "duration": 3.28,
+      "text": "the transaction and how to uh display uh",
+      "timestamp": "06:16"
+    },
+    {
+      "start": 380.16,
+      "duration": 1.92,
+      "text": "the necessary information for the user",
+      "timestamp": "06:20"
+    },
+    {
+      "start": 382.08,
+      "duration": 2.64,
+      "text": "to uh to decide if he wants to to",
+      "timestamp": "06:22"
+    },
+    {
+      "start": 384.72,
+      "duration": 1.84,
+      "text": "interact with a and then you have the",
+      "timestamp": "06:24"
+    },
+    {
+      "start": 386.56,
+      "duration": 2.0,
+      "text": "name of the contract, you have the the",
+      "timestamp": "06:26"
+    },
+    {
+      "start": 388.56,
+      "duration": 2.4,
+      "text": "amount to borrow uh and everything",
+      "timestamp": "06:28"
+    },
+    {
+      "start": 390.96,
+      "duration": 3.359,
+      "text": "necessary to uh take a decision. So if",
+      "timestamp": "06:30"
+    },
+    {
+      "start": 394.319,
+      "duration": 2.641,
+      "text": "you are a DAB developer, it it really it",
+      "timestamp": "06:34"
+    },
+    {
+      "start": 396.96,
+      "duration": 2.64,
+      "text": "really takes like 15 minutes to create",
+      "timestamp": "06:36"
+    },
+    {
+      "start": 399.6,
+      "duration": 3.2,
+      "text": "this JSON file. Then we will need a few",
+      "timestamp": "06:39"
+    },
+    {
+      "start": 402.8,
+      "duration": 2.48,
+      "text": "days to review everything and then you",
+      "timestamp": "06:42"
+    },
+    {
+      "start": 405.28,
+      "duration": 2.0,
+      "text": "are providing clear signing to your to",
+      "timestamp": "06:45"
+    },
+    {
+      "start": 407.28,
+      "duration": 4.24,
+      "text": "your users. So if your DAP is uh is not",
+      "timestamp": "06:47"
+    },
+    {
+      "start": 411.52,
+      "duration": 3.04,
+      "text": "clear signed yet uh please take this 15",
+      "timestamp": "06:51"
+    },
+    {
+      "start": 414.56,
+      "duration": 1.68,
+      "text": "minutes.",
+      "timestamp": "06:54"
+    },
+    {
+      "start": 416.24,
+      "duration": 2.64,
+      "text": "We have started with uh with EVM and",
+      "timestamp": "06:56"
+    },
+    {
+      "start": 418.88,
+      "duration": 2.48,
+      "text": "Etherum but the idea for us is really to",
+      "timestamp": "06:58"
+    },
+    {
+      "start": 421.36,
+      "duration": 2.8,
+      "text": "clear sign all the things. Uh so we are",
+      "timestamp": "07:01"
+    },
+    {
+      "start": 424.16,
+      "duration": 2.0,
+      "text": "continuing discussing with different",
+      "timestamp": "07:04"
+    },
+    {
+      "start": 426.16,
+      "duration": 3.28,
+      "text": "DAPs to make sure that we have this JSON",
+      "timestamp": "07:06"
+    },
+    {
+      "start": 429.44,
+      "duration": 3.039,
+      "text": "file and we are going to expand uh the",
+      "timestamp": "07:09"
+    },
+    {
+      "start": 432.479,
+      "duration": 3.201,
+      "text": "methodology to the to the different",
+      "timestamp": "07:12"
+    },
+    {
+      "start": 435.68,
+      "duration": 2.959,
+      "text": "chain in the ecosystem.",
+      "timestamp": "07:15"
+    },
+    {
+      "start": 438.639,
+      "duration": 2.241,
+      "text": "So clear signing is is something very",
+      "timestamp": "07:18"
+    },
+    {
+      "start": 440.88,
+      "duration": 2.08,
+      "text": "important and it would have avoided like",
+      "timestamp": "07:20"
+    },
+    {
+      "start": 442.96,
+      "duration": 1.84,
+      "text": "all the hacks that that we have",
+      "timestamp": "07:22"
+    },
+    {
+      "start": 444.8,
+      "duration": 3.519,
+      "text": "mentioned and to the safe specific smart",
+      "timestamp": "07:24"
+    },
+    {
+      "start": 448.319,
+      "duration": 2.241,
+      "text": "contract which is a little more complex.",
+      "timestamp": "07:28"
+    },
+    {
+      "start": 450.56,
+      "duration": 1.759,
+      "text": "uh we will have like more announcement",
+      "timestamp": "07:30"
+    },
+    {
+      "start": 452.319,
+      "duration": 2.0,
+      "text": "to do like in the in the near future",
+      "timestamp": "07:32"
+    },
+    {
+      "start": 454.319,
+      "duration": 2.88,
+      "text": "just the teasing uh we are working on on",
+      "timestamp": "07:34"
+    },
+    {
+      "start": 457.199,
+      "duration": 3.28,
+      "text": "creating um a security layer in order to",
+      "timestamp": "07:37"
+    },
+    {
+      "start": 460.479,
+      "duration": 2.961,
+      "text": "uh to clear sign uh safe uh but",
+      "timestamp": "07:40"
+    },
+    {
+      "start": 463.44,
+      "duration": 2.4,
+      "text": "sometimes it might not be enough because",
+      "timestamp": "07:43"
+    },
+    {
+      "start": 465.84,
+      "duration": 2.96,
+      "text": "with clear signing what you have is um",
+      "timestamp": "07:45"
+    },
+    {
+      "start": 468.8,
+      "duration": 2.399,
+      "text": "an understanding of of what you are",
+      "timestamp": "07:48"
+    },
+    {
+      "start": 471.199,
+      "duration": 2.56,
+      "text": "signing but it doesn't give uh really",
+      "timestamp": "07:51"
+    },
+    {
+      "start": 473.759,
+      "duration": 2.321,
+      "text": "like information on the risk for uh the",
+      "timestamp": "07:53"
+    },
+    {
+      "start": 476.08,
+      "duration": 2.72,
+      "text": "transaction you're about to to sign and",
+      "timestamp": "07:56"
+    },
+    {
+      "start": 478.8,
+      "duration": 2.64,
+      "text": "that's why we uh I've created a",
+      "timestamp": "07:58"
+    },
+    {
+      "start": 481.44,
+      "duration": 2.479,
+      "text": "transaction check on device. So the idea",
+      "timestamp": "08:01"
+    },
+    {
+      "start": 483.919,
+      "duration": 3.201,
+      "text": "is to give uh to the user uh with like",
+      "timestamp": "08:03"
+    },
+    {
+      "start": 487.12,
+      "duration": 2.0,
+      "text": "um a risk assessment for a specific",
+      "timestamp": "08:07"
+    },
+    {
+      "start": 489.12,
+      "duration": 2.32,
+      "text": "transaction but on device and it's",
+      "timestamp": "08:09"
+    },
+    {
+      "start": 491.44,
+      "duration": 1.759,
+      "text": "really important that it happens on",
+      "timestamp": "08:11"
+    },
+    {
+      "start": 493.199,
+      "duration": 2.161,
+      "text": "device because uh if it happens on your",
+      "timestamp": "08:13"
+    },
+    {
+      "start": 495.36,
+      "duration": 3.2,
+      "text": "smartphone or on your computer you might",
+      "timestamp": "08:15"
+    },
+    {
+      "start": 498.56,
+      "duration": 2.16,
+      "text": "think you like the transaction that is",
+      "timestamp": "08:18"
+    },
+    {
+      "start": 500.72,
+      "duration": 2.4,
+      "text": "simulated can be uh can be be one and",
+      "timestamp": "08:20"
+    },
+    {
+      "start": 503.12,
+      "duration": 2.079,
+      "text": "the the transaction that you are signing",
+      "timestamp": "08:23"
+    },
+    {
+      "start": 505.199,
+      "duration": 1.921,
+      "text": "can be another and this is exactly what",
+      "timestamp": "08:25"
+    },
+    {
+      "start": 507.12,
+      "duration": 3.919,
+      "text": "happened to WX and and Bybit um on their",
+      "timestamp": "08:27"
+    },
+    {
+      "start": 511.039,
+      "duration": 1.92,
+      "text": "front end the transaction was simulated",
+      "timestamp": "08:31"
+    },
+    {
+      "start": 512.959,
+      "duration": 2.241,
+      "text": "Everything looked fine. Uh but this they",
+      "timestamp": "08:32"
+    },
+    {
+      "start": 515.2,
+      "duration": 1.759,
+      "text": "this signed another transaction. So",
+      "timestamp": "08:35"
+    },
+    {
+      "start": 516.959,
+      "duration": 2.401,
+      "text": "that's why it's important that this",
+      "timestamp": "08:36"
+    },
+    {
+      "start": 519.36,
+      "duration": 2.64,
+      "text": "transaction check uh happens on device",
+      "timestamp": "08:39"
+    },
+    {
+      "start": 522.0,
+      "duration": 1.919,
+      "text": "and it's really like complimentary to",
+      "timestamp": "08:42"
+    },
+    {
+      "start": 523.919,
+      "duration": 2.961,
+      "text": "clear signing. Again the device is not",
+      "timestamp": "08:43"
+    },
+    {
+      "start": 526.88,
+      "duration": 1.92,
+      "text": "connected to the internet. So uh there",
+      "timestamp": "08:46"
+    },
+    {
+      "start": 528.8,
+      "duration": 2.4,
+      "text": "is some magic behind this. Um the way it",
+      "timestamp": "08:48"
+    },
+    {
+      "start": 531.2,
+      "duration": 3.04,
+      "text": "works is pretty simple. Uh when you are",
+      "timestamp": "08:51"
+    },
+    {
+      "start": 534.24,
+      "duration": 2.32,
+      "text": "about to sign a transaction uh you're",
+      "timestamp": "08:54"
+    },
+    {
+      "start": 536.56,
+      "duration": 2.64,
+      "text": "going to connect on a or on your",
+      "timestamp": "08:56"
+    },
+    {
+      "start": 539.2,
+      "duration": 2.4,
+      "text": "favorite wallet. Then the transaction is",
+      "timestamp": "08:59"
+    },
+    {
+      "start": 541.6,
+      "duration": 2.16,
+      "text": "crafted and before sending the",
+      "timestamp": "09:01"
+    },
+    {
+      "start": 543.76,
+      "duration": 1.84,
+      "text": "transaction the raw transaction to the",
+      "timestamp": "09:03"
+    },
+    {
+      "start": 545.6,
+      "duration": 2.96,
+      "text": "device it's sent to a third party that",
+      "timestamp": "09:05"
+    },
+    {
+      "start": 548.56,
+      "duration": 2.56,
+      "text": "are specialized into a risk assessment",
+      "timestamp": "09:08"
+    },
+    {
+      "start": 551.12,
+      "duration": 3.36,
+      "text": "for transaction um mentioning like a",
+      "timestamp": "09:11"
+    },
+    {
+      "start": 554.48,
+      "duration": 2.72,
+      "text": "blockade cyers and tenderly and they do",
+      "timestamp": "09:14"
+    },
+    {
+      "start": 557.2,
+      "duration": 1.6,
+      "text": "their magic meaning that they do",
+      "timestamp": "09:17"
+    },
+    {
+      "start": 558.8,
+      "duration": 2.64,
+      "text": "transaction simulation um they conduct a",
+      "timestamp": "09:18"
+    },
+    {
+      "start": 561.44,
+      "duration": 2.56,
+      "text": "risk assessment with their own uh",
+      "timestamp": "09:21"
+    },
+    {
+      "start": 564.0,
+      "duration": 2.399,
+      "text": "uristic and then they provide like a",
+      "timestamp": "09:24"
+    },
+    {
+      "start": 566.399,
+      "duration": 2.161,
+      "text": "risk assessment report uh that will be",
+      "timestamp": "09:26"
+    },
+    {
+      "start": 568.56,
+      "duration": 2.399,
+      "text": "uh given to the device And then on",
+      "timestamp": "09:28"
+    },
+    {
+      "start": 570.959,
+      "duration": 3.521,
+      "text": "device uh you are receiving the row",
+      "timestamp": "09:30"
+    },
+    {
+      "start": 574.48,
+      "duration": 2.0,
+      "text": "transaction to be signed with the JSON",
+      "timestamp": "09:34"
+    },
+    {
+      "start": 576.48,
+      "duration": 2.88,
+      "text": "file in order to clear sign it plus this",
+      "timestamp": "09:36"
+    },
+    {
+      "start": 579.36,
+      "duration": 2.32,
+      "text": "risk assessment report and on device",
+      "timestamp": "09:39"
+    },
+    {
+      "start": 581.68,
+      "duration": 2.56,
+      "text": "this is what you what you see if the",
+      "timestamp": "09:41"
+    },
+    {
+      "start": 584.24,
+      "duration": 2.48,
+      "text": "transaction if no threat is detected",
+      "timestamp": "09:44"
+    },
+    {
+      "start": 586.72,
+      "duration": 2.32,
+      "text": "it's verified like nothing is displayed",
+      "timestamp": "09:46"
+    },
+    {
+      "start": 589.04,
+      "duration": 2.96,
+      "text": "on on device and if a threat is detected",
+      "timestamp": "09:49"
+    },
+    {
+      "start": 592.0,
+      "duration": 3.519,
+      "text": "then then you are um prompted with this",
+      "timestamp": "09:52"
+    },
+    {
+      "start": 595.519,
+      "duration": 2.241,
+      "text": "screen you can't miss it like it's very",
+      "timestamp": "09:55"
+    },
+    {
+      "start": 597.76,
+      "duration": 2.24,
+      "text": "very obvious. uh there was a critical",
+      "timestamp": "09:57"
+    },
+    {
+      "start": 600.0,
+      "duration": 2.48,
+      "text": "threat detected and and then it's uh",
+      "timestamp": "10:00"
+    },
+    {
+      "start": 602.48,
+      "duration": 2.24,
+      "text": "it's up to you. You can like be back to",
+      "timestamp": "10:02"
+    },
+    {
+      "start": 604.72,
+      "duration": 1.6,
+      "text": "safety meaning you don't sign the",
+      "timestamp": "10:04"
+    },
+    {
+      "start": 606.32,
+      "duration": 2.72,
+      "text": "transaction or if you if you feel lucky",
+      "timestamp": "10:06"
+    },
+    {
+      "start": 609.04,
+      "duration": 2.4,
+      "text": "today uh you can uh you can accept the",
+      "timestamp": "10:09"
+    },
+    {
+      "start": 611.44,
+      "duration": 3.6,
+      "text": "threat and continue. Um again like we",
+      "timestamp": "10:11"
+    },
+    {
+      "start": 615.04,
+      "duration": 1.76,
+      "text": "what we want to do is really to empower",
+      "timestamp": "10:15"
+    },
+    {
+      "start": 616.8,
+      "duration": 2.4,
+      "text": "your user but at the end users take",
+      "timestamp": "10:16"
+    },
+    {
+      "start": 619.2,
+      "duration": 2.8,
+      "text": "enlightened enlightened decision with uh",
+      "timestamp": "10:19"
+    },
+    {
+      "start": 622.0,
+      "duration": 2.16,
+      "text": "the information that we are providing",
+      "timestamp": "10:22"
+    },
+    {
+      "start": 624.16,
+      "duration": 2.4,
+      "text": "them. So if they really want to sign",
+      "timestamp": "10:24"
+    },
+    {
+      "start": 626.56,
+      "duration": 2.0,
+      "text": "this risky transaction, it's still",
+      "timestamp": "10:26"
+    },
+    {
+      "start": 628.56,
+      "duration": 1.519,
+      "text": "possible.",
+      "timestamp": "10:28"
+    },
+    {
+      "start": 630.079,
+      "duration": 2.081,
+      "text": "And we launched this specific feature",
+      "timestamp": "10:30"
+    },
+    {
+      "start": 632.16,
+      "duration": 2.0,
+      "text": "only two months ago. Uh it's only",
+      "timestamp": "10:32"
+    },
+    {
+      "start": 634.16,
+      "duration": 2.56,
+      "text": "available on flex and stacks. And in two",
+      "timestamp": "10:34"
+    },
+    {
+      "start": 636.72,
+      "duration": 3.52,
+      "text": "months uh we prevented 20 millions uh in",
+      "timestamp": "10:36"
+    },
+    {
+      "start": 640.24,
+      "duration": 2.48,
+      "text": "losses. So it's already very big. Uh",
+      "timestamp": "10:40"
+    },
+    {
+      "start": 642.72,
+      "duration": 2.239,
+      "text": "especially like if we compare to um to",
+      "timestamp": "10:42"
+    },
+    {
+      "start": 644.959,
+      "duration": 2.401,
+      "text": "the the time it's live and the number of",
+      "timestamp": "10:44"
+    },
+    {
+      "start": 647.36,
+      "duration": 3.039,
+      "text": "devices it concerns. So if you don't",
+      "timestamp": "10:47"
+    },
+    {
+      "start": 650.399,
+      "duration": 2.0,
+      "text": "have a flex on stacks uh I really like",
+      "timestamp": "10:50"
+    },
+    {
+      "start": 652.399,
+      "duration": 2.321,
+      "text": "encourage you uh to to have one in order",
+      "timestamp": "10:52"
+    },
+    {
+      "start": 654.72,
+      "duration": 2.0,
+      "text": "to benefit from uh the clear signing and",
+      "timestamp": "10:54"
+    },
+    {
+      "start": 656.72,
+      "duration": 2.4,
+      "text": "also to the transaction check uh on",
+      "timestamp": "10:56"
+    },
+    {
+      "start": 659.12,
+      "duration": 2.56,
+      "text": "device and this number will continue to",
+      "timestamp": "10:59"
+    },
+    {
+      "start": 661.68,
+      "duration": 2.48,
+      "text": "uh increase over time and no doubt about",
+      "timestamp": "11:01"
+    },
+    {
+      "start": 664.16,
+      "duration": 2.48,
+      "text": "that. So we are really like preventing",
+      "timestamp": "11:04"
+    },
+    {
+      "start": 666.64,
+      "duration": 3.759,
+      "text": "hacks uh on the on the field.",
+      "timestamp": "11:06"
+    },
+    {
+      "start": 670.399,
+      "duration": 2.961,
+      "text": "Um, a couple of uh useful links. Uh, if",
+      "timestamp": "11:10"
+    },
+    {
+      "start": 673.36,
+      "duration": 2.479,
+      "text": "you are a DAPS and want uh to be clear",
+      "timestamp": "11:13"
+    },
+    {
+      "start": 675.839,
+      "duration": 2.481,
+      "text": "signed, don't hesitate to scan the QR",
+      "timestamp": "11:15"
+    },
+    {
+      "start": 678.32,
+      "duration": 4.0,
+      "text": "code and uh and and provide your uh JSON",
+      "timestamp": "11:18"
+    },
+    {
+      "start": 682.32,
+      "duration": 2.24,
+      "text": "file to be clear sign. Uh if you are a",
+      "timestamp": "11:22"
+    },
+    {
+      "start": 684.56,
+      "duration": 2.399,
+      "text": "wallet or a developer there are also the",
+      "timestamp": "11:24"
+    },
+    {
+      "start": 686.959,
+      "duration": 3.041,
+      "text": "corresponding uh QR code uh that can be",
+      "timestamp": "11:26"
+    },
+    {
+      "start": 690.0,
+      "duration": 3.2,
+      "text": "can be useful. As I mentioned, I have a",
+      "timestamp": "11:30"
+    },
+    {
+      "start": 693.2,
+      "duration": 2.96,
+      "text": "small bonus. Uh we also have announced",
+      "timestamp": "11:33"
+    },
+    {
+      "start": 696.16,
+      "duration": 2.56,
+      "text": "uh the ledger recovery key recently and",
+      "timestamp": "11:36"
+    },
+    {
+      "start": 698.72,
+      "duration": 2.239,
+      "text": "the ledger recover key is an alternative",
+      "timestamp": "11:38"
+    },
+    {
+      "start": 700.959,
+      "duration": 3.201,
+      "text": "for uh your backup. It's a small NFC",
+      "timestamp": "11:40"
+    },
+    {
+      "start": 704.16,
+      "duration": 4.799,
+      "text": "card and um so now you so you you know",
+      "timestamp": "11:44"
+    },
+    {
+      "start": 708.959,
+      "duration": 2.56,
+      "text": "pro probably the recovery sheet. I still",
+      "timestamp": "11:48"
+    },
+    {
+      "start": 711.519,
+      "duration": 2.241,
+      "text": "advise any user to have a recovery sheet",
+      "timestamp": "11:51"
+    },
+    {
+      "start": 713.76,
+      "duration": 2.24,
+      "text": "with the 24 words to store this recovery",
+      "timestamp": "11:53"
+    },
+    {
+      "start": 716.0,
+      "duration": 3.04,
+      "text": "sheet uh inside the secure location",
+      "timestamp": "11:56"
+    },
+    {
+      "start": 719.04,
+      "duration": 2.56,
+      "text": "maybe a safe in a bank or anything. We",
+      "timestamp": "11:59"
+    },
+    {
+      "start": 721.6,
+      "duration": 2.4,
+      "text": "also launched uh ledger recover two",
+      "timestamp": "12:01"
+    },
+    {
+      "start": 724.0,
+      "duration": 2.32,
+      "text": "years ago. It was it was a famous uh",
+      "timestamp": "12:04"
+    },
+    {
+      "start": 726.32,
+      "duration": 2.639,
+      "text": "launch and it's an it's an online",
+      "timestamp": "12:06"
+    },
+    {
+      "start": 728.959,
+      "duration": 3.12,
+      "text": "distributed backup uh that you can",
+      "timestamp": "12:08"
+    },
+    {
+      "start": 732.079,
+      "duration": 3.601,
+      "text": "enable by proving your identity. Really",
+      "timestamp": "12:12"
+    },
+    {
+      "start": 735.68,
+      "duration": 2.399,
+      "text": "cool product um and it's a pet subscript",
+      "timestamp": "12:15"
+    },
+    {
+      "start": 738.079,
+      "duration": 1.921,
+      "text": "subscription. So if you really don't",
+      "timestamp": "12:18"
+    },
+    {
+      "start": 740.0,
+      "duration": 2.24,
+      "text": "like this uh product, you don't have to",
+      "timestamp": "12:20"
+    },
+    {
+      "start": 742.24,
+      "duration": 3.039,
+      "text": "pay for it. And today we are announcing",
+      "timestamp": "12:22"
+    },
+    {
+      "start": 745.279,
+      "duration": 1.68,
+      "text": "uh this new product which is Ledger",
+      "timestamp": "12:25"
+    },
+    {
+      "start": 746.959,
+      "duration": 3.361,
+      "text": "Recovery. Uh it's a small NFC card, a",
+      "timestamp": "12:26"
+    },
+    {
+      "start": 750.32,
+      "duration": 3.28,
+      "text": "squared one. Uh easy to pair and use. Uh",
+      "timestamp": "12:30"
+    },
+    {
+      "start": 753.6,
+      "duration": 3.2,
+      "text": "you will unlock it with a dedicated pin",
+      "timestamp": "12:33"
+    },
+    {
+      "start": 756.8,
+      "duration": 2.8,
+      "text": "and you will interact with it using your",
+      "timestamp": "12:36"
+    },
+    {
+      "start": 759.6,
+      "duration": 5.44,
+      "text": "stacks of flex. Um again at least with",
+      "timestamp": "12:39"
+    },
+    {
+      "start": 765.04,
+      "duration": 2.799,
+      "text": "security. So uh it was designed with a",
+      "timestamp": "12:45"
+    },
+    {
+      "start": 767.839,
+      "duration": 2.56,
+      "text": "very high level of security in mind. Uh",
+      "timestamp": "12:47"
+    },
+    {
+      "start": 770.399,
+      "duration": 3.361,
+      "text": "the NFC card embeds a secure element. uh",
+      "timestamp": "12:50"
+    },
+    {
+      "start": 773.76,
+      "duration": 1.68,
+      "text": "inside the secure element we have we",
+      "timestamp": "12:53"
+    },
+    {
+      "start": 775.44,
+      "duration": 3.36,
+      "text": "have built our own application which is",
+      "timestamp": "12:55"
+    },
+    {
+      "start": 778.8,
+      "duration": 3.12,
+      "text": "uh that you can review it on on GitHub",
+      "timestamp": "12:58"
+    },
+    {
+      "start": 781.92,
+      "duration": 1.68,
+      "text": "and then we are mounting a secure",
+      "timestamp": "13:01"
+    },
+    {
+      "start": 783.6,
+      "duration": 2.88,
+      "text": "channel between the flex uh and the and",
+      "timestamp": "13:03"
+    },
+    {
+      "start": 786.48,
+      "duration": 2.56,
+      "text": "the NFC card the recovery recovery key",
+      "timestamp": "13:06"
+    },
+    {
+      "start": 789.04,
+      "duration": 2.88,
+      "text": "card this secure channel um gives you",
+      "timestamp": "13:09"
+    },
+    {
+      "start": 791.92,
+      "duration": 2.479,
+      "text": "like mutual mutual authentication",
+      "timestamp": "13:11"
+    },
+    {
+      "start": 794.399,
+      "duration": 2.481,
+      "text": "guarantee meaning that the card proves",
+      "timestamp": "13:14"
+    },
+    {
+      "start": 796.88,
+      "duration": 3.28,
+      "text": "it's ledger one flex prove it's ledger",
+      "timestamp": "13:16"
+    },
+    {
+      "start": 800.16,
+      "duration": 3.119,
+      "text": "device and also the card proves It's",
+      "timestamp": "13:20"
+    },
+    {
+      "start": 803.279,
+      "duration": 2.321,
+      "text": "this one. Um there is a there is a",
+      "timestamp": "13:23"
+    },
+    {
+      "start": 805.6,
+      "duration": 2.799,
+      "text": "pairing code exactly the same type of",
+      "timestamp": "13:25"
+    },
+    {
+      "start": 808.399,
+      "duration": 1.761,
+      "text": "experience that you have on Bluetooth.",
+      "timestamp": "13:28"
+    },
+    {
+      "start": 810.16,
+      "duration": 1.6,
+      "text": "So that you are sure that you are",
+      "timestamp": "13:30"
+    },
+    {
+      "start": 811.76,
+      "duration": 1.68,
+      "text": "discussing with this specific card and",
+      "timestamp": "13:31"
+    },
+    {
+      "start": 813.44,
+      "duration": 2.48,
+      "text": "not another card in the room. So",
+      "timestamp": "13:33"
+    },
+    {
+      "start": 815.92,
+      "duration": 2.56,
+      "text": "everything is uh really secure. Uh then",
+      "timestamp": "13:35"
+    },
+    {
+      "start": 818.48,
+      "duration": 2.32,
+      "text": "you input the pin to unlock the card and",
+      "timestamp": "13:38"
+    },
+    {
+      "start": 820.8,
+      "duration": 2.8,
+      "text": "then you will allow your 24 watts to be",
+      "timestamp": "13:40"
+    },
+    {
+      "start": 823.6,
+      "duration": 3.84,
+      "text": "back up in into this card. There is a",
+      "timestamp": "13:43"
+    },
+    {
+      "start": 827.44,
+      "duration": 2.16,
+      "text": "wipe me mechanism meaning that if you",
+      "timestamp": "13:47"
+    },
+    {
+      "start": 829.6,
+      "duration": 3.44,
+      "text": "input like three wrong pin for this NFC",
+      "timestamp": "13:49"
+    },
+    {
+      "start": 833.04,
+      "duration": 2.56,
+      "text": "card it it would be wiped. Um you can",
+      "timestamp": "13:53"
+    },
+    {
+      "start": 835.6,
+      "duration": 2.08,
+      "text": "use like multiple card if you want to",
+      "timestamp": "13:55"
+    },
+    {
+      "start": 837.68,
+      "duration": 2.8,
+      "text": "swap from one card to to another. Uh",
+      "timestamp": "13:57"
+    },
+    {
+      "start": 840.48,
+      "duration": 2.64,
+      "text": "it's uh very uh very easy and very",
+      "timestamp": "14:00"
+    },
+    {
+      "start": 843.12,
+      "duration": 2.399,
+      "text": "convenient to uh to back up and restore.",
+      "timestamp": "14:03"
+    },
+    {
+      "start": 845.519,
+      "duration": 2.721,
+      "text": "So I'm really happy to announce it uh",
+      "timestamp": "14:05"
+    },
+    {
+      "start": 848.24,
+      "duration": 2.8,
+      "text": "today. So that's it for me for today. Uh",
+      "timestamp": "14:08"
+    },
+    {
+      "start": 851.04,
+      "duration": 1.44,
+      "text": "thank you for your attention and if you",
+      "timestamp": "14:11"
+    },
+    {
+      "start": 852.48,
+      "duration": 1.599,
+      "text": "have questions I guess we have some",
+      "timestamp": "14:12"
+    },
+    {
+      "start": 854.079,
+      "duration": 4.2,
+      "text": "time. Any",
+      "timestamp": "14:14"
+    },
+    {
+      "start": 858.43,
+      "duration": 1.969,
+      "text": "[Applause]",
+      "timestamp": "14:18"
+    },
+    {
+      "start": 860.399,
+      "duration": 3.56,
+      "text": "question in the room?",
+      "timestamp": "14:20"
+    },
+    {
+      "start": 871.279,
+      "duration": 1.841,
+      "text": "Uh, thanks. Yeah, maybe I missed it. But",
+      "timestamp": "14:31"
+    },
+    {
+      "start": 873.12,
+      "duration": 2.719,
+      "text": "why is netspec not enough for this",
+      "timestamp": "14:33"
+    },
+    {
+      "start": 875.839,
+      "duration": 1.521,
+      "text": "service? Like why does the developer",
+      "timestamp": "14:35"
+    },
+    {
+      "start": 877.36,
+      "duration": 1.839,
+      "text": "needs to interact with the system to uh",
+      "timestamp": "14:37"
+    },
+    {
+      "start": 879.199,
+      "duration": 2.401,
+      "text": "provide the JSON file? What is not",
+      "timestamp": "14:39"
+    },
+    {
+      "start": 881.6,
+      "duration": 2.479,
+      "text": "enough? netspec like the inline",
+      "timestamp": "14:41"
+    },
+    {
+      "start": 884.079,
+      "duration": 2.961,
+      "text": "documentation of smart contracts or so",
+      "timestamp": "14:44"
+    },
+    {
+      "start": 887.04,
+      "duration": 3.44,
+      "text": "yeah with the API you will have the the",
+      "timestamp": "14:47"
+    },
+    {
+      "start": 890.48,
+      "duration": 2.159,
+      "text": "we have some name of the method but",
+      "timestamp": "14:50"
+    },
+    {
+      "start": 892.639,
+      "duration": 1.681,
+      "text": "sometimes do you don't have the type of",
+      "timestamp": "14:52"
+    },
+    {
+      "start": 894.32,
+      "duration": 2.959,
+      "text": "the of the attribute and the the",
+      "timestamp": "14:54"
+    },
+    {
+      "start": 897.279,
+      "duration": 1.761,
+      "text": "attribute and the parameters for the",
+      "timestamp": "14:57"
+    },
+    {
+      "start": 899.04,
+      "duration": 2.96,
+      "text": "method um and uh and also it needs to be",
+      "timestamp": "14:59"
+    },
+    {
+      "start": 902.0,
+      "duration": 2.16,
+      "text": "provided by uh the developer so that we",
+      "timestamp": "15:02"
+    },
+    {
+      "start": 904.16,
+      "duration": 2.16,
+      "text": "can curate it uh but there are other",
+      "timestamp": "15:04"
+    },
+    {
+      "start": 906.32,
+      "duration": 2.079,
+      "text": "sources uh but we what we want is really",
+      "timestamp": "15:06"
+    },
+    {
+      "start": 908.399,
+      "duration": 1.841,
+      "text": "really to create like a partnership with",
+      "timestamp": "15:08"
+    },
+    {
+      "start": 910.24,
+      "duration": 1.92,
+      "text": "DAB so that we have there's their",
+      "timestamp": "15:10"
+    },
+    {
+      "start": 912.16,
+      "duration": 2.4,
+      "text": "information and they are responsible for",
+      "timestamp": "15:12"
+    },
+    {
+      "start": 914.56,
+      "duration": 1.92,
+      "text": "uh for for it. But yeah, there are many",
+      "timestamp": "15:14"
+    },
+    {
+      "start": 916.48,
+      "duration": 2.719,
+      "text": "sources. The question is to trust the",
+      "timestamp": "15:16"
+    },
+    {
+      "start": 919.199,
+      "duration": 2.481,
+      "text": "source and also to have the the right uh",
+      "timestamp": "15:19"
+    },
+    {
+      "start": 921.68,
+      "duration": 2.48,
+      "text": "format for for for",
+      "timestamp": "15:21"
+    },
+    {
+      "start": 924.16,
+      "duration": 4.039,
+      "text": "our ERC 7730.",
+      "timestamp": "15:24"
+    },
+    {
+      "start": 929.36,
+      "duration": 3.479,
+      "text": "Any other question?",
+      "timestamp": "15:29"
+    },
+    {
+      "start": 935.44,
+      "duration": 2.079,
+      "text": "Thank you for your talk. uh about the",
+      "timestamp": "15:35"
+    },
+    {
+      "start": 937.519,
+      "duration": 3.601,
+      "text": "NFC card you just uh presented um is it",
+      "timestamp": "15:37"
+    },
+    {
+      "start": 941.12,
+      "duration": 2.24,
+      "text": "protected against the NFC readers like",
+      "timestamp": "15:41"
+    },
+    {
+      "start": 943.36,
+      "duration": 3.52,
+      "text": "the 3.0 device or stuff like that? Yeah,",
+      "timestamp": "15:43"
+    },
+    {
+      "start": 946.88,
+      "duration": 1.68,
+      "text": "as as I as I mentioned like you have",
+      "timestamp": "15:46"
+    },
+    {
+      "start": 948.56,
+      "duration": 3.279,
+      "text": "like the you have the NFC part which is",
+      "timestamp": "15:48"
+    },
+    {
+      "start": 951.839,
+      "duration": 2.24,
+      "text": "like um only the communication channel",
+      "timestamp": "15:51"
+    },
+    {
+      "start": 954.079,
+      "duration": 1.76,
+      "text": "but on top of this communication channel",
+      "timestamp": "15:54"
+    },
+    {
+      "start": 955.839,
+      "duration": 2.321,
+      "text": "we have created our own secure channel",
+      "timestamp": "15:55"
+    },
+    {
+      "start": 958.16,
+      "duration": 2.799,
+      "text": "that is authenticating both part. uh",
+      "timestamp": "15:58"
+    },
+    {
+      "start": 960.959,
+      "duration": 2.721,
+      "text": "meaning that the card is has like a",
+      "timestamp": "16:00"
+    },
+    {
+      "start": 963.68,
+      "duration": 1.76,
+      "text": "cryptographic warranty that discussed",
+      "timestamp": "16:03"
+    },
+    {
+      "start": 965.44,
+      "duration": 2.319,
+      "text": "with a flex and the flex has",
+      "timestamp": "16:05"
+    },
+    {
+      "start": 967.759,
+      "duration": 1.121,
+      "text": "cryptographic warranty that you",
+      "timestamp": "16:07"
+    },
+    {
+      "start": 968.88,
+      "duration": 1.84,
+      "text": "discussed with the card and also with",
+      "timestamp": "16:08"
+    },
+    {
+      "start": 970.72,
+      "duration": 2.479,
+      "text": "this specific card and as soon as this",
+      "timestamp": "16:10"
+    },
+    {
+      "start": 973.199,
+      "duration": 2.161,
+      "text": "authentication is established then uh",
+      "timestamp": "16:13"
+    },
+    {
+      "start": 975.36,
+      "duration": 2.0,
+      "text": "they are sharing a secret to encrypt",
+      "timestamp": "16:15"
+    },
+    {
+      "start": 977.36,
+      "duration": 2.0,
+      "text": "everything on the between the card and",
+      "timestamp": "16:17"
+    },
+    {
+      "start": 979.36,
+      "duration": 2.719,
+      "text": "the device uh so that it's end to end",
+      "timestamp": "16:19"
+    },
+    {
+      "start": 982.079,
+      "duration": 2.161,
+      "text": "secure.",
+      "timestamp": "16:22"
+    },
+    {
+      "start": 984.24,
+      "duration": 1.599,
+      "text": "Any",
+      "timestamp": "16:24"
+    },
+    {
+      "start": 985.839,
+      "duration": 3.321,
+      "text": "other question?",
+      "timestamp": "16:25"
+    },
+    {
+      "start": 993.04,
+      "duration": 3.12,
+      "text": "When you send a transaction to the third",
+      "timestamp": "16:33"
+    },
+    {
+      "start": 996.16,
+      "duration": 3.039,
+      "text": "party for simulation, where is that uh",
+      "timestamp": "16:36"
+    },
+    {
+      "start": 999.199,
+      "duration": 1.681,
+      "text": "request initiated from and how do you",
+      "timestamp": "16:39"
+    },
+    {
+      "start": 1000.88,
+      "duration": 1.68,
+      "text": "verify on device that it was an",
+      "timestamp": "16:40"
+    },
+    {
+      "start": 1002.56,
+      "duration": 2.56,
+      "text": "authentic simulation? Yeah, very good",
+      "timestamp": "16:42"
+    },
+    {
+      "start": 1005.12,
+      "duration": 3.839,
+      "text": "question. Um, so this uh this call",
+      "timestamp": "16:45"
+    },
+    {
+      "start": 1008.959,
+      "duration": 2.24,
+      "text": "happens by the is performed by the",
+      "timestamp": "16:48"
+    },
+    {
+      "start": 1011.199,
+      "duration": 2.08,
+      "text": "device SDK. So the device SDK is the",
+      "timestamp": "16:51"
+    },
+    {
+      "start": 1013.279,
+      "duration": 2.721,
+      "text": "layer between uh between the the device",
+      "timestamp": "16:53"
+    },
+    {
+      "start": 1016.0,
+      "duration": 2.32,
+      "text": "and the wallet. Uh and the the device",
+      "timestamp": "16:56"
+    },
+    {
+      "start": 1018.32,
+      "duration": 3.519,
+      "text": "SDK will uh create this request to block",
+      "timestamp": "16:58"
+    },
+    {
+      "start": 1021.839,
+      "duration": 3.599,
+      "text": "cyverse and and and tenderly and then um",
+      "timestamp": "17:01"
+    },
+    {
+      "start": 1025.439,
+      "duration": 3.281,
+      "text": "the risk assessment report uh is signed",
+      "timestamp": "17:05"
+    },
+    {
+      "start": 1028.72,
+      "duration": 3.359,
+      "text": "uh by blockhead and inside the report",
+      "timestamp": "17:08"
+    },
+    {
+      "start": 1032.079,
+      "duration": 2.161,
+      "text": "there is uh the hash of the transaction",
+      "timestamp": "17:12"
+    },
+    {
+      "start": 1034.24,
+      "duration": 2.16,
+      "text": "and the signature by blockhead. The",
+      "timestamp": "17:14"
+    },
+    {
+      "start": 1036.4,
+      "duration": 2.0,
+      "text": "device will receive the row transaction",
+      "timestamp": "17:16"
+    },
+    {
+      "start": 1038.4,
+      "duration": 2.158,
+      "text": "and the risk assessment report. The",
+      "timestamp": "17:18"
+    },
+    {
+      "start": 1040.559,
+      "duration": 1.76,
+      "text": "device will verify that the risk",
+      "timestamp": "17:20"
+    },
+    {
+      "start": 1042.319,
+      "duration": 2.161,
+      "text": "assessment report was signed by one of",
+      "timestamp": "17:22"
+    },
+    {
+      "start": 1044.48,
+      "duration": 1.92,
+      "text": "the third party that we that we",
+      "timestamp": "17:24"
+    },
+    {
+      "start": 1046.4,
+      "duration": 2.32,
+      "text": "mentioned and secondly it will verify",
+      "timestamp": "17:26"
+    },
+    {
+      "start": 1048.72,
+      "duration": 2.319,
+      "text": "that the risk assessment matches with",
+      "timestamp": "17:28"
+    },
+    {
+      "start": 1051.039,
+      "duration": 1.921,
+      "text": "the specific transaction in order to",
+      "timestamp": "17:31"
+    },
+    {
+      "start": 1052.96,
+      "duration": 1.76,
+      "text": "avoid uh the kind of attack you",
+      "timestamp": "17:32"
+    },
+    {
+      "start": 1054.72,
+      "duration": 3.0,
+      "text": "mentioned.",
+      "timestamp": "17:34"
+    },
+    {
+      "start": 1059.6,
+      "duration": 4.84,
+      "text": "I see a question at the bottom.",
+      "timestamp": "17:39"
+    },
+    {
+      "start": 1066.24,
+      "duration": 4.48,
+      "text": "Um when you have um a safe calling a",
+      "timestamp": "17:46"
+    },
+    {
+      "start": 1070.72,
+      "duration": 1.839,
+      "text": "time lock calling a contract calling a",
+      "timestamp": "17:50"
+    },
+    {
+      "start": 1072.559,
+      "duration": 2.081,
+      "text": "contract in more complex setup how do",
+      "timestamp": "17:52"
+    },
+    {
+      "start": 1074.64,
+      "duration": 1.84,
+      "text": "you do clear signing in this case? Do",
+      "timestamp": "17:54"
+    },
+    {
+      "start": 1076.48,
+      "duration": 3.04,
+      "text": "you have nesting of the calls? Do you",
+      "timestamp": "17:56"
+    },
+    {
+      "start": 1079.52,
+      "duration": 2.96,
+      "text": "analyze the sub calls? So this is the",
+      "timestamp": "17:59"
+    },
+    {
+      "start": 1082.48,
+      "duration": 1.84,
+      "text": "this is the challenge that we we are",
+      "timestamp": "18:02"
+    },
+    {
+      "start": 1084.32,
+      "duration": 2.719,
+      "text": "working on. Um the safe is a little more",
+      "timestamp": "18:04"
+    },
+    {
+      "start": 1087.039,
+      "duration": 2.0,
+      "text": "complex than a regular smart contract",
+      "timestamp": "18:07"
+    },
+    {
+      "start": 1089.039,
+      "duration": 2.241,
+      "text": "because you can uh you can do the nested",
+      "timestamp": "18:09"
+    },
+    {
+      "start": 1091.28,
+      "duration": 2.16,
+      "text": "transaction and the embedded call data",
+      "timestamp": "18:11"
+    },
+    {
+      "start": 1093.44,
+      "duration": 3.04,
+      "text": "and so on. uh and we are working on this",
+      "timestamp": "18:13"
+    },
+    {
+      "start": 1096.48,
+      "duration": 2.4,
+      "text": "um I don't think we we will do like a",
+      "timestamp": "18:16"
+    },
+    {
+      "start": 1098.88,
+      "duration": 2.08,
+      "text": "recursive things so that you can like",
+      "timestamp": "18:18"
+    },
+    {
+      "start": 1100.96,
+      "duration": 1.68,
+      "text": "sign a transaction inside a transaction",
+      "timestamp": "18:20"
+    },
+    {
+      "start": 1102.64,
+      "duration": 2.24,
+      "text": "set the transaction but for safe for one",
+      "timestamp": "18:22"
+    },
+    {
+      "start": 1104.88,
+      "duration": 2.32,
+      "text": "level uh it will work this is what we",
+      "timestamp": "18:24"
+    },
+    {
+      "start": 1107.2,
+      "duration": 3.64,
+      "text": "are working on",
+      "timestamp": "18:27"
+    },
+    {
+      "start": 1114.08,
+      "duration": 3.479,
+      "text": "any other question",
+      "timestamp": "18:34"
+    },
+    {
+      "start": 1117.6,
+      "duration": 2.28,
+      "text": "okay cool thank",
+      "timestamp": "18:37"
+    },
+    {
+      "start": 1119.88,
+      "duration": 3.25,
+      "text": "[Applause]",
+      "timestamp": "18:39"
+    }
+  ],
+  "extraction_timestamp": "2025-07-08T14:45:53.132724",
+  "playlist_title": "EthCC[8] Redford Stage"
+}

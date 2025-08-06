@@ -1,0 +1,5 @@
+# Processing Result for: llm_processed__playlist_summary_SuperAISingapore2025_io.netMainStage.json
+# Generated at: 2025-07-01T18:10:53.347708
+# ==================================================
+
+ProcessingResult(success=False, result=None, error="OpenAI API error: Error code: 400 - {'error': {'message': 'max_tokens is too large: 50000. This model supports at most 16384 completion tokens, whereas you provided 50000.', 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'invalid_value'}}", input_data={}, prompt_type='extract', model_used=None, tokens_used=None)

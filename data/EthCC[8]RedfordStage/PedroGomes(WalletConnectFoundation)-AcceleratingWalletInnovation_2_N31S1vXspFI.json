@@ -1,0 +1,2477 @@
+{
+  "video_id": "N31S1vXspFI",
+  "video_title": "Pedro Gomes (WalletConnect Foundation )-Accelerating Wallet Innovation_2",
+  "video_url": "https://www.youtube.com/watch?v=N31S1vXspFI",
+  "channel_title": "[EthCC] Livestream 4",
+  "published_at": "2025-07-02T08:27:11+00:00",
+  "duration_seconds": null,
+  "view_count": 28,
+  "like_count": 0,
+  "description": "WalletConnect is accelerating wallet innovation through seamless login, smart sessions, and universal access, enabling apps, games, and payments across every chain. Its growing ecosystem is shaping the future of onchain UX through collaboration, standards, and open infrastructure.",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 409,
+    "aggregated_text": "Welcome everyone. It's so great to be here. The largest conference on Ethereum in Europe and also one of the oldest ones. Uh actually ECC was my first conference that I attended. So it has a very special place in my heart. And since then I've been able to share so much about the journey of welcome connect. And today I'll be continuing that journey of what is been the seven years of wall connect but most importantly focusing on where we are today and where we're going. If you don't know wallet connect I mean we are focused on bringing better user experience for wallets but most importantly we're the connectivity layer between apps and wallets. And today I'll be talking about how that is allowing us to accelerate the innovation for wallets. And if you don't know me, uh my name is Pedro Gomez. I'm the founder of Walcon connect but also the director of the wallet connect Foundation. Uh in previous talks I've talked about how we're working towards decentralizing Wallconnect. And now Wallconnect is actually a decentralized network uh that is serving millions and millions of users with millions of connections every year. So to talk about wallet connect, you need to talk about what wallets are. And too many times we focus on wallets as just keys. But wallets are way more than keys. In fact, wallets are what you use to get on boarded into your onchain experience. And in order to do that, you need to have security. Like obviously when you think about keys, security is very important, but also reliability. And at well connect we always have focused on that security and reliability but what about utility like we need to make sure that it is useful to use wallet connect it is useful to own a wallet. So with this what we're trying to see is how can we grow the network but provide more utility. We've been building since 2018. We have 16 node operators, many wallet partners, many apps building together with us and we now even have a healthy staking ecosystem with WCT that is actually powering uh this network. So let's talk about a little bit of the core value propositions. When you use wall connect, it's about logging in obviously when you connect the wallets to an apps. It's about verifying because when you verify, you ensure that you are actually connected to a legitimate application, but it's also about signing. Obviously, the key is a core component that will allow you to sign and approve these actions. And it's also about payments because payments and depositing and withdrawing is a big component of DeFi and onchain experience. So, let's kind of walk through of some of those things that we have done so far and how we've improved it. For example, um when you actually go with wallet connect, one of the great things is that you don't have to choose a single wallet solution. Whenever you see the wallet connect logo, it means that any wallet will be able to be used with wallet connect. Whether it's like Ledger or Fireblocks, MetaMask, Trust, Rainbow, Xerion, Safe Pal, like there's 600 different wallets in the wallet connect network. And we have been trying to improve this login experience with a couple of new features. Uh for example, when you want to connect to a mobile app, let's say Farcaster to a mobile wallet, we actually have this new feature called link mode that makes it much faster because contrary to when you connect to your desktop, you actually need a remote connection. But with link mode, you can actually do this locally. So you actually mimic the well connect experience within the local environment with link mode. And we also have a integrated one-click off. It's a standard from the chain agnostic standards alliance where you allow to sign in with Ethereum and connect in a single click. Something that you know from those of you who use like for example OpenC a lot, you always had to log in into OpenC and then you have to sign this message to verify that you own this wallet. this can be bundled together into a single click and that's already part of the welcome connect network. On top of that, uh verification is very important. So when you think about verify, what we're actually doing is making sure that you're connected to the right application, the one that you actually wanted to connect. Uh this is important for protecting from fishing and spam and a variety of attacks. uh you not only verify the domain matches to the one that you actually wanted to connect, we also verify that the owner of this website is the one that is actually connecting with. We do this because we have a verification system that allows wallets to uh check against a registry uh where you can see if the app is legitimate, it's using the correct API key and if there is a mismatch or even if there is a malicious application that you're actually connecting to that is pretending to be someone else. uh this is already in production and this has been for the last two years. It was a big improvement over the just blindly connecting to actually connecting with the security and you know with the educated uh approach that you as a user have the responsibility of your wallet but we're giving you the tools for you to feel empowered to have a safer and more seamless experience. On top of that, we have been expanding in the last two years wallet connect to not just be an EVM focused project, but actually a multi-chain experience. We're not only in Ethereum, all the layer 2s, we're also in Solana, Bitcoin, Cosmos, Poloca dot, Stellar, Hideera, like there's so many chains now that Wallconnect is present and they're all sharing the same network that has been built since 2018. So it's not building an infrastructure for each ecosystem. It's an infrastructure that is shared across all of the wallets, across all of the chains. And with this improvement, we also have been trying to innovate what it means to even connect. So one thing that we did in the last year, we actually work with many projects in the space. This is not something that we did alone. We actually work with other projects that were focused on account abstraction to see how we can actually program the actual session. By adding programmability to when you connect your wallet, it means now that you can actually delegate some permissions. Now you don't need to connect and then approve multiple pop-ups to take actions on chain. Now you can actually delegate to your app to take certain actions within certain permissions whether that's time bounded permissions for let's say seven days or 30 days whether that's based on spending policies of which tokens it can use or not or even certain smart contracts which are allowed to be approved without you having to manually approve each popup. So, Smart Sessions is a great improvement over the traditional wallet connect where if you have an account obstructed wallet or today a 7702 wallet, you actually have the ability to have a smarter and seamless experience. But I think one of the coolest things that we've been working on is now that we're actually multi-chain, we're trying to make it more seamlessly that you can actually use tokens across all chains. So with wallet connect pay, it's a very interesting initiative that we've been working on with a couple of partners that allows you to actually pay with any token on any chain. This is what some people call chain abstraction, but more importantly, it's a new layer of cognitivity where instead of the app actually telling you you should pay with this token on this chain, the app actually communicates which chains and which tokens it can accept. We can think of this as a use case for DeFi. We can think of this as a use case for e-commerce. Or even better, we can think of this as a use case for paying for coffee products and services on a daily basis where you as a user have balances across multiple chains and multiple tokens. And the wallet can automatically select and pay with your favorite token or with the one that actually matches what the merchant requires. And this is a small step that will allow chain abstraction solutions to actually collaborate with wallet partners within our network to actually build a more seamless experience. At the end of the day, we want to reduce the number of clicks and the number of interactions that require you as a user to actually have to make so many decisions because as an infrastructure project, we are building the security reliability and now we're trying to provide as much utility with these new features. But we are a decentralized project. We don't do this unilaterally. We do this in collaboration with all of the wallet partners. A year ago, we actually launched the first season of certified. These were selected wallets that actually met the criterias of actually being highquality integrations with the wallet connect network. This meant that they had great user experience. They had the best practices for both security, performance, and reliability. But it also meant that they were using the latest version of W Connect with the latest features. And this was already a big step because you can already feel today the difference between a certified wallet and a non-certified wallet. And we're working with more wallets to join the certified program. And this year, not only we on boarded more wallets into certified, but we actually took it to the next level. So now with certified season 2 all of the features that we talked about oneclick off link modes smart mions and others we are actually working with them to actually put these into production. This is no longer a research project. This is no longer a beta testing. This is actually putting into motion these latest standards and latest innovations with the wallet partners. So every time wallet connect network is able to develop a new innovation, we work together with the wallet partners within the certified program to put them in production. And right now we have this in place and we have announced the new wallets uh which you can find in our wallet guide and we will be adding more and more wallets and now we have more than 20 wallets as part of the certified program. But as a decentralized project we also introduced the wallet connect council. So the wallet connect council is not just the node operators and the wallet partners. It's also the many different core contributors that have been making wallet connect better. They have been making wallet connect better through their own projects. They've been making the world connect better through the actual network by introducing new improvements. But now they actually are elected as part of the wallet connect governance which is part obviously of this introduction of the node operators the wallet partners the stakeholders. We now have the wallet connect council which all of these individuals are now responsible as a co-working group of bringing new proposals new features and new initiatives for the community to actually drive the wall neck innovation further. It's something that it's so hard to build which is not only you build a community but you build a set of ambassadors, evangelists and core contributors that are actually working towards the same mission whether they are even competing in the market or whether they are actually building completely different products at the end of the day they have the same mission which is to make the user experience better. So we're really happy to have this very heavily curated group of people in our council and we are obviously very excited to work with them in improving the tooling, the SDKs, add new features, having regional expansion to cover more communities in different countries. Uh today we actually had an expansion with Thailand. We have other campaigns in India, Indonesia, Philippines, Brazil, Argentina. We're working to expand more and more the waknet community and to make sure that people realize how much this actually impacts the user experience and it's going to be a big difference because obviously with the waknet council they will be driving forward the governance initiatives which our community will be able to vote for and how we can actually listen to the community of what we should be building next. Obviously, as my new role as the director of the Waken Foundation, we want to develop this ecosystem further, but we also want to be the stewards of the Welconnect network to push further with our partners, our not operators of where we should go next and empower the community, whether that's the council, the wallet connect, uh the wallet partners in the wallet connect certified and the node operators to do this together rather than being a centralized project to become a decentralized network that actually builds all of this innovation. So for you guys, if you have not been following the latest developments, I definitely invite you to join us because together we can redefine the onchain experience. We can build a better wallets. We can accelerate wallet innovation and we can do it together. So, I invite you to join us in our builder community. And if you haven't heard about the latest innovations, you can check out our blog at wakconnect.network. You can check out our governance forum and obviously our Twitter where we'll be sharing more and more updates about the Wallconnect network. Thank you so much. Any questions? I how are you thinking about Agentic uh workflows and integrations? Yeah, so when we actually built smart sessions, it was actually very much focused on that. Um, in fact, last year at EFCC in Brussels, uh, we actually had a whole presentation that was focused exclusively on that. While this presentation was a little bit more generalized about multiple work streams that we're doing in wall connect, you can actually see in the smart sessions uh, how this actually could be very complimentary uh, to AI agents. Not just AI agents actually, you can do automation, you can do recurring payments, you can honestly just improve DeFi experience. uh if you look at this example here uh we actually are only showcasing an example with unis swap but if you think about this as an AI agent uh let's say it's chat GPT you're actually telling chat GPT that it can access your wallets you're not giving away your private key you're actually giving a permission to the chatbt so chatbt has its own key has its own you could say wallet but it's using your wallet with a different key and what you're giving them is a permission that is time scoped. It's has spending policies and it can even have permission around only use these smart contracts on these chains. So if you control these permissions uh very granularly, you can still allow the agent to do a lot and if it needs to request more permissions, then that's when it actually asks you for more approvals because contrary to this approach, they would actually generate a bunch of transactions. it would pop up on your wallet and every time you have to approve everything and it kind of defies the whole point of the AI agent. The AI agent should be autonomous as much as possible but you as a wallet user you should still have the choice, the control and the composibility to feel like this is your self custody. Any other questions? All right, thanks everyone for joining us.",
+    "text_length": 15279,
+    "word_count": 2674
+  },
+  "segments": [
+    {
+      "start": 5.2,
+      "duration": 2.32,
+      "text": "Welcome everyone. It's so great to be",
+      "timestamp": "00:05"
+    },
+    {
+      "start": 7.52,
+      "duration": 1.92,
+      "text": "here. The",
+      "timestamp": "00:07"
+    },
+    {
+      "start": 9.44,
+      "duration": 2.64,
+      "text": "largest conference on Ethereum in Europe",
+      "timestamp": "00:09"
+    },
+    {
+      "start": 12.08,
+      "duration": 2.24,
+      "text": "and also one of the oldest ones. Uh",
+      "timestamp": "00:12"
+    },
+    {
+      "start": 14.32,
+      "duration": 2.56,
+      "text": "actually ECC was my first conference",
+      "timestamp": "00:14"
+    },
+    {
+      "start": 16.88,
+      "duration": 2.08,
+      "text": "that I attended. So it has a very",
+      "timestamp": "00:16"
+    },
+    {
+      "start": 18.96,
+      "duration": 2.079,
+      "text": "special place in my heart. And since",
+      "timestamp": "00:18"
+    },
+    {
+      "start": 21.039,
+      "duration": 1.761,
+      "text": "then I've been able to share so much",
+      "timestamp": "00:21"
+    },
+    {
+      "start": 22.8,
+      "duration": 2.08,
+      "text": "about the journey of welcome connect.",
+      "timestamp": "00:22"
+    },
+    {
+      "start": 24.88,
+      "duration": 1.84,
+      "text": "And today I'll be continuing that",
+      "timestamp": "00:24"
+    },
+    {
+      "start": 26.72,
+      "duration": 2.799,
+      "text": "journey of what is been the seven years",
+      "timestamp": "00:26"
+    },
+    {
+      "start": 29.519,
+      "duration": 1.76,
+      "text": "of wall connect but most importantly",
+      "timestamp": "00:29"
+    },
+    {
+      "start": 31.279,
+      "duration": 1.921,
+      "text": "focusing on where we are today and where",
+      "timestamp": "00:31"
+    },
+    {
+      "start": 33.2,
+      "duration": 2.16,
+      "text": "we're going. If you don't know wallet",
+      "timestamp": "00:33"
+    },
+    {
+      "start": 35.36,
+      "duration": 2.719,
+      "text": "connect I mean we are focused on",
+      "timestamp": "00:35"
+    },
+    {
+      "start": 38.079,
+      "duration": 2.32,
+      "text": "bringing better user experience for",
+      "timestamp": "00:38"
+    },
+    {
+      "start": 40.399,
+      "duration": 2.721,
+      "text": "wallets but most importantly we're the",
+      "timestamp": "00:40"
+    },
+    {
+      "start": 43.12,
+      "duration": 1.84,
+      "text": "connectivity layer between apps and",
+      "timestamp": "00:43"
+    },
+    {
+      "start": 44.96,
+      "duration": 2.079,
+      "text": "wallets. And today I'll be talking about",
+      "timestamp": "00:44"
+    },
+    {
+      "start": 47.039,
+      "duration": 2.801,
+      "text": "how that is allowing us to accelerate",
+      "timestamp": "00:47"
+    },
+    {
+      "start": 49.84,
+      "duration": 2.32,
+      "text": "the innovation for wallets. And if you",
+      "timestamp": "00:49"
+    },
+    {
+      "start": 52.16,
+      "duration": 1.76,
+      "text": "don't know me, uh my name is Pedro",
+      "timestamp": "00:52"
+    },
+    {
+      "start": 53.92,
+      "duration": 2.08,
+      "text": "Gomez. I'm the founder of Walcon connect",
+      "timestamp": "00:53"
+    },
+    {
+      "start": 56.0,
+      "duration": 1.68,
+      "text": "but also the director of the wallet",
+      "timestamp": "00:56"
+    },
+    {
+      "start": 57.68,
+      "duration": 2.64,
+      "text": "connect Foundation. Uh in previous talks",
+      "timestamp": "00:57"
+    },
+    {
+      "start": 60.32,
+      "duration": 1.6,
+      "text": "I've talked about how we're working",
+      "timestamp": "01:00"
+    },
+    {
+      "start": 61.92,
+      "duration": 2.16,
+      "text": "towards decentralizing Wallconnect. And",
+      "timestamp": "01:01"
+    },
+    {
+      "start": 64.08,
+      "duration": 1.2,
+      "text": "now Wallconnect is actually a",
+      "timestamp": "01:04"
+    },
+    {
+      "start": 65.28,
+      "duration": 2.32,
+      "text": "decentralized network uh that is serving",
+      "timestamp": "01:05"
+    },
+    {
+      "start": 67.6,
+      "duration": 2.0,
+      "text": "millions and millions of users with",
+      "timestamp": "01:07"
+    },
+    {
+      "start": 69.6,
+      "duration": 4.08,
+      "text": "millions of connections every year. So",
+      "timestamp": "01:09"
+    },
+    {
+      "start": 73.68,
+      "duration": 2.32,
+      "text": "to talk about wallet connect, you need",
+      "timestamp": "01:13"
+    },
+    {
+      "start": 76.0,
+      "duration": 2.56,
+      "text": "to talk about what wallets are. And too",
+      "timestamp": "01:16"
+    },
+    {
+      "start": 78.56,
+      "duration": 3.04,
+      "text": "many times we focus on wallets as just",
+      "timestamp": "01:18"
+    },
+    {
+      "start": 81.6,
+      "duration": 2.4,
+      "text": "keys. But wallets are way more than",
+      "timestamp": "01:21"
+    },
+    {
+      "start": 84.0,
+      "duration": 3.2,
+      "text": "keys. In fact, wallets are what you use",
+      "timestamp": "01:24"
+    },
+    {
+      "start": 87.2,
+      "duration": 2.48,
+      "text": "to get on boarded into your onchain",
+      "timestamp": "01:27"
+    },
+    {
+      "start": 89.68,
+      "duration": 2.56,
+      "text": "experience. And in order to do that, you",
+      "timestamp": "01:29"
+    },
+    {
+      "start": 92.24,
+      "duration": 2.559,
+      "text": "need to have security. Like obviously",
+      "timestamp": "01:32"
+    },
+    {
+      "start": 94.799,
+      "duration": 1.841,
+      "text": "when you think about keys, security is",
+      "timestamp": "01:34"
+    },
+    {
+      "start": 96.64,
+      "duration": 1.76,
+      "text": "very important, but also reliability.",
+      "timestamp": "01:36"
+    },
+    {
+      "start": 98.4,
+      "duration": 2.16,
+      "text": "And at well connect we always have",
+      "timestamp": "01:38"
+    },
+    {
+      "start": 100.56,
+      "duration": 3.68,
+      "text": "focused on that security and reliability",
+      "timestamp": "01:40"
+    },
+    {
+      "start": 104.24,
+      "duration": 2.96,
+      "text": "but what about utility like we need to",
+      "timestamp": "01:44"
+    },
+    {
+      "start": 107.2,
+      "duration": 2.64,
+      "text": "make sure that it is useful to use",
+      "timestamp": "01:47"
+    },
+    {
+      "start": 109.84,
+      "duration": 2.239,
+      "text": "wallet connect it is useful to own a",
+      "timestamp": "01:49"
+    },
+    {
+      "start": 112.079,
+      "duration": 3.441,
+      "text": "wallet. So with this what we're trying",
+      "timestamp": "01:52"
+    },
+    {
+      "start": 115.52,
+      "duration": 3.52,
+      "text": "to see is how can we grow the network",
+      "timestamp": "01:55"
+    },
+    {
+      "start": 119.04,
+      "duration": 2.16,
+      "text": "but provide more utility. We've been",
+      "timestamp": "01:59"
+    },
+    {
+      "start": 121.2,
+      "duration": 2.959,
+      "text": "building since 2018. We have 16 node",
+      "timestamp": "02:01"
+    },
+    {
+      "start": 124.159,
+      "duration": 3.28,
+      "text": "operators, many wallet partners, many",
+      "timestamp": "02:04"
+    },
+    {
+      "start": 127.439,
+      "duration": 2.081,
+      "text": "apps building together with us and we",
+      "timestamp": "02:07"
+    },
+    {
+      "start": 129.52,
+      "duration": 2.32,
+      "text": "now even have a healthy staking",
+      "timestamp": "02:09"
+    },
+    {
+      "start": 131.84,
+      "duration": 2.399,
+      "text": "ecosystem with WCT that is actually",
+      "timestamp": "02:11"
+    },
+    {
+      "start": 134.239,
+      "duration": 4.08,
+      "text": "powering uh this network. So let's talk",
+      "timestamp": "02:14"
+    },
+    {
+      "start": 138.319,
+      "duration": 1.761,
+      "text": "about a little bit of the core value",
+      "timestamp": "02:18"
+    },
+    {
+      "start": 140.08,
+      "duration": 2.56,
+      "text": "propositions. When you use wall connect,",
+      "timestamp": "02:20"
+    },
+    {
+      "start": 142.64,
+      "duration": 2.64,
+      "text": "it's about logging in obviously when you",
+      "timestamp": "02:22"
+    },
+    {
+      "start": 145.28,
+      "duration": 1.599,
+      "text": "connect the wallets to an apps. It's",
+      "timestamp": "02:25"
+    },
+    {
+      "start": 146.879,
+      "duration": 2.72,
+      "text": "about verifying because when you verify,",
+      "timestamp": "02:26"
+    },
+    {
+      "start": 149.599,
+      "duration": 2.241,
+      "text": "you ensure that you are actually",
+      "timestamp": "02:29"
+    },
+    {
+      "start": 151.84,
+      "duration": 1.84,
+      "text": "connected to a legitimate application,",
+      "timestamp": "02:31"
+    },
+    {
+      "start": 153.68,
+      "duration": 2.16,
+      "text": "but it's also about signing. Obviously,",
+      "timestamp": "02:33"
+    },
+    {
+      "start": 155.84,
+      "duration": 2.64,
+      "text": "the key is a core component that will",
+      "timestamp": "02:35"
+    },
+    {
+      "start": 158.48,
+      "duration": 1.52,
+      "text": "allow you to sign and approve these",
+      "timestamp": "02:38"
+    },
+    {
+      "start": 160.0,
+      "duration": 2.08,
+      "text": "actions. And it's also about payments",
+      "timestamp": "02:40"
+    },
+    {
+      "start": 162.08,
+      "duration": 2.96,
+      "text": "because payments and depositing and",
+      "timestamp": "02:42"
+    },
+    {
+      "start": 165.04,
+      "duration": 2.8,
+      "text": "withdrawing is a big component of DeFi",
+      "timestamp": "02:45"
+    },
+    {
+      "start": 167.84,
+      "duration": 2.08,
+      "text": "and onchain experience. So, let's kind",
+      "timestamp": "02:47"
+    },
+    {
+      "start": 169.92,
+      "duration": 1.52,
+      "text": "of walk through of some of those things",
+      "timestamp": "02:49"
+    },
+    {
+      "start": 171.44,
+      "duration": 2.159,
+      "text": "that we have done so far and how we've",
+      "timestamp": "02:51"
+    },
+    {
+      "start": 173.599,
+      "duration": 1.681,
+      "text": "improved it.",
+      "timestamp": "02:53"
+    },
+    {
+      "start": 175.28,
+      "duration": 3.36,
+      "text": "For example, um when you actually go",
+      "timestamp": "02:55"
+    },
+    {
+      "start": 178.64,
+      "duration": 1.599,
+      "text": "with wallet connect, one of the great",
+      "timestamp": "02:58"
+    },
+    {
+      "start": 180.239,
+      "duration": 2.801,
+      "text": "things is that you don't have to choose",
+      "timestamp": "03:00"
+    },
+    {
+      "start": 183.04,
+      "duration": 1.919,
+      "text": "a single wallet solution. Whenever you",
+      "timestamp": "03:03"
+    },
+    {
+      "start": 184.959,
+      "duration": 1.521,
+      "text": "see the wallet connect logo, it means",
+      "timestamp": "03:04"
+    },
+    {
+      "start": 186.48,
+      "duration": 2.479,
+      "text": "that any wallet will be able to be used",
+      "timestamp": "03:06"
+    },
+    {
+      "start": 188.959,
+      "duration": 2.0,
+      "text": "with wallet connect. Whether it's like",
+      "timestamp": "03:08"
+    },
+    {
+      "start": 190.959,
+      "duration": 3.041,
+      "text": "Ledger or Fireblocks, MetaMask, Trust,",
+      "timestamp": "03:10"
+    },
+    {
+      "start": 194.0,
+      "duration": 3.2,
+      "text": "Rainbow, Xerion, Safe Pal, like there's",
+      "timestamp": "03:14"
+    },
+    {
+      "start": 197.2,
+      "duration": 2.399,
+      "text": "600 different wallets in the wallet",
+      "timestamp": "03:17"
+    },
+    {
+      "start": 199.599,
+      "duration": 2.081,
+      "text": "connect network. And we have been trying",
+      "timestamp": "03:19"
+    },
+    {
+      "start": 201.68,
+      "duration": 1.919,
+      "text": "to improve this login experience with a",
+      "timestamp": "03:21"
+    },
+    {
+      "start": 203.599,
+      "duration": 2.64,
+      "text": "couple of new features. Uh for example,",
+      "timestamp": "03:23"
+    },
+    {
+      "start": 206.239,
+      "duration": 1.92,
+      "text": "when you want to connect to a mobile",
+      "timestamp": "03:26"
+    },
+    {
+      "start": 208.159,
+      "duration": 2.64,
+      "text": "app, let's say Farcaster to a mobile",
+      "timestamp": "03:28"
+    },
+    {
+      "start": 210.799,
+      "duration": 1.281,
+      "text": "wallet, we actually have this new",
+      "timestamp": "03:30"
+    },
+    {
+      "start": 212.08,
+      "duration": 1.92,
+      "text": "feature called link mode that makes it",
+      "timestamp": "03:32"
+    },
+    {
+      "start": 214.0,
+      "duration": 2.64,
+      "text": "much faster because contrary to when you",
+      "timestamp": "03:34"
+    },
+    {
+      "start": 216.64,
+      "duration": 1.92,
+      "text": "connect to your desktop, you actually",
+      "timestamp": "03:36"
+    },
+    {
+      "start": 218.56,
+      "duration": 1.759,
+      "text": "need a remote connection. But with link",
+      "timestamp": "03:38"
+    },
+    {
+      "start": 220.319,
+      "duration": 2.081,
+      "text": "mode, you can actually do this locally.",
+      "timestamp": "03:40"
+    },
+    {
+      "start": 222.4,
+      "duration": 2.0,
+      "text": "So you actually mimic the well connect",
+      "timestamp": "03:42"
+    },
+    {
+      "start": 224.4,
+      "duration": 2.399,
+      "text": "experience within the local environment",
+      "timestamp": "03:44"
+    },
+    {
+      "start": 226.799,
+      "duration": 2.72,
+      "text": "with link mode. And we also have a",
+      "timestamp": "03:46"
+    },
+    {
+      "start": 229.519,
+      "duration": 2.0,
+      "text": "integrated one-click off. It's a",
+      "timestamp": "03:49"
+    },
+    {
+      "start": 231.519,
+      "duration": 1.761,
+      "text": "standard from the chain agnostic",
+      "timestamp": "03:51"
+    },
+    {
+      "start": 233.28,
+      "duration": 2.8,
+      "text": "standards alliance where you allow to",
+      "timestamp": "03:53"
+    },
+    {
+      "start": 236.08,
+      "duration": 2.96,
+      "text": "sign in with Ethereum and connect in a",
+      "timestamp": "03:56"
+    },
+    {
+      "start": 239.04,
+      "duration": 2.16,
+      "text": "single click. Something that you know",
+      "timestamp": "03:59"
+    },
+    {
+      "start": 241.2,
+      "duration": 2.08,
+      "text": "from those of you who use like for",
+      "timestamp": "04:01"
+    },
+    {
+      "start": 243.28,
+      "duration": 2.64,
+      "text": "example OpenC a lot, you always had to",
+      "timestamp": "04:03"
+    },
+    {
+      "start": 245.92,
+      "duration": 2.56,
+      "text": "log in into OpenC and then you have to",
+      "timestamp": "04:05"
+    },
+    {
+      "start": 248.48,
+      "duration": 1.839,
+      "text": "sign this message to verify that you own",
+      "timestamp": "04:08"
+    },
+    {
+      "start": 250.319,
+      "duration": 1.84,
+      "text": "this wallet. this can be bundled",
+      "timestamp": "04:10"
+    },
+    {
+      "start": 252.159,
+      "duration": 2.0,
+      "text": "together into a single click and that's",
+      "timestamp": "04:12"
+    },
+    {
+      "start": 254.159,
+      "duration": 1.44,
+      "text": "already part of the welcome connect",
+      "timestamp": "04:14"
+    },
+    {
+      "start": 255.599,
+      "duration": 1.6,
+      "text": "network.",
+      "timestamp": "04:15"
+    },
+    {
+      "start": 257.199,
+      "duration": 2.401,
+      "text": "On top of that, uh verification is very",
+      "timestamp": "04:17"
+    },
+    {
+      "start": 259.6,
+      "duration": 2.08,
+      "text": "important. So when you think about",
+      "timestamp": "04:19"
+    },
+    {
+      "start": 261.68,
+      "duration": 2.16,
+      "text": "verify, what we're actually doing is",
+      "timestamp": "04:21"
+    },
+    {
+      "start": 263.84,
+      "duration": 1.6,
+      "text": "making sure that you're connected to the",
+      "timestamp": "04:23"
+    },
+    {
+      "start": 265.44,
+      "duration": 1.44,
+      "text": "right application, the one that you",
+      "timestamp": "04:25"
+    },
+    {
+      "start": 266.88,
+      "duration": 2.16,
+      "text": "actually wanted to connect. Uh this is",
+      "timestamp": "04:26"
+    },
+    {
+      "start": 269.04,
+      "duration": 1.68,
+      "text": "important for protecting from fishing",
+      "timestamp": "04:29"
+    },
+    {
+      "start": 270.72,
+      "duration": 4.16,
+      "text": "and spam and a variety of attacks. uh",
+      "timestamp": "04:30"
+    },
+    {
+      "start": 274.88,
+      "duration": 2.64,
+      "text": "you not only verify the domain matches",
+      "timestamp": "04:34"
+    },
+    {
+      "start": 277.52,
+      "duration": 1.36,
+      "text": "to the one that you actually wanted to",
+      "timestamp": "04:37"
+    },
+    {
+      "start": 278.88,
+      "duration": 2.0,
+      "text": "connect, we also verify that the owner",
+      "timestamp": "04:38"
+    },
+    {
+      "start": 280.88,
+      "duration": 1.92,
+      "text": "of this website is the one that is",
+      "timestamp": "04:40"
+    },
+    {
+      "start": 282.8,
+      "duration": 2.0,
+      "text": "actually connecting with. We do this",
+      "timestamp": "04:42"
+    },
+    {
+      "start": 284.8,
+      "duration": 1.92,
+      "text": "because we have a verification system",
+      "timestamp": "04:44"
+    },
+    {
+      "start": 286.72,
+      "duration": 2.88,
+      "text": "that allows wallets to uh check against",
+      "timestamp": "04:46"
+    },
+    {
+      "start": 289.6,
+      "duration": 2.8,
+      "text": "a registry uh where you can see if the",
+      "timestamp": "04:49"
+    },
+    {
+      "start": 292.4,
+      "duration": 1.76,
+      "text": "app is legitimate, it's using the",
+      "timestamp": "04:52"
+    },
+    {
+      "start": 294.16,
+      "duration": 2.72,
+      "text": "correct API key and if there is a",
+      "timestamp": "04:54"
+    },
+    {
+      "start": 296.88,
+      "duration": 2.08,
+      "text": "mismatch or even if there is a malicious",
+      "timestamp": "04:56"
+    },
+    {
+      "start": 298.96,
+      "duration": 0.959,
+      "text": "application that you're actually",
+      "timestamp": "04:58"
+    },
+    {
+      "start": 299.919,
+      "duration": 1.521,
+      "text": "connecting to that is pretending to be",
+      "timestamp": "04:59"
+    },
+    {
+      "start": 301.44,
+      "duration": 2.16,
+      "text": "someone else. uh this is already in",
+      "timestamp": "05:01"
+    },
+    {
+      "start": 303.6,
+      "duration": 2.159,
+      "text": "production and this has been for the",
+      "timestamp": "05:03"
+    },
+    {
+      "start": 305.759,
+      "duration": 2.0,
+      "text": "last two years. It was a big improvement",
+      "timestamp": "05:05"
+    },
+    {
+      "start": 307.759,
+      "duration": 2.961,
+      "text": "over the just blindly connecting to",
+      "timestamp": "05:07"
+    },
+    {
+      "start": 310.72,
+      "duration": 2.24,
+      "text": "actually connecting with the security",
+      "timestamp": "05:10"
+    },
+    {
+      "start": 312.96,
+      "duration": 2.799,
+      "text": "and you know with the educated uh",
+      "timestamp": "05:12"
+    },
+    {
+      "start": 315.759,
+      "duration": 1.921,
+      "text": "approach that you as a user have the",
+      "timestamp": "05:15"
+    },
+    {
+      "start": 317.68,
+      "duration": 2.079,
+      "text": "responsibility of your wallet but we're",
+      "timestamp": "05:17"
+    },
+    {
+      "start": 319.759,
+      "duration": 1.761,
+      "text": "giving you the tools for you to feel",
+      "timestamp": "05:19"
+    },
+    {
+      "start": 321.52,
+      "duration": 2.32,
+      "text": "empowered to have a safer and more",
+      "timestamp": "05:21"
+    },
+    {
+      "start": 323.84,
+      "duration": 2.079,
+      "text": "seamless experience.",
+      "timestamp": "05:23"
+    },
+    {
+      "start": 325.919,
+      "duration": 2.161,
+      "text": "On top of that, we have been expanding",
+      "timestamp": "05:25"
+    },
+    {
+      "start": 328.08,
+      "duration": 2.16,
+      "text": "in the last two years wallet connect to",
+      "timestamp": "05:28"
+    },
+    {
+      "start": 330.24,
+      "duration": 2.399,
+      "text": "not just be an EVM focused project, but",
+      "timestamp": "05:30"
+    },
+    {
+      "start": 332.639,
+      "duration": 2.481,
+      "text": "actually a multi-chain experience. We're",
+      "timestamp": "05:32"
+    },
+    {
+      "start": 335.12,
+      "duration": 3.359,
+      "text": "not only in Ethereum, all the layer 2s,",
+      "timestamp": "05:35"
+    },
+    {
+      "start": 338.479,
+      "duration": 2.961,
+      "text": "we're also in Solana, Bitcoin, Cosmos,",
+      "timestamp": "05:38"
+    },
+    {
+      "start": 341.44,
+      "duration": 2.64,
+      "text": "Poloca dot, Stellar, Hideera, like",
+      "timestamp": "05:41"
+    },
+    {
+      "start": 344.08,
+      "duration": 2.0,
+      "text": "there's so many chains now that",
+      "timestamp": "05:44"
+    },
+    {
+      "start": 346.08,
+      "duration": 1.92,
+      "text": "Wallconnect is present and they're all",
+      "timestamp": "05:46"
+    },
+    {
+      "start": 348.0,
+      "duration": 2.639,
+      "text": "sharing the same network that has been",
+      "timestamp": "05:48"
+    },
+    {
+      "start": 350.639,
+      "duration": 3.441,
+      "text": "built since 2018. So it's not building",
+      "timestamp": "05:50"
+    },
+    {
+      "start": 354.08,
+      "duration": 2.16,
+      "text": "an infrastructure for each ecosystem.",
+      "timestamp": "05:54"
+    },
+    {
+      "start": 356.24,
+      "duration": 1.6,
+      "text": "It's an infrastructure that is shared",
+      "timestamp": "05:56"
+    },
+    {
+      "start": 357.84,
+      "duration": 2.079,
+      "text": "across all of the wallets, across all of",
+      "timestamp": "05:57"
+    },
+    {
+      "start": 359.919,
+      "duration": 3.361,
+      "text": "the chains. And with this improvement,",
+      "timestamp": "05:59"
+    },
+    {
+      "start": 363.28,
+      "duration": 2.88,
+      "text": "we also have been trying to innovate",
+      "timestamp": "06:03"
+    },
+    {
+      "start": 366.16,
+      "duration": 2.8,
+      "text": "what it means to even connect. So one",
+      "timestamp": "06:06"
+    },
+    {
+      "start": 368.96,
+      "duration": 1.92,
+      "text": "thing that we did in the last year, we",
+      "timestamp": "06:08"
+    },
+    {
+      "start": 370.88,
+      "duration": 2.24,
+      "text": "actually work with many projects in the",
+      "timestamp": "06:10"
+    },
+    {
+      "start": 373.12,
+      "duration": 1.68,
+      "text": "space. This is not something that we did",
+      "timestamp": "06:13"
+    },
+    {
+      "start": 374.8,
+      "duration": 2.239,
+      "text": "alone. We actually work with other",
+      "timestamp": "06:14"
+    },
+    {
+      "start": 377.039,
+      "duration": 1.681,
+      "text": "projects that were focused on account",
+      "timestamp": "06:17"
+    },
+    {
+      "start": 378.72,
+      "duration": 2.64,
+      "text": "abstraction to see how we can actually",
+      "timestamp": "06:18"
+    },
+    {
+      "start": 381.36,
+      "duration": 3.04,
+      "text": "program the actual session. By adding",
+      "timestamp": "06:21"
+    },
+    {
+      "start": 384.4,
+      "duration": 2.16,
+      "text": "programmability to when you connect your",
+      "timestamp": "06:24"
+    },
+    {
+      "start": 386.56,
+      "duration": 1.759,
+      "text": "wallet, it means now that you can",
+      "timestamp": "06:26"
+    },
+    {
+      "start": 388.319,
+      "duration": 3.041,
+      "text": "actually delegate some permissions. Now",
+      "timestamp": "06:28"
+    },
+    {
+      "start": 391.36,
+      "duration": 2.24,
+      "text": "you don't need to connect and then",
+      "timestamp": "06:31"
+    },
+    {
+      "start": 393.6,
+      "duration": 2.319,
+      "text": "approve multiple pop-ups to take actions",
+      "timestamp": "06:33"
+    },
+    {
+      "start": 395.919,
+      "duration": 2.801,
+      "text": "on chain. Now you can actually delegate",
+      "timestamp": "06:35"
+    },
+    {
+      "start": 398.72,
+      "duration": 3.12,
+      "text": "to your app to take certain actions",
+      "timestamp": "06:38"
+    },
+    {
+      "start": 401.84,
+      "duration": 1.76,
+      "text": "within certain permissions whether",
+      "timestamp": "06:41"
+    },
+    {
+      "start": 403.6,
+      "duration": 2.48,
+      "text": "that's time bounded permissions for",
+      "timestamp": "06:43"
+    },
+    {
+      "start": 406.08,
+      "duration": 2.72,
+      "text": "let's say seven days or 30 days whether",
+      "timestamp": "06:46"
+    },
+    {
+      "start": 408.8,
+      "duration": 2.08,
+      "text": "that's based on spending policies of",
+      "timestamp": "06:48"
+    },
+    {
+      "start": 410.88,
+      "duration": 2.64,
+      "text": "which tokens it can use or not or even",
+      "timestamp": "06:50"
+    },
+    {
+      "start": 413.52,
+      "duration": 1.76,
+      "text": "certain smart contracts which are",
+      "timestamp": "06:53"
+    },
+    {
+      "start": 415.28,
+      "duration": 2.8,
+      "text": "allowed to be approved without you",
+      "timestamp": "06:55"
+    },
+    {
+      "start": 418.08,
+      "duration": 2.88,
+      "text": "having to manually approve each popup.",
+      "timestamp": "06:58"
+    },
+    {
+      "start": 420.96,
+      "duration": 1.6,
+      "text": "So, Smart Sessions is a great",
+      "timestamp": "07:00"
+    },
+    {
+      "start": 422.56,
+      "duration": 3.12,
+      "text": "improvement over the traditional wallet",
+      "timestamp": "07:02"
+    },
+    {
+      "start": 425.68,
+      "duration": 2.16,
+      "text": "connect where if you have an account",
+      "timestamp": "07:05"
+    },
+    {
+      "start": 427.84,
+      "duration": 3.04,
+      "text": "obstructed wallet or today a 7702",
+      "timestamp": "07:07"
+    },
+    {
+      "start": 430.88,
+      "duration": 2.24,
+      "text": "wallet, you actually have the ability to",
+      "timestamp": "07:10"
+    },
+    {
+      "start": 433.12,
+      "duration": 3.76,
+      "text": "have a smarter and seamless experience.",
+      "timestamp": "07:13"
+    },
+    {
+      "start": 436.88,
+      "duration": 1.84,
+      "text": "But I think one of the coolest things",
+      "timestamp": "07:16"
+    },
+    {
+      "start": 438.72,
+      "duration": 2.08,
+      "text": "that we've been working on is now that",
+      "timestamp": "07:18"
+    },
+    {
+      "start": 440.8,
+      "duration": 2.0,
+      "text": "we're actually multi-chain, we're trying",
+      "timestamp": "07:20"
+    },
+    {
+      "start": 442.8,
+      "duration": 2.16,
+      "text": "to make it more seamlessly that you can",
+      "timestamp": "07:22"
+    },
+    {
+      "start": 444.96,
+      "duration": 2.56,
+      "text": "actually use tokens across all chains.",
+      "timestamp": "07:24"
+    },
+    {
+      "start": 447.52,
+      "duration": 2.239,
+      "text": "So with wallet connect pay, it's a very",
+      "timestamp": "07:27"
+    },
+    {
+      "start": 449.759,
+      "duration": 1.521,
+      "text": "interesting initiative that we've been",
+      "timestamp": "07:29"
+    },
+    {
+      "start": 451.28,
+      "duration": 1.919,
+      "text": "working on with a couple of partners",
+      "timestamp": "07:31"
+    },
+    {
+      "start": 453.199,
+      "duration": 3.041,
+      "text": "that allows you to actually pay with any",
+      "timestamp": "07:33"
+    },
+    {
+      "start": 456.24,
+      "duration": 2.88,
+      "text": "token on any chain. This is what some",
+      "timestamp": "07:36"
+    },
+    {
+      "start": 459.12,
+      "duration": 2.16,
+      "text": "people call chain abstraction, but more",
+      "timestamp": "07:39"
+    },
+    {
+      "start": 461.28,
+      "duration": 2.4,
+      "text": "importantly, it's a new layer of",
+      "timestamp": "07:41"
+    },
+    {
+      "start": 463.68,
+      "duration": 2.48,
+      "text": "cognitivity where instead of the app",
+      "timestamp": "07:43"
+    },
+    {
+      "start": 466.16,
+      "duration": 2.96,
+      "text": "actually telling you you should pay with",
+      "timestamp": "07:46"
+    },
+    {
+      "start": 469.12,
+      "duration": 2.479,
+      "text": "this token on this chain, the app",
+      "timestamp": "07:49"
+    },
+    {
+      "start": 471.599,
+      "duration": 2.72,
+      "text": "actually communicates which chains and",
+      "timestamp": "07:51"
+    },
+    {
+      "start": 474.319,
+      "duration": 2.481,
+      "text": "which tokens it can accept. We can think",
+      "timestamp": "07:54"
+    },
+    {
+      "start": 476.8,
+      "duration": 2.56,
+      "text": "of this as a use case for DeFi. We can",
+      "timestamp": "07:56"
+    },
+    {
+      "start": 479.36,
+      "duration": 1.6,
+      "text": "think of this as a use case for",
+      "timestamp": "07:59"
+    },
+    {
+      "start": 480.96,
+      "duration": 2.239,
+      "text": "e-commerce. Or even better, we can think",
+      "timestamp": "08:00"
+    },
+    {
+      "start": 483.199,
+      "duration": 2.481,
+      "text": "of this as a use case for paying for",
+      "timestamp": "08:03"
+    },
+    {
+      "start": 485.68,
+      "duration": 2.32,
+      "text": "coffee products and services on a daily",
+      "timestamp": "08:05"
+    },
+    {
+      "start": 488.0,
+      "duration": 3.44,
+      "text": "basis where you as a user have balances",
+      "timestamp": "08:08"
+    },
+    {
+      "start": 491.44,
+      "duration": 1.599,
+      "text": "across multiple chains and multiple",
+      "timestamp": "08:11"
+    },
+    {
+      "start": 493.039,
+      "duration": 2.801,
+      "text": "tokens. And the wallet can automatically",
+      "timestamp": "08:13"
+    },
+    {
+      "start": 495.84,
+      "duration": 3.44,
+      "text": "select and pay with your favorite token",
+      "timestamp": "08:15"
+    },
+    {
+      "start": 499.28,
+      "duration": 2.16,
+      "text": "or with the one that actually matches",
+      "timestamp": "08:19"
+    },
+    {
+      "start": 501.44,
+      "duration": 2.479,
+      "text": "what the merchant requires. And this is",
+      "timestamp": "08:21"
+    },
+    {
+      "start": 503.919,
+      "duration": 2.641,
+      "text": "a small step that will allow chain",
+      "timestamp": "08:23"
+    },
+    {
+      "start": 506.56,
+      "duration": 2.0,
+      "text": "abstraction solutions to actually",
+      "timestamp": "08:26"
+    },
+    {
+      "start": 508.56,
+      "duration": 2.0,
+      "text": "collaborate with wallet partners within",
+      "timestamp": "08:28"
+    },
+    {
+      "start": 510.56,
+      "duration": 2.64,
+      "text": "our network to actually build a more",
+      "timestamp": "08:30"
+    },
+    {
+      "start": 513.2,
+      "duration": 1.839,
+      "text": "seamless experience. At the end of the",
+      "timestamp": "08:33"
+    },
+    {
+      "start": 515.039,
+      "duration": 1.281,
+      "text": "day, we want to reduce the number of",
+      "timestamp": "08:35"
+    },
+    {
+      "start": 516.32,
+      "duration": 1.599,
+      "text": "clicks and the number of interactions",
+      "timestamp": "08:36"
+    },
+    {
+      "start": 517.919,
+      "duration": 2.721,
+      "text": "that require you as a user to actually",
+      "timestamp": "08:37"
+    },
+    {
+      "start": 520.64,
+      "duration": 2.56,
+      "text": "have to make so many decisions because",
+      "timestamp": "08:40"
+    },
+    {
+      "start": 523.2,
+      "duration": 2.16,
+      "text": "as an infrastructure project, we are",
+      "timestamp": "08:43"
+    },
+    {
+      "start": 525.36,
+      "duration": 2.64,
+      "text": "building the security reliability and",
+      "timestamp": "08:45"
+    },
+    {
+      "start": 528.0,
+      "duration": 2.08,
+      "text": "now we're trying to provide as much",
+      "timestamp": "08:48"
+    },
+    {
+      "start": 530.08,
+      "duration": 2.8,
+      "text": "utility with these new features. But we",
+      "timestamp": "08:50"
+    },
+    {
+      "start": 532.88,
+      "duration": 2.16,
+      "text": "are a decentralized project. We don't do",
+      "timestamp": "08:52"
+    },
+    {
+      "start": 535.04,
+      "duration": 2.72,
+      "text": "this unilaterally. We do this in",
+      "timestamp": "08:55"
+    },
+    {
+      "start": 537.76,
+      "duration": 1.92,
+      "text": "collaboration with all of the wallet",
+      "timestamp": "08:57"
+    },
+    {
+      "start": 539.68,
+      "duration": 2.64,
+      "text": "partners. A year ago, we actually",
+      "timestamp": "08:59"
+    },
+    {
+      "start": 542.32,
+      "duration": 3.28,
+      "text": "launched the first season of certified.",
+      "timestamp": "09:02"
+    },
+    {
+      "start": 545.6,
+      "duration": 2.16,
+      "text": "These were selected wallets that",
+      "timestamp": "09:05"
+    },
+    {
+      "start": 547.76,
+      "duration": 2.8,
+      "text": "actually met the criterias of actually",
+      "timestamp": "09:07"
+    },
+    {
+      "start": 550.56,
+      "duration": 2.399,
+      "text": "being highquality integrations with the",
+      "timestamp": "09:10"
+    },
+    {
+      "start": 552.959,
+      "duration": 1.921,
+      "text": "wallet connect network. This meant that",
+      "timestamp": "09:12"
+    },
+    {
+      "start": 554.88,
+      "duration": 2.639,
+      "text": "they had great user experience. They had",
+      "timestamp": "09:14"
+    },
+    {
+      "start": 557.519,
+      "duration": 2.641,
+      "text": "the best practices for both security,",
+      "timestamp": "09:17"
+    },
+    {
+      "start": 560.16,
+      "duration": 2.239,
+      "text": "performance, and reliability. But it",
+      "timestamp": "09:20"
+    },
+    {
+      "start": 562.399,
+      "duration": 1.601,
+      "text": "also meant that they were using the",
+      "timestamp": "09:22"
+    },
+    {
+      "start": 564.0,
+      "duration": 2.48,
+      "text": "latest version of W Connect with the",
+      "timestamp": "09:24"
+    },
+    {
+      "start": 566.48,
+      "duration": 2.479,
+      "text": "latest features. And this was already a",
+      "timestamp": "09:26"
+    },
+    {
+      "start": 568.959,
+      "duration": 2.32,
+      "text": "big step because you can already feel",
+      "timestamp": "09:28"
+    },
+    {
+      "start": 571.279,
+      "duration": 2.481,
+      "text": "today the difference between a certified",
+      "timestamp": "09:31"
+    },
+    {
+      "start": 573.76,
+      "duration": 2.079,
+      "text": "wallet and a non-certified wallet. And",
+      "timestamp": "09:33"
+    },
+    {
+      "start": 575.839,
+      "duration": 1.761,
+      "text": "we're working with more wallets to join",
+      "timestamp": "09:35"
+    },
+    {
+      "start": 577.6,
+      "duration": 3.2,
+      "text": "the certified program. And this year,",
+      "timestamp": "09:37"
+    },
+    {
+      "start": 580.8,
+      "duration": 2.24,
+      "text": "not only we on boarded more wallets into",
+      "timestamp": "09:40"
+    },
+    {
+      "start": 583.04,
+      "duration": 2.479,
+      "text": "certified, but we actually took it to",
+      "timestamp": "09:43"
+    },
+    {
+      "start": 585.519,
+      "duration": 2.721,
+      "text": "the next level. So now with certified",
+      "timestamp": "09:45"
+    },
+    {
+      "start": 588.24,
+      "duration": 2.24,
+      "text": "season 2 all of the features that we",
+      "timestamp": "09:48"
+    },
+    {
+      "start": 590.48,
+      "duration": 2.56,
+      "text": "talked about oneclick off link modes",
+      "timestamp": "09:50"
+    },
+    {
+      "start": 593.04,
+      "duration": 2.72,
+      "text": "smart mions and others we are actually",
+      "timestamp": "09:53"
+    },
+    {
+      "start": 595.76,
+      "duration": 2.32,
+      "text": "working with them to actually put these",
+      "timestamp": "09:55"
+    },
+    {
+      "start": 598.08,
+      "duration": 2.48,
+      "text": "into production. This is no longer a",
+      "timestamp": "09:58"
+    },
+    {
+      "start": 600.56,
+      "duration": 1.92,
+      "text": "research project. This is no longer a",
+      "timestamp": "10:00"
+    },
+    {
+      "start": 602.48,
+      "duration": 2.24,
+      "text": "beta testing. This is actually putting",
+      "timestamp": "10:02"
+    },
+    {
+      "start": 604.72,
+      "duration": 2.96,
+      "text": "into motion these latest standards and",
+      "timestamp": "10:04"
+    },
+    {
+      "start": 607.68,
+      "duration": 2.08,
+      "text": "latest innovations with the wallet",
+      "timestamp": "10:07"
+    },
+    {
+      "start": 609.76,
+      "duration": 2.8,
+      "text": "partners. So every time wallet connect",
+      "timestamp": "10:09"
+    },
+    {
+      "start": 612.56,
+      "duration": 1.839,
+      "text": "network is able to develop a new",
+      "timestamp": "10:12"
+    },
+    {
+      "start": 614.399,
+      "duration": 1.841,
+      "text": "innovation, we work together with the",
+      "timestamp": "10:14"
+    },
+    {
+      "start": 616.24,
+      "duration": 1.68,
+      "text": "wallet partners within the certified",
+      "timestamp": "10:16"
+    },
+    {
+      "start": 617.92,
+      "duration": 2.72,
+      "text": "program to put them in production. And",
+      "timestamp": "10:17"
+    },
+    {
+      "start": 620.64,
+      "duration": 2.639,
+      "text": "right now we have this in place and we",
+      "timestamp": "10:20"
+    },
+    {
+      "start": 623.279,
+      "duration": 2.24,
+      "text": "have announced the new wallets uh which",
+      "timestamp": "10:23"
+    },
+    {
+      "start": 625.519,
+      "duration": 3.201,
+      "text": "you can find in our wallet guide and we",
+      "timestamp": "10:25"
+    },
+    {
+      "start": 628.72,
+      "duration": 2.239,
+      "text": "will be adding more and more wallets and",
+      "timestamp": "10:28"
+    },
+    {
+      "start": 630.959,
+      "duration": 2.481,
+      "text": "now we have more than 20 wallets as part",
+      "timestamp": "10:30"
+    },
+    {
+      "start": 633.44,
+      "duration": 2.72,
+      "text": "of the certified program. But as a",
+      "timestamp": "10:33"
+    },
+    {
+      "start": 636.16,
+      "duration": 2.32,
+      "text": "decentralized project we also introduced",
+      "timestamp": "10:36"
+    },
+    {
+      "start": 638.48,
+      "duration": 1.919,
+      "text": "the wallet connect council. So the",
+      "timestamp": "10:38"
+    },
+    {
+      "start": 640.399,
+      "duration": 2.481,
+      "text": "wallet connect council is not just the",
+      "timestamp": "10:40"
+    },
+    {
+      "start": 642.88,
+      "duration": 2.48,
+      "text": "node operators and the wallet partners.",
+      "timestamp": "10:42"
+    },
+    {
+      "start": 645.36,
+      "duration": 1.919,
+      "text": "It's also the many different core",
+      "timestamp": "10:45"
+    },
+    {
+      "start": 647.279,
+      "duration": 2.0,
+      "text": "contributors that have been making",
+      "timestamp": "10:47"
+    },
+    {
+      "start": 649.279,
+      "duration": 2.24,
+      "text": "wallet connect better. They have been",
+      "timestamp": "10:49"
+    },
+    {
+      "start": 651.519,
+      "duration": 1.521,
+      "text": "making wallet connect better through",
+      "timestamp": "10:51"
+    },
+    {
+      "start": 653.04,
+      "duration": 1.76,
+      "text": "their own projects. They've been making",
+      "timestamp": "10:53"
+    },
+    {
+      "start": 654.8,
+      "duration": 2.479,
+      "text": "the world connect better through the",
+      "timestamp": "10:54"
+    },
+    {
+      "start": 657.279,
+      "duration": 2.161,
+      "text": "actual network by introducing new",
+      "timestamp": "10:57"
+    },
+    {
+      "start": 659.44,
+      "duration": 2.48,
+      "text": "improvements. But now they actually are",
+      "timestamp": "10:59"
+    },
+    {
+      "start": 661.92,
+      "duration": 1.599,
+      "text": "elected as part of the wallet connect",
+      "timestamp": "11:01"
+    },
+    {
+      "start": 663.519,
+      "duration": 2.401,
+      "text": "governance which is part obviously of",
+      "timestamp": "11:03"
+    },
+    {
+      "start": 665.92,
+      "duration": 2.159,
+      "text": "this introduction of the node operators",
+      "timestamp": "11:05"
+    },
+    {
+      "start": 668.079,
+      "duration": 2.88,
+      "text": "the wallet partners the stakeholders. We",
+      "timestamp": "11:08"
+    },
+    {
+      "start": 670.959,
+      "duration": 2.241,
+      "text": "now have the wallet connect council",
+      "timestamp": "11:10"
+    },
+    {
+      "start": 673.2,
+      "duration": 2.56,
+      "text": "which all of these individuals are now",
+      "timestamp": "11:13"
+    },
+    {
+      "start": 675.76,
+      "duration": 2.319,
+      "text": "responsible as a co-working group of",
+      "timestamp": "11:15"
+    },
+    {
+      "start": 678.079,
+      "duration": 2.721,
+      "text": "bringing new proposals new features and",
+      "timestamp": "11:18"
+    },
+    {
+      "start": 680.8,
+      "duration": 2.719,
+      "text": "new initiatives for the community to",
+      "timestamp": "11:20"
+    },
+    {
+      "start": 683.519,
+      "duration": 2.0,
+      "text": "actually drive the wall neck innovation",
+      "timestamp": "11:23"
+    },
+    {
+      "start": 685.519,
+      "duration": 2.641,
+      "text": "further. It's something that it's so",
+      "timestamp": "11:25"
+    },
+    {
+      "start": 688.16,
+      "duration": 2.56,
+      "text": "hard to build which is not only you",
+      "timestamp": "11:28"
+    },
+    {
+      "start": 690.72,
+      "duration": 2.88,
+      "text": "build a community but you build a set of",
+      "timestamp": "11:30"
+    },
+    {
+      "start": 693.6,
+      "duration": 2.88,
+      "text": "ambassadors, evangelists and core",
+      "timestamp": "11:33"
+    },
+    {
+      "start": 696.48,
+      "duration": 1.84,
+      "text": "contributors that are actually working",
+      "timestamp": "11:36"
+    },
+    {
+      "start": 698.32,
+      "duration": 2.4,
+      "text": "towards the same mission whether they",
+      "timestamp": "11:38"
+    },
+    {
+      "start": 700.72,
+      "duration": 2.4,
+      "text": "are even competing in the market or",
+      "timestamp": "11:40"
+    },
+    {
+      "start": 703.12,
+      "duration": 1.279,
+      "text": "whether they are actually building",
+      "timestamp": "11:43"
+    },
+    {
+      "start": 704.399,
+      "duration": 2.081,
+      "text": "completely different products at the end",
+      "timestamp": "11:44"
+    },
+    {
+      "start": 706.48,
+      "duration": 1.68,
+      "text": "of the day they have the same mission",
+      "timestamp": "11:46"
+    },
+    {
+      "start": 708.16,
+      "duration": 1.76,
+      "text": "which is to make the user experience",
+      "timestamp": "11:48"
+    },
+    {
+      "start": 709.92,
+      "duration": 2.64,
+      "text": "better. So we're really happy to have",
+      "timestamp": "11:49"
+    },
+    {
+      "start": 712.56,
+      "duration": 2.32,
+      "text": "this very heavily curated group of",
+      "timestamp": "11:52"
+    },
+    {
+      "start": 714.88,
+      "duration": 3.04,
+      "text": "people in our council and we are",
+      "timestamp": "11:54"
+    },
+    {
+      "start": 717.92,
+      "duration": 1.919,
+      "text": "obviously very excited to work with them",
+      "timestamp": "11:57"
+    },
+    {
+      "start": 719.839,
+      "duration": 3.44,
+      "text": "in improving the tooling, the SDKs, add",
+      "timestamp": "11:59"
+    },
+    {
+      "start": 723.279,
+      "duration": 2.641,
+      "text": "new features, having regional expansion",
+      "timestamp": "12:03"
+    },
+    {
+      "start": 725.92,
+      "duration": 2.24,
+      "text": "to cover more communities in different",
+      "timestamp": "12:05"
+    },
+    {
+      "start": 728.16,
+      "duration": 2.88,
+      "text": "countries. Uh today we actually had an",
+      "timestamp": "12:08"
+    },
+    {
+      "start": 731.04,
+      "duration": 2.239,
+      "text": "expansion with Thailand. We have other",
+      "timestamp": "12:11"
+    },
+    {
+      "start": 733.279,
+      "duration": 3.041,
+      "text": "campaigns in India, Indonesia,",
+      "timestamp": "12:13"
+    },
+    {
+      "start": 736.32,
+      "duration": 2.8,
+      "text": "Philippines, Brazil, Argentina. We're",
+      "timestamp": "12:16"
+    },
+    {
+      "start": 739.12,
+      "duration": 1.6,
+      "text": "working to expand more and more the",
+      "timestamp": "12:19"
+    },
+    {
+      "start": 740.72,
+      "duration": 2.239,
+      "text": "waknet community and to make sure that",
+      "timestamp": "12:20"
+    },
+    {
+      "start": 742.959,
+      "duration": 2.481,
+      "text": "people realize how much this actually",
+      "timestamp": "12:22"
+    },
+    {
+      "start": 745.44,
+      "duration": 2.56,
+      "text": "impacts the user experience and it's",
+      "timestamp": "12:25"
+    },
+    {
+      "start": 748.0,
+      "duration": 1.68,
+      "text": "going to be a big difference because",
+      "timestamp": "12:28"
+    },
+    {
+      "start": 749.68,
+      "duration": 2.32,
+      "text": "obviously with the waknet council they",
+      "timestamp": "12:29"
+    },
+    {
+      "start": 752.0,
+      "duration": 1.839,
+      "text": "will be driving forward the governance",
+      "timestamp": "12:32"
+    },
+    {
+      "start": 753.839,
+      "duration": 2.321,
+      "text": "initiatives which our community will be",
+      "timestamp": "12:33"
+    },
+    {
+      "start": 756.16,
+      "duration": 2.72,
+      "text": "able to vote for and how we can actually",
+      "timestamp": "12:36"
+    },
+    {
+      "start": 758.88,
+      "duration": 2.0,
+      "text": "listen to the community of what we",
+      "timestamp": "12:38"
+    },
+    {
+      "start": 760.88,
+      "duration": 2.959,
+      "text": "should be building next. Obviously, as",
+      "timestamp": "12:40"
+    },
+    {
+      "start": 763.839,
+      "duration": 2.321,
+      "text": "my new role as the director of the Waken",
+      "timestamp": "12:43"
+    },
+    {
+      "start": 766.16,
+      "duration": 2.239,
+      "text": "Foundation, we want to develop this",
+      "timestamp": "12:46"
+    },
+    {
+      "start": 768.399,
+      "duration": 2.321,
+      "text": "ecosystem further, but we also want to",
+      "timestamp": "12:48"
+    },
+    {
+      "start": 770.72,
+      "duration": 1.919,
+      "text": "be the stewards of the Welconnect",
+      "timestamp": "12:50"
+    },
+    {
+      "start": 772.639,
+      "duration": 3.521,
+      "text": "network to push further with our",
+      "timestamp": "12:52"
+    },
+    {
+      "start": 776.16,
+      "duration": 2.479,
+      "text": "partners, our not operators of where we",
+      "timestamp": "12:56"
+    },
+    {
+      "start": 778.639,
+      "duration": 2.081,
+      "text": "should go next and empower the",
+      "timestamp": "12:58"
+    },
+    {
+      "start": 780.72,
+      "duration": 2.16,
+      "text": "community, whether that's the council,",
+      "timestamp": "13:00"
+    },
+    {
+      "start": 782.88,
+      "duration": 2.399,
+      "text": "the wallet connect, uh the wallet",
+      "timestamp": "13:02"
+    },
+    {
+      "start": 785.279,
+      "duration": 2.081,
+      "text": "partners in the wallet connect certified",
+      "timestamp": "13:05"
+    },
+    {
+      "start": 787.36,
+      "duration": 2.08,
+      "text": "and the node operators to do this",
+      "timestamp": "13:07"
+    },
+    {
+      "start": 789.44,
+      "duration": 2.56,
+      "text": "together rather than being a centralized",
+      "timestamp": "13:09"
+    },
+    {
+      "start": 792.0,
+      "duration": 2.0,
+      "text": "project to become a decentralized",
+      "timestamp": "13:12"
+    },
+    {
+      "start": 794.0,
+      "duration": 1.92,
+      "text": "network that actually builds all of this",
+      "timestamp": "13:14"
+    },
+    {
+      "start": 795.92,
+      "duration": 4.0,
+      "text": "innovation. So for you guys, if you have",
+      "timestamp": "13:15"
+    },
+    {
+      "start": 799.92,
+      "duration": 2.24,
+      "text": "not been following the latest",
+      "timestamp": "13:19"
+    },
+    {
+      "start": 802.16,
+      "duration": 2.56,
+      "text": "developments, I definitely invite you to",
+      "timestamp": "13:22"
+    },
+    {
+      "start": 804.72,
+      "duration": 2.4,
+      "text": "join us because together we can redefine",
+      "timestamp": "13:24"
+    },
+    {
+      "start": 807.12,
+      "duration": 2.88,
+      "text": "the onchain experience. We can build a",
+      "timestamp": "13:27"
+    },
+    {
+      "start": 810.0,
+      "duration": 2.88,
+      "text": "better wallets. We can accelerate wallet",
+      "timestamp": "13:30"
+    },
+    {
+      "start": 812.88,
+      "duration": 2.639,
+      "text": "innovation and we can do it together.",
+      "timestamp": "13:32"
+    },
+    {
+      "start": 815.519,
+      "duration": 2.401,
+      "text": "So, I invite you to join us in our",
+      "timestamp": "13:35"
+    },
+    {
+      "start": 817.92,
+      "duration": 2.479,
+      "text": "builder community. And if you haven't",
+      "timestamp": "13:37"
+    },
+    {
+      "start": 820.399,
+      "duration": 2.24,
+      "text": "heard about the latest innovations, you",
+      "timestamp": "13:40"
+    },
+    {
+      "start": 822.639,
+      "duration": 1.121,
+      "text": "can check out our blog at",
+      "timestamp": "13:42"
+    },
+    {
+      "start": 823.76,
+      "duration": 1.6,
+      "text": "wakconnect.network.",
+      "timestamp": "13:43"
+    },
+    {
+      "start": 825.36,
+      "duration": 2.08,
+      "text": "You can check out our governance forum",
+      "timestamp": "13:45"
+    },
+    {
+      "start": 827.44,
+      "duration": 2.399,
+      "text": "and obviously our Twitter where we'll be",
+      "timestamp": "13:47"
+    },
+    {
+      "start": 829.839,
+      "duration": 1.761,
+      "text": "sharing more and more updates about the",
+      "timestamp": "13:49"
+    },
+    {
+      "start": 831.6,
+      "duration": 5.239,
+      "text": "Wallconnect network. Thank you so much.",
+      "timestamp": "13:51"
+    },
+    {
+      "start": 841.04,
+      "duration": 3.4,
+      "text": "Any questions?",
+      "timestamp": "14:01"
+    },
+    {
+      "start": 857.36,
+      "duration": 2.479,
+      "text": "I how are you thinking about Agentic uh",
+      "timestamp": "14:17"
+    },
+    {
+      "start": 859.839,
+      "duration": 3.521,
+      "text": "workflows and integrations?",
+      "timestamp": "14:19"
+    },
+    {
+      "start": 863.36,
+      "duration": 2.719,
+      "text": "Yeah, so when we actually built smart",
+      "timestamp": "14:23"
+    },
+    {
+      "start": 866.079,
+      "duration": 1.841,
+      "text": "sessions, it was actually very much",
+      "timestamp": "14:26"
+    },
+    {
+      "start": 867.92,
+      "duration": 2.719,
+      "text": "focused on that. Um, in fact, last year",
+      "timestamp": "14:27"
+    },
+    {
+      "start": 870.639,
+      "duration": 2.801,
+      "text": "at EFCC in Brussels, uh, we actually had",
+      "timestamp": "14:30"
+    },
+    {
+      "start": 873.44,
+      "duration": 2.8,
+      "text": "a whole presentation that was focused",
+      "timestamp": "14:33"
+    },
+    {
+      "start": 876.24,
+      "duration": 2.0,
+      "text": "exclusively on that. While this",
+      "timestamp": "14:36"
+    },
+    {
+      "start": 878.24,
+      "duration": 1.44,
+      "text": "presentation was a little bit more",
+      "timestamp": "14:38"
+    },
+    {
+      "start": 879.68,
+      "duration": 2.399,
+      "text": "generalized about multiple work streams",
+      "timestamp": "14:39"
+    },
+    {
+      "start": 882.079,
+      "duration": 2.481,
+      "text": "that we're doing in wall connect, you",
+      "timestamp": "14:42"
+    },
+    {
+      "start": 884.56,
+      "duration": 2.079,
+      "text": "can actually see in the smart sessions",
+      "timestamp": "14:44"
+    },
+    {
+      "start": 886.639,
+      "duration": 1.521,
+      "text": "uh, how this actually could be very",
+      "timestamp": "14:46"
+    },
+    {
+      "start": 888.16,
+      "duration": 2.799,
+      "text": "complimentary uh, to AI agents. Not just",
+      "timestamp": "14:48"
+    },
+    {
+      "start": 890.959,
+      "duration": 1.921,
+      "text": "AI agents actually, you can do",
+      "timestamp": "14:50"
+    },
+    {
+      "start": 892.88,
+      "duration": 1.759,
+      "text": "automation, you can do recurring",
+      "timestamp": "14:52"
+    },
+    {
+      "start": 894.639,
+      "duration": 2.401,
+      "text": "payments, you can honestly just improve",
+      "timestamp": "14:54"
+    },
+    {
+      "start": 897.04,
+      "duration": 3.039,
+      "text": "DeFi experience. uh if you look at this",
+      "timestamp": "14:57"
+    },
+    {
+      "start": 900.079,
+      "duration": 3.12,
+      "text": "example here uh we actually are only",
+      "timestamp": "15:00"
+    },
+    {
+      "start": 903.199,
+      "duration": 2.481,
+      "text": "showcasing an example with unis swap but",
+      "timestamp": "15:03"
+    },
+    {
+      "start": 905.68,
+      "duration": 2.8,
+      "text": "if you think about this as an AI agent",
+      "timestamp": "15:05"
+    },
+    {
+      "start": 908.48,
+      "duration": 2.479,
+      "text": "uh let's say it's chat GPT you're",
+      "timestamp": "15:08"
+    },
+    {
+      "start": 910.959,
+      "duration": 2.24,
+      "text": "actually telling chat GPT that it can",
+      "timestamp": "15:10"
+    },
+    {
+      "start": 913.199,
+      "duration": 1.76,
+      "text": "access your wallets you're not giving",
+      "timestamp": "15:13"
+    },
+    {
+      "start": 914.959,
+      "duration": 1.921,
+      "text": "away your private key you're actually",
+      "timestamp": "15:14"
+    },
+    {
+      "start": 916.88,
+      "duration": 2.8,
+      "text": "giving a permission to the chatbt so",
+      "timestamp": "15:16"
+    },
+    {
+      "start": 919.68,
+      "duration": 3.36,
+      "text": "chatbt has its own key has its own you",
+      "timestamp": "15:19"
+    },
+    {
+      "start": 923.04,
+      "duration": 1.919,
+      "text": "could say wallet but it's using your",
+      "timestamp": "15:23"
+    },
+    {
+      "start": 924.959,
+      "duration": 2.24,
+      "text": "wallet with a different key and what",
+      "timestamp": "15:24"
+    },
+    {
+      "start": 927.199,
+      "duration": 2.0,
+      "text": "you're giving them is a permission that",
+      "timestamp": "15:27"
+    },
+    {
+      "start": 929.199,
+      "duration": 2.88,
+      "text": "is time scoped. It's has spending",
+      "timestamp": "15:29"
+    },
+    {
+      "start": 932.079,
+      "duration": 2.081,
+      "text": "policies and it can even have permission",
+      "timestamp": "15:32"
+    },
+    {
+      "start": 934.16,
+      "duration": 2.64,
+      "text": "around only use these smart contracts on",
+      "timestamp": "15:34"
+    },
+    {
+      "start": 936.8,
+      "duration": 2.32,
+      "text": "these chains. So if you control these",
+      "timestamp": "15:36"
+    },
+    {
+      "start": 939.12,
+      "duration": 2.88,
+      "text": "permissions uh very granularly, you can",
+      "timestamp": "15:39"
+    },
+    {
+      "start": 942.0,
+      "duration": 2.88,
+      "text": "still allow the agent to do a lot and if",
+      "timestamp": "15:42"
+    },
+    {
+      "start": 944.88,
+      "duration": 1.6,
+      "text": "it needs to request more permissions,",
+      "timestamp": "15:44"
+    },
+    {
+      "start": 946.48,
+      "duration": 2.08,
+      "text": "then that's when it actually asks you",
+      "timestamp": "15:46"
+    },
+    {
+      "start": 948.56,
+      "duration": 3.36,
+      "text": "for more approvals because contrary to",
+      "timestamp": "15:48"
+    },
+    {
+      "start": 951.92,
+      "duration": 2.0,
+      "text": "this approach, they would actually",
+      "timestamp": "15:51"
+    },
+    {
+      "start": 953.92,
+      "duration": 2.24,
+      "text": "generate a bunch of transactions. it",
+      "timestamp": "15:53"
+    },
+    {
+      "start": 956.16,
+      "duration": 1.76,
+      "text": "would pop up on your wallet and every",
+      "timestamp": "15:56"
+    },
+    {
+      "start": 957.92,
+      "duration": 1.68,
+      "text": "time you have to approve everything and",
+      "timestamp": "15:57"
+    },
+    {
+      "start": 959.6,
+      "duration": 1.52,
+      "text": "it kind of defies the whole point of the",
+      "timestamp": "15:59"
+    },
+    {
+      "start": 961.12,
+      "duration": 2.0,
+      "text": "AI agent. The AI agent should be",
+      "timestamp": "16:01"
+    },
+    {
+      "start": 963.12,
+      "duration": 2.719,
+      "text": "autonomous as much as possible but you",
+      "timestamp": "16:03"
+    },
+    {
+      "start": 965.839,
+      "duration": 2.24,
+      "text": "as a wallet user you should still have",
+      "timestamp": "16:05"
+    },
+    {
+      "start": 968.079,
+      "duration": 2.0,
+      "text": "the choice, the control and the",
+      "timestamp": "16:08"
+    },
+    {
+      "start": 970.079,
+      "duration": 2.241,
+      "text": "composibility to feel like this is your",
+      "timestamp": "16:10"
+    },
+    {
+      "start": 972.32,
+      "duration": 3.4,
+      "text": "self custody.",
+      "timestamp": "16:12"
+    },
+    {
+      "start": 978.959,
+      "duration": 3.56,
+      "text": "Any other questions?",
+      "timestamp": "16:18"
+    },
+    {
+      "start": 985.04,
+      "duration": 1.919,
+      "text": "All right, thanks everyone for joining",
+      "timestamp": "16:25"
+    },
+    {
+      "start": 986.959,
+      "duration": 3.0,
+      "text": "us.",
+      "timestamp": "16:26"
+    }
+  ],
+  "extraction_timestamp": "2025-07-08T14:45:53.139149",
+  "playlist_title": "EthCC[8] Redford Stage"
+}

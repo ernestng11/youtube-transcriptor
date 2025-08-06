@@ -1,0 +1,2021 @@
+{
+  "video_id": "Vm5r61zGGvw",
+  "video_title": "Martin Köppelmann (Gnosis) - Circles 2.0",
+  "video_url": "https://www.youtube.com/watch?v=Vm5r61zGGvw",
+  "channel_title": "[EthCC] Livestream 4",
+  "published_at": "2025-07-02T01:58:54+00:00",
+  "duration_seconds": null,
+  "view_count": 120,
+  "like_count": 5,
+  "description": "Circles is new money for a multipolar world. We will give insights on the recent Circles 2.0 launch and an outlook of what comes next.",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 333,
+    "aggregated_text": "All right. Yeah, thanks. Thanks all for coming. I'm Martin Kaplan. Um founder of Nosis, building since 10 years uh in the well more than 10 years in the uh yeah Ethereum and blockchain space. Um yeah with Nosis we did things like uh um Nosis safe uh cow swap uh but now yeah Nosis chain and and many other project but today's talk will be about um yeah frankly my my favorite project or the project that kind of brought me into the space um and it's yeah called circles and it raises the big question of how does money work and um how can we create potentially or a new version of money or a different uh version of money that maybe works better. And of course, we need to start with the observation what money actually is. And it's surprising that it is something um yeah so so dominant in our lives. So kind of money plays such a big role but I think we think relatively little about how money works, where money comes from and how money is designed. So uh a quote I I often start with um from Bernard Leatar uh defining money primarily as an agreement. So primarily money is a social construct and as such of course uh it's not it's not a god-given thing. It is something constructed by humans and it it is and therefore it can also be changed uh by humans the way we can um design it. Another way to put the same thing is to say money is uh technology. And in fact, it is it's actually probably the most widespread piece of of technology or uh also kind of you can also think of it as a as a communication instrument. So you can go into another country, you don't speak the language, you don't speak um uh you you don't understand the culture, but probably still everyone kind of understands money or reacts um to money. There are very very very few places on earth where um uh where people don't use money. Um but now uh money on its surface might look uh neutral. It might look like um okay I from from from a day-to-day experience you might think okay I need to somehow I need to get money earn money and then I can spend money okay that that seems simple what are really are there really any parameters but the really critical part if you look at any particular money is where does it originally come from so how does the process of money creation look like who controls that and yeah what are the rules for that and if you if you then go down this rabbit hole that is really where yeah a lot of power lies where a lot of things of how our society works are are dominated frankly by this process of how does money uh come into into creation. So, um, the promise is we can, yeah, potentially do things better than they used to be. And, uh, frankly, in in the in the last years, um, it seems like some people are sufficient with the with the goal of blockchain to say, okay, let's now uh have more efficient ways to spread the US dollar across the world. And that's at least not um why I joined the space uh very initially. So I do think we can do more radical things like not just yeah upgrading existing money to to a new tech platform but actually working uh on money at its core itself. So obviously Bitcoin um Bitcoin was kind of the first project that even also for me um raised this question or or or suddenly there was this thing in the world that uh that kind of yeah presented an alternative and I have to admit uh yeah 13 14 years ago I was also kind of a Bitcoin maxi was running around was telling everyone um they should use Bitcoin. But but then I would say Bitcoin is is maybe I'm I'm I'm happy that Bitcoin exists but I think it's not really playing a role of of money. Bitcoin is not used as um as a as a medium of ex rarely used as a medium of exchange almost never used as the as a um uh as unit of account. And kind of the other thing was um so I was I was early in in in Bitcoin and um and of course then there were I I was one of them running around telling people use Bitcoin. But at some point I've had the feeling would it really benefit the world? So right now I think one or two% of the world population um hold Bitcoin. would it really benefit the other 98 99% uh if the whole world world would rent would run on Bitcoin? And my conclusion was not clear and probably not. It would certainly benefit the first one or 2% that um that yeah already hold Bitcoin. Um, so in that sense I at least lost this ambition to to to uh to preach people about Bitcoin because again I felt like it's not necessarily in their interest or in in in the long term or that's not necessarily a good form of of money um long term and and and uh again to me the the core thing is Bitcoin is maybe an an alternative to gold. It's not an alternative to the fiat currencies we are using. No one is using it as a no one is is denominating their contracts in it. No one is denominating salary in it. No one is is uh pricing goods uh um in it. So the yeah the the the topic of this talk is how can we design uh money from scratch um using similar technologies. Of course we have the blockchain and so on. Um let's start with a thought experiment. Let's start. Yeah, maybe we are roughly almost 100 people in this room. So, let's say we somehow ended up um on on an island. Uh we somehow stranded on an island and it's just us and somehow we we we yeah we ended up there and we might decide okay actually money would be useful thing to have. We don't have any because we somehow ended up uh how how do we create it? What do we do? what would be what would be um kind of reasonable um what would be reasonable approaches. So the first approach might be to say okay let's say everyone everyone from us gets there's a one-time event where everyone gets initial thousand units and then 100 people then 100,000 units are in circulation then kind of this money creation thing is over um and then kind of just the money can flow uh across of it across of us but then let's say uh let's say some of us uh leaves this island already after two weeks and others stay for a long time. Was it then really a good uh choice to give those uh those that leave very early kind of that same amount and kind of let let's say at some point others come to this island uh would they also get then the thousand units. So the next approach would be to say okay we do it timebased. So it's still kind of the same idea we do it per person but instead of doing it at one time one amount we do it time based. So we do one unit per hour um that that we can issue to every person kind of involved um in the scheme. So now the the issue with that approach or with that approach alone is that um at least over a long time a period of time the total supply of of money in circulation will just kind of continue to grow while this um this newly issued uh the newly issued kind of still one unit per per person uh will will will be fixed. So kind of here are time scales that after a long time the the total amount of of money in circulation per person yeah will go towards infinity. So the relative amount of one unit um will be yeah will will go towards zero. So that uh comes or there the conclusion is okay what what if old money would kind of disappear and there's one term called demorrage but you can also call just say old money rots or or is burned or whatnot but essentially the idea is okay money from the money from from maybe centuries ago uh shouldn't matter today anymore. right? Kind of that that that should be discounted or at least there should be some factor with with um uh how old money is is discounted. And here uh we see the same same graphs as as above but we just see that here um the total amount of money per person will always um stabilize no matter uh whether there's a big increase or decrease um in in in in population. So now the next question is in our hypothetical uh idea of this island of 100 people we somehow we we could easily figure out who the participating uh people are but of course in reality uh it's much more complex. So then the question is if you want to do this per person uh issuance of course the big question is who decides or who who who do you need to ask to kind of be allowed to issue money and the answer we are giving in circles is everyone is allowed to uh issue money and we don't even yeah kind of ask who you are or there is no one to to ask who you are because you yourself can just start uh to issue money. The important part is that there is this yeah what we call this web of trust trust bi based system where where people can decide whose money they accept who is kind of a valid issuer and that is essentially that that that um that task or that that role is yeah decentralized and we will look into this uh in in more detail. So conclusion everyone can issue money but we can um it's everyone individual's decision whose money um uh they accept. So in in in short yes there might be fake and simple accounts in the system but as long as you don't decide to accept their money then um it does not affect you negatively. So we can look into that into more detail. So we have here three people A, B and C. They all of of them are issuing their own money. A is issuing A money at this rate of one per one one one unit per hour. Um but it's it's it's it's different token. So kind of it's different. Yeah, it's a it's different. Let's let's just call it here A circles. And B issues B circles and C issues C circles. Now A wants to pay person C but C does not know or trust how we call it uh person A but there is a connection via B. So A and B trust each other, B and C trust each other and now we see here the balances of of those three people. So now uh we can do what we call a transitive transfer where A is sending hundred of her circles to person B. Uh and B is fine with that because they trust uh uh A and they accept her circles. uh and then without B necessarily needing needing to be involved, B circles are forwarded to C and C is happy with that because they receive circles from a person or they receive circles that are issued by a person um that they trust. So in aggregate those balance changes occur for B um the the total balance doesn't change. they they they got 100. They forwarded another type of circles but also 100. So in total balance didn't change but A ultimately sent 100 circles um to see. This is already kind of one step one step into the into the present. So so this is how how things look um how how things look in the app um that we have for circles. and you but the point I'm trying to make here is you see a a total balance here of 30,000 uh 37,000 circles but then if you if you click on it you actually see that that is a is is a mix of different circles issued by um by the different people you have in your trust network. So in summary um the three rules of circles are just those. So uh we have a constant issuance or all circles or all money in in the circle system comes into into existence through people. So people need or can create those circles at a at a rate of of one per hour. Then there is a counter force that at at all times and no matter where the circles are um all the circles uh are constantly being reduced at a rate of of 7%. And we will see in the next slide how those two forces um counteract each other and lead to a stable overall uh supply. And the third rule is this this is trust system what we call here selective um trust. This is here just uh the graph of uh the result of the first two rules uh constant issuance. So this is kind of the the um amount of circles a single person issues over a lifetime of let's say 80 years. Uh so they start to issue at year zero it they issue constantly or they they always issue constantly but but the old circuits that are already then in supply and that that are somewhere in the network they um yeah they are hit by this constantly hit by the 7% demarrage. So at some point um those two forces the constant issuance and demarrage equal out. And here hypothetically after 80 years um the this person dies stops to issue personal circles. Then the circles the money they have brought into existence still is around in societies can still be held uh by people but over time because of the 7% demirage it will kind of disappear from um yeah from from from the system. So the magic number here is uh in circles it will always converge towards uh 120,000 um 84 circles times the number of people in the system. And maybe to tie that back to this uh early observation that bitcoin is not really used as a medium of ex as a medium of exchange but specifically not as unit of account. My uh yeah my my um intuition for that is that in in in Bitcoin there is a completely uh there is a completely fixed uh issuance policy that is completely independent of how many people uh are using Bitcoin and therefore of course it will always be yes or it will be significantly volatile because if more people decide to use it then of course yeah price goes up if less people uh decide to use it or if it becomes more niche uh kind of price would go down and that I think makes it um makes it yeah hard maybe impossible to use it as a interm for for long-term contracts to to have your your salary denominated in bitcoin and so on. So um on the other hand you have systems that try to be value stable and try to say okay um the amount of money that is in the system needs to correlate with with the economy or with the size of the economy and but that of course always introduces some central point of power and circles tries to find a middle ground where it says the size of the economy is approximated by the number of people um in that economy by the number of people using it. Uh and so in that sense, circles is um reacting to the size of the economy but still in a way that there is no uh a central point of power that can do arbitrary rules and kind of um yeah also be be this um um yeah single point of failure potentially. Just one more perspective on those uh two uh uh on on those on this 120,000. So in circles you can of course hold more or I mean it's it's not limited how much circles you hold. You can hold more than 120,000 but from an individual perspective um you can look at the system uh or you can look at the 7% as a tax. Um if you or if for example if if you're not issuing money then you would kind of just constantly pay a tax on your on the 7% tax which is kind of similar to what the also what what inflation does in in in euros and dollars but anyhow so uh so if you exactly have those 120,000 as a balance then those two forces equal out and your effective tax rate let's say is zero. If you have less than that your effective tax rate is negative. So you get more then you then then which is burned or taken from the demarrage. While if you have more then your tax rate approaches 7%. Okay. So circles as an idea already goes back all the way to um Defcon 1 in in in London in London almost 10 years ago. I already presented the idea of circles and then it took well in quite some years and in 2020 it actually launched in in version one and this is kind of how this uh trust network then formed. Uh so this was after one day this was after two days and that was after a couple of weeks. So it went quite uh viral and a huge network network of over 100,000 um um yeah people was formed in in a very short uh amount of time. Um and also for some time uh yeah then there were local experiments here is an example of of a farmers market in Berlin where you could buy buy this basket of the week uh for with 4 for 450 circles. Um and here is how actually a transaction kind of this ABC thing then looked in in reality bit more complex. So on the left side that's me on the right side this is this uh vendor B power direct uh and and basically the the the the blue points in between are are people that this vendor then trusts and this Pathfinder would well found a pass for kind of essentially me making a payment to them. um via via all those hops. So, but then at the same time at the same uh at the same um at the same time the truth is that circles had this viral moment in in in 2020 and yes there were some communities small scale communities that tried it for yeah quite a time couple of years um but overall activity in the network um yeah was was low or or then then kind of for for a long time was very low. So recently we'd made yeah or in the last one and a half years we made a big um yeah push or big big upgrade or basically we looked at at circles and we still felt many ideas are valid but we also felt okay there are a few pieces missing to make this system really um yeah relevant and successful um in in the real world. So in two in circuits 2.0 first it is a continuation of the existing system. So every everyone who had had an account back then um all the balances all the trust connections all that um yeah can can be migrated. But um we are making yeah essentially two two big changes. One that I will talk about a bit more in the coming slides is the addition of of groups. So kind of in circles 1.0 0 it was purely this this web of trust this peer-to-peer web of trust but but groups or institutions wouldn't play a role in it and and yes we do think that is that is uh important and this also leads to being able to trade circles and use it in more finance things but I will I will go to it uh and the other thing was simply circles um uh yeah 1.0 O was built in 2020. Blockchain technology was still not absolutely not there. We we already tried to do things like account abstraction and for the time absolutely cutting edge things like gas abstraction and so on but but we had had to build everything ourself because uh infrastructure wouldn't exist. So long story short big part of why circles 1.0 did not go beyond this initial hype was that then it was simply not working on all kind of ends. there were some technical issues, infrastructure was simply uh not ready. So the second part is um maybe the even more important part uh compared to this addition of the groups is simply that we now have uh much better wallets. We have stable coins. We have uh solutions like this Nosis Pay uh card. Just quick I'm curious who who has heard or maybe is even using Nosis Pay. Great. Perfect. So, so those things uh have uh made uh tremendous uh progress and we will be able to uh connect circles with those things. So, soon you will be able to spend your circles with uh with no pay and therefore spend it at uh roughly yeah 100 million uh merchants worldwide. So going a bit again into the abstract uh for what what um what groups add is that circles is this yeah in a way ultra resilient system. So kind of you can have a very small group of people. Uh you can have just um yeah a group of four or five people and they can trust each other in circles and they can basically just within that group use circles. And then whether whether people outside of that small trust group use circles or not does not affect them at all. Because if they don't trust if they just trust each other, they are essentially just accepting their circles. And within that group, those circles might have a specific value, might be used for specific things, but what's happening somewhere else again doesn't affect them. So very resilient, not very efficient. So kind of the most efficient thing on the other hand would be to say, okay, we have just one currency for the whole world and everyone is using that. That's uh the most um the most efficient thing. But then again, most efficient thing not very resilient. So if that system then in some form collapses or there's there's doubt about it and so on then kind of the the damage is is catastrophic and and kind of even worse. So if you are using it in uh in in in in one part of the world then suddenly problems or things that happen somewhere else affect you as well. So C so groups um in in in the circle system allow to yeah to create more funible versions of circles. So kind of instead of having really kind of per person a different currency, you can say everyone in this group uh sorry in this room would be could be added to a group and now we can so it's an optional thing we can turn our very personal currencies that are all different into a shared group currency onetoone. So kind of I can put 10 of my personal uh circles into this group currency and that no longer then depends solely on me and and kind of on on people trusting me as a as issuance circles. It then more depends on um the trust in that group and kind of whether that group has uh useful rules of how how you can join it. So again to to uh yeah um to yeah it's also also possible to stack groups. So you can have smaller groups and you can have groups of groups and you can go all the way if you really want to a world group um to again find your find your trade-off space in this um uh efficiency resilient uh trade-off. So concretely that means um looking again at at a concrete circles balance you can hold individual circles but part of your balance might also be um group circles if you decide to accept or trust um uh those those groups and yeah just because we are here at ECC so there is well we have done an ECC group uh if you already have circuits Or if you want to join circles and join the group, there is um a circles booth here outside or just find someone from circles uh and you can be added but to the ECC group. Uh but this is how it looks like. So it's so on the top right you see the ECC logo and all the blue uh the blue dots or the blue profiles are those that are already members of this um ECC group. All right. So, two more um kind of kind of topics I want to touch on. One is um one reaction I got from uh when when when telling people about circles about this well as I describe it radically fair approach of money where everyone is individually their own issuer of money and you you can kind of do this mutual thing. I issue my money, you issue your money, and we mutually decide to say, \"Okay, I accept yours, you accept uh mine, but there is no no central central entity, no one who gets a I don't know 10% premine or or kind of fee or or whatnot.\" So, so this radically fair approach, um, one concern that people sometimes bring is who's then driving that? So kind of if there's no investor or if there's no issuer who's really driving the adoption of circles. So what we did is we there are no fees or anything in the the in the core um protocol of circles but we decided to be able to have some entities that that um are interested in spreading circles. we decided to um yeah to have um three uh kind of different fees or or or ways of how circles are distributed um to to different actors. So if you as a person mint your one circle per hour 24 per day then kind of the interface currently makes you pay a fee to three different entities and one is the person that invited you um to the network. The second one is one of the group or the group you choose or a group you choose. So kind of you can affiliate yourself with with any group and then you you can uh choose to which group you pay a fee but you will always at least if you use this interface pay um pay a group to the fee and the third fee is um to the interface and yeah so again the reasons is that I think for a long time for a long time in the crypto space the the um uh or in the at least in the early days of crypto there was always this uh there there shouldn't be any fees or or rent extraction and so on. But quite often the problem is if there is um if there is no fee then it usually means okay there needs to be some form of investor that is financing the thing for for a while and kind of then creating network effects and later when one they one kind of once they have captured the market or whatever then they can uh turn on uh on a fee. So we we do we do think that it does make sense to um yeah have this fee early on and importantly make sure that different actors who play a role in the overall network um yeah kind of participate from those fees. Right. So the last uh topic I want to touch on is the tradability of circles. So I already hinted at a few things that um circles are all different. um my circuits is different than yours and so on or everyone isu issues their own personal circles but now because of groups it's much easier to make circles tradable. So previously again we would have technically 120,000 different circles therefore 120,000 different prices um potentially different prices. Um now we have a couple of concepts. So we have uh one concept we have is that you as a as a person you can decide to what we call back your own circles. Uh and essentially that means you're creating a small automated market maker with um $100 worth of some collateral of that you choose could can be bitcoin something like that uh against your very own personal circles and then we create a group of all the people that that do that and that's yeah the circles uh becker um and now that is already one source of of of liquidity the groups uh can be other sources of of liquidity And I kind of just can try to give you an intuition for that. So all of those are highly connected. So kind of usually um let's say all those beckers they have um they have their own kind of price in theory. But if they trust each other, if two people trust each other and their and their prices of the two tokens diverge, then essentially they will be immediately arbitrage because if a person if I trust a person and their person uh circles are slightly less valuable than mine, but because I trust them, I say I basically say implicitly I am willing to accept their circles against mine onetoone. uh it will then mean that kind of arbitrage will will find an equilibrium price within groups that are highly connected. So if you have two groups where there's one group highly connected, there's another group highly connected and between those two groups are very few connections, it is possible that there will be a different price for circles here um than there. But generally um yeah we we expect just a couple of different prices um uh in the circles ecosystem. So yeah here's just um um yeah screenshot of how how you can uh well trade circles for different other currencies. Um and yeah, technically it can also be that only a subset of the circles you hold is at that very moment tradable because essentially if you trade circles, you need to for example either find uh have circles of one of those beckers who directly provide liquidity or have circles of people that are somehow then connected to people or groups that have um uh liquidity. So groups are still in its early early phases and um and we yeah are currently encouraging and and working with different teams um to create groups based on uh yeah can be like event based, PO based, it can be identity based but it can of course also be uh based on existing local communities. Um and they can even have yeah more complex rules for kind of how this minting and or kind of conversion from personal to group tokens back and forth uh can go. So maybe then again my my last uh here my last slide before I open it up for questions. Uh if you want to join if you are interested in that here's the QR code for metry that is um the the wallet um we are using. If you go there, you will need an invite um or you will need at least one person who's already on the circles network to trust you to invite you and you will uh find people here. Worst case you or there is the circles booth. Um you can find me, you can find people there. So you will find here people that can invite you. Um yeah, the other links uh just um going deeper. So yeah, I'm closing my talk and uh opening it up for questions. Thank you. Yes. Yeah. Sorry. Um because a friend of mine was developing that. Have you looked into the concept of like index wallets? It's basically a concept of wallets where you have multiple currencies and you adjust the balance of uh of the currencies and then there's a kind of arbitration function between the utility to the receiver to the utility of the transmitter. So this might be interesting for circles to facilitate payments with multiple circles in my wallet vendors wishes in a way. Yeah. No, so it's interesting. I have not heard of that but I will uh I will look uh into it. Okay. Thank you. Sure. I want to just say one more thing. So kind of tomorrow, tomorrow night at Yeah. at 5:00 PM there's also um an evening event um uh for for circuit. So again if you want to learn more um join us there. Thank you very much. Uh yeah, you you'll find it on Luma. All right. Thank you.",
+    "text_length": 28542,
+    "word_count": 5665
+  },
+  "segments": [
+    {
+      "start": 6.0,
+      "duration": 5.519,
+      "text": "All right. Yeah, thanks. Thanks all for coming. I'm Martin Kaplan. Um founder of",
+      "timestamp": "00:06"
+    },
+    {
+      "start": 11.519,
+      "duration": 5.84,
+      "text": "Nosis, building since 10 years uh in the well more than 10 years in the uh yeah",
+      "timestamp": "00:11"
+    },
+    {
+      "start": 17.359,
+      "duration": 5.041,
+      "text": "Ethereum and blockchain space. Um yeah with Nosis we did things like uh um",
+      "timestamp": "00:17"
+    },
+    {
+      "start": 22.4,
+      "duration": 5.6,
+      "text": "Nosis safe uh cow swap uh but now yeah Nosis chain and and many other project",
+      "timestamp": "00:22"
+    },
+    {
+      "start": 28.0,
+      "duration": 5.44,
+      "text": "but today's talk will be about um yeah frankly my my favorite project or the",
+      "timestamp": "00:28"
+    },
+    {
+      "start": 33.44,
+      "duration": 7.2,
+      "text": "project that kind of brought me into the space um and it's yeah called circles",
+      "timestamp": "00:33"
+    },
+    {
+      "start": 40.64,
+      "duration": 6.56,
+      "text": "and it raises the big question of how does money work and um how can we create",
+      "timestamp": "00:40"
+    },
+    {
+      "start": 47.2,
+      "duration": 7.12,
+      "text": "potentially or a new version of money or a different uh version of money that maybe works better. And of course, we",
+      "timestamp": "00:47"
+    },
+    {
+      "start": 54.32,
+      "duration": 5.52,
+      "text": "need to start with the observation what money actually is. And it's surprising",
+      "timestamp": "00:54"
+    },
+    {
+      "start": 59.84,
+      "duration": 5.76,
+      "text": "that it is something um yeah so so dominant in our lives. So kind of money",
+      "timestamp": "00:59"
+    },
+    {
+      "start": 65.6,
+      "duration": 6.879,
+      "text": "plays such a big role but I think we think relatively little about how money works, where money comes from and how",
+      "timestamp": "01:05"
+    },
+    {
+      "start": 72.479,
+      "duration": 7.28,
+      "text": "money is designed. So uh a quote I I often start with um from Bernard Leatar",
+      "timestamp": "01:12"
+    },
+    {
+      "start": 79.759,
+      "duration": 5.36,
+      "text": "uh defining money primarily as an agreement. So primarily money is a",
+      "timestamp": "01:19"
+    },
+    {
+      "start": 85.119,
+      "duration": 6.561,
+      "text": "social construct and as such of course uh it's not it's not a god-given thing. It is something constructed by humans",
+      "timestamp": "01:25"
+    },
+    {
+      "start": 91.68,
+      "duration": 6.32,
+      "text": "and it it is and therefore it can also be changed uh by humans the way we can",
+      "timestamp": "01:31"
+    },
+    {
+      "start": 98.0,
+      "duration": 5.28,
+      "text": "um design it. Another way to put the same thing is to say money is",
+      "timestamp": "01:38"
+    },
+    {
+      "start": 103.28,
+      "duration": 7.119,
+      "text": "uh technology. And in fact, it is it's actually probably the most widespread",
+      "timestamp": "01:43"
+    },
+    {
+      "start": 110.399,
+      "duration": 5.201,
+      "text": "piece of of technology or uh also kind of you can also think of it as a as a",
+      "timestamp": "01:50"
+    },
+    {
+      "start": 115.6,
+      "duration": 7.119,
+      "text": "communication instrument. So you can go into another country, you don't speak the language, you don't speak um uh you",
+      "timestamp": "01:55"
+    },
+    {
+      "start": 122.719,
+      "duration": 7.361,
+      "text": "you don't understand the culture, but probably still everyone kind of understands money or reacts um to money.",
+      "timestamp": "02:02"
+    },
+    {
+      "start": 130.08,
+      "duration": 6.159,
+      "text": "There are very very very few places on earth where um uh where people don't use",
+      "timestamp": "02:10"
+    },
+    {
+      "start": 136.239,
+      "duration": 7.441,
+      "text": "money. Um but now uh money on its surface might",
+      "timestamp": "02:16"
+    },
+    {
+      "start": 143.68,
+      "duration": 5.04,
+      "text": "look uh neutral. It might look like um",
+      "timestamp": "02:23"
+    },
+    {
+      "start": 148.72,
+      "duration": 6.72,
+      "text": "okay I from from from a day-to-day experience you might think okay I need to somehow I need to get money earn",
+      "timestamp": "02:28"
+    },
+    {
+      "start": 155.44,
+      "duration": 6.24,
+      "text": "money and then I can spend money okay that that seems simple what are really are there really any parameters but the",
+      "timestamp": "02:35"
+    },
+    {
+      "start": 161.68,
+      "duration": 5.279,
+      "text": "really critical part if you look at any particular money is where does it",
+      "timestamp": "02:41"
+    },
+    {
+      "start": 166.959,
+      "duration": 5.841,
+      "text": "originally come from so how does the process of money creation look like who",
+      "timestamp": "02:46"
+    },
+    {
+      "start": 172.8,
+      "duration": 7.12,
+      "text": "controls that and yeah what are the rules for that and if you if you then go down this rabbit hole that is really",
+      "timestamp": "02:52"
+    },
+    {
+      "start": 179.92,
+      "duration": 6.0,
+      "text": "where yeah a lot of power lies where a lot of things of how our society works",
+      "timestamp": "02:59"
+    },
+    {
+      "start": 185.92,
+      "duration": 6.16,
+      "text": "are are dominated frankly by this process of how does money uh come into",
+      "timestamp": "03:05"
+    },
+    {
+      "start": 192.08,
+      "duration": 5.6,
+      "text": "into creation. So, um, the promise is we",
+      "timestamp": "03:12"
+    },
+    {
+      "start": 197.68,
+      "duration": 6.559,
+      "text": "can, yeah, potentially do things better than they used to be. And, uh, frankly,",
+      "timestamp": "03:17"
+    },
+    {
+      "start": 204.239,
+      "duration": 6.401,
+      "text": "in in the in the last years, um, it seems like some people are sufficient",
+      "timestamp": "03:24"
+    },
+    {
+      "start": 210.64,
+      "duration": 6.4,
+      "text": "with the with the goal of blockchain to say, okay, let's now uh have more efficient ways to spread the US dollar",
+      "timestamp": "03:30"
+    },
+    {
+      "start": 217.04,
+      "duration": 6.08,
+      "text": "across the world. And that's at least not um why I joined the space uh very",
+      "timestamp": "03:37"
+    },
+    {
+      "start": 223.12,
+      "duration": 7.039,
+      "text": "initially. So I do think we can do more radical things like not just yeah upgrading existing money to to a new",
+      "timestamp": "03:43"
+    },
+    {
+      "start": 230.159,
+      "duration": 7.08,
+      "text": "tech platform but actually working uh on money at its core itself.",
+      "timestamp": "03:50"
+    },
+    {
+      "start": 238.56,
+      "duration": 6.16,
+      "text": "So obviously Bitcoin um Bitcoin was kind of the first project",
+      "timestamp": "03:58"
+    },
+    {
+      "start": 244.72,
+      "duration": 5.36,
+      "text": "that even also for me um raised this question or or or suddenly there was",
+      "timestamp": "04:04"
+    },
+    {
+      "start": 250.08,
+      "duration": 6.08,
+      "text": "this thing in the world that uh that kind of yeah presented an alternative",
+      "timestamp": "04:10"
+    },
+    {
+      "start": 256.16,
+      "duration": 5.919,
+      "text": "and I have to admit uh yeah 13 14 years ago I was also kind of a Bitcoin maxi",
+      "timestamp": "04:16"
+    },
+    {
+      "start": 262.079,
+      "duration": 5.12,
+      "text": "was running around was telling everyone um they should use Bitcoin.",
+      "timestamp": "04:22"
+    },
+    {
+      "start": 267.199,
+      "duration": 6.72,
+      "text": "But but then I would say Bitcoin is is maybe I'm I'm",
+      "timestamp": "04:27"
+    },
+    {
+      "start": 273.919,
+      "duration": 9.441,
+      "text": "I'm happy that Bitcoin exists but I think it's not really playing a role of of money. Bitcoin is not used as um as a",
+      "timestamp": "04:33"
+    },
+    {
+      "start": 283.36,
+      "duration": 5.04,
+      "text": "as a medium of ex rarely used as a medium of exchange almost never used as",
+      "timestamp": "04:43"
+    },
+    {
+      "start": 288.4,
+      "duration": 7.84,
+      "text": "the as a um uh as unit of account. And kind of the other thing was um so I was",
+      "timestamp": "04:48"
+    },
+    {
+      "start": 296.24,
+      "duration": 5.2,
+      "text": "I was early in in in Bitcoin and um",
+      "timestamp": "04:56"
+    },
+    {
+      "start": 301.44,
+      "duration": 5.92,
+      "text": "and of course then there were I I was one of them running around telling people use Bitcoin. But at some point",
+      "timestamp": "05:01"
+    },
+    {
+      "start": 307.36,
+      "duration": 7.76,
+      "text": "I've had the feeling would it really benefit the world? So right now I think one or two% of the world population um",
+      "timestamp": "05:07"
+    },
+    {
+      "start": 315.12,
+      "duration": 6.0,
+      "text": "hold Bitcoin. would it really benefit the other 98 99% uh if the whole world",
+      "timestamp": "05:15"
+    },
+    {
+      "start": 321.12,
+      "duration": 6.0,
+      "text": "world would rent would run on Bitcoin? And my conclusion was not clear and probably not. It would",
+      "timestamp": "05:21"
+    },
+    {
+      "start": 327.12,
+      "duration": 6.079,
+      "text": "certainly benefit the first one or 2% that um that yeah already hold Bitcoin.",
+      "timestamp": "05:27"
+    },
+    {
+      "start": 333.199,
+      "duration": 6.56,
+      "text": "Um, so in that sense I at least lost this ambition to to to uh to preach",
+      "timestamp": "05:33"
+    },
+    {
+      "start": 339.759,
+      "duration": 6.081,
+      "text": "people about Bitcoin because again I felt like it's not necessarily in their interest or in in in the long term or",
+      "timestamp": "05:39"
+    },
+    {
+      "start": 345.84,
+      "duration": 6.639,
+      "text": "that's not necessarily a good form of of money um long term and and and uh again",
+      "timestamp": "05:45"
+    },
+    {
+      "start": 352.479,
+      "duration": 6.881,
+      "text": "to me the the core thing is Bitcoin is maybe an an alternative to gold. It's",
+      "timestamp": "05:52"
+    },
+    {
+      "start": 359.36,
+      "duration": 6.399,
+      "text": "not an alternative to the fiat currencies we are using. No one is using it as a no one is is denominating their",
+      "timestamp": "05:59"
+    },
+    {
+      "start": 365.759,
+      "duration": 5.601,
+      "text": "contracts in it. No one is denominating salary in it. No one is is uh pricing",
+      "timestamp": "06:05"
+    },
+    {
+      "start": 371.36,
+      "duration": 5.76,
+      "text": "goods uh um in it. So",
+      "timestamp": "06:11"
+    },
+    {
+      "start": 377.12,
+      "duration": 5.12,
+      "text": "the yeah the the the topic of this talk is how can we design uh money from",
+      "timestamp": "06:17"
+    },
+    {
+      "start": 382.24,
+      "duration": 5.6,
+      "text": "scratch um using similar technologies. Of course we have the blockchain and so",
+      "timestamp": "06:22"
+    },
+    {
+      "start": 387.84,
+      "duration": 5.6,
+      "text": "on. Um let's start with a thought experiment. Let's start. Yeah, maybe we",
+      "timestamp": "06:27"
+    },
+    {
+      "start": 393.44,
+      "duration": 5.039,
+      "text": "are roughly almost 100 people in this room. So, let's say we somehow ended up",
+      "timestamp": "06:33"
+    },
+    {
+      "start": 398.479,
+      "duration": 6.321,
+      "text": "um on on an island. Uh we somehow stranded on an island and it's just us",
+      "timestamp": "06:38"
+    },
+    {
+      "start": 404.8,
+      "duration": 6.32,
+      "text": "and somehow we we we yeah we ended up there and we might decide okay actually",
+      "timestamp": "06:44"
+    },
+    {
+      "start": 411.12,
+      "duration": 7.359,
+      "text": "money would be useful thing to have. We don't have any because we somehow ended up uh how how do we create it? What do",
+      "timestamp": "06:51"
+    },
+    {
+      "start": 418.479,
+      "duration": 6.081,
+      "text": "we do? what would be what would be um kind of",
+      "timestamp": "06:58"
+    },
+    {
+      "start": 424.56,
+      "duration": 5.039,
+      "text": "reasonable um what would be reasonable approaches. So the first approach might",
+      "timestamp": "07:04"
+    },
+    {
+      "start": 429.599,
+      "duration": 6.481,
+      "text": "be to say okay let's say everyone everyone from us gets there's a one-time",
+      "timestamp": "07:09"
+    },
+    {
+      "start": 436.08,
+      "duration": 5.6,
+      "text": "event where everyone gets initial thousand units and then 100 people then",
+      "timestamp": "07:16"
+    },
+    {
+      "start": 441.68,
+      "duration": 6.959,
+      "text": "100,000 units are in circulation then kind of this money creation thing is over um and then kind of just the money",
+      "timestamp": "07:21"
+    },
+    {
+      "start": 448.639,
+      "duration": 5.921,
+      "text": "can flow uh across of it across of us but then let's say",
+      "timestamp": "07:28"
+    },
+    {
+      "start": 454.56,
+      "duration": 6.4,
+      "text": "uh let's say some of us uh leaves this island already after two weeks and",
+      "timestamp": "07:34"
+    },
+    {
+      "start": 460.96,
+      "duration": 6.0,
+      "text": "others stay for a long time. Was it then really a good uh choice to give those uh",
+      "timestamp": "07:40"
+    },
+    {
+      "start": 466.96,
+      "duration": 7.12,
+      "text": "those that leave very early kind of that same amount and kind of let let's say at some point others come to this island uh",
+      "timestamp": "07:46"
+    },
+    {
+      "start": 474.08,
+      "duration": 6.48,
+      "text": "would they also get then the thousand units. So the next approach would be to say okay we do it timebased. So it's",
+      "timestamp": "07:54"
+    },
+    {
+      "start": 480.56,
+      "duration": 7.039,
+      "text": "still kind of the same idea we do it per person but instead of doing it at one time one amount we do it time based. So",
+      "timestamp": "08:00"
+    },
+    {
+      "start": 487.599,
+      "duration": 6.0,
+      "text": "we do one unit per hour um that that we can issue to every person kind of",
+      "timestamp": "08:07"
+    },
+    {
+      "start": 493.599,
+      "duration": 5.121,
+      "text": "involved um in the scheme. So now the",
+      "timestamp": "08:13"
+    },
+    {
+      "start": 498.72,
+      "duration": 5.68,
+      "text": "the issue with that approach or with that approach alone is that um at least",
+      "timestamp": "08:18"
+    },
+    {
+      "start": 504.4,
+      "duration": 5.84,
+      "text": "over a long time a period of time the total supply of of money in circulation",
+      "timestamp": "08:24"
+    },
+    {
+      "start": 510.24,
+      "duration": 6.96,
+      "text": "will just kind of continue to grow while this um this newly issued uh the newly",
+      "timestamp": "08:30"
+    },
+    {
+      "start": 517.2,
+      "duration": 5.279,
+      "text": "issued kind of still one unit per per person uh will will will be fixed. So",
+      "timestamp": "08:37"
+    },
+    {
+      "start": 522.479,
+      "duration": 7.201,
+      "text": "kind of here are time scales that after a long time the the total amount of of money in circulation per person yeah",
+      "timestamp": "08:42"
+    },
+    {
+      "start": 529.68,
+      "duration": 6.24,
+      "text": "will go towards infinity. So the relative amount of one unit um will be",
+      "timestamp": "08:49"
+    },
+    {
+      "start": 535.92,
+      "duration": 7.52,
+      "text": "yeah will will go towards zero. So that uh comes or there the conclusion",
+      "timestamp": "08:55"
+    },
+    {
+      "start": 543.44,
+      "duration": 6.72,
+      "text": "is okay what what if old money would kind of disappear and there's one term",
+      "timestamp": "09:03"
+    },
+    {
+      "start": 550.16,
+      "duration": 6.799,
+      "text": "called demorrage but you can also call just say old money rots or or is burned",
+      "timestamp": "09:10"
+    },
+    {
+      "start": 556.959,
+      "duration": 7.281,
+      "text": "or whatnot but essentially the idea is okay money from the money from from",
+      "timestamp": "09:16"
+    },
+    {
+      "start": 564.24,
+      "duration": 7.44,
+      "text": "maybe centuries ago uh shouldn't matter today anymore. right? Kind of that that that should be discounted or at least",
+      "timestamp": "09:24"
+    },
+    {
+      "start": 571.68,
+      "duration": 6.32,
+      "text": "there should be some factor with with um uh how old money is is discounted. And",
+      "timestamp": "09:31"
+    },
+    {
+      "start": 578.0,
+      "duration": 7.279,
+      "text": "here uh we see the same same graphs as as above but we just see that here um the",
+      "timestamp": "09:38"
+    },
+    {
+      "start": 585.279,
+      "duration": 6.401,
+      "text": "total amount of money per person will always um stabilize no matter uh whether",
+      "timestamp": "09:45"
+    },
+    {
+      "start": 591.68,
+      "duration": 5.839,
+      "text": "there's a big increase or decrease um in in in in population.",
+      "timestamp": "09:51"
+    },
+    {
+      "start": 597.519,
+      "duration": 6.161,
+      "text": "So now the next question is in our hypothetical uh idea of this island of",
+      "timestamp": "09:57"
+    },
+    {
+      "start": 603.68,
+      "duration": 7.2,
+      "text": "100 people we somehow we we could easily figure out who the participating uh people are but of course in reality uh",
+      "timestamp": "10:03"
+    },
+    {
+      "start": 610.88,
+      "duration": 7.36,
+      "text": "it's much more complex. So then the question is if you want to do this per person uh issuance of course the big",
+      "timestamp": "10:10"
+    },
+    {
+      "start": 618.24,
+      "duration": 5.92,
+      "text": "question is who decides or who who who do you need to ask to kind of be allowed",
+      "timestamp": "10:18"
+    },
+    {
+      "start": 624.16,
+      "duration": 5.52,
+      "text": "to issue money and the answer we are giving in circles is everyone is allowed",
+      "timestamp": "10:24"
+    },
+    {
+      "start": 629.68,
+      "duration": 5.2,
+      "text": "to uh issue money and we don't even yeah kind of ask who you are or there is no",
+      "timestamp": "10:29"
+    },
+    {
+      "start": 634.88,
+      "duration": 5.12,
+      "text": "one to to ask who you are because you yourself can just start uh to issue",
+      "timestamp": "10:34"
+    },
+    {
+      "start": 640.0,
+      "duration": 5.2,
+      "text": "money. The important part is that there is this yeah what we call",
+      "timestamp": "10:40"
+    },
+    {
+      "start": 645.2,
+      "duration": 5.68,
+      "text": "this web of trust trust bi based system where where people can decide whose",
+      "timestamp": "10:45"
+    },
+    {
+      "start": 650.88,
+      "duration": 5.519,
+      "text": "money they accept who is kind of a valid issuer and that is essentially that that",
+      "timestamp": "10:50"
+    },
+    {
+      "start": 656.399,
+      "duration": 6.321,
+      "text": "that um that task or that that role is yeah decentralized and we will look into",
+      "timestamp": "10:56"
+    },
+    {
+      "start": 662.72,
+      "duration": 6.88,
+      "text": "this uh in in more detail. So conclusion everyone can issue money but we can um",
+      "timestamp": "11:02"
+    },
+    {
+      "start": 669.6,
+      "duration": 8.08,
+      "text": "it's everyone individual's decision whose money um uh they accept. So in in",
+      "timestamp": "11:09"
+    },
+    {
+      "start": 677.68,
+      "duration": 7.76,
+      "text": "in short yes there might be fake and simple accounts in the system but as long as you don't decide to accept their",
+      "timestamp": "11:17"
+    },
+    {
+      "start": 685.44,
+      "duration": 7.519,
+      "text": "money then um it does not affect you negatively. So we can look into that into more",
+      "timestamp": "11:25"
+    },
+    {
+      "start": 692.959,
+      "duration": 6.241,
+      "text": "detail. So we have here three people A, B and C. They all of of them are issuing",
+      "timestamp": "11:32"
+    },
+    {
+      "start": 699.2,
+      "duration": 5.92,
+      "text": "their own money. A is issuing A money at this rate of one per one one one unit",
+      "timestamp": "11:39"
+    },
+    {
+      "start": 705.12,
+      "duration": 6.64,
+      "text": "per hour. Um but it's it's it's it's different token. So kind of it's different. Yeah, it's a it's different.",
+      "timestamp": "11:45"
+    },
+    {
+      "start": 711.76,
+      "duration": 10.4,
+      "text": "Let's let's just call it here A circles. And B issues B circles and C issues C circles. Now A wants to pay person C but",
+      "timestamp": "11:51"
+    },
+    {
+      "start": 722.16,
+      "duration": 6.08,
+      "text": "C does not know or trust how we call it uh person A but there is a connection",
+      "timestamp": "12:02"
+    },
+    {
+      "start": 728.24,
+      "duration": 6.8,
+      "text": "via B. So A and B trust each other, B and C trust each other and now we see here the balances of of those three",
+      "timestamp": "12:08"
+    },
+    {
+      "start": 735.04,
+      "duration": 7.52,
+      "text": "people. So now uh we can do what we call a transitive transfer where A is sending",
+      "timestamp": "12:15"
+    },
+    {
+      "start": 742.56,
+      "duration": 6.48,
+      "text": "hundred of her circles to person B. Uh and B is fine with that because they",
+      "timestamp": "12:22"
+    },
+    {
+      "start": 749.04,
+      "duration": 6.96,
+      "text": "trust uh uh A and they accept her circles. uh and then without B",
+      "timestamp": "12:29"
+    },
+    {
+      "start": 756.0,
+      "duration": 5.04,
+      "text": "necessarily needing needing to be involved, B circles are forwarded to C",
+      "timestamp": "12:36"
+    },
+    {
+      "start": 761.04,
+      "duration": 7.039,
+      "text": "and C is happy with that because they receive circles from a person or they receive circles that are issued by a",
+      "timestamp": "12:41"
+    },
+    {
+      "start": 768.079,
+      "duration": 6.32,
+      "text": "person um that they trust. So in aggregate those balance changes occur",
+      "timestamp": "12:48"
+    },
+    {
+      "start": 774.399,
+      "duration": 6.801,
+      "text": "for B um the the total balance doesn't change. they they they got 100. They",
+      "timestamp": "12:54"
+    },
+    {
+      "start": 781.2,
+      "duration": 8.16,
+      "text": "forwarded another type of circles but also 100. So in total balance didn't change but A ultimately sent 100 circles",
+      "timestamp": "13:01"
+    },
+    {
+      "start": 789.36,
+      "duration": 6.4,
+      "text": "um to see. This is already kind of one step one step into the into the present.",
+      "timestamp": "13:09"
+    },
+    {
+      "start": 795.76,
+      "duration": 6.96,
+      "text": "So so this is how how things look um how how things look in the app um that we",
+      "timestamp": "13:15"
+    },
+    {
+      "start": 802.72,
+      "duration": 9.44,
+      "text": "have for circles. and you but the point I'm trying to make here is you see a a total balance here of 30,000 uh",
+      "timestamp": "13:22"
+    },
+    {
+      "start": 812.16,
+      "duration": 5.6,
+      "text": "37,000 circles but then if you if you click on it you actually see that that",
+      "timestamp": "13:32"
+    },
+    {
+      "start": 817.76,
+      "duration": 6.8,
+      "text": "is a is is a mix of different circles issued by um by the different people you",
+      "timestamp": "13:37"
+    },
+    {
+      "start": 824.56,
+      "duration": 5.92,
+      "text": "have in your trust network. So in summary um the three rules of",
+      "timestamp": "13:44"
+    },
+    {
+      "start": 830.48,
+      "duration": 8.0,
+      "text": "circles are just those. So uh we have a constant issuance or all circles or all",
+      "timestamp": "13:50"
+    },
+    {
+      "start": 838.48,
+      "duration": 6.479,
+      "text": "money in in the circle system comes into into existence through people. So people",
+      "timestamp": "13:58"
+    },
+    {
+      "start": 844.959,
+      "duration": 6.161,
+      "text": "need or can create those circles at a at a rate of of one per hour. Then there is",
+      "timestamp": "14:04"
+    },
+    {
+      "start": 851.12,
+      "duration": 5.6,
+      "text": "a counter force that at at all times and no matter where the circles are um all",
+      "timestamp": "14:11"
+    },
+    {
+      "start": 856.72,
+      "duration": 5.919,
+      "text": "the circles uh are constantly being reduced at a rate of of 7%. And we will",
+      "timestamp": "14:16"
+    },
+    {
+      "start": 862.639,
+      "duration": 8.161,
+      "text": "see in the next slide how those two forces um counteract each other and lead to a stable overall uh supply. And the",
+      "timestamp": "14:22"
+    },
+    {
+      "start": 870.8,
+      "duration": 6.399,
+      "text": "third rule is this this is trust system what we call here selective um trust.",
+      "timestamp": "14:30"
+    },
+    {
+      "start": 877.199,
+      "duration": 5.841,
+      "text": "This is here just uh the graph of uh the result of the first two rules uh",
+      "timestamp": "14:37"
+    },
+    {
+      "start": 883.04,
+      "duration": 5.12,
+      "text": "constant issuance. So this is kind of the the um amount of circles a single",
+      "timestamp": "14:43"
+    },
+    {
+      "start": 888.16,
+      "duration": 7.039,
+      "text": "person issues over a lifetime of let's say 80 years. Uh so they start to issue",
+      "timestamp": "14:48"
+    },
+    {
+      "start": 895.199,
+      "duration": 5.521,
+      "text": "at year zero it they issue constantly or they they always issue constantly but",
+      "timestamp": "14:55"
+    },
+    {
+      "start": 900.72,
+      "duration": 6.88,
+      "text": "but the old circuits that are already then in supply and that that are somewhere in the network they um yeah",
+      "timestamp": "15:00"
+    },
+    {
+      "start": 907.6,
+      "duration": 6.479,
+      "text": "they are hit by this constantly hit by the 7% demarrage. So at some point um",
+      "timestamp": "15:07"
+    },
+    {
+      "start": 914.079,
+      "duration": 7.921,
+      "text": "those two forces the constant issuance and demarrage equal out. And here hypothetically after 80 years um the",
+      "timestamp": "15:14"
+    },
+    {
+      "start": 922.0,
+      "duration": 6.639,
+      "text": "this person dies stops to issue personal circles. Then the circles the money they",
+      "timestamp": "15:22"
+    },
+    {
+      "start": 928.639,
+      "duration": 5.121,
+      "text": "have brought into existence still is around in societies can still be held uh",
+      "timestamp": "15:28"
+    },
+    {
+      "start": 933.76,
+      "duration": 5.04,
+      "text": "by people but over time because of the 7% demirage it will kind of disappear",
+      "timestamp": "15:33"
+    },
+    {
+      "start": 938.8,
+      "duration": 5.2,
+      "text": "from um yeah from from from the system.",
+      "timestamp": "15:38"
+    },
+    {
+      "start": 944.0,
+      "duration": 5.839,
+      "text": "So the magic number here is uh in circles it will always converge towards",
+      "timestamp": "15:44"
+    },
+    {
+      "start": 949.839,
+      "duration": 5.761,
+      "text": "uh 120,000 um 84 circles times the",
+      "timestamp": "15:49"
+    },
+    {
+      "start": 955.6,
+      "duration": 5.12,
+      "text": "number of people in the system. And maybe to tie that back to this uh early",
+      "timestamp": "15:55"
+    },
+    {
+      "start": 960.72,
+      "duration": 5.44,
+      "text": "observation that bitcoin is not really used as a medium of ex as",
+      "timestamp": "16:00"
+    },
+    {
+      "start": 966.16,
+      "duration": 7.599,
+      "text": "a medium of exchange but specifically not as unit of account. My uh yeah my my um intuition for that",
+      "timestamp": "16:06"
+    },
+    {
+      "start": 973.759,
+      "duration": 6.561,
+      "text": "is that in in in Bitcoin there is a completely uh there is a completely",
+      "timestamp": "16:13"
+    },
+    {
+      "start": 980.32,
+      "duration": 8.079,
+      "text": "fixed uh issuance policy that is completely independent of how many people uh are using Bitcoin and",
+      "timestamp": "16:20"
+    },
+    {
+      "start": 988.399,
+      "duration": 6.081,
+      "text": "therefore of course it will always be yes or it will be significantly volatile",
+      "timestamp": "16:28"
+    },
+    {
+      "start": 994.48,
+      "duration": 5.359,
+      "text": "because if more people decide to use it then of course yeah price goes up if",
+      "timestamp": "16:34"
+    },
+    {
+      "start": 999.839,
+      "duration": 5.041,
+      "text": "less people uh decide to use it or if it becomes more niche uh kind of price",
+      "timestamp": "16:39"
+    },
+    {
+      "start": 1004.88,
+      "duration": 6.639,
+      "text": "would go down and that I think makes it um makes it yeah hard maybe impossible",
+      "timestamp": "16:44"
+    },
+    {
+      "start": 1011.519,
+      "duration": 6.081,
+      "text": "to use it as a interm for for long-term contracts to to have your your salary",
+      "timestamp": "16:51"
+    },
+    {
+      "start": 1017.6,
+      "duration": 6.32,
+      "text": "denominated in bitcoin and so on. So um on the other hand you have systems that",
+      "timestamp": "16:57"
+    },
+    {
+      "start": 1023.92,
+      "duration": 5.44,
+      "text": "try to be value stable and try to say okay um the amount of money that is in",
+      "timestamp": "17:03"
+    },
+    {
+      "start": 1029.36,
+      "duration": 7.36,
+      "text": "the system needs to correlate with with the economy or with the size of the economy and but that of course always",
+      "timestamp": "17:09"
+    },
+    {
+      "start": 1036.72,
+      "duration": 6.8,
+      "text": "introduces some central point of power and circles tries to find a middle ground where it says the size of the",
+      "timestamp": "17:16"
+    },
+    {
+      "start": 1043.52,
+      "duration": 5.44,
+      "text": "economy is approximated by the number of people um in that economy by the number",
+      "timestamp": "17:23"
+    },
+    {
+      "start": 1048.96,
+      "duration": 5.68,
+      "text": "of people using it. Uh and so in that sense, circles is um reacting to the",
+      "timestamp": "17:28"
+    },
+    {
+      "start": 1054.64,
+      "duration": 5.52,
+      "text": "size of the economy but still in a way that there is no uh a central point of",
+      "timestamp": "17:34"
+    },
+    {
+      "start": 1060.16,
+      "duration": 6.8,
+      "text": "power that can do arbitrary rules and kind of um yeah also be be this um um",
+      "timestamp": "17:40"
+    },
+    {
+      "start": 1066.96,
+      "duration": 8.0,
+      "text": "yeah single point of failure potentially. Just one more perspective on those uh two uh uh on on those on",
+      "timestamp": "17:46"
+    },
+    {
+      "start": 1074.96,
+      "duration": 7.44,
+      "text": "this 120,000. So in circles you can of course hold more or I mean it's it's not limited how much circles you hold. You",
+      "timestamp": "17:54"
+    },
+    {
+      "start": 1082.4,
+      "duration": 5.6,
+      "text": "can hold more than 120,000 but from an individual perspective um you can look",
+      "timestamp": "18:02"
+    },
+    {
+      "start": 1088.0,
+      "duration": 8.559,
+      "text": "at the system uh or you can look at the 7% as a tax. Um if you or if for example",
+      "timestamp": "18:08"
+    },
+    {
+      "start": 1096.559,
+      "duration": 7.681,
+      "text": "if if you're not issuing money then you would kind of just constantly pay a tax on your on the 7% tax which is kind of",
+      "timestamp": "18:16"
+    },
+    {
+      "start": 1104.24,
+      "duration": 8.4,
+      "text": "similar to what the also what what inflation does in in in euros and dollars but anyhow so uh so if you",
+      "timestamp": "18:24"
+    },
+    {
+      "start": 1112.64,
+      "duration": 5.6,
+      "text": "exactly have those 120,000 as a balance then those two forces equal out and your",
+      "timestamp": "18:32"
+    },
+    {
+      "start": 1118.24,
+      "duration": 6.0,
+      "text": "effective tax rate let's say is zero. If you have less than that your effective tax rate is negative. So you get more",
+      "timestamp": "18:38"
+    },
+    {
+      "start": 1124.24,
+      "duration": 6.799,
+      "text": "then you then then which is burned or taken from the demarrage. While if you have more then your tax rate approaches",
+      "timestamp": "18:44"
+    },
+    {
+      "start": 1131.039,
+      "duration": 5.281,
+      "text": "7%. Okay. So circles as an idea already goes",
+      "timestamp": "18:51"
+    },
+    {
+      "start": 1136.32,
+      "duration": 7.12,
+      "text": "back all the way to um Defcon 1 in in in London in London almost 10 years ago. I",
+      "timestamp": "18:56"
+    },
+    {
+      "start": 1143.44,
+      "duration": 5.84,
+      "text": "already presented the idea of circles and then it took well in quite some",
+      "timestamp": "19:03"
+    },
+    {
+      "start": 1149.28,
+      "duration": 6.96,
+      "text": "years and in 2020 it actually launched in in version one and this is kind of",
+      "timestamp": "19:09"
+    },
+    {
+      "start": 1156.24,
+      "duration": 5.28,
+      "text": "how this uh trust network then formed. Uh so this was after one day this was",
+      "timestamp": "19:16"
+    },
+    {
+      "start": 1161.52,
+      "duration": 8.32,
+      "text": "after two days and that was after a couple of weeks. So it went quite uh viral and a huge",
+      "timestamp": "19:21"
+    },
+    {
+      "start": 1169.84,
+      "duration": 6.4,
+      "text": "network network of over 100,000 um um yeah people was formed in in a very",
+      "timestamp": "19:29"
+    },
+    {
+      "start": 1176.24,
+      "duration": 6.559,
+      "text": "short uh amount of time. Um and also for some time uh yeah then there were local",
+      "timestamp": "19:36"
+    },
+    {
+      "start": 1182.799,
+      "duration": 7.841,
+      "text": "experiments here is an example of of a farmers market in Berlin where you could buy buy this basket of the week uh for",
+      "timestamp": "19:42"
+    },
+    {
+      "start": 1190.64,
+      "duration": 5.279,
+      "text": "with 4 for 450 circles. Um and here is",
+      "timestamp": "19:50"
+    },
+    {
+      "start": 1195.919,
+      "duration": 6.321,
+      "text": "how actually a transaction kind of this ABC thing then looked in in reality bit",
+      "timestamp": "19:55"
+    },
+    {
+      "start": 1202.24,
+      "duration": 7.36,
+      "text": "more complex. So on the left side that's me on the right side this is this uh vendor B power direct uh and and",
+      "timestamp": "20:02"
+    },
+    {
+      "start": 1209.6,
+      "duration": 6.0,
+      "text": "basically the the the the blue points in between are are people that this vendor",
+      "timestamp": "20:09"
+    },
+    {
+      "start": 1215.6,
+      "duration": 7.6,
+      "text": "then trusts and this Pathfinder would well found a pass for kind of essentially me making a payment to them.",
+      "timestamp": "20:15"
+    },
+    {
+      "start": 1223.2,
+      "duration": 6.88,
+      "text": "um via via all those hops. So, but then at the same time at the",
+      "timestamp": "20:23"
+    },
+    {
+      "start": 1230.08,
+      "duration": 5.92,
+      "text": "same uh at the same um at the same time the truth is that circles had this viral",
+      "timestamp": "20:30"
+    },
+    {
+      "start": 1236.0,
+      "duration": 5.2,
+      "text": "moment in in in 2020 and yes there were some communities small scale communities",
+      "timestamp": "20:36"
+    },
+    {
+      "start": 1241.2,
+      "duration": 6.32,
+      "text": "that tried it for yeah quite a time couple of years um but overall activity",
+      "timestamp": "20:41"
+    },
+    {
+      "start": 1247.52,
+      "duration": 5.92,
+      "text": "in the network um yeah was was low or or then then kind of for for a long time",
+      "timestamp": "20:47"
+    },
+    {
+      "start": 1253.44,
+      "duration": 5.92,
+      "text": "was very low. So recently we'd made yeah or in the last one and a half years we",
+      "timestamp": "20:53"
+    },
+    {
+      "start": 1259.36,
+      "duration": 5.84,
+      "text": "made a big um yeah push or big big upgrade or basically we looked at at",
+      "timestamp": "20:59"
+    },
+    {
+      "start": 1265.2,
+      "duration": 6.959,
+      "text": "circles and we still felt many ideas are valid but we also felt okay there are a few pieces missing to make this system",
+      "timestamp": "21:05"
+    },
+    {
+      "start": 1272.159,
+      "duration": 7.681,
+      "text": "really um yeah relevant and successful um in in the real world. So in two in",
+      "timestamp": "21:12"
+    },
+    {
+      "start": 1279.84,
+      "duration": 5.36,
+      "text": "circuits 2.0 first it is a continuation of the existing system. So every",
+      "timestamp": "21:19"
+    },
+    {
+      "start": 1285.2,
+      "duration": 7.68,
+      "text": "everyone who had had an account back then um all the balances all the trust connections all that um yeah can can be",
+      "timestamp": "21:25"
+    },
+    {
+      "start": 1292.88,
+      "duration": 8.72,
+      "text": "migrated. But um we are making yeah essentially two two big changes. One that I will",
+      "timestamp": "21:32"
+    },
+    {
+      "start": 1301.6,
+      "duration": 5.28,
+      "text": "talk about a bit more in the coming slides is the addition of of groups. So",
+      "timestamp": "21:41"
+    },
+    {
+      "start": 1306.88,
+      "duration": 5.36,
+      "text": "kind of in circles 1.0 0 it was purely this this web of trust this peer-to-peer",
+      "timestamp": "21:46"
+    },
+    {
+      "start": 1312.24,
+      "duration": 7.04,
+      "text": "web of trust but but groups or institutions wouldn't play a role in it and and yes we do think that is that is",
+      "timestamp": "21:52"
+    },
+    {
+      "start": 1319.28,
+      "duration": 7.44,
+      "text": "uh important and this also leads to being able to trade circles and use it in more finance things but I will I will",
+      "timestamp": "21:59"
+    },
+    {
+      "start": 1326.72,
+      "duration": 7.04,
+      "text": "go to it uh and the other thing was simply circles um uh yeah 1.0 O was",
+      "timestamp": "22:06"
+    },
+    {
+      "start": 1333.76,
+      "duration": 5.279,
+      "text": "built in 2020. Blockchain technology was still not absolutely not there. We we",
+      "timestamp": "22:13"
+    },
+    {
+      "start": 1339.039,
+      "duration": 6.401,
+      "text": "already tried to do things like account abstraction and for the time absolutely cutting edge things like gas abstraction",
+      "timestamp": "22:19"
+    },
+    {
+      "start": 1345.44,
+      "duration": 5.92,
+      "text": "and so on but but we had had to build everything ourself because uh infrastructure wouldn't exist. So long",
+      "timestamp": "22:25"
+    },
+    {
+      "start": 1351.36,
+      "duration": 6.0,
+      "text": "story short big part of why circles 1.0 did not go beyond this initial hype was",
+      "timestamp": "22:31"
+    },
+    {
+      "start": 1357.36,
+      "duration": 5.76,
+      "text": "that then it was simply not working on all kind of ends. there were some technical issues, infrastructure was",
+      "timestamp": "22:37"
+    },
+    {
+      "start": 1363.12,
+      "duration": 6.0,
+      "text": "simply uh not ready. So the second part is um maybe the even more important part",
+      "timestamp": "22:43"
+    },
+    {
+      "start": 1369.12,
+      "duration": 7.36,
+      "text": "uh compared to this addition of the groups is simply that we now have uh much better wallets.",
+      "timestamp": "22:49"
+    },
+    {
+      "start": 1376.48,
+      "duration": 5.84,
+      "text": "We have stable coins. We have uh solutions like this Nosis Pay uh card.",
+      "timestamp": "22:56"
+    },
+    {
+      "start": 1382.32,
+      "duration": 7.839,
+      "text": "Just quick I'm curious who who has heard or maybe is even using Nosis Pay. Great. Perfect. So, so those things uh have uh",
+      "timestamp": "23:02"
+    },
+    {
+      "start": 1390.159,
+      "duration": 5.601,
+      "text": "made uh tremendous uh progress and we will be able to uh connect circles with",
+      "timestamp": "23:10"
+    },
+    {
+      "start": 1395.76,
+      "duration": 7.44,
+      "text": "those things. So, soon you will be able to spend your circles with uh with no pay and therefore spend it at uh roughly",
+      "timestamp": "23:15"
+    },
+    {
+      "start": 1403.2,
+      "duration": 5.599,
+      "text": "yeah 100 million uh merchants worldwide. So",
+      "timestamp": "23:23"
+    },
+    {
+      "start": 1408.799,
+      "duration": 8.401,
+      "text": "going a bit again into the abstract uh for what what um what groups add is that",
+      "timestamp": "23:28"
+    },
+    {
+      "start": 1417.2,
+      "duration": 5.68,
+      "text": "circles is this yeah in a way ultra resilient system. So kind of you can",
+      "timestamp": "23:37"
+    },
+    {
+      "start": 1422.88,
+      "duration": 6.48,
+      "text": "have a very small group of people. Uh you can have just um yeah a group of four or five people and they can trust",
+      "timestamp": "23:42"
+    },
+    {
+      "start": 1429.36,
+      "duration": 7.36,
+      "text": "each other in circles and they can basically just within that group use circles. And then whether whether people",
+      "timestamp": "23:49"
+    },
+    {
+      "start": 1436.72,
+      "duration": 7.12,
+      "text": "outside of that small trust group use circles or not does not affect them at all. Because if they don't trust if they",
+      "timestamp": "23:56"
+    },
+    {
+      "start": 1443.84,
+      "duration": 5.199,
+      "text": "just trust each other, they are essentially just accepting their circles. And within that group, those",
+      "timestamp": "24:03"
+    },
+    {
+      "start": 1449.039,
+      "duration": 6.481,
+      "text": "circles might have a specific value, might be used for specific things, but what's happening somewhere else again",
+      "timestamp": "24:09"
+    },
+    {
+      "start": 1455.52,
+      "duration": 5.68,
+      "text": "doesn't affect them. So very resilient, not very efficient. So kind of the most",
+      "timestamp": "24:15"
+    },
+    {
+      "start": 1461.2,
+      "duration": 5.2,
+      "text": "efficient thing on the other hand would be to say, okay, we have just one currency for the whole world and",
+      "timestamp": "24:21"
+    },
+    {
+      "start": 1466.4,
+      "duration": 7.519,
+      "text": "everyone is using that. That's uh the most um the most efficient thing. But then again, most efficient thing not",
+      "timestamp": "24:26"
+    },
+    {
+      "start": 1473.919,
+      "duration": 6.721,
+      "text": "very resilient. So if that system then in some form collapses or there's there's doubt about it and so on then",
+      "timestamp": "24:33"
+    },
+    {
+      "start": 1480.64,
+      "duration": 7.84,
+      "text": "kind of the the damage is is catastrophic and and kind of even worse. So if you are using it in uh in in in in",
+      "timestamp": "24:40"
+    },
+    {
+      "start": 1488.48,
+      "duration": 8.24,
+      "text": "one part of the world then suddenly problems or things that happen somewhere else affect you as well. So C so groups",
+      "timestamp": "24:48"
+    },
+    {
+      "start": 1496.72,
+      "duration": 5.199,
+      "text": "um in in in the circle system allow to yeah",
+      "timestamp": "24:56"
+    },
+    {
+      "start": 1501.919,
+      "duration": 6.961,
+      "text": "to create more funible versions of circles. So kind of instead of having really kind of per person a different",
+      "timestamp": "25:01"
+    },
+    {
+      "start": 1508.88,
+      "duration": 5.039,
+      "text": "currency, you can say everyone in this group uh sorry in this room would be",
+      "timestamp": "25:08"
+    },
+    {
+      "start": 1513.919,
+      "duration": 5.76,
+      "text": "could be added to a group and now we can so it's an optional thing we can",
+      "timestamp": "25:13"
+    },
+    {
+      "start": 1519.679,
+      "duration": 7.201,
+      "text": "turn our very personal currencies that are all different into a shared group currency onetoone. So kind of I can put",
+      "timestamp": "25:19"
+    },
+    {
+      "start": 1526.88,
+      "duration": 6.08,
+      "text": "10 of my personal uh circles into this group currency and that no longer then",
+      "timestamp": "25:26"
+    },
+    {
+      "start": 1532.96,
+      "duration": 5.12,
+      "text": "depends solely on me and and kind of on on people trusting me as a as issuance",
+      "timestamp": "25:32"
+    },
+    {
+      "start": 1538.08,
+      "duration": 5.36,
+      "text": "circles. It then more depends on um the trust in that group and kind of whether",
+      "timestamp": "25:38"
+    },
+    {
+      "start": 1543.44,
+      "duration": 6.32,
+      "text": "that group has uh useful rules of how how you can join it.",
+      "timestamp": "25:43"
+    },
+    {
+      "start": 1549.76,
+      "duration": 6.64,
+      "text": "So again to to uh yeah um to",
+      "timestamp": "25:49"
+    },
+    {
+      "start": 1556.4,
+      "duration": 5.36,
+      "text": "yeah it's also also possible to stack groups. So you can have smaller groups",
+      "timestamp": "25:56"
+    },
+    {
+      "start": 1561.76,
+      "duration": 6.88,
+      "text": "and you can have groups of groups and you can go all the way if you really want to a world group um to again find",
+      "timestamp": "26:01"
+    },
+    {
+      "start": 1568.64,
+      "duration": 6.0,
+      "text": "your find your trade-off space in this um uh efficiency resilient uh trade-off.",
+      "timestamp": "26:08"
+    },
+    {
+      "start": 1574.64,
+      "duration": 6.96,
+      "text": "So concretely that means um looking again at at a concrete circles balance",
+      "timestamp": "26:14"
+    },
+    {
+      "start": 1581.6,
+      "duration": 6.8,
+      "text": "you can hold individual circles but part of your balance might also be um group",
+      "timestamp": "26:21"
+    },
+    {
+      "start": 1588.4,
+      "duration": 6.72,
+      "text": "circles if you decide to accept or trust um uh those those groups",
+      "timestamp": "26:28"
+    },
+    {
+      "start": 1595.12,
+      "duration": 6.559,
+      "text": "and yeah just because we are here at ECC so there is well we have done an ECC",
+      "timestamp": "26:35"
+    },
+    {
+      "start": 1601.679,
+      "duration": 7.6,
+      "text": "group uh if you already have circuits Or if you want to join circles and join the group, there is um a circles booth here",
+      "timestamp": "26:41"
+    },
+    {
+      "start": 1609.279,
+      "duration": 5.201,
+      "text": "outside or just find someone from circles uh and you can be added but to",
+      "timestamp": "26:49"
+    },
+    {
+      "start": 1614.48,
+      "duration": 6.16,
+      "text": "the ECC group. Uh but this is how it looks like. So it's so on the top right",
+      "timestamp": "26:54"
+    },
+    {
+      "start": 1620.64,
+      "duration": 7.279,
+      "text": "you see the ECC logo and all the blue uh the blue dots or the blue profiles are",
+      "timestamp": "27:00"
+    },
+    {
+      "start": 1627.919,
+      "duration": 6.441,
+      "text": "those that are already members of this um ECC group.",
+      "timestamp": "27:07"
+    },
+    {
+      "start": 1635.44,
+      "duration": 8.4,
+      "text": "All right. So, two more um kind of kind of topics I want to touch on. One is",
+      "timestamp": "27:15"
+    },
+    {
+      "start": 1643.84,
+      "duration": 5.12,
+      "text": "um one reaction I got from uh when when",
+      "timestamp": "27:23"
+    },
+    {
+      "start": 1648.96,
+      "duration": 5.44,
+      "text": "when telling people about circles about this well as I describe it radically",
+      "timestamp": "27:28"
+    },
+    {
+      "start": 1654.4,
+      "duration": 5.6,
+      "text": "fair approach of money where everyone is individually their own issuer of money",
+      "timestamp": "27:34"
+    },
+    {
+      "start": 1660.0,
+      "duration": 5.2,
+      "text": "and you you can kind of do this mutual thing. I issue my money, you issue your",
+      "timestamp": "27:40"
+    },
+    {
+      "start": 1665.2,
+      "duration": 6.24,
+      "text": "money, and we mutually decide to say, \"Okay, I accept yours, you accept uh mine, but there is no no central central",
+      "timestamp": "27:45"
+    },
+    {
+      "start": 1671.44,
+      "duration": 6.08,
+      "text": "entity, no one who gets a I don't know 10% premine or or kind of fee or or",
+      "timestamp": "27:51"
+    },
+    {
+      "start": 1677.52,
+      "duration": 7.84,
+      "text": "whatnot.\" So, so this radically fair approach, um, one concern that people",
+      "timestamp": "27:57"
+    },
+    {
+      "start": 1685.36,
+      "duration": 7.039,
+      "text": "sometimes bring is who's then driving that? So kind of if there's no investor or if there's no issuer who's really",
+      "timestamp": "28:05"
+    },
+    {
+      "start": 1692.399,
+      "duration": 6.241,
+      "text": "driving the adoption of circles. So what we did is we there are no fees or",
+      "timestamp": "28:12"
+    },
+    {
+      "start": 1698.64,
+      "duration": 6.32,
+      "text": "anything in the the in the core um protocol of circles but we decided to be",
+      "timestamp": "28:18"
+    },
+    {
+      "start": 1704.96,
+      "duration": 9.839,
+      "text": "able to have some entities that that um are interested in spreading circles. we decided to um yeah to have um three uh",
+      "timestamp": "28:24"
+    },
+    {
+      "start": 1714.799,
+      "duration": 5.841,
+      "text": "kind of different fees or or or ways of how circles are distributed um to to",
+      "timestamp": "28:34"
+    },
+    {
+      "start": 1720.64,
+      "duration": 6.88,
+      "text": "different actors. So if you as a person mint your one circle per hour 24 per day then kind of",
+      "timestamp": "28:40"
+    },
+    {
+      "start": 1727.52,
+      "duration": 5.039,
+      "text": "the interface currently makes you pay a fee to three different",
+      "timestamp": "28:47"
+    },
+    {
+      "start": 1732.559,
+      "duration": 5.201,
+      "text": "entities and one is the person that invited you um to the network. The",
+      "timestamp": "28:52"
+    },
+    {
+      "start": 1737.76,
+      "duration": 6.56,
+      "text": "second one is one of the group or the group you choose or a group you choose. So kind of you",
+      "timestamp": "28:57"
+    },
+    {
+      "start": 1744.32,
+      "duration": 6.0,
+      "text": "can affiliate yourself with with any group and then you you can uh choose to which group you pay a fee but you will",
+      "timestamp": "29:04"
+    },
+    {
+      "start": 1750.32,
+      "duration": 7.28,
+      "text": "always at least if you use this interface pay um pay a group to the fee and the third fee is um to the interface",
+      "timestamp": "29:10"
+    },
+    {
+      "start": 1757.6,
+      "duration": 5.439,
+      "text": "and yeah so again the reasons is that I think for a long time for a long time in",
+      "timestamp": "29:17"
+    },
+    {
+      "start": 1763.039,
+      "duration": 5.601,
+      "text": "the crypto space the the um uh or in the at least in the early days",
+      "timestamp": "29:23"
+    },
+    {
+      "start": 1768.64,
+      "duration": 6.8,
+      "text": "of crypto there was always this uh there there shouldn't be any fees or or rent extraction and so on. But quite often",
+      "timestamp": "29:28"
+    },
+    {
+      "start": 1775.44,
+      "duration": 5.76,
+      "text": "the problem is if there is um if there is no fee then it usually means okay",
+      "timestamp": "29:35"
+    },
+    {
+      "start": 1781.2,
+      "duration": 6.4,
+      "text": "there needs to be some form of investor that is financing the thing for for a while and kind of then creating network",
+      "timestamp": "29:41"
+    },
+    {
+      "start": 1787.6,
+      "duration": 5.92,
+      "text": "effects and later when one they one kind of once they have captured the market or",
+      "timestamp": "29:47"
+    },
+    {
+      "start": 1793.52,
+      "duration": 5.039,
+      "text": "whatever then they can uh turn on uh on a fee. So we we do we do think that it",
+      "timestamp": "29:53"
+    },
+    {
+      "start": 1798.559,
+      "duration": 5.521,
+      "text": "does make sense to um yeah have this fee early on and importantly make sure that",
+      "timestamp": "29:58"
+    },
+    {
+      "start": 1804.08,
+      "duration": 6.64,
+      "text": "different actors who play a role in the overall network um yeah kind of participate from those fees.",
+      "timestamp": "30:04"
+    },
+    {
+      "start": 1810.72,
+      "duration": 7.52,
+      "text": "Right. So the last uh topic I want to touch on is the tradability of circles. So I already hinted at a few things that",
+      "timestamp": "30:10"
+    },
+    {
+      "start": 1818.24,
+      "duration": 5.039,
+      "text": "um circles are all different. um my circuits is different than yours and so",
+      "timestamp": "30:18"
+    },
+    {
+      "start": 1823.279,
+      "duration": 7.441,
+      "text": "on or everyone isu issues their own personal circles but now because of groups it's much easier to make circles",
+      "timestamp": "30:23"
+    },
+    {
+      "start": 1830.72,
+      "duration": 5.28,
+      "text": "tradable. So previously again we would have technically 120,000 different",
+      "timestamp": "30:30"
+    },
+    {
+      "start": 1836.0,
+      "duration": 6.24,
+      "text": "circles therefore 120,000 different prices um potentially different prices.",
+      "timestamp": "30:36"
+    },
+    {
+      "start": 1842.24,
+      "duration": 5.52,
+      "text": "Um now we have a couple of concepts. So we",
+      "timestamp": "30:42"
+    },
+    {
+      "start": 1847.76,
+      "duration": 7.76,
+      "text": "have uh one concept we have is that you as a as a person you can decide to what",
+      "timestamp": "30:47"
+    },
+    {
+      "start": 1855.52,
+      "duration": 7.44,
+      "text": "we call back your own circles. Uh and essentially that means you're creating a small automated market maker with um",
+      "timestamp": "30:55"
+    },
+    {
+      "start": 1862.96,
+      "duration": 6.64,
+      "text": "$100 worth of some collateral of that you choose could can be bitcoin something like that uh against your very",
+      "timestamp": "31:02"
+    },
+    {
+      "start": 1869.6,
+      "duration": 5.84,
+      "text": "own personal circles and then we create a group of all the people that that do",
+      "timestamp": "31:09"
+    },
+    {
+      "start": 1875.44,
+      "duration": 5.92,
+      "text": "that and that's yeah the circles uh becker um and now that is already one",
+      "timestamp": "31:15"
+    },
+    {
+      "start": 1881.36,
+      "duration": 6.72,
+      "text": "source of of of liquidity the groups uh can be other sources of of liquidity",
+      "timestamp": "31:21"
+    },
+    {
+      "start": 1888.08,
+      "duration": 6.88,
+      "text": "And I kind of just can try to give you an intuition for that. So all of those are",
+      "timestamp": "31:28"
+    },
+    {
+      "start": 1894.96,
+      "duration": 6.48,
+      "text": "highly connected. So kind of usually um let's say all those beckers they have um",
+      "timestamp": "31:34"
+    },
+    {
+      "start": 1901.44,
+      "duration": 5.599,
+      "text": "they have their own kind of price in theory. But if they trust each other, if",
+      "timestamp": "31:41"
+    },
+    {
+      "start": 1907.039,
+      "duration": 6.081,
+      "text": "two people trust each other and their and their prices of the two tokens diverge, then essentially they will be",
+      "timestamp": "31:47"
+    },
+    {
+      "start": 1913.12,
+      "duration": 7.039,
+      "text": "immediately arbitrage because if a person if I trust a person and their person uh circles are slightly less",
+      "timestamp": "31:53"
+    },
+    {
+      "start": 1920.159,
+      "duration": 5.52,
+      "text": "valuable than mine, but because I trust them, I say I basically say implicitly I am willing to accept their circles",
+      "timestamp": "32:00"
+    },
+    {
+      "start": 1925.679,
+      "duration": 5.6,
+      "text": "against mine onetoone. uh it will then mean that kind of arbitrage will will",
+      "timestamp": "32:05"
+    },
+    {
+      "start": 1931.279,
+      "duration": 6.721,
+      "text": "find an equilibrium price within groups that are highly connected. So if you have two groups where there's one group",
+      "timestamp": "32:11"
+    },
+    {
+      "start": 1938.0,
+      "duration": 5.519,
+      "text": "highly connected, there's another group highly connected and between those two groups are very few connections, it is",
+      "timestamp": "32:18"
+    },
+    {
+      "start": 1943.519,
+      "duration": 8.961,
+      "text": "possible that there will be a different price for circles here um than there. But generally um yeah we we expect just",
+      "timestamp": "32:23"
+    },
+    {
+      "start": 1952.48,
+      "duration": 5.76,
+      "text": "a couple of different prices um uh in the circles ecosystem. So yeah here's",
+      "timestamp": "32:32"
+    },
+    {
+      "start": 1958.24,
+      "duration": 6.72,
+      "text": "just um um yeah screenshot of how how you can uh",
+      "timestamp": "32:38"
+    },
+    {
+      "start": 1964.96,
+      "duration": 6.319,
+      "text": "well trade circles for different other currencies. Um",
+      "timestamp": "32:44"
+    },
+    {
+      "start": 1971.279,
+      "duration": 7.28,
+      "text": "and yeah, technically it can also be that only a subset of the circles you hold is at that very moment tradable",
+      "timestamp": "32:51"
+    },
+    {
+      "start": 1978.559,
+      "duration": 7.041,
+      "text": "because essentially if you trade circles, you need to for example either find uh have circles of one of those",
+      "timestamp": "32:58"
+    },
+    {
+      "start": 1985.6,
+      "duration": 5.04,
+      "text": "beckers who directly provide liquidity or have circles of people that are",
+      "timestamp": "33:05"
+    },
+    {
+      "start": 1990.64,
+      "duration": 7.279,
+      "text": "somehow then connected to people or groups that have um uh liquidity.",
+      "timestamp": "33:10"
+    },
+    {
+      "start": 1997.919,
+      "duration": 7.441,
+      "text": "So groups are still in its early early phases and um and we yeah are currently",
+      "timestamp": "33:17"
+    },
+    {
+      "start": 2005.36,
+      "duration": 8.24,
+      "text": "encouraging and and working with different teams um to create groups based on uh yeah can be like event",
+      "timestamp": "33:25"
+    },
+    {
+      "start": 2013.6,
+      "duration": 9.199,
+      "text": "based, PO based, it can be identity based but it can of course also be uh based on existing local communities. Um",
+      "timestamp": "33:33"
+    },
+    {
+      "start": 2022.799,
+      "duration": 5.36,
+      "text": "and they can even have yeah more complex rules for kind of how this minting and",
+      "timestamp": "33:42"
+    },
+    {
+      "start": 2028.159,
+      "duration": 5.841,
+      "text": "or kind of conversion from personal to group tokens back and forth uh can go.",
+      "timestamp": "33:48"
+    },
+    {
+      "start": 2034.0,
+      "duration": 7.76,
+      "text": "So maybe then again my my last uh here my last slide before I open it up for questions. Uh if you want to join if you",
+      "timestamp": "33:54"
+    },
+    {
+      "start": 2041.76,
+      "duration": 5.6,
+      "text": "are interested in that here's the QR code for metry that is um the the wallet",
+      "timestamp": "34:01"
+    },
+    {
+      "start": 2047.36,
+      "duration": 5.998,
+      "text": "um we are using. If you go there, you will need an invite um or you will need",
+      "timestamp": "34:07"
+    },
+    {
+      "start": 2053.359,
+      "duration": 7.759,
+      "text": "at least one person who's already on the circles network to trust you to invite you and you will uh find people here.",
+      "timestamp": "34:13"
+    },
+    {
+      "start": 2061.119,
+      "duration": 6.641,
+      "text": "Worst case you or there is the circles booth. Um you can find me, you can find people there. So you will find here",
+      "timestamp": "34:21"
+    },
+    {
+      "start": 2067.76,
+      "duration": 7.52,
+      "text": "people that can invite you. Um yeah, the other links uh just um going deeper. So",
+      "timestamp": "34:27"
+    },
+    {
+      "start": 2075.28,
+      "duration": 8.04,
+      "text": "yeah, I'm closing my talk and uh opening it up for questions. Thank you.",
+      "timestamp": "34:35"
+    },
+    {
+      "start": 2086.8,
+      "duration": 3.0,
+      "text": "Yes.",
+      "timestamp": "34:46"
+    },
+    {
+      "start": 2098.24,
+      "duration": 6.64,
+      "text": "Yeah. Sorry. Um because a friend of mine was developing that. Have you looked into the concept of like index wallets?",
+      "timestamp": "34:58"
+    },
+    {
+      "start": 2104.88,
+      "duration": 5.52,
+      "text": "It's basically a concept of wallets where you have multiple currencies and you adjust the balance of uh of the",
+      "timestamp": "35:04"
+    },
+    {
+      "start": 2110.4,
+      "duration": 7.28,
+      "text": "currencies and then there's a kind of arbitration function between the utility to the receiver to the utility of the",
+      "timestamp": "35:10"
+    },
+    {
+      "start": 2117.68,
+      "duration": 6.48,
+      "text": "transmitter. So this might be interesting for circles to facilitate payments with multiple circles in my",
+      "timestamp": "35:17"
+    },
+    {
+      "start": 2124.16,
+      "duration": 6.88,
+      "text": "wallet vendors wishes in a way. Yeah. No, so it's interesting. I have not heard of that but I will uh I will look",
+      "timestamp": "35:24"
+    },
+    {
+      "start": 2131.04,
+      "duration": 6.48,
+      "text": "uh into it. Okay. Thank you. Sure. I want to just say one more thing. So kind of tomorrow,",
+      "timestamp": "35:31"
+    },
+    {
+      "start": 2137.52,
+      "duration": 7.36,
+      "text": "tomorrow night at Yeah. at 5:00 PM there's also um an evening event um uh",
+      "timestamp": "35:37"
+    },
+    {
+      "start": 2144.88,
+      "duration": 7.12,
+      "text": "for for circuit. So again if you want to learn more um join us there. Thank you very much. Uh",
+      "timestamp": "35:44"
+    },
+    {
+      "start": 2152.0,
+      "duration": 5.88,
+      "text": "yeah, you you'll find it on Luma. All right. Thank you.",
+      "timestamp": "35:52"
+    }
+  ],
+  "extraction_timestamp": "2025-07-08T14:45:53.149033",
+  "playlist_title": "EthCC[8] Redford Stage"
+}

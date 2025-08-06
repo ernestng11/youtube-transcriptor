@@ -1,0 +1,3311 @@
+{
+  "video_id": "8v_js-Vcl2c",
+  "video_title": "noid (Kraken)-Troll, but Verify: Security Lessons from North Korean Job Candidates",
+  "video_url": "https://www.youtube.com/watch?v=8v_js-Vcl2c",
+  "channel_title": "[EthCC] Livestream 4",
+  "published_at": "2025-07-03T00:06:55+00:00",
+  "duration_seconds": null,
+  "view_count": 63,
+  "like_count": 2,
+  "description": "What’s it like to interview DPRK attackers for a crypto job? Kraken’s security team used a potemkin interview process to uncover their tactics. In this talk, we’ll share key insights with the community and improve your overall opsec.",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 548,
+    "aggregated_text": "[Music] Well, good a good good afternoon everyone. Can you hear me? Okay, awesome. Very good. Uh, my name is Noid. I work for Kraken. And today I'm going to be talking about something you might find very interesting. How many people uh have firstirhand experience hiring North Korean IT workers? Anybody in the room? Okay. How many people sort of know what I'm talking about, but not really? Okay, there's probably a North Korean working at your company. So, by the end of this talk, um hopefully you'll learn what to do and what to look for. So, um I gave this talk, a version of this talk previously at ETH Denver. And so, I just wanted to update everyone on uh what we actually did. So, the story so far, um North Korea has been trying a lots of different things, right? North Korea and crypto, they go hand in hand, right? It's the the buy bit. It's it's it's everything, right? Onchain exploits. Specifically for this talk, I'm focused on the IT workers, right? They um there's all sorts of different techniques that they use to try to earn money for the regime. Today, specifically, I want to narrow the focus on North Korean IT workers. And if you don't know what that is, that means people affiliated with the government of North Korea actually will apply to your company, apply as a contractor, apply as a full-time employee, and actually try and get real jobs. And many of them do. They succeed. Some of it is just to earn money for the regime, but sometimes they put in exploits. They try to steal your data. There's extortion. Uh it's pretty wild. And so this is something that's not unique to the crypto industry, but is certainly a huge target because of our very unique culture. So to kind of catch you up to speed on what I'm talking about, Kraken recently did a huge uh promo blast about what we did. Um so I had the opportunity to speak with someone uh on Zoom from North Korea about five or six times uh two different people um because they actually applied to a role I was hiring for. So, uh, when we found out that they were from North Korea, we thought there was an opportunity to have some fun. And so, that was in October of last year. And so, in February this year, I shared a little bit about of what happened at ETH Denver. Uh, I'm not going to rehash that totally, but you can watch it if you're interested to see what it actually looks like to get on a Zoom call with them. And so, uh, in May 2025, we did a big promotion hit where we had a blog, CBS did an interview because from us at Kraken, we want to get the word out that this is a real threat and that this could happen to you 100%. So, if you haven't seen our spot, uh, basically we we we did a little, uh, trolling. So, um, what we did is we, you know, had the guys of some normal questions, right? We asked them typical dev questions, security questions, things like that. Uh, but what's really interesting about these North Korean candidates is they really kind of struggled around the small talk piece. And so, uh, we made a little viral clip on X about their questions, but basically we asked them questions that they have no idea what we're talking about. Like, what's your favorite barbecue place in Texas? They they can't even point to Texas on a map, right? So, they stumble and fumble. Um, and it's kind of amusing. And this question here was because we asked them what's his favorite Halloween movie. And so, you know, they were just not really aware of those traditions. And so, it made for a really fun viral little hit to raise that awareness and sort of bring this to the forefront in people's minds that this is very real. Um, but I think some people maybe got the wrong idea, right? It's very fun to poke fun at, you know, oh, they're so silly, they're so backwards, their favorite movie is Frozen and the Minions, which is true. Um, but you know, uh, I I really want to dispel some myths of of what we have here, and that's why I want to talk today. Uh, a little bit about what we did. By the way, in addition to trolling them, we actually wanted to collect some intelligence. So, we actually gave them a fake hiring test that actually asked them to KYC on our platform. and uh they actually did um so they are able to actually do this work and so that really helped us improve our fraud detection but also share those indicators with the rest of the community as far as what we saw how they do those things and by the way they will do pretty much whatever you ask them to. So, if you think it's a barrier to have them KYC, uh they will KYC, right? They will have people that can make passport documents. They often have mules, partners, stolen identities. Uh this one in particular, this is the real one they submitted. It's not great. You can see that there's um a lot of inconsistencies, right? As someone who looks at a lot of fraud and fake IDs a lot, there's a lot of things that stand out in terms of their name, how it's not aligned, it's a different font, things like that that sometimes might be caught by automated systems, but it's just really interesting. I think that some people think that this is a huge barrier for North Korea IT workers that if you somehow ask them to submit KYC, they're able to do it. Um, so don't count on that being the only barrier to getting this. And so, uh, if you're not familiar with the crypto Twitter space, there's a ton of researchers on there who do amazing work. Uh, two of them listed here, uh, Tay and Narcast 3. Um, really impressive stuff. I think it's a crime that this only got 2,000 views. But someone was able to take that photo and identify uh, our person named Stephen Smith there waving a North Korean flag. Now, if that's not uh something that you can tell management, you know, we probably should do something about this person if you actually hired them, it's a really convincing photo, I think, and is pretty interesting. And so, we have a bunch of amazing researchers in the space, and I wanted to shout them out here. I'll have a list of followers at the end, but you should just be aware of these things happening because, um, there's only so many North Koreans, right? And there's a ton of researchers. And so we got to share that information better so that you're aware of what that looks like because often they're getting multiple jobs, right? This Stephen Smith has probably applied to 10, 15, 20 different places in the crypto industry and beyond. So I thought that you would find that a little bit interesting. But I want to dispel some myths uh after our spot. One of the first myths that I heard was that North Korean devs are dumb. They're they're not dumb. Okay, they're not bad devs. In fact, the number one piece of feedback from the people that do threat hunting around North Korea, the number one thing they say is they're pretty good devs. And that's the thing, right? They can do the job. It's like a consultant's dream, right? You have the entire network of your entire consulting company to ask a question. You might have an expert in IT. You might have an expert in Rust. You might have an expert in solidity. You might have an expert with someone who does presentations. they have like this entire system and network of these specialists to do the tasks that are needed. And so even though it's fun to poke fun at them and make this go viral and raise that awareness, it is not uh the takeaway that I want you to have that they don't know what they're doing or they're silly or they're backwards. They are actually capable. And that's I think the issue that some people don't realize. Myth number two of what we have, background checks will stop this. Um, a lot of people rely on background checks. I've spoken with a lot of people from HR departments who say, \"Yeah, we would never hire an H we would never hire a North Korean operative because we have background checks.\" Well, that doesn't that that's not a real submission, by the way. It's just a a meme here. But the the point is that um when we actually uh we tested our background check vendor on this one and the documents that they submitted came back clean. And so if you're an HR department or you're just checking them out and say, \"Oh yeah, we do a background check with XYZ vendor.\" Um often times they're getting stolen identities, they have mules, right? They'll offer money to real citizens to say, \"Let me borrow your passport.\" And they think that they're doing other things. So, don't count on that being a barrier to North Korean IT workers. I think that's really important to highlight here. I think a lot of people think that that will stop it. In in our case, it wouldn't have. And myth number three, um, you need to throw money at enterprise AI detection. And I think overall, uh, people in industries like this, I've seen this happen in the typical IT cyber communities. Um, oftentimes when there's a big problem that no one knows what to solve, these companies pop up and uh people will sign over lots of money to pay for a product that doesn't really work. Um, and I'm talking specifically about deep fakes, right? Everyone thinks to hire a North Korean worker, they're going to be a deep fake. While it's true that they do use deep fakes sometimes, um, they don't always, right? It's not always a deep fake. And the problem that I've noticed, even if it is a deep fake, the deep fake detection software, I've tried pretty much all of them. So, I'm not going to name any vendor names, but as you can see here that uh it does it is easy to bypass, right? Um, you know, no AI detection thing is 100% accurate. And so, if you bought the latest and greatest tool for $200,000 a year that's supposed to detect deep fakes, I don't really think that's the way to go, right? there's cat and mouse games that they play. They can play videos back. Um, you know, they can have other people doing these types of things and they don't always use deep fakes. So, I've kind of seen that bandied around as like the solution, but I just kind of want us to have a sober mind here and say, you know what, we don't need to throw money at that yet. Um, so just watch out. Um, so what can we actually do? How do we win as a community against this? Um, I don't want to just lay out these problems, right, and just say, \"Yeah, you're going to hire North Koreans and there's nothing you can do about it.\" That would be a bummer. Um, but here's how we win. Strategy number one, embed security into the recruiting process. I know that's really sounds kind of weird, right? But, uh, raising awareness from your recruiters and just saying, \"Hey, watch this talk. Um, there are North Korean IT workers that will be reaching out, that will get on Zoom, that will pass the technical aptitude test. How do you handle that sort of thing? And so what we do at Kraken is we train uh all of our recruiters, all of our HR staff to be aware of this sort of thing. Um, we actually do red team campaigns as well. So, um, from the perspective of, uh, the red team, if you're not familiar with what that is, we have an internal team that will actually test our own security controls. And so, our red team made fake LinkedIn profiles and actually took interviews with our team to see what they would do, if we can convince them to download things, share their screen. It's a really good exercise to do if you haven't thought about it, just to see if it's possible because it makes it real. It's no longer theoretical, right? They know how they felt. They know what they were doing. and they know what they can improve. If there's one thing that I can add, if you wanted to do this right now to double check, let's say you're a small team and you don't have like a super mature HR process, but you just want to get a gut check of someone. Um, a really good way to do that is to actually search for breached data on the emails. Um, often, you know, a real person will have some data breaches out there on have I been pawned, uh, Intellect, dehashed, those are all really great sources. And so if you haven't checked your own email on that, first of all, do that like right now because probably people have seen what your old passwords used to be, things like that. But what I'm highlighting here is that as part of the HR process, um you should double check to see what breach records there are. Uh in this particular case for the people that we looked at there were multiple sources of data breaches which is normal for a person but it's very unusual for them to be operating under maybe 10 different identities uh to have steeler logs working at 10 different companies uh under different identities. Right? So uh it was very clear here that um you know this was not tied to an individual. This was someone operating multiple identities in multiple places and that's just not really typical of a normal human here. So again the culture questions as well for HR the culture questions are big. I know it sounds silly and we have the crypto culture, but if you hire someone without talking to them, um I know it sounds dumb and fluffy to chat with people about, you know, what they like to do, but um it actually in this case, you would be able to sniff out pretty easily um you know, whether or not they actually have ever been to the US, for example. So here's the second strategy on how we win. We need to have playbooks for this scenario, right? Everybody has a plan until they get punched in the mouth. And so what we like to do is at Kraken with the red team is we like to uh make sure that we're exercising our incident response protocols every once in a while. It's like a fire drill, right? You have the map and that's good to have the map, but you need to practice that to know where to go, who to talk to, and what to do for that. Many times uh we encounter people and I've heard things from other companies where um you know they've actually hired someone from North Korea and then they don't know what to do. Um and so I'd encourage you to think about that and have a playbook in advance. You might never use it, but it's better to have it and not need it than to be stuck wondering what to do. For example, if someone tells you you're hiring a North Korean IT worker, you need to make sure they don't get paid anymore. Okay. Um, it's one thing if you don't know that you're paying them, but then if someone tells you and then you keep paying them, that's going to be a really big issue with the US Treasury Department. So, please don't forget to do that and make sure you have a plan to do that. If you don't know what I'm talking about, if you've never seen an incident response plan, the Security Alliance GitHub has some pretty cool starter frameworks of like what a good incident response playbook, lessons learned, uh, communication strategies, welcoming contributions to things like that. If you don't have that already, it doesn't matter how big or small you are, it's really important to think about those sorts of things. And then how we win. Number three, we need to talk more openly as an industry. We've got to share information. And so a lot of times when this happens to companies, they're really reluctant to talk about it. And so I want to highlight a few things in the industry that I think were amazing responses. Um, you know, if something happens to you, you shouldn't try to hide it under the rug and say, \"It never happened. It wasn't us.\" I understand legal feels weird about it and all that sort of things. Uh, but a really good response to highlight, I think, was uh, from the Cosmos team, right, where they they had a blog out. I don't know if you've seen this, um, but they they identified that there were people that that were hired and, uh, they offered double bug bounty on anything that that person touched. I think that's a great response. It encourages people to look at it and it's not a culture of, you know, we need to be like super ashamed. We've got to share this because um, when you have this, someone else might be doing the same thing, right? They're the same people interviewing at multiple jobs. And the sooner we get that out to other people, the better. So what do I mean in a formal capacity, right? Other than following people on X and things, here's three sources that you can use right now. Doesn't matter if you're small, if you're big. The first two on the top, those are called Isacs. That's an information sharing community. And basically what these do is they're made up of exchanges, other crypto companies that if you see an IT worker, we can pass on the name and say this was the email, this was the alias they used, this was the file they told me to download. And you know, by you submitting that and telling other people, you actually might save somebody else who's a little bit more proactive. So those are two good sources. Um, if you just want to check this out, right, you don't have the resources, you don't have a security team yet, um, there is a free resource. is called Alien Vault OTX. Um that's at the bottom and you can see that there's uh you can follow tags and so anytime there's new things about IT workers, you can actually see the emails, the names, the things and then do a quick check of your HR system because they are persistent, right? They'll try again and try again and try again. Fun fact, after Kraken did our thing, it did not stop. They continued to try and reach out and get hired to various roles. So, it's clear that even though we made a viral meme of them, uh, they kept going. And so, if you're not familiar at all with what an ISAC is, this is what it looks like, right? Uh, people, various companies will publish emails, things like that. You still need to vet these, right? That doesn't mean you need to go vigilante on these, but the idea is that you have a list of emails you can check and see. And the more that we share this information and the more we get this stuff out there, the better prepared we're going to be. So, uh, my talk is called troll but verify. And I think trolling in a non-culture is such an important part of the crypto space. We can't lose that part. It's good to be a non. It's good to have pseudonyms. That's the whole point of this space. But, you know, even though we do those sort of things, we still need to verify and mature as a group to build in those processes to make sure that we're actually stopping this really, really pertinent threat. Um, I'm checking on time and we have three minutes left for questions. Thank you so much for your time and I'll take some questions. [Applause] Yeah. Good question. I almost put that as a slide. The insult Kim Jong-un strategy is hilarious. Uh there's lots of people that will testify that it works. My concern is that they'll change their tactics, right? They're like literally working directly with the top dogs. So, um you know, I think it will work for a time, but then eventually they'll get a waiver that says it's okay. You can talk trash about him. You can say he's fat, ugly, whatever. So, I think it's funny. It's a meme. works now, but I wouldn't put all my, you know, I I I wouldn't say that this is the enterprise ready thing 10 years in the future. You know what I mean? Good question. Yeah. Sorry. Okay. Hey, um, really interesting talk. I'm wondering like what tipped you first off that you knew they were North Korean spies so you started trolling them and already had like your high alerts up before you like got out their QAC and could really prove that they are North Korean spies. Yeah, 100%. We really wanted to make sure that we vet that right before we do this because imagine if it was a real person and we just like yeah Kraken has a terrible interview process. They just asked about food all day. Um, no, we did get a tip from those information sharing communities. And so that's kind of sort of my pitch to the community is like we need to get more involved in sharing those things. But because we had those actionable tips vetted, um, you know, often they come from like trusted sources. So that's how we got the tip and that's how we felt comfortable enough to engage the trolling. Thank you. Good question. Time for one more. awkward silence. Um, awesome. Well, thank you so much everyone today. I hope you learned something. Oh, wait. I got Sorry, my contact. Uh, don't get in the habit of scanning QR codes at conferences, by the way. Um, but if you do want to chat more about this, I have all the links on my portrait site, portrait.so/noid. Uh there's a fun surprise if you scan the QR code, just so you know. So, some of you may have got it already, so just be careful. Um but if you want to reach out to me, please let me know. Um and if you do see something suspicious, please say something. I'll get it to the right people. Thank you so much, everyone.",
+    "text_length": 20805,
+    "word_count": 3922
+  },
+  "segments": [
+    {
+      "start": 2.31,
+      "duration": 3.278,
+      "text": "[Music]",
+      "timestamp": "00:02"
+    },
+    {
+      "start": 6.319,
+      "duration": 1.44,
+      "text": "Well, good a good good afternoon",
+      "timestamp": "00:06"
+    },
+    {
+      "start": 7.759,
+      "duration": 2.081,
+      "text": "everyone. Can you hear me? Okay,",
+      "timestamp": "00:07"
+    },
+    {
+      "start": 9.84,
+      "duration": 2.64,
+      "text": "awesome. Very good. Uh, my name is Noid.",
+      "timestamp": "00:09"
+    },
+    {
+      "start": 12.48,
+      "duration": 2.64,
+      "text": "I work for Kraken. And today I'm going",
+      "timestamp": "00:12"
+    },
+    {
+      "start": 15.12,
+      "duration": 1.919,
+      "text": "to be talking about something you might",
+      "timestamp": "00:15"
+    },
+    {
+      "start": 17.039,
+      "duration": 2.481,
+      "text": "find very interesting. How many people",
+      "timestamp": "00:17"
+    },
+    {
+      "start": 19.52,
+      "duration": 2.96,
+      "text": "uh have firstirhand experience hiring",
+      "timestamp": "00:19"
+    },
+    {
+      "start": 22.48,
+      "duration": 2.4,
+      "text": "North Korean IT workers? Anybody in the",
+      "timestamp": "00:22"
+    },
+    {
+      "start": 24.88,
+      "duration": 2.8,
+      "text": "room? Okay. How many people sort of know",
+      "timestamp": "00:24"
+    },
+    {
+      "start": 27.68,
+      "duration": 2.4,
+      "text": "what I'm talking about, but not really?",
+      "timestamp": "00:27"
+    },
+    {
+      "start": 30.08,
+      "duration": 2.88,
+      "text": "Okay, there's probably a North Korean",
+      "timestamp": "00:30"
+    },
+    {
+      "start": 32.96,
+      "duration": 2.24,
+      "text": "working at your company. So, by the end",
+      "timestamp": "00:32"
+    },
+    {
+      "start": 35.2,
+      "duration": 2.8,
+      "text": "of this talk, um hopefully you'll learn",
+      "timestamp": "00:35"
+    },
+    {
+      "start": 38.0,
+      "duration": 2.96,
+      "text": "what to do and what to look for. So, um",
+      "timestamp": "00:38"
+    },
+    {
+      "start": 40.96,
+      "duration": 2.16,
+      "text": "I gave this talk, a version of this talk",
+      "timestamp": "00:40"
+    },
+    {
+      "start": 43.12,
+      "duration": 2.48,
+      "text": "previously at ETH Denver. And so, I just",
+      "timestamp": "00:43"
+    },
+    {
+      "start": 45.6,
+      "duration": 2.24,
+      "text": "wanted to update everyone on uh what we",
+      "timestamp": "00:45"
+    },
+    {
+      "start": 47.84,
+      "duration": 3.36,
+      "text": "actually did. So, the story so far, um",
+      "timestamp": "00:47"
+    },
+    {
+      "start": 51.2,
+      "duration": 2.24,
+      "text": "North Korea has been trying a lots of",
+      "timestamp": "00:51"
+    },
+    {
+      "start": 53.44,
+      "duration": 1.68,
+      "text": "different things, right? North Korea and",
+      "timestamp": "00:53"
+    },
+    {
+      "start": 55.12,
+      "duration": 2.24,
+      "text": "crypto, they go hand in hand, right?",
+      "timestamp": "00:55"
+    },
+    {
+      "start": 57.36,
+      "duration": 2.48,
+      "text": "It's the the buy bit. It's it's it's",
+      "timestamp": "00:57"
+    },
+    {
+      "start": 59.84,
+      "duration": 2.16,
+      "text": "everything, right? Onchain exploits.",
+      "timestamp": "00:59"
+    },
+    {
+      "start": 62.0,
+      "duration": 1.92,
+      "text": "Specifically for this talk, I'm focused",
+      "timestamp": "01:02"
+    },
+    {
+      "start": 63.92,
+      "duration": 2.96,
+      "text": "on the IT workers, right? They um",
+      "timestamp": "01:03"
+    },
+    {
+      "start": 66.88,
+      "duration": 1.279,
+      "text": "there's all sorts of different",
+      "timestamp": "01:06"
+    },
+    {
+      "start": 68.159,
+      "duration": 2.241,
+      "text": "techniques that they use to try to earn",
+      "timestamp": "01:08"
+    },
+    {
+      "start": 70.4,
+      "duration": 2.079,
+      "text": "money for the regime. Today,",
+      "timestamp": "01:10"
+    },
+    {
+      "start": 72.479,
+      "duration": 2.161,
+      "text": "specifically, I want to narrow the focus",
+      "timestamp": "01:12"
+    },
+    {
+      "start": 74.64,
+      "duration": 2.32,
+      "text": "on North Korean IT workers. And if you",
+      "timestamp": "01:14"
+    },
+    {
+      "start": 76.96,
+      "duration": 1.519,
+      "text": "don't know what that is, that means",
+      "timestamp": "01:16"
+    },
+    {
+      "start": 78.479,
+      "duration": 1.68,
+      "text": "people affiliated with the government of",
+      "timestamp": "01:18"
+    },
+    {
+      "start": 80.159,
+      "duration": 2.881,
+      "text": "North Korea actually will apply to your",
+      "timestamp": "01:20"
+    },
+    {
+      "start": 83.04,
+      "duration": 2.399,
+      "text": "company, apply as a contractor, apply as",
+      "timestamp": "01:23"
+    },
+    {
+      "start": 85.439,
+      "duration": 2.641,
+      "text": "a full-time employee, and actually try",
+      "timestamp": "01:25"
+    },
+    {
+      "start": 88.08,
+      "duration": 3.52,
+      "text": "and get real jobs. And many of them do.",
+      "timestamp": "01:28"
+    },
+    {
+      "start": 91.6,
+      "duration": 2.32,
+      "text": "They succeed. Some of it is just to earn",
+      "timestamp": "01:31"
+    },
+    {
+      "start": 93.92,
+      "duration": 2.159,
+      "text": "money for the regime, but sometimes they",
+      "timestamp": "01:33"
+    },
+    {
+      "start": 96.079,
+      "duration": 2.321,
+      "text": "put in exploits. They try to steal your",
+      "timestamp": "01:36"
+    },
+    {
+      "start": 98.4,
+      "duration": 2.64,
+      "text": "data. There's extortion. Uh it's pretty",
+      "timestamp": "01:38"
+    },
+    {
+      "start": 101.04,
+      "duration": 2.56,
+      "text": "wild. And so this is something that's",
+      "timestamp": "01:41"
+    },
+    {
+      "start": 103.6,
+      "duration": 2.159,
+      "text": "not unique to the crypto industry, but",
+      "timestamp": "01:43"
+    },
+    {
+      "start": 105.759,
+      "duration": 2.241,
+      "text": "is certainly a huge target because of",
+      "timestamp": "01:45"
+    },
+    {
+      "start": 108.0,
+      "duration": 2.24,
+      "text": "our very unique culture. So to kind of",
+      "timestamp": "01:48"
+    },
+    {
+      "start": 110.24,
+      "duration": 1.76,
+      "text": "catch you up to speed on what I'm",
+      "timestamp": "01:50"
+    },
+    {
+      "start": 112.0,
+      "duration": 2.399,
+      "text": "talking about, Kraken recently did a",
+      "timestamp": "01:52"
+    },
+    {
+      "start": 114.399,
+      "duration": 3.121,
+      "text": "huge uh promo blast about what we did.",
+      "timestamp": "01:54"
+    },
+    {
+      "start": 117.52,
+      "duration": 1.68,
+      "text": "Um so I had the opportunity to speak",
+      "timestamp": "01:57"
+    },
+    {
+      "start": 119.2,
+      "duration": 2.559,
+      "text": "with someone uh on Zoom from North Korea",
+      "timestamp": "01:59"
+    },
+    {
+      "start": 121.759,
+      "duration": 2.32,
+      "text": "about five or six times uh two different",
+      "timestamp": "02:01"
+    },
+    {
+      "start": 124.079,
+      "duration": 2.481,
+      "text": "people um because they actually applied",
+      "timestamp": "02:04"
+    },
+    {
+      "start": 126.56,
+      "duration": 2.64,
+      "text": "to a role I was hiring for. So, uh, when",
+      "timestamp": "02:06"
+    },
+    {
+      "start": 129.2,
+      "duration": 1.36,
+      "text": "we found out that they were from North",
+      "timestamp": "02:09"
+    },
+    {
+      "start": 130.56,
+      "duration": 1.6,
+      "text": "Korea, we thought there was an",
+      "timestamp": "02:10"
+    },
+    {
+      "start": 132.16,
+      "duration": 2.24,
+      "text": "opportunity to have some fun. And so,",
+      "timestamp": "02:12"
+    },
+    {
+      "start": 134.4,
+      "duration": 2.64,
+      "text": "that was in October of last year. And",
+      "timestamp": "02:14"
+    },
+    {
+      "start": 137.04,
+      "duration": 2.4,
+      "text": "so, in February this year, I shared a",
+      "timestamp": "02:17"
+    },
+    {
+      "start": 139.44,
+      "duration": 2.08,
+      "text": "little bit about of what happened at ETH",
+      "timestamp": "02:19"
+    },
+    {
+      "start": 141.52,
+      "duration": 1.84,
+      "text": "Denver. Uh, I'm not going to rehash that",
+      "timestamp": "02:21"
+    },
+    {
+      "start": 143.36,
+      "duration": 1.68,
+      "text": "totally, but you can watch it if you're",
+      "timestamp": "02:23"
+    },
+    {
+      "start": 145.04,
+      "duration": 1.76,
+      "text": "interested to see what it actually looks",
+      "timestamp": "02:25"
+    },
+    {
+      "start": 146.8,
+      "duration": 2.159,
+      "text": "like to get on a Zoom call with them.",
+      "timestamp": "02:26"
+    },
+    {
+      "start": 148.959,
+      "duration": 2.721,
+      "text": "And so, uh, in May 2025, we did a big",
+      "timestamp": "02:28"
+    },
+    {
+      "start": 151.68,
+      "duration": 2.48,
+      "text": "promotion hit where we had a blog, CBS",
+      "timestamp": "02:31"
+    },
+    {
+      "start": 154.16,
+      "duration": 2.24,
+      "text": "did an interview because from us at",
+      "timestamp": "02:34"
+    },
+    {
+      "start": 156.4,
+      "duration": 2.0,
+      "text": "Kraken, we want to get the word out that",
+      "timestamp": "02:36"
+    },
+    {
+      "start": 158.4,
+      "duration": 2.4,
+      "text": "this is a real threat and that this",
+      "timestamp": "02:38"
+    },
+    {
+      "start": 160.8,
+      "duration": 3.519,
+      "text": "could happen to you 100%. So, if you",
+      "timestamp": "02:40"
+    },
+    {
+      "start": 164.319,
+      "duration": 2.481,
+      "text": "haven't seen our spot, uh, basically we",
+      "timestamp": "02:44"
+    },
+    {
+      "start": 166.8,
+      "duration": 3.6,
+      "text": "we we did a little, uh, trolling. So,",
+      "timestamp": "02:46"
+    },
+    {
+      "start": 170.4,
+      "duration": 2.479,
+      "text": "um, what we did is we, you know, had the",
+      "timestamp": "02:50"
+    },
+    {
+      "start": 172.879,
+      "duration": 2.0,
+      "text": "guys of some normal questions, right? We",
+      "timestamp": "02:52"
+    },
+    {
+      "start": 174.879,
+      "duration": 1.681,
+      "text": "asked them typical dev questions,",
+      "timestamp": "02:54"
+    },
+    {
+      "start": 176.56,
+      "duration": 2.64,
+      "text": "security questions, things like that.",
+      "timestamp": "02:56"
+    },
+    {
+      "start": 179.2,
+      "duration": 1.52,
+      "text": "Uh, but what's really interesting about",
+      "timestamp": "02:59"
+    },
+    {
+      "start": 180.72,
+      "duration": 1.92,
+      "text": "these North Korean candidates is they",
+      "timestamp": "03:00"
+    },
+    {
+      "start": 182.64,
+      "duration": 2.319,
+      "text": "really kind of struggled around the",
+      "timestamp": "03:02"
+    },
+    {
+      "start": 184.959,
+      "duration": 2.56,
+      "text": "small talk piece. And so, uh, we made a",
+      "timestamp": "03:04"
+    },
+    {
+      "start": 187.519,
+      "duration": 3.121,
+      "text": "little viral clip on X about their",
+      "timestamp": "03:07"
+    },
+    {
+      "start": 190.64,
+      "duration": 2.56,
+      "text": "questions, but basically we asked them",
+      "timestamp": "03:10"
+    },
+    {
+      "start": 193.2,
+      "duration": 1.84,
+      "text": "questions that they have no idea what",
+      "timestamp": "03:13"
+    },
+    {
+      "start": 195.04,
+      "duration": 1.76,
+      "text": "we're talking about. Like, what's your",
+      "timestamp": "03:15"
+    },
+    {
+      "start": 196.8,
+      "duration": 2.159,
+      "text": "favorite barbecue place in Texas? They",
+      "timestamp": "03:16"
+    },
+    {
+      "start": 198.959,
+      "duration": 2.161,
+      "text": "they can't even point to Texas on a map,",
+      "timestamp": "03:18"
+    },
+    {
+      "start": 201.12,
+      "duration": 2.24,
+      "text": "right? So, they stumble and fumble. Um,",
+      "timestamp": "03:21"
+    },
+    {
+      "start": 203.36,
+      "duration": 2.08,
+      "text": "and it's kind of amusing. And this",
+      "timestamp": "03:23"
+    },
+    {
+      "start": 205.44,
+      "duration": 1.76,
+      "text": "question here was because we asked them",
+      "timestamp": "03:25"
+    },
+    {
+      "start": 207.2,
+      "duration": 2.08,
+      "text": "what's his favorite Halloween movie. And",
+      "timestamp": "03:27"
+    },
+    {
+      "start": 209.28,
+      "duration": 2.16,
+      "text": "so, you know, they were just not really",
+      "timestamp": "03:29"
+    },
+    {
+      "start": 211.44,
+      "duration": 2.48,
+      "text": "aware of those traditions. And so, it",
+      "timestamp": "03:31"
+    },
+    {
+      "start": 213.92,
+      "duration": 1.92,
+      "text": "made for a really fun viral little hit",
+      "timestamp": "03:33"
+    },
+    {
+      "start": 215.84,
+      "duration": 2.08,
+      "text": "to raise that awareness and sort of",
+      "timestamp": "03:35"
+    },
+    {
+      "start": 217.92,
+      "duration": 1.84,
+      "text": "bring this to the forefront in people's",
+      "timestamp": "03:37"
+    },
+    {
+      "start": 219.76,
+      "duration": 2.88,
+      "text": "minds that this is very real. Um, but I",
+      "timestamp": "03:39"
+    },
+    {
+      "start": 222.64,
+      "duration": 1.519,
+      "text": "think some people maybe got the wrong",
+      "timestamp": "03:42"
+    },
+    {
+      "start": 224.159,
+      "duration": 2.72,
+      "text": "idea, right? It's very fun to poke fun",
+      "timestamp": "03:44"
+    },
+    {
+      "start": 226.879,
+      "duration": 1.841,
+      "text": "at, you know, oh, they're so silly,",
+      "timestamp": "03:46"
+    },
+    {
+      "start": 228.72,
+      "duration": 1.28,
+      "text": "they're so backwards, their favorite",
+      "timestamp": "03:48"
+    },
+    {
+      "start": 230.0,
+      "duration": 2.159,
+      "text": "movie is Frozen and the Minions, which",
+      "timestamp": "03:50"
+    },
+    {
+      "start": 232.159,
+      "duration": 3.36,
+      "text": "is true. Um, but you know, uh, I I",
+      "timestamp": "03:52"
+    },
+    {
+      "start": 235.519,
+      "duration": 2.241,
+      "text": "really want to dispel some myths of of",
+      "timestamp": "03:55"
+    },
+    {
+      "start": 237.76,
+      "duration": 2.08,
+      "text": "what we have here, and that's why I want",
+      "timestamp": "03:57"
+    },
+    {
+      "start": 239.84,
+      "duration": 2.24,
+      "text": "to talk today. Uh, a little bit about",
+      "timestamp": "03:59"
+    },
+    {
+      "start": 242.08,
+      "duration": 1.76,
+      "text": "what we did. By the way, in addition to",
+      "timestamp": "04:02"
+    },
+    {
+      "start": 243.84,
+      "duration": 1.36,
+      "text": "trolling them, we actually wanted to",
+      "timestamp": "04:03"
+    },
+    {
+      "start": 245.2,
+      "duration": 1.92,
+      "text": "collect some intelligence. So, we",
+      "timestamp": "04:05"
+    },
+    {
+      "start": 247.12,
+      "duration": 1.839,
+      "text": "actually gave them a fake hiring test",
+      "timestamp": "04:07"
+    },
+    {
+      "start": 248.959,
+      "duration": 2.56,
+      "text": "that actually asked them to KYC on our",
+      "timestamp": "04:08"
+    },
+    {
+      "start": 251.519,
+      "duration": 3.521,
+      "text": "platform. and uh they actually did um so",
+      "timestamp": "04:11"
+    },
+    {
+      "start": 255.04,
+      "duration": 2.159,
+      "text": "they are able to actually do this work",
+      "timestamp": "04:15"
+    },
+    {
+      "start": 257.199,
+      "duration": 2.0,
+      "text": "and so that really helped us improve our",
+      "timestamp": "04:17"
+    },
+    {
+      "start": 259.199,
+      "duration": 2.241,
+      "text": "fraud detection but also share those",
+      "timestamp": "04:19"
+    },
+    {
+      "start": 261.44,
+      "duration": 1.36,
+      "text": "indicators with the rest of the",
+      "timestamp": "04:21"
+    },
+    {
+      "start": 262.8,
+      "duration": 2.32,
+      "text": "community as far as what we saw how they",
+      "timestamp": "04:22"
+    },
+    {
+      "start": 265.12,
+      "duration": 2.56,
+      "text": "do those things and by the way they will",
+      "timestamp": "04:25"
+    },
+    {
+      "start": 267.68,
+      "duration": 2.56,
+      "text": "do pretty much whatever you ask them to.",
+      "timestamp": "04:27"
+    },
+    {
+      "start": 270.24,
+      "duration": 2.0,
+      "text": "So, if you think it's a barrier to have",
+      "timestamp": "04:30"
+    },
+    {
+      "start": 272.24,
+      "duration": 3.36,
+      "text": "them KYC, uh they will KYC, right? They",
+      "timestamp": "04:32"
+    },
+    {
+      "start": 275.6,
+      "duration": 2.48,
+      "text": "will have people that can make passport",
+      "timestamp": "04:35"
+    },
+    {
+      "start": 278.08,
+      "duration": 1.92,
+      "text": "documents. They often have mules,",
+      "timestamp": "04:38"
+    },
+    {
+      "start": 280.0,
+      "duration": 2.56,
+      "text": "partners, stolen identities. Uh this one",
+      "timestamp": "04:40"
+    },
+    {
+      "start": 282.56,
+      "duration": 1.68,
+      "text": "in particular, this is the real one they",
+      "timestamp": "04:42"
+    },
+    {
+      "start": 284.24,
+      "duration": 2.0,
+      "text": "submitted. It's not great. You can see",
+      "timestamp": "04:44"
+    },
+    {
+      "start": 286.24,
+      "duration": 1.519,
+      "text": "that there's um a lot of",
+      "timestamp": "04:46"
+    },
+    {
+      "start": 287.759,
+      "duration": 2.16,
+      "text": "inconsistencies, right? As someone who",
+      "timestamp": "04:47"
+    },
+    {
+      "start": 289.919,
+      "duration": 2.72,
+      "text": "looks at a lot of fraud and fake IDs a",
+      "timestamp": "04:49"
+    },
+    {
+      "start": 292.639,
+      "duration": 1.521,
+      "text": "lot, there's a lot of things that stand",
+      "timestamp": "04:52"
+    },
+    {
+      "start": 294.16,
+      "duration": 2.64,
+      "text": "out in terms of their name, how it's not",
+      "timestamp": "04:54"
+    },
+    {
+      "start": 296.8,
+      "duration": 2.16,
+      "text": "aligned, it's a different font, things",
+      "timestamp": "04:56"
+    },
+    {
+      "start": 298.96,
+      "duration": 2.56,
+      "text": "like that that sometimes might be caught",
+      "timestamp": "04:58"
+    },
+    {
+      "start": 301.52,
+      "duration": 2.08,
+      "text": "by automated systems, but it's just",
+      "timestamp": "05:01"
+    },
+    {
+      "start": 303.6,
+      "duration": 1.76,
+      "text": "really interesting. I think that some",
+      "timestamp": "05:03"
+    },
+    {
+      "start": 305.36,
+      "duration": 1.6,
+      "text": "people think that this is a huge barrier",
+      "timestamp": "05:05"
+    },
+    {
+      "start": 306.96,
+      "duration": 2.4,
+      "text": "for North Korea IT workers that if you",
+      "timestamp": "05:06"
+    },
+    {
+      "start": 309.36,
+      "duration": 3.279,
+      "text": "somehow ask them to submit KYC, they're",
+      "timestamp": "05:09"
+    },
+    {
+      "start": 312.639,
+      "duration": 2.641,
+      "text": "able to do it. Um, so don't count on",
+      "timestamp": "05:12"
+    },
+    {
+      "start": 315.28,
+      "duration": 2.72,
+      "text": "that being the only barrier to getting",
+      "timestamp": "05:15"
+    },
+    {
+      "start": 318.0,
+      "duration": 2.4,
+      "text": "this. And so, uh, if you're not familiar",
+      "timestamp": "05:18"
+    },
+    {
+      "start": 320.4,
+      "duration": 2.639,
+      "text": "with the crypto Twitter space, there's a",
+      "timestamp": "05:20"
+    },
+    {
+      "start": 323.039,
+      "duration": 1.6,
+      "text": "ton of researchers on there who do",
+      "timestamp": "05:23"
+    },
+    {
+      "start": 324.639,
+      "duration": 1.921,
+      "text": "amazing work. Uh, two of them listed",
+      "timestamp": "05:24"
+    },
+    {
+      "start": 326.56,
+      "duration": 4.079,
+      "text": "here, uh, Tay and Narcast 3. Um, really",
+      "timestamp": "05:26"
+    },
+    {
+      "start": 330.639,
+      "duration": 1.601,
+      "text": "impressive stuff. I think it's a crime",
+      "timestamp": "05:30"
+    },
+    {
+      "start": 332.24,
+      "duration": 2.799,
+      "text": "that this only got 2,000 views. But",
+      "timestamp": "05:32"
+    },
+    {
+      "start": 335.039,
+      "duration": 2.481,
+      "text": "someone was able to take that photo and",
+      "timestamp": "05:35"
+    },
+    {
+      "start": 337.52,
+      "duration": 2.32,
+      "text": "identify uh, our person named Stephen",
+      "timestamp": "05:37"
+    },
+    {
+      "start": 339.84,
+      "duration": 2.4,
+      "text": "Smith there waving a North Korean flag.",
+      "timestamp": "05:39"
+    },
+    {
+      "start": 342.24,
+      "duration": 2.56,
+      "text": "Now, if that's not uh something that you",
+      "timestamp": "05:42"
+    },
+    {
+      "start": 344.8,
+      "duration": 1.76,
+      "text": "can tell management, you know, we",
+      "timestamp": "05:44"
+    },
+    {
+      "start": 346.56,
+      "duration": 2.16,
+      "text": "probably should do something about this",
+      "timestamp": "05:46"
+    },
+    {
+      "start": 348.72,
+      "duration": 1.919,
+      "text": "person if you actually hired them, it's",
+      "timestamp": "05:48"
+    },
+    {
+      "start": 350.639,
+      "duration": 2.081,
+      "text": "a really convincing photo, I think, and",
+      "timestamp": "05:50"
+    },
+    {
+      "start": 352.72,
+      "duration": 2.16,
+      "text": "is pretty interesting. And so, we have a",
+      "timestamp": "05:52"
+    },
+    {
+      "start": 354.88,
+      "duration": 1.599,
+      "text": "bunch of amazing researchers in the",
+      "timestamp": "05:54"
+    },
+    {
+      "start": 356.479,
+      "duration": 1.761,
+      "text": "space, and I wanted to shout them out",
+      "timestamp": "05:56"
+    },
+    {
+      "start": 358.24,
+      "duration": 1.679,
+      "text": "here. I'll have a list of followers at",
+      "timestamp": "05:58"
+    },
+    {
+      "start": 359.919,
+      "duration": 2.161,
+      "text": "the end, but you should just be aware of",
+      "timestamp": "05:59"
+    },
+    {
+      "start": 362.08,
+      "duration": 2.08,
+      "text": "these things happening because, um,",
+      "timestamp": "06:02"
+    },
+    {
+      "start": 364.16,
+      "duration": 1.44,
+      "text": "there's only so many North Koreans,",
+      "timestamp": "06:04"
+    },
+    {
+      "start": 365.6,
+      "duration": 1.84,
+      "text": "right? And there's a ton of researchers.",
+      "timestamp": "06:05"
+    },
+    {
+      "start": 367.44,
+      "duration": 1.92,
+      "text": "And so we got to share that information",
+      "timestamp": "06:07"
+    },
+    {
+      "start": 369.36,
+      "duration": 1.92,
+      "text": "better so that you're aware of what that",
+      "timestamp": "06:09"
+    },
+    {
+      "start": 371.28,
+      "duration": 2.0,
+      "text": "looks like because often they're getting",
+      "timestamp": "06:11"
+    },
+    {
+      "start": 373.28,
+      "duration": 2.16,
+      "text": "multiple jobs, right? This Stephen Smith",
+      "timestamp": "06:13"
+    },
+    {
+      "start": 375.44,
+      "duration": 2.8,
+      "text": "has probably applied to 10, 15, 20",
+      "timestamp": "06:15"
+    },
+    {
+      "start": 378.24,
+      "duration": 2.56,
+      "text": "different places in the crypto industry",
+      "timestamp": "06:18"
+    },
+    {
+      "start": 380.8,
+      "duration": 2.08,
+      "text": "and beyond. So I thought that you would",
+      "timestamp": "06:20"
+    },
+    {
+      "start": 382.88,
+      "duration": 1.84,
+      "text": "find that a little bit interesting. But",
+      "timestamp": "06:22"
+    },
+    {
+      "start": 384.72,
+      "duration": 2.319,
+      "text": "I want to dispel some myths uh after our",
+      "timestamp": "06:24"
+    },
+    {
+      "start": 387.039,
+      "duration": 2.16,
+      "text": "spot. One of the first myths that I",
+      "timestamp": "06:27"
+    },
+    {
+      "start": 389.199,
+      "duration": 2.481,
+      "text": "heard was that North Korean devs are",
+      "timestamp": "06:29"
+    },
+    {
+      "start": 391.68,
+      "duration": 2.88,
+      "text": "dumb. They're they're not dumb. Okay,",
+      "timestamp": "06:31"
+    },
+    {
+      "start": 394.56,
+      "duration": 2.4,
+      "text": "they're not bad devs. In fact, the",
+      "timestamp": "06:34"
+    },
+    {
+      "start": 396.96,
+      "duration": 1.679,
+      "text": "number one piece of feedback from the",
+      "timestamp": "06:36"
+    },
+    {
+      "start": 398.639,
+      "duration": 2.0,
+      "text": "people that do threat hunting around",
+      "timestamp": "06:38"
+    },
+    {
+      "start": 400.639,
+      "duration": 2.241,
+      "text": "North Korea, the number one thing they",
+      "timestamp": "06:40"
+    },
+    {
+      "start": 402.88,
+      "duration": 2.48,
+      "text": "say is they're pretty good devs. And",
+      "timestamp": "06:42"
+    },
+    {
+      "start": 405.36,
+      "duration": 2.0,
+      "text": "that's the thing, right? They can do the",
+      "timestamp": "06:45"
+    },
+    {
+      "start": 407.36,
+      "duration": 2.0,
+      "text": "job. It's like a consultant's dream,",
+      "timestamp": "06:47"
+    },
+    {
+      "start": 409.36,
+      "duration": 1.92,
+      "text": "right? You have the entire network of",
+      "timestamp": "06:49"
+    },
+    {
+      "start": 411.28,
+      "duration": 2.479,
+      "text": "your entire consulting company to ask a",
+      "timestamp": "06:51"
+    },
+    {
+      "start": 413.759,
+      "duration": 1.44,
+      "text": "question. You might have an expert in",
+      "timestamp": "06:53"
+    },
+    {
+      "start": 415.199,
+      "duration": 2.0,
+      "text": "IT. You might have an expert in Rust.",
+      "timestamp": "06:55"
+    },
+    {
+      "start": 417.199,
+      "duration": 1.681,
+      "text": "You might have an expert in solidity.",
+      "timestamp": "06:57"
+    },
+    {
+      "start": 418.88,
+      "duration": 1.2,
+      "text": "You might have an expert with someone",
+      "timestamp": "06:58"
+    },
+    {
+      "start": 420.08,
+      "duration": 2.08,
+      "text": "who does presentations. they have like",
+      "timestamp": "07:00"
+    },
+    {
+      "start": 422.16,
+      "duration": 3.039,
+      "text": "this entire system and network of these",
+      "timestamp": "07:02"
+    },
+    {
+      "start": 425.199,
+      "duration": 2.241,
+      "text": "specialists to do the tasks that are",
+      "timestamp": "07:05"
+    },
+    {
+      "start": 427.44,
+      "duration": 1.92,
+      "text": "needed. And so even though it's fun to",
+      "timestamp": "07:07"
+    },
+    {
+      "start": 429.36,
+      "duration": 2.08,
+      "text": "poke fun at them and make this go viral",
+      "timestamp": "07:09"
+    },
+    {
+      "start": 431.44,
+      "duration": 2.96,
+      "text": "and raise that awareness, it is not uh",
+      "timestamp": "07:11"
+    },
+    {
+      "start": 434.4,
+      "duration": 2.16,
+      "text": "the takeaway that I want you to have",
+      "timestamp": "07:14"
+    },
+    {
+      "start": 436.56,
+      "duration": 1.68,
+      "text": "that they don't know what they're doing",
+      "timestamp": "07:16"
+    },
+    {
+      "start": 438.24,
+      "duration": 2.48,
+      "text": "or they're silly or they're backwards.",
+      "timestamp": "07:18"
+    },
+    {
+      "start": 440.72,
+      "duration": 2.64,
+      "text": "They are actually capable. And that's I",
+      "timestamp": "07:20"
+    },
+    {
+      "start": 443.36,
+      "duration": 2.239,
+      "text": "think the issue that some people don't",
+      "timestamp": "07:23"
+    },
+    {
+      "start": 445.599,
+      "duration": 2.88,
+      "text": "realize. Myth number two of what we",
+      "timestamp": "07:25"
+    },
+    {
+      "start": 448.479,
+      "duration": 3.12,
+      "text": "have, background checks will stop this.",
+      "timestamp": "07:28"
+    },
+    {
+      "start": 451.599,
+      "duration": 2.241,
+      "text": "Um, a lot of people rely on background",
+      "timestamp": "07:31"
+    },
+    {
+      "start": 453.84,
+      "duration": 2.079,
+      "text": "checks. I've spoken with a lot of people",
+      "timestamp": "07:33"
+    },
+    {
+      "start": 455.919,
+      "duration": 2.641,
+      "text": "from HR departments who say, \"Yeah, we",
+      "timestamp": "07:35"
+    },
+    {
+      "start": 458.56,
+      "duration": 1.919,
+      "text": "would never hire an H we would never",
+      "timestamp": "07:38"
+    },
+    {
+      "start": 460.479,
+      "duration": 2.56,
+      "text": "hire a North Korean operative because we",
+      "timestamp": "07:40"
+    },
+    {
+      "start": 463.039,
+      "duration": 2.0,
+      "text": "have background checks.\" Well, that",
+      "timestamp": "07:43"
+    },
+    {
+      "start": 465.039,
+      "duration": 1.28,
+      "text": "doesn't that that's not a real",
+      "timestamp": "07:45"
+    },
+    {
+      "start": 466.319,
+      "duration": 2.0,
+      "text": "submission, by the way. It's just a a",
+      "timestamp": "07:46"
+    },
+    {
+      "start": 468.319,
+      "duration": 2.641,
+      "text": "meme here. But the the point is that um",
+      "timestamp": "07:48"
+    },
+    {
+      "start": 470.96,
+      "duration": 2.079,
+      "text": "when we actually uh we tested our",
+      "timestamp": "07:50"
+    },
+    {
+      "start": 473.039,
+      "duration": 2.0,
+      "text": "background check vendor on this one and",
+      "timestamp": "07:53"
+    },
+    {
+      "start": 475.039,
+      "duration": 1.6,
+      "text": "the documents that they submitted came",
+      "timestamp": "07:55"
+    },
+    {
+      "start": 476.639,
+      "duration": 1.761,
+      "text": "back clean. And so if you're an HR",
+      "timestamp": "07:56"
+    },
+    {
+      "start": 478.4,
+      "duration": 1.919,
+      "text": "department or you're just checking them",
+      "timestamp": "07:58"
+    },
+    {
+      "start": 480.319,
+      "duration": 1.28,
+      "text": "out and say, \"Oh yeah, we do a",
+      "timestamp": "08:00"
+    },
+    {
+      "start": 481.599,
+      "duration": 2.641,
+      "text": "background check with XYZ vendor.\" Um",
+      "timestamp": "08:01"
+    },
+    {
+      "start": 484.24,
+      "duration": 2.0,
+      "text": "often times they're getting stolen",
+      "timestamp": "08:04"
+    },
+    {
+      "start": 486.24,
+      "duration": 2.0,
+      "text": "identities, they have mules, right?",
+      "timestamp": "08:06"
+    },
+    {
+      "start": 488.24,
+      "duration": 2.16,
+      "text": "They'll offer money to real citizens to",
+      "timestamp": "08:08"
+    },
+    {
+      "start": 490.4,
+      "duration": 1.919,
+      "text": "say, \"Let me borrow your passport.\" And",
+      "timestamp": "08:10"
+    },
+    {
+      "start": 492.319,
+      "duration": 1.28,
+      "text": "they think that they're doing other",
+      "timestamp": "08:12"
+    },
+    {
+      "start": 493.599,
+      "duration": 2.72,
+      "text": "things. So, don't count on that being a",
+      "timestamp": "08:13"
+    },
+    {
+      "start": 496.319,
+      "duration": 2.56,
+      "text": "barrier to North Korean IT workers. I",
+      "timestamp": "08:16"
+    },
+    {
+      "start": 498.879,
+      "duration": 1.521,
+      "text": "think that's really important to",
+      "timestamp": "08:18"
+    },
+    {
+      "start": 500.4,
+      "duration": 1.519,
+      "text": "highlight here. I think a lot of people",
+      "timestamp": "08:20"
+    },
+    {
+      "start": 501.919,
+      "duration": 2.4,
+      "text": "think that that will stop it. In in our",
+      "timestamp": "08:21"
+    },
+    {
+      "start": 504.319,
+      "duration": 2.641,
+      "text": "case, it wouldn't have. And myth number",
+      "timestamp": "08:24"
+    },
+    {
+      "start": 506.96,
+      "duration": 2.56,
+      "text": "three, um, you need to throw money at",
+      "timestamp": "08:26"
+    },
+    {
+      "start": 509.52,
+      "duration": 2.56,
+      "text": "enterprise AI detection. And I think",
+      "timestamp": "08:29"
+    },
+    {
+      "start": 512.08,
+      "duration": 2.399,
+      "text": "overall, uh, people in industries like",
+      "timestamp": "08:32"
+    },
+    {
+      "start": 514.479,
+      "duration": 1.92,
+      "text": "this, I've seen this happen in the",
+      "timestamp": "08:34"
+    },
+    {
+      "start": 516.399,
+      "duration": 3.041,
+      "text": "typical IT cyber communities. Um,",
+      "timestamp": "08:36"
+    },
+    {
+      "start": 519.44,
+      "duration": 1.68,
+      "text": "oftentimes when there's a big problem",
+      "timestamp": "08:39"
+    },
+    {
+      "start": 521.12,
+      "duration": 2.32,
+      "text": "that no one knows what to solve, these",
+      "timestamp": "08:41"
+    },
+    {
+      "start": 523.44,
+      "duration": 2.72,
+      "text": "companies pop up and uh people will sign",
+      "timestamp": "08:43"
+    },
+    {
+      "start": 526.16,
+      "duration": 2.64,
+      "text": "over lots of money to pay for a product",
+      "timestamp": "08:46"
+    },
+    {
+      "start": 528.8,
+      "duration": 2.719,
+      "text": "that doesn't really work. Um, and I'm",
+      "timestamp": "08:48"
+    },
+    {
+      "start": 531.519,
+      "duration": 1.841,
+      "text": "talking specifically about deep fakes,",
+      "timestamp": "08:51"
+    },
+    {
+      "start": 533.36,
+      "duration": 1.919,
+      "text": "right? Everyone thinks to hire a North",
+      "timestamp": "08:53"
+    },
+    {
+      "start": 535.279,
+      "duration": 2.081,
+      "text": "Korean worker, they're going to be a",
+      "timestamp": "08:55"
+    },
+    {
+      "start": 537.36,
+      "duration": 2.96,
+      "text": "deep fake. While it's true that they do",
+      "timestamp": "08:57"
+    },
+    {
+      "start": 540.32,
+      "duration": 3.04,
+      "text": "use deep fakes sometimes, um, they don't",
+      "timestamp": "09:00"
+    },
+    {
+      "start": 543.36,
+      "duration": 2.159,
+      "text": "always, right? It's not always a deep",
+      "timestamp": "09:03"
+    },
+    {
+      "start": 545.519,
+      "duration": 2.721,
+      "text": "fake. And the problem that I've noticed,",
+      "timestamp": "09:05"
+    },
+    {
+      "start": 548.24,
+      "duration": 2.88,
+      "text": "even if it is a deep fake, the deep fake",
+      "timestamp": "09:08"
+    },
+    {
+      "start": 551.12,
+      "duration": 2.32,
+      "text": "detection software, I've tried pretty",
+      "timestamp": "09:11"
+    },
+    {
+      "start": 553.44,
+      "duration": 1.6,
+      "text": "much all of them. So, I'm not going to",
+      "timestamp": "09:13"
+    },
+    {
+      "start": 555.04,
+      "duration": 2.56,
+      "text": "name any vendor names, but as you can",
+      "timestamp": "09:15"
+    },
+    {
+      "start": 557.6,
+      "duration": 3.2,
+      "text": "see here that uh it does it is easy to",
+      "timestamp": "09:17"
+    },
+    {
+      "start": 560.8,
+      "duration": 2.8,
+      "text": "bypass, right? Um, you know, no AI",
+      "timestamp": "09:20"
+    },
+    {
+      "start": 563.6,
+      "duration": 2.72,
+      "text": "detection thing is 100% accurate. And",
+      "timestamp": "09:23"
+    },
+    {
+      "start": 566.32,
+      "duration": 1.6,
+      "text": "so, if you bought the latest and",
+      "timestamp": "09:26"
+    },
+    {
+      "start": 567.92,
+      "duration": 2.72,
+      "text": "greatest tool for $200,000 a year that's",
+      "timestamp": "09:27"
+    },
+    {
+      "start": 570.64,
+      "duration": 2.16,
+      "text": "supposed to detect deep fakes, I don't",
+      "timestamp": "09:30"
+    },
+    {
+      "start": 572.8,
+      "duration": 1.28,
+      "text": "really think that's the way to go,",
+      "timestamp": "09:32"
+    },
+    {
+      "start": 574.08,
+      "duration": 1.68,
+      "text": "right? there's cat and mouse games that",
+      "timestamp": "09:34"
+    },
+    {
+      "start": 575.76,
+      "duration": 2.72,
+      "text": "they play. They can play videos back.",
+      "timestamp": "09:35"
+    },
+    {
+      "start": 578.48,
+      "duration": 1.84,
+      "text": "Um, you know, they can have other people",
+      "timestamp": "09:38"
+    },
+    {
+      "start": 580.32,
+      "duration": 1.84,
+      "text": "doing these types of things and they",
+      "timestamp": "09:40"
+    },
+    {
+      "start": 582.16,
+      "duration": 1.92,
+      "text": "don't always use deep fakes. So, I've",
+      "timestamp": "09:42"
+    },
+    {
+      "start": 584.08,
+      "duration": 2.24,
+      "text": "kind of seen that bandied around as like",
+      "timestamp": "09:44"
+    },
+    {
+      "start": 586.32,
+      "duration": 2.24,
+      "text": "the solution, but I just kind of want us",
+      "timestamp": "09:46"
+    },
+    {
+      "start": 588.56,
+      "duration": 1.68,
+      "text": "to have a sober mind here and say, you",
+      "timestamp": "09:48"
+    },
+    {
+      "start": 590.24,
+      "duration": 2.0,
+      "text": "know what, we don't need to throw money",
+      "timestamp": "09:50"
+    },
+    {
+      "start": 592.24,
+      "duration": 4.4,
+      "text": "at that yet. Um, so just watch out. Um,",
+      "timestamp": "09:52"
+    },
+    {
+      "start": 596.64,
+      "duration": 2.72,
+      "text": "so what can we actually do? How do we",
+      "timestamp": "09:56"
+    },
+    {
+      "start": 599.36,
+      "duration": 2.8,
+      "text": "win as a community against this? Um, I",
+      "timestamp": "09:59"
+    },
+    {
+      "start": 602.16,
+      "duration": 1.52,
+      "text": "don't want to just lay out these",
+      "timestamp": "10:02"
+    },
+    {
+      "start": 603.68,
+      "duration": 1.92,
+      "text": "problems, right, and just say, \"Yeah,",
+      "timestamp": "10:03"
+    },
+    {
+      "start": 605.6,
+      "duration": 1.44,
+      "text": "you're going to hire North Koreans and",
+      "timestamp": "10:05"
+    },
+    {
+      "start": 607.04,
+      "duration": 1.52,
+      "text": "there's nothing you can do about it.\"",
+      "timestamp": "10:07"
+    },
+    {
+      "start": 608.56,
+      "duration": 2.0,
+      "text": "That would be a bummer. Um, but here's",
+      "timestamp": "10:08"
+    },
+    {
+      "start": 610.56,
+      "duration": 3.68,
+      "text": "how we win. Strategy number one, embed",
+      "timestamp": "10:10"
+    },
+    {
+      "start": 614.24,
+      "duration": 3.2,
+      "text": "security into the recruiting process. I",
+      "timestamp": "10:14"
+    },
+    {
+      "start": 617.44,
+      "duration": 2.16,
+      "text": "know that's really sounds kind of weird,",
+      "timestamp": "10:17"
+    },
+    {
+      "start": 619.6,
+      "duration": 3.359,
+      "text": "right? But, uh, raising awareness from",
+      "timestamp": "10:19"
+    },
+    {
+      "start": 622.959,
+      "duration": 2.161,
+      "text": "your recruiters and just saying, \"Hey,",
+      "timestamp": "10:22"
+    },
+    {
+      "start": 625.12,
+      "duration": 3.12,
+      "text": "watch this talk. Um, there are North",
+      "timestamp": "10:25"
+    },
+    {
+      "start": 628.24,
+      "duration": 2.8,
+      "text": "Korean IT workers that will be reaching",
+      "timestamp": "10:28"
+    },
+    {
+      "start": 631.04,
+      "duration": 2.479,
+      "text": "out, that will get on Zoom, that will",
+      "timestamp": "10:31"
+    },
+    {
+      "start": 633.519,
+      "duration": 2.961,
+      "text": "pass the technical aptitude test. How do",
+      "timestamp": "10:33"
+    },
+    {
+      "start": 636.48,
+      "duration": 2.08,
+      "text": "you handle that sort of thing? And so",
+      "timestamp": "10:36"
+    },
+    {
+      "start": 638.56,
+      "duration": 2.56,
+      "text": "what we do at Kraken is we train uh all",
+      "timestamp": "10:38"
+    },
+    {
+      "start": 641.12,
+      "duration": 2.88,
+      "text": "of our recruiters, all of our HR staff",
+      "timestamp": "10:41"
+    },
+    {
+      "start": 644.0,
+      "duration": 2.64,
+      "text": "to be aware of this sort of thing. Um,",
+      "timestamp": "10:44"
+    },
+    {
+      "start": 646.64,
+      "duration": 2.08,
+      "text": "we actually do red team campaigns as",
+      "timestamp": "10:46"
+    },
+    {
+      "start": 648.72,
+      "duration": 2.72,
+      "text": "well. So, um, from the perspective of,",
+      "timestamp": "10:48"
+    },
+    {
+      "start": 651.44,
+      "duration": 1.44,
+      "text": "uh, the red team, if you're not familiar",
+      "timestamp": "10:51"
+    },
+    {
+      "start": 652.88,
+      "duration": 2.0,
+      "text": "with what that is, we have an internal",
+      "timestamp": "10:52"
+    },
+    {
+      "start": 654.88,
+      "duration": 2.079,
+      "text": "team that will actually test our own",
+      "timestamp": "10:54"
+    },
+    {
+      "start": 656.959,
+      "duration": 2.481,
+      "text": "security controls. And so, our red team",
+      "timestamp": "10:56"
+    },
+    {
+      "start": 659.44,
+      "duration": 2.32,
+      "text": "made fake LinkedIn profiles and actually",
+      "timestamp": "10:59"
+    },
+    {
+      "start": 661.76,
+      "duration": 2.319,
+      "text": "took interviews with our team to see",
+      "timestamp": "11:01"
+    },
+    {
+      "start": 664.079,
+      "duration": 1.601,
+      "text": "what they would do, if we can convince",
+      "timestamp": "11:04"
+    },
+    {
+      "start": 665.68,
+      "duration": 1.839,
+      "text": "them to download things, share their",
+      "timestamp": "11:05"
+    },
+    {
+      "start": 667.519,
+      "duration": 2.481,
+      "text": "screen. It's a really good exercise to",
+      "timestamp": "11:07"
+    },
+    {
+      "start": 670.0,
+      "duration": 1.92,
+      "text": "do if you haven't thought about it, just",
+      "timestamp": "11:10"
+    },
+    {
+      "start": 671.92,
+      "duration": 1.84,
+      "text": "to see if it's possible because it makes",
+      "timestamp": "11:11"
+    },
+    {
+      "start": 673.76,
+      "duration": 1.84,
+      "text": "it real. It's no longer theoretical,",
+      "timestamp": "11:13"
+    },
+    {
+      "start": 675.6,
+      "duration": 1.76,
+      "text": "right? They know how they felt. They",
+      "timestamp": "11:15"
+    },
+    {
+      "start": 677.36,
+      "duration": 1.599,
+      "text": "know what they were doing. and they know",
+      "timestamp": "11:17"
+    },
+    {
+      "start": 678.959,
+      "duration": 2.32,
+      "text": "what they can improve. If there's one",
+      "timestamp": "11:18"
+    },
+    {
+      "start": 681.279,
+      "duration": 1.761,
+      "text": "thing that I can add, if you wanted to",
+      "timestamp": "11:21"
+    },
+    {
+      "start": 683.04,
+      "duration": 2.32,
+      "text": "do this right now to double check, let's",
+      "timestamp": "11:23"
+    },
+    {
+      "start": 685.36,
+      "duration": 1.36,
+      "text": "say you're a small team and you don't",
+      "timestamp": "11:25"
+    },
+    {
+      "start": 686.72,
+      "duration": 2.64,
+      "text": "have like a super mature HR process, but",
+      "timestamp": "11:26"
+    },
+    {
+      "start": 689.36,
+      "duration": 1.36,
+      "text": "you just want to get a gut check of",
+      "timestamp": "11:29"
+    },
+    {
+      "start": 690.72,
+      "duration": 2.48,
+      "text": "someone. Um, a really good way to do",
+      "timestamp": "11:30"
+    },
+    {
+      "start": 693.2,
+      "duration": 3.04,
+      "text": "that is to actually search for breached",
+      "timestamp": "11:33"
+    },
+    {
+      "start": 696.24,
+      "duration": 3.039,
+      "text": "data on the emails. Um, often, you know,",
+      "timestamp": "11:36"
+    },
+    {
+      "start": 699.279,
+      "duration": 2.0,
+      "text": "a real person will have some data",
+      "timestamp": "11:39"
+    },
+    {
+      "start": 701.279,
+      "duration": 1.521,
+      "text": "breaches out there on have I been",
+      "timestamp": "11:41"
+    },
+    {
+      "start": 702.8,
+      "duration": 3.279,
+      "text": "pawned, uh, Intellect, dehashed, those",
+      "timestamp": "11:42"
+    },
+    {
+      "start": 706.079,
+      "duration": 1.921,
+      "text": "are all really great sources. And so if",
+      "timestamp": "11:46"
+    },
+    {
+      "start": 708.0,
+      "duration": 1.44,
+      "text": "you haven't checked your own email on",
+      "timestamp": "11:48"
+    },
+    {
+      "start": 709.44,
+      "duration": 1.92,
+      "text": "that, first of all, do that like right",
+      "timestamp": "11:49"
+    },
+    {
+      "start": 711.36,
+      "duration": 2.56,
+      "text": "now because probably people have seen",
+      "timestamp": "11:51"
+    },
+    {
+      "start": 713.92,
+      "duration": 2.0,
+      "text": "what your old passwords used to be,",
+      "timestamp": "11:53"
+    },
+    {
+      "start": 715.92,
+      "duration": 1.84,
+      "text": "things like that. But what I'm",
+      "timestamp": "11:55"
+    },
+    {
+      "start": 717.76,
+      "duration": 1.84,
+      "text": "highlighting here is that as part of the",
+      "timestamp": "11:57"
+    },
+    {
+      "start": 719.6,
+      "duration": 2.88,
+      "text": "HR process, um you should double check",
+      "timestamp": "11:59"
+    },
+    {
+      "start": 722.48,
+      "duration": 2.96,
+      "text": "to see what breach records there are. Uh",
+      "timestamp": "12:02"
+    },
+    {
+      "start": 725.44,
+      "duration": 1.6,
+      "text": "in this particular case for the people",
+      "timestamp": "12:05"
+    },
+    {
+      "start": 727.04,
+      "duration": 2.239,
+      "text": "that we looked at there were multiple",
+      "timestamp": "12:07"
+    },
+    {
+      "start": 729.279,
+      "duration": 2.641,
+      "text": "sources of data breaches which is normal",
+      "timestamp": "12:09"
+    },
+    {
+      "start": 731.92,
+      "duration": 2.8,
+      "text": "for a person but it's very unusual for",
+      "timestamp": "12:11"
+    },
+    {
+      "start": 734.72,
+      "duration": 2.16,
+      "text": "them to be operating under maybe 10",
+      "timestamp": "12:14"
+    },
+    {
+      "start": 736.88,
+      "duration": 2.16,
+      "text": "different identities uh to have steeler",
+      "timestamp": "12:16"
+    },
+    {
+      "start": 739.04,
+      "duration": 2.479,
+      "text": "logs working at 10 different companies",
+      "timestamp": "12:19"
+    },
+    {
+      "start": 741.519,
+      "duration": 2.56,
+      "text": "uh under different identities. Right? So",
+      "timestamp": "12:21"
+    },
+    {
+      "start": 744.079,
+      "duration": 2.801,
+      "text": "uh it was very clear here that um you",
+      "timestamp": "12:24"
+    },
+    {
+      "start": 746.88,
+      "duration": 2.16,
+      "text": "know this was not tied to an individual.",
+      "timestamp": "12:26"
+    },
+    {
+      "start": 749.04,
+      "duration": 1.919,
+      "text": "This was someone operating multiple",
+      "timestamp": "12:29"
+    },
+    {
+      "start": 750.959,
+      "duration": 2.241,
+      "text": "identities in multiple places and that's",
+      "timestamp": "12:30"
+    },
+    {
+      "start": 753.2,
+      "duration": 2.96,
+      "text": "just not really typical of a normal",
+      "timestamp": "12:33"
+    },
+    {
+      "start": 756.16,
+      "duration": 2.96,
+      "text": "human here. So again the culture",
+      "timestamp": "12:36"
+    },
+    {
+      "start": 759.12,
+      "duration": 2.159,
+      "text": "questions as well for HR the culture",
+      "timestamp": "12:39"
+    },
+    {
+      "start": 761.279,
+      "duration": 1.521,
+      "text": "questions are big. I know it sounds",
+      "timestamp": "12:41"
+    },
+    {
+      "start": 762.8,
+      "duration": 1.68,
+      "text": "silly and we have the crypto culture,",
+      "timestamp": "12:42"
+    },
+    {
+      "start": 764.48,
+      "duration": 1.599,
+      "text": "but if you hire someone without talking",
+      "timestamp": "12:44"
+    },
+    {
+      "start": 766.079,
+      "duration": 2.32,
+      "text": "to them, um I know it sounds dumb and",
+      "timestamp": "12:46"
+    },
+    {
+      "start": 768.399,
+      "duration": 2.0,
+      "text": "fluffy to chat with people about, you",
+      "timestamp": "12:48"
+    },
+    {
+      "start": 770.399,
+      "duration": 2.88,
+      "text": "know, what they like to do, but um it",
+      "timestamp": "12:50"
+    },
+    {
+      "start": 773.279,
+      "duration": 1.841,
+      "text": "actually in this case, you would be able",
+      "timestamp": "12:53"
+    },
+    {
+      "start": 775.12,
+      "duration": 2.08,
+      "text": "to sniff out pretty easily um you know,",
+      "timestamp": "12:55"
+    },
+    {
+      "start": 777.2,
+      "duration": 1.6,
+      "text": "whether or not they actually have ever",
+      "timestamp": "12:57"
+    },
+    {
+      "start": 778.8,
+      "duration": 2.719,
+      "text": "been to the US, for example.",
+      "timestamp": "12:58"
+    },
+    {
+      "start": 781.519,
+      "duration": 2.161,
+      "text": "So here's the second strategy on how we",
+      "timestamp": "13:01"
+    },
+    {
+      "start": 783.68,
+      "duration": 2.159,
+      "text": "win. We need to have playbooks for this",
+      "timestamp": "13:03"
+    },
+    {
+      "start": 785.839,
+      "duration": 2.641,
+      "text": "scenario, right? Everybody has a plan",
+      "timestamp": "13:05"
+    },
+    {
+      "start": 788.48,
+      "duration": 2.08,
+      "text": "until they get punched in the mouth. And",
+      "timestamp": "13:08"
+    },
+    {
+      "start": 790.56,
+      "duration": 2.8,
+      "text": "so what we like to do is at Kraken with",
+      "timestamp": "13:10"
+    },
+    {
+      "start": 793.36,
+      "duration": 3.039,
+      "text": "the red team is we like to uh make sure",
+      "timestamp": "13:13"
+    },
+    {
+      "start": 796.399,
+      "duration": 1.761,
+      "text": "that we're exercising our incident",
+      "timestamp": "13:16"
+    },
+    {
+      "start": 798.16,
+      "duration": 2.16,
+      "text": "response protocols every once in a",
+      "timestamp": "13:18"
+    },
+    {
+      "start": 800.32,
+      "duration": 1.92,
+      "text": "while. It's like a fire drill, right?",
+      "timestamp": "13:20"
+    },
+    {
+      "start": 802.24,
+      "duration": 1.92,
+      "text": "You have the map and that's good to have",
+      "timestamp": "13:22"
+    },
+    {
+      "start": 804.16,
+      "duration": 1.84,
+      "text": "the map, but you need to practice that",
+      "timestamp": "13:24"
+    },
+    {
+      "start": 806.0,
+      "duration": 2.88,
+      "text": "to know where to go, who to talk to, and",
+      "timestamp": "13:26"
+    },
+    {
+      "start": 808.88,
+      "duration": 2.639,
+      "text": "what to do for that. Many times uh we",
+      "timestamp": "13:28"
+    },
+    {
+      "start": 811.519,
+      "duration": 1.841,
+      "text": "encounter people and I've heard things",
+      "timestamp": "13:31"
+    },
+    {
+      "start": 813.36,
+      "duration": 2.88,
+      "text": "from other companies where um you know",
+      "timestamp": "13:33"
+    },
+    {
+      "start": 816.24,
+      "duration": 1.68,
+      "text": "they've actually hired someone from",
+      "timestamp": "13:36"
+    },
+    {
+      "start": 817.92,
+      "duration": 1.44,
+      "text": "North Korea and then they don't know",
+      "timestamp": "13:37"
+    },
+    {
+      "start": 819.36,
+      "duration": 2.32,
+      "text": "what to do. Um and so I'd encourage you",
+      "timestamp": "13:39"
+    },
+    {
+      "start": 821.68,
+      "duration": 1.68,
+      "text": "to think about that and have a playbook",
+      "timestamp": "13:41"
+    },
+    {
+      "start": 823.36,
+      "duration": 2.8,
+      "text": "in advance. You might never use it, but",
+      "timestamp": "13:43"
+    },
+    {
+      "start": 826.16,
+      "duration": 1.84,
+      "text": "it's better to have it and not need it",
+      "timestamp": "13:46"
+    },
+    {
+      "start": 828.0,
+      "duration": 2.399,
+      "text": "than to be stuck wondering what to do.",
+      "timestamp": "13:48"
+    },
+    {
+      "start": 830.399,
+      "duration": 2.321,
+      "text": "For example, if someone tells you you're",
+      "timestamp": "13:50"
+    },
+    {
+      "start": 832.72,
+      "duration": 2.4,
+      "text": "hiring a North Korean IT worker, you",
+      "timestamp": "13:52"
+    },
+    {
+      "start": 835.12,
+      "duration": 1.04,
+      "text": "need to make sure they don't get paid",
+      "timestamp": "13:55"
+    },
+    {
+      "start": 836.16,
+      "duration": 2.799,
+      "text": "anymore. Okay. Um, it's one thing if you",
+      "timestamp": "13:56"
+    },
+    {
+      "start": 838.959,
+      "duration": 1.44,
+      "text": "don't know that you're paying them, but",
+      "timestamp": "13:58"
+    },
+    {
+      "start": 840.399,
+      "duration": 1.68,
+      "text": "then if someone tells you and then you",
+      "timestamp": "14:00"
+    },
+    {
+      "start": 842.079,
+      "duration": 2.241,
+      "text": "keep paying them, that's going to be a",
+      "timestamp": "14:02"
+    },
+    {
+      "start": 844.32,
+      "duration": 3.12,
+      "text": "really big issue with the US Treasury",
+      "timestamp": "14:04"
+    },
+    {
+      "start": 847.44,
+      "duration": 2.079,
+      "text": "Department. So, please don't forget to",
+      "timestamp": "14:07"
+    },
+    {
+      "start": 849.519,
+      "duration": 2.32,
+      "text": "do that and make sure you have a plan to",
+      "timestamp": "14:09"
+    },
+    {
+      "start": 851.839,
+      "duration": 1.761,
+      "text": "do that. If you don't know what I'm",
+      "timestamp": "14:11"
+    },
+    {
+      "start": 853.6,
+      "duration": 1.359,
+      "text": "talking about, if you've never seen an",
+      "timestamp": "14:13"
+    },
+    {
+      "start": 854.959,
+      "duration": 1.921,
+      "text": "incident response plan, the Security",
+      "timestamp": "14:14"
+    },
+    {
+      "start": 856.88,
+      "duration": 2.319,
+      "text": "Alliance GitHub has some pretty cool",
+      "timestamp": "14:16"
+    },
+    {
+      "start": 859.199,
+      "duration": 2.08,
+      "text": "starter frameworks of like what a good",
+      "timestamp": "14:19"
+    },
+    {
+      "start": 861.279,
+      "duration": 1.92,
+      "text": "incident response playbook, lessons",
+      "timestamp": "14:21"
+    },
+    {
+      "start": 863.199,
+      "duration": 2.721,
+      "text": "learned, uh, communication strategies,",
+      "timestamp": "14:23"
+    },
+    {
+      "start": 865.92,
+      "duration": 1.76,
+      "text": "welcoming contributions to things like",
+      "timestamp": "14:25"
+    },
+    {
+      "start": 867.68,
+      "duration": 2.0,
+      "text": "that. If you don't have that already, it",
+      "timestamp": "14:27"
+    },
+    {
+      "start": 869.68,
+      "duration": 1.839,
+      "text": "doesn't matter how big or small you are,",
+      "timestamp": "14:29"
+    },
+    {
+      "start": 871.519,
+      "duration": 1.601,
+      "text": "it's really important to think about",
+      "timestamp": "14:31"
+    },
+    {
+      "start": 873.12,
+      "duration": 2.399,
+      "text": "those sorts of things. And then how we",
+      "timestamp": "14:33"
+    },
+    {
+      "start": 875.519,
+      "duration": 2.161,
+      "text": "win. Number three, we need to talk more",
+      "timestamp": "14:35"
+    },
+    {
+      "start": 877.68,
+      "duration": 2.32,
+      "text": "openly as an industry. We've got to",
+      "timestamp": "14:37"
+    },
+    {
+      "start": 880.0,
+      "duration": 2.639,
+      "text": "share information. And so a lot of times",
+      "timestamp": "14:40"
+    },
+    {
+      "start": 882.639,
+      "duration": 1.681,
+      "text": "when this happens to companies, they're",
+      "timestamp": "14:42"
+    },
+    {
+      "start": 884.32,
+      "duration": 3.12,
+      "text": "really reluctant to talk about it. And",
+      "timestamp": "14:44"
+    },
+    {
+      "start": 887.44,
+      "duration": 1.759,
+      "text": "so I want to highlight a few things in",
+      "timestamp": "14:47"
+    },
+    {
+      "start": 889.199,
+      "duration": 1.921,
+      "text": "the industry that I think were amazing",
+      "timestamp": "14:49"
+    },
+    {
+      "start": 891.12,
+      "duration": 2.32,
+      "text": "responses. Um, you know, if something",
+      "timestamp": "14:51"
+    },
+    {
+      "start": 893.44,
+      "duration": 1.28,
+      "text": "happens to you, you shouldn't try to",
+      "timestamp": "14:53"
+    },
+    {
+      "start": 894.72,
+      "duration": 1.44,
+      "text": "hide it under the rug and say, \"It never",
+      "timestamp": "14:54"
+    },
+    {
+      "start": 896.16,
+      "duration": 2.08,
+      "text": "happened. It wasn't us.\" I understand",
+      "timestamp": "14:56"
+    },
+    {
+      "start": 898.24,
+      "duration": 2.24,
+      "text": "legal feels weird about it and all that",
+      "timestamp": "14:58"
+    },
+    {
+      "start": 900.48,
+      "duration": 1.76,
+      "text": "sort of things. Uh, but a really good",
+      "timestamp": "15:00"
+    },
+    {
+      "start": 902.24,
+      "duration": 2.399,
+      "text": "response to highlight, I think, was uh,",
+      "timestamp": "15:02"
+    },
+    {
+      "start": 904.639,
+      "duration": 2.081,
+      "text": "from the Cosmos team, right, where they",
+      "timestamp": "15:04"
+    },
+    {
+      "start": 906.72,
+      "duration": 1.52,
+      "text": "they had a blog out. I don't know if",
+      "timestamp": "15:06"
+    },
+    {
+      "start": 908.24,
+      "duration": 2.719,
+      "text": "you've seen this, um, but they they",
+      "timestamp": "15:08"
+    },
+    {
+      "start": 910.959,
+      "duration": 2.161,
+      "text": "identified that there were people that",
+      "timestamp": "15:10"
+    },
+    {
+      "start": 913.12,
+      "duration": 2.719,
+      "text": "that were hired and, uh, they offered",
+      "timestamp": "15:13"
+    },
+    {
+      "start": 915.839,
+      "duration": 2.081,
+      "text": "double bug bounty on anything that that",
+      "timestamp": "15:15"
+    },
+    {
+      "start": 917.92,
+      "duration": 1.84,
+      "text": "person touched. I think that's a great",
+      "timestamp": "15:17"
+    },
+    {
+      "start": 919.76,
+      "duration": 1.84,
+      "text": "response. It encourages people to look",
+      "timestamp": "15:19"
+    },
+    {
+      "start": 921.6,
+      "duration": 2.64,
+      "text": "at it and it's not a culture of, you",
+      "timestamp": "15:21"
+    },
+    {
+      "start": 924.24,
+      "duration": 2.08,
+      "text": "know, we need to be like super ashamed.",
+      "timestamp": "15:24"
+    },
+    {
+      "start": 926.32,
+      "duration": 2.639,
+      "text": "We've got to share this because um, when",
+      "timestamp": "15:26"
+    },
+    {
+      "start": 928.959,
+      "duration": 2.081,
+      "text": "you have this,",
+      "timestamp": "15:28"
+    },
+    {
+      "start": 931.04,
+      "duration": 1.359,
+      "text": "someone else might be doing the same",
+      "timestamp": "15:31"
+    },
+    {
+      "start": 932.399,
+      "duration": 1.361,
+      "text": "thing, right? They're the same people",
+      "timestamp": "15:32"
+    },
+    {
+      "start": 933.76,
+      "duration": 2.0,
+      "text": "interviewing at multiple jobs. And the",
+      "timestamp": "15:33"
+    },
+    {
+      "start": 935.76,
+      "duration": 2.319,
+      "text": "sooner we get that out to other people,",
+      "timestamp": "15:35"
+    },
+    {
+      "start": 938.079,
+      "duration": 1.921,
+      "text": "the better. So what do I mean in a",
+      "timestamp": "15:38"
+    },
+    {
+      "start": 940.0,
+      "duration": 1.519,
+      "text": "formal capacity, right? Other than",
+      "timestamp": "15:40"
+    },
+    {
+      "start": 941.519,
+      "duration": 2.401,
+      "text": "following people on X and things, here's",
+      "timestamp": "15:41"
+    },
+    {
+      "start": 943.92,
+      "duration": 1.76,
+      "text": "three sources that you can use right",
+      "timestamp": "15:43"
+    },
+    {
+      "start": 945.68,
+      "duration": 1.839,
+      "text": "now. Doesn't matter if you're small, if",
+      "timestamp": "15:45"
+    },
+    {
+      "start": 947.519,
+      "duration": 2.081,
+      "text": "you're big. The first two on the top,",
+      "timestamp": "15:47"
+    },
+    {
+      "start": 949.6,
+      "duration": 1.84,
+      "text": "those are called Isacs. That's an",
+      "timestamp": "15:49"
+    },
+    {
+      "start": 951.44,
+      "duration": 2.639,
+      "text": "information sharing community. And",
+      "timestamp": "15:51"
+    },
+    {
+      "start": 954.079,
+      "duration": 1.921,
+      "text": "basically what these do is they're made",
+      "timestamp": "15:54"
+    },
+    {
+      "start": 956.0,
+      "duration": 2.56,
+      "text": "up of exchanges, other crypto companies",
+      "timestamp": "15:56"
+    },
+    {
+      "start": 958.56,
+      "duration": 2.639,
+      "text": "that if you see an IT worker, we can",
+      "timestamp": "15:58"
+    },
+    {
+      "start": 961.199,
+      "duration": 1.921,
+      "text": "pass on the name and say this was the",
+      "timestamp": "16:01"
+    },
+    {
+      "start": 963.12,
+      "duration": 1.839,
+      "text": "email, this was the alias they used,",
+      "timestamp": "16:03"
+    },
+    {
+      "start": 964.959,
+      "duration": 1.521,
+      "text": "this was the file they told me to",
+      "timestamp": "16:04"
+    },
+    {
+      "start": 966.48,
+      "duration": 1.919,
+      "text": "download. And you know, by you",
+      "timestamp": "16:06"
+    },
+    {
+      "start": 968.399,
+      "duration": 1.44,
+      "text": "submitting that and telling other",
+      "timestamp": "16:08"
+    },
+    {
+      "start": 969.839,
+      "duration": 2.081,
+      "text": "people, you actually might save somebody",
+      "timestamp": "16:09"
+    },
+    {
+      "start": 971.92,
+      "duration": 2.24,
+      "text": "else who's a little bit more proactive.",
+      "timestamp": "16:11"
+    },
+    {
+      "start": 974.16,
+      "duration": 2.4,
+      "text": "So those are two good sources. Um, if",
+      "timestamp": "16:14"
+    },
+    {
+      "start": 976.56,
+      "duration": 1.6,
+      "text": "you just want to check this out, right,",
+      "timestamp": "16:16"
+    },
+    {
+      "start": 978.16,
+      "duration": 1.52,
+      "text": "you don't have the resources, you don't",
+      "timestamp": "16:18"
+    },
+    {
+      "start": 979.68,
+      "duration": 2.8,
+      "text": "have a security team yet, um, there is a",
+      "timestamp": "16:19"
+    },
+    {
+      "start": 982.48,
+      "duration": 2.08,
+      "text": "free resource. is called Alien Vault",
+      "timestamp": "16:22"
+    },
+    {
+      "start": 984.56,
+      "duration": 2.48,
+      "text": "OTX. Um that's at the bottom and you can",
+      "timestamp": "16:24"
+    },
+    {
+      "start": 987.04,
+      "duration": 2.159,
+      "text": "see that there's uh you can follow tags",
+      "timestamp": "16:27"
+    },
+    {
+      "start": 989.199,
+      "duration": 2.401,
+      "text": "and so anytime there's new things about",
+      "timestamp": "16:29"
+    },
+    {
+      "start": 991.6,
+      "duration": 2.239,
+      "text": "IT workers, you can actually see the",
+      "timestamp": "16:31"
+    },
+    {
+      "start": 993.839,
+      "duration": 2.081,
+      "text": "emails, the names, the things and then",
+      "timestamp": "16:33"
+    },
+    {
+      "start": 995.92,
+      "duration": 1.919,
+      "text": "do a quick check of your HR system",
+      "timestamp": "16:35"
+    },
+    {
+      "start": 997.839,
+      "duration": 2.081,
+      "text": "because they are persistent, right?",
+      "timestamp": "16:37"
+    },
+    {
+      "start": 999.92,
+      "duration": 2.64,
+      "text": "They'll try again and try again and try",
+      "timestamp": "16:39"
+    },
+    {
+      "start": 1002.56,
+      "duration": 2.399,
+      "text": "again. Fun fact, after Kraken did our",
+      "timestamp": "16:42"
+    },
+    {
+      "start": 1004.959,
+      "duration": 3.361,
+      "text": "thing, it did not stop. They continued",
+      "timestamp": "16:44"
+    },
+    {
+      "start": 1008.32,
+      "duration": 2.0,
+      "text": "to try and reach out and get hired to",
+      "timestamp": "16:48"
+    },
+    {
+      "start": 1010.32,
+      "duration": 2.4,
+      "text": "various roles. So, it's clear that even",
+      "timestamp": "16:50"
+    },
+    {
+      "start": 1012.72,
+      "duration": 2.799,
+      "text": "though we made a viral meme of them, uh,",
+      "timestamp": "16:52"
+    },
+    {
+      "start": 1015.519,
+      "duration": 2.401,
+      "text": "they kept going. And so, if you're not",
+      "timestamp": "16:55"
+    },
+    {
+      "start": 1017.92,
+      "duration": 2.08,
+      "text": "familiar at all with what an ISAC is,",
+      "timestamp": "16:57"
+    },
+    {
+      "start": 1020.0,
+      "duration": 1.92,
+      "text": "this is what it looks like, right? Uh,",
+      "timestamp": "17:00"
+    },
+    {
+      "start": 1021.92,
+      "duration": 2.72,
+      "text": "people, various companies will publish",
+      "timestamp": "17:01"
+    },
+    {
+      "start": 1024.64,
+      "duration": 2.0,
+      "text": "emails, things like that. You still need",
+      "timestamp": "17:04"
+    },
+    {
+      "start": 1026.64,
+      "duration": 1.439,
+      "text": "to vet these, right? That doesn't mean",
+      "timestamp": "17:06"
+    },
+    {
+      "start": 1028.079,
+      "duration": 2.719,
+      "text": "you need to go vigilante on these, but",
+      "timestamp": "17:08"
+    },
+    {
+      "start": 1030.799,
+      "duration": 1.52,
+      "text": "the idea is that you have a list of",
+      "timestamp": "17:10"
+    },
+    {
+      "start": 1032.319,
+      "duration": 2.64,
+      "text": "emails you can check and see. And the",
+      "timestamp": "17:12"
+    },
+    {
+      "start": 1034.959,
+      "duration": 1.761,
+      "text": "more that we share this information and",
+      "timestamp": "17:14"
+    },
+    {
+      "start": 1036.72,
+      "duration": 1.838,
+      "text": "the more we get this stuff out there,",
+      "timestamp": "17:16"
+    },
+    {
+      "start": 1038.559,
+      "duration": 2.64,
+      "text": "the better prepared we're going to be.",
+      "timestamp": "17:18"
+    },
+    {
+      "start": 1041.199,
+      "duration": 2.719,
+      "text": "So, uh, my talk is called troll but",
+      "timestamp": "17:21"
+    },
+    {
+      "start": 1043.919,
+      "duration": 2.16,
+      "text": "verify. And I think trolling in a",
+      "timestamp": "17:23"
+    },
+    {
+      "start": 1046.079,
+      "duration": 2.161,
+      "text": "non-culture is such an important part of",
+      "timestamp": "17:26"
+    },
+    {
+      "start": 1048.24,
+      "duration": 2.48,
+      "text": "the crypto space. We can't lose that",
+      "timestamp": "17:28"
+    },
+    {
+      "start": 1050.72,
+      "duration": 2.0,
+      "text": "part. It's good to be a non. It's good",
+      "timestamp": "17:30"
+    },
+    {
+      "start": 1052.72,
+      "duration": 1.92,
+      "text": "to have pseudonyms. That's the whole",
+      "timestamp": "17:32"
+    },
+    {
+      "start": 1054.64,
+      "duration": 2.399,
+      "text": "point of this space. But, you know, even",
+      "timestamp": "17:34"
+    },
+    {
+      "start": 1057.039,
+      "duration": 1.76,
+      "text": "though we do those sort of things, we",
+      "timestamp": "17:37"
+    },
+    {
+      "start": 1058.799,
+      "duration": 2.401,
+      "text": "still need to verify and mature as a",
+      "timestamp": "17:38"
+    },
+    {
+      "start": 1061.2,
+      "duration": 2.4,
+      "text": "group to build in those processes to",
+      "timestamp": "17:41"
+    },
+    {
+      "start": 1063.6,
+      "duration": 2.72,
+      "text": "make sure that we're actually stopping",
+      "timestamp": "17:43"
+    },
+    {
+      "start": 1066.32,
+      "duration": 2.4,
+      "text": "this really, really pertinent threat.",
+      "timestamp": "17:46"
+    },
+    {
+      "start": 1068.72,
+      "duration": 3.36,
+      "text": "Um, I'm checking on time and we have",
+      "timestamp": "17:48"
+    },
+    {
+      "start": 1072.08,
+      "duration": 1.68,
+      "text": "three minutes left for questions. Thank",
+      "timestamp": "17:52"
+    },
+    {
+      "start": 1073.76,
+      "duration": 2.32,
+      "text": "you so much for your time and I'll take",
+      "timestamp": "17:53"
+    },
+    {
+      "start": 1076.08,
+      "duration": 3.24,
+      "text": "some questions.",
+      "timestamp": "17:56"
+    },
+    {
+      "start": 1079.85,
+      "duration": 2.709,
+      "text": "[Applause]",
+      "timestamp": "17:59"
+    },
+    {
+      "start": 1082.559,
+      "duration": 3.0,
+      "text": "Yeah.",
+      "timestamp": "18:02"
+    },
+    {
+      "start": 1088.4,
+      "duration": 1.84,
+      "text": "Good question. I almost put that as a",
+      "timestamp": "18:08"
+    },
+    {
+      "start": 1090.24,
+      "duration": 2.24,
+      "text": "slide. The insult Kim Jong-un strategy",
+      "timestamp": "18:10"
+    },
+    {
+      "start": 1092.48,
+      "duration": 2.559,
+      "text": "is hilarious. Uh there's lots of people",
+      "timestamp": "18:12"
+    },
+    {
+      "start": 1095.039,
+      "duration": 2.081,
+      "text": "that will testify that it works. My",
+      "timestamp": "18:15"
+    },
+    {
+      "start": 1097.12,
+      "duration": 1.2,
+      "text": "concern is that they'll change their",
+      "timestamp": "18:17"
+    },
+    {
+      "start": 1098.32,
+      "duration": 1.84,
+      "text": "tactics, right? They're like literally",
+      "timestamp": "18:18"
+    },
+    {
+      "start": 1100.16,
+      "duration": 3.12,
+      "text": "working directly with the top dogs. So,",
+      "timestamp": "18:20"
+    },
+    {
+      "start": 1103.28,
+      "duration": 1.92,
+      "text": "um you know, I think it will work for a",
+      "timestamp": "18:23"
+    },
+    {
+      "start": 1105.2,
+      "duration": 1.52,
+      "text": "time, but then eventually they'll get a",
+      "timestamp": "18:25"
+    },
+    {
+      "start": 1106.72,
+      "duration": 1.92,
+      "text": "waiver that says it's okay. You can talk",
+      "timestamp": "18:26"
+    },
+    {
+      "start": 1108.64,
+      "duration": 1.919,
+      "text": "trash about him. You can say he's fat,",
+      "timestamp": "18:28"
+    },
+    {
+      "start": 1110.559,
+      "duration": 2.081,
+      "text": "ugly, whatever. So, I think it's funny.",
+      "timestamp": "18:30"
+    },
+    {
+      "start": 1112.64,
+      "duration": 2.0,
+      "text": "It's a meme. works now, but I wouldn't",
+      "timestamp": "18:32"
+    },
+    {
+      "start": 1114.64,
+      "duration": 1.919,
+      "text": "put all my, you know, I I I wouldn't say",
+      "timestamp": "18:34"
+    },
+    {
+      "start": 1116.559,
+      "duration": 1.921,
+      "text": "that this is the enterprise ready thing",
+      "timestamp": "18:36"
+    },
+    {
+      "start": 1118.48,
+      "duration": 1.6,
+      "text": "10 years in the future. You know what I",
+      "timestamp": "18:38"
+    },
+    {
+      "start": 1120.08,
+      "duration": 3.44,
+      "text": "mean? Good question.",
+      "timestamp": "18:40"
+    },
+    {
+      "start": 1123.52,
+      "duration": 2.0,
+      "text": "Yeah.",
+      "timestamp": "18:43"
+    },
+    {
+      "start": 1125.52,
+      "duration": 3.0,
+      "text": "Sorry.",
+      "timestamp": "18:45"
+    },
+    {
+      "start": 1132.799,
+      "duration": 2.321,
+      "text": "Okay. Hey, um, really interesting talk.",
+      "timestamp": "18:52"
+    },
+    {
+      "start": 1135.12,
+      "duration": 2.08,
+      "text": "I'm wondering like what tipped you first",
+      "timestamp": "18:55"
+    },
+    {
+      "start": 1137.2,
+      "duration": 2.24,
+      "text": "off that you knew they were North Korean",
+      "timestamp": "18:57"
+    },
+    {
+      "start": 1139.44,
+      "duration": 1.76,
+      "text": "spies so you started trolling them and",
+      "timestamp": "18:59"
+    },
+    {
+      "start": 1141.2,
+      "duration": 2.16,
+      "text": "already had like your high alerts up",
+      "timestamp": "19:01"
+    },
+    {
+      "start": 1143.36,
+      "duration": 2.559,
+      "text": "before you like got out their QAC and",
+      "timestamp": "19:03"
+    },
+    {
+      "start": 1145.919,
+      "duration": 1.521,
+      "text": "could really prove that they are North",
+      "timestamp": "19:05"
+    },
+    {
+      "start": 1147.44,
+      "duration": 2.16,
+      "text": "Korean spies. Yeah, 100%. We really",
+      "timestamp": "19:07"
+    },
+    {
+      "start": 1149.6,
+      "duration": 1.439,
+      "text": "wanted to make sure that we vet that",
+      "timestamp": "19:09"
+    },
+    {
+      "start": 1151.039,
+      "duration": 1.681,
+      "text": "right before we do this because imagine",
+      "timestamp": "19:11"
+    },
+    {
+      "start": 1152.72,
+      "duration": 2.079,
+      "text": "if it was a real person and we just like",
+      "timestamp": "19:12"
+    },
+    {
+      "start": 1154.799,
+      "duration": 1.601,
+      "text": "yeah Kraken has a terrible interview",
+      "timestamp": "19:14"
+    },
+    {
+      "start": 1156.4,
+      "duration": 1.6,
+      "text": "process. They just asked about food all",
+      "timestamp": "19:16"
+    },
+    {
+      "start": 1158.0,
+      "duration": 2.799,
+      "text": "day. Um, no, we did get a tip from those",
+      "timestamp": "19:18"
+    },
+    {
+      "start": 1160.799,
+      "duration": 2.0,
+      "text": "information sharing communities. And so",
+      "timestamp": "19:20"
+    },
+    {
+      "start": 1162.799,
+      "duration": 1.681,
+      "text": "that's kind of sort of my pitch to the",
+      "timestamp": "19:22"
+    },
+    {
+      "start": 1164.48,
+      "duration": 1.6,
+      "text": "community is like we need to get more",
+      "timestamp": "19:24"
+    },
+    {
+      "start": 1166.08,
+      "duration": 1.68,
+      "text": "involved in sharing those things. But",
+      "timestamp": "19:26"
+    },
+    {
+      "start": 1167.76,
+      "duration": 1.6,
+      "text": "because we had those actionable tips",
+      "timestamp": "19:27"
+    },
+    {
+      "start": 1169.36,
+      "duration": 2.4,
+      "text": "vetted, um, you know, often they come",
+      "timestamp": "19:29"
+    },
+    {
+      "start": 1171.76,
+      "duration": 2.96,
+      "text": "from like trusted sources. So that's how",
+      "timestamp": "19:31"
+    },
+    {
+      "start": 1174.72,
+      "duration": 1.36,
+      "text": "we got the tip and that's how we felt",
+      "timestamp": "19:34"
+    },
+    {
+      "start": 1176.08,
+      "duration": 1.68,
+      "text": "comfortable enough to engage the",
+      "timestamp": "19:36"
+    },
+    {
+      "start": 1177.76,
+      "duration": 3.919,
+      "text": "trolling. Thank you. Good question.",
+      "timestamp": "19:37"
+    },
+    {
+      "start": 1181.679,
+      "duration": 3.521,
+      "text": "Time for one more.",
+      "timestamp": "19:41"
+    },
+    {
+      "start": 1185.2,
+      "duration": 3.0,
+      "text": "awkward",
+      "timestamp": "19:45"
+    },
+    {
+      "start": 1194.08,
+      "duration": 2.4,
+      "text": "silence.",
+      "timestamp": "19:54"
+    },
+    {
+      "start": 1196.48,
+      "duration": 1.6,
+      "text": "Um, awesome. Well, thank you so much",
+      "timestamp": "19:56"
+    },
+    {
+      "start": 1198.08,
+      "duration": 1.44,
+      "text": "everyone today. I hope you learned",
+      "timestamp": "19:58"
+    },
+    {
+      "start": 1199.52,
+      "duration": 2.8,
+      "text": "something. Oh, wait. I got Sorry, my",
+      "timestamp": "19:59"
+    },
+    {
+      "start": 1202.32,
+      "duration": 2.08,
+      "text": "contact. Uh, don't get in the habit of",
+      "timestamp": "20:02"
+    },
+    {
+      "start": 1204.4,
+      "duration": 2.24,
+      "text": "scanning QR codes at conferences, by the",
+      "timestamp": "20:04"
+    },
+    {
+      "start": 1206.64,
+      "duration": 1.76,
+      "text": "way. Um, but if you do want to chat more",
+      "timestamp": "20:06"
+    },
+    {
+      "start": 1208.4,
+      "duration": 1.92,
+      "text": "about this, I have all the links on my",
+      "timestamp": "20:08"
+    },
+    {
+      "start": 1210.32,
+      "duration": 2.719,
+      "text": "portrait site, portrait.so/noid.",
+      "timestamp": "20:10"
+    },
+    {
+      "start": 1213.039,
+      "duration": 1.601,
+      "text": "Uh there's a fun surprise if you scan",
+      "timestamp": "20:13"
+    },
+    {
+      "start": 1214.64,
+      "duration": 2.24,
+      "text": "the QR code, just so you know. So, some",
+      "timestamp": "20:14"
+    },
+    {
+      "start": 1216.88,
+      "duration": 2.32,
+      "text": "of you may have got it already, so just",
+      "timestamp": "20:16"
+    },
+    {
+      "start": 1219.2,
+      "duration": 2.08,
+      "text": "be careful. Um but if you want to reach",
+      "timestamp": "20:19"
+    },
+    {
+      "start": 1221.28,
+      "duration": 1.84,
+      "text": "out to me, please let me know. Um and if",
+      "timestamp": "20:21"
+    },
+    {
+      "start": 1223.12,
+      "duration": 1.919,
+      "text": "you do see something suspicious, please",
+      "timestamp": "20:23"
+    },
+    {
+      "start": 1225.039,
+      "duration": 1.52,
+      "text": "say something. I'll get it to the right",
+      "timestamp": "20:25"
+    },
+    {
+      "start": 1226.559,
+      "duration": 4.201,
+      "text": "people. Thank you so much, everyone.",
+      "timestamp": "20:26"
+    }
+  ],
+  "extraction_timestamp": "2025-07-08T14:45:53.130198",
+  "playlist_title": "EthCC[8] Redford Stage"
+}

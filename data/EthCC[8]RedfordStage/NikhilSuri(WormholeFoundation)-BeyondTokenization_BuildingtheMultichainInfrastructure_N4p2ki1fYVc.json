@@ -1,0 +1,2897 @@
+{
+  "video_id": "N4p2ki1fYVc",
+  "video_title": "Nikhil  Suri (Wormhole Foundation )-Beyond Tokenization: Building the Multichain Infrastructure",
+  "video_url": "https://www.youtube.com/watch?v=N4p2ki1fYVc",
+  "channel_title": "[EthCC] Livestream 4",
+  "published_at": "2025-07-03T22:02:52+00:00",
+  "duration_seconds": null,
+  "view_count": 45,
+  "like_count": 1,
+  "description": "As billions in real-world assets move onchain, the true revolution isn't what's being tokenized—it's how these assets connect across ecosystems. Discover why multichain interoperability is the critical infrastructure that transforms tokenization from",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 479,
+    "aggregated_text": "Hey everyone, my name is Nick Hilsuri. I'm head of product and engineering at the wormhole foundation and uh I'm very excited to to be here with you all today to talk about um well the official title of this talk is uh beyond tokenization and how multi-chain can help. But what we are really talking about here is institutions coming into crypto. So institutions tokenizing their assets on boarding into crypto and ultimately you know unlocking the next trillion dollars on chain. Um and to to get started here I'm going to talk quickly about asset classes. Um and as a fun exercise to to start with a question for you all. Um though maybe one more to to think about for a couple seconds or a couple minutes uh before unless you want to shout shout out an answer is um does anyone know what the largest asset class in the world is think for a few seconds maybe shout out an answer. Yeah it is real estate. Um and do you know how large it is as an asset class? 200 trillion. Yeah. Yeah. Good answer. Uh very close and we'll see the answer in the next slide which is um real estate is a $380 trillion asset class. Um so real estate is massive and you can see some of the other other largest asset classes in the world on this slide here. So you have insurance a 7 trillion uh dollar asset class. Debt is around a hundred trillion dollars. um gold around $20 trillion, stocks around $150 trillion, and then you have derivatives there as well. Um the number there is one quadrillion dollars, although that is a bit misleading because derivatives cover a whole variety of asset classes and a whole variety of contracts. So, they don't neatly all fit into just one asset class. But the sum of all kinds of derivative contracts and all the derivatives that cover all the different asset classes is around one quadrillion dollars. So, so quite a large amount of money in these asset classes. Um, now from this where is the the majority of the world's capital you know actually actually held uh when it comes to these asset classes and that is in um funds. So many of these names you likely know. Vanguard, Fidelity, Black Rockck, Brookfield. Maybe you you you yourself even have some money invested in these kinds of funds. You know, money market fund, bond funds, ETFs, um bond ETFs, stock ETFs, REIT funds. And whether it's mutual funds, trusts, or ETFs, they really all boil down to to the same thing. Um and what is a fund? A fund is a structured product that is designed to let individuals and businesses gain exposure to these industries and the revenue or yield that these industries generate. Um and now there's one thing that all of these funds um today have in common and that is that um they are all offchain. Um so how do you get these funds onchain? That's where the process of tokenization comes in. And many of you probably already know or are intimately familiar with what tokenization means and maybe even how it works. But all that tokenization is is converting real assets into digital assets that exist on the blockchain. Um the best example of this is stable coins. Um everyone knows stable coins. People use stable coins. And there are other examples that are that we'll touch on later that are emerging that are exciting. Um and so you've seen the asset classes, you've seen um the funds. Uh we've talked about tokenization which is how we actually get these on chain. But one of the big questions remains which is you know why why would you actually want to tokenize uh an asset? Um what what are the benefits to you as an asset issuer or to asset issuers generally for tokenizing assets and bringing them on chain? And so to to tease the benefits first um we'll do a quick review on some of the downsides of uh traditional assets. Um and at a high level the the primary issue is that they are antiquated. Um a few points here they lack digitization. There are limited market hours. Um there are slow and cumbersome redemption processes. there's generally been limited access to alternative assets in the traditional financial world. Um, so not everyone has been able to participate in those markets. And then fractional ownership is is another big one. Um, and so a couple of the points that I'd want to highlight here are first limited market hours. As we all know, crypto is a 247 industry. Um, when it comes to stocks or more traditional assets, you're pretty much limited by US Eastern time or the time zone of whatever um, the market is in. And for example, the NASDAQ is only open about six and a half hours every day. And I must not be the only one in this room who has maybe done something during the day, worked during the day and come home and wanted to work on my stock portfolio or trade something and I can't do it because the stock market is closed. Um so uh full 247 market hours is a is a big advantage of crypto. Another one I'd like to highlight is um fractional ownership. And we've seen um a lot of traditional finance firms, we've seen actually some innovation in the world of fractional ownership in the traditional finance world. Um but historically, you could only own, you know, one stock. You could only own one house. And some of these assets, especially real estate, require a tremendous amount of capital to actually participate in and gain exposure to. And so fractionalizing ownership of assets is something that natively can happen on the blockchain and can really broaden access to to many more people to participate in these markets. Um and so from these downsides you might now be able to imagine what the benefits of tokenization might be. So some of the reasons here, greater liquidity, real-time settlement, broadening access for your asset, the potential use in in DeFi, which I think is is still nent but emerging and something we'll touch on later. Um reducing human error, automating things natively on the on chain and then also having 247 markets. And um a couple of the points I'd want to highlight on here are you have real-time settlement. So, if you want to exit a position in the traditional finance market, um let's say on a Friday evening, you'll need to wait until uh Monday morning to get your money back or to have that to have that sale processed. Um that means that you need to wait almost three and a half days to uh take the proceeds from that sale, rotate into a into a new asset class, or do something new with that money. um that can impact risk management, that can impact liquidity requirements and overall slow down your your velocity of liquidity. Um doing it onchain means that you're not limited at all. Things settle in real time. It's instant, which means you can work with a far greater velocity of liquidity. Um putting assets on chain is also a huge bonus in terms of accessibility. You know, many asset classes have traditionally been gated um in uh in finance today. So real estate is a good example. Private credit is another great example. Um onchain anyone can once tokenized anyone can buy, sell, hold and generally gain exposure to these uh asset classes. So some of the benefits of tokenizing assets. Um and now the next question you might have is who is actually tokenizing assets today? um beyond maybe what you hear about in popular discourse such as you know stables and um the really stables. Um and the the list is the the folks who are doing this are certain funds and then there are certain platforms that are um that are that provide services to tokenize funds. So some of some of the examples of platforms that provide services to actually tokenize funds are Securitize Centrifuge and Marcato Bitcoin. You've probably heard of of many of these. Marcato Bitcoin, if you haven't heard, is one of the largest sort of tokenization services in Latin America. Has around 200 million of assets. So growing growing that assets under management. Um and these are all companies that that we platforms that we at wormhole work very closely with as well. and they've helped some major funds tokenize um tokenize major amounts of capital. And so there's BlackRock, the Biddle Fund, which many of you might have heard of, is a money market fund. Apollo Acred is a private credit fund. KKR and Hamilton Lane have also tokenized um some funds. I think KKR tokenized a sort of health investment fund um health insurance fund. And so really broadening access to some of these asset classes that uh that other people haven't haven't had access to in the past. Um so they have all the benefits we mentioned before. And I guess to wrap up this section on tokenization, I want to go through what a tokenized asset actually looks like under the hood. Um it'll still be high level because there are a lot of technical details and regulatory details that we'll gloss over. But um to give you a a more concrete example, we can look at Black Rockck Bidd. So Bidd is a is a tokenized fund that has around $2.8 billion under management. Um and now to actually create shares of Bidd, you have to be a qualified purchaser and you go through an onboarding process and a funding process. And once you've gone through that funding process, you get your tokens. So you get your shares of Bidd issued to you on chain. One of the neat things about Bidd is that there's a daily sort of dividend and balance that's calculated and paid out. Um so your token balance will increase or decrease based off of the uh the sort of change um and dividends from the fund. And then um as an investor, you have a couple of liquidity options. So, one option is you can have a direct USD redemption process, which is the more typical redemption process that most investors are probably familiar with. You send that those funds uh via a bank, a wire transfer. It takes a couple of days to get those funds. Uh the other liquidity option that you have once you now have this uh the these tokens on chain is you can do a secondary sale with Circle into USDC. And so, you can send your Bidd shares to a to a liquidity provider. you can receive USDC and now you'll have USDC on chain that you can immediately rotate into another investment. And so this is uh this is a much faster process that uh that is unlocked by having this this fund and uh shares of this fund on chain. I think the other thing that's cool about Bidd is that um it's not a PC. It's not a marketing announcement. It's not like in a separate blocked off sandboxed environment that's just for testing. This is actually on mainet chains. It's live today. Um, you can hold it, you can buy it, you can send it across chains using wormhole. Um, and it's live today, which is which is pretty exciting. And hopefully, as we'll see later on, you know, gaining more utility in in DeFi as well. So, now I want to talk a little bit more about wormhole and, you know, what how we've been working with asset issuers, um, asset managers and generally institutions who are coming into crypto. Um though I'm sure many of you know as well what wormhole is. Uh wormhole provides interoperability between blockchains. Um at the lowest level wormhole allows you to push or pull data between uh from one chain to to another chain. And wormhole is is robust. It's battle tested and has an entire suite of products built on top of it that both cater to specific use cases and then also make the UX of going um crosschain really smooth. Um going crosschain is under the hood a pretty complex process that requires a lot of different steps and we really try to make it a one-click sort of seamless experience for any user who is doing that. Um, and so you can really think of Wormhole as as offering uh as as offering a suite of products that has solved one problem really well, which is going crosschain and is perfectly positioned to also address the various needs of asset issuers coming on chain who want to access all of crypto liquidity and users from day one and who want to collaborate really deeply with a partner who has worked across lots of different ecosystems in the space. So when it comes to tokenization, you know, why why is being on multiple chains even important? Um it's many of the same reasons that you have multi-chain tokens today. Um you get access to the entire user base of crypto from day one. You are able to access all the liquidity in crypto from day one. Um you can seamlessly move your liquidity between different ecosystems and take advantage of those opportunities in those ecosystems. You can cater to any preferences that investors might have across different chains and the opportunities that are on those chains. And generally you broadly gain access to utility within DeFi. And so we've worked with asset issuers on things like you know very bespoke kind of solutions. Um so things like high security requirements and multi-verifier systems. I would argue that security is one of the biggest um most important things for asset issuers as they're bringing funds with massive amounts of assets under management on chain. Um we've worked with asset issuers on custom compliance rules, excuse me, custom compliance requirements and and rules to follow what uh when moving assets across chains. Um, we have burn and mint transfer frameworks for the smoothest user experience, making sure that when you move tokens crosschain, the supply stays consistent across all chains that an asset is deployed on. Um, we've collaborated with some of the biggest um, folks in the space. So, blue chip D5 pro protocols and uh and um some top tier info providers and overall um you know wormhole products are are live in mainet today with tokenized funds and it's it's proven tech that that works for these funds. So along with all the white label solutions that we have we also have an entire product suite that we've built to cater to these asset issuers. So we have wormhole entity. It's our framework for burn and mint token transfers across chains that many of our partners use. There's wormhole settlement which allows for faster than finality transfers at low cost and low latency. Um portal bridge is a front end that many of you probably know for transferring assets via wormhole. Um and may maybe some of you even use portal bridge. Wormhole Connect is a customizable and embedded UI widget that you can pull into your own site in a few lines of code and um pull in all the functionality of wormhole token transfers, transferring tokenized assets, transferring other kinds of assets that that use wormhole, transferring assets in general. Um and then wormhole scan is our explorer to be able to view all kinds of crosschain transactions. For custom integrations, we have just general message passing. you can just inter in integrate directly with the wormhole stack and then we have wormhole relaying so you can have a one-click experience and your transfer is automatically relayed to the destination chain. So um product suite overall has been built and catered towards the needs of asset issuers. Um now what what we're really excited about is just everything um excuse the uh the slack alerts. Um what we're really excited about is everything being tokenized and um building towards a future where where all kinds of assets are going to be tokenized. So so looking at some data, you know, we always have charts that are up and to the right, which is exciting. And this is a bit of an outdated chart. Um it I think the last date is the the um oh January 1st uh 2025. So not up to date in the last six months, but still gives you a good idea from rwa.xyz. XYZ. Um, tokenized assets in 2024 were up 32% in terms of market cap. The current RWA market cap, that's a figure I updated yesterday from RWA.xyz is is around $24 billion. Um, and then there's again growing utility in in DeFi, which which I'll talk about on the last slide. Um, so what is what does DeFi utility even look like for for some of these funds on chain? you you might think that okay you have the funds on chain what do you even do they just sit there do you just hold them do you just get the dividends from if you're holding bidd um so part one is just getting the assets on chain and that's been a huge amount of work and I don't want to discount how much work it is to actually get the assets on chain and um sort of sort of offer them to uh to crypto users and in the crypto space generally now part two is actually using these assets within DeFi and so now again while this is nent very new, still small. There are a few exciting use cases that I want to highlight here that we're starting to see. So, um first uh use case for Black Rockck B is it can be used as collateral for USDTB, which is a stable coin on Athena. This asset has around $1.4 billion of supply. Um a significant portion of which is uh is Bidd. So that's one use case is using B as collateral for an onchain stable coin um that's offered by Athena. Another use case is Acred which is Apollo's um Apollo Global's uh tokenized private credit fund. You can use uh Acred to you can use Morpho to get boosted yields on Acred by using Sacred as collateral um sort of borrowing USDC and then looping that to get boosted yields on Morpho. Um and then another use case this is a uh Salana. So I'm sorry to highlight a Salana use case here but it's still an exciting use case and as wormhole we are chain agnostic. So we're excited about all kinds of use cases. Um but you can use a AC ared as well as collateral on drift. So that's again Acred is live on multiple chains and you can use it in multiple venues that are in different ecosystems. Something that's only possible when ACred is a multi-chain asset using using Wormhole. Um so we're excited to see more of these DeFi use cases pop up. We're excited to see them pop up across all the different chains that wormhole is live on and all the different chains that these these tokenized funds actually go to. Um, so this is exciting. Um, yeah, so that's everything I had today. Um, if you're interested in in tokenization or wormhole interoperability, um, or just want to chat, just, uh, please come find me or get in touch. Uh, that's my email and that's my Twitter handle. Um, so thank you so much for listening.",
+    "text_length": 18127,
+    "word_count": 3312
+  },
+  "segments": [
+    {
+      "start": 7.759,
+      "duration": 2.321,
+      "text": "Hey everyone, my name is Nick Hilsuri.",
+      "timestamp": "00:07"
+    },
+    {
+      "start": 10.08,
+      "duration": 1.84,
+      "text": "I'm head of product and engineering at",
+      "timestamp": "00:10"
+    },
+    {
+      "start": 11.92,
+      "duration": 2.799,
+      "text": "the wormhole foundation and uh I'm very",
+      "timestamp": "00:11"
+    },
+    {
+      "start": 14.719,
+      "duration": 2.081,
+      "text": "excited to to be here with you all today",
+      "timestamp": "00:14"
+    },
+    {
+      "start": 16.8,
+      "duration": 3.2,
+      "text": "to talk about um well the official title",
+      "timestamp": "00:16"
+    },
+    {
+      "start": 20.0,
+      "duration": 3.199,
+      "text": "of this talk is uh beyond tokenization",
+      "timestamp": "00:20"
+    },
+    {
+      "start": 23.199,
+      "duration": 2.721,
+      "text": "and how multi-chain can help. But what",
+      "timestamp": "00:23"
+    },
+    {
+      "start": 25.92,
+      "duration": 2.72,
+      "text": "we are really talking about here is",
+      "timestamp": "00:25"
+    },
+    {
+      "start": 28.64,
+      "duration": 2.08,
+      "text": "institutions coming into crypto. So",
+      "timestamp": "00:28"
+    },
+    {
+      "start": 30.72,
+      "duration": 2.4,
+      "text": "institutions tokenizing their assets on",
+      "timestamp": "00:30"
+    },
+    {
+      "start": 33.12,
+      "duration": 2.32,
+      "text": "boarding into crypto and ultimately you",
+      "timestamp": "00:33"
+    },
+    {
+      "start": 35.44,
+      "duration": 2.08,
+      "text": "know unlocking the next trillion dollars",
+      "timestamp": "00:35"
+    },
+    {
+      "start": 37.52,
+      "duration": 4.32,
+      "text": "on chain. Um and to to get started here",
+      "timestamp": "00:37"
+    },
+    {
+      "start": 41.84,
+      "duration": 2.879,
+      "text": "I'm going to talk quickly about asset",
+      "timestamp": "00:41"
+    },
+    {
+      "start": 44.719,
+      "duration": 4.721,
+      "text": "classes. Um and as a fun exercise to to",
+      "timestamp": "00:44"
+    },
+    {
+      "start": 49.44,
+      "duration": 2.4,
+      "text": "start with a question for you all. Um",
+      "timestamp": "00:49"
+    },
+    {
+      "start": 51.84,
+      "duration": 2.559,
+      "text": "though maybe one more to to think about",
+      "timestamp": "00:51"
+    },
+    {
+      "start": 54.399,
+      "duration": 2.0,
+      "text": "for a couple seconds or a couple minutes",
+      "timestamp": "00:54"
+    },
+    {
+      "start": 56.399,
+      "duration": 1.84,
+      "text": "uh before unless you want to shout shout",
+      "timestamp": "00:56"
+    },
+    {
+      "start": 58.239,
+      "duration": 4.401,
+      "text": "out an answer is um does anyone know",
+      "timestamp": "00:58"
+    },
+    {
+      "start": 62.64,
+      "duration": 2.32,
+      "text": "what the largest asset class in the",
+      "timestamp": "01:02"
+    },
+    {
+      "start": 64.96,
+      "duration": 2.88,
+      "text": "world is",
+      "timestamp": "01:04"
+    },
+    {
+      "start": 67.84,
+      "duration": 1.68,
+      "text": "think for a few seconds maybe shout out",
+      "timestamp": "01:07"
+    },
+    {
+      "start": 69.52,
+      "duration": 3.12,
+      "text": "an answer.",
+      "timestamp": "01:09"
+    },
+    {
+      "start": 72.64,
+      "duration": 2.159,
+      "text": "Yeah it is real estate. Um and do you",
+      "timestamp": "01:12"
+    },
+    {
+      "start": 74.799,
+      "duration": 4.68,
+      "text": "know how large it is as an asset class?",
+      "timestamp": "01:14"
+    },
+    {
+      "start": 80.479,
+      "duration": 2.0,
+      "text": "200 trillion.",
+      "timestamp": "01:20"
+    },
+    {
+      "start": 82.479,
+      "duration": 2.881,
+      "text": "Yeah. Yeah. Good answer. Uh very close",
+      "timestamp": "01:22"
+    },
+    {
+      "start": 85.36,
+      "duration": 1.68,
+      "text": "and we'll see the answer in the next",
+      "timestamp": "01:25"
+    },
+    {
+      "start": 87.04,
+      "duration": 5.36,
+      "text": "slide which is um real estate is a $380",
+      "timestamp": "01:27"
+    },
+    {
+      "start": 92.4,
+      "duration": 3.359,
+      "text": "trillion asset class. Um so real estate",
+      "timestamp": "01:32"
+    },
+    {
+      "start": 95.759,
+      "duration": 1.921,
+      "text": "is massive and you can see some of the",
+      "timestamp": "01:35"
+    },
+    {
+      "start": 97.68,
+      "duration": 2.32,
+      "text": "other other largest asset classes in the",
+      "timestamp": "01:37"
+    },
+    {
+      "start": 100.0,
+      "duration": 2.72,
+      "text": "world on this slide here. So you have",
+      "timestamp": "01:40"
+    },
+    {
+      "start": 102.72,
+      "duration": 3.039,
+      "text": "insurance a 7 trillion uh dollar asset",
+      "timestamp": "01:42"
+    },
+    {
+      "start": 105.759,
+      "duration": 2.64,
+      "text": "class. Debt is around a hundred trillion",
+      "timestamp": "01:45"
+    },
+    {
+      "start": 108.399,
+      "duration": 3.121,
+      "text": "dollars. um gold around $20 trillion,",
+      "timestamp": "01:48"
+    },
+    {
+      "start": 111.52,
+      "duration": 3.12,
+      "text": "stocks around $150 trillion, and then",
+      "timestamp": "01:51"
+    },
+    {
+      "start": 114.64,
+      "duration": 2.32,
+      "text": "you have derivatives there as well. Um",
+      "timestamp": "01:54"
+    },
+    {
+      "start": 116.96,
+      "duration": 1.839,
+      "text": "the number there is one quadrillion",
+      "timestamp": "01:56"
+    },
+    {
+      "start": 118.799,
+      "duration": 1.761,
+      "text": "dollars, although that is a bit",
+      "timestamp": "01:58"
+    },
+    {
+      "start": 120.56,
+      "duration": 2.48,
+      "text": "misleading because derivatives cover a",
+      "timestamp": "02:00"
+    },
+    {
+      "start": 123.04,
+      "duration": 2.079,
+      "text": "whole variety of asset classes and a",
+      "timestamp": "02:03"
+    },
+    {
+      "start": 125.119,
+      "duration": 2.241,
+      "text": "whole variety of contracts. So, they",
+      "timestamp": "02:05"
+    },
+    {
+      "start": 127.36,
+      "duration": 2.16,
+      "text": "don't neatly all fit into just one asset",
+      "timestamp": "02:07"
+    },
+    {
+      "start": 129.52,
+      "duration": 3.12,
+      "text": "class. But the sum of all kinds of",
+      "timestamp": "02:09"
+    },
+    {
+      "start": 132.64,
+      "duration": 1.599,
+      "text": "derivative contracts and all the",
+      "timestamp": "02:12"
+    },
+    {
+      "start": 134.239,
+      "duration": 1.521,
+      "text": "derivatives that cover all the different",
+      "timestamp": "02:14"
+    },
+    {
+      "start": 135.76,
+      "duration": 2.64,
+      "text": "asset classes is around one quadrillion",
+      "timestamp": "02:15"
+    },
+    {
+      "start": 138.4,
+      "duration": 2.88,
+      "text": "dollars. So, so quite a large amount of",
+      "timestamp": "02:18"
+    },
+    {
+      "start": 141.28,
+      "duration": 5.28,
+      "text": "money in these asset classes. Um, now",
+      "timestamp": "02:21"
+    },
+    {
+      "start": 146.56,
+      "duration": 2.399,
+      "text": "from this where is the the majority of",
+      "timestamp": "02:26"
+    },
+    {
+      "start": 148.959,
+      "duration": 2.161,
+      "text": "the world's capital you know actually",
+      "timestamp": "02:28"
+    },
+    {
+      "start": 151.12,
+      "duration": 2.16,
+      "text": "actually held uh when it comes to these",
+      "timestamp": "02:31"
+    },
+    {
+      "start": 153.28,
+      "duration": 3.84,
+      "text": "asset classes and that is in um funds.",
+      "timestamp": "02:33"
+    },
+    {
+      "start": 157.12,
+      "duration": 2.96,
+      "text": "So many of these names you likely know.",
+      "timestamp": "02:37"
+    },
+    {
+      "start": 160.08,
+      "duration": 2.799,
+      "text": "Vanguard, Fidelity, Black Rockck,",
+      "timestamp": "02:40"
+    },
+    {
+      "start": 162.879,
+      "duration": 2.801,
+      "text": "Brookfield. Maybe you you you yourself",
+      "timestamp": "02:42"
+    },
+    {
+      "start": 165.68,
+      "duration": 2.16,
+      "text": "even have some money invested in these",
+      "timestamp": "02:45"
+    },
+    {
+      "start": 167.84,
+      "duration": 1.52,
+      "text": "kinds of funds. You know, money market",
+      "timestamp": "02:47"
+    },
+    {
+      "start": 169.36,
+      "duration": 4.159,
+      "text": "fund, bond funds, ETFs, um bond ETFs,",
+      "timestamp": "02:49"
+    },
+    {
+      "start": 173.519,
+      "duration": 3.44,
+      "text": "stock ETFs, REIT funds. And whether it's",
+      "timestamp": "02:53"
+    },
+    {
+      "start": 176.959,
+      "duration": 3.841,
+      "text": "mutual funds, trusts, or ETFs, they",
+      "timestamp": "02:56"
+    },
+    {
+      "start": 180.8,
+      "duration": 2.56,
+      "text": "really all boil down to to the same",
+      "timestamp": "03:00"
+    },
+    {
+      "start": 183.36,
+      "duration": 3.84,
+      "text": "thing. Um and what is a fund? A fund is",
+      "timestamp": "03:03"
+    },
+    {
+      "start": 187.2,
+      "duration": 3.28,
+      "text": "a structured product that is designed to",
+      "timestamp": "03:07"
+    },
+    {
+      "start": 190.48,
+      "duration": 2.32,
+      "text": "let individuals and businesses gain",
+      "timestamp": "03:10"
+    },
+    {
+      "start": 192.8,
+      "duration": 3.04,
+      "text": "exposure to these industries and the",
+      "timestamp": "03:12"
+    },
+    {
+      "start": 195.84,
+      "duration": 3.119,
+      "text": "revenue or yield that these industries",
+      "timestamp": "03:15"
+    },
+    {
+      "start": 198.959,
+      "duration": 4.801,
+      "text": "generate. Um and now there's one thing",
+      "timestamp": "03:18"
+    },
+    {
+      "start": 203.76,
+      "duration": 3.199,
+      "text": "that all of these funds um today have in",
+      "timestamp": "03:23"
+    },
+    {
+      "start": 206.959,
+      "duration": 3.041,
+      "text": "common and that is that um they are all",
+      "timestamp": "03:26"
+    },
+    {
+      "start": 210.0,
+      "duration": 2.959,
+      "text": "offchain. Um so how do you get these",
+      "timestamp": "03:30"
+    },
+    {
+      "start": 212.959,
+      "duration": 2.401,
+      "text": "funds onchain? That's where the process",
+      "timestamp": "03:32"
+    },
+    {
+      "start": 215.36,
+      "duration": 3.04,
+      "text": "of tokenization comes in. And many of",
+      "timestamp": "03:35"
+    },
+    {
+      "start": 218.4,
+      "duration": 1.919,
+      "text": "you probably already know or are",
+      "timestamp": "03:38"
+    },
+    {
+      "start": 220.319,
+      "duration": 1.681,
+      "text": "intimately familiar with what",
+      "timestamp": "03:40"
+    },
+    {
+      "start": 222.0,
+      "duration": 2.48,
+      "text": "tokenization means and maybe even how it",
+      "timestamp": "03:42"
+    },
+    {
+      "start": 224.48,
+      "duration": 3.44,
+      "text": "works. But all that tokenization is is",
+      "timestamp": "03:44"
+    },
+    {
+      "start": 227.92,
+      "duration": 3.12,
+      "text": "converting real assets into digital",
+      "timestamp": "03:47"
+    },
+    {
+      "start": 231.04,
+      "duration": 3.919,
+      "text": "assets that exist on the blockchain. Um",
+      "timestamp": "03:51"
+    },
+    {
+      "start": 234.959,
+      "duration": 2.321,
+      "text": "the best example of this is stable",
+      "timestamp": "03:54"
+    },
+    {
+      "start": 237.28,
+      "duration": 2.72,
+      "text": "coins. Um everyone knows stable coins.",
+      "timestamp": "03:57"
+    },
+    {
+      "start": 240.0,
+      "duration": 2.159,
+      "text": "People use stable coins. And there are",
+      "timestamp": "04:00"
+    },
+    {
+      "start": 242.159,
+      "duration": 2.321,
+      "text": "other examples that are that we'll touch",
+      "timestamp": "04:02"
+    },
+    {
+      "start": 244.48,
+      "duration": 2.0,
+      "text": "on later that are emerging that are",
+      "timestamp": "04:04"
+    },
+    {
+      "start": 246.48,
+      "duration": 3.44,
+      "text": "exciting. Um and so you've seen the",
+      "timestamp": "04:06"
+    },
+    {
+      "start": 249.92,
+      "duration": 3.92,
+      "text": "asset classes, you've seen um the funds.",
+      "timestamp": "04:09"
+    },
+    {
+      "start": 253.84,
+      "duration": 1.84,
+      "text": "Uh we've talked about tokenization which",
+      "timestamp": "04:13"
+    },
+    {
+      "start": 255.68,
+      "duration": 1.679,
+      "text": "is how we actually get these on chain.",
+      "timestamp": "04:15"
+    },
+    {
+      "start": 257.359,
+      "duration": 1.84,
+      "text": "But one of the big questions remains",
+      "timestamp": "04:17"
+    },
+    {
+      "start": 259.199,
+      "duration": 2.081,
+      "text": "which is you know why why would you",
+      "timestamp": "04:19"
+    },
+    {
+      "start": 261.28,
+      "duration": 2.479,
+      "text": "actually want to tokenize uh an asset?",
+      "timestamp": "04:21"
+    },
+    {
+      "start": 263.759,
+      "duration": 2.241,
+      "text": "Um what what are the benefits to you as",
+      "timestamp": "04:23"
+    },
+    {
+      "start": 266.0,
+      "duration": 1.84,
+      "text": "an asset issuer or to asset issuers",
+      "timestamp": "04:26"
+    },
+    {
+      "start": 267.84,
+      "duration": 2.079,
+      "text": "generally for tokenizing assets and",
+      "timestamp": "04:27"
+    },
+    {
+      "start": 269.919,
+      "duration": 2.801,
+      "text": "bringing them on chain?",
+      "timestamp": "04:29"
+    },
+    {
+      "start": 272.72,
+      "duration": 3.28,
+      "text": "And so to to tease the benefits first um",
+      "timestamp": "04:32"
+    },
+    {
+      "start": 276.0,
+      "duration": 2.639,
+      "text": "we'll do a quick review on some of the",
+      "timestamp": "04:36"
+    },
+    {
+      "start": 278.639,
+      "duration": 3.521,
+      "text": "downsides of uh traditional assets. Um",
+      "timestamp": "04:38"
+    },
+    {
+      "start": 282.16,
+      "duration": 2.4,
+      "text": "and at a high level the the primary",
+      "timestamp": "04:42"
+    },
+    {
+      "start": 284.56,
+      "duration": 2.96,
+      "text": "issue is that they are antiquated. Um a",
+      "timestamp": "04:44"
+    },
+    {
+      "start": 287.52,
+      "duration": 2.72,
+      "text": "few points here they lack digitization.",
+      "timestamp": "04:47"
+    },
+    {
+      "start": 290.24,
+      "duration": 2.8,
+      "text": "There are limited market hours. Um there",
+      "timestamp": "04:50"
+    },
+    {
+      "start": 293.04,
+      "duration": 1.84,
+      "text": "are slow and cumbersome redemption",
+      "timestamp": "04:53"
+    },
+    {
+      "start": 294.88,
+      "duration": 3.2,
+      "text": "processes. there's generally been",
+      "timestamp": "04:54"
+    },
+    {
+      "start": 298.08,
+      "duration": 2.88,
+      "text": "limited access to alternative assets in",
+      "timestamp": "04:58"
+    },
+    {
+      "start": 300.96,
+      "duration": 3.519,
+      "text": "the traditional financial world. Um, so",
+      "timestamp": "05:00"
+    },
+    {
+      "start": 304.479,
+      "duration": 1.44,
+      "text": "not everyone has been able to",
+      "timestamp": "05:04"
+    },
+    {
+      "start": 305.919,
+      "duration": 2.321,
+      "text": "participate in those markets. And then",
+      "timestamp": "05:05"
+    },
+    {
+      "start": 308.24,
+      "duration": 2.239,
+      "text": "fractional ownership is is another big",
+      "timestamp": "05:08"
+    },
+    {
+      "start": 310.479,
+      "duration": 3.121,
+      "text": "one. Um, and so a couple of the points",
+      "timestamp": "05:10"
+    },
+    {
+      "start": 313.6,
+      "duration": 2.56,
+      "text": "that I'd want to highlight here are",
+      "timestamp": "05:13"
+    },
+    {
+      "start": 316.16,
+      "duration": 2.24,
+      "text": "first limited market hours. As we all",
+      "timestamp": "05:16"
+    },
+    {
+      "start": 318.4,
+      "duration": 4.639,
+      "text": "know, crypto is a 247 industry. Um, when",
+      "timestamp": "05:18"
+    },
+    {
+      "start": 323.039,
+      "duration": 2.16,
+      "text": "it comes to stocks or more traditional",
+      "timestamp": "05:23"
+    },
+    {
+      "start": 325.199,
+      "duration": 2.881,
+      "text": "assets, you're pretty much limited by US",
+      "timestamp": "05:25"
+    },
+    {
+      "start": 328.08,
+      "duration": 1.839,
+      "text": "Eastern time or the time zone of",
+      "timestamp": "05:28"
+    },
+    {
+      "start": 329.919,
+      "duration": 3.361,
+      "text": "whatever um, the market is in. And for",
+      "timestamp": "05:29"
+    },
+    {
+      "start": 333.28,
+      "duration": 3.68,
+      "text": "example, the NASDAQ is only open about",
+      "timestamp": "05:33"
+    },
+    {
+      "start": 336.96,
+      "duration": 2.72,
+      "text": "six and a half hours every day. And I",
+      "timestamp": "05:36"
+    },
+    {
+      "start": 339.68,
+      "duration": 1.92,
+      "text": "must not be the only one in this room",
+      "timestamp": "05:39"
+    },
+    {
+      "start": 341.6,
+      "duration": 1.92,
+      "text": "who has maybe done something during the",
+      "timestamp": "05:41"
+    },
+    {
+      "start": 343.52,
+      "duration": 2.32,
+      "text": "day, worked during the day and come home",
+      "timestamp": "05:43"
+    },
+    {
+      "start": 345.84,
+      "duration": 2.72,
+      "text": "and wanted to work on my stock portfolio",
+      "timestamp": "05:45"
+    },
+    {
+      "start": 348.56,
+      "duration": 1.76,
+      "text": "or trade something and I can't do it",
+      "timestamp": "05:48"
+    },
+    {
+      "start": 350.32,
+      "duration": 3.599,
+      "text": "because the stock market is closed. Um",
+      "timestamp": "05:50"
+    },
+    {
+      "start": 353.919,
+      "duration": 4.081,
+      "text": "so uh full 247 market hours is a is a",
+      "timestamp": "05:53"
+    },
+    {
+      "start": 358.0,
+      "duration": 2.4,
+      "text": "big advantage of crypto. Another one I'd",
+      "timestamp": "05:58"
+    },
+    {
+      "start": 360.4,
+      "duration": 3.359,
+      "text": "like to highlight is um fractional",
+      "timestamp": "06:00"
+    },
+    {
+      "start": 363.759,
+      "duration": 3.921,
+      "text": "ownership. And we've seen um a lot of",
+      "timestamp": "06:03"
+    },
+    {
+      "start": 367.68,
+      "duration": 1.6,
+      "text": "traditional finance firms, we've seen",
+      "timestamp": "06:07"
+    },
+    {
+      "start": 369.28,
+      "duration": 2.56,
+      "text": "actually some innovation in the world of",
+      "timestamp": "06:09"
+    },
+    {
+      "start": 371.84,
+      "duration": 2.0,
+      "text": "fractional ownership in the traditional",
+      "timestamp": "06:11"
+    },
+    {
+      "start": 373.84,
+      "duration": 3.04,
+      "text": "finance world. Um but historically, you",
+      "timestamp": "06:13"
+    },
+    {
+      "start": 376.88,
+      "duration": 1.84,
+      "text": "could only own, you know, one stock. You",
+      "timestamp": "06:16"
+    },
+    {
+      "start": 378.72,
+      "duration": 2.08,
+      "text": "could only own one house. And some of",
+      "timestamp": "06:18"
+    },
+    {
+      "start": 380.8,
+      "duration": 2.399,
+      "text": "these assets, especially real estate,",
+      "timestamp": "06:20"
+    },
+    {
+      "start": 383.199,
+      "duration": 1.84,
+      "text": "require a tremendous amount of capital",
+      "timestamp": "06:23"
+    },
+    {
+      "start": 385.039,
+      "duration": 1.841,
+      "text": "to actually participate in and gain",
+      "timestamp": "06:25"
+    },
+    {
+      "start": 386.88,
+      "duration": 2.4,
+      "text": "exposure to. And so fractionalizing",
+      "timestamp": "06:26"
+    },
+    {
+      "start": 389.28,
+      "duration": 1.84,
+      "text": "ownership of assets is something that",
+      "timestamp": "06:29"
+    },
+    {
+      "start": 391.12,
+      "duration": 1.84,
+      "text": "natively can happen on the blockchain",
+      "timestamp": "06:31"
+    },
+    {
+      "start": 392.96,
+      "duration": 2.48,
+      "text": "and can really broaden access to to many",
+      "timestamp": "06:32"
+    },
+    {
+      "start": 395.44,
+      "duration": 1.68,
+      "text": "more people to participate in these",
+      "timestamp": "06:35"
+    },
+    {
+      "start": 397.12,
+      "duration": 3.76,
+      "text": "markets. Um and so from these downsides",
+      "timestamp": "06:37"
+    },
+    {
+      "start": 400.88,
+      "duration": 1.68,
+      "text": "you might now be able to imagine what",
+      "timestamp": "06:40"
+    },
+    {
+      "start": 402.56,
+      "duration": 3.359,
+      "text": "the benefits of tokenization might be.",
+      "timestamp": "06:42"
+    },
+    {
+      "start": 405.919,
+      "duration": 2.881,
+      "text": "So some of the reasons here, greater",
+      "timestamp": "06:45"
+    },
+    {
+      "start": 408.8,
+      "duration": 2.32,
+      "text": "liquidity, real-time settlement,",
+      "timestamp": "06:48"
+    },
+    {
+      "start": 411.12,
+      "duration": 3.04,
+      "text": "broadening access for your asset, the",
+      "timestamp": "06:51"
+    },
+    {
+      "start": 414.16,
+      "duration": 2.4,
+      "text": "potential use in in DeFi, which I think",
+      "timestamp": "06:54"
+    },
+    {
+      "start": 416.56,
+      "duration": 2.639,
+      "text": "is is still nent but emerging and",
+      "timestamp": "06:56"
+    },
+    {
+      "start": 419.199,
+      "duration": 2.321,
+      "text": "something we'll touch on later. Um",
+      "timestamp": "06:59"
+    },
+    {
+      "start": 421.52,
+      "duration": 1.679,
+      "text": "reducing human error, automating things",
+      "timestamp": "07:01"
+    },
+    {
+      "start": 423.199,
+      "duration": 2.321,
+      "text": "natively on the on chain and then also",
+      "timestamp": "07:03"
+    },
+    {
+      "start": 425.52,
+      "duration": 4.799,
+      "text": "having 247 markets. And um a couple of",
+      "timestamp": "07:05"
+    },
+    {
+      "start": 430.319,
+      "duration": 2.241,
+      "text": "the points I'd want to highlight on here",
+      "timestamp": "07:10"
+    },
+    {
+      "start": 432.56,
+      "duration": 2.479,
+      "text": "are you have real-time settlement. So,",
+      "timestamp": "07:12"
+    },
+    {
+      "start": 435.039,
+      "duration": 1.681,
+      "text": "if you want to exit a position in the",
+      "timestamp": "07:15"
+    },
+    {
+      "start": 436.72,
+      "duration": 2.16,
+      "text": "traditional finance market, um let's say",
+      "timestamp": "07:16"
+    },
+    {
+      "start": 438.88,
+      "duration": 2.159,
+      "text": "on a Friday evening, you'll need to wait",
+      "timestamp": "07:18"
+    },
+    {
+      "start": 441.039,
+      "duration": 2.56,
+      "text": "until uh Monday morning to get your",
+      "timestamp": "07:21"
+    },
+    {
+      "start": 443.599,
+      "duration": 2.241,
+      "text": "money back or to have that to have that",
+      "timestamp": "07:23"
+    },
+    {
+      "start": 445.84,
+      "duration": 3.04,
+      "text": "sale processed. Um that means that you",
+      "timestamp": "07:25"
+    },
+    {
+      "start": 448.88,
+      "duration": 1.52,
+      "text": "need to wait almost three and a half",
+      "timestamp": "07:28"
+    },
+    {
+      "start": 450.4,
+      "duration": 2.72,
+      "text": "days to uh take the proceeds from that",
+      "timestamp": "07:30"
+    },
+    {
+      "start": 453.12,
+      "duration": 2.72,
+      "text": "sale, rotate into a into a new asset",
+      "timestamp": "07:33"
+    },
+    {
+      "start": 455.84,
+      "duration": 1.44,
+      "text": "class, or do something new with that",
+      "timestamp": "07:35"
+    },
+    {
+      "start": 457.28,
+      "duration": 2.479,
+      "text": "money. um that can impact risk",
+      "timestamp": "07:37"
+    },
+    {
+      "start": 459.759,
+      "duration": 1.921,
+      "text": "management, that can impact liquidity",
+      "timestamp": "07:39"
+    },
+    {
+      "start": 461.68,
+      "duration": 1.919,
+      "text": "requirements and overall slow down your",
+      "timestamp": "07:41"
+    },
+    {
+      "start": 463.599,
+      "duration": 3.201,
+      "text": "your velocity of liquidity. Um doing it",
+      "timestamp": "07:43"
+    },
+    {
+      "start": 466.8,
+      "duration": 2.32,
+      "text": "onchain means that you're not limited at",
+      "timestamp": "07:46"
+    },
+    {
+      "start": 469.12,
+      "duration": 2.16,
+      "text": "all. Things settle in real time. It's",
+      "timestamp": "07:49"
+    },
+    {
+      "start": 471.28,
+      "duration": 1.919,
+      "text": "instant, which means you can work with a",
+      "timestamp": "07:51"
+    },
+    {
+      "start": 473.199,
+      "duration": 3.28,
+      "text": "far greater velocity of liquidity. Um",
+      "timestamp": "07:53"
+    },
+    {
+      "start": 476.479,
+      "duration": 2.0,
+      "text": "putting assets on chain is also a huge",
+      "timestamp": "07:56"
+    },
+    {
+      "start": 478.479,
+      "duration": 2.4,
+      "text": "bonus in terms of accessibility. You",
+      "timestamp": "07:58"
+    },
+    {
+      "start": 480.879,
+      "duration": 1.281,
+      "text": "know, many asset classes have",
+      "timestamp": "08:00"
+    },
+    {
+      "start": 482.16,
+      "duration": 3.039,
+      "text": "traditionally been gated um in uh in",
+      "timestamp": "08:02"
+    },
+    {
+      "start": 485.199,
+      "duration": 2.0,
+      "text": "finance today. So real estate is a good",
+      "timestamp": "08:05"
+    },
+    {
+      "start": 487.199,
+      "duration": 2.081,
+      "text": "example. Private credit is another great",
+      "timestamp": "08:07"
+    },
+    {
+      "start": 489.28,
+      "duration": 3.52,
+      "text": "example. Um onchain anyone can once",
+      "timestamp": "08:09"
+    },
+    {
+      "start": 492.8,
+      "duration": 2.88,
+      "text": "tokenized anyone can buy, sell, hold and",
+      "timestamp": "08:12"
+    },
+    {
+      "start": 495.68,
+      "duration": 2.4,
+      "text": "generally gain exposure to these uh",
+      "timestamp": "08:15"
+    },
+    {
+      "start": 498.08,
+      "duration": 3.44,
+      "text": "asset classes. So some of the benefits",
+      "timestamp": "08:18"
+    },
+    {
+      "start": 501.52,
+      "duration": 3.679,
+      "text": "of tokenizing assets. Um and now the",
+      "timestamp": "08:21"
+    },
+    {
+      "start": 505.199,
+      "duration": 2.72,
+      "text": "next question you might have is who is",
+      "timestamp": "08:25"
+    },
+    {
+      "start": 507.919,
+      "duration": 2.72,
+      "text": "actually tokenizing assets today? um",
+      "timestamp": "08:27"
+    },
+    {
+      "start": 510.639,
+      "duration": 1.921,
+      "text": "beyond maybe what you hear about in",
+      "timestamp": "08:30"
+    },
+    {
+      "start": 512.56,
+      "duration": 2.0,
+      "text": "popular discourse such as you know",
+      "timestamp": "08:32"
+    },
+    {
+      "start": 514.56,
+      "duration": 4.958,
+      "text": "stables and um the really stables. Um",
+      "timestamp": "08:34"
+    },
+    {
+      "start": 519.519,
+      "duration": 4.161,
+      "text": "and the the list is the the folks who",
+      "timestamp": "08:39"
+    },
+    {
+      "start": 523.68,
+      "duration": 1.92,
+      "text": "are doing this are certain funds and",
+      "timestamp": "08:43"
+    },
+    {
+      "start": 525.6,
+      "duration": 2.0,
+      "text": "then there are certain platforms that",
+      "timestamp": "08:45"
+    },
+    {
+      "start": 527.6,
+      "duration": 3.359,
+      "text": "are um that are that provide services to",
+      "timestamp": "08:47"
+    },
+    {
+      "start": 530.959,
+      "duration": 2.481,
+      "text": "tokenize funds. So some of some of the",
+      "timestamp": "08:50"
+    },
+    {
+      "start": 533.44,
+      "duration": 1.44,
+      "text": "examples of platforms that provide",
+      "timestamp": "08:53"
+    },
+    {
+      "start": 534.88,
+      "duration": 2.48,
+      "text": "services to actually tokenize funds are",
+      "timestamp": "08:54"
+    },
+    {
+      "start": 537.36,
+      "duration": 2.72,
+      "text": "Securitize Centrifuge and Marcato",
+      "timestamp": "08:57"
+    },
+    {
+      "start": 540.08,
+      "duration": 1.68,
+      "text": "Bitcoin. You've probably heard of of",
+      "timestamp": "09:00"
+    },
+    {
+      "start": 541.76,
+      "duration": 1.759,
+      "text": "many of these. Marcato Bitcoin, if you",
+      "timestamp": "09:01"
+    },
+    {
+      "start": 543.519,
+      "duration": 2.161,
+      "text": "haven't heard, is one of the largest",
+      "timestamp": "09:03"
+    },
+    {
+      "start": 545.68,
+      "duration": 2.159,
+      "text": "sort of tokenization services in Latin",
+      "timestamp": "09:05"
+    },
+    {
+      "start": 547.839,
+      "duration": 1.921,
+      "text": "America. Has around 200 million of",
+      "timestamp": "09:07"
+    },
+    {
+      "start": 549.76,
+      "duration": 2.72,
+      "text": "assets. So growing growing that assets",
+      "timestamp": "09:09"
+    },
+    {
+      "start": 552.48,
+      "duration": 3.2,
+      "text": "under management. Um and these are all",
+      "timestamp": "09:12"
+    },
+    {
+      "start": 555.68,
+      "duration": 1.92,
+      "text": "companies that that we platforms that we",
+      "timestamp": "09:15"
+    },
+    {
+      "start": 557.6,
+      "duration": 2.32,
+      "text": "at wormhole work very closely with as",
+      "timestamp": "09:17"
+    },
+    {
+      "start": 559.92,
+      "duration": 2.4,
+      "text": "well. and they've helped some major",
+      "timestamp": "09:19"
+    },
+    {
+      "start": 562.32,
+      "duration": 2.959,
+      "text": "funds tokenize um tokenize major amounts",
+      "timestamp": "09:22"
+    },
+    {
+      "start": 565.279,
+      "duration": 2.481,
+      "text": "of capital. And so there's BlackRock,",
+      "timestamp": "09:25"
+    },
+    {
+      "start": 567.76,
+      "duration": 1.68,
+      "text": "the Biddle Fund, which many of you might",
+      "timestamp": "09:27"
+    },
+    {
+      "start": 569.44,
+      "duration": 1.839,
+      "text": "have heard of, is a money market fund.",
+      "timestamp": "09:29"
+    },
+    {
+      "start": 571.279,
+      "duration": 2.801,
+      "text": "Apollo Acred is a private credit fund.",
+      "timestamp": "09:31"
+    },
+    {
+      "start": 574.08,
+      "duration": 2.319,
+      "text": "KKR and Hamilton Lane have also",
+      "timestamp": "09:34"
+    },
+    {
+      "start": 576.399,
+      "duration": 3.201,
+      "text": "tokenized um some funds. I think KKR",
+      "timestamp": "09:36"
+    },
+    {
+      "start": 579.6,
+      "duration": 2.4,
+      "text": "tokenized a sort of health investment",
+      "timestamp": "09:39"
+    },
+    {
+      "start": 582.0,
+      "duration": 2.88,
+      "text": "fund um health insurance fund. And so",
+      "timestamp": "09:42"
+    },
+    {
+      "start": 584.88,
+      "duration": 1.44,
+      "text": "really broadening access to some of",
+      "timestamp": "09:44"
+    },
+    {
+      "start": 586.32,
+      "duration": 1.92,
+      "text": "these asset classes that uh that other",
+      "timestamp": "09:46"
+    },
+    {
+      "start": 588.24,
+      "duration": 2.0,
+      "text": "people haven't haven't had access to in",
+      "timestamp": "09:48"
+    },
+    {
+      "start": 590.24,
+      "duration": 2.64,
+      "text": "the past. Um so they have all the",
+      "timestamp": "09:50"
+    },
+    {
+      "start": 592.88,
+      "duration": 2.56,
+      "text": "benefits we mentioned before. And I",
+      "timestamp": "09:52"
+    },
+    {
+      "start": 595.44,
+      "duration": 1.6,
+      "text": "guess to wrap up this section on",
+      "timestamp": "09:55"
+    },
+    {
+      "start": 597.04,
+      "duration": 3.28,
+      "text": "tokenization, I want to go through what",
+      "timestamp": "09:57"
+    },
+    {
+      "start": 600.32,
+      "duration": 2.56,
+      "text": "a tokenized asset actually looks like",
+      "timestamp": "10:00"
+    },
+    {
+      "start": 602.88,
+      "duration": 2.079,
+      "text": "under the hood. Um it'll still be high",
+      "timestamp": "10:02"
+    },
+    {
+      "start": 604.959,
+      "duration": 0.961,
+      "text": "level because there are a lot of",
+      "timestamp": "10:04"
+    },
+    {
+      "start": 605.92,
+      "duration": 2.16,
+      "text": "technical details and regulatory details",
+      "timestamp": "10:05"
+    },
+    {
+      "start": 608.08,
+      "duration": 2.48,
+      "text": "that we'll gloss over. But um to give",
+      "timestamp": "10:08"
+    },
+    {
+      "start": 610.56,
+      "duration": 2.48,
+      "text": "you a a more concrete example, we can",
+      "timestamp": "10:10"
+    },
+    {
+      "start": 613.04,
+      "duration": 2.88,
+      "text": "look at Black Rockck Bidd. So Bidd is a",
+      "timestamp": "10:13"
+    },
+    {
+      "start": 615.92,
+      "duration": 2.56,
+      "text": "is a tokenized fund that has around $2.8",
+      "timestamp": "10:15"
+    },
+    {
+      "start": 618.48,
+      "duration": 4.64,
+      "text": "billion under management. Um and now to",
+      "timestamp": "10:18"
+    },
+    {
+      "start": 623.12,
+      "duration": 2.08,
+      "text": "actually create shares of Bidd, you have",
+      "timestamp": "10:23"
+    },
+    {
+      "start": 625.2,
+      "duration": 2.079,
+      "text": "to be a qualified purchaser and you go",
+      "timestamp": "10:25"
+    },
+    {
+      "start": 627.279,
+      "duration": 1.68,
+      "text": "through an onboarding process and a",
+      "timestamp": "10:27"
+    },
+    {
+      "start": 628.959,
+      "duration": 1.921,
+      "text": "funding process. And once you've gone",
+      "timestamp": "10:28"
+    },
+    {
+      "start": 630.88,
+      "duration": 1.6,
+      "text": "through that funding process, you get",
+      "timestamp": "10:30"
+    },
+    {
+      "start": 632.48,
+      "duration": 1.84,
+      "text": "your tokens. So you get your shares of",
+      "timestamp": "10:32"
+    },
+    {
+      "start": 634.32,
+      "duration": 2.56,
+      "text": "Bidd issued to you on chain. One of the",
+      "timestamp": "10:34"
+    },
+    {
+      "start": 636.88,
+      "duration": 2.56,
+      "text": "neat things about Bidd is that there's a",
+      "timestamp": "10:36"
+    },
+    {
+      "start": 639.44,
+      "duration": 2.399,
+      "text": "daily sort of dividend and balance",
+      "timestamp": "10:39"
+    },
+    {
+      "start": 641.839,
+      "duration": 2.961,
+      "text": "that's calculated and paid out. Um so",
+      "timestamp": "10:41"
+    },
+    {
+      "start": 644.8,
+      "duration": 1.52,
+      "text": "your token balance will increase or",
+      "timestamp": "10:44"
+    },
+    {
+      "start": 646.32,
+      "duration": 2.48,
+      "text": "decrease based off of the uh the sort of",
+      "timestamp": "10:46"
+    },
+    {
+      "start": 648.8,
+      "duration": 3.279,
+      "text": "change um and dividends from the fund.",
+      "timestamp": "10:48"
+    },
+    {
+      "start": 652.079,
+      "duration": 2.481,
+      "text": "And then um as an investor, you have a",
+      "timestamp": "10:52"
+    },
+    {
+      "start": 654.56,
+      "duration": 2.32,
+      "text": "couple of liquidity options. So, one",
+      "timestamp": "10:54"
+    },
+    {
+      "start": 656.88,
+      "duration": 2.0,
+      "text": "option is you can have a direct USD",
+      "timestamp": "10:56"
+    },
+    {
+      "start": 658.88,
+      "duration": 2.32,
+      "text": "redemption process, which is the more",
+      "timestamp": "10:58"
+    },
+    {
+      "start": 661.2,
+      "duration": 2.0,
+      "text": "typical redemption process that most",
+      "timestamp": "11:01"
+    },
+    {
+      "start": 663.2,
+      "duration": 1.6,
+      "text": "investors are probably familiar with.",
+      "timestamp": "11:03"
+    },
+    {
+      "start": 664.8,
+      "duration": 3.039,
+      "text": "You send that those funds uh via a bank,",
+      "timestamp": "11:04"
+    },
+    {
+      "start": 667.839,
+      "duration": 1.761,
+      "text": "a wire transfer. It takes a couple of",
+      "timestamp": "11:07"
+    },
+    {
+      "start": 669.6,
+      "duration": 2.32,
+      "text": "days to get those funds. Uh the other",
+      "timestamp": "11:09"
+    },
+    {
+      "start": 671.92,
+      "duration": 1.76,
+      "text": "liquidity option that you have once you",
+      "timestamp": "11:11"
+    },
+    {
+      "start": 673.68,
+      "duration": 2.56,
+      "text": "now have this uh the these tokens on",
+      "timestamp": "11:13"
+    },
+    {
+      "start": 676.24,
+      "duration": 2.64,
+      "text": "chain is you can do a secondary sale",
+      "timestamp": "11:16"
+    },
+    {
+      "start": 678.88,
+      "duration": 2.959,
+      "text": "with Circle into USDC. And so, you can",
+      "timestamp": "11:18"
+    },
+    {
+      "start": 681.839,
+      "duration": 2.081,
+      "text": "send your Bidd shares to a to a",
+      "timestamp": "11:21"
+    },
+    {
+      "start": 683.92,
+      "duration": 2.56,
+      "text": "liquidity provider. you can receive USDC",
+      "timestamp": "11:23"
+    },
+    {
+      "start": 686.48,
+      "duration": 2.08,
+      "text": "and now you'll have USDC on chain that",
+      "timestamp": "11:26"
+    },
+    {
+      "start": 688.56,
+      "duration": 1.76,
+      "text": "you can immediately rotate into another",
+      "timestamp": "11:28"
+    },
+    {
+      "start": 690.32,
+      "duration": 3.36,
+      "text": "investment. And so this is uh this is a",
+      "timestamp": "11:30"
+    },
+    {
+      "start": 693.68,
+      "duration": 2.0,
+      "text": "much faster process that uh that is",
+      "timestamp": "11:33"
+    },
+    {
+      "start": 695.68,
+      "duration": 2.8,
+      "text": "unlocked by having this this fund and uh",
+      "timestamp": "11:35"
+    },
+    {
+      "start": 698.48,
+      "duration": 2.08,
+      "text": "shares of this fund on chain. I think",
+      "timestamp": "11:38"
+    },
+    {
+      "start": 700.56,
+      "duration": 1.68,
+      "text": "the other thing that's cool about Bidd",
+      "timestamp": "11:40"
+    },
+    {
+      "start": 702.24,
+      "duration": 3.12,
+      "text": "is that um it's not a PC. It's not a",
+      "timestamp": "11:42"
+    },
+    {
+      "start": 705.36,
+      "duration": 1.84,
+      "text": "marketing announcement. It's not like in",
+      "timestamp": "11:45"
+    },
+    {
+      "start": 707.2,
+      "duration": 1.92,
+      "text": "a separate blocked off sandboxed",
+      "timestamp": "11:47"
+    },
+    {
+      "start": 709.12,
+      "duration": 2.159,
+      "text": "environment that's just for testing.",
+      "timestamp": "11:49"
+    },
+    {
+      "start": 711.279,
+      "duration": 2.8,
+      "text": "This is actually on mainet chains. It's",
+      "timestamp": "11:51"
+    },
+    {
+      "start": 714.079,
+      "duration": 2.721,
+      "text": "live today. Um, you can hold it, you can",
+      "timestamp": "11:54"
+    },
+    {
+      "start": 716.8,
+      "duration": 2.56,
+      "text": "buy it, you can send it across chains",
+      "timestamp": "11:56"
+    },
+    {
+      "start": 719.36,
+      "duration": 3.2,
+      "text": "using wormhole. Um, and it's live today,",
+      "timestamp": "11:59"
+    },
+    {
+      "start": 722.56,
+      "duration": 1.68,
+      "text": "which is which is pretty exciting. And",
+      "timestamp": "12:02"
+    },
+    {
+      "start": 724.24,
+      "duration": 2.64,
+      "text": "hopefully, as we'll see later on, you",
+      "timestamp": "12:04"
+    },
+    {
+      "start": 726.88,
+      "duration": 2.56,
+      "text": "know, gaining more utility in in DeFi as",
+      "timestamp": "12:06"
+    },
+    {
+      "start": 729.44,
+      "duration": 2.24,
+      "text": "well.",
+      "timestamp": "12:09"
+    },
+    {
+      "start": 731.68,
+      "duration": 1.68,
+      "text": "So, now I want to talk a little bit more",
+      "timestamp": "12:11"
+    },
+    {
+      "start": 733.36,
+      "duration": 2.8,
+      "text": "about wormhole and, you know, what how",
+      "timestamp": "12:13"
+    },
+    {
+      "start": 736.16,
+      "duration": 2.4,
+      "text": "we've been working with asset issuers,",
+      "timestamp": "12:16"
+    },
+    {
+      "start": 738.56,
+      "duration": 1.68,
+      "text": "um, asset managers and generally",
+      "timestamp": "12:18"
+    },
+    {
+      "start": 740.24,
+      "duration": 1.92,
+      "text": "institutions who are coming into crypto.",
+      "timestamp": "12:20"
+    },
+    {
+      "start": 742.16,
+      "duration": 2.4,
+      "text": "Um though I'm sure many of you know as",
+      "timestamp": "12:22"
+    },
+    {
+      "start": 744.56,
+      "duration": 2.719,
+      "text": "well what wormhole is. Uh wormhole",
+      "timestamp": "12:24"
+    },
+    {
+      "start": 747.279,
+      "duration": 2.321,
+      "text": "provides interoperability between",
+      "timestamp": "12:27"
+    },
+    {
+      "start": 749.6,
+      "duration": 2.72,
+      "text": "blockchains. Um at the lowest level",
+      "timestamp": "12:29"
+    },
+    {
+      "start": 752.32,
+      "duration": 2.48,
+      "text": "wormhole allows you to push or pull data",
+      "timestamp": "12:32"
+    },
+    {
+      "start": 754.8,
+      "duration": 2.96,
+      "text": "between uh from one chain to to another",
+      "timestamp": "12:34"
+    },
+    {
+      "start": 757.76,
+      "duration": 2.8,
+      "text": "chain. And wormhole is is robust. It's",
+      "timestamp": "12:37"
+    },
+    {
+      "start": 760.56,
+      "duration": 2.8,
+      "text": "battle tested and has an entire suite of",
+      "timestamp": "12:40"
+    },
+    {
+      "start": 763.36,
+      "duration": 2.4,
+      "text": "products built on top of it that both",
+      "timestamp": "12:43"
+    },
+    {
+      "start": 765.76,
+      "duration": 2.4,
+      "text": "cater to specific use cases and then",
+      "timestamp": "12:45"
+    },
+    {
+      "start": 768.16,
+      "duration": 3.76,
+      "text": "also make the UX of going um crosschain",
+      "timestamp": "12:48"
+    },
+    {
+      "start": 771.92,
+      "duration": 2.96,
+      "text": "really smooth. Um going crosschain is",
+      "timestamp": "12:51"
+    },
+    {
+      "start": 774.88,
+      "duration": 2.32,
+      "text": "under the hood a pretty complex process",
+      "timestamp": "12:54"
+    },
+    {
+      "start": 777.2,
+      "duration": 2.079,
+      "text": "that requires a lot of different steps",
+      "timestamp": "12:57"
+    },
+    {
+      "start": 779.279,
+      "duration": 2.24,
+      "text": "and we really try to make it a one-click",
+      "timestamp": "12:59"
+    },
+    {
+      "start": 781.519,
+      "duration": 1.841,
+      "text": "sort of seamless experience for any user",
+      "timestamp": "13:01"
+    },
+    {
+      "start": 783.36,
+      "duration": 2.4,
+      "text": "who is doing that. Um, and so you can",
+      "timestamp": "13:03"
+    },
+    {
+      "start": 785.76,
+      "duration": 2.879,
+      "text": "really think of Wormhole as as offering",
+      "timestamp": "13:05"
+    },
+    {
+      "start": 788.639,
+      "duration": 2.481,
+      "text": "uh as as offering a suite of products",
+      "timestamp": "13:08"
+    },
+    {
+      "start": 791.12,
+      "duration": 2.24,
+      "text": "that has solved one problem really well,",
+      "timestamp": "13:11"
+    },
+    {
+      "start": 793.36,
+      "duration": 2.8,
+      "text": "which is going crosschain and is",
+      "timestamp": "13:13"
+    },
+    {
+      "start": 796.16,
+      "duration": 2.16,
+      "text": "perfectly positioned to also address the",
+      "timestamp": "13:16"
+    },
+    {
+      "start": 798.32,
+      "duration": 2.48,
+      "text": "various needs of asset issuers coming on",
+      "timestamp": "13:18"
+    },
+    {
+      "start": 800.8,
+      "duration": 1.839,
+      "text": "chain who want to access all of crypto",
+      "timestamp": "13:20"
+    },
+    {
+      "start": 802.639,
+      "duration": 2.88,
+      "text": "liquidity and users from day one and who",
+      "timestamp": "13:22"
+    },
+    {
+      "start": 805.519,
+      "duration": 1.921,
+      "text": "want to collaborate really deeply with a",
+      "timestamp": "13:25"
+    },
+    {
+      "start": 807.44,
+      "duration": 2.56,
+      "text": "partner who has worked across lots of",
+      "timestamp": "13:27"
+    },
+    {
+      "start": 810.0,
+      "duration": 2.959,
+      "text": "different ecosystems in the space.",
+      "timestamp": "13:30"
+    },
+    {
+      "start": 812.959,
+      "duration": 2.081,
+      "text": "So when it comes to tokenization, you",
+      "timestamp": "13:32"
+    },
+    {
+      "start": 815.04,
+      "duration": 1.599,
+      "text": "know, why why is being on multiple",
+      "timestamp": "13:35"
+    },
+    {
+      "start": 816.639,
+      "duration": 2.64,
+      "text": "chains even important? Um it's many of",
+      "timestamp": "13:36"
+    },
+    {
+      "start": 819.279,
+      "duration": 1.441,
+      "text": "the same reasons that you have",
+      "timestamp": "13:39"
+    },
+    {
+      "start": 820.72,
+      "duration": 2.64,
+      "text": "multi-chain tokens today. Um you get",
+      "timestamp": "13:40"
+    },
+    {
+      "start": 823.36,
+      "duration": 3.039,
+      "text": "access to the entire user base of crypto",
+      "timestamp": "13:43"
+    },
+    {
+      "start": 826.399,
+      "duration": 2.801,
+      "text": "from day one. You are able to access all",
+      "timestamp": "13:46"
+    },
+    {
+      "start": 829.2,
+      "duration": 2.96,
+      "text": "the liquidity in crypto from day one. Um",
+      "timestamp": "13:49"
+    },
+    {
+      "start": 832.16,
+      "duration": 2.08,
+      "text": "you can seamlessly move your liquidity",
+      "timestamp": "13:52"
+    },
+    {
+      "start": 834.24,
+      "duration": 2.56,
+      "text": "between different ecosystems and take",
+      "timestamp": "13:54"
+    },
+    {
+      "start": 836.8,
+      "duration": 1.76,
+      "text": "advantage of those opportunities in",
+      "timestamp": "13:56"
+    },
+    {
+      "start": 838.56,
+      "duration": 2.8,
+      "text": "those ecosystems. You can cater to any",
+      "timestamp": "13:58"
+    },
+    {
+      "start": 841.36,
+      "duration": 1.76,
+      "text": "preferences that investors might have",
+      "timestamp": "14:01"
+    },
+    {
+      "start": 843.12,
+      "duration": 1.92,
+      "text": "across different chains and the",
+      "timestamp": "14:03"
+    },
+    {
+      "start": 845.04,
+      "duration": 1.76,
+      "text": "opportunities that are on those chains.",
+      "timestamp": "14:05"
+    },
+    {
+      "start": 846.8,
+      "duration": 3.52,
+      "text": "And generally you broadly gain access to",
+      "timestamp": "14:06"
+    },
+    {
+      "start": 850.32,
+      "duration": 3.36,
+      "text": "utility within DeFi.",
+      "timestamp": "14:10"
+    },
+    {
+      "start": 853.68,
+      "duration": 1.839,
+      "text": "And so we've worked with asset issuers",
+      "timestamp": "14:13"
+    },
+    {
+      "start": 855.519,
+      "duration": 2.641,
+      "text": "on things like you know very bespoke",
+      "timestamp": "14:15"
+    },
+    {
+      "start": 858.16,
+      "duration": 2.479,
+      "text": "kind of solutions. Um so things like",
+      "timestamp": "14:18"
+    },
+    {
+      "start": 860.639,
+      "duration": 2.081,
+      "text": "high security requirements and",
+      "timestamp": "14:20"
+    },
+    {
+      "start": 862.72,
+      "duration": 2.08,
+      "text": "multi-verifier systems. I would argue",
+      "timestamp": "14:22"
+    },
+    {
+      "start": 864.8,
+      "duration": 2.24,
+      "text": "that security is one of the biggest um",
+      "timestamp": "14:24"
+    },
+    {
+      "start": 867.04,
+      "duration": 2.0,
+      "text": "most important things for asset issuers",
+      "timestamp": "14:27"
+    },
+    {
+      "start": 869.04,
+      "duration": 1.76,
+      "text": "as they're bringing funds with massive",
+      "timestamp": "14:29"
+    },
+    {
+      "start": 870.8,
+      "duration": 1.839,
+      "text": "amounts of assets under management on",
+      "timestamp": "14:30"
+    },
+    {
+      "start": 872.639,
+      "duration": 2.801,
+      "text": "chain. Um we've worked with asset",
+      "timestamp": "14:32"
+    },
+    {
+      "start": 875.44,
+      "duration": 3.199,
+      "text": "issuers on custom compliance rules,",
+      "timestamp": "14:35"
+    },
+    {
+      "start": 878.639,
+      "duration": 1.361,
+      "text": "excuse me, custom compliance",
+      "timestamp": "14:38"
+    },
+    {
+      "start": 880.0,
+      "duration": 2.16,
+      "text": "requirements and and rules to follow",
+      "timestamp": "14:40"
+    },
+    {
+      "start": 882.16,
+      "duration": 2.08,
+      "text": "what uh when moving assets across",
+      "timestamp": "14:42"
+    },
+    {
+      "start": 884.24,
+      "duration": 3.2,
+      "text": "chains. Um, we have burn and mint",
+      "timestamp": "14:44"
+    },
+    {
+      "start": 887.44,
+      "duration": 2.16,
+      "text": "transfer frameworks for the smoothest",
+      "timestamp": "14:47"
+    },
+    {
+      "start": 889.6,
+      "duration": 1.52,
+      "text": "user experience, making sure that when",
+      "timestamp": "14:49"
+    },
+    {
+      "start": 891.12,
+      "duration": 1.839,
+      "text": "you move tokens crosschain, the supply",
+      "timestamp": "14:51"
+    },
+    {
+      "start": 892.959,
+      "duration": 2.24,
+      "text": "stays consistent across all chains that",
+      "timestamp": "14:52"
+    },
+    {
+      "start": 895.199,
+      "duration": 2.401,
+      "text": "an asset is deployed on. Um, we've",
+      "timestamp": "14:55"
+    },
+    {
+      "start": 897.6,
+      "duration": 1.52,
+      "text": "collaborated with some of the biggest",
+      "timestamp": "14:57"
+    },
+    {
+      "start": 899.12,
+      "duration": 2.24,
+      "text": "um, folks in the space. So, blue chip D5",
+      "timestamp": "14:59"
+    },
+    {
+      "start": 901.36,
+      "duration": 2.8,
+      "text": "pro protocols and uh and um some top",
+      "timestamp": "15:01"
+    },
+    {
+      "start": 904.16,
+      "duration": 3.2,
+      "text": "tier info providers and overall um you",
+      "timestamp": "15:04"
+    },
+    {
+      "start": 907.36,
+      "duration": 2.4,
+      "text": "know wormhole products are are live in",
+      "timestamp": "15:07"
+    },
+    {
+      "start": 909.76,
+      "duration": 2.4,
+      "text": "mainet today with tokenized funds and",
+      "timestamp": "15:09"
+    },
+    {
+      "start": 912.16,
+      "duration": 2.0,
+      "text": "it's it's proven tech that that works",
+      "timestamp": "15:12"
+    },
+    {
+      "start": 914.16,
+      "duration": 2.0,
+      "text": "for these funds.",
+      "timestamp": "15:14"
+    },
+    {
+      "start": 916.16,
+      "duration": 2.0,
+      "text": "So along with all the white label",
+      "timestamp": "15:16"
+    },
+    {
+      "start": 918.16,
+      "duration": 1.76,
+      "text": "solutions that we have we also have an",
+      "timestamp": "15:18"
+    },
+    {
+      "start": 919.92,
+      "duration": 1.599,
+      "text": "entire product suite that we've built to",
+      "timestamp": "15:19"
+    },
+    {
+      "start": 921.519,
+      "duration": 2.56,
+      "text": "cater to these asset issuers. So we have",
+      "timestamp": "15:21"
+    },
+    {
+      "start": 924.079,
+      "duration": 2.32,
+      "text": "wormhole entity. It's our framework for",
+      "timestamp": "15:24"
+    },
+    {
+      "start": 926.399,
+      "duration": 1.761,
+      "text": "burn and mint token transfers across",
+      "timestamp": "15:26"
+    },
+    {
+      "start": 928.16,
+      "duration": 2.479,
+      "text": "chains that many of our partners use.",
+      "timestamp": "15:28"
+    },
+    {
+      "start": 930.639,
+      "duration": 1.681,
+      "text": "There's wormhole settlement which allows",
+      "timestamp": "15:30"
+    },
+    {
+      "start": 932.32,
+      "duration": 2.48,
+      "text": "for faster than finality transfers at",
+      "timestamp": "15:32"
+    },
+    {
+      "start": 934.8,
+      "duration": 3.12,
+      "text": "low cost and low latency. Um portal",
+      "timestamp": "15:34"
+    },
+    {
+      "start": 937.92,
+      "duration": 2.32,
+      "text": "bridge is a front end that many of you",
+      "timestamp": "15:37"
+    },
+    {
+      "start": 940.24,
+      "duration": 2.56,
+      "text": "probably know for transferring assets",
+      "timestamp": "15:40"
+    },
+    {
+      "start": 942.8,
+      "duration": 3.2,
+      "text": "via wormhole. Um and may maybe some of",
+      "timestamp": "15:42"
+    },
+    {
+      "start": 946.0,
+      "duration": 2.0,
+      "text": "you even use portal bridge. Wormhole",
+      "timestamp": "15:46"
+    },
+    {
+      "start": 948.0,
+      "duration": 2.72,
+      "text": "Connect is a customizable and embedded",
+      "timestamp": "15:48"
+    },
+    {
+      "start": 950.72,
+      "duration": 1.919,
+      "text": "UI widget that you can pull into your",
+      "timestamp": "15:50"
+    },
+    {
+      "start": 952.639,
+      "duration": 2.721,
+      "text": "own site in a few lines of code and um",
+      "timestamp": "15:52"
+    },
+    {
+      "start": 955.36,
+      "duration": 1.919,
+      "text": "pull in all the functionality of",
+      "timestamp": "15:55"
+    },
+    {
+      "start": 957.279,
+      "duration": 2.8,
+      "text": "wormhole token transfers, transferring",
+      "timestamp": "15:57"
+    },
+    {
+      "start": 960.079,
+      "duration": 1.68,
+      "text": "tokenized assets, transferring other",
+      "timestamp": "16:00"
+    },
+    {
+      "start": 961.759,
+      "duration": 1.921,
+      "text": "kinds of assets that that use wormhole,",
+      "timestamp": "16:01"
+    },
+    {
+      "start": 963.68,
+      "duration": 2.64,
+      "text": "transferring assets in general. Um and",
+      "timestamp": "16:03"
+    },
+    {
+      "start": 966.32,
+      "duration": 2.959,
+      "text": "then wormhole scan is our explorer to be",
+      "timestamp": "16:06"
+    },
+    {
+      "start": 969.279,
+      "duration": 1.521,
+      "text": "able to view all kinds of crosschain",
+      "timestamp": "16:09"
+    },
+    {
+      "start": 970.8,
+      "duration": 2.08,
+      "text": "transactions. For custom integrations,",
+      "timestamp": "16:10"
+    },
+    {
+      "start": 972.88,
+      "duration": 1.6,
+      "text": "we have just general message passing.",
+      "timestamp": "16:12"
+    },
+    {
+      "start": 974.48,
+      "duration": 1.44,
+      "text": "you can just inter in integrate directly",
+      "timestamp": "16:14"
+    },
+    {
+      "start": 975.92,
+      "duration": 1.919,
+      "text": "with the wormhole stack and then we have",
+      "timestamp": "16:15"
+    },
+    {
+      "start": 977.839,
+      "duration": 2.401,
+      "text": "wormhole relaying so you can have a",
+      "timestamp": "16:17"
+    },
+    {
+      "start": 980.24,
+      "duration": 1.599,
+      "text": "one-click experience and your transfer",
+      "timestamp": "16:20"
+    },
+    {
+      "start": 981.839,
+      "duration": 1.36,
+      "text": "is automatically relayed to the",
+      "timestamp": "16:21"
+    },
+    {
+      "start": 983.199,
+      "duration": 3.281,
+      "text": "destination chain. So um product suite",
+      "timestamp": "16:23"
+    },
+    {
+      "start": 986.48,
+      "duration": 1.68,
+      "text": "overall has been built and catered",
+      "timestamp": "16:26"
+    },
+    {
+      "start": 988.16,
+      "duration": 3.2,
+      "text": "towards the needs of asset issuers. Um",
+      "timestamp": "16:28"
+    },
+    {
+      "start": 991.36,
+      "duration": 2.32,
+      "text": "now what what we're really excited about",
+      "timestamp": "16:31"
+    },
+    {
+      "start": 993.68,
+      "duration": 4.64,
+      "text": "is just everything um excuse the uh the",
+      "timestamp": "16:33"
+    },
+    {
+      "start": 998.32,
+      "duration": 2.24,
+      "text": "slack alerts. Um what we're really",
+      "timestamp": "16:38"
+    },
+    {
+      "start": 1000.56,
+      "duration": 1.6,
+      "text": "excited about is everything being",
+      "timestamp": "16:40"
+    },
+    {
+      "start": 1002.16,
+      "duration": 2.799,
+      "text": "tokenized and um building towards a",
+      "timestamp": "16:42"
+    },
+    {
+      "start": 1004.959,
+      "duration": 1.68,
+      "text": "future where where all kinds of assets",
+      "timestamp": "16:44"
+    },
+    {
+      "start": 1006.639,
+      "duration": 2.161,
+      "text": "are going to be tokenized. So so looking",
+      "timestamp": "16:46"
+    },
+    {
+      "start": 1008.8,
+      "duration": 1.76,
+      "text": "at some data, you know, we always have",
+      "timestamp": "16:48"
+    },
+    {
+      "start": 1010.56,
+      "duration": 1.519,
+      "text": "charts that are up and to the right,",
+      "timestamp": "16:50"
+    },
+    {
+      "start": 1012.079,
+      "duration": 1.841,
+      "text": "which is exciting. And this is a bit of",
+      "timestamp": "16:52"
+    },
+    {
+      "start": 1013.92,
+      "duration": 2.56,
+      "text": "an outdated chart. Um it I think the",
+      "timestamp": "16:53"
+    },
+    {
+      "start": 1016.48,
+      "duration": 3.279,
+      "text": "last date is the the",
+      "timestamp": "16:56"
+    },
+    {
+      "start": 1019.759,
+      "duration": 4.881,
+      "text": "um oh January 1st uh 2025. So not up to",
+      "timestamp": "16:59"
+    },
+    {
+      "start": 1024.64,
+      "duration": 1.679,
+      "text": "date in the last six months, but still",
+      "timestamp": "17:04"
+    },
+    {
+      "start": 1026.319,
+      "duration": 3.441,
+      "text": "gives you a good idea from rwa.xyz. XYZ.",
+      "timestamp": "17:06"
+    },
+    {
+      "start": 1029.76,
+      "duration": 4.96,
+      "text": "Um, tokenized assets in 2024 were up 32%",
+      "timestamp": "17:09"
+    },
+    {
+      "start": 1034.72,
+      "duration": 2.64,
+      "text": "in terms of market cap. The current RWA",
+      "timestamp": "17:14"
+    },
+    {
+      "start": 1037.36,
+      "duration": 1.839,
+      "text": "market cap, that's a figure I updated",
+      "timestamp": "17:17"
+    },
+    {
+      "start": 1039.199,
+      "duration": 3.599,
+      "text": "yesterday from RWA.xyz is is around $24",
+      "timestamp": "17:19"
+    },
+    {
+      "start": 1042.799,
+      "duration": 2.879,
+      "text": "billion. Um, and then there's again",
+      "timestamp": "17:22"
+    },
+    {
+      "start": 1045.679,
+      "duration": 2.801,
+      "text": "growing utility in in DeFi, which which",
+      "timestamp": "17:25"
+    },
+    {
+      "start": 1048.48,
+      "duration": 3.28,
+      "text": "I'll talk about on the last slide. Um,",
+      "timestamp": "17:28"
+    },
+    {
+      "start": 1051.76,
+      "duration": 2.64,
+      "text": "so what is what does DeFi utility even",
+      "timestamp": "17:31"
+    },
+    {
+      "start": 1054.4,
+      "duration": 2.0,
+      "text": "look like for for some of these funds on",
+      "timestamp": "17:34"
+    },
+    {
+      "start": 1056.4,
+      "duration": 2.0,
+      "text": "chain? you you might think that okay you",
+      "timestamp": "17:36"
+    },
+    {
+      "start": 1058.4,
+      "duration": 1.36,
+      "text": "have the funds on chain what do you even",
+      "timestamp": "17:38"
+    },
+    {
+      "start": 1059.76,
+      "duration": 1.84,
+      "text": "do they just sit there do you just hold",
+      "timestamp": "17:39"
+    },
+    {
+      "start": 1061.6,
+      "duration": 1.92,
+      "text": "them do you just get the dividends from",
+      "timestamp": "17:41"
+    },
+    {
+      "start": 1063.52,
+      "duration": 2.399,
+      "text": "if you're holding bidd um so part one is",
+      "timestamp": "17:43"
+    },
+    {
+      "start": 1065.919,
+      "duration": 1.76,
+      "text": "just getting the assets on chain and",
+      "timestamp": "17:45"
+    },
+    {
+      "start": 1067.679,
+      "duration": 2.24,
+      "text": "that's been a huge amount of work and I",
+      "timestamp": "17:47"
+    },
+    {
+      "start": 1069.919,
+      "duration": 1.361,
+      "text": "don't want to discount how much work it",
+      "timestamp": "17:49"
+    },
+    {
+      "start": 1071.28,
+      "duration": 1.84,
+      "text": "is to actually get the assets on chain",
+      "timestamp": "17:51"
+    },
+    {
+      "start": 1073.12,
+      "duration": 3.04,
+      "text": "and um sort of sort of offer them to uh",
+      "timestamp": "17:53"
+    },
+    {
+      "start": 1076.16,
+      "duration": 2.0,
+      "text": "to crypto users and in the crypto space",
+      "timestamp": "17:56"
+    },
+    {
+      "start": 1078.16,
+      "duration": 2.399,
+      "text": "generally now part two is actually using",
+      "timestamp": "17:58"
+    },
+    {
+      "start": 1080.559,
+      "duration": 4.081,
+      "text": "these assets within DeFi and so now",
+      "timestamp": "18:00"
+    },
+    {
+      "start": 1084.64,
+      "duration": 2.8,
+      "text": "again while this is nent very new, still",
+      "timestamp": "18:04"
+    },
+    {
+      "start": 1087.44,
+      "duration": 1.68,
+      "text": "small. There are a few exciting use",
+      "timestamp": "18:07"
+    },
+    {
+      "start": 1089.12,
+      "duration": 1.76,
+      "text": "cases that I want to highlight here that",
+      "timestamp": "18:09"
+    },
+    {
+      "start": 1090.88,
+      "duration": 3.679,
+      "text": "we're starting to see. So, um first uh",
+      "timestamp": "18:10"
+    },
+    {
+      "start": 1094.559,
+      "duration": 2.801,
+      "text": "use case for Black Rockck B is it can be",
+      "timestamp": "18:14"
+    },
+    {
+      "start": 1097.36,
+      "duration": 3.04,
+      "text": "used as collateral for USDTB,",
+      "timestamp": "18:17"
+    },
+    {
+      "start": 1100.4,
+      "duration": 2.399,
+      "text": "which is a stable coin on Athena. This",
+      "timestamp": "18:20"
+    },
+    {
+      "start": 1102.799,
+      "duration": 3.521,
+      "text": "asset has around $1.4 billion of supply.",
+      "timestamp": "18:22"
+    },
+    {
+      "start": 1106.32,
+      "duration": 3.04,
+      "text": "Um a significant portion of which is uh",
+      "timestamp": "18:26"
+    },
+    {
+      "start": 1109.36,
+      "duration": 2.64,
+      "text": "is Bidd. So that's one use case is using",
+      "timestamp": "18:29"
+    },
+    {
+      "start": 1112.0,
+      "duration": 2.559,
+      "text": "B as collateral for an onchain stable",
+      "timestamp": "18:32"
+    },
+    {
+      "start": 1114.559,
+      "duration": 2.48,
+      "text": "coin um that's offered by Athena.",
+      "timestamp": "18:34"
+    },
+    {
+      "start": 1117.039,
+      "duration": 2.241,
+      "text": "Another use case is Acred which is",
+      "timestamp": "18:37"
+    },
+    {
+      "start": 1119.28,
+      "duration": 3.36,
+      "text": "Apollo's um Apollo Global's uh tokenized",
+      "timestamp": "18:39"
+    },
+    {
+      "start": 1122.64,
+      "duration": 3.76,
+      "text": "private credit fund. You can use uh",
+      "timestamp": "18:42"
+    },
+    {
+      "start": 1126.4,
+      "duration": 3.6,
+      "text": "Acred to you can use Morpho to get",
+      "timestamp": "18:46"
+    },
+    {
+      "start": 1130.0,
+      "duration": 3.52,
+      "text": "boosted yields on Acred by using Sacred",
+      "timestamp": "18:50"
+    },
+    {
+      "start": 1133.52,
+      "duration": 4.159,
+      "text": "as collateral um sort of borrowing USDC",
+      "timestamp": "18:53"
+    },
+    {
+      "start": 1137.679,
+      "duration": 2.401,
+      "text": "and then looping that to get boosted",
+      "timestamp": "18:57"
+    },
+    {
+      "start": 1140.08,
+      "duration": 2.479,
+      "text": "yields on Morpho. Um and then another",
+      "timestamp": "19:00"
+    },
+    {
+      "start": 1142.559,
+      "duration": 3.601,
+      "text": "use case this is a uh Salana. So I'm",
+      "timestamp": "19:02"
+    },
+    {
+      "start": 1146.16,
+      "duration": 1.84,
+      "text": "sorry to highlight a Salana use case",
+      "timestamp": "19:06"
+    },
+    {
+      "start": 1148.0,
+      "duration": 2.16,
+      "text": "here but it's still an exciting use case",
+      "timestamp": "19:08"
+    },
+    {
+      "start": 1150.16,
+      "duration": 2.32,
+      "text": "and as wormhole we are chain agnostic.",
+      "timestamp": "19:10"
+    },
+    {
+      "start": 1152.48,
+      "duration": 1.76,
+      "text": "So we're excited about all kinds of use",
+      "timestamp": "19:12"
+    },
+    {
+      "start": 1154.24,
+      "duration": 2.88,
+      "text": "cases. Um but you can use a AC ared as",
+      "timestamp": "19:14"
+    },
+    {
+      "start": 1157.12,
+      "duration": 2.559,
+      "text": "well as collateral on drift. So that's",
+      "timestamp": "19:17"
+    },
+    {
+      "start": 1159.679,
+      "duration": 2.321,
+      "text": "again Acred is live on multiple chains",
+      "timestamp": "19:19"
+    },
+    {
+      "start": 1162.0,
+      "duration": 2.16,
+      "text": "and you can use it in multiple venues",
+      "timestamp": "19:22"
+    },
+    {
+      "start": 1164.16,
+      "duration": 2.0,
+      "text": "that are in different ecosystems.",
+      "timestamp": "19:24"
+    },
+    {
+      "start": 1166.16,
+      "duration": 1.759,
+      "text": "Something that's only possible when",
+      "timestamp": "19:26"
+    },
+    {
+      "start": 1167.919,
+      "duration": 2.481,
+      "text": "ACred is a multi-chain asset using using",
+      "timestamp": "19:27"
+    },
+    {
+      "start": 1170.4,
+      "duration": 3.44,
+      "text": "Wormhole. Um so we're excited to see",
+      "timestamp": "19:30"
+    },
+    {
+      "start": 1173.84,
+      "duration": 1.76,
+      "text": "more of these DeFi use cases pop up.",
+      "timestamp": "19:33"
+    },
+    {
+      "start": 1175.6,
+      "duration": 2.079,
+      "text": "We're excited to see them pop up across",
+      "timestamp": "19:35"
+    },
+    {
+      "start": 1177.679,
+      "duration": 1.601,
+      "text": "all the different chains that wormhole",
+      "timestamp": "19:37"
+    },
+    {
+      "start": 1179.28,
+      "duration": 1.279,
+      "text": "is live on and all the different chains",
+      "timestamp": "19:39"
+    },
+    {
+      "start": 1180.559,
+      "duration": 1.761,
+      "text": "that these these tokenized funds",
+      "timestamp": "19:40"
+    },
+    {
+      "start": 1182.32,
+      "duration": 3.76,
+      "text": "actually go to. Um, so this is exciting.",
+      "timestamp": "19:42"
+    },
+    {
+      "start": 1186.08,
+      "duration": 1.68,
+      "text": "Um, yeah, so that's everything I had",
+      "timestamp": "19:46"
+    },
+    {
+      "start": 1187.76,
+      "duration": 2.159,
+      "text": "today. Um, if you're interested in in",
+      "timestamp": "19:47"
+    },
+    {
+      "start": 1189.919,
+      "duration": 1.76,
+      "text": "tokenization or wormhole",
+      "timestamp": "19:49"
+    },
+    {
+      "start": 1191.679,
+      "duration": 2.24,
+      "text": "interoperability, um, or just want to",
+      "timestamp": "19:51"
+    },
+    {
+      "start": 1193.919,
+      "duration": 1.921,
+      "text": "chat, just, uh, please come find me or",
+      "timestamp": "19:53"
+    },
+    {
+      "start": 1195.84,
+      "duration": 2.079,
+      "text": "get in touch. Uh, that's my email and",
+      "timestamp": "19:55"
+    },
+    {
+      "start": 1197.919,
+      "duration": 2.241,
+      "text": "that's my Twitter handle. Um, so thank",
+      "timestamp": "19:57"
+    },
+    {
+      "start": 1200.16,
+      "duration": 3.639,
+      "text": "you so much for listening.",
+      "timestamp": "20:00"
+    }
+  ],
+  "extraction_timestamp": "2025-07-08T14:45:53.106688",
+  "playlist_title": "EthCC[8] Redford Stage"
+}

@@ -1,0 +1,4733 @@
+{
+  "video_id": "vg0-qQy2VR0",
+  "video_title": "oskarth (Independent) - Sense-making at the Frontier",
+  "video_url": "https://www.youtube.com/watch?v=vg0-qQy2VR0",
+  "channel_title": "[EthCC] Livestream 4",
+  "published_at": "2025-07-01T20:31:11+00:00",
+  "duration_seconds": null,
+  "view_count": 61,
+  "like_count": 2,
+  "description": "This talk explores where the tech frontier (crypto, prog-crypto, network states) meets the philosophical frontier (Plurality, Cypherpunk, d/acc, Lunarpunk, BAM). We map uncommon ground and show how \"intolerant minorities\" can drive decentralized ch",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 785,
+    "aggregated_text": "What sense making at the at the front here? All good. Yeah. Polarity and procrypto. Right. So, a few things I'm not going to talk to you about. I'm not going to talk to you about uh Vaku, which is a peer-to-peer communication protocol with a focus on privacy and sensor persistence. I'm not going to talk to you about uh MOPro, which is a tool that I worked on for client side CK proving. I'm not going to talk to you about the book I'm writing on CK seek intro. Instead, what I want to do is sort of take a step back. Uh and basically, I've been going to these like conferences and pop-up cities and hackathons and so on for many years now. And what I've noticed is that there like a lot of philosophies that people are inventing or or keep coming back to. So whether it's like cipher punk, solar punk, lunar punk, diaak, plurality, bronze age mindset and so on. And I think what you what I've noticed is that a lot of these philosophies they often come in conjunction with some technology. So as technologies develop, people sort of uh come up with new philosophies or sort of revisit old ones to sort of make sense of what's happening. So that's whether it's like cryptocurrencies or programming cryptography or biod defense or what have you and often times these philosophies are sort of developed and uh and talked about at these like various types of social experiments in that context. Uh so if it's Dows or network states or pop cities or citadels where people have this kind of doing these kind of experiments and trying to figure out different ways to coordinate it's obviously like a very biased subset. There's many ways to slice a cake. So in the whole AI world there's also like another set of technologies and philosophies that are developing uh just very very briefly sort of oneliner. So cyher punk privacy first lunar punk so think something like uh dogfy kind of have this having this like mystical privacy enclaves uh dak as proposed by vitalic have this it's about basically accelerating defensive technology and then priority which is by a tang and others uh it's basically like a big tent for allowing for diverse viewpoints and then bronze age mindset which is kind of in bitcoin world and a bit more obscure and has these kind of vitalist enclaves and when I see all these philosophies is developing his own song. One of the things I ask is like are they in opposition? Are they in conflict and like where do they overlap? Uh there's some obvious conflicts. So kind of bronze mindset versus solar punk. I think the former is more on sort of the some kind of heroic elitism versus solar punk which is more of a communal optimism and also differences in terms of if it's more like romantic cyber punk vision versus some kind of tempered transparency and working with existing institutions. Uh I think a big difference is also in terms of how these philosophies think about institutions. Are they trying to reform existing institutions or rejecting them completely? But over overall I would say there's more overlap than this conflict. Uh in general there's like a large skepticism for central of central authorities and most of them also are pursuing new forms of coordination and in general I would sum it up as kind of new world versus old world. uh when it comes to trust and some shared problems, there's some shared trust problems. So like how do you trust at scale and how do you deal with things like authenticity, privacy and accountability without having some kind of centralized top down uh control and a big intersection here is kind of trying to exit these broken systems or building better ones. Uh so a bit glib but like how do you trust a scale for each of these philosophies? So cyber punk you're trusting in the math. Luna punk you're kind of hiding in this dark forest of anonymity. DK you're trying to build defensive technology priority you're trying to build pro systems and BAM is basically strongest shall survive. Uh and one thing one way of visualizing this is like what's the overlap between these philosophies. So some of them are almost identical. They agree on pretty much everything. Uh some of them they have some core concerns that they they share but there's certain disagreements. uh and other philosophies they might have just like a tiny sliver of overlap like they disagree on most things but there's certain core values that they they share and in some specific uh instances or specific uh questions and problems there might be no overlap at all. Uh and here I want to talk a little bit about tribalism. So I think that's something we've historically seen a lot in our space and in general uh we see this in society and this is this uh quote from Gulov travels u and basically it's about big Indian versus little Indian uh so what they have is they have a conflict where how do you break an egg do you start from the big end or do you start from the small end and this tiny difference sort of leads to this conflict that eventually escalates into a war and I think uh that's quite common and we want to try to avoid Uh and this leads us to the idea of sort of uncommon ground. So I heard this from Oang who's the digital minister of Taiwan. H where basically maybe you disagree on most things but there's like a tiny sliver of things that you actually agree on and that's kind of you can find that uncommon ground. Uh and this leads into the idea of plurality. Uh so plurality show in Chinese is refers to something being both digital and plural and can be used both as a noun and a verb. And essentially what it is is a kind of vision for deal democracy in the 21st century where it's neither sort of mountain man nor king tyrant. So it's neither sort of a Bitcoin max in the mountains with their own uh water supply and completely self selfsufficient nor is it some kind of king tyrant Zuckerberg Facebook top down internet basically it's about how do we develop this technology for collaborating across social differences. uh it's using Taiwan as a case study and it's also has sort of um its origins or trying to revisit the origins of the original vision of the internet um and it's a book written by Glenn Wild audit and with contributions of Vitalik and many other people in the ecosystem and one way I like to think of priorities is essentially like a big tent so how do you accept different viewpoints and encourage these parallel enclaves uh I also want to mention there's a famous book by call popper called opai and his enemies And in it he talks about the paradox of tolerance. Uh where basically you have some system but as and you want to have a lot of tolerance within that system but there are some extremes that sort of threaten the system and in order for for the system or society to survive you need to be intolerant towards intolerance and we'll come back to that later. So what does this have to do with technology? Uh so programmer cryptography I think there's lots of interesting overlap here with with a lot of these ideas. Um and cryptography is about securing deal information and programming cryptography basically adds computation on top of that. So you have a bunch of tools uh like CK, MPC, FC, PR, io so proofs, uh multi-party computation, fully fully humomorphic encryption, private information retrieval and indistinguishable offiscation. And a very very high level uh maybe some of you are familiar with this already, but like very basic with CK, you can for example take a passport and prove that you're about the age of 18 without revealing anything else and doing that with the signature in the passport. And basically it allows for general purpose privacy and succinctness. Uh and at a very high level if CK is single player uh NPC and FH is multiplayer. So sort of sh dealing with your own secrets versus multiple people's secrets. And then IO is kind of god mode. Uh and basically what you have with this is you have a bunch of flexible Lego blocks and you can use it to solve these various trust problems that we see uh with cryptography. Uh going back to plurality. So they have this vision of like data democracy, right? And what what we're trying to do is kind of enshrining these plural freedoms and rights as a foundation for a data democracy and they liken it a bit to an operating system and applications on top. So you have a kernel space and then user space. So the kernel space is kind of hard and fundamental. So hard, you can think of it a bit like uh rule of law or sound money or in this case cryptographic hardness and then you have a user space on top that's of more more flexible and people might build businesses or whatever have you or applications on top and what is the framework that they're using in polarity as well is that they identify these various dimensions that build on top of each other. So starting off with some notion or multiple notions of identity and then association on top of that and then commerce contracts and then finally access. And I also want to point out that this idea of democracy, it doesn't just apply to sort of nation states. It's kind of a general um way of thinking about how do we govern various platforms and so on. So for example, how how does governance for Twitter work? What is the notion of identity and social network and so on as an aside uh there's like a lot of overlap here with privacy and Ethereum uh in terms of concerns. Uh it's not going to be a focus of this talk, but I just want to mention it. So for example, there's certain operations you want to do whether it's like writing things on or offchain and then how do you read that data privately and it might apply in different domains. So identity or finance or governance. Uh what I want to do is just look at a few case studies where programming cryptography is useful for these various dimensions. So you can sort of get a bit of feel for how this works. Uh so for identity we'll look at raro uh association cursive commerce privacy pools and rail gun and for access PDP and seek email. So first up identity uh so the challenge here is enimity versus central control. So on the left here you have so no one knows your dog on internet and on the right you have this kind of top down civilian state and both are kind of failure modes in a sense uh because you have things like civil resistance and and so on and reputation you want to have. So you need one or multiple notions of some kind of secure identity in order to have some kind of digital democracy or governance. One example of this is quite interesting is Rharmo. So Rammo is a CK solution and is used in Ukraine, Russia and Georgia. And if you're a fan of geopolitics, you know that these uh jurisdictions are quite different. So in the case of Ukraine, it's more sort of aligned. In the case of Russia, it's uh something that is uh has to be done permissionlessly. So basically what it what it does is that you have maybe a Russian passport and then you can they have this shadow election and they're doing it permissionlessly and that's something you can do with this technology. And in case of Georgia they also did this experiment with liquid democracy so you could sort of have a more involved uh people in terms of the decision-m process and so on. Uh more examples there also things like world ID has a lot of users uh and in general we see a lot of governments that are slowly catching up. So whether it's Taiwan, they have this uh some PC's uh from the Ministry of Digital Affairs. Uh EU, the EU, they've also started looking at what this might look like from kind of a standards point of view. Um and there's many many other examples. Um I also want to mention social key recovery. We'll go into that a bit uh later down the line. But if you have this notion of identity and is some kind of self-sign identity in terms of a key pair, you do want to have some kind of social recovery mechanism. uh so how do you deal with that is another problem where programming cryptography can help when it comes to association I think uh you can think of it like public versus private uh but that's usually not how things work in practice usually we live in some kind of common context so for example this room or maybe you have a private group chat with some friends and it's important how you sort of establish and protect that common context and it's not just like private for your eyes only or public for everyone um and like it it's a non-trivial problem because for example if you have a private group chat how do you deal with things like unilateral uh oversharing that that's non-trivial and there's many such examples uh one thing I want to mention here is this application called cursive so uh it's sort of a social app uh that was developed in this space maybe some of you are familiar with it um and they have this idea of private set intersection so the way it works is that let's say you have some embarrassing music taste and you want to find out if your friend also shares the same embarrassing music taste What you can do is basically share this uh but you won't reveal what your embarrassing music taste is unless you actually match. So that's the kind of private set intersection part. Uh and this is also done technologically uh through 2PC specifically. So there's no you're not revealing it to a central server or anything like that. Um and with this they have this kind of idea of digital pherommones where basically you give up some some kind of pherommones and then if other people have the receptors uh then you can sort of match. And I think this is very interesting because an example of a new type of affordance that you don't see from traditional social networks and you can sort of create these new ways of of interacting with this technology. When it comes to commerce uh at a high level you can look at a bit like cash versus CBDC versus crypto. And cash is is is kind of dumb but it works really well. Like if I pay for a coffee then the cashier can't see my entire transaction history. Um but obviously the digital world enables a lot more both good and bad. So when we look at CBDC's uh you know it might be convenient or whatever but it allows for like unprecedented sort of top down control and surveillance. So that's not necessarily we want when when we come comes to like public blockchains like Bitcoin and Ethereum um they're great but they're usually transparent right uh and that's a problem in terms of privacy and getting this kind of fungeability property that we want from money. So there's lots of people who have sort of been finding solutions for this and I think in Ethereum world one example is tornado cache. Um many of you are probably familiar what sort of happened with that. But basically what happened is that it's a way to get privacy on Ethereum using CK proofs. Um but then uh North Korea and other bad actors um hacked all these like big D5 products products and so on and they used to cash of cash out and that led to the US um putting sanctions on them. So it was very hard for people to use in practice. uh but because programmable is very very sort of flexible people have found out ways to sort of improve on this. So there's this thing called privacy pool that was just launched uh this year and basically they have basically a similar thing to to cache but you also have this notion of proof of innocence. So basically what you can do is you can as a user you can get privacy and disassociate your funds from a big hack. So if a big hack happens and people suspect it's like a bad actor you can prove that your money had nothing to do with it. And there's also other products like rail gun that have been run for a while and it's growing a lot that sort of do the same thing but for DeFi. Uh when it comes to access uh access is kind of a fundamental right. So we want to have availability of information. We don't want any type of censorship but we also want integrity of information. So we want to know something is trustworthy and like when it comes to information integrity uh there's a big problem with deep fakes and there's different ways you can you can kind of try to address this. One is in terms of having signatures of content for authenticity. Uh one example of this is uh Canon their camera they have this signature of a a photo and then you can use uh see technology to basically prove valid transformations on that. So when it comes to Reuters they have this standard for what you can do with a photo without it being doctorred. So you can have like grayscale and you can crop it and so on. Um so that's like one example of how you can prove um authenticity at least assuming you trust the camera. You can also go the opposite way. So there's certain uh products that are trying to basically uh prove that something was LM generated and that's another another way to get the SIM property. I think generally speaking we see a lot more sort of signed data. So what you can do for example uh with something like CK email is that you can prove there's a signature in the email and you can prove that you received a certain email. um with seek without sort of um revealing all the contents of your email and without giving up your contact info and so on. Um and we see the same thing for Tless sessions or passports or what have you. So it's like a lot of signed data out there and we can use it in different ways. And in general the goal we're going for is like we want to have openness and trust. So we don't want censorship but we also want to be able to trust information. Uh one example of this quite cool is seep. So it's using CK email and basically a bit like unis swap but between crypto and fiat. Uh so you can on and off ramp uh in less than a minute without any KYC or anything like that using uh see tech. And the way it works is that you have something like Revolute uh or Weiss or whatever or Wenmo and you basically send your money, you get receive an email as a proof that you have sent the money to someone and you can use that email to sort of prove that this crypto fund, these crypto funds belong to you and you can go on chain and basically get that those funds. And what's cool about this is that like you can do it like in less than a minute. There's no KYC or anything like that and you're just sort of trusting this trusting the math around this. Um there's also a new version of this that's using TLS notary which is an even more involved pro crypto protocol using MPC as well where basically you're proving things about uh TS sessions. Another example of this is uh of using CK email is for garden email recovery. Uh so this is was launched in in both clave and safe uh the multisig wallet this year. So one big problem right is if you have a lot of actions that are tied to some key material if you lose that key that's bad news. Um so what what some protocols have this idea of like guardianship. So let's say you have uh five friends or some family members or lawyers or what have you and you can basically distribute it across them but that they might not all be cryptonative. So what you can do with seek email is that you can assign let's say you have a family friend or or some lawyer or something you can basically say whoever controls this email can be part of this sort of can be a guardian. Uh so that's quite cool in terms of sort of creating these more secure systems and integrating with sort of large society and how we do things right now. I think in general I mean there's lots of more examples I can give but in general what you have with program cryptography is that it's kind of it's very hard and flexible and a little bit like bamboo and carbon fiber. uh so bamboo kind of more anchored in the old whether it's like nation states or passports or emails but also sort of uh more futuristic like public blockchains or new affordances like cursive uh and kind of hard in the sense of like cryptographic hardness so similar to like rule of law or sound money but also flexible to s of the world that we live in and actual reality we live in and priority is trying to sort of develop these tools that allow for greater cooperation and consensus while making space for greater diversity and I think they sort of fit very nicely together in terms of creating these new institutions and uh systems for next century. Uh what about cases where there's absolutely no so just going back to what I said in the beginning with philosophies and so on. What about cases where there's no intersection? So first of all I would say often surprisingly there is some kind of uncommon ground you can find. Uh so like one example is maybe you have a bitcoin maxis versus someone who believes in more of a multi-chain world that's obviously incompatible but the desire for privacy is still the same. Uh and when you look at something like uh BAM enclaves versus more egalitarian norms uh maybe the solution is just to have sort of different power cities like most of these philosophies are nonviolent in nature all of them right now. Uh so that's completely compatible and I think a key question here to ask is like what do you have in common and finding this uncommon ground but there might be specific uh cases where there's actually no overlap and you have a real conflict. Um I think this goes back to what I mentioned about Popper as well. Um and also Talib has this concept of intolerant minority and it's more of an observation than like a value judgment which is that the intolerant minority often decides the outcome. Uh so one example here is preference for end to end encrypted communication. Uh so 10 15 years ago or so when everyone was using Facebook and WhatsApp one thing I did with some close friends and family say like well I'm I'm only on signal so if you want to talk to me you signal and I would help them on board them on onto this uh and that that kind of works right especially if you help them but the thing is you have to pick wisely like you can you can only you only have so many choices uh where you can sort of be intolerant because if you're intolerant about everything then people don't want to be around you so you have to think carefully about this. Uh one thing we've seen uh last few months I mean this is kind of an evergreen thing where it happens comes up again and again but it's been this kind of attack on end to end encryption protocols. Uh so governments basically who want to install backd doorors. So we've seen this lately with the UK, France, Sweden, EU and even Switzerland who basically want to mandate uh back doors into these systems and there's similar attacks on things like self-hosted wallets and so on. Um and I think this goes back to Poppers paradox I mentioned in the beginning. Um and I guess one question we have to ask ourselves and you have to ask yourself answer yourself individually is are we okay with this government imposed back doors into end encrypted protocols. I would argue that kind of under under valvalues undermines sort of the core values for a free society and these kind of hardness guarantees that we want and I would also say it's kind of symbolic for this kind of old world uh versus new world and maybe this is something that's worth being intolerant about. All right. Uh so some key takeaways. So this with this of big technological shift this kind of an explosion of these various philosophies and ways of making sense of the world. Uh program cryptography has this kind of hard but flexible uh efforts. Plurality it's about sort of allowing for these kind of different viewpoints and how to deal with that. um talked a little bit about the importance of kind trying to kind of recognize some uncommon ground like the world is big, people have very different ways of of living and generally being tolerant but then understanding when it makes sense to be intolerant and and sort of picking wisely. Uh also just finally want to mention that I am I'm writing this book on CK where basically I'm trying to bridge the normitech world with sort of a more CK pill world uh in terms of how we think about trust problems of example things I mention here. Uh so I have some booklets I give out. Uh if anyone is interested, you can come up to me after the talk. Uh here's some links. Thank you. Any questions? [Applause] So my question is um so regarding AI and large language models and particularly when they are centralized like open AAI etc. So um what are kind of the like promising technologies and outlooks to to get some encryption um privacy um there? So of course we can run them locally but the compute is not enough. So is there any zk or anything that is you think is going to be big? Uh yeah it's a good question. Um so one way you can think about is is kind of like a quadrant where basically this this is a whole field of like called CKML and basically you can choose if you have a sort of um you have a model and then sort of the the input and basically you can choose which of those you want are private. So maybe the model is private uh which can be useful for um certain domains or maybe of the input is private. So there is research in that. I think one big problem is in terms of just uh it's it's it's very com very computationally expensive. So it only makes sense in specific subset of use cases. So for example, when is when you're dealing with like medical data and stuff like that where people might not want to give it up. So that's one example of where that kind of application makes sense. There's also people who are doing kind of hybrid models. So whether instead of just doing pure seek for everything they have this kind of um optimistic approach uh called I think it's optimistic ML or whatever uh and that way you can also get better um performance and stuff like that but reality is they will always sort of lag behind these big uh models and companies and so on. So I think it's more a matter of identifying some kind of subset where it makes sense. Uh but yeah, it's it's a good question and because the space is advancing so quickly, uh it takes a while for things to catch up and so on, but there's definitely a lot of people working in in this area uh for specific use cases. Thank you. Hey. Yeah. Um, when it comes to plurality, uh, in the book a lot, they talk a lot about, um, various identity solutions as like a core part of it because if you have many plural identities, then they need to have somewhere to track. Now, I haven't really seen a convincing argument because it's something that concerns me greatly of how you can have such a large amount of qualitative data on one person and their various sort of inputs um and maintain any semblance of privacy at scale because yes, you could do ZK but if you have enough data at some point triangulation as possible. Do you have any thoughts? Uh well, I would say that uh it's already the case that things are moving into more D direction, right? like like identities are right now a lot of identities are implicit and so on but they're becoming more and more explicit. So for example a social graph is becoming more explicit with social networks and so on and the same thing with passport data and so on. So I think uh what you can do with this technology is to sort of integrate with these digital systems and then um it's not it's not never going to be perfect but I think you can you can still improve on the status quo basically. I think that's what I would say and and then it's hard because a lot of this has to do with sort of the tension in the current society we live in as well. So it's a little bit of of like for example some things might be a a side effect of uh big tech and an ad- driven uh business model. So to get around that to actually solve that problem fundamentally you would probably need like other types of business models. When it comes to nation state I think that differs a lot depending on jurisdiction you're in how open they are to that kind of those type of solutions. I would say that one thing that's generally underexplored um because the technological domain that we're in is quite deep and the legal domain is also quite deep. So there's also a lack of communication between the two. I think one example of uh some people are doing a good job here like the Ccatch people uh because they are care a lot about privacy but they've also been talking to people in Washington and there it turns out they're actually people like subsets of people in sort of the establishment that also care about privacy for various reasons. So I do think that's kind of how you move that forward, but it's definitely a non-trivveal problem. And then you can talk about specifics in terms of triangulation and what information to give up and so on. And that's a deeper conversation. Yeah. And just an extension, sorry. Um, do you personally believe that anytime in the next sort of decade we're going to have that integration where let's say nation state level governance will respect privacy levels on identity solutions like this? Uh, I think some jurisdiction will have that. Yes. But maybe not all of them. Cool. other question. Okay, thank you.",
+    "text_length": 29138,
+    "word_count": 5454
+  },
+  "segments": [
+    {
+      "start": 8.559,
+      "duration": 3.281,
+      "text": "What sense making at the at the front",
+      "timestamp": "00:08"
+    },
+    {
+      "start": 11.84,
+      "duration": 3.2,
+      "text": "here? All good. Yeah. Polarity and",
+      "timestamp": "00:11"
+    },
+    {
+      "start": 15.04,
+      "duration": 3.0,
+      "text": "procrypto.",
+      "timestamp": "00:15"
+    },
+    {
+      "start": 21.439,
+      "duration": 1.441,
+      "text": "Right. So, a few things I'm not going to",
+      "timestamp": "00:21"
+    },
+    {
+      "start": 22.88,
+      "duration": 1.28,
+      "text": "talk to you about. I'm not going to talk",
+      "timestamp": "00:22"
+    },
+    {
+      "start": 24.16,
+      "duration": 1.76,
+      "text": "to you about uh Vaku, which is a",
+      "timestamp": "00:24"
+    },
+    {
+      "start": 25.92,
+      "duration": 1.76,
+      "text": "peer-to-peer communication protocol with",
+      "timestamp": "00:25"
+    },
+    {
+      "start": 27.68,
+      "duration": 1.519,
+      "text": "a focus on privacy and sensor",
+      "timestamp": "00:27"
+    },
+    {
+      "start": 29.199,
+      "duration": 1.681,
+      "text": "persistence. I'm not going to talk to",
+      "timestamp": "00:29"
+    },
+    {
+      "start": 30.88,
+      "duration": 1.76,
+      "text": "you about uh MOPro, which is a tool that",
+      "timestamp": "00:30"
+    },
+    {
+      "start": 32.64,
+      "duration": 2.079,
+      "text": "I worked on for client side CK proving.",
+      "timestamp": "00:32"
+    },
+    {
+      "start": 34.719,
+      "duration": 1.281,
+      "text": "I'm not going to talk to you about the",
+      "timestamp": "00:34"
+    },
+    {
+      "start": 36.0,
+      "duration": 3.12,
+      "text": "book I'm writing on CK seek intro.",
+      "timestamp": "00:36"
+    },
+    {
+      "start": 39.12,
+      "duration": 1.439,
+      "text": "Instead, what I want to do is sort of",
+      "timestamp": "00:39"
+    },
+    {
+      "start": 40.559,
+      "duration": 2.081,
+      "text": "take a step back. Uh and basically, I've",
+      "timestamp": "00:40"
+    },
+    {
+      "start": 42.64,
+      "duration": 1.439,
+      "text": "been going to these like conferences and",
+      "timestamp": "00:42"
+    },
+    {
+      "start": 44.079,
+      "duration": 2.0,
+      "text": "pop-up cities and hackathons and so on",
+      "timestamp": "00:44"
+    },
+    {
+      "start": 46.079,
+      "duration": 1.521,
+      "text": "for many years now. And what I've",
+      "timestamp": "00:46"
+    },
+    {
+      "start": 47.6,
+      "duration": 1.76,
+      "text": "noticed is that there like a lot of",
+      "timestamp": "00:47"
+    },
+    {
+      "start": 49.36,
+      "duration": 2.719,
+      "text": "philosophies that people are inventing",
+      "timestamp": "00:49"
+    },
+    {
+      "start": 52.079,
+      "duration": 2.32,
+      "text": "or or keep coming back to. So whether",
+      "timestamp": "00:52"
+    },
+    {
+      "start": 54.399,
+      "duration": 2.32,
+      "text": "it's like cipher punk, solar punk, lunar",
+      "timestamp": "00:54"
+    },
+    {
+      "start": 56.719,
+      "duration": 3.201,
+      "text": "punk, diaak, plurality, bronze age",
+      "timestamp": "00:56"
+    },
+    {
+      "start": 59.92,
+      "duration": 2.479,
+      "text": "mindset and so on. And I think what you",
+      "timestamp": "00:59"
+    },
+    {
+      "start": 62.399,
+      "duration": 1.521,
+      "text": "what I've noticed is that a lot of these",
+      "timestamp": "01:02"
+    },
+    {
+      "start": 63.92,
+      "duration": 1.199,
+      "text": "philosophies they often come in",
+      "timestamp": "01:03"
+    },
+    {
+      "start": 65.119,
+      "duration": 1.761,
+      "text": "conjunction with some technology. So as",
+      "timestamp": "01:05"
+    },
+    {
+      "start": 66.88,
+      "duration": 3.04,
+      "text": "technologies develop, people sort of uh",
+      "timestamp": "01:06"
+    },
+    {
+      "start": 69.92,
+      "duration": 2.239,
+      "text": "come up with new philosophies or sort of",
+      "timestamp": "01:09"
+    },
+    {
+      "start": 72.159,
+      "duration": 1.601,
+      "text": "revisit old ones to sort of make sense",
+      "timestamp": "01:12"
+    },
+    {
+      "start": 73.76,
+      "duration": 1.6,
+      "text": "of what's happening. So that's whether",
+      "timestamp": "01:13"
+    },
+    {
+      "start": 75.36,
+      "duration": 1.439,
+      "text": "it's like cryptocurrencies or",
+      "timestamp": "01:15"
+    },
+    {
+      "start": 76.799,
+      "duration": 1.921,
+      "text": "programming cryptography or biod defense",
+      "timestamp": "01:16"
+    },
+    {
+      "start": 78.72,
+      "duration": 2.24,
+      "text": "or what have you and often times these",
+      "timestamp": "01:18"
+    },
+    {
+      "start": 80.96,
+      "duration": 1.839,
+      "text": "philosophies are sort of developed and",
+      "timestamp": "01:20"
+    },
+    {
+      "start": 82.799,
+      "duration": 1.68,
+      "text": "uh and talked about at these like",
+      "timestamp": "01:22"
+    },
+    {
+      "start": 84.479,
+      "duration": 1.761,
+      "text": "various types of social experiments in",
+      "timestamp": "01:24"
+    },
+    {
+      "start": 86.24,
+      "duration": 2.0,
+      "text": "that context. Uh so if it's Dows or",
+      "timestamp": "01:26"
+    },
+    {
+      "start": 88.24,
+      "duration": 2.72,
+      "text": "network states or pop cities or citadels",
+      "timestamp": "01:28"
+    },
+    {
+      "start": 90.96,
+      "duration": 1.6,
+      "text": "where people have this kind of doing",
+      "timestamp": "01:30"
+    },
+    {
+      "start": 92.56,
+      "duration": 1.44,
+      "text": "these kind of experiments and trying to",
+      "timestamp": "01:32"
+    },
+    {
+      "start": 94.0,
+      "duration": 1.92,
+      "text": "figure out different ways to coordinate",
+      "timestamp": "01:34"
+    },
+    {
+      "start": 95.92,
+      "duration": 1.28,
+      "text": "it's obviously like a very biased",
+      "timestamp": "01:35"
+    },
+    {
+      "start": 97.2,
+      "duration": 1.599,
+      "text": "subset. There's many ways to slice a",
+      "timestamp": "01:37"
+    },
+    {
+      "start": 98.799,
+      "duration": 2.0,
+      "text": "cake. So in the whole AI world there's",
+      "timestamp": "01:38"
+    },
+    {
+      "start": 100.799,
+      "duration": 1.521,
+      "text": "also like another set of technologies",
+      "timestamp": "01:40"
+    },
+    {
+      "start": 102.32,
+      "duration": 2.56,
+      "text": "and philosophies that are developing uh",
+      "timestamp": "01:42"
+    },
+    {
+      "start": 104.88,
+      "duration": 2.239,
+      "text": "just very very briefly sort of oneliner.",
+      "timestamp": "01:44"
+    },
+    {
+      "start": 107.119,
+      "duration": 2.881,
+      "text": "So cyher punk privacy first lunar punk",
+      "timestamp": "01:47"
+    },
+    {
+      "start": 110.0,
+      "duration": 2.88,
+      "text": "so think something like uh dogfy kind of",
+      "timestamp": "01:50"
+    },
+    {
+      "start": 112.88,
+      "duration": 1.36,
+      "text": "have this having this like mystical",
+      "timestamp": "01:52"
+    },
+    {
+      "start": 114.24,
+      "duration": 2.879,
+      "text": "privacy enclaves uh dak as proposed by",
+      "timestamp": "01:54"
+    },
+    {
+      "start": 117.119,
+      "duration": 2.0,
+      "text": "vitalic have this it's about basically",
+      "timestamp": "01:57"
+    },
+    {
+      "start": 119.119,
+      "duration": 2.64,
+      "text": "accelerating defensive technology and",
+      "timestamp": "01:59"
+    },
+    {
+      "start": 121.759,
+      "duration": 2.561,
+      "text": "then priority which is by a tang and",
+      "timestamp": "02:01"
+    },
+    {
+      "start": 124.32,
+      "duration": 2.159,
+      "text": "others uh it's basically like a big tent",
+      "timestamp": "02:04"
+    },
+    {
+      "start": 126.479,
+      "duration": 2.64,
+      "text": "for allowing for diverse viewpoints and",
+      "timestamp": "02:06"
+    },
+    {
+      "start": 129.119,
+      "duration": 1.601,
+      "text": "then bronze age mindset which is kind of",
+      "timestamp": "02:09"
+    },
+    {
+      "start": 130.72,
+      "duration": 1.92,
+      "text": "in bitcoin world and a bit more obscure",
+      "timestamp": "02:10"
+    },
+    {
+      "start": 132.64,
+      "duration": 2.959,
+      "text": "and has these kind of vitalist enclaves",
+      "timestamp": "02:12"
+    },
+    {
+      "start": 135.599,
+      "duration": 1.441,
+      "text": "and when I see all these philosophies is",
+      "timestamp": "02:15"
+    },
+    {
+      "start": 137.04,
+      "duration": 1.199,
+      "text": "developing his own song. One of the",
+      "timestamp": "02:17"
+    },
+    {
+      "start": 138.239,
+      "duration": 1.521,
+      "text": "things I ask is like are they in",
+      "timestamp": "02:18"
+    },
+    {
+      "start": 139.76,
+      "duration": 1.36,
+      "text": "opposition? Are they in conflict and",
+      "timestamp": "02:19"
+    },
+    {
+      "start": 141.12,
+      "duration": 2.16,
+      "text": "like where do they overlap? Uh there's",
+      "timestamp": "02:21"
+    },
+    {
+      "start": 143.28,
+      "duration": 2.48,
+      "text": "some obvious conflicts. So kind of",
+      "timestamp": "02:23"
+    },
+    {
+      "start": 145.76,
+      "duration": 2.16,
+      "text": "bronze mindset versus solar punk. I",
+      "timestamp": "02:25"
+    },
+    {
+      "start": 147.92,
+      "duration": 2.16,
+      "text": "think the former is more on sort of the",
+      "timestamp": "02:27"
+    },
+    {
+      "start": 150.08,
+      "duration": 2.4,
+      "text": "some kind of heroic elitism versus solar",
+      "timestamp": "02:30"
+    },
+    {
+      "start": 152.48,
+      "duration": 1.28,
+      "text": "punk which is more of a communal",
+      "timestamp": "02:32"
+    },
+    {
+      "start": 153.76,
+      "duration": 2.4,
+      "text": "optimism and also differences in terms",
+      "timestamp": "02:33"
+    },
+    {
+      "start": 156.16,
+      "duration": 2.24,
+      "text": "of if it's more like romantic cyber punk",
+      "timestamp": "02:36"
+    },
+    {
+      "start": 158.4,
+      "duration": 2.0,
+      "text": "vision versus some kind of tempered",
+      "timestamp": "02:38"
+    },
+    {
+      "start": 160.4,
+      "duration": 2.0,
+      "text": "transparency and working with existing",
+      "timestamp": "02:40"
+    },
+    {
+      "start": 162.4,
+      "duration": 2.32,
+      "text": "institutions. Uh I think a big",
+      "timestamp": "02:42"
+    },
+    {
+      "start": 164.72,
+      "duration": 1.599,
+      "text": "difference is also in terms of how these",
+      "timestamp": "02:44"
+    },
+    {
+      "start": 166.319,
+      "duration": 1.92,
+      "text": "philosophies think about institutions.",
+      "timestamp": "02:46"
+    },
+    {
+      "start": 168.239,
+      "duration": 1.441,
+      "text": "Are they trying to reform existing",
+      "timestamp": "02:48"
+    },
+    {
+      "start": 169.68,
+      "duration": 1.6,
+      "text": "institutions or rejecting them",
+      "timestamp": "02:49"
+    },
+    {
+      "start": 171.28,
+      "duration": 1.679,
+      "text": "completely?",
+      "timestamp": "02:51"
+    },
+    {
+      "start": 172.959,
+      "duration": 1.28,
+      "text": "But over overall I would say there's",
+      "timestamp": "02:52"
+    },
+    {
+      "start": 174.239,
+      "duration": 2.481,
+      "text": "more overlap than this conflict. Uh in",
+      "timestamp": "02:54"
+    },
+    {
+      "start": 176.72,
+      "duration": 1.68,
+      "text": "general there's like a large skepticism",
+      "timestamp": "02:56"
+    },
+    {
+      "start": 178.4,
+      "duration": 2.96,
+      "text": "for central of central authorities and",
+      "timestamp": "02:58"
+    },
+    {
+      "start": 181.36,
+      "duration": 2.239,
+      "text": "most of them also are pursuing new forms",
+      "timestamp": "03:01"
+    },
+    {
+      "start": 183.599,
+      "duration": 2.481,
+      "text": "of coordination and in general I would",
+      "timestamp": "03:03"
+    },
+    {
+      "start": 186.08,
+      "duration": 1.68,
+      "text": "sum it up as kind of new world versus",
+      "timestamp": "03:06"
+    },
+    {
+      "start": 187.76,
+      "duration": 2.64,
+      "text": "old world.",
+      "timestamp": "03:07"
+    },
+    {
+      "start": 190.4,
+      "duration": 1.36,
+      "text": "uh when it comes to trust and some",
+      "timestamp": "03:10"
+    },
+    {
+      "start": 191.76,
+      "duration": 1.36,
+      "text": "shared problems, there's some shared",
+      "timestamp": "03:11"
+    },
+    {
+      "start": 193.12,
+      "duration": 1.44,
+      "text": "trust problems. So like how do you trust",
+      "timestamp": "03:13"
+    },
+    {
+      "start": 194.56,
+      "duration": 1.92,
+      "text": "at scale and how do you deal with things",
+      "timestamp": "03:14"
+    },
+    {
+      "start": 196.48,
+      "duration": 1.759,
+      "text": "like authenticity, privacy and",
+      "timestamp": "03:16"
+    },
+    {
+      "start": 198.239,
+      "duration": 2.161,
+      "text": "accountability without having some kind",
+      "timestamp": "03:18"
+    },
+    {
+      "start": 200.4,
+      "duration": 3.04,
+      "text": "of centralized top down uh control and a",
+      "timestamp": "03:20"
+    },
+    {
+      "start": 203.44,
+      "duration": 1.519,
+      "text": "big intersection here is kind of trying",
+      "timestamp": "03:23"
+    },
+    {
+      "start": 204.959,
+      "duration": 2.081,
+      "text": "to exit these broken systems or building",
+      "timestamp": "03:24"
+    },
+    {
+      "start": 207.04,
+      "duration": 1.839,
+      "text": "better ones.",
+      "timestamp": "03:27"
+    },
+    {
+      "start": 208.879,
+      "duration": 2.561,
+      "text": "Uh so a bit glib but like how do you",
+      "timestamp": "03:28"
+    },
+    {
+      "start": 211.44,
+      "duration": 1.2,
+      "text": "trust a scale for each of these",
+      "timestamp": "03:31"
+    },
+    {
+      "start": 212.64,
+      "duration": 1.519,
+      "text": "philosophies? So cyber punk you're",
+      "timestamp": "03:32"
+    },
+    {
+      "start": 214.159,
+      "duration": 1.921,
+      "text": "trusting in the math. Luna punk you're",
+      "timestamp": "03:34"
+    },
+    {
+      "start": 216.08,
+      "duration": 1.68,
+      "text": "kind of hiding in this dark forest of",
+      "timestamp": "03:36"
+    },
+    {
+      "start": 217.76,
+      "duration": 2.16,
+      "text": "anonymity. DK you're trying to build",
+      "timestamp": "03:37"
+    },
+    {
+      "start": 219.92,
+      "duration": 2.239,
+      "text": "defensive technology priority you're",
+      "timestamp": "03:39"
+    },
+    {
+      "start": 222.159,
+      "duration": 2.401,
+      "text": "trying to build pro systems and BAM is",
+      "timestamp": "03:42"
+    },
+    {
+      "start": 224.56,
+      "duration": 3.039,
+      "text": "basically strongest shall survive.",
+      "timestamp": "03:44"
+    },
+    {
+      "start": 227.599,
+      "duration": 2.081,
+      "text": "Uh and one thing one way of visualizing",
+      "timestamp": "03:47"
+    },
+    {
+      "start": 229.68,
+      "duration": 1.52,
+      "text": "this is like what's the overlap between",
+      "timestamp": "03:49"
+    },
+    {
+      "start": 231.2,
+      "duration": 2.56,
+      "text": "these philosophies. So some of them are",
+      "timestamp": "03:51"
+    },
+    {
+      "start": 233.76,
+      "duration": 1.759,
+      "text": "almost identical. They agree on pretty",
+      "timestamp": "03:53"
+    },
+    {
+      "start": 235.519,
+      "duration": 2.08,
+      "text": "much everything. Uh some of them they",
+      "timestamp": "03:55"
+    },
+    {
+      "start": 237.599,
+      "duration": 1.521,
+      "text": "have some core concerns that they they",
+      "timestamp": "03:57"
+    },
+    {
+      "start": 239.12,
+      "duration": 2.88,
+      "text": "share but there's certain disagreements.",
+      "timestamp": "03:59"
+    },
+    {
+      "start": 242.0,
+      "duration": 2.239,
+      "text": "uh and other philosophies they might",
+      "timestamp": "04:02"
+    },
+    {
+      "start": 244.239,
+      "duration": 2.161,
+      "text": "have just like a tiny sliver of overlap",
+      "timestamp": "04:04"
+    },
+    {
+      "start": 246.4,
+      "duration": 1.28,
+      "text": "like they disagree on most things but",
+      "timestamp": "04:06"
+    },
+    {
+      "start": 247.68,
+      "duration": 1.279,
+      "text": "there's certain core values that they",
+      "timestamp": "04:07"
+    },
+    {
+      "start": 248.959,
+      "duration": 2.721,
+      "text": "they share and in some specific uh",
+      "timestamp": "04:08"
+    },
+    {
+      "start": 251.68,
+      "duration": 2.72,
+      "text": "instances or specific uh questions and",
+      "timestamp": "04:11"
+    },
+    {
+      "start": 254.4,
+      "duration": 1.679,
+      "text": "problems there might be no overlap at",
+      "timestamp": "04:14"
+    },
+    {
+      "start": 256.079,
+      "duration": 1.761,
+      "text": "all.",
+      "timestamp": "04:16"
+    },
+    {
+      "start": 257.84,
+      "duration": 1.679,
+      "text": "Uh and here I want to talk a little bit",
+      "timestamp": "04:17"
+    },
+    {
+      "start": 259.519,
+      "duration": 1.44,
+      "text": "about tribalism. So I think that's",
+      "timestamp": "04:19"
+    },
+    {
+      "start": 260.959,
+      "duration": 1.361,
+      "text": "something we've historically seen a lot",
+      "timestamp": "04:20"
+    },
+    {
+      "start": 262.32,
+      "duration": 2.72,
+      "text": "in our space and in general uh we see",
+      "timestamp": "04:22"
+    },
+    {
+      "start": 265.04,
+      "duration": 2.48,
+      "text": "this in society and this is this uh",
+      "timestamp": "04:25"
+    },
+    {
+      "start": 267.52,
+      "duration": 2.72,
+      "text": "quote from Gulov travels u and basically",
+      "timestamp": "04:27"
+    },
+    {
+      "start": 270.24,
+      "duration": 2.08,
+      "text": "it's about big Indian versus little",
+      "timestamp": "04:30"
+    },
+    {
+      "start": 272.32,
+      "duration": 2.64,
+      "text": "Indian uh so what they have is they have",
+      "timestamp": "04:32"
+    },
+    {
+      "start": 274.96,
+      "duration": 1.76,
+      "text": "a conflict where how do you break an egg",
+      "timestamp": "04:34"
+    },
+    {
+      "start": 276.72,
+      "duration": 1.36,
+      "text": "do you start from the big end or do you",
+      "timestamp": "04:36"
+    },
+    {
+      "start": 278.08,
+      "duration": 1.76,
+      "text": "start from the small end and this tiny",
+      "timestamp": "04:38"
+    },
+    {
+      "start": 279.84,
+      "duration": 1.12,
+      "text": "difference sort of leads to this",
+      "timestamp": "04:39"
+    },
+    {
+      "start": 280.96,
+      "duration": 1.92,
+      "text": "conflict that eventually escalates into",
+      "timestamp": "04:40"
+    },
+    {
+      "start": 282.88,
+      "duration": 3.44,
+      "text": "a war and I think uh that's quite common",
+      "timestamp": "04:42"
+    },
+    {
+      "start": 286.32,
+      "duration": 3.76,
+      "text": "and we want to try to avoid",
+      "timestamp": "04:46"
+    },
+    {
+      "start": 290.16,
+      "duration": 1.599,
+      "text": "Uh and this leads us to the idea of sort",
+      "timestamp": "04:50"
+    },
+    {
+      "start": 291.759,
+      "duration": 1.761,
+      "text": "of uncommon ground. So I heard this from",
+      "timestamp": "04:51"
+    },
+    {
+      "start": 293.52,
+      "duration": 1.679,
+      "text": "Oang who's the digital minister of",
+      "timestamp": "04:53"
+    },
+    {
+      "start": 295.199,
+      "duration": 1.841,
+      "text": "Taiwan. H where basically maybe you",
+      "timestamp": "04:55"
+    },
+    {
+      "start": 297.04,
+      "duration": 1.439,
+      "text": "disagree on most things but there's like",
+      "timestamp": "04:57"
+    },
+    {
+      "start": 298.479,
+      "duration": 1.28,
+      "text": "a tiny sliver of things that you",
+      "timestamp": "04:58"
+    },
+    {
+      "start": 299.759,
+      "duration": 1.841,
+      "text": "actually agree on and that's kind of you",
+      "timestamp": "04:59"
+    },
+    {
+      "start": 301.6,
+      "duration": 3.12,
+      "text": "can find that uncommon ground.",
+      "timestamp": "05:01"
+    },
+    {
+      "start": 304.72,
+      "duration": 2.4,
+      "text": "Uh and this leads into the idea of",
+      "timestamp": "05:04"
+    },
+    {
+      "start": 307.12,
+      "duration": 2.48,
+      "text": "plurality. Uh so plurality show in",
+      "timestamp": "05:07"
+    },
+    {
+      "start": 309.6,
+      "duration": 2.08,
+      "text": "Chinese is refers to something being",
+      "timestamp": "05:09"
+    },
+    {
+      "start": 311.68,
+      "duration": 2.079,
+      "text": "both digital and plural and can be used",
+      "timestamp": "05:11"
+    },
+    {
+      "start": 313.759,
+      "duration": 1.921,
+      "text": "both as a noun and a verb. And",
+      "timestamp": "05:13"
+    },
+    {
+      "start": 315.68,
+      "duration": 1.359,
+      "text": "essentially what it is is a kind of",
+      "timestamp": "05:15"
+    },
+    {
+      "start": 317.039,
+      "duration": 2.801,
+      "text": "vision for deal democracy in the 21st",
+      "timestamp": "05:17"
+    },
+    {
+      "start": 319.84,
+      "duration": 1.52,
+      "text": "century where it's neither sort of",
+      "timestamp": "05:19"
+    },
+    {
+      "start": 321.36,
+      "duration": 1.92,
+      "text": "mountain man nor king tyrant. So it's",
+      "timestamp": "05:21"
+    },
+    {
+      "start": 323.28,
+      "duration": 2.08,
+      "text": "neither sort of a Bitcoin max in the",
+      "timestamp": "05:23"
+    },
+    {
+      "start": 325.36,
+      "duration": 2.16,
+      "text": "mountains with their own uh water supply",
+      "timestamp": "05:25"
+    },
+    {
+      "start": 327.52,
+      "duration": 2.56,
+      "text": "and completely self selfsufficient nor",
+      "timestamp": "05:27"
+    },
+    {
+      "start": 330.08,
+      "duration": 1.839,
+      "text": "is it some kind of king tyrant",
+      "timestamp": "05:30"
+    },
+    {
+      "start": 331.919,
+      "duration": 3.361,
+      "text": "Zuckerberg Facebook top down internet",
+      "timestamp": "05:31"
+    },
+    {
+      "start": 335.28,
+      "duration": 1.6,
+      "text": "basically it's about how do we develop",
+      "timestamp": "05:35"
+    },
+    {
+      "start": 336.88,
+      "duration": 1.759,
+      "text": "this technology for collaborating across",
+      "timestamp": "05:36"
+    },
+    {
+      "start": 338.639,
+      "duration": 2.241,
+      "text": "social differences. uh it's using Taiwan",
+      "timestamp": "05:38"
+    },
+    {
+      "start": 340.88,
+      "duration": 1.84,
+      "text": "as a case study and it's also has sort",
+      "timestamp": "05:40"
+    },
+    {
+      "start": 342.72,
+      "duration": 3.199,
+      "text": "of um its origins or trying to revisit",
+      "timestamp": "05:42"
+    },
+    {
+      "start": 345.919,
+      "duration": 1.84,
+      "text": "the origins of the original vision of",
+      "timestamp": "05:45"
+    },
+    {
+      "start": 347.759,
+      "duration": 2.321,
+      "text": "the internet um and it's a book written",
+      "timestamp": "05:47"
+    },
+    {
+      "start": 350.08,
+      "duration": 2.16,
+      "text": "by Glenn Wild audit and with",
+      "timestamp": "05:50"
+    },
+    {
+      "start": 352.24,
+      "duration": 1.679,
+      "text": "contributions of Vitalik and many other",
+      "timestamp": "05:52"
+    },
+    {
+      "start": 353.919,
+      "duration": 2.401,
+      "text": "people in the ecosystem",
+      "timestamp": "05:53"
+    },
+    {
+      "start": 356.32,
+      "duration": 1.2,
+      "text": "and one way I like to think of",
+      "timestamp": "05:56"
+    },
+    {
+      "start": 357.52,
+      "duration": 1.44,
+      "text": "priorities is essentially like a big",
+      "timestamp": "05:57"
+    },
+    {
+      "start": 358.96,
+      "duration": 2.0,
+      "text": "tent so how do you accept different",
+      "timestamp": "05:58"
+    },
+    {
+      "start": 360.96,
+      "duration": 1.6,
+      "text": "viewpoints and encourage these parallel",
+      "timestamp": "06:00"
+    },
+    {
+      "start": 362.56,
+      "duration": 2.16,
+      "text": "enclaves",
+      "timestamp": "06:02"
+    },
+    {
+      "start": 364.72,
+      "duration": 1.68,
+      "text": "uh I also want to mention there's a",
+      "timestamp": "06:04"
+    },
+    {
+      "start": 366.4,
+      "duration": 2.16,
+      "text": "famous book by call popper called opai",
+      "timestamp": "06:06"
+    },
+    {
+      "start": 368.56,
+      "duration": 2.0,
+      "text": "and his enemies And in it he talks about",
+      "timestamp": "06:08"
+    },
+    {
+      "start": 370.56,
+      "duration": 2.24,
+      "text": "the paradox of tolerance. Uh where",
+      "timestamp": "06:10"
+    },
+    {
+      "start": 372.8,
+      "duration": 1.76,
+      "text": "basically you have some system but as",
+      "timestamp": "06:12"
+    },
+    {
+      "start": 374.56,
+      "duration": 1.28,
+      "text": "and you want to have a lot of tolerance",
+      "timestamp": "06:14"
+    },
+    {
+      "start": 375.84,
+      "duration": 1.52,
+      "text": "within that system but there are some",
+      "timestamp": "06:15"
+    },
+    {
+      "start": 377.36,
+      "duration": 1.279,
+      "text": "extremes that sort of threaten the",
+      "timestamp": "06:17"
+    },
+    {
+      "start": 378.639,
+      "duration": 2.081,
+      "text": "system and in order for for the system",
+      "timestamp": "06:18"
+    },
+    {
+      "start": 380.72,
+      "duration": 1.68,
+      "text": "or society to survive you need to be",
+      "timestamp": "06:20"
+    },
+    {
+      "start": 382.4,
+      "duration": 2.4,
+      "text": "intolerant towards intolerance and we'll",
+      "timestamp": "06:22"
+    },
+    {
+      "start": 384.8,
+      "duration": 2.399,
+      "text": "come back to that later. So what does",
+      "timestamp": "06:24"
+    },
+    {
+      "start": 387.199,
+      "duration": 2.401,
+      "text": "this have to do with technology?",
+      "timestamp": "06:27"
+    },
+    {
+      "start": 389.6,
+      "duration": 2.0,
+      "text": "Uh",
+      "timestamp": "06:29"
+    },
+    {
+      "start": 391.6,
+      "duration": 1.439,
+      "text": "so programmer cryptography I think",
+      "timestamp": "06:31"
+    },
+    {
+      "start": 393.039,
+      "duration": 1.761,
+      "text": "there's lots of interesting overlap here",
+      "timestamp": "06:33"
+    },
+    {
+      "start": 394.8,
+      "duration": 3.519,
+      "text": "with with a lot of these ideas. Um and",
+      "timestamp": "06:34"
+    },
+    {
+      "start": 398.319,
+      "duration": 1.521,
+      "text": "cryptography is about securing deal",
+      "timestamp": "06:38"
+    },
+    {
+      "start": 399.84,
+      "duration": 1.84,
+      "text": "information and programming cryptography",
+      "timestamp": "06:39"
+    },
+    {
+      "start": 401.68,
+      "duration": 1.92,
+      "text": "basically adds computation on top of",
+      "timestamp": "06:41"
+    },
+    {
+      "start": 403.6,
+      "duration": 2.08,
+      "text": "that. So you have a bunch of tools uh",
+      "timestamp": "06:43"
+    },
+    {
+      "start": 405.68,
+      "duration": 4.959,
+      "text": "like CK, MPC, FC, PR, io so proofs, uh",
+      "timestamp": "06:45"
+    },
+    {
+      "start": 410.639,
+      "duration": 2.481,
+      "text": "multi-party computation, fully fully",
+      "timestamp": "06:50"
+    },
+    {
+      "start": 413.12,
+      "duration": 1.76,
+      "text": "humomorphic encryption, private",
+      "timestamp": "06:53"
+    },
+    {
+      "start": 414.88,
+      "duration": 0.96,
+      "text": "information retrieval and",
+      "timestamp": "06:54"
+    },
+    {
+      "start": 415.84,
+      "duration": 2.479,
+      "text": "indistinguishable offiscation.",
+      "timestamp": "06:55"
+    },
+    {
+      "start": 418.319,
+      "duration": 3.28,
+      "text": "And a very very high level uh maybe some",
+      "timestamp": "06:58"
+    },
+    {
+      "start": 421.599,
+      "duration": 1.04,
+      "text": "of you are familiar with this already,",
+      "timestamp": "07:01"
+    },
+    {
+      "start": 422.639,
+      "duration": 2.0,
+      "text": "but like very basic with CK, you can for",
+      "timestamp": "07:02"
+    },
+    {
+      "start": 424.639,
+      "duration": 1.361,
+      "text": "example take a passport and prove that",
+      "timestamp": "07:04"
+    },
+    {
+      "start": 426.0,
+      "duration": 1.599,
+      "text": "you're about the age of 18 without",
+      "timestamp": "07:06"
+    },
+    {
+      "start": 427.599,
+      "duration": 1.681,
+      "text": "revealing anything else and doing that",
+      "timestamp": "07:07"
+    },
+    {
+      "start": 429.28,
+      "duration": 2.0,
+      "text": "with the signature in the passport. And",
+      "timestamp": "07:09"
+    },
+    {
+      "start": 431.28,
+      "duration": 1.52,
+      "text": "basically it allows for general purpose",
+      "timestamp": "07:11"
+    },
+    {
+      "start": 432.8,
+      "duration": 2.72,
+      "text": "privacy and succinctness. Uh and at a",
+      "timestamp": "07:12"
+    },
+    {
+      "start": 435.52,
+      "duration": 2.32,
+      "text": "very high level if CK is single player",
+      "timestamp": "07:15"
+    },
+    {
+      "start": 437.84,
+      "duration": 3.199,
+      "text": "uh NPC and FH is multiplayer. So sort of",
+      "timestamp": "07:17"
+    },
+    {
+      "start": 441.039,
+      "duration": 1.921,
+      "text": "sh dealing with your own secrets versus",
+      "timestamp": "07:21"
+    },
+    {
+      "start": 442.96,
+      "duration": 1.76,
+      "text": "multiple people's secrets. And then IO",
+      "timestamp": "07:22"
+    },
+    {
+      "start": 444.72,
+      "duration": 2.64,
+      "text": "is kind of god mode. Uh and basically",
+      "timestamp": "07:24"
+    },
+    {
+      "start": 447.36,
+      "duration": 1.279,
+      "text": "what you have with this is you have a",
+      "timestamp": "07:27"
+    },
+    {
+      "start": 448.639,
+      "duration": 2.241,
+      "text": "bunch of flexible Lego blocks and you",
+      "timestamp": "07:28"
+    },
+    {
+      "start": 450.88,
+      "duration": 1.68,
+      "text": "can use it to solve these various trust",
+      "timestamp": "07:30"
+    },
+    {
+      "start": 452.56,
+      "duration": 1.6,
+      "text": "problems that we see uh with",
+      "timestamp": "07:32"
+    },
+    {
+      "start": 454.16,
+      "duration": 2.24,
+      "text": "cryptography.",
+      "timestamp": "07:34"
+    },
+    {
+      "start": 456.4,
+      "duration": 2.079,
+      "text": "Uh going back to plurality. So they have",
+      "timestamp": "07:36"
+    },
+    {
+      "start": 458.479,
+      "duration": 1.521,
+      "text": "this vision of like data democracy,",
+      "timestamp": "07:38"
+    },
+    {
+      "start": 460.0,
+      "duration": 1.68,
+      "text": "right? And what what we're trying to do",
+      "timestamp": "07:40"
+    },
+    {
+      "start": 461.68,
+      "duration": 1.44,
+      "text": "is kind of enshrining these plural",
+      "timestamp": "07:41"
+    },
+    {
+      "start": 463.12,
+      "duration": 2.4,
+      "text": "freedoms and rights as a foundation for",
+      "timestamp": "07:43"
+    },
+    {
+      "start": 465.52,
+      "duration": 3.44,
+      "text": "a data democracy and they liken it a bit",
+      "timestamp": "07:45"
+    },
+    {
+      "start": 468.96,
+      "duration": 1.92,
+      "text": "to an operating system and applications",
+      "timestamp": "07:48"
+    },
+    {
+      "start": 470.88,
+      "duration": 1.439,
+      "text": "on top. So you have a kernel space and",
+      "timestamp": "07:50"
+    },
+    {
+      "start": 472.319,
+      "duration": 1.921,
+      "text": "then user space. So the kernel space is",
+      "timestamp": "07:52"
+    },
+    {
+      "start": 474.24,
+      "duration": 2.079,
+      "text": "kind of hard and fundamental. So hard,",
+      "timestamp": "07:54"
+    },
+    {
+      "start": 476.319,
+      "duration": 1.761,
+      "text": "you can think of it a bit like uh rule",
+      "timestamp": "07:56"
+    },
+    {
+      "start": 478.08,
+      "duration": 2.32,
+      "text": "of law or sound money or in this case",
+      "timestamp": "07:58"
+    },
+    {
+      "start": 480.4,
+      "duration": 1.84,
+      "text": "cryptographic hardness and then you have",
+      "timestamp": "08:00"
+    },
+    {
+      "start": 482.24,
+      "duration": 1.84,
+      "text": "a user space on top that's of more more",
+      "timestamp": "08:02"
+    },
+    {
+      "start": 484.08,
+      "duration": 1.679,
+      "text": "flexible and people might build",
+      "timestamp": "08:04"
+    },
+    {
+      "start": 485.759,
+      "duration": 2.241,
+      "text": "businesses or whatever have you or",
+      "timestamp": "08:05"
+    },
+    {
+      "start": 488.0,
+      "duration": 2.8,
+      "text": "applications on top and what is the",
+      "timestamp": "08:08"
+    },
+    {
+      "start": 490.8,
+      "duration": 1.519,
+      "text": "framework that they're using in polarity",
+      "timestamp": "08:10"
+    },
+    {
+      "start": 492.319,
+      "duration": 1.6,
+      "text": "as well is that they identify these",
+      "timestamp": "08:12"
+    },
+    {
+      "start": 493.919,
+      "duration": 1.601,
+      "text": "various dimensions that build on top of",
+      "timestamp": "08:13"
+    },
+    {
+      "start": 495.52,
+      "duration": 1.679,
+      "text": "each other. So starting off with some",
+      "timestamp": "08:15"
+    },
+    {
+      "start": 497.199,
+      "duration": 2.081,
+      "text": "notion or multiple notions of identity",
+      "timestamp": "08:17"
+    },
+    {
+      "start": 499.28,
+      "duration": 2.319,
+      "text": "and then association on top of that and",
+      "timestamp": "08:19"
+    },
+    {
+      "start": 501.599,
+      "duration": 2.081,
+      "text": "then commerce contracts and then finally",
+      "timestamp": "08:21"
+    },
+    {
+      "start": 503.68,
+      "duration": 1.919,
+      "text": "access. And I also want to point out",
+      "timestamp": "08:23"
+    },
+    {
+      "start": 505.599,
+      "duration": 2.0,
+      "text": "that this idea of democracy, it doesn't",
+      "timestamp": "08:25"
+    },
+    {
+      "start": 507.599,
+      "duration": 2.0,
+      "text": "just apply to sort of nation states.",
+      "timestamp": "08:27"
+    },
+    {
+      "start": 509.599,
+      "duration": 3.281,
+      "text": "It's kind of a general um way of",
+      "timestamp": "08:29"
+    },
+    {
+      "start": 512.88,
+      "duration": 2.159,
+      "text": "thinking about how do we govern various",
+      "timestamp": "08:32"
+    },
+    {
+      "start": 515.039,
+      "duration": 1.44,
+      "text": "platforms and so on. So for example, how",
+      "timestamp": "08:35"
+    },
+    {
+      "start": 516.479,
+      "duration": 1.601,
+      "text": "how does governance for Twitter work?",
+      "timestamp": "08:36"
+    },
+    {
+      "start": 518.08,
+      "duration": 1.92,
+      "text": "What is the notion of identity and",
+      "timestamp": "08:38"
+    },
+    {
+      "start": 520.0,
+      "duration": 3.2,
+      "text": "social network and so on",
+      "timestamp": "08:40"
+    },
+    {
+      "start": 523.2,
+      "duration": 1.84,
+      "text": "as an aside uh there's like a lot of",
+      "timestamp": "08:43"
+    },
+    {
+      "start": 525.04,
+      "duration": 2.56,
+      "text": "overlap here with privacy and Ethereum",
+      "timestamp": "08:45"
+    },
+    {
+      "start": 527.6,
+      "duration": 1.679,
+      "text": "uh in terms of concerns. Uh it's not",
+      "timestamp": "08:47"
+    },
+    {
+      "start": 529.279,
+      "duration": 1.361,
+      "text": "going to be a focus of this talk, but I",
+      "timestamp": "08:49"
+    },
+    {
+      "start": 530.64,
+      "duration": 1.44,
+      "text": "just want to mention it. So for example,",
+      "timestamp": "08:50"
+    },
+    {
+      "start": 532.08,
+      "duration": 1.28,
+      "text": "there's certain operations you want to",
+      "timestamp": "08:52"
+    },
+    {
+      "start": 533.36,
+      "duration": 1.44,
+      "text": "do whether it's like writing things on",
+      "timestamp": "08:53"
+    },
+    {
+      "start": 534.8,
+      "duration": 1.92,
+      "text": "or offchain and then how do you read",
+      "timestamp": "08:54"
+    },
+    {
+      "start": 536.72,
+      "duration": 2.64,
+      "text": "that data privately and it might apply",
+      "timestamp": "08:56"
+    },
+    {
+      "start": 539.36,
+      "duration": 2.08,
+      "text": "in different domains. So identity or",
+      "timestamp": "08:59"
+    },
+    {
+      "start": 541.44,
+      "duration": 2.8,
+      "text": "finance or governance.",
+      "timestamp": "09:01"
+    },
+    {
+      "start": 544.24,
+      "duration": 1.84,
+      "text": "Uh what I want to do is just look at a",
+      "timestamp": "09:04"
+    },
+    {
+      "start": 546.08,
+      "duration": 1.439,
+      "text": "few case studies where programming",
+      "timestamp": "09:06"
+    },
+    {
+      "start": 547.519,
+      "duration": 1.521,
+      "text": "cryptography is useful for these various",
+      "timestamp": "09:07"
+    },
+    {
+      "start": 549.04,
+      "duration": 1.68,
+      "text": "dimensions. So you can sort of get a bit",
+      "timestamp": "09:09"
+    },
+    {
+      "start": 550.72,
+      "duration": 2.08,
+      "text": "of feel for how this works. Uh so for",
+      "timestamp": "09:10"
+    },
+    {
+      "start": 552.8,
+      "duration": 1.52,
+      "text": "identity we'll look at raro uh",
+      "timestamp": "09:12"
+    },
+    {
+      "start": 554.32,
+      "duration": 2.24,
+      "text": "association cursive commerce privacy",
+      "timestamp": "09:14"
+    },
+    {
+      "start": 556.56,
+      "duration": 2.48,
+      "text": "pools and rail gun and for access PDP",
+      "timestamp": "09:16"
+    },
+    {
+      "start": 559.04,
+      "duration": 2.479,
+      "text": "and seek email.",
+      "timestamp": "09:19"
+    },
+    {
+      "start": 561.519,
+      "duration": 3.041,
+      "text": "So first up identity uh so the challenge",
+      "timestamp": "09:21"
+    },
+    {
+      "start": 564.56,
+      "duration": 1.76,
+      "text": "here is enimity versus central control.",
+      "timestamp": "09:24"
+    },
+    {
+      "start": 566.32,
+      "duration": 1.92,
+      "text": "So on the left here you have so no one",
+      "timestamp": "09:26"
+    },
+    {
+      "start": 568.24,
+      "duration": 1.36,
+      "text": "knows your dog on internet and on the",
+      "timestamp": "09:28"
+    },
+    {
+      "start": 569.6,
+      "duration": 1.12,
+      "text": "right you have this kind of top down",
+      "timestamp": "09:29"
+    },
+    {
+      "start": 570.72,
+      "duration": 2.0,
+      "text": "civilian state and both are kind of",
+      "timestamp": "09:30"
+    },
+    {
+      "start": 572.72,
+      "duration": 2.64,
+      "text": "failure modes in a sense uh because you",
+      "timestamp": "09:32"
+    },
+    {
+      "start": 575.36,
+      "duration": 1.36,
+      "text": "have things like civil resistance and",
+      "timestamp": "09:35"
+    },
+    {
+      "start": 576.72,
+      "duration": 1.76,
+      "text": "and so on and reputation you want to",
+      "timestamp": "09:36"
+    },
+    {
+      "start": 578.48,
+      "duration": 2.799,
+      "text": "have. So you need one or multiple",
+      "timestamp": "09:38"
+    },
+    {
+      "start": 581.279,
+      "duration": 1.841,
+      "text": "notions of some kind of secure identity",
+      "timestamp": "09:41"
+    },
+    {
+      "start": 583.12,
+      "duration": 1.52,
+      "text": "in order to have some kind of digital",
+      "timestamp": "09:43"
+    },
+    {
+      "start": 584.64,
+      "duration": 3.04,
+      "text": "democracy or governance.",
+      "timestamp": "09:44"
+    },
+    {
+      "start": 587.68,
+      "duration": 1.52,
+      "text": "One example of this is quite interesting",
+      "timestamp": "09:47"
+    },
+    {
+      "start": 589.2,
+      "duration": 2.72,
+      "text": "is Rharmo. So Rammo is a CK solution and",
+      "timestamp": "09:49"
+    },
+    {
+      "start": 591.92,
+      "duration": 2.64,
+      "text": "is used in Ukraine, Russia and Georgia.",
+      "timestamp": "09:51"
+    },
+    {
+      "start": 594.56,
+      "duration": 1.68,
+      "text": "And if you're a fan of geopolitics, you",
+      "timestamp": "09:54"
+    },
+    {
+      "start": 596.24,
+      "duration": 2.4,
+      "text": "know that these uh jurisdictions are",
+      "timestamp": "09:56"
+    },
+    {
+      "start": 598.64,
+      "duration": 1.28,
+      "text": "quite different. So in the case of",
+      "timestamp": "09:58"
+    },
+    {
+      "start": 599.92,
+      "duration": 1.68,
+      "text": "Ukraine, it's more sort of aligned. In",
+      "timestamp": "09:59"
+    },
+    {
+      "start": 601.6,
+      "duration": 2.72,
+      "text": "the case of Russia, it's uh something",
+      "timestamp": "10:01"
+    },
+    {
+      "start": 604.32,
+      "duration": 1.199,
+      "text": "that is uh has to be done",
+      "timestamp": "10:04"
+    },
+    {
+      "start": 605.519,
+      "duration": 1.44,
+      "text": "permissionlessly. So basically what it",
+      "timestamp": "10:05"
+    },
+    {
+      "start": 606.959,
+      "duration": 1.921,
+      "text": "what it does is that you have maybe a",
+      "timestamp": "10:06"
+    },
+    {
+      "start": 608.88,
+      "duration": 1.76,
+      "text": "Russian passport and then you can they",
+      "timestamp": "10:08"
+    },
+    {
+      "start": 610.64,
+      "duration": 1.68,
+      "text": "have this shadow election and they're",
+      "timestamp": "10:10"
+    },
+    {
+      "start": 612.32,
+      "duration": 1.519,
+      "text": "doing it permissionlessly and that's",
+      "timestamp": "10:12"
+    },
+    {
+      "start": 613.839,
+      "duration": 1.041,
+      "text": "something you can do with this",
+      "timestamp": "10:13"
+    },
+    {
+      "start": 614.88,
+      "duration": 2.079,
+      "text": "technology. And in case of Georgia they",
+      "timestamp": "10:14"
+    },
+    {
+      "start": 616.959,
+      "duration": 1.681,
+      "text": "also did this experiment with liquid",
+      "timestamp": "10:16"
+    },
+    {
+      "start": 618.64,
+      "duration": 1.52,
+      "text": "democracy so you could sort of have a",
+      "timestamp": "10:18"
+    },
+    {
+      "start": 620.16,
+      "duration": 2.88,
+      "text": "more involved uh people in terms of the",
+      "timestamp": "10:20"
+    },
+    {
+      "start": 623.04,
+      "duration": 3.2,
+      "text": "decision-m process and so on.",
+      "timestamp": "10:23"
+    },
+    {
+      "start": 626.24,
+      "duration": 2.0,
+      "text": "Uh more examples there also things like",
+      "timestamp": "10:26"
+    },
+    {
+      "start": 628.24,
+      "duration": 2.24,
+      "text": "world ID has a lot of users uh and in",
+      "timestamp": "10:28"
+    },
+    {
+      "start": 630.48,
+      "duration": 1.2,
+      "text": "general we see a lot of governments that",
+      "timestamp": "10:30"
+    },
+    {
+      "start": 631.68,
+      "duration": 1.599,
+      "text": "are slowly catching up. So whether it's",
+      "timestamp": "10:31"
+    },
+    {
+      "start": 633.279,
+      "duration": 2.641,
+      "text": "Taiwan, they have this uh some PC's uh",
+      "timestamp": "10:33"
+    },
+    {
+      "start": 635.92,
+      "duration": 2.08,
+      "text": "from the Ministry of Digital Affairs. Uh",
+      "timestamp": "10:35"
+    },
+    {
+      "start": 638.0,
+      "duration": 2.0,
+      "text": "EU, the EU, they've also started looking",
+      "timestamp": "10:38"
+    },
+    {
+      "start": 640.0,
+      "duration": 2.24,
+      "text": "at what this might look like from kind",
+      "timestamp": "10:40"
+    },
+    {
+      "start": 642.24,
+      "duration": 2.32,
+      "text": "of a standards point of view. Um and",
+      "timestamp": "10:42"
+    },
+    {
+      "start": 644.56,
+      "duration": 2.48,
+      "text": "there's many many other examples. Um I",
+      "timestamp": "10:44"
+    },
+    {
+      "start": 647.04,
+      "duration": 1.2,
+      "text": "also want to mention social key",
+      "timestamp": "10:47"
+    },
+    {
+      "start": 648.24,
+      "duration": 1.839,
+      "text": "recovery. We'll go into that a bit uh",
+      "timestamp": "10:48"
+    },
+    {
+      "start": 650.079,
+      "duration": 1.601,
+      "text": "later down the line. But if you have",
+      "timestamp": "10:50"
+    },
+    {
+      "start": 651.68,
+      "duration": 1.68,
+      "text": "this notion of identity and is some kind",
+      "timestamp": "10:51"
+    },
+    {
+      "start": 653.36,
+      "duration": 1.76,
+      "text": "of self-sign identity in terms of a key",
+      "timestamp": "10:53"
+    },
+    {
+      "start": 655.12,
+      "duration": 1.6,
+      "text": "pair, you do want to have some kind of",
+      "timestamp": "10:55"
+    },
+    {
+      "start": 656.72,
+      "duration": 2.0,
+      "text": "social recovery mechanism. uh so how do",
+      "timestamp": "10:56"
+    },
+    {
+      "start": 658.72,
+      "duration": 2.239,
+      "text": "you deal with that is another problem",
+      "timestamp": "10:58"
+    },
+    {
+      "start": 660.959,
+      "duration": 3.201,
+      "text": "where programming cryptography can help",
+      "timestamp": "11:00"
+    },
+    {
+      "start": 664.16,
+      "duration": 1.919,
+      "text": "when it comes to association I think uh",
+      "timestamp": "11:04"
+    },
+    {
+      "start": 666.079,
+      "duration": 1.521,
+      "text": "you can think of it like public versus",
+      "timestamp": "11:06"
+    },
+    {
+      "start": 667.6,
+      "duration": 3.6,
+      "text": "private uh but that's usually not how",
+      "timestamp": "11:07"
+    },
+    {
+      "start": 671.2,
+      "duration": 2.24,
+      "text": "things work in practice usually we live",
+      "timestamp": "11:11"
+    },
+    {
+      "start": 673.44,
+      "duration": 2.079,
+      "text": "in some kind of common context so for",
+      "timestamp": "11:13"
+    },
+    {
+      "start": 675.519,
+      "duration": 1.521,
+      "text": "example this room or maybe you have a",
+      "timestamp": "11:15"
+    },
+    {
+      "start": 677.04,
+      "duration": 1.919,
+      "text": "private group chat with some friends and",
+      "timestamp": "11:17"
+    },
+    {
+      "start": 678.959,
+      "duration": 1.761,
+      "text": "it's important how you sort of establish",
+      "timestamp": "11:18"
+    },
+    {
+      "start": 680.72,
+      "duration": 1.76,
+      "text": "and protect that common context and it's",
+      "timestamp": "11:20"
+    },
+    {
+      "start": 682.48,
+      "duration": 1.68,
+      "text": "not just like private for your eyes only",
+      "timestamp": "11:22"
+    },
+    {
+      "start": 684.16,
+      "duration": 2.56,
+      "text": "or public for everyone",
+      "timestamp": "11:24"
+    },
+    {
+      "start": 686.72,
+      "duration": 1.92,
+      "text": "um and like it it's a non-trivial",
+      "timestamp": "11:26"
+    },
+    {
+      "start": 688.64,
+      "duration": 1.28,
+      "text": "problem because for example if you have",
+      "timestamp": "11:28"
+    },
+    {
+      "start": 689.92,
+      "duration": 1.359,
+      "text": "a private group chat how do you deal",
+      "timestamp": "11:29"
+    },
+    {
+      "start": 691.279,
+      "duration": 1.921,
+      "text": "with things like unilateral uh",
+      "timestamp": "11:31"
+    },
+    {
+      "start": 693.2,
+      "duration": 2.4,
+      "text": "oversharing that that's non-trivial and",
+      "timestamp": "11:33"
+    },
+    {
+      "start": 695.6,
+      "duration": 2.4,
+      "text": "there's many such examples",
+      "timestamp": "11:35"
+    },
+    {
+      "start": 698.0,
+      "duration": 1.36,
+      "text": "uh one thing I want to mention here is",
+      "timestamp": "11:38"
+    },
+    {
+      "start": 699.36,
+      "duration": 2.719,
+      "text": "this application called cursive so uh",
+      "timestamp": "11:39"
+    },
+    {
+      "start": 702.079,
+      "duration": 2.401,
+      "text": "it's sort of a social app uh that was",
+      "timestamp": "11:42"
+    },
+    {
+      "start": 704.48,
+      "duration": 1.52,
+      "text": "developed in this space maybe some of",
+      "timestamp": "11:44"
+    },
+    {
+      "start": 706.0,
+      "duration": 2.72,
+      "text": "you are familiar with it um and they",
+      "timestamp": "11:46"
+    },
+    {
+      "start": 708.72,
+      "duration": 1.119,
+      "text": "have this idea of private set",
+      "timestamp": "11:48"
+    },
+    {
+      "start": 709.839,
+      "duration": 2.24,
+      "text": "intersection so the way it works is that",
+      "timestamp": "11:49"
+    },
+    {
+      "start": 712.079,
+      "duration": 1.121,
+      "text": "let's say you have some embarrassing",
+      "timestamp": "11:52"
+    },
+    {
+      "start": 713.2,
+      "duration": 1.6,
+      "text": "music taste and you want to find out if",
+      "timestamp": "11:53"
+    },
+    {
+      "start": 714.8,
+      "duration": 1.44,
+      "text": "your friend also shares the same",
+      "timestamp": "11:54"
+    },
+    {
+      "start": 716.24,
+      "duration": 1.92,
+      "text": "embarrassing music taste What you can do",
+      "timestamp": "11:56"
+    },
+    {
+      "start": 718.16,
+      "duration": 3.04,
+      "text": "is basically share this uh but you won't",
+      "timestamp": "11:58"
+    },
+    {
+      "start": 721.2,
+      "duration": 1.44,
+      "text": "reveal what your embarrassing music",
+      "timestamp": "12:01"
+    },
+    {
+      "start": 722.64,
+      "duration": 2.24,
+      "text": "taste is unless you actually match. So",
+      "timestamp": "12:02"
+    },
+    {
+      "start": 724.88,
+      "duration": 1.199,
+      "text": "that's the kind of private set",
+      "timestamp": "12:04"
+    },
+    {
+      "start": 726.079,
+      "duration": 2.32,
+      "text": "intersection part. Uh and this is also",
+      "timestamp": "12:06"
+    },
+    {
+      "start": 728.399,
+      "duration": 2.961,
+      "text": "done technologically uh through 2PC",
+      "timestamp": "12:08"
+    },
+    {
+      "start": 731.36,
+      "duration": 1.52,
+      "text": "specifically. So there's no you're not",
+      "timestamp": "12:11"
+    },
+    {
+      "start": 732.88,
+      "duration": 1.36,
+      "text": "revealing it to a central server or",
+      "timestamp": "12:12"
+    },
+    {
+      "start": 734.24,
+      "duration": 2.24,
+      "text": "anything like that. Um and with this",
+      "timestamp": "12:14"
+    },
+    {
+      "start": 736.48,
+      "duration": 1.76,
+      "text": "they have this kind of idea of digital",
+      "timestamp": "12:16"
+    },
+    {
+      "start": 738.24,
+      "duration": 1.599,
+      "text": "pherommones where basically you give up",
+      "timestamp": "12:18"
+    },
+    {
+      "start": 739.839,
+      "duration": 1.841,
+      "text": "some some kind of pherommones and then",
+      "timestamp": "12:19"
+    },
+    {
+      "start": 741.68,
+      "duration": 2.399,
+      "text": "if other people have the receptors uh",
+      "timestamp": "12:21"
+    },
+    {
+      "start": 744.079,
+      "duration": 1.841,
+      "text": "then you can sort of match. And I think",
+      "timestamp": "12:24"
+    },
+    {
+      "start": 745.92,
+      "duration": 1.039,
+      "text": "this is very interesting because an",
+      "timestamp": "12:25"
+    },
+    {
+      "start": 746.959,
+      "duration": 1.68,
+      "text": "example of a new type of affordance that",
+      "timestamp": "12:26"
+    },
+    {
+      "start": 748.639,
+      "duration": 1.44,
+      "text": "you don't see from traditional social",
+      "timestamp": "12:28"
+    },
+    {
+      "start": 750.079,
+      "duration": 1.2,
+      "text": "networks and you can sort of create",
+      "timestamp": "12:30"
+    },
+    {
+      "start": 751.279,
+      "duration": 1.921,
+      "text": "these new ways of of interacting with",
+      "timestamp": "12:31"
+    },
+    {
+      "start": 753.2,
+      "duration": 2.8,
+      "text": "this technology.",
+      "timestamp": "12:33"
+    },
+    {
+      "start": 756.0,
+      "duration": 2.0,
+      "text": "When it comes to commerce uh at a high",
+      "timestamp": "12:36"
+    },
+    {
+      "start": 758.0,
+      "duration": 1.44,
+      "text": "level you can look at a bit like cash",
+      "timestamp": "12:38"
+    },
+    {
+      "start": 759.44,
+      "duration": 3.44,
+      "text": "versus CBDC versus crypto. And cash is",
+      "timestamp": "12:39"
+    },
+    {
+      "start": 762.88,
+      "duration": 1.759,
+      "text": "is is kind of dumb but it works really",
+      "timestamp": "12:42"
+    },
+    {
+      "start": 764.639,
+      "duration": 2.161,
+      "text": "well. Like if I pay for a coffee then",
+      "timestamp": "12:44"
+    },
+    {
+      "start": 766.8,
+      "duration": 1.44,
+      "text": "the cashier can't see my entire",
+      "timestamp": "12:46"
+    },
+    {
+      "start": 768.24,
+      "duration": 2.08,
+      "text": "transaction history. Um but obviously",
+      "timestamp": "12:48"
+    },
+    {
+      "start": 770.32,
+      "duration": 2.319,
+      "text": "the digital world enables a lot more",
+      "timestamp": "12:50"
+    },
+    {
+      "start": 772.639,
+      "duration": 1.921,
+      "text": "both good and bad. So when we look at",
+      "timestamp": "12:52"
+    },
+    {
+      "start": 774.56,
+      "duration": 2.64,
+      "text": "CBDC's uh you know it might be",
+      "timestamp": "12:54"
+    },
+    {
+      "start": 777.2,
+      "duration": 2.24,
+      "text": "convenient or whatever but it allows for",
+      "timestamp": "12:57"
+    },
+    {
+      "start": 779.44,
+      "duration": 1.92,
+      "text": "like unprecedented sort of top down",
+      "timestamp": "12:59"
+    },
+    {
+      "start": 781.36,
+      "duration": 1.44,
+      "text": "control and surveillance. So that's not",
+      "timestamp": "13:01"
+    },
+    {
+      "start": 782.8,
+      "duration": 1.92,
+      "text": "necessarily we want when when we come",
+      "timestamp": "13:02"
+    },
+    {
+      "start": 784.72,
+      "duration": 1.359,
+      "text": "comes to like public blockchains like",
+      "timestamp": "13:04"
+    },
+    {
+      "start": 786.079,
+      "duration": 2.161,
+      "text": "Bitcoin and Ethereum um they're great",
+      "timestamp": "13:06"
+    },
+    {
+      "start": 788.24,
+      "duration": 2.48,
+      "text": "but they're usually transparent right uh",
+      "timestamp": "13:08"
+    },
+    {
+      "start": 790.72,
+      "duration": 1.76,
+      "text": "and that's a problem in terms of privacy",
+      "timestamp": "13:10"
+    },
+    {
+      "start": 792.48,
+      "duration": 1.28,
+      "text": "and getting this kind of fungeability",
+      "timestamp": "13:12"
+    },
+    {
+      "start": 793.76,
+      "duration": 2.639,
+      "text": "property that we want from money. So",
+      "timestamp": "13:13"
+    },
+    {
+      "start": 796.399,
+      "duration": 1.361,
+      "text": "there's lots of people who have sort of",
+      "timestamp": "13:16"
+    },
+    {
+      "start": 797.76,
+      "duration": 2.0,
+      "text": "been finding solutions for this and I",
+      "timestamp": "13:17"
+    },
+    {
+      "start": 799.76,
+      "duration": 1.28,
+      "text": "think in Ethereum world one example is",
+      "timestamp": "13:19"
+    },
+    {
+      "start": 801.04,
+      "duration": 3.039,
+      "text": "tornado cache. Um",
+      "timestamp": "13:21"
+    },
+    {
+      "start": 804.079,
+      "duration": 1.281,
+      "text": "many of you are probably familiar what",
+      "timestamp": "13:24"
+    },
+    {
+      "start": 805.36,
+      "duration": 1.039,
+      "text": "sort of happened with that. But",
+      "timestamp": "13:25"
+    },
+    {
+      "start": 806.399,
+      "duration": 1.68,
+      "text": "basically what happened is that it's a",
+      "timestamp": "13:26"
+    },
+    {
+      "start": 808.079,
+      "duration": 2.241,
+      "text": "way to get privacy on Ethereum using CK",
+      "timestamp": "13:28"
+    },
+    {
+      "start": 810.32,
+      "duration": 3.759,
+      "text": "proofs. Um but then uh North Korea and",
+      "timestamp": "13:30"
+    },
+    {
+      "start": 814.079,
+      "duration": 2.161,
+      "text": "other bad actors um hacked all these",
+      "timestamp": "13:34"
+    },
+    {
+      "start": 816.24,
+      "duration": 2.159,
+      "text": "like big D5 products products and so on",
+      "timestamp": "13:36"
+    },
+    {
+      "start": 818.399,
+      "duration": 2.24,
+      "text": "and they used to cash of cash out and",
+      "timestamp": "13:38"
+    },
+    {
+      "start": 820.639,
+      "duration": 2.401,
+      "text": "that led to the US um putting sanctions",
+      "timestamp": "13:40"
+    },
+    {
+      "start": 823.04,
+      "duration": 1.359,
+      "text": "on them. So it was very hard for people",
+      "timestamp": "13:43"
+    },
+    {
+      "start": 824.399,
+      "duration": 2.0,
+      "text": "to use in practice.",
+      "timestamp": "13:44"
+    },
+    {
+      "start": 826.399,
+      "duration": 2.56,
+      "text": "uh but because programmable is very very",
+      "timestamp": "13:46"
+    },
+    {
+      "start": 828.959,
+      "duration": 2.081,
+      "text": "sort of flexible people have found out",
+      "timestamp": "13:48"
+    },
+    {
+      "start": 831.04,
+      "duration": 1.84,
+      "text": "ways to sort of improve on this. So",
+      "timestamp": "13:51"
+    },
+    {
+      "start": 832.88,
+      "duration": 1.92,
+      "text": "there's this thing called privacy pool",
+      "timestamp": "13:52"
+    },
+    {
+      "start": 834.8,
+      "duration": 2.0,
+      "text": "that was just launched uh this year and",
+      "timestamp": "13:54"
+    },
+    {
+      "start": 836.8,
+      "duration": 1.52,
+      "text": "basically they have basically a similar",
+      "timestamp": "13:56"
+    },
+    {
+      "start": 838.32,
+      "duration": 2.079,
+      "text": "thing to to cache but you also have this",
+      "timestamp": "13:58"
+    },
+    {
+      "start": 840.399,
+      "duration": 1.44,
+      "text": "notion of proof of innocence. So",
+      "timestamp": "14:00"
+    },
+    {
+      "start": 841.839,
+      "duration": 1.68,
+      "text": "basically what you can do is you can as",
+      "timestamp": "14:01"
+    },
+    {
+      "start": 843.519,
+      "duration": 1.841,
+      "text": "a user you can get privacy and",
+      "timestamp": "14:03"
+    },
+    {
+      "start": 845.36,
+      "duration": 2.0,
+      "text": "disassociate your funds from a big hack.",
+      "timestamp": "14:05"
+    },
+    {
+      "start": 847.36,
+      "duration": 2.24,
+      "text": "So if a big hack happens and people",
+      "timestamp": "14:07"
+    },
+    {
+      "start": 849.6,
+      "duration": 1.919,
+      "text": "suspect it's like a bad actor you can",
+      "timestamp": "14:09"
+    },
+    {
+      "start": 851.519,
+      "duration": 2.0,
+      "text": "prove that your money had nothing to do",
+      "timestamp": "14:11"
+    },
+    {
+      "start": 853.519,
+      "duration": 2.161,
+      "text": "with it. And there's also other products",
+      "timestamp": "14:13"
+    },
+    {
+      "start": 855.68,
+      "duration": 1.36,
+      "text": "like rail gun that have been run for a",
+      "timestamp": "14:15"
+    },
+    {
+      "start": 857.04,
+      "duration": 1.2,
+      "text": "while and it's growing a lot that sort",
+      "timestamp": "14:17"
+    },
+    {
+      "start": 858.24,
+      "duration": 3.76,
+      "text": "of do the same thing but for DeFi.",
+      "timestamp": "14:18"
+    },
+    {
+      "start": 862.0,
+      "duration": 2.24,
+      "text": "Uh when it comes to access uh access is",
+      "timestamp": "14:22"
+    },
+    {
+      "start": 864.24,
+      "duration": 1.599,
+      "text": "kind of a fundamental right. So we want",
+      "timestamp": "14:24"
+    },
+    {
+      "start": 865.839,
+      "duration": 1.601,
+      "text": "to have availability of information. We",
+      "timestamp": "14:25"
+    },
+    {
+      "start": 867.44,
+      "duration": 2.0,
+      "text": "don't want any type of censorship but we",
+      "timestamp": "14:27"
+    },
+    {
+      "start": 869.44,
+      "duration": 1.519,
+      "text": "also want integrity of information. So",
+      "timestamp": "14:29"
+    },
+    {
+      "start": 870.959,
+      "duration": 2.081,
+      "text": "we want to know something is trustworthy",
+      "timestamp": "14:30"
+    },
+    {
+      "start": 873.04,
+      "duration": 1.52,
+      "text": "and like when it comes to information",
+      "timestamp": "14:33"
+    },
+    {
+      "start": 874.56,
+      "duration": 2.24,
+      "text": "integrity uh there's a big problem with",
+      "timestamp": "14:34"
+    },
+    {
+      "start": 876.8,
+      "duration": 1.52,
+      "text": "deep fakes and there's different ways",
+      "timestamp": "14:36"
+    },
+    {
+      "start": 878.32,
+      "duration": 1.6,
+      "text": "you can you can kind of try to address",
+      "timestamp": "14:38"
+    },
+    {
+      "start": 879.92,
+      "duration": 1.68,
+      "text": "this. One is in terms of having",
+      "timestamp": "14:39"
+    },
+    {
+      "start": 881.6,
+      "duration": 2.88,
+      "text": "signatures of content for authenticity.",
+      "timestamp": "14:41"
+    },
+    {
+      "start": 884.48,
+      "duration": 2.719,
+      "text": "Uh one example of this is uh Canon their",
+      "timestamp": "14:44"
+    },
+    {
+      "start": 887.199,
+      "duration": 2.721,
+      "text": "camera they have this signature of a a",
+      "timestamp": "14:47"
+    },
+    {
+      "start": 889.92,
+      "duration": 2.24,
+      "text": "photo and then you can use uh see",
+      "timestamp": "14:49"
+    },
+    {
+      "start": 892.16,
+      "duration": 2.4,
+      "text": "technology to basically prove valid",
+      "timestamp": "14:52"
+    },
+    {
+      "start": 894.56,
+      "duration": 1.76,
+      "text": "transformations on that. So when it",
+      "timestamp": "14:54"
+    },
+    {
+      "start": 896.32,
+      "duration": 1.6,
+      "text": "comes to Reuters they have this standard",
+      "timestamp": "14:56"
+    },
+    {
+      "start": 897.92,
+      "duration": 2.08,
+      "text": "for what you can do with a photo without",
+      "timestamp": "14:57"
+    },
+    {
+      "start": 900.0,
+      "duration": 2.079,
+      "text": "it being doctorred. So you can have like",
+      "timestamp": "15:00"
+    },
+    {
+      "start": 902.079,
+      "duration": 2.32,
+      "text": "grayscale and you can crop it and so on.",
+      "timestamp": "15:02"
+    },
+    {
+      "start": 904.399,
+      "duration": 2.0,
+      "text": "Um so that's like one example of how you",
+      "timestamp": "15:04"
+    },
+    {
+      "start": 906.399,
+      "duration": 2.88,
+      "text": "can prove um authenticity at least",
+      "timestamp": "15:06"
+    },
+    {
+      "start": 909.279,
+      "duration": 2.24,
+      "text": "assuming you trust the camera. You can",
+      "timestamp": "15:09"
+    },
+    {
+      "start": 911.519,
+      "duration": 1.68,
+      "text": "also go the opposite way. So there's",
+      "timestamp": "15:11"
+    },
+    {
+      "start": 913.199,
+      "duration": 2.32,
+      "text": "certain uh products that are trying to",
+      "timestamp": "15:13"
+    },
+    {
+      "start": 915.519,
+      "duration": 2.88,
+      "text": "basically uh prove that something was LM",
+      "timestamp": "15:15"
+    },
+    {
+      "start": 918.399,
+      "duration": 1.841,
+      "text": "generated and that's another another way",
+      "timestamp": "15:18"
+    },
+    {
+      "start": 920.24,
+      "duration": 2.159,
+      "text": "to get the SIM property. I think",
+      "timestamp": "15:20"
+    },
+    {
+      "start": 922.399,
+      "duration": 1.761,
+      "text": "generally speaking we see a lot more",
+      "timestamp": "15:22"
+    },
+    {
+      "start": 924.16,
+      "duration": 2.56,
+      "text": "sort of signed data. So what you can do",
+      "timestamp": "15:24"
+    },
+    {
+      "start": 926.72,
+      "duration": 1.679,
+      "text": "for example uh with something like CK",
+      "timestamp": "15:26"
+    },
+    {
+      "start": 928.399,
+      "duration": 1.68,
+      "text": "email is that you can prove there's a",
+      "timestamp": "15:28"
+    },
+    {
+      "start": 930.079,
+      "duration": 1.76,
+      "text": "signature in the email and you can prove",
+      "timestamp": "15:30"
+    },
+    {
+      "start": 931.839,
+      "duration": 2.321,
+      "text": "that you received a certain email. um",
+      "timestamp": "15:31"
+    },
+    {
+      "start": 934.16,
+      "duration": 3.039,
+      "text": "with seek without sort of um revealing",
+      "timestamp": "15:34"
+    },
+    {
+      "start": 937.199,
+      "duration": 1.681,
+      "text": "all the contents of your email and",
+      "timestamp": "15:37"
+    },
+    {
+      "start": 938.88,
+      "duration": 1.519,
+      "text": "without giving up your contact info and",
+      "timestamp": "15:38"
+    },
+    {
+      "start": 940.399,
+      "duration": 2.081,
+      "text": "so on. Um and we see the same thing for",
+      "timestamp": "15:40"
+    },
+    {
+      "start": 942.48,
+      "duration": 1.919,
+      "text": "Tless sessions or passports or what have",
+      "timestamp": "15:42"
+    },
+    {
+      "start": 944.399,
+      "duration": 1.44,
+      "text": "you. So it's like a lot of signed data",
+      "timestamp": "15:44"
+    },
+    {
+      "start": 945.839,
+      "duration": 1.281,
+      "text": "out there and we can use it in different",
+      "timestamp": "15:45"
+    },
+    {
+      "start": 947.12,
+      "duration": 2.399,
+      "text": "ways. And in general the goal we're",
+      "timestamp": "15:47"
+    },
+    {
+      "start": 949.519,
+      "duration": 1.041,
+      "text": "going for is like we want to have",
+      "timestamp": "15:49"
+    },
+    {
+      "start": 950.56,
+      "duration": 1.279,
+      "text": "openness and trust. So we don't want",
+      "timestamp": "15:50"
+    },
+    {
+      "start": 951.839,
+      "duration": 1.281,
+      "text": "censorship but we also want to be able",
+      "timestamp": "15:51"
+    },
+    {
+      "start": 953.12,
+      "duration": 2.399,
+      "text": "to trust information.",
+      "timestamp": "15:53"
+    },
+    {
+      "start": 955.519,
+      "duration": 2.24,
+      "text": "Uh one example of this quite cool is",
+      "timestamp": "15:55"
+    },
+    {
+      "start": 957.759,
+      "duration": 2.481,
+      "text": "seep. So it's using CK email and",
+      "timestamp": "15:57"
+    },
+    {
+      "start": 960.24,
+      "duration": 1.92,
+      "text": "basically a bit like unis swap but",
+      "timestamp": "16:00"
+    },
+    {
+      "start": 962.16,
+      "duration": 2.16,
+      "text": "between crypto and fiat. Uh so you can",
+      "timestamp": "16:02"
+    },
+    {
+      "start": 964.32,
+      "duration": 2.319,
+      "text": "on and off ramp uh in less than a minute",
+      "timestamp": "16:04"
+    },
+    {
+      "start": 966.639,
+      "duration": 2.32,
+      "text": "without any KYC or anything like that",
+      "timestamp": "16:06"
+    },
+    {
+      "start": 968.959,
+      "duration": 1.921,
+      "text": "using uh see tech. And the way it works",
+      "timestamp": "16:08"
+    },
+    {
+      "start": 970.88,
+      "duration": 2.079,
+      "text": "is that you have something like Revolute",
+      "timestamp": "16:10"
+    },
+    {
+      "start": 972.959,
+      "duration": 2.8,
+      "text": "uh or Weiss or whatever or Wenmo and you",
+      "timestamp": "16:12"
+    },
+    {
+      "start": 975.759,
+      "duration": 1.681,
+      "text": "basically send your money, you get",
+      "timestamp": "16:15"
+    },
+    {
+      "start": 977.44,
+      "duration": 1.759,
+      "text": "receive an email as a proof that you",
+      "timestamp": "16:17"
+    },
+    {
+      "start": 979.199,
+      "duration": 1.76,
+      "text": "have sent the money to someone and you",
+      "timestamp": "16:19"
+    },
+    {
+      "start": 980.959,
+      "duration": 2.401,
+      "text": "can use that email to sort of prove that",
+      "timestamp": "16:20"
+    },
+    {
+      "start": 983.36,
+      "duration": 1.68,
+      "text": "this crypto fund, these crypto funds",
+      "timestamp": "16:23"
+    },
+    {
+      "start": 985.04,
+      "duration": 1.84,
+      "text": "belong to you and you can go on chain",
+      "timestamp": "16:25"
+    },
+    {
+      "start": 986.88,
+      "duration": 2.8,
+      "text": "and basically get that those funds. And",
+      "timestamp": "16:26"
+    },
+    {
+      "start": 989.68,
+      "duration": 1.68,
+      "text": "what's cool about this is that like you",
+      "timestamp": "16:29"
+    },
+    {
+      "start": 991.36,
+      "duration": 1.12,
+      "text": "can do it like in less than a minute.",
+      "timestamp": "16:31"
+    },
+    {
+      "start": 992.48,
+      "duration": 2.0,
+      "text": "There's no KYC or anything like that and",
+      "timestamp": "16:32"
+    },
+    {
+      "start": 994.48,
+      "duration": 1.919,
+      "text": "you're just sort of trusting this",
+      "timestamp": "16:34"
+    },
+    {
+      "start": 996.399,
+      "duration": 2.401,
+      "text": "trusting the math around this. Um",
+      "timestamp": "16:36"
+    },
+    {
+      "start": 998.8,
+      "duration": 1.2,
+      "text": "there's also a new version of this",
+      "timestamp": "16:38"
+    },
+    {
+      "start": 1000.0,
+      "duration": 2.24,
+      "text": "that's using TLS notary which is an even",
+      "timestamp": "16:40"
+    },
+    {
+      "start": 1002.24,
+      "duration": 2.399,
+      "text": "more involved pro crypto protocol using",
+      "timestamp": "16:42"
+    },
+    {
+      "start": 1004.639,
+      "duration": 2.0,
+      "text": "MPC as well where basically you're",
+      "timestamp": "16:44"
+    },
+    {
+      "start": 1006.639,
+      "duration": 4.241,
+      "text": "proving things about uh TS sessions.",
+      "timestamp": "16:46"
+    },
+    {
+      "start": 1010.88,
+      "duration": 2.48,
+      "text": "Another example of this is uh of using",
+      "timestamp": "16:50"
+    },
+    {
+      "start": 1013.36,
+      "duration": 2.399,
+      "text": "CK email is for garden email recovery.",
+      "timestamp": "16:53"
+    },
+    {
+      "start": 1015.759,
+      "duration": 2.32,
+      "text": "Uh so this is was launched in in both",
+      "timestamp": "16:55"
+    },
+    {
+      "start": 1018.079,
+      "duration": 2.401,
+      "text": "clave and safe uh the multisig wallet",
+      "timestamp": "16:58"
+    },
+    {
+      "start": 1020.48,
+      "duration": 3.2,
+      "text": "this year. So one big problem right is",
+      "timestamp": "17:00"
+    },
+    {
+      "start": 1023.68,
+      "duration": 1.6,
+      "text": "if you have a lot of actions that are",
+      "timestamp": "17:03"
+    },
+    {
+      "start": 1025.28,
+      "duration": 1.919,
+      "text": "tied to some key material if you lose",
+      "timestamp": "17:05"
+    },
+    {
+      "start": 1027.199,
+      "duration": 2.561,
+      "text": "that key that's bad news. Um so what",
+      "timestamp": "17:07"
+    },
+    {
+      "start": 1029.76,
+      "duration": 1.84,
+      "text": "what some protocols have this idea of",
+      "timestamp": "17:09"
+    },
+    {
+      "start": 1031.6,
+      "duration": 2.239,
+      "text": "like guardianship. So let's say you have",
+      "timestamp": "17:11"
+    },
+    {
+      "start": 1033.839,
+      "duration": 2.24,
+      "text": "uh five friends or some family members",
+      "timestamp": "17:13"
+    },
+    {
+      "start": 1036.079,
+      "duration": 1.441,
+      "text": "or lawyers or what have you and you can",
+      "timestamp": "17:16"
+    },
+    {
+      "start": 1037.52,
+      "duration": 2.158,
+      "text": "basically distribute it across them but",
+      "timestamp": "17:17"
+    },
+    {
+      "start": 1039.679,
+      "duration": 2.081,
+      "text": "that they might not all be cryptonative.",
+      "timestamp": "17:19"
+    },
+    {
+      "start": 1041.76,
+      "duration": 1.52,
+      "text": "So what you can do with seek email is",
+      "timestamp": "17:21"
+    },
+    {
+      "start": 1043.28,
+      "duration": 1.679,
+      "text": "that you can assign let's say you have a",
+      "timestamp": "17:23"
+    },
+    {
+      "start": 1044.959,
+      "duration": 1.761,
+      "text": "family friend or or some lawyer or",
+      "timestamp": "17:24"
+    },
+    {
+      "start": 1046.72,
+      "duration": 1.838,
+      "text": "something you can basically say whoever",
+      "timestamp": "17:26"
+    },
+    {
+      "start": 1048.559,
+      "duration": 2.321,
+      "text": "controls this email can be part of this",
+      "timestamp": "17:28"
+    },
+    {
+      "start": 1050.88,
+      "duration": 2.56,
+      "text": "sort of can be a guardian. Uh so that's",
+      "timestamp": "17:30"
+    },
+    {
+      "start": 1053.44,
+      "duration": 2.4,
+      "text": "quite cool in terms of sort of creating",
+      "timestamp": "17:33"
+    },
+    {
+      "start": 1055.84,
+      "duration": 1.28,
+      "text": "these more secure systems and",
+      "timestamp": "17:35"
+    },
+    {
+      "start": 1057.12,
+      "duration": 1.76,
+      "text": "integrating with sort of large society",
+      "timestamp": "17:37"
+    },
+    {
+      "start": 1058.88,
+      "duration": 3.28,
+      "text": "and how we do things right now.",
+      "timestamp": "17:38"
+    },
+    {
+      "start": 1062.16,
+      "duration": 1.519,
+      "text": "I think in general I mean there's lots",
+      "timestamp": "17:42"
+    },
+    {
+      "start": 1063.679,
+      "duration": 1.441,
+      "text": "of more examples I can give but in",
+      "timestamp": "17:43"
+    },
+    {
+      "start": 1065.12,
+      "duration": 1.679,
+      "text": "general what you have with program",
+      "timestamp": "17:45"
+    },
+    {
+      "start": 1066.799,
+      "duration": 1.681,
+      "text": "cryptography is that it's kind of it's",
+      "timestamp": "17:46"
+    },
+    {
+      "start": 1068.48,
+      "duration": 1.28,
+      "text": "very hard and flexible and a little bit",
+      "timestamp": "17:48"
+    },
+    {
+      "start": 1069.76,
+      "duration": 2.24,
+      "text": "like bamboo and carbon fiber. uh so",
+      "timestamp": "17:49"
+    },
+    {
+      "start": 1072.0,
+      "duration": 1.84,
+      "text": "bamboo kind of more anchored in the old",
+      "timestamp": "17:52"
+    },
+    {
+      "start": 1073.84,
+      "duration": 1.36,
+      "text": "whether it's like nation states or",
+      "timestamp": "17:53"
+    },
+    {
+      "start": 1075.2,
+      "duration": 2.719,
+      "text": "passports or emails but also sort of uh",
+      "timestamp": "17:55"
+    },
+    {
+      "start": 1077.919,
+      "duration": 2.241,
+      "text": "more futuristic like public blockchains",
+      "timestamp": "17:57"
+    },
+    {
+      "start": 1080.16,
+      "duration": 2.48,
+      "text": "or new affordances like cursive uh and",
+      "timestamp": "18:00"
+    },
+    {
+      "start": 1082.64,
+      "duration": 1.279,
+      "text": "kind of hard in the sense of like",
+      "timestamp": "18:02"
+    },
+    {
+      "start": 1083.919,
+      "duration": 1.681,
+      "text": "cryptographic hardness so similar to",
+      "timestamp": "18:03"
+    },
+    {
+      "start": 1085.6,
+      "duration": 2.4,
+      "text": "like rule of law or sound money but also",
+      "timestamp": "18:05"
+    },
+    {
+      "start": 1088.0,
+      "duration": 1.76,
+      "text": "flexible to s of the world that we live",
+      "timestamp": "18:08"
+    },
+    {
+      "start": 1089.76,
+      "duration": 3.12,
+      "text": "in and actual reality we live in and",
+      "timestamp": "18:09"
+    },
+    {
+      "start": 1092.88,
+      "duration": 1.36,
+      "text": "priority is trying to sort of develop",
+      "timestamp": "18:12"
+    },
+    {
+      "start": 1094.24,
+      "duration": 1.52,
+      "text": "these tools that allow for greater",
+      "timestamp": "18:14"
+    },
+    {
+      "start": 1095.76,
+      "duration": 2.08,
+      "text": "cooperation and consensus while making",
+      "timestamp": "18:15"
+    },
+    {
+      "start": 1097.84,
+      "duration": 2.24,
+      "text": "space for greater diversity and I think",
+      "timestamp": "18:17"
+    },
+    {
+      "start": 1100.08,
+      "duration": 2.08,
+      "text": "they sort of fit very nicely together in",
+      "timestamp": "18:20"
+    },
+    {
+      "start": 1102.16,
+      "duration": 1.68,
+      "text": "terms of creating these new institutions",
+      "timestamp": "18:22"
+    },
+    {
+      "start": 1103.84,
+      "duration": 3.28,
+      "text": "and uh systems for next century.",
+      "timestamp": "18:23"
+    },
+    {
+      "start": 1107.12,
+      "duration": 1.439,
+      "text": "Uh what about cases where there's",
+      "timestamp": "18:27"
+    },
+    {
+      "start": 1108.559,
+      "duration": 1.441,
+      "text": "absolutely no so just going back to what",
+      "timestamp": "18:28"
+    },
+    {
+      "start": 1110.0,
+      "duration": 0.96,
+      "text": "I said in the beginning with",
+      "timestamp": "18:30"
+    },
+    {
+      "start": 1110.96,
+      "duration": 1.599,
+      "text": "philosophies and so on. What about cases",
+      "timestamp": "18:30"
+    },
+    {
+      "start": 1112.559,
+      "duration": 2.0,
+      "text": "where there's no intersection? So first",
+      "timestamp": "18:32"
+    },
+    {
+      "start": 1114.559,
+      "duration": 1.36,
+      "text": "of all I would say often surprisingly",
+      "timestamp": "18:34"
+    },
+    {
+      "start": 1115.919,
+      "duration": 1.441,
+      "text": "there is some kind of uncommon ground",
+      "timestamp": "18:35"
+    },
+    {
+      "start": 1117.36,
+      "duration": 2.24,
+      "text": "you can find. Uh so like one example is",
+      "timestamp": "18:37"
+    },
+    {
+      "start": 1119.6,
+      "duration": 1.439,
+      "text": "maybe you have a bitcoin maxis versus",
+      "timestamp": "18:39"
+    },
+    {
+      "start": 1121.039,
+      "duration": 1.441,
+      "text": "someone who believes in more of a",
+      "timestamp": "18:41"
+    },
+    {
+      "start": 1122.48,
+      "duration": 1.6,
+      "text": "multi-chain world that's obviously",
+      "timestamp": "18:42"
+    },
+    {
+      "start": 1124.08,
+      "duration": 2.16,
+      "text": "incompatible but the desire for privacy",
+      "timestamp": "18:44"
+    },
+    {
+      "start": 1126.24,
+      "duration": 2.4,
+      "text": "is still the same. Uh and when you look",
+      "timestamp": "18:46"
+    },
+    {
+      "start": 1128.64,
+      "duration": 2.56,
+      "text": "at something like uh BAM enclaves versus",
+      "timestamp": "18:48"
+    },
+    {
+      "start": 1131.2,
+      "duration": 1.92,
+      "text": "more egalitarian norms uh maybe the",
+      "timestamp": "18:51"
+    },
+    {
+      "start": 1133.12,
+      "duration": 1.04,
+      "text": "solution is just to have sort of",
+      "timestamp": "18:53"
+    },
+    {
+      "start": 1134.16,
+      "duration": 2.16,
+      "text": "different power cities like most of",
+      "timestamp": "18:54"
+    },
+    {
+      "start": 1136.32,
+      "duration": 2.0,
+      "text": "these philosophies are nonviolent in",
+      "timestamp": "18:56"
+    },
+    {
+      "start": 1138.32,
+      "duration": 2.56,
+      "text": "nature all of them right now. Uh so",
+      "timestamp": "18:58"
+    },
+    {
+      "start": 1140.88,
+      "duration": 1.679,
+      "text": "that's completely compatible and I think",
+      "timestamp": "19:00"
+    },
+    {
+      "start": 1142.559,
+      "duration": 1.761,
+      "text": "a key question here to ask is like what",
+      "timestamp": "19:02"
+    },
+    {
+      "start": 1144.32,
+      "duration": 1.44,
+      "text": "do you have in common and finding this",
+      "timestamp": "19:04"
+    },
+    {
+      "start": 1145.76,
+      "duration": 2.64,
+      "text": "uncommon ground but there might be",
+      "timestamp": "19:05"
+    },
+    {
+      "start": 1148.4,
+      "duration": 1.84,
+      "text": "specific uh cases where there's actually",
+      "timestamp": "19:08"
+    },
+    {
+      "start": 1150.24,
+      "duration": 2.4,
+      "text": "no overlap and you have a real conflict.",
+      "timestamp": "19:10"
+    },
+    {
+      "start": 1152.64,
+      "duration": 1.76,
+      "text": "Um I think this goes back to what I",
+      "timestamp": "19:12"
+    },
+    {
+      "start": 1154.4,
+      "duration": 2.8,
+      "text": "mentioned about Popper as well. Um and",
+      "timestamp": "19:14"
+    },
+    {
+      "start": 1157.2,
+      "duration": 1.839,
+      "text": "also Talib has this concept of",
+      "timestamp": "19:17"
+    },
+    {
+      "start": 1159.039,
+      "duration": 2.0,
+      "text": "intolerant minority and it's more of an",
+      "timestamp": "19:19"
+    },
+    {
+      "start": 1161.039,
+      "duration": 2.161,
+      "text": "observation than like a value judgment",
+      "timestamp": "19:21"
+    },
+    {
+      "start": 1163.2,
+      "duration": 1.28,
+      "text": "which is that the intolerant minority",
+      "timestamp": "19:23"
+    },
+    {
+      "start": 1164.48,
+      "duration": 2.88,
+      "text": "often decides the outcome. Uh so one",
+      "timestamp": "19:24"
+    },
+    {
+      "start": 1167.36,
+      "duration": 1.52,
+      "text": "example here is preference for end to",
+      "timestamp": "19:27"
+    },
+    {
+      "start": 1168.88,
+      "duration": 3.44,
+      "text": "end encrypted communication. Uh so 10 15",
+      "timestamp": "19:28"
+    },
+    {
+      "start": 1172.32,
+      "duration": 1.76,
+      "text": "years ago or so when everyone was using",
+      "timestamp": "19:32"
+    },
+    {
+      "start": 1174.08,
+      "duration": 1.839,
+      "text": "Facebook and WhatsApp one thing I did",
+      "timestamp": "19:34"
+    },
+    {
+      "start": 1175.919,
+      "duration": 1.441,
+      "text": "with some close friends and family say",
+      "timestamp": "19:35"
+    },
+    {
+      "start": 1177.36,
+      "duration": 1.76,
+      "text": "like well I'm I'm only on signal so if",
+      "timestamp": "19:37"
+    },
+    {
+      "start": 1179.12,
+      "duration": 1.52,
+      "text": "you want to talk to me you signal and I",
+      "timestamp": "19:39"
+    },
+    {
+      "start": 1180.64,
+      "duration": 1.68,
+      "text": "would help them on board them on onto",
+      "timestamp": "19:40"
+    },
+    {
+      "start": 1182.32,
+      "duration": 2.08,
+      "text": "this uh and that that kind of works",
+      "timestamp": "19:42"
+    },
+    {
+      "start": 1184.4,
+      "duration": 1.519,
+      "text": "right especially if you help them but",
+      "timestamp": "19:44"
+    },
+    {
+      "start": 1185.919,
+      "duration": 1.281,
+      "text": "the thing is you have to pick wisely",
+      "timestamp": "19:45"
+    },
+    {
+      "start": 1187.2,
+      "duration": 1.52,
+      "text": "like you can you can only you only have",
+      "timestamp": "19:47"
+    },
+    {
+      "start": 1188.72,
+      "duration": 1.76,
+      "text": "so many choices uh where you can sort of",
+      "timestamp": "19:48"
+    },
+    {
+      "start": 1190.48,
+      "duration": 1.04,
+      "text": "be intolerant because if you're",
+      "timestamp": "19:50"
+    },
+    {
+      "start": 1191.52,
+      "duration": 1.519,
+      "text": "intolerant about everything then people",
+      "timestamp": "19:51"
+    },
+    {
+      "start": 1193.039,
+      "duration": 1.361,
+      "text": "don't want to be around you so you have",
+      "timestamp": "19:53"
+    },
+    {
+      "start": 1194.4,
+      "duration": 3.92,
+      "text": "to think carefully about this.",
+      "timestamp": "19:54"
+    },
+    {
+      "start": 1198.32,
+      "duration": 2.8,
+      "text": "Uh one thing we've seen uh last few",
+      "timestamp": "19:58"
+    },
+    {
+      "start": 1201.12,
+      "duration": 1.04,
+      "text": "months I mean this is kind of an",
+      "timestamp": "20:01"
+    },
+    {
+      "start": 1202.16,
+      "duration": 2.24,
+      "text": "evergreen thing where it happens comes",
+      "timestamp": "20:02"
+    },
+    {
+      "start": 1204.4,
+      "duration": 2.08,
+      "text": "up again and again but it's been this",
+      "timestamp": "20:04"
+    },
+    {
+      "start": 1206.48,
+      "duration": 1.6,
+      "text": "kind of attack on end to end encryption",
+      "timestamp": "20:06"
+    },
+    {
+      "start": 1208.08,
+      "duration": 1.599,
+      "text": "protocols. Uh so governments basically",
+      "timestamp": "20:08"
+    },
+    {
+      "start": 1209.679,
+      "duration": 2.0,
+      "text": "who want to install backd doorors. So",
+      "timestamp": "20:09"
+    },
+    {
+      "start": 1211.679,
+      "duration": 1.841,
+      "text": "we've seen this lately with the UK,",
+      "timestamp": "20:11"
+    },
+    {
+      "start": 1213.52,
+      "duration": 2.48,
+      "text": "France, Sweden, EU and even Switzerland",
+      "timestamp": "20:13"
+    },
+    {
+      "start": 1216.0,
+      "duration": 1.919,
+      "text": "who basically want to mandate uh back",
+      "timestamp": "20:16"
+    },
+    {
+      "start": 1217.919,
+      "duration": 1.521,
+      "text": "doors into these systems and there's",
+      "timestamp": "20:17"
+    },
+    {
+      "start": 1219.44,
+      "duration": 1.2,
+      "text": "similar attacks on things like",
+      "timestamp": "20:19"
+    },
+    {
+      "start": 1220.64,
+      "duration": 3.12,
+      "text": "self-hosted wallets and so on. Um and I",
+      "timestamp": "20:20"
+    },
+    {
+      "start": 1223.76,
+      "duration": 1.919,
+      "text": "think this goes back to Poppers paradox",
+      "timestamp": "20:23"
+    },
+    {
+      "start": 1225.679,
+      "duration": 1.681,
+      "text": "I mentioned in the beginning. Um and I",
+      "timestamp": "20:25"
+    },
+    {
+      "start": 1227.36,
+      "duration": 1.04,
+      "text": "guess one question we have to ask",
+      "timestamp": "20:27"
+    },
+    {
+      "start": 1228.4,
+      "duration": 1.68,
+      "text": "ourselves and you have to ask yourself",
+      "timestamp": "20:28"
+    },
+    {
+      "start": 1230.08,
+      "duration": 1.68,
+      "text": "answer yourself individually is are we",
+      "timestamp": "20:30"
+    },
+    {
+      "start": 1231.76,
+      "duration": 1.76,
+      "text": "okay with this government imposed back",
+      "timestamp": "20:31"
+    },
+    {
+      "start": 1233.52,
+      "duration": 3.12,
+      "text": "doors into end encrypted protocols. I",
+      "timestamp": "20:33"
+    },
+    {
+      "start": 1236.64,
+      "duration": 1.84,
+      "text": "would argue that kind of under under",
+      "timestamp": "20:36"
+    },
+    {
+      "start": 1238.48,
+      "duration": 1.439,
+      "text": "valvalues undermines sort of the core",
+      "timestamp": "20:38"
+    },
+    {
+      "start": 1239.919,
+      "duration": 2.0,
+      "text": "values for a free society and these kind",
+      "timestamp": "20:39"
+    },
+    {
+      "start": 1241.919,
+      "duration": 2.0,
+      "text": "of hardness guarantees that we want and",
+      "timestamp": "20:41"
+    },
+    {
+      "start": 1243.919,
+      "duration": 1.841,
+      "text": "I would also say it's kind of symbolic",
+      "timestamp": "20:43"
+    },
+    {
+      "start": 1245.76,
+      "duration": 2.0,
+      "text": "for this kind of old world uh versus new",
+      "timestamp": "20:45"
+    },
+    {
+      "start": 1247.76,
+      "duration": 1.68,
+      "text": "world and maybe this is something that's",
+      "timestamp": "20:47"
+    },
+    {
+      "start": 1249.44,
+      "duration": 2.719,
+      "text": "worth being intolerant about.",
+      "timestamp": "20:49"
+    },
+    {
+      "start": 1252.159,
+      "duration": 2.4,
+      "text": "All right. Uh so some key takeaways. So",
+      "timestamp": "20:52"
+    },
+    {
+      "start": 1254.559,
+      "duration": 1.921,
+      "text": "this with this of big technological",
+      "timestamp": "20:54"
+    },
+    {
+      "start": 1256.48,
+      "duration": 1.52,
+      "text": "shift this kind of an explosion of these",
+      "timestamp": "20:56"
+    },
+    {
+      "start": 1258.0,
+      "duration": 1.44,
+      "text": "various philosophies and ways of making",
+      "timestamp": "20:58"
+    },
+    {
+      "start": 1259.44,
+      "duration": 2.08,
+      "text": "sense of the world. Uh program",
+      "timestamp": "20:59"
+    },
+    {
+      "start": 1261.52,
+      "duration": 2.08,
+      "text": "cryptography has this kind of hard but",
+      "timestamp": "21:01"
+    },
+    {
+      "start": 1263.6,
+      "duration": 3.04,
+      "text": "flexible uh efforts. Plurality it's",
+      "timestamp": "21:03"
+    },
+    {
+      "start": 1266.64,
+      "duration": 1.84,
+      "text": "about sort of allowing for these kind of",
+      "timestamp": "21:06"
+    },
+    {
+      "start": 1268.48,
+      "duration": 1.439,
+      "text": "different viewpoints and how to deal",
+      "timestamp": "21:08"
+    },
+    {
+      "start": 1269.919,
+      "duration": 2.64,
+      "text": "with that. um talked a little bit about",
+      "timestamp": "21:09"
+    },
+    {
+      "start": 1272.559,
+      "duration": 1.36,
+      "text": "the importance of kind trying to kind of",
+      "timestamp": "21:12"
+    },
+    {
+      "start": 1273.919,
+      "duration": 1.521,
+      "text": "recognize some uncommon ground like the",
+      "timestamp": "21:13"
+    },
+    {
+      "start": 1275.44,
+      "duration": 1.44,
+      "text": "world is big, people have very different",
+      "timestamp": "21:15"
+    },
+    {
+      "start": 1276.88,
+      "duration": 2.88,
+      "text": "ways of of living and generally being",
+      "timestamp": "21:16"
+    },
+    {
+      "start": 1279.76,
+      "duration": 1.919,
+      "text": "tolerant but then understanding when it",
+      "timestamp": "21:19"
+    },
+    {
+      "start": 1281.679,
+      "duration": 1.441,
+      "text": "makes sense to be intolerant and and",
+      "timestamp": "21:21"
+    },
+    {
+      "start": 1283.12,
+      "duration": 2.96,
+      "text": "sort of picking wisely.",
+      "timestamp": "21:23"
+    },
+    {
+      "start": 1286.08,
+      "duration": 1.76,
+      "text": "Uh also just finally want to mention",
+      "timestamp": "21:26"
+    },
+    {
+      "start": 1287.84,
+      "duration": 2.16,
+      "text": "that I am I'm writing this book on CK",
+      "timestamp": "21:27"
+    },
+    {
+      "start": 1290.0,
+      "duration": 1.52,
+      "text": "where basically I'm trying to bridge the",
+      "timestamp": "21:30"
+    },
+    {
+      "start": 1291.52,
+      "duration": 2.32,
+      "text": "normitech world with sort of a more CK",
+      "timestamp": "21:31"
+    },
+    {
+      "start": 1293.84,
+      "duration": 2.8,
+      "text": "pill world uh in terms of how we think",
+      "timestamp": "21:33"
+    },
+    {
+      "start": 1296.64,
+      "duration": 1.76,
+      "text": "about trust problems of example things I",
+      "timestamp": "21:36"
+    },
+    {
+      "start": 1298.4,
+      "duration": 2.159,
+      "text": "mention here. Uh so I have some booklets",
+      "timestamp": "21:38"
+    },
+    {
+      "start": 1300.559,
+      "duration": 1.681,
+      "text": "I give out. Uh if anyone is interested,",
+      "timestamp": "21:40"
+    },
+    {
+      "start": 1302.24,
+      "duration": 2.72,
+      "text": "you can come up to me after the talk.",
+      "timestamp": "21:42"
+    },
+    {
+      "start": 1304.96,
+      "duration": 2.56,
+      "text": "Uh here's some links. Thank you. Any",
+      "timestamp": "21:44"
+    },
+    {
+      "start": 1307.52,
+      "duration": 3.0,
+      "text": "questions?",
+      "timestamp": "21:47"
+    },
+    {
+      "start": 1311.15,
+      "duration": 3.309,
+      "text": "[Applause]",
+      "timestamp": "21:51"
+    },
+    {
+      "start": 1323.6,
+      "duration": 2.8,
+      "text": "So my question is um",
+      "timestamp": "22:03"
+    },
+    {
+      "start": 1326.4,
+      "duration": 2.32,
+      "text": "so regarding AI and large language",
+      "timestamp": "22:06"
+    },
+    {
+      "start": 1328.72,
+      "duration": 2.64,
+      "text": "models and particularly when they are",
+      "timestamp": "22:08"
+    },
+    {
+      "start": 1331.36,
+      "duration": 4.0,
+      "text": "centralized like open AAI etc. So um",
+      "timestamp": "22:11"
+    },
+    {
+      "start": 1335.36,
+      "duration": 2.799,
+      "text": "what are kind of the like promising",
+      "timestamp": "22:15"
+    },
+    {
+      "start": 1338.159,
+      "duration": 3.201,
+      "text": "technologies and outlooks to to get some",
+      "timestamp": "22:18"
+    },
+    {
+      "start": 1341.36,
+      "duration": 1.6,
+      "text": "encryption",
+      "timestamp": "22:21"
+    },
+    {
+      "start": 1342.96,
+      "duration": 3.92,
+      "text": "um privacy um there? So of course we can",
+      "timestamp": "22:22"
+    },
+    {
+      "start": 1346.88,
+      "duration": 1.84,
+      "text": "run them locally but the compute is not",
+      "timestamp": "22:26"
+    },
+    {
+      "start": 1348.72,
+      "duration": 3.68,
+      "text": "enough. So is there any zk or anything",
+      "timestamp": "22:28"
+    },
+    {
+      "start": 1352.4,
+      "duration": 3.519,
+      "text": "that is you think is going to be big? Uh",
+      "timestamp": "22:32"
+    },
+    {
+      "start": 1355.919,
+      "duration": 3.361,
+      "text": "yeah it's a good question. Um so",
+      "timestamp": "22:35"
+    },
+    {
+      "start": 1359.28,
+      "duration": 1.519,
+      "text": "one way you can think about is is kind",
+      "timestamp": "22:39"
+    },
+    {
+      "start": 1360.799,
+      "duration": 1.841,
+      "text": "of like a quadrant where basically this",
+      "timestamp": "22:40"
+    },
+    {
+      "start": 1362.64,
+      "duration": 1.36,
+      "text": "this is a whole field of like called",
+      "timestamp": "22:42"
+    },
+    {
+      "start": 1364.0,
+      "duration": 2.72,
+      "text": "CKML and basically you can choose if you",
+      "timestamp": "22:44"
+    },
+    {
+      "start": 1366.72,
+      "duration": 3.199,
+      "text": "have a sort of um you have a model and",
+      "timestamp": "22:46"
+    },
+    {
+      "start": 1369.919,
+      "duration": 2.081,
+      "text": "then sort of the the input and basically",
+      "timestamp": "22:49"
+    },
+    {
+      "start": 1372.0,
+      "duration": 1.679,
+      "text": "you can choose which of those you want",
+      "timestamp": "22:52"
+    },
+    {
+      "start": 1373.679,
+      "duration": 1.36,
+      "text": "are private. So maybe the model is",
+      "timestamp": "22:53"
+    },
+    {
+      "start": 1375.039,
+      "duration": 2.961,
+      "text": "private uh which can be useful for um",
+      "timestamp": "22:55"
+    },
+    {
+      "start": 1378.0,
+      "duration": 1.919,
+      "text": "certain domains or maybe of the input is",
+      "timestamp": "22:58"
+    },
+    {
+      "start": 1379.919,
+      "duration": 1.601,
+      "text": "private. So there is research in that. I",
+      "timestamp": "22:59"
+    },
+    {
+      "start": 1381.52,
+      "duration": 1.92,
+      "text": "think one big problem is in terms of",
+      "timestamp": "23:01"
+    },
+    {
+      "start": 1383.44,
+      "duration": 2.96,
+      "text": "just uh it's it's it's very com very",
+      "timestamp": "23:03"
+    },
+    {
+      "start": 1386.4,
+      "duration": 2.24,
+      "text": "computationally expensive. So it only",
+      "timestamp": "23:06"
+    },
+    {
+      "start": 1388.64,
+      "duration": 2.08,
+      "text": "makes sense in specific subset of use",
+      "timestamp": "23:08"
+    },
+    {
+      "start": 1390.72,
+      "duration": 2.0,
+      "text": "cases. So for example, when is when",
+      "timestamp": "23:10"
+    },
+    {
+      "start": 1392.72,
+      "duration": 1.28,
+      "text": "you're dealing with like medical data",
+      "timestamp": "23:12"
+    },
+    {
+      "start": 1394.0,
+      "duration": 1.76,
+      "text": "and stuff like that where people might",
+      "timestamp": "23:14"
+    },
+    {
+      "start": 1395.76,
+      "duration": 2.48,
+      "text": "not want to give it up. So that's one",
+      "timestamp": "23:15"
+    },
+    {
+      "start": 1398.24,
+      "duration": 1.6,
+      "text": "example of where that kind of",
+      "timestamp": "23:18"
+    },
+    {
+      "start": 1399.84,
+      "duration": 1.6,
+      "text": "application makes sense. There's also",
+      "timestamp": "23:19"
+    },
+    {
+      "start": 1401.44,
+      "duration": 2.0,
+      "text": "people who are doing kind of hybrid",
+      "timestamp": "23:21"
+    },
+    {
+      "start": 1403.44,
+      "duration": 3.359,
+      "text": "models. So whether instead of just doing",
+      "timestamp": "23:23"
+    },
+    {
+      "start": 1406.799,
+      "duration": 1.521,
+      "text": "pure seek for everything they have this",
+      "timestamp": "23:26"
+    },
+    {
+      "start": 1408.32,
+      "duration": 2.8,
+      "text": "kind of um optimistic approach uh called",
+      "timestamp": "23:28"
+    },
+    {
+      "start": 1411.12,
+      "duration": 2.24,
+      "text": "I think it's optimistic ML or whatever",
+      "timestamp": "23:31"
+    },
+    {
+      "start": 1413.36,
+      "duration": 2.08,
+      "text": "uh and that way you can also get better",
+      "timestamp": "23:33"
+    },
+    {
+      "start": 1415.44,
+      "duration": 1.84,
+      "text": "um performance and stuff like that but",
+      "timestamp": "23:35"
+    },
+    {
+      "start": 1417.28,
+      "duration": 1.36,
+      "text": "reality is they will always sort of lag",
+      "timestamp": "23:37"
+    },
+    {
+      "start": 1418.64,
+      "duration": 2.08,
+      "text": "behind these big uh models and companies",
+      "timestamp": "23:38"
+    },
+    {
+      "start": 1420.72,
+      "duration": 1.52,
+      "text": "and so on. So I think it's more a matter",
+      "timestamp": "23:40"
+    },
+    {
+      "start": 1422.24,
+      "duration": 2.0,
+      "text": "of identifying some kind of subset where",
+      "timestamp": "23:42"
+    },
+    {
+      "start": 1424.24,
+      "duration": 2.96,
+      "text": "it makes sense. Uh but yeah, it's it's a",
+      "timestamp": "23:44"
+    },
+    {
+      "start": 1427.2,
+      "duration": 2.32,
+      "text": "good question and because the space is",
+      "timestamp": "23:47"
+    },
+    {
+      "start": 1429.52,
+      "duration": 1.92,
+      "text": "advancing so quickly, uh it takes a",
+      "timestamp": "23:49"
+    },
+    {
+      "start": 1431.44,
+      "duration": 1.52,
+      "text": "while for things to catch up and so on,",
+      "timestamp": "23:51"
+    },
+    {
+      "start": 1432.96,
+      "duration": 1.36,
+      "text": "but there's definitely a lot of people",
+      "timestamp": "23:52"
+    },
+    {
+      "start": 1434.32,
+      "duration": 2.64,
+      "text": "working in in this area uh for specific",
+      "timestamp": "23:54"
+    },
+    {
+      "start": 1436.96,
+      "duration": 4.68,
+      "text": "use cases. Thank you.",
+      "timestamp": "23:56"
+    },
+    {
+      "start": 1447.84,
+      "duration": 2.319,
+      "text": "Hey. Yeah. Um, when it comes to",
+      "timestamp": "24:07"
+    },
+    {
+      "start": 1450.159,
+      "duration": 2.561,
+      "text": "plurality, uh, in the book a lot, they",
+      "timestamp": "24:10"
+    },
+    {
+      "start": 1452.72,
+      "duration": 2.4,
+      "text": "talk a lot about, um, various identity",
+      "timestamp": "24:12"
+    },
+    {
+      "start": 1455.12,
+      "duration": 1.919,
+      "text": "solutions as like a core part of it",
+      "timestamp": "24:15"
+    },
+    {
+      "start": 1457.039,
+      "duration": 1.201,
+      "text": "because if you have many plural",
+      "timestamp": "24:17"
+    },
+    {
+      "start": 1458.24,
+      "duration": 1.6,
+      "text": "identities, then they need to have",
+      "timestamp": "24:18"
+    },
+    {
+      "start": 1459.84,
+      "duration": 2.0,
+      "text": "somewhere to track. Now, I haven't",
+      "timestamp": "24:19"
+    },
+    {
+      "start": 1461.84,
+      "duration": 2.0,
+      "text": "really seen a convincing argument",
+      "timestamp": "24:21"
+    },
+    {
+      "start": 1463.84,
+      "duration": 1.199,
+      "text": "because it's something that concerns me",
+      "timestamp": "24:23"
+    },
+    {
+      "start": 1465.039,
+      "duration": 2.721,
+      "text": "greatly of how you can have such a large",
+      "timestamp": "24:25"
+    },
+    {
+      "start": 1467.76,
+      "duration": 2.32,
+      "text": "amount of qualitative data on one person",
+      "timestamp": "24:27"
+    },
+    {
+      "start": 1470.08,
+      "duration": 2.56,
+      "text": "and their various sort of inputs um and",
+      "timestamp": "24:30"
+    },
+    {
+      "start": 1472.64,
+      "duration": 2.0,
+      "text": "maintain any semblance of privacy at",
+      "timestamp": "24:32"
+    },
+    {
+      "start": 1474.64,
+      "duration": 2.08,
+      "text": "scale because yes, you could do ZK but",
+      "timestamp": "24:34"
+    },
+    {
+      "start": 1476.72,
+      "duration": 1.28,
+      "text": "if you have enough data at some point",
+      "timestamp": "24:36"
+    },
+    {
+      "start": 1478.0,
+      "duration": 1.44,
+      "text": "triangulation as possible. Do you have",
+      "timestamp": "24:38"
+    },
+    {
+      "start": 1479.44,
+      "duration": 1.92,
+      "text": "any thoughts?",
+      "timestamp": "24:39"
+    },
+    {
+      "start": 1481.36,
+      "duration": 3.12,
+      "text": "Uh well, I would say that uh it's",
+      "timestamp": "24:41"
+    },
+    {
+      "start": 1484.48,
+      "duration": 2.4,
+      "text": "already the case that",
+      "timestamp": "24:44"
+    },
+    {
+      "start": 1486.88,
+      "duration": 2.48,
+      "text": "things are moving into more D direction,",
+      "timestamp": "24:46"
+    },
+    {
+      "start": 1489.36,
+      "duration": 2.24,
+      "text": "right? like like identities are right",
+      "timestamp": "24:49"
+    },
+    {
+      "start": 1491.6,
+      "duration": 1.92,
+      "text": "now a lot of identities are implicit and",
+      "timestamp": "24:51"
+    },
+    {
+      "start": 1493.52,
+      "duration": 1.279,
+      "text": "so on but they're becoming more and more",
+      "timestamp": "24:53"
+    },
+    {
+      "start": 1494.799,
+      "duration": 2.161,
+      "text": "explicit. So for example a social graph",
+      "timestamp": "24:54"
+    },
+    {
+      "start": 1496.96,
+      "duration": 2.24,
+      "text": "is becoming more explicit with social",
+      "timestamp": "24:56"
+    },
+    {
+      "start": 1499.2,
+      "duration": 1.2,
+      "text": "networks and so on and the same thing",
+      "timestamp": "24:59"
+    },
+    {
+      "start": 1500.4,
+      "duration": 2.879,
+      "text": "with passport data and so on. So I think",
+      "timestamp": "25:00"
+    },
+    {
+      "start": 1503.279,
+      "duration": 2.161,
+      "text": "uh",
+      "timestamp": "25:03"
+    },
+    {
+      "start": 1505.44,
+      "duration": 1.599,
+      "text": "what you can do with this technology is",
+      "timestamp": "25:05"
+    },
+    {
+      "start": 1507.039,
+      "duration": 2.401,
+      "text": "to sort of",
+      "timestamp": "25:07"
+    },
+    {
+      "start": 1509.44,
+      "duration": 1.839,
+      "text": "integrate with these digital systems and",
+      "timestamp": "25:09"
+    },
+    {
+      "start": 1511.279,
+      "duration": 2.481,
+      "text": "then um",
+      "timestamp": "25:11"
+    },
+    {
+      "start": 1513.76,
+      "duration": 1.279,
+      "text": "it's not it's not never going to be",
+      "timestamp": "25:13"
+    },
+    {
+      "start": 1515.039,
+      "duration": 2.24,
+      "text": "perfect but I think you can you can",
+      "timestamp": "25:15"
+    },
+    {
+      "start": 1517.279,
+      "duration": 1.921,
+      "text": "still improve on the status quo",
+      "timestamp": "25:17"
+    },
+    {
+      "start": 1519.2,
+      "duration": 1.359,
+      "text": "basically. I think that's what I would",
+      "timestamp": "25:19"
+    },
+    {
+      "start": 1520.559,
+      "duration": 2.72,
+      "text": "say and and then",
+      "timestamp": "25:20"
+    },
+    {
+      "start": 1523.279,
+      "duration": 1.601,
+      "text": "it's hard because a lot of this has to",
+      "timestamp": "25:23"
+    },
+    {
+      "start": 1524.88,
+      "duration": 1.279,
+      "text": "do with sort of the tension in the",
+      "timestamp": "25:24"
+    },
+    {
+      "start": 1526.159,
+      "duration": 2.241,
+      "text": "current society we live in as well. So",
+      "timestamp": "25:26"
+    },
+    {
+      "start": 1528.4,
+      "duration": 2.48,
+      "text": "it's a little bit of of",
+      "timestamp": "25:28"
+    },
+    {
+      "start": 1530.88,
+      "duration": 1.84,
+      "text": "like for example some things might be a",
+      "timestamp": "25:30"
+    },
+    {
+      "start": 1532.72,
+      "duration": 3.199,
+      "text": "a side effect of uh big tech and an ad-",
+      "timestamp": "25:32"
+    },
+    {
+      "start": 1535.919,
+      "duration": 1.921,
+      "text": "driven uh business model. So to get",
+      "timestamp": "25:35"
+    },
+    {
+      "start": 1537.84,
+      "duration": 1.12,
+      "text": "around that to actually solve that",
+      "timestamp": "25:37"
+    },
+    {
+      "start": 1538.96,
+      "duration": 1.36,
+      "text": "problem fundamentally you would probably",
+      "timestamp": "25:38"
+    },
+    {
+      "start": 1540.32,
+      "duration": 1.28,
+      "text": "need like other types of business",
+      "timestamp": "25:40"
+    },
+    {
+      "start": 1541.6,
+      "duration": 1.679,
+      "text": "models. When it comes to nation state I",
+      "timestamp": "25:41"
+    },
+    {
+      "start": 1543.279,
+      "duration": 1.841,
+      "text": "think that differs a lot depending on",
+      "timestamp": "25:43"
+    },
+    {
+      "start": 1545.12,
+      "duration": 2.4,
+      "text": "jurisdiction you're in how open they are",
+      "timestamp": "25:45"
+    },
+    {
+      "start": 1547.52,
+      "duration": 2.32,
+      "text": "to that kind of those type of solutions.",
+      "timestamp": "25:47"
+    },
+    {
+      "start": 1549.84,
+      "duration": 1.36,
+      "text": "I would say that one thing that's",
+      "timestamp": "25:49"
+    },
+    {
+      "start": 1551.2,
+      "duration": 2.64,
+      "text": "generally underexplored um because the",
+      "timestamp": "25:51"
+    },
+    {
+      "start": 1553.84,
+      "duration": 1.76,
+      "text": "technological domain that we're in is",
+      "timestamp": "25:53"
+    },
+    {
+      "start": 1555.6,
+      "duration": 1.92,
+      "text": "quite deep and the legal domain is also",
+      "timestamp": "25:55"
+    },
+    {
+      "start": 1557.52,
+      "duration": 2.159,
+      "text": "quite deep. So there's also a lack of",
+      "timestamp": "25:57"
+    },
+    {
+      "start": 1559.679,
+      "duration": 2.0,
+      "text": "communication between the two. I think",
+      "timestamp": "25:59"
+    },
+    {
+      "start": 1561.679,
+      "duration": 1.841,
+      "text": "one example of uh some people are doing",
+      "timestamp": "26:01"
+    },
+    {
+      "start": 1563.52,
+      "duration": 2.72,
+      "text": "a good job here like the Ccatch people",
+      "timestamp": "26:03"
+    },
+    {
+      "start": 1566.24,
+      "duration": 1.84,
+      "text": "uh because they are care a lot about",
+      "timestamp": "26:06"
+    },
+    {
+      "start": 1568.08,
+      "duration": 1.52,
+      "text": "privacy but they've also been talking to",
+      "timestamp": "26:08"
+    },
+    {
+      "start": 1569.6,
+      "duration": 1.76,
+      "text": "people in Washington and there it turns",
+      "timestamp": "26:09"
+    },
+    {
+      "start": 1571.36,
+      "duration": 1.52,
+      "text": "out they're actually people like subsets",
+      "timestamp": "26:11"
+    },
+    {
+      "start": 1572.88,
+      "duration": 2.08,
+      "text": "of people in sort of the establishment",
+      "timestamp": "26:12"
+    },
+    {
+      "start": 1574.96,
+      "duration": 1.839,
+      "text": "that also care about privacy for various",
+      "timestamp": "26:14"
+    },
+    {
+      "start": 1576.799,
+      "duration": 2.721,
+      "text": "reasons. So I do think that's kind of",
+      "timestamp": "26:16"
+    },
+    {
+      "start": 1579.52,
+      "duration": 1.44,
+      "text": "how you move that forward, but it's",
+      "timestamp": "26:19"
+    },
+    {
+      "start": 1580.96,
+      "duration": 1.52,
+      "text": "definitely a non-trivveal problem. And",
+      "timestamp": "26:20"
+    },
+    {
+      "start": 1582.48,
+      "duration": 1.52,
+      "text": "then you can talk about specifics in",
+      "timestamp": "26:22"
+    },
+    {
+      "start": 1584.0,
+      "duration": 1.84,
+      "text": "terms of triangulation and what",
+      "timestamp": "26:24"
+    },
+    {
+      "start": 1585.84,
+      "duration": 1.28,
+      "text": "information to give up and so on. And",
+      "timestamp": "26:25"
+    },
+    {
+      "start": 1587.12,
+      "duration": 2.159,
+      "text": "that's a deeper conversation. Yeah. And",
+      "timestamp": "26:27"
+    },
+    {
+      "start": 1589.279,
+      "duration": 2.88,
+      "text": "just an extension, sorry. Um, do you",
+      "timestamp": "26:29"
+    },
+    {
+      "start": 1592.159,
+      "duration": 1.52,
+      "text": "personally believe that anytime in the",
+      "timestamp": "26:32"
+    },
+    {
+      "start": 1593.679,
+      "duration": 1.441,
+      "text": "next sort of decade we're going to have",
+      "timestamp": "26:33"
+    },
+    {
+      "start": 1595.12,
+      "duration": 1.76,
+      "text": "that integration where let's say nation",
+      "timestamp": "26:35"
+    },
+    {
+      "start": 1596.88,
+      "duration": 1.76,
+      "text": "state level governance will respect",
+      "timestamp": "26:36"
+    },
+    {
+      "start": 1598.64,
+      "duration": 2.159,
+      "text": "privacy levels on identity solutions",
+      "timestamp": "26:38"
+    },
+    {
+      "start": 1600.799,
+      "duration": 2.0,
+      "text": "like this? Uh, I think some jurisdiction",
+      "timestamp": "26:40"
+    },
+    {
+      "start": 1602.799,
+      "duration": 1.681,
+      "text": "will have that. Yes. But maybe not all",
+      "timestamp": "26:42"
+    },
+    {
+      "start": 1604.48,
+      "duration": 3.4,
+      "text": "of them. Cool.",
+      "timestamp": "26:44"
+    },
+    {
+      "start": 1615.84,
+      "duration": 3.318,
+      "text": "other question.",
+      "timestamp": "26:55"
+    },
+    {
+      "start": 1620.88,
+      "duration": 3.64,
+      "text": "Okay, thank you.",
+      "timestamp": "27:00"
+    }
+  ],
+  "extraction_timestamp": "2025-07-08T14:45:53.162062",
+  "playlist_title": "EthCC[8] Redford Stage"
+}

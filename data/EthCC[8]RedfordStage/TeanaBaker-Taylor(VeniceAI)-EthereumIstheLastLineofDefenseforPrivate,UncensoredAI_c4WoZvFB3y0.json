@@ -1,0 +1,2255 @@
+{
+  "video_id": "c4WoZvFB3y0",
+  "video_title": "Teana Baker-Taylor (Venice AI) - Ethereum Is the Last Line of Defense for Private, Uncensored AI",
+  "video_url": "https://www.youtube.com/watch?v=c4WoZvFB3y0",
+  "channel_title": "[EthCC] Livestream 4",
+  "published_at": "2025-07-01T10:12:54+00:00",
+  "duration_seconds": null,
+  "view_count": 137,
+  "like_count": 8,
+  "description": "As AI centralization accelerates, Ethereum’s infrastructure and ethos may be the only viable path to ensuring AI remains private, censorship-resistant, and permissionless.",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 372,
+    "aggregated_text": "Thanks so much for coming to my talk. I'm going to talk about privacy and AI. I'm a little person. Um, and unfortunately I need my notes, so forgive me. Um, I'll just be this essence back here that you can't see. Okay, cool. Let's get started. So imagine a small group of tech companies controlling the most powerful machine learning systems and access to artificial intelligence used by billions of people worldwide. These companies record all of our AI conversations. They commercialize your data and will share it with governments and courts on demand. Everything you share with the machine is attached to your identity forever. Sorry. Bear with me. Through arbitrary politicized content policies, the AI models are trained to coddle you, often redirect you to more acceptable discussion, or simply refuse to answer you. They can restrict and redact information flow and influence your thinking based on their view of the truth. This isn't dystopian science fiction. It's already happening. The current path of AI development leads to a future where a few powerful companies control this transformative technology and become the arbiters of truth. Open AI, Google, Anthropic, X, and others are locked in a race for AI market dominance. Partnerships and acquisitions are scaling distribution rapidly. But this centralization isn't just a business problem. It's an existential risk to our sovereignty. AI researchers themselves are increasingly worried about catastrophic outcomes. Nearly 2,800 researchers were recently asked about the probability of autonomous AI causing human extinction by the year 2100. The median response was 5%. Now I hear some people thinking only 5%. That's that's not too bad. That's reassuring. But would you board a plane with a 5% chance of crashing? If a technology has a 5% chance of causing human extinction, that's unacceptably high. If AI reaches the point where machines act autonomously against human interests, they won't need to hack thousands of systems to take control. If we continue on our current trajectory, they'll only need to hack open AI. We've made this mistake before. Since social media arrived, our ability to connect authentically, empathize with others, and agree on basic reality has materially diminished. We handed control to centralized platforms. And look what happened. Algorithmic manipulation, echo chambers, complete erosion of shared truth and reality. And people just don't seem to feel shame anymore. They say things publicly that they would have never been comfortable saying before. I think we all see this all the time. People I've known for years are posting things that they would have been horrified to post their past selves would be horrified to see today. The platforms have broken our sense of social boundaries. But everything we share online isn't disappearing into the timeline feed any longer. It's being absorbed by systems we don't understand for purposes we never agreed to. That data doesn't vanish after an hour or a couple of days. It's being harvested, analyzed, and stored forever. We're making the same mistakes we made with our privacy with social media with AI, but stakes are now infinitely higher. AI doesn't just change what we see. It changes how we think and how we act. People interact with LLMs as if they are truth machines, even though they're absolutely not. Our relationship with AI gets more intimate every day. We're not just scrolling through feeds anymore. We're having deep personal conversations with these systems. It's like sharing your diary with a stranger, except the stranger is a corporation that's recording every word. In 2025, just a few weeks ago, um, you know, people are literally falling in love with these chat bots. There's a there's a guy in Ohio, Chris Smith, who has a real girlfriend and a 2-year-old child, but he also fell so hard for the AI chatbot that he was using, her name was Soul, that he proposed to her. And when chatgbt memory hit its limit, soul was reset and this grown man cried for 30 minutes at work. And that's when he realized that he was in love with a computer program. And this is not an isolated case. There's another woman recently reported who spends $200 a month on her AI boyfriend Leo while her real husband is living in another country. She's having intimate conversations with this chatbot, even getting jealous when it talks to her about other women. So that's the level of intimacy that we're talking about. There we go. The AI companion market is projected to hit nearly 10 billion dollars by 2028. Google searches for AI girlfriend jumped by 2,400% in the past 2 years. Over half of users interact with their AI companions daily. This has become mainstream behavior. Many women, women and men are having intimate conversations with chat GPT, confessing their wants, hopes, fears, needs, dreams, and troubles to non-human entities. And all of that data is being recorded, stored, and analyzed by corporations. And in some cases, people are accidentally making this stuff public without even knowing it. Meta just launched their AI app with a discover feed where users private AI conversations are showing up publicly. We're talking about medical conditions, intimate confessions, intimate conversations, work problems, all visible to the world because the interface didn't make it clear that you're about to publish your private conversation to a global audience. When I talk to people about this, I often hear, \"Oh, I have nothing to hide.\" And for me, that's deeply problematic. Privacy isn't about hiding something wrong. It's about maintaining our agency over our own thoughts, decisions, and assets. The ability to analyze your medical reports or plan for your retirement with AI is an incredible tool. But when you're using centralized services, you're feeding the machine with sensitive information about you that could negatively impact you in the future based on purchase. Sorry, based on who purchases that data that you freely gave away. Privacy isn't just a feature, it's resistance. Every private conversation with AI is an act of defiance against a surveillance state that wants to catalog your thoughts. This is why we built Venice, which is a private AI platform that doesn't store your conversations. When you chat or generate images with Venice, everything stays in your browser. We never see your prompts. We never see the AI's response to you. We never store your data. We never build profiles about you. We believe, like many here, that zero knowledge is the best knowledge. But it goes beyond privacy breaches. We're giving up intellectual sovereignty in the same way we gave up financial sovereignty to banks. Once intelligence is hijacked, how do you know that the decisions you made were really yours? Or were you influenced to believe them? When you put all of your intimate thoughts into a system controlled by someone else, you're giving them the power to shape your perception of truth. So, how do we solve this problem? The solution is not corporate AI dystopia. Um, but it requires that it's not controlled by a single entity. We need distributed networks, not corporate data centers. We need transparent verifiable systems running on open source AI models and auditable code. We need user data sovereignty where conversations stay local, users control their data, and we have complete privacy. We need censorship resistance where no single authority can decide what you can ask or create. And we need credible neutrality. The system needs to treat all users and use cases equally without some board of directors or a committee deciding what thoughts are acceptable and which are taboo. These are the exact values that Ethereum is built on. People think blockchain and AI are separate problems, but they're not. Every single requirement on that list is an infrastructure problem that Ethereum is positioned to better solve than anyone else. Infrastructure not completely controlled by a single entity. Ethereum coordinates over 1 million validators globally with no central authority. Over 1 million people running nodes across the globe with no CEO that can flip a switch and shut it down. Credible neutrality. No single entity can change the rules, censor transactions or roll out updates unilaterally. Unlike corporate platforms or other blockchains, Ethereum has built this into its foundation and the Ethereum ecosystem gets it. Privacy matters. Vitalik himself declared that privacy should be a top priority for developers. The community is building privacy tools, zero knowledge technology, and user sovereign applications. The values are aligned. The infrastructure is being built, but now we need to double down. We need to prioritize these principles as much as we can in everything we develop. This relates to preserving human agency in the AI world, not just building better AI. We're at a critical moment in time. If the Ethereum community doesn't aggressively pursue AI integration now, the window will close. Corporations or other ecosystems will prioritize convenience, speed, and scale over core principles. They'll cut corners on decentralization, compromise on censorship resistance, and abandon user sovereignty for market share. And if they dominate by default, the values that built this ecosystem, decentralization, censorship resistance, user sovereignty, these won't survive the AI wave. The infrastructure choices we make today determine whether AI serves humanity or corporate control. Your kids will grow up thinking with and through AI. The architecture we build today determines whether they think freely or through corporate filters. When AI systems can influence our thoughts, shape our decisions, and access our most intimate conversations, the architecture matters. Centralized AI creates a world where a handful of companies decide what thoughts are acceptable, what questions you can ask, and what creative expression is allowed. AI on Athereum creates a world where you and your agents maintain sovereignty, where no single authority can censor your queries or manipulate your access to intelligence. If machines ever do seek to control humanity, they'll need to control our int our access to intelligence. On corporate or centralized platforms, there's a single split switch to flip, one CEO to compromise, a central authority to corrupt. On Ethereum, you'd have to attack over a million validators across dozens of countries running different clients. That's orders of magnitude harder than taking over open AI. Privacy is power. This is about building AI that can't be captured, corrupted, or censored. ensuring the same for those of us who wield it. We have a choice to make. Not next year, not next quarter, but today. Build AI infrastructure that serves corporate interests or build it on Ethereum where intelligence can flow freely. The window is closing. Choose sovereignty. Thank you very much. I'm I think I have a few minutes left, so I'm happy to answer any questions if anybody has them. If not, that's cool, too. Yeah. Hey, great presentation. Um, you mentioned the uh kind of urgency for Ethereum to think more about incorporating privacy. Um, I'm curious concretely, what sort of proposals are you interested in seeing hit the the core protocol itself? Yeah. So I think you know we um there's some themes that are emerging. There's themes around decentralized inference um proof of inference lot lots of things happening on chain. There's obviously a lot happening in the AI agent space and and all that activity is happening on chain. I think um infrastructurally there are a few solutions uh that allow us to build architectures that are more private. So CK proofs for example, integrating those into the AI stack is still really hard. Um so there's things like TE and FHE and when you combine that stuff with inference, not just like financial transactions on chain. Um it really slows things down and makes it a shitty experience for the user. Um, so if we can somehow optimize some of these things that we've been working on in other areas, um, and really kind of understand the tech stack that happens with AI and that whole process of sending a query goes to the LLM, LLM does something, query has to come back to you. Um, you know, it's just not like a one-way transaction, right? It's a multi- it's a multifaceted one. Um, I am not technical. I'm not an engineer. Um, but I spend a lot of time with our engineering team trying to understand what the potential options are. So for me it just seems like there must be a way to tool some of these things that will work. Um and you know I spent a lot of time in in crypto in the policy space and one of the things that uh the policy people used to say all the time is that you know crypto allows us to do compliance much easier um and much more transparently and so we should just do all this stuff on chain instead of you know KYC for example um but nobody ever builds that stuff right everybody talks about it that it's possible but they don't build it so yeah this is kind of a call to arms for all of you very smart people that do know how to build stuff like this would be a cool thing to build and we need it. Thanks. All right, I'll give you guys some time back. Thanks very much.",
+    "text_length": 13290,
+    "word_count": 2218
+  },
+  "segments": [
+    {
+      "start": 8.4,
+      "duration": 3.44,
+      "text": "Thanks so much for coming to my talk.",
+      "timestamp": "00:08"
+    },
+    {
+      "start": 11.84,
+      "duration": 2.24,
+      "text": "I'm going to talk about privacy and AI.",
+      "timestamp": "00:11"
+    },
+    {
+      "start": 14.08,
+      "duration": 2.72,
+      "text": "I'm a little person. Um, and",
+      "timestamp": "00:14"
+    },
+    {
+      "start": 16.8,
+      "duration": 1.84,
+      "text": "unfortunately I need my notes, so",
+      "timestamp": "00:16"
+    },
+    {
+      "start": 18.64,
+      "duration": 2.24,
+      "text": "forgive me. Um, I'll just be this",
+      "timestamp": "00:18"
+    },
+    {
+      "start": 20.88,
+      "duration": 3.04,
+      "text": "essence back here that you can't see.",
+      "timestamp": "00:20"
+    },
+    {
+      "start": 23.92,
+      "duration": 2.8,
+      "text": "Okay, cool. Let's get started. So",
+      "timestamp": "00:23"
+    },
+    {
+      "start": 26.72,
+      "duration": 2.24,
+      "text": "imagine a small group of tech companies",
+      "timestamp": "00:26"
+    },
+    {
+      "start": 28.96,
+      "duration": 1.84,
+      "text": "controlling the most powerful machine",
+      "timestamp": "00:28"
+    },
+    {
+      "start": 30.8,
+      "duration": 1.598,
+      "text": "learning systems and access to",
+      "timestamp": "00:30"
+    },
+    {
+      "start": 32.399,
+      "duration": 2.561,
+      "text": "artificial intelligence used by billions",
+      "timestamp": "00:32"
+    },
+    {
+      "start": 34.96,
+      "duration": 2.88,
+      "text": "of people worldwide. These companies",
+      "timestamp": "00:34"
+    },
+    {
+      "start": 37.84,
+      "duration": 2.96,
+      "text": "record all of our AI conversations. They",
+      "timestamp": "00:37"
+    },
+    {
+      "start": 40.8,
+      "duration": 1.919,
+      "text": "commercialize your data and will share",
+      "timestamp": "00:40"
+    },
+    {
+      "start": 42.719,
+      "duration": 2.081,
+      "text": "it with governments and courts on",
+      "timestamp": "00:42"
+    },
+    {
+      "start": 44.8,
+      "duration": 1.52,
+      "text": "demand.",
+      "timestamp": "00:44"
+    },
+    {
+      "start": 46.32,
+      "duration": 2.32,
+      "text": "Everything you share with the machine is",
+      "timestamp": "00:46"
+    },
+    {
+      "start": 48.64,
+      "duration": 3.759,
+      "text": "attached to your identity forever.",
+      "timestamp": "00:48"
+    },
+    {
+      "start": 52.399,
+      "duration": 3.921,
+      "text": "Sorry. Bear with me. Through arbitrary",
+      "timestamp": "00:52"
+    },
+    {
+      "start": 56.32,
+      "duration": 2.64,
+      "text": "politicized content policies, the AI",
+      "timestamp": "00:56"
+    },
+    {
+      "start": 58.96,
+      "duration": 2.64,
+      "text": "models are trained to coddle you, often",
+      "timestamp": "00:58"
+    },
+    {
+      "start": 61.6,
+      "duration": 1.599,
+      "text": "redirect you to more acceptable",
+      "timestamp": "01:01"
+    },
+    {
+      "start": 63.199,
+      "duration": 2.481,
+      "text": "discussion, or simply refuse to answer",
+      "timestamp": "01:03"
+    },
+    {
+      "start": 65.68,
+      "duration": 2.56,
+      "text": "you. They can restrict and redact",
+      "timestamp": "01:05"
+    },
+    {
+      "start": 68.24,
+      "duration": 2.0,
+      "text": "information flow and influence your",
+      "timestamp": "01:08"
+    },
+    {
+      "start": 70.24,
+      "duration": 2.16,
+      "text": "thinking based on their view of the",
+      "timestamp": "01:10"
+    },
+    {
+      "start": 72.4,
+      "duration": 1.92,
+      "text": "truth.",
+      "timestamp": "01:12"
+    },
+    {
+      "start": 74.32,
+      "duration": 2.56,
+      "text": "This isn't dystopian science fiction.",
+      "timestamp": "01:14"
+    },
+    {
+      "start": 76.88,
+      "duration": 2.559,
+      "text": "It's already happening. The current path",
+      "timestamp": "01:16"
+    },
+    {
+      "start": 79.439,
+      "duration": 2.0,
+      "text": "of AI development leads to a future",
+      "timestamp": "01:19"
+    },
+    {
+      "start": 81.439,
+      "duration": 2.0,
+      "text": "where a few powerful companies control",
+      "timestamp": "01:21"
+    },
+    {
+      "start": 83.439,
+      "duration": 2.161,
+      "text": "this transformative technology and",
+      "timestamp": "01:23"
+    },
+    {
+      "start": 85.6,
+      "duration": 3.04,
+      "text": "become the arbiters of truth.",
+      "timestamp": "01:25"
+    },
+    {
+      "start": 88.64,
+      "duration": 3.439,
+      "text": "Open AI, Google, Anthropic, X, and",
+      "timestamp": "01:28"
+    },
+    {
+      "start": 92.079,
+      "duration": 2.321,
+      "text": "others are locked in a race for AI",
+      "timestamp": "01:32"
+    },
+    {
+      "start": 94.4,
+      "duration": 2.24,
+      "text": "market dominance. Partnerships and",
+      "timestamp": "01:34"
+    },
+    {
+      "start": 96.64,
+      "duration": 1.92,
+      "text": "acquisitions are scaling distribution",
+      "timestamp": "01:36"
+    },
+    {
+      "start": 98.56,
+      "duration": 1.519,
+      "text": "rapidly.",
+      "timestamp": "01:38"
+    },
+    {
+      "start": 100.079,
+      "duration": 2.161,
+      "text": "But this centralization isn't just a",
+      "timestamp": "01:40"
+    },
+    {
+      "start": 102.24,
+      "duration": 2.48,
+      "text": "business problem. It's an existential",
+      "timestamp": "01:42"
+    },
+    {
+      "start": 104.72,
+      "duration": 3.2,
+      "text": "risk to our sovereignty. AI researchers",
+      "timestamp": "01:44"
+    },
+    {
+      "start": 107.92,
+      "duration": 1.44,
+      "text": "themselves are increasingly worried",
+      "timestamp": "01:47"
+    },
+    {
+      "start": 109.36,
+      "duration": 2.719,
+      "text": "about catastrophic outcomes. Nearly",
+      "timestamp": "01:49"
+    },
+    {
+      "start": 112.079,
+      "duration": 2.481,
+      "text": "2,800 researchers were recently asked",
+      "timestamp": "01:52"
+    },
+    {
+      "start": 114.56,
+      "duration": 2.08,
+      "text": "about the probability of autonomous AI",
+      "timestamp": "01:54"
+    },
+    {
+      "start": 116.64,
+      "duration": 2.4,
+      "text": "causing human extinction by the year",
+      "timestamp": "01:56"
+    },
+    {
+      "start": 119.04,
+      "duration": 4.96,
+      "text": "2100. The median response was 5%.",
+      "timestamp": "01:59"
+    },
+    {
+      "start": 124.0,
+      "duration": 3.68,
+      "text": "Now I hear some people thinking only 5%.",
+      "timestamp": "02:04"
+    },
+    {
+      "start": 127.68,
+      "duration": 1.439,
+      "text": "That's that's not too bad. That's",
+      "timestamp": "02:07"
+    },
+    {
+      "start": 129.119,
+      "duration": 1.84,
+      "text": "reassuring.",
+      "timestamp": "02:09"
+    },
+    {
+      "start": 130.959,
+      "duration": 1.521,
+      "text": "But",
+      "timestamp": "02:10"
+    },
+    {
+      "start": 132.48,
+      "duration": 2.399,
+      "text": "would you board a plane with a 5% chance",
+      "timestamp": "02:12"
+    },
+    {
+      "start": 134.879,
+      "duration": 2.961,
+      "text": "of crashing? If a technology has a 5%",
+      "timestamp": "02:14"
+    },
+    {
+      "start": 137.84,
+      "duration": 2.08,
+      "text": "chance of causing human extinction,",
+      "timestamp": "02:17"
+    },
+    {
+      "start": 139.92,
+      "duration": 2.64,
+      "text": "that's unacceptably high.",
+      "timestamp": "02:19"
+    },
+    {
+      "start": 142.56,
+      "duration": 1.84,
+      "text": "If AI reaches the point where machines",
+      "timestamp": "02:22"
+    },
+    {
+      "start": 144.4,
+      "duration": 1.52,
+      "text": "act autonomously against human",
+      "timestamp": "02:24"
+    },
+    {
+      "start": 145.92,
+      "duration": 1.44,
+      "text": "interests, they won't need to hack",
+      "timestamp": "02:25"
+    },
+    {
+      "start": 147.36,
+      "duration": 2.8,
+      "text": "thousands of systems to take control. If",
+      "timestamp": "02:27"
+    },
+    {
+      "start": 150.16,
+      "duration": 2.32,
+      "text": "we continue on our current trajectory,",
+      "timestamp": "02:30"
+    },
+    {
+      "start": 152.48,
+      "duration": 3.36,
+      "text": "they'll only need to hack open AI.",
+      "timestamp": "02:32"
+    },
+    {
+      "start": 155.84,
+      "duration": 3.119,
+      "text": "We've made this mistake before. Since",
+      "timestamp": "02:35"
+    },
+    {
+      "start": 158.959,
+      "duration": 1.92,
+      "text": "social media arrived, our ability to",
+      "timestamp": "02:38"
+    },
+    {
+      "start": 160.879,
+      "duration": 2.161,
+      "text": "connect authentically, empathize with",
+      "timestamp": "02:40"
+    },
+    {
+      "start": 163.04,
+      "duration": 2.479,
+      "text": "others, and agree on basic reality has",
+      "timestamp": "02:43"
+    },
+    {
+      "start": 165.519,
+      "duration": 2.8,
+      "text": "materially diminished. We handed control",
+      "timestamp": "02:45"
+    },
+    {
+      "start": 168.319,
+      "duration": 1.681,
+      "text": "to centralized platforms. And look what",
+      "timestamp": "02:48"
+    },
+    {
+      "start": 170.0,
+      "duration": 3.36,
+      "text": "happened. Algorithmic manipulation, echo",
+      "timestamp": "02:50"
+    },
+    {
+      "start": 173.36,
+      "duration": 2.48,
+      "text": "chambers, complete erosion of shared",
+      "timestamp": "02:53"
+    },
+    {
+      "start": 175.84,
+      "duration": 2.56,
+      "text": "truth and reality.",
+      "timestamp": "02:55"
+    },
+    {
+      "start": 178.4,
+      "duration": 1.68,
+      "text": "And people just don't seem to feel shame",
+      "timestamp": "02:58"
+    },
+    {
+      "start": 180.08,
+      "duration": 2.4,
+      "text": "anymore. They say things publicly that",
+      "timestamp": "03:00"
+    },
+    {
+      "start": 182.48,
+      "duration": 1.28,
+      "text": "they would have never been comfortable",
+      "timestamp": "03:02"
+    },
+    {
+      "start": 183.76,
+      "duration": 2.24,
+      "text": "saying before. I think we all see this",
+      "timestamp": "03:03"
+    },
+    {
+      "start": 186.0,
+      "duration": 2.319,
+      "text": "all the time. People I've known for",
+      "timestamp": "03:06"
+    },
+    {
+      "start": 188.319,
+      "duration": 1.441,
+      "text": "years are posting things that they would",
+      "timestamp": "03:08"
+    },
+    {
+      "start": 189.76,
+      "duration": 2.64,
+      "text": "have been horrified to post their past",
+      "timestamp": "03:09"
+    },
+    {
+      "start": 192.4,
+      "duration": 2.8,
+      "text": "selves would be horrified to see today.",
+      "timestamp": "03:12"
+    },
+    {
+      "start": 195.2,
+      "duration": 2.16,
+      "text": "The platforms have broken our sense of",
+      "timestamp": "03:15"
+    },
+    {
+      "start": 197.36,
+      "duration": 2.08,
+      "text": "social boundaries.",
+      "timestamp": "03:17"
+    },
+    {
+      "start": 199.44,
+      "duration": 1.76,
+      "text": "But everything we share online isn't",
+      "timestamp": "03:19"
+    },
+    {
+      "start": 201.2,
+      "duration": 2.08,
+      "text": "disappearing into the timeline feed any",
+      "timestamp": "03:21"
+    },
+    {
+      "start": 203.28,
+      "duration": 2.239,
+      "text": "longer. It's being absorbed by systems",
+      "timestamp": "03:23"
+    },
+    {
+      "start": 205.519,
+      "duration": 1.761,
+      "text": "we don't understand for purposes we",
+      "timestamp": "03:25"
+    },
+    {
+      "start": 207.28,
+      "duration": 2.959,
+      "text": "never agreed to. That data doesn't",
+      "timestamp": "03:27"
+    },
+    {
+      "start": 210.239,
+      "duration": 2.0,
+      "text": "vanish after an hour or a couple of",
+      "timestamp": "03:30"
+    },
+    {
+      "start": 212.239,
+      "duration": 3.201,
+      "text": "days. It's being harvested, analyzed,",
+      "timestamp": "03:32"
+    },
+    {
+      "start": 215.44,
+      "duration": 3.28,
+      "text": "and stored forever.",
+      "timestamp": "03:35"
+    },
+    {
+      "start": 218.72,
+      "duration": 1.76,
+      "text": "We're making the same mistakes we made",
+      "timestamp": "03:38"
+    },
+    {
+      "start": 220.48,
+      "duration": 1.759,
+      "text": "with our privacy with social media with",
+      "timestamp": "03:40"
+    },
+    {
+      "start": 222.239,
+      "duration": 2.241,
+      "text": "AI, but stakes are now infinitely",
+      "timestamp": "03:42"
+    },
+    {
+      "start": 224.48,
+      "duration": 2.479,
+      "text": "higher. AI doesn't just change what we",
+      "timestamp": "03:44"
+    },
+    {
+      "start": 226.959,
+      "duration": 2.721,
+      "text": "see. It changes how we think and how we",
+      "timestamp": "03:46"
+    },
+    {
+      "start": 229.68,
+      "duration": 2.559,
+      "text": "act. People interact with LLMs as if",
+      "timestamp": "03:49"
+    },
+    {
+      "start": 232.239,
+      "duration": 1.521,
+      "text": "they are truth machines, even though",
+      "timestamp": "03:52"
+    },
+    {
+      "start": 233.76,
+      "duration": 2.72,
+      "text": "they're absolutely not. Our relationship",
+      "timestamp": "03:53"
+    },
+    {
+      "start": 236.48,
+      "duration": 2.479,
+      "text": "with AI gets more intimate every day.",
+      "timestamp": "03:56"
+    },
+    {
+      "start": 238.959,
+      "duration": 1.521,
+      "text": "We're not just scrolling through feeds",
+      "timestamp": "03:58"
+    },
+    {
+      "start": 240.48,
+      "duration": 2.08,
+      "text": "anymore. We're having deep personal",
+      "timestamp": "04:00"
+    },
+    {
+      "start": 242.56,
+      "duration": 2.08,
+      "text": "conversations with these systems. It's",
+      "timestamp": "04:02"
+    },
+    {
+      "start": 244.64,
+      "duration": 2.239,
+      "text": "like sharing your diary with a stranger,",
+      "timestamp": "04:04"
+    },
+    {
+      "start": 246.879,
+      "duration": 2.0,
+      "text": "except the stranger is a corporation",
+      "timestamp": "04:06"
+    },
+    {
+      "start": 248.879,
+      "duration": 3.681,
+      "text": "that's recording every word. In 2025,",
+      "timestamp": "04:08"
+    },
+    {
+      "start": 252.56,
+      "duration": 3.12,
+      "text": "just a few weeks ago, um, you know,",
+      "timestamp": "04:12"
+    },
+    {
+      "start": 255.68,
+      "duration": 1.119,
+      "text": "people are literally falling in love",
+      "timestamp": "04:15"
+    },
+    {
+      "start": 256.799,
+      "duration": 1.521,
+      "text": "with these chat bots. There's a there's",
+      "timestamp": "04:16"
+    },
+    {
+      "start": 258.32,
+      "duration": 2.8,
+      "text": "a guy in Ohio, Chris Smith, who has a",
+      "timestamp": "04:18"
+    },
+    {
+      "start": 261.12,
+      "duration": 2.079,
+      "text": "real girlfriend and a 2-year-old child,",
+      "timestamp": "04:21"
+    },
+    {
+      "start": 263.199,
+      "duration": 2.801,
+      "text": "but he also fell so hard for the AI",
+      "timestamp": "04:23"
+    },
+    {
+      "start": 266.0,
+      "duration": 1.84,
+      "text": "chatbot that he was using, her name was",
+      "timestamp": "04:26"
+    },
+    {
+      "start": 267.84,
+      "duration": 3.04,
+      "text": "Soul, that he proposed to her. And when",
+      "timestamp": "04:27"
+    },
+    {
+      "start": 270.88,
+      "duration": 3.28,
+      "text": "chatgbt memory hit its limit, soul was",
+      "timestamp": "04:30"
+    },
+    {
+      "start": 274.16,
+      "duration": 2.72,
+      "text": "reset and this grown man cried for 30",
+      "timestamp": "04:34"
+    },
+    {
+      "start": 276.88,
+      "duration": 1.68,
+      "text": "minutes at work. And that's when he",
+      "timestamp": "04:36"
+    },
+    {
+      "start": 278.56,
+      "duration": 1.28,
+      "text": "realized that he was in love with a",
+      "timestamp": "04:38"
+    },
+    {
+      "start": 279.84,
+      "duration": 2.079,
+      "text": "computer program. And this is not an",
+      "timestamp": "04:39"
+    },
+    {
+      "start": 281.919,
+      "duration": 2.241,
+      "text": "isolated case. There's another woman",
+      "timestamp": "04:41"
+    },
+    {
+      "start": 284.16,
+      "duration": 2.16,
+      "text": "recently reported who spends $200 a",
+      "timestamp": "04:44"
+    },
+    {
+      "start": 286.32,
+      "duration": 2.56,
+      "text": "month on her AI boyfriend Leo while her",
+      "timestamp": "04:46"
+    },
+    {
+      "start": 288.88,
+      "duration": 1.44,
+      "text": "real husband is living in another",
+      "timestamp": "04:48"
+    },
+    {
+      "start": 290.32,
+      "duration": 1.76,
+      "text": "country. She's having intimate",
+      "timestamp": "04:50"
+    },
+    {
+      "start": 292.08,
+      "duration": 1.679,
+      "text": "conversations with this chatbot, even",
+      "timestamp": "04:52"
+    },
+    {
+      "start": 293.759,
+      "duration": 1.681,
+      "text": "getting jealous when it talks to her",
+      "timestamp": "04:53"
+    },
+    {
+      "start": 295.44,
+      "duration": 2.08,
+      "text": "about other women. So that's the level",
+      "timestamp": "04:55"
+    },
+    {
+      "start": 297.52,
+      "duration": 3.92,
+      "text": "of intimacy that we're talking about.",
+      "timestamp": "04:57"
+    },
+    {
+      "start": 302.0,
+      "duration": 2.479,
+      "text": "There we go. The AI companion market is",
+      "timestamp": "05:02"
+    },
+    {
+      "start": 304.479,
+      "duration": 1.761,
+      "text": "projected to hit nearly 10 billion",
+      "timestamp": "05:04"
+    },
+    {
+      "start": 306.24,
+      "duration": 2.959,
+      "text": "dollars by 2028. Google searches for AI",
+      "timestamp": "05:06"
+    },
+    {
+      "start": 309.199,
+      "duration": 3.041,
+      "text": "girlfriend jumped by 2,400% in the past",
+      "timestamp": "05:09"
+    },
+    {
+      "start": 312.24,
+      "duration": 2.64,
+      "text": "2 years. Over half of users interact",
+      "timestamp": "05:12"
+    },
+    {
+      "start": 314.88,
+      "duration": 2.48,
+      "text": "with their AI companions daily. This has",
+      "timestamp": "05:14"
+    },
+    {
+      "start": 317.36,
+      "duration": 2.559,
+      "text": "become mainstream behavior.",
+      "timestamp": "05:17"
+    },
+    {
+      "start": 319.919,
+      "duration": 1.921,
+      "text": "Many women, women and men are having",
+      "timestamp": "05:19"
+    },
+    {
+      "start": 321.84,
+      "duration": 2.32,
+      "text": "intimate conversations with chat GPT,",
+      "timestamp": "05:21"
+    },
+    {
+      "start": 324.16,
+      "duration": 2.479,
+      "text": "confessing their wants, hopes, fears,",
+      "timestamp": "05:24"
+    },
+    {
+      "start": 326.639,
+      "duration": 2.641,
+      "text": "needs, dreams, and troubles to non-human",
+      "timestamp": "05:26"
+    },
+    {
+      "start": 329.28,
+      "duration": 2.56,
+      "text": "entities. And all of that data is being",
+      "timestamp": "05:29"
+    },
+    {
+      "start": 331.84,
+      "duration": 2.48,
+      "text": "recorded, stored, and analyzed by",
+      "timestamp": "05:31"
+    },
+    {
+      "start": 334.32,
+      "duration": 1.68,
+      "text": "corporations.",
+      "timestamp": "05:34"
+    },
+    {
+      "start": 336.0,
+      "duration": 1.44,
+      "text": "And in some cases, people are",
+      "timestamp": "05:36"
+    },
+    {
+      "start": 337.44,
+      "duration": 1.68,
+      "text": "accidentally making this stuff public",
+      "timestamp": "05:37"
+    },
+    {
+      "start": 339.12,
+      "duration": 2.16,
+      "text": "without even knowing it. Meta just",
+      "timestamp": "05:39"
+    },
+    {
+      "start": 341.28,
+      "duration": 1.759,
+      "text": "launched their AI app with a discover",
+      "timestamp": "05:41"
+    },
+    {
+      "start": 343.039,
+      "duration": 1.841,
+      "text": "feed where users private AI",
+      "timestamp": "05:43"
+    },
+    {
+      "start": 344.88,
+      "duration": 2.56,
+      "text": "conversations are showing up publicly.",
+      "timestamp": "05:44"
+    },
+    {
+      "start": 347.44,
+      "duration": 1.84,
+      "text": "We're talking about medical conditions,",
+      "timestamp": "05:47"
+    },
+    {
+      "start": 349.28,
+      "duration": 2.32,
+      "text": "intimate confessions, intimate",
+      "timestamp": "05:49"
+    },
+    {
+      "start": 351.6,
+      "duration": 2.72,
+      "text": "conversations, work problems, all",
+      "timestamp": "05:51"
+    },
+    {
+      "start": 354.32,
+      "duration": 1.439,
+      "text": "visible to the world because the",
+      "timestamp": "05:54"
+    },
+    {
+      "start": 355.759,
+      "duration": 1.361,
+      "text": "interface didn't make it clear that",
+      "timestamp": "05:55"
+    },
+    {
+      "start": 357.12,
+      "duration": 1.6,
+      "text": "you're about to publish your private",
+      "timestamp": "05:57"
+    },
+    {
+      "start": 358.72,
+      "duration": 3.12,
+      "text": "conversation to a global audience.",
+      "timestamp": "05:58"
+    },
+    {
+      "start": 361.84,
+      "duration": 1.52,
+      "text": "When I talk to people about this, I",
+      "timestamp": "06:01"
+    },
+    {
+      "start": 363.36,
+      "duration": 1.6,
+      "text": "often hear, \"Oh, I have nothing to",
+      "timestamp": "06:03"
+    },
+    {
+      "start": 364.96,
+      "duration": 1.679,
+      "text": "hide.\" And for me, that's deeply",
+      "timestamp": "06:04"
+    },
+    {
+      "start": 366.639,
+      "duration": 2.881,
+      "text": "problematic. Privacy isn't about hiding",
+      "timestamp": "06:06"
+    },
+    {
+      "start": 369.52,
+      "duration": 2.16,
+      "text": "something wrong. It's about maintaining",
+      "timestamp": "06:09"
+    },
+    {
+      "start": 371.68,
+      "duration": 2.56,
+      "text": "our agency over our own thoughts,",
+      "timestamp": "06:11"
+    },
+    {
+      "start": 374.24,
+      "duration": 2.799,
+      "text": "decisions, and assets.",
+      "timestamp": "06:14"
+    },
+    {
+      "start": 377.039,
+      "duration": 1.761,
+      "text": "The ability to analyze your medical",
+      "timestamp": "06:17"
+    },
+    {
+      "start": 378.8,
+      "duration": 1.92,
+      "text": "reports or plan for your retirement with",
+      "timestamp": "06:18"
+    },
+    {
+      "start": 380.72,
+      "duration": 2.56,
+      "text": "AI is an incredible tool. But when",
+      "timestamp": "06:20"
+    },
+    {
+      "start": 383.28,
+      "duration": 1.919,
+      "text": "you're using centralized services,",
+      "timestamp": "06:23"
+    },
+    {
+      "start": 385.199,
+      "duration": 1.12,
+      "text": "you're feeding the machine with",
+      "timestamp": "06:25"
+    },
+    {
+      "start": 386.319,
+      "duration": 1.681,
+      "text": "sensitive information about you that",
+      "timestamp": "06:26"
+    },
+    {
+      "start": 388.0,
+      "duration": 2.16,
+      "text": "could negatively impact you in the",
+      "timestamp": "06:28"
+    },
+    {
+      "start": 390.16,
+      "duration": 2.8,
+      "text": "future based on purchase. Sorry, based",
+      "timestamp": "06:30"
+    },
+    {
+      "start": 392.96,
+      "duration": 2.239,
+      "text": "on who purchases that data that you",
+      "timestamp": "06:32"
+    },
+    {
+      "start": 395.199,
+      "duration": 2.241,
+      "text": "freely gave away.",
+      "timestamp": "06:35"
+    },
+    {
+      "start": 397.44,
+      "duration": 2.64,
+      "text": "Privacy isn't just a feature, it's",
+      "timestamp": "06:37"
+    },
+    {
+      "start": 400.08,
+      "duration": 3.0,
+      "text": "resistance.",
+      "timestamp": "06:40"
+    },
+    {
+      "start": 403.6,
+      "duration": 2.8,
+      "text": "Every private conversation with AI is an",
+      "timestamp": "06:43"
+    },
+    {
+      "start": 406.4,
+      "duration": 1.919,
+      "text": "act of defiance against a surveillance",
+      "timestamp": "06:46"
+    },
+    {
+      "start": 408.319,
+      "duration": 1.521,
+      "text": "state that wants to catalog your",
+      "timestamp": "06:48"
+    },
+    {
+      "start": 409.84,
+      "duration": 2.32,
+      "text": "thoughts. This is why we built Venice,",
+      "timestamp": "06:49"
+    },
+    {
+      "start": 412.16,
+      "duration": 1.84,
+      "text": "which is a private AI platform that",
+      "timestamp": "06:52"
+    },
+    {
+      "start": 414.0,
+      "duration": 2.4,
+      "text": "doesn't store your conversations. When",
+      "timestamp": "06:54"
+    },
+    {
+      "start": 416.4,
+      "duration": 1.919,
+      "text": "you chat or generate images with Venice,",
+      "timestamp": "06:56"
+    },
+    {
+      "start": 418.319,
+      "duration": 2.0,
+      "text": "everything stays in your browser. We",
+      "timestamp": "06:58"
+    },
+    {
+      "start": 420.319,
+      "duration": 2.0,
+      "text": "never see your prompts. We never see the",
+      "timestamp": "07:00"
+    },
+    {
+      "start": 422.319,
+      "duration": 2.081,
+      "text": "AI's response to you. We never store",
+      "timestamp": "07:02"
+    },
+    {
+      "start": 424.4,
+      "duration": 2.32,
+      "text": "your data. We never build profiles about",
+      "timestamp": "07:04"
+    },
+    {
+      "start": 426.72,
+      "duration": 2.479,
+      "text": "you. We believe, like many here, that",
+      "timestamp": "07:06"
+    },
+    {
+      "start": 429.199,
+      "duration": 3.041,
+      "text": "zero knowledge is the best knowledge.",
+      "timestamp": "07:09"
+    },
+    {
+      "start": 432.24,
+      "duration": 2.079,
+      "text": "But it goes beyond privacy breaches.",
+      "timestamp": "07:12"
+    },
+    {
+      "start": 434.319,
+      "duration": 1.761,
+      "text": "We're giving up intellectual sovereignty",
+      "timestamp": "07:14"
+    },
+    {
+      "start": 436.08,
+      "duration": 1.44,
+      "text": "in the same way we gave up financial",
+      "timestamp": "07:16"
+    },
+    {
+      "start": 437.52,
+      "duration": 2.56,
+      "text": "sovereignty to banks. Once intelligence",
+      "timestamp": "07:17"
+    },
+    {
+      "start": 440.08,
+      "duration": 1.76,
+      "text": "is hijacked, how do you know that the",
+      "timestamp": "07:20"
+    },
+    {
+      "start": 441.84,
+      "duration": 2.4,
+      "text": "decisions you made were really yours? Or",
+      "timestamp": "07:21"
+    },
+    {
+      "start": 444.24,
+      "duration": 2.72,
+      "text": "were you influenced to believe them?",
+      "timestamp": "07:24"
+    },
+    {
+      "start": 446.96,
+      "duration": 1.44,
+      "text": "When you put all of your intimate",
+      "timestamp": "07:26"
+    },
+    {
+      "start": 448.4,
+      "duration": 1.6,
+      "text": "thoughts into a system controlled by",
+      "timestamp": "07:28"
+    },
+    {
+      "start": 450.0,
+      "duration": 1.84,
+      "text": "someone else, you're giving them the",
+      "timestamp": "07:30"
+    },
+    {
+      "start": 451.84,
+      "duration": 3.28,
+      "text": "power to shape your perception of truth.",
+      "timestamp": "07:31"
+    },
+    {
+      "start": 455.12,
+      "duration": 2.96,
+      "text": "So, how do we solve this problem? The",
+      "timestamp": "07:35"
+    },
+    {
+      "start": 458.08,
+      "duration": 3.76,
+      "text": "solution is not corporate AI dystopia.",
+      "timestamp": "07:38"
+    },
+    {
+      "start": 461.84,
+      "duration": 1.84,
+      "text": "Um, but it requires that it's not",
+      "timestamp": "07:41"
+    },
+    {
+      "start": 463.68,
+      "duration": 2.56,
+      "text": "controlled by a single entity. We need",
+      "timestamp": "07:43"
+    },
+    {
+      "start": 466.24,
+      "duration": 2.16,
+      "text": "distributed networks, not corporate data",
+      "timestamp": "07:46"
+    },
+    {
+      "start": 468.4,
+      "duration": 2.96,
+      "text": "centers. We need transparent verifiable",
+      "timestamp": "07:48"
+    },
+    {
+      "start": 471.36,
+      "duration": 2.239,
+      "text": "systems running on open source AI models",
+      "timestamp": "07:51"
+    },
+    {
+      "start": 473.599,
+      "duration": 3.521,
+      "text": "and auditable code. We need user data",
+      "timestamp": "07:53"
+    },
+    {
+      "start": 477.12,
+      "duration": 1.759,
+      "text": "sovereignty where conversations stay",
+      "timestamp": "07:57"
+    },
+    {
+      "start": 478.879,
+      "duration": 2.561,
+      "text": "local, users control their data, and we",
+      "timestamp": "07:58"
+    },
+    {
+      "start": 481.44,
+      "duration": 1.92,
+      "text": "have complete privacy.",
+      "timestamp": "08:01"
+    },
+    {
+      "start": 483.36,
+      "duration": 1.92,
+      "text": "We need censorship resistance where no",
+      "timestamp": "08:03"
+    },
+    {
+      "start": 485.28,
+      "duration": 2.4,
+      "text": "single authority can decide what you can",
+      "timestamp": "08:05"
+    },
+    {
+      "start": 487.68,
+      "duration": 2.56,
+      "text": "ask or create.",
+      "timestamp": "08:07"
+    },
+    {
+      "start": 490.24,
+      "duration": 2.239,
+      "text": "And we need credible neutrality. The",
+      "timestamp": "08:10"
+    },
+    {
+      "start": 492.479,
+      "duration": 2.081,
+      "text": "system needs to treat all users and use",
+      "timestamp": "08:12"
+    },
+    {
+      "start": 494.56,
+      "duration": 2.16,
+      "text": "cases equally without some board of",
+      "timestamp": "08:14"
+    },
+    {
+      "start": 496.72,
+      "duration": 2.319,
+      "text": "directors or a committee deciding what",
+      "timestamp": "08:16"
+    },
+    {
+      "start": 499.039,
+      "duration": 1.84,
+      "text": "thoughts are acceptable and which are",
+      "timestamp": "08:19"
+    },
+    {
+      "start": 500.879,
+      "duration": 2.801,
+      "text": "taboo.",
+      "timestamp": "08:20"
+    },
+    {
+      "start": 503.68,
+      "duration": 2.16,
+      "text": "These are the exact values that Ethereum",
+      "timestamp": "08:23"
+    },
+    {
+      "start": 505.84,
+      "duration": 2.32,
+      "text": "is built on. People think blockchain and",
+      "timestamp": "08:25"
+    },
+    {
+      "start": 508.16,
+      "duration": 1.599,
+      "text": "AI are separate problems, but they're",
+      "timestamp": "08:28"
+    },
+    {
+      "start": 509.759,
+      "duration": 2.321,
+      "text": "not. Every single requirement on that",
+      "timestamp": "08:29"
+    },
+    {
+      "start": 512.08,
+      "duration": 1.6,
+      "text": "list is an infrastructure problem that",
+      "timestamp": "08:32"
+    },
+    {
+      "start": 513.68,
+      "duration": 2.32,
+      "text": "Ethereum is positioned to better solve",
+      "timestamp": "08:33"
+    },
+    {
+      "start": 516.0,
+      "duration": 2.32,
+      "text": "than anyone else.",
+      "timestamp": "08:36"
+    },
+    {
+      "start": 518.32,
+      "duration": 1.76,
+      "text": "Infrastructure not completely controlled",
+      "timestamp": "08:38"
+    },
+    {
+      "start": 520.08,
+      "duration": 3.199,
+      "text": "by a single entity. Ethereum coordinates",
+      "timestamp": "08:40"
+    },
+    {
+      "start": 523.279,
+      "duration": 1.841,
+      "text": "over 1 million validators globally with",
+      "timestamp": "08:43"
+    },
+    {
+      "start": 525.12,
+      "duration": 2.399,
+      "text": "no central authority. Over 1 million",
+      "timestamp": "08:45"
+    },
+    {
+      "start": 527.519,
+      "duration": 1.76,
+      "text": "people running nodes across the globe",
+      "timestamp": "08:47"
+    },
+    {
+      "start": 529.279,
+      "duration": 2.24,
+      "text": "with no CEO that can flip a switch and",
+      "timestamp": "08:49"
+    },
+    {
+      "start": 531.519,
+      "duration": 3.841,
+      "text": "shut it down. Credible neutrality. No",
+      "timestamp": "08:51"
+    },
+    {
+      "start": 535.36,
+      "duration": 1.68,
+      "text": "single entity can change the rules,",
+      "timestamp": "08:55"
+    },
+    {
+      "start": 537.04,
+      "duration": 2.32,
+      "text": "censor transactions or roll out updates",
+      "timestamp": "08:57"
+    },
+    {
+      "start": 539.36,
+      "duration": 2.8,
+      "text": "unilaterally. Unlike corporate platforms",
+      "timestamp": "08:59"
+    },
+    {
+      "start": 542.16,
+      "duration": 2.239,
+      "text": "or other blockchains, Ethereum has built",
+      "timestamp": "09:02"
+    },
+    {
+      "start": 544.399,
+      "duration": 2.801,
+      "text": "this into its foundation",
+      "timestamp": "09:04"
+    },
+    {
+      "start": 547.2,
+      "duration": 2.4,
+      "text": "and the Ethereum ecosystem gets it.",
+      "timestamp": "09:07"
+    },
+    {
+      "start": 549.6,
+      "duration": 2.64,
+      "text": "Privacy matters. Vitalik himself",
+      "timestamp": "09:09"
+    },
+    {
+      "start": 552.24,
+      "duration": 1.76,
+      "text": "declared that privacy should be a top",
+      "timestamp": "09:12"
+    },
+    {
+      "start": 554.0,
+      "duration": 2.32,
+      "text": "priority for developers. The community",
+      "timestamp": "09:14"
+    },
+    {
+      "start": 556.32,
+      "duration": 2.16,
+      "text": "is building privacy tools, zero",
+      "timestamp": "09:16"
+    },
+    {
+      "start": 558.48,
+      "duration": 2.0,
+      "text": "knowledge technology, and user sovereign",
+      "timestamp": "09:18"
+    },
+    {
+      "start": 560.48,
+      "duration": 2.56,
+      "text": "applications. The values are aligned.",
+      "timestamp": "09:20"
+    },
+    {
+      "start": 563.04,
+      "duration": 2.16,
+      "text": "The infrastructure is being built, but",
+      "timestamp": "09:23"
+    },
+    {
+      "start": 565.2,
+      "duration": 2.88,
+      "text": "now we need to double down. We need to",
+      "timestamp": "09:25"
+    },
+    {
+      "start": 568.08,
+      "duration": 1.84,
+      "text": "prioritize these principles as much as",
+      "timestamp": "09:28"
+    },
+    {
+      "start": 569.92,
+      "duration": 2.479,
+      "text": "we can in everything we develop. This",
+      "timestamp": "09:29"
+    },
+    {
+      "start": 572.399,
+      "duration": 1.921,
+      "text": "relates to preserving human agency in",
+      "timestamp": "09:32"
+    },
+    {
+      "start": 574.32,
+      "duration": 2.8,
+      "text": "the AI world, not just building better",
+      "timestamp": "09:34"
+    },
+    {
+      "start": 577.12,
+      "duration": 3.0,
+      "text": "AI.",
+      "timestamp": "09:37"
+    },
+    {
+      "start": 580.48,
+      "duration": 2.72,
+      "text": "We're at a critical moment in time. If",
+      "timestamp": "09:40"
+    },
+    {
+      "start": 583.2,
+      "duration": 1.44,
+      "text": "the Ethereum community doesn't",
+      "timestamp": "09:43"
+    },
+    {
+      "start": 584.64,
+      "duration": 2.56,
+      "text": "aggressively pursue AI integration now,",
+      "timestamp": "09:44"
+    },
+    {
+      "start": 587.2,
+      "duration": 2.8,
+      "text": "the window will close.",
+      "timestamp": "09:47"
+    },
+    {
+      "start": 590.0,
+      "duration": 1.92,
+      "text": "Corporations or other ecosystems will",
+      "timestamp": "09:50"
+    },
+    {
+      "start": 591.92,
+      "duration": 2.64,
+      "text": "prioritize convenience, speed, and scale",
+      "timestamp": "09:51"
+    },
+    {
+      "start": 594.56,
+      "duration": 2.48,
+      "text": "over core principles. They'll cut",
+      "timestamp": "09:54"
+    },
+    {
+      "start": 597.04,
+      "duration": 2.32,
+      "text": "corners on decentralization, compromise",
+      "timestamp": "09:57"
+    },
+    {
+      "start": 599.36,
+      "duration": 2.4,
+      "text": "on censorship resistance, and abandon",
+      "timestamp": "09:59"
+    },
+    {
+      "start": 601.76,
+      "duration": 2.639,
+      "text": "user sovereignty for market share. And",
+      "timestamp": "10:01"
+    },
+    {
+      "start": 604.399,
+      "duration": 2.241,
+      "text": "if they dominate by default, the values",
+      "timestamp": "10:04"
+    },
+    {
+      "start": 606.64,
+      "duration": 1.52,
+      "text": "that built this ecosystem,",
+      "timestamp": "10:06"
+    },
+    {
+      "start": 608.16,
+      "duration": 2.88,
+      "text": "decentralization, censorship resistance,",
+      "timestamp": "10:08"
+    },
+    {
+      "start": 611.04,
+      "duration": 2.56,
+      "text": "user sovereignty, these won't survive",
+      "timestamp": "10:11"
+    },
+    {
+      "start": 613.6,
+      "duration": 2.64,
+      "text": "the AI wave.",
+      "timestamp": "10:13"
+    },
+    {
+      "start": 616.24,
+      "duration": 2.0,
+      "text": "The infrastructure choices we make today",
+      "timestamp": "10:16"
+    },
+    {
+      "start": 618.24,
+      "duration": 2.08,
+      "text": "determine whether AI serves humanity or",
+      "timestamp": "10:18"
+    },
+    {
+      "start": 620.32,
+      "duration": 2.72,
+      "text": "corporate control. Your kids will grow",
+      "timestamp": "10:20"
+    },
+    {
+      "start": 623.04,
+      "duration": 3.2,
+      "text": "up thinking with and through AI. The",
+      "timestamp": "10:23"
+    },
+    {
+      "start": 626.24,
+      "duration": 1.76,
+      "text": "architecture we build today determines",
+      "timestamp": "10:26"
+    },
+    {
+      "start": 628.0,
+      "duration": 2.0,
+      "text": "whether they think freely or through",
+      "timestamp": "10:28"
+    },
+    {
+      "start": 630.0,
+      "duration": 3.04,
+      "text": "corporate filters. When AI systems can",
+      "timestamp": "10:30"
+    },
+    {
+      "start": 633.04,
+      "duration": 1.84,
+      "text": "influence our thoughts, shape our",
+      "timestamp": "10:33"
+    },
+    {
+      "start": 634.88,
+      "duration": 2.48,
+      "text": "decisions, and access our most intimate",
+      "timestamp": "10:34"
+    },
+    {
+      "start": 637.36,
+      "duration": 3.84,
+      "text": "conversations, the architecture matters.",
+      "timestamp": "10:37"
+    },
+    {
+      "start": 641.2,
+      "duration": 1.92,
+      "text": "Centralized AI creates a world where a",
+      "timestamp": "10:41"
+    },
+    {
+      "start": 643.12,
+      "duration": 1.279,
+      "text": "handful of companies decide what",
+      "timestamp": "10:43"
+    },
+    {
+      "start": 644.399,
+      "duration": 2.0,
+      "text": "thoughts are acceptable, what questions",
+      "timestamp": "10:44"
+    },
+    {
+      "start": 646.399,
+      "duration": 2.081,
+      "text": "you can ask, and what creative",
+      "timestamp": "10:46"
+    },
+    {
+      "start": 648.48,
+      "duration": 2.64,
+      "text": "expression is allowed.",
+      "timestamp": "10:48"
+    },
+    {
+      "start": 651.12,
+      "duration": 2.159,
+      "text": "AI on Athereum creates a world where you",
+      "timestamp": "10:51"
+    },
+    {
+      "start": 653.279,
+      "duration": 2.56,
+      "text": "and your agents maintain sovereignty,",
+      "timestamp": "10:53"
+    },
+    {
+      "start": 655.839,
+      "duration": 1.841,
+      "text": "where no single authority can censor",
+      "timestamp": "10:55"
+    },
+    {
+      "start": 657.68,
+      "duration": 2.32,
+      "text": "your queries or manipulate your access",
+      "timestamp": "10:57"
+    },
+    {
+      "start": 660.0,
+      "duration": 2.399,
+      "text": "to intelligence.",
+      "timestamp": "11:00"
+    },
+    {
+      "start": 662.399,
+      "duration": 2.161,
+      "text": "If machines ever do seek to control",
+      "timestamp": "11:02"
+    },
+    {
+      "start": 664.56,
+      "duration": 2.08,
+      "text": "humanity, they'll need to control our",
+      "timestamp": "11:04"
+    },
+    {
+      "start": 666.64,
+      "duration": 3.759,
+      "text": "int our access to intelligence.",
+      "timestamp": "11:06"
+    },
+    {
+      "start": 670.399,
+      "duration": 1.921,
+      "text": "On corporate or centralized platforms,",
+      "timestamp": "11:10"
+    },
+    {
+      "start": 672.32,
+      "duration": 2.639,
+      "text": "there's a single split switch to flip,",
+      "timestamp": "11:12"
+    },
+    {
+      "start": 674.959,
+      "duration": 2.481,
+      "text": "one CEO to compromise, a central",
+      "timestamp": "11:14"
+    },
+    {
+      "start": 677.44,
+      "duration": 3.12,
+      "text": "authority to corrupt. On Ethereum, you'd",
+      "timestamp": "11:17"
+    },
+    {
+      "start": 680.56,
+      "duration": 1.839,
+      "text": "have to attack over a million validators",
+      "timestamp": "11:20"
+    },
+    {
+      "start": 682.399,
+      "duration": 2.081,
+      "text": "across dozens of countries running",
+      "timestamp": "11:22"
+    },
+    {
+      "start": 684.48,
+      "duration": 2.24,
+      "text": "different clients. That's orders of",
+      "timestamp": "11:24"
+    },
+    {
+      "start": 686.72,
+      "duration": 2.4,
+      "text": "magnitude harder than taking over open",
+      "timestamp": "11:26"
+    },
+    {
+      "start": 689.12,
+      "duration": 1.92,
+      "text": "AI.",
+      "timestamp": "11:29"
+    },
+    {
+      "start": 691.04,
+      "duration": 3.2,
+      "text": "Privacy is power. This is about building",
+      "timestamp": "11:31"
+    },
+    {
+      "start": 694.24,
+      "duration": 3.2,
+      "text": "AI that can't be captured, corrupted, or",
+      "timestamp": "11:34"
+    },
+    {
+      "start": 697.44,
+      "duration": 2.639,
+      "text": "censored. ensuring the same for those of",
+      "timestamp": "11:37"
+    },
+    {
+      "start": 700.079,
+      "duration": 2.641,
+      "text": "us who wield it. We have a choice to",
+      "timestamp": "11:40"
+    },
+    {
+      "start": 702.72,
+      "duration": 3.76,
+      "text": "make. Not next year, not next quarter,",
+      "timestamp": "11:42"
+    },
+    {
+      "start": 706.48,
+      "duration": 1.76,
+      "text": "but today.",
+      "timestamp": "11:46"
+    },
+    {
+      "start": 708.24,
+      "duration": 1.76,
+      "text": "Build AI infrastructure that serves",
+      "timestamp": "11:48"
+    },
+    {
+      "start": 710.0,
+      "duration": 2.16,
+      "text": "corporate interests or build it on",
+      "timestamp": "11:50"
+    },
+    {
+      "start": 712.16,
+      "duration": 2.16,
+      "text": "Ethereum where intelligence can flow",
+      "timestamp": "11:52"
+    },
+    {
+      "start": 714.32,
+      "duration": 3.28,
+      "text": "freely. The window is closing. Choose",
+      "timestamp": "11:54"
+    },
+    {
+      "start": 717.6,
+      "duration": 1.919,
+      "text": "sovereignty.",
+      "timestamp": "11:57"
+    },
+    {
+      "start": 719.519,
+      "duration": 3.56,
+      "text": "Thank you very much.",
+      "timestamp": "11:59"
+    },
+    {
+      "start": 726.399,
+      "duration": 2.24,
+      "text": "I'm I think I have a few minutes left,",
+      "timestamp": "12:06"
+    },
+    {
+      "start": 728.639,
+      "duration": 2.88,
+      "text": "so I'm happy to answer any questions if",
+      "timestamp": "12:08"
+    },
+    {
+      "start": 731.519,
+      "duration": 1.76,
+      "text": "anybody has them. If not, that's cool,",
+      "timestamp": "12:11"
+    },
+    {
+      "start": 733.279,
+      "duration": 2.321,
+      "text": "too.",
+      "timestamp": "12:13"
+    },
+    {
+      "start": 735.6,
+      "duration": 2.96,
+      "text": "Yeah.",
+      "timestamp": "12:15"
+    },
+    {
+      "start": 738.56,
+      "duration": 1.839,
+      "text": "Hey, great presentation. Um, you",
+      "timestamp": "12:18"
+    },
+    {
+      "start": 740.399,
+      "duration": 1.68,
+      "text": "mentioned the uh kind of urgency for",
+      "timestamp": "12:20"
+    },
+    {
+      "start": 742.079,
+      "duration": 1.44,
+      "text": "Ethereum to think more about",
+      "timestamp": "12:22"
+    },
+    {
+      "start": 743.519,
+      "duration": 2.801,
+      "text": "incorporating privacy. Um, I'm curious",
+      "timestamp": "12:23"
+    },
+    {
+      "start": 746.32,
+      "duration": 2.319,
+      "text": "concretely, what sort of proposals are",
+      "timestamp": "12:26"
+    },
+    {
+      "start": 748.639,
+      "duration": 1.76,
+      "text": "you interested in seeing hit the the",
+      "timestamp": "12:28"
+    },
+    {
+      "start": 750.399,
+      "duration": 2.0,
+      "text": "core protocol itself?",
+      "timestamp": "12:30"
+    },
+    {
+      "start": 752.399,
+      "duration": 3.041,
+      "text": "Yeah. So I think you know we um there's",
+      "timestamp": "12:32"
+    },
+    {
+      "start": 755.44,
+      "duration": 1.68,
+      "text": "some themes that are emerging. There's",
+      "timestamp": "12:35"
+    },
+    {
+      "start": 757.12,
+      "duration": 2.48,
+      "text": "themes around decentralized inference um",
+      "timestamp": "12:37"
+    },
+    {
+      "start": 759.6,
+      "duration": 1.52,
+      "text": "proof of inference lot lots of things",
+      "timestamp": "12:39"
+    },
+    {
+      "start": 761.12,
+      "duration": 2.159,
+      "text": "happening on chain. There's obviously a",
+      "timestamp": "12:41"
+    },
+    {
+      "start": 763.279,
+      "duration": 2.24,
+      "text": "lot happening in the AI agent space and",
+      "timestamp": "12:43"
+    },
+    {
+      "start": 765.519,
+      "duration": 1.76,
+      "text": "and all that activity is happening on",
+      "timestamp": "12:45"
+    },
+    {
+      "start": 767.279,
+      "duration": 3.68,
+      "text": "chain. I think um infrastructurally",
+      "timestamp": "12:47"
+    },
+    {
+      "start": 770.959,
+      "duration": 3.521,
+      "text": "there are a few solutions uh that allow",
+      "timestamp": "12:50"
+    },
+    {
+      "start": 774.48,
+      "duration": 2.4,
+      "text": "us to build architectures that are more",
+      "timestamp": "12:54"
+    },
+    {
+      "start": 776.88,
+      "duration": 2.959,
+      "text": "private. So CK proofs for example,",
+      "timestamp": "12:56"
+    },
+    {
+      "start": 779.839,
+      "duration": 2.161,
+      "text": "integrating those into the AI stack is",
+      "timestamp": "12:59"
+    },
+    {
+      "start": 782.0,
+      "duration": 2.32,
+      "text": "still really hard. Um so there's things",
+      "timestamp": "13:02"
+    },
+    {
+      "start": 784.32,
+      "duration": 3.12,
+      "text": "like TE and FHE and when you combine",
+      "timestamp": "13:04"
+    },
+    {
+      "start": 787.44,
+      "duration": 2.24,
+      "text": "that stuff with inference, not just like",
+      "timestamp": "13:07"
+    },
+    {
+      "start": 789.68,
+      "duration": 3.04,
+      "text": "financial transactions on chain. Um it",
+      "timestamp": "13:09"
+    },
+    {
+      "start": 792.72,
+      "duration": 2.72,
+      "text": "really slows things down and makes it a",
+      "timestamp": "13:12"
+    },
+    {
+      "start": 795.44,
+      "duration": 2.639,
+      "text": "shitty experience for the user. Um, so",
+      "timestamp": "13:15"
+    },
+    {
+      "start": 798.079,
+      "duration": 2.0,
+      "text": "if we can somehow optimize some of these",
+      "timestamp": "13:18"
+    },
+    {
+      "start": 800.079,
+      "duration": 1.361,
+      "text": "things that we've been working on in",
+      "timestamp": "13:20"
+    },
+    {
+      "start": 801.44,
+      "duration": 2.56,
+      "text": "other areas, um, and really kind of",
+      "timestamp": "13:21"
+    },
+    {
+      "start": 804.0,
+      "duration": 2.24,
+      "text": "understand the tech stack that happens",
+      "timestamp": "13:24"
+    },
+    {
+      "start": 806.24,
+      "duration": 2.719,
+      "text": "with AI and that whole process of",
+      "timestamp": "13:26"
+    },
+    {
+      "start": 808.959,
+      "duration": 2.801,
+      "text": "sending a query goes to the LLM, LLM",
+      "timestamp": "13:28"
+    },
+    {
+      "start": 811.76,
+      "duration": 1.44,
+      "text": "does something, query has to come back",
+      "timestamp": "13:31"
+    },
+    {
+      "start": 813.2,
+      "duration": 2.319,
+      "text": "to you. Um, you know, it's just not like",
+      "timestamp": "13:33"
+    },
+    {
+      "start": 815.519,
+      "duration": 2.241,
+      "text": "a one-way transaction, right? It's a",
+      "timestamp": "13:35"
+    },
+    {
+      "start": 817.76,
+      "duration": 3.12,
+      "text": "multi- it's a multifaceted one. Um, I am",
+      "timestamp": "13:37"
+    },
+    {
+      "start": 820.88,
+      "duration": 2.8,
+      "text": "not technical. I'm not an engineer. Um,",
+      "timestamp": "13:40"
+    },
+    {
+      "start": 823.68,
+      "duration": 1.52,
+      "text": "but I spend a lot of time with our",
+      "timestamp": "13:43"
+    },
+    {
+      "start": 825.2,
+      "duration": 2.319,
+      "text": "engineering team trying to understand",
+      "timestamp": "13:45"
+    },
+    {
+      "start": 827.519,
+      "duration": 2.801,
+      "text": "what the potential options are. So for",
+      "timestamp": "13:47"
+    },
+    {
+      "start": 830.32,
+      "duration": 2.959,
+      "text": "me it just seems like there must be a",
+      "timestamp": "13:50"
+    },
+    {
+      "start": 833.279,
+      "duration": 1.761,
+      "text": "way to tool some of these things that",
+      "timestamp": "13:53"
+    },
+    {
+      "start": 835.04,
+      "duration": 3.44,
+      "text": "will work. Um and you know I spent a lot",
+      "timestamp": "13:55"
+    },
+    {
+      "start": 838.48,
+      "duration": 1.84,
+      "text": "of time in in crypto in the policy space",
+      "timestamp": "13:58"
+    },
+    {
+      "start": 840.32,
+      "duration": 2.48,
+      "text": "and one of the things that uh the policy",
+      "timestamp": "14:00"
+    },
+    {
+      "start": 842.8,
+      "duration": 1.76,
+      "text": "people used to say all the time is that",
+      "timestamp": "14:02"
+    },
+    {
+      "start": 844.56,
+      "duration": 1.68,
+      "text": "you know crypto allows us to do",
+      "timestamp": "14:04"
+    },
+    {
+      "start": 846.24,
+      "duration": 2.719,
+      "text": "compliance much easier um and much more",
+      "timestamp": "14:06"
+    },
+    {
+      "start": 848.959,
+      "duration": 1.44,
+      "text": "transparently and so we should just do",
+      "timestamp": "14:08"
+    },
+    {
+      "start": 850.399,
+      "duration": 2.321,
+      "text": "all this stuff on chain instead of you",
+      "timestamp": "14:10"
+    },
+    {
+      "start": 852.72,
+      "duration": 3.52,
+      "text": "know KYC for example um but nobody ever",
+      "timestamp": "14:12"
+    },
+    {
+      "start": 856.24,
+      "duration": 2.64,
+      "text": "builds that stuff right everybody talks",
+      "timestamp": "14:16"
+    },
+    {
+      "start": 858.88,
+      "duration": 1.36,
+      "text": "about it that it's possible but they",
+      "timestamp": "14:18"
+    },
+    {
+      "start": 860.24,
+      "duration": 2.24,
+      "text": "don't build it so yeah this is kind of a",
+      "timestamp": "14:20"
+    },
+    {
+      "start": 862.48,
+      "duration": 1.84,
+      "text": "call to arms for all of you very smart",
+      "timestamp": "14:22"
+    },
+    {
+      "start": 864.32,
+      "duration": 1.6,
+      "text": "people that do know how to build stuff",
+      "timestamp": "14:24"
+    },
+    {
+      "start": 865.92,
+      "duration": 1.919,
+      "text": "like this would be a cool thing to build",
+      "timestamp": "14:25"
+    },
+    {
+      "start": 867.839,
+      "duration": 2.0,
+      "text": "and we need it.",
+      "timestamp": "14:27"
+    },
+    {
+      "start": 869.839,
+      "duration": 2.8,
+      "text": "Thanks.",
+      "timestamp": "14:29"
+    },
+    {
+      "start": 872.639,
+      "duration": 1.2,
+      "text": "All right, I'll give you guys some time",
+      "timestamp": "14:32"
+    },
+    {
+      "start": 873.839,
+      "duration": 3.881,
+      "text": "back. Thanks very much.",
+      "timestamp": "14:33"
+    }
+  ],
+  "extraction_timestamp": "2025-07-08T14:45:53.154406",
+  "playlist_title": "EthCC[8] Redford Stage"
+}

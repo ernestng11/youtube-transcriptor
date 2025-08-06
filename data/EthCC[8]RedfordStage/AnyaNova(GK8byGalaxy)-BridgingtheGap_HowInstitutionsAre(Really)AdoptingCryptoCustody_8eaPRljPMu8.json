@@ -1,0 +1,2621 @@
+{
+  "video_id": "8eaPRljPMu8",
+  "video_title": "Anya Nova (GK8 by Galaxy)-Bridging the Gap: How Institutions Are (Really) Adopting Crypto Custody",
+  "video_url": "https://www.youtube.com/watch?v=8eaPRljPMu8",
+  "channel_title": "[EthCC] Livestream 4",
+  "published_at": "2025-07-03T23:33:54+00:00",
+  "duration_seconds": null,
+  "view_count": 29,
+  "like_count": 1,
+  "description": "Institutions are entering crypto, but what’s happening behind closed doors? This talk demystifies enterprise custody, exploring real adoption trends, regulatory shifts, and how banks and asset managers are structuring their crypto strategies.",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 433,
+    "aggregated_text": "[Music] Hello everybody. So my name is Anna. I'm with Galaxy Digital and I wanted to say that I understood the last talk on AI user owned AI but to be honest I probably understood 5% of that. So my talk is not really going to be technical. For the last two years I have been selling custody infrastructure to institutions. So it's like banks, funds, exchanges. So if anybody here is building a wallet custody or considering buying it then um I think you would be very interested in what I have to say. So can I maybe get a show of hands of who is either building a wallet custody or currently maybe acquiring it? Anybody here? Okay. Yeah. So it seems like it's quite a popular thing to do, right? Because people go, \"Okay, I'm going to build a wallet. It's going to be amazing. Going to have like billions of dollars on it.\" Uh it's actually a lot harder than you think. So I'll just talk about first what is custody? Then I'll talk about who are the institutional players there and then finish up with what's next. So but maybe I'll just introduce myself first. So um I got into crypto actually not when I bought my first Bitcoin but when I was a a kid growing up in Russia and I've experienced a period of hyperinflation. I think a lot of people who've gone through that probably thought okay maybe money is not as real as I think it is. So then when I came across Bitcoin had understood that it has a fixed supply was an immediate appeal and then I joined Power Ledger which a lot of people who were in ICOs really early know that name because it was one of the first ICOs to come out of Australia and they either love it or hate it depending on when they sold. And then for five years we were building solutions for the energy sector. So I'll just quick note here the energy sector does not want blockchain. So that's a summary of my first five years in that space. And then two years ago I joined Galaxy. So if you haven't heard about Galaxy, we have about $7 billion on platform crypto. We're really an asset manager where we infrastructure provider and then trading desk as well. So uh we do things like Bitcoin, Ethereum ETFs. We have active passive investment fund. Uh we also have a large hedge fund, VC fund. On the trading side of things, we work with about 1,300 institutional players. So we're one of the largest sport trading crypto desks globally. And then on the infrastructure side, we actually run data centers. So it used to be a large Bitcoin mining facility out of Texas with about 800 megawatt capacity there. And we have recently converted that to uh AI needs because that's obviously, you know, hugely booming space. And about two years ago, Galaxy acquired a company called GK8 which came out of Israel. Uh so you'll find that a lot of custody infrastructure does come out of Israel. So why is that? Just as a very strong cyber security training school. So fun fact when I joined I flew to Israel to just meet other people who are there and we were going around the table you know people were saying like my name is such and such I come from this unit in the military this intelligence unit or my name is such and such you know I've been doing this kind of deep tech development and I was like okay well my name is Anna I really like yoga I have literally no intelligence or military training whatsoever so GK8 was really built because we understood that um there was no solution that can safeguard billions of dollars worth of value. And you think that maybe there is no difference between millions and billions, but it really comes down to return on investment for hackers, right? So if they can apply themselves and throw resources at a wallet that contains billions of dollars worth of value, they potentially can hack it. So just a really quick overview of how the custody progressed. So I don't know how many people remember uh like my ether wallet probably a few right so we had one private key that's always online so that's a hot private key and then we've had iterations of that we got things like metam mask I remember when that came on that was pretty exciting so browser extension allows you to access things access defy so that's also just one key that's always online and then obviously we had a progression into hardware devices like Ledger or Trezor. So that's offline up until the point you actually plug it in. When you plug it in and you need to create a transaction, you need to sign a transaction, it also becomes like a hot key. Um, and then of course there were multiple iterations after that where people thought, okay, if I have multiple keys or if I split the key, I'm going to be safer. So Bitcoin has a multisig, a native multisig, which basically requires several people to sign on a transaction. And then an iteration of that is a MPC which is a multi-party computation where you take one private key and you separate it into different pieces. Like people don't like the word pieces, they say short. That sounds a lot cooler. So when I was trying to explain all of that to my mom, she was like just what do you do again? Um and of course that's amazing, right? So we solving for the key management side of things, private key security, but that's really that's not enough anymore. Definitely not enough for banks, custodians, exchanges, right? So multisig, you know, we have examples of massive hacks like with buy 1.5 billion got stolen. Um, so and and also what what do banks use now? They use HSM. They've been using that forever. That's a hardware security module. HSM does a really great job of protecting um the private key physically. So if someone's trying to extract the private key, there are usually different things in there that either melt the chip that the private key is on or basically prevents you from being able to extract it. But it doesn't protect you from other types of attack like replacing uh the address of a recipient for example. So you can direct the funds and they might go elsewhere. So that's a very quick kind of custody wallets 101. And then I want to talk about what do people actually want? Because when I first joined two years ago, I just started talking to any institutional player and you know banks especially, they want to get into the space. They have very um established custody teams which was a you know news to me but they've been custodying cash equities things like that forever and they have the same people who have been doing that are now being asked to custody digital assets and they have no idea how to do that. So they want something that's highly secure. They want something that is offline, something that they control and at the same time it has to feed into the systems they already use such as their core banking systems such as governance lay policy, right? So that's banks. Uh and I feel like right now behind the scenes there is just a massive uh wave of adoption coming, right? Because there is already some banks that we know that have retail crypto product, right? So we have Zuker Contonal Bank in Switzerland. We have Post Finance in Switzerland. You know, banks in Brazil already have a crypto offering. A lot of others are coming into the space. They're not really that interested in crypto, but they are preparing for tokenized securities. So tokenized money market funds, uh tokenized debt, and they know that if they start playing around with Bitcoin, Ethereum, that's going to position them really well. they will be able to iron out any kind of little details that they need to iron out in the operating systems. Um, and I feel like, you know, once we have BNY Melon, Fidelity, State Trade offering crypto and people can log in, they can have their equities, their fiat and their crypto, that's going to be a very tough time for traditional crypto custodians, right? So, the biggest custodians out there is Coinbase, Bidco, Anchorage, Zodia. they've done a really good job of providing a custody service and they will be competing very aggressively with the banks entering the space and then of course we have exchanges right so that's kind of where a lot of the high-profile hacks are occurring so they also really value security but then they need a scalability so they need an ability to spin up millions of addresses like at you know in in a very short notice so and they need to have an ability to provide deposit addresses for their clients so the slightly different use cases, right? One is more of a treasury use case. I just have a lot of digital assets that are sitting here. They're not really moving much. Two, I have a lot of clients depositing, withdrawing funds. I need to be able to do this quickly. I need to be able to sweep deposits into a single omnibus account. I need to do that efficiently and cheaply. And then we have, of course, VCs. They also hold a lot of crypto. They have a completely different requirement. Once again, you know, they're getting into projects very early. So they're looking for very quick support. So if you're servicing VCs, you need to be able to right there is there is this new project. I'm adding support for it today. And that's how you get that crowd, right? And then we have trading desks. So as I mentioned, Galaxy has a very large trading desk. They have again what do they want? They want to be able to trade. They want to be able to do borrowing and lending um but without being exposed to counterparty risk. So of course that's on the back of FTX. Everybody's like well I don't want to be depositing things to an exchange and a number of providers out there has attempted to solve that right so we have fireblocks uh corporate clear loop ledger they are providing this settlement networks but interestingly I I talked to people about those settlement networks they all operate slightly differently and you can't quite fully understand actually what's going on um I think if you're considering using one of those if you work for a financial institution or a bank you really got to say Am I actually eliminating uh counterparty risk or am I just passing that on to this other provider? So what happens when everybody goes bankrupt? Do I still get my money back? Um and then DeFi funds, uh they you know what they want? They want things really cheap. They want things really fast and they want of course an ability to deploy funds into the DeFi ecosystem when the market conditions are right. They make money when the funds are deployed. So what they really care about is can I connect to Salana DeFi? Can I connect to DeFi on various EVM chains? So my I guess my first suggestion for anybody who's getting into this space is to identify who are you building a solution for because if you're trying to build for all of these different functionalities, you're going to have to have an enormous engineering team and you probably won't appeal to anybody. So you need to go right I'm doing this for like in GK8 our main customer is banks. That's what who we decided to target. We also have other major clients, but we really built everything that a bank might want. So, that's things like Active Directory that you've probably never heard of, but that's what banks use to manage various uh users, to add, remove users. You know, we've built things like a very comprehensive policy engine which allows you to set things like daily, weekly, monthly limits on spend, which allows you to manage your users, set up workflows in a very granular level. Um, this is actually might sound quite boring, but it's absolutely essential for people to be able to say that they have the same control over digital assets they have over traditional assets. Um so you know over the last month I would say there is at least 10 tenders that came out from European banks that are uh on this you know quietly but very confidently looking for custody solutions. So that means that in the next you know towards the end of this year we're really going to see a lot of announcements about banks having selected a custody infrastructure partner and for them the decision is also well there's multiple decisions first of all do I do digital assets at all do I do crypto or do I do tokenized assets for most of them it's like tokenized securities then do I build things in house I have to hire an engineering team do I partner with the custodian an external custodians like a traditional crypto to custodian, well, we're not sure if we trust them. Uh, or do I own my own infrastructure, set it up internally, and then connected to everything I have through a set of APIs. Um, and another kind of things that I wanted to talk about is where is this whole space heading next? So a lot of the requests that I'm getting right now is for integrations with all the other service providers that are in the space such as you know chain analysis for ability to control um and view and identify potentially malicious transactions to things like um you know chain link that helps you do proof of reserves for your you know stable coin or whatever that might be to even uh things like Cashlink which is a German company that helps you uh maintain two sets of registries, right? An onchain registry that's also linked to an off-chain registry that a German government recognizes. Um I I think this is absolutely a a fascinating space that's it's evolving really quickly. Um and to just wrap this up, I wanted to talk about a couple of projects that we are directly involved in just to give you a sense of like a variety of of um opportunities in the space. So Galaxy uh flow traders um and DWS which is an asset management side of Deutsche Bank have come together to form a joint venture to issue a Eurobbacked stable coin. Right? So that's something that is obviously trying to uh make sure that we have the right kind of stable coins for Europe and that's also requires a lot of the functionality that I have described earlier. Uh another thing we're doing is we're working with a large European bank to prepare for retail crypto offering. So that's setting up uh a very scalable system for them that's also connected to various liquidity providers where people can come in, you know, to the online banking portal that they're very familiar with and be able to buy, sell crypto and hopefully towards the end of the year even stake it, right? Uh and then we're working with a very large uh US bank to help them bring a tokenized money market fund um to their users. So the these are kind of examples that are are pretty big examples of what's happening in institutional space right now that kind of spans the whole you know custody tokenization staking integration side of things and um if you have any questions this is now a really good time to do this. Oh thanks Thank you. Very uh informative presentation uh very well structured helping me and I guess everyone uh understand more about the space. I'm just interested what do you think like based on what you were saying about custody and you know uh securing assets um and not only securities not not not only tokenized securities but like uh digital assets traditional native crypto assets and then managing those assets on chain like for example in asset management infrastructure on chain like what are the biggest um yeah blocks you you see in the space for institutions to actually like going on chain and participating with you know assets that are actually managed by smart contracts on chain like how is this um going to happen do you think and will it happen uh at all like maybe in the next two three years I I mean I certainly hope it would happen but to be honest this is so far so far in anybody's mind right now they really coming to terms with what is custody So okay, I have to protect my private keys, right? So how do I also um integrate it to my existing systems? How do I train my people? Like when I bring up something like staking, you know, for for most institutions, it's um it's something completely amazing out there, crazy that maybe they'll do one day. Um you know, I've brought up define conversations. People just look at me like I'm crazy or they laugh or they don't understand what it is. Especially when it comes to uh public chains. I I think the adoption really is coming from the you know funds and not definitely not publicly traded institutions. Any other questions? No. Well, thank you. I appreciate it.",
+    "text_length": 16342,
+    "word_count": 2993
+  },
+  "segments": [
+    {
+      "start": 1.47,
+      "duration": 3.809,
+      "text": "[Music]",
+      "timestamp": "00:01"
+    },
+    {
+      "start": 5.279,
+      "duration": 3.28,
+      "text": "Hello everybody. So my name is Anna. I'm",
+      "timestamp": "00:05"
+    },
+    {
+      "start": 8.559,
+      "duration": 2.96,
+      "text": "with Galaxy Digital and I wanted to say",
+      "timestamp": "00:08"
+    },
+    {
+      "start": 11.519,
+      "duration": 3.12,
+      "text": "that I understood the last talk on AI",
+      "timestamp": "00:11"
+    },
+    {
+      "start": 14.639,
+      "duration": 1.761,
+      "text": "user owned AI but to be honest I",
+      "timestamp": "00:14"
+    },
+    {
+      "start": 16.4,
+      "duration": 2.08,
+      "text": "probably understood 5% of that. So my",
+      "timestamp": "00:16"
+    },
+    {
+      "start": 18.48,
+      "duration": 1.36,
+      "text": "talk is not really going to be",
+      "timestamp": "00:18"
+    },
+    {
+      "start": 19.84,
+      "duration": 2.32,
+      "text": "technical. For the last two years I have",
+      "timestamp": "00:19"
+    },
+    {
+      "start": 22.16,
+      "duration": 2.0,
+      "text": "been selling custody infrastructure to",
+      "timestamp": "00:22"
+    },
+    {
+      "start": 24.16,
+      "duration": 2.64,
+      "text": "institutions. So it's like banks, funds,",
+      "timestamp": "00:24"
+    },
+    {
+      "start": 26.8,
+      "duration": 3.12,
+      "text": "exchanges. So if anybody here is",
+      "timestamp": "00:26"
+    },
+    {
+      "start": 29.92,
+      "duration": 3.04,
+      "text": "building a wallet custody or considering",
+      "timestamp": "00:29"
+    },
+    {
+      "start": 32.96,
+      "duration": 2.88,
+      "text": "buying it then um I think you would be",
+      "timestamp": "00:32"
+    },
+    {
+      "start": 35.84,
+      "duration": 1.76,
+      "text": "very interested in what I have to say.",
+      "timestamp": "00:35"
+    },
+    {
+      "start": 37.6,
+      "duration": 2.0,
+      "text": "So can I maybe get a show of hands of",
+      "timestamp": "00:37"
+    },
+    {
+      "start": 39.6,
+      "duration": 2.32,
+      "text": "who is either building a wallet custody",
+      "timestamp": "00:39"
+    },
+    {
+      "start": 41.92,
+      "duration": 3.44,
+      "text": "or currently maybe acquiring it? Anybody",
+      "timestamp": "00:41"
+    },
+    {
+      "start": 45.36,
+      "duration": 2.64,
+      "text": "here? Okay. Yeah. So it seems like it's",
+      "timestamp": "00:45"
+    },
+    {
+      "start": 48.0,
+      "duration": 1.84,
+      "text": "quite a popular thing to do, right?",
+      "timestamp": "00:48"
+    },
+    {
+      "start": 49.84,
+      "duration": 1.12,
+      "text": "Because people go, \"Okay, I'm going to",
+      "timestamp": "00:49"
+    },
+    {
+      "start": 50.96,
+      "duration": 1.04,
+      "text": "build a wallet. It's going to be",
+      "timestamp": "00:50"
+    },
+    {
+      "start": 52.0,
+      "duration": 2.399,
+      "text": "amazing. Going to have like billions of",
+      "timestamp": "00:52"
+    },
+    {
+      "start": 54.399,
+      "duration": 2.32,
+      "text": "dollars on it.\" Uh it's actually a lot",
+      "timestamp": "00:54"
+    },
+    {
+      "start": 56.719,
+      "duration": 2.48,
+      "text": "harder than you think. So I'll just talk",
+      "timestamp": "00:56"
+    },
+    {
+      "start": 59.199,
+      "duration": 3.2,
+      "text": "about first what is custody? Then I'll",
+      "timestamp": "00:59"
+    },
+    {
+      "start": 62.399,
+      "duration": 1.84,
+      "text": "talk about who are the institutional",
+      "timestamp": "01:02"
+    },
+    {
+      "start": 64.239,
+      "duration": 2.961,
+      "text": "players there and then finish up with",
+      "timestamp": "01:04"
+    },
+    {
+      "start": 67.2,
+      "duration": 2.239,
+      "text": "what's next. So but maybe I'll just",
+      "timestamp": "01:07"
+    },
+    {
+      "start": 69.439,
+      "duration": 3.121,
+      "text": "introduce myself first. So um I got into",
+      "timestamp": "01:09"
+    },
+    {
+      "start": 72.56,
+      "duration": 2.64,
+      "text": "crypto actually not when I bought my",
+      "timestamp": "01:12"
+    },
+    {
+      "start": 75.2,
+      "duration": 2.32,
+      "text": "first Bitcoin but when I was a a kid",
+      "timestamp": "01:15"
+    },
+    {
+      "start": 77.52,
+      "duration": 2.0,
+      "text": "growing up in Russia and I've",
+      "timestamp": "01:17"
+    },
+    {
+      "start": 79.52,
+      "duration": 1.919,
+      "text": "experienced a period of hyperinflation.",
+      "timestamp": "01:19"
+    },
+    {
+      "start": 81.439,
+      "duration": 1.68,
+      "text": "I think a lot of people who've gone",
+      "timestamp": "01:21"
+    },
+    {
+      "start": 83.119,
+      "duration": 2.081,
+      "text": "through that probably thought okay maybe",
+      "timestamp": "01:23"
+    },
+    {
+      "start": 85.2,
+      "duration": 2.239,
+      "text": "money is not as real as I think it is.",
+      "timestamp": "01:25"
+    },
+    {
+      "start": 87.439,
+      "duration": 2.72,
+      "text": "So then when I came across Bitcoin had",
+      "timestamp": "01:27"
+    },
+    {
+      "start": 90.159,
+      "duration": 1.521,
+      "text": "understood that it has a fixed supply",
+      "timestamp": "01:30"
+    },
+    {
+      "start": 91.68,
+      "duration": 1.92,
+      "text": "was an immediate appeal and then I",
+      "timestamp": "01:31"
+    },
+    {
+      "start": 93.6,
+      "duration": 2.24,
+      "text": "joined Power Ledger which a lot of",
+      "timestamp": "01:33"
+    },
+    {
+      "start": 95.84,
+      "duration": 2.16,
+      "text": "people who were in ICOs really early",
+      "timestamp": "01:35"
+    },
+    {
+      "start": 98.0,
+      "duration": 1.52,
+      "text": "know that name because it was one of the",
+      "timestamp": "01:38"
+    },
+    {
+      "start": 99.52,
+      "duration": 2.559,
+      "text": "first ICOs to come out of Australia and",
+      "timestamp": "01:39"
+    },
+    {
+      "start": 102.079,
+      "duration": 1.441,
+      "text": "they either love it or hate it depending",
+      "timestamp": "01:42"
+    },
+    {
+      "start": 103.52,
+      "duration": 2.639,
+      "text": "on when they sold. And then for five",
+      "timestamp": "01:43"
+    },
+    {
+      "start": 106.159,
+      "duration": 1.92,
+      "text": "years we were building solutions for the",
+      "timestamp": "01:46"
+    },
+    {
+      "start": 108.079,
+      "duration": 3.521,
+      "text": "energy sector. So I'll just quick note",
+      "timestamp": "01:48"
+    },
+    {
+      "start": 111.6,
+      "duration": 2.0,
+      "text": "here the energy sector does not want",
+      "timestamp": "01:51"
+    },
+    {
+      "start": 113.6,
+      "duration": 1.92,
+      "text": "blockchain. So that's a summary of my",
+      "timestamp": "01:53"
+    },
+    {
+      "start": 115.52,
+      "duration": 2.32,
+      "text": "first five years in that space. And then",
+      "timestamp": "01:55"
+    },
+    {
+      "start": 117.84,
+      "duration": 2.48,
+      "text": "two years ago I joined Galaxy. So if you",
+      "timestamp": "01:57"
+    },
+    {
+      "start": 120.32,
+      "duration": 1.92,
+      "text": "haven't heard about Galaxy, we have",
+      "timestamp": "02:00"
+    },
+    {
+      "start": 122.24,
+      "duration": 2.96,
+      "text": "about $7 billion on platform crypto.",
+      "timestamp": "02:02"
+    },
+    {
+      "start": 125.2,
+      "duration": 3.119,
+      "text": "We're really an asset manager where we",
+      "timestamp": "02:05"
+    },
+    {
+      "start": 128.319,
+      "duration": 2.401,
+      "text": "infrastructure provider and then trading",
+      "timestamp": "02:08"
+    },
+    {
+      "start": 130.72,
+      "duration": 2.96,
+      "text": "desk as well. So uh we do things like",
+      "timestamp": "02:10"
+    },
+    {
+      "start": 133.68,
+      "duration": 2.24,
+      "text": "Bitcoin, Ethereum ETFs. We have active",
+      "timestamp": "02:13"
+    },
+    {
+      "start": 135.92,
+      "duration": 2.56,
+      "text": "passive investment fund. Uh we also have",
+      "timestamp": "02:15"
+    },
+    {
+      "start": 138.48,
+      "duration": 2.479,
+      "text": "a large hedge fund, VC fund. On the",
+      "timestamp": "02:18"
+    },
+    {
+      "start": 140.959,
+      "duration": 1.761,
+      "text": "trading side of things, we work with",
+      "timestamp": "02:20"
+    },
+    {
+      "start": 142.72,
+      "duration": 2.32,
+      "text": "about 1,300 institutional players. So",
+      "timestamp": "02:22"
+    },
+    {
+      "start": 145.04,
+      "duration": 2.4,
+      "text": "we're one of the largest sport trading",
+      "timestamp": "02:25"
+    },
+    {
+      "start": 147.44,
+      "duration": 2.64,
+      "text": "crypto desks globally. And then on the",
+      "timestamp": "02:27"
+    },
+    {
+      "start": 150.08,
+      "duration": 2.72,
+      "text": "infrastructure side, we actually run",
+      "timestamp": "02:30"
+    },
+    {
+      "start": 152.8,
+      "duration": 2.079,
+      "text": "data centers. So it used to be a large",
+      "timestamp": "02:32"
+    },
+    {
+      "start": 154.879,
+      "duration": 2.0,
+      "text": "Bitcoin mining facility out of Texas",
+      "timestamp": "02:34"
+    },
+    {
+      "start": 156.879,
+      "duration": 2.881,
+      "text": "with about 800 megawatt capacity there.",
+      "timestamp": "02:36"
+    },
+    {
+      "start": 159.76,
+      "duration": 2.479,
+      "text": "And we have recently converted that to",
+      "timestamp": "02:39"
+    },
+    {
+      "start": 162.239,
+      "duration": 2.481,
+      "text": "uh AI needs because that's obviously,",
+      "timestamp": "02:42"
+    },
+    {
+      "start": 164.72,
+      "duration": 2.08,
+      "text": "you know, hugely booming space. And",
+      "timestamp": "02:44"
+    },
+    {
+      "start": 166.8,
+      "duration": 2.32,
+      "text": "about two years ago, Galaxy acquired a",
+      "timestamp": "02:46"
+    },
+    {
+      "start": 169.12,
+      "duration": 2.08,
+      "text": "company called GK8 which came out of",
+      "timestamp": "02:49"
+    },
+    {
+      "start": 171.2,
+      "duration": 2.64,
+      "text": "Israel. Uh so you'll find that a lot of",
+      "timestamp": "02:51"
+    },
+    {
+      "start": 173.84,
+      "duration": 1.6,
+      "text": "custody infrastructure does come out of",
+      "timestamp": "02:53"
+    },
+    {
+      "start": 175.44,
+      "duration": 1.76,
+      "text": "Israel. So why is that? Just as a very",
+      "timestamp": "02:55"
+    },
+    {
+      "start": 177.2,
+      "duration": 2.88,
+      "text": "strong cyber security training school.",
+      "timestamp": "02:57"
+    },
+    {
+      "start": 180.08,
+      "duration": 2.72,
+      "text": "So fun fact when I joined I flew to",
+      "timestamp": "03:00"
+    },
+    {
+      "start": 182.8,
+      "duration": 3.04,
+      "text": "Israel to just meet other people who are",
+      "timestamp": "03:02"
+    },
+    {
+      "start": 185.84,
+      "duration": 1.679,
+      "text": "there and we were going around the table",
+      "timestamp": "03:05"
+    },
+    {
+      "start": 187.519,
+      "duration": 1.201,
+      "text": "you know people were saying like my name",
+      "timestamp": "03:07"
+    },
+    {
+      "start": 188.72,
+      "duration": 2.48,
+      "text": "is such and such I come from this unit",
+      "timestamp": "03:08"
+    },
+    {
+      "start": 191.2,
+      "duration": 1.759,
+      "text": "in the military this intelligence unit",
+      "timestamp": "03:11"
+    },
+    {
+      "start": 192.959,
+      "duration": 1.441,
+      "text": "or my name is such and such you know",
+      "timestamp": "03:12"
+    },
+    {
+      "start": 194.4,
+      "duration": 1.759,
+      "text": "I've been doing this kind of deep tech",
+      "timestamp": "03:14"
+    },
+    {
+      "start": 196.159,
+      "duration": 1.761,
+      "text": "development and I was like okay well my",
+      "timestamp": "03:16"
+    },
+    {
+      "start": 197.92,
+      "duration": 2.64,
+      "text": "name is Anna I really like yoga I have",
+      "timestamp": "03:17"
+    },
+    {
+      "start": 200.56,
+      "duration": 2.399,
+      "text": "literally no intelligence or military",
+      "timestamp": "03:20"
+    },
+    {
+      "start": 202.959,
+      "duration": 3.2,
+      "text": "training whatsoever so",
+      "timestamp": "03:22"
+    },
+    {
+      "start": 206.159,
+      "duration": 1.761,
+      "text": "GK8 was really built because we",
+      "timestamp": "03:26"
+    },
+    {
+      "start": 207.92,
+      "duration": 3.52,
+      "text": "understood that um there was no solution",
+      "timestamp": "03:27"
+    },
+    {
+      "start": 211.44,
+      "duration": 2.24,
+      "text": "that can safeguard billions of dollars",
+      "timestamp": "03:31"
+    },
+    {
+      "start": 213.68,
+      "duration": 2.0,
+      "text": "worth of value. And you think that maybe",
+      "timestamp": "03:33"
+    },
+    {
+      "start": 215.68,
+      "duration": 1.68,
+      "text": "there is no difference between millions",
+      "timestamp": "03:35"
+    },
+    {
+      "start": 217.36,
+      "duration": 2.08,
+      "text": "and billions, but it really comes down",
+      "timestamp": "03:37"
+    },
+    {
+      "start": 219.44,
+      "duration": 1.92,
+      "text": "to return on investment for hackers,",
+      "timestamp": "03:39"
+    },
+    {
+      "start": 221.36,
+      "duration": 2.32,
+      "text": "right? So if they can apply themselves",
+      "timestamp": "03:41"
+    },
+    {
+      "start": 223.68,
+      "duration": 2.08,
+      "text": "and throw resources at a wallet that",
+      "timestamp": "03:43"
+    },
+    {
+      "start": 225.76,
+      "duration": 1.52,
+      "text": "contains billions of dollars worth of",
+      "timestamp": "03:45"
+    },
+    {
+      "start": 227.28,
+      "duration": 3.2,
+      "text": "value, they potentially can hack it. So",
+      "timestamp": "03:47"
+    },
+    {
+      "start": 230.48,
+      "duration": 2.16,
+      "text": "just a really quick overview of how the",
+      "timestamp": "03:50"
+    },
+    {
+      "start": 232.64,
+      "duration": 2.239,
+      "text": "custody progressed. So I don't know how",
+      "timestamp": "03:52"
+    },
+    {
+      "start": 234.879,
+      "duration": 2.321,
+      "text": "many people remember uh like my ether",
+      "timestamp": "03:54"
+    },
+    {
+      "start": 237.2,
+      "duration": 3.2,
+      "text": "wallet probably a few right so we had",
+      "timestamp": "03:57"
+    },
+    {
+      "start": 240.4,
+      "duration": 2.8,
+      "text": "one private key that's always online so",
+      "timestamp": "04:00"
+    },
+    {
+      "start": 243.2,
+      "duration": 2.48,
+      "text": "that's a hot private key and then we've",
+      "timestamp": "04:03"
+    },
+    {
+      "start": 245.68,
+      "duration": 2.72,
+      "text": "had iterations of that we got things",
+      "timestamp": "04:05"
+    },
+    {
+      "start": 248.4,
+      "duration": 1.919,
+      "text": "like metam mask I remember when that",
+      "timestamp": "04:08"
+    },
+    {
+      "start": 250.319,
+      "duration": 1.681,
+      "text": "came on that was pretty exciting so",
+      "timestamp": "04:10"
+    },
+    {
+      "start": 252.0,
+      "duration": 2.48,
+      "text": "browser extension allows you to access",
+      "timestamp": "04:12"
+    },
+    {
+      "start": 254.48,
+      "duration": 3.439,
+      "text": "things access defy so that's also just",
+      "timestamp": "04:14"
+    },
+    {
+      "start": 257.919,
+      "duration": 2.401,
+      "text": "one key that's always online and then",
+      "timestamp": "04:17"
+    },
+    {
+      "start": 260.32,
+      "duration": 1.439,
+      "text": "obviously we had a progression into",
+      "timestamp": "04:20"
+    },
+    {
+      "start": 261.759,
+      "duration": 2.72,
+      "text": "hardware devices like Ledger or Trezor.",
+      "timestamp": "04:21"
+    },
+    {
+      "start": 264.479,
+      "duration": 2.72,
+      "text": "So that's offline up until the point you",
+      "timestamp": "04:24"
+    },
+    {
+      "start": 267.199,
+      "duration": 1.841,
+      "text": "actually plug it in. When you plug it in",
+      "timestamp": "04:27"
+    },
+    {
+      "start": 269.04,
+      "duration": 1.439,
+      "text": "and you need to create a transaction,",
+      "timestamp": "04:29"
+    },
+    {
+      "start": 270.479,
+      "duration": 1.761,
+      "text": "you need to sign a transaction, it also",
+      "timestamp": "04:30"
+    },
+    {
+      "start": 272.24,
+      "duration": 3.36,
+      "text": "becomes like a hot key. Um, and then of",
+      "timestamp": "04:32"
+    },
+    {
+      "start": 275.6,
+      "duration": 2.24,
+      "text": "course there were multiple iterations",
+      "timestamp": "04:35"
+    },
+    {
+      "start": 277.84,
+      "duration": 1.68,
+      "text": "after that where people thought, okay,",
+      "timestamp": "04:37"
+    },
+    {
+      "start": 279.52,
+      "duration": 2.72,
+      "text": "if I have multiple keys or if I split",
+      "timestamp": "04:39"
+    },
+    {
+      "start": 282.24,
+      "duration": 1.92,
+      "text": "the key, I'm going to be safer. So",
+      "timestamp": "04:42"
+    },
+    {
+      "start": 284.16,
+      "duration": 1.84,
+      "text": "Bitcoin has a multisig, a native",
+      "timestamp": "04:44"
+    },
+    {
+      "start": 286.0,
+      "duration": 1.6,
+      "text": "multisig, which basically requires",
+      "timestamp": "04:46"
+    },
+    {
+      "start": 287.6,
+      "duration": 2.48,
+      "text": "several people to sign on a transaction.",
+      "timestamp": "04:47"
+    },
+    {
+      "start": 290.08,
+      "duration": 3.44,
+      "text": "And then an iteration of that is a MPC",
+      "timestamp": "04:50"
+    },
+    {
+      "start": 293.52,
+      "duration": 1.679,
+      "text": "which is a multi-party computation where",
+      "timestamp": "04:53"
+    },
+    {
+      "start": 295.199,
+      "duration": 2.641,
+      "text": "you take one private key and you",
+      "timestamp": "04:55"
+    },
+    {
+      "start": 297.84,
+      "duration": 2.639,
+      "text": "separate it into different pieces. Like",
+      "timestamp": "04:57"
+    },
+    {
+      "start": 300.479,
+      "duration": 1.521,
+      "text": "people don't like the word pieces, they",
+      "timestamp": "05:00"
+    },
+    {
+      "start": 302.0,
+      "duration": 1.84,
+      "text": "say short. That sounds a lot cooler. So",
+      "timestamp": "05:02"
+    },
+    {
+      "start": 303.84,
+      "duration": 1.359,
+      "text": "when I was trying to explain all of that",
+      "timestamp": "05:03"
+    },
+    {
+      "start": 305.199,
+      "duration": 2.56,
+      "text": "to my mom, she was like just what do you",
+      "timestamp": "05:05"
+    },
+    {
+      "start": 307.759,
+      "duration": 3.841,
+      "text": "do again? Um and of course that's",
+      "timestamp": "05:07"
+    },
+    {
+      "start": 311.6,
+      "duration": 2.0,
+      "text": "amazing, right? So we solving for the",
+      "timestamp": "05:11"
+    },
+    {
+      "start": 313.6,
+      "duration": 2.24,
+      "text": "key management side of things, private",
+      "timestamp": "05:13"
+    },
+    {
+      "start": 315.84,
+      "duration": 3.199,
+      "text": "key security, but that's really that's",
+      "timestamp": "05:15"
+    },
+    {
+      "start": 319.039,
+      "duration": 1.761,
+      "text": "not enough anymore. Definitely not",
+      "timestamp": "05:19"
+    },
+    {
+      "start": 320.8,
+      "duration": 3.2,
+      "text": "enough for banks, custodians, exchanges,",
+      "timestamp": "05:20"
+    },
+    {
+      "start": 324.0,
+      "duration": 3.44,
+      "text": "right? So multisig, you know, we have",
+      "timestamp": "05:24"
+    },
+    {
+      "start": 327.44,
+      "duration": 2.24,
+      "text": "examples of massive hacks like with buy",
+      "timestamp": "05:27"
+    },
+    {
+      "start": 329.68,
+      "duration": 4.799,
+      "text": "1.5 billion got stolen. Um, so",
+      "timestamp": "05:29"
+    },
+    {
+      "start": 334.479,
+      "duration": 1.841,
+      "text": "and and also what what do banks use now?",
+      "timestamp": "05:34"
+    },
+    {
+      "start": 336.32,
+      "duration": 1.76,
+      "text": "They use HSM. They've been using that",
+      "timestamp": "05:36"
+    },
+    {
+      "start": 338.08,
+      "duration": 2.0,
+      "text": "forever. That's a hardware security",
+      "timestamp": "05:38"
+    },
+    {
+      "start": 340.08,
+      "duration": 2.64,
+      "text": "module. HSM does a really great job of",
+      "timestamp": "05:40"
+    },
+    {
+      "start": 342.72,
+      "duration": 2.319,
+      "text": "protecting um the private key",
+      "timestamp": "05:42"
+    },
+    {
+      "start": 345.039,
+      "duration": 1.681,
+      "text": "physically. So if someone's trying to",
+      "timestamp": "05:45"
+    },
+    {
+      "start": 346.72,
+      "duration": 1.199,
+      "text": "extract the private key, there are",
+      "timestamp": "05:46"
+    },
+    {
+      "start": 347.919,
+      "duration": 1.441,
+      "text": "usually different things in there that",
+      "timestamp": "05:47"
+    },
+    {
+      "start": 349.36,
+      "duration": 1.6,
+      "text": "either melt the chip that the private",
+      "timestamp": "05:49"
+    },
+    {
+      "start": 350.96,
+      "duration": 1.84,
+      "text": "key is on or basically prevents you from",
+      "timestamp": "05:50"
+    },
+    {
+      "start": 352.8,
+      "duration": 1.92,
+      "text": "being able to extract it. But it doesn't",
+      "timestamp": "05:52"
+    },
+    {
+      "start": 354.72,
+      "duration": 1.68,
+      "text": "protect you from other types of attack",
+      "timestamp": "05:54"
+    },
+    {
+      "start": 356.4,
+      "duration": 2.4,
+      "text": "like replacing uh the address of a",
+      "timestamp": "05:56"
+    },
+    {
+      "start": 358.8,
+      "duration": 1.679,
+      "text": "recipient for example. So you can direct",
+      "timestamp": "05:58"
+    },
+    {
+      "start": 360.479,
+      "duration": 2.321,
+      "text": "the funds and they might go elsewhere.",
+      "timestamp": "06:00"
+    },
+    {
+      "start": 362.8,
+      "duration": 2.0,
+      "text": "So that's a very quick kind of custody",
+      "timestamp": "06:02"
+    },
+    {
+      "start": 364.8,
+      "duration": 2.239,
+      "text": "wallets 101. And then I want to talk",
+      "timestamp": "06:04"
+    },
+    {
+      "start": 367.039,
+      "duration": 1.921,
+      "text": "about what do people actually want?",
+      "timestamp": "06:07"
+    },
+    {
+      "start": 368.96,
+      "duration": 1.76,
+      "text": "Because when I first joined two years",
+      "timestamp": "06:08"
+    },
+    {
+      "start": 370.72,
+      "duration": 2.4,
+      "text": "ago, I just started talking to any",
+      "timestamp": "06:10"
+    },
+    {
+      "start": 373.12,
+      "duration": 2.639,
+      "text": "institutional player and you know banks",
+      "timestamp": "06:13"
+    },
+    {
+      "start": 375.759,
+      "duration": 2.241,
+      "text": "especially, they want to get into the",
+      "timestamp": "06:15"
+    },
+    {
+      "start": 378.0,
+      "duration": 3.68,
+      "text": "space. They have very um established",
+      "timestamp": "06:18"
+    },
+    {
+      "start": 381.68,
+      "duration": 3.12,
+      "text": "custody teams which was a you know news",
+      "timestamp": "06:21"
+    },
+    {
+      "start": 384.8,
+      "duration": 3.04,
+      "text": "to me but they've been custodying cash",
+      "timestamp": "06:24"
+    },
+    {
+      "start": 387.84,
+      "duration": 2.0,
+      "text": "equities things like that forever and",
+      "timestamp": "06:27"
+    },
+    {
+      "start": 389.84,
+      "duration": 1.68,
+      "text": "they have the same people who have been",
+      "timestamp": "06:29"
+    },
+    {
+      "start": 391.52,
+      "duration": 2.32,
+      "text": "doing that are now being asked to",
+      "timestamp": "06:31"
+    },
+    {
+      "start": 393.84,
+      "duration": 1.76,
+      "text": "custody digital assets and they have no",
+      "timestamp": "06:33"
+    },
+    {
+      "start": 395.6,
+      "duration": 1.76,
+      "text": "idea how to do that. So they want",
+      "timestamp": "06:35"
+    },
+    {
+      "start": 397.36,
+      "duration": 2.32,
+      "text": "something that's highly secure. They",
+      "timestamp": "06:37"
+    },
+    {
+      "start": 399.68,
+      "duration": 3.519,
+      "text": "want something that is offline,",
+      "timestamp": "06:39"
+    },
+    {
+      "start": 403.199,
+      "duration": 1.681,
+      "text": "something that they control and at the",
+      "timestamp": "06:43"
+    },
+    {
+      "start": 404.88,
+      "duration": 2.319,
+      "text": "same time it has to feed into the",
+      "timestamp": "06:44"
+    },
+    {
+      "start": 407.199,
+      "duration": 2.0,
+      "text": "systems they already use such as their",
+      "timestamp": "06:47"
+    },
+    {
+      "start": 409.199,
+      "duration": 2.081,
+      "text": "core banking systems such as governance",
+      "timestamp": "06:49"
+    },
+    {
+      "start": 411.28,
+      "duration": 3.52,
+      "text": "lay policy, right? So that's banks. Uh",
+      "timestamp": "06:51"
+    },
+    {
+      "start": 414.8,
+      "duration": 3.119,
+      "text": "and I feel like right now behind the",
+      "timestamp": "06:54"
+    },
+    {
+      "start": 417.919,
+      "duration": 3.201,
+      "text": "scenes there is just a massive uh wave",
+      "timestamp": "06:57"
+    },
+    {
+      "start": 421.12,
+      "duration": 2.16,
+      "text": "of adoption coming, right? Because there",
+      "timestamp": "07:01"
+    },
+    {
+      "start": 423.28,
+      "duration": 1.919,
+      "text": "is already some banks that we know that",
+      "timestamp": "07:03"
+    },
+    {
+      "start": 425.199,
+      "duration": 1.761,
+      "text": "have retail crypto product, right? So we",
+      "timestamp": "07:05"
+    },
+    {
+      "start": 426.96,
+      "duration": 2.16,
+      "text": "have Zuker Contonal Bank in Switzerland.",
+      "timestamp": "07:06"
+    },
+    {
+      "start": 429.12,
+      "duration": 2.079,
+      "text": "We have Post Finance in Switzerland. You",
+      "timestamp": "07:09"
+    },
+    {
+      "start": 431.199,
+      "duration": 1.681,
+      "text": "know, banks in Brazil already have a",
+      "timestamp": "07:11"
+    },
+    {
+      "start": 432.88,
+      "duration": 2.319,
+      "text": "crypto offering. A lot of others are",
+      "timestamp": "07:12"
+    },
+    {
+      "start": 435.199,
+      "duration": 1.601,
+      "text": "coming into the space. They're not",
+      "timestamp": "07:15"
+    },
+    {
+      "start": 436.8,
+      "duration": 1.6,
+      "text": "really that interested in crypto, but",
+      "timestamp": "07:16"
+    },
+    {
+      "start": 438.4,
+      "duration": 1.919,
+      "text": "they are preparing for tokenized",
+      "timestamp": "07:18"
+    },
+    {
+      "start": 440.319,
+      "duration": 2.081,
+      "text": "securities. So tokenized money market",
+      "timestamp": "07:20"
+    },
+    {
+      "start": 442.4,
+      "duration": 2.56,
+      "text": "funds, uh tokenized debt, and they know",
+      "timestamp": "07:22"
+    },
+    {
+      "start": 444.96,
+      "duration": 1.679,
+      "text": "that if they start playing around with",
+      "timestamp": "07:24"
+    },
+    {
+      "start": 446.639,
+      "duration": 1.361,
+      "text": "Bitcoin, Ethereum, that's going to",
+      "timestamp": "07:26"
+    },
+    {
+      "start": 448.0,
+      "duration": 1.759,
+      "text": "position them really well. they will be",
+      "timestamp": "07:28"
+    },
+    {
+      "start": 449.759,
+      "duration": 1.681,
+      "text": "able to iron out any kind of little",
+      "timestamp": "07:29"
+    },
+    {
+      "start": 451.44,
+      "duration": 2.319,
+      "text": "details that they need to iron out in",
+      "timestamp": "07:31"
+    },
+    {
+      "start": 453.759,
+      "duration": 2.56,
+      "text": "the operating systems.",
+      "timestamp": "07:33"
+    },
+    {
+      "start": 456.319,
+      "duration": 2.561,
+      "text": "Um, and I feel like, you know, once we",
+      "timestamp": "07:36"
+    },
+    {
+      "start": 458.88,
+      "duration": 3.2,
+      "text": "have BNY Melon, Fidelity, State Trade",
+      "timestamp": "07:38"
+    },
+    {
+      "start": 462.08,
+      "duration": 2.239,
+      "text": "offering crypto and people can log in,",
+      "timestamp": "07:42"
+    },
+    {
+      "start": 464.319,
+      "duration": 2.401,
+      "text": "they can have their equities, their fiat",
+      "timestamp": "07:44"
+    },
+    {
+      "start": 466.72,
+      "duration": 2.0,
+      "text": "and their crypto, that's going to be a",
+      "timestamp": "07:46"
+    },
+    {
+      "start": 468.72,
+      "duration": 2.08,
+      "text": "very tough time for traditional crypto",
+      "timestamp": "07:48"
+    },
+    {
+      "start": 470.8,
+      "duration": 1.76,
+      "text": "custodians, right? So, the biggest",
+      "timestamp": "07:50"
+    },
+    {
+      "start": 472.56,
+      "duration": 2.8,
+      "text": "custodians out there is Coinbase, Bidco,",
+      "timestamp": "07:52"
+    },
+    {
+      "start": 475.36,
+      "duration": 2.16,
+      "text": "Anchorage, Zodia. they've done a really",
+      "timestamp": "07:55"
+    },
+    {
+      "start": 477.52,
+      "duration": 2.399,
+      "text": "good job of providing a custody service",
+      "timestamp": "07:57"
+    },
+    {
+      "start": 479.919,
+      "duration": 1.521,
+      "text": "and they will be competing very",
+      "timestamp": "07:59"
+    },
+    {
+      "start": 481.44,
+      "duration": 2.159,
+      "text": "aggressively with the banks entering the",
+      "timestamp": "08:01"
+    },
+    {
+      "start": 483.599,
+      "duration": 2.081,
+      "text": "space and then of course we have",
+      "timestamp": "08:03"
+    },
+    {
+      "start": 485.68,
+      "duration": 1.84,
+      "text": "exchanges right so that's kind of where",
+      "timestamp": "08:05"
+    },
+    {
+      "start": 487.52,
+      "duration": 1.6,
+      "text": "a lot of the high-profile hacks are",
+      "timestamp": "08:07"
+    },
+    {
+      "start": 489.12,
+      "duration": 1.919,
+      "text": "occurring so they also really value",
+      "timestamp": "08:09"
+    },
+    {
+      "start": 491.039,
+      "duration": 1.84,
+      "text": "security but then they need a",
+      "timestamp": "08:11"
+    },
+    {
+      "start": 492.879,
+      "duration": 2.32,
+      "text": "scalability so they need an ability to",
+      "timestamp": "08:12"
+    },
+    {
+      "start": 495.199,
+      "duration": 3.361,
+      "text": "spin up millions of addresses like at",
+      "timestamp": "08:15"
+    },
+    {
+      "start": 498.56,
+      "duration": 2.0,
+      "text": "you know in in a very short notice so",
+      "timestamp": "08:18"
+    },
+    {
+      "start": 500.56,
+      "duration": 2.16,
+      "text": "and they need to have an ability to",
+      "timestamp": "08:20"
+    },
+    {
+      "start": 502.72,
+      "duration": 1.68,
+      "text": "provide deposit addresses for their",
+      "timestamp": "08:22"
+    },
+    {
+      "start": 504.4,
+      "duration": 3.199,
+      "text": "clients so the slightly different use",
+      "timestamp": "08:24"
+    },
+    {
+      "start": 507.599,
+      "duration": 2.241,
+      "text": "cases, right? One is more of a treasury",
+      "timestamp": "08:27"
+    },
+    {
+      "start": 509.84,
+      "duration": 1.6,
+      "text": "use case. I just have a lot of digital",
+      "timestamp": "08:29"
+    },
+    {
+      "start": 511.44,
+      "duration": 1.279,
+      "text": "assets that are sitting here. They're",
+      "timestamp": "08:31"
+    },
+    {
+      "start": 512.719,
+      "duration": 2.0,
+      "text": "not really moving much. Two, I have a",
+      "timestamp": "08:32"
+    },
+    {
+      "start": 514.719,
+      "duration": 1.76,
+      "text": "lot of clients depositing, withdrawing",
+      "timestamp": "08:34"
+    },
+    {
+      "start": 516.479,
+      "duration": 1.521,
+      "text": "funds. I need to be able to do this",
+      "timestamp": "08:36"
+    },
+    {
+      "start": 518.0,
+      "duration": 2.399,
+      "text": "quickly. I need to be able to sweep",
+      "timestamp": "08:38"
+    },
+    {
+      "start": 520.399,
+      "duration": 2.401,
+      "text": "deposits into a single omnibus account.",
+      "timestamp": "08:40"
+    },
+    {
+      "start": 522.8,
+      "duration": 1.44,
+      "text": "I need to do that efficiently and",
+      "timestamp": "08:42"
+    },
+    {
+      "start": 524.24,
+      "duration": 2.48,
+      "text": "cheaply. And then we have, of course,",
+      "timestamp": "08:44"
+    },
+    {
+      "start": 526.72,
+      "duration": 2.48,
+      "text": "VCs. They also hold a lot of crypto.",
+      "timestamp": "08:46"
+    },
+    {
+      "start": 529.2,
+      "duration": 1.04,
+      "text": "They have a completely different",
+      "timestamp": "08:49"
+    },
+    {
+      "start": 530.24,
+      "duration": 1.84,
+      "text": "requirement. Once again, you know,",
+      "timestamp": "08:50"
+    },
+    {
+      "start": 532.08,
+      "duration": 2.56,
+      "text": "they're getting into projects very",
+      "timestamp": "08:52"
+    },
+    {
+      "start": 534.64,
+      "duration": 2.24,
+      "text": "early. So they're looking for very quick",
+      "timestamp": "08:54"
+    },
+    {
+      "start": 536.88,
+      "duration": 3.28,
+      "text": "support. So if you're servicing VCs, you",
+      "timestamp": "08:56"
+    },
+    {
+      "start": 540.16,
+      "duration": 2.0,
+      "text": "need to be able to right there is there",
+      "timestamp": "09:00"
+    },
+    {
+      "start": 542.16,
+      "duration": 1.679,
+      "text": "is this new project. I'm adding support",
+      "timestamp": "09:02"
+    },
+    {
+      "start": 543.839,
+      "duration": 2.161,
+      "text": "for it today. And that's how you get",
+      "timestamp": "09:03"
+    },
+    {
+      "start": 546.0,
+      "duration": 1.76,
+      "text": "that crowd, right? And then we have",
+      "timestamp": "09:06"
+    },
+    {
+      "start": 547.76,
+      "duration": 2.56,
+      "text": "trading desks. So as I mentioned, Galaxy",
+      "timestamp": "09:07"
+    },
+    {
+      "start": 550.32,
+      "duration": 2.4,
+      "text": "has a very large trading desk. They have",
+      "timestamp": "09:10"
+    },
+    {
+      "start": 552.72,
+      "duration": 1.92,
+      "text": "again what do they want? They want to be",
+      "timestamp": "09:12"
+    },
+    {
+      "start": 554.64,
+      "duration": 2.08,
+      "text": "able to trade. They want to be able to",
+      "timestamp": "09:14"
+    },
+    {
+      "start": 556.72,
+      "duration": 2.72,
+      "text": "do borrowing and lending um but without",
+      "timestamp": "09:16"
+    },
+    {
+      "start": 559.44,
+      "duration": 2.32,
+      "text": "being exposed to counterparty risk. So",
+      "timestamp": "09:19"
+    },
+    {
+      "start": 561.76,
+      "duration": 1.92,
+      "text": "of course that's on the back of FTX.",
+      "timestamp": "09:21"
+    },
+    {
+      "start": 563.68,
+      "duration": 1.2,
+      "text": "Everybody's like well I don't want to be",
+      "timestamp": "09:23"
+    },
+    {
+      "start": 564.88,
+      "duration": 2.56,
+      "text": "depositing things to an exchange and a",
+      "timestamp": "09:24"
+    },
+    {
+      "start": 567.44,
+      "duration": 1.68,
+      "text": "number of providers out there has",
+      "timestamp": "09:27"
+    },
+    {
+      "start": 569.12,
+      "duration": 2.48,
+      "text": "attempted to solve that right so we have",
+      "timestamp": "09:29"
+    },
+    {
+      "start": 571.6,
+      "duration": 2.88,
+      "text": "fireblocks uh corporate clear loop",
+      "timestamp": "09:31"
+    },
+    {
+      "start": 574.48,
+      "duration": 2.08,
+      "text": "ledger they are providing this",
+      "timestamp": "09:34"
+    },
+    {
+      "start": 576.56,
+      "duration": 3.04,
+      "text": "settlement networks but interestingly I",
+      "timestamp": "09:36"
+    },
+    {
+      "start": 579.6,
+      "duration": 1.359,
+      "text": "I talked to people about those",
+      "timestamp": "09:39"
+    },
+    {
+      "start": 580.959,
+      "duration": 1.521,
+      "text": "settlement networks they all operate",
+      "timestamp": "09:40"
+    },
+    {
+      "start": 582.48,
+      "duration": 1.84,
+      "text": "slightly differently and you can't quite",
+      "timestamp": "09:42"
+    },
+    {
+      "start": 584.32,
+      "duration": 1.68,
+      "text": "fully understand actually what's going",
+      "timestamp": "09:44"
+    },
+    {
+      "start": 586.0,
+      "duration": 2.72,
+      "text": "on um I think if you're considering",
+      "timestamp": "09:46"
+    },
+    {
+      "start": 588.72,
+      "duration": 1.76,
+      "text": "using one of those if you work for a",
+      "timestamp": "09:48"
+    },
+    {
+      "start": 590.48,
+      "duration": 1.6,
+      "text": "financial institution or a bank you",
+      "timestamp": "09:50"
+    },
+    {
+      "start": 592.08,
+      "duration": 2.0,
+      "text": "really got to say Am I actually",
+      "timestamp": "09:52"
+    },
+    {
+      "start": 594.08,
+      "duration": 2.96,
+      "text": "eliminating uh counterparty risk or am I",
+      "timestamp": "09:54"
+    },
+    {
+      "start": 597.04,
+      "duration": 2.4,
+      "text": "just passing that on to this other",
+      "timestamp": "09:57"
+    },
+    {
+      "start": 599.44,
+      "duration": 2.32,
+      "text": "provider? So what happens when everybody",
+      "timestamp": "09:59"
+    },
+    {
+      "start": 601.76,
+      "duration": 1.68,
+      "text": "goes bankrupt? Do I still get my money",
+      "timestamp": "10:01"
+    },
+    {
+      "start": 603.44,
+      "duration": 1.76,
+      "text": "back?",
+      "timestamp": "10:03"
+    },
+    {
+      "start": 605.2,
+      "duration": 3.36,
+      "text": "Um and then DeFi funds, uh they you know",
+      "timestamp": "10:05"
+    },
+    {
+      "start": 608.56,
+      "duration": 1.76,
+      "text": "what they want? They want things really",
+      "timestamp": "10:08"
+    },
+    {
+      "start": 610.32,
+      "duration": 2.24,
+      "text": "cheap. They want things really fast and",
+      "timestamp": "10:10"
+    },
+    {
+      "start": 612.56,
+      "duration": 2.64,
+      "text": "they want of course an ability to deploy",
+      "timestamp": "10:12"
+    },
+    {
+      "start": 615.2,
+      "duration": 2.4,
+      "text": "funds into the DeFi ecosystem when the",
+      "timestamp": "10:15"
+    },
+    {
+      "start": 617.6,
+      "duration": 1.6,
+      "text": "market conditions are right. They make",
+      "timestamp": "10:17"
+    },
+    {
+      "start": 619.2,
+      "duration": 2.0,
+      "text": "money when the funds are deployed. So",
+      "timestamp": "10:19"
+    },
+    {
+      "start": 621.2,
+      "duration": 1.84,
+      "text": "what they really care about is can I",
+      "timestamp": "10:21"
+    },
+    {
+      "start": 623.04,
+      "duration": 2.88,
+      "text": "connect to Salana DeFi? Can I connect to",
+      "timestamp": "10:23"
+    },
+    {
+      "start": 625.92,
+      "duration": 4.08,
+      "text": "DeFi on various EVM chains? So my I",
+      "timestamp": "10:25"
+    },
+    {
+      "start": 630.0,
+      "duration": 1.76,
+      "text": "guess my first suggestion for anybody",
+      "timestamp": "10:30"
+    },
+    {
+      "start": 631.76,
+      "duration": 1.92,
+      "text": "who's getting into this space is to",
+      "timestamp": "10:31"
+    },
+    {
+      "start": 633.68,
+      "duration": 1.92,
+      "text": "identify who are you building a solution",
+      "timestamp": "10:33"
+    },
+    {
+      "start": 635.6,
+      "duration": 2.0,
+      "text": "for because if you're trying to build",
+      "timestamp": "10:35"
+    },
+    {
+      "start": 637.6,
+      "duration": 1.12,
+      "text": "for all of these different",
+      "timestamp": "10:37"
+    },
+    {
+      "start": 638.72,
+      "duration": 1.359,
+      "text": "functionalities, you're going to have to",
+      "timestamp": "10:38"
+    },
+    {
+      "start": 640.079,
+      "duration": 2.241,
+      "text": "have an enormous engineering team and",
+      "timestamp": "10:40"
+    },
+    {
+      "start": 642.32,
+      "duration": 2.16,
+      "text": "you probably won't appeal to anybody. So",
+      "timestamp": "10:42"
+    },
+    {
+      "start": 644.48,
+      "duration": 2.24,
+      "text": "you need to go right I'm doing this for",
+      "timestamp": "10:44"
+    },
+    {
+      "start": 646.72,
+      "duration": 3.44,
+      "text": "like in GK8 our main customer is banks.",
+      "timestamp": "10:46"
+    },
+    {
+      "start": 650.16,
+      "duration": 2.239,
+      "text": "That's what who we decided to target. We",
+      "timestamp": "10:50"
+    },
+    {
+      "start": 652.399,
+      "duration": 2.401,
+      "text": "also have other major clients, but we",
+      "timestamp": "10:52"
+    },
+    {
+      "start": 654.8,
+      "duration": 1.599,
+      "text": "really built everything that a bank",
+      "timestamp": "10:54"
+    },
+    {
+      "start": 656.399,
+      "duration": 2.081,
+      "text": "might want. So, that's things like",
+      "timestamp": "10:56"
+    },
+    {
+      "start": 658.48,
+      "duration": 1.52,
+      "text": "Active Directory that you've probably",
+      "timestamp": "10:58"
+    },
+    {
+      "start": 660.0,
+      "duration": 1.839,
+      "text": "never heard of, but that's what banks",
+      "timestamp": "11:00"
+    },
+    {
+      "start": 661.839,
+      "duration": 3.041,
+      "text": "use to manage various uh users, to add,",
+      "timestamp": "11:01"
+    },
+    {
+      "start": 664.88,
+      "duration": 1.84,
+      "text": "remove users. You know, we've built",
+      "timestamp": "11:04"
+    },
+    {
+      "start": 666.72,
+      "duration": 2.239,
+      "text": "things like a very comprehensive policy",
+      "timestamp": "11:06"
+    },
+    {
+      "start": 668.959,
+      "duration": 3.681,
+      "text": "engine which allows you to set things",
+      "timestamp": "11:08"
+    },
+    {
+      "start": 672.64,
+      "duration": 3.12,
+      "text": "like daily, weekly, monthly limits on",
+      "timestamp": "11:12"
+    },
+    {
+      "start": 675.76,
+      "duration": 2.319,
+      "text": "spend, which allows you to manage your",
+      "timestamp": "11:15"
+    },
+    {
+      "start": 678.079,
+      "duration": 2.081,
+      "text": "users, set up workflows in a very",
+      "timestamp": "11:18"
+    },
+    {
+      "start": 680.16,
+      "duration": 2.88,
+      "text": "granular level. Um, this is actually",
+      "timestamp": "11:20"
+    },
+    {
+      "start": 683.04,
+      "duration": 1.84,
+      "text": "might sound quite boring, but it's",
+      "timestamp": "11:23"
+    },
+    {
+      "start": 684.88,
+      "duration": 1.76,
+      "text": "absolutely essential for people to be",
+      "timestamp": "11:24"
+    },
+    {
+      "start": 686.64,
+      "duration": 2.96,
+      "text": "able to say that they have the same",
+      "timestamp": "11:26"
+    },
+    {
+      "start": 689.6,
+      "duration": 1.919,
+      "text": "control over digital assets they have",
+      "timestamp": "11:29"
+    },
+    {
+      "start": 691.519,
+      "duration": 4.481,
+      "text": "over traditional assets. Um so you know",
+      "timestamp": "11:31"
+    },
+    {
+      "start": 696.0,
+      "duration": 2.8,
+      "text": "over the last month I would say there is",
+      "timestamp": "11:36"
+    },
+    {
+      "start": 698.8,
+      "duration": 2.96,
+      "text": "at least 10 tenders that came out from",
+      "timestamp": "11:38"
+    },
+    {
+      "start": 701.76,
+      "duration": 3.68,
+      "text": "European banks that are uh on this you",
+      "timestamp": "11:41"
+    },
+    {
+      "start": 705.44,
+      "duration": 2.48,
+      "text": "know quietly but very confidently",
+      "timestamp": "11:45"
+    },
+    {
+      "start": 707.92,
+      "duration": 2.4,
+      "text": "looking for custody solutions. So that",
+      "timestamp": "11:47"
+    },
+    {
+      "start": 710.32,
+      "duration": 2.079,
+      "text": "means that in the next you know towards",
+      "timestamp": "11:50"
+    },
+    {
+      "start": 712.399,
+      "duration": 1.44,
+      "text": "the end of this year we're really going",
+      "timestamp": "11:52"
+    },
+    {
+      "start": 713.839,
+      "duration": 2.24,
+      "text": "to see a lot of announcements about",
+      "timestamp": "11:53"
+    },
+    {
+      "start": 716.079,
+      "duration": 2.161,
+      "text": "banks having selected a custody",
+      "timestamp": "11:56"
+    },
+    {
+      "start": 718.24,
+      "duration": 2.24,
+      "text": "infrastructure partner and for them the",
+      "timestamp": "11:58"
+    },
+    {
+      "start": 720.48,
+      "duration": 2.32,
+      "text": "decision is also well there's multiple",
+      "timestamp": "12:00"
+    },
+    {
+      "start": 722.8,
+      "duration": 2.0,
+      "text": "decisions first of all do I do digital",
+      "timestamp": "12:02"
+    },
+    {
+      "start": 724.8,
+      "duration": 2.8,
+      "text": "assets at all do I do crypto or do I do",
+      "timestamp": "12:04"
+    },
+    {
+      "start": 727.6,
+      "duration": 1.679,
+      "text": "tokenized assets for most of them it's",
+      "timestamp": "12:07"
+    },
+    {
+      "start": 729.279,
+      "duration": 2.401,
+      "text": "like tokenized securities then do I",
+      "timestamp": "12:09"
+    },
+    {
+      "start": 731.68,
+      "duration": 2.08,
+      "text": "build things in house I have to hire an",
+      "timestamp": "12:11"
+    },
+    {
+      "start": 733.76,
+      "duration": 2.48,
+      "text": "engineering team do I partner with the",
+      "timestamp": "12:13"
+    },
+    {
+      "start": 736.24,
+      "duration": 2.719,
+      "text": "custodian an external custodians like a",
+      "timestamp": "12:16"
+    },
+    {
+      "start": 738.959,
+      "duration": 2.241,
+      "text": "traditional crypto to custodian, well,",
+      "timestamp": "12:18"
+    },
+    {
+      "start": 741.2,
+      "duration": 3.199,
+      "text": "we're not sure if we trust them. Uh, or",
+      "timestamp": "12:21"
+    },
+    {
+      "start": 744.399,
+      "duration": 2.641,
+      "text": "do I own my own infrastructure, set it",
+      "timestamp": "12:24"
+    },
+    {
+      "start": 747.04,
+      "duration": 2.56,
+      "text": "up internally, and then connected to",
+      "timestamp": "12:27"
+    },
+    {
+      "start": 749.6,
+      "duration": 2.88,
+      "text": "everything I have through a set of APIs.",
+      "timestamp": "12:29"
+    },
+    {
+      "start": 752.48,
+      "duration": 2.08,
+      "text": "Um, and another kind of things that I",
+      "timestamp": "12:32"
+    },
+    {
+      "start": 754.56,
+      "duration": 1.68,
+      "text": "wanted to talk about is where is this",
+      "timestamp": "12:34"
+    },
+    {
+      "start": 756.24,
+      "duration": 2.56,
+      "text": "whole space heading next? So a lot of",
+      "timestamp": "12:36"
+    },
+    {
+      "start": 758.8,
+      "duration": 2.08,
+      "text": "the requests that I'm getting right now",
+      "timestamp": "12:38"
+    },
+    {
+      "start": 760.88,
+      "duration": 3.199,
+      "text": "is for integrations with all the other",
+      "timestamp": "12:40"
+    },
+    {
+      "start": 764.079,
+      "duration": 1.601,
+      "text": "service providers that are in the space",
+      "timestamp": "12:44"
+    },
+    {
+      "start": 765.68,
+      "duration": 2.08,
+      "text": "such as you know chain analysis for",
+      "timestamp": "12:45"
+    },
+    {
+      "start": 767.76,
+      "duration": 3.92,
+      "text": "ability to control um and view and",
+      "timestamp": "12:47"
+    },
+    {
+      "start": 771.68,
+      "duration": 1.68,
+      "text": "identify potentially malicious",
+      "timestamp": "12:51"
+    },
+    {
+      "start": 773.36,
+      "duration": 2.88,
+      "text": "transactions to things like um you know",
+      "timestamp": "12:53"
+    },
+    {
+      "start": 776.24,
+      "duration": 1.76,
+      "text": "chain link that helps you do proof of",
+      "timestamp": "12:56"
+    },
+    {
+      "start": 778.0,
+      "duration": 2.8,
+      "text": "reserves for your you know stable coin",
+      "timestamp": "12:58"
+    },
+    {
+      "start": 780.8,
+      "duration": 2.4,
+      "text": "or whatever that might be to even uh",
+      "timestamp": "13:00"
+    },
+    {
+      "start": 783.2,
+      "duration": 2.879,
+      "text": "things like Cashlink which is a German",
+      "timestamp": "13:03"
+    },
+    {
+      "start": 786.079,
+      "duration": 3.44,
+      "text": "company that helps you uh maintain two",
+      "timestamp": "13:06"
+    },
+    {
+      "start": 789.519,
+      "duration": 1.76,
+      "text": "sets of registries, right? An onchain",
+      "timestamp": "13:09"
+    },
+    {
+      "start": 791.279,
+      "duration": 2.24,
+      "text": "registry that's also linked to an",
+      "timestamp": "13:11"
+    },
+    {
+      "start": 793.519,
+      "duration": 1.521,
+      "text": "off-chain registry that a German",
+      "timestamp": "13:13"
+    },
+    {
+      "start": 795.04,
+      "duration": 2.08,
+      "text": "government recognizes.",
+      "timestamp": "13:15"
+    },
+    {
+      "start": 797.12,
+      "duration": 3.519,
+      "text": "Um I I think this is absolutely a a",
+      "timestamp": "13:17"
+    },
+    {
+      "start": 800.639,
+      "duration": 2.481,
+      "text": "fascinating space that's it's evolving",
+      "timestamp": "13:20"
+    },
+    {
+      "start": 803.12,
+      "duration": 3.519,
+      "text": "really quickly. Um and to just wrap this",
+      "timestamp": "13:23"
+    },
+    {
+      "start": 806.639,
+      "duration": 2.081,
+      "text": "up, I wanted to talk about a couple of",
+      "timestamp": "13:26"
+    },
+    {
+      "start": 808.72,
+      "duration": 2.0,
+      "text": "projects that we are directly involved",
+      "timestamp": "13:28"
+    },
+    {
+      "start": 810.72,
+      "duration": 2.239,
+      "text": "in just to give you a sense of like a",
+      "timestamp": "13:30"
+    },
+    {
+      "start": 812.959,
+      "duration": 3.201,
+      "text": "variety of of um opportunities in the",
+      "timestamp": "13:32"
+    },
+    {
+      "start": 816.16,
+      "duration": 2.239,
+      "text": "space. So",
+      "timestamp": "13:36"
+    },
+    {
+      "start": 818.399,
+      "duration": 5.12,
+      "text": "Galaxy uh flow traders um and DWS which",
+      "timestamp": "13:38"
+    },
+    {
+      "start": 823.519,
+      "duration": 1.841,
+      "text": "is an asset management side of Deutsche",
+      "timestamp": "13:43"
+    },
+    {
+      "start": 825.36,
+      "duration": 2.56,
+      "text": "Bank have come together to form a joint",
+      "timestamp": "13:45"
+    },
+    {
+      "start": 827.92,
+      "duration": 1.84,
+      "text": "venture to issue a Eurobbacked stable",
+      "timestamp": "13:47"
+    },
+    {
+      "start": 829.76,
+      "duration": 2.639,
+      "text": "coin. Right? So that's something that is",
+      "timestamp": "13:49"
+    },
+    {
+      "start": 832.399,
+      "duration": 2.88,
+      "text": "obviously trying to uh make sure that we",
+      "timestamp": "13:52"
+    },
+    {
+      "start": 835.279,
+      "duration": 1.68,
+      "text": "have the right kind of stable coins for",
+      "timestamp": "13:55"
+    },
+    {
+      "start": 836.959,
+      "duration": 2.56,
+      "text": "Europe and that's also requires a lot of",
+      "timestamp": "13:56"
+    },
+    {
+      "start": 839.519,
+      "duration": 2.0,
+      "text": "the functionality that I have described",
+      "timestamp": "13:59"
+    },
+    {
+      "start": 841.519,
+      "duration": 2.32,
+      "text": "earlier. Uh another thing we're doing is",
+      "timestamp": "14:01"
+    },
+    {
+      "start": 843.839,
+      "duration": 1.761,
+      "text": "we're working with a large European bank",
+      "timestamp": "14:03"
+    },
+    {
+      "start": 845.6,
+      "duration": 2.479,
+      "text": "to prepare for retail crypto offering.",
+      "timestamp": "14:05"
+    },
+    {
+      "start": 848.079,
+      "duration": 3.681,
+      "text": "So that's setting up uh a very scalable",
+      "timestamp": "14:08"
+    },
+    {
+      "start": 851.76,
+      "duration": 2.0,
+      "text": "system for them that's also connected to",
+      "timestamp": "14:11"
+    },
+    {
+      "start": 853.76,
+      "duration": 2.48,
+      "text": "various liquidity providers where people",
+      "timestamp": "14:13"
+    },
+    {
+      "start": 856.24,
+      "duration": 3.039,
+      "text": "can come in, you know, to the online",
+      "timestamp": "14:16"
+    },
+    {
+      "start": 859.279,
+      "duration": 1.36,
+      "text": "banking portal that they're very",
+      "timestamp": "14:19"
+    },
+    {
+      "start": 860.639,
+      "duration": 2.64,
+      "text": "familiar with and be able to buy, sell",
+      "timestamp": "14:20"
+    },
+    {
+      "start": 863.279,
+      "duration": 2.401,
+      "text": "crypto and hopefully towards the end of",
+      "timestamp": "14:23"
+    },
+    {
+      "start": 865.68,
+      "duration": 2.48,
+      "text": "the year even stake it, right? Uh and",
+      "timestamp": "14:25"
+    },
+    {
+      "start": 868.16,
+      "duration": 2.08,
+      "text": "then we're working with a very large uh",
+      "timestamp": "14:28"
+    },
+    {
+      "start": 870.24,
+      "duration": 2.8,
+      "text": "US bank to help them bring a tokenized",
+      "timestamp": "14:30"
+    },
+    {
+      "start": 873.04,
+      "duration": 3.68,
+      "text": "money market fund um to their users. So",
+      "timestamp": "14:33"
+    },
+    {
+      "start": 876.72,
+      "duration": 2.16,
+      "text": "the these are kind of examples that are",
+      "timestamp": "14:36"
+    },
+    {
+      "start": 878.88,
+      "duration": 1.92,
+      "text": "are pretty big examples of what's",
+      "timestamp": "14:38"
+    },
+    {
+      "start": 880.8,
+      "duration": 1.76,
+      "text": "happening in institutional space right",
+      "timestamp": "14:40"
+    },
+    {
+      "start": 882.56,
+      "duration": 2.719,
+      "text": "now that kind of spans the whole you",
+      "timestamp": "14:42"
+    },
+    {
+      "start": 885.279,
+      "duration": 2.721,
+      "text": "know custody tokenization",
+      "timestamp": "14:45"
+    },
+    {
+      "start": 888.0,
+      "duration": 3.6,
+      "text": "staking integration side of things",
+      "timestamp": "14:48"
+    },
+    {
+      "start": 891.6,
+      "duration": 3.599,
+      "text": "and um if you have any questions this is",
+      "timestamp": "14:51"
+    },
+    {
+      "start": 895.199,
+      "duration": 5.64,
+      "text": "now a really good time to do this.",
+      "timestamp": "14:55"
+    },
+    {
+      "start": 902.24,
+      "duration": 3.24,
+      "text": "Oh thanks",
+      "timestamp": "15:02"
+    },
+    {
+      "start": 911.04,
+      "duration": 1.68,
+      "text": "Thank you. Very uh informative",
+      "timestamp": "15:11"
+    },
+    {
+      "start": 912.72,
+      "duration": 2.72,
+      "text": "presentation uh very well structured",
+      "timestamp": "15:12"
+    },
+    {
+      "start": 915.44,
+      "duration": 2.32,
+      "text": "helping me and I guess everyone uh",
+      "timestamp": "15:15"
+    },
+    {
+      "start": 917.76,
+      "duration": 1.92,
+      "text": "understand more about the space. I'm",
+      "timestamp": "15:17"
+    },
+    {
+      "start": 919.68,
+      "duration": 2.08,
+      "text": "just interested what do you think like",
+      "timestamp": "15:19"
+    },
+    {
+      "start": 921.76,
+      "duration": 1.439,
+      "text": "based on what you were saying about",
+      "timestamp": "15:21"
+    },
+    {
+      "start": 923.199,
+      "duration": 4.88,
+      "text": "custody and you know uh securing assets",
+      "timestamp": "15:23"
+    },
+    {
+      "start": 928.079,
+      "duration": 2.481,
+      "text": "um and not only securities not not not",
+      "timestamp": "15:28"
+    },
+    {
+      "start": 930.56,
+      "duration": 2.079,
+      "text": "only tokenized securities but like uh",
+      "timestamp": "15:30"
+    },
+    {
+      "start": 932.639,
+      "duration": 2.64,
+      "text": "digital assets traditional native crypto",
+      "timestamp": "15:32"
+    },
+    {
+      "start": 935.279,
+      "duration": 3.12,
+      "text": "assets and then managing those assets on",
+      "timestamp": "15:35"
+    },
+    {
+      "start": 938.399,
+      "duration": 1.841,
+      "text": "chain like for example in asset",
+      "timestamp": "15:38"
+    },
+    {
+      "start": 940.24,
+      "duration": 2.8,
+      "text": "management infrastructure on chain like",
+      "timestamp": "15:40"
+    },
+    {
+      "start": 943.04,
+      "duration": 3.12,
+      "text": "what are the biggest um yeah blocks you",
+      "timestamp": "15:43"
+    },
+    {
+      "start": 946.16,
+      "duration": 3.919,
+      "text": "you see in the space for institutions to",
+      "timestamp": "15:46"
+    },
+    {
+      "start": 950.079,
+      "duration": 2.88,
+      "text": "actually like going on chain and",
+      "timestamp": "15:50"
+    },
+    {
+      "start": 952.959,
+      "duration": 2.481,
+      "text": "participating with you know assets that",
+      "timestamp": "15:52"
+    },
+    {
+      "start": 955.44,
+      "duration": 2.079,
+      "text": "are actually managed by smart contracts",
+      "timestamp": "15:55"
+    },
+    {
+      "start": 957.519,
+      "duration": 3.041,
+      "text": "on chain like how is this um going to",
+      "timestamp": "15:57"
+    },
+    {
+      "start": 960.56,
+      "duration": 3.12,
+      "text": "happen do you think and will it happen",
+      "timestamp": "16:00"
+    },
+    {
+      "start": 963.68,
+      "duration": 2.719,
+      "text": "uh at all like maybe in the next two",
+      "timestamp": "16:03"
+    },
+    {
+      "start": 966.399,
+      "duration": 2.56,
+      "text": "three years I I mean I certainly hope it",
+      "timestamp": "16:06"
+    },
+    {
+      "start": 968.959,
+      "duration": 2.24,
+      "text": "would happen but to be honest this is so",
+      "timestamp": "16:08"
+    },
+    {
+      "start": 971.199,
+      "duration": 3.681,
+      "text": "far so far in anybody's mind right now",
+      "timestamp": "16:11"
+    },
+    {
+      "start": 974.88,
+      "duration": 2.8,
+      "text": "they really coming to terms with what is",
+      "timestamp": "16:14"
+    },
+    {
+      "start": 977.68,
+      "duration": 3.04,
+      "text": "custody So okay, I have to protect my",
+      "timestamp": "16:17"
+    },
+    {
+      "start": 980.72,
+      "duration": 3.359,
+      "text": "private keys, right? So how do I also um",
+      "timestamp": "16:20"
+    },
+    {
+      "start": 984.079,
+      "duration": 2.161,
+      "text": "integrate it to my existing systems? How",
+      "timestamp": "16:24"
+    },
+    {
+      "start": 986.24,
+      "duration": 2.48,
+      "text": "do I train my people? Like when I bring",
+      "timestamp": "16:26"
+    },
+    {
+      "start": 988.72,
+      "duration": 2.16,
+      "text": "up something like staking, you know, for",
+      "timestamp": "16:28"
+    },
+    {
+      "start": 990.88,
+      "duration": 3.6,
+      "text": "for most institutions, it's um it's",
+      "timestamp": "16:30"
+    },
+    {
+      "start": 994.48,
+      "duration": 2.88,
+      "text": "something completely amazing out there,",
+      "timestamp": "16:34"
+    },
+    {
+      "start": 997.36,
+      "duration": 3.919,
+      "text": "crazy that maybe they'll do one day. Um",
+      "timestamp": "16:37"
+    },
+    {
+      "start": 1001.279,
+      "duration": 1.36,
+      "text": "you know, I've brought up define",
+      "timestamp": "16:41"
+    },
+    {
+      "start": 1002.639,
+      "duration": 1.841,
+      "text": "conversations. People just look at me",
+      "timestamp": "16:42"
+    },
+    {
+      "start": 1004.48,
+      "duration": 1.599,
+      "text": "like I'm crazy or they laugh or they",
+      "timestamp": "16:44"
+    },
+    {
+      "start": 1006.079,
+      "duration": 2.0,
+      "text": "don't understand what it is. Especially",
+      "timestamp": "16:46"
+    },
+    {
+      "start": 1008.079,
+      "duration": 3.521,
+      "text": "when it comes to uh public chains. I I",
+      "timestamp": "16:48"
+    },
+    {
+      "start": 1011.6,
+      "duration": 2.56,
+      "text": "think the adoption really is coming from",
+      "timestamp": "16:51"
+    },
+    {
+      "start": 1014.16,
+      "duration": 3.2,
+      "text": "the you know funds and not definitely",
+      "timestamp": "16:54"
+    },
+    {
+      "start": 1017.36,
+      "duration": 4.599,
+      "text": "not publicly traded institutions.",
+      "timestamp": "16:57"
+    },
+    {
+      "start": 1028.48,
+      "duration": 2.558,
+      "text": "Any other questions? No.",
+      "timestamp": "17:08"
+    },
+    {
+      "start": 1031.039,
+      "duration": 4.519,
+      "text": "Well, thank you. I appreciate it.",
+      "timestamp": "17:11"
+    }
+  ],
+  "extraction_timestamp": "2025-07-08T14:45:53.099597",
+  "playlist_title": "EthCC[8] Redford Stage"
+}

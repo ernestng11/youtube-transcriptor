@@ -1,0 +1,5129 @@
+{
+  "video_id": "DL82mGde6wo",
+  "video_title": "Prompt Engineering Advice From Top AI Startups",
+  "video_url": "https://www.youtube.com/watch?v=DL82mGde6wo",
+  "channel_title": "Y Combinator",
+  "published_at": null,
+  "duration_seconds": null,
+  "view_count": "490",
+  "like_count": null,
+  "description": "At first, prompting seemed to be a temporary workaround for getting the most out of large language models. But over time, it's become critical to the way we interact with AI.\n\nOn the Lightcone, Garry, Harj, Diana, and Jared break down what they've learned from working with hundreds of founders building with LLMs: why prompting still matters, where it breaks down, and how teams are making it more reliable in production.\n\nThey share real examples of prompts that failed, how companies are testing for quality, and what the best teams are doing to make LLM outputs useful and predictable.\n\nThe prompt from Parahelp (S24) discussed in the episode: https://parahelp.com/blog/prompt-design\n\n0:00 Intro\n0:58 Parahelp’s prompt example\n4:59 Different types of prompts\n6:51 Metaprompting \n7:58 Using examples\n12:10 Some tricks for longer prompts\n14:18 Findings on evals\n17:25 Every founder has become a forward deployed engineer (FDE)\n23:18 Vertical AI agents are closing big deals with the FDE model \n26:13 The personalities of the different LLMs\n27:26 Lessons from rubrics\n29:47 Kaizen and the art of communication\n31:00 Outro",
+  "transcript": {
+    "language": "English (auto-generated)",
+    "is_auto_generated": true,
+    "total_segments": 851,
+    "aggregated_text": "Metarprompting is turning out to be a very very powerful tool that everyone's using now. It kind of actually feels like coding in you know 1995 like the tools are not all the way there. We're you know in this new frontier. But personally it also kind of feels like learning how to manage a person where it's like how do I actually communicate uh you know the things that they need to know in order to make a good decision. Welcome back to another episode of the light cone. Today we're pulling back the curtain on what is actually happening inside the best AI startups when it comes to prompt engineering. We surveyed more than a dozen companies and got their take right from the frontier of building this stuff, the practical tips. Jared, why don't we start with an example from one of your best AI startups? I managed to get an example from a company called Parahelp. Parahelp does AI customer support. There are a bunch of companies who who are doing this, but Parhel is doing it really really well. They're actually powering the customer support for Perplexity and Replet and Bolt and a bunch of other like top AI companies now. So, if you if you go and you like email a customer support ticket into Perplexity, what's actually responding is like their AI agent. The cool thing is that the Powerhel guys very graciously agreed to show us the actual prompt that is powering this agent um and to put it on screen on YouTube for the entire world to see. Um it's like relatively hard to get these prompts for vertical AI agents because they're kind of like the crown jewels of the IP of these companies and so very grateful to the Powerhel guys for agreeing to basically like open source this prompt. Diana, can you walk us through this very detailed prompt? It's super interesting and it's very rare to get a chance to see this in action. So the interesting thing about this prompt is actually first it's really long. It's very detailed in this document you can see is like six pages long just scrolling through it. The big thing that a lot of the best prompts start with is this concept of uh setting up the role of the LLM. You're a manager of a customer service agent and it breaks down into bullet points what it needs to do. Then the big thing is telling the the task which is to approve or reject a tool call because it's orchestrating agent calls from all these other ones. And then it gives it a bit of the highle plan. It breaks it down step by step. You see steps one, two, three, four, five. And then it gives some of the important things to keep in mind that it should not kind of go weird into calling different kinds of tools. It tells them how to structure the output because a lot of things with agents is you need them to integrate with other agents. So almost like gluing the API call. So the is important to specify that it's going to give certain uh output of accepting or rejecting and in this format. Then this is sort of the highle section and one thing that the best prompts do they break it down sort of in this markdown type of style uh formatting. So you have sort of the heading here and then later on it goes into more details on how to do the planning and you see this is like a sub bullet part of it and as part of the plan there's actually three big sections is how to plan and then how to create each of the steps in the plan and then the highle example of the plan. One big thing about the best prompts is they outline how to reason about the task and then a big thing is giving it giving it an example and this is what it does. And one thing that's interesting about this it it looks more like programming than writing English because it has this uh XML tag kind of format to specify sort of the plan. We found that it makes it a lot easier for LMS to follow because a lot of LMS were post-trained in LHF with kind of XML type of input and it turns out to produce better results. Yeah. One thing I'm surprised that isn't in here or maybe this is just the version that they released. What I almost expect is there to be a section where it describes a particular scenario and uh actually gives example output for that scenario. That's in like the next stage of the pipeline. Yeah. Oh, really? Okay. Yeah. Because it's customer specific, right? Because like every customer has their own like flavor of how to respond to these support tickets. And so their challenge like a lot of these agent companies is like how do you build a general purpose product when every customer like wants you know has like slightly different workflows and like preferences. has a really interesting thing that I see the vertical AI agent companies talking about a lot which is like how do you have enough flexibility to make special purpose logic without turning into a consulting company where you're building like a new prompt for for for every customer. I actually think this like concept of like forking and merging prompts across customers and which part of the prompt is customer specific versus like companywide is like a like a really interesting thing that the world is only just beginning to explore. Yeah, that's a very good point Jared. So this is concept of uh defining the prompt in the system prompt. Then there's a de developer prompt and then there's a user prompt. So what this mean is uh the system prompt is basically almost like defining uh sort of the highle API of how your company operates. In this case the example of parhel is very much a system prompt. There's nothing specific about the customer. And then as they add specific instances of that API and calling it then they stuff all that in into more the developer prompt which is not shown here and that's adds all the context of let's say working with perplexity there's certain ways of how you handle rack questions as opposed to working with bold is very different right and then I don't think parhelp has a user prompt because their product is not consumed directly by an end user but a end user prompt could be more like replet or a zero right where users need to type is like generate me a site that that has these buttons this and that that goes all in the user prompt. So that's sort of the architecture that's sort of emerging. And to your point about avoiding becoming a consulting company, I think um there's so many startup opportunities and building the tooling around all of this stuff like for example like um anyone who's done prompt engineering knows that the examples and worked examples are really important to improving the quality of the output. And so then if you take like power as an example, they really want good worked examples that are specific to each company. And so you can imagine that as they scale, you almost want that done automatically. Like in your dream world, what you want is just like a an agent itself that can pluck out the best examples from like the customer data set and then software that just like ingests that straight into like wherever it should belong in the pipeline without you having to manually go out and plug that all and ingest it in all of yourself. That's probably a great segue into metaparrompting which is one of the things we want to talk about because that's that's a consistent theme that keeps coming up when we talk to our AI startups. Yeah, Tropier is uh one of the startups I'm working with in the current YC batch and they've really helped people like YC company Ducky do really in-depth understanding and debugging of the prompts and the return values from a multi-stage workflow. And one of the things they figured out is prompt folding. So you know basically one prompt can dynamically generate better versions of itself. So a good example of that is a classifier prompt that generates a specialized prompt based on the previous query. And so you can actually go in take uh the existing prompt that you have and actually feed it more examples where maybe the prompt failed or didn't quite do what you wanted and you can actually instead of you having to go and rewrite the prompt, you just put it into um you know the raw LLM and say help me make this prompt better. And because it knows itself so well, strangely um metaprompting is turning out to be a very very powerful tool that everyone's using now. And the next step after uh you do sort of prompt folding if the task is very complex there's this concept of uh using examples and this is what Jasberry does is one of the companies I'm working with this batch they basically build automatic bug finding in code which is a lot harder and the way they do it is they feed a bunch of really hard examples that only expert programmers could do let's say if you want to find an N plus1 query it's actually hard for today for even like the best LMS to find those and the way to do those is they find parts of the code then they add those into the prompt a meta prompt that's like hey this is an example of n plus1 type of error and then that works it out and I think this pattern of sometimes when it's too hard to even kind of write a pros around it let's just give you an example that turns out to work really well because it helps LM to reason around complicated tasks and steer it better because you can't quite kind of put exact act parameters and it's almost like um unit testing programming in a sense like test-driven development is sort of the LLM v version of that. Yeah. Another thing that trope uh sort of talks about is you know the the model really wants to actually help you so much that if you just tell it give me back output in this particular format even if it doesn't quite have the information it needs it'll actually just tell you what it thinks you want to hear and it's literally a hallucination. So, one thing they discovered is that you actually have to give the LLM's a real escape hatch. You need to tell it if you do not have enough information to say yes or no or make a determination, don't just make it up. Stop and ask me. And that's a very different way to think about it. That's actually something we learned at some of the internal work that we've done with agents at YC where Jared came up with a really inventive way to give the LLM escape patch. Did you want to talk about that? Yeah. So the trope approach is one way to give the LM an escape patch. We came up with a different way which is in the response format to give it the ability to have part of the response be essentially a complaint to you the developer that like you have given it confusing or underspecified information and it doesn't know what to do. And then the nice thing about that is that we just run your LLM like in production with real hoser data and then you can go back and you can look at the outputs that it has given you in that like output parameter. Um we we call it debug info internally. So like we have this like debug info parameter where it's basically reporting to us things that we need to fix about it and it literally ends up being like a to-do list that you the agent developer has to do. It's like really kind of mind-blowing stuff. Yeah. Yeah, I mean just even for hobbyists or people who are interested in playing around for this for personal projects. Like a very simple way to get started with meta prompting is to follow the same structure of the prompt is give it a role and make the role be like you know you're a expert prompt engineer who gives really like detailed um great critiques and advice on how to um improve prompts and give it the prompt that you had in mind and it will spit you back a much a more expanded better prompt and so you can just keep running that loop for a while. Works surprisingly well. I think it's a common pattern sometimes for companies when they need to get um responses from element elements in their product a lot quicker. They do the meta prompting with a bigger beefier model any of the I don't know hundreds of billions of parameter plus models like uh I guess cloud 4 3.7 or your uh GPD 03 and they do this meta prompting and then they have a very good working one that then they use into the distilled model. So they use it on uh for example an FRO and it ends up working pretty well specifically sometimes for uh voice AI agents companies because uh latency is very important to uh get this whole touring test to pass because if you have too much pause be before the agent responds I think humans can detect something is off. So they use a faster model but with a bigger better prompt that was refined from the bigger models. So that's like a common pattern as well. Another again less sophisticated maybe but um like as the prompt gets longer and longer like it becomes a a large working doc um one thing I found useful is as you're using it if you just note down in a Google doc things that you're seeing just um the outputs not being how you want or not ways that you can think of to improve it. you can just write those in note form and then give Gemini Pro like your notes plus the original prompt and ask it to suggest a bunch of edits to the prompt um to incorporate these in well and it does that quite well. The other trick is uh in uh Gemini 2.5 Pro if you look at the thinking traces as is uh parsing through uh evaluation you could actually learn a lot about all those misses as well. We've done that internal as well, right? As this is critical because if you're just using Gemini via the API until recently, you did not get the thinking traces and like the thinking traces are like the critical debug information to like understand like what's wrong with your prompt. They just added it to the API. So you can now actually like pipe that back into your developer tools and workflows. Yeah, I think it's an underrated um consequence of Gemini Pro having such long context windows is you can effectively use it like a a ripple. Go sort of like one by one like put your prompt on like one example then literally watch the reasoning trace in real time to figure out like how you can steer it in the direction you want. Jared and the software team at YC has actually built this um you know various forms of workbenches that allow us to like do debug and things like that. But to your point like sometimes it's better just to use gemini.google.com directly and then drag and drop you know literally JSON files and uh you know you don't have to do it in some sort of special container like it you know seems to be totally something that works even directly in you know chat GPT itself. Yeah, this is all stuff. Um, I would give a shout out to YC's head of data, Eric Bacon, who's um, helped us all a lot a lot of this metaparrotting and using Gemini Pro 2.5 as a effectively a ripple. What about evals? I mean, we've uh, talked about evals for going on a year now. Um, what are some of the things that founders are discovering? Even though we've been saying this for a year or more now, Gary, I think it's still the case that like evals are the true crown jewel like data asset for all of these companies. Like one one reason that Powerhel was willing to open source the prompt is they told me that they actually don't consider the prompts to be the crown jewels like the evals are the crown jewels because without the evals you don't know why the prompt was written the way that it was. Um and it's very hard to improve it. Yeah. And I I think in abstraction you can think about you know YC funds a lot of companies especially in vertical AI and SAS and then you can't get the eval unless you sitting literally side by side with people who are doing X Y or Z knowledge work. you know, you need to sit next to the tractor sales regional manager and understand, well, you know, this person cares, you know, this is how they get promoted. This is what they care about. This is that person's reward function. And then you know what you're doing is taking these in-person interactions sitting next to someone in Nebraska and then going back to your computer and codifying it into uh very specific evals like this particular user wants this outcome after they you know after this invoice comes in we have to decide whether we're going to honor the you the warranty on this tractor. Like just to take one of one example that's the true value right like you everyone's really worried about um are we just rappers and you know what is going to happen to startups and I think this is literally where the rubber meets the road where um if you you know if you are out there in particular places understanding that user better than anyone else and having the software actually work for those people that's the moat is that is like such a perfect depiction of like what is the core competency required of founders today? Like literally like the thing that you just said like that's your job as a founder of a company like this is to be really good at that thing and like maniacally obsessed with like the details of the regional tractor sales manager workflow. Yeah. And then the wild thing is it's very hard to do like you know how you have you even been to Nebraska you know the classic view is that uh the best founders in the world they're you know sort of really great cracked engineers and technologists and uh just really brilliant and then at the same time they have to understand some part of the world that very few people understand and then there's this little sliver that is you know uh the founder of a multi-billion dollar startup you know I think of Ryan Peterson from Flexport, you know, really really great person who understands how software is built, but then also I think he was the third biggest uh importer of medical hot tubs for an entire year like you know a decade ago. So you know the weirder that is the more of the world that you've seen that nobody else who's a technologist has seen uh the greater the opportunity actually. I think you've put this in a really interesting way before Gary where you're sort of saying that every founder's become a forward deployed engineer. That's like a term that traces back to Palunteer and since you were early at Palanteer maybe tell us a little bit about how did forward deployed engineer become a thing at Palunteer and and what can founders learn from it now? I mean I think the whole thesis of Palunteer at some level was that um if you look at Meta back then it was called Facebook or Google or any of the top software startups that everyone sort of knew back then. One of the key recognitions that Peter Teal and Alex Karp and Stefan Cohen and Joe Lansdale, Nathan Gettings, like the original founders of Palunteer had was that uh go into anywhere in the Fortune 500, go into any government agency in the world, including the United States, and nobody who understands computer science and technology at the level that you at the highest possible level would ever even be in that room. And so Palenteer's sort of really really big idea that they discovered very early was that uh the problems that those places face they're actually multi-billion dollar sometimes trillion dollar problems and yet uh this was well before AI became a thing you know I mean people were sort of talking about machine learning but you know back then they called it data mining you know the world is a wash in data these you know giant databases of people and things and transactions and we have no idea what to do with it. That's what Palanteer was, is and still is. That um you can go and find the world's best technologists who know how to write software to actually make sense of the world. You know, you have these pabytes of data and you don't know how do you find the needle in the haststack. Um and you know the wild thing is going on uh something like 20 22 years later it's only become more true that we have more and more data and we have less and less of an understanding of what's going on and uh it's no mistake that actually now that we have LLMs like we actually it is becoming much more tractable and then the forward deployed engineer title was specifically how do you sit next to literally the FBI agent who's um investigating domestic terrorism. How do you sit right next to them in their actual office and see what does the case coming in look like? What are all the steps? Uh when you actually need to go to the federal prosecutor, what are the things that they're sending? Is it I mean what's funny is like literally it's like word documents and Excel spreadsheets, right? And um what you do as a forward deployed engineer is take these sort of you know file cabinet and fax machine things that people have to do and then convert it into really clean software. So you know the classic view is that it should be as easy to actually do uh an investigation at a threeletter agency as going and taking a photo of your lunch on Instagram and posting it to all your friends. Like that's you know kind of the funniest part of it. And so you I think it's no mistake today that four deployed engineers who came up through that system at Palanteer now they're turning out to be some of the best founders at YC actually. Yeah. I mean produced this incredible an incredible number of startup founders cuz yeah like the training to be a fore deployed engineer that's exactly the right training to be a founder of these companies. Now the the other interesting thing about Palunteer is like other companies would send like a salesperson to go and sit with the FBI agent and like Palunteer sent engineers to go and do that. I think Palenter was probably the first company to really like institutionalize that and scale that as a process, right? Yeah. I mean, I think what happened there, the reason why they were able to get these sort of seven and eight and now nine figure contracts very consistently is that uh instead of sending someone who's like hair and teeth and they're in there and you know, let's go to the let's go to the uh steakhouse. You know, it's all like relationship. and you'd have one meeting uh they would really like the salesperson and then through sheer force of personality you'd try to get them to give you a seven-figure contract and like the time scales on this would be you know 6 weeks 10 weeks 12 weeks like 5 years I don't know it's like and the software would never work uh whereas if you put an engineer in there and you give them uh you know Palunteer Foundry which is what they now call sort of their core uh data viz and data mining suites instead of the next meeting being reviewing 50 pages of you know sort of sales documentation or a contract or a spec or anything like that. It's literally like, \"Okay, we built it.\" And then you're getting like real live feedback within days. And I mean, that's honestly the biggest opportunity for startup founders. If startup founders can do that and uh that's what forward deployed engineers are sort of used to doing that's how you could beat a Salesforce or an Oracle or you know a Booze Allen or literally any company out there that has a big office and a big fancy you know you have big fancy salespeople with big strong handshakes and it's like how does a really good engineer with a weak handshake go in there and beat them? It's actually you show them something that they've never seen before and like make them feel super heard. You have to be super empathetic about it. Like you actually have to be a great designer and product person and then you know come back and you can just blow them away. Like the software is so powerful that you know the second you see something that you know makes you feel seen you want to buy it on the spot. Is a good way of thinking about it that founders should think about themselves as being the four deployed engineers of their own company. Absolutely. Yeah. Like you definitely can't farm this out. Like literally the founders themselves, they're technical. They have to be the great product people. They have to be the ethnographer. They have to be the designer. You want the person on the second meeting to see the demo you put together based on the stuff you heard. And you want them to say, \"Wow, I've never seen anything like that.\" And take my money. I think the incredible thing about this model is this is why we're seeing a lot of the vertical AI agents take off is precisely this because they can have these meetings with the end buyer and champion at these big enterprises. They take that context and then they stuff it basically in the prompt and then they can quickly come back in a meeting like just the next day maybe with Palunteer would have taken a bit longer and a team of engineers here. It could be just the two founders go in and then they would close this six, seven figure deals which we've seen and with large enterprises which has never been done before and it's just possible with this new model of forward deploy engineer plus AI is just on accelerating. It just reminds me of a company I mentioned before on the podcast like Giger ML who do customer another customer support and especially a lot of voice support and it's just classic case of two extremely um talented software engineers not natural sales people but they force themselves to be essentially forward deployed engineers and they closed a huge deal with Zeppto and then a couple of other companies they can't announce yet but do they physically go on site like the palentier model? Yes. So they did so they they did all of that where once they close the deal they go on site and they sit there with all the customer support people and figuring out how to keep tuning and getting the software or the LM to work even better. But before that even to win the deal what they found is that they can they can win by just having the most impressive demo. And in their case they've um innovated a bit on the rag pipeline so that they can um have their voice responses be both accurate and very low latency. sort of like a technically challenging thing to do, but I just feel like in the like pre sort of the current LLM rise, you couldn't necessarily differentiate enough in the demo phase of sales to beat out incumbent. So, you can really beat Salesforce by having a slightly better CRM with a better UI. But now because the technology evolves so fast and it's so hard to get this like last five 10 five to 10% correct, you can actually if you're a forward deployed engineer go in do the first meeting tweak it so that it works really well for that customer. Go back with the demo and just get that oh wow like we've not seen anyone else pull this off before experience and close huge deals. And that was the exact same case with Happy Robot who has sold seven figure contracts to the top three largest logistic brokers in the world. They build AI voice agents for that. They are the ones doing the forward deploy engineer model and talking to like the CIOS of these companies and quickly shipping a lot of product like very very quick turnaround. And it's been incredible to see that take off right now. And it started from six figure deals now doing closing and seven figure deals which is crazy. This is just a couple months after. So that's the kind of stuff that you can do with uh I mean unbelievably very very smart prompt engineering actually. Well, one of the things that's kind of interesting about uh each model is that they each seem to have their own personality. And one of the things the founders are really realizing is that you're going to go to different people for different things. Actually, one of the things that's known a lot is Claude is sort of the more happy and more human steerable model. And the uh other one is Lama 4 is one that needs a lot more steering. It's almost like talking to a developer and part of it could be an artifact of not having done as much RL RHF on top of it. So is a bit more rough to work with, but you could actually steer it very well if you actually are good at actually doing a lot of prompting and almost doing a bit more RLHF, but it's a bit harder to work with actually. Well, one of the things we've been using uh LLMs for internally is actually helping founders figure out who they should take money from. And so in that case, sometimes you need a very straightforward rubric, a zero to 100. zero being never ever take their money and 100 being take their money right away. Like they actually help you so much that you'd be crazy not to take their money. Harj, we've been working on uh some scoring rubrics around that using prompts. What What are some of the things we've learned? So, it's certainly best practice to give um LLM's rubrics, especially if you want to get a numerical score as the output. You want to give it a rubric to help it understand like how should I think through and what's like a 80 versus a 90. But these rubrics are never perfect. there's often always exceptions and you tried it with uh 03 versus Gemini 2.5 and you found this this is what we found really interesting is that um you can give the same rubric to two different models and in our in our specific case what we found is that um 03 was very rigid actually like it really sticks to the rubric it's heavily penalizes for anything that doesn't fit like the rubric that you've given it whereas Gemini 2.5 Pro was actually quite good at being flexible in that it would apply the rubric but it could also sort of almost reason through why someone might be like an exception or why you might want to um push something up more positively or negatively than the rubric might suggest, which I just thought was really interesting cuz that it's just like when you're training a person, you're trying to you give them a rubric like you want them to use a rubric as a guide, but there are always these sort of edge cases where you need to sort of think a little bit more deeply. Um, and I just thought it was interesting that the models themselves will handle that differently, which means they sort of have different personalities, right? Like 03 felt a little bit more like the soldier sort of like, okay, I'm definitely like check, check, check, check, check. Um, and Gemini Pro 2.5 felt a little bit more like a a high agency sort of employee was like, \"Oh, okay. I think this makes sense, but this might be an exception in this case,\" which was um just really interesting to see. Yeah, it's funny to see that for investors. You know, sometimes you have investors like a Benchmark or a Thrive, it's like, \"Yeah, take their money right away. Their process is immaculate. They never ghost anyone. They answer their emails faster than most founders. It's, you know, very impressive. And then, uh, one example here might be, you know, there are plenty of investors who are just overwhelmed and maybe they're just not that good at managing their time. And so, they might be really great investors and their track record bears that out, but they're sort of slow to get back. They seem overwhelmed all the time. They accidentally, probably not intentionally ghost people. And so this is legitimately exactly what an LLM is for. Like the debug info on some of these are very interesting to see like you know maybe it's a 91 instead of like an 89. We'll see. I guess one of the things that's been really surprising to me as you know we ourselves are playing with it and we spend you know maybe 80 to 90% of our time with founders who are all the way out on the edge is uh you know on the one hand the analogies I think even we use to discuss this is uh it's kind of like coding. It kind of actually feels like coding in, you know, 1995. Like the tools are not all the way there. There's a lot of stuff that's unspecified. We're, you know, in this new frontier. But personally, it also kind of feels like learning how to manage a person where it's like, how do I actually communicate uh, you know, the things that they need to know in order to make a good decision? And how do I make sure that they know um, you know, how I'm going to evaluate and score them? And uh not only that, like there's this aspect of Kaizen, you know, this um this manufacturing technique that created really really good cars for Japan in the '90s. Uh and that principle actually says that the people who are the absolute best at improving the process are the people actually doing it. That's literally why uh Japanese cars got so good in the '90s. And that's metaprompting to me. So, I don't know. It's a brave new world. We're sort of in this new moment. So, with that, we're out of time. But can't wait to see what kind of prompts you guys come up with. And we'll see you next time.",
+    "text_length": 32548,
+    "word_count": 6104
+  },
+  "segments": [
+    {
+      "start": 0.08,
+      "duration": 3.76,
+      "text": "Metarprompting is turning out to be a",
+      "timestamp": "00:00"
+    },
+    {
+      "start": 2.08,
+      "duration": 3.52,
+      "text": "very very powerful tool that everyone's",
+      "timestamp": "00:02"
+    },
+    {
+      "start": 3.84,
+      "duration": 5.2,
+      "text": "using now. It kind of actually feels",
+      "timestamp": "00:03"
+    },
+    {
+      "start": 5.6,
+      "duration": 5.6,
+      "text": "like coding in you know 1995 like the",
+      "timestamp": "00:05"
+    },
+    {
+      "start": 9.04,
+      "duration": 4.16,
+      "text": "tools are not all the way there. We're",
+      "timestamp": "00:09"
+    },
+    {
+      "start": 11.2,
+      "duration": 4.24,
+      "text": "you know in this new frontier. But",
+      "timestamp": "00:11"
+    },
+    {
+      "start": 13.2,
+      "duration": 4.32,
+      "text": "personally it also kind of feels like",
+      "timestamp": "00:13"
+    },
+    {
+      "start": 15.44,
+      "duration": 4.8,
+      "text": "learning how to manage a person where",
+      "timestamp": "00:15"
+    },
+    {
+      "start": 17.52,
+      "duration": 4.64,
+      "text": "it's like how do I actually communicate",
+      "timestamp": "00:17"
+    },
+    {
+      "start": 20.24,
+      "duration": 5.9,
+      "text": "uh you know the things that they need to",
+      "timestamp": "00:20"
+    },
+    {
+      "start": 22.16,
+      "duration": 10.25,
+      "text": "know in order to make a good decision.",
+      "timestamp": "00:22"
+    },
+    {
+      "start": 32.48,
+      "duration": 4.16,
+      "text": "Welcome back to another episode of the",
+      "timestamp": "00:32"
+    },
+    {
+      "start": 34.32,
+      "duration": 5.2,
+      "text": "light cone. Today we're pulling back the",
+      "timestamp": "00:34"
+    },
+    {
+      "start": 36.64,
+      "duration": 5.68,
+      "text": "curtain on what is actually happening",
+      "timestamp": "00:36"
+    },
+    {
+      "start": 39.52,
+      "duration": 5.359,
+      "text": "inside the best AI startups when it",
+      "timestamp": "00:39"
+    },
+    {
+      "start": 42.32,
+      "duration": 5.6,
+      "text": "comes to prompt engineering. We surveyed",
+      "timestamp": "00:42"
+    },
+    {
+      "start": 44.879,
+      "duration": 5.84,
+      "text": "more than a dozen companies and got",
+      "timestamp": "00:44"
+    },
+    {
+      "start": 47.92,
+      "duration": 5.68,
+      "text": "their take right from the frontier of",
+      "timestamp": "00:47"
+    },
+    {
+      "start": 50.719,
+      "duration": 4.32,
+      "text": "building this stuff, the practical tips.",
+      "timestamp": "00:50"
+    },
+    {
+      "start": 53.6,
+      "duration": 3.68,
+      "text": "Jared, why don't we start with an",
+      "timestamp": "00:53"
+    },
+    {
+      "start": 55.039,
+      "duration": 4.721,
+      "text": "example from one of your best AI",
+      "timestamp": "00:55"
+    },
+    {
+      "start": 57.28,
+      "duration": 5.119,
+      "text": "startups? I managed to get an example",
+      "timestamp": "00:57"
+    },
+    {
+      "start": 59.76,
+      "duration": 4.799,
+      "text": "from a company called Parahelp. Parahelp",
+      "timestamp": "00:59"
+    },
+    {
+      "start": 62.399,
+      "duration": 3.12,
+      "text": "does AI customer support. There are a",
+      "timestamp": "01:02"
+    },
+    {
+      "start": 64.559,
+      "duration": 2.24,
+      "text": "bunch of companies who who are doing",
+      "timestamp": "01:04"
+    },
+    {
+      "start": 65.519,
+      "duration": 2.881,
+      "text": "this, but Parhel is doing it really",
+      "timestamp": "01:05"
+    },
+    {
+      "start": 66.799,
+      "duration": 4.241,
+      "text": "really well. They're actually powering",
+      "timestamp": "01:06"
+    },
+    {
+      "start": 68.4,
+      "duration": 4.719,
+      "text": "the customer support for Perplexity and",
+      "timestamp": "01:08"
+    },
+    {
+      "start": 71.04,
+      "duration": 4.16,
+      "text": "Replet and Bolt and a bunch of other",
+      "timestamp": "01:11"
+    },
+    {
+      "start": 73.119,
+      "duration": 3.601,
+      "text": "like top AI companies now. So, if you if",
+      "timestamp": "01:13"
+    },
+    {
+      "start": 75.2,
+      "duration": 3.2,
+      "text": "you go and you like email a customer",
+      "timestamp": "01:15"
+    },
+    {
+      "start": 76.72,
+      "duration": 3.36,
+      "text": "support ticket into Perplexity, what's",
+      "timestamp": "01:16"
+    },
+    {
+      "start": 78.4,
+      "duration": 3.28,
+      "text": "actually responding is like their AI",
+      "timestamp": "01:18"
+    },
+    {
+      "start": 80.08,
+      "duration": 3.52,
+      "text": "agent. The cool thing is that the",
+      "timestamp": "01:20"
+    },
+    {
+      "start": 81.68,
+      "duration": 4.479,
+      "text": "Powerhel guys very graciously agreed to",
+      "timestamp": "01:21"
+    },
+    {
+      "start": 83.6,
+      "duration": 4.879,
+      "text": "show us the actual prompt that is",
+      "timestamp": "01:23"
+    },
+    {
+      "start": 86.159,
+      "duration": 3.761,
+      "text": "powering this agent um and to put it on",
+      "timestamp": "01:26"
+    },
+    {
+      "start": 88.479,
+      "duration": 3.521,
+      "text": "screen on YouTube for the entire world",
+      "timestamp": "01:28"
+    },
+    {
+      "start": 89.92,
+      "duration": 3.839,
+      "text": "to see. Um it's like relatively hard to",
+      "timestamp": "01:29"
+    },
+    {
+      "start": 92.0,
+      "duration": 3.04,
+      "text": "get these prompts for vertical AI agents",
+      "timestamp": "01:32"
+    },
+    {
+      "start": 93.759,
+      "duration": 3.36,
+      "text": "because they're kind of like the crown",
+      "timestamp": "01:33"
+    },
+    {
+      "start": 95.04,
+      "duration": 3.92,
+      "text": "jewels of the IP of these companies and",
+      "timestamp": "01:35"
+    },
+    {
+      "start": 97.119,
+      "duration": 3.04,
+      "text": "so very grateful to the Powerhel guys",
+      "timestamp": "01:37"
+    },
+    {
+      "start": 98.96,
+      "duration": 3.36,
+      "text": "for agreeing to basically like open",
+      "timestamp": "01:38"
+    },
+    {
+      "start": 100.159,
+      "duration": 4.561,
+      "text": "source this prompt. Diana, can you walk",
+      "timestamp": "01:40"
+    },
+    {
+      "start": 102.32,
+      "duration": 3.92,
+      "text": "us through this very detailed prompt?",
+      "timestamp": "01:42"
+    },
+    {
+      "start": 104.72,
+      "duration": 3.28,
+      "text": "It's super interesting and it's very",
+      "timestamp": "01:44"
+    },
+    {
+      "start": 106.24,
+      "duration": 3.28,
+      "text": "rare to get a chance to see this in",
+      "timestamp": "01:46"
+    },
+    {
+      "start": 108.0,
+      "duration": 3.119,
+      "text": "action. So the interesting thing about",
+      "timestamp": "01:48"
+    },
+    {
+      "start": 109.52,
+      "duration": 3.68,
+      "text": "this prompt is actually first it's",
+      "timestamp": "01:49"
+    },
+    {
+      "start": 111.119,
+      "duration": 4.401,
+      "text": "really long. It's very detailed in this",
+      "timestamp": "01:51"
+    },
+    {
+      "start": 113.2,
+      "duration": 4.64,
+      "text": "document you can see is like six pages",
+      "timestamp": "01:53"
+    },
+    {
+      "start": 115.52,
+      "duration": 4.0,
+      "text": "long just scrolling through it. The big",
+      "timestamp": "01:55"
+    },
+    {
+      "start": 117.84,
+      "duration": 4.4,
+      "text": "thing that a lot of the best prompts",
+      "timestamp": "01:57"
+    },
+    {
+      "start": 119.52,
+      "duration": 5.52,
+      "text": "start with is this concept of uh setting",
+      "timestamp": "01:59"
+    },
+    {
+      "start": 122.24,
+      "duration": 5.04,
+      "text": "up the role of the LLM. You're a manager",
+      "timestamp": "02:02"
+    },
+    {
+      "start": 125.04,
+      "duration": 4.4,
+      "text": "of a customer service agent and it",
+      "timestamp": "02:05"
+    },
+    {
+      "start": 127.28,
+      "duration": 4.16,
+      "text": "breaks down into bullet points what it",
+      "timestamp": "02:07"
+    },
+    {
+      "start": 129.44,
+      "duration": 4.879,
+      "text": "needs to do. Then the big thing is",
+      "timestamp": "02:09"
+    },
+    {
+      "start": 131.44,
+      "duration": 4.96,
+      "text": "telling the the task which is to approve",
+      "timestamp": "02:11"
+    },
+    {
+      "start": 134.319,
+      "duration": 3.92,
+      "text": "or reject a tool call because it's",
+      "timestamp": "02:14"
+    },
+    {
+      "start": 136.4,
+      "duration": 5.12,
+      "text": "orchestrating agent calls from all these",
+      "timestamp": "02:16"
+    },
+    {
+      "start": 138.239,
+      "duration": 5.521,
+      "text": "other ones. And then it gives it a bit",
+      "timestamp": "02:18"
+    },
+    {
+      "start": 141.52,
+      "duration": 4.32,
+      "text": "of the highle plan. It breaks it down",
+      "timestamp": "02:21"
+    },
+    {
+      "start": 143.76,
+      "duration": 4.479,
+      "text": "step by step. You see steps one, two,",
+      "timestamp": "02:23"
+    },
+    {
+      "start": 145.84,
+      "duration": 4.16,
+      "text": "three, four, five. And then it gives",
+      "timestamp": "02:25"
+    },
+    {
+      "start": 148.239,
+      "duration": 6.321,
+      "text": "some of the important things to keep in",
+      "timestamp": "02:28"
+    },
+    {
+      "start": 150.0,
+      "duration": 6.72,
+      "text": "mind that it should not kind of go weird",
+      "timestamp": "02:30"
+    },
+    {
+      "start": 154.56,
+      "duration": 3.759,
+      "text": "into calling different kinds of tools.",
+      "timestamp": "02:34"
+    },
+    {
+      "start": 156.72,
+      "duration": 3.68,
+      "text": "It tells them how to structure the",
+      "timestamp": "02:36"
+    },
+    {
+      "start": 158.319,
+      "duration": 4.321,
+      "text": "output because a lot of things with",
+      "timestamp": "02:38"
+    },
+    {
+      "start": 160.4,
+      "duration": 4.32,
+      "text": "agents is you need them to integrate",
+      "timestamp": "02:40"
+    },
+    {
+      "start": 162.64,
+      "duration": 4.8,
+      "text": "with other agents. So almost like gluing",
+      "timestamp": "02:42"
+    },
+    {
+      "start": 164.72,
+      "duration": 5.36,
+      "text": "the API call. So the is important to",
+      "timestamp": "02:44"
+    },
+    {
+      "start": 167.44,
+      "duration": 4.799,
+      "text": "specify that it's going to give certain",
+      "timestamp": "02:47"
+    },
+    {
+      "start": 170.08,
+      "duration": 3.76,
+      "text": "uh output of accepting or rejecting and",
+      "timestamp": "02:50"
+    },
+    {
+      "start": 172.239,
+      "duration": 4.64,
+      "text": "in this format. Then this is sort of the",
+      "timestamp": "02:52"
+    },
+    {
+      "start": 173.84,
+      "duration": 5.039,
+      "text": "highle section and one thing that the",
+      "timestamp": "02:53"
+    },
+    {
+      "start": 176.879,
+      "duration": 4.481,
+      "text": "best prompts do they break it down sort",
+      "timestamp": "02:56"
+    },
+    {
+      "start": 178.879,
+      "duration": 3.921,
+      "text": "of in this markdown type of style uh",
+      "timestamp": "02:58"
+    },
+    {
+      "start": 181.36,
+      "duration": 4.32,
+      "text": "formatting. So you have sort of the",
+      "timestamp": "03:01"
+    },
+    {
+      "start": 182.8,
+      "duration": 4.88,
+      "text": "heading here and then later on it goes",
+      "timestamp": "03:02"
+    },
+    {
+      "start": 185.68,
+      "duration": 3.839,
+      "text": "into more details on how to do the",
+      "timestamp": "03:05"
+    },
+    {
+      "start": 187.68,
+      "duration": 4.08,
+      "text": "planning and you see this is like a sub",
+      "timestamp": "03:07"
+    },
+    {
+      "start": 189.519,
+      "duration": 4.561,
+      "text": "bullet part of it and as part of the",
+      "timestamp": "03:09"
+    },
+    {
+      "start": 191.76,
+      "duration": 4.96,
+      "text": "plan there's actually three big sections",
+      "timestamp": "03:11"
+    },
+    {
+      "start": 194.08,
+      "duration": 5.04,
+      "text": "is how to plan and then how to create",
+      "timestamp": "03:14"
+    },
+    {
+      "start": 196.72,
+      "duration": 5.04,
+      "text": "each of the steps in the plan and then",
+      "timestamp": "03:16"
+    },
+    {
+      "start": 199.12,
+      "duration": 4.96,
+      "text": "the highle example of the plan. One big",
+      "timestamp": "03:19"
+    },
+    {
+      "start": 201.76,
+      "duration": 5.759,
+      "text": "thing about the best prompts is they",
+      "timestamp": "03:21"
+    },
+    {
+      "start": 204.08,
+      "duration": 5.36,
+      "text": "outline how to reason about the task and",
+      "timestamp": "03:24"
+    },
+    {
+      "start": 207.519,
+      "duration": 4.321,
+      "text": "then a big thing is giving it giving it",
+      "timestamp": "03:27"
+    },
+    {
+      "start": 209.44,
+      "duration": 4.56,
+      "text": "an example and this is what it does. And",
+      "timestamp": "03:29"
+    },
+    {
+      "start": 211.84,
+      "duration": 4.24,
+      "text": "one thing that's interesting about this",
+      "timestamp": "03:31"
+    },
+    {
+      "start": 214.0,
+      "duration": 4.799,
+      "text": "it it looks more like programming than",
+      "timestamp": "03:34"
+    },
+    {
+      "start": 216.08,
+      "duration": 6.4,
+      "text": "writing English because it has this uh",
+      "timestamp": "03:36"
+    },
+    {
+      "start": 218.799,
+      "duration": 6.0,
+      "text": "XML tag kind of format to specify sort",
+      "timestamp": "03:38"
+    },
+    {
+      "start": 222.48,
+      "duration": 4.8,
+      "text": "of the plan. We found that it makes it a",
+      "timestamp": "03:42"
+    },
+    {
+      "start": 224.799,
+      "duration": 6.16,
+      "text": "lot easier for LMS to follow because a",
+      "timestamp": "03:44"
+    },
+    {
+      "start": 227.28,
+      "duration": 6.319,
+      "text": "lot of LMS were post-trained in LHF with",
+      "timestamp": "03:47"
+    },
+    {
+      "start": 230.959,
+      "duration": 4.881,
+      "text": "kind of XML type of input and it turns",
+      "timestamp": "03:50"
+    },
+    {
+      "start": 233.599,
+      "duration": 4.081,
+      "text": "out to produce better results. Yeah. One",
+      "timestamp": "03:53"
+    },
+    {
+      "start": 235.84,
+      "duration": 3.44,
+      "text": "thing I'm surprised that isn't in here",
+      "timestamp": "03:55"
+    },
+    {
+      "start": 237.68,
+      "duration": 3.68,
+      "text": "or maybe this is just the version that",
+      "timestamp": "03:57"
+    },
+    {
+      "start": 239.28,
+      "duration": 4.959,
+      "text": "they released. What I almost expect is",
+      "timestamp": "03:59"
+    },
+    {
+      "start": 241.36,
+      "duration": 6.239,
+      "text": "there to be a section where it describes",
+      "timestamp": "04:01"
+    },
+    {
+      "start": 244.239,
+      "duration": 6.321,
+      "text": "a particular scenario and uh actually",
+      "timestamp": "04:04"
+    },
+    {
+      "start": 247.599,
+      "duration": 5.36,
+      "text": "gives example output for that scenario.",
+      "timestamp": "04:07"
+    },
+    {
+      "start": 250.56,
+      "duration": 5.28,
+      "text": "That's in like the next stage of the",
+      "timestamp": "04:10"
+    },
+    {
+      "start": 252.959,
+      "duration": 4.481,
+      "text": "pipeline. Yeah. Oh, really? Okay. Yeah.",
+      "timestamp": "04:12"
+    },
+    {
+      "start": 255.84,
+      "duration": 2.799,
+      "text": "Because it's customer specific, right?",
+      "timestamp": "04:15"
+    },
+    {
+      "start": 257.44,
+      "duration": 3.44,
+      "text": "Because like every customer has their",
+      "timestamp": "04:17"
+    },
+    {
+      "start": 258.639,
+      "duration": 4.0,
+      "text": "own like flavor of how to respond to",
+      "timestamp": "04:18"
+    },
+    {
+      "start": 260.88,
+      "duration": 3.039,
+      "text": "these support tickets. And so their",
+      "timestamp": "04:20"
+    },
+    {
+      "start": 262.639,
+      "duration": 2.881,
+      "text": "challenge like a lot of these agent",
+      "timestamp": "04:22"
+    },
+    {
+      "start": 263.919,
+      "duration": 4.481,
+      "text": "companies is like how do you build a",
+      "timestamp": "04:23"
+    },
+    {
+      "start": 265.52,
+      "duration": 5.2,
+      "text": "general purpose product when every",
+      "timestamp": "04:25"
+    },
+    {
+      "start": 268.4,
+      "duration": 4.079,
+      "text": "customer like wants you know has like",
+      "timestamp": "04:28"
+    },
+    {
+      "start": 270.72,
+      "duration": 3.6,
+      "text": "slightly different workflows and like",
+      "timestamp": "04:30"
+    },
+    {
+      "start": 272.479,
+      "duration": 3.921,
+      "text": "preferences. has a really interesting",
+      "timestamp": "04:32"
+    },
+    {
+      "start": 274.32,
+      "duration": 3.68,
+      "text": "thing that I see the vertical AI agent",
+      "timestamp": "04:34"
+    },
+    {
+      "start": 276.4,
+      "duration": 3.12,
+      "text": "companies talking about a lot which is",
+      "timestamp": "04:36"
+    },
+    {
+      "start": 278.0,
+      "duration": 3.6,
+      "text": "like how do you have enough flexibility",
+      "timestamp": "04:38"
+    },
+    {
+      "start": 279.52,
+      "duration": 3.44,
+      "text": "to make special purpose logic without",
+      "timestamp": "04:39"
+    },
+    {
+      "start": 281.6,
+      "duration": 3.2,
+      "text": "turning into a consulting company where",
+      "timestamp": "04:41"
+    },
+    {
+      "start": 282.96,
+      "duration": 3.84,
+      "text": "you're building like a new prompt for",
+      "timestamp": "04:42"
+    },
+    {
+      "start": 284.8,
+      "duration": 3.839,
+      "text": "for for every customer. I actually think",
+      "timestamp": "04:44"
+    },
+    {
+      "start": 286.8,
+      "duration": 4.32,
+      "text": "this like concept of like forking and",
+      "timestamp": "04:46"
+    },
+    {
+      "start": 288.639,
+      "duration": 4.081,
+      "text": "merging prompts across customers and",
+      "timestamp": "04:48"
+    },
+    {
+      "start": 291.12,
+      "duration": 3.68,
+      "text": "which part of the prompt is customer",
+      "timestamp": "04:51"
+    },
+    {
+      "start": 292.72,
+      "duration": 4.32,
+      "text": "specific versus like companywide is like",
+      "timestamp": "04:52"
+    },
+    {
+      "start": 294.8,
+      "duration": 3.52,
+      "text": "a like a really interesting thing that",
+      "timestamp": "04:54"
+    },
+    {
+      "start": 297.04,
+      "duration": 2.879,
+      "text": "the world is only just beginning to",
+      "timestamp": "04:57"
+    },
+    {
+      "start": 298.32,
+      "duration": 4.64,
+      "text": "explore. Yeah, that's a very good point",
+      "timestamp": "04:58"
+    },
+    {
+      "start": 299.919,
+      "duration": 5.28,
+      "text": "Jared. So this is concept of uh defining",
+      "timestamp": "04:59"
+    },
+    {
+      "start": 302.96,
+      "duration": 4.32,
+      "text": "the prompt in the system prompt. Then",
+      "timestamp": "05:02"
+    },
+    {
+      "start": 305.199,
+      "duration": 4.801,
+      "text": "there's a de developer prompt and then",
+      "timestamp": "05:05"
+    },
+    {
+      "start": 307.28,
+      "duration": 5.199,
+      "text": "there's a user prompt. So what this mean",
+      "timestamp": "05:07"
+    },
+    {
+      "start": 310.0,
+      "duration": 5.12,
+      "text": "is uh the system prompt is basically",
+      "timestamp": "05:10"
+    },
+    {
+      "start": 312.479,
+      "duration": 5.201,
+      "text": "almost like defining uh sort of the",
+      "timestamp": "05:12"
+    },
+    {
+      "start": 315.12,
+      "duration": 4.32,
+      "text": "highle API of how your company operates.",
+      "timestamp": "05:15"
+    },
+    {
+      "start": 317.68,
+      "duration": 3.12,
+      "text": "In this case the example of parhel is",
+      "timestamp": "05:17"
+    },
+    {
+      "start": 319.44,
+      "duration": 3.199,
+      "text": "very much a system prompt. There's",
+      "timestamp": "05:19"
+    },
+    {
+      "start": 320.8,
+      "duration": 3.76,
+      "text": "nothing specific about the customer. And",
+      "timestamp": "05:20"
+    },
+    {
+      "start": 322.639,
+      "duration": 4.321,
+      "text": "then as they add specific instances of",
+      "timestamp": "05:22"
+    },
+    {
+      "start": 324.56,
+      "duration": 4.8,
+      "text": "that API and calling it then they stuff",
+      "timestamp": "05:24"
+    },
+    {
+      "start": 326.96,
+      "duration": 4.239,
+      "text": "all that in into more the developer",
+      "timestamp": "05:26"
+    },
+    {
+      "start": 329.36,
+      "duration": 3.92,
+      "text": "prompt which is not shown here and",
+      "timestamp": "05:29"
+    },
+    {
+      "start": 331.199,
+      "duration": 3.681,
+      "text": "that's adds all the context of let's say",
+      "timestamp": "05:31"
+    },
+    {
+      "start": 333.28,
+      "duration": 4.08,
+      "text": "working with perplexity there's certain",
+      "timestamp": "05:33"
+    },
+    {
+      "start": 334.88,
+      "duration": 5.039,
+      "text": "ways of how you handle rack questions as",
+      "timestamp": "05:34"
+    },
+    {
+      "start": 337.36,
+      "duration": 4.559,
+      "text": "opposed to working with bold is very",
+      "timestamp": "05:37"
+    },
+    {
+      "start": 339.919,
+      "duration": 4.401,
+      "text": "different right and then I don't think",
+      "timestamp": "05:39"
+    },
+    {
+      "start": 341.919,
+      "duration": 4.241,
+      "text": "parhelp has a user prompt because their",
+      "timestamp": "05:41"
+    },
+    {
+      "start": 344.32,
+      "duration": 4.159,
+      "text": "product is not consumed directly by an",
+      "timestamp": "05:44"
+    },
+    {
+      "start": 346.16,
+      "duration": 6.479,
+      "text": "end user but a end user prompt could be",
+      "timestamp": "05:46"
+    },
+    {
+      "start": 348.479,
+      "duration": 6.401,
+      "text": "more like replet or a zero right where",
+      "timestamp": "05:48"
+    },
+    {
+      "start": 352.639,
+      "duration": 4.161,
+      "text": "users need to type is like generate me a",
+      "timestamp": "05:52"
+    },
+    {
+      "start": 354.88,
+      "duration": 3.599,
+      "text": "site that that has these buttons this",
+      "timestamp": "05:54"
+    },
+    {
+      "start": 356.8,
+      "duration": 3.52,
+      "text": "and that that goes all in the user",
+      "timestamp": "05:56"
+    },
+    {
+      "start": 358.479,
+      "duration": 3.601,
+      "text": "prompt. So that's sort of the",
+      "timestamp": "05:58"
+    },
+    {
+      "start": 360.32,
+      "duration": 3.04,
+      "text": "architecture that's sort of emerging.",
+      "timestamp": "06:00"
+    },
+    {
+      "start": 362.08,
+      "duration": 3.959,
+      "text": "And to your point about avoiding",
+      "timestamp": "06:02"
+    },
+    {
+      "start": 363.36,
+      "duration": 5.6,
+      "text": "becoming a consulting company, I think",
+      "timestamp": "06:03"
+    },
+    {
+      "start": 366.039,
+      "duration": 5.241,
+      "text": "um there's so many startup opportunities",
+      "timestamp": "06:06"
+    },
+    {
+      "start": 368.96,
+      "duration": 4.64,
+      "text": "and building the tooling around all of",
+      "timestamp": "06:08"
+    },
+    {
+      "start": 371.28,
+      "duration": 3.6,
+      "text": "this stuff like for example like um",
+      "timestamp": "06:11"
+    },
+    {
+      "start": 373.6,
+      "duration": 3.68,
+      "text": "anyone who's done prompt engineering",
+      "timestamp": "06:13"
+    },
+    {
+      "start": 374.88,
+      "duration": 3.84,
+      "text": "knows that the examples and worked",
+      "timestamp": "06:14"
+    },
+    {
+      "start": 377.28,
+      "duration": 3.359,
+      "text": "examples are really important to",
+      "timestamp": "06:17"
+    },
+    {
+      "start": 378.72,
+      "duration": 3.52,
+      "text": "improving the quality of the output. And",
+      "timestamp": "06:18"
+    },
+    {
+      "start": 380.639,
+      "duration": 4.641,
+      "text": "so then if you take like power as an",
+      "timestamp": "06:20"
+    },
+    {
+      "start": 382.24,
+      "duration": 4.88,
+      "text": "example, they really want good worked",
+      "timestamp": "06:22"
+    },
+    {
+      "start": 385.28,
+      "duration": 4.72,
+      "text": "examples that are specific to each",
+      "timestamp": "06:25"
+    },
+    {
+      "start": 387.12,
+      "duration": 5.04,
+      "text": "company. And so you can imagine that as",
+      "timestamp": "06:27"
+    },
+    {
+      "start": 390.0,
+      "duration": 3.68,
+      "text": "they scale, you almost want that done",
+      "timestamp": "06:30"
+    },
+    {
+      "start": 392.16,
+      "duration": 3.52,
+      "text": "automatically. Like in your dream world,",
+      "timestamp": "06:32"
+    },
+    {
+      "start": 393.68,
+      "duration": 3.519,
+      "text": "what you want is just like a an agent",
+      "timestamp": "06:33"
+    },
+    {
+      "start": 395.68,
+      "duration": 4.079,
+      "text": "itself that can pluck out the best",
+      "timestamp": "06:35"
+    },
+    {
+      "start": 397.199,
+      "duration": 4.72,
+      "text": "examples from like the customer data set",
+      "timestamp": "06:37"
+    },
+    {
+      "start": 399.759,
+      "duration": 4.321,
+      "text": "and then software that just like ingests",
+      "timestamp": "06:39"
+    },
+    {
+      "start": 401.919,
+      "duration": 3.681,
+      "text": "that straight into like wherever it",
+      "timestamp": "06:41"
+    },
+    {
+      "start": 404.08,
+      "duration": 3.679,
+      "text": "should belong in the pipeline without",
+      "timestamp": "06:44"
+    },
+    {
+      "start": 405.6,
+      "duration": 3.52,
+      "text": "you having to manually go out and plug",
+      "timestamp": "06:45"
+    },
+    {
+      "start": 407.759,
+      "duration": 3.121,
+      "text": "that all and ingest it in all of",
+      "timestamp": "06:47"
+    },
+    {
+      "start": 409.12,
+      "duration": 3.76,
+      "text": "yourself. That's probably a great segue",
+      "timestamp": "06:49"
+    },
+    {
+      "start": 410.88,
+      "duration": 3.039,
+      "text": "into metaparrompting which is one of the",
+      "timestamp": "06:50"
+    },
+    {
+      "start": 412.88,
+      "duration": 3.039,
+      "text": "things we want to talk about because",
+      "timestamp": "06:52"
+    },
+    {
+      "start": 413.919,
+      "duration": 3.761,
+      "text": "that's that's a consistent theme that",
+      "timestamp": "06:53"
+    },
+    {
+      "start": 415.919,
+      "duration": 4.0,
+      "text": "keeps coming up when we talk to our AI",
+      "timestamp": "06:55"
+    },
+    {
+      "start": 417.68,
+      "duration": 3.6,
+      "text": "startups. Yeah, Tropier is uh one of the",
+      "timestamp": "06:57"
+    },
+    {
+      "start": 419.919,
+      "duration": 3.68,
+      "text": "startups I'm working with in the current",
+      "timestamp": "06:59"
+    },
+    {
+      "start": 421.28,
+      "duration": 5.759,
+      "text": "YC batch and they've really helped",
+      "timestamp": "07:01"
+    },
+    {
+      "start": 423.599,
+      "duration": 6.241,
+      "text": "people like YC company Ducky do really",
+      "timestamp": "07:03"
+    },
+    {
+      "start": 427.039,
+      "duration": 6.0,
+      "text": "in-depth understanding and debugging of",
+      "timestamp": "07:07"
+    },
+    {
+      "start": 429.84,
+      "duration": 5.359,
+      "text": "the prompts and the return values from a",
+      "timestamp": "07:09"
+    },
+    {
+      "start": 433.039,
+      "duration": 3.44,
+      "text": "multi-stage workflow. And one of the",
+      "timestamp": "07:13"
+    },
+    {
+      "start": 435.199,
+      "duration": 3.361,
+      "text": "things they figured out is prompt",
+      "timestamp": "07:15"
+    },
+    {
+      "start": 436.479,
+      "duration": 4.961,
+      "text": "folding. So you know basically one",
+      "timestamp": "07:16"
+    },
+    {
+      "start": 438.56,
+      "duration": 4.8,
+      "text": "prompt can dynamically generate better",
+      "timestamp": "07:18"
+    },
+    {
+      "start": 441.44,
+      "duration": 3.36,
+      "text": "versions of itself. So a good example of",
+      "timestamp": "07:21"
+    },
+    {
+      "start": 443.36,
+      "duration": 4.0,
+      "text": "that is a classifier prompt that",
+      "timestamp": "07:23"
+    },
+    {
+      "start": 444.8,
+      "duration": 4.08,
+      "text": "generates a specialized prompt based on",
+      "timestamp": "07:24"
+    },
+    {
+      "start": 447.36,
+      "duration": 4.559,
+      "text": "the previous query. And so you can",
+      "timestamp": "07:27"
+    },
+    {
+      "start": 448.88,
+      "duration": 5.28,
+      "text": "actually go in take uh the existing",
+      "timestamp": "07:28"
+    },
+    {
+      "start": 451.919,
+      "duration": 5.12,
+      "text": "prompt that you have and actually feed",
+      "timestamp": "07:31"
+    },
+    {
+      "start": 454.16,
+      "duration": 4.4,
+      "text": "it more examples where maybe the prompt",
+      "timestamp": "07:34"
+    },
+    {
+      "start": 457.039,
+      "duration": 3.921,
+      "text": "failed or didn't quite do what you",
+      "timestamp": "07:37"
+    },
+    {
+      "start": 458.56,
+      "duration": 4.639,
+      "text": "wanted and you can actually instead of",
+      "timestamp": "07:38"
+    },
+    {
+      "start": 460.96,
+      "duration": 5.2,
+      "text": "you having to go and rewrite the prompt,",
+      "timestamp": "07:40"
+    },
+    {
+      "start": 463.199,
+      "duration": 5.921,
+      "text": "you just put it into um you know the raw",
+      "timestamp": "07:43"
+    },
+    {
+      "start": 466.16,
+      "duration": 5.52,
+      "text": "LLM and say help me make this prompt",
+      "timestamp": "07:46"
+    },
+    {
+      "start": 469.12,
+      "duration": 5.28,
+      "text": "better. And because it knows itself so",
+      "timestamp": "07:49"
+    },
+    {
+      "start": 471.68,
+      "duration": 4.56,
+      "text": "well, strangely um metaprompting is",
+      "timestamp": "07:51"
+    },
+    {
+      "start": 474.4,
+      "duration": 3.84,
+      "text": "turning out to be a very very powerful",
+      "timestamp": "07:54"
+    },
+    {
+      "start": 476.24,
+      "duration": 4.399,
+      "text": "tool that everyone's using now. And the",
+      "timestamp": "07:56"
+    },
+    {
+      "start": 478.24,
+      "duration": 5.44,
+      "text": "next step after uh you do sort of prompt",
+      "timestamp": "07:58"
+    },
+    {
+      "start": 480.639,
+      "duration": 5.28,
+      "text": "folding if the task is very complex",
+      "timestamp": "08:00"
+    },
+    {
+      "start": 483.68,
+      "duration": 4.959,
+      "text": "there's this concept of uh using",
+      "timestamp": "08:03"
+    },
+    {
+      "start": 485.919,
+      "duration": 4.72,
+      "text": "examples and this is what Jasberry does",
+      "timestamp": "08:05"
+    },
+    {
+      "start": 488.639,
+      "duration": 3.84,
+      "text": "is one of the companies I'm working with",
+      "timestamp": "08:08"
+    },
+    {
+      "start": 490.639,
+      "duration": 4.24,
+      "text": "this batch they basically build",
+      "timestamp": "08:10"
+    },
+    {
+      "start": 492.479,
+      "duration": 4.961,
+      "text": "automatic bug finding in code which is a",
+      "timestamp": "08:12"
+    },
+    {
+      "start": 494.879,
+      "duration": 4.561,
+      "text": "lot harder and the way they do it is",
+      "timestamp": "08:14"
+    },
+    {
+      "start": 497.44,
+      "duration": 4.159,
+      "text": "they feed a bunch of really hard",
+      "timestamp": "08:17"
+    },
+    {
+      "start": 499.44,
+      "duration": 3.36,
+      "text": "examples that only expert programmers",
+      "timestamp": "08:19"
+    },
+    {
+      "start": 501.599,
+      "duration": 3.44,
+      "text": "could do let's say if you want to find",
+      "timestamp": "08:21"
+    },
+    {
+      "start": 502.8,
+      "duration": 4.56,
+      "text": "an N plus1 query it's actually hard for",
+      "timestamp": "08:22"
+    },
+    {
+      "start": 505.039,
+      "duration": 4.241,
+      "text": "today for even like the best LMS to find",
+      "timestamp": "08:25"
+    },
+    {
+      "start": 507.36,
+      "duration": 4.88,
+      "text": "those and the way to do those is they",
+      "timestamp": "08:27"
+    },
+    {
+      "start": 509.28,
+      "duration": 5.119,
+      "text": "find parts of the code then they add",
+      "timestamp": "08:29"
+    },
+    {
+      "start": 512.24,
+      "duration": 4.239,
+      "text": "those into the prompt a meta prompt",
+      "timestamp": "08:32"
+    },
+    {
+      "start": 514.399,
+      "duration": 5.041,
+      "text": "that's like hey this is an example of n",
+      "timestamp": "08:34"
+    },
+    {
+      "start": 516.479,
+      "duration": 4.401,
+      "text": "plus1 type of error and then that works",
+      "timestamp": "08:36"
+    },
+    {
+      "start": 519.44,
+      "duration": 4.479,
+      "text": "it out and I think this pattern of",
+      "timestamp": "08:39"
+    },
+    {
+      "start": 520.88,
+      "duration": 5.12,
+      "text": "sometimes when it's too hard to even",
+      "timestamp": "08:40"
+    },
+    {
+      "start": 523.919,
+      "duration": 4.001,
+      "text": "kind of write a pros around it let's",
+      "timestamp": "08:43"
+    },
+    {
+      "start": 526.0,
+      "duration": 4.24,
+      "text": "just give you an example that turns out",
+      "timestamp": "08:46"
+    },
+    {
+      "start": 527.92,
+      "duration": 5.84,
+      "text": "to work really well because it helps LM",
+      "timestamp": "08:47"
+    },
+    {
+      "start": 530.24,
+      "duration": 5.52,
+      "text": "to reason around complicated tasks and",
+      "timestamp": "08:50"
+    },
+    {
+      "start": 533.76,
+      "duration": 4.0,
+      "text": "steer it better because you can't quite",
+      "timestamp": "08:53"
+    },
+    {
+      "start": 535.76,
+      "duration": 4.32,
+      "text": "kind of put exact act parameters and",
+      "timestamp": "08:55"
+    },
+    {
+      "start": 537.76,
+      "duration": 3.88,
+      "text": "it's almost like um unit testing",
+      "timestamp": "08:57"
+    },
+    {
+      "start": 540.08,
+      "duration": 4.48,
+      "text": "programming in a sense like test-driven",
+      "timestamp": "09:00"
+    },
+    {
+      "start": 541.64,
+      "duration": 5.08,
+      "text": "development is sort of the LLM v version",
+      "timestamp": "09:01"
+    },
+    {
+      "start": 544.56,
+      "duration": 4.16,
+      "text": "of that. Yeah. Another thing that trope",
+      "timestamp": "09:04"
+    },
+    {
+      "start": 546.72,
+      "duration": 4.239,
+      "text": "uh sort of talks about is you know the",
+      "timestamp": "09:06"
+    },
+    {
+      "start": 548.72,
+      "duration": 4.559,
+      "text": "the model really wants to actually help",
+      "timestamp": "09:08"
+    },
+    {
+      "start": 550.959,
+      "duration": 4.481,
+      "text": "you so much that if you just tell it",
+      "timestamp": "09:10"
+    },
+    {
+      "start": 553.279,
+      "duration": 5.041,
+      "text": "give me back output in this particular",
+      "timestamp": "09:13"
+    },
+    {
+      "start": 555.44,
+      "duration": 5.92,
+      "text": "format even if it doesn't quite have the",
+      "timestamp": "09:15"
+    },
+    {
+      "start": 558.32,
+      "duration": 5.04,
+      "text": "information it needs it'll actually just",
+      "timestamp": "09:18"
+    },
+    {
+      "start": 561.36,
+      "duration": 4.56,
+      "text": "tell you what it thinks you want to hear",
+      "timestamp": "09:21"
+    },
+    {
+      "start": 563.36,
+      "duration": 4.08,
+      "text": "and it's literally a hallucination. So,",
+      "timestamp": "09:23"
+    },
+    {
+      "start": 565.92,
+      "duration": 3.52,
+      "text": "one thing they discovered is that you",
+      "timestamp": "09:25"
+    },
+    {
+      "start": 567.44,
+      "duration": 4.32,
+      "text": "actually have to give the LLM's a real",
+      "timestamp": "09:27"
+    },
+    {
+      "start": 569.44,
+      "duration": 5.44,
+      "text": "escape hatch. You need to tell it if you",
+      "timestamp": "09:29"
+    },
+    {
+      "start": 571.76,
+      "duration": 6.32,
+      "text": "do not have enough information to say",
+      "timestamp": "09:31"
+    },
+    {
+      "start": 574.88,
+      "duration": 6.24,
+      "text": "yes or no or make a determination, don't",
+      "timestamp": "09:34"
+    },
+    {
+      "start": 578.08,
+      "duration": 4.879,
+      "text": "just make it up. Stop and ask me. And",
+      "timestamp": "09:38"
+    },
+    {
+      "start": 581.12,
+      "duration": 3.36,
+      "text": "that's a very different way to think",
+      "timestamp": "09:41"
+    },
+    {
+      "start": 582.959,
+      "duration": 3.201,
+      "text": "about it. That's actually something we",
+      "timestamp": "09:42"
+    },
+    {
+      "start": 584.48,
+      "duration": 4.16,
+      "text": "learned at some of the internal work",
+      "timestamp": "09:44"
+    },
+    {
+      "start": 586.16,
+      "duration": 5.52,
+      "text": "that we've done with agents at YC where",
+      "timestamp": "09:46"
+    },
+    {
+      "start": 588.64,
+      "duration": 6.24,
+      "text": "Jared came up with a really inventive",
+      "timestamp": "09:48"
+    },
+    {
+      "start": 591.68,
+      "duration": 4.8,
+      "text": "way to give the LLM escape patch. Did",
+      "timestamp": "09:51"
+    },
+    {
+      "start": 594.88,
+      "duration": 3.84,
+      "text": "you want to talk about that? Yeah. So",
+      "timestamp": "09:54"
+    },
+    {
+      "start": 596.48,
+      "duration": 3.84,
+      "text": "the trope approach is one way to give",
+      "timestamp": "09:56"
+    },
+    {
+      "start": 598.72,
+      "duration": 3.92,
+      "text": "the LM an escape patch. We came up with",
+      "timestamp": "09:58"
+    },
+    {
+      "start": 600.32,
+      "duration": 4.56,
+      "text": "a different way which is in the response",
+      "timestamp": "10:00"
+    },
+    {
+      "start": 602.64,
+      "duration": 4.56,
+      "text": "format to give it the ability to have",
+      "timestamp": "10:02"
+    },
+    {
+      "start": 604.88,
+      "duration": 5.92,
+      "text": "part of the response be essentially a",
+      "timestamp": "10:04"
+    },
+    {
+      "start": 607.2,
+      "duration": 5.12,
+      "text": "complaint to you the developer that like",
+      "timestamp": "10:07"
+    },
+    {
+      "start": 610.8,
+      "duration": 3.12,
+      "text": "you have given it confusing or",
+      "timestamp": "10:10"
+    },
+    {
+      "start": 612.32,
+      "duration": 4.16,
+      "text": "underspecified information and it",
+      "timestamp": "10:12"
+    },
+    {
+      "start": 613.92,
+      "duration": 4.56,
+      "text": "doesn't know what to do. And then the",
+      "timestamp": "10:13"
+    },
+    {
+      "start": 616.48,
+      "duration": 4.24,
+      "text": "nice thing about that is that we just",
+      "timestamp": "10:16"
+    },
+    {
+      "start": 618.48,
+      "duration": 4.4,
+      "text": "run your LLM like in production with",
+      "timestamp": "10:18"
+    },
+    {
+      "start": 620.72,
+      "duration": 4.4,
+      "text": "real hoser data and then you can go back",
+      "timestamp": "10:20"
+    },
+    {
+      "start": 622.88,
+      "duration": 3.76,
+      "text": "and you can look at the outputs that it",
+      "timestamp": "10:22"
+    },
+    {
+      "start": 625.12,
+      "duration": 4.24,
+      "text": "has given you in that like output",
+      "timestamp": "10:25"
+    },
+    {
+      "start": 626.64,
+      "duration": 4.56,
+      "text": "parameter. Um we we call it debug info",
+      "timestamp": "10:26"
+    },
+    {
+      "start": 629.36,
+      "duration": 3.44,
+      "text": "internally. So like we have this like",
+      "timestamp": "10:29"
+    },
+    {
+      "start": 631.2,
+      "duration": 3.92,
+      "text": "debug info parameter where it's",
+      "timestamp": "10:31"
+    },
+    {
+      "start": 632.8,
+      "duration": 4.719,
+      "text": "basically reporting to us things that we",
+      "timestamp": "10:32"
+    },
+    {
+      "start": 635.12,
+      "duration": 4.48,
+      "text": "need to fix about it and it literally",
+      "timestamp": "10:35"
+    },
+    {
+      "start": 637.519,
+      "duration": 4.081,
+      "text": "ends up being like a to-do list that you",
+      "timestamp": "10:37"
+    },
+    {
+      "start": 639.6,
+      "duration": 3.679,
+      "text": "the agent developer has to do. It's like",
+      "timestamp": "10:39"
+    },
+    {
+      "start": 641.6,
+      "duration": 3.28,
+      "text": "really kind of mind-blowing stuff. Yeah.",
+      "timestamp": "10:41"
+    },
+    {
+      "start": 643.279,
+      "duration": 2.881,
+      "text": "Yeah, I mean just even for hobbyists or",
+      "timestamp": "10:43"
+    },
+    {
+      "start": 644.88,
+      "duration": 3.04,
+      "text": "people who are interested in playing",
+      "timestamp": "10:44"
+    },
+    {
+      "start": 646.16,
+      "duration": 3.2,
+      "text": "around for this for personal projects.",
+      "timestamp": "10:46"
+    },
+    {
+      "start": 647.92,
+      "duration": 3.2,
+      "text": "Like a very simple way to get started",
+      "timestamp": "10:47"
+    },
+    {
+      "start": 649.36,
+      "duration": 3.12,
+      "text": "with meta prompting is to follow the",
+      "timestamp": "10:49"
+    },
+    {
+      "start": 651.12,
+      "duration": 3.2,
+      "text": "same structure of the prompt is give it",
+      "timestamp": "10:51"
+    },
+    {
+      "start": 652.48,
+      "duration": 3.84,
+      "text": "a role and make the role be like you",
+      "timestamp": "10:52"
+    },
+    {
+      "start": 654.32,
+      "duration": 4.48,
+      "text": "know you're a expert prompt engineer who",
+      "timestamp": "10:54"
+    },
+    {
+      "start": 656.32,
+      "duration": 4.56,
+      "text": "gives really like detailed um great",
+      "timestamp": "10:56"
+    },
+    {
+      "start": 658.8,
+      "duration": 4.4,
+      "text": "critiques and advice on how to um",
+      "timestamp": "10:58"
+    },
+    {
+      "start": 660.88,
+      "duration": 4.72,
+      "text": "improve prompts and give it the prompt",
+      "timestamp": "11:00"
+    },
+    {
+      "start": 663.2,
+      "duration": 4.96,
+      "text": "that you had in mind and it will spit",
+      "timestamp": "11:03"
+    },
+    {
+      "start": 665.6,
+      "duration": 4.16,
+      "text": "you back a much a more expanded better",
+      "timestamp": "11:05"
+    },
+    {
+      "start": 668.16,
+      "duration": 3.2,
+      "text": "prompt and so you can just keep running",
+      "timestamp": "11:08"
+    },
+    {
+      "start": 669.76,
+      "duration": 3.28,
+      "text": "that loop for a while. Works",
+      "timestamp": "11:09"
+    },
+    {
+      "start": 671.36,
+      "duration": 3.68,
+      "text": "surprisingly well. I think it's a common",
+      "timestamp": "11:11"
+    },
+    {
+      "start": 673.04,
+      "duration": 4.4,
+      "text": "pattern sometimes for companies when",
+      "timestamp": "11:13"
+    },
+    {
+      "start": 675.04,
+      "duration": 4.08,
+      "text": "they need to get um responses from",
+      "timestamp": "11:15"
+    },
+    {
+      "start": 677.44,
+      "duration": 4.0,
+      "text": "element elements in their product a lot",
+      "timestamp": "11:17"
+    },
+    {
+      "start": 679.12,
+      "duration": 4.88,
+      "text": "quicker. They do the meta prompting with",
+      "timestamp": "11:19"
+    },
+    {
+      "start": 681.44,
+      "duration": 3.6,
+      "text": "a bigger beefier model any of the I",
+      "timestamp": "11:21"
+    },
+    {
+      "start": 684.0,
+      "duration": 3.92,
+      "text": "don't know hundreds of billions of",
+      "timestamp": "11:24"
+    },
+    {
+      "start": 685.04,
+      "duration": 9.52,
+      "text": "parameter plus models like uh I guess",
+      "timestamp": "11:25"
+    },
+    {
+      "start": 687.92,
+      "duration": 8.479,
+      "text": "cloud 4 3.7 or your uh GPD 03 and they",
+      "timestamp": "11:27"
+    },
+    {
+      "start": 694.56,
+      "duration": 4.16,
+      "text": "do this meta prompting and then they",
+      "timestamp": "11:34"
+    },
+    {
+      "start": 696.399,
+      "duration": 4.56,
+      "text": "have a very good working one that then",
+      "timestamp": "11:36"
+    },
+    {
+      "start": 698.72,
+      "duration": 4.48,
+      "text": "they use into the distilled model. So",
+      "timestamp": "11:38"
+    },
+    {
+      "start": 700.959,
+      "duration": 5.12,
+      "text": "they use it on uh for example an FRO and",
+      "timestamp": "11:40"
+    },
+    {
+      "start": 703.2,
+      "duration": 5.36,
+      "text": "it ends up working pretty well",
+      "timestamp": "11:43"
+    },
+    {
+      "start": 706.079,
+      "duration": 5.361,
+      "text": "specifically sometimes for uh voice AI",
+      "timestamp": "11:46"
+    },
+    {
+      "start": 708.56,
+      "duration": 6.399,
+      "text": "agents companies because uh latency is",
+      "timestamp": "11:48"
+    },
+    {
+      "start": 711.44,
+      "duration": 5.839,
+      "text": "very important to uh get this whole",
+      "timestamp": "11:51"
+    },
+    {
+      "start": 714.959,
+      "duration": 4.401,
+      "text": "touring test to pass because if you have",
+      "timestamp": "11:54"
+    },
+    {
+      "start": 717.279,
+      "duration": 3.761,
+      "text": "too much pause be before the agent",
+      "timestamp": "11:57"
+    },
+    {
+      "start": 719.36,
+      "duration": 4.159,
+      "text": "responds I think humans can detect",
+      "timestamp": "11:59"
+    },
+    {
+      "start": 721.04,
+      "duration": 4.72,
+      "text": "something is off. So they use a faster",
+      "timestamp": "12:01"
+    },
+    {
+      "start": 723.519,
+      "duration": 4.801,
+      "text": "model but with a bigger better prompt",
+      "timestamp": "12:03"
+    },
+    {
+      "start": 725.76,
+      "duration": 4.0,
+      "text": "that was refined from the bigger models.",
+      "timestamp": "12:05"
+    },
+    {
+      "start": 728.32,
+      "duration": 3.92,
+      "text": "So that's like a common pattern as well.",
+      "timestamp": "12:08"
+    },
+    {
+      "start": 729.76,
+      "duration": 5.36,
+      "text": "Another again less sophisticated maybe",
+      "timestamp": "12:09"
+    },
+    {
+      "start": 732.24,
+      "duration": 4.88,
+      "text": "but um like as the prompt gets longer",
+      "timestamp": "12:12"
+    },
+    {
+      "start": 735.12,
+      "duration": 4.56,
+      "text": "and longer like it becomes a a large",
+      "timestamp": "12:15"
+    },
+    {
+      "start": 737.12,
+      "duration": 4.719,
+      "text": "working doc um one thing I found useful",
+      "timestamp": "12:17"
+    },
+    {
+      "start": 739.68,
+      "duration": 4.959,
+      "text": "is as you're using it if you just note",
+      "timestamp": "12:19"
+    },
+    {
+      "start": 741.839,
+      "duration": 6.161,
+      "text": "down in a Google doc things that you're",
+      "timestamp": "12:21"
+    },
+    {
+      "start": 744.639,
+      "duration": 5.521,
+      "text": "seeing just um the outputs not being how",
+      "timestamp": "12:24"
+    },
+    {
+      "start": 748.0,
+      "duration": 3.6,
+      "text": "you want or not ways that you can think",
+      "timestamp": "12:28"
+    },
+    {
+      "start": 750.16,
+      "duration": 5.28,
+      "text": "of to improve it. you can just write",
+      "timestamp": "12:30"
+    },
+    {
+      "start": 751.6,
+      "duration": 6.0,
+      "text": "those in note form and then give Gemini",
+      "timestamp": "12:31"
+    },
+    {
+      "start": 755.44,
+      "duration": 4.0,
+      "text": "Pro like your notes plus the original",
+      "timestamp": "12:35"
+    },
+    {
+      "start": 757.6,
+      "duration": 4.4,
+      "text": "prompt and ask it to suggest a bunch of",
+      "timestamp": "12:37"
+    },
+    {
+      "start": 759.44,
+      "duration": 4.24,
+      "text": "edits to the prompt um to incorporate",
+      "timestamp": "12:39"
+    },
+    {
+      "start": 762.0,
+      "duration": 4.56,
+      "text": "these in well and it does that quite",
+      "timestamp": "12:42"
+    },
+    {
+      "start": 763.68,
+      "duration": 5.76,
+      "text": "well. The other trick is uh in uh Gemini",
+      "timestamp": "12:43"
+    },
+    {
+      "start": 766.56,
+      "duration": 6.839,
+      "text": "2.5 Pro if you look at the thinking",
+      "timestamp": "12:46"
+    },
+    {
+      "start": 769.44,
+      "duration": 6.0,
+      "text": "traces as is uh parsing through uh",
+      "timestamp": "12:49"
+    },
+    {
+      "start": 773.399,
+      "duration": 4.281,
+      "text": "evaluation you could actually learn a",
+      "timestamp": "12:53"
+    },
+    {
+      "start": 775.44,
+      "duration": 3.92,
+      "text": "lot about all those misses as well.",
+      "timestamp": "12:55"
+    },
+    {
+      "start": 777.68,
+      "duration": 3.04,
+      "text": "We've done that internal as well, right?",
+      "timestamp": "12:57"
+    },
+    {
+      "start": 779.36,
+      "duration": 3.68,
+      "text": "As this is critical because if you're",
+      "timestamp": "12:59"
+    },
+    {
+      "start": 780.72,
+      "duration": 3.919,
+      "text": "just using Gemini via the API until",
+      "timestamp": "13:00"
+    },
+    {
+      "start": 783.04,
+      "duration": 3.599,
+      "text": "recently, you did not get the thinking",
+      "timestamp": "13:03"
+    },
+    {
+      "start": 784.639,
+      "duration": 4.32,
+      "text": "traces and like the thinking traces are",
+      "timestamp": "13:04"
+    },
+    {
+      "start": 786.639,
+      "duration": 4.32,
+      "text": "like the critical debug information to",
+      "timestamp": "13:06"
+    },
+    {
+      "start": 788.959,
+      "duration": 3.761,
+      "text": "like understand like what's wrong with",
+      "timestamp": "13:08"
+    },
+    {
+      "start": 790.959,
+      "duration": 4.081,
+      "text": "your prompt. They just added it to the",
+      "timestamp": "13:10"
+    },
+    {
+      "start": 792.72,
+      "duration": 4.799,
+      "text": "API. So you can now actually like pipe",
+      "timestamp": "13:12"
+    },
+    {
+      "start": 795.04,
+      "duration": 4.08,
+      "text": "that back into your developer tools and",
+      "timestamp": "13:15"
+    },
+    {
+      "start": 797.519,
+      "duration": 4.961,
+      "text": "workflows. Yeah, I think it's an",
+      "timestamp": "13:17"
+    },
+    {
+      "start": 799.12,
+      "duration": 5.44,
+      "text": "underrated um consequence of Gemini Pro",
+      "timestamp": "13:19"
+    },
+    {
+      "start": 802.48,
+      "duration": 4.56,
+      "text": "having such long context windows is you",
+      "timestamp": "13:22"
+    },
+    {
+      "start": 804.56,
+      "duration": 4.079,
+      "text": "can effectively use it like a a ripple.",
+      "timestamp": "13:24"
+    },
+    {
+      "start": 807.04,
+      "duration": 3.12,
+      "text": "Go sort of like one by one like put your",
+      "timestamp": "13:27"
+    },
+    {
+      "start": 808.639,
+      "duration": 4.0,
+      "text": "prompt on like one example then",
+      "timestamp": "13:28"
+    },
+    {
+      "start": 810.16,
+      "duration": 5.2,
+      "text": "literally watch the reasoning trace in",
+      "timestamp": "13:30"
+    },
+    {
+      "start": 812.639,
+      "duration": 4.161,
+      "text": "real time to figure out like how you can",
+      "timestamp": "13:32"
+    },
+    {
+      "start": 815.36,
+      "duration": 3.279,
+      "text": "steer it in the direction you want.",
+      "timestamp": "13:35"
+    },
+    {
+      "start": 816.8,
+      "duration": 4.8,
+      "text": "Jared and the software team at YC has",
+      "timestamp": "13:36"
+    },
+    {
+      "start": 818.639,
+      "duration": 5.041,
+      "text": "actually built this um you know various",
+      "timestamp": "13:38"
+    },
+    {
+      "start": 821.6,
+      "duration": 4.16,
+      "text": "forms of workbenches that allow us to",
+      "timestamp": "13:41"
+    },
+    {
+      "start": 823.68,
+      "duration": 4.719,
+      "text": "like do debug and things like that. But",
+      "timestamp": "13:43"
+    },
+    {
+      "start": 825.76,
+      "duration": 4.199,
+      "text": "to your point like sometimes it's better",
+      "timestamp": "13:45"
+    },
+    {
+      "start": 828.399,
+      "duration": 4.161,
+      "text": "just to use",
+      "timestamp": "13:48"
+    },
+    {
+      "start": 829.959,
+      "duration": 5.801,
+      "text": "gemini.google.com directly and then drag",
+      "timestamp": "13:49"
+    },
+    {
+      "start": 832.56,
+      "duration": 5.12,
+      "text": "and drop you know literally JSON files",
+      "timestamp": "13:52"
+    },
+    {
+      "start": 835.76,
+      "duration": 4.48,
+      "text": "and uh you know you don't have to do it",
+      "timestamp": "13:55"
+    },
+    {
+      "start": 837.68,
+      "duration": 4.959,
+      "text": "in some sort of special container like",
+      "timestamp": "13:57"
+    },
+    {
+      "start": 840.24,
+      "duration": 4.88,
+      "text": "it you know seems to be totally",
+      "timestamp": "14:00"
+    },
+    {
+      "start": 842.639,
+      "duration": 4.961,
+      "text": "something that works even directly in",
+      "timestamp": "14:02"
+    },
+    {
+      "start": 845.12,
+      "duration": 4.56,
+      "text": "you know chat GPT itself. Yeah, this is",
+      "timestamp": "14:05"
+    },
+    {
+      "start": 847.6,
+      "duration": 5.2,
+      "text": "all stuff. Um, I would give a shout out",
+      "timestamp": "14:07"
+    },
+    {
+      "start": 849.68,
+      "duration": 4.88,
+      "text": "to YC's head of data, Eric Bacon, who's",
+      "timestamp": "14:09"
+    },
+    {
+      "start": 852.8,
+      "duration": 4.159,
+      "text": "um, helped us all a lot a lot of this",
+      "timestamp": "14:12"
+    },
+    {
+      "start": 854.56,
+      "duration": 4.399,
+      "text": "metaparrotting and using Gemini Pro 2.5",
+      "timestamp": "14:14"
+    },
+    {
+      "start": 856.959,
+      "duration": 4.161,
+      "text": "as a effectively a ripple. What about",
+      "timestamp": "14:16"
+    },
+    {
+      "start": 858.959,
+      "duration": 5.44,
+      "text": "evals? I mean, we've uh, talked about",
+      "timestamp": "14:18"
+    },
+    {
+      "start": 861.12,
+      "duration": 4.88,
+      "text": "evals for going on a year now. Um, what",
+      "timestamp": "14:21"
+    },
+    {
+      "start": 864.399,
+      "duration": 3.521,
+      "text": "are some of the things that founders are",
+      "timestamp": "14:24"
+    },
+    {
+      "start": 866.0,
+      "duration": 3.6,
+      "text": "discovering? Even though we've been",
+      "timestamp": "14:26"
+    },
+    {
+      "start": 867.92,
+      "duration": 3.599,
+      "text": "saying this for a year or more now,",
+      "timestamp": "14:27"
+    },
+    {
+      "start": 869.6,
+      "duration": 5.52,
+      "text": "Gary, I think it's still the case that",
+      "timestamp": "14:29"
+    },
+    {
+      "start": 871.519,
+      "duration": 5.76,
+      "text": "like evals are the true crown jewel like",
+      "timestamp": "14:31"
+    },
+    {
+      "start": 875.12,
+      "duration": 4.399,
+      "text": "data asset for all of these companies.",
+      "timestamp": "14:35"
+    },
+    {
+      "start": 877.279,
+      "duration": 4.161,
+      "text": "Like one one reason that Powerhel was",
+      "timestamp": "14:37"
+    },
+    {
+      "start": 879.519,
+      "duration": 3.921,
+      "text": "willing to open source the prompt is",
+      "timestamp": "14:39"
+    },
+    {
+      "start": 881.44,
+      "duration": 3.839,
+      "text": "they told me that they actually don't",
+      "timestamp": "14:41"
+    },
+    {
+      "start": 883.44,
+      "duration": 3.92,
+      "text": "consider the prompts to be the crown",
+      "timestamp": "14:43"
+    },
+    {
+      "start": 885.279,
+      "duration": 3.841,
+      "text": "jewels like the evals are the crown",
+      "timestamp": "14:45"
+    },
+    {
+      "start": 887.36,
+      "duration": 4.159,
+      "text": "jewels because without the evals you",
+      "timestamp": "14:47"
+    },
+    {
+      "start": 889.12,
+      "duration": 4.959,
+      "text": "don't know why the prompt was written",
+      "timestamp": "14:49"
+    },
+    {
+      "start": 891.519,
+      "duration": 4.641,
+      "text": "the way that it was. Um and it's very",
+      "timestamp": "14:51"
+    },
+    {
+      "start": 894.079,
+      "duration": 4.161,
+      "text": "hard to improve it. Yeah. And I I think",
+      "timestamp": "14:54"
+    },
+    {
+      "start": 896.16,
+      "duration": 4.0,
+      "text": "in abstraction you can think about you",
+      "timestamp": "14:56"
+    },
+    {
+      "start": 898.24,
+      "duration": 4.48,
+      "text": "know YC funds a lot of companies",
+      "timestamp": "14:58"
+    },
+    {
+      "start": 900.16,
+      "duration": 5.039,
+      "text": "especially in vertical AI and SAS and",
+      "timestamp": "15:00"
+    },
+    {
+      "start": 902.72,
+      "duration": 5.2,
+      "text": "then you can't get the eval unless you",
+      "timestamp": "15:02"
+    },
+    {
+      "start": 905.199,
+      "duration": 5.521,
+      "text": "sitting literally side by side with",
+      "timestamp": "15:05"
+    },
+    {
+      "start": 907.92,
+      "duration": 4.479,
+      "text": "people who are doing X Y or Z knowledge",
+      "timestamp": "15:07"
+    },
+    {
+      "start": 910.72,
+      "duration": 5.2,
+      "text": "work. you know, you need to sit next to",
+      "timestamp": "15:10"
+    },
+    {
+      "start": 912.399,
+      "duration": 5.521,
+      "text": "the tractor sales regional manager and",
+      "timestamp": "15:12"
+    },
+    {
+      "start": 915.92,
+      "duration": 3.44,
+      "text": "understand, well, you know, this person",
+      "timestamp": "15:15"
+    },
+    {
+      "start": 917.92,
+      "duration": 3.2,
+      "text": "cares, you know, this is how they get",
+      "timestamp": "15:17"
+    },
+    {
+      "start": 919.36,
+      "duration": 4.159,
+      "text": "promoted. This is what they care about.",
+      "timestamp": "15:19"
+    },
+    {
+      "start": 921.12,
+      "duration": 4.32,
+      "text": "This is that person's reward function.",
+      "timestamp": "15:21"
+    },
+    {
+      "start": 923.519,
+      "duration": 3.921,
+      "text": "And then you know what you're doing is",
+      "timestamp": "15:23"
+    },
+    {
+      "start": 925.44,
+      "duration": 4.48,
+      "text": "taking these in-person interactions",
+      "timestamp": "15:25"
+    },
+    {
+      "start": 927.44,
+      "duration": 4.88,
+      "text": "sitting next to someone in Nebraska and",
+      "timestamp": "15:27"
+    },
+    {
+      "start": 929.92,
+      "duration": 5.76,
+      "text": "then going back to your computer and",
+      "timestamp": "15:29"
+    },
+    {
+      "start": 932.32,
+      "duration": 6.319,
+      "text": "codifying it into uh very specific evals",
+      "timestamp": "15:32"
+    },
+    {
+      "start": 935.68,
+      "duration": 4.88,
+      "text": "like this particular user wants this",
+      "timestamp": "15:35"
+    },
+    {
+      "start": 938.639,
+      "duration": 4.0,
+      "text": "outcome after they you know after this",
+      "timestamp": "15:38"
+    },
+    {
+      "start": 940.56,
+      "duration": 4.079,
+      "text": "invoice comes in we have to decide",
+      "timestamp": "15:40"
+    },
+    {
+      "start": 942.639,
+      "duration": 4.081,
+      "text": "whether we're going to honor the you the",
+      "timestamp": "15:42"
+    },
+    {
+      "start": 944.639,
+      "duration": 4.801,
+      "text": "warranty on this tractor. Like just to",
+      "timestamp": "15:44"
+    },
+    {
+      "start": 946.72,
+      "duration": 4.799,
+      "text": "take one of one example that's the true",
+      "timestamp": "15:46"
+    },
+    {
+      "start": 949.44,
+      "duration": 6.639,
+      "text": "value right like you everyone's really",
+      "timestamp": "15:49"
+    },
+    {
+      "start": 951.519,
+      "duration": 6.24,
+      "text": "worried about um are we just rappers and",
+      "timestamp": "15:51"
+    },
+    {
+      "start": 956.079,
+      "duration": 3.521,
+      "text": "you know what is going to happen to",
+      "timestamp": "15:56"
+    },
+    {
+      "start": 957.759,
+      "duration": 5.041,
+      "text": "startups and I think this is literally",
+      "timestamp": "15:57"
+    },
+    {
+      "start": 959.6,
+      "duration": 5.359,
+      "text": "where the rubber meets the road where um",
+      "timestamp": "15:59"
+    },
+    {
+      "start": 962.8,
+      "duration": 4.56,
+      "text": "if you you know if you are out there in",
+      "timestamp": "16:02"
+    },
+    {
+      "start": 964.959,
+      "duration": 4.721,
+      "text": "particular places understanding that",
+      "timestamp": "16:04"
+    },
+    {
+      "start": 967.36,
+      "duration": 4.64,
+      "text": "user better than anyone else and having",
+      "timestamp": "16:07"
+    },
+    {
+      "start": 969.68,
+      "duration": 4.959,
+      "text": "the software actually work for those",
+      "timestamp": "16:09"
+    },
+    {
+      "start": 972.0,
+      "duration": 4.72,
+      "text": "people that's the moat is that is like",
+      "timestamp": "16:12"
+    },
+    {
+      "start": 974.639,
+      "duration": 4.401,
+      "text": "such a perfect depiction of like what is",
+      "timestamp": "16:14"
+    },
+    {
+      "start": 976.72,
+      "duration": 4.239,
+      "text": "the core competency required of founders",
+      "timestamp": "16:16"
+    },
+    {
+      "start": 979.04,
+      "duration": 3.76,
+      "text": "today? Like literally like the thing",
+      "timestamp": "16:19"
+    },
+    {
+      "start": 980.959,
+      "duration": 3.921,
+      "text": "that you just said like that's your job",
+      "timestamp": "16:20"
+    },
+    {
+      "start": 982.8,
+      "duration": 4.399,
+      "text": "as a founder of a company like this is",
+      "timestamp": "16:22"
+    },
+    {
+      "start": 984.88,
+      "duration": 4.16,
+      "text": "to be really good at that thing and like",
+      "timestamp": "16:24"
+    },
+    {
+      "start": 987.199,
+      "duration": 3.681,
+      "text": "maniacally obsessed with like the",
+      "timestamp": "16:27"
+    },
+    {
+      "start": 989.04,
+      "duration": 3.52,
+      "text": "details of the regional tractor sales",
+      "timestamp": "16:29"
+    },
+    {
+      "start": 990.88,
+      "duration": 4.16,
+      "text": "manager workflow. Yeah. And then the",
+      "timestamp": "16:30"
+    },
+    {
+      "start": 992.56,
+      "duration": 4.079,
+      "text": "wild thing is it's very hard to do like",
+      "timestamp": "16:32"
+    },
+    {
+      "start": 995.04,
+      "duration": 4.08,
+      "text": "you know how you have you even been to",
+      "timestamp": "16:35"
+    },
+    {
+      "start": 996.639,
+      "duration": 4.241,
+      "text": "Nebraska you know the classic view is",
+      "timestamp": "16:36"
+    },
+    {
+      "start": 999.12,
+      "duration": 3.92,
+      "text": "that uh the best founders in the world",
+      "timestamp": "16:39"
+    },
+    {
+      "start": 1000.88,
+      "duration": 5.12,
+      "text": "they're you know sort of really great",
+      "timestamp": "16:40"
+    },
+    {
+      "start": 1003.04,
+      "duration": 5.359,
+      "text": "cracked engineers and technologists and",
+      "timestamp": "16:43"
+    },
+    {
+      "start": 1006.0,
+      "duration": 4.8,
+      "text": "uh just really brilliant and then at the",
+      "timestamp": "16:46"
+    },
+    {
+      "start": 1008.399,
+      "duration": 4.321,
+      "text": "same time they have to understand some",
+      "timestamp": "16:48"
+    },
+    {
+      "start": 1010.8,
+      "duration": 3.92,
+      "text": "part of the world that very few people",
+      "timestamp": "16:50"
+    },
+    {
+      "start": 1012.72,
+      "duration": 5.039,
+      "text": "understand and then there's this little",
+      "timestamp": "16:52"
+    },
+    {
+      "start": 1014.72,
+      "duration": 5.6,
+      "text": "sliver that is you know uh the founder",
+      "timestamp": "16:54"
+    },
+    {
+      "start": 1017.759,
+      "duration": 4.161,
+      "text": "of a multi-billion dollar startup you",
+      "timestamp": "16:57"
+    },
+    {
+      "start": 1020.32,
+      "duration": 4.32,
+      "text": "know I think of Ryan Peterson from",
+      "timestamp": "17:00"
+    },
+    {
+      "start": 1021.92,
+      "duration": 4.639,
+      "text": "Flexport, you know, really really great",
+      "timestamp": "17:01"
+    },
+    {
+      "start": 1024.64,
+      "duration": 4.199,
+      "text": "person who understands how software is",
+      "timestamp": "17:04"
+    },
+    {
+      "start": 1026.559,
+      "duration": 5.441,
+      "text": "built, but then also I think he was the",
+      "timestamp": "17:06"
+    },
+    {
+      "start": 1028.839,
+      "duration": 6.041,
+      "text": "third biggest uh importer of medical hot",
+      "timestamp": "17:08"
+    },
+    {
+      "start": 1032.0,
+      "duration": 5.6,
+      "text": "tubs for an entire year like you know a",
+      "timestamp": "17:12"
+    },
+    {
+      "start": 1034.88,
+      "duration": 4.4,
+      "text": "decade ago. So you know the weirder that",
+      "timestamp": "17:14"
+    },
+    {
+      "start": 1037.6,
+      "duration": 3.199,
+      "text": "is the more of the world that you've",
+      "timestamp": "17:17"
+    },
+    {
+      "start": 1039.28,
+      "duration": 4.159,
+      "text": "seen that nobody else who's a",
+      "timestamp": "17:19"
+    },
+    {
+      "start": 1040.799,
+      "duration": 5.04,
+      "text": "technologist has seen uh the greater the",
+      "timestamp": "17:20"
+    },
+    {
+      "start": 1043.439,
+      "duration": 3.681,
+      "text": "opportunity actually. I think you've put",
+      "timestamp": "17:23"
+    },
+    {
+      "start": 1045.839,
+      "duration": 2.321,
+      "text": "this in a really interesting way before",
+      "timestamp": "17:25"
+    },
+    {
+      "start": 1047.12,
+      "duration": 2.799,
+      "text": "Gary where you're sort of saying that",
+      "timestamp": "17:27"
+    },
+    {
+      "start": 1048.16,
+      "duration": 3.6,
+      "text": "every founder's become a forward",
+      "timestamp": "17:28"
+    },
+    {
+      "start": 1049.919,
+      "duration": 3.521,
+      "text": "deployed engineer. That's like a term",
+      "timestamp": "17:29"
+    },
+    {
+      "start": 1051.76,
+      "duration": 3.84,
+      "text": "that traces back to Palunteer and since",
+      "timestamp": "17:31"
+    },
+    {
+      "start": 1053.44,
+      "duration": 3.68,
+      "text": "you were early at Palanteer maybe tell",
+      "timestamp": "17:33"
+    },
+    {
+      "start": 1055.6,
+      "duration": 3.12,
+      "text": "us a little bit about how did forward",
+      "timestamp": "17:35"
+    },
+    {
+      "start": 1057.12,
+      "duration": 3.36,
+      "text": "deployed engineer become a thing at",
+      "timestamp": "17:37"
+    },
+    {
+      "start": 1058.72,
+      "duration": 3.12,
+      "text": "Palunteer and and what can founders",
+      "timestamp": "17:38"
+    },
+    {
+      "start": 1060.48,
+      "duration": 3.12,
+      "text": "learn from it now? I mean I think the",
+      "timestamp": "17:40"
+    },
+    {
+      "start": 1061.84,
+      "duration": 4.88,
+      "text": "whole thesis of Palunteer at some level",
+      "timestamp": "17:41"
+    },
+    {
+      "start": 1063.6,
+      "duration": 5.92,
+      "text": "was that um if you look at Meta back",
+      "timestamp": "17:43"
+    },
+    {
+      "start": 1066.72,
+      "duration": 5.92,
+      "text": "then it was called Facebook or Google or",
+      "timestamp": "17:46"
+    },
+    {
+      "start": 1069.52,
+      "duration": 5.36,
+      "text": "any of the top software startups that",
+      "timestamp": "17:49"
+    },
+    {
+      "start": 1072.64,
+      "duration": 5.12,
+      "text": "everyone sort of knew back then. One of",
+      "timestamp": "17:52"
+    },
+    {
+      "start": 1074.88,
+      "duration": 5.2,
+      "text": "the key recognitions that Peter Teal and",
+      "timestamp": "17:54"
+    },
+    {
+      "start": 1077.76,
+      "duration": 3.919,
+      "text": "Alex Karp and Stefan Cohen and Joe",
+      "timestamp": "17:57"
+    },
+    {
+      "start": 1080.08,
+      "duration": 3.92,
+      "text": "Lansdale, Nathan Gettings, like the",
+      "timestamp": "18:00"
+    },
+    {
+      "start": 1081.679,
+      "duration": 5.681,
+      "text": "original founders of Palunteer had was",
+      "timestamp": "18:01"
+    },
+    {
+      "start": 1084.0,
+      "duration": 7.039,
+      "text": "that uh go into anywhere in the Fortune",
+      "timestamp": "18:04"
+    },
+    {
+      "start": 1087.36,
+      "duration": 6.16,
+      "text": "500, go into any government agency in",
+      "timestamp": "18:07"
+    },
+    {
+      "start": 1091.039,
+      "duration": 5.52,
+      "text": "the world, including the United States,",
+      "timestamp": "18:11"
+    },
+    {
+      "start": 1093.52,
+      "duration": 5.68,
+      "text": "and nobody who understands computer",
+      "timestamp": "18:13"
+    },
+    {
+      "start": 1096.559,
+      "duration": 4.961,
+      "text": "science and technology at the level that",
+      "timestamp": "18:16"
+    },
+    {
+      "start": 1099.2,
+      "duration": 4.44,
+      "text": "you at the highest possible level would",
+      "timestamp": "18:19"
+    },
+    {
+      "start": 1101.52,
+      "duration": 4.48,
+      "text": "ever even be in that room. And so",
+      "timestamp": "18:21"
+    },
+    {
+      "start": 1103.64,
+      "duration": 4.68,
+      "text": "Palenteer's sort of really really big",
+      "timestamp": "18:23"
+    },
+    {
+      "start": 1106.0,
+      "duration": 4.88,
+      "text": "idea that they discovered very early was",
+      "timestamp": "18:26"
+    },
+    {
+      "start": 1108.32,
+      "duration": 5.12,
+      "text": "that uh the problems that those places",
+      "timestamp": "18:28"
+    },
+    {
+      "start": 1110.88,
+      "duration": 4.48,
+      "text": "face they're actually multi-billion",
+      "timestamp": "18:30"
+    },
+    {
+      "start": 1113.44,
+      "duration": 4.4,
+      "text": "dollar sometimes trillion dollar",
+      "timestamp": "18:33"
+    },
+    {
+      "start": 1115.36,
+      "duration": 4.88,
+      "text": "problems and yet uh this was well before",
+      "timestamp": "18:35"
+    },
+    {
+      "start": 1117.84,
+      "duration": 3.68,
+      "text": "AI became a thing you know I mean people",
+      "timestamp": "18:37"
+    },
+    {
+      "start": 1120.24,
+      "duration": 3.28,
+      "text": "were sort of talking about machine",
+      "timestamp": "18:40"
+    },
+    {
+      "start": 1121.52,
+      "duration": 3.68,
+      "text": "learning but you know back then they",
+      "timestamp": "18:41"
+    },
+    {
+      "start": 1123.52,
+      "duration": 4.0,
+      "text": "called it data mining you know the world",
+      "timestamp": "18:43"
+    },
+    {
+      "start": 1125.2,
+      "duration": 4.56,
+      "text": "is a wash in data these you know giant",
+      "timestamp": "18:45"
+    },
+    {
+      "start": 1127.52,
+      "duration": 5.039,
+      "text": "databases of people and things and",
+      "timestamp": "18:47"
+    },
+    {
+      "start": 1129.76,
+      "duration": 5.12,
+      "text": "transactions and we have no idea what to",
+      "timestamp": "18:49"
+    },
+    {
+      "start": 1132.559,
+      "duration": 5.36,
+      "text": "do with it. That's what Palanteer was,",
+      "timestamp": "18:52"
+    },
+    {
+      "start": 1134.88,
+      "duration": 5.679,
+      "text": "is and still is. That um you can go and",
+      "timestamp": "18:54"
+    },
+    {
+      "start": 1137.919,
+      "duration": 5.441,
+      "text": "find the world's best technologists who",
+      "timestamp": "18:57"
+    },
+    {
+      "start": 1140.559,
+      "duration": 4.48,
+      "text": "know how to write software to actually",
+      "timestamp": "19:00"
+    },
+    {
+      "start": 1143.36,
+      "duration": 4.16,
+      "text": "make sense of the world. You know, you",
+      "timestamp": "19:03"
+    },
+    {
+      "start": 1145.039,
+      "duration": 4.241,
+      "text": "have these pabytes of data and you don't",
+      "timestamp": "19:05"
+    },
+    {
+      "start": 1147.52,
+      "duration": 3.76,
+      "text": "know how do you find the needle in the",
+      "timestamp": "19:07"
+    },
+    {
+      "start": 1149.28,
+      "duration": 5.12,
+      "text": "haststack. Um and you know the wild",
+      "timestamp": "19:09"
+    },
+    {
+      "start": 1151.28,
+      "duration": 6.16,
+      "text": "thing is going on uh something like 20",
+      "timestamp": "19:11"
+    },
+    {
+      "start": 1154.4,
+      "duration": 5.92,
+      "text": "22 years later it's only become more",
+      "timestamp": "19:14"
+    },
+    {
+      "start": 1157.44,
+      "duration": 4.239,
+      "text": "true that we have more and more data and",
+      "timestamp": "19:17"
+    },
+    {
+      "start": 1160.32,
+      "duration": 3.92,
+      "text": "we have less and less of an",
+      "timestamp": "19:20"
+    },
+    {
+      "start": 1161.679,
+      "duration": 5.201,
+      "text": "understanding of what's going on and uh",
+      "timestamp": "19:21"
+    },
+    {
+      "start": 1164.24,
+      "duration": 5.04,
+      "text": "it's no mistake that actually now that",
+      "timestamp": "19:24"
+    },
+    {
+      "start": 1166.88,
+      "duration": 4.32,
+      "text": "we have LLMs like we actually it is",
+      "timestamp": "19:26"
+    },
+    {
+      "start": 1169.28,
+      "duration": 4.399,
+      "text": "becoming much more tractable and then",
+      "timestamp": "19:29"
+    },
+    {
+      "start": 1171.2,
+      "duration": 4.719,
+      "text": "the forward deployed engineer title was",
+      "timestamp": "19:31"
+    },
+    {
+      "start": 1173.679,
+      "duration": 6.0,
+      "text": "specifically how do you sit next to",
+      "timestamp": "19:33"
+    },
+    {
+      "start": 1175.919,
+      "duration": 5.76,
+      "text": "literally the FBI agent who's um",
+      "timestamp": "19:35"
+    },
+    {
+      "start": 1179.679,
+      "duration": 4.0,
+      "text": "investigating domestic terrorism. How do",
+      "timestamp": "19:39"
+    },
+    {
+      "start": 1181.679,
+      "duration": 4.161,
+      "text": "you sit right next to them in their",
+      "timestamp": "19:41"
+    },
+    {
+      "start": 1183.679,
+      "duration": 3.761,
+      "text": "actual office and see what does the case",
+      "timestamp": "19:43"
+    },
+    {
+      "start": 1185.84,
+      "duration": 4.32,
+      "text": "coming in look like? What are all the",
+      "timestamp": "19:45"
+    },
+    {
+      "start": 1187.44,
+      "duration": 4.88,
+      "text": "steps? Uh when you actually need to go",
+      "timestamp": "19:47"
+    },
+    {
+      "start": 1190.16,
+      "duration": 4.24,
+      "text": "to the federal prosecutor, what are the",
+      "timestamp": "19:50"
+    },
+    {
+      "start": 1192.32,
+      "duration": 3.84,
+      "text": "things that they're sending? Is it I",
+      "timestamp": "19:52"
+    },
+    {
+      "start": 1194.4,
+      "duration": 3.68,
+      "text": "mean what's funny is like literally it's",
+      "timestamp": "19:54"
+    },
+    {
+      "start": 1196.16,
+      "duration": 4.399,
+      "text": "like word documents and Excel",
+      "timestamp": "19:56"
+    },
+    {
+      "start": 1198.08,
+      "duration": 4.88,
+      "text": "spreadsheets, right? And um what you do",
+      "timestamp": "19:58"
+    },
+    {
+      "start": 1200.559,
+      "duration": 5.041,
+      "text": "as a forward deployed engineer is take",
+      "timestamp": "20:00"
+    },
+    {
+      "start": 1202.96,
+      "duration": 4.719,
+      "text": "these sort of you know file cabinet and",
+      "timestamp": "20:02"
+    },
+    {
+      "start": 1205.6,
+      "duration": 5.12,
+      "text": "fax machine things that people have to",
+      "timestamp": "20:05"
+    },
+    {
+      "start": 1207.679,
+      "duration": 5.36,
+      "text": "do and then convert it into really clean",
+      "timestamp": "20:07"
+    },
+    {
+      "start": 1210.72,
+      "duration": 4.48,
+      "text": "software. So you know the classic view",
+      "timestamp": "20:10"
+    },
+    {
+      "start": 1213.039,
+      "duration": 4.961,
+      "text": "is that it should be as easy to actually",
+      "timestamp": "20:13"
+    },
+    {
+      "start": 1215.2,
+      "duration": 5.12,
+      "text": "do uh an investigation at a threeletter",
+      "timestamp": "20:15"
+    },
+    {
+      "start": 1218.0,
+      "duration": 4.0,
+      "text": "agency as going and taking a photo of",
+      "timestamp": "20:18"
+    },
+    {
+      "start": 1220.32,
+      "duration": 3.52,
+      "text": "your lunch on Instagram and posting it",
+      "timestamp": "20:20"
+    },
+    {
+      "start": 1222.0,
+      "duration": 3.36,
+      "text": "to all your friends. Like that's you",
+      "timestamp": "20:22"
+    },
+    {
+      "start": 1223.84,
+      "duration": 3.839,
+      "text": "know kind of the funniest part of it.",
+      "timestamp": "20:23"
+    },
+    {
+      "start": 1225.36,
+      "duration": 5.12,
+      "text": "And so you I think it's no mistake today",
+      "timestamp": "20:25"
+    },
+    {
+      "start": 1227.679,
+      "duration": 4.24,
+      "text": "that four deployed engineers who came up",
+      "timestamp": "20:27"
+    },
+    {
+      "start": 1230.48,
+      "duration": 2.559,
+      "text": "through that system at Palanteer now",
+      "timestamp": "20:30"
+    },
+    {
+      "start": 1231.919,
+      "duration": 3.12,
+      "text": "they're turning out to be some of the",
+      "timestamp": "20:31"
+    },
+    {
+      "start": 1233.039,
+      "duration": 4.321,
+      "text": "best founders at YC actually. Yeah. I",
+      "timestamp": "20:33"
+    },
+    {
+      "start": 1235.039,
+      "duration": 3.921,
+      "text": "mean produced this incredible an",
+      "timestamp": "20:35"
+    },
+    {
+      "start": 1237.36,
+      "duration": 3.36,
+      "text": "incredible number of startup founders",
+      "timestamp": "20:37"
+    },
+    {
+      "start": 1238.96,
+      "duration": 3.04,
+      "text": "cuz yeah like the training to be a fore",
+      "timestamp": "20:38"
+    },
+    {
+      "start": 1240.72,
+      "duration": 2.72,
+      "text": "deployed engineer that's exactly the",
+      "timestamp": "20:40"
+    },
+    {
+      "start": 1242.0,
+      "duration": 3.2,
+      "text": "right training to be a founder of these",
+      "timestamp": "20:42"
+    },
+    {
+      "start": 1243.44,
+      "duration": 3.119,
+      "text": "companies. Now the the other interesting",
+      "timestamp": "20:43"
+    },
+    {
+      "start": 1245.2,
+      "duration": 3.44,
+      "text": "thing about Palunteer is like other",
+      "timestamp": "20:45"
+    },
+    {
+      "start": 1246.559,
+      "duration": 4.161,
+      "text": "companies would send like a salesperson",
+      "timestamp": "20:46"
+    },
+    {
+      "start": 1248.64,
+      "duration": 4.32,
+      "text": "to go and sit with the FBI agent and",
+      "timestamp": "20:48"
+    },
+    {
+      "start": 1250.72,
+      "duration": 3.76,
+      "text": "like Palunteer sent engineers to go and",
+      "timestamp": "20:50"
+    },
+    {
+      "start": 1252.96,
+      "duration": 3.28,
+      "text": "do that. I think Palenter was probably",
+      "timestamp": "20:52"
+    },
+    {
+      "start": 1254.48,
+      "duration": 3.6,
+      "text": "the first company to really like",
+      "timestamp": "20:54"
+    },
+    {
+      "start": 1256.24,
+      "duration": 4.08,
+      "text": "institutionalize that and scale that as",
+      "timestamp": "20:56"
+    },
+    {
+      "start": 1258.08,
+      "duration": 4.16,
+      "text": "a process, right? Yeah. I mean, I think",
+      "timestamp": "20:58"
+    },
+    {
+      "start": 1260.32,
+      "duration": 3.52,
+      "text": "what happened there, the reason why they",
+      "timestamp": "21:00"
+    },
+    {
+      "start": 1262.24,
+      "duration": 3.6,
+      "text": "were able to get these sort of seven and",
+      "timestamp": "21:02"
+    },
+    {
+      "start": 1263.84,
+      "duration": 4.319,
+      "text": "eight and now nine figure contracts very",
+      "timestamp": "21:03"
+    },
+    {
+      "start": 1265.84,
+      "duration": 3.92,
+      "text": "consistently is that uh instead of",
+      "timestamp": "21:05"
+    },
+    {
+      "start": 1268.159,
+      "duration": 3.52,
+      "text": "sending someone who's like hair and",
+      "timestamp": "21:08"
+    },
+    {
+      "start": 1269.76,
+      "duration": 3.68,
+      "text": "teeth and they're in there and you know,",
+      "timestamp": "21:09"
+    },
+    {
+      "start": 1271.679,
+      "duration": 3.441,
+      "text": "let's go to the let's go to the uh",
+      "timestamp": "21:11"
+    },
+    {
+      "start": 1273.44,
+      "duration": 4.239,
+      "text": "steakhouse. You know, it's all like",
+      "timestamp": "21:13"
+    },
+    {
+      "start": 1275.12,
+      "duration": 4.039,
+      "text": "relationship. and you'd have one meeting",
+      "timestamp": "21:15"
+    },
+    {
+      "start": 1277.679,
+      "duration": 3.761,
+      "text": "uh they would really like the",
+      "timestamp": "21:17"
+    },
+    {
+      "start": 1279.159,
+      "duration": 4.76,
+      "text": "salesperson and then through sheer force",
+      "timestamp": "21:19"
+    },
+    {
+      "start": 1281.44,
+      "duration": 4.16,
+      "text": "of personality you'd try to get them to",
+      "timestamp": "21:21"
+    },
+    {
+      "start": 1283.919,
+      "duration": 3.601,
+      "text": "give you a seven-figure contract and",
+      "timestamp": "21:23"
+    },
+    {
+      "start": 1285.6,
+      "duration": 4.48,
+      "text": "like the time scales on this would be",
+      "timestamp": "21:25"
+    },
+    {
+      "start": 1287.52,
+      "duration": 4.639,
+      "text": "you know 6 weeks 10 weeks 12 weeks like",
+      "timestamp": "21:27"
+    },
+    {
+      "start": 1290.08,
+      "duration": 4.32,
+      "text": "5 years I don't know it's like and the",
+      "timestamp": "21:30"
+    },
+    {
+      "start": 1292.159,
+      "duration": 4.481,
+      "text": "software would never work uh whereas if",
+      "timestamp": "21:32"
+    },
+    {
+      "start": 1294.4,
+      "duration": 5.12,
+      "text": "you put an engineer in there and you",
+      "timestamp": "21:34"
+    },
+    {
+      "start": 1296.64,
+      "duration": 4.24,
+      "text": "give them uh you know Palunteer Foundry",
+      "timestamp": "21:36"
+    },
+    {
+      "start": 1299.52,
+      "duration": 4.48,
+      "text": "which is what they now call sort of",
+      "timestamp": "21:39"
+    },
+    {
+      "start": 1300.88,
+      "duration": 6.08,
+      "text": "their core uh data viz and data mining",
+      "timestamp": "21:40"
+    },
+    {
+      "start": 1304.0,
+      "duration": 5.84,
+      "text": "suites instead of the next meeting being",
+      "timestamp": "21:44"
+    },
+    {
+      "start": 1306.96,
+      "duration": 5.199,
+      "text": "reviewing 50 pages of you know sort of",
+      "timestamp": "21:46"
+    },
+    {
+      "start": 1309.84,
+      "duration": 4.0,
+      "text": "sales documentation or a contract or a",
+      "timestamp": "21:49"
+    },
+    {
+      "start": 1312.159,
+      "duration": 4.321,
+      "text": "spec or anything like that. It's",
+      "timestamp": "21:52"
+    },
+    {
+      "start": 1313.84,
+      "duration": 4.959,
+      "text": "literally like, \"Okay, we built it.\" And",
+      "timestamp": "21:53"
+    },
+    {
+      "start": 1316.48,
+      "duration": 4.88,
+      "text": "then you're getting like real live",
+      "timestamp": "21:56"
+    },
+    {
+      "start": 1318.799,
+      "duration": 4.561,
+      "text": "feedback within days. And I mean, that's",
+      "timestamp": "21:58"
+    },
+    {
+      "start": 1321.36,
+      "duration": 3.76,
+      "text": "honestly the biggest opportunity for",
+      "timestamp": "22:01"
+    },
+    {
+      "start": 1323.36,
+      "duration": 4.48,
+      "text": "startup founders. If startup founders",
+      "timestamp": "22:03"
+    },
+    {
+      "start": 1325.12,
+      "duration": 4.24,
+      "text": "can do that and uh that's what forward",
+      "timestamp": "22:05"
+    },
+    {
+      "start": 1327.84,
+      "duration": 3.44,
+      "text": "deployed engineers are sort of used to",
+      "timestamp": "22:07"
+    },
+    {
+      "start": 1329.36,
+      "duration": 4.88,
+      "text": "doing that's how you could beat a",
+      "timestamp": "22:09"
+    },
+    {
+      "start": 1331.28,
+      "duration": 5.6,
+      "text": "Salesforce or an Oracle or you know a",
+      "timestamp": "22:11"
+    },
+    {
+      "start": 1334.24,
+      "duration": 5.04,
+      "text": "Booze Allen or literally any company out",
+      "timestamp": "22:14"
+    },
+    {
+      "start": 1336.88,
+      "duration": 4.32,
+      "text": "there that has a big office and a big",
+      "timestamp": "22:16"
+    },
+    {
+      "start": 1339.28,
+      "duration": 4.16,
+      "text": "fancy you know you have big fancy",
+      "timestamp": "22:19"
+    },
+    {
+      "start": 1341.2,
+      "duration": 4.24,
+      "text": "salespeople with big strong handshakes",
+      "timestamp": "22:21"
+    },
+    {
+      "start": 1343.44,
+      "duration": 3.68,
+      "text": "and it's like how does a really good",
+      "timestamp": "22:23"
+    },
+    {
+      "start": 1345.44,
+      "duration": 3.599,
+      "text": "engineer with a weak handshake go in",
+      "timestamp": "22:25"
+    },
+    {
+      "start": 1347.12,
+      "duration": 3.439,
+      "text": "there and beat them? It's actually you",
+      "timestamp": "22:27"
+    },
+    {
+      "start": 1349.039,
+      "duration": 4.321,
+      "text": "show them something that they've never",
+      "timestamp": "22:29"
+    },
+    {
+      "start": 1350.559,
+      "duration": 4.641,
+      "text": "seen before and like make them feel",
+      "timestamp": "22:30"
+    },
+    {
+      "start": 1353.36,
+      "duration": 3.28,
+      "text": "super heard. You have to be super",
+      "timestamp": "22:33"
+    },
+    {
+      "start": 1355.2,
+      "duration": 3.599,
+      "text": "empathetic about it. Like you actually",
+      "timestamp": "22:35"
+    },
+    {
+      "start": 1356.64,
+      "duration": 5.12,
+      "text": "have to be a great designer and product",
+      "timestamp": "22:36"
+    },
+    {
+      "start": 1358.799,
+      "duration": 4.721,
+      "text": "person and then you know come back and",
+      "timestamp": "22:38"
+    },
+    {
+      "start": 1361.76,
+      "duration": 4.24,
+      "text": "you can just blow them away. Like the",
+      "timestamp": "22:41"
+    },
+    {
+      "start": 1363.52,
+      "duration": 4.399,
+      "text": "software is so powerful that you know",
+      "timestamp": "22:43"
+    },
+    {
+      "start": 1366.0,
+      "duration": 4.08,
+      "text": "the second you see something that you",
+      "timestamp": "22:46"
+    },
+    {
+      "start": 1367.919,
+      "duration": 3.601,
+      "text": "know makes you feel seen you want to buy",
+      "timestamp": "22:47"
+    },
+    {
+      "start": 1370.08,
+      "duration": 2.64,
+      "text": "it on the spot. Is a good way of",
+      "timestamp": "22:50"
+    },
+    {
+      "start": 1371.52,
+      "duration": 3.44,
+      "text": "thinking about it that founders should",
+      "timestamp": "22:51"
+    },
+    {
+      "start": 1372.72,
+      "duration": 4.0,
+      "text": "think about themselves as being the four",
+      "timestamp": "22:52"
+    },
+    {
+      "start": 1374.96,
+      "duration": 3.199,
+      "text": "deployed engineers of their own company.",
+      "timestamp": "22:54"
+    },
+    {
+      "start": 1376.72,
+      "duration": 3.92,
+      "text": "Absolutely. Yeah. Like you definitely",
+      "timestamp": "22:56"
+    },
+    {
+      "start": 1378.159,
+      "duration": 4.721,
+      "text": "can't farm this out. Like literally the",
+      "timestamp": "22:58"
+    },
+    {
+      "start": 1380.64,
+      "duration": 3.44,
+      "text": "founders themselves, they're technical.",
+      "timestamp": "23:00"
+    },
+    {
+      "start": 1382.88,
+      "duration": 2.72,
+      "text": "They have to be the great product",
+      "timestamp": "23:02"
+    },
+    {
+      "start": 1384.08,
+      "duration": 3.28,
+      "text": "people. They have to be the",
+      "timestamp": "23:04"
+    },
+    {
+      "start": 1385.6,
+      "duration": 4.4,
+      "text": "ethnographer. They have to be the",
+      "timestamp": "23:05"
+    },
+    {
+      "start": 1387.36,
+      "duration": 4.4,
+      "text": "designer. You want the person on the",
+      "timestamp": "23:07"
+    },
+    {
+      "start": 1390.0,
+      "duration": 3.6,
+      "text": "second meeting to see the demo you put",
+      "timestamp": "23:10"
+    },
+    {
+      "start": 1391.76,
+      "duration": 4.08,
+      "text": "together based on the stuff you heard.",
+      "timestamp": "23:11"
+    },
+    {
+      "start": 1393.6,
+      "duration": 4.24,
+      "text": "And you want them to say, \"Wow, I've",
+      "timestamp": "23:13"
+    },
+    {
+      "start": 1395.84,
+      "duration": 3.68,
+      "text": "never seen anything like that.\" And take",
+      "timestamp": "23:15"
+    },
+    {
+      "start": 1397.84,
+      "duration": 3.6,
+      "text": "my money. I think the incredible thing",
+      "timestamp": "23:17"
+    },
+    {
+      "start": 1399.52,
+      "duration": 4.24,
+      "text": "about this model is this is why we're",
+      "timestamp": "23:19"
+    },
+    {
+      "start": 1401.44,
+      "duration": 5.76,
+      "text": "seeing a lot of the vertical AI agents",
+      "timestamp": "23:21"
+    },
+    {
+      "start": 1403.76,
+      "duration": 6.32,
+      "text": "take off is precisely this because they",
+      "timestamp": "23:23"
+    },
+    {
+      "start": 1407.2,
+      "duration": 5.24,
+      "text": "can have these meetings with the end",
+      "timestamp": "23:27"
+    },
+    {
+      "start": 1410.08,
+      "duration": 4.959,
+      "text": "buyer and champion at these big",
+      "timestamp": "23:30"
+    },
+    {
+      "start": 1412.44,
+      "duration": 4.719,
+      "text": "enterprises. They take that context and",
+      "timestamp": "23:32"
+    },
+    {
+      "start": 1415.039,
+      "duration": 4.481,
+      "text": "then they stuff it basically in the",
+      "timestamp": "23:35"
+    },
+    {
+      "start": 1417.159,
+      "duration": 4.361,
+      "text": "prompt and then they can quickly come",
+      "timestamp": "23:37"
+    },
+    {
+      "start": 1419.52,
+      "duration": 3.2,
+      "text": "back in a meeting like just the next day",
+      "timestamp": "23:39"
+    },
+    {
+      "start": 1421.52,
+      "duration": 3.44,
+      "text": "maybe with Palunteer would have taken a",
+      "timestamp": "23:41"
+    },
+    {
+      "start": 1422.72,
+      "duration": 4.48,
+      "text": "bit longer and a team of engineers here.",
+      "timestamp": "23:42"
+    },
+    {
+      "start": 1424.96,
+      "duration": 4.079,
+      "text": "It could be just the two founders go in",
+      "timestamp": "23:44"
+    },
+    {
+      "start": 1427.2,
+      "duration": 4.0,
+      "text": "and then they would close this six,",
+      "timestamp": "23:47"
+    },
+    {
+      "start": 1429.039,
+      "duration": 5.681,
+      "text": "seven figure deals which we've seen and",
+      "timestamp": "23:49"
+    },
+    {
+      "start": 1431.2,
+      "duration": 5.76,
+      "text": "with large enterprises which has never",
+      "timestamp": "23:51"
+    },
+    {
+      "start": 1434.72,
+      "duration": 4.56,
+      "text": "been done before and it's just possible",
+      "timestamp": "23:54"
+    },
+    {
+      "start": 1436.96,
+      "duration": 5.76,
+      "text": "with this new model of forward deploy",
+      "timestamp": "23:56"
+    },
+    {
+      "start": 1439.28,
+      "duration": 5.519,
+      "text": "engineer plus AI is just on",
+      "timestamp": "23:59"
+    },
+    {
+      "start": 1442.72,
+      "duration": 3.12,
+      "text": "accelerating. It just reminds me of a",
+      "timestamp": "24:02"
+    },
+    {
+      "start": 1444.799,
+      "duration": 2.801,
+      "text": "company I mentioned before on the",
+      "timestamp": "24:04"
+    },
+    {
+      "start": 1445.84,
+      "duration": 4.079,
+      "text": "podcast like Giger ML who do customer",
+      "timestamp": "24:05"
+    },
+    {
+      "start": 1447.6,
+      "duration": 4.559,
+      "text": "another customer support and especially",
+      "timestamp": "24:07"
+    },
+    {
+      "start": 1449.919,
+      "duration": 5.281,
+      "text": "a lot of voice support and it's just",
+      "timestamp": "24:09"
+    },
+    {
+      "start": 1452.159,
+      "duration": 5.281,
+      "text": "classic case of two extremely um",
+      "timestamp": "24:12"
+    },
+    {
+      "start": 1455.2,
+      "duration": 4.079,
+      "text": "talented software engineers not natural",
+      "timestamp": "24:15"
+    },
+    {
+      "start": 1457.44,
+      "duration": 3.92,
+      "text": "sales people but they force themselves",
+      "timestamp": "24:17"
+    },
+    {
+      "start": 1459.279,
+      "duration": 4.561,
+      "text": "to be essentially forward deployed",
+      "timestamp": "24:19"
+    },
+    {
+      "start": 1461.36,
+      "duration": 4.08,
+      "text": "engineers and they closed a huge deal",
+      "timestamp": "24:21"
+    },
+    {
+      "start": 1463.84,
+      "duration": 3.68,
+      "text": "with Zeppto and then a couple of other",
+      "timestamp": "24:23"
+    },
+    {
+      "start": 1465.44,
+      "duration": 3.52,
+      "text": "companies they can't announce yet but do",
+      "timestamp": "24:25"
+    },
+    {
+      "start": 1467.52,
+      "duration": 3.36,
+      "text": "they physically go on site like the",
+      "timestamp": "24:27"
+    },
+    {
+      "start": 1468.96,
+      "duration": 3.44,
+      "text": "palentier model? Yes. So they did so",
+      "timestamp": "24:28"
+    },
+    {
+      "start": 1470.88,
+      "duration": 3.279,
+      "text": "they they did all of that where once",
+      "timestamp": "24:30"
+    },
+    {
+      "start": 1472.4,
+      "duration": 2.96,
+      "text": "they close the deal they go on site and",
+      "timestamp": "24:32"
+    },
+    {
+      "start": 1474.159,
+      "duration": 3.041,
+      "text": "they sit there with all the customer",
+      "timestamp": "24:34"
+    },
+    {
+      "start": 1475.36,
+      "duration": 4.16,
+      "text": "support people and figuring out how to",
+      "timestamp": "24:35"
+    },
+    {
+      "start": 1477.2,
+      "duration": 4.4,
+      "text": "keep tuning and getting the software or",
+      "timestamp": "24:37"
+    },
+    {
+      "start": 1479.52,
+      "duration": 4.56,
+      "text": "the LM to work even better. But before",
+      "timestamp": "24:39"
+    },
+    {
+      "start": 1481.6,
+      "duration": 4.64,
+      "text": "that even to win the deal what they",
+      "timestamp": "24:41"
+    },
+    {
+      "start": 1484.08,
+      "duration": 3.839,
+      "text": "found is that they can they can win by",
+      "timestamp": "24:44"
+    },
+    {
+      "start": 1486.24,
+      "duration": 4.4,
+      "text": "just having the most impressive demo.",
+      "timestamp": "24:46"
+    },
+    {
+      "start": 1487.919,
+      "duration": 5.441,
+      "text": "And in their case they've um innovated a",
+      "timestamp": "24:47"
+    },
+    {
+      "start": 1490.64,
+      "duration": 4.88,
+      "text": "bit on the rag pipeline so that they can",
+      "timestamp": "24:50"
+    },
+    {
+      "start": 1493.36,
+      "duration": 4.0,
+      "text": "um have their voice responses be both",
+      "timestamp": "24:53"
+    },
+    {
+      "start": 1495.52,
+      "duration": 3.6,
+      "text": "accurate and very low latency. sort of",
+      "timestamp": "24:55"
+    },
+    {
+      "start": 1497.36,
+      "duration": 4.64,
+      "text": "like a technically challenging thing to",
+      "timestamp": "24:57"
+    },
+    {
+      "start": 1499.12,
+      "duration": 4.799,
+      "text": "do, but I just feel like in the like pre",
+      "timestamp": "24:59"
+    },
+    {
+      "start": 1502.0,
+      "duration": 3.279,
+      "text": "sort of the current LLM rise, you",
+      "timestamp": "25:02"
+    },
+    {
+      "start": 1503.919,
+      "duration": 3.841,
+      "text": "couldn't necessarily differentiate",
+      "timestamp": "25:03"
+    },
+    {
+      "start": 1505.279,
+      "duration": 4.4,
+      "text": "enough in the demo phase of sales to",
+      "timestamp": "25:05"
+    },
+    {
+      "start": 1507.76,
+      "duration": 3.6,
+      "text": "beat out incumbent. So, you can really",
+      "timestamp": "25:07"
+    },
+    {
+      "start": 1509.679,
+      "duration": 4.401,
+      "text": "beat Salesforce by having a slightly",
+      "timestamp": "25:09"
+    },
+    {
+      "start": 1511.36,
+      "duration": 4.319,
+      "text": "better CRM with a better UI. But now",
+      "timestamp": "25:11"
+    },
+    {
+      "start": 1514.08,
+      "duration": 3.52,
+      "text": "because the technology evolves so fast",
+      "timestamp": "25:14"
+    },
+    {
+      "start": 1515.679,
+      "duration": 4.961,
+      "text": "and it's so hard to get this like last",
+      "timestamp": "25:15"
+    },
+    {
+      "start": 1517.6,
+      "duration": 4.4,
+      "text": "five 10 five to 10% correct, you can",
+      "timestamp": "25:17"
+    },
+    {
+      "start": 1520.64,
+      "duration": 4.159,
+      "text": "actually if you're a forward deployed",
+      "timestamp": "25:20"
+    },
+    {
+      "start": 1522.0,
+      "duration": 4.32,
+      "text": "engineer go in do the first meeting",
+      "timestamp": "25:22"
+    },
+    {
+      "start": 1524.799,
+      "duration": 3.36,
+      "text": "tweak it so that it works really well",
+      "timestamp": "25:24"
+    },
+    {
+      "start": 1526.32,
+      "duration": 3.76,
+      "text": "for that customer. Go back with the demo",
+      "timestamp": "25:26"
+    },
+    {
+      "start": 1528.159,
+      "duration": 3.681,
+      "text": "and just get that oh wow like we've not",
+      "timestamp": "25:28"
+    },
+    {
+      "start": 1530.08,
+      "duration": 4.0,
+      "text": "seen anyone else pull this off before",
+      "timestamp": "25:30"
+    },
+    {
+      "start": 1531.84,
+      "duration": 4.24,
+      "text": "experience and close huge deals. And",
+      "timestamp": "25:31"
+    },
+    {
+      "start": 1534.08,
+      "duration": 5.599,
+      "text": "that was the exact same case with Happy",
+      "timestamp": "25:34"
+    },
+    {
+      "start": 1536.08,
+      "duration": 6.4,
+      "text": "Robot who has sold seven figure",
+      "timestamp": "25:36"
+    },
+    {
+      "start": 1539.679,
+      "duration": 5.201,
+      "text": "contracts to the top three largest",
+      "timestamp": "25:39"
+    },
+    {
+      "start": 1542.48,
+      "duration": 4.72,
+      "text": "logistic brokers in the world. They",
+      "timestamp": "25:42"
+    },
+    {
+      "start": 1544.88,
+      "duration": 3.84,
+      "text": "build AI voice agents for that. They are",
+      "timestamp": "25:44"
+    },
+    {
+      "start": 1547.2,
+      "duration": 3.2,
+      "text": "the ones doing the forward deploy",
+      "timestamp": "25:47"
+    },
+    {
+      "start": 1548.72,
+      "duration": 4.48,
+      "text": "engineer model and talking to like the",
+      "timestamp": "25:48"
+    },
+    {
+      "start": 1550.4,
+      "duration": 5.6,
+      "text": "CIOS of these companies and quickly",
+      "timestamp": "25:50"
+    },
+    {
+      "start": 1553.2,
+      "duration": 4.079,
+      "text": "shipping a lot of product like very very",
+      "timestamp": "25:53"
+    },
+    {
+      "start": 1556.0,
+      "duration": 3.039,
+      "text": "quick turnaround. And it's been",
+      "timestamp": "25:56"
+    },
+    {
+      "start": 1557.279,
+      "duration": 3.681,
+      "text": "incredible to see that take off right",
+      "timestamp": "25:57"
+    },
+    {
+      "start": 1559.039,
+      "duration": 4.24,
+      "text": "now. And it started from six figure",
+      "timestamp": "25:59"
+    },
+    {
+      "start": 1560.96,
+      "duration": 4.4,
+      "text": "deals now doing closing and seven figure",
+      "timestamp": "26:00"
+    },
+    {
+      "start": 1563.279,
+      "duration": 3.601,
+      "text": "deals which is crazy. This is just a",
+      "timestamp": "26:03"
+    },
+    {
+      "start": 1565.36,
+      "duration": 4.12,
+      "text": "couple months after. So that's the kind",
+      "timestamp": "26:05"
+    },
+    {
+      "start": 1566.88,
+      "duration": 4.72,
+      "text": "of stuff that you can do with uh I mean",
+      "timestamp": "26:06"
+    },
+    {
+      "start": 1569.48,
+      "duration": 4.199,
+      "text": "unbelievably very very smart prompt",
+      "timestamp": "26:09"
+    },
+    {
+      "start": 1571.6,
+      "duration": 4.48,
+      "text": "engineering actually. Well, one of the",
+      "timestamp": "26:11"
+    },
+    {
+      "start": 1573.679,
+      "duration": 4.961,
+      "text": "things that's kind of interesting about",
+      "timestamp": "26:13"
+    },
+    {
+      "start": 1576.08,
+      "duration": 5.52,
+      "text": "uh each model is that they each seem to",
+      "timestamp": "26:16"
+    },
+    {
+      "start": 1578.64,
+      "duration": 4.639,
+      "text": "have their own personality. And one of",
+      "timestamp": "26:18"
+    },
+    {
+      "start": 1581.6,
+      "duration": 3.92,
+      "text": "the things the founders are really",
+      "timestamp": "26:21"
+    },
+    {
+      "start": 1583.279,
+      "duration": 3.681,
+      "text": "realizing is that you're going to go to",
+      "timestamp": "26:23"
+    },
+    {
+      "start": 1585.52,
+      "duration": 3.68,
+      "text": "different people for different things.",
+      "timestamp": "26:25"
+    },
+    {
+      "start": 1586.96,
+      "duration": 4.48,
+      "text": "Actually, one of the things that's known",
+      "timestamp": "26:26"
+    },
+    {
+      "start": 1589.2,
+      "duration": 6.24,
+      "text": "a lot is Claude is sort of the more",
+      "timestamp": "26:29"
+    },
+    {
+      "start": 1591.44,
+      "duration": 8.88,
+      "text": "happy and more human steerable model.",
+      "timestamp": "26:31"
+    },
+    {
+      "start": 1595.44,
+      "duration": 6.8,
+      "text": "And the uh other one is Lama 4 is one",
+      "timestamp": "26:35"
+    },
+    {
+      "start": 1600.32,
+      "duration": 3.52,
+      "text": "that needs a lot more steering. It's",
+      "timestamp": "26:40"
+    },
+    {
+      "start": 1602.24,
+      "duration": 3.6,
+      "text": "almost like talking to a developer and",
+      "timestamp": "26:42"
+    },
+    {
+      "start": 1603.84,
+      "duration": 5.28,
+      "text": "part of it could be an artifact of not",
+      "timestamp": "26:43"
+    },
+    {
+      "start": 1605.84,
+      "duration": 5.839,
+      "text": "having done as much RL RHF on top of it.",
+      "timestamp": "26:45"
+    },
+    {
+      "start": 1609.12,
+      "duration": 5.2,
+      "text": "So is a bit more rough to work with, but",
+      "timestamp": "26:49"
+    },
+    {
+      "start": 1611.679,
+      "duration": 3.641,
+      "text": "you could actually steer it very well if",
+      "timestamp": "26:51"
+    },
+    {
+      "start": 1614.32,
+      "duration": 4.4,
+      "text": "you",
+      "timestamp": "26:54"
+    },
+    {
+      "start": 1615.32,
+      "duration": 4.76,
+      "text": "actually are good at actually doing a",
+      "timestamp": "26:55"
+    },
+    {
+      "start": 1618.72,
+      "duration": 3.28,
+      "text": "lot of prompting and almost doing a bit",
+      "timestamp": "26:58"
+    },
+    {
+      "start": 1620.08,
+      "duration": 3.44,
+      "text": "more RLHF, but it's a bit harder to work",
+      "timestamp": "27:00"
+    },
+    {
+      "start": 1622.0,
+      "duration": 4.0,
+      "text": "with actually. Well, one of the things",
+      "timestamp": "27:02"
+    },
+    {
+      "start": 1623.52,
+      "duration": 5.44,
+      "text": "we've been using uh LLMs for internally",
+      "timestamp": "27:03"
+    },
+    {
+      "start": 1626.0,
+      "duration": 5.12,
+      "text": "is actually helping founders figure out",
+      "timestamp": "27:06"
+    },
+    {
+      "start": 1628.96,
+      "duration": 4.64,
+      "text": "who they should take money from. And so",
+      "timestamp": "27:08"
+    },
+    {
+      "start": 1631.12,
+      "duration": 5.52,
+      "text": "in that case, sometimes you need a very",
+      "timestamp": "27:11"
+    },
+    {
+      "start": 1633.6,
+      "duration": 5.36,
+      "text": "straightforward rubric, a zero to 100.",
+      "timestamp": "27:13"
+    },
+    {
+      "start": 1636.64,
+      "duration": 4.399,
+      "text": "zero being never ever take their money",
+      "timestamp": "27:16"
+    },
+    {
+      "start": 1638.96,
+      "duration": 4.0,
+      "text": "and 100 being take their money right",
+      "timestamp": "27:18"
+    },
+    {
+      "start": 1641.039,
+      "duration": 3.841,
+      "text": "away. Like they actually help you so",
+      "timestamp": "27:21"
+    },
+    {
+      "start": 1642.96,
+      "duration": 4.16,
+      "text": "much that you'd be crazy not to take",
+      "timestamp": "27:22"
+    },
+    {
+      "start": 1644.88,
+      "duration": 4.32,
+      "text": "their money. Harj, we've been working on",
+      "timestamp": "27:24"
+    },
+    {
+      "start": 1647.12,
+      "duration": 3.84,
+      "text": "uh some scoring rubrics around that",
+      "timestamp": "27:27"
+    },
+    {
+      "start": 1649.2,
+      "duration": 3.76,
+      "text": "using prompts. What What are some of the",
+      "timestamp": "27:29"
+    },
+    {
+      "start": 1650.96,
+      "duration": 5.839,
+      "text": "things we've learned? So, it's certainly",
+      "timestamp": "27:30"
+    },
+    {
+      "start": 1652.96,
+      "duration": 4.56,
+      "text": "best practice to give um LLM's rubrics,",
+      "timestamp": "27:32"
+    },
+    {
+      "start": 1656.799,
+      "duration": 2.48,
+      "text": "especially if you want to get a",
+      "timestamp": "27:36"
+    },
+    {
+      "start": 1657.52,
+      "duration": 3.12,
+      "text": "numerical score as the output. You want",
+      "timestamp": "27:37"
+    },
+    {
+      "start": 1659.279,
+      "duration": 2.64,
+      "text": "to give it a rubric to help it",
+      "timestamp": "27:39"
+    },
+    {
+      "start": 1660.64,
+      "duration": 3.279,
+      "text": "understand like how should I think",
+      "timestamp": "27:40"
+    },
+    {
+      "start": 1661.919,
+      "duration": 4.0,
+      "text": "through and what's like a 80 versus a",
+      "timestamp": "27:41"
+    },
+    {
+      "start": 1663.919,
+      "duration": 3.841,
+      "text": "90. But these rubrics are never perfect.",
+      "timestamp": "27:43"
+    },
+    {
+      "start": 1665.919,
+      "duration": 5.521,
+      "text": "there's often always exceptions and you",
+      "timestamp": "27:45"
+    },
+    {
+      "start": 1667.76,
+      "duration": 5.44,
+      "text": "tried it with uh 03 versus Gemini 2.5",
+      "timestamp": "27:47"
+    },
+    {
+      "start": 1671.44,
+      "duration": 3.28,
+      "text": "and you found this this is what we found",
+      "timestamp": "27:51"
+    },
+    {
+      "start": 1673.2,
+      "duration": 3.28,
+      "text": "really interesting is that um you can",
+      "timestamp": "27:53"
+    },
+    {
+      "start": 1674.72,
+      "duration": 3.76,
+      "text": "give the same rubric to two different",
+      "timestamp": "27:54"
+    },
+    {
+      "start": 1676.48,
+      "duration": 4.88,
+      "text": "models and in our in our specific case",
+      "timestamp": "27:56"
+    },
+    {
+      "start": 1678.48,
+      "duration": 5.04,
+      "text": "what we found is that um 03 was very",
+      "timestamp": "27:58"
+    },
+    {
+      "start": 1681.36,
+      "duration": 4.64,
+      "text": "rigid actually like it really sticks to",
+      "timestamp": "28:01"
+    },
+    {
+      "start": 1683.52,
+      "duration": 3.519,
+      "text": "the rubric it's heavily penalizes for",
+      "timestamp": "28:03"
+    },
+    {
+      "start": 1686.0,
+      "duration": 2.799,
+      "text": "anything that doesn't fit like the",
+      "timestamp": "28:06"
+    },
+    {
+      "start": 1687.039,
+      "duration": 4.801,
+      "text": "rubric that you've given it whereas",
+      "timestamp": "28:07"
+    },
+    {
+      "start": 1688.799,
+      "duration": 5.441,
+      "text": "Gemini 2.5 Pro was actually quite good",
+      "timestamp": "28:08"
+    },
+    {
+      "start": 1691.84,
+      "duration": 4.319,
+      "text": "at being flexible in that it would apply",
+      "timestamp": "28:11"
+    },
+    {
+      "start": 1694.24,
+      "duration": 4.08,
+      "text": "the rubric but it could also sort of",
+      "timestamp": "28:14"
+    },
+    {
+      "start": 1696.159,
+      "duration": 4.721,
+      "text": "almost reason through why someone might",
+      "timestamp": "28:16"
+    },
+    {
+      "start": 1698.32,
+      "duration": 4.56,
+      "text": "be like an exception or why you might",
+      "timestamp": "28:18"
+    },
+    {
+      "start": 1700.88,
+      "duration": 4.0,
+      "text": "want to um push something up more",
+      "timestamp": "28:20"
+    },
+    {
+      "start": 1702.88,
+      "duration": 3.84,
+      "text": "positively or negatively than the rubric",
+      "timestamp": "28:22"
+    },
+    {
+      "start": 1704.88,
+      "duration": 4.08,
+      "text": "might suggest, which I just thought was",
+      "timestamp": "28:24"
+    },
+    {
+      "start": 1706.72,
+      "duration": 3.6,
+      "text": "really interesting cuz that it's just",
+      "timestamp": "28:26"
+    },
+    {
+      "start": 1708.96,
+      "duration": 3.28,
+      "text": "like when you're training a person,",
+      "timestamp": "28:28"
+    },
+    {
+      "start": 1710.32,
+      "duration": 3.599,
+      "text": "you're trying to you give them a rubric",
+      "timestamp": "28:30"
+    },
+    {
+      "start": 1712.24,
+      "duration": 3.2,
+      "text": "like you want them to use a rubric as a",
+      "timestamp": "28:32"
+    },
+    {
+      "start": 1713.919,
+      "duration": 3.201,
+      "text": "guide, but there are always these sort",
+      "timestamp": "28:33"
+    },
+    {
+      "start": 1715.44,
+      "duration": 3.839,
+      "text": "of edge cases where you need to sort of",
+      "timestamp": "28:35"
+    },
+    {
+      "start": 1717.12,
+      "duration": 3.76,
+      "text": "think a little bit more deeply. Um, and",
+      "timestamp": "28:37"
+    },
+    {
+      "start": 1719.279,
+      "duration": 4.0,
+      "text": "I just thought it was interesting that",
+      "timestamp": "28:39"
+    },
+    {
+      "start": 1720.88,
+      "duration": 3.519,
+      "text": "the models themselves will handle that",
+      "timestamp": "28:40"
+    },
+    {
+      "start": 1723.279,
+      "duration": 2.561,
+      "text": "differently, which means they sort of",
+      "timestamp": "28:43"
+    },
+    {
+      "start": 1724.399,
+      "duration": 3.601,
+      "text": "have different personalities, right?",
+      "timestamp": "28:44"
+    },
+    {
+      "start": 1725.84,
+      "duration": 3.52,
+      "text": "Like 03 felt a little bit more like the",
+      "timestamp": "28:45"
+    },
+    {
+      "start": 1728.0,
+      "duration": 2.399,
+      "text": "soldier sort of like, okay, I'm",
+      "timestamp": "28:48"
+    },
+    {
+      "start": 1729.36,
+      "duration": 3.76,
+      "text": "definitely like check, check, check,",
+      "timestamp": "28:49"
+    },
+    {
+      "start": 1730.399,
+      "duration": 4.241,
+      "text": "check, check. Um, and Gemini Pro 2.5",
+      "timestamp": "28:50"
+    },
+    {
+      "start": 1733.12,
+      "duration": 3.279,
+      "text": "felt a little bit more like a a high",
+      "timestamp": "28:53"
+    },
+    {
+      "start": 1734.64,
+      "duration": 3.2,
+      "text": "agency sort of employee was like, \"Oh,",
+      "timestamp": "28:54"
+    },
+    {
+      "start": 1736.399,
+      "duration": 2.88,
+      "text": "okay. I think this makes sense, but this",
+      "timestamp": "28:56"
+    },
+    {
+      "start": 1737.84,
+      "duration": 3.36,
+      "text": "might be an exception in this case,\"",
+      "timestamp": "28:57"
+    },
+    {
+      "start": 1739.279,
+      "duration": 3.441,
+      "text": "which was um just really interesting to",
+      "timestamp": "28:59"
+    },
+    {
+      "start": 1741.2,
+      "duration": 2.88,
+      "text": "see. Yeah, it's funny to see that for",
+      "timestamp": "29:01"
+    },
+    {
+      "start": 1742.72,
+      "duration": 3.28,
+      "text": "investors. You know, sometimes you have",
+      "timestamp": "29:02"
+    },
+    {
+      "start": 1744.08,
+      "duration": 3.44,
+      "text": "investors like a Benchmark or a Thrive,",
+      "timestamp": "29:04"
+    },
+    {
+      "start": 1746.0,
+      "duration": 4.08,
+      "text": "it's like, \"Yeah, take their money right",
+      "timestamp": "29:06"
+    },
+    {
+      "start": 1747.52,
+      "duration": 4.72,
+      "text": "away. Their process is immaculate. They",
+      "timestamp": "29:07"
+    },
+    {
+      "start": 1750.08,
+      "duration": 4.479,
+      "text": "never ghost anyone. They answer their",
+      "timestamp": "29:10"
+    },
+    {
+      "start": 1752.24,
+      "duration": 4.4,
+      "text": "emails faster than most founders. It's,",
+      "timestamp": "29:12"
+    },
+    {
+      "start": 1754.559,
+      "duration": 3.921,
+      "text": "you know, very impressive. And then, uh,",
+      "timestamp": "29:14"
+    },
+    {
+      "start": 1756.64,
+      "duration": 3.279,
+      "text": "one example here might be, you know,",
+      "timestamp": "29:16"
+    },
+    {
+      "start": 1758.48,
+      "duration": 2.96,
+      "text": "there are plenty of investors who are",
+      "timestamp": "29:18"
+    },
+    {
+      "start": 1759.919,
+      "duration": 4.081,
+      "text": "just overwhelmed and maybe they're just",
+      "timestamp": "29:19"
+    },
+    {
+      "start": 1761.44,
+      "duration": 4.239,
+      "text": "not that good at managing their time.",
+      "timestamp": "29:21"
+    },
+    {
+      "start": 1764.0,
+      "duration": 3.279,
+      "text": "And so, they might be really great",
+      "timestamp": "29:24"
+    },
+    {
+      "start": 1765.679,
+      "duration": 3.761,
+      "text": "investors and their track record bears",
+      "timestamp": "29:25"
+    },
+    {
+      "start": 1767.279,
+      "duration": 3.921,
+      "text": "that out, but they're sort of slow to",
+      "timestamp": "29:27"
+    },
+    {
+      "start": 1769.44,
+      "duration": 4.0,
+      "text": "get back. They seem overwhelmed all the",
+      "timestamp": "29:29"
+    },
+    {
+      "start": 1771.2,
+      "duration": 4.8,
+      "text": "time. They accidentally, probably not",
+      "timestamp": "29:31"
+    },
+    {
+      "start": 1773.44,
+      "duration": 5.52,
+      "text": "intentionally ghost people. And so this",
+      "timestamp": "29:33"
+    },
+    {
+      "start": 1776.0,
+      "duration": 5.279,
+      "text": "is legitimately exactly what an LLM is",
+      "timestamp": "29:36"
+    },
+    {
+      "start": 1778.96,
+      "duration": 4.48,
+      "text": "for. Like the debug info on some of",
+      "timestamp": "29:38"
+    },
+    {
+      "start": 1781.279,
+      "duration": 4.801,
+      "text": "these are very interesting to see like",
+      "timestamp": "29:41"
+    },
+    {
+      "start": 1783.44,
+      "duration": 4.88,
+      "text": "you know maybe it's a 91 instead of like",
+      "timestamp": "29:43"
+    },
+    {
+      "start": 1786.08,
+      "duration": 3.76,
+      "text": "an 89. We'll see. I guess one of the",
+      "timestamp": "29:46"
+    },
+    {
+      "start": 1788.32,
+      "duration": 3.599,
+      "text": "things that's been really surprising to",
+      "timestamp": "29:48"
+    },
+    {
+      "start": 1789.84,
+      "duration": 3.92,
+      "text": "me as you know we ourselves are playing",
+      "timestamp": "29:49"
+    },
+    {
+      "start": 1791.919,
+      "duration": 4.24,
+      "text": "with it and we spend you know maybe 80",
+      "timestamp": "29:51"
+    },
+    {
+      "start": 1793.76,
+      "duration": 4.96,
+      "text": "to 90% of our time with founders who are",
+      "timestamp": "29:53"
+    },
+    {
+      "start": 1796.159,
+      "duration": 4.161,
+      "text": "all the way out on the edge is uh you",
+      "timestamp": "29:56"
+    },
+    {
+      "start": 1798.72,
+      "duration": 4.48,
+      "text": "know on the one hand the analogies I",
+      "timestamp": "29:58"
+    },
+    {
+      "start": 1800.32,
+      "duration": 4.479,
+      "text": "think even we use to discuss this is uh",
+      "timestamp": "30:00"
+    },
+    {
+      "start": 1803.2,
+      "duration": 4.44,
+      "text": "it's kind of like coding. It kind of",
+      "timestamp": "30:03"
+    },
+    {
+      "start": 1804.799,
+      "duration": 5.521,
+      "text": "actually feels like coding in, you know,",
+      "timestamp": "30:04"
+    },
+    {
+      "start": 1807.64,
+      "duration": 4.2,
+      "text": "1995. Like the tools are not all the way",
+      "timestamp": "30:07"
+    },
+    {
+      "start": 1810.32,
+      "duration": 3.68,
+      "text": "there. There's a lot of stuff that's",
+      "timestamp": "30:10"
+    },
+    {
+      "start": 1811.84,
+      "duration": 4.8,
+      "text": "unspecified. We're, you know, in this",
+      "timestamp": "30:11"
+    },
+    {
+      "start": 1814.0,
+      "duration": 4.24,
+      "text": "new frontier. But personally, it also",
+      "timestamp": "30:14"
+    },
+    {
+      "start": 1816.64,
+      "duration": 4.639,
+      "text": "kind of feels like learning how to",
+      "timestamp": "30:16"
+    },
+    {
+      "start": 1818.24,
+      "duration": 5.439,
+      "text": "manage a person where it's like, how do",
+      "timestamp": "30:18"
+    },
+    {
+      "start": 1821.279,
+      "duration": 4.721,
+      "text": "I actually communicate uh, you know, the",
+      "timestamp": "30:21"
+    },
+    {
+      "start": 1823.679,
+      "duration": 4.801,
+      "text": "things that they need to know in order",
+      "timestamp": "30:23"
+    },
+    {
+      "start": 1826.0,
+      "duration": 4.88,
+      "text": "to make a good decision? And how do I",
+      "timestamp": "30:26"
+    },
+    {
+      "start": 1828.48,
+      "duration": 4.16,
+      "text": "make sure that they know um, you know,",
+      "timestamp": "30:28"
+    },
+    {
+      "start": 1830.88,
+      "duration": 4.72,
+      "text": "how I'm going to evaluate and score",
+      "timestamp": "30:30"
+    },
+    {
+      "start": 1832.64,
+      "duration": 5.68,
+      "text": "them? And uh not only that, like there's",
+      "timestamp": "30:32"
+    },
+    {
+      "start": 1835.6,
+      "duration": 4.4,
+      "text": "this aspect of Kaizen, you know, this um",
+      "timestamp": "30:35"
+    },
+    {
+      "start": 1838.32,
+      "duration": 3.44,
+      "text": "this manufacturing technique that",
+      "timestamp": "30:38"
+    },
+    {
+      "start": 1840.0,
+      "duration": 4.799,
+      "text": "created really really good cars for",
+      "timestamp": "30:40"
+    },
+    {
+      "start": 1841.76,
+      "duration": 5.36,
+      "text": "Japan in the '90s. Uh and that principle",
+      "timestamp": "30:41"
+    },
+    {
+      "start": 1844.799,
+      "duration": 4.161,
+      "text": "actually says that the people who are",
+      "timestamp": "30:44"
+    },
+    {
+      "start": 1847.12,
+      "duration": 3.439,
+      "text": "the absolute best at improving the",
+      "timestamp": "30:47"
+    },
+    {
+      "start": 1848.96,
+      "duration": 4.319,
+      "text": "process are the people actually doing",
+      "timestamp": "30:48"
+    },
+    {
+      "start": 1850.559,
+      "duration": 4.801,
+      "text": "it. That's literally why uh Japanese",
+      "timestamp": "30:50"
+    },
+    {
+      "start": 1853.279,
+      "duration": 4.561,
+      "text": "cars got so good in the '90s. And that's",
+      "timestamp": "30:53"
+    },
+    {
+      "start": 1855.36,
+      "duration": 4.319,
+      "text": "metaprompting to me. So, I don't know.",
+      "timestamp": "30:55"
+    },
+    {
+      "start": 1857.84,
+      "duration": 4.319,
+      "text": "It's a brave new world. We're sort of in",
+      "timestamp": "30:57"
+    },
+    {
+      "start": 1859.679,
+      "duration": 4.88,
+      "text": "this new moment. So, with that, we're",
+      "timestamp": "30:59"
+    },
+    {
+      "start": 1862.159,
+      "duration": 4.0,
+      "text": "out of time. But can't wait to see what",
+      "timestamp": "31:02"
+    },
+    {
+      "start": 1864.559,
+      "duration": 3.891,
+      "text": "kind of prompts you guys come up with.",
+      "timestamp": "31:04"
+    },
+    {
+      "start": 1866.159,
+      "duration": 12.15,
+      "text": "And we'll see you next time.",
+      "timestamp": "31:06"
+    }
+  ],
+  "extraction_timestamp": "2025-07-23T17:19:35",
+  "processing_type": "single_video"
+}

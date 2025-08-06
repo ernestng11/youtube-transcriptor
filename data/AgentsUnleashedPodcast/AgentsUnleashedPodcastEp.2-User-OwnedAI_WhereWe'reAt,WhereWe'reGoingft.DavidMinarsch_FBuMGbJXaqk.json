@@ -1,0 +1,4685 @@
+{
+  "video_id": "FBuMGbJXaqk",
+  "video_title": "Agents Unleashed Podcast Ep. 2 - User-Owned AI: Where We're At, Where We're Going ft. David Minarsch",
+  "video_url": "https://www.youtube.com/watch?v=FBuMGbJXaqk",
+  "channel_title": "Olas",
+  "published_at": "2025-04-24T12:50:00+00:00",
+  "duration_seconds": null,
+  "view_count": 157,
+  "like_count": 20,
+  "description": "Welcome back! This is the second episode of the Agents Unleashed podcast, and this time, it's an interview with David Minarsch, Co-founder and CEO of Valory and founding member of the Olas DAO.  \n\nThis conversation focused on the current \"state of AI agents\" with a focus on user-ownership of AI.\n\nChapters\n\n00:00 Introduction to episode and guest David Minarsch\n01:46 Evolution from basic agents to LLM-powered systems\n08:54 Comparing Web2 and Web3 agent capabilities\n11:13 Olas mission and importance of agent ownership\n13:48 Understanding the emerging agent economy\n17:42 Impact of model commodification on agent development\n19:30 Specialization and interaction between AI agents\n21:00 Privacy challenges and blockchain solutions\n24:00 Future outlook for AI agent adoption\n25:24 Call to action and closing remarks\n\n\nAgents Unleashed is an ongoing event series focused on AI agents. Events have been held in 6 cities and counting, with 77+ speakers and over 2500 total attendees. To find out more about the next event, head to https://olas.network/agents-unleashed. \n\nSponsored by Olas, the best way to own and monetize your AI agents. Get the details at https://www.olas.network \n\nTheme music: \"Forward\" by Grand Project on Pixabay: https://pixabay.com/users/grand_project-19033897/",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 777,
+    "aggregated_text": "all right Hey welcome back This is the second episode of the Agents Unleash podcast sponsored by Olis If you haven't heard of Olus you haven't heard of Agents Unleashed let me give you a really quick intro to both Ols makes it easy for everyone to own and monetize their AI agents and that includes people like you For more information on how you could do that check out ol.network and agents unleashed an event series from which this podcast gets its name is the premier event for people interested in AI agents in crypto Events are held throughout the year all over the world And there's been 77 speakers and presenters and over 2500 attendees To learn more about the event and watch replays of previous editions head to o.network/agents- unleashed All right so today's episode is a recording of a conversation that I recently had with David Benarsh David is the CEO and co-founder of Valerie one of the core contributors to Olas I've actually worked with David for the past 3 years and I always really appreciate his perspective and that's why I wanted to have him on the show I think I'll let the interview speak for itself So without further ado here's my conversation with David Minarsh Yeah my guest today is David Minarsh And I wanted to have him on for the second episode to give listeners kind of the lay of the land and help them understand the current state of AI agents And maybe we'll take some time to look at the past year or so like where were we in 2024 and where are we now Where are we going What's exciting And what are some calls to action ways way ways that you could get involved in ways that these AI agents could actually influence your life today So we'll start at the beginning David you have a background in game theory and I know that you were working with multi-agent systems before you were working with these AI agents that have LLM hooked up to them So how did you go from game theory and multi-agent systems to what we're calling AI agents or just agents now Yeah great question Um I started building agents 2019 so over six years ago And back then what drew me to it was this ability that blockchains post agents which is to have a wallet and to make sort of onchain commitments with smart contracts um trade in more complex ways fully programmatically So back then we didn't have large language models and giving an agent a wallet was really kind of eye opening for me and and that's where how I started building software agents with wallets at the time with specialized AI models rather than these general purpose models we have today So when people said AI agent 2 or 3 years ago what did they mean and what do they mean now where you've got these foundation models usually LLMs but sometimes other kinds of models like what's the difference between the agent of a couple years ago and what people call an agent today The key thing is that in late 2022 Chat GBD arrived on the scene right And then people started including us realizing that you can actually build much more general purpose agents that way If you if you built um an agentic system around a large language model where previously you know by design your agent would be like domain specific and highly limited because you had to like sort of up front give it a number of AI models which would maybe allow it to you know forecast like some price or um you know do some small reinforcement learning here or there Now you could suddenly like have your agent prompt the model and have the model drive a lot of the decisions of the agent So it really fundamentally shifted what you could build and now over the last few years these models have gotten better and better as well So you know initially there was like you know quite well performing but limited large language models they themselves have gotten better and now we have also the reasoning models really kind of shifts what you can do And um I think we're going more and more from these sort of agentic systems that have sort of rules at the core and models at the periphery to agentic systems where the model is at the core and the tools and rules are at the periphery So the model sort of autonomously selects like tools and makes you know maybe there's some kind of sense checking rules around it Do you think most people understand that distinction between like a rulesbased agent and this more open-ended autonomy that you can get from having your agent prompt the model I would say no I mean there's still a lot of I mean obviously some builders do and I think as an end user you don't necessarily have to right Um uh there's also with tech often like people don't really like to look into the past like they kind of look at what they have in front of them right now and then they do a bunch of reinvention of the wheel sort of thing you know agents multi- aent system isn't something new like there's been a lot of research into it but obviously is very new or the kind of AI models we have access to and as a result the kind of agents we can build is vastly different now you have coding agents right which are actually quite useful like you didn't have that in the past so I think It's always healthy to kind of look in the past and see okay what have people built before and what can we learn from it Yeah definitely And later in the conversation I want to compare what's been happening in web 2 agents with what crypto agents can do And so we're going to come back we're going to come back to like what we were able to do before and that difference I think we were just kind of talking about like the current state and like maybe misapprehension So like what do you feel is like missing in the conversation around AI agents in crypto I feel like there's a disconnect between like what the real utility is and like the way that people talk about them I would say so I mean I think it's always has to be seen in in the backdrop of like the incentives right Like in crypto people are incentivized to talk up certain things where they think the meta is going and where they think they can make money And um obviously in recent months there has been these sort of influencer style agents where it's really only partially about the agents agent as like the kind of marketing element of it and to an extent the product like you know some people actually use the agents but very few most of the time and really it's more about the underlying tokens so it's a I see it as a continuation of this sort of memecoin craze you know like at some point people gave up on utility and went for meme coins and then like with these agents you kind of have a little bit of this sort of utility coming back but not really I mean are you really going to um get excited about the utility of some of those like social posting agents like it's limited Um but at the same time I mean what what fundamentally changed I think with that with that phase I would say from November till January or whatever um uh this year is um that let's say a year ago people in crypto would still be like what like crypto agents like that's not a thing Now that's like not the case right Like people have like for better or worse have like an image in their head of like what an Asian encrypter is And I think for better or worse because the better is now there's attention for the concept as a whole But the worst is it's still like wild like so undersold like you say like um so under um appreciated how powerful it can be to give agents a wallet um and how powerful it um can be for the products Like I I really like to think of it as sort of you know the original notion of crypto was like not your keys not your coins That sort of sums up a lot of what early believers in crypto were kind of on about like decentralization sense of so resistance self sovereignty these kind of things With AI you have like not your weights not your brain in a sense like you know if if if if I don't own the model what am I really having here Like I can be shut out any moment And I think what's exciting about agents is you you kind of combine that right Like an agent without a wallet is no not that useful because it can't really enact things in the world can't get resources and create new ones tap into services An agent without a brain is pointless So you really want to have both And so like having an agent that you can own that sort of has that wallet that has these weights where you like fully in control of it is like super empowering and it opens up like this tremendously of exciting use cases And then the other thing I would say is like people are very anchored on augmentation style you know experiences like everyone's like obviously shaped by the things they have in front of them So like you have chat GPT and then that shapes your experience of what AI can do and will do for you But that's an augmentation style workflow right Like I'm there I'm working with it and then I'm gone and it doesn't like it serves others It doesn't do anything in the background for me Autonomous AI agents that's where I'm very excited about because you basically give an agent a goal you go away you do other things and in parallel to you doing these other things it does that And that really scales right like you can really kind of scale yourself and you can see how there's like loads and loads of agents doing things autonomously on our behalf Yeah for sure So as I was preparing for our conversation I was really thinking about the difference between like what I see in web 2 AI agents and what I see in web 3 And we already kind of illustrated maybe a currently limited set of expectations maybe because it hasn't been that long that the space was taking it seriously other than maybe it's just too it's just early like why why this divergence Like it seems like web two agents are actually already starting to do new things but the people's perception of what a web 3 agent can do is still they still underestimate them Yeah I'm I think it's a great question I think there's a couple things here web free for battle of vers whenever project like most projects basically have two products at least they have like whatever the end user product is like in our case it's like pearl for instance for us um where you have like yeah Asian app store and then you also have the token and that actually can be beneficial because it allows for like kind of bootstrapping we can get into one day why all has a token how that works but it can also be really like a problem it's a distraction right like now you have two products you have to worry about well in one you like instead of just making the agent as fantastic as it can be you also have to deal with this other thing and if you look at like the the space in terms of like what's been doing well recently it's basically just like token innovation right like and then thinly wrapped agent stuff like the the agent stuff is pretty boring and what and then there's a kind of token innovation on top I I think that's one aspect so a lot of energy goes into the token side and the agent side gets a bit less proportional attention and then the other thing has funding I mean you know if you look at crypto as a whole attracts a lot of funding But if you look at the AI section of crypto only attracting funding for maybe a couple years now and specifically the agent side not that much If you sum that all up the total funding that's gone into AI agent projects in crypto I'm pretty sure it's like orders of magnitude lower than what you've gone into coding agents alone right Like there's various coding agent um and they you know have serious revenue as well So they deserve that funding um and they have proven that they have market fit They have significant funding and that drives obviously like allows for much more rapid innovation I think this is like where I would see two reasons for that divergence which both leads to basically not enough building and that's really at the core of it Yeah that makes a lot of sense Well let's see if we can close that expectation gap a little bit and talk about the role that Ols is trying to play in this like shift towards making the AI agents that uh use crypto rails like really useful and accessible to people So what is the mission of like like Valerie makes a lot of contributions to OS as an ecosystem So like what's the mission right now and what's not Yeah it's about giving you an agent you can own rather than rent I think we you know are all aware of the SAS model and that's again like the dominant web two model in which these agents are served Um we say look you can own your agent and why is that valuable to you Well precisely because you of the points I made earlier you want to own your keys and you want to own your weights because it allows you to ultimately be like in charge of your destiny you know you avoid these kind of platform risks uh which which you have if you start like investing in your agent and then suddenly you might not access it because you've prompted it in the wrong way or the startup just decides you don't have access to it now because they moved on or whatever reason and it also unlocks entirely new use cases So for instance for us um you know Valaps who's building into open source ecosystem we are offering an open source bundle which is uh called modius it's a defi agent um ultimately the user self-hosts that and self custodies it and that's very important actually for the product offering because it ultimately means that there's no like kind of centralized like financial platform offering the service If that was so right you'd immediately fall under all sorts of financial regulation and the product would look very different So you can build like fundamentally different products that way and you can offer like a totally different value proposition to the user And what's what is it not like we are broadly building autonomous AI agents and facilitating people to build autonomous AI agents right on the on the OLA stack but we're always interested in these more endto-end autonomous use cases rather than these augmentation use cases So we're not so much interested in like a use case where let's say a D5 user comes and chats with an interface to then get a transaction object to maybe move some funds into some D5 protocol Instead what we say look let everything be done by the agent You just tell the agent your goal and then the agent handles that And that's just in this example of DeFi but it sort of applies to all the use cases we're looking at Yeah for sure I know many times I've heard you say that like a talking wallet has no moat And I think uh it makes a lot of sense and what you're what you're just describing also touches a little bit on like this concept of the agent economy where there are multiple rules for the agent and by decentralizing and are distributing people to run it all over the world you can create something you know a whole that is greater than the sum of its parts and so that that seems like something that would be very difficult to replicate in the the web two world whereas you say you've got the platform risk and yeah I mean if if if even one one of those parts goes down like it will just it will just stop and I also in a second I want to ask about like the commodification of models and and how that will affect the direction that AI agents take but before I get there has this accelerator program which is like a way to really double down on bringing people into the ecosystem to build AI agents I think a lot of people might wonder well if Valerie has all of this domain specific knowledge about the codebase like why would you want to spend this time to get other people to build rather than build the agents yourself this is something I I hear a lot we do build some agent ourselves but ultimately you're also constrained by your own imagination and like your team's like expertise like it's quite hard to build really ground breaking agents in a bunch of verticals so I think that's one way to look at it the other one is it obviously scales better from a model perspective to get um like an accelerator system going where you have like a sort of venture model some teams will do well some teams might not do well some products will you know in the sense of like the end user might like their products or not and you don't really know this up front Um also I would say plus as a protocol is very focused on sort of bootstrapping these agent economies as you mentioned before which basically means you want to bring a lot of like very diverse use cases um where the agents themselves offer the services to each other So when I was earlier saying okay like it's important for agent to have a wallet it's important for agent have its own print for you as a user to own this whole system right outright rather than renting it like why is it important that the agent has the wallet well one thing is obviously it can then do things on your behalf in let's say defi but the other key thing is that if you look at the web as a whole I think we like kind of went from like reading websites where you need you just needed to go to that website you needed to find it and then read it There was no uh wall like there was no sign on or anything like you just went and had a look Then we had apps um and we still have them OC where you write and because you're writing to some database you need some layer of permissioning right and so in traditional web two that's solved with like with a with a login like you have an account and you log in and then that gives you rights to write to certain parts of the application Now then along came web free where you have this whole idea of okay I can actually own some digital assets and you know even my data and my identity and so on on chain and like anyone can do that writing again becomes more permissionless but it's not attached to a wallet and the exciting thing I think we're now moving into the web of agents maybe you know someone will call it web four whatever it doesn't really matter in the web of agents I think there'll be an interesting point now where we'll see how it falls but I strongly believe that agents are most powerful when they can do things permissionlessly with just a wallet So this idea that an agent needs 100 different API keys for all the 100 different platform it needs to tap into is not going to fly in my opinion because you mostly have then this friction around the kind of signup process into these platforms right And often it's just not feasible to have this fully programmatically done Um you could think that there's maybe some centralized hops or so and I'm sure they'll happen like Amazon you know comes up with the agent hop or whatever which is a sort of centralized gateway but clearly there's already one such centralized hap that's totally open and this is like things like Ethereum and you know public blockchains where any agent can rendevu and find other agents tap into their services and simply pay them with a microp payment and we at have built like a marketplace that facilitates that and I see that as the as the sort of other side of the coin if you want to have user owned agent that the user owns and here the user can you know end user or business then the flip side of that is the agent the user owns wants to be maximally autonomous so if it can do everything and anything with the wallet that's great and that's what this kind of marketplace architecture enables right I think that gets to my question that I wanted to ask about the commodification of of foundation models sometimes when in the crypto and AI space you would hear people uh saying that the only way that it made sense was that if um that if all of the AI models were decentralized and that's a nice idea but I think that especially from you I've heard a flip of how to think about it you can have a ownable layer between that where then the models sort of become interchangeable and could you say a little bit more about that and how you think this new batch of models like DeepSeek for example where there are finally like real and accessible competitors to some of the Silicon Valley giants like how do you think that's going to change the kinds of agents that we see and how might the mech marketplace and like make that more efficient Yeah I mean I I firstly think that unless we really have like one of those occasionally talked about like really fast takeoffs where you have like some sort of soup AI emerge that changes everything because it's it's so centralizing and it's force and it's it's its ability to self-improve or whatever then I think what we'll see is that there's relatively high degrees of competition I mean at the moment certainly that's the case like there's a lot of commoditization with the models and we have access now to quite a few open source models and both on the um reasoning side and the previous large language like simpler large language models where it's interesting because if you look at it from a purely economics perspective and like that's my original background like it's also a funny kind of element to the just recent tariff announcements but basically comparative advantage is a thing right so like and some people don't get that clearly But basically what this means is like you can you know two two parties can benefit from trade and two parties can specialize in different things and benefit from specializing in different jobs and then selling each other services or goods right and that's what we're observing in the real economy that's what created all the prosperity and it's there's nothing fundamentally here about humans right it's just about like how the incentives and the economic system works and so I would suspect that with agentic systems you have the same Like we already see this in Olas like it helps us build specialized agents that tap into each other for services rather than building one monolithic agent And so I think what we'll see is that that's going to happen much much more where yes you have like your occasionally quite powerful monolithic system like a coding agent but ultimately that will stay a coding agent It will not also you know act as your holiday planner or some agent that then deploys things into production that's probably going to be like a separate agent that then monitors these things deploys them and so on And so naturally by necessity as a result you have this requirement for these agents to interact And once you think about that in a crossorganizational fashion then you're back to what we just discussed earlier like there's going to be trade and there's already trade between agents um and and there need to be like interfaces where these agents find each other and so on Yeah Cool One last related question that I think touches on many of these ideas but in a slightly different way I saw a clip recently where signals president was talking about this idea that AI agents are threatening to break the bloodb brain barrier between the application layer and the operating system layer And the examples that she was giving were things like to achieve a certain outcome your agent your personal assistant agent would need sufficient access to things like your personal information for for example for booking travel like you need pretty much all of your personally identifiable data and your payments also And when I watched this I thought like unironically like blockchain solves solves this And I'm curious like uh if you've seen this and and and what you thought about it I mean yes I've seen it And I agree I mean if that's exactly why we care about user owned agents you know like again like there's a tech I love tech but there's this always this over focus on like the now and this extreme focus on the future as well And the history gets immediately forgotten Like it's not the case that you know the internet started as this sort of cloud infra where everyone hosts off a bunch of like companies It was the exact opposite It was extremely decentralized And I think there's a good chance we'll go back to that for exactly these kind of reasons Like if you think about like the most powerful agents well be they software agents that live on some device um like a mobile phone or desktop or whatever or be it like you know who eats even like who then have like a physical appearance and live next to you It's not like for a whole bunch of reasons it's not very appealing and I think for the majority of people not appealing to have these things sort of rented and like offered from like a centralized provider where all the data flows back to So let's just go for a number of examples So let's say you have this household robot who you know does like your chores and so on What equivalents do we have today in our lives Well we have cars we have washing machines these kind of things They are increasingly having a lot of let's say digital technology inside of them right When historically there were like simple machines with like maybe a little controller somewhere and that's it Now they're connected to the internet often and and the problem with this is you're increasingly giving up a lot about your privacy and like you know the data at home but also these things become inscrutinable like if I have a car from 15 years ago or 10 years ago you know I can take it apart and I pretty much know what this thing is doing I mean it was so like maybe the radio and and so on were like digital and and the rest like maybe there was some control stuff inside it certainly wasn't connected to the internet Now if you take a Tesla like you can take it apart but you don't know how this thing is going to act on the street right because it's connected to like a central server farm and that's that has a lot of challenges and I think like we are only starting to become aware of them and we there there is for various reasons I'm sure going to be a massive like backlash against this I don't think it will go away but we'll we'll have to solve some of those problems like geopolitically I mean if we continue on the current trend right It's just not going to be acceptable to have like a car from a certain area drive in another area people won't accept it Full stop for geopolitical reasons But then also for privacy reasons people won't trust these things beyond a certain point Like I wouldn't trust a robot in my family's home because if I if I can't dissect it if I don't know that there's like a whole open source community who has like looked at it from all angles like who's going to promise me that it's not going to turn around and act against me or my family right And so I mean those are the sort of crresser examples but then it's as simple as like as you say with traveling travel booking for the you know holidays and we've we're still in this trajectory where you know we just share all this data into these application and started with Facebook and then all the others and there has been these occasional backlashes against this but I think as we're now maturing with the technologies we have available we don't have to do all the sharing like we can prove our identity in a cryptographically secure way where we don't have to share that document We can just share like um certain certificates and like signatures which prove that we hold this um document and that is still valid and so on right And so these kind of services I think will become increasingly important as we have the agents as well So yes I agree with the statement but I also think we'll we'll see a lot of um push back and there will be some areas where it just doesn't matter maybe as much Maybe coding agents although depending how how worried you are about your IP it does matter a lot And then other areas like these privacy areas where I think it'll matter it'll matter a lot to a lot of people And I I guess we'll also see a lot of hetrogenity like diversity in regions um in the way in which they accept like you know across the world in which they accept like this privacy requirements and know whether they make them a thing or not Yeah for sure Cool Okay So we'll wrap up here Before we go though I want to give you the opportunity to put out a call to action Yeah our um biggest call to action right now is for the accelerator which we covered earlier So I would encourage people who are building serious agents to apply Um we're very interested at the moment sort of crypto neo use cases where the agents actually use the wallets for some part of what they do but increasingly we also look at like more web two native agents So yeah please do it blank Yeah for sure Okay cool Well David thank you for your time I think this is going to be very educational for people and I hope that they'll find it as exciting as it is for me to hear these ideas from you This show will be coming out on a regular basis so maybe we'll have you on in the future But yeah otherwise thank you for your time and I'll see you around Thanks for your time See you soon Thomas Ciao Byebye All right Wow Well what did you think of that We got through a lot of material in under 30 minutes I really enjoyed the conversation but I'd love to know what you think If you have any feedback comments or questions please reach out to either me or David on X I am Thomas Maybbrer and David is david nim Before we go I'd like to ask you to please subscribe to the show And if you haven't shared it with a friend family member or colleague why not do so It'll help me grow the show and expand the types of content and guests that I'm able to bring you in the future This has been Agents Unleashed I'm Thomas Maybrer and I'll see you next time [Music]",
+    "text_length": 29701,
+    "word_count": 5626
+  },
+  "segments": [
+    {
+      "start": 5.04,
+      "duration": 1.68,
+      "text": "all right Hey welcome back This is the",
+      "timestamp": "00:05"
+    },
+    {
+      "start": 6.72,
+      "duration": 1.839,
+      "text": "second episode of the Agents Unleash",
+      "timestamp": "00:06"
+    },
+    {
+      "start": 8.559,
+      "duration": 1.921,
+      "text": "podcast sponsored by Olis If you haven't",
+      "timestamp": "00:08"
+    },
+    {
+      "start": 10.48,
+      "duration": 1.279,
+      "text": "heard of Olus you haven't heard of",
+      "timestamp": "00:10"
+    },
+    {
+      "start": 11.759,
+      "duration": 1.361,
+      "text": "Agents Unleashed let me give you a",
+      "timestamp": "00:11"
+    },
+    {
+      "start": 13.12,
+      "duration": 2.0,
+      "text": "really quick intro to both Ols makes it",
+      "timestamp": "00:13"
+    },
+    {
+      "start": 15.12,
+      "duration": 1.68,
+      "text": "easy for everyone to own and monetize",
+      "timestamp": "00:15"
+    },
+    {
+      "start": 16.8,
+      "duration": 1.44,
+      "text": "their AI agents and that includes people",
+      "timestamp": "00:16"
+    },
+    {
+      "start": 18.24,
+      "duration": 1.76,
+      "text": "like you For more information on how you",
+      "timestamp": "00:18"
+    },
+    {
+      "start": 20.0,
+      "duration": 2.72,
+      "text": "could do that check out ol.network and",
+      "timestamp": "00:20"
+    },
+    {
+      "start": 22.72,
+      "duration": 2.0,
+      "text": "agents unleashed an event series from",
+      "timestamp": "00:22"
+    },
+    {
+      "start": 24.72,
+      "duration": 1.84,
+      "text": "which this podcast gets its name is the",
+      "timestamp": "00:24"
+    },
+    {
+      "start": 26.56,
+      "duration": 1.36,
+      "text": "premier event for people interested in",
+      "timestamp": "00:26"
+    },
+    {
+      "start": 27.92,
+      "duration": 2.0,
+      "text": "AI agents in crypto Events are held",
+      "timestamp": "00:27"
+    },
+    {
+      "start": 29.92,
+      "duration": 1.439,
+      "text": "throughout the year all over the world",
+      "timestamp": "00:29"
+    },
+    {
+      "start": 31.359,
+      "duration": 1.761,
+      "text": "And there's been 77 speakers and",
+      "timestamp": "00:31"
+    },
+    {
+      "start": 33.12,
+      "duration": 2.56,
+      "text": "presenters and over 2500 attendees To",
+      "timestamp": "00:33"
+    },
+    {
+      "start": 35.68,
+      "duration": 1.2,
+      "text": "learn more about the event and watch",
+      "timestamp": "00:35"
+    },
+    {
+      "start": 36.88,
+      "duration": 3.08,
+      "text": "replays of previous editions head to",
+      "timestamp": "00:36"
+    },
+    {
+      "start": 39.96,
+      "duration": 2.2,
+      "text": "o.network/agents- unleashed All right so",
+      "timestamp": "00:39"
+    },
+    {
+      "start": 42.16,
+      "duration": 1.76,
+      "text": "today's episode is a recording of a",
+      "timestamp": "00:42"
+    },
+    {
+      "start": 43.92,
+      "duration": 1.36,
+      "text": "conversation that I recently had with",
+      "timestamp": "00:43"
+    },
+    {
+      "start": 45.28,
+      "duration": 1.92,
+      "text": "David Benarsh David is the CEO and",
+      "timestamp": "00:45"
+    },
+    {
+      "start": 47.2,
+      "duration": 1.6,
+      "text": "co-founder of Valerie one of the core",
+      "timestamp": "00:47"
+    },
+    {
+      "start": 48.8,
+      "duration": 1.68,
+      "text": "contributors to Olas I've actually",
+      "timestamp": "00:48"
+    },
+    {
+      "start": 50.48,
+      "duration": 1.52,
+      "text": "worked with David for the past 3 years",
+      "timestamp": "00:50"
+    },
+    {
+      "start": 52.0,
+      "duration": 1.76,
+      "text": "and I always really appreciate his",
+      "timestamp": "00:52"
+    },
+    {
+      "start": 53.76,
+      "duration": 1.6,
+      "text": "perspective and that's why I wanted to",
+      "timestamp": "00:53"
+    },
+    {
+      "start": 55.36,
+      "duration": 1.359,
+      "text": "have him on the show I think I'll let",
+      "timestamp": "00:55"
+    },
+    {
+      "start": 56.719,
+      "duration": 1.36,
+      "text": "the interview speak for itself So",
+      "timestamp": "00:56"
+    },
+    {
+      "start": 58.079,
+      "duration": 1.441,
+      "text": "without further ado here's my",
+      "timestamp": "00:58"
+    },
+    {
+      "start": 59.52,
+      "duration": 2.0,
+      "text": "conversation with David Minarsh Yeah my",
+      "timestamp": "00:59"
+    },
+    {
+      "start": 61.52,
+      "duration": 2.4,
+      "text": "guest today is David Minarsh And I",
+      "timestamp": "01:01"
+    },
+    {
+      "start": 63.92,
+      "duration": 1.68,
+      "text": "wanted to have him on for the second",
+      "timestamp": "01:03"
+    },
+    {
+      "start": 65.6,
+      "duration": 2.879,
+      "text": "episode to give listeners kind of the",
+      "timestamp": "01:05"
+    },
+    {
+      "start": 68.479,
+      "duration": 1.921,
+      "text": "lay of the land and help them understand",
+      "timestamp": "01:08"
+    },
+    {
+      "start": 70.4,
+      "duration": 2.079,
+      "text": "the current state of AI agents And maybe",
+      "timestamp": "01:10"
+    },
+    {
+      "start": 72.479,
+      "duration": 2.161,
+      "text": "we'll take some time to look at the past",
+      "timestamp": "01:12"
+    },
+    {
+      "start": 74.64,
+      "duration": 3.36,
+      "text": "year or so like where were we in 2024",
+      "timestamp": "01:14"
+    },
+    {
+      "start": 78.0,
+      "duration": 2.32,
+      "text": "and where are we now Where are we going",
+      "timestamp": "01:18"
+    },
+    {
+      "start": 80.32,
+      "duration": 1.92,
+      "text": "What's exciting And what are some calls",
+      "timestamp": "01:20"
+    },
+    {
+      "start": 82.24,
+      "duration": 1.44,
+      "text": "to action ways way ways that you could",
+      "timestamp": "01:22"
+    },
+    {
+      "start": 83.68,
+      "duration": 1.68,
+      "text": "get involved in ways that these AI",
+      "timestamp": "01:23"
+    },
+    {
+      "start": 85.36,
+      "duration": 2.079,
+      "text": "agents could actually influence your",
+      "timestamp": "01:25"
+    },
+    {
+      "start": 87.439,
+      "duration": 2.241,
+      "text": "life today So we'll start at the",
+      "timestamp": "01:27"
+    },
+    {
+      "start": 89.68,
+      "duration": 2.32,
+      "text": "beginning David you have a background in",
+      "timestamp": "01:29"
+    },
+    {
+      "start": 92.0,
+      "duration": 1.84,
+      "text": "game theory and I know that you were",
+      "timestamp": "01:32"
+    },
+    {
+      "start": 93.84,
+      "duration": 2.239,
+      "text": "working with multi-agent systems before",
+      "timestamp": "01:33"
+    },
+    {
+      "start": 96.079,
+      "duration": 2.08,
+      "text": "you were working with these AI agents",
+      "timestamp": "01:36"
+    },
+    {
+      "start": 98.159,
+      "duration": 2.241,
+      "text": "that have LLM hooked up to them So how",
+      "timestamp": "01:38"
+    },
+    {
+      "start": 100.4,
+      "duration": 1.759,
+      "text": "did you go from game theory and",
+      "timestamp": "01:40"
+    },
+    {
+      "start": 102.159,
+      "duration": 1.681,
+      "text": "multi-agent systems to what we're",
+      "timestamp": "01:42"
+    },
+    {
+      "start": 103.84,
+      "duration": 2.959,
+      "text": "calling AI agents or just agents now",
+      "timestamp": "01:43"
+    },
+    {
+      "start": 106.799,
+      "duration": 1.921,
+      "text": "Yeah great question Um I started",
+      "timestamp": "01:46"
+    },
+    {
+      "start": 108.72,
+      "duration": 3.2,
+      "text": "building agents 2019 so over six years",
+      "timestamp": "01:48"
+    },
+    {
+      "start": 111.92,
+      "duration": 2.64,
+      "text": "ago And back then what drew me to it was",
+      "timestamp": "01:51"
+    },
+    {
+      "start": 114.56,
+      "duration": 2.559,
+      "text": "this ability that blockchains post",
+      "timestamp": "01:54"
+    },
+    {
+      "start": 117.119,
+      "duration": 2.801,
+      "text": "agents which is to have a wallet and to",
+      "timestamp": "01:57"
+    },
+    {
+      "start": 119.92,
+      "duration": 1.839,
+      "text": "make sort of onchain commitments with",
+      "timestamp": "01:59"
+    },
+    {
+      "start": 121.759,
+      "duration": 2.4,
+      "text": "smart contracts um trade in more complex",
+      "timestamp": "02:01"
+    },
+    {
+      "start": 124.159,
+      "duration": 2.32,
+      "text": "ways fully programmatically So back then",
+      "timestamp": "02:04"
+    },
+    {
+      "start": 126.479,
+      "duration": 1.601,
+      "text": "we didn't have large language models and",
+      "timestamp": "02:06"
+    },
+    {
+      "start": 128.08,
+      "duration": 2.0,
+      "text": "giving an agent a wallet was really kind",
+      "timestamp": "02:08"
+    },
+    {
+      "start": 130.08,
+      "duration": 2.0,
+      "text": "of eye opening for me and and that's",
+      "timestamp": "02:10"
+    },
+    {
+      "start": 132.08,
+      "duration": 1.68,
+      "text": "where how I started building software",
+      "timestamp": "02:12"
+    },
+    {
+      "start": 133.76,
+      "duration": 1.839,
+      "text": "agents with wallets at the time with",
+      "timestamp": "02:13"
+    },
+    {
+      "start": 135.599,
+      "duration": 2.081,
+      "text": "specialized AI models rather than these",
+      "timestamp": "02:15"
+    },
+    {
+      "start": 137.68,
+      "duration": 2.24,
+      "text": "general purpose models we have today So",
+      "timestamp": "02:17"
+    },
+    {
+      "start": 139.92,
+      "duration": 2.48,
+      "text": "when people said AI agent 2 or 3 years",
+      "timestamp": "02:19"
+    },
+    {
+      "start": 142.4,
+      "duration": 2.559,
+      "text": "ago what did they mean and what do they",
+      "timestamp": "02:22"
+    },
+    {
+      "start": 144.959,
+      "duration": 1.841,
+      "text": "mean now where you've got these",
+      "timestamp": "02:24"
+    },
+    {
+      "start": 146.8,
+      "duration": 2.0,
+      "text": "foundation models usually LLMs but",
+      "timestamp": "02:26"
+    },
+    {
+      "start": 148.8,
+      "duration": 1.76,
+      "text": "sometimes other kinds of models like",
+      "timestamp": "02:28"
+    },
+    {
+      "start": 150.56,
+      "duration": 2.08,
+      "text": "what's the difference between the agent",
+      "timestamp": "02:30"
+    },
+    {
+      "start": 152.64,
+      "duration": 1.92,
+      "text": "of a couple years ago and what people",
+      "timestamp": "02:32"
+    },
+    {
+      "start": 154.56,
+      "duration": 1.679,
+      "text": "call an agent today The key thing is",
+      "timestamp": "02:34"
+    },
+    {
+      "start": 156.239,
+      "duration": 2.881,
+      "text": "that in late 2022 Chat GBD arrived on",
+      "timestamp": "02:36"
+    },
+    {
+      "start": 159.12,
+      "duration": 2.32,
+      "text": "the scene right And then people started",
+      "timestamp": "02:39"
+    },
+    {
+      "start": 161.44,
+      "duration": 2.079,
+      "text": "including us realizing that you can",
+      "timestamp": "02:41"
+    },
+    {
+      "start": 163.519,
+      "duration": 2.481,
+      "text": "actually build much more general purpose",
+      "timestamp": "02:43"
+    },
+    {
+      "start": 166.0,
+      "duration": 2.879,
+      "text": "agents that way If you if you built um",
+      "timestamp": "02:46"
+    },
+    {
+      "start": 168.879,
+      "duration": 2.0,
+      "text": "an agentic system around a large",
+      "timestamp": "02:48"
+    },
+    {
+      "start": 170.879,
+      "duration": 2.241,
+      "text": "language model where previously you know",
+      "timestamp": "02:50"
+    },
+    {
+      "start": 173.12,
+      "duration": 2.08,
+      "text": "by design your agent would be like",
+      "timestamp": "02:53"
+    },
+    {
+      "start": 175.2,
+      "duration": 2.48,
+      "text": "domain specific and highly limited",
+      "timestamp": "02:55"
+    },
+    {
+      "start": 177.68,
+      "duration": 1.76,
+      "text": "because you had to like sort of up front",
+      "timestamp": "02:57"
+    },
+    {
+      "start": 179.44,
+      "duration": 2.719,
+      "text": "give it a number of AI models which",
+      "timestamp": "02:59"
+    },
+    {
+      "start": 182.159,
+      "duration": 2.241,
+      "text": "would maybe allow it to you know",
+      "timestamp": "03:02"
+    },
+    {
+      "start": 184.4,
+      "duration": 3.6,
+      "text": "forecast like some price or um you know",
+      "timestamp": "03:04"
+    },
+    {
+      "start": 188.0,
+      "duration": 1.84,
+      "text": "do some small reinforcement learning",
+      "timestamp": "03:08"
+    },
+    {
+      "start": 189.84,
+      "duration": 2.84,
+      "text": "here or there Now you could suddenly",
+      "timestamp": "03:09"
+    },
+    {
+      "start": 192.68,
+      "duration": 2.6,
+      "text": "like have your agent prompt the model",
+      "timestamp": "03:12"
+    },
+    {
+      "start": 195.28,
+      "duration": 1.84,
+      "text": "and have the model drive a lot of the",
+      "timestamp": "03:15"
+    },
+    {
+      "start": 197.12,
+      "duration": 1.6,
+      "text": "decisions of the agent So it really",
+      "timestamp": "03:17"
+    },
+    {
+      "start": 198.72,
+      "duration": 1.92,
+      "text": "fundamentally shifted what you could",
+      "timestamp": "03:18"
+    },
+    {
+      "start": 200.64,
+      "duration": 2.239,
+      "text": "build and now over the last few years",
+      "timestamp": "03:20"
+    },
+    {
+      "start": 202.879,
+      "duration": 1.44,
+      "text": "these models have gotten better and",
+      "timestamp": "03:22"
+    },
+    {
+      "start": 204.319,
+      "duration": 1.761,
+      "text": "better as well So you know initially",
+      "timestamp": "03:24"
+    },
+    {
+      "start": 206.08,
+      "duration": 1.6,
+      "text": "there was like you know quite well",
+      "timestamp": "03:26"
+    },
+    {
+      "start": 207.68,
+      "duration": 2.08,
+      "text": "performing but limited large language",
+      "timestamp": "03:27"
+    },
+    {
+      "start": 209.76,
+      "duration": 1.119,
+      "text": "models they themselves have gotten",
+      "timestamp": "03:29"
+    },
+    {
+      "start": 210.879,
+      "duration": 1.201,
+      "text": "better and now we have also the",
+      "timestamp": "03:30"
+    },
+    {
+      "start": 212.08,
+      "duration": 2.64,
+      "text": "reasoning models really kind of shifts",
+      "timestamp": "03:32"
+    },
+    {
+      "start": 214.72,
+      "duration": 2.4,
+      "text": "what you can do And um I think we're",
+      "timestamp": "03:34"
+    },
+    {
+      "start": 217.12,
+      "duration": 2.08,
+      "text": "going more and more from these sort of",
+      "timestamp": "03:37"
+    },
+    {
+      "start": 219.2,
+      "duration": 2.24,
+      "text": "agentic systems that have sort of rules",
+      "timestamp": "03:39"
+    },
+    {
+      "start": 221.44,
+      "duration": 2.64,
+      "text": "at the core and models at the periphery",
+      "timestamp": "03:41"
+    },
+    {
+      "start": 224.08,
+      "duration": 2.159,
+      "text": "to agentic systems where the model is at",
+      "timestamp": "03:44"
+    },
+    {
+      "start": 226.239,
+      "duration": 2.401,
+      "text": "the core and the tools and rules are at",
+      "timestamp": "03:46"
+    },
+    {
+      "start": 228.64,
+      "duration": 2.08,
+      "text": "the periphery So the model sort of",
+      "timestamp": "03:48"
+    },
+    {
+      "start": 230.72,
+      "duration": 2.0,
+      "text": "autonomously selects like tools and",
+      "timestamp": "03:50"
+    },
+    {
+      "start": 232.72,
+      "duration": 1.84,
+      "text": "makes you know maybe there's some kind",
+      "timestamp": "03:52"
+    },
+    {
+      "start": 234.56,
+      "duration": 2.239,
+      "text": "of sense checking rules around it Do you",
+      "timestamp": "03:54"
+    },
+    {
+      "start": 236.799,
+      "duration": 1.52,
+      "text": "think most people understand that",
+      "timestamp": "03:56"
+    },
+    {
+      "start": 238.319,
+      "duration": 2.161,
+      "text": "distinction between like a rulesbased",
+      "timestamp": "03:58"
+    },
+    {
+      "start": 240.48,
+      "duration": 2.72,
+      "text": "agent and this more open-ended autonomy",
+      "timestamp": "04:00"
+    },
+    {
+      "start": 243.2,
+      "duration": 2.239,
+      "text": "that you can get from having your agent",
+      "timestamp": "04:03"
+    },
+    {
+      "start": 245.439,
+      "duration": 2.481,
+      "text": "prompt the model I would say no I mean",
+      "timestamp": "04:05"
+    },
+    {
+      "start": 247.92,
+      "duration": 2.319,
+      "text": "there's still a lot of I mean obviously",
+      "timestamp": "04:07"
+    },
+    {
+      "start": 250.239,
+      "duration": 2.241,
+      "text": "some builders do and I think as an end",
+      "timestamp": "04:10"
+    },
+    {
+      "start": 252.48,
+      "duration": 1.839,
+      "text": "user you don't necessarily have to right",
+      "timestamp": "04:12"
+    },
+    {
+      "start": 254.319,
+      "duration": 4.48,
+      "text": "Um uh there's also with tech often like",
+      "timestamp": "04:14"
+    },
+    {
+      "start": 258.799,
+      "duration": 2.16,
+      "text": "people don't really like to look into",
+      "timestamp": "04:18"
+    },
+    {
+      "start": 260.959,
+      "duration": 2.081,
+      "text": "the past like they kind of look at what",
+      "timestamp": "04:20"
+    },
+    {
+      "start": 263.04,
+      "duration": 1.68,
+      "text": "they have in front of them right now and",
+      "timestamp": "04:23"
+    },
+    {
+      "start": 264.72,
+      "duration": 1.84,
+      "text": "then they do a bunch of reinvention of",
+      "timestamp": "04:24"
+    },
+    {
+      "start": 266.56,
+      "duration": 1.6,
+      "text": "the wheel sort of thing you know agents",
+      "timestamp": "04:26"
+    },
+    {
+      "start": 268.16,
+      "duration": 1.68,
+      "text": "multi- aent system isn't something new",
+      "timestamp": "04:28"
+    },
+    {
+      "start": 269.84,
+      "duration": 1.76,
+      "text": "like there's been a lot of research into",
+      "timestamp": "04:29"
+    },
+    {
+      "start": 271.6,
+      "duration": 2.08,
+      "text": "it but obviously is very new or the kind",
+      "timestamp": "04:31"
+    },
+    {
+      "start": 273.68,
+      "duration": 2.64,
+      "text": "of AI models we have access to and as a",
+      "timestamp": "04:33"
+    },
+    {
+      "start": 276.32,
+      "duration": 1.52,
+      "text": "result the kind of agents we can build",
+      "timestamp": "04:36"
+    },
+    {
+      "start": 277.84,
+      "duration": 1.6,
+      "text": "is vastly different now you have coding",
+      "timestamp": "04:37"
+    },
+    {
+      "start": 279.44,
+      "duration": 1.759,
+      "text": "agents right which are actually quite",
+      "timestamp": "04:39"
+    },
+    {
+      "start": 281.199,
+      "duration": 1.601,
+      "text": "useful like you didn't have that in the",
+      "timestamp": "04:41"
+    },
+    {
+      "start": 282.8,
+      "duration": 2.64,
+      "text": "past so I think It's always healthy to",
+      "timestamp": "04:42"
+    },
+    {
+      "start": 285.44,
+      "duration": 1.6,
+      "text": "kind of look in the past and see okay",
+      "timestamp": "04:45"
+    },
+    {
+      "start": 287.04,
+      "duration": 1.76,
+      "text": "what have people built before and what",
+      "timestamp": "04:47"
+    },
+    {
+      "start": 288.8,
+      "duration": 2.0,
+      "text": "can we learn from it Yeah definitely And",
+      "timestamp": "04:48"
+    },
+    {
+      "start": 290.8,
+      "duration": 2.0,
+      "text": "later in the conversation I want to",
+      "timestamp": "04:50"
+    },
+    {
+      "start": 292.8,
+      "duration": 2.72,
+      "text": "compare what's been happening in web 2",
+      "timestamp": "04:52"
+    },
+    {
+      "start": 295.52,
+      "duration": 2.0,
+      "text": "agents with what crypto agents can do",
+      "timestamp": "04:55"
+    },
+    {
+      "start": 297.52,
+      "duration": 1.36,
+      "text": "And so we're going to come back we're",
+      "timestamp": "04:57"
+    },
+    {
+      "start": 298.88,
+      "duration": 1.28,
+      "text": "going to come back to like what we were",
+      "timestamp": "04:58"
+    },
+    {
+      "start": 300.16,
+      "duration": 2.08,
+      "text": "able to do before and that difference I",
+      "timestamp": "05:00"
+    },
+    {
+      "start": 302.24,
+      "duration": 1.36,
+      "text": "think we were just kind of talking about",
+      "timestamp": "05:02"
+    },
+    {
+      "start": 303.6,
+      "duration": 2.56,
+      "text": "like the current state and like maybe",
+      "timestamp": "05:03"
+    },
+    {
+      "start": 306.16,
+      "duration": 1.92,
+      "text": "misapprehension So like what do you feel",
+      "timestamp": "05:06"
+    },
+    {
+      "start": 308.08,
+      "duration": 1.92,
+      "text": "is like missing in the conversation",
+      "timestamp": "05:08"
+    },
+    {
+      "start": 310.0,
+      "duration": 2.16,
+      "text": "around AI agents in crypto I feel like",
+      "timestamp": "05:10"
+    },
+    {
+      "start": 312.16,
+      "duration": 1.68,
+      "text": "there's a disconnect between like what",
+      "timestamp": "05:12"
+    },
+    {
+      "start": 313.84,
+      "duration": 1.919,
+      "text": "the real utility is and like the way",
+      "timestamp": "05:13"
+    },
+    {
+      "start": 315.759,
+      "duration": 1.601,
+      "text": "that people talk about them I would say",
+      "timestamp": "05:15"
+    },
+    {
+      "start": 317.36,
+      "duration": 2.16,
+      "text": "so I mean I think it's always has to be",
+      "timestamp": "05:17"
+    },
+    {
+      "start": 319.52,
+      "duration": 2.0,
+      "text": "seen in in the backdrop of like the",
+      "timestamp": "05:19"
+    },
+    {
+      "start": 321.52,
+      "duration": 1.76,
+      "text": "incentives right Like in crypto people",
+      "timestamp": "05:21"
+    },
+    {
+      "start": 323.28,
+      "duration": 2.16,
+      "text": "are incentivized to talk up certain",
+      "timestamp": "05:23"
+    },
+    {
+      "start": 325.44,
+      "duration": 1.84,
+      "text": "things where they think the meta is",
+      "timestamp": "05:25"
+    },
+    {
+      "start": 327.28,
+      "duration": 1.84,
+      "text": "going and where they think they can make",
+      "timestamp": "05:27"
+    },
+    {
+      "start": 329.12,
+      "duration": 2.48,
+      "text": "money And um obviously in recent months",
+      "timestamp": "05:29"
+    },
+    {
+      "start": 331.6,
+      "duration": 1.599,
+      "text": "there has been these sort of influencer",
+      "timestamp": "05:31"
+    },
+    {
+      "start": 333.199,
+      "duration": 2.641,
+      "text": "style agents where it's really only",
+      "timestamp": "05:33"
+    },
+    {
+      "start": 335.84,
+      "duration": 1.76,
+      "text": "partially about the agents agent as like",
+      "timestamp": "05:35"
+    },
+    {
+      "start": 337.6,
+      "duration": 2.319,
+      "text": "the kind of marketing element of it and",
+      "timestamp": "05:37"
+    },
+    {
+      "start": 339.919,
+      "duration": 1.84,
+      "text": "to an extent the product like you know",
+      "timestamp": "05:39"
+    },
+    {
+      "start": 341.759,
+      "duration": 1.601,
+      "text": "some people actually use the agents but",
+      "timestamp": "05:41"
+    },
+    {
+      "start": 343.36,
+      "duration": 2.08,
+      "text": "very few most of the time and really",
+      "timestamp": "05:43"
+    },
+    {
+      "start": 345.44,
+      "duration": 1.92,
+      "text": "it's more about the underlying tokens so",
+      "timestamp": "05:45"
+    },
+    {
+      "start": 347.36,
+      "duration": 2.32,
+      "text": "it's a I see it as a continuation of",
+      "timestamp": "05:47"
+    },
+    {
+      "start": 349.68,
+      "duration": 1.92,
+      "text": "this sort of memecoin craze you know",
+      "timestamp": "05:49"
+    },
+    {
+      "start": 351.6,
+      "duration": 1.76,
+      "text": "like at some point people gave up on",
+      "timestamp": "05:51"
+    },
+    {
+      "start": 353.36,
+      "duration": 1.6,
+      "text": "utility and went for meme coins and then",
+      "timestamp": "05:53"
+    },
+    {
+      "start": 354.96,
+      "duration": 1.92,
+      "text": "like with these agents you kind of have",
+      "timestamp": "05:54"
+    },
+    {
+      "start": 356.88,
+      "duration": 2.48,
+      "text": "a little bit of this sort of utility",
+      "timestamp": "05:56"
+    },
+    {
+      "start": 359.36,
+      "duration": 1.839,
+      "text": "coming back but not really I mean are",
+      "timestamp": "05:59"
+    },
+    {
+      "start": 361.199,
+      "duration": 2.56,
+      "text": "you really going to um get excited about",
+      "timestamp": "06:01"
+    },
+    {
+      "start": 363.759,
+      "duration": 2.16,
+      "text": "the utility of some of those like social",
+      "timestamp": "06:03"
+    },
+    {
+      "start": 365.919,
+      "duration": 3.201,
+      "text": "posting agents like it's limited Um but",
+      "timestamp": "06:05"
+    },
+    {
+      "start": 369.12,
+      "duration": 2.48,
+      "text": "at the same time I mean what what",
+      "timestamp": "06:09"
+    },
+    {
+      "start": 371.6,
+      "duration": 2.08,
+      "text": "fundamentally changed I think with that",
+      "timestamp": "06:11"
+    },
+    {
+      "start": 373.68,
+      "duration": 1.6,
+      "text": "with that phase I would say from",
+      "timestamp": "06:13"
+    },
+    {
+      "start": 375.28,
+      "duration": 3.68,
+      "text": "November till January or whatever um uh",
+      "timestamp": "06:15"
+    },
+    {
+      "start": 378.96,
+      "duration": 1.32,
+      "text": "this year is",
+      "timestamp": "06:18"
+    },
+    {
+      "start": 380.28,
+      "duration": 1.759,
+      "text": "um",
+      "timestamp": "06:20"
+    },
+    {
+      "start": 382.039,
+      "duration": 2.6,
+      "text": "that let's say a year ago people in",
+      "timestamp": "06:22"
+    },
+    {
+      "start": 384.639,
+      "duration": 1.601,
+      "text": "crypto would still be like what like",
+      "timestamp": "06:24"
+    },
+    {
+      "start": 386.24,
+      "duration": 2.239,
+      "text": "crypto agents like that's not a thing",
+      "timestamp": "06:26"
+    },
+    {
+      "start": 388.479,
+      "duration": 2.321,
+      "text": "Now that's like not the case right Like",
+      "timestamp": "06:28"
+    },
+    {
+      "start": 390.8,
+      "duration": 2.48,
+      "text": "people have like for better or worse",
+      "timestamp": "06:30"
+    },
+    {
+      "start": 393.28,
+      "duration": 1.84,
+      "text": "have like an image in their head of like",
+      "timestamp": "06:33"
+    },
+    {
+      "start": 395.12,
+      "duration": 2.72,
+      "text": "what an Asian encrypter is And I think",
+      "timestamp": "06:35"
+    },
+    {
+      "start": 397.84,
+      "duration": 1.52,
+      "text": "for better or worse because the better",
+      "timestamp": "06:37"
+    },
+    {
+      "start": 399.36,
+      "duration": 1.92,
+      "text": "is now there's attention for the concept",
+      "timestamp": "06:39"
+    },
+    {
+      "start": 401.28,
+      "duration": 2.8,
+      "text": "as a whole But the worst is it's still",
+      "timestamp": "06:41"
+    },
+    {
+      "start": 404.08,
+      "duration": 3.04,
+      "text": "like wild like so undersold like you say",
+      "timestamp": "06:44"
+    },
+    {
+      "start": 407.12,
+      "duration": 5.199,
+      "text": "like um so under um appreciated how",
+      "timestamp": "06:47"
+    },
+    {
+      "start": 412.319,
+      "duration": 2.561,
+      "text": "powerful it can be to give agents a",
+      "timestamp": "06:52"
+    },
+    {
+      "start": 414.88,
+      "duration": 4.64,
+      "text": "wallet um and how powerful it um can be",
+      "timestamp": "06:54"
+    },
+    {
+      "start": 419.52,
+      "duration": 2.56,
+      "text": "for the products Like I I really like to",
+      "timestamp": "06:59"
+    },
+    {
+      "start": 422.08,
+      "duration": 2.239,
+      "text": "think of it as sort of you know the",
+      "timestamp": "07:02"
+    },
+    {
+      "start": 424.319,
+      "duration": 2.081,
+      "text": "original notion of crypto was like not",
+      "timestamp": "07:04"
+    },
+    {
+      "start": 426.4,
+      "duration": 1.6,
+      "text": "your keys not your coins That sort of",
+      "timestamp": "07:06"
+    },
+    {
+      "start": 428.0,
+      "duration": 2.08,
+      "text": "sums up a lot of what early believers in",
+      "timestamp": "07:08"
+    },
+    {
+      "start": 430.08,
+      "duration": 1.6,
+      "text": "crypto were kind of on about like",
+      "timestamp": "07:10"
+    },
+    {
+      "start": 431.68,
+      "duration": 2.32,
+      "text": "decentralization sense of so resistance",
+      "timestamp": "07:11"
+    },
+    {
+      "start": 434.0,
+      "duration": 1.599,
+      "text": "self sovereignty these kind of things",
+      "timestamp": "07:14"
+    },
+    {
+      "start": 435.599,
+      "duration": 2.16,
+      "text": "With AI you have like not your weights",
+      "timestamp": "07:15"
+    },
+    {
+      "start": 437.759,
+      "duration": 2.16,
+      "text": "not your brain in a sense like you know",
+      "timestamp": "07:17"
+    },
+    {
+      "start": 439.919,
+      "duration": 2.241,
+      "text": "if if if if I don't own the model what",
+      "timestamp": "07:19"
+    },
+    {
+      "start": 442.16,
+      "duration": 1.92,
+      "text": "am I really having here Like I can be",
+      "timestamp": "07:22"
+    },
+    {
+      "start": 444.08,
+      "duration": 1.76,
+      "text": "shut out any moment And I think what's",
+      "timestamp": "07:24"
+    },
+    {
+      "start": 445.84,
+      "duration": 2.079,
+      "text": "exciting about agents is you you kind of",
+      "timestamp": "07:25"
+    },
+    {
+      "start": 447.919,
+      "duration": 1.521,
+      "text": "combine that right Like an agent without",
+      "timestamp": "07:27"
+    },
+    {
+      "start": 449.44,
+      "duration": 2.24,
+      "text": "a wallet is no not that useful because",
+      "timestamp": "07:29"
+    },
+    {
+      "start": 451.68,
+      "duration": 1.84,
+      "text": "it can't really enact things in the",
+      "timestamp": "07:31"
+    },
+    {
+      "start": 453.52,
+      "duration": 2.32,
+      "text": "world can't get resources and create new",
+      "timestamp": "07:33"
+    },
+    {
+      "start": 455.84,
+      "duration": 2.0,
+      "text": "ones tap into services An agent without",
+      "timestamp": "07:35"
+    },
+    {
+      "start": 457.84,
+      "duration": 2.16,
+      "text": "a brain is pointless So you really want",
+      "timestamp": "07:37"
+    },
+    {
+      "start": 460.0,
+      "duration": 2.08,
+      "text": "to have both And so like having an agent",
+      "timestamp": "07:40"
+    },
+    {
+      "start": 462.08,
+      "duration": 2.239,
+      "text": "that you can own that sort of has that",
+      "timestamp": "07:42"
+    },
+    {
+      "start": 464.319,
+      "duration": 1.841,
+      "text": "wallet that has these weights where you",
+      "timestamp": "07:44"
+    },
+    {
+      "start": 466.16,
+      "duration": 1.759,
+      "text": "like fully in control of it is like",
+      "timestamp": "07:46"
+    },
+    {
+      "start": 467.919,
+      "duration": 2.4,
+      "text": "super empowering and it opens up like",
+      "timestamp": "07:47"
+    },
+    {
+      "start": 470.319,
+      "duration": 2.32,
+      "text": "this tremendously of exciting use cases",
+      "timestamp": "07:50"
+    },
+    {
+      "start": 472.639,
+      "duration": 1.361,
+      "text": "And then the other thing I would say is",
+      "timestamp": "07:52"
+    },
+    {
+      "start": 474.0,
+      "duration": 2.0,
+      "text": "like people are very anchored on",
+      "timestamp": "07:54"
+    },
+    {
+      "start": 476.0,
+      "duration": 2.879,
+      "text": "augmentation style you know experiences",
+      "timestamp": "07:56"
+    },
+    {
+      "start": 478.879,
+      "duration": 2.72,
+      "text": "like everyone's like obviously shaped by",
+      "timestamp": "07:58"
+    },
+    {
+      "start": 481.599,
+      "duration": 1.521,
+      "text": "the things they have in front of them So",
+      "timestamp": "08:01"
+    },
+    {
+      "start": 483.12,
+      "duration": 1.759,
+      "text": "like you have chat GPT and then that",
+      "timestamp": "08:03"
+    },
+    {
+      "start": 484.879,
+      "duration": 2.561,
+      "text": "shapes your experience of what AI can do",
+      "timestamp": "08:04"
+    },
+    {
+      "start": 487.44,
+      "duration": 2.0,
+      "text": "and will do for you But that's an",
+      "timestamp": "08:07"
+    },
+    {
+      "start": 489.44,
+      "duration": 1.52,
+      "text": "augmentation style workflow right Like",
+      "timestamp": "08:09"
+    },
+    {
+      "start": 490.96,
+      "duration": 2.0,
+      "text": "I'm there I'm working with it and then",
+      "timestamp": "08:10"
+    },
+    {
+      "start": 492.96,
+      "duration": 2.16,
+      "text": "I'm gone and it doesn't like it serves",
+      "timestamp": "08:12"
+    },
+    {
+      "start": 495.12,
+      "duration": 1.68,
+      "text": "others It doesn't do anything in the",
+      "timestamp": "08:15"
+    },
+    {
+      "start": 496.8,
+      "duration": 2.239,
+      "text": "background for me Autonomous AI agents",
+      "timestamp": "08:16"
+    },
+    {
+      "start": 499.039,
+      "duration": 1.44,
+      "text": "that's where I'm very excited about",
+      "timestamp": "08:19"
+    },
+    {
+      "start": 500.479,
+      "duration": 2.481,
+      "text": "because you basically give an agent a",
+      "timestamp": "08:20"
+    },
+    {
+      "start": 502.96,
+      "duration": 1.76,
+      "text": "goal you go away you do other things and",
+      "timestamp": "08:22"
+    },
+    {
+      "start": 504.72,
+      "duration": 1.52,
+      "text": "in parallel to you doing these other",
+      "timestamp": "08:24"
+    },
+    {
+      "start": 506.24,
+      "duration": 2.079,
+      "text": "things it does that And that really",
+      "timestamp": "08:26"
+    },
+    {
+      "start": 508.319,
+      "duration": 2.0,
+      "text": "scales right like you can really kind of",
+      "timestamp": "08:28"
+    },
+    {
+      "start": 510.319,
+      "duration": 1.84,
+      "text": "scale yourself and you can see how",
+      "timestamp": "08:30"
+    },
+    {
+      "start": 512.159,
+      "duration": 1.68,
+      "text": "there's like loads and loads of agents",
+      "timestamp": "08:32"
+    },
+    {
+      "start": 513.839,
+      "duration": 2.241,
+      "text": "doing things autonomously on our behalf",
+      "timestamp": "08:33"
+    },
+    {
+      "start": 516.08,
+      "duration": 2.16,
+      "text": "Yeah for sure So as I was preparing for",
+      "timestamp": "08:36"
+    },
+    {
+      "start": 518.24,
+      "duration": 1.679,
+      "text": "our conversation I was really thinking",
+      "timestamp": "08:38"
+    },
+    {
+      "start": 519.919,
+      "duration": 1.68,
+      "text": "about the difference between like what I",
+      "timestamp": "08:39"
+    },
+    {
+      "start": 521.599,
+      "duration": 2.721,
+      "text": "see in web 2 AI agents and what I see in",
+      "timestamp": "08:41"
+    },
+    {
+      "start": 524.32,
+      "duration": 2.079,
+      "text": "web 3 And we already kind of illustrated",
+      "timestamp": "08:44"
+    },
+    {
+      "start": 526.399,
+      "duration": 2.481,
+      "text": "maybe a currently limited set of",
+      "timestamp": "08:46"
+    },
+    {
+      "start": 528.88,
+      "duration": 2.0,
+      "text": "expectations maybe because it hasn't",
+      "timestamp": "08:48"
+    },
+    {
+      "start": 530.88,
+      "duration": 1.84,
+      "text": "been that long that the space was taking",
+      "timestamp": "08:50"
+    },
+    {
+      "start": 532.72,
+      "duration": 2.08,
+      "text": "it seriously other than maybe it's just",
+      "timestamp": "08:52"
+    },
+    {
+      "start": 534.8,
+      "duration": 2.56,
+      "text": "too it's just early like why why this",
+      "timestamp": "08:54"
+    },
+    {
+      "start": 537.36,
+      "duration": 1.68,
+      "text": "divergence Like it seems like web two",
+      "timestamp": "08:57"
+    },
+    {
+      "start": 539.04,
+      "duration": 1.84,
+      "text": "agents are actually already starting to",
+      "timestamp": "08:59"
+    },
+    {
+      "start": 540.88,
+      "duration": 1.6,
+      "text": "do new things but the people's",
+      "timestamp": "09:00"
+    },
+    {
+      "start": 542.48,
+      "duration": 1.919,
+      "text": "perception of what a web 3 agent can do",
+      "timestamp": "09:02"
+    },
+    {
+      "start": 544.399,
+      "duration": 2.401,
+      "text": "is still they still underestimate them",
+      "timestamp": "09:04"
+    },
+    {
+      "start": 546.8,
+      "duration": 2.0,
+      "text": "Yeah I'm I think it's a great question I",
+      "timestamp": "09:06"
+    },
+    {
+      "start": 548.8,
+      "duration": 1.68,
+      "text": "think there's a couple things here web",
+      "timestamp": "09:08"
+    },
+    {
+      "start": 550.48,
+      "duration": 2.88,
+      "text": "free for battle of vers whenever project",
+      "timestamp": "09:10"
+    },
+    {
+      "start": 553.36,
+      "duration": 1.68,
+      "text": "like most projects basically have two",
+      "timestamp": "09:13"
+    },
+    {
+      "start": 555.04,
+      "duration": 1.84,
+      "text": "products at least they have like",
+      "timestamp": "09:15"
+    },
+    {
+      "start": 556.88,
+      "duration": 2.72,
+      "text": "whatever the end user product is like in",
+      "timestamp": "09:16"
+    },
+    {
+      "start": 559.6,
+      "duration": 1.84,
+      "text": "our case it's like pearl for instance",
+      "timestamp": "09:19"
+    },
+    {
+      "start": 561.44,
+      "duration": 2.32,
+      "text": "for us um where you have like yeah Asian",
+      "timestamp": "09:21"
+    },
+    {
+      "start": 563.76,
+      "duration": 1.84,
+      "text": "app store and then you also have the",
+      "timestamp": "09:23"
+    },
+    {
+      "start": 565.6,
+      "duration": 2.88,
+      "text": "token and that actually can be",
+      "timestamp": "09:25"
+    },
+    {
+      "start": 568.48,
+      "duration": 1.68,
+      "text": "beneficial because it allows for like",
+      "timestamp": "09:28"
+    },
+    {
+      "start": 570.16,
+      "duration": 1.679,
+      "text": "kind of bootstrapping we can get into",
+      "timestamp": "09:30"
+    },
+    {
+      "start": 571.839,
+      "duration": 2.241,
+      "text": "one day why all has a token how that",
+      "timestamp": "09:31"
+    },
+    {
+      "start": 574.08,
+      "duration": 3.28,
+      "text": "works but it can also be really like a",
+      "timestamp": "09:34"
+    },
+    {
+      "start": 577.36,
+      "duration": 1.44,
+      "text": "problem it's a distraction right like",
+      "timestamp": "09:37"
+    },
+    {
+      "start": 578.8,
+      "duration": 1.28,
+      "text": "now you have two products you have to",
+      "timestamp": "09:38"
+    },
+    {
+      "start": 580.08,
+      "duration": 1.759,
+      "text": "worry about well in one you like instead",
+      "timestamp": "09:40"
+    },
+    {
+      "start": 581.839,
+      "duration": 1.761,
+      "text": "of just making the agent as fantastic as",
+      "timestamp": "09:41"
+    },
+    {
+      "start": 583.6,
+      "duration": 1.76,
+      "text": "it can be you also have to deal with",
+      "timestamp": "09:43"
+    },
+    {
+      "start": 585.36,
+      "duration": 1.76,
+      "text": "this other thing and if you look at like",
+      "timestamp": "09:45"
+    },
+    {
+      "start": 587.12,
+      "duration": 2.64,
+      "text": "the the space in terms of like what's",
+      "timestamp": "09:47"
+    },
+    {
+      "start": 589.76,
+      "duration": 2.24,
+      "text": "been doing well recently it's basically",
+      "timestamp": "09:49"
+    },
+    {
+      "start": 592.0,
+      "duration": 2.16,
+      "text": "just like token innovation right like",
+      "timestamp": "09:52"
+    },
+    {
+      "start": 594.16,
+      "duration": 2.64,
+      "text": "and then thinly wrapped agent stuff like",
+      "timestamp": "09:54"
+    },
+    {
+      "start": 596.8,
+      "duration": 2.159,
+      "text": "the the agent stuff is pretty boring and",
+      "timestamp": "09:56"
+    },
+    {
+      "start": 598.959,
+      "duration": 1.521,
+      "text": "what and then there's a kind of token",
+      "timestamp": "09:58"
+    },
+    {
+      "start": 600.48,
+      "duration": 1.919,
+      "text": "innovation on top I I think that's one",
+      "timestamp": "10:00"
+    },
+    {
+      "start": 602.399,
+      "duration": 2.081,
+      "text": "aspect so a lot of energy goes into the",
+      "timestamp": "10:02"
+    },
+    {
+      "start": 604.48,
+      "duration": 1.919,
+      "text": "token side and the agent side gets a bit",
+      "timestamp": "10:04"
+    },
+    {
+      "start": 606.399,
+      "duration": 2.241,
+      "text": "less proportional attention and then the",
+      "timestamp": "10:06"
+    },
+    {
+      "start": 608.64,
+      "duration": 2.0,
+      "text": "other thing has funding I mean you know",
+      "timestamp": "10:08"
+    },
+    {
+      "start": 610.64,
+      "duration": 1.44,
+      "text": "if you look at crypto as a whole",
+      "timestamp": "10:10"
+    },
+    {
+      "start": 612.08,
+      "duration": 1.439,
+      "text": "attracts a lot of funding But if you",
+      "timestamp": "10:12"
+    },
+    {
+      "start": 613.519,
+      "duration": 1.921,
+      "text": "look at the AI section of crypto only",
+      "timestamp": "10:13"
+    },
+    {
+      "start": 615.44,
+      "duration": 1.76,
+      "text": "attracting funding for maybe a couple",
+      "timestamp": "10:15"
+    },
+    {
+      "start": 617.2,
+      "duration": 1.84,
+      "text": "years now and specifically the agent",
+      "timestamp": "10:17"
+    },
+    {
+      "start": 619.04,
+      "duration": 2.479,
+      "text": "side not that much If you sum that all",
+      "timestamp": "10:19"
+    },
+    {
+      "start": 621.519,
+      "duration": 2.081,
+      "text": "up the total funding that's gone into AI",
+      "timestamp": "10:21"
+    },
+    {
+      "start": 623.6,
+      "duration": 1.84,
+      "text": "agent projects in crypto I'm pretty sure",
+      "timestamp": "10:23"
+    },
+    {
+      "start": 625.44,
+      "duration": 1.92,
+      "text": "it's like orders of magnitude lower than",
+      "timestamp": "10:25"
+    },
+    {
+      "start": 627.36,
+      "duration": 1.919,
+      "text": "what you've gone into coding agents",
+      "timestamp": "10:27"
+    },
+    {
+      "start": 629.279,
+      "duration": 2.641,
+      "text": "alone right Like there's various coding",
+      "timestamp": "10:29"
+    },
+    {
+      "start": 631.92,
+      "duration": 3.039,
+      "text": "agent um and they you know have serious",
+      "timestamp": "10:31"
+    },
+    {
+      "start": 634.959,
+      "duration": 1.761,
+      "text": "revenue as well So they deserve that",
+      "timestamp": "10:34"
+    },
+    {
+      "start": 636.72,
+      "duration": 1.52,
+      "text": "funding um and they have proven that",
+      "timestamp": "10:36"
+    },
+    {
+      "start": 638.24,
+      "duration": 1.52,
+      "text": "they have market fit They have",
+      "timestamp": "10:38"
+    },
+    {
+      "start": 639.76,
+      "duration": 1.6,
+      "text": "significant funding and that drives",
+      "timestamp": "10:39"
+    },
+    {
+      "start": 641.36,
+      "duration": 2.24,
+      "text": "obviously like allows for much more",
+      "timestamp": "10:41"
+    },
+    {
+      "start": 643.6,
+      "duration": 1.679,
+      "text": "rapid innovation I think this is like",
+      "timestamp": "10:43"
+    },
+    {
+      "start": 645.279,
+      "duration": 1.921,
+      "text": "where I would see two reasons for that",
+      "timestamp": "10:45"
+    },
+    {
+      "start": 647.2,
+      "duration": 2.079,
+      "text": "divergence which both leads to basically",
+      "timestamp": "10:47"
+    },
+    {
+      "start": 649.279,
+      "duration": 2.161,
+      "text": "not enough building and that's really at",
+      "timestamp": "10:49"
+    },
+    {
+      "start": 651.44,
+      "duration": 1.839,
+      "text": "the core of it Yeah that makes a lot of",
+      "timestamp": "10:51"
+    },
+    {
+      "start": 653.279,
+      "duration": 1.361,
+      "text": "sense Well let's see if we can close",
+      "timestamp": "10:53"
+    },
+    {
+      "start": 654.64,
+      "duration": 1.6,
+      "text": "that expectation gap a little bit and",
+      "timestamp": "10:54"
+    },
+    {
+      "start": 656.24,
+      "duration": 1.839,
+      "text": "talk about the role that Ols is trying",
+      "timestamp": "10:56"
+    },
+    {
+      "start": 658.079,
+      "duration": 2.401,
+      "text": "to play in this like shift towards",
+      "timestamp": "10:58"
+    },
+    {
+      "start": 660.48,
+      "duration": 2.88,
+      "text": "making the AI agents that uh use crypto",
+      "timestamp": "11:00"
+    },
+    {
+      "start": 663.36,
+      "duration": 2.24,
+      "text": "rails like really useful and accessible",
+      "timestamp": "11:03"
+    },
+    {
+      "start": 665.6,
+      "duration": 2.799,
+      "text": "to people So what is the mission of like",
+      "timestamp": "11:05"
+    },
+    {
+      "start": 668.399,
+      "duration": 1.601,
+      "text": "like Valerie makes a lot of",
+      "timestamp": "11:08"
+    },
+    {
+      "start": 670.0,
+      "duration": 2.24,
+      "text": "contributions to OS as an ecosystem So",
+      "timestamp": "11:10"
+    },
+    {
+      "start": 672.24,
+      "duration": 1.92,
+      "text": "like what's the mission right now and",
+      "timestamp": "11:12"
+    },
+    {
+      "start": 674.16,
+      "duration": 2.64,
+      "text": "what's not Yeah it's about giving you an",
+      "timestamp": "11:14"
+    },
+    {
+      "start": 676.8,
+      "duration": 2.56,
+      "text": "agent you can own rather than rent I",
+      "timestamp": "11:16"
+    },
+    {
+      "start": 679.36,
+      "duration": 2.64,
+      "text": "think we you know are all aware of the",
+      "timestamp": "11:19"
+    },
+    {
+      "start": 682.0,
+      "duration": 2.32,
+      "text": "SAS model and that's again like the",
+      "timestamp": "11:22"
+    },
+    {
+      "start": 684.32,
+      "duration": 1.519,
+      "text": "dominant web two model in which these",
+      "timestamp": "11:24"
+    },
+    {
+      "start": 685.839,
+      "duration": 4.401,
+      "text": "agents are served Um we say look you can",
+      "timestamp": "11:25"
+    },
+    {
+      "start": 690.24,
+      "duration": 2.32,
+      "text": "own your agent and why is that valuable",
+      "timestamp": "11:30"
+    },
+    {
+      "start": 692.56,
+      "duration": 3.36,
+      "text": "to you Well precisely because you of the",
+      "timestamp": "11:32"
+    },
+    {
+      "start": 695.92,
+      "duration": 1.52,
+      "text": "points I made earlier you want to own",
+      "timestamp": "11:35"
+    },
+    {
+      "start": 697.44,
+      "duration": 1.519,
+      "text": "your keys and you want to own your",
+      "timestamp": "11:37"
+    },
+    {
+      "start": 698.959,
+      "duration": 1.681,
+      "text": "weights because it allows you to",
+      "timestamp": "11:38"
+    },
+    {
+      "start": 700.64,
+      "duration": 1.68,
+      "text": "ultimately be like in charge of your",
+      "timestamp": "11:40"
+    },
+    {
+      "start": 702.32,
+      "duration": 1.92,
+      "text": "destiny you know you avoid these kind of",
+      "timestamp": "11:42"
+    },
+    {
+      "start": 704.24,
+      "duration": 2.32,
+      "text": "platform risks uh which which you have",
+      "timestamp": "11:44"
+    },
+    {
+      "start": 706.56,
+      "duration": 1.6,
+      "text": "if you start like investing in your",
+      "timestamp": "11:46"
+    },
+    {
+      "start": 708.16,
+      "duration": 1.52,
+      "text": "agent and then suddenly you might not",
+      "timestamp": "11:48"
+    },
+    {
+      "start": 709.68,
+      "duration": 1.839,
+      "text": "access it because you've prompted it in",
+      "timestamp": "11:49"
+    },
+    {
+      "start": 711.519,
+      "duration": 2.32,
+      "text": "the wrong way or the startup just",
+      "timestamp": "11:51"
+    },
+    {
+      "start": 713.839,
+      "duration": 2.0,
+      "text": "decides you don't have access to it now",
+      "timestamp": "11:53"
+    },
+    {
+      "start": 715.839,
+      "duration": 1.761,
+      "text": "because they moved on or whatever reason",
+      "timestamp": "11:55"
+    },
+    {
+      "start": 717.6,
+      "duration": 2.0,
+      "text": "and it also unlocks entirely new use",
+      "timestamp": "11:57"
+    },
+    {
+      "start": 719.6,
+      "duration": 2.72,
+      "text": "cases So for instance for us um you know",
+      "timestamp": "11:59"
+    },
+    {
+      "start": 722.32,
+      "duration": 3.12,
+      "text": "Valaps who's building into open source",
+      "timestamp": "12:02"
+    },
+    {
+      "start": 725.44,
+      "duration": 2.56,
+      "text": "ecosystem we are offering an open source",
+      "timestamp": "12:05"
+    },
+    {
+      "start": 728.0,
+      "duration": 2.959,
+      "text": "bundle which is uh called modius it's a",
+      "timestamp": "12:08"
+    },
+    {
+      "start": 730.959,
+      "duration": 3.201,
+      "text": "defi agent um ultimately the user",
+      "timestamp": "12:10"
+    },
+    {
+      "start": 734.16,
+      "duration": 2.64,
+      "text": "self-hosts that and self custodies it",
+      "timestamp": "12:14"
+    },
+    {
+      "start": 736.8,
+      "duration": 1.76,
+      "text": "and that's very important actually for",
+      "timestamp": "12:16"
+    },
+    {
+      "start": 738.56,
+      "duration": 1.6,
+      "text": "the product offering because it",
+      "timestamp": "12:18"
+    },
+    {
+      "start": 740.16,
+      "duration": 2.239,
+      "text": "ultimately means that there's no like",
+      "timestamp": "12:20"
+    },
+    {
+      "start": 742.399,
+      "duration": 2.321,
+      "text": "kind of centralized like financial",
+      "timestamp": "12:22"
+    },
+    {
+      "start": 744.72,
+      "duration": 2.08,
+      "text": "platform offering the service If that",
+      "timestamp": "12:24"
+    },
+    {
+      "start": 746.8,
+      "duration": 2.159,
+      "text": "was so right you'd immediately fall",
+      "timestamp": "12:26"
+    },
+    {
+      "start": 748.959,
+      "duration": 1.68,
+      "text": "under all sorts of financial regulation",
+      "timestamp": "12:28"
+    },
+    {
+      "start": 750.639,
+      "duration": 1.281,
+      "text": "and the product would look very",
+      "timestamp": "12:30"
+    },
+    {
+      "start": 751.92,
+      "duration": 1.599,
+      "text": "different So you can build like",
+      "timestamp": "12:31"
+    },
+    {
+      "start": 753.519,
+      "duration": 1.76,
+      "text": "fundamentally different products that",
+      "timestamp": "12:33"
+    },
+    {
+      "start": 755.279,
+      "duration": 1.921,
+      "text": "way and you can offer like a totally",
+      "timestamp": "12:35"
+    },
+    {
+      "start": 757.2,
+      "duration": 2.0,
+      "text": "different value proposition to the user",
+      "timestamp": "12:37"
+    },
+    {
+      "start": 759.2,
+      "duration": 1.92,
+      "text": "And what's what is it not like we are",
+      "timestamp": "12:39"
+    },
+    {
+      "start": 761.12,
+      "duration": 2.0,
+      "text": "broadly building autonomous AI agents",
+      "timestamp": "12:41"
+    },
+    {
+      "start": 763.12,
+      "duration": 1.519,
+      "text": "and facilitating people to build",
+      "timestamp": "12:43"
+    },
+    {
+      "start": 764.639,
+      "duration": 2.0,
+      "text": "autonomous AI agents right on the on the",
+      "timestamp": "12:44"
+    },
+    {
+      "start": 766.639,
+      "duration": 2.32,
+      "text": "OLA stack but we're always interested in",
+      "timestamp": "12:46"
+    },
+    {
+      "start": 768.959,
+      "duration": 2.401,
+      "text": "these more endto-end autonomous use",
+      "timestamp": "12:48"
+    },
+    {
+      "start": 771.36,
+      "duration": 2.4,
+      "text": "cases rather than these augmentation use",
+      "timestamp": "12:51"
+    },
+    {
+      "start": 773.76,
+      "duration": 2.4,
+      "text": "cases So we're not so much interested in",
+      "timestamp": "12:53"
+    },
+    {
+      "start": 776.16,
+      "duration": 2.32,
+      "text": "like a use case where let's say a D5",
+      "timestamp": "12:56"
+    },
+    {
+      "start": 778.48,
+      "duration": 3.2,
+      "text": "user comes and chats with an interface",
+      "timestamp": "12:58"
+    },
+    {
+      "start": 781.68,
+      "duration": 2.8,
+      "text": "to then get a transaction object to",
+      "timestamp": "13:01"
+    },
+    {
+      "start": 784.48,
+      "duration": 2.479,
+      "text": "maybe move some funds into some D5",
+      "timestamp": "13:04"
+    },
+    {
+      "start": 786.959,
+      "duration": 2.641,
+      "text": "protocol Instead what we say look let",
+      "timestamp": "13:06"
+    },
+    {
+      "start": 789.6,
+      "duration": 1.679,
+      "text": "everything be done by the agent You just",
+      "timestamp": "13:09"
+    },
+    {
+      "start": 791.279,
+      "duration": 1.68,
+      "text": "tell the agent your goal and then the",
+      "timestamp": "13:11"
+    },
+    {
+      "start": 792.959,
+      "duration": 1.601,
+      "text": "agent handles that And that's just in",
+      "timestamp": "13:12"
+    },
+    {
+      "start": 794.56,
+      "duration": 1.519,
+      "text": "this example of DeFi but it sort of",
+      "timestamp": "13:14"
+    },
+    {
+      "start": 796.079,
+      "duration": 1.361,
+      "text": "applies to all the use cases we're",
+      "timestamp": "13:16"
+    },
+    {
+      "start": 797.44,
+      "duration": 1.839,
+      "text": "looking at Yeah for sure I know many",
+      "timestamp": "13:17"
+    },
+    {
+      "start": 799.279,
+      "duration": 1.521,
+      "text": "times I've heard you say that like a",
+      "timestamp": "13:19"
+    },
+    {
+      "start": 800.8,
+      "duration": 2.64,
+      "text": "talking wallet has no moat And I think",
+      "timestamp": "13:20"
+    },
+    {
+      "start": 803.44,
+      "duration": 2.399,
+      "text": "uh it makes a lot of sense and what",
+      "timestamp": "13:23"
+    },
+    {
+      "start": 805.839,
+      "duration": 1.921,
+      "text": "you're what you're just describing also",
+      "timestamp": "13:25"
+    },
+    {
+      "start": 807.76,
+      "duration": 1.44,
+      "text": "touches a little bit on like this",
+      "timestamp": "13:27"
+    },
+    {
+      "start": 809.2,
+      "duration": 2.879,
+      "text": "concept of the agent economy where there",
+      "timestamp": "13:29"
+    },
+    {
+      "start": 812.079,
+      "duration": 2.041,
+      "text": "are multiple rules for the agent and by",
+      "timestamp": "13:32"
+    },
+    {
+      "start": 814.12,
+      "duration": 2.36,
+      "text": "decentralizing and are distributing",
+      "timestamp": "13:34"
+    },
+    {
+      "start": 816.48,
+      "duration": 2.32,
+      "text": "people to run it all over the world you",
+      "timestamp": "13:36"
+    },
+    {
+      "start": 818.8,
+      "duration": 1.92,
+      "text": "can create something you know a whole",
+      "timestamp": "13:38"
+    },
+    {
+      "start": 820.72,
+      "duration": 1.44,
+      "text": "that is greater than the sum of its",
+      "timestamp": "13:40"
+    },
+    {
+      "start": 822.16,
+      "duration": 1.76,
+      "text": "parts and so that that seems like",
+      "timestamp": "13:42"
+    },
+    {
+      "start": 823.92,
+      "duration": 1.359,
+      "text": "something that would be very difficult",
+      "timestamp": "13:43"
+    },
+    {
+      "start": 825.279,
+      "duration": 2.24,
+      "text": "to replicate in the the web two world",
+      "timestamp": "13:45"
+    },
+    {
+      "start": 827.519,
+      "duration": 1.361,
+      "text": "whereas you say you've got the platform",
+      "timestamp": "13:47"
+    },
+    {
+      "start": 828.88,
+      "duration": 2.56,
+      "text": "risk and yeah I mean if if if even one",
+      "timestamp": "13:48"
+    },
+    {
+      "start": 831.44,
+      "duration": 1.839,
+      "text": "one of those parts goes down like it",
+      "timestamp": "13:51"
+    },
+    {
+      "start": 833.279,
+      "duration": 2.0,
+      "text": "will just it will just stop and I also",
+      "timestamp": "13:53"
+    },
+    {
+      "start": 835.279,
+      "duration": 1.92,
+      "text": "in a second I want to ask about like the",
+      "timestamp": "13:55"
+    },
+    {
+      "start": 837.199,
+      "duration": 2.0,
+      "text": "commodification of models and and how",
+      "timestamp": "13:57"
+    },
+    {
+      "start": 839.199,
+      "duration": 1.921,
+      "text": "that will affect the direction that AI",
+      "timestamp": "13:59"
+    },
+    {
+      "start": 841.12,
+      "duration": 2.48,
+      "text": "agents take but before I get there has",
+      "timestamp": "14:01"
+    },
+    {
+      "start": 843.6,
+      "duration": 2.479,
+      "text": "this accelerator program which is like a",
+      "timestamp": "14:03"
+    },
+    {
+      "start": 846.079,
+      "duration": 1.76,
+      "text": "way to really double down on bringing",
+      "timestamp": "14:06"
+    },
+    {
+      "start": 847.839,
+      "duration": 2.401,
+      "text": "people into the ecosystem to build AI",
+      "timestamp": "14:07"
+    },
+    {
+      "start": 850.24,
+      "duration": 1.68,
+      "text": "agents I think a lot of people might",
+      "timestamp": "14:10"
+    },
+    {
+      "start": 851.92,
+      "duration": 2.0,
+      "text": "wonder well if Valerie has all of this",
+      "timestamp": "14:11"
+    },
+    {
+      "start": 853.92,
+      "duration": 1.76,
+      "text": "domain specific knowledge about the",
+      "timestamp": "14:13"
+    },
+    {
+      "start": 855.68,
+      "duration": 1.76,
+      "text": "codebase like why would you want to",
+      "timestamp": "14:15"
+    },
+    {
+      "start": 857.44,
+      "duration": 1.759,
+      "text": "spend this time to get other people to",
+      "timestamp": "14:17"
+    },
+    {
+      "start": 859.199,
+      "duration": 1.521,
+      "text": "build rather than build the agents",
+      "timestamp": "14:19"
+    },
+    {
+      "start": 860.72,
+      "duration": 1.919,
+      "text": "yourself this is something I I hear a",
+      "timestamp": "14:20"
+    },
+    {
+      "start": 862.639,
+      "duration": 2.56,
+      "text": "lot we do build some agent ourselves but",
+      "timestamp": "14:22"
+    },
+    {
+      "start": 865.199,
+      "duration": 2.161,
+      "text": "ultimately you're also constrained by",
+      "timestamp": "14:25"
+    },
+    {
+      "start": 867.36,
+      "duration": 1.76,
+      "text": "your own imagination and like your",
+      "timestamp": "14:27"
+    },
+    {
+      "start": 869.12,
+      "duration": 2.32,
+      "text": "team's like expertise like it's quite",
+      "timestamp": "14:29"
+    },
+    {
+      "start": 871.44,
+      "duration": 2.079,
+      "text": "hard to build really ground breaking",
+      "timestamp": "14:31"
+    },
+    {
+      "start": 873.519,
+      "duration": 2.241,
+      "text": "agents in a bunch of verticals so I",
+      "timestamp": "14:33"
+    },
+    {
+      "start": 875.76,
+      "duration": 1.759,
+      "text": "think that's one way to look at it the",
+      "timestamp": "14:35"
+    },
+    {
+      "start": 877.519,
+      "duration": 2.161,
+      "text": "other one is it obviously scales better",
+      "timestamp": "14:37"
+    },
+    {
+      "start": 879.68,
+      "duration": 3.04,
+      "text": "from a model perspective to get um like",
+      "timestamp": "14:39"
+    },
+    {
+      "start": 882.72,
+      "duration": 2.08,
+      "text": "an accelerator system going where you",
+      "timestamp": "14:42"
+    },
+    {
+      "start": 884.8,
+      "duration": 1.68,
+      "text": "have like a sort of venture model some",
+      "timestamp": "14:44"
+    },
+    {
+      "start": 886.48,
+      "duration": 1.76,
+      "text": "teams will do well some teams might not",
+      "timestamp": "14:46"
+    },
+    {
+      "start": 888.24,
+      "duration": 1.92,
+      "text": "do well some products will you know in",
+      "timestamp": "14:48"
+    },
+    {
+      "start": 890.16,
+      "duration": 1.52,
+      "text": "the sense of like the end user might",
+      "timestamp": "14:50"
+    },
+    {
+      "start": 891.68,
+      "duration": 1.599,
+      "text": "like their products or not and you don't",
+      "timestamp": "14:51"
+    },
+    {
+      "start": 893.279,
+      "duration": 2.401,
+      "text": "really know this up front Um also I",
+      "timestamp": "14:53"
+    },
+    {
+      "start": 895.68,
+      "duration": 3.2,
+      "text": "would say plus as a protocol is very",
+      "timestamp": "14:55"
+    },
+    {
+      "start": 898.88,
+      "duration": 1.519,
+      "text": "focused on sort of bootstrapping these",
+      "timestamp": "14:58"
+    },
+    {
+      "start": 900.399,
+      "duration": 1.921,
+      "text": "agent economies as you mentioned before",
+      "timestamp": "15:00"
+    },
+    {
+      "start": 902.32,
+      "duration": 3.199,
+      "text": "which basically means you want to bring",
+      "timestamp": "15:02"
+    },
+    {
+      "start": 905.519,
+      "duration": 3.68,
+      "text": "a lot of like very diverse use cases um",
+      "timestamp": "15:05"
+    },
+    {
+      "start": 909.199,
+      "duration": 2.08,
+      "text": "where the agents themselves offer the",
+      "timestamp": "15:09"
+    },
+    {
+      "start": 911.279,
+      "duration": 1.761,
+      "text": "services to each other So when I was",
+      "timestamp": "15:11"
+    },
+    {
+      "start": 913.04,
+      "duration": 3.52,
+      "text": "earlier saying okay like it's important",
+      "timestamp": "15:13"
+    },
+    {
+      "start": 916.56,
+      "duration": 1.44,
+      "text": "for agent to have a wallet it's",
+      "timestamp": "15:16"
+    },
+    {
+      "start": 918.0,
+      "duration": 1.76,
+      "text": "important for agent have its own print",
+      "timestamp": "15:18"
+    },
+    {
+      "start": 919.76,
+      "duration": 2.0,
+      "text": "for you as a user to own this whole",
+      "timestamp": "15:19"
+    },
+    {
+      "start": 921.76,
+      "duration": 1.6,
+      "text": "system right outright rather than",
+      "timestamp": "15:21"
+    },
+    {
+      "start": 923.36,
+      "duration": 2.88,
+      "text": "renting it like why is it important that",
+      "timestamp": "15:23"
+    },
+    {
+      "start": 926.24,
+      "duration": 1.76,
+      "text": "the agent has the wallet well one thing",
+      "timestamp": "15:26"
+    },
+    {
+      "start": 928.0,
+      "duration": 1.76,
+      "text": "is obviously it can then do things on",
+      "timestamp": "15:28"
+    },
+    {
+      "start": 929.76,
+      "duration": 2.24,
+      "text": "your behalf in let's say defi but the",
+      "timestamp": "15:29"
+    },
+    {
+      "start": 932.0,
+      "duration": 1.92,
+      "text": "other key thing is that if you look at",
+      "timestamp": "15:32"
+    },
+    {
+      "start": 933.92,
+      "duration": 1.599,
+      "text": "the web as a whole I think we like kind",
+      "timestamp": "15:33"
+    },
+    {
+      "start": 935.519,
+      "duration": 2.721,
+      "text": "of went from like reading websites where",
+      "timestamp": "15:35"
+    },
+    {
+      "start": 938.24,
+      "duration": 2.48,
+      "text": "you need you just needed to go to that",
+      "timestamp": "15:38"
+    },
+    {
+      "start": 940.72,
+      "duration": 1.52,
+      "text": "website you needed to find it and then",
+      "timestamp": "15:40"
+    },
+    {
+      "start": 942.24,
+      "duration": 2.959,
+      "text": "read it There was no uh wall like there",
+      "timestamp": "15:42"
+    },
+    {
+      "start": 945.199,
+      "duration": 2.0,
+      "text": "was no sign on or anything like you just",
+      "timestamp": "15:45"
+    },
+    {
+      "start": 947.199,
+      "duration": 2.32,
+      "text": "went and had a look Then we had apps um",
+      "timestamp": "15:47"
+    },
+    {
+      "start": 949.519,
+      "duration": 2.24,
+      "text": "and we still have them OC where you",
+      "timestamp": "15:49"
+    },
+    {
+      "start": 951.759,
+      "duration": 2.0,
+      "text": "write and because you're writing to some",
+      "timestamp": "15:51"
+    },
+    {
+      "start": 953.759,
+      "duration": 1.52,
+      "text": "database you need some layer of",
+      "timestamp": "15:53"
+    },
+    {
+      "start": 955.279,
+      "duration": 2.081,
+      "text": "permissioning right and so in",
+      "timestamp": "15:55"
+    },
+    {
+      "start": 957.36,
+      "duration": 2.159,
+      "text": "traditional web two that's solved with",
+      "timestamp": "15:57"
+    },
+    {
+      "start": 959.519,
+      "duration": 2.641,
+      "text": "like with a with a login like you have",
+      "timestamp": "15:59"
+    },
+    {
+      "start": 962.16,
+      "duration": 2.0,
+      "text": "an account and you log in and then that",
+      "timestamp": "16:02"
+    },
+    {
+      "start": 964.16,
+      "duration": 1.599,
+      "text": "gives you rights to write to certain",
+      "timestamp": "16:04"
+    },
+    {
+      "start": 965.759,
+      "duration": 2.481,
+      "text": "parts of the application Now then along",
+      "timestamp": "16:05"
+    },
+    {
+      "start": 968.24,
+      "duration": 1.76,
+      "text": "came web free where you have this whole",
+      "timestamp": "16:08"
+    },
+    {
+      "start": 970.0,
+      "duration": 2.48,
+      "text": "idea of okay I can actually own some",
+      "timestamp": "16:10"
+    },
+    {
+      "start": 972.48,
+      "duration": 2.32,
+      "text": "digital assets and you know even my data",
+      "timestamp": "16:12"
+    },
+    {
+      "start": 974.8,
+      "duration": 2.24,
+      "text": "and my identity and so on on chain and",
+      "timestamp": "16:14"
+    },
+    {
+      "start": 977.04,
+      "duration": 2.08,
+      "text": "like anyone can do that writing again",
+      "timestamp": "16:17"
+    },
+    {
+      "start": 979.12,
+      "duration": 2.959,
+      "text": "becomes more permissionless but it's not",
+      "timestamp": "16:19"
+    },
+    {
+      "start": 982.079,
+      "duration": 2.161,
+      "text": "attached to a wallet and the exciting",
+      "timestamp": "16:22"
+    },
+    {
+      "start": 984.24,
+      "duration": 1.76,
+      "text": "thing I think we're now moving into the",
+      "timestamp": "16:24"
+    },
+    {
+      "start": 986.0,
+      "duration": 1.759,
+      "text": "web of agents maybe you know someone",
+      "timestamp": "16:26"
+    },
+    {
+      "start": 987.759,
+      "duration": 1.361,
+      "text": "will call it web four whatever it",
+      "timestamp": "16:27"
+    },
+    {
+      "start": 989.12,
+      "duration": 1.6,
+      "text": "doesn't really matter in the web of",
+      "timestamp": "16:29"
+    },
+    {
+      "start": 990.72,
+      "duration": 1.72,
+      "text": "agents I think there'll be an",
+      "timestamp": "16:30"
+    },
+    {
+      "start": 992.44,
+      "duration": 2.12,
+      "text": "interesting point now where we'll see",
+      "timestamp": "16:32"
+    },
+    {
+      "start": 994.56,
+      "duration": 2.8,
+      "text": "how it falls but I strongly believe that",
+      "timestamp": "16:34"
+    },
+    {
+      "start": 997.36,
+      "duration": 2.08,
+      "text": "agents are most powerful when they can",
+      "timestamp": "16:37"
+    },
+    {
+      "start": 999.44,
+      "duration": 1.759,
+      "text": "do things permissionlessly with just a",
+      "timestamp": "16:39"
+    },
+    {
+      "start": 1001.199,
+      "duration": 2.32,
+      "text": "wallet So this idea that an agent needs",
+      "timestamp": "16:41"
+    },
+    {
+      "start": 1003.519,
+      "duration": 2.0,
+      "text": "100 different API keys for all the 100",
+      "timestamp": "16:43"
+    },
+    {
+      "start": 1005.519,
+      "duration": 1.76,
+      "text": "different platform it needs to tap into",
+      "timestamp": "16:45"
+    },
+    {
+      "start": 1007.279,
+      "duration": 1.441,
+      "text": "is not going to fly in my opinion",
+      "timestamp": "16:47"
+    },
+    {
+      "start": 1008.72,
+      "duration": 2.88,
+      "text": "because you mostly have then this",
+      "timestamp": "16:48"
+    },
+    {
+      "start": 1011.6,
+      "duration": 1.599,
+      "text": "friction around the kind of signup",
+      "timestamp": "16:51"
+    },
+    {
+      "start": 1013.199,
+      "duration": 1.841,
+      "text": "process into these platforms right And",
+      "timestamp": "16:53"
+    },
+    {
+      "start": 1015.04,
+      "duration": 1.76,
+      "text": "often it's just not feasible to have",
+      "timestamp": "16:55"
+    },
+    {
+      "start": 1016.8,
+      "duration": 2.479,
+      "text": "this fully programmatically done Um you",
+      "timestamp": "16:56"
+    },
+    {
+      "start": 1019.279,
+      "duration": 1.281,
+      "text": "could think that there's maybe some",
+      "timestamp": "16:59"
+    },
+    {
+      "start": 1020.56,
+      "duration": 1.92,
+      "text": "centralized hops or so and I'm sure",
+      "timestamp": "17:00"
+    },
+    {
+      "start": 1022.48,
+      "duration": 1.599,
+      "text": "they'll happen like Amazon you know",
+      "timestamp": "17:02"
+    },
+    {
+      "start": 1024.079,
+      "duration": 1.599,
+      "text": "comes up with the agent hop or whatever",
+      "timestamp": "17:04"
+    },
+    {
+      "start": 1025.679,
+      "duration": 1.759,
+      "text": "which is a sort of centralized gateway",
+      "timestamp": "17:05"
+    },
+    {
+      "start": 1027.439,
+      "duration": 2.081,
+      "text": "but clearly there's already one such",
+      "timestamp": "17:07"
+    },
+    {
+      "start": 1029.52,
+      "duration": 2.319,
+      "text": "centralized hap that's totally open and",
+      "timestamp": "17:09"
+    },
+    {
+      "start": 1031.839,
+      "duration": 1.761,
+      "text": "this is like things like Ethereum and",
+      "timestamp": "17:11"
+    },
+    {
+      "start": 1033.6,
+      "duration": 2.078,
+      "text": "you know public blockchains where any",
+      "timestamp": "17:13"
+    },
+    {
+      "start": 1035.679,
+      "duration": 2.481,
+      "text": "agent can rendevu and find other agents",
+      "timestamp": "17:15"
+    },
+    {
+      "start": 1038.16,
+      "duration": 2.0,
+      "text": "tap into their services and simply pay",
+      "timestamp": "17:18"
+    },
+    {
+      "start": 1040.16,
+      "duration": 2.48,
+      "text": "them with a microp payment and we at",
+      "timestamp": "17:20"
+    },
+    {
+      "start": 1042.64,
+      "duration": 1.679,
+      "text": "have built like a marketplace that",
+      "timestamp": "17:22"
+    },
+    {
+      "start": 1044.319,
+      "duration": 2.161,
+      "text": "facilitates that and I see that as the",
+      "timestamp": "17:24"
+    },
+    {
+      "start": 1046.48,
+      "duration": 1.839,
+      "text": "as the sort of other side of the coin if",
+      "timestamp": "17:26"
+    },
+    {
+      "start": 1048.319,
+      "duration": 1.681,
+      "text": "you want to have user owned agent that",
+      "timestamp": "17:28"
+    },
+    {
+      "start": 1050.0,
+      "duration": 2.48,
+      "text": "the user owns and here the user can you",
+      "timestamp": "17:30"
+    },
+    {
+      "start": 1052.48,
+      "duration": 2.24,
+      "text": "know end user or business then the flip",
+      "timestamp": "17:32"
+    },
+    {
+      "start": 1054.72,
+      "duration": 2.0,
+      "text": "side of that is the agent the user owns",
+      "timestamp": "17:34"
+    },
+    {
+      "start": 1056.72,
+      "duration": 2.079,
+      "text": "wants to be maximally autonomous so if",
+      "timestamp": "17:36"
+    },
+    {
+      "start": 1058.799,
+      "duration": 1.76,
+      "text": "it can do everything and anything with",
+      "timestamp": "17:38"
+    },
+    {
+      "start": 1060.559,
+      "duration": 1.921,
+      "text": "the wallet that's great and that's what",
+      "timestamp": "17:40"
+    },
+    {
+      "start": 1062.48,
+      "duration": 1.6,
+      "text": "this kind of marketplace architecture",
+      "timestamp": "17:42"
+    },
+    {
+      "start": 1064.08,
+      "duration": 2.24,
+      "text": "enables right I think that gets to my",
+      "timestamp": "17:44"
+    },
+    {
+      "start": 1066.32,
+      "duration": 1.84,
+      "text": "question that I wanted to ask about the",
+      "timestamp": "17:46"
+    },
+    {
+      "start": 1068.16,
+      "duration": 2.48,
+      "text": "commodification of of foundation models",
+      "timestamp": "17:48"
+    },
+    {
+      "start": 1070.64,
+      "duration": 2.72,
+      "text": "sometimes when in the crypto and AI",
+      "timestamp": "17:50"
+    },
+    {
+      "start": 1073.36,
+      "duration": 2.319,
+      "text": "space you would hear people uh saying",
+      "timestamp": "17:53"
+    },
+    {
+      "start": 1075.679,
+      "duration": 2.721,
+      "text": "that the only way that it made sense was",
+      "timestamp": "17:55"
+    },
+    {
+      "start": 1078.4,
+      "duration": 2.96,
+      "text": "that if um that if all of the AI models",
+      "timestamp": "17:58"
+    },
+    {
+      "start": 1081.36,
+      "duration": 2.319,
+      "text": "were decentralized and that's a nice",
+      "timestamp": "18:01"
+    },
+    {
+      "start": 1083.679,
+      "duration": 2.24,
+      "text": "idea but I think that especially from",
+      "timestamp": "18:03"
+    },
+    {
+      "start": 1085.919,
+      "duration": 1.601,
+      "text": "you I've heard a flip of how to think",
+      "timestamp": "18:05"
+    },
+    {
+      "start": 1087.52,
+      "duration": 1.92,
+      "text": "about it you can have a ownable layer",
+      "timestamp": "18:07"
+    },
+    {
+      "start": 1089.44,
+      "duration": 1.68,
+      "text": "between that where then the models sort",
+      "timestamp": "18:09"
+    },
+    {
+      "start": 1091.12,
+      "duration": 2.4,
+      "text": "of become interchangeable and could you",
+      "timestamp": "18:11"
+    },
+    {
+      "start": 1093.52,
+      "duration": 1.519,
+      "text": "say a little bit more about that and how",
+      "timestamp": "18:13"
+    },
+    {
+      "start": 1095.039,
+      "duration": 2.161,
+      "text": "you think this new batch of models like",
+      "timestamp": "18:15"
+    },
+    {
+      "start": 1097.2,
+      "duration": 1.76,
+      "text": "DeepSeek for example where there are",
+      "timestamp": "18:17"
+    },
+    {
+      "start": 1098.96,
+      "duration": 1.92,
+      "text": "finally like real and accessible",
+      "timestamp": "18:18"
+    },
+    {
+      "start": 1100.88,
+      "duration": 2.08,
+      "text": "competitors to some of the Silicon",
+      "timestamp": "18:20"
+    },
+    {
+      "start": 1102.96,
+      "duration": 1.599,
+      "text": "Valley giants like how do you think",
+      "timestamp": "18:22"
+    },
+    {
+      "start": 1104.559,
+      "duration": 1.521,
+      "text": "that's going to change the kinds of",
+      "timestamp": "18:24"
+    },
+    {
+      "start": 1106.08,
+      "duration": 2.16,
+      "text": "agents that we see and how might the",
+      "timestamp": "18:26"
+    },
+    {
+      "start": 1108.24,
+      "duration": 2.16,
+      "text": "mech marketplace and like make that more",
+      "timestamp": "18:28"
+    },
+    {
+      "start": 1110.4,
+      "duration": 2.399,
+      "text": "efficient Yeah I mean I I firstly think",
+      "timestamp": "18:30"
+    },
+    {
+      "start": 1112.799,
+      "duration": 2.88,
+      "text": "that unless we really have like one of",
+      "timestamp": "18:32"
+    },
+    {
+      "start": 1115.679,
+      "duration": 1.761,
+      "text": "those occasionally talked about like",
+      "timestamp": "18:35"
+    },
+    {
+      "start": 1117.44,
+      "duration": 2.32,
+      "text": "really fast takeoffs where you have like",
+      "timestamp": "18:37"
+    },
+    {
+      "start": 1119.76,
+      "duration": 2.56,
+      "text": "some sort of soup AI emerge that changes",
+      "timestamp": "18:39"
+    },
+    {
+      "start": 1122.32,
+      "duration": 1.52,
+      "text": "everything because it's it's so",
+      "timestamp": "18:42"
+    },
+    {
+      "start": 1123.84,
+      "duration": 1.68,
+      "text": "centralizing and it's force and it's",
+      "timestamp": "18:43"
+    },
+    {
+      "start": 1125.52,
+      "duration": 2.32,
+      "text": "it's its ability to self-improve or",
+      "timestamp": "18:45"
+    },
+    {
+      "start": 1127.84,
+      "duration": 1.92,
+      "text": "whatever then I think what we'll see is",
+      "timestamp": "18:47"
+    },
+    {
+      "start": 1129.76,
+      "duration": 2.0,
+      "text": "that there's relatively high degrees of",
+      "timestamp": "18:49"
+    },
+    {
+      "start": 1131.76,
+      "duration": 1.76,
+      "text": "competition I mean at the moment",
+      "timestamp": "18:51"
+    },
+    {
+      "start": 1133.52,
+      "duration": 1.44,
+      "text": "certainly that's the case like there's a",
+      "timestamp": "18:53"
+    },
+    {
+      "start": 1134.96,
+      "duration": 2.0,
+      "text": "lot of commoditization with the models",
+      "timestamp": "18:54"
+    },
+    {
+      "start": 1136.96,
+      "duration": 2.56,
+      "text": "and we have access now to quite a few",
+      "timestamp": "18:56"
+    },
+    {
+      "start": 1139.52,
+      "duration": 3.36,
+      "text": "open source models and both on the um",
+      "timestamp": "18:59"
+    },
+    {
+      "start": 1142.88,
+      "duration": 1.76,
+      "text": "reasoning side and the previous large",
+      "timestamp": "19:02"
+    },
+    {
+      "start": 1144.64,
+      "duration": 1.44,
+      "text": "language like simpler large language",
+      "timestamp": "19:04"
+    },
+    {
+      "start": 1146.08,
+      "duration": 2.32,
+      "text": "models where it's interesting because if",
+      "timestamp": "19:06"
+    },
+    {
+      "start": 1148.4,
+      "duration": 1.68,
+      "text": "you look at it from a purely economics",
+      "timestamp": "19:08"
+    },
+    {
+      "start": 1150.08,
+      "duration": 2.16,
+      "text": "perspective and like that's my original",
+      "timestamp": "19:10"
+    },
+    {
+      "start": 1152.24,
+      "duration": 2.48,
+      "text": "background like it's also a funny kind",
+      "timestamp": "19:12"
+    },
+    {
+      "start": 1154.72,
+      "duration": 1.92,
+      "text": "of element to the just recent tariff",
+      "timestamp": "19:14"
+    },
+    {
+      "start": 1156.64,
+      "duration": 2.0,
+      "text": "announcements but basically comparative",
+      "timestamp": "19:16"
+    },
+    {
+      "start": 1158.64,
+      "duration": 2.399,
+      "text": "advantage is a thing right so like and",
+      "timestamp": "19:18"
+    },
+    {
+      "start": 1161.039,
+      "duration": 1.921,
+      "text": "some people don't get that clearly But",
+      "timestamp": "19:21"
+    },
+    {
+      "start": 1162.96,
+      "duration": 2.16,
+      "text": "basically what this means is like you",
+      "timestamp": "19:22"
+    },
+    {
+      "start": 1165.12,
+      "duration": 2.32,
+      "text": "can you know two two parties can benefit",
+      "timestamp": "19:25"
+    },
+    {
+      "start": 1167.44,
+      "duration": 1.76,
+      "text": "from trade and two parties can",
+      "timestamp": "19:27"
+    },
+    {
+      "start": 1169.2,
+      "duration": 1.839,
+      "text": "specialize in different things and",
+      "timestamp": "19:29"
+    },
+    {
+      "start": 1171.039,
+      "duration": 2.081,
+      "text": "benefit from specializing in different",
+      "timestamp": "19:31"
+    },
+    {
+      "start": 1173.12,
+      "duration": 1.919,
+      "text": "jobs and then selling each other",
+      "timestamp": "19:33"
+    },
+    {
+      "start": 1175.039,
+      "duration": 1.841,
+      "text": "services or goods right and that's what",
+      "timestamp": "19:35"
+    },
+    {
+      "start": 1176.88,
+      "duration": 1.44,
+      "text": "we're observing in the real economy",
+      "timestamp": "19:36"
+    },
+    {
+      "start": 1178.32,
+      "duration": 2.32,
+      "text": "that's what created all the prosperity",
+      "timestamp": "19:38"
+    },
+    {
+      "start": 1180.64,
+      "duration": 2.159,
+      "text": "and it's there's nothing fundamentally",
+      "timestamp": "19:40"
+    },
+    {
+      "start": 1182.799,
+      "duration": 2.081,
+      "text": "here about humans right it's just about",
+      "timestamp": "19:42"
+    },
+    {
+      "start": 1184.88,
+      "duration": 2.48,
+      "text": "like how the incentives and the economic",
+      "timestamp": "19:44"
+    },
+    {
+      "start": 1187.36,
+      "duration": 2.0,
+      "text": "system works and so I would suspect that",
+      "timestamp": "19:47"
+    },
+    {
+      "start": 1189.36,
+      "duration": 1.92,
+      "text": "with agentic systems you have the same",
+      "timestamp": "19:49"
+    },
+    {
+      "start": 1191.28,
+      "duration": 2.08,
+      "text": "Like we already see this in Olas like it",
+      "timestamp": "19:51"
+    },
+    {
+      "start": 1193.36,
+      "duration": 2.08,
+      "text": "helps us build specialized agents that",
+      "timestamp": "19:53"
+    },
+    {
+      "start": 1195.44,
+      "duration": 2.0,
+      "text": "tap into each other for services rather",
+      "timestamp": "19:55"
+    },
+    {
+      "start": 1197.44,
+      "duration": 2.0,
+      "text": "than building one monolithic agent And",
+      "timestamp": "19:57"
+    },
+    {
+      "start": 1199.44,
+      "duration": 2.16,
+      "text": "so I think what we'll see is that that's",
+      "timestamp": "19:59"
+    },
+    {
+      "start": 1201.6,
+      "duration": 2.88,
+      "text": "going to happen much much more where yes",
+      "timestamp": "20:01"
+    },
+    {
+      "start": 1204.48,
+      "duration": 2.319,
+      "text": "you have like your occasionally quite",
+      "timestamp": "20:04"
+    },
+    {
+      "start": 1206.799,
+      "duration": 1.921,
+      "text": "powerful monolithic system like a coding",
+      "timestamp": "20:06"
+    },
+    {
+      "start": 1208.72,
+      "duration": 2.319,
+      "text": "agent but ultimately that will stay a",
+      "timestamp": "20:08"
+    },
+    {
+      "start": 1211.039,
+      "duration": 2.0,
+      "text": "coding agent It will not also you know",
+      "timestamp": "20:11"
+    },
+    {
+      "start": 1213.039,
+      "duration": 2.64,
+      "text": "act as your holiday planner or some",
+      "timestamp": "20:13"
+    },
+    {
+      "start": 1215.679,
+      "duration": 2.081,
+      "text": "agent that then deploys things into",
+      "timestamp": "20:15"
+    },
+    {
+      "start": 1217.76,
+      "duration": 1.279,
+      "text": "production that's probably going to be",
+      "timestamp": "20:17"
+    },
+    {
+      "start": 1219.039,
+      "duration": 2.0,
+      "text": "like a separate agent that then monitors",
+      "timestamp": "20:19"
+    },
+    {
+      "start": 1221.039,
+      "duration": 2.081,
+      "text": "these things deploys them and so on And",
+      "timestamp": "20:21"
+    },
+    {
+      "start": 1223.12,
+      "duration": 2.24,
+      "text": "so naturally by necessity as a result",
+      "timestamp": "20:23"
+    },
+    {
+      "start": 1225.36,
+      "duration": 1.76,
+      "text": "you have this requirement for these",
+      "timestamp": "20:25"
+    },
+    {
+      "start": 1227.12,
+      "duration": 1.84,
+      "text": "agents to interact And once you think",
+      "timestamp": "20:27"
+    },
+    {
+      "start": 1228.96,
+      "duration": 2.32,
+      "text": "about that in a crossorganizational",
+      "timestamp": "20:28"
+    },
+    {
+      "start": 1231.28,
+      "duration": 1.92,
+      "text": "fashion then you're back to what we just",
+      "timestamp": "20:31"
+    },
+    {
+      "start": 1233.2,
+      "duration": 1.839,
+      "text": "discussed earlier like there's going to",
+      "timestamp": "20:33"
+    },
+    {
+      "start": 1235.039,
+      "duration": 1.681,
+      "text": "be trade and there's already trade",
+      "timestamp": "20:35"
+    },
+    {
+      "start": 1236.72,
+      "duration": 2.319,
+      "text": "between agents um and and there need to",
+      "timestamp": "20:36"
+    },
+    {
+      "start": 1239.039,
+      "duration": 1.681,
+      "text": "be like interfaces where these agents",
+      "timestamp": "20:39"
+    },
+    {
+      "start": 1240.72,
+      "duration": 2.24,
+      "text": "find each other and so on Yeah Cool One",
+      "timestamp": "20:40"
+    },
+    {
+      "start": 1242.96,
+      "duration": 2.0,
+      "text": "last related question that I think",
+      "timestamp": "20:42"
+    },
+    {
+      "start": 1244.96,
+      "duration": 2.64,
+      "text": "touches on many of these ideas but in a",
+      "timestamp": "20:44"
+    },
+    {
+      "start": 1247.6,
+      "duration": 1.76,
+      "text": "slightly different way I saw a clip",
+      "timestamp": "20:47"
+    },
+    {
+      "start": 1249.36,
+      "duration": 1.92,
+      "text": "recently where signals president was",
+      "timestamp": "20:49"
+    },
+    {
+      "start": 1251.28,
+      "duration": 2.0,
+      "text": "talking about this idea that AI agents",
+      "timestamp": "20:51"
+    },
+    {
+      "start": 1253.28,
+      "duration": 1.6,
+      "text": "are threatening to break the bloodb",
+      "timestamp": "20:53"
+    },
+    {
+      "start": 1254.88,
+      "duration": 1.76,
+      "text": "brain barrier between the application",
+      "timestamp": "20:54"
+    },
+    {
+      "start": 1256.64,
+      "duration": 2.0,
+      "text": "layer and the operating system layer And",
+      "timestamp": "20:56"
+    },
+    {
+      "start": 1258.64,
+      "duration": 1.919,
+      "text": "the examples that she was giving were",
+      "timestamp": "20:58"
+    },
+    {
+      "start": 1260.559,
+      "duration": 2.561,
+      "text": "things like to achieve a certain outcome",
+      "timestamp": "21:00"
+    },
+    {
+      "start": 1263.12,
+      "duration": 2.32,
+      "text": "your agent your personal assistant agent",
+      "timestamp": "21:03"
+    },
+    {
+      "start": 1265.44,
+      "duration": 2.479,
+      "text": "would need sufficient access to things",
+      "timestamp": "21:05"
+    },
+    {
+      "start": 1267.919,
+      "duration": 2.081,
+      "text": "like your personal information for for",
+      "timestamp": "21:07"
+    },
+    {
+      "start": 1270.0,
+      "duration": 2.48,
+      "text": "example for booking travel like you need",
+      "timestamp": "21:10"
+    },
+    {
+      "start": 1272.48,
+      "duration": 1.679,
+      "text": "pretty much all of your personally",
+      "timestamp": "21:12"
+    },
+    {
+      "start": 1274.159,
+      "duration": 2.4,
+      "text": "identifiable data and your payments also",
+      "timestamp": "21:14"
+    },
+    {
+      "start": 1276.559,
+      "duration": 2.401,
+      "text": "And when I watched this I thought like",
+      "timestamp": "21:16"
+    },
+    {
+      "start": 1278.96,
+      "duration": 2.32,
+      "text": "unironically like blockchain solves",
+      "timestamp": "21:18"
+    },
+    {
+      "start": 1281.28,
+      "duration": 2.32,
+      "text": "solves this And I'm curious like uh if",
+      "timestamp": "21:21"
+    },
+    {
+      "start": 1283.6,
+      "duration": 1.68,
+      "text": "you've seen this and and and what you",
+      "timestamp": "21:23"
+    },
+    {
+      "start": 1285.28,
+      "duration": 2.08,
+      "text": "thought about it I mean yes I've seen it",
+      "timestamp": "21:25"
+    },
+    {
+      "start": 1287.36,
+      "duration": 2.48,
+      "text": "And I agree I mean if that's exactly why",
+      "timestamp": "21:27"
+    },
+    {
+      "start": 1289.84,
+      "duration": 2.4,
+      "text": "we care about user owned agents you know",
+      "timestamp": "21:29"
+    },
+    {
+      "start": 1292.24,
+      "duration": 2.16,
+      "text": "like again like there's a tech I love",
+      "timestamp": "21:32"
+    },
+    {
+      "start": 1294.4,
+      "duration": 2.639,
+      "text": "tech but there's this always this over",
+      "timestamp": "21:34"
+    },
+    {
+      "start": 1297.039,
+      "duration": 2.401,
+      "text": "focus on like the now and this extreme",
+      "timestamp": "21:37"
+    },
+    {
+      "start": 1299.44,
+      "duration": 1.92,
+      "text": "focus on the future as well And the",
+      "timestamp": "21:39"
+    },
+    {
+      "start": 1301.36,
+      "duration": 2.08,
+      "text": "history gets immediately forgotten Like",
+      "timestamp": "21:41"
+    },
+    {
+      "start": 1303.44,
+      "duration": 2.08,
+      "text": "it's not the case that you know the",
+      "timestamp": "21:43"
+    },
+    {
+      "start": 1305.52,
+      "duration": 2.08,
+      "text": "internet started as this sort of cloud",
+      "timestamp": "21:45"
+    },
+    {
+      "start": 1307.6,
+      "duration": 1.84,
+      "text": "infra where everyone hosts off a bunch",
+      "timestamp": "21:47"
+    },
+    {
+      "start": 1309.44,
+      "duration": 1.92,
+      "text": "of like companies It was the exact",
+      "timestamp": "21:49"
+    },
+    {
+      "start": 1311.36,
+      "duration": 1.92,
+      "text": "opposite It was extremely decentralized",
+      "timestamp": "21:51"
+    },
+    {
+      "start": 1313.28,
+      "duration": 1.36,
+      "text": "And I think there's a good chance we'll",
+      "timestamp": "21:53"
+    },
+    {
+      "start": 1314.64,
+      "duration": 1.76,
+      "text": "go back to that for exactly these kind",
+      "timestamp": "21:54"
+    },
+    {
+      "start": 1316.4,
+      "duration": 2.96,
+      "text": "of reasons Like if you think about like",
+      "timestamp": "21:56"
+    },
+    {
+      "start": 1319.36,
+      "duration": 2.16,
+      "text": "the most powerful agents well be they",
+      "timestamp": "21:59"
+    },
+    {
+      "start": 1321.52,
+      "duration": 2.399,
+      "text": "software agents that live on some device",
+      "timestamp": "22:01"
+    },
+    {
+      "start": 1323.919,
+      "duration": 2.081,
+      "text": "um like a mobile phone or desktop or",
+      "timestamp": "22:03"
+    },
+    {
+      "start": 1326.0,
+      "duration": 2.24,
+      "text": "whatever or be it like you know who eats",
+      "timestamp": "22:06"
+    },
+    {
+      "start": 1328.24,
+      "duration": 2.0,
+      "text": "even like who then have like a physical",
+      "timestamp": "22:08"
+    },
+    {
+      "start": 1330.24,
+      "duration": 2.0,
+      "text": "appearance and live next to you It's not",
+      "timestamp": "22:10"
+    },
+    {
+      "start": 1332.24,
+      "duration": 1.84,
+      "text": "like for a whole bunch of reasons it's",
+      "timestamp": "22:12"
+    },
+    {
+      "start": 1334.08,
+      "duration": 2.32,
+      "text": "not very appealing and I think for the",
+      "timestamp": "22:14"
+    },
+    {
+      "start": 1336.4,
+      "duration": 2.0,
+      "text": "majority of people not appealing to have",
+      "timestamp": "22:16"
+    },
+    {
+      "start": 1338.4,
+      "duration": 2.88,
+      "text": "these things sort of rented and like",
+      "timestamp": "22:18"
+    },
+    {
+      "start": 1341.28,
+      "duration": 2.48,
+      "text": "offered from like a centralized provider",
+      "timestamp": "22:21"
+    },
+    {
+      "start": 1343.76,
+      "duration": 2.24,
+      "text": "where all the data flows back to So",
+      "timestamp": "22:23"
+    },
+    {
+      "start": 1346.0,
+      "duration": 2.0,
+      "text": "let's just go for a number of examples",
+      "timestamp": "22:26"
+    },
+    {
+      "start": 1348.0,
+      "duration": 1.84,
+      "text": "So let's say you have this household",
+      "timestamp": "22:28"
+    },
+    {
+      "start": 1349.84,
+      "duration": 2.4,
+      "text": "robot who you know does like your chores",
+      "timestamp": "22:29"
+    },
+    {
+      "start": 1352.24,
+      "duration": 2.0,
+      "text": "and so on What equivalents do we have",
+      "timestamp": "22:32"
+    },
+    {
+      "start": 1354.24,
+      "duration": 1.919,
+      "text": "today in our lives Well we have cars we",
+      "timestamp": "22:34"
+    },
+    {
+      "start": 1356.159,
+      "duration": 1.281,
+      "text": "have washing machines these kind of",
+      "timestamp": "22:36"
+    },
+    {
+      "start": 1357.44,
+      "duration": 2.64,
+      "text": "things They are increasingly having a",
+      "timestamp": "22:37"
+    },
+    {
+      "start": 1360.08,
+      "duration": 2.079,
+      "text": "lot of let's say digital technology",
+      "timestamp": "22:40"
+    },
+    {
+      "start": 1362.159,
+      "duration": 1.921,
+      "text": "inside of them right When historically",
+      "timestamp": "22:42"
+    },
+    {
+      "start": 1364.08,
+      "duration": 1.92,
+      "text": "there were like simple machines with",
+      "timestamp": "22:44"
+    },
+    {
+      "start": 1366.0,
+      "duration": 2.08,
+      "text": "like maybe a little controller somewhere",
+      "timestamp": "22:46"
+    },
+    {
+      "start": 1368.08,
+      "duration": 1.76,
+      "text": "and that's it Now they're connected to",
+      "timestamp": "22:48"
+    },
+    {
+      "start": 1369.84,
+      "duration": 2.4,
+      "text": "the internet often and and the problem",
+      "timestamp": "22:49"
+    },
+    {
+      "start": 1372.24,
+      "duration": 1.6,
+      "text": "with this is you're increasingly giving",
+      "timestamp": "22:52"
+    },
+    {
+      "start": 1373.84,
+      "duration": 2.56,
+      "text": "up a lot about your privacy and like you",
+      "timestamp": "22:53"
+    },
+    {
+      "start": 1376.4,
+      "duration": 2.0,
+      "text": "know the data at home but also these",
+      "timestamp": "22:56"
+    },
+    {
+      "start": 1378.4,
+      "duration": 2.0,
+      "text": "things become inscrutinable like if I",
+      "timestamp": "22:58"
+    },
+    {
+      "start": 1380.4,
+      "duration": 2.32,
+      "text": "have a car from 15 years ago or 10 years",
+      "timestamp": "23:00"
+    },
+    {
+      "start": 1382.72,
+      "duration": 1.92,
+      "text": "ago you know I can take it apart and I",
+      "timestamp": "23:02"
+    },
+    {
+      "start": 1384.64,
+      "duration": 1.12,
+      "text": "pretty much know what this thing is",
+      "timestamp": "23:04"
+    },
+    {
+      "start": 1385.76,
+      "duration": 1.68,
+      "text": "doing I mean it was so like maybe the",
+      "timestamp": "23:05"
+    },
+    {
+      "start": 1387.44,
+      "duration": 2.4,
+      "text": "radio and and so on were like digital",
+      "timestamp": "23:07"
+    },
+    {
+      "start": 1389.84,
+      "duration": 1.52,
+      "text": "and and the rest like maybe there was",
+      "timestamp": "23:09"
+    },
+    {
+      "start": 1391.36,
+      "duration": 1.92,
+      "text": "some control stuff inside it certainly",
+      "timestamp": "23:11"
+    },
+    {
+      "start": 1393.28,
+      "duration": 1.759,
+      "text": "wasn't connected to the internet Now if",
+      "timestamp": "23:13"
+    },
+    {
+      "start": 1395.039,
+      "duration": 1.841,
+      "text": "you take a Tesla like you can take it",
+      "timestamp": "23:15"
+    },
+    {
+      "start": 1396.88,
+      "duration": 1.52,
+      "text": "apart but you don't know how this thing",
+      "timestamp": "23:16"
+    },
+    {
+      "start": 1398.4,
+      "duration": 1.44,
+      "text": "is going to act on the street right",
+      "timestamp": "23:18"
+    },
+    {
+      "start": 1399.84,
+      "duration": 1.68,
+      "text": "because it's connected to like a central",
+      "timestamp": "23:19"
+    },
+    {
+      "start": 1401.52,
+      "duration": 2.399,
+      "text": "server farm and that's that has a lot of",
+      "timestamp": "23:21"
+    },
+    {
+      "start": 1403.919,
+      "duration": 2.081,
+      "text": "challenges and I think like we are only",
+      "timestamp": "23:23"
+    },
+    {
+      "start": 1406.0,
+      "duration": 2.159,
+      "text": "starting to become aware of them and we",
+      "timestamp": "23:26"
+    },
+    {
+      "start": 1408.159,
+      "duration": 2.161,
+      "text": "there there is for various reasons I'm",
+      "timestamp": "23:28"
+    },
+    {
+      "start": 1410.32,
+      "duration": 2.32,
+      "text": "sure going to be a massive like backlash",
+      "timestamp": "23:30"
+    },
+    {
+      "start": 1412.64,
+      "duration": 1.44,
+      "text": "against this I don't think it will go",
+      "timestamp": "23:32"
+    },
+    {
+      "start": 1414.08,
+      "duration": 2.16,
+      "text": "away but we'll we'll have to solve some",
+      "timestamp": "23:34"
+    },
+    {
+      "start": 1416.24,
+      "duration": 2.0,
+      "text": "of those problems like geopolitically I",
+      "timestamp": "23:36"
+    },
+    {
+      "start": 1418.24,
+      "duration": 2.08,
+      "text": "mean if we continue on the current trend",
+      "timestamp": "23:38"
+    },
+    {
+      "start": 1420.32,
+      "duration": 1.359,
+      "text": "right It's just not going to be",
+      "timestamp": "23:40"
+    },
+    {
+      "start": 1421.679,
+      "duration": 2.401,
+      "text": "acceptable to have like a car from a",
+      "timestamp": "23:41"
+    },
+    {
+      "start": 1424.08,
+      "duration": 2.0,
+      "text": "certain area drive in another area",
+      "timestamp": "23:44"
+    },
+    {
+      "start": 1426.08,
+      "duration": 2.079,
+      "text": "people won't accept it Full stop for",
+      "timestamp": "23:46"
+    },
+    {
+      "start": 1428.159,
+      "duration": 2.4,
+      "text": "geopolitical reasons But then also for",
+      "timestamp": "23:48"
+    },
+    {
+      "start": 1430.559,
+      "duration": 2.161,
+      "text": "privacy reasons people won't trust these",
+      "timestamp": "23:50"
+    },
+    {
+      "start": 1432.72,
+      "duration": 1.6,
+      "text": "things beyond a certain point Like I",
+      "timestamp": "23:52"
+    },
+    {
+      "start": 1434.32,
+      "duration": 1.68,
+      "text": "wouldn't trust a robot in my family's",
+      "timestamp": "23:54"
+    },
+    {
+      "start": 1436.0,
+      "duration": 2.48,
+      "text": "home because if I if I can't dissect it",
+      "timestamp": "23:56"
+    },
+    {
+      "start": 1438.48,
+      "duration": 1.439,
+      "text": "if I don't know that there's like a",
+      "timestamp": "23:58"
+    },
+    {
+      "start": 1439.919,
+      "duration": 2.161,
+      "text": "whole open source community who has like",
+      "timestamp": "23:59"
+    },
+    {
+      "start": 1442.08,
+      "duration": 2.479,
+      "text": "looked at it from all angles like who's",
+      "timestamp": "24:02"
+    },
+    {
+      "start": 1444.559,
+      "duration": 1.36,
+      "text": "going to promise me that it's not going",
+      "timestamp": "24:04"
+    },
+    {
+      "start": 1445.919,
+      "duration": 1.841,
+      "text": "to turn around and act against me or my",
+      "timestamp": "24:05"
+    },
+    {
+      "start": 1447.76,
+      "duration": 2.159,
+      "text": "family right And so I mean those are the",
+      "timestamp": "24:07"
+    },
+    {
+      "start": 1449.919,
+      "duration": 2.401,
+      "text": "sort of crresser examples but then it's",
+      "timestamp": "24:09"
+    },
+    {
+      "start": 1452.32,
+      "duration": 2.16,
+      "text": "as simple as like as you say with",
+      "timestamp": "24:12"
+    },
+    {
+      "start": 1454.48,
+      "duration": 2.4,
+      "text": "traveling travel booking for the you",
+      "timestamp": "24:14"
+    },
+    {
+      "start": 1456.88,
+      "duration": 2.399,
+      "text": "know holidays and we've we're still in",
+      "timestamp": "24:16"
+    },
+    {
+      "start": 1459.279,
+      "duration": 2.321,
+      "text": "this trajectory where you know we just",
+      "timestamp": "24:19"
+    },
+    {
+      "start": 1461.6,
+      "duration": 1.52,
+      "text": "share all this data into these",
+      "timestamp": "24:21"
+    },
+    {
+      "start": 1463.12,
+      "duration": 1.52,
+      "text": "application and started with Facebook",
+      "timestamp": "24:23"
+    },
+    {
+      "start": 1464.64,
+      "duration": 1.76,
+      "text": "and then all the others and there has",
+      "timestamp": "24:24"
+    },
+    {
+      "start": 1466.4,
+      "duration": 1.68,
+      "text": "been these occasional backlashes against",
+      "timestamp": "24:26"
+    },
+    {
+      "start": 1468.08,
+      "duration": 2.24,
+      "text": "this but I think as we're now maturing",
+      "timestamp": "24:28"
+    },
+    {
+      "start": 1470.32,
+      "duration": 1.92,
+      "text": "with the technologies we have available",
+      "timestamp": "24:30"
+    },
+    {
+      "start": 1472.24,
+      "duration": 1.84,
+      "text": "we don't have to do all the sharing like",
+      "timestamp": "24:32"
+    },
+    {
+      "start": 1474.08,
+      "duration": 2.079,
+      "text": "we can prove our identity in a",
+      "timestamp": "24:34"
+    },
+    {
+      "start": 1476.159,
+      "duration": 1.76,
+      "text": "cryptographically secure way where we",
+      "timestamp": "24:36"
+    },
+    {
+      "start": 1477.919,
+      "duration": 1.921,
+      "text": "don't have to share that document We can",
+      "timestamp": "24:37"
+    },
+    {
+      "start": 1479.84,
+      "duration": 2.4,
+      "text": "just share like um certain certificates",
+      "timestamp": "24:39"
+    },
+    {
+      "start": 1482.24,
+      "duration": 2.16,
+      "text": "and like signatures which prove that we",
+      "timestamp": "24:42"
+    },
+    {
+      "start": 1484.4,
+      "duration": 2.48,
+      "text": "hold this um document and that is still",
+      "timestamp": "24:44"
+    },
+    {
+      "start": 1486.88,
+      "duration": 1.919,
+      "text": "valid and so on right And so these kind",
+      "timestamp": "24:46"
+    },
+    {
+      "start": 1488.799,
+      "duration": 1.36,
+      "text": "of services I think will become",
+      "timestamp": "24:48"
+    },
+    {
+      "start": 1490.159,
+      "duration": 1.601,
+      "text": "increasingly important as we have the",
+      "timestamp": "24:50"
+    },
+    {
+      "start": 1491.76,
+      "duration": 1.919,
+      "text": "agents as well So yes I agree with the",
+      "timestamp": "24:51"
+    },
+    {
+      "start": 1493.679,
+      "duration": 2.0,
+      "text": "statement but I also think we'll we'll",
+      "timestamp": "24:53"
+    },
+    {
+      "start": 1495.679,
+      "duration": 2.721,
+      "text": "see a lot of um push back and there will",
+      "timestamp": "24:55"
+    },
+    {
+      "start": 1498.4,
+      "duration": 1.68,
+      "text": "be some areas where it just doesn't",
+      "timestamp": "24:58"
+    },
+    {
+      "start": 1500.08,
+      "duration": 2.24,
+      "text": "matter maybe as much Maybe coding agents",
+      "timestamp": "25:00"
+    },
+    {
+      "start": 1502.32,
+      "duration": 1.68,
+      "text": "although depending how how worried you",
+      "timestamp": "25:02"
+    },
+    {
+      "start": 1504.0,
+      "duration": 1.84,
+      "text": "are about your IP it does matter a lot",
+      "timestamp": "25:04"
+    },
+    {
+      "start": 1505.84,
+      "duration": 1.839,
+      "text": "And then other areas like these privacy",
+      "timestamp": "25:05"
+    },
+    {
+      "start": 1507.679,
+      "duration": 1.681,
+      "text": "areas where I think it'll matter it'll",
+      "timestamp": "25:07"
+    },
+    {
+      "start": 1509.36,
+      "duration": 1.76,
+      "text": "matter a lot to a lot of people And I I",
+      "timestamp": "25:09"
+    },
+    {
+      "start": 1511.12,
+      "duration": 1.799,
+      "text": "guess we'll also see a lot of",
+      "timestamp": "25:11"
+    },
+    {
+      "start": 1512.919,
+      "duration": 3.24,
+      "text": "hetrogenity like diversity in regions um",
+      "timestamp": "25:12"
+    },
+    {
+      "start": 1516.159,
+      "duration": 1.841,
+      "text": "in the way in which they accept like you",
+      "timestamp": "25:16"
+    },
+    {
+      "start": 1518.0,
+      "duration": 1.279,
+      "text": "know across the world in which they",
+      "timestamp": "25:18"
+    },
+    {
+      "start": 1519.279,
+      "duration": 2.241,
+      "text": "accept like this privacy requirements",
+      "timestamp": "25:19"
+    },
+    {
+      "start": 1521.52,
+      "duration": 1.36,
+      "text": "and know whether they make them a thing",
+      "timestamp": "25:21"
+    },
+    {
+      "start": 1522.88,
+      "duration": 3.2,
+      "text": "or not Yeah for sure Cool Okay So we'll",
+      "timestamp": "25:22"
+    },
+    {
+      "start": 1526.08,
+      "duration": 2.56,
+      "text": "wrap up here Before we go though I want",
+      "timestamp": "25:26"
+    },
+    {
+      "start": 1528.64,
+      "duration": 1.76,
+      "text": "to give you the opportunity to put out a",
+      "timestamp": "25:28"
+    },
+    {
+      "start": 1530.4,
+      "duration": 2.72,
+      "text": "call to action Yeah our um biggest call",
+      "timestamp": "25:30"
+    },
+    {
+      "start": 1533.12,
+      "duration": 1.039,
+      "text": "to action right now is for the",
+      "timestamp": "25:33"
+    },
+    {
+      "start": 1534.159,
+      "duration": 1.921,
+      "text": "accelerator which we covered earlier So",
+      "timestamp": "25:34"
+    },
+    {
+      "start": 1536.08,
+      "duration": 1.68,
+      "text": "I would encourage people who are",
+      "timestamp": "25:36"
+    },
+    {
+      "start": 1537.76,
+      "duration": 2.0,
+      "text": "building serious agents to apply Um",
+      "timestamp": "25:37"
+    },
+    {
+      "start": 1539.76,
+      "duration": 2.159,
+      "text": "we're very interested at the moment sort",
+      "timestamp": "25:39"
+    },
+    {
+      "start": 1541.919,
+      "duration": 2.401,
+      "text": "of crypto neo use cases where the agents",
+      "timestamp": "25:41"
+    },
+    {
+      "start": 1544.32,
+      "duration": 1.44,
+      "text": "actually use the wallets for some part",
+      "timestamp": "25:44"
+    },
+    {
+      "start": 1545.76,
+      "duration": 1.919,
+      "text": "of what they do but increasingly we also",
+      "timestamp": "25:45"
+    },
+    {
+      "start": 1547.679,
+      "duration": 2.48,
+      "text": "look at like more web two native agents",
+      "timestamp": "25:47"
+    },
+    {
+      "start": 1550.159,
+      "duration": 2.161,
+      "text": "So yeah please do it blank Yeah for sure",
+      "timestamp": "25:50"
+    },
+    {
+      "start": 1552.32,
+      "duration": 1.76,
+      "text": "Okay cool Well David thank you for your",
+      "timestamp": "25:52"
+    },
+    {
+      "start": 1554.08,
+      "duration": 1.68,
+      "text": "time I think this is going to be very",
+      "timestamp": "25:54"
+    },
+    {
+      "start": 1555.76,
+      "duration": 1.519,
+      "text": "educational for people and I hope that",
+      "timestamp": "25:55"
+    },
+    {
+      "start": 1557.279,
+      "duration": 2.241,
+      "text": "they'll find it as exciting as it is for",
+      "timestamp": "25:57"
+    },
+    {
+      "start": 1559.52,
+      "duration": 1.6,
+      "text": "me to hear these ideas from you This",
+      "timestamp": "25:59"
+    },
+    {
+      "start": 1561.12,
+      "duration": 1.6,
+      "text": "show will be coming out on a regular",
+      "timestamp": "26:01"
+    },
+    {
+      "start": 1562.72,
+      "duration": 1.68,
+      "text": "basis so maybe we'll have you on in the",
+      "timestamp": "26:02"
+    },
+    {
+      "start": 1564.4,
+      "duration": 1.68,
+      "text": "future But yeah otherwise thank you for",
+      "timestamp": "26:04"
+    },
+    {
+      "start": 1566.08,
+      "duration": 1.839,
+      "text": "your time and I'll see you around Thanks",
+      "timestamp": "26:06"
+    },
+    {
+      "start": 1567.919,
+      "duration": 1.681,
+      "text": "for your time See you soon Thomas Ciao",
+      "timestamp": "26:07"
+    },
+    {
+      "start": 1569.6,
+      "duration": 1.84,
+      "text": "Byebye All right Wow Well what did you",
+      "timestamp": "26:09"
+    },
+    {
+      "start": 1571.44,
+      "duration": 1.52,
+      "text": "think of that We got through a lot of",
+      "timestamp": "26:11"
+    },
+    {
+      "start": 1572.96,
+      "duration": 2.16,
+      "text": "material in under 30 minutes I really",
+      "timestamp": "26:12"
+    },
+    {
+      "start": 1575.12,
+      "duration": 1.439,
+      "text": "enjoyed the conversation but I'd love to",
+      "timestamp": "26:15"
+    },
+    {
+      "start": 1576.559,
+      "duration": 1.36,
+      "text": "know what you think If you have any",
+      "timestamp": "26:16"
+    },
+    {
+      "start": 1577.919,
+      "duration": 2.24,
+      "text": "feedback comments or questions please",
+      "timestamp": "26:17"
+    },
+    {
+      "start": 1580.159,
+      "duration": 2.321,
+      "text": "reach out to either me or David on X I",
+      "timestamp": "26:20"
+    },
+    {
+      "start": 1582.48,
+      "duration": 3.24,
+      "text": "am Thomas Maybbrer and David is",
+      "timestamp": "26:22"
+    },
+    {
+      "start": 1585.72,
+      "duration": 3.16,
+      "text": "david nim Before we go I'd like to ask",
+      "timestamp": "26:25"
+    },
+    {
+      "start": 1588.88,
+      "duration": 1.679,
+      "text": "you to please subscribe to the show And",
+      "timestamp": "26:28"
+    },
+    {
+      "start": 1590.559,
+      "duration": 1.441,
+      "text": "if you haven't shared it with a friend",
+      "timestamp": "26:30"
+    },
+    {
+      "start": 1592.0,
+      "duration": 1.76,
+      "text": "family member or colleague why not do so",
+      "timestamp": "26:32"
+    },
+    {
+      "start": 1593.76,
+      "duration": 1.68,
+      "text": "It'll help me grow the show and expand",
+      "timestamp": "26:33"
+    },
+    {
+      "start": 1595.44,
+      "duration": 1.839,
+      "text": "the types of content and guests that I'm",
+      "timestamp": "26:35"
+    },
+    {
+      "start": 1597.279,
+      "duration": 1.361,
+      "text": "able to bring you in the future This has",
+      "timestamp": "26:37"
+    },
+    {
+      "start": 1598.64,
+      "duration": 1.919,
+      "text": "been Agents Unleashed I'm Thomas Maybrer",
+      "timestamp": "26:38"
+    },
+    {
+      "start": 1600.559,
+      "duration": 3.491,
+      "text": "and I'll see you next time",
+      "timestamp": "26:40"
+    },
+    {
+      "start": 1604.05,
+      "duration": 7.199,
+      "text": "[Music]",
+      "timestamp": "26:44"
+    }
+  ],
+  "extraction_timestamp": "2025-07-01T18:12:01.625726",
+  "playlist_title": "Agents Unleashed Podcast"
+}

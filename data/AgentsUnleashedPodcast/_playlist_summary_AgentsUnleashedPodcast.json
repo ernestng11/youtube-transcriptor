@@ -1,0 +1,104 @@
+{
+  "playlist_info": {
+    "title": "Agents Unleashed Podcast",
+    "channel_title": "Olas",
+    "url": "https://www.youtube.com/playlist?list=PLoP4p0r-X94r1FA7yoOwRqvOjiYGSNQoj",
+    "total_videos": 11,
+    "total_duration_seconds": 0,
+    "total_duration_formatted": "0:00"
+  },
+  "transcript_statistics": {
+    "videos_with_transcripts": 11,
+    "videos_without_transcripts": 0,
+    "success_rate": "100.0%",
+    "total_segments": 5226,
+    "total_words": 48505,
+    "total_characters": 260935,
+    "average_words_per_video": 4409
+  },
+  "processing_info": {
+    "extraction_timestamp": "2025-07-01T18:12:01.636837",
+    "web_api_used": true,
+    "processing_time": "",
+    "output_directory": "data/AgentsUnleashedPodcast"
+  },
+  "video_list": [
+    {
+      "video_id": "qXBY2eAUf-g",
+      "title": "Agents Unleashed Podcast Ep. 11 - When AI Agents Work Together",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "AgentsUnleashedPodcastEp.11-WhenAIAgentsWorkTogether_qXBY2eAUf-g.json"
+    },
+    {
+      "video_id": "4WDH8CDqX78",
+      "title": "Agents Unleashed Podcast Ep. 10 - Why AI Agents Need Blockchains to Be Free ft. Trent McConaghy",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "AgentsUnleashedPodcastEp.10-WhyAIAgentsNeedBlockchainstoBeFreeft.TrentMcConaghy_4WDH8CDqX78.json"
+    },
+    {
+      "video_id": "7pI9HGQMrX4",
+      "title": "Agents Unleashed Podcast Ep. 9 - Why AI Agents Need Web3 ft. David Attermann",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "AgentsUnleashedPodcastEp.9-WhyAIAgentsNeedWeb3ft.DavidAttermann_7pI9HGQMrX4.json"
+    },
+    {
+      "video_id": "Kdkimywmhzc",
+      "title": "Agents Unleashed Podcast Ep. 8 - How Agentic AI Is Changing Work And Science",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "AgentsUnleashedPodcastEp.8-HowAgenticAIIsChangingWorkAndScience_Kdkimywmhzc.json"
+    },
+    {
+      "video_id": "dOLsbUJiHIo",
+      "title": "Agents Unleashed Podcast Ep. 7 - Agentic AI Isn't Slowing Down",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "AgentsUnleashedPodcastEp.7-AgenticAIIsn'tSlowingDown_dOLsbUJiHIo.json"
+    },
+    {
+      "video_id": "NJ0njWaxpxY",
+      "title": "Agents Unleashed Podcast Ep. 6 - Community Built AGI ft. Oleg Golev, Technical PM at Sentient",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "AgentsUnleashedPodcastEp.6-CommunityBuiltAGIft.OlegGolev,TechnicalPMatSentient_NJ0njWaxpxY.json"
+    },
+    {
+      "video_id": "oze0ajOetLc",
+      "title": "Agents Unleashed Podcast Ep. 5 - Would You Let An AI Agent Use Your Computer?",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "AgentsUnleashedPodcastEp.5-WouldYouLetAnAIAgentUseYourComputer_oze0ajOetLc.json"
+    },
+    {
+      "video_id": "6Ic6iJIKDIo",
+      "title": "Agents Unleashed Podcast Ep. 4 - Would You Give An AI Agent Your Credit Card?",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "AgentsUnleashedPodcastEp.4-WouldYouGiveAnAIAgentYourCreditCard_6Ic6iJIKDIo.json"
+    },
+    {
+      "video_id": "GbHe637w9wc",
+      "title": "Agents Unleashed Podcast Ep. 3 - Will an AI Agent Take Your Job?",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "AgentsUnleashedPodcastEp.3-WillanAIAgentTakeYourJob_GbHe637w9wc.json"
+    },
+    {
+      "video_id": "FBuMGbJXaqk",
+      "title": "Agents Unleashed Podcast Ep. 2 - User-Owned AI: Where We're At, Where We're Going ft. David Minarsch",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "AgentsUnleashedPodcastEp.2-User-OwnedAI_WhereWe'reAt,WhereWe'reGoingft.DavidMinarsch_FBuMGbJXaqk.json"
+    },
+    {
+      "video_id": "hw5eFFOGow8",
+      "title": "Agents Unleashed Podcast Ep. 1 - Builder's Night Wrapup",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "AgentsUnleashedPodcastEp.1-Builder'sNightWrapup_hw5eFFOGow8.json"
+    }
+  ]
+}

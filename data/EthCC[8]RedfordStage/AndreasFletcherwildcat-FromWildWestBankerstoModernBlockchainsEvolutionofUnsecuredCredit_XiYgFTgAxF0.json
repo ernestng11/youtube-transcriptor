@@ -1,0 +1,2327 @@
+{
+  "video_id": "XiYgFTgAxF0",
+  "video_title": "Andreas Fletcher wildcat-From Wild West Bankers to Modern Blockchains Evolution of Unsecured Credit",
+  "video_url": "https://www.youtube.com/watch?v=XiYgFTgAxF0",
+  "channel_title": "[EthCC] Livestream 4",
+  "published_at": "2025-07-03T20:20:09+00:00",
+  "duration_seconds": null,
+  "view_count": 29,
+  "like_count": 1,
+  "description": "Undercollateralized credit empowers enterprises to embrace DeFi without massive capital lockups—unlocking liquidity, real-world use cases, and broader adoption under robust regulatory guardrails.",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 384,
+    "aggregated_text": "[Music] Good morning everyone. Thank you very much for showing up at 10:00. I I know it's uh it's early. It's early for me too. It makes me more happy to see some people at least in the room. Um we're going to do like 15 minutes of presentation and then I have five minutes uh for questions if there are any questions. Um let's dive into it. So I'm Andreas. I'm talking about um Wildcat Bank's history of underolaterized credit and why we need it onchain. Why it is important for DeFi to adopt uh the concept of underolaterized credit. So let's start off with some history lessons. The the challenge is money is very complex and it's very old. So there's like a bunch of stuff that I could talk about. I picked four examples about history uh and money that we know of um that that maybe some people don't know, some people do know. If we look at the early medieval times, we can already see that the concept of credit was not unfamiliar to people. um people that were pilging across the the country um going into for example the Holy Land um had the challenge that they had to carry all their wealth, gold, silver um other valuables with them and the problem was that they could have gotten robbed during that time. So, the Templars basically created nice uh IOU systems where uh people could go to their castles, deposit their money, get an encrypted letter that they can then redeem um at any other Knights Templar um castle and basically get the money back in some way. This was, you know, one of the first concepts of secure banking in some way. uh we see examples of a tether being a shadow US dollar reserve in some way. So a different type of money system that uh is not full transparent or it is full transparent depends on who you ask and who you trust. um in terms of credit systems and credit history, we see Bank of Japan running uh multiple years of um a very relaxed um you know credit system where there's a low interest rate, but it still didn't have the effect that they wanted to have. The the cornerstone or the lesson learned of all of these examples is that the importance of how you create the credit system is based on the transparency and the flexibility. So you can design very good systems that are thought through but if they are not transparent enough and they are do not provide the flexibility to the individual users they might not have the necessary effect on either the economy or the users that it's actually being targeted to. Now one of or one additional example is wildcat banking. Wildcat banking was a banking concept back in the wild wild west times of the United States back when um the west um expansion basically was happening. Um the American government provided um um charters to companies to create banks that had very low regulation um also very low transparency but overall it basically fueled the growth within um the American state in the wild west. So it was still welcomed in some way. Um the the problem overall was that there was this like very small oversight to them. So let's dig into what they were truly. So one of the um main advantages that they provided was they provided access to credit. So during the times where um there was almost no infrastructure, no payment infrastructure, no banking infrastructure, people had the challenge that they wanted to expand overall. They wanted to you know um create farms, they wanted to start mining operations. They wanted to dig for gold. They wanted to started businesses. and there was almost no infrastructure for them to get credits or loans in some way. So, um, Wildcat banks basically provided this capital to those people. Um, it also like fostered the innovation there because getting access to credit basically allows you to do more than you can with the limited cap capital that you do have. And it overall expanded the money supply during that time. um which is always important because increase of money supply means also more growth. The problem was that they failed and they failed out of several reasons. One of them is um a lot of them were scams. they basically just popped up, took a lot of deposits in uh printed a lot of paper IUS and then they just ran away uh due to the lack of accountability and um the the vast space between different Wildcat banks and overall cities. It was really hard to get an understanding if these banks are still around because the name Wildcat Banks comes from um them being so remote that only Wildcats roam around that area. So if I would be a customer at a wild bank, um I would live, you know, a couple of days on on horseback away and I wouldn't realized that the bank is actually gone in default after I traveled there on my own for another 3 to four days because the rumors didn't travel fast enough just because of the lack of um communication back then and no cell phone for them. Um they also failed because they um mostly provided intransparent books. So they over um issued a lot of credit that they didn't actually have deposits with, which is fine if you do it in a way that it's still, you know, in some way transparent and you don't issue a significant amount more money than you actually have on your books. The interesting um thought around banks is that it's very similar to what we're seeing in the beginning of crypto. It's like the beginning of banking area uh the beginning of creating a new system that reaches people that didn't have access to the banking infrastructure before. So bringing back wild cats is interesting for us because most of the problems that they did have in terms of transparency, lack of communication, lack of information in general, we can solve with blockchain. Now, real quick, how credit expansion works in its most simplest way. Um, fractional reserve banking is what is basically the cornerstone of the banking system nowadays. We have a little bit of money that it's deposited into a bank and the bank can make much much more money out of it. So, for example, if there's a 10% um reserve ratio, a$10,000 $10,000 deposit can basically be expanded into $100,000 in loan. And that's what we consider to be credit expansion and fractional reserve banking. Now, why is this important? Why is unsecured or undersceded credit important? In general, in fosters overall expansion. So if you have a limited set of capital, you can only do the limited set of things that you can do with the capital itself and you can never grow. If you only have $100, but you want to do something for $1,000, you will never able to you will never be able to do this except if you collect more money in form of loans or investments etc. So the overall capital efficiency that we gain through this by not necessarily needing to fully collateralize something or overcolateralize something as we see in DeFi for example all of DeFi all of the credit systems is mostly 120 150% overcolateralized it's just a very high capital inefficiency that we have in the system currently the it also bridges D5 I and the trade system. So if we want to be a competitor to um the trade space, we need to adopt some of the concepts that they have to be able to basically scale. The interesting part if we look at credit and bea um this is something that was very happy for us and that's at least how we understood mika is that as long as you don't determine that a credit needs to be repaid back into fiat money so like actual euros but you actually do any credit in ERC20 tokens and the credit is also redeemable in ERC20 tokens it does not fit into any Mika regul ation. So like you can still do um the the credit loans and um um receiving money um from lenders providing credit to other people's without um a Mika license in any form which is very interesting because if we look at stable coins, stable coins have basically one crypto. Most of the business that is being done today is on is done with uh stable coins just because they have um the flexibility and um the easy comfort of being stable in some sense. The problem is that at large um scale they're still not really stable because if I just send around five USDC it's it's pretty stable but as soon as treasury managers etc start transferring a couple of millions in stables there is a price difference and a slippage in some way which can hurt over time. So stable coins, even if they're very comfortable, still not the ultimate tool yet to actually allow for a full underaterized credit um landscape or or payment uh vehicle because there is still some arbitrage and some price slippage, but hopefully we we'll get there overall. The challenge that we do have and this is me basically also standing on a stage saying we need under collateralized credit. uh it's the only thing that will actually allow us to scale and compete with tradefi is that we did have a time where we had under collateralized credit onchain already or private credit and it failed very badly. So if we look at the FTX collapse um overall we had the problem that there was a capital flight because um the the hidden leverage that they had there there was a lack of transparency which led to a lot of uh loss of funds. We can see um other examples of uh liquidity crunches or we can see that there was just a overall cascad effect with three errors where basically the transparency was not there of where the loans are actually are how much loans what assets are the loans issued by. So the overall problem back then was that all of the credit pools that were on chain they imploded suddenly and without any warning. Everything was very well and everything went very well up until the point where it didn't go well and then it happened very fast without any indicators any um um clear signals of which entities and which parties are overall involved. And this is also something that we're basically solving with Wildcat to bring more transparency into the system overall. The fundamental problem or the challenge that we still have in crypto is that we're competing with a $300 trillion market of credit in the real world versus crypto being 3.5 trillion. And there are some ways how we can smallen the gap. I mean, Bitcoin could raise to 10 million per share or ETH could raise to 1 million um um per per token, but that is something that probably won't happen tomorrow. So, we have to find ways to smallen the gap in some way so that we do have a little bit more power and can compete with the trade fight system. So we're kind of stuck in the dilemma that we have DeFi, we have very efficient technology, but the overall business practices that we do have onchain are very capital inefficient. So we have like the dream that Satoshi gave us to have like a new system that can work fully independently from the fiat system. Um, but we're kind of stuck in there because we're not using necessarily the right concepts even though we're using the right tools. We want to distribute the traditional finance, but we're scared of using the most powerful weapon that traditional finance is offering us, which is fractional reserve banking. And we can see this because the current landscape of unsecured or undersecured credit basically is very bad on the uh in the D5 sector. Currently uh bars are dependent on um centralized uh platforms that dictate the terms to them. Uh the centralized um platforms basically dictate the terms to the borrowers and to the lenders. And then there is also oversight in um complex DAO votes that don't actually make sense. Lenders don't have the full transparency where their money goes to. So overall the unerssecured or the unsecured credit space onchain is very bad at this time. This is where we basically came up with the idea and we created Wildcat. Wildcat is a platform where we uh we launched last year. We launched V2 um at Devcon in February and we've got about 150 million TVL up to now. The difference is that we are bar dedicated. So bars can come to Wildcat and they can present what they want to have for credit. They can dictate what APR they want to offer. They can dictate what type of credit market it is. They can dictate what type of lender they are looking for. Um, you could also see it as a Craigslist for private credit or Tinder for private credit. The borrower basically needs to make him as attractive enough for lenders to be interested in providing capital to the borrower itself without um frightening them off because it is in some sense unsecure because it is undercolateralized or um um fully uncolateralized. It is the the hope and the dream to make credits overall as flexible as DeFi swaps. And we have if we have the the comfort and the the the ease of having credit as easy as um a token swap, we can basically scale that into a much wider range than just having it overcolaterized on any sense. And this brings me back to the wildcat concept or what wildcat banks are. If every borrower is able to issue their own depth tokens. So if for example in this case vintterm has a market they accept USDC in their market and they issue um dep tokens to the individual lenders. This dep token also has some value for the lender but also for the wider ecosystem. So if this lender then can use the debt tokens that he has received from the winter mute market and use that as an additional collateral in AVA market or in oiler market or um being able to pay OTC on other exchanges with this step overall we can see the beginnings of fractional reserve and the multiplication effect that we have generally in the fiat system happening on blockchain and on Ethereum. This leads to the overall, you know, scope of Wildcat being a general credit layer, allowing for multiple types of credit, but also different types of use cases that we will expand over the next couple of years to hopefully grow unolaterized credit to a state where we can actually really compete with the trade fire space. Thank you for listening. We have uh three more minutes. So if there are any questions now on stage or once I walk off, happy to also talk a little bit more. [Applause] No questions. Thank you very much.",
+    "text_length": 14051,
+    "word_count": 2574
+  },
+  "segments": [
+    {
+      "start": 1.03,
+      "duration": 7.64,
+      "text": "[Music]",
+      "timestamp": "00:01"
+    },
+    {
+      "start": 13.04,
+      "duration": 2.16,
+      "text": "Good morning everyone. Thank you very",
+      "timestamp": "00:13"
+    },
+    {
+      "start": 15.2,
+      "duration": 3.04,
+      "text": "much for showing up at 10:00. I I know",
+      "timestamp": "00:15"
+    },
+    {
+      "start": 18.24,
+      "duration": 1.84,
+      "text": "it's uh it's early. It's early for me",
+      "timestamp": "00:18"
+    },
+    {
+      "start": 20.08,
+      "duration": 2.48,
+      "text": "too. It makes me more happy to see some",
+      "timestamp": "00:20"
+    },
+    {
+      "start": 22.56,
+      "duration": 2.479,
+      "text": "people at least in the room. Um we're",
+      "timestamp": "00:22"
+    },
+    {
+      "start": 25.039,
+      "duration": 1.761,
+      "text": "going to do like 15 minutes of",
+      "timestamp": "00:25"
+    },
+    {
+      "start": 26.8,
+      "duration": 2.319,
+      "text": "presentation and then I have five",
+      "timestamp": "00:26"
+    },
+    {
+      "start": 29.119,
+      "duration": 1.92,
+      "text": "minutes uh for questions if there are",
+      "timestamp": "00:29"
+    },
+    {
+      "start": 31.039,
+      "duration": 3.601,
+      "text": "any questions. Um let's dive into it. So",
+      "timestamp": "00:31"
+    },
+    {
+      "start": 34.64,
+      "duration": 3.439,
+      "text": "I'm Andreas. I'm talking about um",
+      "timestamp": "00:34"
+    },
+    {
+      "start": 38.079,
+      "duration": 2.0,
+      "text": "Wildcat Bank's history of",
+      "timestamp": "00:38"
+    },
+    {
+      "start": 40.079,
+      "duration": 2.881,
+      "text": "underolaterized credit and why we need",
+      "timestamp": "00:40"
+    },
+    {
+      "start": 42.96,
+      "duration": 2.72,
+      "text": "it onchain. Why it is important for DeFi",
+      "timestamp": "00:42"
+    },
+    {
+      "start": 45.68,
+      "duration": 2.399,
+      "text": "to adopt uh the concept of",
+      "timestamp": "00:45"
+    },
+    {
+      "start": 48.079,
+      "duration": 3.521,
+      "text": "underolaterized credit. So let's start",
+      "timestamp": "00:48"
+    },
+    {
+      "start": 51.6,
+      "duration": 2.639,
+      "text": "off with some history lessons. The the",
+      "timestamp": "00:51"
+    },
+    {
+      "start": 54.239,
+      "duration": 1.921,
+      "text": "challenge is money is very complex and",
+      "timestamp": "00:54"
+    },
+    {
+      "start": 56.16,
+      "duration": 2.16,
+      "text": "it's very old. So there's like a bunch",
+      "timestamp": "00:56"
+    },
+    {
+      "start": 58.32,
+      "duration": 1.6,
+      "text": "of stuff that I could talk about. I",
+      "timestamp": "00:58"
+    },
+    {
+      "start": 59.92,
+      "duration": 3.439,
+      "text": "picked four examples about history uh",
+      "timestamp": "00:59"
+    },
+    {
+      "start": 63.359,
+      "duration": 2.481,
+      "text": "and money that we know of um that that",
+      "timestamp": "01:03"
+    },
+    {
+      "start": 65.84,
+      "duration": 1.76,
+      "text": "maybe some people don't know, some",
+      "timestamp": "01:05"
+    },
+    {
+      "start": 67.6,
+      "duration": 2.72,
+      "text": "people do know. If we look at the early",
+      "timestamp": "01:07"
+    },
+    {
+      "start": 70.32,
+      "duration": 2.32,
+      "text": "medieval times, we can already see that",
+      "timestamp": "01:10"
+    },
+    {
+      "start": 72.64,
+      "duration": 2.159,
+      "text": "the concept of credit was not unfamiliar",
+      "timestamp": "01:12"
+    },
+    {
+      "start": 74.799,
+      "duration": 4.401,
+      "text": "to people. um people that were pilging",
+      "timestamp": "01:14"
+    },
+    {
+      "start": 79.2,
+      "duration": 3.2,
+      "text": "across the the country um going into for",
+      "timestamp": "01:19"
+    },
+    {
+      "start": 82.4,
+      "duration": 2.079,
+      "text": "example the Holy Land um had the",
+      "timestamp": "01:22"
+    },
+    {
+      "start": 84.479,
+      "duration": 2.32,
+      "text": "challenge that they had to carry all",
+      "timestamp": "01:24"
+    },
+    {
+      "start": 86.799,
+      "duration": 3.761,
+      "text": "their wealth, gold, silver um other",
+      "timestamp": "01:26"
+    },
+    {
+      "start": 90.56,
+      "duration": 2.48,
+      "text": "valuables with them and the problem was",
+      "timestamp": "01:30"
+    },
+    {
+      "start": 93.04,
+      "duration": 1.92,
+      "text": "that they could have gotten robbed",
+      "timestamp": "01:33"
+    },
+    {
+      "start": 94.96,
+      "duration": 2.72,
+      "text": "during that time. So, the Templars",
+      "timestamp": "01:34"
+    },
+    {
+      "start": 97.68,
+      "duration": 3.36,
+      "text": "basically created nice uh IOU systems",
+      "timestamp": "01:37"
+    },
+    {
+      "start": 101.04,
+      "duration": 2.24,
+      "text": "where uh people could go to their",
+      "timestamp": "01:41"
+    },
+    {
+      "start": 103.28,
+      "duration": 2.4,
+      "text": "castles, deposit their money, get an",
+      "timestamp": "01:43"
+    },
+    {
+      "start": 105.68,
+      "duration": 2.0,
+      "text": "encrypted letter that they can then",
+      "timestamp": "01:45"
+    },
+    {
+      "start": 107.68,
+      "duration": 3.439,
+      "text": "redeem um at any other Knights Templar",
+      "timestamp": "01:47"
+    },
+    {
+      "start": 111.119,
+      "duration": 2.241,
+      "text": "um castle and basically get the money",
+      "timestamp": "01:51"
+    },
+    {
+      "start": 113.36,
+      "duration": 2.0,
+      "text": "back in some way. This was, you know,",
+      "timestamp": "01:53"
+    },
+    {
+      "start": 115.36,
+      "duration": 2.32,
+      "text": "one of the first concepts of secure",
+      "timestamp": "01:55"
+    },
+    {
+      "start": 117.68,
+      "duration": 2.0,
+      "text": "banking in some way.",
+      "timestamp": "01:57"
+    },
+    {
+      "start": 119.68,
+      "duration": 3.6,
+      "text": "uh we see examples of a tether being a",
+      "timestamp": "01:59"
+    },
+    {
+      "start": 123.28,
+      "duration": 3.439,
+      "text": "shadow US dollar reserve in some way. So",
+      "timestamp": "02:03"
+    },
+    {
+      "start": 126.719,
+      "duration": 2.88,
+      "text": "a different type of money system that uh",
+      "timestamp": "02:06"
+    },
+    {
+      "start": 129.599,
+      "duration": 2.0,
+      "text": "is not full transparent or it is full",
+      "timestamp": "02:09"
+    },
+    {
+      "start": 131.599,
+      "duration": 1.841,
+      "text": "transparent depends on who you ask and",
+      "timestamp": "02:11"
+    },
+    {
+      "start": 133.44,
+      "duration": 2.799,
+      "text": "who you trust. um in terms of credit",
+      "timestamp": "02:13"
+    },
+    {
+      "start": 136.239,
+      "duration": 2.64,
+      "text": "systems and credit history, we see Bank",
+      "timestamp": "02:16"
+    },
+    {
+      "start": 138.879,
+      "duration": 3.841,
+      "text": "of Japan running uh multiple years of um",
+      "timestamp": "02:18"
+    },
+    {
+      "start": 142.72,
+      "duration": 4.08,
+      "text": "a very relaxed um you know credit system",
+      "timestamp": "02:22"
+    },
+    {
+      "start": 146.8,
+      "duration": 2.079,
+      "text": "where there's a low interest rate, but",
+      "timestamp": "02:26"
+    },
+    {
+      "start": 148.879,
+      "duration": 1.681,
+      "text": "it still didn't have the effect that",
+      "timestamp": "02:28"
+    },
+    {
+      "start": 150.56,
+      "duration": 3.759,
+      "text": "they wanted to have. The the cornerstone",
+      "timestamp": "02:30"
+    },
+    {
+      "start": 154.319,
+      "duration": 2.401,
+      "text": "or the lesson learned of all of these",
+      "timestamp": "02:34"
+    },
+    {
+      "start": 156.72,
+      "duration": 4.48,
+      "text": "examples is that the",
+      "timestamp": "02:36"
+    },
+    {
+      "start": 161.2,
+      "duration": 2.399,
+      "text": "importance of how you create the credit",
+      "timestamp": "02:41"
+    },
+    {
+      "start": 163.599,
+      "duration": 2.961,
+      "text": "system is based on the transparency and",
+      "timestamp": "02:43"
+    },
+    {
+      "start": 166.56,
+      "duration": 2.64,
+      "text": "the flexibility. So you can design very",
+      "timestamp": "02:46"
+    },
+    {
+      "start": 169.2,
+      "duration": 1.44,
+      "text": "good systems that are thought through",
+      "timestamp": "02:49"
+    },
+    {
+      "start": 170.64,
+      "duration": 1.92,
+      "text": "but if they are not transparent enough",
+      "timestamp": "02:50"
+    },
+    {
+      "start": 172.56,
+      "duration": 1.44,
+      "text": "and they are do not provide the",
+      "timestamp": "02:52"
+    },
+    {
+      "start": 174.0,
+      "duration": 2.959,
+      "text": "flexibility to the individual users they",
+      "timestamp": "02:54"
+    },
+    {
+      "start": 176.959,
+      "duration": 2.961,
+      "text": "might not have the necessary effect on",
+      "timestamp": "02:56"
+    },
+    {
+      "start": 179.92,
+      "duration": 2.08,
+      "text": "either the economy or the users that",
+      "timestamp": "02:59"
+    },
+    {
+      "start": 182.0,
+      "duration": 3.04,
+      "text": "it's actually being targeted to.",
+      "timestamp": "03:02"
+    },
+    {
+      "start": 185.04,
+      "duration": 3.919,
+      "text": "Now one of or one additional example is",
+      "timestamp": "03:05"
+    },
+    {
+      "start": 188.959,
+      "duration": 3.841,
+      "text": "wildcat banking. Wildcat banking was a",
+      "timestamp": "03:08"
+    },
+    {
+      "start": 192.8,
+      "duration": 2.48,
+      "text": "banking concept back in the wild wild",
+      "timestamp": "03:12"
+    },
+    {
+      "start": 195.28,
+      "duration": 3.92,
+      "text": "west times of the United States back",
+      "timestamp": "03:15"
+    },
+    {
+      "start": 199.2,
+      "duration": 3.92,
+      "text": "when um the west um expansion basically",
+      "timestamp": "03:19"
+    },
+    {
+      "start": 203.12,
+      "duration": 2.479,
+      "text": "was happening. Um the American",
+      "timestamp": "03:23"
+    },
+    {
+      "start": 205.599,
+      "duration": 3.36,
+      "text": "government provided um um charters to",
+      "timestamp": "03:25"
+    },
+    {
+      "start": 208.959,
+      "duration": 2.64,
+      "text": "companies to create banks that had very",
+      "timestamp": "03:28"
+    },
+    {
+      "start": 211.599,
+      "duration": 3.041,
+      "text": "low regulation um also very low",
+      "timestamp": "03:31"
+    },
+    {
+      "start": 214.64,
+      "duration": 2.72,
+      "text": "transparency but overall it basically",
+      "timestamp": "03:34"
+    },
+    {
+      "start": 217.36,
+      "duration": 3.68,
+      "text": "fueled the growth within um the American",
+      "timestamp": "03:37"
+    },
+    {
+      "start": 221.04,
+      "duration": 2.32,
+      "text": "state in the wild west. So it was still",
+      "timestamp": "03:41"
+    },
+    {
+      "start": 223.36,
+      "duration": 3.92,
+      "text": "welcomed in some way. Um the the problem",
+      "timestamp": "03:43"
+    },
+    {
+      "start": 227.28,
+      "duration": 2.239,
+      "text": "overall was that there was this like",
+      "timestamp": "03:47"
+    },
+    {
+      "start": 229.519,
+      "duration": 3.44,
+      "text": "very small oversight to them. So let's",
+      "timestamp": "03:49"
+    },
+    {
+      "start": 232.959,
+      "duration": 3.521,
+      "text": "dig into what they were truly. So one of",
+      "timestamp": "03:52"
+    },
+    {
+      "start": 236.48,
+      "duration": 2.24,
+      "text": "the um main advantages that they",
+      "timestamp": "03:56"
+    },
+    {
+      "start": 238.72,
+      "duration": 1.92,
+      "text": "provided was they provided access to",
+      "timestamp": "03:58"
+    },
+    {
+      "start": 240.64,
+      "duration": 3.12,
+      "text": "credit. So during the times where um",
+      "timestamp": "04:00"
+    },
+    {
+      "start": 243.76,
+      "duration": 1.759,
+      "text": "there was almost no infrastructure, no",
+      "timestamp": "04:03"
+    },
+    {
+      "start": 245.519,
+      "duration": 1.44,
+      "text": "payment infrastructure, no banking",
+      "timestamp": "04:05"
+    },
+    {
+      "start": 246.959,
+      "duration": 2.241,
+      "text": "infrastructure, people had the challenge",
+      "timestamp": "04:06"
+    },
+    {
+      "start": 249.2,
+      "duration": 2.48,
+      "text": "that they wanted to expand overall. They",
+      "timestamp": "04:09"
+    },
+    {
+      "start": 251.68,
+      "duration": 2.4,
+      "text": "wanted to you know um create farms, they",
+      "timestamp": "04:11"
+    },
+    {
+      "start": 254.08,
+      "duration": 1.999,
+      "text": "wanted to start mining operations. They",
+      "timestamp": "04:14"
+    },
+    {
+      "start": 256.079,
+      "duration": 1.521,
+      "text": "wanted to dig for gold. They wanted to",
+      "timestamp": "04:16"
+    },
+    {
+      "start": 257.6,
+      "duration": 2.639,
+      "text": "started businesses. and there was almost",
+      "timestamp": "04:17"
+    },
+    {
+      "start": 260.239,
+      "duration": 2.4,
+      "text": "no infrastructure for them to get",
+      "timestamp": "04:20"
+    },
+    {
+      "start": 262.639,
+      "duration": 3.12,
+      "text": "credits or loans in some way. So, um,",
+      "timestamp": "04:22"
+    },
+    {
+      "start": 265.759,
+      "duration": 2.321,
+      "text": "Wildcat banks basically provided this",
+      "timestamp": "04:25"
+    },
+    {
+      "start": 268.08,
+      "duration": 3.119,
+      "text": "capital to those people. Um, it also",
+      "timestamp": "04:28"
+    },
+    {
+      "start": 271.199,
+      "duration": 1.841,
+      "text": "like fostered the innovation there",
+      "timestamp": "04:31"
+    },
+    {
+      "start": 273.04,
+      "duration": 2.96,
+      "text": "because getting access to credit",
+      "timestamp": "04:33"
+    },
+    {
+      "start": 276.0,
+      "duration": 2.479,
+      "text": "basically allows you to do more than you",
+      "timestamp": "04:36"
+    },
+    {
+      "start": 278.479,
+      "duration": 2.641,
+      "text": "can with the limited cap capital that",
+      "timestamp": "04:38"
+    },
+    {
+      "start": 281.12,
+      "duration": 3.68,
+      "text": "you do have. And it overall expanded the",
+      "timestamp": "04:41"
+    },
+    {
+      "start": 284.8,
+      "duration": 3.04,
+      "text": "money supply during that time. um which",
+      "timestamp": "04:44"
+    },
+    {
+      "start": 287.84,
+      "duration": 1.84,
+      "text": "is always important because increase of",
+      "timestamp": "04:47"
+    },
+    {
+      "start": 289.68,
+      "duration": 3.92,
+      "text": "money supply means also more growth.",
+      "timestamp": "04:49"
+    },
+    {
+      "start": 293.6,
+      "duration": 3.12,
+      "text": "The problem was that they failed and",
+      "timestamp": "04:53"
+    },
+    {
+      "start": 296.72,
+      "duration": 2.56,
+      "text": "they failed out of several reasons. One",
+      "timestamp": "04:56"
+    },
+    {
+      "start": 299.28,
+      "duration": 3.52,
+      "text": "of them is um a lot of them were scams.",
+      "timestamp": "04:59"
+    },
+    {
+      "start": 302.8,
+      "duration": 2.24,
+      "text": "they basically just popped up, took a",
+      "timestamp": "05:02"
+    },
+    {
+      "start": 305.04,
+      "duration": 2.32,
+      "text": "lot of deposits in uh printed a lot of",
+      "timestamp": "05:05"
+    },
+    {
+      "start": 307.36,
+      "duration": 3.279,
+      "text": "paper IUS and then they just ran away uh",
+      "timestamp": "05:07"
+    },
+    {
+      "start": 310.639,
+      "duration": 3.921,
+      "text": "due to the lack of accountability and um",
+      "timestamp": "05:10"
+    },
+    {
+      "start": 314.56,
+      "duration": 4.32,
+      "text": "the the vast space between different",
+      "timestamp": "05:14"
+    },
+    {
+      "start": 318.88,
+      "duration": 3.36,
+      "text": "Wildcat banks and overall cities. It was",
+      "timestamp": "05:18"
+    },
+    {
+      "start": 322.24,
+      "duration": 2.16,
+      "text": "really hard to get an understanding if",
+      "timestamp": "05:22"
+    },
+    {
+      "start": 324.4,
+      "duration": 2.16,
+      "text": "these banks are still around because the",
+      "timestamp": "05:24"
+    },
+    {
+      "start": 326.56,
+      "duration": 3.28,
+      "text": "name Wildcat Banks comes from um them",
+      "timestamp": "05:26"
+    },
+    {
+      "start": 329.84,
+      "duration": 2.96,
+      "text": "being so remote that only Wildcats roam",
+      "timestamp": "05:29"
+    },
+    {
+      "start": 332.8,
+      "duration": 2.8,
+      "text": "around that area. So if I would be a",
+      "timestamp": "05:32"
+    },
+    {
+      "start": 335.6,
+      "duration": 2.56,
+      "text": "customer at a wild bank, um I would",
+      "timestamp": "05:35"
+    },
+    {
+      "start": 338.16,
+      "duration": 3.039,
+      "text": "live, you know, a couple of days on on",
+      "timestamp": "05:38"
+    },
+    {
+      "start": 341.199,
+      "duration": 2.401,
+      "text": "horseback away and I wouldn't realized",
+      "timestamp": "05:41"
+    },
+    {
+      "start": 343.6,
+      "duration": 1.439,
+      "text": "that the bank is actually gone in",
+      "timestamp": "05:43"
+    },
+    {
+      "start": 345.039,
+      "duration": 2.081,
+      "text": "default after I traveled there on my own",
+      "timestamp": "05:45"
+    },
+    {
+      "start": 347.12,
+      "duration": 2.32,
+      "text": "for another 3 to four days because the",
+      "timestamp": "05:47"
+    },
+    {
+      "start": 349.44,
+      "duration": 2.08,
+      "text": "rumors didn't travel fast enough just",
+      "timestamp": "05:49"
+    },
+    {
+      "start": 351.52,
+      "duration": 2.88,
+      "text": "because of the lack of um communication",
+      "timestamp": "05:51"
+    },
+    {
+      "start": 354.4,
+      "duration": 2.799,
+      "text": "back then and no cell phone for them. Um",
+      "timestamp": "05:54"
+    },
+    {
+      "start": 357.199,
+      "duration": 4.161,
+      "text": "they also failed because they um mostly",
+      "timestamp": "05:57"
+    },
+    {
+      "start": 361.36,
+      "duration": 2.559,
+      "text": "provided intransparent books. So they",
+      "timestamp": "06:01"
+    },
+    {
+      "start": 363.919,
+      "duration": 3.84,
+      "text": "over um issued a lot of credit that they",
+      "timestamp": "06:03"
+    },
+    {
+      "start": 367.759,
+      "duration": 1.681,
+      "text": "didn't actually have deposits with,",
+      "timestamp": "06:07"
+    },
+    {
+      "start": 369.44,
+      "duration": 1.92,
+      "text": "which is fine if you do it in a way that",
+      "timestamp": "06:09"
+    },
+    {
+      "start": 371.36,
+      "duration": 1.839,
+      "text": "it's still, you know, in some way",
+      "timestamp": "06:11"
+    },
+    {
+      "start": 373.199,
+      "duration": 3.44,
+      "text": "transparent and you don't issue",
+      "timestamp": "06:13"
+    },
+    {
+      "start": 376.639,
+      "duration": 2.881,
+      "text": "a significant amount more money than you",
+      "timestamp": "06:16"
+    },
+    {
+      "start": 379.52,
+      "duration": 3.44,
+      "text": "actually have on your books. The",
+      "timestamp": "06:19"
+    },
+    {
+      "start": 382.96,
+      "duration": 4.48,
+      "text": "interesting um thought around banks is",
+      "timestamp": "06:22"
+    },
+    {
+      "start": 387.44,
+      "duration": 1.84,
+      "text": "that it's very similar to what we're",
+      "timestamp": "06:27"
+    },
+    {
+      "start": 389.28,
+      "duration": 2.32,
+      "text": "seeing in the beginning of crypto. It's",
+      "timestamp": "06:29"
+    },
+    {
+      "start": 391.6,
+      "duration": 2.48,
+      "text": "like the beginning of banking area uh",
+      "timestamp": "06:31"
+    },
+    {
+      "start": 394.08,
+      "duration": 2.0,
+      "text": "the beginning of creating a new system",
+      "timestamp": "06:34"
+    },
+    {
+      "start": 396.08,
+      "duration": 2.0,
+      "text": "that reaches people that didn't have",
+      "timestamp": "06:36"
+    },
+    {
+      "start": 398.08,
+      "duration": 1.76,
+      "text": "access to the banking infrastructure",
+      "timestamp": "06:38"
+    },
+    {
+      "start": 399.84,
+      "duration": 3.44,
+      "text": "before. So bringing back wild cats is",
+      "timestamp": "06:39"
+    },
+    {
+      "start": 403.28,
+      "duration": 2.32,
+      "text": "interesting for us because most of the",
+      "timestamp": "06:43"
+    },
+    {
+      "start": 405.6,
+      "duration": 2.48,
+      "text": "problems that they did have in terms of",
+      "timestamp": "06:45"
+    },
+    {
+      "start": 408.08,
+      "duration": 2.48,
+      "text": "transparency, lack of communication,",
+      "timestamp": "06:48"
+    },
+    {
+      "start": 410.56,
+      "duration": 2.479,
+      "text": "lack of information in general, we can",
+      "timestamp": "06:50"
+    },
+    {
+      "start": 413.039,
+      "duration": 3.28,
+      "text": "solve with blockchain.",
+      "timestamp": "06:53"
+    },
+    {
+      "start": 416.319,
+      "duration": 1.6,
+      "text": "Now,",
+      "timestamp": "06:56"
+    },
+    {
+      "start": 417.919,
+      "duration": 2.56,
+      "text": "real quick, how credit expansion works",
+      "timestamp": "06:57"
+    },
+    {
+      "start": 420.479,
+      "duration": 3.041,
+      "text": "in its most simplest way. Um, fractional",
+      "timestamp": "07:00"
+    },
+    {
+      "start": 423.52,
+      "duration": 2.64,
+      "text": "reserve banking is what is basically the",
+      "timestamp": "07:03"
+    },
+    {
+      "start": 426.16,
+      "duration": 1.36,
+      "text": "cornerstone of the banking system",
+      "timestamp": "07:06"
+    },
+    {
+      "start": 427.52,
+      "duration": 2.959,
+      "text": "nowadays. We have",
+      "timestamp": "07:07"
+    },
+    {
+      "start": 430.479,
+      "duration": 2.321,
+      "text": "a little bit of money that it's",
+      "timestamp": "07:10"
+    },
+    {
+      "start": 432.8,
+      "duration": 2.08,
+      "text": "deposited into a bank and the bank can",
+      "timestamp": "07:12"
+    },
+    {
+      "start": 434.88,
+      "duration": 1.84,
+      "text": "make much much more money out of it. So,",
+      "timestamp": "07:14"
+    },
+    {
+      "start": 436.72,
+      "duration": 3.28,
+      "text": "for example, if there's a 10% um reserve",
+      "timestamp": "07:16"
+    },
+    {
+      "start": 440.0,
+      "duration": 4.639,
+      "text": "ratio, a$10,000 $10,000 deposit can",
+      "timestamp": "07:20"
+    },
+    {
+      "start": 444.639,
+      "duration": 3.041,
+      "text": "basically be expanded into $100,000 in",
+      "timestamp": "07:24"
+    },
+    {
+      "start": 447.68,
+      "duration": 2.56,
+      "text": "loan. And that's what we consider to be",
+      "timestamp": "07:27"
+    },
+    {
+      "start": 450.24,
+      "duration": 2.56,
+      "text": "credit expansion and fractional reserve",
+      "timestamp": "07:30"
+    },
+    {
+      "start": 452.8,
+      "duration": 1.92,
+      "text": "banking.",
+      "timestamp": "07:32"
+    },
+    {
+      "start": 454.72,
+      "duration": 1.759,
+      "text": "Now, why is this important? Why is",
+      "timestamp": "07:34"
+    },
+    {
+      "start": 456.479,
+      "duration": 3.44,
+      "text": "unsecured or undersceded credit",
+      "timestamp": "07:36"
+    },
+    {
+      "start": 459.919,
+      "duration": 3.201,
+      "text": "important? In general, in fosters",
+      "timestamp": "07:39"
+    },
+    {
+      "start": 463.12,
+      "duration": 2.56,
+      "text": "overall expansion. So if you have a",
+      "timestamp": "07:43"
+    },
+    {
+      "start": 465.68,
+      "duration": 2.16,
+      "text": "limited set of capital, you can only do",
+      "timestamp": "07:45"
+    },
+    {
+      "start": 467.84,
+      "duration": 2.639,
+      "text": "the limited set of things that you can",
+      "timestamp": "07:47"
+    },
+    {
+      "start": 470.479,
+      "duration": 1.921,
+      "text": "do with the capital itself and you can",
+      "timestamp": "07:50"
+    },
+    {
+      "start": 472.4,
+      "duration": 2.799,
+      "text": "never grow. If you only have $100, but",
+      "timestamp": "07:52"
+    },
+    {
+      "start": 475.199,
+      "duration": 2.481,
+      "text": "you want to do something for $1,000, you",
+      "timestamp": "07:55"
+    },
+    {
+      "start": 477.68,
+      "duration": 1.919,
+      "text": "will never able to you will never be",
+      "timestamp": "07:57"
+    },
+    {
+      "start": 479.599,
+      "duration": 2.081,
+      "text": "able to do this except if you collect",
+      "timestamp": "07:59"
+    },
+    {
+      "start": 481.68,
+      "duration": 2.4,
+      "text": "more money in form of loans or",
+      "timestamp": "08:01"
+    },
+    {
+      "start": 484.08,
+      "duration": 5.28,
+      "text": "investments etc. So the overall",
+      "timestamp": "08:04"
+    },
+    {
+      "start": 489.36,
+      "duration": 2.08,
+      "text": "capital efficiency that we gain through",
+      "timestamp": "08:09"
+    },
+    {
+      "start": 491.44,
+      "duration": 3.12,
+      "text": "this by not necessarily needing to fully",
+      "timestamp": "08:11"
+    },
+    {
+      "start": 494.56,
+      "duration": 1.84,
+      "text": "collateralize something or",
+      "timestamp": "08:14"
+    },
+    {
+      "start": 496.4,
+      "duration": 1.919,
+      "text": "overcolateralize something as we see in",
+      "timestamp": "08:16"
+    },
+    {
+      "start": 498.319,
+      "duration": 2.801,
+      "text": "DeFi for example all of DeFi all of the",
+      "timestamp": "08:18"
+    },
+    {
+      "start": 501.12,
+      "duration": 2.479,
+      "text": "credit systems is mostly",
+      "timestamp": "08:21"
+    },
+    {
+      "start": 503.599,
+      "duration": 3.04,
+      "text": "120 150% overcolateralized",
+      "timestamp": "08:23"
+    },
+    {
+      "start": 506.639,
+      "duration": 2.161,
+      "text": "it's just a very high capital",
+      "timestamp": "08:26"
+    },
+    {
+      "start": 508.8,
+      "duration": 1.92,
+      "text": "inefficiency that we have in the system",
+      "timestamp": "08:28"
+    },
+    {
+      "start": 510.72,
+      "duration": 1.52,
+      "text": "currently",
+      "timestamp": "08:30"
+    },
+    {
+      "start": 512.24,
+      "duration": 1.679,
+      "text": "the",
+      "timestamp": "08:32"
+    },
+    {
+      "start": 513.919,
+      "duration": 2.401,
+      "text": "it also bridges D5 I and the trade",
+      "timestamp": "08:33"
+    },
+    {
+      "start": 516.32,
+      "duration": 2.159,
+      "text": "system. So if we want to be a competitor",
+      "timestamp": "08:36"
+    },
+    {
+      "start": 518.479,
+      "duration": 2.881,
+      "text": "to um the trade space, we need to adopt",
+      "timestamp": "08:38"
+    },
+    {
+      "start": 521.36,
+      "duration": 2.08,
+      "text": "some of the concepts that they have to",
+      "timestamp": "08:41"
+    },
+    {
+      "start": 523.44,
+      "duration": 4.0,
+      "text": "be able to basically scale.",
+      "timestamp": "08:43"
+    },
+    {
+      "start": 527.44,
+      "duration": 2.079,
+      "text": "The interesting part if we look at",
+      "timestamp": "08:47"
+    },
+    {
+      "start": 529.519,
+      "duration": 2.561,
+      "text": "credit and bea um this is something that",
+      "timestamp": "08:49"
+    },
+    {
+      "start": 532.08,
+      "duration": 1.6,
+      "text": "was very happy for us and that's at",
+      "timestamp": "08:52"
+    },
+    {
+      "start": 533.68,
+      "duration": 2.719,
+      "text": "least how we understood mika is that as",
+      "timestamp": "08:53"
+    },
+    {
+      "start": 536.399,
+      "duration": 3.201,
+      "text": "long as you don't determine that a",
+      "timestamp": "08:56"
+    },
+    {
+      "start": 539.6,
+      "duration": 3.28,
+      "text": "credit needs to be repaid back into fiat",
+      "timestamp": "08:59"
+    },
+    {
+      "start": 542.88,
+      "duration": 3.2,
+      "text": "money so like actual euros but you",
+      "timestamp": "09:02"
+    },
+    {
+      "start": 546.08,
+      "duration": 3.52,
+      "text": "actually do any credit in ERC20 tokens",
+      "timestamp": "09:06"
+    },
+    {
+      "start": 549.6,
+      "duration": 2.88,
+      "text": "and the credit is also redeemable in",
+      "timestamp": "09:09"
+    },
+    {
+      "start": 552.48,
+      "duration": 4.0,
+      "text": "ERC20 tokens it does not fit into any",
+      "timestamp": "09:12"
+    },
+    {
+      "start": 556.48,
+      "duration": 2.479,
+      "text": "Mika regul ation. So like you can still",
+      "timestamp": "09:16"
+    },
+    {
+      "start": 558.959,
+      "duration": 5.841,
+      "text": "do um the the credit loans and um um",
+      "timestamp": "09:18"
+    },
+    {
+      "start": 564.8,
+      "duration": 2.32,
+      "text": "receiving money um from lenders",
+      "timestamp": "09:24"
+    },
+    {
+      "start": 567.12,
+      "duration": 1.52,
+      "text": "providing credit to other people's",
+      "timestamp": "09:27"
+    },
+    {
+      "start": 568.64,
+      "duration": 3.12,
+      "text": "without um a Mika license in any form",
+      "timestamp": "09:28"
+    },
+    {
+      "start": 571.76,
+      "duration": 2.32,
+      "text": "which is very interesting because if we",
+      "timestamp": "09:31"
+    },
+    {
+      "start": 574.08,
+      "duration": 2.319,
+      "text": "look at stable coins, stable coins have",
+      "timestamp": "09:34"
+    },
+    {
+      "start": 576.399,
+      "duration": 2.321,
+      "text": "basically one crypto. Most of the",
+      "timestamp": "09:36"
+    },
+    {
+      "start": 578.72,
+      "duration": 2.64,
+      "text": "business that is being done today is on",
+      "timestamp": "09:38"
+    },
+    {
+      "start": 581.36,
+      "duration": 2.479,
+      "text": "is done with uh stable coins just",
+      "timestamp": "09:41"
+    },
+    {
+      "start": 583.839,
+      "duration": 3.68,
+      "text": "because they have um the flexibility and",
+      "timestamp": "09:43"
+    },
+    {
+      "start": 587.519,
+      "duration": 2.241,
+      "text": "um the easy comfort of being stable in",
+      "timestamp": "09:47"
+    },
+    {
+      "start": 589.76,
+      "duration": 3.28,
+      "text": "some sense. The problem is that at large",
+      "timestamp": "09:49"
+    },
+    {
+      "start": 593.04,
+      "duration": 2.64,
+      "text": "um scale they're still not really stable",
+      "timestamp": "09:53"
+    },
+    {
+      "start": 595.68,
+      "duration": 3.52,
+      "text": "because if I just send around five USDC",
+      "timestamp": "09:55"
+    },
+    {
+      "start": 599.2,
+      "duration": 2.24,
+      "text": "it's it's pretty stable but as soon as",
+      "timestamp": "09:59"
+    },
+    {
+      "start": 601.44,
+      "duration": 2.959,
+      "text": "treasury managers etc start transferring",
+      "timestamp": "10:01"
+    },
+    {
+      "start": 604.399,
+      "duration": 2.321,
+      "text": "a couple of millions in stables there is",
+      "timestamp": "10:04"
+    },
+    {
+      "start": 606.72,
+      "duration": 1.84,
+      "text": "a price difference and a slippage in",
+      "timestamp": "10:06"
+    },
+    {
+      "start": 608.56,
+      "duration": 2.16,
+      "text": "some way which can hurt over time. So",
+      "timestamp": "10:08"
+    },
+    {
+      "start": 610.72,
+      "duration": 1.44,
+      "text": "stable coins, even if they're very",
+      "timestamp": "10:10"
+    },
+    {
+      "start": 612.16,
+      "duration": 2.96,
+      "text": "comfortable, still not the ultimate tool",
+      "timestamp": "10:12"
+    },
+    {
+      "start": 615.12,
+      "duration": 3.2,
+      "text": "yet to actually allow for a full",
+      "timestamp": "10:15"
+    },
+    {
+      "start": 618.32,
+      "duration": 3.28,
+      "text": "underaterized credit um landscape or or",
+      "timestamp": "10:18"
+    },
+    {
+      "start": 621.6,
+      "duration": 2.08,
+      "text": "payment uh vehicle because there is",
+      "timestamp": "10:21"
+    },
+    {
+      "start": 623.68,
+      "duration": 2.24,
+      "text": "still some arbitrage and some price",
+      "timestamp": "10:23"
+    },
+    {
+      "start": 625.92,
+      "duration": 2.32,
+      "text": "slippage, but hopefully we we'll get",
+      "timestamp": "10:25"
+    },
+    {
+      "start": 628.24,
+      "duration": 1.92,
+      "text": "there overall.",
+      "timestamp": "10:28"
+    },
+    {
+      "start": 630.16,
+      "duration": 2.239,
+      "text": "The",
+      "timestamp": "10:30"
+    },
+    {
+      "start": 632.399,
+      "duration": 2.161,
+      "text": "challenge that we do have and this is me",
+      "timestamp": "10:32"
+    },
+    {
+      "start": 634.56,
+      "duration": 2.719,
+      "text": "basically also standing on a stage",
+      "timestamp": "10:34"
+    },
+    {
+      "start": 637.279,
+      "duration": 1.601,
+      "text": "saying we need under collateralized",
+      "timestamp": "10:37"
+    },
+    {
+      "start": 638.88,
+      "duration": 2.16,
+      "text": "credit. uh it's the only thing that will",
+      "timestamp": "10:38"
+    },
+    {
+      "start": 641.04,
+      "duration": 1.76,
+      "text": "actually allow us to scale and compete",
+      "timestamp": "10:41"
+    },
+    {
+      "start": 642.8,
+      "duration": 4.08,
+      "text": "with tradefi is that we did have a time",
+      "timestamp": "10:42"
+    },
+    {
+      "start": 646.88,
+      "duration": 1.68,
+      "text": "where we had under collateralized credit",
+      "timestamp": "10:46"
+    },
+    {
+      "start": 648.56,
+      "duration": 2.399,
+      "text": "onchain already or private credit and it",
+      "timestamp": "10:48"
+    },
+    {
+      "start": 650.959,
+      "duration": 2.32,
+      "text": "failed very badly. So if we look at the",
+      "timestamp": "10:50"
+    },
+    {
+      "start": 653.279,
+      "duration": 3.201,
+      "text": "FTX collapse um overall we had the",
+      "timestamp": "10:53"
+    },
+    {
+      "start": 656.48,
+      "duration": 1.52,
+      "text": "problem that there was a capital flight",
+      "timestamp": "10:56"
+    },
+    {
+      "start": 658.0,
+      "duration": 2.72,
+      "text": "because um the the hidden leverage that",
+      "timestamp": "10:58"
+    },
+    {
+      "start": 660.72,
+      "duration": 1.6,
+      "text": "they had there there was a lack of",
+      "timestamp": "11:00"
+    },
+    {
+      "start": 662.32,
+      "duration": 2.56,
+      "text": "transparency which led to a lot of uh",
+      "timestamp": "11:02"
+    },
+    {
+      "start": 664.88,
+      "duration": 2.639,
+      "text": "loss of funds. We can see um other",
+      "timestamp": "11:04"
+    },
+    {
+      "start": 667.519,
+      "duration": 3.281,
+      "text": "examples of uh liquidity crunches or we",
+      "timestamp": "11:07"
+    },
+    {
+      "start": 670.8,
+      "duration": 2.0,
+      "text": "can see that there was just a overall",
+      "timestamp": "11:10"
+    },
+    {
+      "start": 672.8,
+      "duration": 2.96,
+      "text": "cascad effect with three errors where",
+      "timestamp": "11:12"
+    },
+    {
+      "start": 675.76,
+      "duration": 2.079,
+      "text": "basically the transparency was not there",
+      "timestamp": "11:15"
+    },
+    {
+      "start": 677.839,
+      "duration": 2.881,
+      "text": "of where the loans are actually are how",
+      "timestamp": "11:17"
+    },
+    {
+      "start": 680.72,
+      "duration": 2.0,
+      "text": "much loans what assets are the loans",
+      "timestamp": "11:20"
+    },
+    {
+      "start": 682.72,
+      "duration": 4.88,
+      "text": "issued by. So the overall problem back",
+      "timestamp": "11:22"
+    },
+    {
+      "start": 687.6,
+      "duration": 1.919,
+      "text": "then was that all of the credit pools",
+      "timestamp": "11:27"
+    },
+    {
+      "start": 689.519,
+      "duration": 2.0,
+      "text": "that were on chain they imploded",
+      "timestamp": "11:29"
+    },
+    {
+      "start": 691.519,
+      "duration": 2.161,
+      "text": "suddenly and without any warning.",
+      "timestamp": "11:31"
+    },
+    {
+      "start": 693.68,
+      "duration": 1.68,
+      "text": "Everything was very well and everything",
+      "timestamp": "11:33"
+    },
+    {
+      "start": 695.36,
+      "duration": 2.0,
+      "text": "went very well up until the point where",
+      "timestamp": "11:35"
+    },
+    {
+      "start": 697.36,
+      "duration": 2.159,
+      "text": "it didn't go well and then it happened",
+      "timestamp": "11:37"
+    },
+    {
+      "start": 699.519,
+      "duration": 4.961,
+      "text": "very fast without any indicators any um",
+      "timestamp": "11:39"
+    },
+    {
+      "start": 704.48,
+      "duration": 2.479,
+      "text": "um clear signals of which entities and",
+      "timestamp": "11:44"
+    },
+    {
+      "start": 706.959,
+      "duration": 1.921,
+      "text": "which parties are overall involved. And",
+      "timestamp": "11:46"
+    },
+    {
+      "start": 708.88,
+      "duration": 1.519,
+      "text": "this is also something that we're",
+      "timestamp": "11:48"
+    },
+    {
+      "start": 710.399,
+      "duration": 2.0,
+      "text": "basically solving with Wildcat to bring",
+      "timestamp": "11:50"
+    },
+    {
+      "start": 712.399,
+      "duration": 1.761,
+      "text": "more transparency into the system",
+      "timestamp": "11:52"
+    },
+    {
+      "start": 714.16,
+      "duration": 1.679,
+      "text": "overall.",
+      "timestamp": "11:54"
+    },
+    {
+      "start": 715.839,
+      "duration": 2.961,
+      "text": "The fundamental problem or the challenge",
+      "timestamp": "11:55"
+    },
+    {
+      "start": 718.8,
+      "duration": 4.159,
+      "text": "that we still have in crypto is that",
+      "timestamp": "11:58"
+    },
+    {
+      "start": 722.959,
+      "duration": 2.961,
+      "text": "we're competing with a $300 trillion",
+      "timestamp": "12:02"
+    },
+    {
+      "start": 725.92,
+      "duration": 3.039,
+      "text": "market of credit in the real world",
+      "timestamp": "12:05"
+    },
+    {
+      "start": 728.959,
+      "duration": 4.241,
+      "text": "versus crypto being 3.5 trillion. And",
+      "timestamp": "12:08"
+    },
+    {
+      "start": 733.2,
+      "duration": 3.6,
+      "text": "there are some ways how we can",
+      "timestamp": "12:13"
+    },
+    {
+      "start": 736.8,
+      "duration": 2.24,
+      "text": "smallen the gap. I mean, Bitcoin could",
+      "timestamp": "12:16"
+    },
+    {
+      "start": 739.04,
+      "duration": 2.799,
+      "text": "raise to 10 million per share or ETH",
+      "timestamp": "12:19"
+    },
+    {
+      "start": 741.839,
+      "duration": 3.521,
+      "text": "could raise to 1 million um um per per",
+      "timestamp": "12:21"
+    },
+    {
+      "start": 745.36,
+      "duration": 2.08,
+      "text": "token, but that is something that",
+      "timestamp": "12:25"
+    },
+    {
+      "start": 747.44,
+      "duration": 2.72,
+      "text": "probably won't happen tomorrow. So, we",
+      "timestamp": "12:27"
+    },
+    {
+      "start": 750.16,
+      "duration": 2.72,
+      "text": "have to find ways to smallen the gap in",
+      "timestamp": "12:30"
+    },
+    {
+      "start": 752.88,
+      "duration": 1.6,
+      "text": "some way so that we do have a little bit",
+      "timestamp": "12:32"
+    },
+    {
+      "start": 754.48,
+      "duration": 2.0,
+      "text": "more power and can compete with the",
+      "timestamp": "12:34"
+    },
+    {
+      "start": 756.48,
+      "duration": 3.359,
+      "text": "trade fight system.",
+      "timestamp": "12:36"
+    },
+    {
+      "start": 759.839,
+      "duration": 2.321,
+      "text": "So we're kind of stuck in the dilemma",
+      "timestamp": "12:39"
+    },
+    {
+      "start": 762.16,
+      "duration": 1.919,
+      "text": "that we have DeFi, we have very",
+      "timestamp": "12:42"
+    },
+    {
+      "start": 764.079,
+      "duration": 4.401,
+      "text": "efficient technology, but the overall",
+      "timestamp": "12:44"
+    },
+    {
+      "start": 768.48,
+      "duration": 1.68,
+      "text": "business practices that we do have",
+      "timestamp": "12:48"
+    },
+    {
+      "start": 770.16,
+      "duration": 2.72,
+      "text": "onchain are very capital inefficient. So",
+      "timestamp": "12:50"
+    },
+    {
+      "start": 772.88,
+      "duration": 2.56,
+      "text": "we have like the dream that Satoshi gave",
+      "timestamp": "12:52"
+    },
+    {
+      "start": 775.44,
+      "duration": 2.56,
+      "text": "us to have like a new system that can",
+      "timestamp": "12:55"
+    },
+    {
+      "start": 778.0,
+      "duration": 2.32,
+      "text": "work fully independently from the fiat",
+      "timestamp": "12:58"
+    },
+    {
+      "start": 780.32,
+      "duration": 2.24,
+      "text": "system. Um, but we're kind of stuck in",
+      "timestamp": "13:00"
+    },
+    {
+      "start": 782.56,
+      "duration": 2.48,
+      "text": "there because we're not using",
+      "timestamp": "13:02"
+    },
+    {
+      "start": 785.04,
+      "duration": 1.919,
+      "text": "necessarily the right concepts even",
+      "timestamp": "13:05"
+    },
+    {
+      "start": 786.959,
+      "duration": 4.32,
+      "text": "though we're using the right tools.",
+      "timestamp": "13:06"
+    },
+    {
+      "start": 791.279,
+      "duration": 2.24,
+      "text": "We want to distribute the traditional",
+      "timestamp": "13:11"
+    },
+    {
+      "start": 793.519,
+      "duration": 3.12,
+      "text": "finance, but we're scared of using the",
+      "timestamp": "13:13"
+    },
+    {
+      "start": 796.639,
+      "duration": 1.681,
+      "text": "most powerful weapon that traditional",
+      "timestamp": "13:16"
+    },
+    {
+      "start": 798.32,
+      "duration": 2.56,
+      "text": "finance is offering us, which is",
+      "timestamp": "13:18"
+    },
+    {
+      "start": 800.88,
+      "duration": 3.199,
+      "text": "fractional reserve banking. And we can",
+      "timestamp": "13:20"
+    },
+    {
+      "start": 804.079,
+      "duration": 3.121,
+      "text": "see this because the current landscape",
+      "timestamp": "13:24"
+    },
+    {
+      "start": 807.2,
+      "duration": 3.28,
+      "text": "of unsecured or undersecured credit",
+      "timestamp": "13:27"
+    },
+    {
+      "start": 810.48,
+      "duration": 2.88,
+      "text": "basically is very bad on the uh in the",
+      "timestamp": "13:30"
+    },
+    {
+      "start": 813.36,
+      "duration": 3.2,
+      "text": "D5 sector. Currently uh bars are",
+      "timestamp": "13:33"
+    },
+    {
+      "start": 816.56,
+      "duration": 4.16,
+      "text": "dependent on um centralized uh platforms",
+      "timestamp": "13:36"
+    },
+    {
+      "start": 820.72,
+      "duration": 2.48,
+      "text": "that dictate the terms to them. Uh the",
+      "timestamp": "13:40"
+    },
+    {
+      "start": 823.2,
+      "duration": 3.36,
+      "text": "centralized um platforms basically",
+      "timestamp": "13:43"
+    },
+    {
+      "start": 826.56,
+      "duration": 1.92,
+      "text": "dictate the terms to the borrowers and",
+      "timestamp": "13:46"
+    },
+    {
+      "start": 828.48,
+      "duration": 2.479,
+      "text": "to the lenders. And then there is also",
+      "timestamp": "13:48"
+    },
+    {
+      "start": 830.959,
+      "duration": 3.44,
+      "text": "oversight in um complex DAO votes that",
+      "timestamp": "13:50"
+    },
+    {
+      "start": 834.399,
+      "duration": 1.841,
+      "text": "don't actually make sense. Lenders don't",
+      "timestamp": "13:54"
+    },
+    {
+      "start": 836.24,
+      "duration": 1.599,
+      "text": "have the full transparency where their",
+      "timestamp": "13:56"
+    },
+    {
+      "start": 837.839,
+      "duration": 1.921,
+      "text": "money goes to. So overall the",
+      "timestamp": "13:57"
+    },
+    {
+      "start": 839.76,
+      "duration": 2.319,
+      "text": "unerssecured or the unsecured credit",
+      "timestamp": "13:59"
+    },
+    {
+      "start": 842.079,
+      "duration": 3.921,
+      "text": "space onchain is very bad at this time.",
+      "timestamp": "14:02"
+    },
+    {
+      "start": 846.0,
+      "duration": 1.76,
+      "text": "This is where we basically came up with",
+      "timestamp": "14:06"
+    },
+    {
+      "start": 847.76,
+      "duration": 2.96,
+      "text": "the idea and we created Wildcat. Wildcat",
+      "timestamp": "14:07"
+    },
+    {
+      "start": 850.72,
+      "duration": 4.4,
+      "text": "is a platform where we uh we launched",
+      "timestamp": "14:10"
+    },
+    {
+      "start": 855.12,
+      "duration": 2.88,
+      "text": "last year. We launched V2 um at Devcon",
+      "timestamp": "14:15"
+    },
+    {
+      "start": 858.0,
+      "duration": 2.079,
+      "text": "in February and we've got about 150",
+      "timestamp": "14:18"
+    },
+    {
+      "start": 860.079,
+      "duration": 3.841,
+      "text": "million TVL up to now. The difference is",
+      "timestamp": "14:20"
+    },
+    {
+      "start": 863.92,
+      "duration": 3.84,
+      "text": "that we are bar dedicated. So bars can",
+      "timestamp": "14:23"
+    },
+    {
+      "start": 867.76,
+      "duration": 2.0,
+      "text": "come to Wildcat and they can present",
+      "timestamp": "14:27"
+    },
+    {
+      "start": 869.76,
+      "duration": 2.48,
+      "text": "what they want to have for credit. They",
+      "timestamp": "14:29"
+    },
+    {
+      "start": 872.24,
+      "duration": 2.8,
+      "text": "can dictate what APR they want to offer.",
+      "timestamp": "14:32"
+    },
+    {
+      "start": 875.04,
+      "duration": 1.68,
+      "text": "They can dictate what type of credit",
+      "timestamp": "14:35"
+    },
+    {
+      "start": 876.72,
+      "duration": 2.4,
+      "text": "market it is. They can dictate what type",
+      "timestamp": "14:36"
+    },
+    {
+      "start": 879.12,
+      "duration": 2.88,
+      "text": "of lender they are looking for. Um, you",
+      "timestamp": "14:39"
+    },
+    {
+      "start": 882.0,
+      "duration": 1.839,
+      "text": "could also see it as a Craigslist for",
+      "timestamp": "14:42"
+    },
+    {
+      "start": 883.839,
+      "duration": 2.161,
+      "text": "private credit or Tinder for private",
+      "timestamp": "14:43"
+    },
+    {
+      "start": 886.0,
+      "duration": 2.399,
+      "text": "credit. The borrower basically needs to",
+      "timestamp": "14:46"
+    },
+    {
+      "start": 888.399,
+      "duration": 3.041,
+      "text": "make him as attractive enough for",
+      "timestamp": "14:48"
+    },
+    {
+      "start": 891.44,
+      "duration": 2.56,
+      "text": "lenders to be interested in providing",
+      "timestamp": "14:51"
+    },
+    {
+      "start": 894.0,
+      "duration": 3.68,
+      "text": "capital to the borrower itself without",
+      "timestamp": "14:54"
+    },
+    {
+      "start": 897.68,
+      "duration": 2.719,
+      "text": "um frightening them off because it is in",
+      "timestamp": "14:57"
+    },
+    {
+      "start": 900.399,
+      "duration": 2.081,
+      "text": "some sense unsecure because it is",
+      "timestamp": "15:00"
+    },
+    {
+      "start": 902.48,
+      "duration": 3.28,
+      "text": "undercolateralized or um um fully",
+      "timestamp": "15:02"
+    },
+    {
+      "start": 905.76,
+      "duration": 2.879,
+      "text": "uncolateralized.",
+      "timestamp": "15:05"
+    },
+    {
+      "start": 908.639,
+      "duration": 3.361,
+      "text": "It is the the hope and the dream to make",
+      "timestamp": "15:08"
+    },
+    {
+      "start": 912.0,
+      "duration": 2.56,
+      "text": "credits overall as flexible as DeFi",
+      "timestamp": "15:12"
+    },
+    {
+      "start": 914.56,
+      "duration": 3.839,
+      "text": "swaps. And we have if we have the the",
+      "timestamp": "15:14"
+    },
+    {
+      "start": 918.399,
+      "duration": 3.601,
+      "text": "comfort and the the the ease of having",
+      "timestamp": "15:18"
+    },
+    {
+      "start": 922.0,
+      "duration": 4.16,
+      "text": "credit as easy as um a token swap, we",
+      "timestamp": "15:22"
+    },
+    {
+      "start": 926.16,
+      "duration": 2.479,
+      "text": "can basically scale that into a much",
+      "timestamp": "15:26"
+    },
+    {
+      "start": 928.639,
+      "duration": 1.44,
+      "text": "wider range than just having it",
+      "timestamp": "15:28"
+    },
+    {
+      "start": 930.079,
+      "duration": 3.521,
+      "text": "overcolaterized on any sense.",
+      "timestamp": "15:30"
+    },
+    {
+      "start": 933.6,
+      "duration": 2.239,
+      "text": "And this brings me back to the wildcat",
+      "timestamp": "15:33"
+    },
+    {
+      "start": 935.839,
+      "duration": 2.8,
+      "text": "concept or what wildcat banks are. If",
+      "timestamp": "15:35"
+    },
+    {
+      "start": 938.639,
+      "duration": 2.481,
+      "text": "every borrower is able to issue their",
+      "timestamp": "15:38"
+    },
+    {
+      "start": 941.12,
+      "duration": 2.88,
+      "text": "own depth tokens. So if for example in",
+      "timestamp": "15:41"
+    },
+    {
+      "start": 944.0,
+      "duration": 2.56,
+      "text": "this case vintterm has a market they",
+      "timestamp": "15:44"
+    },
+    {
+      "start": 946.56,
+      "duration": 2.16,
+      "text": "accept USDC in their market and they",
+      "timestamp": "15:46"
+    },
+    {
+      "start": 948.72,
+      "duration": 3.039,
+      "text": "issue um dep tokens to the individual",
+      "timestamp": "15:48"
+    },
+    {
+      "start": 951.759,
+      "duration": 3.041,
+      "text": "lenders. This dep token also has some",
+      "timestamp": "15:51"
+    },
+    {
+      "start": 954.8,
+      "duration": 1.839,
+      "text": "value for the lender but also for the",
+      "timestamp": "15:54"
+    },
+    {
+      "start": 956.639,
+      "duration": 2.56,
+      "text": "wider ecosystem. So if this lender then",
+      "timestamp": "15:56"
+    },
+    {
+      "start": 959.199,
+      "duration": 1.76,
+      "text": "can use the debt tokens that he has",
+      "timestamp": "15:59"
+    },
+    {
+      "start": 960.959,
+      "duration": 2.32,
+      "text": "received from the winter mute market and",
+      "timestamp": "16:00"
+    },
+    {
+      "start": 963.279,
+      "duration": 2.401,
+      "text": "use that as an additional collateral in",
+      "timestamp": "16:03"
+    },
+    {
+      "start": 965.68,
+      "duration": 4.959,
+      "text": "AVA market or in oiler market or um",
+      "timestamp": "16:05"
+    },
+    {
+      "start": 970.639,
+      "duration": 3.12,
+      "text": "being able to pay OTC on other exchanges",
+      "timestamp": "16:10"
+    },
+    {
+      "start": 973.759,
+      "duration": 2.88,
+      "text": "with this step overall we can see the",
+      "timestamp": "16:13"
+    },
+    {
+      "start": 976.639,
+      "duration": 3.2,
+      "text": "beginnings of fractional reserve and the",
+      "timestamp": "16:16"
+    },
+    {
+      "start": 979.839,
+      "duration": 1.601,
+      "text": "multiplication effect that we have",
+      "timestamp": "16:19"
+    },
+    {
+      "start": 981.44,
+      "duration": 2.48,
+      "text": "generally in the fiat system happening",
+      "timestamp": "16:21"
+    },
+    {
+      "start": 983.92,
+      "duration": 4.56,
+      "text": "on blockchain and on Ethereum.",
+      "timestamp": "16:23"
+    },
+    {
+      "start": 989.279,
+      "duration": 3.68,
+      "text": "This leads to the overall, you know,",
+      "timestamp": "16:29"
+    },
+    {
+      "start": 992.959,
+      "duration": 3.361,
+      "text": "scope of Wildcat being a general credit",
+      "timestamp": "16:32"
+    },
+    {
+      "start": 996.32,
+      "duration": 1.68,
+      "text": "layer, allowing for multiple types of",
+      "timestamp": "16:36"
+    },
+    {
+      "start": 998.0,
+      "duration": 2.56,
+      "text": "credit, but also different types of use",
+      "timestamp": "16:38"
+    },
+    {
+      "start": 1000.56,
+      "duration": 2.959,
+      "text": "cases that we will expand over the next",
+      "timestamp": "16:40"
+    },
+    {
+      "start": 1003.519,
+      "duration": 2.161,
+      "text": "couple of years to hopefully grow",
+      "timestamp": "16:43"
+    },
+    {
+      "start": 1005.68,
+      "duration": 1.519,
+      "text": "unolaterized",
+      "timestamp": "16:45"
+    },
+    {
+      "start": 1007.199,
+      "duration": 2.961,
+      "text": "credit to a state where we can actually",
+      "timestamp": "16:47"
+    },
+    {
+      "start": 1010.16,
+      "duration": 1.679,
+      "text": "really compete with the trade fire",
+      "timestamp": "16:50"
+    },
+    {
+      "start": 1011.839,
+      "duration": 1.841,
+      "text": "space.",
+      "timestamp": "16:51"
+    },
+    {
+      "start": 1013.68,
+      "duration": 2.159,
+      "text": "Thank you for listening. We have uh",
+      "timestamp": "16:53"
+    },
+    {
+      "start": 1015.839,
+      "duration": 2.881,
+      "text": "three more minutes. So if there are any",
+      "timestamp": "16:55"
+    },
+    {
+      "start": 1018.72,
+      "duration": 3.52,
+      "text": "questions now on stage or once I walk",
+      "timestamp": "16:58"
+    },
+    {
+      "start": 1022.24,
+      "duration": 2.079,
+      "text": "off, happy to also talk a little bit",
+      "timestamp": "17:02"
+    },
+    {
+      "start": 1024.319,
+      "duration": 2.941,
+      "text": "more.",
+      "timestamp": "17:04"
+    },
+    {
+      "start": 1027.26,
+      "duration": 5.87,
+      "text": "[Applause]",
+      "timestamp": "17:07"
+    },
+    {
+      "start": 1034.48,
+      "duration": 5.078,
+      "text": "No questions. Thank you very much.",
+      "timestamp": "17:14"
+    }
+  ],
+  "extraction_timestamp": "2025-07-08T14:45:53.117926",
+  "playlist_title": "EthCC[8] Redford Stage"
+}

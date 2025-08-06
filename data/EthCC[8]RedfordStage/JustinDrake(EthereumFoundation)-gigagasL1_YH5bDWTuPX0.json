@@ -1,0 +1,1895 @@
+{
+  "video_id": "YH5bDWTuPX0",
+  "video_title": "Justin Drake (Ethereum Foundation) - gigagas L1",
+  "video_url": "https://www.youtube.com/watch?v=YH5bDWTuPX0",
+  "channel_title": "[EthCC] Livestream 4",
+  "published_at": "2025-07-01T03:23:38+00:00",
+  "duration_seconds": null,
+  "view_count": 1090,
+  "like_count": 56,
+  "description": "zkEVMs can scale Ethereum L1 to 1 Ggas/s",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 312,
+    "aggregated_text": "okay let's get started um so I believe that we're at this inflection point for Ethereum scaling and in particular I have conviction that we will enter a gigas error for the L1 and specifically I mean uh one gigas per second which uh if you have transactions that consume 100,000 gas on average that's roughly 10,000 TPS and the key unlock for the gigas error is ZKVMs and real-time proving so in the first part I'll talk about what it takes to turn the L1 into a ZKL1 and what really that means and then I'll focus on the engineering marvel that is real time proving that really unlocks this transition so to have a ZKL1 you need ZK execution layer clients and validators so the basic idea is that as a validator instead of having to download and execute the blocks I just verify snark proofs and I check data availability with database sampling as opposed to having to download the blocks and so really uh what ZKVMs do is that they solve this dilemma of scale and decentralization we really can have both very large scale and best-in-class decentralization so the rough um goal that uh I have in mind and various other people have in mind at the foundation is to scale the L1 3x per year so Tomas has this number that he shared internally which is 300 million gas by the end of next year and Dankrat has this EIP uh which proposes to do 3x per year uh for period of four years and basically what I'm saying is why stop at four years right we can just do an extra two years uh and basically push the limits of the EVM and reach this gigas per second error so this is Dankrat's EIP 7938 and basically the idea that we're that it basic idea is that the the the validators will automatically vote for a new uh higher gas limit following this exponential schedule and this would give you know a certain sense of predictability for those who want to build on Ethereum over the next 5 to 10 years and also because it's this exponential growth it's it's also very ambitious Now um not only can we grow the L1 uh by orders of magnitude but we can also improve the decentralization of Ethereum so the current meme is that you can run uh you know an execution layer client like like like G or Ref on the Raspberry Pi well I'm taking the this meme to the next level which is the Raspberry Pi Pico um the Pico is a $7 device it consumes one watt of of energy and it's sufficient to have a fully validating node on this on this machine basically you just have to download and verify the proofs which takes only a few milliseconds now some of my personal goals for this year are one to get rid of my external NVMe drive uh and run my validator statelessly by verifying uh proofs of validity as opposed to having to download the Ethereum blocks i also want to try the Raspberry Pi Pico if you want to help uh coding this uh I'll run it on my validator and I also want to from home prove the entirety of Ethereum in real time uh using a a cluster of GPUs now in order to uh really unlock the the full potential of ZKVMs we need this thing called delayed execution or delayed proving and the basic idea is that between two block proposals block N and block N plus one there's time to do the proving so the proof for block n can basically arrive just a little bit before the proposal for block n plus one and you can use all of this time uh as active time for for proving and this is where you know the real time proving meme comes from that you need to be able to do proving within one Ethereum slot and if you want to learn more there's an e research post about this now scaling the L1 is not just about scaling the validators and the wallets and the includers that come with Fossil but there's all sorts of other actors in the ecosystem so there's block builders there's block explorers and and RPCs and traditionally the primary bottleneck for scaling has been these weak and unsophisticated nodes like we have such a high um degree of requirements for these these decentralized nodes that we that that has been the main bottleneck for scaling but going forward because we have this solution of SNOX what I expect will happen is that the bottleneck will shift actually to these to these other entities and the good news here is that these entities are much more sophisticated they have more resources available and the solutions um are traditional engineering solutions just traditional database stuff and networking stuff unlike the moon map that has been unlocked by uh the ZKVM teams recently so just to give you one example of this kind of boring uh traditional engineering um you know GE is using Level DB which is a database from Google and Ref is using MDBX and you know these are like traditional things that databases that are useful in all sorts of contexts so you know B trees or LSM trees if you're familiar with those and what we're seeing now is that there are databases that are customuilt for Ethereum specifically the Ethereum estate tree um Coinbase uh base has a has a a database um it's still private but um maybe if you DM me I can try and help you get access but a few days ago um layer zero announced QMDB with and both of these databases are roughly speaking an order of magnitude 10x faster than than the state of the art so I think we need to be migrating away from these legacy databases to to new ones okay real time proving this is the key thing that was considered to be essentially close to impossible a couple years ago and now we have four different teams that have achieved it um and it's a very very hot topic uh including at EFCC we have seven talks today about ZKVMs and real-time proving which uh which is really cool so um Succinct made this big announcement a few weeks ago and they had this really nice animation on realtime.succinct.z the the website unfortunately is is no longer active but I think they'll they'll turn it back on soon uh we have risk zero uh that is aiming for real-time proving in in in a garage so they've uh they're building a cluster of GPUs on premises in their offices um and uh and trying to do real-time proving there and just today ZISK made this amazing announcement again of of of real time proving uh and I can see the ZIS team all in green there in the audience which is very recognizable and Airbender also had this massive announcement where they have truly excellent uh performance and um yeah they're they're basically very very close to to real-time proving as well and the cool thing is that three of these teams here uh RZero Zisk and Airbender have fully open source and permissive licensing specifically for the prover side of things including the GPU acceleration and the multi-GPU cluster uh orchestration now proving is a oneofend assumption meaning that we just need one entity in the world to do the proving in order for the proofs to be generated um but you know because we care so deeply about decentralization we want the n to be fairly large so in particular we don't want to depend on data centers why because there's only about let's say 100 data center operators in the world and n equals 100 is not great especially if the barrier to entry is to build a data center so um one thing we've observed is that you know millions of people tens of millions maybe of people have electric cars and that is uh something that can be done at home so the the guidelines that we have for real-time proving is a maximum of $100,000 of capex for the the the cluster and at most 10 kilowatt so this Tesla home charger is rated at 11.5 kilowatt and what we find is that the bottleneck is actually the power not the cost so if you uh you know purchase a GPU cluster for 100k um it will more likely than not consume much more than 10 kilo 10 kilowatts okay so what I think will happen over the the next few weeks and months is that the notion of real-time proving is going to crystallize a little bit more and and formalize and here are here's a kind of a first draft of what we need in order to really take Ethereum uh to the next level so of of course we need the latency to be very very low um a little bit less than 12 seconds 10 seconds for 99% of mainet blocks and we need the capex and the power to be limited and we also need the code to be open source for for the prover and on the verifier side of things we also have some requirements for example the security needs to be high enough at least 100 bits of security proof sizes need to be reasonably small etc etc now let's focus on power because that is really the the bottleneck so um kind of a state-of-the-art art artis 5 execution runs at about a gigahertz actually a little bit more 1.5 that's what this team has achieved and like roughly speaking the order of magnitude is that uh this this exeutor will consume five watts right is like enough power to for the CPU and and the hard drive that will hold the ethereum uh state tree and then you basically need a cluster of GPUs to keep up with the with the execution and roughly speaking state-of-the-art um GPU proving for example from airbender achieve roughly 10 megahertz per CPU so you need 100 CPUs each CPU consumes 100 times more than the exeutor so you that's a total of 100,000 sorry 10,000 x overhead uh to do the the proving from a power perspective now you may think okay 10,000x is is terrible right uh but I see it as a great opportunity to to improve it means that there's more juice to be squeezed and in particular um my I guess guess talking to to to many of the teams here is that there's at least another 10x from software improvements and there's another 10x from uh hardware improvements specifically Snark A6 and and and things like that and if that's not enough to get to the scale that we want we have another trick um down our sleeve which is multi-remise um proving so we can have collaborative proving across different clusters so for example me from home I can collaborate with someone else and even though we um single-handedly we don't have enough power combined we have enough power to to do the to do the proving now um one of the amazing things is that we've seen in the last few months an absolute blossoming of of ZKVMs so uh here we have 10 ZKVMs that can prove Ethereum blocks and proving an Ethereum block is you know quite difficult to reach that level uh partly because you need to have a virtual machine and an ISA which is um you know flexible enough to to to prove it but also you need all of the continuation and recursion infrastructure to take these big blocks chunk them into much smaller statements and then glue everything back together with recussion so massive congrats to these uh test 10 teams that have achieved proving of L1 blocks and there's another nine that are aiming to achieve um the proving of L1 blocks uh uh this year and within these 19 teams all of which by the way are open source uh we have 13 um that are aiming for uh real time proving or have either achieved real-time proving or aiming for real time uh proving this year and so by the end of this year what I'm expecting will happen is that we'll have at least uh 10 ZKVMs and that is amazing diversity and by the way this diversity is important for security reasons because just like uh we assume that every single execution layer client and consensus layer client is buggy which is why we emphasize so much on client diversity we have the exact same strategy for ZKVM so more likely than not every ZKVM has critical bugs but if we have a diversity of ZKVMs then that gives us uh some some amount of robustness now this is my last slide if you're not familiar with this uh website it's basically trying to provide legibility into ZKVMs and their performance the cost uh in dollars and the the the latency in in in seconds and right now we're basically encouraging the various ZKVMs to uh submit proofs for one in every 100 blocks and uh we have this kind of mini block explorer and uh there's also these uh pizza slices which might be reminiscent of L2B and actually the in some sense the mission of Eve proofs is to be the L2B of of ZKVMs so that's it um I've negotiated with the the crew for an extra five minutes of questions because I'm the last speaker so feel free to shoot ahead and yeah looking forward to to your questions [Applause] any questions do we have a second mic i will bring it back oh um how how does this relate to the beam chain okay great question so the beam chain is dedicated to the consensus layer um there is snogification there so we do want to snify in real time the entire consensus layer um but it in some sense it's it's a separate layer and therefore um not not not related there are some some definite synergies so one of the synergies is that the same tooling the same ZKVMs can be used for for for both layers um and um I guess one of one differentiation between the beam chain and the execution layer is the amount of resources necessary to do the proving so for the EVM we're capping ourselves to uh you know a 10 kilowatt cluster which is quite a lot of power um for the beam chain what we're aiming for is a single laptop CPU to be able to prove the entire consensus layer in real time um and the reason why we can achieve uh such low proving uh resources for the beam chain is that we can make it extremely uh snark friendly from from from day one so we would use snark friendly hash functions like poseidon and snark friendly signatures uh that are that are hashbased as an as an alternative to BLS bls is extremely extremely uh snark unfriendly so by swapping BLS for something postquantum secure we also gain at the same time uh snark friendliness yes um just a question if you can comment a bit on uh red how reducing slot times affect this because you're shown a delta like two seconds uh when you formalize what real time proving is so yeah yeah so um fantastic question um when you do the the proving a a lot of the components uh are either like massively paralyzable or um are take linear time with the amount of work so if you do the the initial execution which is sequential work that is linear in the in in the gas used so if we reduce by two the slot duration and also reduce by two the the gas limit then the execution doesn't change um all of the paralyzable stuff that also you know doesn't really matter um but one of the things that we we have is kind of this logarithmic overhead to the proving and there's two components one is that when you take your block and you split it into chunks you have to basically recursively um take the proofs in order to have a meta proof and and here you have a basically a binary tree and the depth is is login um and and here basically when you when you decrease the total amount of of leaves you only reducing by one layer and so you're not you still have this this overhead which is kind of um annoying the good news is that the ZISK team today made this you know in their presentation they showed that the recursion is just extremely extremely fast uh the latest numbers is like 150 milliseconds uh for for a 2 to1 proof folding and I believe they can also like do multiple recursions on a single GPU maybe the number is something like like 16 so this part here is actually not too worrisome for me um and then the other component is the gossiping of the proof and that is also logarithmic because when you have a a a gossip ch gossip uh pitspin network you basically have you connect to some peers and the other peers also connect to other peers and you have this this exponential anyway um there's like overhead to gossiping and um you know that's maybe on the order of of of one second or or half a second or something so if we if we start reducing the slot durations too low then that's suddenly like the the gossiping time start to dominate and the recursion time also dominates but right now with 12 seconds there's a lot of room to go down to six which is the proposal yeah yeah um so on Twitter I've seen for example Nezarmind and uh some other clients reaching one gigas and I was wondering uh do you think uh with the current hardware it will be possible if we run those uh clients yeah great question so um one of the things that um the the CL execution layer client devs have have been doing is launching perfets that stands for performance test nets and actually this is I believe a screenshot of never mind and not only have they reached one gigas but they've actually reached six gigas on their screenshot and the the EVM is being pushed to extremes uh we saw the layer zero they they they're they're claiming a million transactions per second which is kind of completely uh in insane um and so I think you know how I said that there's these two different buckets of engineering there's the moon math with the snarks which traditionally was thought to be impossible but that actually is no longer the bottleneck uh what I expect will happen when we grow 3x per year like the ZKVMs improve 10x per year like 3x per year is like child's play um but for the traditional engineers like improving databases at 3x period that's that's that's much much harder um oh okay uh with this diversity of ZKVMs like how we're going to basically choose which ZKVMs kind of qualify for being accepted to produce proofs in Ethereum i suppose there will be some kind of qualities maybe I don't know the size of the proof like how long it takes to uh generate this proof maybe postquantum security maybe what kind of aspects of ZKVMs you kind of look for to kind of be accept to for ZVM to kind of be accepted to be as a real prover for Ethereum yeah that that's a great question I basically try to kind of list out the the requirements here these are are soft requirements in the sense that every validator ultimately every operator can do do whatever they want um but the I think the thing that makes sense from my perspective is to have client diversity internal to an operator so traditionally the way we do client diversity is that it's across the operators like I run g like you run ref and some other guy runs run something else but here with proofs it's actually very cheap and easy to be a to run multiple clients uh on on on one device just because you're each proof takes a few milliseconds to verify so you can verify five of them so you can imagine um a setup similar to vouch i don't know if you're familiar with vouch but vouch is basically this institutional tool where you can run multiple clients for example three of them and if two out of the three agree then that is your canonical view of of the chain um now I think what would be nice is that there's some sort of like soft rough consensus around what is this list of clients of ZKVM sorry uh that are that are used to verify the the proofs and once we have this this convergence then it it means that um you know it's things simplify so for example the the gossiping simplifies and the the proving simplifies and and so in my mental model right now is that we would want to kind of soft agree on five of them and have a four out of five rule for example and um yeah it's going to be interesting to see you know which five could be selected um but um what I what I expect so one thing that I didn't mention is that not only do we want diversity at the ZKVM level but we want to retain the diversity of the execution layer client so one way to do it is to pair one ZKVM with one execution layer client so for example you could pair like ZISK with with GE and you can pair risk zero with with with Ref or something and the way that I would do the pairing is that um I would have the fastest ZKVM with the slowest execution layer client so that when combined you kind of have an average uh kind of real real time prover um and so what I would do basically is pick pick the fastest the five fastest ZKVMs and pair them with the with the five existing execution layer clients and hope that this average it out to to to under one second of latency um doesn't it become a arms race that you're scaling the execution layer that you also now need to scale the proving and the proving is already at a 10,000x overhead and even with 100 10x on uh hardware 10x on software that's 100x um and you also have to basically include another overhead for scaling the execution layer in this case right um so because the proving the proving time will essentially increase if the execution layer um performance also increases right okay so there's a lot a lot to unpack here let me address your very last question which is when you increase the gas limit does the latency increase and the answer is no and I have to go to my extra slides to answer this technical question uh which is this uh so there's a fantastic EIP called EAP7825 which caps the amount of gas used per transaction and this is landing in Fusaka this year and the cap is 30 million gas and the amazing thing with this EIP is uh what I call subblocks or mini blocks so you can take a big Ethereum block and you can chunk it into subblocks at transaction boundaries and then you can do the execution which is the sequential part of all of these sublocks in in parallel and so you can have enormous enormous blocks but because you can chunk at transaction boundaries very easily it's not going to affect the the latency and actually SP1 when they announced ISP on hyper cube that does the real-time proving they use this trick in order to to to get the under the 12 seconds now your other question was related to the fact that yes where we where we are versus where we want to be is roughly 600x so we're at about 1 point well we're at exactly uh 1.5 meggas per second right now and we want to get to one gigas per second so that's roughly a 600x where do we find the 600x now i think there's at least 10x from software at least 10x from hardware so let's let's but the hope is that it's more than 10x maybe it's 20x on hardware and like 30x on software but even if we take the worst case scenario where it's only 10x and only 6x it's only 10x on both software and hardware we would be off by a factor of six right because you got 10 10 we need to get to 600 so we off by six well we just need to do collaborative proving across six different premises in order to to reach that hi Justin I see a lot of talk about um risk five does that mean we're like switching from EVM to risk five so at this point in time where the only thing that we're doing is increasing the gas limit you can use whatever um ISA that you want and actually you can see uh that some people are using standardized ISAs like MIP and was um some teams are actually like hardcore rewriting the EVM using circuits and and kind of low-level programming languages so that's what linear and kakarot have done and then uh there's a few teams out there that have like exotic ISAs which mean that it the tooling is not there to have compilers from high level implementations like ref all the way down to this to this new ISA um but you know having a diversity of ISAs is actually a great thing in the short term why because a lot of this um a lot of this tooling is dependent on LLVM so LLVM is basically this this this compiler framework that allows you to take high level languages and compile them to things like Ris 5 what if there's a bug in LLVM then now like all of all of these ZKVMs are are affected at the same time there's correlated failures so having a diversity with things like linear and ref and and maiden and whatnot that's actually really helpful now if you're willing to think on a longer time frame um let's say three to five six years um then one of Vitalik's idea uh which I you know really like is that we could enshrine a new ISA that is ZK friendly under the EVM and the the current proposal I guess is to use that to to use risk 5 even though we're you know looking at everything else and there's several advantages to doing that one uh is is um performance so you would allow smart contract developers to access risk 5 directly without the overhead of the VM and you might get a 10x improvement so you'd be paying 10 times less gas uh in order to make use of of of Ethereum and the other cool advantage is that you dramatically simplify Ethereum right all of the technical debt that Ethereum has the EVM has is basically uh it dissolves and now you just have to maintain risk 5 which is super simple and you know largely unchanging and immutable um if we're going to switch um ISOs why wouldn't we switch for one that actually you can buy hardware for today and you can run it at a hardware speed like an ARM yeah so the the two main ISAs that we use in practice today are x86 and ARM unfortunately neither are like permissive um so every time you wanna like do something with with those like you you have to you have to pay licensing and it's just not part of the ethos um the other thing I'll mention is that x86 and ARM are both actually very complicated iss like x86 is extremely complicated like I don't know hundreds if not thousands of op codes and uh and ARM you know even though ARM is kind of marketed as risk is actually a CISK like a complex uh it has many many up codes nowadays um so I don't think the ZKVMs would really enjoy implementing either x86 or or ARM uh but the other thing I mentioned is um is this so that if you had asked me you know two months ago uh what is like one of the main bottlenecks for proving I would have told you the execution is the bottleneck right because there's this sequential thing uh that you have to do which is generate the minimal trace and that's much much slower than uh running a CPU but but one of the big breakthroughs of of the the the the guys is that they've accelerated that to almost native speed so 1 ghahz is like roughly within a factor of like four or something within native speed um and so there's less of a need now to go build uh custom snark A6 that will handle the the execution running out of time so we take one last question thanks how how do you see this uh ZKVM road map affecting the L2 space do you do you think this is conflicting with the current layer 2s or do you think it's complimentary yeah fantastic question um so having the L1 uh be like a very like powerful chain will will definitely have consequences for for the L2s um my hope is that it's very beneficial for the L2s um one reason is that it's going to lead to much more TVL on on on the L1 and that will mean that the L2s will basically benefit from this very u rich and and vibrant hub um one other thing that I hope will happen is that the fact that the L1 is so economically strong is going to incentivize the L2s to adopt the same sequencer as the L1 because when you have two chains that have the same sequencer you can unlock what's called synchronous composability and like these very interesting network effects um and with real-time proving and shared sequencing you do have um you do have synchronous composability and then the other thing that I'm hoping will happen is that um just having a very strong L1 will be like net positive for for Ether the asset um and what tends to happen in practice is that the L2 assets the tokens are very much correlated with with Epher the with Epher and so if if if EH does very well I expect all of the L2s to also do very well second quick question do uh do you maybe have a favorite ZKVM uhhuh do I have a favorite ZKVM um I have a set of favorites in my mind um uh but um uh no no no one specific uh favorite one of one of the things that's that's really amazing is that um a lot of the the teams are doing different things so if you look at succinct for example they introduced this innovation of the subblocks and the mini blocks zisk they did the uh the executor airbender they have this um GPU prover that just maxes out the resources on on the GPU you just can't go any faster they have like really hardcore GPU engineers and um the one of the unique things that RZero is doing is that they they're building a cluster in in their offices so that they can do on-prem uh proving and like improving the the the orchestration of multiGPU proving and when you combine all of these ideas you get something which is going to be like really really monumental um and so you know right now we can do so sync did real time proving on 180 GPUs um ZISK I believe was like 50 or 64 I forget um but you know Risero believes they can do 16 when you combine everything I'm hoping that we can do real-time proving on like six GPUs or something ridiculous um and I think that will be a very glorious moment for for Ethereum thanks",
+    "text_length": 28515,
+    "word_count": 5478
+  },
+  "segments": [
+    {
+      "start": 7.04,
+      "duration": 5.36,
+      "text": "okay let's get started um so I believe that we're at this",
+      "timestamp": "00:07"
+    },
+    {
+      "start": 12.4,
+      "duration": 8.48,
+      "text": "inflection point for Ethereum scaling and in particular I have conviction that we will enter a gigas error for the L1",
+      "timestamp": "00:12"
+    },
+    {
+      "start": 20.88,
+      "duration": 6.8,
+      "text": "and specifically I mean uh one gigas per second which uh if you have transactions",
+      "timestamp": "00:20"
+    },
+    {
+      "start": 27.68,
+      "duration": 6.8,
+      "text": "that consume 100,000 gas on average that's roughly 10,000 TPS",
+      "timestamp": "00:27"
+    },
+    {
+      "start": 34.48,
+      "duration": 6.96,
+      "text": "and the key unlock for the gigas error is ZKVMs and real-time proving",
+      "timestamp": "00:34"
+    },
+    {
+      "start": 41.44,
+      "duration": 7.119,
+      "text": "so in the first part I'll talk about what it takes to turn the L1 into a ZKL1",
+      "timestamp": "00:41"
+    },
+    {
+      "start": 48.559,
+      "duration": 6.561,
+      "text": "and what really that means and then I'll focus on the engineering marvel that is real time proving that really unlocks",
+      "timestamp": "00:48"
+    },
+    {
+      "start": 55.12,
+      "duration": 6.8,
+      "text": "this transition so to have a ZKL1 you need ZK execution",
+      "timestamp": "00:55"
+    },
+    {
+      "start": 61.92,
+      "duration": 5.68,
+      "text": "layer clients and validators so the basic idea is that as a validator instead of having to download and",
+      "timestamp": "01:01"
+    },
+    {
+      "start": 67.6,
+      "duration": 5.44,
+      "text": "execute the blocks I just verify snark proofs and I check data availability",
+      "timestamp": "01:07"
+    },
+    {
+      "start": 73.04,
+      "duration": 7.2,
+      "text": "with database sampling as opposed to having to download the blocks and so really uh what ZKVMs do is that",
+      "timestamp": "01:13"
+    },
+    {
+      "start": 80.24,
+      "duration": 5.76,
+      "text": "they solve this dilemma of scale and decentralization we really can have both",
+      "timestamp": "01:20"
+    },
+    {
+      "start": 86.0,
+      "duration": 6.159,
+      "text": "very large scale and best-in-class decentralization",
+      "timestamp": "01:26"
+    },
+    {
+      "start": 92.159,
+      "duration": 7.441,
+      "text": "so the rough um goal that uh I have in mind and various other people have in mind at the foundation is to scale the",
+      "timestamp": "01:32"
+    },
+    {
+      "start": 99.6,
+      "duration": 6.64,
+      "text": "L1 3x per year so Tomas has this number that he shared internally which is 300",
+      "timestamp": "01:39"
+    },
+    {
+      "start": 106.24,
+      "duration": 5.6,
+      "text": "million gas by the end of next year and Dankrat has this EIP uh which proposes",
+      "timestamp": "01:46"
+    },
+    {
+      "start": 111.84,
+      "duration": 5.919,
+      "text": "to do 3x per year uh for period of four years and basically what I'm saying is",
+      "timestamp": "01:51"
+    },
+    {
+      "start": 117.759,
+      "duration": 5.04,
+      "text": "why stop at four years right we can just do an extra two years uh and basically",
+      "timestamp": "01:57"
+    },
+    {
+      "start": 122.799,
+      "duration": 6.481,
+      "text": "push the limits of the EVM and reach this gigas per second error",
+      "timestamp": "02:02"
+    },
+    {
+      "start": 129.28,
+      "duration": 6.4,
+      "text": "so this is Dankrat's EIP 7938 and basically the idea that we're that",
+      "timestamp": "02:09"
+    },
+    {
+      "start": 135.68,
+      "duration": 5.199,
+      "text": "it basic idea is that the the the validators will automatically vote for a",
+      "timestamp": "02:15"
+    },
+    {
+      "start": 140.879,
+      "duration": 7.041,
+      "text": "new uh higher gas limit following this exponential schedule and this would give you know a certain sense of",
+      "timestamp": "02:20"
+    },
+    {
+      "start": 147.92,
+      "duration": 6.959,
+      "text": "predictability for those who want to build on Ethereum over the next 5 to 10 years and also because it's this",
+      "timestamp": "02:27"
+    },
+    {
+      "start": 154.879,
+      "duration": 10.161,
+      "text": "exponential growth it's it's also very ambitious Now um not only can we grow the L1 uh by",
+      "timestamp": "02:34"
+    },
+    {
+      "start": 165.04,
+      "duration": 8.0,
+      "text": "orders of magnitude but we can also improve the decentralization of Ethereum so the current meme is that you can run",
+      "timestamp": "02:45"
+    },
+    {
+      "start": 173.04,
+      "duration": 7.6,
+      "text": "uh you know an execution layer client like like like G or Ref on the Raspberry Pi well I'm taking the this meme to the",
+      "timestamp": "02:53"
+    },
+    {
+      "start": 180.64,
+      "duration": 7.28,
+      "text": "next level which is the Raspberry Pi Pico um the Pico is a $7 device it",
+      "timestamp": "03:00"
+    },
+    {
+      "start": 187.92,
+      "duration": 5.679,
+      "text": "consumes one watt of of energy and it's sufficient to have a fully validating",
+      "timestamp": "03:07"
+    },
+    {
+      "start": 193.599,
+      "duration": 5.521,
+      "text": "node on this on this machine basically you just have to download and verify the",
+      "timestamp": "03:13"
+    },
+    {
+      "start": 199.12,
+      "duration": 5.6,
+      "text": "proofs which takes only a few milliseconds now some of my personal goals for this",
+      "timestamp": "03:19"
+    },
+    {
+      "start": 204.72,
+      "duration": 6.72,
+      "text": "year are one to get rid of my external NVMe drive uh and run my validator",
+      "timestamp": "03:24"
+    },
+    {
+      "start": 211.44,
+      "duration": 6.799,
+      "text": "statelessly by verifying uh proofs of validity as opposed to having to download the Ethereum blocks i also want",
+      "timestamp": "03:31"
+    },
+    {
+      "start": 218.239,
+      "duration": 6.56,
+      "text": "to try the Raspberry Pi Pico if you want to help uh coding this uh I'll run it on my validator",
+      "timestamp": "03:38"
+    },
+    {
+      "start": 224.799,
+      "duration": 6.481,
+      "text": "and I also want to from home prove the entirety of Ethereum in real time uh",
+      "timestamp": "03:44"
+    },
+    {
+      "start": 231.28,
+      "duration": 7.2,
+      "text": "using a a cluster of GPUs now in order to uh really unlock the the full",
+      "timestamp": "03:51"
+    },
+    {
+      "start": 238.48,
+      "duration": 5.6,
+      "text": "potential of ZKVMs we need this thing called delayed execution or delayed",
+      "timestamp": "03:58"
+    },
+    {
+      "start": 244.08,
+      "duration": 5.12,
+      "text": "proving and the basic idea is that between two block proposals block N and",
+      "timestamp": "04:04"
+    },
+    {
+      "start": 249.2,
+      "duration": 5.36,
+      "text": "block N plus one there's time to do the proving so the proof for block n can",
+      "timestamp": "04:09"
+    },
+    {
+      "start": 254.56,
+      "duration": 6.959,
+      "text": "basically arrive just a little bit before the proposal for block n plus one and you can use all of this time uh as",
+      "timestamp": "04:14"
+    },
+    {
+      "start": 261.519,
+      "duration": 6.561,
+      "text": "active time for for proving and this is where you know the real time proving meme comes from that you need to be able",
+      "timestamp": "04:21"
+    },
+    {
+      "start": 268.08,
+      "duration": 6.0,
+      "text": "to do proving within one Ethereum slot and if you want to learn more there's an",
+      "timestamp": "04:28"
+    },
+    {
+      "start": 274.08,
+      "duration": 6.88,
+      "text": "e research post about this now scaling the L1 is not just about",
+      "timestamp": "04:34"
+    },
+    {
+      "start": 280.96,
+      "duration": 7.04,
+      "text": "scaling the validators and the wallets and the includers that come with Fossil but there's all sorts of other actors in",
+      "timestamp": "04:40"
+    },
+    {
+      "start": 288.0,
+      "duration": 7.28,
+      "text": "the ecosystem so there's block builders there's block explorers and and RPCs and traditionally the primary bottleneck for",
+      "timestamp": "04:48"
+    },
+    {
+      "start": 295.28,
+      "duration": 5.28,
+      "text": "scaling has been these weak and unsophisticated nodes like we have such",
+      "timestamp": "04:55"
+    },
+    {
+      "start": 300.56,
+      "duration": 6.479,
+      "text": "a high um degree of requirements for these these decentralized nodes that we",
+      "timestamp": "05:00"
+    },
+    {
+      "start": 307.039,
+      "duration": 6.0,
+      "text": "that that has been the main bottleneck for scaling but going forward because we have this solution of SNOX what I expect",
+      "timestamp": "05:07"
+    },
+    {
+      "start": 313.039,
+      "duration": 6.081,
+      "text": "will happen is that the bottleneck will shift actually to these to these other entities and the good news here is that",
+      "timestamp": "05:13"
+    },
+    {
+      "start": 319.12,
+      "duration": 7.76,
+      "text": "these entities are much more sophisticated they have more resources available and the solutions um are",
+      "timestamp": "05:19"
+    },
+    {
+      "start": 326.88,
+      "duration": 6.48,
+      "text": "traditional engineering solutions just traditional database stuff and networking stuff unlike the moon map",
+      "timestamp": "05:26"
+    },
+    {
+      "start": 333.36,
+      "duration": 7.2,
+      "text": "that has been unlocked by uh the ZKVM teams recently so just to give you one example of this",
+      "timestamp": "05:33"
+    },
+    {
+      "start": 340.56,
+      "duration": 7.12,
+      "text": "kind of boring uh traditional engineering um you know GE is using Level DB which is a database from Google",
+      "timestamp": "05:40"
+    },
+    {
+      "start": 347.68,
+      "duration": 5.28,
+      "text": "and Ref is using MDBX and you know these are like traditional things that",
+      "timestamp": "05:47"
+    },
+    {
+      "start": 352.96,
+      "duration": 5.04,
+      "text": "databases that are useful in all sorts of contexts so you know B trees or LSM",
+      "timestamp": "05:52"
+    },
+    {
+      "start": 358.0,
+      "duration": 5.52,
+      "text": "trees if you're familiar with those and what we're seeing now is that there are",
+      "timestamp": "05:58"
+    },
+    {
+      "start": 363.52,
+      "duration": 7.679,
+      "text": "databases that are customuilt for Ethereum specifically the Ethereum estate tree um Coinbase uh base has a",
+      "timestamp": "06:03"
+    },
+    {
+      "start": 371.199,
+      "duration": 5.84,
+      "text": "has a a database um it's still private but um maybe if you DM me I can try and",
+      "timestamp": "06:11"
+    },
+    {
+      "start": 377.039,
+      "duration": 5.761,
+      "text": "help you get access but a few days ago um layer zero announced QMDB with and",
+      "timestamp": "06:17"
+    },
+    {
+      "start": 382.8,
+      "duration": 5.2,
+      "text": "both of these databases are roughly speaking an order of magnitude 10x faster than than the state of the art so",
+      "timestamp": "06:22"
+    },
+    {
+      "start": 388.0,
+      "duration": 7.44,
+      "text": "I think we need to be migrating away from these legacy databases to to new ones okay real time proving this is the",
+      "timestamp": "06:28"
+    },
+    {
+      "start": 395.44,
+      "duration": 6.56,
+      "text": "key thing that was considered to be essentially close to impossible a couple years ago and now we have four different",
+      "timestamp": "06:35"
+    },
+    {
+      "start": 402.0,
+      "duration": 5.84,
+      "text": "teams that have achieved it um and it's a very very hot topic uh including at",
+      "timestamp": "06:42"
+    },
+    {
+      "start": 407.84,
+      "duration": 5.52,
+      "text": "EFCC we have seven talks today about ZKVMs and real-time proving which uh",
+      "timestamp": "06:47"
+    },
+    {
+      "start": 413.36,
+      "duration": 7.04,
+      "text": "which is really cool so um Succinct made this big announcement a few weeks ago",
+      "timestamp": "06:53"
+    },
+    {
+      "start": 420.4,
+      "duration": 6.0,
+      "text": "and they had this really nice animation on realtime.succinct.z the the website unfortunately is is no",
+      "timestamp": "07:00"
+    },
+    {
+      "start": 426.4,
+      "duration": 6.48,
+      "text": "longer active but I think they'll they'll turn it back on soon uh we have risk zero uh that is aiming for",
+      "timestamp": "07:06"
+    },
+    {
+      "start": 432.88,
+      "duration": 8.319,
+      "text": "real-time proving in in in a garage so they've uh they're building a cluster of GPUs on premises in their offices um and",
+      "timestamp": "07:12"
+    },
+    {
+      "start": 441.199,
+      "duration": 6.481,
+      "text": "uh and trying to do real-time proving there and just today ZISK made this amazing announcement again of of of real",
+      "timestamp": "07:21"
+    },
+    {
+      "start": 447.68,
+      "duration": 6.56,
+      "text": "time proving uh and I can see the ZIS team all in green there in the audience which is very recognizable and Airbender",
+      "timestamp": "07:27"
+    },
+    {
+      "start": 454.24,
+      "duration": 5.76,
+      "text": "also had this massive announcement where they have truly excellent uh performance",
+      "timestamp": "07:34"
+    },
+    {
+      "start": 460.0,
+      "duration": 5.52,
+      "text": "and um yeah they're they're basically very very close to to real-time proving as well",
+      "timestamp": "07:40"
+    },
+    {
+      "start": 465.52,
+      "duration": 6.48,
+      "text": "and the cool thing is that three of these teams here uh RZero Zisk and Airbender have fully open source and",
+      "timestamp": "07:45"
+    },
+    {
+      "start": 472.0,
+      "duration": 6.96,
+      "text": "permissive licensing specifically for the prover side of things including the GPU acceleration and the multi-GPU",
+      "timestamp": "07:52"
+    },
+    {
+      "start": 478.96,
+      "duration": 6.079,
+      "text": "cluster uh orchestration now proving is a oneofend assumption",
+      "timestamp": "07:58"
+    },
+    {
+      "start": 485.039,
+      "duration": 7.84,
+      "text": "meaning that we just need one entity in the world to do the proving in order for the proofs to be generated um but you",
+      "timestamp": "08:05"
+    },
+    {
+      "start": 492.879,
+      "duration": 5.6,
+      "text": "know because we care so deeply about decentralization we want the n to be fairly large so in particular we don't",
+      "timestamp": "08:12"
+    },
+    {
+      "start": 498.479,
+      "duration": 5.28,
+      "text": "want to depend on data centers why because there's only about let's say 100",
+      "timestamp": "08:18"
+    },
+    {
+      "start": 503.759,
+      "duration": 6.0,
+      "text": "data center operators in the world and n equals 100 is not great especially if the barrier to entry is to build a data",
+      "timestamp": "08:23"
+    },
+    {
+      "start": 509.759,
+      "duration": 7.28,
+      "text": "center so um one thing we've observed is that you know millions of people tens of millions maybe of people have electric",
+      "timestamp": "08:29"
+    },
+    {
+      "start": 517.039,
+      "duration": 5.601,
+      "text": "cars and that is uh something that can be done at home so the the guidelines",
+      "timestamp": "08:37"
+    },
+    {
+      "start": 522.64,
+      "duration": 5.84,
+      "text": "that we have for real-time proving is a maximum of $100,000 of capex for the the",
+      "timestamp": "08:42"
+    },
+    {
+      "start": 528.48,
+      "duration": 6.96,
+      "text": "the cluster and at most 10 kilowatt so this Tesla home charger is rated at 11.5",
+      "timestamp": "08:48"
+    },
+    {
+      "start": 535.44,
+      "duration": 5.519,
+      "text": "kilowatt and what we find is that the bottleneck is actually the power not the",
+      "timestamp": "08:55"
+    },
+    {
+      "start": 540.959,
+      "duration": 6.241,
+      "text": "cost so if you uh you know purchase a GPU cluster for 100k um it will more",
+      "timestamp": "09:00"
+    },
+    {
+      "start": 547.2,
+      "duration": 6.56,
+      "text": "likely than not consume much more than 10 kilo 10 kilowatts okay so what I think will happen over",
+      "timestamp": "09:07"
+    },
+    {
+      "start": 553.76,
+      "duration": 5.519,
+      "text": "the the next few weeks and months is that the notion of real-time proving is going to crystallize a little bit more",
+      "timestamp": "09:13"
+    },
+    {
+      "start": 559.279,
+      "duration": 6.081,
+      "text": "and and formalize and here are here's a kind of a first draft of what we need in",
+      "timestamp": "09:19"
+    },
+    {
+      "start": 565.36,
+      "duration": 6.64,
+      "text": "order to really take Ethereum uh to the next level so of of course we need the latency to be very very low um a little",
+      "timestamp": "09:25"
+    },
+    {
+      "start": 572.0,
+      "duration": 6.24,
+      "text": "bit less than 12 seconds 10 seconds for 99% of mainet blocks and we need the",
+      "timestamp": "09:32"
+    },
+    {
+      "start": 578.24,
+      "duration": 6.0,
+      "text": "capex and the power to be limited and we also need the code to be open source for for the prover and on the verifier side",
+      "timestamp": "09:38"
+    },
+    {
+      "start": 584.24,
+      "duration": 5.039,
+      "text": "of things we also have some requirements for example the security needs to be high enough at least 100 bits of",
+      "timestamp": "09:44"
+    },
+    {
+      "start": 589.279,
+      "duration": 6.0,
+      "text": "security proof sizes need to be reasonably small etc etc",
+      "timestamp": "09:49"
+    },
+    {
+      "start": 595.279,
+      "duration": 5.441,
+      "text": "now let's focus on power because that is really the the bottleneck so um kind of",
+      "timestamp": "09:55"
+    },
+    {
+      "start": 600.72,
+      "duration": 5.52,
+      "text": "a state-of-the-art art artis 5 execution runs at about a gigahertz actually a",
+      "timestamp": "10:00"
+    },
+    {
+      "start": 606.24,
+      "duration": 6.48,
+      "text": "little bit more 1.5 that's what this team has achieved and like roughly speaking the order of magnitude is that",
+      "timestamp": "10:06"
+    },
+    {
+      "start": 612.72,
+      "duration": 5.119,
+      "text": "uh this this exeutor will consume five watts right is like enough power to for",
+      "timestamp": "10:12"
+    },
+    {
+      "start": 617.839,
+      "duration": 7.44,
+      "text": "the CPU and and the hard drive that will hold the ethereum uh state tree and then",
+      "timestamp": "10:17"
+    },
+    {
+      "start": 625.279,
+      "duration": 5.761,
+      "text": "you basically need a cluster of GPUs to keep up with the with the execution and",
+      "timestamp": "10:25"
+    },
+    {
+      "start": 631.04,
+      "duration": 7.68,
+      "text": "roughly speaking state-of-the-art um GPU proving for example from airbender achieve roughly 10 megahertz per CPU so",
+      "timestamp": "10:31"
+    },
+    {
+      "start": 638.72,
+      "duration": 5.76,
+      "text": "you need 100 CPUs each CPU consumes 100 times more than the exeutor so you",
+      "timestamp": "10:38"
+    },
+    {
+      "start": 644.48,
+      "duration": 7.2,
+      "text": "that's a total of 100,000 sorry 10,000 x overhead uh to do the the proving from a",
+      "timestamp": "10:44"
+    },
+    {
+      "start": 651.68,
+      "duration": 6.0,
+      "text": "power perspective now you may think okay 10,000x is is terrible right uh but I",
+      "timestamp": "10:51"
+    },
+    {
+      "start": 657.68,
+      "duration": 9.12,
+      "text": "see it as a great opportunity to to improve it means that there's more juice to be squeezed and in particular um my I",
+      "timestamp": "10:57"
+    },
+    {
+      "start": 666.8,
+      "duration": 5.92,
+      "text": "guess guess talking to to to many of the teams here is that there's at least another 10x from software improvements",
+      "timestamp": "11:06"
+    },
+    {
+      "start": 672.72,
+      "duration": 5.119,
+      "text": "and there's another 10x from uh hardware improvements specifically Snark A6 and",
+      "timestamp": "11:12"
+    },
+    {
+      "start": 677.839,
+      "duration": 6.881,
+      "text": "and and things like that and if that's not enough to get to the scale that we want we have another trick um down our",
+      "timestamp": "11:17"
+    },
+    {
+      "start": 684.72,
+      "duration": 6.16,
+      "text": "sleeve which is multi-remise um proving so we can have collaborative",
+      "timestamp": "11:24"
+    },
+    {
+      "start": 690.88,
+      "duration": 8.399,
+      "text": "proving across different clusters so for example me from home I can collaborate with someone else and even though we um",
+      "timestamp": "11:30"
+    },
+    {
+      "start": 699.279,
+      "duration": 7.441,
+      "text": "single-handedly we don't have enough power combined we have enough power to to do the to do the proving",
+      "timestamp": "11:39"
+    },
+    {
+      "start": 706.72,
+      "duration": 8.4,
+      "text": "now um one of the amazing things is that we've seen in the last few months an absolute blossoming of of ZKVMs",
+      "timestamp": "11:46"
+    },
+    {
+      "start": 715.12,
+      "duration": 5.52,
+      "text": "so uh here we have 10 ZKVMs that can prove Ethereum blocks and proving an",
+      "timestamp": "11:55"
+    },
+    {
+      "start": 720.64,
+      "duration": 7.52,
+      "text": "Ethereum block is you know quite difficult to reach that level uh partly because you need to have a virtual",
+      "timestamp": "12:00"
+    },
+    {
+      "start": 728.16,
+      "duration": 6.56,
+      "text": "machine and an ISA which is um you know flexible enough to to to prove it but also you need all of the continuation",
+      "timestamp": "12:08"
+    },
+    {
+      "start": 734.72,
+      "duration": 5.359,
+      "text": "and recursion infrastructure to take these big blocks chunk them into much smaller statements and then glue",
+      "timestamp": "12:14"
+    },
+    {
+      "start": 740.079,
+      "duration": 6.801,
+      "text": "everything back together with recussion so massive congrats to these uh test 10 teams that have achieved proving of L1",
+      "timestamp": "12:20"
+    },
+    {
+      "start": 746.88,
+      "duration": 6.88,
+      "text": "blocks and there's another nine that are aiming to achieve um the proving of L1",
+      "timestamp": "12:26"
+    },
+    {
+      "start": 753.76,
+      "duration": 5.36,
+      "text": "blocks uh uh this year and within these 19 teams all of which by the way are",
+      "timestamp": "12:33"
+    },
+    {
+      "start": 759.12,
+      "duration": 6.8,
+      "text": "open source uh we have 13 um that are aiming for uh real time proving or have",
+      "timestamp": "12:39"
+    },
+    {
+      "start": 765.92,
+      "duration": 6.479,
+      "text": "either achieved real-time proving or aiming for real time uh proving this year and so by the end of this year what",
+      "timestamp": "12:45"
+    },
+    {
+      "start": 772.399,
+      "duration": 7.201,
+      "text": "I'm expecting will happen is that we'll have at least uh 10 ZKVMs and that is amazing diversity and by the way this",
+      "timestamp": "12:52"
+    },
+    {
+      "start": 779.6,
+      "duration": 5.359,
+      "text": "diversity is important for security reasons because just like uh we assume",
+      "timestamp": "12:59"
+    },
+    {
+      "start": 784.959,
+      "duration": 6.401,
+      "text": "that every single execution layer client and consensus layer client is buggy which is why we emphasize so much on",
+      "timestamp": "13:04"
+    },
+    {
+      "start": 791.36,
+      "duration": 8.32,
+      "text": "client diversity we have the exact same strategy for ZKVM so more likely than not every ZKVM has critical bugs but if",
+      "timestamp": "13:11"
+    },
+    {
+      "start": 799.68,
+      "duration": 7.599,
+      "text": "we have a diversity of ZKVMs then that gives us uh some some amount of robustness",
+      "timestamp": "13:19"
+    },
+    {
+      "start": 807.279,
+      "duration": 7.761,
+      "text": "now this is my last slide if you're not familiar with this uh website it's basically trying to provide legibility",
+      "timestamp": "13:27"
+    },
+    {
+      "start": 815.04,
+      "duration": 6.16,
+      "text": "into ZKVMs and their performance the cost uh in dollars and the the the",
+      "timestamp": "13:35"
+    },
+    {
+      "start": 821.2,
+      "duration": 5.92,
+      "text": "latency in in in seconds and right now we're basically encouraging the various",
+      "timestamp": "13:41"
+    },
+    {
+      "start": 827.12,
+      "duration": 7.519,
+      "text": "ZKVMs to uh submit proofs for one in every 100 blocks and uh we have this",
+      "timestamp": "13:47"
+    },
+    {
+      "start": 834.639,
+      "duration": 5.2,
+      "text": "kind of mini block explorer and uh there's also these uh pizza slices which",
+      "timestamp": "13:54"
+    },
+    {
+      "start": 839.839,
+      "duration": 9.921,
+      "text": "might be reminiscent of L2B and actually the in some sense the mission of Eve proofs is to be the L2B of of ZKVMs",
+      "timestamp": "13:59"
+    },
+    {
+      "start": 849.76,
+      "duration": 5.04,
+      "text": "so that's it um I've negotiated with the the crew for an extra five minutes of",
+      "timestamp": "14:09"
+    },
+    {
+      "start": 854.8,
+      "duration": 6.16,
+      "text": "questions because I'm the last speaker so feel free to shoot ahead and yeah looking forward to to your questions",
+      "timestamp": "14:14"
+    },
+    {
+      "start": 860.96,
+      "duration": 7.74,
+      "text": "[Applause]",
+      "timestamp": "14:20"
+    },
+    {
+      "start": 872.399,
+      "duration": 7.761,
+      "text": "any questions do we have a second mic",
+      "timestamp": "14:32"
+    },
+    {
+      "start": 880.16,
+      "duration": 8.52,
+      "text": "i will bring it back oh um how how does this relate to the beam chain",
+      "timestamp": "14:40"
+    },
+    {
+      "start": 890.32,
+      "duration": 6.48,
+      "text": "okay great question so the beam chain is dedicated to the consensus layer um",
+      "timestamp": "14:50"
+    },
+    {
+      "start": 896.8,
+      "duration": 8.399,
+      "text": "there is snogification there so we do want to snify in real time the entire consensus layer um but it in some sense",
+      "timestamp": "14:56"
+    },
+    {
+      "start": 905.199,
+      "duration": 5.041,
+      "text": "it's it's a separate layer and therefore um not not not related there are some",
+      "timestamp": "15:05"
+    },
+    {
+      "start": 910.24,
+      "duration": 6.88,
+      "text": "some definite synergies so one of the synergies is that the same tooling the same ZKVMs can be used for for for both",
+      "timestamp": "15:10"
+    },
+    {
+      "start": 917.12,
+      "duration": 6.48,
+      "text": "layers um and um I guess one of one differentiation",
+      "timestamp": "15:17"
+    },
+    {
+      "start": 923.6,
+      "duration": 7.599,
+      "text": "between the beam chain and the execution layer is the amount of resources necessary to do the proving so for the",
+      "timestamp": "15:23"
+    },
+    {
+      "start": 931.199,
+      "duration": 7.44,
+      "text": "EVM we're capping ourselves to uh you know a 10 kilowatt cluster which is quite a lot of power um for the beam",
+      "timestamp": "15:31"
+    },
+    {
+      "start": 938.639,
+      "duration": 7.841,
+      "text": "chain what we're aiming for is a single laptop CPU to be able to prove the entire consensus layer in real time um",
+      "timestamp": "15:38"
+    },
+    {
+      "start": 946.48,
+      "duration": 6.96,
+      "text": "and the reason why we can achieve uh such low proving uh resources for the beam chain is that we can make it",
+      "timestamp": "15:46"
+    },
+    {
+      "start": 953.44,
+      "duration": 5.199,
+      "text": "extremely uh snark friendly from from from day one so we would use snark",
+      "timestamp": "15:53"
+    },
+    {
+      "start": 958.639,
+      "duration": 6.32,
+      "text": "friendly hash functions like poseidon and snark friendly signatures uh that are that are hashbased as an as an",
+      "timestamp": "15:58"
+    },
+    {
+      "start": 964.959,
+      "duration": 5.361,
+      "text": "alternative to BLS bls is extremely extremely uh snark unfriendly so by",
+      "timestamp": "16:04"
+    },
+    {
+      "start": 970.32,
+      "duration": 5.439,
+      "text": "swapping BLS for something postquantum secure we also gain at the same time uh",
+      "timestamp": "16:10"
+    },
+    {
+      "start": 975.759,
+      "duration": 5.841,
+      "text": "snark friendliness yes um just a question if you can",
+      "timestamp": "16:15"
+    },
+    {
+      "start": 981.6,
+      "duration": 7.52,
+      "text": "comment a bit on uh red how reducing slot times affect this because you're shown a delta like two seconds uh when",
+      "timestamp": "16:21"
+    },
+    {
+      "start": 989.12,
+      "duration": 10.399,
+      "text": "you formalize what real time proving is so yeah yeah so um fantastic question um when",
+      "timestamp": "16:29"
+    },
+    {
+      "start": 999.519,
+      "duration": 5.361,
+      "text": "you do the the proving a a lot of the components uh are either like massively",
+      "timestamp": "16:39"
+    },
+    {
+      "start": 1004.88,
+      "duration": 6.24,
+      "text": "paralyzable or um are take linear time with the amount of work so if you do the",
+      "timestamp": "16:44"
+    },
+    {
+      "start": 1011.12,
+      "duration": 7.279,
+      "text": "the initial execution which is sequential work that is linear in the in in the gas used so if we reduce by two",
+      "timestamp": "16:51"
+    },
+    {
+      "start": 1018.399,
+      "duration": 7.201,
+      "text": "the slot duration and also reduce by two the the gas limit then the execution doesn't change um all of the paralyzable",
+      "timestamp": "16:58"
+    },
+    {
+      "start": 1025.6,
+      "duration": 7.76,
+      "text": "stuff that also you know doesn't really matter um but one of the things that we we have is kind of this logarithmic",
+      "timestamp": "17:05"
+    },
+    {
+      "start": 1033.36,
+      "duration": 5.52,
+      "text": "overhead to the proving and there's two components one is that when you take",
+      "timestamp": "17:13"
+    },
+    {
+      "start": 1038.88,
+      "duration": 6.4,
+      "text": "your block and you split it into chunks you have to basically recursively um",
+      "timestamp": "17:18"
+    },
+    {
+      "start": 1045.28,
+      "duration": 5.36,
+      "text": "take the proofs in order to have a meta proof and and here you have a basically",
+      "timestamp": "17:25"
+    },
+    {
+      "start": 1050.64,
+      "duration": 6.159,
+      "text": "a binary tree and the depth is is login um and and here basically when you when",
+      "timestamp": "17:30"
+    },
+    {
+      "start": 1056.799,
+      "duration": 5.681,
+      "text": "you decrease the total amount of of leaves you only reducing by one layer",
+      "timestamp": "17:36"
+    },
+    {
+      "start": 1062.48,
+      "duration": 6.079,
+      "text": "and so you're not you still have this this overhead which is kind of um annoying the good news is that the ZISK",
+      "timestamp": "17:42"
+    },
+    {
+      "start": 1068.559,
+      "duration": 6.0,
+      "text": "team today made this you know in their presentation they showed that the recursion is just extremely extremely",
+      "timestamp": "17:48"
+    },
+    {
+      "start": 1074.559,
+      "duration": 6.321,
+      "text": "fast uh the latest numbers is like 150 milliseconds uh for for a 2 to1 proof",
+      "timestamp": "17:54"
+    },
+    {
+      "start": 1080.88,
+      "duration": 5.6,
+      "text": "folding and I believe they can also like do multiple recursions on a single GPU",
+      "timestamp": "18:00"
+    },
+    {
+      "start": 1086.48,
+      "duration": 7.84,
+      "text": "maybe the number is something like like 16 so this part here is actually not too worrisome for me um and then the other",
+      "timestamp": "18:06"
+    },
+    {
+      "start": 1094.32,
+      "duration": 7.84,
+      "text": "component is the gossiping of the proof and that is also logarithmic because when you have a a a gossip ch gossip uh",
+      "timestamp": "18:14"
+    },
+    {
+      "start": 1102.16,
+      "duration": 7.84,
+      "text": "pitspin network you basically have you connect to some peers and the other peers also connect to other peers and you have this this exponential anyway um",
+      "timestamp": "18:22"
+    },
+    {
+      "start": 1110.0,
+      "duration": 5.44,
+      "text": "there's like overhead to gossiping and um you know that's maybe on the order of",
+      "timestamp": "18:30"
+    },
+    {
+      "start": 1115.44,
+      "duration": 7.44,
+      "text": "of of one second or or half a second or something so if we if we start reducing the slot durations too low then that's",
+      "timestamp": "18:35"
+    },
+    {
+      "start": 1122.88,
+      "duration": 6.32,
+      "text": "suddenly like the the gossiping time start to dominate and the recursion time also dominates but right now with 12",
+      "timestamp": "18:42"
+    },
+    {
+      "start": 1129.2,
+      "duration": 5.839,
+      "text": "seconds there's a lot of room to go down to six",
+      "timestamp": "18:49"
+    },
+    {
+      "start": 1135.039,
+      "duration": 4.36,
+      "text": "which is the proposal yeah",
+      "timestamp": "18:55"
+    },
+    {
+      "start": 1140.08,
+      "duration": 3.0,
+      "text": "yeah",
+      "timestamp": "19:00"
+    },
+    {
+      "start": 1150.24,
+      "duration": 6.08,
+      "text": "um so on Twitter I've seen for example Nezarmind and uh some other clients",
+      "timestamp": "19:10"
+    },
+    {
+      "start": 1156.32,
+      "duration": 5.04,
+      "text": "reaching one gigas and I was wondering",
+      "timestamp": "19:16"
+    },
+    {
+      "start": 1161.36,
+      "duration": 5.12,
+      "text": "uh do you think uh with the current hardware it will be possible if we run",
+      "timestamp": "19:21"
+    },
+    {
+      "start": 1166.48,
+      "duration": 6.0,
+      "text": "those uh clients yeah great question so um one of the",
+      "timestamp": "19:26"
+    },
+    {
+      "start": 1172.48,
+      "duration": 6.88,
+      "text": "things that um the the CL execution layer client devs have have been doing is launching perfets that stands for",
+      "timestamp": "19:32"
+    },
+    {
+      "start": 1179.36,
+      "duration": 6.319,
+      "text": "performance test nets and actually this is I believe a screenshot of never mind and not only have they reached one gigas",
+      "timestamp": "19:39"
+    },
+    {
+      "start": 1185.679,
+      "duration": 5.36,
+      "text": "but they've actually reached six gigas on their screenshot and the the EVM is",
+      "timestamp": "19:45"
+    },
+    {
+      "start": 1191.039,
+      "duration": 5.441,
+      "text": "being pushed to extremes uh we saw the layer zero they they they're they're",
+      "timestamp": "19:51"
+    },
+    {
+      "start": 1196.48,
+      "duration": 7.6,
+      "text": "claiming a million transactions per second which is kind of completely uh in insane um and so I think you know how I",
+      "timestamp": "19:56"
+    },
+    {
+      "start": 1204.08,
+      "duration": 6.24,
+      "text": "said that there's these two different buckets of engineering there's the moon math with the snarks which traditionally",
+      "timestamp": "20:04"
+    },
+    {
+      "start": 1210.32,
+      "duration": 6.479,
+      "text": "was thought to be impossible but that actually is no longer the bottleneck uh what I expect will happen when we grow",
+      "timestamp": "20:10"
+    },
+    {
+      "start": 1216.799,
+      "duration": 5.921,
+      "text": "3x per year like the ZKVMs improve 10x per year like 3x per year is like",
+      "timestamp": "20:16"
+    },
+    {
+      "start": 1222.72,
+      "duration": 5.36,
+      "text": "child's play um but for the traditional engineers like improving databases at 3x",
+      "timestamp": "20:22"
+    },
+    {
+      "start": 1228.08,
+      "duration": 8.88,
+      "text": "period that's that's that's much much harder um oh okay uh with this diversity of ZKVMs",
+      "timestamp": "20:28"
+    },
+    {
+      "start": 1236.96,
+      "duration": 5.12,
+      "text": "like how we're going to basically choose which ZKVMs kind of qualify for being",
+      "timestamp": "20:36"
+    },
+    {
+      "start": 1242.08,
+      "duration": 6.32,
+      "text": "accepted to produce proofs in Ethereum i suppose there will be some kind of qualities maybe I don't know the size of",
+      "timestamp": "20:42"
+    },
+    {
+      "start": 1248.4,
+      "duration": 7.2,
+      "text": "the proof like how long it takes to uh generate this proof maybe postquantum security maybe what kind of aspects of",
+      "timestamp": "20:48"
+    },
+    {
+      "start": 1255.6,
+      "duration": 8.319,
+      "text": "ZKVMs you kind of look for to kind of be accept to for ZVM to kind of be accepted to be as a real prover for Ethereum yeah",
+      "timestamp": "20:55"
+    },
+    {
+      "start": 1263.919,
+      "duration": 6.081,
+      "text": "that that's a great question I basically try to kind of list out the the requirements here these are are soft",
+      "timestamp": "21:03"
+    },
+    {
+      "start": 1270.0,
+      "duration": 7.039,
+      "text": "requirements in the sense that every validator ultimately every operator can do do whatever they want um but the I",
+      "timestamp": "21:10"
+    },
+    {
+      "start": 1277.039,
+      "duration": 6.081,
+      "text": "think the thing that makes sense from my perspective is to have client diversity",
+      "timestamp": "21:17"
+    },
+    {
+      "start": 1283.12,
+      "duration": 7.12,
+      "text": "internal to an operator so traditionally the way we do client diversity is that it's across the operators like I run g",
+      "timestamp": "21:23"
+    },
+    {
+      "start": 1290.24,
+      "duration": 5.28,
+      "text": "like you run ref and some other guy runs run something else but here with proofs",
+      "timestamp": "21:30"
+    },
+    {
+      "start": 1295.52,
+      "duration": 6.639,
+      "text": "it's actually very cheap and easy to be a to run multiple clients uh on on on",
+      "timestamp": "21:35"
+    },
+    {
+      "start": 1302.159,
+      "duration": 5.921,
+      "text": "one device just because you're each proof takes a few milliseconds to verify so you can verify five of them so you",
+      "timestamp": "21:42"
+    },
+    {
+      "start": 1308.08,
+      "duration": 5.76,
+      "text": "can imagine um a setup similar to vouch i don't know if you're familiar with vouch but vouch is basically this",
+      "timestamp": "21:48"
+    },
+    {
+      "start": 1313.84,
+      "duration": 6.24,
+      "text": "institutional tool where you can run multiple clients for example three of them and if two out of the three agree",
+      "timestamp": "21:53"
+    },
+    {
+      "start": 1320.08,
+      "duration": 7.04,
+      "text": "then that is your canonical view of of the chain um now I think what would be nice is that there's some sort of like",
+      "timestamp": "22:00"
+    },
+    {
+      "start": 1327.12,
+      "duration": 7.12,
+      "text": "soft rough consensus around what is this list of clients of ZKVM sorry uh that",
+      "timestamp": "22:07"
+    },
+    {
+      "start": 1334.24,
+      "duration": 7.36,
+      "text": "are that are used to verify the the proofs and once we have this this convergence then it it means that um you",
+      "timestamp": "22:14"
+    },
+    {
+      "start": 1341.6,
+      "duration": 7.84,
+      "text": "know it's things simplify so for example the the gossiping simplifies and the the proving simplifies and and so in my",
+      "timestamp": "22:21"
+    },
+    {
+      "start": 1349.44,
+      "duration": 6.96,
+      "text": "mental model right now is that we would want to kind of soft agree on five of them and have a four out of five rule",
+      "timestamp": "22:29"
+    },
+    {
+      "start": 1356.4,
+      "duration": 6.159,
+      "text": "for example and um yeah it's going to be interesting to see",
+      "timestamp": "22:36"
+    },
+    {
+      "start": 1362.559,
+      "duration": 6.881,
+      "text": "you know which five could be selected um but um what I what I expect so one thing",
+      "timestamp": "22:42"
+    },
+    {
+      "start": 1369.44,
+      "duration": 5.76,
+      "text": "that I didn't mention is that not only do we want diversity at the ZKVM level but we want to retain the diversity of",
+      "timestamp": "22:49"
+    },
+    {
+      "start": 1375.2,
+      "duration": 6.959,
+      "text": "the execution layer client so one way to do it is to pair one ZKVM with one",
+      "timestamp": "22:55"
+    },
+    {
+      "start": 1382.159,
+      "duration": 7.361,
+      "text": "execution layer client so for example you could pair like ZISK with with GE and you can pair risk zero with with",
+      "timestamp": "23:02"
+    },
+    {
+      "start": 1389.52,
+      "duration": 8.24,
+      "text": "with Ref or something and the way that I would do the pairing is that um I would have the fastest ZKVM with the slowest",
+      "timestamp": "23:09"
+    },
+    {
+      "start": 1397.76,
+      "duration": 8.96,
+      "text": "execution layer client so that when combined you kind of have an average uh kind of real real time prover um and so",
+      "timestamp": "23:17"
+    },
+    {
+      "start": 1406.72,
+      "duration": 6.959,
+      "text": "what I would do basically is pick pick the fastest the five fastest ZKVMs and pair them with the with the five",
+      "timestamp": "23:26"
+    },
+    {
+      "start": 1413.679,
+      "duration": 5.12,
+      "text": "existing execution layer clients and hope that this average it out to to to",
+      "timestamp": "23:33"
+    },
+    {
+      "start": 1418.799,
+      "duration": 4.521,
+      "text": "under one second of latency",
+      "timestamp": "23:38"
+    },
+    {
+      "start": 1425.679,
+      "duration": 5.601,
+      "text": "um doesn't it become a arms race that you're scaling the execution layer that",
+      "timestamp": "23:45"
+    },
+    {
+      "start": 1431.28,
+      "duration": 5.36,
+      "text": "you also now need to scale the proving and the proving is already at a 10,000x",
+      "timestamp": "23:51"
+    },
+    {
+      "start": 1436.64,
+      "duration": 10.399,
+      "text": "overhead and even with 100 10x on uh hardware 10x on software that's 100x um",
+      "timestamp": "23:56"
+    },
+    {
+      "start": 1447.039,
+      "duration": 8.561,
+      "text": "and you also have to basically include another overhead for scaling the execution layer in this case right um so",
+      "timestamp": "24:07"
+    },
+    {
+      "start": 1455.6,
+      "duration": 7.12,
+      "text": "because the proving the proving time will essentially increase if the execution layer um performance also",
+      "timestamp": "24:15"
+    },
+    {
+      "start": 1462.72,
+      "duration": 6.959,
+      "text": "increases right okay so there's a lot a lot to unpack here let me address your very last question which is when you",
+      "timestamp": "24:22"
+    },
+    {
+      "start": 1469.679,
+      "duration": 5.921,
+      "text": "increase the gas limit does the latency increase and the answer is no and I have",
+      "timestamp": "24:29"
+    },
+    {
+      "start": 1475.6,
+      "duration": 6.16,
+      "text": "to go to my extra slides to answer this technical question uh which is this uh",
+      "timestamp": "24:35"
+    },
+    {
+      "start": 1481.76,
+      "duration": 6.56,
+      "text": "so there's a fantastic EIP called EAP7825 which caps the amount of gas used per",
+      "timestamp": "24:41"
+    },
+    {
+      "start": 1488.32,
+      "duration": 7.12,
+      "text": "transaction and this is landing in Fusaka this year and the cap is 30 million gas and the amazing thing with",
+      "timestamp": "24:48"
+    },
+    {
+      "start": 1495.44,
+      "duration": 5.28,
+      "text": "this EIP is uh what I call subblocks or mini blocks so you can take a big",
+      "timestamp": "24:55"
+    },
+    {
+      "start": 1500.72,
+      "duration": 5.76,
+      "text": "Ethereum block and you can chunk it into subblocks at transaction boundaries and",
+      "timestamp": "25:00"
+    },
+    {
+      "start": 1506.48,
+      "duration": 6.88,
+      "text": "then you can do the execution which is the sequential part of all of these sublocks in in parallel and so you can",
+      "timestamp": "25:06"
+    },
+    {
+      "start": 1513.36,
+      "duration": 5.439,
+      "text": "have enormous enormous blocks but because you can chunk at transaction boundaries very easily it's not going to",
+      "timestamp": "25:13"
+    },
+    {
+      "start": 1518.799,
+      "duration": 5.201,
+      "text": "affect the the latency and actually SP1 when they announced ISP on hyper cube",
+      "timestamp": "25:18"
+    },
+    {
+      "start": 1524.0,
+      "duration": 7.919,
+      "text": "that does the real-time proving they use this trick in order to to to get the under the 12 seconds",
+      "timestamp": "25:24"
+    },
+    {
+      "start": 1531.919,
+      "duration": 6.561,
+      "text": "now your other question was related to the fact that yes where we where we are",
+      "timestamp": "25:31"
+    },
+    {
+      "start": 1538.48,
+      "duration": 8.319,
+      "text": "versus where we want to be is roughly 600x so we're at about 1 point well we're at exactly uh 1.5 meggas per",
+      "timestamp": "25:38"
+    },
+    {
+      "start": 1546.799,
+      "duration": 8.081,
+      "text": "second right now and we want to get to one gigas per second so that's roughly a 600x where do we find the 600x now i",
+      "timestamp": "25:46"
+    },
+    {
+      "start": 1554.88,
+      "duration": 6.24,
+      "text": "think there's at least 10x from software at least 10x from hardware so let's",
+      "timestamp": "25:54"
+    },
+    {
+      "start": 1561.12,
+      "duration": 6.72,
+      "text": "let's but the hope is that it's more than 10x maybe it's 20x on hardware and like 30x",
+      "timestamp": "26:01"
+    },
+    {
+      "start": 1567.84,
+      "duration": 7.439,
+      "text": "on software but even if we take the worst case scenario where it's only 10x and only 6x it's only 10x on both",
+      "timestamp": "26:07"
+    },
+    {
+      "start": 1575.279,
+      "duration": 6.64,
+      "text": "software and hardware we would be off by a factor of six right because you got 10 10 we need to get to 600 so we off by",
+      "timestamp": "26:15"
+    },
+    {
+      "start": 1581.919,
+      "duration": 5.12,
+      "text": "six well we just need to do collaborative proving across six different premises in order to to reach",
+      "timestamp": "26:21"
+    },
+    {
+      "start": 1587.039,
+      "duration": 3.0,
+      "text": "that",
+      "timestamp": "26:27"
+    },
+    {
+      "start": 1599.919,
+      "duration": 5.601,
+      "text": "hi Justin I see a lot of talk about um risk five does that mean we're like",
+      "timestamp": "26:39"
+    },
+    {
+      "start": 1605.52,
+      "duration": 5.759,
+      "text": "switching from EVM to risk five so at this point in time where the only thing",
+      "timestamp": "26:45"
+    },
+    {
+      "start": 1611.279,
+      "duration": 6.241,
+      "text": "that we're doing is increasing the gas limit you can use whatever um ISA that",
+      "timestamp": "26:51"
+    },
+    {
+      "start": 1617.52,
+      "duration": 7.2,
+      "text": "you want and actually you can see uh that some people are using standardized ISAs like MIP and was um some teams are",
+      "timestamp": "26:57"
+    },
+    {
+      "start": 1624.72,
+      "duration": 5.36,
+      "text": "actually like hardcore rewriting the EVM using circuits and and kind of low-level",
+      "timestamp": "27:04"
+    },
+    {
+      "start": 1630.08,
+      "duration": 5.199,
+      "text": "programming languages so that's what linear and kakarot have done and then uh",
+      "timestamp": "27:10"
+    },
+    {
+      "start": 1635.279,
+      "duration": 6.88,
+      "text": "there's a few teams out there that have like exotic ISAs which mean that it the tooling is not there to have compilers",
+      "timestamp": "27:15"
+    },
+    {
+      "start": 1642.159,
+      "duration": 5.361,
+      "text": "from high level implementations like ref all the way down to this to this new ISA",
+      "timestamp": "27:22"
+    },
+    {
+      "start": 1647.52,
+      "duration": 9.279,
+      "text": "um but you know having a diversity of ISAs is actually a great thing in the short term why because a lot of this um",
+      "timestamp": "27:27"
+    },
+    {
+      "start": 1656.799,
+      "duration": 5.441,
+      "text": "a lot of this tooling is dependent on LLVM so LLVM is basically this this this",
+      "timestamp": "27:36"
+    },
+    {
+      "start": 1662.24,
+      "duration": 5.52,
+      "text": "compiler framework that allows you to take high level languages and compile them to things like Ris 5 what if",
+      "timestamp": "27:42"
+    },
+    {
+      "start": 1667.76,
+      "duration": 5.2,
+      "text": "there's a bug in LLVM then now like all of all of these ZKVMs are are affected",
+      "timestamp": "27:47"
+    },
+    {
+      "start": 1672.96,
+      "duration": 5.599,
+      "text": "at the same time there's correlated failures so having a diversity with things like linear and ref and and",
+      "timestamp": "27:52"
+    },
+    {
+      "start": 1678.559,
+      "duration": 7.681,
+      "text": "maiden and whatnot that's actually really helpful now if you're willing to think on a longer time frame um let's",
+      "timestamp": "27:58"
+    },
+    {
+      "start": 1686.24,
+      "duration": 6.96,
+      "text": "say three to five six years um then one of Vitalik's idea uh which I you know",
+      "timestamp": "28:06"
+    },
+    {
+      "start": 1693.2,
+      "duration": 5.92,
+      "text": "really like is that we could enshrine a new ISA that is ZK friendly under the",
+      "timestamp": "28:13"
+    },
+    {
+      "start": 1699.12,
+      "duration": 5.36,
+      "text": "EVM and the the current proposal I guess is to use that to to use risk 5 even",
+      "timestamp": "28:19"
+    },
+    {
+      "start": 1704.48,
+      "duration": 8.48,
+      "text": "though we're you know looking at everything else and there's several advantages to doing that one uh is is um",
+      "timestamp": "28:24"
+    },
+    {
+      "start": 1712.96,
+      "duration": 7.12,
+      "text": "performance so you would allow smart contract developers to access risk 5 directly without the overhead of the VM",
+      "timestamp": "28:32"
+    },
+    {
+      "start": 1720.08,
+      "duration": 5.44,
+      "text": "and you might get a 10x improvement so you'd be paying 10 times less gas uh in",
+      "timestamp": "28:40"
+    },
+    {
+      "start": 1725.52,
+      "duration": 5.36,
+      "text": "order to make use of of of Ethereum and the other cool advantage is that you",
+      "timestamp": "28:45"
+    },
+    {
+      "start": 1730.88,
+      "duration": 8.64,
+      "text": "dramatically simplify Ethereum right all of the technical debt that Ethereum has the EVM has is basically uh it dissolves",
+      "timestamp": "28:50"
+    },
+    {
+      "start": 1739.52,
+      "duration": 7.2,
+      "text": "and now you just have to maintain risk 5 which is super simple and you know largely unchanging and immutable",
+      "timestamp": "28:59"
+    },
+    {
+      "start": 1746.72,
+      "duration": 7.28,
+      "text": "um if we're going to switch um ISOs why wouldn't we switch for one that actually you can buy hardware for today and you",
+      "timestamp": "29:06"
+    },
+    {
+      "start": 1754.0,
+      "duration": 8.24,
+      "text": "can run it at a hardware speed like an ARM yeah so the the two main ISAs that we use in practice today are x86 and ARM",
+      "timestamp": "29:14"
+    },
+    {
+      "start": 1762.24,
+      "duration": 6.319,
+      "text": "unfortunately neither are like permissive um so every time you wanna",
+      "timestamp": "29:22"
+    },
+    {
+      "start": 1768.559,
+      "duration": 6.881,
+      "text": "like do something with with those like you you have to you have to pay licensing and it's just not part of the",
+      "timestamp": "29:28"
+    },
+    {
+      "start": 1775.44,
+      "duration": 6.16,
+      "text": "ethos um the other thing I'll mention is that x86 and ARM are both actually very",
+      "timestamp": "29:35"
+    },
+    {
+      "start": 1781.6,
+      "duration": 6.559,
+      "text": "complicated iss like x86 is extremely complicated like I don't know hundreds if not thousands of op codes and uh and",
+      "timestamp": "29:41"
+    },
+    {
+      "start": 1788.159,
+      "duration": 7.441,
+      "text": "ARM you know even though ARM is kind of marketed as risk is actually a CISK like a complex uh it has many many up codes",
+      "timestamp": "29:48"
+    },
+    {
+      "start": 1795.6,
+      "duration": 6.319,
+      "text": "nowadays um so I don't think the ZKVMs would really enjoy implementing either",
+      "timestamp": "29:55"
+    },
+    {
+      "start": 1801.919,
+      "duration": 5.841,
+      "text": "x86 or or ARM uh but the other thing I mentioned is um",
+      "timestamp": "30:01"
+    },
+    {
+      "start": 1807.76,
+      "duration": 5.44,
+      "text": "is this so that if you had asked me you",
+      "timestamp": "30:07"
+    },
+    {
+      "start": 1813.2,
+      "duration": 5.76,
+      "text": "know two months ago uh what is like one of the main bottlenecks for proving I would have told you the execution is the",
+      "timestamp": "30:13"
+    },
+    {
+      "start": 1818.96,
+      "duration": 6.56,
+      "text": "bottleneck right because there's this sequential thing uh that you have to do which is generate the minimal trace and",
+      "timestamp": "30:18"
+    },
+    {
+      "start": 1825.52,
+      "duration": 6.24,
+      "text": "that's much much slower than uh running a CPU but but one of the big",
+      "timestamp": "30:25"
+    },
+    {
+      "start": 1831.76,
+      "duration": 6.88,
+      "text": "breakthroughs of of the the the the guys is that they've accelerated that to almost native speed so 1 ghahz is like",
+      "timestamp": "30:31"
+    },
+    {
+      "start": 1838.64,
+      "duration": 6.24,
+      "text": "roughly within a factor of like four or something within native speed um and so",
+      "timestamp": "30:38"
+    },
+    {
+      "start": 1844.88,
+      "duration": 5.76,
+      "text": "there's less of a need now to go build uh custom snark A6 that will handle the",
+      "timestamp": "30:44"
+    },
+    {
+      "start": 1850.64,
+      "duration": 8.0,
+      "text": "the execution running out of time so we take one last question thanks how how do you see this",
+      "timestamp": "30:50"
+    },
+    {
+      "start": 1858.64,
+      "duration": 5.919,
+      "text": "uh ZKVM road map affecting the L2 space do you do you think this is conflicting",
+      "timestamp": "30:58"
+    },
+    {
+      "start": 1864.559,
+      "duration": 7.84,
+      "text": "with the current layer 2s or do you think it's complimentary yeah fantastic question um",
+      "timestamp": "31:04"
+    },
+    {
+      "start": 1872.399,
+      "duration": 6.64,
+      "text": "so having the L1 uh be like a very like",
+      "timestamp": "31:12"
+    },
+    {
+      "start": 1879.039,
+      "duration": 5.76,
+      "text": "powerful chain will will definitely have consequences for for the L2s um my hope",
+      "timestamp": "31:19"
+    },
+    {
+      "start": 1884.799,
+      "duration": 6.401,
+      "text": "is that it's very beneficial for the L2s um one reason is that it's going to lead",
+      "timestamp": "31:24"
+    },
+    {
+      "start": 1891.2,
+      "duration": 6.0,
+      "text": "to much more TVL on on on the L1 and that will mean that the L2s will",
+      "timestamp": "31:31"
+    },
+    {
+      "start": 1897.2,
+      "duration": 7.359,
+      "text": "basically benefit from this very u rich and and vibrant hub um one other thing",
+      "timestamp": "31:37"
+    },
+    {
+      "start": 1904.559,
+      "duration": 6.081,
+      "text": "that I hope will happen is that the fact that the L1 is so economically strong is",
+      "timestamp": "31:44"
+    },
+    {
+      "start": 1910.64,
+      "duration": 6.159,
+      "text": "going to incentivize the L2s to adopt the same sequencer as the L1 because when you have two chains that have the",
+      "timestamp": "31:50"
+    },
+    {
+      "start": 1916.799,
+      "duration": 6.24,
+      "text": "same sequencer you can unlock what's called synchronous composability and like these very interesting network",
+      "timestamp": "31:56"
+    },
+    {
+      "start": 1923.039,
+      "duration": 7.36,
+      "text": "effects um and with real-time proving and shared sequencing you do have um you",
+      "timestamp": "32:03"
+    },
+    {
+      "start": 1930.399,
+      "duration": 7.601,
+      "text": "do have synchronous composability and then the other thing that I'm hoping will happen is that um just having a",
+      "timestamp": "32:10"
+    },
+    {
+      "start": 1938.0,
+      "duration": 6.64,
+      "text": "very strong L1 will be like net positive for for Ether the asset um and what",
+      "timestamp": "32:18"
+    },
+    {
+      "start": 1944.64,
+      "duration": 7.12,
+      "text": "tends to happen in practice is that the L2 assets the tokens are very much correlated with with Epher the with",
+      "timestamp": "32:24"
+    },
+    {
+      "start": 1951.76,
+      "duration": 6.56,
+      "text": "Epher and so if if if EH does very well I expect all of the L2s to also do very well",
+      "timestamp": "32:31"
+    },
+    {
+      "start": 1958.32,
+      "duration": 6.0,
+      "text": "second quick question do uh do you maybe have a favorite ZKVM",
+      "timestamp": "32:38"
+    },
+    {
+      "start": 1964.32,
+      "duration": 7.68,
+      "text": "uhhuh do I have a favorite ZKVM um I have a set of favorites in my mind um uh",
+      "timestamp": "32:44"
+    },
+    {
+      "start": 1972.0,
+      "duration": 5.12,
+      "text": "but um uh no no no one specific uh favorite one",
+      "timestamp": "32:52"
+    },
+    {
+      "start": 1977.12,
+      "duration": 6.88,
+      "text": "of one of the things that's that's really amazing is that um a lot of the",
+      "timestamp": "32:57"
+    },
+    {
+      "start": 1984.0,
+      "duration": 6.32,
+      "text": "the teams are doing different things so if you look at succinct for example they introduced this innovation of the",
+      "timestamp": "33:04"
+    },
+    {
+      "start": 1990.32,
+      "duration": 7.199,
+      "text": "subblocks and the mini blocks zisk they did the uh the executor airbender they",
+      "timestamp": "33:10"
+    },
+    {
+      "start": 1997.519,
+      "duration": 5.441,
+      "text": "have this um GPU prover that just maxes out the resources on on the GPU you just",
+      "timestamp": "33:17"
+    },
+    {
+      "start": 2002.96,
+      "duration": 6.24,
+      "text": "can't go any faster they have like really hardcore GPU engineers and um the",
+      "timestamp": "33:22"
+    },
+    {
+      "start": 2009.2,
+      "duration": 6.64,
+      "text": "one of the unique things that RZero is doing is that they they're building a cluster in in their offices so that they",
+      "timestamp": "33:29"
+    },
+    {
+      "start": 2015.84,
+      "duration": 6.88,
+      "text": "can do on-prem uh proving and like improving the the the orchestration of multiGPU proving and when you combine",
+      "timestamp": "33:35"
+    },
+    {
+      "start": 2022.72,
+      "duration": 7.199,
+      "text": "all of these ideas you get something which is going to be like really really monumental um and so you know right now",
+      "timestamp": "33:42"
+    },
+    {
+      "start": 2029.919,
+      "duration": 7.201,
+      "text": "we can do so sync did real time proving on 180 GPUs um ZISK I believe was like",
+      "timestamp": "33:49"
+    },
+    {
+      "start": 2037.12,
+      "duration": 5.439,
+      "text": "50 or 64 I forget um but you know Risero believes they can do 16 when you combine",
+      "timestamp": "33:57"
+    },
+    {
+      "start": 2042.559,
+      "duration": 5.041,
+      "text": "everything I'm hoping that we can do real-time proving on like six GPUs or",
+      "timestamp": "34:02"
+    },
+    {
+      "start": 2047.6,
+      "duration": 7.278,
+      "text": "something ridiculous um and I think that will be a very glorious moment for for Ethereum",
+      "timestamp": "34:07"
+    },
+    {
+      "start": 2054.879,
+      "duration": 2.999,
+      "text": "thanks",
+      "timestamp": "34:14"
+    }
+  ],
+  "extraction_timestamp": "2025-07-08T14:45:53.164810",
+  "playlist_title": "EthCC[8] Redford Stage"
+}

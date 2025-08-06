@@ -1,0 +1,2237 @@
+{
+  "video_id": "0vKVmWeKTls",
+  "video_title": "Sota Watanabe (Startale) - Inside Soneium: The Fastest-Growing Ethereum L2",
+  "video_url": "https://www.youtube.com/watch?v=0vKVmWeKTls",
+  "channel_title": "[EthCC] Livestream 4",
+  "published_at": "2025-07-01T21:25:35+00:00",
+  "duration_seconds": null,
+  "view_count": 47,
+  "like_count": 1,
+  "description": "A technical case study of Soneium, the fastest-growing Ethereum L2. Sota covers architecture (rollups, ZK vs optimistic), dev tooling, and enterprise adoption strategies that won trust in a crowded market.",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 369,
+    "aggregated_text": "Okay. Hey everybody. Uh my name is Satanab. Thank you very much for coming today. And uh today I will be talking about Sonium. Uh Sonium is the chain build by Sony Brock Solution Lab. Sony block solution lab is the joint venture between Sony Group Corporation which is HQ and uh started group. And uh a little bit about myself uh I joined the blockchain space back in 2015 and uh uh we started uh Sonium uh Sony block solution lab in 2023 and we launched the chain uh Sonium which is the ECM 2 powered by Opto and joining the super chain uh January this year. So we are still a five months older baby but uh I would like to talk about what we have learned and uh insights we got. So uh our mission is bringing video on chain and uh this is probably the most important slide today. Um I think industry is changing dramatically. Um before 2022 it was all about research because infrastructure was not mature yet. So everybody is talking about you know scalability, privacy and uh a lot of things. I think infrastructure is not matured yet enough but uh getting ready better and better uh you know five years ago one single transaction take uh 50 bucks on lay one. I still remember the age uh era. But today uh if we use either 2 like senium or base or uni chain a transaction cost is even less than 1 cent today and uh phase 2 is between 2023 to 2024 which was all about BDRa. So infrastructure is getting matured and then uh the time of the web three became a global trends. So a lot of the nation a lot of the companies are entering the this space and u you know the a lot of the projects are correcting logo of the big company but uh BD era ends and we are entering the product era so what's the difference between uh BD era and a product era in a product era it's all about revenue onchain revenue and if we see a onchain revenue uh metrics on defy lama or maybe other website. Uh we can see uh several business model such as uh stable coin, dex, uh uh wallets and chain mainly for four categories today. And if we see a um revenue model mainly we have a two. The first one is yield ebearing stable coin or maybe staking and second one is uh transaction cost. And when it comes to transaction cost, we have a two category inside of the transaction uh cost. The first one is uh commission rate such as a commission for uh swap and second one is uh gas fee transaction fee. Uh son is generating the revenue through uh transaction. I will be talking about how it works and uh in the product era the distribution matters. Uh I joined the space 10 years ago and I made a bunch of the mistake. Uh we have been you know we have been making what we want to make but uh eventually um a lot of the you know people are entering this space. So we should start from the distribution channel and then in the backwards uh make something people want in the product era in the as I said revenue matters more than recognition in this era. And the last one is uh technology is getting mature. So we have to make uh we have to connect the technical innovation invention and make innovation like account obstruction plus chain abstraction the ethereum reality plus account abstraction. Uh I will be speaking more later but the account abstraction plus ethereum layer 2 is very powerful. So let's say uh sonium is ethereum layer 2 uh which does not have a native token today. So people are generating transactions through east token they brided from layer one to layer two or east they bridge from other layer 2 to sonium and uh what sonium would like to make is the entertainment layer with the next internet and majority of the user are going to be uh people who have never used blockchain before. So they cannot manage you know externally owned accounts they cannot manage private key. So smart wallet is going to be a critical components to onboard billion of the people and uh speaking about ECM layer 2 plus account abstraction. Um transaction uh fee of the layer 2 is going to be a sequence revenue. Um and through account abstraction user can log into sonium with web 2 ID such as uh Gmail or maybe uh WhatsApp ID or maybe you know whatever and then a company like us operator can compensate or subsidize all users cost through pay master. I will be talking about account abraction later but by doing so people can log into the blockchain with web to ID and they can use blockchain for free and uh unit economics works uh today um when it comes to layer 2 the gas fee people are paying is our revenue and uh we are bundling transaction and we need to submit the ethereum layer one that going to be the cost so uh profitability is likely 90% % right now. So we can compensate all transaction fee of the the layer 2 users but that compensation that that fee is going to be our revenue and uh 90% comes back 10% goes to Ethereum layer one by we can onboard many people by uh subsidy of the gas and when it comes to uh uh number of the people who are using onchain today which is 3% uh um so I to say the the blockchain landscape crypto landscape in 2025 is akin to the internet internet uh history in 1999 and uh number of the user of the internet can be measured by number of the browser users and in 1999 the IE Internet Explorer roller is winning against Nettoscape the reason is um um Microsoft installed IE and they they have been selling a PC right so uh Microsoft is leveraging their distribution channel but eventually today uh Google uh Chrome Apple Safari and uh um others are winning the reason is two uh lesson that we have a two lesson we can learn the first one is um uh performance matters the chrome is much faster than I the second one is the platform shift uh people used to use PC PC to access to the internet but today uh they're using a mobile to access to the internet. So uh we are at the age of in 1999. So distribution channel matters but eventually technical innovation uh matters in the long run. So uh and our company is making the chain and uh account obstruction and wallet and we have a vertical strategy to we have a vertical strategy to improve the UX. So uh yeah let's let's go to the Sonium. Uh we launched the sonium in January 2025. Um and aiming the entertainment layer of the next internet and a lot of people are using uh blockchain and crypto for finance today. But um to onboard more people I think entertainment is more powerful than finance in the long run. Uh the reason why we chose L2 is is mainly we have a three reason. The first one is Ethereum layer 2 is scalable already, right? Uh previously one single transaction of the Ethereum layer one takes a lot of the cost but today as I said uh single transaction of sonium or base and other Ethereum layer 2 is even less than 1 cent and highly customizable. Uh for example, uni chain. Uni chain is al also making the ethereum layer 2 made by unis swap um uh powered by optock and joining the super chain. Uh their block time is 1 second today but they are aiming to make it uh 200 millisecond through flash blocks. So by doing so uh um the finality can be much faster. And the second one is uh balancing the decentralization and centralization. EDM one is by nature super decentralized which is amazing. But to onboard big company like Sony the the we needed to manage we needed we needed to balance between decentralization and centralization. One of the example is uh IP infringements. uh we when we launch a chain uh many people deploy uh Spider-Man memecoin or maybe a PlayStation memecoin and so on without permission of course um and uh it was the big debates about how we broke this kind of activity. So we broke at the RPC level. So on on everybody can deploy whatever they want. They can deploy memecoin, they can deploy defi, they can deploy NFT whatever and they can deploy IP infringement token as well. But at the interface level at RDPC level uh we decided to block the access to smart contract. So um balancing the decentralization and centralization is a key successful factor to on board mainstream. Yeah, I I have a bunch of the creator friends because I'm from Japan um known as uh entertainment company country and uh if they don't know uh blockchain and crypto at all they they feel scary to enter the space if we have a bunch of the IP hingement token. So Sonium is not only for web three people but also for web two people and beyond. And the last one is revenue versus cost. So as a a company the the revenue matters right this is going to be the reason why a lot of the company join this space and regarding the revenue the transaction fee of the eadium layer 2 is going to be our revenue and uh we are bundling transaction and we submit to layer one and we have to um pay to ethereum so that's a cost and uh let's say if you pay if you pay and data on layer two. 90 cents comes to us and 10 cent or 20 cents goes to Ethereum layer 1 and it is pretty much uh easy for a company to calculate ROI. So what I would like to say is Ethereum 2 is getting ready I think almost ready for mainstream adoption for big enterprise and the loing hood yesterday launch announced Ethereum 2 and this is the pro potentially the reason why they chose Ethereum 2. So uh I don't have a much time I think so I'm going to skip several page I have a 40 pages so I'm going to skip uh these are my focus right now um on sonium everybody is creator and uh our focus is entertainment right now so uh I am pretty interested in tokenized IP revolution for example uh we have a we have a several use case already uh for example um you know um we can tokenize 10% of the IP music IP rights and uh we can automatically transparently distribute royality to uh um IP token holders. uh some of the project try to tokenize movie right now and uh if you have a NFT um the revenue of the movie will be automatically distributed to NFT holders and that NFT is um on on OpenC and other NFT marketplace and the last one is fun engagements. Um yeah I will be speaking later and this is the performance. Um we launched a chain January 2025 but uh we have a strong onchain metrics right now uh like 1.3 million smart contract has been already deployed uh around 250 20 million total value secured uh 7.5 million addresses and uh around 200 million transactions and we are doing a uh incubation program right now uh I think yesterday we closed uh application but we got the 250 application we're going to do bunch of the incubation program from now. So if you are interested in building on stream and focusing on entertainment maybe gaming, music, movie uh please feel free to reach out to me so that uh uh we can work together. Uh this is ecosystem and several several use cases. Uh we have been collaborating with line is the largest uh the mobile application in Asia. uh through their application platform through their superb um the user can use and other uh entertainment use cases on Sonium and we are also reimagining uh the relationship between fun and the um artist. So fun are going to the concert a lot and then we gave them the SVT or NFT and then they can prove the attendance and uh also fun are going to decide which song artist is going to sing and which clothes to wear through u platform through voting onchain voting and then um the the through the um based on the contribution they will be rewarded through your token onium Yeah. Uh and I have we have a one use case that tokenize the movie. So based on the the um if this project generate a revenue, the revenue is automatically distributed through through onchain. Yeah. Yeah, Sony is also working on several things like uh SBORC which is the the crypto exchange owned by Sony and uh SNFD is NFD marketplace and uh uh Sony is also working on farm marketing platform and several IPs are already deployed onchain uh like IBO uh go in the shell venom um and several artists. The the good things is we are not saying NFT we are not saying uh you know onchain blockchain a lot because user don't care much so we would like to go beyond web3 space and uh tech is back end yeah uh I will be also speaking about oh I don't have much time so yeah uh account obstruction is a key to onboarding of the people um we are providing uh social logging, the gas sponsorship, ERC20 for gas token, um programmable wallets like uh social recovery and the issue of the account abstraction today is a fragmented address. If you use preb, if you use dynamic, if you use t or s web alchemy to login, uh even though you're using same Gmail, you're going to get different address. So different address, the address fragmentation leads to uh liquidity fragmentation, ID fragmentation. So uh on on Sonium starter is providing the account obstruction smart contract and at the phase two we are going to bundle all addresses and people are going to use chain with one ID uh linking multiple addresses like is the ID and the people are going to use blockchain sodium through one ID for free because we can compensate we can subsidize all gas fee and compensation gas fee goes to our revenue. This is the new business model which is layer 2 and account abstraction uh explorer. Yeah. Uh this is how account obstruction works but I don't have a time. Um yeah. So uh if you're interested in working with us and uh uh development on sonium uh feel free to reach out to me. uh we are focusing on entertainment and happy to work with you guys. Uh thank you very much.",
+    "text_length": 13365,
+    "word_count": 2546
+  },
+  "segments": [
+    {
+      "start": 7.359,
+      "duration": 1.841,
+      "text": "Okay. Hey everybody. Uh my name is",
+      "timestamp": "00:07"
+    },
+    {
+      "start": 9.2,
+      "duration": 2.16,
+      "text": "Satanab. Thank you very much for coming",
+      "timestamp": "00:09"
+    },
+    {
+      "start": 11.36,
+      "duration": 2.56,
+      "text": "today. And uh today I will be talking",
+      "timestamp": "00:11"
+    },
+    {
+      "start": 13.92,
+      "duration": 3.199,
+      "text": "about Sonium. Uh Sonium is the chain",
+      "timestamp": "00:13"
+    },
+    {
+      "start": 17.119,
+      "duration": 2.721,
+      "text": "build by Sony Brock Solution Lab. Sony",
+      "timestamp": "00:17"
+    },
+    {
+      "start": 19.84,
+      "duration": 2.16,
+      "text": "block solution lab is the joint venture",
+      "timestamp": "00:19"
+    },
+    {
+      "start": 22.0,
+      "duration": 1.92,
+      "text": "between Sony Group Corporation which is",
+      "timestamp": "00:22"
+    },
+    {
+      "start": 23.92,
+      "duration": 3.76,
+      "text": "HQ and uh started group. And uh a little",
+      "timestamp": "00:23"
+    },
+    {
+      "start": 27.68,
+      "duration": 2.08,
+      "text": "bit about myself uh I joined the",
+      "timestamp": "00:27"
+    },
+    {
+      "start": 29.76,
+      "duration": 3.76,
+      "text": "blockchain space back in 2015 and uh uh",
+      "timestamp": "00:29"
+    },
+    {
+      "start": 33.52,
+      "duration": 2.24,
+      "text": "we started uh Sonium uh Sony block",
+      "timestamp": "00:33"
+    },
+    {
+      "start": 35.76,
+      "duration": 3.28,
+      "text": "solution lab in 2023 and we launched the",
+      "timestamp": "00:35"
+    },
+    {
+      "start": 39.04,
+      "duration": 3.679,
+      "text": "chain uh Sonium which is the ECM 2",
+      "timestamp": "00:39"
+    },
+    {
+      "start": 42.719,
+      "duration": 2.081,
+      "text": "powered by Opto and joining the super",
+      "timestamp": "00:42"
+    },
+    {
+      "start": 44.8,
+      "duration": 3.68,
+      "text": "chain uh January this year. So we are",
+      "timestamp": "00:44"
+    },
+    {
+      "start": 48.48,
+      "duration": 2.559,
+      "text": "still a five months older baby but uh I",
+      "timestamp": "00:48"
+    },
+    {
+      "start": 51.039,
+      "duration": 1.52,
+      "text": "would like to talk about what we have",
+      "timestamp": "00:51"
+    },
+    {
+      "start": 52.559,
+      "duration": 5.281,
+      "text": "learned and uh insights we got.",
+      "timestamp": "00:52"
+    },
+    {
+      "start": 57.84,
+      "duration": 2.559,
+      "text": "So uh our mission is bringing video on",
+      "timestamp": "00:57"
+    },
+    {
+      "start": 60.399,
+      "duration": 2.64,
+      "text": "chain and uh this is probably the most",
+      "timestamp": "01:00"
+    },
+    {
+      "start": 63.039,
+      "duration": 2.801,
+      "text": "important slide today. Um I think",
+      "timestamp": "01:03"
+    },
+    {
+      "start": 65.84,
+      "duration": 4.08,
+      "text": "industry is changing dramatically.",
+      "timestamp": "01:05"
+    },
+    {
+      "start": 69.92,
+      "duration": 3.84,
+      "text": "Um before 2022 it was all about research",
+      "timestamp": "01:09"
+    },
+    {
+      "start": 73.76,
+      "duration": 2.08,
+      "text": "because infrastructure was not mature",
+      "timestamp": "01:13"
+    },
+    {
+      "start": 75.84,
+      "duration": 2.24,
+      "text": "yet. So everybody is talking about you",
+      "timestamp": "01:15"
+    },
+    {
+      "start": 78.08,
+      "duration": 2.719,
+      "text": "know scalability, privacy and uh a lot",
+      "timestamp": "01:18"
+    },
+    {
+      "start": 80.799,
+      "duration": 2.64,
+      "text": "of things. I think infrastructure is not",
+      "timestamp": "01:20"
+    },
+    {
+      "start": 83.439,
+      "duration": 4.0,
+      "text": "matured yet enough but uh getting ready",
+      "timestamp": "01:23"
+    },
+    {
+      "start": 87.439,
+      "duration": 2.641,
+      "text": "better and better uh you know five years",
+      "timestamp": "01:27"
+    },
+    {
+      "start": 90.08,
+      "duration": 2.48,
+      "text": "ago one single transaction take uh 50",
+      "timestamp": "01:30"
+    },
+    {
+      "start": 92.56,
+      "duration": 2.96,
+      "text": "bucks on lay one. I still remember the",
+      "timestamp": "01:32"
+    },
+    {
+      "start": 95.52,
+      "duration": 3.44,
+      "text": "age uh era. But today uh if we use",
+      "timestamp": "01:35"
+    },
+    {
+      "start": 98.96,
+      "duration": 3.199,
+      "text": "either 2 like senium or base or uni",
+      "timestamp": "01:38"
+    },
+    {
+      "start": 102.159,
+      "duration": 2.881,
+      "text": "chain a transaction cost is even less",
+      "timestamp": "01:42"
+    },
+    {
+      "start": 105.04,
+      "duration": 4.719,
+      "text": "than 1 cent today and uh phase 2 is",
+      "timestamp": "01:45"
+    },
+    {
+      "start": 109.759,
+      "duration": 3.36,
+      "text": "between 2023 to 2024",
+      "timestamp": "01:49"
+    },
+    {
+      "start": 113.119,
+      "duration": 2.241,
+      "text": "which was all about BDRa. So",
+      "timestamp": "01:53"
+    },
+    {
+      "start": 115.36,
+      "duration": 2.24,
+      "text": "infrastructure is getting matured and",
+      "timestamp": "01:55"
+    },
+    {
+      "start": 117.6,
+      "duration": 3.28,
+      "text": "then uh the time of the web three became",
+      "timestamp": "01:57"
+    },
+    {
+      "start": 120.88,
+      "duration": 3.04,
+      "text": "a global trends. So a lot of the nation",
+      "timestamp": "02:00"
+    },
+    {
+      "start": 123.92,
+      "duration": 2.08,
+      "text": "a lot of the companies are entering the",
+      "timestamp": "02:03"
+    },
+    {
+      "start": 126.0,
+      "duration": 3.679,
+      "text": "this space and u you know the a lot of",
+      "timestamp": "02:06"
+    },
+    {
+      "start": 129.679,
+      "duration": 2.721,
+      "text": "the projects are correcting logo of the",
+      "timestamp": "02:09"
+    },
+    {
+      "start": 132.4,
+      "duration": 3.28,
+      "text": "big company but uh BD era ends and we",
+      "timestamp": "02:12"
+    },
+    {
+      "start": 135.68,
+      "duration": 2.0,
+      "text": "are entering the product era so what's",
+      "timestamp": "02:15"
+    },
+    {
+      "start": 137.68,
+      "duration": 2.88,
+      "text": "the difference between uh BD era and a",
+      "timestamp": "02:17"
+    },
+    {
+      "start": 140.56,
+      "duration": 3.28,
+      "text": "product era in a product era it's all",
+      "timestamp": "02:20"
+    },
+    {
+      "start": 143.84,
+      "duration": 3.52,
+      "text": "about revenue onchain revenue and if we",
+      "timestamp": "02:23"
+    },
+    {
+      "start": 147.36,
+      "duration": 4.08,
+      "text": "see a onchain revenue uh metrics on defy",
+      "timestamp": "02:27"
+    },
+    {
+      "start": 151.44,
+      "duration": 2.879,
+      "text": "lama or maybe other website. Uh we can",
+      "timestamp": "02:31"
+    },
+    {
+      "start": 154.319,
+      "duration": 3.2,
+      "text": "see uh several business model such as uh",
+      "timestamp": "02:34"
+    },
+    {
+      "start": 157.519,
+      "duration": 4.161,
+      "text": "stable coin, dex, uh uh wallets and",
+      "timestamp": "02:37"
+    },
+    {
+      "start": 161.68,
+      "duration": 2.48,
+      "text": "chain mainly for four categories today.",
+      "timestamp": "02:41"
+    },
+    {
+      "start": 164.16,
+      "duration": 4.32,
+      "text": "And if we see a um revenue model mainly",
+      "timestamp": "02:44"
+    },
+    {
+      "start": 168.48,
+      "duration": 3.759,
+      "text": "we have a two. The first one is yield",
+      "timestamp": "02:48"
+    },
+    {
+      "start": 172.239,
+      "duration": 3.041,
+      "text": "ebearing stable coin or maybe staking",
+      "timestamp": "02:52"
+    },
+    {
+      "start": 175.28,
+      "duration": 2.88,
+      "text": "and second one is uh transaction cost.",
+      "timestamp": "02:55"
+    },
+    {
+      "start": 178.16,
+      "duration": 1.92,
+      "text": "And when it comes to transaction cost,",
+      "timestamp": "02:58"
+    },
+    {
+      "start": 180.08,
+      "duration": 1.84,
+      "text": "we have a two category inside of the",
+      "timestamp": "03:00"
+    },
+    {
+      "start": 181.92,
+      "duration": 4.399,
+      "text": "transaction uh cost. The first one is uh",
+      "timestamp": "03:01"
+    },
+    {
+      "start": 186.319,
+      "duration": 2.401,
+      "text": "commission rate such as a commission for",
+      "timestamp": "03:06"
+    },
+    {
+      "start": 188.72,
+      "duration": 3.519,
+      "text": "uh swap and second one is uh gas fee",
+      "timestamp": "03:08"
+    },
+    {
+      "start": 192.239,
+      "duration": 3.441,
+      "text": "transaction fee. Uh son is generating",
+      "timestamp": "03:12"
+    },
+    {
+      "start": 195.68,
+      "duration": 2.639,
+      "text": "the revenue through uh transaction. I",
+      "timestamp": "03:15"
+    },
+    {
+      "start": 198.319,
+      "duration": 3.84,
+      "text": "will be talking about how it works and",
+      "timestamp": "03:18"
+    },
+    {
+      "start": 202.159,
+      "duration": 2.401,
+      "text": "uh in the product era the distribution",
+      "timestamp": "03:22"
+    },
+    {
+      "start": 204.56,
+      "duration": 2.959,
+      "text": "matters. Uh I joined the space 10 years",
+      "timestamp": "03:24"
+    },
+    {
+      "start": 207.519,
+      "duration": 2.241,
+      "text": "ago and I made a bunch of the mistake.",
+      "timestamp": "03:27"
+    },
+    {
+      "start": 209.76,
+      "duration": 2.88,
+      "text": "Uh we have been you know we have been",
+      "timestamp": "03:29"
+    },
+    {
+      "start": 212.64,
+      "duration": 2.879,
+      "text": "making what we want to make",
+      "timestamp": "03:32"
+    },
+    {
+      "start": 215.519,
+      "duration": 3.121,
+      "text": "but uh eventually um a lot of the you",
+      "timestamp": "03:35"
+    },
+    {
+      "start": 218.64,
+      "duration": 1.84,
+      "text": "know people are entering this space. So",
+      "timestamp": "03:38"
+    },
+    {
+      "start": 220.48,
+      "duration": 1.6,
+      "text": "we should start from the distribution",
+      "timestamp": "03:40"
+    },
+    {
+      "start": 222.08,
+      "duration": 3.519,
+      "text": "channel and then in the backwards uh",
+      "timestamp": "03:42"
+    },
+    {
+      "start": 225.599,
+      "duration": 2.401,
+      "text": "make something people want in the",
+      "timestamp": "03:45"
+    },
+    {
+      "start": 228.0,
+      "duration": 3.519,
+      "text": "product era in the as I said revenue",
+      "timestamp": "03:48"
+    },
+    {
+      "start": 231.519,
+      "duration": 1.841,
+      "text": "matters more than recognition in this",
+      "timestamp": "03:51"
+    },
+    {
+      "start": 233.36,
+      "duration": 3.12,
+      "text": "era. And the last one is uh technology",
+      "timestamp": "03:53"
+    },
+    {
+      "start": 236.48,
+      "duration": 2.8,
+      "text": "is getting mature. So we have to make uh",
+      "timestamp": "03:56"
+    },
+    {
+      "start": 239.28,
+      "duration": 2.4,
+      "text": "we have to connect the technical",
+      "timestamp": "03:59"
+    },
+    {
+      "start": 241.68,
+      "duration": 3.44,
+      "text": "innovation invention and make innovation",
+      "timestamp": "04:01"
+    },
+    {
+      "start": 245.12,
+      "duration": 1.839,
+      "text": "like account obstruction plus chain",
+      "timestamp": "04:05"
+    },
+    {
+      "start": 246.959,
+      "duration": 2.081,
+      "text": "abstraction the ethereum reality plus",
+      "timestamp": "04:06"
+    },
+    {
+      "start": 249.04,
+      "duration": 2.08,
+      "text": "account abstraction. Uh I will be",
+      "timestamp": "04:09"
+    },
+    {
+      "start": 251.12,
+      "duration": 1.92,
+      "text": "speaking more later but the account",
+      "timestamp": "04:11"
+    },
+    {
+      "start": 253.04,
+      "duration": 2.0,
+      "text": "abstraction plus ethereum layer 2 is",
+      "timestamp": "04:13"
+    },
+    {
+      "start": 255.04,
+      "duration": 1.759,
+      "text": "very powerful.",
+      "timestamp": "04:15"
+    },
+    {
+      "start": 256.799,
+      "duration": 2.96,
+      "text": "So let's say uh sonium is ethereum layer",
+      "timestamp": "04:16"
+    },
+    {
+      "start": 259.759,
+      "duration": 1.521,
+      "text": "2",
+      "timestamp": "04:19"
+    },
+    {
+      "start": 261.28,
+      "duration": 1.52,
+      "text": "uh which does not have a native token",
+      "timestamp": "04:21"
+    },
+    {
+      "start": 262.8,
+      "duration": 3.04,
+      "text": "today. So people are generating",
+      "timestamp": "04:22"
+    },
+    {
+      "start": 265.84,
+      "duration": 3.359,
+      "text": "transactions through east token they",
+      "timestamp": "04:25"
+    },
+    {
+      "start": 269.199,
+      "duration": 2.801,
+      "text": "brided from layer one to layer two or",
+      "timestamp": "04:29"
+    },
+    {
+      "start": 272.0,
+      "duration": 2.08,
+      "text": "east they bridge from other layer 2 to",
+      "timestamp": "04:32"
+    },
+    {
+      "start": 274.08,
+      "duration": 1.76,
+      "text": "sonium",
+      "timestamp": "04:34"
+    },
+    {
+      "start": 275.84,
+      "duration": 2.88,
+      "text": "and uh what sonium would like to make is",
+      "timestamp": "04:35"
+    },
+    {
+      "start": 278.72,
+      "duration": 1.84,
+      "text": "the entertainment layer with the next",
+      "timestamp": "04:38"
+    },
+    {
+      "start": 280.56,
+      "duration": 3.359,
+      "text": "internet and majority of the user are",
+      "timestamp": "04:40"
+    },
+    {
+      "start": 283.919,
+      "duration": 2.161,
+      "text": "going to be uh people who have never",
+      "timestamp": "04:43"
+    },
+    {
+      "start": 286.08,
+      "duration": 2.64,
+      "text": "used blockchain before. So they cannot",
+      "timestamp": "04:46"
+    },
+    {
+      "start": 288.72,
+      "duration": 1.84,
+      "text": "manage you know externally owned",
+      "timestamp": "04:48"
+    },
+    {
+      "start": 290.56,
+      "duration": 2.4,
+      "text": "accounts they cannot manage private key.",
+      "timestamp": "04:50"
+    },
+    {
+      "start": 292.96,
+      "duration": 2.239,
+      "text": "So smart wallet is going to be a",
+      "timestamp": "04:52"
+    },
+    {
+      "start": 295.199,
+      "duration": 2.641,
+      "text": "critical components to onboard billion",
+      "timestamp": "04:55"
+    },
+    {
+      "start": 297.84,
+      "duration": 4.079,
+      "text": "of the people and uh speaking about ECM",
+      "timestamp": "04:57"
+    },
+    {
+      "start": 301.919,
+      "duration": 2.481,
+      "text": "layer 2 plus account abstraction.",
+      "timestamp": "05:01"
+    },
+    {
+      "start": 304.4,
+      "duration": 3.68,
+      "text": "Um transaction uh fee of the layer 2 is",
+      "timestamp": "05:04"
+    },
+    {
+      "start": 308.08,
+      "duration": 2.88,
+      "text": "going to be a sequence revenue.",
+      "timestamp": "05:08"
+    },
+    {
+      "start": 310.96,
+      "duration": 2.72,
+      "text": "Um and through account abstraction user",
+      "timestamp": "05:10"
+    },
+    {
+      "start": 313.68,
+      "duration": 3.12,
+      "text": "can log into sonium with web 2 ID such",
+      "timestamp": "05:13"
+    },
+    {
+      "start": 316.8,
+      "duration": 4.72,
+      "text": "as uh Gmail or maybe uh WhatsApp ID or",
+      "timestamp": "05:16"
+    },
+    {
+      "start": 321.52,
+      "duration": 3.92,
+      "text": "maybe you know whatever and then a",
+      "timestamp": "05:21"
+    },
+    {
+      "start": 325.44,
+      "duration": 2.72,
+      "text": "company like us operator can compensate",
+      "timestamp": "05:25"
+    },
+    {
+      "start": 328.16,
+      "duration": 4.4,
+      "text": "or subsidize all users cost through pay",
+      "timestamp": "05:28"
+    },
+    {
+      "start": 332.56,
+      "duration": 1.84,
+      "text": "master. I will be talking about account",
+      "timestamp": "05:32"
+    },
+    {
+      "start": 334.4,
+      "duration": 2.639,
+      "text": "abraction later but by doing so people",
+      "timestamp": "05:34"
+    },
+    {
+      "start": 337.039,
+      "duration": 1.841,
+      "text": "can log into the blockchain with web to",
+      "timestamp": "05:37"
+    },
+    {
+      "start": 338.88,
+      "duration": 3.2,
+      "text": "ID and they can use blockchain for free",
+      "timestamp": "05:38"
+    },
+    {
+      "start": 342.08,
+      "duration": 4.88,
+      "text": "and uh unit economics works uh today um",
+      "timestamp": "05:42"
+    },
+    {
+      "start": 346.96,
+      "duration": 3.76,
+      "text": "when it comes to layer 2 the gas fee",
+      "timestamp": "05:46"
+    },
+    {
+      "start": 350.72,
+      "duration": 3.199,
+      "text": "people are paying is our revenue and uh",
+      "timestamp": "05:50"
+    },
+    {
+      "start": 353.919,
+      "duration": 2.401,
+      "text": "we are bundling transaction and we need",
+      "timestamp": "05:53"
+    },
+    {
+      "start": 356.32,
+      "duration": 2.48,
+      "text": "to submit the ethereum layer one that",
+      "timestamp": "05:56"
+    },
+    {
+      "start": 358.8,
+      "duration": 2.8,
+      "text": "going to be the cost so uh profitability",
+      "timestamp": "05:58"
+    },
+    {
+      "start": 361.6,
+      "duration": 3.439,
+      "text": "is likely 90% % right now. So we can",
+      "timestamp": "06:01"
+    },
+    {
+      "start": 365.039,
+      "duration": 3.121,
+      "text": "compensate all transaction fee of the",
+      "timestamp": "06:05"
+    },
+    {
+      "start": 368.16,
+      "duration": 4.08,
+      "text": "the layer 2 users but that compensation",
+      "timestamp": "06:08"
+    },
+    {
+      "start": 372.24,
+      "duration": 3.6,
+      "text": "that that fee is going to be our revenue",
+      "timestamp": "06:12"
+    },
+    {
+      "start": 375.84,
+      "duration": 2.4,
+      "text": "and uh 90% comes back 10% goes to",
+      "timestamp": "06:15"
+    },
+    {
+      "start": 378.24,
+      "duration": 3.04,
+      "text": "Ethereum layer one by we can onboard",
+      "timestamp": "06:18"
+    },
+    {
+      "start": 381.28,
+      "duration": 4.32,
+      "text": "many people by uh subsidy of the gas",
+      "timestamp": "06:21"
+    },
+    {
+      "start": 385.6,
+      "duration": 2.96,
+      "text": "and when it comes to uh uh number of the",
+      "timestamp": "06:25"
+    },
+    {
+      "start": 388.56,
+      "duration": 1.759,
+      "text": "people who are using onchain today which",
+      "timestamp": "06:28"
+    },
+    {
+      "start": 390.319,
+      "duration": 1.681,
+      "text": "is 3%",
+      "timestamp": "06:30"
+    },
+    {
+      "start": 392.0,
+      "duration": 3.52,
+      "text": "uh um so I to say the the blockchain",
+      "timestamp": "06:32"
+    },
+    {
+      "start": 395.52,
+      "duration": 3.04,
+      "text": "landscape crypto landscape in 2025 is",
+      "timestamp": "06:35"
+    },
+    {
+      "start": 398.56,
+      "duration": 3.44,
+      "text": "akin to the internet internet uh history",
+      "timestamp": "06:38"
+    },
+    {
+      "start": 402.0,
+      "duration": 4.24,
+      "text": "in 1999 and uh number of the user of the",
+      "timestamp": "06:42"
+    },
+    {
+      "start": 406.24,
+      "duration": 1.84,
+      "text": "internet can be measured by number of",
+      "timestamp": "06:46"
+    },
+    {
+      "start": 408.08,
+      "duration": 5.28,
+      "text": "the browser users and in 1999 the IE",
+      "timestamp": "06:48"
+    },
+    {
+      "start": 413.36,
+      "duration": 2.559,
+      "text": "Internet Explorer roller is winning",
+      "timestamp": "06:53"
+    },
+    {
+      "start": 415.919,
+      "duration": 4.801,
+      "text": "against Nettoscape the reason is um um",
+      "timestamp": "06:55"
+    },
+    {
+      "start": 420.72,
+      "duration": 3.12,
+      "text": "Microsoft installed IE and they they",
+      "timestamp": "07:00"
+    },
+    {
+      "start": 423.84,
+      "duration": 3.359,
+      "text": "have been selling a PC right so uh",
+      "timestamp": "07:03"
+    },
+    {
+      "start": 427.199,
+      "duration": 1.681,
+      "text": "Microsoft is leveraging their",
+      "timestamp": "07:07"
+    },
+    {
+      "start": 428.88,
+      "duration": 2.0,
+      "text": "distribution channel but eventually",
+      "timestamp": "07:08"
+    },
+    {
+      "start": 430.88,
+      "duration": 4.0,
+      "text": "today uh Google uh Chrome Apple Safari",
+      "timestamp": "07:10"
+    },
+    {
+      "start": 434.88,
+      "duration": 3.759,
+      "text": "and uh um others are winning the reason",
+      "timestamp": "07:14"
+    },
+    {
+      "start": 438.639,
+      "duration": 2.96,
+      "text": "is two uh lesson that we have a two",
+      "timestamp": "07:18"
+    },
+    {
+      "start": 441.599,
+      "duration": 2.801,
+      "text": "lesson we can learn the first one is um",
+      "timestamp": "07:21"
+    },
+    {
+      "start": 444.4,
+      "duration": 2.32,
+      "text": "uh performance matters the chrome is",
+      "timestamp": "07:24"
+    },
+    {
+      "start": 446.72,
+      "duration": 2.72,
+      "text": "much faster than I the second one is the",
+      "timestamp": "07:26"
+    },
+    {
+      "start": 449.44,
+      "duration": 3.12,
+      "text": "platform shift uh people used to use PC",
+      "timestamp": "07:29"
+    },
+    {
+      "start": 452.56,
+      "duration": 3.759,
+      "text": "PC to access to the internet but today",
+      "timestamp": "07:32"
+    },
+    {
+      "start": 456.319,
+      "duration": 2.801,
+      "text": "uh they're using a mobile to access to",
+      "timestamp": "07:36"
+    },
+    {
+      "start": 459.12,
+      "duration": 2.24,
+      "text": "the internet.",
+      "timestamp": "07:39"
+    },
+    {
+      "start": 461.36,
+      "duration": 3.92,
+      "text": "So uh we are at the age of in 1999. So",
+      "timestamp": "07:41"
+    },
+    {
+      "start": 465.28,
+      "duration": 1.6,
+      "text": "distribution channel matters but",
+      "timestamp": "07:45"
+    },
+    {
+      "start": 466.88,
+      "duration": 3.52,
+      "text": "eventually technical innovation uh",
+      "timestamp": "07:46"
+    },
+    {
+      "start": 470.4,
+      "duration": 4.639,
+      "text": "matters in the long run. So uh and our",
+      "timestamp": "07:50"
+    },
+    {
+      "start": 475.039,
+      "duration": 2.16,
+      "text": "company is making the chain and uh",
+      "timestamp": "07:55"
+    },
+    {
+      "start": 477.199,
+      "duration": 1.68,
+      "text": "account obstruction and wallet and we",
+      "timestamp": "07:57"
+    },
+    {
+      "start": 478.879,
+      "duration": 1.76,
+      "text": "have a vertical strategy to we have a",
+      "timestamp": "07:58"
+    },
+    {
+      "start": 480.639,
+      "duration": 3.12,
+      "text": "vertical strategy to improve the UX.",
+      "timestamp": "08:00"
+    },
+    {
+      "start": 483.759,
+      "duration": 4.081,
+      "text": "So uh yeah let's let's go to the Sonium.",
+      "timestamp": "08:03"
+    },
+    {
+      "start": 487.84,
+      "duration": 2.4,
+      "text": "Uh we launched the sonium in January",
+      "timestamp": "08:07"
+    },
+    {
+      "start": 490.24,
+      "duration": 3.2,
+      "text": "2025. Um and aiming the entertainment",
+      "timestamp": "08:10"
+    },
+    {
+      "start": 493.44,
+      "duration": 1.92,
+      "text": "layer of the next internet and a lot of",
+      "timestamp": "08:13"
+    },
+    {
+      "start": 495.36,
+      "duration": 2.0,
+      "text": "people are using uh blockchain and",
+      "timestamp": "08:15"
+    },
+    {
+      "start": 497.36,
+      "duration": 3.679,
+      "text": "crypto for finance today. But um to",
+      "timestamp": "08:17"
+    },
+    {
+      "start": 501.039,
+      "duration": 1.44,
+      "text": "onboard more people I think",
+      "timestamp": "08:21"
+    },
+    {
+      "start": 502.479,
+      "duration": 2.56,
+      "text": "entertainment is more powerful than",
+      "timestamp": "08:22"
+    },
+    {
+      "start": 505.039,
+      "duration": 4.241,
+      "text": "finance in the long run.",
+      "timestamp": "08:25"
+    },
+    {
+      "start": 509.28,
+      "duration": 3.6,
+      "text": "Uh the reason why we chose L2",
+      "timestamp": "08:29"
+    },
+    {
+      "start": 512.88,
+      "duration": 2.56,
+      "text": "is is mainly we have a three reason. The",
+      "timestamp": "08:32"
+    },
+    {
+      "start": 515.44,
+      "duration": 2.479,
+      "text": "first one is Ethereum layer 2 is",
+      "timestamp": "08:35"
+    },
+    {
+      "start": 517.919,
+      "duration": 3.04,
+      "text": "scalable already, right? Uh previously",
+      "timestamp": "08:37"
+    },
+    {
+      "start": 520.959,
+      "duration": 1.681,
+      "text": "one single transaction of the Ethereum",
+      "timestamp": "08:40"
+    },
+    {
+      "start": 522.64,
+      "duration": 2.08,
+      "text": "layer one takes a lot of the cost but",
+      "timestamp": "08:42"
+    },
+    {
+      "start": 524.72,
+      "duration": 2.64,
+      "text": "today as I said uh single transaction of",
+      "timestamp": "08:44"
+    },
+    {
+      "start": 527.36,
+      "duration": 2.64,
+      "text": "sonium or base and other Ethereum layer",
+      "timestamp": "08:47"
+    },
+    {
+      "start": 530.0,
+      "duration": 3.92,
+      "text": "2 is even less than 1 cent and highly",
+      "timestamp": "08:50"
+    },
+    {
+      "start": 533.92,
+      "duration": 1.68,
+      "text": "customizable.",
+      "timestamp": "08:53"
+    },
+    {
+      "start": 535.6,
+      "duration": 2.32,
+      "text": "Uh for example, uni chain. Uni chain is",
+      "timestamp": "08:55"
+    },
+    {
+      "start": 537.92,
+      "duration": 3.039,
+      "text": "al also making the ethereum layer 2 made",
+      "timestamp": "08:57"
+    },
+    {
+      "start": 540.959,
+      "duration": 3.841,
+      "text": "by unis swap um uh powered by optock and",
+      "timestamp": "09:00"
+    },
+    {
+      "start": 544.8,
+      "duration": 2.159,
+      "text": "joining the super chain. Uh their block",
+      "timestamp": "09:04"
+    },
+    {
+      "start": 546.959,
+      "duration": 2.88,
+      "text": "time is 1 second today but they are",
+      "timestamp": "09:06"
+    },
+    {
+      "start": 549.839,
+      "duration": 3.601,
+      "text": "aiming to make it uh 200 millisecond",
+      "timestamp": "09:09"
+    },
+    {
+      "start": 553.44,
+      "duration": 2.72,
+      "text": "through flash blocks.",
+      "timestamp": "09:13"
+    },
+    {
+      "start": 556.16,
+      "duration": 4.0,
+      "text": "So by doing so uh um the finality can be",
+      "timestamp": "09:16"
+    },
+    {
+      "start": 560.16,
+      "duration": 2.88,
+      "text": "much faster. And the second one is uh",
+      "timestamp": "09:20"
+    },
+    {
+      "start": 563.04,
+      "duration": 1.68,
+      "text": "balancing the decentralization and",
+      "timestamp": "09:23"
+    },
+    {
+      "start": 564.72,
+      "duration": 4.08,
+      "text": "centralization. EDM one is by nature",
+      "timestamp": "09:24"
+    },
+    {
+      "start": 568.8,
+      "duration": 2.8,
+      "text": "super decentralized which is amazing.",
+      "timestamp": "09:28"
+    },
+    {
+      "start": 571.6,
+      "duration": 3.04,
+      "text": "But to onboard big company like Sony the",
+      "timestamp": "09:31"
+    },
+    {
+      "start": 574.64,
+      "duration": 2.72,
+      "text": "the we needed to manage we needed we",
+      "timestamp": "09:34"
+    },
+    {
+      "start": 577.36,
+      "duration": 1.52,
+      "text": "needed to balance between",
+      "timestamp": "09:37"
+    },
+    {
+      "start": 578.88,
+      "duration": 2.88,
+      "text": "decentralization and centralization.",
+      "timestamp": "09:38"
+    },
+    {
+      "start": 581.76,
+      "duration": 2.079,
+      "text": "One of the example is uh IP",
+      "timestamp": "09:41"
+    },
+    {
+      "start": 583.839,
+      "duration": 2.56,
+      "text": "infringements. uh we when we launch a",
+      "timestamp": "09:43"
+    },
+    {
+      "start": 586.399,
+      "duration": 2.88,
+      "text": "chain uh many people deploy uh",
+      "timestamp": "09:46"
+    },
+    {
+      "start": 589.279,
+      "duration": 3.361,
+      "text": "Spider-Man memecoin or maybe a",
+      "timestamp": "09:49"
+    },
+    {
+      "start": 592.64,
+      "duration": 2.72,
+      "text": "PlayStation memecoin and so on without",
+      "timestamp": "09:52"
+    },
+    {
+      "start": 595.36,
+      "duration": 4.4,
+      "text": "permission of course um and uh it was",
+      "timestamp": "09:55"
+    },
+    {
+      "start": 599.76,
+      "duration": 3.44,
+      "text": "the big debates about how we broke this",
+      "timestamp": "09:59"
+    },
+    {
+      "start": 603.2,
+      "duration": 3.44,
+      "text": "kind of activity. So we broke at the RPC",
+      "timestamp": "10:03"
+    },
+    {
+      "start": 606.64,
+      "duration": 3.92,
+      "text": "level. So on on everybody can deploy",
+      "timestamp": "10:06"
+    },
+    {
+      "start": 610.56,
+      "duration": 1.52,
+      "text": "whatever they want. They can deploy",
+      "timestamp": "10:10"
+    },
+    {
+      "start": 612.08,
+      "duration": 2.319,
+      "text": "memecoin, they can deploy defi, they can",
+      "timestamp": "10:12"
+    },
+    {
+      "start": 614.399,
+      "duration": 3.281,
+      "text": "deploy NFT whatever and they can deploy",
+      "timestamp": "10:14"
+    },
+    {
+      "start": 617.68,
+      "duration": 2.719,
+      "text": "IP infringement token as well. But at",
+      "timestamp": "10:17"
+    },
+    {
+      "start": 620.399,
+      "duration": 3.841,
+      "text": "the interface level at RDPC level uh we",
+      "timestamp": "10:20"
+    },
+    {
+      "start": 624.24,
+      "duration": 3.2,
+      "text": "decided to block the access to smart",
+      "timestamp": "10:24"
+    },
+    {
+      "start": 627.44,
+      "duration": 3.28,
+      "text": "contract. So um balancing the",
+      "timestamp": "10:27"
+    },
+    {
+      "start": 630.72,
+      "duration": 1.92,
+      "text": "decentralization and centralization is a",
+      "timestamp": "10:30"
+    },
+    {
+      "start": 632.64,
+      "duration": 2.16,
+      "text": "key successful factor to on board",
+      "timestamp": "10:32"
+    },
+    {
+      "start": 634.8,
+      "duration": 2.0,
+      "text": "mainstream.",
+      "timestamp": "10:34"
+    },
+    {
+      "start": 636.8,
+      "duration": 2.479,
+      "text": "Yeah, I I have a bunch of the creator",
+      "timestamp": "10:36"
+    },
+    {
+      "start": 639.279,
+      "duration": 3.361,
+      "text": "friends because I'm from Japan um known",
+      "timestamp": "10:39"
+    },
+    {
+      "start": 642.64,
+      "duration": 2.96,
+      "text": "as uh entertainment company country and",
+      "timestamp": "10:42"
+    },
+    {
+      "start": 645.6,
+      "duration": 3.2,
+      "text": "uh if they don't know uh blockchain and",
+      "timestamp": "10:45"
+    },
+    {
+      "start": 648.8,
+      "duration": 2.96,
+      "text": "crypto at all they they feel scary to",
+      "timestamp": "10:48"
+    },
+    {
+      "start": 651.76,
+      "duration": 2.16,
+      "text": "enter the space if we have a bunch of",
+      "timestamp": "10:51"
+    },
+    {
+      "start": 653.92,
+      "duration": 3.28,
+      "text": "the IP hingement token. So Sonium is not",
+      "timestamp": "10:53"
+    },
+    {
+      "start": 657.2,
+      "duration": 2.4,
+      "text": "only for web three people but also for",
+      "timestamp": "10:57"
+    },
+    {
+      "start": 659.6,
+      "duration": 2.72,
+      "text": "web two people and beyond. And the last",
+      "timestamp": "10:59"
+    },
+    {
+      "start": 662.32,
+      "duration": 4.16,
+      "text": "one is revenue versus cost. So as a a",
+      "timestamp": "11:02"
+    },
+    {
+      "start": 666.48,
+      "duration": 2.72,
+      "text": "company the the revenue matters right",
+      "timestamp": "11:06"
+    },
+    {
+      "start": 669.2,
+      "duration": 1.92,
+      "text": "this is going to be the reason why a lot",
+      "timestamp": "11:09"
+    },
+    {
+      "start": 671.12,
+      "duration": 1.92,
+      "text": "of the company join this space and",
+      "timestamp": "11:11"
+    },
+    {
+      "start": 673.04,
+      "duration": 1.84,
+      "text": "regarding the revenue the transaction",
+      "timestamp": "11:13"
+    },
+    {
+      "start": 674.88,
+      "duration": 3.04,
+      "text": "fee of the eadium layer 2 is going to be",
+      "timestamp": "11:14"
+    },
+    {
+      "start": 677.92,
+      "duration": 2.0,
+      "text": "our revenue",
+      "timestamp": "11:17"
+    },
+    {
+      "start": 679.92,
+      "duration": 2.32,
+      "text": "and uh we are bundling transaction and",
+      "timestamp": "11:19"
+    },
+    {
+      "start": 682.24,
+      "duration": 4.0,
+      "text": "we submit to layer one and we have to um",
+      "timestamp": "11:22"
+    },
+    {
+      "start": 686.24,
+      "duration": 3.76,
+      "text": "pay to ethereum so that's a cost",
+      "timestamp": "11:26"
+    },
+    {
+      "start": 690.0,
+      "duration": 3.68,
+      "text": "and uh let's say if you pay if you pay",
+      "timestamp": "11:30"
+    },
+    {
+      "start": 693.68,
+      "duration": 3.2,
+      "text": "and data on layer two. 90 cents comes to",
+      "timestamp": "11:33"
+    },
+    {
+      "start": 696.88,
+      "duration": 3.519,
+      "text": "us and 10 cent or 20 cents goes to",
+      "timestamp": "11:36"
+    },
+    {
+      "start": 700.399,
+      "duration": 3.041,
+      "text": "Ethereum layer 1 and it is pretty much",
+      "timestamp": "11:40"
+    },
+    {
+      "start": 703.44,
+      "duration": 4.72,
+      "text": "uh easy for a company to calculate ROI.",
+      "timestamp": "11:43"
+    },
+    {
+      "start": 708.16,
+      "duration": 2.64,
+      "text": "So what I would like to say is Ethereum",
+      "timestamp": "11:48"
+    },
+    {
+      "start": 710.8,
+      "duration": 2.719,
+      "text": "2 is getting ready I think almost ready",
+      "timestamp": "11:50"
+    },
+    {
+      "start": 713.519,
+      "duration": 3.201,
+      "text": "for mainstream adoption",
+      "timestamp": "11:53"
+    },
+    {
+      "start": 716.72,
+      "duration": 2.32,
+      "text": "for big enterprise and the loing hood",
+      "timestamp": "11:56"
+    },
+    {
+      "start": 719.04,
+      "duration": 2.239,
+      "text": "yesterday launch announced Ethereum 2",
+      "timestamp": "11:59"
+    },
+    {
+      "start": 721.279,
+      "duration": 1.761,
+      "text": "and this is the pro potentially the",
+      "timestamp": "12:01"
+    },
+    {
+      "start": 723.04,
+      "duration": 3.44,
+      "text": "reason why they chose Ethereum 2.",
+      "timestamp": "12:03"
+    },
+    {
+      "start": 726.48,
+      "duration": 2.32,
+      "text": "So uh I don't have a much time I think",
+      "timestamp": "12:06"
+    },
+    {
+      "start": 728.8,
+      "duration": 2.4,
+      "text": "so I'm going to skip several page I have",
+      "timestamp": "12:08"
+    },
+    {
+      "start": 731.2,
+      "duration": 4.48,
+      "text": "a 40 pages so I'm going to skip uh these",
+      "timestamp": "12:11"
+    },
+    {
+      "start": 735.68,
+      "duration": 2.56,
+      "text": "are my focus right now",
+      "timestamp": "12:15"
+    },
+    {
+      "start": 738.24,
+      "duration": 3.2,
+      "text": "um on sonium everybody is creator and uh",
+      "timestamp": "12:18"
+    },
+    {
+      "start": 741.44,
+      "duration": 3.28,
+      "text": "our focus is entertainment right now so",
+      "timestamp": "12:21"
+    },
+    {
+      "start": 744.72,
+      "duration": 2.64,
+      "text": "uh I am pretty interested in tokenized",
+      "timestamp": "12:24"
+    },
+    {
+      "start": 747.36,
+      "duration": 2.8,
+      "text": "IP revolution for example uh we have a",
+      "timestamp": "12:27"
+    },
+    {
+      "start": 750.16,
+      "duration": 2.479,
+      "text": "we have a several use case already uh",
+      "timestamp": "12:30"
+    },
+    {
+      "start": 752.639,
+      "duration": 3.681,
+      "text": "for example um you know um we can",
+      "timestamp": "12:32"
+    },
+    {
+      "start": 756.32,
+      "duration": 4.56,
+      "text": "tokenize 10% of the IP music IP rights",
+      "timestamp": "12:36"
+    },
+    {
+      "start": 760.88,
+      "duration": 3.28,
+      "text": "and uh we can automatically",
+      "timestamp": "12:40"
+    },
+    {
+      "start": 764.16,
+      "duration": 4.0,
+      "text": "transparently distribute royality to uh",
+      "timestamp": "12:44"
+    },
+    {
+      "start": 768.16,
+      "duration": 3.52,
+      "text": "um IP token holders. uh some of the",
+      "timestamp": "12:48"
+    },
+    {
+      "start": 771.68,
+      "duration": 3.04,
+      "text": "project try to tokenize movie right now",
+      "timestamp": "12:51"
+    },
+    {
+      "start": 774.72,
+      "duration": 2.72,
+      "text": "and uh if you have a NFT",
+      "timestamp": "12:54"
+    },
+    {
+      "start": 777.44,
+      "duration": 2.079,
+      "text": "um the revenue of the movie will be",
+      "timestamp": "12:57"
+    },
+    {
+      "start": 779.519,
+      "duration": 3.281,
+      "text": "automatically distributed to NFT holders",
+      "timestamp": "12:59"
+    },
+    {
+      "start": 782.8,
+      "duration": 6.159,
+      "text": "and that NFT is um on on OpenC and other",
+      "timestamp": "13:02"
+    },
+    {
+      "start": 788.959,
+      "duration": 2.641,
+      "text": "NFT marketplace and the last one is fun",
+      "timestamp": "13:08"
+    },
+    {
+      "start": 791.6,
+      "duration": 1.679,
+      "text": "engagements.",
+      "timestamp": "13:11"
+    },
+    {
+      "start": 793.279,
+      "duration": 3.601,
+      "text": "Um yeah I will be speaking later and",
+      "timestamp": "13:13"
+    },
+    {
+      "start": 796.88,
+      "duration": 2.72,
+      "text": "this is the performance. Um we launched",
+      "timestamp": "13:16"
+    },
+    {
+      "start": 799.6,
+      "duration": 3.52,
+      "text": "a chain January 2025 but uh we have a",
+      "timestamp": "13:19"
+    },
+    {
+      "start": 803.12,
+      "duration": 3.519,
+      "text": "strong onchain metrics right now uh like",
+      "timestamp": "13:23"
+    },
+    {
+      "start": 806.639,
+      "duration": 2.081,
+      "text": "1.3 million smart contract has been",
+      "timestamp": "13:26"
+    },
+    {
+      "start": 808.72,
+      "duration": 3.359,
+      "text": "already deployed uh around 250 20",
+      "timestamp": "13:28"
+    },
+    {
+      "start": 812.079,
+      "duration": 3.281,
+      "text": "million total value secured uh 7.5",
+      "timestamp": "13:32"
+    },
+    {
+      "start": 815.36,
+      "duration": 3.68,
+      "text": "million addresses and uh around 200",
+      "timestamp": "13:35"
+    },
+    {
+      "start": 819.04,
+      "duration": 2.239,
+      "text": "million transactions",
+      "timestamp": "13:39"
+    },
+    {
+      "start": 821.279,
+      "duration": 3.441,
+      "text": "and we are doing a uh incubation program",
+      "timestamp": "13:41"
+    },
+    {
+      "start": 824.72,
+      "duration": 2.96,
+      "text": "right now uh I think yesterday we closed",
+      "timestamp": "13:44"
+    },
+    {
+      "start": 827.68,
+      "duration": 2.0,
+      "text": "uh application but we got the 250",
+      "timestamp": "13:47"
+    },
+    {
+      "start": 829.68,
+      "duration": 1.52,
+      "text": "application we're going to do bunch of",
+      "timestamp": "13:49"
+    },
+    {
+      "start": 831.2,
+      "duration": 1.84,
+      "text": "the incubation program from now. So if",
+      "timestamp": "13:51"
+    },
+    {
+      "start": 833.04,
+      "duration": 2.0,
+      "text": "you are interested in building on stream",
+      "timestamp": "13:53"
+    },
+    {
+      "start": 835.04,
+      "duration": 2.0,
+      "text": "and focusing on entertainment maybe",
+      "timestamp": "13:55"
+    },
+    {
+      "start": 837.04,
+      "duration": 2.4,
+      "text": "gaming, music, movie uh please feel free",
+      "timestamp": "13:57"
+    },
+    {
+      "start": 839.44,
+      "duration": 2.72,
+      "text": "to reach out to me so that uh uh we can",
+      "timestamp": "13:59"
+    },
+    {
+      "start": 842.16,
+      "duration": 3.2,
+      "text": "work together. Uh this is ecosystem and",
+      "timestamp": "14:02"
+    },
+    {
+      "start": 845.36,
+      "duration": 2.0,
+      "text": "several several use cases. Uh we have",
+      "timestamp": "14:05"
+    },
+    {
+      "start": 847.36,
+      "duration": 2.08,
+      "text": "been collaborating with line is the",
+      "timestamp": "14:07"
+    },
+    {
+      "start": 849.44,
+      "duration": 2.56,
+      "text": "largest uh the mobile application in",
+      "timestamp": "14:09"
+    },
+    {
+      "start": 852.0,
+      "duration": 2.32,
+      "text": "Asia. uh through their application",
+      "timestamp": "14:12"
+    },
+    {
+      "start": 854.32,
+      "duration": 3.84,
+      "text": "platform through their superb um the",
+      "timestamp": "14:14"
+    },
+    {
+      "start": 858.16,
+      "duration": 3.679,
+      "text": "user can use and other uh entertainment",
+      "timestamp": "14:18"
+    },
+    {
+      "start": 861.839,
+      "duration": 2.641,
+      "text": "use cases on Sonium",
+      "timestamp": "14:21"
+    },
+    {
+      "start": 864.48,
+      "duration": 2.799,
+      "text": "and we are also reimagining",
+      "timestamp": "14:24"
+    },
+    {
+      "start": 867.279,
+      "duration": 3.92,
+      "text": "uh the relationship between fun and the",
+      "timestamp": "14:27"
+    },
+    {
+      "start": 871.199,
+      "duration": 2.561,
+      "text": "um artist.",
+      "timestamp": "14:31"
+    },
+    {
+      "start": 873.76,
+      "duration": 2.72,
+      "text": "So fun are going to the concert a lot",
+      "timestamp": "14:33"
+    },
+    {
+      "start": 876.48,
+      "duration": 4.159,
+      "text": "and then we gave them the SVT or NFT and",
+      "timestamp": "14:36"
+    },
+    {
+      "start": 880.639,
+      "duration": 2.481,
+      "text": "then they can prove the attendance and",
+      "timestamp": "14:40"
+    },
+    {
+      "start": 883.12,
+      "duration": 3.2,
+      "text": "uh also fun are going to decide which",
+      "timestamp": "14:43"
+    },
+    {
+      "start": 886.32,
+      "duration": 2.4,
+      "text": "song artist is going to sing and which",
+      "timestamp": "14:46"
+    },
+    {
+      "start": 888.72,
+      "duration": 3.28,
+      "text": "clothes to wear through u platform",
+      "timestamp": "14:48"
+    },
+    {
+      "start": 892.0,
+      "duration": 3.199,
+      "text": "through voting onchain voting and then",
+      "timestamp": "14:52"
+    },
+    {
+      "start": 895.199,
+      "duration": 3.921,
+      "text": "um the the through the um based on the",
+      "timestamp": "14:55"
+    },
+    {
+      "start": 899.12,
+      "duration": 1.76,
+      "text": "contribution they will be rewarded",
+      "timestamp": "14:59"
+    },
+    {
+      "start": 900.88,
+      "duration": 3.68,
+      "text": "through your token onium",
+      "timestamp": "15:00"
+    },
+    {
+      "start": 904.56,
+      "duration": 2.719,
+      "text": "Yeah. Uh and I have we have a one use",
+      "timestamp": "15:04"
+    },
+    {
+      "start": 907.279,
+      "duration": 2.56,
+      "text": "case that tokenize the movie. So based",
+      "timestamp": "15:07"
+    },
+    {
+      "start": 909.839,
+      "duration": 2.641,
+      "text": "on the the",
+      "timestamp": "15:09"
+    },
+    {
+      "start": 912.48,
+      "duration": 2.96,
+      "text": "um if this project generate a revenue,",
+      "timestamp": "15:12"
+    },
+    {
+      "start": 915.44,
+      "duration": 2.399,
+      "text": "the revenue is automatically distributed",
+      "timestamp": "15:15"
+    },
+    {
+      "start": 917.839,
+      "duration": 3.761,
+      "text": "through through onchain.",
+      "timestamp": "15:17"
+    },
+    {
+      "start": 921.6,
+      "duration": 1.52,
+      "text": "Yeah. Yeah, Sony is also working on",
+      "timestamp": "15:21"
+    },
+    {
+      "start": 923.12,
+      "duration": 2.159,
+      "text": "several things like uh SBORC which is",
+      "timestamp": "15:23"
+    },
+    {
+      "start": 925.279,
+      "duration": 3.441,
+      "text": "the the crypto exchange owned by Sony",
+      "timestamp": "15:25"
+    },
+    {
+      "start": 928.72,
+      "duration": 3.84,
+      "text": "and uh SNFD is NFD marketplace and uh uh",
+      "timestamp": "15:28"
+    },
+    {
+      "start": 932.56,
+      "duration": 1.839,
+      "text": "Sony is also working on farm marketing",
+      "timestamp": "15:32"
+    },
+    {
+      "start": 934.399,
+      "duration": 3.041,
+      "text": "platform and several IPs are already",
+      "timestamp": "15:34"
+    },
+    {
+      "start": 937.44,
+      "duration": 3.28,
+      "text": "deployed onchain uh like IBO uh go in",
+      "timestamp": "15:37"
+    },
+    {
+      "start": 940.72,
+      "duration": 2.559,
+      "text": "the shell venom",
+      "timestamp": "15:40"
+    },
+    {
+      "start": 943.279,
+      "duration": 1.761,
+      "text": "um",
+      "timestamp": "15:43"
+    },
+    {
+      "start": 945.04,
+      "duration": 2.96,
+      "text": "and several artists. The the good things",
+      "timestamp": "15:45"
+    },
+    {
+      "start": 948.0,
+      "duration": 2.48,
+      "text": "is we are not saying NFT we are not",
+      "timestamp": "15:48"
+    },
+    {
+      "start": 950.48,
+      "duration": 3.599,
+      "text": "saying uh you know onchain blockchain a",
+      "timestamp": "15:50"
+    },
+    {
+      "start": 954.079,
+      "duration": 3.361,
+      "text": "lot because user don't care much so we",
+      "timestamp": "15:54"
+    },
+    {
+      "start": 957.44,
+      "duration": 3.36,
+      "text": "would like to go beyond web3 space and",
+      "timestamp": "15:57"
+    },
+    {
+      "start": 960.8,
+      "duration": 3.76,
+      "text": "uh tech is back end",
+      "timestamp": "16:00"
+    },
+    {
+      "start": 964.56,
+      "duration": 5.44,
+      "text": "yeah uh I will be also speaking about oh",
+      "timestamp": "16:04"
+    },
+    {
+      "start": 970.0,
+      "duration": 2.399,
+      "text": "I don't have much time so yeah uh",
+      "timestamp": "16:10"
+    },
+    {
+      "start": 972.399,
+      "duration": 1.36,
+      "text": "account obstruction is a key to",
+      "timestamp": "16:12"
+    },
+    {
+      "start": 973.759,
+      "duration": 2.401,
+      "text": "onboarding of the people um we are",
+      "timestamp": "16:13"
+    },
+    {
+      "start": 976.16,
+      "duration": 1.919,
+      "text": "providing uh social logging, the gas",
+      "timestamp": "16:16"
+    },
+    {
+      "start": 978.079,
+      "duration": 3.68,
+      "text": "sponsorship, ERC20 for gas token, um",
+      "timestamp": "16:18"
+    },
+    {
+      "start": 981.759,
+      "duration": 2.241,
+      "text": "programmable wallets like uh social",
+      "timestamp": "16:21"
+    },
+    {
+      "start": 984.0,
+      "duration": 2.16,
+      "text": "recovery and the issue of the account",
+      "timestamp": "16:24"
+    },
+    {
+      "start": 986.16,
+      "duration": 1.84,
+      "text": "abstraction today is a fragmented",
+      "timestamp": "16:26"
+    },
+    {
+      "start": 988.0,
+      "duration": 2.639,
+      "text": "address. If you use preb, if you use",
+      "timestamp": "16:28"
+    },
+    {
+      "start": 990.639,
+      "duration": 2.64,
+      "text": "dynamic, if you use t or s web alchemy",
+      "timestamp": "16:30"
+    },
+    {
+      "start": 993.279,
+      "duration": 2.321,
+      "text": "to login, uh even though you're using",
+      "timestamp": "16:33"
+    },
+    {
+      "start": 995.6,
+      "duration": 1.76,
+      "text": "same Gmail, you're going to get",
+      "timestamp": "16:35"
+    },
+    {
+      "start": 997.36,
+      "duration": 2.719,
+      "text": "different address. So different address,",
+      "timestamp": "16:37"
+    },
+    {
+      "start": 1000.079,
+      "duration": 2.401,
+      "text": "the address fragmentation leads to uh",
+      "timestamp": "16:40"
+    },
+    {
+      "start": 1002.48,
+      "duration": 1.919,
+      "text": "liquidity fragmentation, ID",
+      "timestamp": "16:42"
+    },
+    {
+      "start": 1004.399,
+      "duration": 1.521,
+      "text": "fragmentation.",
+      "timestamp": "16:44"
+    },
+    {
+      "start": 1005.92,
+      "duration": 2.96,
+      "text": "So uh on on Sonium starter is providing",
+      "timestamp": "16:45"
+    },
+    {
+      "start": 1008.88,
+      "duration": 2.079,
+      "text": "the account obstruction smart contract",
+      "timestamp": "16:48"
+    },
+    {
+      "start": 1010.959,
+      "duration": 2.0,
+      "text": "and at the phase two we are going to",
+      "timestamp": "16:50"
+    },
+    {
+      "start": 1012.959,
+      "duration": 4.081,
+      "text": "bundle all addresses",
+      "timestamp": "16:52"
+    },
+    {
+      "start": 1017.04,
+      "duration": 3.2,
+      "text": "and people are going to use chain with",
+      "timestamp": "16:57"
+    },
+    {
+      "start": 1020.24,
+      "duration": 3.599,
+      "text": "one ID uh linking multiple addresses",
+      "timestamp": "17:00"
+    },
+    {
+      "start": 1023.839,
+      "duration": 2.401,
+      "text": "like",
+      "timestamp": "17:03"
+    },
+    {
+      "start": 1026.24,
+      "duration": 1.599,
+      "text": "is the ID and the people are going to",
+      "timestamp": "17:06"
+    },
+    {
+      "start": 1027.839,
+      "duration": 3.441,
+      "text": "use blockchain sodium through one ID for",
+      "timestamp": "17:07"
+    },
+    {
+      "start": 1031.28,
+      "duration": 2.08,
+      "text": "free because we can compensate we can",
+      "timestamp": "17:11"
+    },
+    {
+      "start": 1033.36,
+      "duration": 2.558,
+      "text": "subsidize all gas fee and compensation",
+      "timestamp": "17:13"
+    },
+    {
+      "start": 1035.919,
+      "duration": 2.481,
+      "text": "gas fee goes to our revenue. This is the",
+      "timestamp": "17:15"
+    },
+    {
+      "start": 1038.4,
+      "duration": 2.158,
+      "text": "new business model which is layer 2 and",
+      "timestamp": "17:18"
+    },
+    {
+      "start": 1040.559,
+      "duration": 4.4,
+      "text": "account abstraction uh explorer.",
+      "timestamp": "17:20"
+    },
+    {
+      "start": 1044.959,
+      "duration": 3.36,
+      "text": "Yeah. Uh this is how account obstruction",
+      "timestamp": "17:24"
+    },
+    {
+      "start": 1048.319,
+      "duration": 5.841,
+      "text": "works but I don't have a time. Um yeah.",
+      "timestamp": "17:28"
+    },
+    {
+      "start": 1054.16,
+      "duration": 2.639,
+      "text": "So uh if you're interested in working",
+      "timestamp": "17:34"
+    },
+    {
+      "start": 1056.799,
+      "duration": 3.681,
+      "text": "with us and uh uh development on sonium",
+      "timestamp": "17:36"
+    },
+    {
+      "start": 1060.48,
+      "duration": 2.079,
+      "text": "uh feel free to reach out to me. uh we",
+      "timestamp": "17:40"
+    },
+    {
+      "start": 1062.559,
+      "duration": 1.761,
+      "text": "are focusing on entertainment and happy",
+      "timestamp": "17:42"
+    },
+    {
+      "start": 1064.32,
+      "duration": 1.68,
+      "text": "to work with you guys. Uh thank you very",
+      "timestamp": "17:44"
+    },
+    {
+      "start": 1066.0,
+      "duration": 3.0,
+      "text": "much.",
+      "timestamp": "17:46"
+    }
+  ],
+  "extraction_timestamp": "2025-07-08T14:45:53.158140",
+  "playlist_title": "EthCC[8] Redford Stage"
+}

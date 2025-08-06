@@ -1,0 +1,1793 @@
+{
+  "video_id": "AJe044IOgKY",
+  "video_title": "Zain Cheng (Horizen Labs )_Compliant Private Stablecoins: The Roadmap to Confidential Stable Finance",
+  "video_url": "https://www.youtube.com/watch?v=AJe044IOgKY",
+  "channel_title": "[EthCC] Livestream 4",
+  "published_at": "2025-07-02T00:48:22+00:00",
+  "duration_seconds": null,
+  "view_count": 67,
+  "like_count": 2,
+  "description": "With a $230B market cap & $27.6T in 2024 transactions, stablecoins are integral to digital finance. Compliant private stablecoins are inevitable. This talk explores the Confidential ERC-20 & cryptographic solutions harmonizing privacy w/regulation.",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 295,
+    "aggregated_text": "[Music] Hey everyone, welcome. My name is uh Zayn and I'm the CTO of Horizon Labs. Uh we work on the Horizon blockchain and uh we're the home to the cryptocurrency Zen. We're also builders on base. Uh today I'll talk about compliant private stable coins. These are the high-level uh beats of what I'll talk about today. We'll start with some quick framing uh with Vitalix 3 transitions and then I'll go through the four four models of private stable coins. Uh for each of those models I'll do a quick case study on each of them. uh the first one anonymity sets the second one FHE based uh the third one ZK proof systems and the fourth trusted execution environments um then I'll go through a road map towards compliant private stable coins and then a summary and next steps quick framing uh so on the left the bank list guys um you know early on in the year they had coined this term called stable coin summer. And so we're in the midst of it. Everybody um probably has gone through conferences that are completely about stable coins. Um it's unavoidable. It's inevitable. And uh just uh just like some quick framing here in 2024 the global volume was 27.6 trillion more than Visa and Mastercard. And the 2025 numbers uh are set to surpass that. Uh on the right is Chris Dixon. He's the founder of A16Z Crypto. Last month he was part of the A16Z crypto podcast where everybody was asking him, hey, why is everybody into stable coins right now? He simplified it by saying um payments are now less than a second and less than a penny. Uh that's very valuable for many countries. Um and for apps who want to adopt payments, it's literally one click uh to be able to have your application accept payments from 190 plus countries just like that. He called stable coins uh internet native money. um and the layer for it. Stable coins are fast, global, but they really they leak everything. Um and um yeah, this illustration is more around like a uh leaky faucet. Uh for enterprises, it undermines the competitive advantage. So it exposes supplier and vendor relationships. It leaks payroll. And all in all, the adoption of stable coins for B2B flows is limited. Um, for individuals, uh, it compromises financial dignity and safety. Um, anybody could trace uh, someone's income, their spending, donations. It puts um, your family members, employees, and um, activists at risk. It fails a lot of the basic premise for financial privacy. Um although it has had a lot of adapt uh adoption and it's really um proving a lot uh it's still underutilized. Um there's no mass payroll um and retail adoption yet. Um mainstream use really demands compliance and confidentiality. Uh this is the um blog post that I mentioned at the start. This is from over two years ago now. Uh this is Vitalik's three transitions. Um these transitions are necessary for the greater level transition of Ethereum going from a young experimental technology to a mature capable tech stack and this tech stack is meant to bring open global permissionless experience to average users. uh you see here uh that this ecosystem triangle uh for the higher level transition all three are needed. Um so on the bottom left we have L2 scaling and we've really seen the maturation of L2 scaling um across the frameworks is highly it's highly viewed as the you know official sharding for Ethereum and so that transition is it fully underway. Uh we have the wallet um smart contract um transition and uh some of the folks from wallet connect were here earlier they spoke about it uh and then it was more fully introduced with uh last month's spectra upgrade. So the last one is that privacy transition. So two and a half years late, two years later where we are now. Uh these are the more recent views from um just a couple months ago. So 2025 Q2 um Vitalik has posted around why he supports privacy um that it is no it can no longer be ignored. It's freedom, order, and progress. um in the Ethereum magicians forum that's the core dev forum for Ethereum um he's posed a maximally simple L1 privacy road map it consists of nine steps and it kind of goes uh just a little bit more simple beyond the protocol. So uh just to close out the framing uh this talk is more about a higher landscape view. It is less about the specifics but more about broad overall patterns. So I'll cover the four models of private stable coins. Uh what is it? Uh a definition for a private compliant stable coin is a stable coin that preserves transaction confidentiality. So this could conceal the sender, receiver and amount. I know some projects are not concealing the sender and receiver by choice citing that uh just the amount is necessary for regulation. Uh this would align with regulatory expectations. Uh this could be having an audit trail selective disclosure and I know that jurisdictions are very different. So this is more general uh compliance around juris jurisdictions. How does it manifest itself? Um, so it could manifest itself in two ways. It could be a private rep representation of an existing stable coin. So these are the ones you know very well, USDC, USDT, uh, die. They're locked in contracts um, uh, on the L1 and then reissued in these uh, private run times. It can be achieved through wrapping or bridging and it allows for private balance transfers within that runtime without uh issuing a brand new stable coin. Uh the other uh way it'll manifest itself is through these native deployments directly in those privacy enforcing environments. So this could be a new stable coin protocol that's launched directly inside uh the ZK FHE and TE systems. Uh so these examples could include algorithmic models or CDP based uh collaterized deposition based issuance um where they're fully private by design and they have built-in logic for compliance. Uh so these are just like very high level broad strokes the way I see them. They're four models. Um the first one is around anonymity sets. It's just uh playing around with indistinguishability amongst users. I'll go through uh some of the case studies here include bit wage, tornado cache, rail gun. Uh and then uh the second one is around uh fully homorphic encryption FHE based approaches. Uh many of these projects that are listed here are here at ECC. Uh then we have zero knowledge proof systems uh Aztec Alomo Manta and others and then uh trusted execution environments uh with Oasis, Vala, Automa and US Horizon. Uh so the first case studies set I'll go through is Bit Wage. They've been around for a while and um uh they've really um pushed uh the frontier towards um payroll. Uh they've reached this was from the beginning of the year in January. They reached 400 million in crypto payroll processed and they largely use stable coins. Um there's this option here which has been around for a while. Um it is a lightweight form of an anonymity set which is to offer a set of over a hundred different payout addresses. So every time that um you're paid as part of payroll, wages will be sent to the next address on that list which uh nobody could see except for the folks who are there. Um it achieves anonymity with this uh limited set of addresses. Um the second one, many of you are familiar with this. It's the tornado cache style of smart contract mixing. Uh the idea here is that to use a shared pool where you could deposit your stable coin, a fixed amount at USDC, and it creates a commitment that gets added to a data structure um Merkel tree upon withdrawal to a different address. uh all you have to do is supply zero knowledge proof and you it doesn't reveal um which deposit was originally theirs. Uh now the anonymity set here is that it's all deposits and more users mean more anonymity. Uh one issue with this is uh these are all from 2022. Um the uh tornado cache was added to the OFAC list, the office of foreign asset controls. And so this caused many projects uh because they want to be uh OFAC compliant. Uh they start to freeze tornado uh interactions with tornado cache smart contracts. Uh the first one was circle. Um initially USDT said that oh they are not going to do that but 16 month later 16 months later they did and uh definitely understandably so. Um even RPC providers with Infura and Alchemy started blocking access to tornado cache which means that um even if you were to use popular wallets you couldn't access tornado cache um through those. The center image is around um relayers in the block building process. Uh so uh many of these uh ME relayers um at least seven out of the 10 of them they are uh they strive for OFAC compliance. So they actively censor blocks which means uh for certain transactions especially those that interact with tornado cache they were censored. I know that there's a active movement around this with um uh forked uh choice inclusion lists and I know that that will be definitely a big part of anti-censorship. Uh one degree higher than tornado cache uh private uh pools is the concept of privacy pools. Uh this was um on the left is a white paper from Vitalic from a couple of years ago and it talks about um just like an advancement where these pools are only limited to addresses who have never interacted with known exploits. Um it is uh uh there's a kind of like a way of uh checking um and providing these proofs of innocence and uh there's a diagram here showing a membership proof. I'd mentioned that ninestep plan from just a couple of months ago. uh the very first step of that ninestep plan from Vitalik had mentioned hey we can immediately use these privacy uh tools and these privacy pools with existing wallets so uh MetaMask trust wallet Coinbase just giving some examples where um wallet should have this notion where whenever you send to someone else you should send it from a shielded balance uh that way uh it can't you achieve privacy on the wallet level. Now, this uh would ideally be turned on by default and so users would not have to download a a separate privacy wallet. Uh one downfall of this is that risk risk could be viewed as moving towards uh the wallet providers. I have no like real good statistic around this, but my sense is that like maybe there's a 10% chance that wallet providers would actually default to this. That's a fuzzy statistic. Uh so the summary um the summary is that uh private stable coins with these anonymity sets definitely uh unlinkable when the set is large. It's a very flexible design space with bit wage wallet defaults and it's available today. Um the cons are their small sets which reduce the anonymity guarantees and censorship censorship and legal risk which we saw. Um and uh you know another thing with the privacy set is that boot bootstrapping these sets are hard and uh although it's available today it's in a little bit of a gray area. Next I'll go through uh FHE based uh this is a um announcement from circle research with INCO um they had said that they're introducing this uh confidential ERC20 and I know Remy from um Inko had talked yesterday um which was great and this on on the right is the uh on your right is the white paper for uh this is a high level on the interface. So it it it com is comparable to the RC20 but it has this concept of hidden balance hidden transfer and these wrappers. Um and the idea is that um you could either implement this sort of uh um privacy as EVM pre-ompiles or co uh co-processing approach. So um with this confidential ERC20 is more of an interface um that contracts can interact with and uh FHE is just one implementation of it. Uh so from a higher level I didn't really go through FHE uh but uh on a higher level um the data that you're working with um could be the address the amount it's encrypted and then um there's this uh all computations on this encrypted data happening while it's encrypted so it's not um decrypted any way until much later on by the client. Uh so um on the right you'll see uh this like high level representation of it which is um the confidential ERC20 um really delegating to this uh FHE processor um there uh for like things like a um balance transfers. It undergoes um everything through encrypted operations. So that includes encrypted uh edition, encrypted comparisons and uh yeah just like deducting the amount in an encrypted way uh through over the encrypted data from the sender and then add adding the increment to the recipient. Uh Zama has uh made a lot of progress uh here and are leaders in the space. They have the confidential blockchain protocol. I believe they're go their test net launch today. Uh much uh congrats to them. And um it's really a similar model where there's co-processing that's happening offchain with uh encrypted computation. Um and they had mentioned that although they can um work with encrypted sender and recipient addresses, they chose um not to do that but only uh the amounts are uh encrypted. uh they've from their view compliance is more around traceability. Uh just like the way messages are happening where you know that you can see messages who exchanged them but not the message content um they they are encrypting the amounts right test net live July 1st today mainet Q4 2025 and transaction costs are uh have been lowered and no fees on the computation itself as of now. So um pros uh I think that it has strong backing uh in terms of uh circle research the a leading stable coin provider issuer uh directly involved with the uh research. It really takes FHE and aligns it with real world regulatory and enterprise needs. Um it's scalable with more hardware investment. this a lot with um FBGA's A6 and the costs are trending down overall. Uh the cons are is that it's still a heavy uh off-chain infrastructure requires those heavyweight um co-processors and MPC decryption nodes. Um I think we're still pretty early um and uh the tooling is pretty new as well as the test net's just launching. um summary is uh there's like a lot of um large technical strides but still really early. Next up uh ZK proof systems. Um Aztec uh you know they have that programmable ZK layer 2 off Ethereum. Um they also uh launched testnet um sometime last month. they have Aztec Noir as smart contracting language and um been making huge advancements in the space. Uh the architecture here is that um smart contract execution happens in this custom ZKVM and uh private state is held in these encrypted UTXOs uh and public state in Merkel trees. Uh the design pattern for stable coins is similar where um you know stable coins could be bridged directly from Ethereum into Aztec or new stable coin protocols can be deployed. Uh the maturation cycle here in test net uh there's new Aztec 3 uh but mainet expected later in the year. Uh this this is a uh project um that's led by Taurus which is a um uh it is a um institution and uh the architecture here is that um it is a contract minted direct that is deployed directly into Aztec and it's backed by onetoone off-chain assets um similar to circles USDC. um it is native privacy. Um the way I view this is that it's more of a like um a directional um view where um the that institutions are interested in it and um instit institutional grade privacy native stable coins are occurring in ZKL2s. Um and so uh it's like it is a broader evolution. Uh pros so pros and cons with uh stable coins and zk proof systems. Uh the programmable privacy here is that um it is uh much richer especially with with uh noir amongst the cryptographic privacy models. seems to be the most mature. Uh they have had uh solid uh tooling and test nets for some time and um offer just a little bit more performance. Um in terms of cons, uh proof generation is improving but still a constraint. Um there's faster proving with hardware acceleration. Um but even with that proving there's centralization risks as well as leakage. um uh in terms of privacy leakage from the proving networks uh ecosystem still early but it is a compelling and practical approach um and uh yeah test net and mainet are promising. Uh lastly I'll go through the third the fourth bucket which is uh trusted execution environments. Uh I just to do a quick aside uh from that ninestep plan uh there is a step five here um around uh TE based um RPC privacy. Uh now it's not directly related to stable coins but um I just wanted to call out uh that uh it w it was mentioned in the ninestep plan and here it's more around the fact that RPC nodes themselves are leaking privacy uh as you're I mean you don't even have to be submitting transactions but uh any your interactions such as uh your browsing patterns and IPs uh they are visible to RPC providers. So the idea here is to be able to um run a T-protected um RPC and Automa who I believe also had a talk yesterday um has uh is a working example of this and this is u another way of having wallets and RPC providers help with privacy beyond the protocol. Uh so extending extending T's towards transaction execution. Um the idea here is that um transactions execute inside of the trusted execution uh environment uh where EVM logic it lives inside the enclave. Um now uh T's have come a long way and um yeah I I think that it is a very compelling design. Um this enables private transfers of existing stable coins uh without modifying the contract and without having to know a new language. Uh there's confidentiality and compliance by design where sender, receiver and amount are all hidden and it supports jurisdictional controls such as geo fencing uh enterprise compliance. Um it is the fastest um path towards enterprisegrade stable coin deployments. Um it's low latency. Um a lot of them are um widely available in major cloud platforms AWS Azure and um is a great near-term solution for institutions seeking compliance and speed. Uh this is where we're operating as well. Um we um are part we are part of the base ecosystem. Um this is uh the announcement of BAS and uh their L3 chains and we're part of that initial cohort. We're moving our entire uh token supply from a UTXO based blockchain directly into base as an ERC20 and we're working on a confidential compute environment for the end of the year. Uh these are the like high level beats of like um our road map and um we are fully into the migration of our token directly into base and um widely available across all exchanges uh Binance, Coinbase uh and then working towards our compute environment. Uh just another note this is um comment from uh Philip Decker who is a uh analyst in emerging payments at AMX. Uh he had gone through a similar uh kind of like thought process as I did. Um this was published maybe two or three days ago. Um and he also at the end makes a case for TE's uh citing that the performance is high and it enables uh near instant execution with minimal gas. Um and because of their um the way that they're structured um there's a little bit more legal clarity. Uh just like with cloud storage uh governments can um have ability to request information as needed. So, pros and cons. Um, there's EVM compatibility and speed. You can run the existing stable coin contracts without any rewrites and um near instant execution within these enclaves. Um, the is already compliance uh ready by design and uh supports selective disclosure, auditability and geoencing. Uh some of the cons are that uh the trusted there are assumptions with the hardware uh relies on the security of the vendors Intel and AMD and there are operational centralization risks but all in all uh TE's offer this practical performant path and it's ideal for enterprises. is this is a highlevel road map. Um I've uh superimpose the uh Ethereum hard forks on here. Uh Ethereum has had 17 18 upgrades all uh dramafree and um with the zero downtime. Incredible. Um I put Fusaka on here, Glamsterdam and the risk five uh BM in like a more cloudy way. Um the first one, the anonymity set stable coins available now. Um but right that 10% chance of being adopted and still in the gray zone. Uh FHS are um improving a lot uh I think uh in terms of co-processor development performance optimizations. uh there's um more of a chance for maturity closer towards the end of next year. Um ZK stable coins um ZK based uh stable coins um a lot is already out there but also probably 2026 um midyear and beyond. Uh and then Tbased stable coins more of the near term. Now this is also kind of like fuzzy uh reasoning but uh just like a high level view summary and next steps. Uh so we went through the definition of a private compliance stable coin. How it manifests it uh manifests itself uh private representations um of existing stable coins bridged um reissued uh then the native deployments. Uh these are some like highle models of the private stable coins. Um I I probably missed a few like uh buckets. Maybe there's a wallet based bucket um and account abstraction, but um these are the ways uh they could be categorized. And then quickly we went through like a a road map in terms of like time to maturity. Uh just uh superimposing this on top of the Ethereum um upgrades. Next steps. Uh we're all in this together. I've uh took a little um screenshot of the Ethereum infinite garden. It is a very fastmoving frontier. Uh we're building it together um as developers, parts of this community. I we also want to include regulators and institutions. They're part of this like magical experience. Uh so um I I'm feel very grateful to be here and thank you. Thank you everyone. Uh any questions? Thanks. Great presentation. Thank you so much. Um I was wondering if you also would where you would put something like Midnight as a layer for uh encryption on existing wallets. Uh, that's a good question. Um, from my what I remember about Midnight, it's more of like a ZKbased system. So, I'd categorize it there. I wasn't familiar about it being a layer 4, but um, you know, that seems to make sense to me terms of like lower costs. Thank you for the talk. It's very interesting. I have a question about performance levels. So you showed that slide with FHE and ZK. What kind of performance levels do you think you need or the industry needs for it to go mainstream? Yeah. Yeah. It's a great question. I feel like these slides I just kind of like put them together, but they're probably outdated already how fast the you know things are moving into industry. Uh but at the very beginning I showed like um you know subsecond transactions. Um, you know, I know like base has block times now of like 250 milliseconds. So I think um in terms of like performance and speed, ideally it'd be a subsecond Um, any other questions? Okay. Well, thank you. I appreciate you being here. Um,",
+    "text_length": 22617,
+    "word_count": 4115
+  },
+  "segments": [
+    {
+      "start": 0.7,
+      "duration": 8.149,
+      "text": "[Music]",
+      "timestamp": "00:00"
+    },
+    {
+      "start": 10.08,
+      "duration": 6.48,
+      "text": "Hey everyone, welcome. My name is uh Zayn and I'm the CTO of",
+      "timestamp": "00:10"
+    },
+    {
+      "start": 16.56,
+      "duration": 6.08,
+      "text": "Horizon Labs. Uh we work on the Horizon blockchain and uh we're the home to the",
+      "timestamp": "00:16"
+    },
+    {
+      "start": 22.64,
+      "duration": 6.399,
+      "text": "cryptocurrency Zen. We're also builders on base. Uh today I'll talk about",
+      "timestamp": "00:22"
+    },
+    {
+      "start": 29.039,
+      "duration": 7.841,
+      "text": "compliant private stable coins. These are the high-level uh beats of",
+      "timestamp": "00:29"
+    },
+    {
+      "start": 36.88,
+      "duration": 5.12,
+      "text": "what I'll talk about today. We'll start with some quick framing uh with Vitalix",
+      "timestamp": "00:36"
+    },
+    {
+      "start": 42.0,
+      "duration": 7.68,
+      "text": "3 transitions and then I'll go through the four four models of private stable coins. Uh for each of those models I'll",
+      "timestamp": "00:42"
+    },
+    {
+      "start": 49.68,
+      "duration": 5.68,
+      "text": "do a quick case study on each of them. uh the first one anonymity sets the",
+      "timestamp": "00:49"
+    },
+    {
+      "start": 55.36,
+      "duration": 6.719,
+      "text": "second one FHE based uh the third one ZK proof systems and the fourth trusted",
+      "timestamp": "00:55"
+    },
+    {
+      "start": 62.079,
+      "duration": 6.961,
+      "text": "execution environments um then I'll go through a road map towards compliant private stable coins",
+      "timestamp": "01:02"
+    },
+    {
+      "start": 69.04,
+      "duration": 4.84,
+      "text": "and then a summary and next steps",
+      "timestamp": "01:09"
+    },
+    {
+      "start": 74.479,
+      "duration": 8.32,
+      "text": "quick framing uh so on the left the bank list guys um you know early on in the",
+      "timestamp": "01:14"
+    },
+    {
+      "start": 82.799,
+      "duration": 5.201,
+      "text": "year they had coined this term called stable coin summer. And so we're in the",
+      "timestamp": "01:22"
+    },
+    {
+      "start": 88.0,
+      "duration": 7.28,
+      "text": "midst of it. Everybody um probably has gone through conferences that are completely about stable coins. Um it's",
+      "timestamp": "01:28"
+    },
+    {
+      "start": 95.28,
+      "duration": 5.199,
+      "text": "unavoidable. It's inevitable. And uh just uh just like some quick framing",
+      "timestamp": "01:35"
+    },
+    {
+      "start": 100.479,
+      "duration": 6.561,
+      "text": "here in 2024 the global volume was 27.6 trillion more than Visa and Mastercard.",
+      "timestamp": "01:40"
+    },
+    {
+      "start": 107.04,
+      "duration": 8.719,
+      "text": "And the 2025 numbers uh are set to surpass that. Uh on the right is Chris Dixon. He's the",
+      "timestamp": "01:47"
+    },
+    {
+      "start": 115.759,
+      "duration": 6.081,
+      "text": "founder of A16Z Crypto. Last month he was part of the A16Z crypto podcast",
+      "timestamp": "01:55"
+    },
+    {
+      "start": 121.84,
+      "duration": 5.599,
+      "text": "where everybody was asking him, hey, why is everybody into stable coins right",
+      "timestamp": "02:01"
+    },
+    {
+      "start": 127.439,
+      "duration": 7.681,
+      "text": "now? He simplified it by saying um payments are now less than a second and",
+      "timestamp": "02:07"
+    },
+    {
+      "start": 135.12,
+      "duration": 5.119,
+      "text": "less than a penny. Uh that's very valuable for many countries. Um and for",
+      "timestamp": "02:15"
+    },
+    {
+      "start": 140.239,
+      "duration": 7.521,
+      "text": "apps who want to adopt payments, it's literally one click uh to be able to have your application accept payments",
+      "timestamp": "02:20"
+    },
+    {
+      "start": 147.76,
+      "duration": 7.04,
+      "text": "from 190 plus countries just like that. He called stable coins uh internet",
+      "timestamp": "02:27"
+    },
+    {
+      "start": 154.8,
+      "duration": 5.96,
+      "text": "native money. um and the layer for it.",
+      "timestamp": "02:34"
+    },
+    {
+      "start": 162.08,
+      "duration": 7.68,
+      "text": "Stable coins are fast, global, but they really they leak everything. Um and um",
+      "timestamp": "02:42"
+    },
+    {
+      "start": 169.76,
+      "duration": 5.36,
+      "text": "yeah, this illustration is more around like a uh leaky faucet. Uh for",
+      "timestamp": "02:49"
+    },
+    {
+      "start": 175.12,
+      "duration": 5.92,
+      "text": "enterprises, it undermines the competitive advantage. So it exposes",
+      "timestamp": "02:55"
+    },
+    {
+      "start": 181.04,
+      "duration": 5.279,
+      "text": "supplier and vendor relationships. It leaks payroll. And all in all, the",
+      "timestamp": "03:01"
+    },
+    {
+      "start": 186.319,
+      "duration": 8.161,
+      "text": "adoption of stable coins for B2B flows is limited. Um, for individuals, uh, it",
+      "timestamp": "03:06"
+    },
+    {
+      "start": 194.48,
+      "duration": 6.0,
+      "text": "compromises financial dignity and safety. Um, anybody could trace uh,",
+      "timestamp": "03:14"
+    },
+    {
+      "start": 200.48,
+      "duration": 5.28,
+      "text": "someone's income, their spending, donations. It puts um, your family",
+      "timestamp": "03:20"
+    },
+    {
+      "start": 205.76,
+      "duration": 5.759,
+      "text": "members, employees, and um, activists at risk. It fails a lot of the basic",
+      "timestamp": "03:25"
+    },
+    {
+      "start": 211.519,
+      "duration": 7.521,
+      "text": "premise for financial privacy. Um although it has had a lot of adapt uh",
+      "timestamp": "03:31"
+    },
+    {
+      "start": 219.04,
+      "duration": 5.68,
+      "text": "adoption and it's really um proving a lot uh it's still underutilized.",
+      "timestamp": "03:39"
+    },
+    {
+      "start": 224.72,
+      "duration": 7.68,
+      "text": "Um there's no mass payroll um and retail adoption yet. Um mainstream use really",
+      "timestamp": "03:44"
+    },
+    {
+      "start": 232.4,
+      "duration": 4.44,
+      "text": "demands compliance and confidentiality.",
+      "timestamp": "03:52"
+    },
+    {
+      "start": 238.4,
+      "duration": 5.44,
+      "text": "Uh this is the um blog post that I mentioned at the start. This is from",
+      "timestamp": "03:58"
+    },
+    {
+      "start": 243.84,
+      "duration": 6.56,
+      "text": "over two years ago now. Uh this is Vitalik's three transitions. Um these",
+      "timestamp": "04:03"
+    },
+    {
+      "start": 250.4,
+      "duration": 6.399,
+      "text": "transitions are necessary for the greater level transition of Ethereum going from a young experimental",
+      "timestamp": "04:10"
+    },
+    {
+      "start": 256.799,
+      "duration": 5.28,
+      "text": "technology to a mature capable tech stack and this tech stack is meant to",
+      "timestamp": "04:16"
+    },
+    {
+      "start": 262.079,
+      "duration": 6.081,
+      "text": "bring open global permissionless experience to average users. uh you see",
+      "timestamp": "04:22"
+    },
+    {
+      "start": 268.16,
+      "duration": 5.759,
+      "text": "here uh that this ecosystem triangle uh for the higher level transition all",
+      "timestamp": "04:28"
+    },
+    {
+      "start": 273.919,
+      "duration": 6.641,
+      "text": "three are needed. Um so on the bottom left we have L2 scaling and we've really",
+      "timestamp": "04:33"
+    },
+    {
+      "start": 280.56,
+      "duration": 6.8,
+      "text": "seen the maturation of L2 scaling um across the frameworks is highly it's",
+      "timestamp": "04:40"
+    },
+    {
+      "start": 287.36,
+      "duration": 7.76,
+      "text": "highly viewed as the you know official sharding for Ethereum and so that transition is it fully underway. Uh we",
+      "timestamp": "04:47"
+    },
+    {
+      "start": 295.12,
+      "duration": 6.48,
+      "text": "have the wallet um smart contract um transition and uh some of the folks from",
+      "timestamp": "04:55"
+    },
+    {
+      "start": 301.6,
+      "duration": 7.12,
+      "text": "wallet connect were here earlier they spoke about it uh and then it was more fully introduced with uh last month's",
+      "timestamp": "05:01"
+    },
+    {
+      "start": 308.72,
+      "duration": 6.96,
+      "text": "spectra upgrade. So the last one is that privacy transition.",
+      "timestamp": "05:08"
+    },
+    {
+      "start": 315.68,
+      "duration": 8.239,
+      "text": "So two and a half years late, two years later where we are now. Uh these are the more recent views from um just a couple",
+      "timestamp": "05:15"
+    },
+    {
+      "start": 323.919,
+      "duration": 7.521,
+      "text": "months ago. So 2025 Q2 um Vitalik has posted around why he supports privacy um",
+      "timestamp": "05:23"
+    },
+    {
+      "start": 331.44,
+      "duration": 5.84,
+      "text": "that it is no it can no longer be ignored. It's freedom,",
+      "timestamp": "05:31"
+    },
+    {
+      "start": 337.28,
+      "duration": 6.88,
+      "text": "order, and progress. um in the Ethereum magicians forum",
+      "timestamp": "05:37"
+    },
+    {
+      "start": 344.16,
+      "duration": 5.84,
+      "text": "that's the core dev forum for Ethereum um he's posed a maximally simple L1",
+      "timestamp": "05:44"
+    },
+    {
+      "start": 350.0,
+      "duration": 6.8,
+      "text": "privacy road map it consists of nine steps and it kind of goes uh just a",
+      "timestamp": "05:50"
+    },
+    {
+      "start": 356.8,
+      "duration": 4.28,
+      "text": "little bit more simple beyond the protocol.",
+      "timestamp": "05:56"
+    },
+    {
+      "start": 362.479,
+      "duration": 5.761,
+      "text": "So uh just to close out the framing uh this talk is more about a higher",
+      "timestamp": "06:02"
+    },
+    {
+      "start": 368.24,
+      "duration": 7.04,
+      "text": "landscape view. It is less about the specifics but more about broad overall",
+      "timestamp": "06:08"
+    },
+    {
+      "start": 375.28,
+      "duration": 6.72,
+      "text": "patterns. So I'll cover the four models of private",
+      "timestamp": "06:15"
+    },
+    {
+      "start": 382.0,
+      "duration": 6.16,
+      "text": "stable coins. Uh what is it? Uh a definition for a",
+      "timestamp": "06:22"
+    },
+    {
+      "start": 388.16,
+      "duration": 7.599,
+      "text": "private compliant stable coin is a stable coin that preserves transaction confidentiality. So this could conceal",
+      "timestamp": "06:28"
+    },
+    {
+      "start": 395.759,
+      "duration": 6.641,
+      "text": "the sender, receiver and amount. I know some projects are not concealing the sender and receiver by choice citing",
+      "timestamp": "06:35"
+    },
+    {
+      "start": 402.4,
+      "duration": 6.639,
+      "text": "that uh just the amount is necessary for regulation. Uh this would align with regulatory",
+      "timestamp": "06:42"
+    },
+    {
+      "start": 409.039,
+      "duration": 6.801,
+      "text": "expectations. Uh this could be having an audit trail selective disclosure and I know that jurisdictions are very",
+      "timestamp": "06:49"
+    },
+    {
+      "start": 415.84,
+      "duration": 7.199,
+      "text": "different. So this is more general uh compliance around juris jurisdictions.",
+      "timestamp": "06:55"
+    },
+    {
+      "start": 423.039,
+      "duration": 6.801,
+      "text": "How does it manifest itself? Um, so it could manifest itself in two ways. It",
+      "timestamp": "07:03"
+    },
+    {
+      "start": 429.84,
+      "duration": 5.12,
+      "text": "could be a private rep representation of an existing stable coin. So these are",
+      "timestamp": "07:09"
+    },
+    {
+      "start": 434.96,
+      "duration": 8.32,
+      "text": "the ones you know very well, USDC, USDT, uh, die. They're locked in contracts um,",
+      "timestamp": "07:14"
+    },
+    {
+      "start": 443.28,
+      "duration": 6.16,
+      "text": "uh, on the L1 and then reissued in these uh, private run times. It can be",
+      "timestamp": "07:23"
+    },
+    {
+      "start": 449.44,
+      "duration": 7.92,
+      "text": "achieved through wrapping or bridging and it allows for private balance transfers within that runtime without uh",
+      "timestamp": "07:29"
+    },
+    {
+      "start": 457.36,
+      "duration": 6.959,
+      "text": "issuing a brand new stable coin. Uh the other uh way it'll manifest",
+      "timestamp": "07:37"
+    },
+    {
+      "start": 464.319,
+      "duration": 6.481,
+      "text": "itself is through these native deployments directly in those privacy enforcing environments. So this could be",
+      "timestamp": "07:44"
+    },
+    {
+      "start": 470.8,
+      "duration": 5.76,
+      "text": "a new stable coin protocol that's launched directly inside uh the ZK FHE",
+      "timestamp": "07:50"
+    },
+    {
+      "start": 476.56,
+      "duration": 7.28,
+      "text": "and TE systems. Uh so these examples could include algorithmic models or CDP based uh",
+      "timestamp": "07:56"
+    },
+    {
+      "start": 483.84,
+      "duration": 5.359,
+      "text": "collaterized deposition based issuance um where they're fully private by design",
+      "timestamp": "08:03"
+    },
+    {
+      "start": 489.199,
+      "duration": 5.081,
+      "text": "and they have built-in logic for compliance.",
+      "timestamp": "08:09"
+    },
+    {
+      "start": 495.12,
+      "duration": 7.84,
+      "text": "Uh so these are just like very high level broad strokes the way I see them. They're four models. Um",
+      "timestamp": "08:15"
+    },
+    {
+      "start": 502.96,
+      "duration": 6.799,
+      "text": "the first one is around anonymity sets. It's just uh playing around with indistinguishability amongst users. I'll",
+      "timestamp": "08:22"
+    },
+    {
+      "start": 509.759,
+      "duration": 5.361,
+      "text": "go through uh some of the case studies here include bit wage, tornado cache,",
+      "timestamp": "08:29"
+    },
+    {
+      "start": 515.12,
+      "duration": 7.279,
+      "text": "rail gun. Uh and then uh the second one is around uh fully homorphic encryption",
+      "timestamp": "08:35"
+    },
+    {
+      "start": 522.399,
+      "duration": 5.201,
+      "text": "FHE based approaches. Uh many of these projects that are listed here are here",
+      "timestamp": "08:42"
+    },
+    {
+      "start": 527.6,
+      "duration": 7.84,
+      "text": "at ECC. Uh then we have zero knowledge proof systems uh Aztec Alomo Manta and others",
+      "timestamp": "08:47"
+    },
+    {
+      "start": 535.44,
+      "duration": 5.28,
+      "text": "and then uh trusted execution environments uh with Oasis, Vala, Automa",
+      "timestamp": "08:55"
+    },
+    {
+      "start": 540.72,
+      "duration": 3.719,
+      "text": "and US Horizon.",
+      "timestamp": "09:00"
+    },
+    {
+      "start": 547.76,
+      "duration": 8.88,
+      "text": "Uh so the first case studies set I'll go through is Bit Wage. They've been around for a while and um uh they've really um",
+      "timestamp": "09:07"
+    },
+    {
+      "start": 556.64,
+      "duration": 5.36,
+      "text": "pushed uh the frontier towards um payroll. Uh they've reached this was",
+      "timestamp": "09:16"
+    },
+    {
+      "start": 562.0,
+      "duration": 6.24,
+      "text": "from the beginning of the year in January. They reached 400 million in crypto payroll processed and they",
+      "timestamp": "09:22"
+    },
+    {
+      "start": 568.24,
+      "duration": 5.84,
+      "text": "largely use stable coins. Um there's this option here which has",
+      "timestamp": "09:28"
+    },
+    {
+      "start": 574.08,
+      "duration": 7.36,
+      "text": "been around for a while. Um it is a lightweight form of an anonymity set which is to offer a set of over a",
+      "timestamp": "09:34"
+    },
+    {
+      "start": 581.44,
+      "duration": 5.36,
+      "text": "hundred different payout addresses. So every time that um you're paid as part",
+      "timestamp": "09:41"
+    },
+    {
+      "start": 586.8,
+      "duration": 6.64,
+      "text": "of payroll, wages will be sent to the next address on that list which uh nobody could see except for the folks",
+      "timestamp": "09:46"
+    },
+    {
+      "start": 593.44,
+      "duration": 9.24,
+      "text": "who are there. Um it achieves anonymity with this uh limited set of addresses.",
+      "timestamp": "09:53"
+    },
+    {
+      "start": 604.16,
+      "duration": 5.6,
+      "text": "Um the second one, many of you are familiar with this. It's the tornado",
+      "timestamp": "10:04"
+    },
+    {
+      "start": 609.76,
+      "duration": 6.48,
+      "text": "cache style of smart contract mixing. Uh the idea here is that to use a shared",
+      "timestamp": "10:09"
+    },
+    {
+      "start": 616.24,
+      "duration": 5.92,
+      "text": "pool where you could deposit your stable coin, a fixed amount at USDC, and it",
+      "timestamp": "10:16"
+    },
+    {
+      "start": 622.16,
+      "duration": 5.679,
+      "text": "creates a commitment that gets added to a data structure um Merkel tree upon",
+      "timestamp": "10:22"
+    },
+    {
+      "start": 627.839,
+      "duration": 6.0,
+      "text": "withdrawal to a different address. uh all you have to do is supply zero knowledge proof and you it doesn't",
+      "timestamp": "10:27"
+    },
+    {
+      "start": 633.839,
+      "duration": 7.12,
+      "text": "reveal um which deposit was originally theirs. Uh now the anonymity set here is",
+      "timestamp": "10:33"
+    },
+    {
+      "start": 640.959,
+      "duration": 6.801,
+      "text": "that it's all deposits and more users mean more anonymity.",
+      "timestamp": "10:40"
+    },
+    {
+      "start": 647.76,
+      "duration": 8.96,
+      "text": "Uh one issue with this is uh these are all from 2022. Um the uh tornado cache",
+      "timestamp": "10:47"
+    },
+    {
+      "start": 656.72,
+      "duration": 5.44,
+      "text": "was added to the OFAC list, the office of foreign asset controls. And so this",
+      "timestamp": "10:56"
+    },
+    {
+      "start": 662.16,
+      "duration": 6.32,
+      "text": "caused many projects uh because they want to be uh OFAC compliant. Uh they",
+      "timestamp": "11:02"
+    },
+    {
+      "start": 668.48,
+      "duration": 8.479,
+      "text": "start to freeze tornado uh interactions with tornado cache smart contracts. Uh the first one was circle. Um initially",
+      "timestamp": "11:08"
+    },
+    {
+      "start": 676.959,
+      "duration": 6.801,
+      "text": "USDT said that oh they are not going to do that but 16 month later 16 months",
+      "timestamp": "11:16"
+    },
+    {
+      "start": 683.76,
+      "duration": 9.519,
+      "text": "later they did and uh definitely understandably so. Um even RPC providers with Infura and",
+      "timestamp": "11:23"
+    },
+    {
+      "start": 693.279,
+      "duration": 5.441,
+      "text": "Alchemy started blocking access to tornado cache which means that um even",
+      "timestamp": "11:33"
+    },
+    {
+      "start": 698.72,
+      "duration": 6.72,
+      "text": "if you were to use popular wallets you couldn't access tornado cache um through those.",
+      "timestamp": "11:38"
+    },
+    {
+      "start": 705.44,
+      "duration": 6.8,
+      "text": "The center image is around um relayers in the block building process. Uh so uh",
+      "timestamp": "11:45"
+    },
+    {
+      "start": 712.24,
+      "duration": 6.08,
+      "text": "many of these uh ME relayers um at least seven out of the 10 of them they are uh",
+      "timestamp": "11:52"
+    },
+    {
+      "start": 718.32,
+      "duration": 6.639,
+      "text": "they strive for OFAC compliance. So they actively censor blocks which means uh for certain transactions especially",
+      "timestamp": "11:58"
+    },
+    {
+      "start": 724.959,
+      "duration": 6.161,
+      "text": "those that interact with tornado cache they were censored. I know that there's a active movement",
+      "timestamp": "12:04"
+    },
+    {
+      "start": 731.12,
+      "duration": 5.519,
+      "text": "around this with um uh forked uh choice inclusion lists and I know that that",
+      "timestamp": "12:11"
+    },
+    {
+      "start": 736.639,
+      "duration": 5.0,
+      "text": "will be definitely a big part of anti-censorship.",
+      "timestamp": "12:16"
+    },
+    {
+      "start": 743.04,
+      "duration": 5.76,
+      "text": "Uh one degree higher than tornado cache uh private uh pools is the concept of",
+      "timestamp": "12:23"
+    },
+    {
+      "start": 748.8,
+      "duration": 5.2,
+      "text": "privacy pools. Uh this was um on the left is a white paper from Vitalic from",
+      "timestamp": "12:28"
+    },
+    {
+      "start": 754.0,
+      "duration": 6.079,
+      "text": "a couple of years ago and it talks about um just like an advancement where these",
+      "timestamp": "12:34"
+    },
+    {
+      "start": 760.079,
+      "duration": 9.76,
+      "text": "pools are only limited to addresses who have never interacted with known exploits. Um it is uh uh there's a kind",
+      "timestamp": "12:40"
+    },
+    {
+      "start": 769.839,
+      "duration": 6.8,
+      "text": "of like a way of uh checking um and providing these proofs of innocence and",
+      "timestamp": "12:49"
+    },
+    {
+      "start": 776.639,
+      "duration": 6.561,
+      "text": "uh there's a diagram here showing a membership proof. I'd mentioned that ninestep plan from",
+      "timestamp": "12:56"
+    },
+    {
+      "start": 783.2,
+      "duration": 7.36,
+      "text": "just a couple of months ago. uh the very first step of that ninestep plan from Vitalik had mentioned hey we can",
+      "timestamp": "13:03"
+    },
+    {
+      "start": 790.56,
+      "duration": 5.12,
+      "text": "immediately use these privacy uh tools and these privacy pools with existing",
+      "timestamp": "13:10"
+    },
+    {
+      "start": 795.68,
+      "duration": 6.8,
+      "text": "wallets so uh MetaMask trust wallet Coinbase just giving some examples where",
+      "timestamp": "13:15"
+    },
+    {
+      "start": 802.48,
+      "duration": 6.64,
+      "text": "um wallet should have this notion where whenever you send to someone else you should send it from a shielded balance",
+      "timestamp": "13:22"
+    },
+    {
+      "start": 809.12,
+      "duration": 7.04,
+      "text": "uh that way uh it can't you achieve privacy on the wallet level. Now, this",
+      "timestamp": "13:29"
+    },
+    {
+      "start": 816.16,
+      "duration": 5.28,
+      "text": "uh would ideally be turned on by default and so users would not have to download",
+      "timestamp": "13:36"
+    },
+    {
+      "start": 821.44,
+      "duration": 7.28,
+      "text": "a a separate privacy wallet. Uh one downfall of this is that risk",
+      "timestamp": "13:41"
+    },
+    {
+      "start": 828.72,
+      "duration": 7.44,
+      "text": "risk could be viewed as moving towards uh the wallet providers. I have no like",
+      "timestamp": "13:48"
+    },
+    {
+      "start": 836.16,
+      "duration": 5.44,
+      "text": "real good statistic around this, but my sense is that like maybe there's a 10%",
+      "timestamp": "13:56"
+    },
+    {
+      "start": 841.6,
+      "duration": 5.359,
+      "text": "chance that wallet providers would actually default to this. That's a fuzzy",
+      "timestamp": "14:01"
+    },
+    {
+      "start": 846.959,
+      "duration": 5.12,
+      "text": "statistic. Uh so the summary um the summary is that",
+      "timestamp": "14:06"
+    },
+    {
+      "start": 852.079,
+      "duration": 6.481,
+      "text": "uh private stable coins with these anonymity sets definitely uh unlinkable when the set is large. It's a very",
+      "timestamp": "14:12"
+    },
+    {
+      "start": 858.56,
+      "duration": 6.24,
+      "text": "flexible design space with bit wage wallet defaults and it's available",
+      "timestamp": "14:18"
+    },
+    {
+      "start": 864.8,
+      "duration": 6.479,
+      "text": "today. Um the cons are their small sets which reduce the anonymity guarantees",
+      "timestamp": "14:24"
+    },
+    {
+      "start": 871.279,
+      "duration": 6.881,
+      "text": "and censorship censorship and legal risk which we saw. Um and uh you know another",
+      "timestamp": "14:31"
+    },
+    {
+      "start": 878.16,
+      "duration": 5.84,
+      "text": "thing with the privacy set is that boot bootstrapping these sets are hard and uh",
+      "timestamp": "14:38"
+    },
+    {
+      "start": 884.0,
+      "duration": 6.44,
+      "text": "although it's available today it's in a little bit of a gray area.",
+      "timestamp": "14:44"
+    },
+    {
+      "start": 891.44,
+      "duration": 5.639,
+      "text": "Next I'll go through uh FHE based",
+      "timestamp": "14:51"
+    },
+    {
+      "start": 897.519,
+      "duration": 6.801,
+      "text": "uh this is a um announcement from circle research with INCO um they had said that",
+      "timestamp": "14:57"
+    },
+    {
+      "start": 904.32,
+      "duration": 7.6,
+      "text": "they're introducing this uh confidential ERC20 and I know Remy from um Inko had",
+      "timestamp": "15:04"
+    },
+    {
+      "start": 911.92,
+      "duration": 6.479,
+      "text": "talked yesterday um which was great and this on on the right is the uh on your",
+      "timestamp": "15:11"
+    },
+    {
+      "start": 918.399,
+      "duration": 4.321,
+      "text": "right is the white paper for",
+      "timestamp": "15:18"
+    },
+    {
+      "start": 924.079,
+      "duration": 7.44,
+      "text": "uh this is a high level on the interface. So it it it com is comparable",
+      "timestamp": "15:24"
+    },
+    {
+      "start": 931.519,
+      "duration": 5.68,
+      "text": "to the RC20 but it has this concept of hidden balance hidden transfer and these",
+      "timestamp": "15:31"
+    },
+    {
+      "start": 937.199,
+      "duration": 7.2,
+      "text": "wrappers. Um and the idea is that um you could either implement this sort of uh",
+      "timestamp": "15:37"
+    },
+    {
+      "start": 944.399,
+      "duration": 6.081,
+      "text": "um privacy as EVM pre-ompiles or co uh",
+      "timestamp": "15:44"
+    },
+    {
+      "start": 950.48,
+      "duration": 6.4,
+      "text": "co-processing approach. So um with this confidential ERC20 is more of an",
+      "timestamp": "15:50"
+    },
+    {
+      "start": 956.88,
+      "duration": 7.04,
+      "text": "interface um that contracts can interact with and uh FHE is just one",
+      "timestamp": "15:56"
+    },
+    {
+      "start": 963.92,
+      "duration": 7.919,
+      "text": "implementation of it. Uh so from a higher level I didn't really go through FHE uh but uh on a",
+      "timestamp": "16:03"
+    },
+    {
+      "start": 971.839,
+      "duration": 6.161,
+      "text": "higher level um the data that you're working with um could be the address the",
+      "timestamp": "16:11"
+    },
+    {
+      "start": 978.0,
+      "duration": 6.959,
+      "text": "amount it's encrypted and then um there's this uh all computations on this",
+      "timestamp": "16:18"
+    },
+    {
+      "start": 984.959,
+      "duration": 5.12,
+      "text": "encrypted data happening while it's encrypted so it's not um decrypted any",
+      "timestamp": "16:24"
+    },
+    {
+      "start": 990.079,
+      "duration": 7.12,
+      "text": "way until much later on by the client. Uh so um on the right you'll see uh this",
+      "timestamp": "16:30"
+    },
+    {
+      "start": 997.199,
+      "duration": 5.361,
+      "text": "like high level representation of it which is um the confidential ERC20",
+      "timestamp": "16:37"
+    },
+    {
+      "start": 1002.56,
+      "duration": 6.48,
+      "text": "um really delegating to this uh FHE processor um there uh for like things",
+      "timestamp": "16:42"
+    },
+    {
+      "start": 1009.04,
+      "duration": 6.4,
+      "text": "like a um balance transfers. It undergoes um everything through",
+      "timestamp": "16:49"
+    },
+    {
+      "start": 1015.44,
+      "duration": 7.839,
+      "text": "encrypted operations. So that includes encrypted uh edition, encrypted comparisons and uh yeah just like",
+      "timestamp": "16:55"
+    },
+    {
+      "start": 1023.279,
+      "duration": 5.121,
+      "text": "deducting the amount in an encrypted way uh through over the encrypted data from",
+      "timestamp": "17:03"
+    },
+    {
+      "start": 1028.4,
+      "duration": 6.12,
+      "text": "the sender and then add adding the increment to the recipient.",
+      "timestamp": "17:08"
+    },
+    {
+      "start": 1035.919,
+      "duration": 5.92,
+      "text": "Uh Zama has uh made a lot of progress uh here and are leaders in the space. They",
+      "timestamp": "17:15"
+    },
+    {
+      "start": 1041.839,
+      "duration": 8.561,
+      "text": "have the confidential blockchain protocol. I believe they're go their test net launch today. Uh much uh",
+      "timestamp": "17:21"
+    },
+    {
+      "start": 1050.4,
+      "duration": 5.2,
+      "text": "congrats to them. And um it's really a similar model where there's",
+      "timestamp": "17:30"
+    },
+    {
+      "start": 1055.6,
+      "duration": 5.52,
+      "text": "co-processing that's happening offchain with uh encrypted computation. Um and",
+      "timestamp": "17:35"
+    },
+    {
+      "start": 1061.12,
+      "duration": 7.76,
+      "text": "they had mentioned that although they can um work with encrypted sender and recipient addresses, they chose um not",
+      "timestamp": "17:41"
+    },
+    {
+      "start": 1068.88,
+      "duration": 6.72,
+      "text": "to do that but only uh the amounts are uh encrypted. uh they've from their view",
+      "timestamp": "17:48"
+    },
+    {
+      "start": 1075.6,
+      "duration": 6.56,
+      "text": "compliance is more around traceability. Uh just like the way messages are happening where you know that you can",
+      "timestamp": "17:55"
+    },
+    {
+      "start": 1082.16,
+      "duration": 6.16,
+      "text": "see messages who exchanged them but not the message content um they they are",
+      "timestamp": "18:02"
+    },
+    {
+      "start": 1088.32,
+      "duration": 7.44,
+      "text": "encrypting the amounts right test net live July 1st today mainet Q4 2025 and",
+      "timestamp": "18:08"
+    },
+    {
+      "start": 1095.76,
+      "duration": 5.039,
+      "text": "transaction costs are uh have been lowered and no fees on the computation",
+      "timestamp": "18:15"
+    },
+    {
+      "start": 1100.799,
+      "duration": 8.721,
+      "text": "itself as of now. So um pros uh I think that it has strong",
+      "timestamp": "18:20"
+    },
+    {
+      "start": 1109.52,
+      "duration": 5.12,
+      "text": "backing uh in terms of uh circle research the a leading stable coin",
+      "timestamp": "18:29"
+    },
+    {
+      "start": 1114.64,
+      "duration": 6.159,
+      "text": "provider issuer uh directly involved with the uh research. It really takes",
+      "timestamp": "18:34"
+    },
+    {
+      "start": 1120.799,
+      "duration": 5.441,
+      "text": "FHE and aligns it with real world regulatory and enterprise needs. Um it's",
+      "timestamp": "18:40"
+    },
+    {
+      "start": 1126.24,
+      "duration": 7.04,
+      "text": "scalable with more hardware investment. this a lot with um FBGA's A6 and the",
+      "timestamp": "18:46"
+    },
+    {
+      "start": 1133.28,
+      "duration": 6.32,
+      "text": "costs are trending down overall. Uh the cons are is that it's still a",
+      "timestamp": "18:53"
+    },
+    {
+      "start": 1139.6,
+      "duration": 8.88,
+      "text": "heavy uh off-chain infrastructure requires those heavyweight um co-processors and MPC decryption nodes.",
+      "timestamp": "18:59"
+    },
+    {
+      "start": 1148.48,
+      "duration": 7.6,
+      "text": "Um I think we're still pretty early um and uh the tooling is pretty new as well",
+      "timestamp": "19:08"
+    },
+    {
+      "start": 1156.08,
+      "duration": 7.52,
+      "text": "as the test net's just launching. um summary is uh there's like a lot of",
+      "timestamp": "19:16"
+    },
+    {
+      "start": 1163.6,
+      "duration": 6.04,
+      "text": "um large technical strides but still really early.",
+      "timestamp": "19:23"
+    },
+    {
+      "start": 1170.64,
+      "duration": 6.24,
+      "text": "Next up uh ZK proof systems. Um",
+      "timestamp": "19:30"
+    },
+    {
+      "start": 1176.88,
+      "duration": 5.919,
+      "text": "Aztec uh you know they have that programmable ZK layer 2 off Ethereum. Um",
+      "timestamp": "19:36"
+    },
+    {
+      "start": 1182.799,
+      "duration": 5.361,
+      "text": "they also uh launched testnet um sometime last month. they have Aztec",
+      "timestamp": "19:42"
+    },
+    {
+      "start": 1188.16,
+      "duration": 5.6,
+      "text": "Noir as smart contracting language and um been making huge advancements in the",
+      "timestamp": "19:48"
+    },
+    {
+      "start": 1193.76,
+      "duration": 6.4,
+      "text": "space. Uh the architecture here is that um smart contract execution happens in",
+      "timestamp": "19:53"
+    },
+    {
+      "start": 1200.16,
+      "duration": 6.56,
+      "text": "this custom ZKVM and uh private state is held in these encrypted UTXOs uh and",
+      "timestamp": "20:00"
+    },
+    {
+      "start": 1206.72,
+      "duration": 5.28,
+      "text": "public state in Merkel trees. Uh the design pattern for stable coins",
+      "timestamp": "20:06"
+    },
+    {
+      "start": 1212.0,
+      "duration": 8.32,
+      "text": "is similar where um you know stable coins could be bridged directly from Ethereum into Aztec or new stable coin",
+      "timestamp": "20:12"
+    },
+    {
+      "start": 1220.32,
+      "duration": 5.04,
+      "text": "protocols can be deployed. Uh the maturation",
+      "timestamp": "20:20"
+    },
+    {
+      "start": 1225.36,
+      "duration": 6.16,
+      "text": "cycle here in test net uh there's new Aztec 3 uh but mainet expected later in",
+      "timestamp": "20:25"
+    },
+    {
+      "start": 1231.52,
+      "duration": 7.84,
+      "text": "the year. Uh this this is a uh project um that's",
+      "timestamp": "20:31"
+    },
+    {
+      "start": 1239.36,
+      "duration": 7.12,
+      "text": "led by Taurus which is a um uh it is a",
+      "timestamp": "20:39"
+    },
+    {
+      "start": 1246.48,
+      "duration": 7.52,
+      "text": "um institution and uh the architecture here is that um it is a contract minted",
+      "timestamp": "20:46"
+    },
+    {
+      "start": 1254.0,
+      "duration": 5.36,
+      "text": "direct that is deployed directly into Aztec and it's backed by onetoone",
+      "timestamp": "20:54"
+    },
+    {
+      "start": 1259.36,
+      "duration": 8.4,
+      "text": "off-chain assets um similar to circles USDC. um it is native privacy. Um the",
+      "timestamp": "20:59"
+    },
+    {
+      "start": 1267.76,
+      "duration": 7.36,
+      "text": "way I view this is that it's more of a like um a directional",
+      "timestamp": "21:07"
+    },
+    {
+      "start": 1275.12,
+      "duration": 5.84,
+      "text": "um view where um the",
+      "timestamp": "21:15"
+    },
+    {
+      "start": 1280.96,
+      "duration": 5.44,
+      "text": "that institutions are interested in it and um instit institutional grade",
+      "timestamp": "21:20"
+    },
+    {
+      "start": 1286.4,
+      "duration": 6.56,
+      "text": "privacy native stable coins are occurring in ZKL2s. Um and so uh it's",
+      "timestamp": "21:26"
+    },
+    {
+      "start": 1292.96,
+      "duration": 4.439,
+      "text": "like it is a broader evolution.",
+      "timestamp": "21:32"
+    },
+    {
+      "start": 1300.24,
+      "duration": 7.36,
+      "text": "Uh pros so pros and cons with uh stable coins and zk proof systems. Uh the",
+      "timestamp": "21:40"
+    },
+    {
+      "start": 1307.6,
+      "duration": 6.64,
+      "text": "programmable privacy here is that um it is uh much richer especially with with",
+      "timestamp": "21:47"
+    },
+    {
+      "start": 1314.24,
+      "duration": 5.919,
+      "text": "uh noir amongst the cryptographic privacy models. seems to be the most",
+      "timestamp": "21:54"
+    },
+    {
+      "start": 1320.159,
+      "duration": 7.601,
+      "text": "mature. Uh they have had uh solid uh tooling and test nets for some time and",
+      "timestamp": "22:00"
+    },
+    {
+      "start": 1327.76,
+      "duration": 8.399,
+      "text": "um offer just a little bit more performance. Um in terms of cons, uh proof generation",
+      "timestamp": "22:07"
+    },
+    {
+      "start": 1336.159,
+      "duration": 5.281,
+      "text": "is improving but still a constraint. Um there's faster proving with hardware",
+      "timestamp": "22:16"
+    },
+    {
+      "start": 1341.44,
+      "duration": 6.88,
+      "text": "acceleration. Um but even with that proving there's centralization risks as well as leakage.",
+      "timestamp": "22:21"
+    },
+    {
+      "start": 1348.32,
+      "duration": 7.28,
+      "text": "um uh in terms of privacy leakage from the proving networks uh ecosystem still early but it is a",
+      "timestamp": "22:28"
+    },
+    {
+      "start": 1355.6,
+      "duration": 6.64,
+      "text": "compelling and practical approach um and uh yeah test net and mainet are",
+      "timestamp": "22:35"
+    },
+    {
+      "start": 1362.24,
+      "duration": 7.2,
+      "text": "promising. Uh lastly I'll go through the third the",
+      "timestamp": "22:42"
+    },
+    {
+      "start": 1369.44,
+      "duration": 6.44,
+      "text": "fourth bucket which is uh trusted execution environments.",
+      "timestamp": "22:49"
+    },
+    {
+      "start": 1379.039,
+      "duration": 7.441,
+      "text": "Uh I just to do a quick aside uh from that ninestep plan uh there is a step",
+      "timestamp": "22:59"
+    },
+    {
+      "start": 1386.48,
+      "duration": 5.199,
+      "text": "five here um around uh TE based um RPC",
+      "timestamp": "23:06"
+    },
+    {
+      "start": 1391.679,
+      "duration": 5.441,
+      "text": "privacy. Uh now it's not directly related to stable coins but um I just",
+      "timestamp": "23:11"
+    },
+    {
+      "start": 1397.12,
+      "duration": 5.6,
+      "text": "wanted to call out uh that uh it w it was mentioned in the ninestep plan and",
+      "timestamp": "23:17"
+    },
+    {
+      "start": 1402.72,
+      "duration": 6.4,
+      "text": "here it's more around the fact that RPC nodes themselves are leaking privacy uh",
+      "timestamp": "23:22"
+    },
+    {
+      "start": 1409.12,
+      "duration": 6.799,
+      "text": "as you're I mean you don't even have to be submitting transactions but uh any your interactions such as uh your",
+      "timestamp": "23:29"
+    },
+    {
+      "start": 1415.919,
+      "duration": 6.561,
+      "text": "browsing patterns and IPs uh they are visible to RPC providers. So the idea",
+      "timestamp": "23:35"
+    },
+    {
+      "start": 1422.48,
+      "duration": 9.04,
+      "text": "here is to be able to um run a T-protected um RPC and Automa who I believe also had",
+      "timestamp": "23:42"
+    },
+    {
+      "start": 1431.52,
+      "duration": 7.039,
+      "text": "a talk yesterday um has uh is a working example of this",
+      "timestamp": "23:51"
+    },
+    {
+      "start": 1438.559,
+      "duration": 5.12,
+      "text": "and this is u another way of having wallets and RPC providers help with",
+      "timestamp": "23:58"
+    },
+    {
+      "start": 1443.679,
+      "duration": 8.401,
+      "text": "privacy beyond the protocol. Uh so extending extending T's towards",
+      "timestamp": "24:03"
+    },
+    {
+      "start": 1452.08,
+      "duration": 6.56,
+      "text": "transaction execution. Um the idea here is that um transactions",
+      "timestamp": "24:12"
+    },
+    {
+      "start": 1458.64,
+      "duration": 6.159,
+      "text": "execute inside of the trusted execution uh environment uh where EVM logic it",
+      "timestamp": "24:18"
+    },
+    {
+      "start": 1464.799,
+      "duration": 7.681,
+      "text": "lives inside the enclave. Um now uh T's have come a long way and um yeah I I",
+      "timestamp": "24:24"
+    },
+    {
+      "start": 1472.48,
+      "duration": 7.679,
+      "text": "think that it is a very compelling design. Um this enables private transfers of existing stable coins uh",
+      "timestamp": "24:32"
+    },
+    {
+      "start": 1480.159,
+      "duration": 5.76,
+      "text": "without modifying the contract and without having to know a new language.",
+      "timestamp": "24:40"
+    },
+    {
+      "start": 1485.919,
+      "duration": 6.161,
+      "text": "Uh there's confidentiality and compliance by design where sender, receiver and amount are all hidden and",
+      "timestamp": "24:45"
+    },
+    {
+      "start": 1492.08,
+      "duration": 6.079,
+      "text": "it supports jurisdictional controls such as geo fencing uh enterprise compliance.",
+      "timestamp": "24:52"
+    },
+    {
+      "start": 1498.159,
+      "duration": 7.201,
+      "text": "Um it is the fastest um path towards enterprisegrade stable coin deployments.",
+      "timestamp": "24:58"
+    },
+    {
+      "start": 1505.36,
+      "duration": 6.08,
+      "text": "Um it's low latency. Um a lot of them are um widely available in major cloud",
+      "timestamp": "25:05"
+    },
+    {
+      "start": 1511.44,
+      "duration": 7.52,
+      "text": "platforms AWS Azure and um is a great near-term solution for institutions",
+      "timestamp": "25:11"
+    },
+    {
+      "start": 1518.96,
+      "duration": 7.76,
+      "text": "seeking compliance and speed. Uh this is where we're operating as",
+      "timestamp": "25:18"
+    },
+    {
+      "start": 1526.72,
+      "duration": 5.6,
+      "text": "well. Um we um are part we are part of",
+      "timestamp": "25:26"
+    },
+    {
+      "start": 1532.32,
+      "duration": 6.8,
+      "text": "the base ecosystem. Um this is uh the announcement of BAS and uh their L3",
+      "timestamp": "25:32"
+    },
+    {
+      "start": 1539.12,
+      "duration": 7.84,
+      "text": "chains and we're part of that initial cohort. We're moving our entire uh token supply from a UTXO based blockchain",
+      "timestamp": "25:39"
+    },
+    {
+      "start": 1546.96,
+      "duration": 6.16,
+      "text": "directly into base as an ERC20 and we're working on a confidential compute",
+      "timestamp": "25:46"
+    },
+    {
+      "start": 1553.12,
+      "duration": 5.52,
+      "text": "environment for the end of the year. Uh these are the like high level beats",
+      "timestamp": "25:53"
+    },
+    {
+      "start": 1558.64,
+      "duration": 5.519,
+      "text": "of like um our road map and um we are",
+      "timestamp": "25:58"
+    },
+    {
+      "start": 1564.159,
+      "duration": 6.0,
+      "text": "fully into the migration of our token directly into base and um widely",
+      "timestamp": "26:04"
+    },
+    {
+      "start": 1570.159,
+      "duration": 6.0,
+      "text": "available across all exchanges uh Binance, Coinbase uh and then working",
+      "timestamp": "26:10"
+    },
+    {
+      "start": 1576.159,
+      "duration": 8.081,
+      "text": "towards our compute environment. Uh just another note this is um comment",
+      "timestamp": "26:16"
+    },
+    {
+      "start": 1584.24,
+      "duration": 7.36,
+      "text": "from uh Philip Decker who is a uh analyst in emerging payments at AMX. Uh",
+      "timestamp": "26:24"
+    },
+    {
+      "start": 1591.6,
+      "duration": 6.0,
+      "text": "he had gone through a similar uh kind of like thought process as I did. Um this",
+      "timestamp": "26:31"
+    },
+    {
+      "start": 1597.6,
+      "duration": 5.52,
+      "text": "was published maybe two or three days ago. Um and he also at the end makes a",
+      "timestamp": "26:37"
+    },
+    {
+      "start": 1603.12,
+      "duration": 6.4,
+      "text": "case for TE's uh citing that the performance is high and it enables uh",
+      "timestamp": "26:43"
+    },
+    {
+      "start": 1609.52,
+      "duration": 8.159,
+      "text": "near instant execution with minimal gas. Um and because of their um the way that",
+      "timestamp": "26:49"
+    },
+    {
+      "start": 1617.679,
+      "duration": 8.561,
+      "text": "they're structured um there's a little bit more legal clarity. Uh just like with cloud storage uh governments can um",
+      "timestamp": "26:57"
+    },
+    {
+      "start": 1626.24,
+      "duration": 5.679,
+      "text": "have ability to request information as needed.",
+      "timestamp": "27:06"
+    },
+    {
+      "start": 1633.919,
+      "duration": 7.041,
+      "text": "So, pros and cons. Um, there's EVM compatibility and speed. You",
+      "timestamp": "27:13"
+    },
+    {
+      "start": 1640.96,
+      "duration": 6.8,
+      "text": "can run the existing stable coin contracts without any rewrites and um near instant execution within these",
+      "timestamp": "27:20"
+    },
+    {
+      "start": 1647.76,
+      "duration": 7.68,
+      "text": "enclaves. Um, the is already compliance uh ready by design and uh supports",
+      "timestamp": "27:27"
+    },
+    {
+      "start": 1655.44,
+      "duration": 7.119,
+      "text": "selective disclosure, auditability and geoencing. Uh some of the cons are that uh the",
+      "timestamp": "27:35"
+    },
+    {
+      "start": 1662.559,
+      "duration": 5.201,
+      "text": "trusted there are assumptions with the hardware uh relies on the security of",
+      "timestamp": "27:42"
+    },
+    {
+      "start": 1667.76,
+      "duration": 6.48,
+      "text": "the vendors Intel and AMD and there are operational centralization risks but all",
+      "timestamp": "27:47"
+    },
+    {
+      "start": 1674.24,
+      "duration": 5.6,
+      "text": "in all uh TE's offer this practical performant path and it's ideal for",
+      "timestamp": "27:54"
+    },
+    {
+      "start": 1679.84,
+      "duration": 3.558,
+      "text": "enterprises. is",
+      "timestamp": "27:59"
+    },
+    {
+      "start": 1688.799,
+      "duration": 6.401,
+      "text": "this is a highlevel road map. Um I've uh superimpose the uh Ethereum hard forks",
+      "timestamp": "28:08"
+    },
+    {
+      "start": 1695.2,
+      "duration": 8.16,
+      "text": "on here. Uh Ethereum has had 17 18 upgrades all uh dramafree and um with",
+      "timestamp": "28:15"
+    },
+    {
+      "start": 1703.36,
+      "duration": 6.16,
+      "text": "the zero downtime. Incredible. Um I put Fusaka on here, Glamsterdam and the risk",
+      "timestamp": "28:23"
+    },
+    {
+      "start": 1709.52,
+      "duration": 6.96,
+      "text": "five uh BM in like a more cloudy way. Um the first one, the anonymity set stable",
+      "timestamp": "28:29"
+    },
+    {
+      "start": 1716.48,
+      "duration": 6.799,
+      "text": "coins available now. Um but right that 10% chance of being adopted and still in",
+      "timestamp": "28:36"
+    },
+    {
+      "start": 1723.279,
+      "duration": 7.361,
+      "text": "the gray zone. Uh FHS are um improving a lot uh I think",
+      "timestamp": "28:43"
+    },
+    {
+      "start": 1730.64,
+      "duration": 5.44,
+      "text": "uh in terms of co-processor development performance optimizations. uh there's um",
+      "timestamp": "28:50"
+    },
+    {
+      "start": 1736.08,
+      "duration": 6.64,
+      "text": "more of a chance for maturity closer towards the end of next year. Um ZK",
+      "timestamp": "28:56"
+    },
+    {
+      "start": 1742.72,
+      "duration": 8.48,
+      "text": "stable coins um ZK based uh stable coins um a lot is already out there but also",
+      "timestamp": "29:02"
+    },
+    {
+      "start": 1751.2,
+      "duration": 7.599,
+      "text": "probably 2026 um midyear and beyond. Uh and then Tbased stable coins more of the",
+      "timestamp": "29:11"
+    },
+    {
+      "start": 1758.799,
+      "duration": 5.281,
+      "text": "near term. Now this is also kind of like fuzzy uh reasoning but uh just like a",
+      "timestamp": "29:18"
+    },
+    {
+      "start": 1764.08,
+      "duration": 3.719,
+      "text": "high level view",
+      "timestamp": "29:24"
+    },
+    {
+      "start": 1770.64,
+      "duration": 5.68,
+      "text": "summary and next steps. Uh so we went through the definition of a private",
+      "timestamp": "29:30"
+    },
+    {
+      "start": 1776.32,
+      "duration": 5.68,
+      "text": "compliance stable coin. How it manifests it uh manifests itself uh private",
+      "timestamp": "29:36"
+    },
+    {
+      "start": 1782.0,
+      "duration": 6.24,
+      "text": "representations um of existing stable coins bridged um",
+      "timestamp": "29:42"
+    },
+    {
+      "start": 1788.24,
+      "duration": 5.319,
+      "text": "reissued uh then the native deployments.",
+      "timestamp": "29:48"
+    },
+    {
+      "start": 1794.24,
+      "duration": 6.08,
+      "text": "Uh these are some like highle models of the private stable coins. Um I I",
+      "timestamp": "29:54"
+    },
+    {
+      "start": 1800.32,
+      "duration": 7.28,
+      "text": "probably missed a few like uh buckets. Maybe there's a wallet based bucket um and account abstraction, but um these",
+      "timestamp": "30:00"
+    },
+    {
+      "start": 1807.6,
+      "duration": 6.48,
+      "text": "are the ways uh they could be categorized. And then quickly we went through like a",
+      "timestamp": "30:07"
+    },
+    {
+      "start": 1814.08,
+      "duration": 7.44,
+      "text": "a road map in terms of like time to maturity. Uh just uh superimposing this on top of",
+      "timestamp": "30:14"
+    },
+    {
+      "start": 1821.52,
+      "duration": 4.759,
+      "text": "the Ethereum um upgrades.",
+      "timestamp": "30:21"
+    },
+    {
+      "start": 1826.559,
+      "duration": 6.0,
+      "text": "Next steps. Uh we're all in this together. I've uh took a little um",
+      "timestamp": "30:26"
+    },
+    {
+      "start": 1832.559,
+      "duration": 7.441,
+      "text": "screenshot of the Ethereum infinite garden. It is a very fastmoving frontier. Uh we're building it together",
+      "timestamp": "30:32"
+    },
+    {
+      "start": 1840.0,
+      "duration": 6.159,
+      "text": "um as developers, parts of this community. I we also want to include regulators and institutions. They're",
+      "timestamp": "30:40"
+    },
+    {
+      "start": 1846.159,
+      "duration": 6.561,
+      "text": "part of this like magical experience. Uh so um I I'm feel very grateful to be",
+      "timestamp": "30:46"
+    },
+    {
+      "start": 1852.72,
+      "duration": 4.76,
+      "text": "here and thank you. Thank you everyone.",
+      "timestamp": "30:52"
+    },
+    {
+      "start": 1864.32,
+      "duration": 3.64,
+      "text": "Uh any questions?",
+      "timestamp": "31:04"
+    },
+    {
+      "start": 1872.96,
+      "duration": 6.24,
+      "text": "Thanks. Great presentation. Thank you so much. Um I was wondering if you also would where you would put something like",
+      "timestamp": "31:12"
+    },
+    {
+      "start": 1879.2,
+      "duration": 6.839,
+      "text": "Midnight as a layer for uh encryption on existing wallets.",
+      "timestamp": "31:19"
+    },
+    {
+      "start": 1886.799,
+      "duration": 6.321,
+      "text": "Uh, that's a good question. Um, from my what I remember about Midnight,",
+      "timestamp": "31:26"
+    },
+    {
+      "start": 1893.12,
+      "duration": 5.279,
+      "text": "it's more of like a ZKbased system. So, I'd categorize it there. I wasn't",
+      "timestamp": "31:33"
+    },
+    {
+      "start": 1898.399,
+      "duration": 9.4,
+      "text": "familiar about it being a layer 4, but um, you know, that seems to make sense to me terms of like lower costs.",
+      "timestamp": "31:38"
+    },
+    {
+      "start": 1908.159,
+      "duration": 7.76,
+      "text": "Thank you for the talk. It's very interesting. I have a question about performance levels. So you showed that slide with FHE and ZK. What kind of",
+      "timestamp": "31:48"
+    },
+    {
+      "start": 1915.919,
+      "duration": 5.201,
+      "text": "performance levels do you think you need or the industry needs for it to go mainstream?",
+      "timestamp": "31:55"
+    },
+    {
+      "start": 1921.12,
+      "duration": 8.48,
+      "text": "Yeah. Yeah. It's a great question. I feel like these slides I just kind of like put them together, but they're probably outdated already how fast the",
+      "timestamp": "32:01"
+    },
+    {
+      "start": 1929.6,
+      "duration": 8.079,
+      "text": "you know things are moving into industry. Uh but at the very beginning I showed like um you know subsecond",
+      "timestamp": "32:09"
+    },
+    {
+      "start": 1937.679,
+      "duration": 6.401,
+      "text": "transactions. Um, you know, I know like base has block times now of like 250",
+      "timestamp": "32:17"
+    },
+    {
+      "start": 1944.08,
+      "duration": 6.959,
+      "text": "milliseconds. So I think um in terms of like performance and speed, ideally it'd",
+      "timestamp": "32:24"
+    },
+    {
+      "start": 1951.039,
+      "duration": 4.041,
+      "text": "be a subsecond",
+      "timestamp": "32:31"
+    },
+    {
+      "start": 1969.279,
+      "duration": 4.041,
+      "text": "Um, any other questions?",
+      "timestamp": "32:49"
+    },
+    {
+      "start": 1974.799,
+      "duration": 5.561,
+      "text": "Okay. Well, thank you. I appreciate you being here. Um,",
+      "timestamp": "32:54"
+    }
+  ],
+  "extraction_timestamp": "2025-07-08T14:45:53.152688",
+  "playlist_title": "EthCC[8] Redford Stage"
+}

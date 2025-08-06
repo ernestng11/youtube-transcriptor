@@ -1,6 +1,6 @@
 # YouTube Transcriptor
 
-Extract and organize transcripts from YouTube videos and playlists with automatic file organization and comprehensive metadata.
+Extract and organize transcripts from YouTube videos and playlists with automatic file organization and comprehensive metadata. Now with LLM analysis capabilities!
 
 ## Installation
 
@@ -30,6 +30,12 @@ YOUTUBE_API_KEY=your_youtube_api_key_here
 
 # Optional but recommended: youtube-transcript.io API token
 TRANSCRIPT_API_TOKEN=your_transcript_api_token_here
+
+# Required for LLM analysis: OpenAI API key
+OPENAI_API_KEY=your_openai_api_key_here
+
+# Optional: Anthropic API key (alternative to OpenAI)
+ANTHROPIC_API_KEY=your_anthropic_api_key_here
 ```
 
 ### Getting API Keys
@@ -47,9 +53,14 @@ TRANSCRIPT_API_TOKEN=your_transcript_api_token_here
    - Get your API token from the dashboard
    - Add it to your `.env` file
 
+3. **OpenAI API Key** (Required for LLM analysis):
+   - Visit [OpenAI Platform](https://platform.openai.com/)
+   - Create an account and get your API key
+   - Add it to your `.env` file
+
 ## Usage
 
-### Basic Usage
+### Basic Transcript Extraction
 
 ```bash
 # Process a YouTube playlist
@@ -61,6 +72,77 @@ python main.py "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 # Use direct IDs
 python main.py "PLExample"        # Playlist ID
 python main.py "dQw4w9WgXcQ"     # Video ID
+```
+
+### LLM Analysis with YAML Configuration
+
+The tool now includes `run_llm_on_transcript.py` for automated LLM analysis of transcripts using YAML configuration.
+
+#### Setup YAML Configuration
+
+Create a `config.yaml` file in the project root:
+
+```yaml
+prompts:
+  custom: "Summarize this video in 3 bullet points"
+
+videos:
+  id: "dQw4w9WgXcQ"
+
+playlists:
+  id: ""
+```
+
+#### Run LLM Analysis
+
+```bash
+# Use default config.yaml
+poetry run python run_llm_on_transcript.py
+
+# Use custom config file
+poetry run python run_llm_on_transcript.py --config my_config.yaml
+```
+
+#### YAML Configuration Options
+
+- **`prompts.custom`**: Your custom prompt for LLM analysis
+- **`videos.id`**: YouTube video ID to analyze (leave empty to allow any video)
+- **`playlists.id`**: YouTube playlist ID to analyze (leave empty to allow any playlist)
+
+#### Example Output
+
+```
+🎬 YouTube Transcript LLM Processor
+==================================================
+🔧 Initialized YouTube LLM Processor
+✅ YouTube API: SET
+✅ Transcript API: SET
+📄 Config: config.yaml
+
+🎥 Processing Video ID: dQw4w9WgXcQ
+--------------------------------------------------
+✅ Transcript extracted successfully!
+📹 Video: Rick Astley - Never Gonna Give You Up
+🎭 Channel: Rick Astley
+🌍 Language: en
+📊 Segments: 45
+📝 Words: 200
+⏱️  Extraction Time: 0.89s
+
+🤖 Processing with LLM (openai/gpt-4o-mini)
+--------------------------------------------------
+✅ LLM processing completed!
+⏱️  Processing Time: 3.96s
+
+==================================================
+📋 ANALYSIS RESULTS
+==================================================
+- **Main Theme**: The video discusses...
+- **Key Points**: 
+  - Point 1
+  - Point 2
+  - Point 3
+- **Conclusion**: Summary of findings
 ```
 
 ### Advanced Options
@@ -77,6 +159,7 @@ python main.py "playlist_url" --verbose
 
 ```bash
 python main.py --help
+poetry run python run_llm_on_transcript.py --help
 ```
 
 ## Output Format

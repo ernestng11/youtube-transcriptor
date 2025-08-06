@@ -1,0 +1,2969 @@
+{
+  "video_id": "2sEYEJFZXA8",
+  "video_title": "Jainil Sutaria (Privy) - Embedded engineering: how FDE accelerates PMF in crypto",
+  "video_url": "https://www.youtube.com/watch?v=2sEYEJFZXA8",
+  "channel_title": "[EthCC] Livestream 4",
+  "published_at": "2025-07-02T01:09:59+00:00",
+  "duration_seconds": null,
+  "view_count": 80,
+  "like_count": 2,
+  "description": "Crypto is evolving at the cutting-edge of tech and regulation. Building for value isn’t just about PMF: it’s about engineering it with customers. FDE bridges product vision and market reality, turning partnerships into breakthroughs at Privy.",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 491,
+    "aggregated_text": "Hi everyone. How's everyone doing? Very excited to be here um speaking in front of you all today. Um especially in France, traveled from New York to get here. Um I want to talk a little bit more about one of the strategies of finding product market fit, especially in a rapidly evolving industry. My name is Jill. I'm the tech lead of the forward deployed engineering team here at privy and in general I just want to talk a little bit about the impact of my role and both at privy but also in the industry anyways what what is a f deploy to engineer um I I want to start with a question um as a show of hands how many of you guys have built a product that the customer said that they wanted but you didn't end up they didn't end up actually using it either the product team and the engineering teams were out of sync and maybe weren't communicating as or the product team said one thing and the um engineering team said something else. Um I'm going to raise my hand here. Anyone else who built something embarrassingly? Yeah. So this happens quite frequently and in crypto especially this problem is amplified 10x um both through rapidly evolving technology cutting edge research um shift in regulations there's new standards and new tech developments that come out pretty much every few weeks and within a month or two whatever you built yesterday maybe isn't possible or is different than what we built today. Um so what are what are FDES? What do forward deployed engineers actually do? Um they're engineers who work with customers directly to build their solutions in real time. Um they're not just implementing requirements, they're discovering them through deep technical collaboration, sharing customer and market signals, and of course implementing them alongside the customer themselves. Um so I like to think about this with the 702010 breakdown. Um 70% engineering. So FTEEs are writing production level code. They're architecting systems. They're deploying features. This isn't just pro prototyping or proof of concepts. They're not building demos for a customer showing the capabilities that Privy has. Instead, they own features fully from end to end either from conception all the way to maintenance. Um, and then in terms of product management, they go out, they understand customer needs, they're prioritizing features, defining requirements, bridging the gap between what does the customer ask for and what does the customer actually need. Um, and lastly, there's a little bit of pre-sales work involved as well. um a lot of technical due diligence, architecture discussions, and feasibility assessments on what's possible and what's not. And it's also important to think about what FTEE isn't. So, it's neither Devril nor support engineering, not nor solutions engineering. Um and Devril evangelizes existing products to adoption. So, a developer relations um member might say, \"Hey, here's how to use our API to get what you need.\" On the other hand, a forward deployed engineer will say, \"Hey, let's actually build the API capabilities that you're looking for. A support engineering team member might fix an existing product that might be broken.\" Um, they might say, \"Hey, here's how to work around this limitation that exists with our product as it stands today.\" On the other hand, the FTE team goes out and says, \"Let's remove this limitation entirely.\" And solutions engineering is configuring existing products for specific customers. So, hey, we can customize this dashboard based off of your needs, or hey, we can customize this SDK based off what you're looking for. Um, the FD team, instead of saying, hey, we can customize this for you, it's we'll build out the workflow that you're actually looking for and and the thing that you're trying to do. Um, there's a little bit of historical context with where the role of FTE comes from. Um, Henry, our CEO and founder, he used to work at Palunteer, and I would say Palanteer really walking in the room as we speak. Um, yeah, Palanteer pioneered this. They deploy engineers directly to intelligence agencies and to corporations. Um, and the problem is that complex data problems can't just be solved with off-the-shelf software. And so what they did instead is they had engineers that would really understand both the technology but also the specific domain and they would go out and deploy Palunteer software. And it's more widespread across SAS. Um, a lot of other companies h have a FTE shape nowadays. You've got RAMP, datab bricks, snowflakes. They've all got small FTE teams that specialize in different product areas. And the key difference between again product engineering and FTE is that FTEEs are going out and they're figuring out what new things to build out. Um there's also academic roots to the FTE role. Um ethnography, which is an anthropology field. Um these are researchers that live within specific communities to understand the culture of those communities directly. So really going out and you you can't understand a culture from the outside and similarly you can't understand a customer's needs from the outside and so embedded directly within their product embedded directly within their team. Um and a and a modern parallel here is army versus special forces. So the product teams are or the army they're large organized efficient at executing known strategies and they're great at building features where the requirements are are very clear. They might be stationed out of established spaces, so working out of the privy office or working off the privy road map. Um, on the other hand, the FTE teams are small. They're agile. They operate in unknown territory. They're scouting new opportunities and neutralizing any sort of emerging threats that might might exist. Um, and they're embedded in in hostile territories, customers, complex code bases, someone who has a monolithic architecture, something that's from the 2000s, something that's very old. Um and FTDES are also sometimes working out of customer offices. They go out and we talk to product teams, talk to engineering teams to understand what they need and report back that intelligence to shape broader strategy um in emerging tech. Why is FTE so important? Um I I'm really bullish on FTEE being fundamental position and role at emerging tech companies um especially newer industry and also old ones. In 2025, there's increase in software complexity. Almost every single comp company out there is a software startup. If you're not using AI or other tooling, you're likely falling behind in whatever industry that you're working in. Um, even my mom, who's a physical therapist, sees and uses AI to write emails and to write documents for for her patients. Um, there's also faster innovation cycles. What's cutting edge today may be table stage tomorrow. There's new standards that are getting created. EIP7702 just came out recently and I'm excited to talk about that a little bit later in the talk. Um, and lastly, customer sophistication. Customers don't just want tools, they want capabilities that evolve with them. Every single company is unique, and companies are looking aren't looking for pre-cut fabric. They're looking for something that is customtailored to them and their needs. Um, yeah. So in in traditional SAS, the existing model is that a lot of these businesses have very opinionated stances on how to work. There's a best practice on a way to do things and our tool embodies it. So a couple examples of this are linear and asana for for product management tools. Um they figured out the right way to build and they figured out the right way to iterate and they prescribe their workflows. There's epic stories task sprints and a customer's conversation might look like we don't do sprints and linear comes out and suggests you should and here's why. Um and over here the success metric is customers are adopting your methodology. Similarly in business intelligence you've got PowerBI and Tableau where here's how data analysis should work. Um there's established patterns, connectors, transformations, dashboards, and reports. And there's pre-built templates for a lot of standard business practices. Similar here, s the success metric is customers fit their data model, their data into your model. The foundation layered reality as I like to call it um is that while in traditional SAS customer success is equal to the adoption of their opinions in crypto infrastructure and teams that have an FDE modeled organization customer success is enabling your customers innovation. Um this thing instead of customers adapting to us we have to adapt to them and what their needs are. Um every use case is genuinely novel. A traditional example is you know there might be a thousandth CRM implementation versus the first ever ever onchain loyalty program. Um so when like when different companies approach us there's no set model that they're going off of. We're effectively building the road map for them. Um you can't Google how how do I handle social token authentication? It's something that you're building out alongside your customer. Um innovation's happening at the application layer. Our customers aren't just using our tools, they're building on top of them. So Blackbird isn't just using Privy, they're using Privy to create restaurant loyalty experiences that never existed before. Zora isn't just configuring Privy, they're p pioneering creator monetization models. Um, and so yeah, the it comes down to an infrastructure paradox. We need to be stable enough to be built on reliability, security, performance are all priority number one, but we also need to be flexible enough to enable use cases that we've never imagined. Traditional SAS can't afford to be opinionated. Can't afford to be opinated. Infrastructure cannot. So, we're all running along what I call the innovation treadmill. You're not just competing with today's alternatives. You're competing with tomorrow's possibilities. And so, engineering PMF, instead of just finding it, you are creating product market fit. Um, in a traditional PMF cycle, you go through the build, launch, iterate, and measure. So it assumes that you can find product market fit through experimentation. You're iterating very quickly. You're trying to find different solutions, testing out different hypotheses and different outcomes. And it works when the market moves slowly relative to your development cycle. On the other hand, finding product market fit with a deployed engineering team is a continuous loop. You're build building, measuring, learning, and going back to building. Um PMF isn't a destination here. It's it's a moving target. And again, you're not finding it. you are building it alongside your customers. I want to talk a little bit about FTEE in action at Privy. Um, generally for any and all features that we build, there's always a champion customer or champion customers that we're building alongside in mind and this always ensures that the product that we're building is used and is useful to the end customer. Um, so one example of this was the global ecosystem wallets which our champion customer was the abstract team and and abstract chain. Um, if you're not familiar with what global wallets are, they allow for an embedded wallet, which is traditionally scoped to a single application, to be used across a variety of applications. So, the Abstrat team wanted any developer that's building on top of their app, to have access to all of the users that are existing on the Abstract ecosystem. users are able to bring their wallet from one app to another and have all the shared assets and all the shared data and shared history amongst them along with levels of permissions that go in between it. Um when the abstract team had approached us, we had already started playing around with the idea of interoperable wallets. We released our cross app flows a few months prior and had an initial working on what this would look like for select customers. But for Abstract specifically, they had a lot of very specific needs. Um they wanted deeper customization of their own zkinch smart wallet contract. Um they also wanted extreme levels of UI customization. You can see that little nice background along with the presented by cube ink. And so a lot of this was figuring out how do we architect the systems so that the entire flow is seamless and easy to integrate for the abstract team and what logic is encapsulated within Abstract's SDK versus what logic lives inside of privy's SDK and how do we build this in a way such that not just the abstract team is enabled to build and use our global wallet solution but any team that may want to use the solution that we've built out is able to now also get the same level of customizability and feature set that they're looking for. So we didn't just end up building a bespoke solution for abstract. We built products and features that are housed within Privy for an increased and improved developer and product experience for any future customer that might be interested in building something similar. Another example of FTE work in action is our EIP72 and gas sponsorship. And unlike the uh previous slide where this was oriented around a single customer, we have so many customers that are interested in 772 and gas sponsorship generally um as an FTE project. What that ends up looking like and what that's currently looking looking like is talking to any customer that's interested in EIP772 andor having gas sponsored generally given how new F or given how new 7702 is the standards are still very very evolving from EIP5792 wallet send calls to having 4337 compatibility the space is changing very quickly and what every single customer wants ends up being very very different in how they're adopting 7702. So the FTE team first built towards enabling customers. We built out the functionality for signin EIP72 authorizations with the embedded wallet. This means that any customer who wants to use any sort of 772 method is able to do so given their own own solution. And now I'm particularly excited about this work because we're not just building alongside customers in this case but we're building alongside the industry as well. We're pushing forward new like 77 7836 for preparing wallets and calls. And I would say this is an FTE and its most exciting form. There's a little screenshot down there. Um we reached out to a few teams asking about what different standards look like and how different standards are evolving for some of the new 77.2 capabilities. And you can see that it's a level it's a level that's so deep that it hasn't even been thought of yet. And we're working towards pushing the entire industry forward which by in turn helps push our customers forward as well. Now going from the yeah the transformation is going from a reactive model to a more proactive model. Instead of building and then hoping and iterating from there, you're building based off of assumptions, hoping that the customers adopt what you've built out and hoping that you get adoption, it's the right thing and then iterating based off of the embedded feedback. The new model model is embed, understand and engineer. Embed with customers from day one, understand what their real world use cases are and engineer solutions in real time. This has given us a really big competitive advantage. Um, we spend weeks working on a product instead of months. Um, every single thing that we've built out is quite accurate. We know exactly what the customer needs and we're building it from day one of any single feature that we built out. We get adoption with customers that we've built towards. And the relationships are a lot better with our customers. Everything, every customer relationship ends up being a partnership instead of a vendor relationship. We're building next to them. We're helping to enable them. We're pushing their products forward for them to be able to do whatever they're trying to do on top of Privy. And finally, innovation. We're co-creating. These aren't feature requests that customers are sending to us. They really help and shape the future of the product and what we're building and what they're building. So yeah, thank you for coming to my talk on photo deployed engineering. Happy to answer any questions. Yes, thank you. It was very interesting. What do you do uh uh especially when you are early stage and you are you know there is a an argument about the big customers that kind of dragging you through its own request and then uh locking in a lot of resources. How do you you know balancing between the customer request and your resources and what makes sense in terms of road map? Yeah, that that's a really good question. Um, especially for when you're building towards champion C customers, there's a lot of noise that comes up and as to what they're asking for and what they're building towards. Um, I think it's really important to both not just think about the single champion customer when you're building, but also think about how what you're building affects every other customer that and and what they're looking for. So for abstract, global wallets specifically, like the global wallet ecosystem is something that we built towards not just for abstract, but we've enabled it. So any chain that's looking to build this global wallet system is able to do so. Yes, with this champion in mind, but also with the extended tail of of functionality and the ability to have this customizability for for everyone else. Um, on top of that, I would say ruthless prioritization is something that's very important. You have to understand what your top level metrics are, what you're building towards, and what you're really trying to get out of the product and and the partnership and communicating that well and directly with the customer on, hey, this is what our relationship looks like. this is what our top level and this is what we're trying to build. We provide the feature set to enable you to do this. But if there are things that go above and beyond with the scope of the privy product looks like that might end up being something that they have in their systems themselves. Great question. Any other questions? Thank you so much. Appreciate it. [Applause]",
+    "text_length": 18296,
+    "word_count": 3095
+  },
+  "segments": [
+    {
+      "start": 5.6,
+      "duration": 3.68,
+      "text": "Hi everyone. How's everyone doing?",
+      "timestamp": "00:05"
+    },
+    {
+      "start": 9.28,
+      "duration": 2.319,
+      "text": "Very excited to be here um speaking in",
+      "timestamp": "00:09"
+    },
+    {
+      "start": 11.599,
+      "duration": 2.241,
+      "text": "front of you all today. Um especially in",
+      "timestamp": "00:11"
+    },
+    {
+      "start": 13.84,
+      "duration": 2.4,
+      "text": "France, traveled from New York to get",
+      "timestamp": "00:13"
+    },
+    {
+      "start": 16.24,
+      "duration": 1.76,
+      "text": "here. Um I want to talk a little bit",
+      "timestamp": "00:16"
+    },
+    {
+      "start": 18.0,
+      "duration": 2.08,
+      "text": "more about one of the strategies of",
+      "timestamp": "00:18"
+    },
+    {
+      "start": 20.08,
+      "duration": 1.92,
+      "text": "finding product market fit, especially",
+      "timestamp": "00:20"
+    },
+    {
+      "start": 22.0,
+      "duration": 2.64,
+      "text": "in a rapidly evolving industry. My name",
+      "timestamp": "00:22"
+    },
+    {
+      "start": 24.64,
+      "duration": 1.76,
+      "text": "is Jill. I'm the tech lead of the",
+      "timestamp": "00:24"
+    },
+    {
+      "start": 26.4,
+      "duration": 1.52,
+      "text": "forward deployed engineering team here",
+      "timestamp": "00:26"
+    },
+    {
+      "start": 27.92,
+      "duration": 2.72,
+      "text": "at privy and in general I just want to",
+      "timestamp": "00:27"
+    },
+    {
+      "start": 30.64,
+      "duration": 1.68,
+      "text": "talk a little bit about the impact of my",
+      "timestamp": "00:30"
+    },
+    {
+      "start": 32.32,
+      "duration": 2.96,
+      "text": "role and both at privy but also in the",
+      "timestamp": "00:32"
+    },
+    {
+      "start": 35.28,
+      "duration": 2.08,
+      "text": "industry",
+      "timestamp": "00:35"
+    },
+    {
+      "start": 37.36,
+      "duration": 1.84,
+      "text": "anyways what what is a f deploy to",
+      "timestamp": "00:37"
+    },
+    {
+      "start": 39.2,
+      "duration": 1.76,
+      "text": "engineer um I I want to start with a",
+      "timestamp": "00:39"
+    },
+    {
+      "start": 40.96,
+      "duration": 2.08,
+      "text": "question um as a show of hands how many",
+      "timestamp": "00:40"
+    },
+    {
+      "start": 43.04,
+      "duration": 3.039,
+      "text": "of you guys have built a product that",
+      "timestamp": "00:43"
+    },
+    {
+      "start": 46.079,
+      "duration": 1.521,
+      "text": "the customer said that they wanted but",
+      "timestamp": "00:46"
+    },
+    {
+      "start": 47.6,
+      "duration": 1.36,
+      "text": "you didn't end up they didn't end up",
+      "timestamp": "00:47"
+    },
+    {
+      "start": 48.96,
+      "duration": 2.24,
+      "text": "actually using it either the product",
+      "timestamp": "00:48"
+    },
+    {
+      "start": 51.2,
+      "duration": 1.679,
+      "text": "team and the engineering teams were out",
+      "timestamp": "00:51"
+    },
+    {
+      "start": 52.879,
+      "duration": 1.921,
+      "text": "of sync and maybe weren't communicating",
+      "timestamp": "00:52"
+    },
+    {
+      "start": 54.8,
+      "duration": 2.56,
+      "text": "as or the product team said one thing",
+      "timestamp": "00:54"
+    },
+    {
+      "start": 57.36,
+      "duration": 2.96,
+      "text": "and the um engineering team said",
+      "timestamp": "00:57"
+    },
+    {
+      "start": 60.32,
+      "duration": 1.919,
+      "text": "something else. Um I'm going to raise my",
+      "timestamp": "01:00"
+    },
+    {
+      "start": 62.239,
+      "duration": 2.081,
+      "text": "hand here. Anyone else who built",
+      "timestamp": "01:02"
+    },
+    {
+      "start": 64.32,
+      "duration": 2.96,
+      "text": "something embarrassingly? Yeah. So this",
+      "timestamp": "01:04"
+    },
+    {
+      "start": 67.28,
+      "duration": 2.159,
+      "text": "happens quite frequently and in crypto",
+      "timestamp": "01:07"
+    },
+    {
+      "start": 69.439,
+      "duration": 3.281,
+      "text": "especially this problem is amplified 10x",
+      "timestamp": "01:09"
+    },
+    {
+      "start": 72.72,
+      "duration": 1.6,
+      "text": "um both through rapidly evolving",
+      "timestamp": "01:12"
+    },
+    {
+      "start": 74.32,
+      "duration": 2.159,
+      "text": "technology cutting edge research um",
+      "timestamp": "01:14"
+    },
+    {
+      "start": 76.479,
+      "duration": 1.921,
+      "text": "shift in regulations there's new",
+      "timestamp": "01:16"
+    },
+    {
+      "start": 78.4,
+      "duration": 2.079,
+      "text": "standards and new tech developments that",
+      "timestamp": "01:18"
+    },
+    {
+      "start": 80.479,
+      "duration": 2.64,
+      "text": "come out pretty much every few weeks and",
+      "timestamp": "01:20"
+    },
+    {
+      "start": 83.119,
+      "duration": 2.0,
+      "text": "within a month or two whatever you built",
+      "timestamp": "01:23"
+    },
+    {
+      "start": 85.119,
+      "duration": 2.961,
+      "text": "yesterday maybe isn't possible or is",
+      "timestamp": "01:25"
+    },
+    {
+      "start": 88.08,
+      "duration": 2.48,
+      "text": "different than what we built today. Um",
+      "timestamp": "01:28"
+    },
+    {
+      "start": 90.56,
+      "duration": 2.16,
+      "text": "so what are what are FDES? What do",
+      "timestamp": "01:30"
+    },
+    {
+      "start": 92.72,
+      "duration": 2.24,
+      "text": "forward deployed engineers actually do?",
+      "timestamp": "01:32"
+    },
+    {
+      "start": 94.96,
+      "duration": 2.88,
+      "text": "Um they're engineers who work with",
+      "timestamp": "01:34"
+    },
+    {
+      "start": 97.84,
+      "duration": 1.44,
+      "text": "customers directly to build their",
+      "timestamp": "01:37"
+    },
+    {
+      "start": 99.28,
+      "duration": 2.24,
+      "text": "solutions in real time. Um they're not",
+      "timestamp": "01:39"
+    },
+    {
+      "start": 101.52,
+      "duration": 1.599,
+      "text": "just implementing requirements, they're",
+      "timestamp": "01:41"
+    },
+    {
+      "start": 103.119,
+      "duration": 2.721,
+      "text": "discovering them through deep technical",
+      "timestamp": "01:43"
+    },
+    {
+      "start": 105.84,
+      "duration": 1.84,
+      "text": "collaboration, sharing customer and",
+      "timestamp": "01:45"
+    },
+    {
+      "start": 107.68,
+      "duration": 1.439,
+      "text": "market signals, and of course",
+      "timestamp": "01:47"
+    },
+    {
+      "start": 109.119,
+      "duration": 2.0,
+      "text": "implementing them alongside the customer",
+      "timestamp": "01:49"
+    },
+    {
+      "start": 111.119,
+      "duration": 2.721,
+      "text": "themselves. Um so I like to think about",
+      "timestamp": "01:51"
+    },
+    {
+      "start": 113.84,
+      "duration": 4.239,
+      "text": "this with the 702010 breakdown. Um 70%",
+      "timestamp": "01:53"
+    },
+    {
+      "start": 118.079,
+      "duration": 1.921,
+      "text": "engineering. So FTEEs are writing",
+      "timestamp": "01:58"
+    },
+    {
+      "start": 120.0,
+      "duration": 1.2,
+      "text": "production level code. They're",
+      "timestamp": "02:00"
+    },
+    {
+      "start": 121.2,
+      "duration": 2.16,
+      "text": "architecting systems. They're deploying",
+      "timestamp": "02:01"
+    },
+    {
+      "start": 123.36,
+      "duration": 1.759,
+      "text": "features. This isn't just pro",
+      "timestamp": "02:03"
+    },
+    {
+      "start": 125.119,
+      "duration": 1.28,
+      "text": "prototyping or proof of concepts.",
+      "timestamp": "02:05"
+    },
+    {
+      "start": 126.399,
+      "duration": 1.121,
+      "text": "They're not building demos for a",
+      "timestamp": "02:06"
+    },
+    {
+      "start": 127.52,
+      "duration": 1.92,
+      "text": "customer showing the capabilities that",
+      "timestamp": "02:07"
+    },
+    {
+      "start": 129.44,
+      "duration": 2.32,
+      "text": "Privy has. Instead, they own features",
+      "timestamp": "02:09"
+    },
+    {
+      "start": 131.76,
+      "duration": 1.839,
+      "text": "fully from end to end either from",
+      "timestamp": "02:11"
+    },
+    {
+      "start": 133.599,
+      "duration": 2.72,
+      "text": "conception all the way to maintenance.",
+      "timestamp": "02:13"
+    },
+    {
+      "start": 136.319,
+      "duration": 1.201,
+      "text": "Um, and then in terms of product",
+      "timestamp": "02:16"
+    },
+    {
+      "start": 137.52,
+      "duration": 2.0,
+      "text": "management, they go out, they understand",
+      "timestamp": "02:17"
+    },
+    {
+      "start": 139.52,
+      "duration": 1.92,
+      "text": "customer needs, they're prioritizing",
+      "timestamp": "02:19"
+    },
+    {
+      "start": 141.44,
+      "duration": 1.84,
+      "text": "features, defining requirements,",
+      "timestamp": "02:21"
+    },
+    {
+      "start": 143.28,
+      "duration": 1.92,
+      "text": "bridging the gap between what does the",
+      "timestamp": "02:23"
+    },
+    {
+      "start": 145.2,
+      "duration": 1.759,
+      "text": "customer ask for and what does the",
+      "timestamp": "02:25"
+    },
+    {
+      "start": 146.959,
+      "duration": 2.64,
+      "text": "customer actually need. Um, and lastly,",
+      "timestamp": "02:26"
+    },
+    {
+      "start": 149.599,
+      "duration": 1.201,
+      "text": "there's a little bit of pre-sales work",
+      "timestamp": "02:29"
+    },
+    {
+      "start": 150.8,
+      "duration": 1.92,
+      "text": "involved as well. um a lot of technical",
+      "timestamp": "02:30"
+    },
+    {
+      "start": 152.72,
+      "duration": 2.48,
+      "text": "due diligence, architecture discussions,",
+      "timestamp": "02:32"
+    },
+    {
+      "start": 155.2,
+      "duration": 2.16,
+      "text": "and feasibility assessments on what's",
+      "timestamp": "02:35"
+    },
+    {
+      "start": 157.36,
+      "duration": 2.239,
+      "text": "possible and what's not. And it's also",
+      "timestamp": "02:37"
+    },
+    {
+      "start": 159.599,
+      "duration": 2.081,
+      "text": "important to think about what FTEE",
+      "timestamp": "02:39"
+    },
+    {
+      "start": 161.68,
+      "duration": 2.24,
+      "text": "isn't. So, it's neither Devril nor",
+      "timestamp": "02:41"
+    },
+    {
+      "start": 163.92,
+      "duration": 2.0,
+      "text": "support engineering, not nor solutions",
+      "timestamp": "02:43"
+    },
+    {
+      "start": 165.92,
+      "duration": 3.28,
+      "text": "engineering. Um and Devril evangelizes",
+      "timestamp": "02:45"
+    },
+    {
+      "start": 169.2,
+      "duration": 2.64,
+      "text": "existing products to adoption. So, a",
+      "timestamp": "02:49"
+    },
+    {
+      "start": 171.84,
+      "duration": 2.479,
+      "text": "developer relations um member might say,",
+      "timestamp": "02:51"
+    },
+    {
+      "start": 174.319,
+      "duration": 2.56,
+      "text": "\"Hey, here's how to use our API to get",
+      "timestamp": "02:54"
+    },
+    {
+      "start": 176.879,
+      "duration": 1.921,
+      "text": "what you need.\" On the other hand, a",
+      "timestamp": "02:56"
+    },
+    {
+      "start": 178.8,
+      "duration": 1.68,
+      "text": "forward deployed engineer will say,",
+      "timestamp": "02:58"
+    },
+    {
+      "start": 180.48,
+      "duration": 1.679,
+      "text": "\"Hey, let's actually build the API",
+      "timestamp": "03:00"
+    },
+    {
+      "start": 182.159,
+      "duration": 2.8,
+      "text": "capabilities that you're looking for. A",
+      "timestamp": "03:02"
+    },
+    {
+      "start": 184.959,
+      "duration": 2.161,
+      "text": "support engineering team member might",
+      "timestamp": "03:04"
+    },
+    {
+      "start": 187.12,
+      "duration": 2.24,
+      "text": "fix an existing product that might be",
+      "timestamp": "03:07"
+    },
+    {
+      "start": 189.36,
+      "duration": 2.4,
+      "text": "broken.\" Um, they might say, \"Hey,",
+      "timestamp": "03:09"
+    },
+    {
+      "start": 191.76,
+      "duration": 1.119,
+      "text": "here's how to work around this",
+      "timestamp": "03:11"
+    },
+    {
+      "start": 192.879,
+      "duration": 1.681,
+      "text": "limitation that exists with our product",
+      "timestamp": "03:12"
+    },
+    {
+      "start": 194.56,
+      "duration": 1.84,
+      "text": "as it stands today.\" On the other hand,",
+      "timestamp": "03:14"
+    },
+    {
+      "start": 196.4,
+      "duration": 2.4,
+      "text": "the FTE team goes out and says, \"Let's",
+      "timestamp": "03:16"
+    },
+    {
+      "start": 198.8,
+      "duration": 2.719,
+      "text": "remove this limitation entirely.\" And",
+      "timestamp": "03:18"
+    },
+    {
+      "start": 201.519,
+      "duration": 2.08,
+      "text": "solutions engineering is configuring",
+      "timestamp": "03:21"
+    },
+    {
+      "start": 203.599,
+      "duration": 1.521,
+      "text": "existing products for specific",
+      "timestamp": "03:23"
+    },
+    {
+      "start": 205.12,
+      "duration": 2.08,
+      "text": "customers. So, hey, we can customize",
+      "timestamp": "03:25"
+    },
+    {
+      "start": 207.2,
+      "duration": 1.44,
+      "text": "this dashboard based off of your needs,",
+      "timestamp": "03:27"
+    },
+    {
+      "start": 208.64,
+      "duration": 1.92,
+      "text": "or hey, we can customize this SDK based",
+      "timestamp": "03:28"
+    },
+    {
+      "start": 210.56,
+      "duration": 2.319,
+      "text": "off what you're looking for. Um, the FD",
+      "timestamp": "03:30"
+    },
+    {
+      "start": 212.879,
+      "duration": 1.44,
+      "text": "team, instead of saying, hey, we can",
+      "timestamp": "03:32"
+    },
+    {
+      "start": 214.319,
+      "duration": 1.84,
+      "text": "customize this for you, it's we'll build",
+      "timestamp": "03:34"
+    },
+    {
+      "start": 216.159,
+      "duration": 1.681,
+      "text": "out the workflow that you're actually",
+      "timestamp": "03:36"
+    },
+    {
+      "start": 217.84,
+      "duration": 1.2,
+      "text": "looking for and and the thing that",
+      "timestamp": "03:37"
+    },
+    {
+      "start": 219.04,
+      "duration": 2.24,
+      "text": "you're trying to do. Um, there's a",
+      "timestamp": "03:39"
+    },
+    {
+      "start": 221.28,
+      "duration": 2.16,
+      "text": "little bit of historical context with",
+      "timestamp": "03:41"
+    },
+    {
+      "start": 223.44,
+      "duration": 2.64,
+      "text": "where the role of FTE comes from. Um,",
+      "timestamp": "03:43"
+    },
+    {
+      "start": 226.08,
+      "duration": 2.4,
+      "text": "Henry, our CEO and founder, he used to",
+      "timestamp": "03:46"
+    },
+    {
+      "start": 228.48,
+      "duration": 1.679,
+      "text": "work at Palunteer, and I would say",
+      "timestamp": "03:48"
+    },
+    {
+      "start": 230.159,
+      "duration": 2.561,
+      "text": "Palanteer really walking in the room as",
+      "timestamp": "03:50"
+    },
+    {
+      "start": 232.72,
+      "duration": 2.239,
+      "text": "we speak. Um, yeah, Palanteer pioneered",
+      "timestamp": "03:52"
+    },
+    {
+      "start": 234.959,
+      "duration": 2.801,
+      "text": "this. They deploy engineers directly to",
+      "timestamp": "03:54"
+    },
+    {
+      "start": 237.76,
+      "duration": 1.6,
+      "text": "intelligence agencies and to",
+      "timestamp": "03:57"
+    },
+    {
+      "start": 239.36,
+      "duration": 2.0,
+      "text": "corporations. Um, and the problem is",
+      "timestamp": "03:59"
+    },
+    {
+      "start": 241.36,
+      "duration": 1.84,
+      "text": "that complex data problems can't just be",
+      "timestamp": "04:01"
+    },
+    {
+      "start": 243.2,
+      "duration": 2.239,
+      "text": "solved with off-the-shelf software. And",
+      "timestamp": "04:03"
+    },
+    {
+      "start": 245.439,
+      "duration": 1.761,
+      "text": "so what they did instead is they had",
+      "timestamp": "04:05"
+    },
+    {
+      "start": 247.2,
+      "duration": 2.48,
+      "text": "engineers that would really understand",
+      "timestamp": "04:07"
+    },
+    {
+      "start": 249.68,
+      "duration": 2.08,
+      "text": "both the technology but also the",
+      "timestamp": "04:09"
+    },
+    {
+      "start": 251.76,
+      "duration": 1.679,
+      "text": "specific domain and they would go out",
+      "timestamp": "04:11"
+    },
+    {
+      "start": 253.439,
+      "duration": 2.401,
+      "text": "and deploy Palunteer software. And it's",
+      "timestamp": "04:13"
+    },
+    {
+      "start": 255.84,
+      "duration": 2.16,
+      "text": "more widespread across SAS. Um, a lot of",
+      "timestamp": "04:15"
+    },
+    {
+      "start": 258.0,
+      "duration": 1.84,
+      "text": "other companies h have a FTE shape",
+      "timestamp": "04:18"
+    },
+    {
+      "start": 259.84,
+      "duration": 2.239,
+      "text": "nowadays. You've got RAMP, datab bricks,",
+      "timestamp": "04:19"
+    },
+    {
+      "start": 262.079,
+      "duration": 2.161,
+      "text": "snowflakes. They've all got small FTE",
+      "timestamp": "04:22"
+    },
+    {
+      "start": 264.24,
+      "duration": 1.76,
+      "text": "teams that specialize in different",
+      "timestamp": "04:24"
+    },
+    {
+      "start": 266.0,
+      "duration": 2.24,
+      "text": "product areas. And the key difference",
+      "timestamp": "04:26"
+    },
+    {
+      "start": 268.24,
+      "duration": 2.16,
+      "text": "between again product engineering and",
+      "timestamp": "04:28"
+    },
+    {
+      "start": 270.4,
+      "duration": 2.799,
+      "text": "FTE is that FTEEs are going out and",
+      "timestamp": "04:30"
+    },
+    {
+      "start": 273.199,
+      "duration": 2.161,
+      "text": "they're figuring out what new things to",
+      "timestamp": "04:33"
+    },
+    {
+      "start": 275.36,
+      "duration": 2.8,
+      "text": "build out. Um there's also academic",
+      "timestamp": "04:35"
+    },
+    {
+      "start": 278.16,
+      "duration": 3.44,
+      "text": "roots to the FTE role. Um ethnography,",
+      "timestamp": "04:38"
+    },
+    {
+      "start": 281.6,
+      "duration": 2.159,
+      "text": "which is an anthropology field. Um these",
+      "timestamp": "04:41"
+    },
+    {
+      "start": 283.759,
+      "duration": 1.521,
+      "text": "are researchers that live within",
+      "timestamp": "04:43"
+    },
+    {
+      "start": 285.28,
+      "duration": 2.24,
+      "text": "specific communities to understand the",
+      "timestamp": "04:45"
+    },
+    {
+      "start": 287.52,
+      "duration": 1.6,
+      "text": "culture of those communities directly.",
+      "timestamp": "04:47"
+    },
+    {
+      "start": 289.12,
+      "duration": 2.56,
+      "text": "So really going out and you you can't",
+      "timestamp": "04:49"
+    },
+    {
+      "start": 291.68,
+      "duration": 1.44,
+      "text": "understand a culture from the outside",
+      "timestamp": "04:51"
+    },
+    {
+      "start": 293.12,
+      "duration": 1.519,
+      "text": "and similarly you can't understand a",
+      "timestamp": "04:53"
+    },
+    {
+      "start": 294.639,
+      "duration": 1.921,
+      "text": "customer's needs from the outside and so",
+      "timestamp": "04:54"
+    },
+    {
+      "start": 296.56,
+      "duration": 1.84,
+      "text": "embedded directly within their product",
+      "timestamp": "04:56"
+    },
+    {
+      "start": 298.4,
+      "duration": 2.239,
+      "text": "embedded directly within their team. Um",
+      "timestamp": "04:58"
+    },
+    {
+      "start": 300.639,
+      "duration": 2.481,
+      "text": "and a and a modern parallel here is army",
+      "timestamp": "05:00"
+    },
+    {
+      "start": 303.12,
+      "duration": 1.76,
+      "text": "versus special forces. So the product",
+      "timestamp": "05:03"
+    },
+    {
+      "start": 304.88,
+      "duration": 2.319,
+      "text": "teams are or the army they're large",
+      "timestamp": "05:04"
+    },
+    {
+      "start": 307.199,
+      "duration": 2.401,
+      "text": "organized efficient at executing known",
+      "timestamp": "05:07"
+    },
+    {
+      "start": 309.6,
+      "duration": 1.68,
+      "text": "strategies and they're great at building",
+      "timestamp": "05:09"
+    },
+    {
+      "start": 311.28,
+      "duration": 2.08,
+      "text": "features where the requirements are are",
+      "timestamp": "05:11"
+    },
+    {
+      "start": 313.36,
+      "duration": 2.0,
+      "text": "very clear. They might be stationed out",
+      "timestamp": "05:13"
+    },
+    {
+      "start": 315.36,
+      "duration": 2.08,
+      "text": "of established spaces, so working out of",
+      "timestamp": "05:15"
+    },
+    {
+      "start": 317.44,
+      "duration": 2.56,
+      "text": "the privy office or working off the",
+      "timestamp": "05:17"
+    },
+    {
+      "start": 320.0,
+      "duration": 2.24,
+      "text": "privy road map. Um, on the other hand,",
+      "timestamp": "05:20"
+    },
+    {
+      "start": 322.24,
+      "duration": 2.399,
+      "text": "the FTE teams are small. They're agile.",
+      "timestamp": "05:22"
+    },
+    {
+      "start": 324.639,
+      "duration": 2.0,
+      "text": "They operate in unknown territory.",
+      "timestamp": "05:24"
+    },
+    {
+      "start": 326.639,
+      "duration": 1.601,
+      "text": "They're scouting new opportunities and",
+      "timestamp": "05:26"
+    },
+    {
+      "start": 328.24,
+      "duration": 2.239,
+      "text": "neutralizing any sort of emerging",
+      "timestamp": "05:28"
+    },
+    {
+      "start": 330.479,
+      "duration": 2.241,
+      "text": "threats that might might exist. Um, and",
+      "timestamp": "05:30"
+    },
+    {
+      "start": 332.72,
+      "duration": 1.28,
+      "text": "they're embedded in in hostile",
+      "timestamp": "05:32"
+    },
+    {
+      "start": 334.0,
+      "duration": 1.919,
+      "text": "territories, customers, complex code",
+      "timestamp": "05:34"
+    },
+    {
+      "start": 335.919,
+      "duration": 2.321,
+      "text": "bases, someone who has a monolithic",
+      "timestamp": "05:35"
+    },
+    {
+      "start": 338.24,
+      "duration": 2.32,
+      "text": "architecture, something that's from the",
+      "timestamp": "05:38"
+    },
+    {
+      "start": 340.56,
+      "duration": 2.8,
+      "text": "2000s, something that's very old. Um and",
+      "timestamp": "05:40"
+    },
+    {
+      "start": 343.36,
+      "duration": 2.16,
+      "text": "FTDES are also sometimes working out of",
+      "timestamp": "05:43"
+    },
+    {
+      "start": 345.52,
+      "duration": 2.72,
+      "text": "customer offices. They go out and we",
+      "timestamp": "05:45"
+    },
+    {
+      "start": 348.24,
+      "duration": 1.44,
+      "text": "talk to product teams, talk to",
+      "timestamp": "05:48"
+    },
+    {
+      "start": 349.68,
+      "duration": 1.6,
+      "text": "engineering teams to understand what",
+      "timestamp": "05:49"
+    },
+    {
+      "start": 351.28,
+      "duration": 1.759,
+      "text": "they need and report back that",
+      "timestamp": "05:51"
+    },
+    {
+      "start": 353.039,
+      "duration": 3.841,
+      "text": "intelligence to shape broader strategy",
+      "timestamp": "05:53"
+    },
+    {
+      "start": 356.88,
+      "duration": 3.12,
+      "text": "um in emerging tech. Why is FTE so",
+      "timestamp": "05:56"
+    },
+    {
+      "start": 360.0,
+      "duration": 2.32,
+      "text": "important? Um I I'm really bullish on",
+      "timestamp": "06:00"
+    },
+    {
+      "start": 362.32,
+      "duration": 2.24,
+      "text": "FTEE being fundamental position and role",
+      "timestamp": "06:02"
+    },
+    {
+      "start": 364.56,
+      "duration": 2.32,
+      "text": "at emerging tech companies um especially",
+      "timestamp": "06:04"
+    },
+    {
+      "start": 366.88,
+      "duration": 2.48,
+      "text": "newer industry and also old ones. In",
+      "timestamp": "06:06"
+    },
+    {
+      "start": 369.36,
+      "duration": 2.24,
+      "text": "2025, there's increase in software",
+      "timestamp": "06:09"
+    },
+    {
+      "start": 371.6,
+      "duration": 2.24,
+      "text": "complexity. Almost every single comp",
+      "timestamp": "06:11"
+    },
+    {
+      "start": 373.84,
+      "duration": 2.56,
+      "text": "company out there is a software startup.",
+      "timestamp": "06:13"
+    },
+    {
+      "start": 376.4,
+      "duration": 2.16,
+      "text": "If you're not using AI or other tooling,",
+      "timestamp": "06:16"
+    },
+    {
+      "start": 378.56,
+      "duration": 1.68,
+      "text": "you're likely falling behind in whatever",
+      "timestamp": "06:18"
+    },
+    {
+      "start": 380.24,
+      "duration": 1.76,
+      "text": "industry that you're working in. Um,",
+      "timestamp": "06:20"
+    },
+    {
+      "start": 382.0,
+      "duration": 2.08,
+      "text": "even my mom, who's a physical therapist,",
+      "timestamp": "06:22"
+    },
+    {
+      "start": 384.08,
+      "duration": 2.88,
+      "text": "sees and uses AI to write emails and to",
+      "timestamp": "06:24"
+    },
+    {
+      "start": 386.96,
+      "duration": 2.079,
+      "text": "write documents for for her patients.",
+      "timestamp": "06:26"
+    },
+    {
+      "start": 389.039,
+      "duration": 1.6,
+      "text": "Um, there's also faster innovation",
+      "timestamp": "06:29"
+    },
+    {
+      "start": 390.639,
+      "duration": 2.56,
+      "text": "cycles. What's cutting edge today may be",
+      "timestamp": "06:30"
+    },
+    {
+      "start": 393.199,
+      "duration": 1.761,
+      "text": "table stage tomorrow. There's new",
+      "timestamp": "06:33"
+    },
+    {
+      "start": 394.96,
+      "duration": 1.44,
+      "text": "standards that are getting created.",
+      "timestamp": "06:34"
+    },
+    {
+      "start": 396.4,
+      "duration": 2.32,
+      "text": "EIP7702 just came out recently and I'm",
+      "timestamp": "06:36"
+    },
+    {
+      "start": 398.72,
+      "duration": 1.599,
+      "text": "excited to talk about that a little bit",
+      "timestamp": "06:38"
+    },
+    {
+      "start": 400.319,
+      "duration": 2.641,
+      "text": "later in the talk. Um, and lastly,",
+      "timestamp": "06:40"
+    },
+    {
+      "start": 402.96,
+      "duration": 1.84,
+      "text": "customer sophistication. Customers don't",
+      "timestamp": "06:42"
+    },
+    {
+      "start": 404.8,
+      "duration": 2.08,
+      "text": "just want tools, they want capabilities",
+      "timestamp": "06:44"
+    },
+    {
+      "start": 406.88,
+      "duration": 2.4,
+      "text": "that evolve with them. Every single",
+      "timestamp": "06:46"
+    },
+    {
+      "start": 409.28,
+      "duration": 1.84,
+      "text": "company is unique, and companies are",
+      "timestamp": "06:49"
+    },
+    {
+      "start": 411.12,
+      "duration": 1.84,
+      "text": "looking aren't looking for pre-cut",
+      "timestamp": "06:51"
+    },
+    {
+      "start": 412.96,
+      "duration": 1.76,
+      "text": "fabric. They're looking for something",
+      "timestamp": "06:52"
+    },
+    {
+      "start": 414.72,
+      "duration": 2.16,
+      "text": "that is customtailored to them and their",
+      "timestamp": "06:54"
+    },
+    {
+      "start": 416.88,
+      "duration": 3.92,
+      "text": "needs. Um, yeah. So in in traditional",
+      "timestamp": "06:56"
+    },
+    {
+      "start": 420.8,
+      "duration": 2.799,
+      "text": "SAS, the existing model is that a lot of",
+      "timestamp": "07:00"
+    },
+    {
+      "start": 423.599,
+      "duration": 3.121,
+      "text": "these businesses have very opinionated",
+      "timestamp": "07:03"
+    },
+    {
+      "start": 426.72,
+      "duration": 1.68,
+      "text": "stances on how to work. There's a best",
+      "timestamp": "07:06"
+    },
+    {
+      "start": 428.4,
+      "duration": 2.799,
+      "text": "practice on a way to do things and our",
+      "timestamp": "07:08"
+    },
+    {
+      "start": 431.199,
+      "duration": 2.481,
+      "text": "tool embodies it. So a couple examples",
+      "timestamp": "07:11"
+    },
+    {
+      "start": 433.68,
+      "duration": 2.16,
+      "text": "of this are linear and asana for for",
+      "timestamp": "07:13"
+    },
+    {
+      "start": 435.84,
+      "duration": 2.479,
+      "text": "product management tools. Um they",
+      "timestamp": "07:15"
+    },
+    {
+      "start": 438.319,
+      "duration": 2.481,
+      "text": "figured out the right way to build and",
+      "timestamp": "07:18"
+    },
+    {
+      "start": 440.8,
+      "duration": 1.04,
+      "text": "they figured out the right way to",
+      "timestamp": "07:20"
+    },
+    {
+      "start": 441.84,
+      "duration": 1.84,
+      "text": "iterate and they prescribe their",
+      "timestamp": "07:21"
+    },
+    {
+      "start": 443.68,
+      "duration": 2.639,
+      "text": "workflows. There's epic stories task",
+      "timestamp": "07:23"
+    },
+    {
+      "start": 446.319,
+      "duration": 2.0,
+      "text": "sprints and a customer's conversation",
+      "timestamp": "07:26"
+    },
+    {
+      "start": 448.319,
+      "duration": 2.0,
+      "text": "might look like we don't do sprints and",
+      "timestamp": "07:28"
+    },
+    {
+      "start": 450.319,
+      "duration": 2.401,
+      "text": "linear comes out and suggests you should",
+      "timestamp": "07:30"
+    },
+    {
+      "start": 452.72,
+      "duration": 2.64,
+      "text": "and here's why. Um and over here the",
+      "timestamp": "07:32"
+    },
+    {
+      "start": 455.36,
+      "duration": 2.559,
+      "text": "success metric is customers are adopting",
+      "timestamp": "07:35"
+    },
+    {
+      "start": 457.919,
+      "duration": 2.56,
+      "text": "your methodology. Similarly in business",
+      "timestamp": "07:37"
+    },
+    {
+      "start": 460.479,
+      "duration": 1.44,
+      "text": "intelligence you've got PowerBI and",
+      "timestamp": "07:40"
+    },
+    {
+      "start": 461.919,
+      "duration": 2.241,
+      "text": "Tableau where here's how data analysis",
+      "timestamp": "07:41"
+    },
+    {
+      "start": 464.16,
+      "duration": 1.599,
+      "text": "should work. Um there's established",
+      "timestamp": "07:44"
+    },
+    {
+      "start": 465.759,
+      "duration": 2.16,
+      "text": "patterns, connectors, transformations,",
+      "timestamp": "07:45"
+    },
+    {
+      "start": 467.919,
+      "duration": 2.0,
+      "text": "dashboards, and reports. And there's",
+      "timestamp": "07:47"
+    },
+    {
+      "start": 469.919,
+      "duration": 1.361,
+      "text": "pre-built templates for a lot of",
+      "timestamp": "07:49"
+    },
+    {
+      "start": 471.28,
+      "duration": 2.08,
+      "text": "standard business practices. Similar",
+      "timestamp": "07:51"
+    },
+    {
+      "start": 473.36,
+      "duration": 3.519,
+      "text": "here, s the success metric is customers",
+      "timestamp": "07:53"
+    },
+    {
+      "start": 476.879,
+      "duration": 2.0,
+      "text": "fit their data model, their data into",
+      "timestamp": "07:56"
+    },
+    {
+      "start": 478.879,
+      "duration": 2.401,
+      "text": "your model.",
+      "timestamp": "07:58"
+    },
+    {
+      "start": 481.28,
+      "duration": 2.08,
+      "text": "The foundation layered reality as I like",
+      "timestamp": "08:01"
+    },
+    {
+      "start": 483.36,
+      "duration": 2.399,
+      "text": "to call it um is that while in",
+      "timestamp": "08:03"
+    },
+    {
+      "start": 485.759,
+      "duration": 2.481,
+      "text": "traditional SAS customer success is",
+      "timestamp": "08:05"
+    },
+    {
+      "start": 488.24,
+      "duration": 3.12,
+      "text": "equal to the adoption of their opinions",
+      "timestamp": "08:08"
+    },
+    {
+      "start": 491.36,
+      "duration": 2.239,
+      "text": "in crypto infrastructure and teams that",
+      "timestamp": "08:11"
+    },
+    {
+      "start": 493.599,
+      "duration": 2.32,
+      "text": "have an FDE modeled organization",
+      "timestamp": "08:13"
+    },
+    {
+      "start": 495.919,
+      "duration": 2.241,
+      "text": "customer success is enabling your",
+      "timestamp": "08:15"
+    },
+    {
+      "start": 498.16,
+      "duration": 2.96,
+      "text": "customers innovation. Um this thing",
+      "timestamp": "08:18"
+    },
+    {
+      "start": 501.12,
+      "duration": 2.56,
+      "text": "instead of customers adapting to us we",
+      "timestamp": "08:21"
+    },
+    {
+      "start": 503.68,
+      "duration": 1.519,
+      "text": "have to adapt to them and what their",
+      "timestamp": "08:23"
+    },
+    {
+      "start": 505.199,
+      "duration": 2.241,
+      "text": "needs are. Um every use case is",
+      "timestamp": "08:25"
+    },
+    {
+      "start": 507.44,
+      "duration": 2.08,
+      "text": "genuinely novel. A traditional example",
+      "timestamp": "08:27"
+    },
+    {
+      "start": 509.52,
+      "duration": 1.44,
+      "text": "is you know there might be a thousandth",
+      "timestamp": "08:29"
+    },
+    {
+      "start": 510.96,
+      "duration": 2.879,
+      "text": "CRM implementation versus the first ever",
+      "timestamp": "08:30"
+    },
+    {
+      "start": 513.839,
+      "duration": 3.921,
+      "text": "ever onchain loyalty program. Um so when",
+      "timestamp": "08:33"
+    },
+    {
+      "start": 517.76,
+      "duration": 1.6,
+      "text": "like",
+      "timestamp": "08:37"
+    },
+    {
+      "start": 519.36,
+      "duration": 1.28,
+      "text": "when different companies approach us",
+      "timestamp": "08:39"
+    },
+    {
+      "start": 520.64,
+      "duration": 2.48,
+      "text": "there's no set model that they're going",
+      "timestamp": "08:40"
+    },
+    {
+      "start": 523.12,
+      "duration": 1.92,
+      "text": "off of. We're effectively building the",
+      "timestamp": "08:43"
+    },
+    {
+      "start": 525.04,
+      "duration": 2.4,
+      "text": "road map for them. Um you can't Google",
+      "timestamp": "08:45"
+    },
+    {
+      "start": 527.44,
+      "duration": 1.839,
+      "text": "how how do I handle social token",
+      "timestamp": "08:47"
+    },
+    {
+      "start": 529.279,
+      "duration": 1.68,
+      "text": "authentication? It's something that",
+      "timestamp": "08:49"
+    },
+    {
+      "start": 530.959,
+      "duration": 1.44,
+      "text": "you're building out alongside your",
+      "timestamp": "08:50"
+    },
+    {
+      "start": 532.399,
+      "duration": 2.721,
+      "text": "customer. Um innovation's happening at",
+      "timestamp": "08:52"
+    },
+    {
+      "start": 535.12,
+      "duration": 1.68,
+      "text": "the application layer. Our customers",
+      "timestamp": "08:55"
+    },
+    {
+      "start": 536.8,
+      "duration": 1.44,
+      "text": "aren't just using our tools, they're",
+      "timestamp": "08:56"
+    },
+    {
+      "start": 538.24,
+      "duration": 2.0,
+      "text": "building on top of them. So Blackbird",
+      "timestamp": "08:58"
+    },
+    {
+      "start": 540.24,
+      "duration": 1.52,
+      "text": "isn't just using Privy, they're using",
+      "timestamp": "09:00"
+    },
+    {
+      "start": 541.76,
+      "duration": 1.84,
+      "text": "Privy to create restaurant loyalty",
+      "timestamp": "09:01"
+    },
+    {
+      "start": 543.6,
+      "duration": 2.08,
+      "text": "experiences that never existed before.",
+      "timestamp": "09:03"
+    },
+    {
+      "start": 545.68,
+      "duration": 1.839,
+      "text": "Zora isn't just configuring Privy,",
+      "timestamp": "09:05"
+    },
+    {
+      "start": 547.519,
+      "duration": 1.521,
+      "text": "they're p pioneering creator",
+      "timestamp": "09:07"
+    },
+    {
+      "start": 549.04,
+      "duration": 2.72,
+      "text": "monetization models. Um, and so yeah,",
+      "timestamp": "09:09"
+    },
+    {
+      "start": 551.76,
+      "duration": 2.16,
+      "text": "the it comes down to an infrastructure",
+      "timestamp": "09:11"
+    },
+    {
+      "start": 553.92,
+      "duration": 1.84,
+      "text": "paradox. We need to be stable enough to",
+      "timestamp": "09:13"
+    },
+    {
+      "start": 555.76,
+      "duration": 2.72,
+      "text": "be built on reliability, security,",
+      "timestamp": "09:15"
+    },
+    {
+      "start": 558.48,
+      "duration": 2.64,
+      "text": "performance are all priority number one,",
+      "timestamp": "09:18"
+    },
+    {
+      "start": 561.12,
+      "duration": 1.6,
+      "text": "but we also need to be flexible enough",
+      "timestamp": "09:21"
+    },
+    {
+      "start": 562.72,
+      "duration": 1.76,
+      "text": "to enable use cases that we've never",
+      "timestamp": "09:22"
+    },
+    {
+      "start": 564.48,
+      "duration": 2.4,
+      "text": "imagined. Traditional SAS can't afford",
+      "timestamp": "09:24"
+    },
+    {
+      "start": 566.88,
+      "duration": 2.16,
+      "text": "to be opinionated. Can't afford to be",
+      "timestamp": "09:26"
+    },
+    {
+      "start": 569.04,
+      "duration": 2.4,
+      "text": "opinated. Infrastructure cannot. So,",
+      "timestamp": "09:29"
+    },
+    {
+      "start": 571.44,
+      "duration": 2.0,
+      "text": "we're all running along what I call the",
+      "timestamp": "09:31"
+    },
+    {
+      "start": 573.44,
+      "duration": 1.36,
+      "text": "innovation treadmill. You're not just",
+      "timestamp": "09:33"
+    },
+    {
+      "start": 574.8,
+      "duration": 1.92,
+      "text": "competing with today's alternatives.",
+      "timestamp": "09:34"
+    },
+    {
+      "start": 576.72,
+      "duration": 1.36,
+      "text": "You're competing with tomorrow's",
+      "timestamp": "09:36"
+    },
+    {
+      "start": 578.08,
+      "duration": 1.92,
+      "text": "possibilities.",
+      "timestamp": "09:38"
+    },
+    {
+      "start": 580.0,
+      "duration": 2.72,
+      "text": "And so, engineering PMF, instead of just",
+      "timestamp": "09:40"
+    },
+    {
+      "start": 582.72,
+      "duration": 2.4,
+      "text": "finding it, you are creating product",
+      "timestamp": "09:42"
+    },
+    {
+      "start": 585.12,
+      "duration": 2.0,
+      "text": "market fit.",
+      "timestamp": "09:45"
+    },
+    {
+      "start": 587.12,
+      "duration": 2.96,
+      "text": "Um, in a traditional PMF cycle, you go",
+      "timestamp": "09:47"
+    },
+    {
+      "start": 590.08,
+      "duration": 2.64,
+      "text": "through the build, launch, iterate, and",
+      "timestamp": "09:50"
+    },
+    {
+      "start": 592.72,
+      "duration": 2.16,
+      "text": "measure. So it assumes that you can find",
+      "timestamp": "09:52"
+    },
+    {
+      "start": 594.88,
+      "duration": 1.12,
+      "text": "product market fit through",
+      "timestamp": "09:54"
+    },
+    {
+      "start": 596.0,
+      "duration": 2.08,
+      "text": "experimentation. You're iterating very",
+      "timestamp": "09:56"
+    },
+    {
+      "start": 598.08,
+      "duration": 1.36,
+      "text": "quickly. You're trying to find different",
+      "timestamp": "09:58"
+    },
+    {
+      "start": 599.44,
+      "duration": 1.12,
+      "text": "solutions, testing out different",
+      "timestamp": "09:59"
+    },
+    {
+      "start": 600.56,
+      "duration": 1.92,
+      "text": "hypotheses and different outcomes. And",
+      "timestamp": "10:00"
+    },
+    {
+      "start": 602.48,
+      "duration": 1.76,
+      "text": "it works when the market moves slowly",
+      "timestamp": "10:02"
+    },
+    {
+      "start": 604.24,
+      "duration": 2.159,
+      "text": "relative to your development cycle. On",
+      "timestamp": "10:04"
+    },
+    {
+      "start": 606.399,
+      "duration": 1.601,
+      "text": "the other hand, finding product market",
+      "timestamp": "10:06"
+    },
+    {
+      "start": 608.0,
+      "duration": 2.88,
+      "text": "fit with a deployed engineering team is",
+      "timestamp": "10:08"
+    },
+    {
+      "start": 610.88,
+      "duration": 1.6,
+      "text": "a continuous loop. You're build",
+      "timestamp": "10:10"
+    },
+    {
+      "start": 612.48,
+      "duration": 2.24,
+      "text": "building, measuring, learning, and going",
+      "timestamp": "10:12"
+    },
+    {
+      "start": 614.72,
+      "duration": 2.4,
+      "text": "back to building. Um PMF isn't a",
+      "timestamp": "10:14"
+    },
+    {
+      "start": 617.12,
+      "duration": 1.6,
+      "text": "destination here. It's it's a moving",
+      "timestamp": "10:17"
+    },
+    {
+      "start": 618.72,
+      "duration": 2.48,
+      "text": "target. And again, you're not finding",
+      "timestamp": "10:18"
+    },
+    {
+      "start": 621.2,
+      "duration": 2.4,
+      "text": "it. you are building it alongside your",
+      "timestamp": "10:21"
+    },
+    {
+      "start": 623.6,
+      "duration": 2.08,
+      "text": "customers. I want to talk a little bit",
+      "timestamp": "10:23"
+    },
+    {
+      "start": 625.68,
+      "duration": 3.279,
+      "text": "about FTEE in action at Privy. Um,",
+      "timestamp": "10:25"
+    },
+    {
+      "start": 628.959,
+      "duration": 2.241,
+      "text": "generally for any and all features that",
+      "timestamp": "10:28"
+    },
+    {
+      "start": 631.2,
+      "duration": 2.0,
+      "text": "we build, there's always a champion",
+      "timestamp": "10:31"
+    },
+    {
+      "start": 633.2,
+      "duration": 1.759,
+      "text": "customer or champion customers that",
+      "timestamp": "10:33"
+    },
+    {
+      "start": 634.959,
+      "duration": 2.081,
+      "text": "we're building alongside in mind and",
+      "timestamp": "10:34"
+    },
+    {
+      "start": 637.04,
+      "duration": 1.359,
+      "text": "this always ensures that the product",
+      "timestamp": "10:37"
+    },
+    {
+      "start": 638.399,
+      "duration": 2.081,
+      "text": "that we're building is used and is",
+      "timestamp": "10:38"
+    },
+    {
+      "start": 640.48,
+      "duration": 2.72,
+      "text": "useful to the end customer. Um, so one",
+      "timestamp": "10:40"
+    },
+    {
+      "start": 643.2,
+      "duration": 2.24,
+      "text": "example of this was the global ecosystem",
+      "timestamp": "10:43"
+    },
+    {
+      "start": 645.44,
+      "duration": 2.399,
+      "text": "wallets which our champion customer was",
+      "timestamp": "10:45"
+    },
+    {
+      "start": 647.839,
+      "duration": 2.0,
+      "text": "the abstract team and and abstract",
+      "timestamp": "10:47"
+    },
+    {
+      "start": 649.839,
+      "duration": 2.161,
+      "text": "chain. Um, if you're not familiar with",
+      "timestamp": "10:49"
+    },
+    {
+      "start": 652.0,
+      "duration": 3.04,
+      "text": "what global wallets are, they allow for",
+      "timestamp": "10:52"
+    },
+    {
+      "start": 655.04,
+      "duration": 1.28,
+      "text": "an embedded wallet, which is",
+      "timestamp": "10:55"
+    },
+    {
+      "start": 656.32,
+      "duration": 1.68,
+      "text": "traditionally scoped to a single",
+      "timestamp": "10:56"
+    },
+    {
+      "start": 658.0,
+      "duration": 2.56,
+      "text": "application, to be used across a variety",
+      "timestamp": "10:58"
+    },
+    {
+      "start": 660.56,
+      "duration": 2.399,
+      "text": "of applications. So, the Abstrat team",
+      "timestamp": "11:00"
+    },
+    {
+      "start": 662.959,
+      "duration": 2.0,
+      "text": "wanted any developer that's building on",
+      "timestamp": "11:02"
+    },
+    {
+      "start": 664.959,
+      "duration": 2.961,
+      "text": "top of their app, to have access to all",
+      "timestamp": "11:04"
+    },
+    {
+      "start": 667.92,
+      "duration": 1.919,
+      "text": "of the users that are existing on the",
+      "timestamp": "11:07"
+    },
+    {
+      "start": 669.839,
+      "duration": 2.081,
+      "text": "Abstract ecosystem. users are able to",
+      "timestamp": "11:09"
+    },
+    {
+      "start": 671.92,
+      "duration": 1.359,
+      "text": "bring their wallet from one app to",
+      "timestamp": "11:11"
+    },
+    {
+      "start": 673.279,
+      "duration": 1.521,
+      "text": "another and have all the shared assets",
+      "timestamp": "11:13"
+    },
+    {
+      "start": 674.8,
+      "duration": 1.68,
+      "text": "and all the shared data and shared",
+      "timestamp": "11:14"
+    },
+    {
+      "start": 676.48,
+      "duration": 2.08,
+      "text": "history amongst them along with levels",
+      "timestamp": "11:16"
+    },
+    {
+      "start": 678.56,
+      "duration": 3.279,
+      "text": "of permissions that go in between it. Um",
+      "timestamp": "11:18"
+    },
+    {
+      "start": 681.839,
+      "duration": 1.44,
+      "text": "when the abstract team had approached",
+      "timestamp": "11:21"
+    },
+    {
+      "start": 683.279,
+      "duration": 1.841,
+      "text": "us, we had already started playing",
+      "timestamp": "11:23"
+    },
+    {
+      "start": 685.12,
+      "duration": 1.44,
+      "text": "around with the idea of interoperable",
+      "timestamp": "11:25"
+    },
+    {
+      "start": 686.56,
+      "duration": 2.56,
+      "text": "wallets. We released our cross app flows",
+      "timestamp": "11:26"
+    },
+    {
+      "start": 689.12,
+      "duration": 2.08,
+      "text": "a few months prior and had an initial",
+      "timestamp": "11:29"
+    },
+    {
+      "start": 691.2,
+      "duration": 1.36,
+      "text": "working on what this would look like for",
+      "timestamp": "11:31"
+    },
+    {
+      "start": 692.56,
+      "duration": 2.56,
+      "text": "select customers. But for Abstract",
+      "timestamp": "11:32"
+    },
+    {
+      "start": 695.12,
+      "duration": 1.68,
+      "text": "specifically, they had a lot of very",
+      "timestamp": "11:35"
+    },
+    {
+      "start": 696.8,
+      "duration": 2.32,
+      "text": "specific needs. Um they wanted deeper",
+      "timestamp": "11:36"
+    },
+    {
+      "start": 699.12,
+      "duration": 2.24,
+      "text": "customization of their own zkinch smart",
+      "timestamp": "11:39"
+    },
+    {
+      "start": 701.36,
+      "duration": 2.24,
+      "text": "wallet contract. Um they also wanted",
+      "timestamp": "11:41"
+    },
+    {
+      "start": 703.6,
+      "duration": 2.0,
+      "text": "extreme levels of UI customization. You",
+      "timestamp": "11:43"
+    },
+    {
+      "start": 705.6,
+      "duration": 2.32,
+      "text": "can see that little nice background",
+      "timestamp": "11:45"
+    },
+    {
+      "start": 707.92,
+      "duration": 2.159,
+      "text": "along with the presented by cube ink.",
+      "timestamp": "11:47"
+    },
+    {
+      "start": 710.079,
+      "duration": 1.521,
+      "text": "And so a lot of this was figuring out",
+      "timestamp": "11:50"
+    },
+    {
+      "start": 711.6,
+      "duration": 2.799,
+      "text": "how do we architect the systems so that",
+      "timestamp": "11:51"
+    },
+    {
+      "start": 714.399,
+      "duration": 2.0,
+      "text": "the entire flow is seamless and easy to",
+      "timestamp": "11:54"
+    },
+    {
+      "start": 716.399,
+      "duration": 2.401,
+      "text": "integrate for the abstract team and what",
+      "timestamp": "11:56"
+    },
+    {
+      "start": 718.8,
+      "duration": 2.24,
+      "text": "logic is encapsulated within Abstract's",
+      "timestamp": "11:58"
+    },
+    {
+      "start": 721.04,
+      "duration": 1.919,
+      "text": "SDK versus what logic lives inside of",
+      "timestamp": "12:01"
+    },
+    {
+      "start": 722.959,
+      "duration": 2.88,
+      "text": "privy's SDK and how do we build this in",
+      "timestamp": "12:02"
+    },
+    {
+      "start": 725.839,
+      "duration": 2.0,
+      "text": "a way such that not just the abstract",
+      "timestamp": "12:05"
+    },
+    {
+      "start": 727.839,
+      "duration": 1.841,
+      "text": "team is enabled to build and use our",
+      "timestamp": "12:07"
+    },
+    {
+      "start": 729.68,
+      "duration": 2.24,
+      "text": "global wallet solution but any team that",
+      "timestamp": "12:09"
+    },
+    {
+      "start": 731.92,
+      "duration": 1.68,
+      "text": "may want to use the solution that we've",
+      "timestamp": "12:11"
+    },
+    {
+      "start": 733.6,
+      "duration": 2.16,
+      "text": "built out is able to now also get the",
+      "timestamp": "12:13"
+    },
+    {
+      "start": 735.76,
+      "duration": 2.48,
+      "text": "same level of customizability and",
+      "timestamp": "12:15"
+    },
+    {
+      "start": 738.24,
+      "duration": 1.839,
+      "text": "feature set that they're looking for. So",
+      "timestamp": "12:18"
+    },
+    {
+      "start": 740.079,
+      "duration": 1.521,
+      "text": "we didn't just end up building a bespoke",
+      "timestamp": "12:20"
+    },
+    {
+      "start": 741.6,
+      "duration": 1.919,
+      "text": "solution for abstract. We built products",
+      "timestamp": "12:21"
+    },
+    {
+      "start": 743.519,
+      "duration": 1.44,
+      "text": "and features that are housed within",
+      "timestamp": "12:23"
+    },
+    {
+      "start": 744.959,
+      "duration": 1.761,
+      "text": "Privy for an increased and improved",
+      "timestamp": "12:24"
+    },
+    {
+      "start": 746.72,
+      "duration": 2.239,
+      "text": "developer and product experience for any",
+      "timestamp": "12:26"
+    },
+    {
+      "start": 748.959,
+      "duration": 1.921,
+      "text": "future customer that might be interested",
+      "timestamp": "12:28"
+    },
+    {
+      "start": 750.88,
+      "duration": 2.8,
+      "text": "in building something similar.",
+      "timestamp": "12:30"
+    },
+    {
+      "start": 753.68,
+      "duration": 3.2,
+      "text": "Another example of FTE work in action is",
+      "timestamp": "12:33"
+    },
+    {
+      "start": 756.88,
+      "duration": 3.84,
+      "text": "our EIP72 and gas sponsorship. And",
+      "timestamp": "12:36"
+    },
+    {
+      "start": 760.72,
+      "duration": 2.239,
+      "text": "unlike the uh previous slide where this",
+      "timestamp": "12:40"
+    },
+    {
+      "start": 762.959,
+      "duration": 2.241,
+      "text": "was oriented around a single customer,",
+      "timestamp": "12:42"
+    },
+    {
+      "start": 765.2,
+      "duration": 1.52,
+      "text": "we have so many customers that are",
+      "timestamp": "12:45"
+    },
+    {
+      "start": 766.72,
+      "duration": 2.64,
+      "text": "interested in 772 and gas sponsorship",
+      "timestamp": "12:46"
+    },
+    {
+      "start": 769.36,
+      "duration": 2.96,
+      "text": "generally um as an FTE project. What",
+      "timestamp": "12:49"
+    },
+    {
+      "start": 772.32,
+      "duration": 1.28,
+      "text": "that ends up looking like and what",
+      "timestamp": "12:52"
+    },
+    {
+      "start": 773.6,
+      "duration": 2.16,
+      "text": "that's currently looking looking like is",
+      "timestamp": "12:53"
+    },
+    {
+      "start": 775.76,
+      "duration": 1.44,
+      "text": "talking to any customer that's",
+      "timestamp": "12:55"
+    },
+    {
+      "start": 777.2,
+      "duration": 2.96,
+      "text": "interested in EIP772 andor having gas",
+      "timestamp": "12:57"
+    },
+    {
+      "start": 780.16,
+      "duration": 2.72,
+      "text": "sponsored generally given how new F or",
+      "timestamp": "13:00"
+    },
+    {
+      "start": 782.88,
+      "duration": 2.88,
+      "text": "given how new 7702 is the standards are",
+      "timestamp": "13:02"
+    },
+    {
+      "start": 785.76,
+      "duration": 3.6,
+      "text": "still very very evolving from EIP5792",
+      "timestamp": "13:05"
+    },
+    {
+      "start": 789.36,
+      "duration": 2.719,
+      "text": "wallet send calls to having 4337",
+      "timestamp": "13:09"
+    },
+    {
+      "start": 792.079,
+      "duration": 2.961,
+      "text": "compatibility the space is changing very",
+      "timestamp": "13:12"
+    },
+    {
+      "start": 795.04,
+      "duration": 1.76,
+      "text": "quickly and what every single customer",
+      "timestamp": "13:15"
+    },
+    {
+      "start": 796.8,
+      "duration": 2.64,
+      "text": "wants ends up being very very different",
+      "timestamp": "13:16"
+    },
+    {
+      "start": 799.44,
+      "duration": 2.88,
+      "text": "in how they're adopting 7702. So the FTE",
+      "timestamp": "13:19"
+    },
+    {
+      "start": 802.32,
+      "duration": 1.92,
+      "text": "team first built towards enabling",
+      "timestamp": "13:22"
+    },
+    {
+      "start": 804.24,
+      "duration": 1.44,
+      "text": "customers. We built out the",
+      "timestamp": "13:24"
+    },
+    {
+      "start": 805.68,
+      "duration": 2.399,
+      "text": "functionality for signin EIP72",
+      "timestamp": "13:25"
+    },
+    {
+      "start": 808.079,
+      "duration": 2.081,
+      "text": "authorizations with the embedded wallet.",
+      "timestamp": "13:28"
+    },
+    {
+      "start": 810.16,
+      "duration": 1.6,
+      "text": "This means that any customer who wants",
+      "timestamp": "13:30"
+    },
+    {
+      "start": 811.76,
+      "duration": 3.6,
+      "text": "to use any sort of 772 method is able to",
+      "timestamp": "13:31"
+    },
+    {
+      "start": 815.36,
+      "duration": 2.479,
+      "text": "do so given their own own solution. And",
+      "timestamp": "13:35"
+    },
+    {
+      "start": 817.839,
+      "duration": 1.521,
+      "text": "now I'm particularly excited about this",
+      "timestamp": "13:37"
+    },
+    {
+      "start": 819.36,
+      "duration": 1.599,
+      "text": "work because we're not just building",
+      "timestamp": "13:39"
+    },
+    {
+      "start": 820.959,
+      "duration": 2.32,
+      "text": "alongside customers in this case but",
+      "timestamp": "13:40"
+    },
+    {
+      "start": 823.279,
+      "duration": 2.081,
+      "text": "we're building alongside the industry as",
+      "timestamp": "13:43"
+    },
+    {
+      "start": 825.36,
+      "duration": 2.24,
+      "text": "well. We're pushing forward new like 77",
+      "timestamp": "13:45"
+    },
+    {
+      "start": 827.6,
+      "duration": 3.12,
+      "text": "7836 for preparing wallets and calls.",
+      "timestamp": "13:47"
+    },
+    {
+      "start": 830.72,
+      "duration": 2.0,
+      "text": "And I would say this is an FTE and its",
+      "timestamp": "13:50"
+    },
+    {
+      "start": 832.72,
+      "duration": 1.2,
+      "text": "most exciting form. There's a little",
+      "timestamp": "13:52"
+    },
+    {
+      "start": 833.92,
+      "duration": 2.479,
+      "text": "screenshot down there. Um we reached out",
+      "timestamp": "13:53"
+    },
+    {
+      "start": 836.399,
+      "duration": 3.041,
+      "text": "to a few teams asking about what",
+      "timestamp": "13:56"
+    },
+    {
+      "start": 839.44,
+      "duration": 1.36,
+      "text": "different standards look like and how",
+      "timestamp": "13:59"
+    },
+    {
+      "start": 840.8,
+      "duration": 1.36,
+      "text": "different standards are evolving for",
+      "timestamp": "14:00"
+    },
+    {
+      "start": 842.16,
+      "duration": 2.4,
+      "text": "some of the new 77.2 capabilities. And",
+      "timestamp": "14:02"
+    },
+    {
+      "start": 844.56,
+      "duration": 2.56,
+      "text": "you can see that it's a level it's a",
+      "timestamp": "14:04"
+    },
+    {
+      "start": 847.12,
+      "duration": 1.44,
+      "text": "level that's so deep that it hasn't even",
+      "timestamp": "14:07"
+    },
+    {
+      "start": 848.56,
+      "duration": 1.36,
+      "text": "been thought of yet. And we're working",
+      "timestamp": "14:08"
+    },
+    {
+      "start": 849.92,
+      "duration": 1.359,
+      "text": "towards pushing the entire industry",
+      "timestamp": "14:09"
+    },
+    {
+      "start": 851.279,
+      "duration": 2.881,
+      "text": "forward which by in turn helps push our",
+      "timestamp": "14:11"
+    },
+    {
+      "start": 854.16,
+      "duration": 2.88,
+      "text": "customers forward as well.",
+      "timestamp": "14:14"
+    },
+    {
+      "start": 857.04,
+      "duration": 3.68,
+      "text": "Now going from the yeah the",
+      "timestamp": "14:17"
+    },
+    {
+      "start": 860.72,
+      "duration": 1.84,
+      "text": "transformation is going from a reactive",
+      "timestamp": "14:20"
+    },
+    {
+      "start": 862.56,
+      "duration": 2.079,
+      "text": "model to a more proactive model. Instead",
+      "timestamp": "14:22"
+    },
+    {
+      "start": 864.639,
+      "duration": 1.76,
+      "text": "of building and then hoping and",
+      "timestamp": "14:24"
+    },
+    {
+      "start": 866.399,
+      "duration": 1.201,
+      "text": "iterating from there, you're building",
+      "timestamp": "14:26"
+    },
+    {
+      "start": 867.6,
+      "duration": 2.32,
+      "text": "based off of assumptions, hoping that",
+      "timestamp": "14:27"
+    },
+    {
+      "start": 869.92,
+      "duration": 1.52,
+      "text": "the customers adopt what you've built",
+      "timestamp": "14:29"
+    },
+    {
+      "start": 871.44,
+      "duration": 1.36,
+      "text": "out and hoping that you get adoption,",
+      "timestamp": "14:31"
+    },
+    {
+      "start": 872.8,
+      "duration": 2.0,
+      "text": "it's the right thing and then iterating",
+      "timestamp": "14:32"
+    },
+    {
+      "start": 874.8,
+      "duration": 2.0,
+      "text": "based off of the embedded feedback. The",
+      "timestamp": "14:34"
+    },
+    {
+      "start": 876.8,
+      "duration": 2.96,
+      "text": "new model model is embed, understand and",
+      "timestamp": "14:36"
+    },
+    {
+      "start": 879.76,
+      "duration": 2.48,
+      "text": "engineer. Embed with customers from day",
+      "timestamp": "14:39"
+    },
+    {
+      "start": 882.24,
+      "duration": 1.92,
+      "text": "one, understand what their real world",
+      "timestamp": "14:42"
+    },
+    {
+      "start": 884.16,
+      "duration": 2.72,
+      "text": "use cases are and engineer solutions in",
+      "timestamp": "14:44"
+    },
+    {
+      "start": 886.88,
+      "duration": 2.72,
+      "text": "real time. This has given us a really",
+      "timestamp": "14:46"
+    },
+    {
+      "start": 889.6,
+      "duration": 2.799,
+      "text": "big competitive advantage. Um, we spend",
+      "timestamp": "14:49"
+    },
+    {
+      "start": 892.399,
+      "duration": 1.521,
+      "text": "weeks working on a product instead of",
+      "timestamp": "14:52"
+    },
+    {
+      "start": 893.92,
+      "duration": 2.479,
+      "text": "months. Um, every single thing that",
+      "timestamp": "14:53"
+    },
+    {
+      "start": 896.399,
+      "duration": 1.921,
+      "text": "we've built out is quite accurate. We",
+      "timestamp": "14:56"
+    },
+    {
+      "start": 898.32,
+      "duration": 1.759,
+      "text": "know exactly what the customer needs and",
+      "timestamp": "14:58"
+    },
+    {
+      "start": 900.079,
+      "duration": 2.161,
+      "text": "we're building it from day one of any",
+      "timestamp": "15:00"
+    },
+    {
+      "start": 902.24,
+      "duration": 1.599,
+      "text": "single feature that we built out. We get",
+      "timestamp": "15:02"
+    },
+    {
+      "start": 903.839,
+      "duration": 1.841,
+      "text": "adoption with customers that we've built",
+      "timestamp": "15:03"
+    },
+    {
+      "start": 905.68,
+      "duration": 2.32,
+      "text": "towards. And the relationships are a lot",
+      "timestamp": "15:05"
+    },
+    {
+      "start": 908.0,
+      "duration": 2.16,
+      "text": "better with our customers. Everything,",
+      "timestamp": "15:08"
+    },
+    {
+      "start": 910.16,
+      "duration": 1.679,
+      "text": "every customer relationship ends up",
+      "timestamp": "15:10"
+    },
+    {
+      "start": 911.839,
+      "duration": 1.761,
+      "text": "being a partnership instead of a vendor",
+      "timestamp": "15:11"
+    },
+    {
+      "start": 913.6,
+      "duration": 1.76,
+      "text": "relationship. We're building next to",
+      "timestamp": "15:13"
+    },
+    {
+      "start": 915.36,
+      "duration": 1.2,
+      "text": "them. We're helping to enable them.",
+      "timestamp": "15:15"
+    },
+    {
+      "start": 916.56,
+      "duration": 1.6,
+      "text": "We're pushing their products forward for",
+      "timestamp": "15:16"
+    },
+    {
+      "start": 918.16,
+      "duration": 1.28,
+      "text": "them to be able to do whatever they're",
+      "timestamp": "15:18"
+    },
+    {
+      "start": 919.44,
+      "duration": 2.0,
+      "text": "trying to do on top of Privy. And",
+      "timestamp": "15:19"
+    },
+    {
+      "start": 921.44,
+      "duration": 2.079,
+      "text": "finally, innovation. We're co-creating.",
+      "timestamp": "15:21"
+    },
+    {
+      "start": 923.519,
+      "duration": 1.601,
+      "text": "These aren't feature requests that",
+      "timestamp": "15:23"
+    },
+    {
+      "start": 925.12,
+      "duration": 1.68,
+      "text": "customers are sending to us. They really",
+      "timestamp": "15:25"
+    },
+    {
+      "start": 926.8,
+      "duration": 2.159,
+      "text": "help and shape the future of the product",
+      "timestamp": "15:26"
+    },
+    {
+      "start": 928.959,
+      "duration": 1.841,
+      "text": "and what we're building and what they're",
+      "timestamp": "15:28"
+    },
+    {
+      "start": 930.8,
+      "duration": 2.96,
+      "text": "building. So yeah, thank you for coming",
+      "timestamp": "15:30"
+    },
+    {
+      "start": 933.76,
+      "duration": 1.519,
+      "text": "to my talk on photo deployed",
+      "timestamp": "15:33"
+    },
+    {
+      "start": 935.279,
+      "duration": 1.92,
+      "text": "engineering. Happy to answer any",
+      "timestamp": "15:35"
+    },
+    {
+      "start": 937.199,
+      "duration": 3.0,
+      "text": "questions.",
+      "timestamp": "15:37"
+    },
+    {
+      "start": 944.24,
+      "duration": 2.88,
+      "text": "Yes,",
+      "timestamp": "15:44"
+    },
+    {
+      "start": 947.12,
+      "duration": 1.92,
+      "text": "thank you. It was very interesting. What",
+      "timestamp": "15:47"
+    },
+    {
+      "start": 949.04,
+      "duration": 2.56,
+      "text": "do you do uh uh especially when you are",
+      "timestamp": "15:49"
+    },
+    {
+      "start": 951.6,
+      "duration": 2.479,
+      "text": "early stage and you are you know there",
+      "timestamp": "15:51"
+    },
+    {
+      "start": 954.079,
+      "duration": 2.641,
+      "text": "is a an argument about the big customers",
+      "timestamp": "15:54"
+    },
+    {
+      "start": 956.72,
+      "duration": 2.16,
+      "text": "that kind of dragging you through its",
+      "timestamp": "15:56"
+    },
+    {
+      "start": 958.88,
+      "duration": 2.48,
+      "text": "own request and then uh locking in a lot",
+      "timestamp": "15:58"
+    },
+    {
+      "start": 961.36,
+      "duration": 2.24,
+      "text": "of resources. How do you you know",
+      "timestamp": "16:01"
+    },
+    {
+      "start": 963.6,
+      "duration": 2.159,
+      "text": "balancing between the customer request",
+      "timestamp": "16:03"
+    },
+    {
+      "start": 965.759,
+      "duration": 1.76,
+      "text": "and your resources and what makes sense",
+      "timestamp": "16:05"
+    },
+    {
+      "start": 967.519,
+      "duration": 1.76,
+      "text": "in terms of road map? Yeah, that that's",
+      "timestamp": "16:07"
+    },
+    {
+      "start": 969.279,
+      "duration": 2.081,
+      "text": "a really good question. Um, especially",
+      "timestamp": "16:09"
+    },
+    {
+      "start": 971.36,
+      "duration": 1.12,
+      "text": "for when you're building towards",
+      "timestamp": "16:11"
+    },
+    {
+      "start": 972.48,
+      "duration": 2.799,
+      "text": "champion C customers, there's a lot of",
+      "timestamp": "16:12"
+    },
+    {
+      "start": 975.279,
+      "duration": 1.68,
+      "text": "noise that comes up and as to what",
+      "timestamp": "16:15"
+    },
+    {
+      "start": 976.959,
+      "duration": 1.12,
+      "text": "they're asking for and what they're",
+      "timestamp": "16:16"
+    },
+    {
+      "start": 978.079,
+      "duration": 1.841,
+      "text": "building towards. Um, I think it's",
+      "timestamp": "16:18"
+    },
+    {
+      "start": 979.92,
+      "duration": 2.32,
+      "text": "really important to both not just think",
+      "timestamp": "16:19"
+    },
+    {
+      "start": 982.24,
+      "duration": 2.32,
+      "text": "about the single champion customer when",
+      "timestamp": "16:22"
+    },
+    {
+      "start": 984.56,
+      "duration": 1.36,
+      "text": "you're building, but also think about",
+      "timestamp": "16:24"
+    },
+    {
+      "start": 985.92,
+      "duration": 2.159,
+      "text": "how what you're building affects every",
+      "timestamp": "16:25"
+    },
+    {
+      "start": 988.079,
+      "duration": 1.841,
+      "text": "other customer that and and what they're",
+      "timestamp": "16:28"
+    },
+    {
+      "start": 989.92,
+      "duration": 2.479,
+      "text": "looking for. So for abstract, global",
+      "timestamp": "16:29"
+    },
+    {
+      "start": 992.399,
+      "duration": 1.921,
+      "text": "wallets specifically, like the global",
+      "timestamp": "16:32"
+    },
+    {
+      "start": 994.32,
+      "duration": 1.439,
+      "text": "wallet ecosystem is something that we",
+      "timestamp": "16:34"
+    },
+    {
+      "start": 995.759,
+      "duration": 1.921,
+      "text": "built towards not just for abstract, but",
+      "timestamp": "16:35"
+    },
+    {
+      "start": 997.68,
+      "duration": 1.839,
+      "text": "we've enabled it. So any chain that's",
+      "timestamp": "16:37"
+    },
+    {
+      "start": 999.519,
+      "duration": 1.601,
+      "text": "looking to build this global wallet",
+      "timestamp": "16:39"
+    },
+    {
+      "start": 1001.12,
+      "duration": 2.079,
+      "text": "system is able to do so. Yes, with this",
+      "timestamp": "16:41"
+    },
+    {
+      "start": 1003.199,
+      "duration": 1.921,
+      "text": "champion in mind, but also with the",
+      "timestamp": "16:43"
+    },
+    {
+      "start": 1005.12,
+      "duration": 2.0,
+      "text": "extended tail of of functionality and",
+      "timestamp": "16:45"
+    },
+    {
+      "start": 1007.12,
+      "duration": 1.68,
+      "text": "the ability to have this customizability",
+      "timestamp": "16:47"
+    },
+    {
+      "start": 1008.8,
+      "duration": 2.24,
+      "text": "for for everyone else. Um, on top of",
+      "timestamp": "16:48"
+    },
+    {
+      "start": 1011.04,
+      "duration": 1.039,
+      "text": "that, I would say ruthless",
+      "timestamp": "16:51"
+    },
+    {
+      "start": 1012.079,
+      "duration": 1.68,
+      "text": "prioritization is something that's very",
+      "timestamp": "16:52"
+    },
+    {
+      "start": 1013.759,
+      "duration": 1.361,
+      "text": "important. You have to understand what",
+      "timestamp": "16:53"
+    },
+    {
+      "start": 1015.12,
+      "duration": 1.68,
+      "text": "your top level metrics are, what you're",
+      "timestamp": "16:55"
+    },
+    {
+      "start": 1016.8,
+      "duration": 1.2,
+      "text": "building towards, and what you're really",
+      "timestamp": "16:56"
+    },
+    {
+      "start": 1018.0,
+      "duration": 1.759,
+      "text": "trying to get out of the product and and",
+      "timestamp": "16:58"
+    },
+    {
+      "start": 1019.759,
+      "duration": 2.481,
+      "text": "the partnership and communicating that",
+      "timestamp": "16:59"
+    },
+    {
+      "start": 1022.24,
+      "duration": 1.839,
+      "text": "well and directly with the customer on,",
+      "timestamp": "17:02"
+    },
+    {
+      "start": 1024.079,
+      "duration": 1.599,
+      "text": "hey, this is what our relationship looks",
+      "timestamp": "17:04"
+    },
+    {
+      "start": 1025.679,
+      "duration": 1.441,
+      "text": "like. this is what our top level and",
+      "timestamp": "17:05"
+    },
+    {
+      "start": 1027.12,
+      "duration": 1.76,
+      "text": "this is what we're trying to build. We",
+      "timestamp": "17:07"
+    },
+    {
+      "start": 1028.88,
+      "duration": 3.199,
+      "text": "provide the feature set to enable you to",
+      "timestamp": "17:08"
+    },
+    {
+      "start": 1032.079,
+      "duration": 2.24,
+      "text": "do this. But if there are things that go",
+      "timestamp": "17:12"
+    },
+    {
+      "start": 1034.319,
+      "duration": 1.201,
+      "text": "above and beyond with the scope of the",
+      "timestamp": "17:14"
+    },
+    {
+      "start": 1035.52,
+      "duration": 1.84,
+      "text": "privy product looks like that might end",
+      "timestamp": "17:15"
+    },
+    {
+      "start": 1037.36,
+      "duration": 1.438,
+      "text": "up being something that they have in",
+      "timestamp": "17:17"
+    },
+    {
+      "start": 1038.799,
+      "duration": 2.4,
+      "text": "their systems themselves.",
+      "timestamp": "17:18"
+    },
+    {
+      "start": 1041.199,
+      "duration": 3.321,
+      "text": "Great question.",
+      "timestamp": "17:21"
+    },
+    {
+      "start": 1050.16,
+      "duration": 3.48,
+      "text": "Any other questions?",
+      "timestamp": "17:30"
+    },
+    {
+      "start": 1053.679,
+      "duration": 2.121,
+      "text": "Thank you so much. Appreciate it.",
+      "timestamp": "17:33"
+    },
+    {
+      "start": 1055.8,
+      "duration": 3.17,
+      "text": "[Applause]",
+      "timestamp": "17:35"
+    }
+  ],
+  "extraction_timestamp": "2025-07-08T14:45:53.150659",
+  "playlist_title": "EthCC[8] Redford Stage"
+}

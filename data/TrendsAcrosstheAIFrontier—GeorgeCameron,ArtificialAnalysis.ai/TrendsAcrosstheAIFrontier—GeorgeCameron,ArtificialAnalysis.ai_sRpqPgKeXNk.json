@@ -1,0 +1,2207 @@
+{
+  "video_id": "sRpqPgKeXNk",
+  "video_title": "Trends Across the AI Frontier — George Cameron, ArtificialAnalysis.ai",
+  "video_url": "https://www.youtube.com/watch?v=sRpqPgKeXNk",
+  "channel_title": "Unknown",
+  "published_at": null,
+  "duration_seconds": null,
+  "view_count": null,
+  "like_count": null,
+  "description": "The entire AI stack is developing faster than ever - from chips to infrastructure to models. How do you sort the signal from the noise? Artificial Analysis an independent benchmarking and insights company dedicated to helping developers and companies pick the right models and technologies for building applications. This talk will walk through the state of the frontier across the AI stack.\n\nAbout George Cameron\nCPO of Artificial Analysis\n\nAbout Micah Hill-Smith\nI'm Micah, co-founder and CEO of Artificial Analysis - an independent AI benchmarking company. We help developers understand AI capabliites and make critical decisions about models and technologies. We publish extensive benchmarking results on our public website (including intelligence, performance, cost and more), and develop reports to inform key strategic decisions. I became obsessed with benchmarking AI models initially as an AI engineer building applications, and have previously spent time as a strategy consultant with McKinsey & Company.\n\nRecorded at the AI Engineer World's Fair in San Francisco. Stay up to date on our upcoming events and content by joining our newsletter here: https://www.ai.engineer/newsletter\n\nTimestamps\n[00:00] Introduction to Artificial Analysis: An overview of the company's work in benchmarking AI models across various modalities and metrics.\n\n[01:54] The State of AI Progress: A look at the rapid advancements in AI since the launch of ChatGPT, with a focus on the current leaders in AI intelligence.\n\n[04:06] The Reasoning Models Frontier: An exploration of the trade-offs between the enhanced intelligence of reasoning models and their increased latency and cost.\n\n[08:25] The Open Weights Frontier: A discussion on the closing intelligence gap between open-weights and proprietary models, with a nod to the significant contributions from China-based AI labs.\n\n[10:26] The Cost Frontier: An analysis of the dramatic decrease in the cost of accessing high-level AI intelligence and the implications for application development.\n\n[14:09] The Speed Frontier: A look at the remarkable increase in the output speed of AI models and the technological advancements driving this trend.\n\n[16:34] The Future of Compute Demand: A concluding perspective on why the demand for compute will likely continue to rise despite efficiency gains, driven by larger models, the quest for greater intelligence, and the rise of AI agents.",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 364,
+    "aggregated_text": "[Music] [Music] hi everyone I'm George co-founder of Artificial Analysis A quick background to who we are before we dive into things Do you see that i think my clicker is not working Click Oh there we go Great So a quick background to who we are We're a leading independent AI benchmarking company We benchmark a broad spectrum across AI So we benchmark models for their intelligence We benchmark API endpoints for their speed their cost We also benchmark uh hardware and all the AI accelerators out there Uh and we also benchmark a range of modalities not just language but also vision speech image generation video generation and we publish essentially nearly all of it uh for free on our website artificialanalysis.ai AI whereby we benchmark over 150 different models uh across a range of metrics We also publish reports many of which are publicly accessible and we also have uh a subscription for enterprises looking to uh enter uh or bring AI to production in their environments um in an efficient uh and effective way Let's start off with AI progress Let's set the scene So it's been a crazy two years I think that we've all felt it in this room whereby OpenAI uh kicked off the race uh with the chat GBT and GBD 3.5 launch And since then it's only gotten more hectic There's been more and more uh model releases by more and more labs pushing the AI frontier So the current state now of frontier AI intelligence I think this will be this order of models will be familiar to a lot in this room O3 is the leader but followed closely by 04 mini with reasoning mode high Deepseek R1 the release in the last week or two Rock 3 mini reasoning high Gemini 2.5 Pro Claude 4 opus thinking this benchmark is our artificial analysis intelligence index it's made up of a composite it's a composite index of seven evaluations which we then wait to develop our artificial analysis intelligence index which just provides a generalist perspective on the intelligence of these models We all have an understanding of what frontier AI intelligence is But what I want to explore with you today is that there's more than one frontier in AI There's trade-offs to accessing this intelligence You shouldn't always use the leading most intelligent model And so what we want to do is we want to explore the different frontiers out there And as an AI benchmarking company we're going to bring some numbers to the four to help you reason about this First we'll be looking at reasoning models Next we'll be looking at the open weights frontier Third the cost frontier And lastly the speed frontier There's other frontiers out there that we benchmark but we'll focus on these key ones today Starting with reasoning models what we've done here is we've taken our intelligence index and looked at that relative to the output tokens used to run the intelligence index So we've measured all of how many tokens each model took to run our seven evaluations and we've plotted it on this chart and you can see two distinct groups It's helpful to think about these separately So non-reasoning models which offer less intelligence but uh require fewer output tokens and reasoning models which use more output tokens but offer greater intelligence and the more this is important to look at because more output tokens comes with trade-offs both for request latency as well as cost We're going to bring some numbers to draw that out and look at the real differences here Starting with output tokens and the verbosity of these models just how yappy these reasoning models are We can see that there's an order of magnitude difference between reasoning and non-reasoning models It's not just that feeling oh this is taking a long time It's real It's an order of magnitude So between GPT 4.1 it uh it required 7 million tokens to run our intelligence index evaluations but then 04 mini high took 72 million tokens and the yappiest of them all Gemini 2.5 uh pro took 130 million tokens to run our intelligence index and as mentioned this has implications for cost as well as N10 latency responsiveness So looking at latency we benchmark the API latency of how long it takes to receive a response when accessing these models via their APIs Here we can see that GBD 4.1 on median across our requests took 4.7 seconds to return a full response 04 mini high took over 40 seconds roughly another 10x or order of magnitude increase This has implications for applications and users which require responsiveness even enterprise uh kind of chat bots You don't always reach for 03 in chat GPT and it and Facebook's done a lot of studies on this where they've looked at the for consumer apps where they've looked at uh user drop off by lat uh application latency which clearly demonstrate this Sorry do you mind if we jump back a slide and it also has uh implications for how we're building So I think particularly with agents whereby 30 uh queries in succession is not uncommon It has it's a multiplier effect on the latencies uh for your application and how you can build If you have faster responses maybe you can make that 30 uh 100 queries for instance And so putting numbers to that in terms of agents 30 is normal And so even less than than 04 mini maybe you're at 10 seconds for a reason model If you're running 30 queries that's 300 seconds that a user might be waiting for a response or an application might be waiting for a response That's 5 minutes If with the order of magnitudes that we're dealing with here if that 10 seconds was 1 second then those 30 queries takes 30 seconds 30 seconds versus 5 minutes impacts what you can build Think of a contact center uh application that might maybe 30 seconds is okay there but 5 minutes uh definitely not Who likes waiting on the phone uh that long or imaging numbers to these trade-offs is really important I'd encourage everybody to measure them Next we're going to move to the open weights Around the time of GPT4 there was a huge delta in terms of open weights intelligence proprietary intelligence Llama 65B or LMA 270B wasn't close to the intelligence of GPT4 What I'd like to show here is where we plot our intelligence index by release date is that that gap it closed until with with great models like mixture late time 7 and uh LM45B But 01 broke away in late 2024 But then of course I think we remember Deepseek released V3 I think December 26 ruined some of my Christmas holiday plans Had to tell my family I I need to go read this paper It's really exciting And then of course R1 in January The gap between open weights intelligence and proprietary model intelligence is less than it's ever been particularly with the recent R1 release in the last couple of weeks which is only a couple of points different in our intelligence index to the leading models You can't talk about open weights intelligence without talking about China The leading open weights models across both reasoning models and non-reasoning models are from China based AI labs Deepse seeks leading in both Alibaba with their Quen 3 series is leading is coming in second in reasoning But you also have other labs such as Meta uh and Nvidia with their Neotron fine tunes of Llama coming in close as well Let's look at the cost frontier This is really important and I think similar to re to uh end latency impacts what you can build So bringing some numbers here we can really see these order of magnitudes play out So 03 cost us $2,000 to run our intelligence index Techrunch actually wrote an article about how much money we were we were spending on running evals We we didn't want to read it You can see 4.1 a great model It's 30 times roughly cheaper in terms of the cost to run our intelligence index compared to 01 and 4.1 nano over 500 times cheaper to run our intelligence index than 03 You should think about these when building applications the kind of cost structure of your application might dictate what you can use here and how you use them Those 30 uh sequential uh API calls for your agentic application could be uh 500 and still be cheaper than an 03 query A key point to note here with this cost to run intelligence index and why we don't just look at the per token price is that and the labs maybe don't want you to think this way but you're paying for the cost per token but then you're also paying for how verbose the models are All the reasoning tokens that are output when these models are in their thinking mode you pay for those as output tokens even if some of the labs hide them And so you need to think about this and measure it in your application not and benchmark not just by the cost per million tokens but also considering how many reasoning tokens there are and how verbose these models are You can see even amongst the non-reasoning models there's big differences between how verbose these models are in responses So for instance ah we'll go to the next slide Do you mind if we go back one please so what we've done here is we have now we're now going to look at the trends in terms of cost And so what you can see here is we've bucketed models by how intelligent they are intelligence uh bands if you will And what we can see here is that accessing GPT4 level of intelligence has fallen over a 100 times since mid23 This is the case across all quality bands You can see that even when a new quality band a new frontier is reached 01 mini in late 24 quickly within only a few months the cost of accessing that level of intelligence h haveved this is moving quickly and so what I would say to you is when building applications think about what if cost wasn't a barrier when you're building it's a it's a very important kind of cost uh exercise because it might well that if you build for a cost structure that doesn't work now then maybe in 6 months time that will be uh possible and it will be uh feasible Next we're going to look at the speed frontier So this is how quickly you're receiving tokens the output speed output tokens per second that you're receiving after sending an A API request This has been increasing and has increased dramatically since early 23 as well So similarly we've because there's a trade-off typically between intelligence and speed we've grouped models into certain buckets And we can see here that they've all increased in terms of how quickly you can access a level of intelligence So 40 I believe was around 40 output tokens per second Now you can access that was in 2023 Who remembers hitting it wasn't a reasoning model hitting enter in chatbt and just waiting for it to output especially code which you want to just copy straight into your editor and you know hit run see if it works now you can access that level of intelligence at over 300 tokens per second that I'll go through it's not the focus of the talk but important to to reference model sparity so we're seeing more mixture of experts models and They activate only a proportion of uh parameters at inference time less compute per token which means it can go faster essentially and were around back then but they're getting more and more proportion next models are getting more uh intelligent particularly with distillations you know 8B distillations etc inference software optimizations like flash attention and speculative decoding and lastly hardware improvements So H100 was faster than A100 Now we've recently launched benchmarks of the B200 on our artificial analysis website and it's getting over a,000 output tokens a second Think about that relative to the 40 output tokens per second of GPT uh 4 in 23 There's also specialized uh accelerators like Cerebra Samova Grock I want to share a house view here to frame things Yes things are getting more efficient Yes the cost of accessing the same level of intelligence is decreasing and hardware is getting better We're getting more system output throughput on our on the chips But our view is that demand for compute is going to continue to increase We're going to see larger models I mean deepseek it's over 600 billion active uh sorry not active total parameters and the demand for more intelligence is insatiable Reasoning models as we saw the yappy models they require more compute at inference time And lastly agents whereby 20 30 100 plus uh sequential requests to models is not uncommon These actors multiplies on the demand for compute And so the house view playing with these numbers is net net We're going to continue to see commute compute demand increase Thanks everyone",
+    "text_length": 12451,
+    "word_count": 2248
+  },
+  "segments": [
+    {
+      "start": 1.03,
+      "duration": 6.97,
+      "text": "[Music]",
+      "timestamp": "00:01"
+    },
+    {
+      "start": 16.37,
+      "duration": 5.23,
+      "text": "[Music]",
+      "timestamp": "00:16"
+    },
+    {
+      "start": 21.6,
+      "duration": 3.12,
+      "text": "hi everyone I'm George co-founder of",
+      "timestamp": "00:21"
+    },
+    {
+      "start": 24.72,
+      "duration": 2.639,
+      "text": "Artificial Analysis A quick background",
+      "timestamp": "00:24"
+    },
+    {
+      "start": 27.359,
+      "duration": 4.16,
+      "text": "to who we are before we dive into things",
+      "timestamp": "00:27"
+    },
+    {
+      "start": 32.399,
+      "duration": 3.401,
+      "text": "Do you see that",
+      "timestamp": "00:32"
+    },
+    {
+      "start": 36.88,
+      "duration": 3.679,
+      "text": "i think my clicker is not working",
+      "timestamp": "00:36"
+    },
+    {
+      "start": 40.559,
+      "duration": 3.0,
+      "text": "Click",
+      "timestamp": "00:40"
+    },
+    {
+      "start": 45.52,
+      "duration": 2.24,
+      "text": "Oh there we go Great So a quick",
+      "timestamp": "00:45"
+    },
+    {
+      "start": 47.76,
+      "duration": 2.08,
+      "text": "background to who we are We're a leading",
+      "timestamp": "00:47"
+    },
+    {
+      "start": 49.84,
+      "duration": 2.879,
+      "text": "independent AI benchmarking company We",
+      "timestamp": "00:49"
+    },
+    {
+      "start": 52.719,
+      "duration": 3.121,
+      "text": "benchmark a broad spectrum across AI So",
+      "timestamp": "00:52"
+    },
+    {
+      "start": 55.84,
+      "duration": 1.44,
+      "text": "we benchmark models for their",
+      "timestamp": "00:55"
+    },
+    {
+      "start": 57.28,
+      "duration": 3.119,
+      "text": "intelligence We benchmark API endpoints",
+      "timestamp": "00:57"
+    },
+    {
+      "start": 60.399,
+      "duration": 2.561,
+      "text": "for their speed their cost We also",
+      "timestamp": "01:00"
+    },
+    {
+      "start": 62.96,
+      "duration": 2.96,
+      "text": "benchmark uh hardware and all the AI",
+      "timestamp": "01:02"
+    },
+    {
+      "start": 65.92,
+      "duration": 2.559,
+      "text": "accelerators out there Uh and we also",
+      "timestamp": "01:05"
+    },
+    {
+      "start": 68.479,
+      "duration": 2.161,
+      "text": "benchmark a range of modalities not just",
+      "timestamp": "01:08"
+    },
+    {
+      "start": 70.64,
+      "duration": 4.0,
+      "text": "language but also vision speech image",
+      "timestamp": "01:10"
+    },
+    {
+      "start": 74.64,
+      "duration": 3.28,
+      "text": "generation video generation and we",
+      "timestamp": "01:14"
+    },
+    {
+      "start": 77.92,
+      "duration": 2.96,
+      "text": "publish essentially nearly all of it uh",
+      "timestamp": "01:17"
+    },
+    {
+      "start": 80.88,
+      "duration": 1.44,
+      "text": "for free on our website",
+      "timestamp": "01:20"
+    },
+    {
+      "start": 82.32,
+      "duration": 1.839,
+      "text": "artificialanalysis.ai",
+      "timestamp": "01:22"
+    },
+    {
+      "start": 84.159,
+      "duration": 3.6,
+      "text": "AI whereby we benchmark over 150",
+      "timestamp": "01:24"
+    },
+    {
+      "start": 87.759,
+      "duration": 3.201,
+      "text": "different models uh across a range of",
+      "timestamp": "01:27"
+    },
+    {
+      "start": 90.96,
+      "duration": 3.36,
+      "text": "metrics We also publish reports many of",
+      "timestamp": "01:30"
+    },
+    {
+      "start": 94.32,
+      "duration": 2.88,
+      "text": "which are publicly accessible and we",
+      "timestamp": "01:34"
+    },
+    {
+      "start": 97.2,
+      "duration": 2.559,
+      "text": "also have uh a subscription for",
+      "timestamp": "01:37"
+    },
+    {
+      "start": 99.759,
+      "duration": 5.121,
+      "text": "enterprises looking to uh enter uh or",
+      "timestamp": "01:39"
+    },
+    {
+      "start": 104.88,
+      "duration": 2.08,
+      "text": "bring AI to production in their",
+      "timestamp": "01:44"
+    },
+    {
+      "start": 106.96,
+      "duration": 3.119,
+      "text": "environments um in an efficient uh and",
+      "timestamp": "01:46"
+    },
+    {
+      "start": 110.079,
+      "duration": 3.4,
+      "text": "effective way",
+      "timestamp": "01:50"
+    },
+    {
+      "start": 114.64,
+      "duration": 3.04,
+      "text": "Let's start off with AI progress Let's",
+      "timestamp": "01:54"
+    },
+    {
+      "start": 117.68,
+      "duration": 2.64,
+      "text": "set the scene So it's been a crazy two",
+      "timestamp": "01:57"
+    },
+    {
+      "start": 120.32,
+      "duration": 2.88,
+      "text": "years I think that we've all felt it in",
+      "timestamp": "02:00"
+    },
+    {
+      "start": 123.2,
+      "duration": 4.72,
+      "text": "this room whereby OpenAI uh kicked off",
+      "timestamp": "02:03"
+    },
+    {
+      "start": 127.92,
+      "duration": 3.2,
+      "text": "the race uh with the chat GBT and GBD",
+      "timestamp": "02:07"
+    },
+    {
+      "start": 131.12,
+      "duration": 3.92,
+      "text": "3.5 launch And since then it's only",
+      "timestamp": "02:11"
+    },
+    {
+      "start": 135.04,
+      "duration": 2.32,
+      "text": "gotten more hectic There's been more and",
+      "timestamp": "02:15"
+    },
+    {
+      "start": 137.36,
+      "duration": 3.12,
+      "text": "more uh model releases by more and more",
+      "timestamp": "02:17"
+    },
+    {
+      "start": 140.48,
+      "duration": 4.92,
+      "text": "labs pushing the AI frontier",
+      "timestamp": "02:20"
+    },
+    {
+      "start": 146.08,
+      "duration": 2.64,
+      "text": "So the current state now of frontier AI",
+      "timestamp": "02:26"
+    },
+    {
+      "start": 148.72,
+      "duration": 2.4,
+      "text": "intelligence I think this will be this",
+      "timestamp": "02:28"
+    },
+    {
+      "start": 151.12,
+      "duration": 1.759,
+      "text": "order of models will be familiar to a",
+      "timestamp": "02:31"
+    },
+    {
+      "start": 152.879,
+      "duration": 3.36,
+      "text": "lot in this room O3 is the leader but",
+      "timestamp": "02:32"
+    },
+    {
+      "start": 156.239,
+      "duration": 2.72,
+      "text": "followed closely by 04 mini with",
+      "timestamp": "02:36"
+    },
+    {
+      "start": 158.959,
+      "duration": 3.121,
+      "text": "reasoning mode high Deepseek R1 the",
+      "timestamp": "02:38"
+    },
+    {
+      "start": 162.08,
+      "duration": 3.92,
+      "text": "release in the last week or two Rock 3",
+      "timestamp": "02:42"
+    },
+    {
+      "start": 166.0,
+      "duration": 4.319,
+      "text": "mini reasoning high Gemini 2.5 Pro",
+      "timestamp": "02:46"
+    },
+    {
+      "start": 170.319,
+      "duration": 3.681,
+      "text": "Claude 4 opus thinking",
+      "timestamp": "02:50"
+    },
+    {
+      "start": 174.0,
+      "duration": 2.0,
+      "text": "this benchmark is our artificial",
+      "timestamp": "02:54"
+    },
+    {
+      "start": 176.0,
+      "duration": 2.8,
+      "text": "analysis intelligence index it's made up",
+      "timestamp": "02:56"
+    },
+    {
+      "start": 178.8,
+      "duration": 2.96,
+      "text": "of a composite it's a composite index of",
+      "timestamp": "02:58"
+    },
+    {
+      "start": 181.76,
+      "duration": 2.88,
+      "text": "seven evaluations",
+      "timestamp": "03:01"
+    },
+    {
+      "start": 184.64,
+      "duration": 2.48,
+      "text": "which we then wait to develop our",
+      "timestamp": "03:04"
+    },
+    {
+      "start": 187.12,
+      "duration": 2.399,
+      "text": "artificial analysis intelligence index",
+      "timestamp": "03:07"
+    },
+    {
+      "start": 189.519,
+      "duration": 1.681,
+      "text": "which just provides a generalist",
+      "timestamp": "03:09"
+    },
+    {
+      "start": 191.2,
+      "duration": 2.399,
+      "text": "perspective on the intelligence of these",
+      "timestamp": "03:11"
+    },
+    {
+      "start": 193.599,
+      "duration": 2.241,
+      "text": "models",
+      "timestamp": "03:13"
+    },
+    {
+      "start": 197.12,
+      "duration": 1.759,
+      "text": "We all have an understanding of what",
+      "timestamp": "03:17"
+    },
+    {
+      "start": 198.879,
+      "duration": 3.921,
+      "text": "frontier AI intelligence is But what I",
+      "timestamp": "03:18"
+    },
+    {
+      "start": 202.8,
+      "duration": 1.84,
+      "text": "want to explore with you today is that",
+      "timestamp": "03:22"
+    },
+    {
+      "start": 204.64,
+      "duration": 3.519,
+      "text": "there's more than one frontier in AI",
+      "timestamp": "03:24"
+    },
+    {
+      "start": 208.159,
+      "duration": 2.08,
+      "text": "There's trade-offs to accessing this",
+      "timestamp": "03:28"
+    },
+    {
+      "start": 210.239,
+      "duration": 2.241,
+      "text": "intelligence You shouldn't always use",
+      "timestamp": "03:30"
+    },
+    {
+      "start": 212.48,
+      "duration": 2.8,
+      "text": "the leading most intelligent model And",
+      "timestamp": "03:32"
+    },
+    {
+      "start": 215.28,
+      "duration": 1.519,
+      "text": "so what we want to do is we want to",
+      "timestamp": "03:35"
+    },
+    {
+      "start": 216.799,
+      "duration": 1.921,
+      "text": "explore the different frontiers out",
+      "timestamp": "03:36"
+    },
+    {
+      "start": 218.72,
+      "duration": 3.04,
+      "text": "there And as an AI benchmarking company",
+      "timestamp": "03:38"
+    },
+    {
+      "start": 221.76,
+      "duration": 1.36,
+      "text": "we're going to bring some numbers to the",
+      "timestamp": "03:41"
+    },
+    {
+      "start": 223.12,
+      "duration": 3.679,
+      "text": "four to help you reason about this First",
+      "timestamp": "03:43"
+    },
+    {
+      "start": 226.799,
+      "duration": 2.321,
+      "text": "we'll be looking at reasoning models",
+      "timestamp": "03:46"
+    },
+    {
+      "start": 229.12,
+      "duration": 1.36,
+      "text": "Next we'll be looking at the open",
+      "timestamp": "03:49"
+    },
+    {
+      "start": 230.48,
+      "duration": 3.839,
+      "text": "weights frontier Third the cost frontier",
+      "timestamp": "03:50"
+    },
+    {
+      "start": 234.319,
+      "duration": 2.721,
+      "text": "And lastly the speed frontier There's",
+      "timestamp": "03:54"
+    },
+    {
+      "start": 237.04,
+      "duration": 2.479,
+      "text": "other frontiers out there that we",
+      "timestamp": "03:57"
+    },
+    {
+      "start": 239.519,
+      "duration": 2.08,
+      "text": "benchmark but we'll focus on these key",
+      "timestamp": "03:59"
+    },
+    {
+      "start": 241.599,
+      "duration": 3.321,
+      "text": "ones today",
+      "timestamp": "04:01"
+    },
+    {
+      "start": 246.56,
+      "duration": 2.239,
+      "text": "Starting with reasoning models what",
+      "timestamp": "04:06"
+    },
+    {
+      "start": 248.799,
+      "duration": 2.64,
+      "text": "we've done here is we've taken our",
+      "timestamp": "04:08"
+    },
+    {
+      "start": 251.439,
+      "duration": 2.561,
+      "text": "intelligence index and looked at that",
+      "timestamp": "04:11"
+    },
+    {
+      "start": 254.0,
+      "duration": 2.88,
+      "text": "relative to the output tokens used to",
+      "timestamp": "04:14"
+    },
+    {
+      "start": 256.88,
+      "duration": 2.4,
+      "text": "run the intelligence index So we've",
+      "timestamp": "04:16"
+    },
+    {
+      "start": 259.28,
+      "duration": 2.32,
+      "text": "measured all of how many tokens each",
+      "timestamp": "04:19"
+    },
+    {
+      "start": 261.6,
+      "duration": 3.599,
+      "text": "model took to run our seven evaluations",
+      "timestamp": "04:21"
+    },
+    {
+      "start": 265.199,
+      "duration": 2.081,
+      "text": "and we've plotted it on this chart and",
+      "timestamp": "04:25"
+    },
+    {
+      "start": 267.28,
+      "duration": 2.24,
+      "text": "you can see two distinct groups It's",
+      "timestamp": "04:27"
+    },
+    {
+      "start": 269.52,
+      "duration": 2.48,
+      "text": "helpful to think about these separately",
+      "timestamp": "04:29"
+    },
+    {
+      "start": 272.0,
+      "duration": 3.44,
+      "text": "So non-reasoning models which offer less",
+      "timestamp": "04:32"
+    },
+    {
+      "start": 275.44,
+      "duration": 3.199,
+      "text": "intelligence but uh require fewer output",
+      "timestamp": "04:35"
+    },
+    {
+      "start": 278.639,
+      "duration": 1.681,
+      "text": "tokens",
+      "timestamp": "04:38"
+    },
+    {
+      "start": 280.32,
+      "duration": 1.439,
+      "text": "and reasoning models which use more",
+      "timestamp": "04:40"
+    },
+    {
+      "start": 281.759,
+      "duration": 1.601,
+      "text": "output tokens but offer greater",
+      "timestamp": "04:41"
+    },
+    {
+      "start": 283.36,
+      "duration": 2.48,
+      "text": "intelligence",
+      "timestamp": "04:43"
+    },
+    {
+      "start": 285.84,
+      "duration": 2.0,
+      "text": "and the more this is important to look",
+      "timestamp": "04:45"
+    },
+    {
+      "start": 287.84,
+      "duration": 2.4,
+      "text": "at because more output tokens comes with",
+      "timestamp": "04:47"
+    },
+    {
+      "start": 290.24,
+      "duration": 3.04,
+      "text": "trade-offs both for request latency as",
+      "timestamp": "04:50"
+    },
+    {
+      "start": 293.28,
+      "duration": 2.0,
+      "text": "well as cost We're going to bring some",
+      "timestamp": "04:53"
+    },
+    {
+      "start": 295.28,
+      "duration": 2.32,
+      "text": "numbers to draw that out and look at the",
+      "timestamp": "04:55"
+    },
+    {
+      "start": 297.6,
+      "duration": 3.44,
+      "text": "real differences here",
+      "timestamp": "04:57"
+    },
+    {
+      "start": 301.04,
+      "duration": 4.08,
+      "text": "Starting with output tokens and the",
+      "timestamp": "05:01"
+    },
+    {
+      "start": 305.12,
+      "duration": 2.88,
+      "text": "verbosity of these models just how yappy",
+      "timestamp": "05:05"
+    },
+    {
+      "start": 308.0,
+      "duration": 2.88,
+      "text": "these reasoning models are We can see",
+      "timestamp": "05:08"
+    },
+    {
+      "start": 310.88,
+      "duration": 2.24,
+      "text": "that there's an order of magnitude",
+      "timestamp": "05:10"
+    },
+    {
+      "start": 313.12,
+      "duration": 1.76,
+      "text": "difference between reasoning and",
+      "timestamp": "05:13"
+    },
+    {
+      "start": 314.88,
+      "duration": 3.36,
+      "text": "non-reasoning models It's not just that",
+      "timestamp": "05:14"
+    },
+    {
+      "start": 318.24,
+      "duration": 2.16,
+      "text": "feeling oh this is taking a long time",
+      "timestamp": "05:18"
+    },
+    {
+      "start": 320.4,
+      "duration": 2.0,
+      "text": "It's real It's an order of magnitude So",
+      "timestamp": "05:20"
+    },
+    {
+      "start": 322.4,
+      "duration": 4.48,
+      "text": "between GPT 4.1 it uh it required 7",
+      "timestamp": "05:22"
+    },
+    {
+      "start": 326.88,
+      "duration": 2.8,
+      "text": "million tokens to run our intelligence",
+      "timestamp": "05:26"
+    },
+    {
+      "start": 329.68,
+      "duration": 3.28,
+      "text": "index evaluations but then 04 mini high",
+      "timestamp": "05:29"
+    },
+    {
+      "start": 332.96,
+      "duration": 2.799,
+      "text": "took 72 million tokens and the yappiest",
+      "timestamp": "05:32"
+    },
+    {
+      "start": 335.759,
+      "duration": 4.561,
+      "text": "of them all Gemini 2.5 uh pro took 130",
+      "timestamp": "05:35"
+    },
+    {
+      "start": 340.32,
+      "duration": 2.08,
+      "text": "million tokens to run our intelligence",
+      "timestamp": "05:40"
+    },
+    {
+      "start": 342.4,
+      "duration": 1.6,
+      "text": "index",
+      "timestamp": "05:42"
+    },
+    {
+      "start": 344.0,
+      "duration": 1.6,
+      "text": "and as mentioned this has implications",
+      "timestamp": "05:44"
+    },
+    {
+      "start": 345.6,
+      "duration": 2.56,
+      "text": "for cost as well as N10 latency",
+      "timestamp": "05:45"
+    },
+    {
+      "start": 348.16,
+      "duration": 2.479,
+      "text": "responsiveness",
+      "timestamp": "05:48"
+    },
+    {
+      "start": 352.88,
+      "duration": 2.72,
+      "text": "So looking at latency we benchmark the",
+      "timestamp": "05:52"
+    },
+    {
+      "start": 355.6,
+      "duration": 2.96,
+      "text": "API latency of how long it takes to",
+      "timestamp": "05:55"
+    },
+    {
+      "start": 358.56,
+      "duration": 2.88,
+      "text": "receive a response when accessing these",
+      "timestamp": "05:58"
+    },
+    {
+      "start": 361.44,
+      "duration": 2.479,
+      "text": "models via their APIs",
+      "timestamp": "06:01"
+    },
+    {
+      "start": 363.919,
+      "duration": 3.761,
+      "text": "Here we can see that GBD 4.1 on median",
+      "timestamp": "06:03"
+    },
+    {
+      "start": 367.68,
+      "duration": 3.28,
+      "text": "across our requests took 4.7 seconds to",
+      "timestamp": "06:07"
+    },
+    {
+      "start": 370.96,
+      "duration": 2.4,
+      "text": "return a full response",
+      "timestamp": "06:10"
+    },
+    {
+      "start": 373.36,
+      "duration": 4.0,
+      "text": "04 mini high took over 40 seconds",
+      "timestamp": "06:13"
+    },
+    {
+      "start": 377.36,
+      "duration": 2.64,
+      "text": "roughly another 10x or order of",
+      "timestamp": "06:17"
+    },
+    {
+      "start": 380.0,
+      "duration": 3.28,
+      "text": "magnitude increase This has implications",
+      "timestamp": "06:20"
+    },
+    {
+      "start": 383.28,
+      "duration": 3.919,
+      "text": "for applications and users which require",
+      "timestamp": "06:23"
+    },
+    {
+      "start": 387.199,
+      "duration": 3.44,
+      "text": "responsiveness even enterprise uh kind",
+      "timestamp": "06:27"
+    },
+    {
+      "start": 390.639,
+      "duration": 2.161,
+      "text": "of chat bots You don't always reach for",
+      "timestamp": "06:30"
+    },
+    {
+      "start": 392.8,
+      "duration": 3.44,
+      "text": "03 in chat GPT",
+      "timestamp": "06:32"
+    },
+    {
+      "start": 396.24,
+      "duration": 2.32,
+      "text": "and it and Facebook's done a lot of",
+      "timestamp": "06:36"
+    },
+    {
+      "start": 398.56,
+      "duration": 1.68,
+      "text": "studies on this where they've looked at",
+      "timestamp": "06:38"
+    },
+    {
+      "start": 400.24,
+      "duration": 1.84,
+      "text": "the for consumer apps where they've",
+      "timestamp": "06:40"
+    },
+    {
+      "start": 402.08,
+      "duration": 3.92,
+      "text": "looked at uh user drop off by lat uh",
+      "timestamp": "06:42"
+    },
+    {
+      "start": 406.0,
+      "duration": 2.08,
+      "text": "application latency which clearly",
+      "timestamp": "06:46"
+    },
+    {
+      "start": 408.08,
+      "duration": 2.64,
+      "text": "demonstrate this Sorry do you mind if we",
+      "timestamp": "06:48"
+    },
+    {
+      "start": 410.72,
+      "duration": 3.56,
+      "text": "jump back a slide",
+      "timestamp": "06:50"
+    },
+    {
+      "start": 417.36,
+      "duration": 3.839,
+      "text": "and it also has uh implications for how",
+      "timestamp": "06:57"
+    },
+    {
+      "start": 421.199,
+      "duration": 1.84,
+      "text": "we're building So I think particularly",
+      "timestamp": "07:01"
+    },
+    {
+      "start": 423.039,
+      "duration": 4.56,
+      "text": "with agents whereby 30 uh queries in",
+      "timestamp": "07:03"
+    },
+    {
+      "start": 427.599,
+      "duration": 2.88,
+      "text": "succession is not uncommon",
+      "timestamp": "07:07"
+    },
+    {
+      "start": 430.479,
+      "duration": 3.28,
+      "text": "It has it's a multiplier effect on the",
+      "timestamp": "07:10"
+    },
+    {
+      "start": 433.759,
+      "duration": 2.401,
+      "text": "latencies uh for your application and",
+      "timestamp": "07:13"
+    },
+    {
+      "start": 436.16,
+      "duration": 1.84,
+      "text": "how you can build If you have faster",
+      "timestamp": "07:16"
+    },
+    {
+      "start": 438.0,
+      "duration": 2.639,
+      "text": "responses maybe you can make that 30 uh",
+      "timestamp": "07:18"
+    },
+    {
+      "start": 440.639,
+      "duration": 3.12,
+      "text": "100 queries for instance And so putting",
+      "timestamp": "07:20"
+    },
+    {
+      "start": 443.759,
+      "duration": 3.041,
+      "text": "numbers to that in terms of agents 30 is",
+      "timestamp": "07:23"
+    },
+    {
+      "start": 446.8,
+      "duration": 3.2,
+      "text": "normal And so even less than than 04",
+      "timestamp": "07:26"
+    },
+    {
+      "start": 450.0,
+      "duration": 2.16,
+      "text": "mini maybe you're at 10 seconds for a",
+      "timestamp": "07:30"
+    },
+    {
+      "start": 452.16,
+      "duration": 1.759,
+      "text": "reason model If you're running 30",
+      "timestamp": "07:32"
+    },
+    {
+      "start": 453.919,
+      "duration": 3.201,
+      "text": "queries that's 300 seconds that a user",
+      "timestamp": "07:33"
+    },
+    {
+      "start": 457.12,
+      "duration": 1.76,
+      "text": "might be waiting for a response or an",
+      "timestamp": "07:37"
+    },
+    {
+      "start": 458.88,
+      "duration": 1.52,
+      "text": "application might be waiting for a",
+      "timestamp": "07:38"
+    },
+    {
+      "start": 460.4,
+      "duration": 3.199,
+      "text": "response That's 5 minutes",
+      "timestamp": "07:40"
+    },
+    {
+      "start": 463.599,
+      "duration": 1.921,
+      "text": "If with the order of magnitudes that",
+      "timestamp": "07:43"
+    },
+    {
+      "start": 465.52,
+      "duration": 1.519,
+      "text": "we're dealing with here if that 10",
+      "timestamp": "07:45"
+    },
+    {
+      "start": 467.039,
+      "duration": 2.16,
+      "text": "seconds was 1 second then those 30",
+      "timestamp": "07:47"
+    },
+    {
+      "start": 469.199,
+      "duration": 3.201,
+      "text": "queries takes 30 seconds 30 seconds",
+      "timestamp": "07:49"
+    },
+    {
+      "start": 472.4,
+      "duration": 2.96,
+      "text": "versus 5 minutes impacts what you can",
+      "timestamp": "07:52"
+    },
+    {
+      "start": 475.36,
+      "duration": 2.72,
+      "text": "build Think of a contact center uh",
+      "timestamp": "07:55"
+    },
+    {
+      "start": 478.08,
+      "duration": 2.16,
+      "text": "application that might maybe 30 seconds",
+      "timestamp": "07:58"
+    },
+    {
+      "start": 480.24,
+      "duration": 2.0,
+      "text": "is okay there but 5 minutes uh",
+      "timestamp": "08:00"
+    },
+    {
+      "start": 482.24,
+      "duration": 1.44,
+      "text": "definitely not Who likes waiting on the",
+      "timestamp": "08:02"
+    },
+    {
+      "start": 483.68,
+      "duration": 5.32,
+      "text": "phone uh that long or imaging",
+      "timestamp": "08:03"
+    },
+    {
+      "start": 496.24,
+      "duration": 2.16,
+      "text": "numbers to these trade-offs is really",
+      "timestamp": "08:16"
+    },
+    {
+      "start": 498.4,
+      "duration": 2.56,
+      "text": "important I'd encourage everybody to",
+      "timestamp": "08:18"
+    },
+    {
+      "start": 500.96,
+      "duration": 3.4,
+      "text": "measure them",
+      "timestamp": "08:20"
+    },
+    {
+      "start": 505.12,
+      "duration": 1.44,
+      "text": "Next we're going to move to the open",
+      "timestamp": "08:25"
+    },
+    {
+      "start": 506.56,
+      "duration": 3.0,
+      "text": "weights",
+      "timestamp": "08:26"
+    },
+    {
+      "start": 509.919,
+      "duration": 2.48,
+      "text": "Around the time of GPT4 there was a huge",
+      "timestamp": "08:29"
+    },
+    {
+      "start": 512.399,
+      "duration": 3.52,
+      "text": "delta in terms of open weights",
+      "timestamp": "08:32"
+    },
+    {
+      "start": 515.919,
+      "duration": 1.761,
+      "text": "intelligence",
+      "timestamp": "08:35"
+    },
+    {
+      "start": 517.68,
+      "duration": 2.479,
+      "text": "proprietary intelligence",
+      "timestamp": "08:37"
+    },
+    {
+      "start": 520.159,
+      "duration": 3.601,
+      "text": "Llama 65B or LMA 270B wasn't close to",
+      "timestamp": "08:40"
+    },
+    {
+      "start": 523.76,
+      "duration": 2.56,
+      "text": "the intelligence of GPT4",
+      "timestamp": "08:43"
+    },
+    {
+      "start": 526.32,
+      "duration": 2.639,
+      "text": "What I'd like to show here is where we",
+      "timestamp": "08:46"
+    },
+    {
+      "start": 528.959,
+      "duration": 2.401,
+      "text": "plot our intelligence index by release",
+      "timestamp": "08:48"
+    },
+    {
+      "start": 531.36,
+      "duration": 4.159,
+      "text": "date is that that gap it closed",
+      "timestamp": "08:51"
+    },
+    {
+      "start": 535.519,
+      "duration": 2.0,
+      "text": "until with with great models like",
+      "timestamp": "08:55"
+    },
+    {
+      "start": 537.519,
+      "duration": 4.961,
+      "text": "mixture late time 7 and uh LM45B",
+      "timestamp": "08:57"
+    },
+    {
+      "start": 542.48,
+      "duration": 6.28,
+      "text": "But 01 broke away in late 2024",
+      "timestamp": "09:02"
+    },
+    {
+      "start": 549.44,
+      "duration": 2.959,
+      "text": "But then of course I think we remember",
+      "timestamp": "09:09"
+    },
+    {
+      "start": 552.399,
+      "duration": 4.481,
+      "text": "Deepseek released V3 I think December 26",
+      "timestamp": "09:12"
+    },
+    {
+      "start": 556.88,
+      "duration": 1.68,
+      "text": "ruined some of my Christmas holiday",
+      "timestamp": "09:16"
+    },
+    {
+      "start": 558.56,
+      "duration": 1.76,
+      "text": "plans",
+      "timestamp": "09:18"
+    },
+    {
+      "start": 560.32,
+      "duration": 1.76,
+      "text": "Had to tell my family I I need to go",
+      "timestamp": "09:20"
+    },
+    {
+      "start": 562.08,
+      "duration": 4.12,
+      "text": "read this paper It's really exciting",
+      "timestamp": "09:22"
+    },
+    {
+      "start": 566.24,
+      "duration": 3.84,
+      "text": "And then of course R1 in January The gap",
+      "timestamp": "09:26"
+    },
+    {
+      "start": 570.08,
+      "duration": 2.24,
+      "text": "between open weights intelligence and",
+      "timestamp": "09:30"
+    },
+    {
+      "start": 572.32,
+      "duration": 3.44,
+      "text": "proprietary model intelligence",
+      "timestamp": "09:32"
+    },
+    {
+      "start": 575.76,
+      "duration": 2.639,
+      "text": "is less than it's ever been particularly",
+      "timestamp": "09:35"
+    },
+    {
+      "start": 578.399,
+      "duration": 2.321,
+      "text": "with the recent R1 release in the last",
+      "timestamp": "09:38"
+    },
+    {
+      "start": 580.72,
+      "duration": 2.0,
+      "text": "couple of weeks which is only a couple",
+      "timestamp": "09:40"
+    },
+    {
+      "start": 582.72,
+      "duration": 3.04,
+      "text": "of points different in our intelligence",
+      "timestamp": "09:42"
+    },
+    {
+      "start": 585.76,
+      "duration": 3.28,
+      "text": "index to the leading models",
+      "timestamp": "09:45"
+    },
+    {
+      "start": 589.04,
+      "duration": 2.799,
+      "text": "You can't talk about open weights",
+      "timestamp": "09:49"
+    },
+    {
+      "start": 591.839,
+      "duration": 2.641,
+      "text": "intelligence without talking about China",
+      "timestamp": "09:51"
+    },
+    {
+      "start": 594.48,
+      "duration": 2.24,
+      "text": "The leading open weights models across",
+      "timestamp": "09:54"
+    },
+    {
+      "start": 596.72,
+      "duration": 2.96,
+      "text": "both reasoning models and non-reasoning",
+      "timestamp": "09:56"
+    },
+    {
+      "start": 599.68,
+      "duration": 3.839,
+      "text": "models are from China based AI labs",
+      "timestamp": "09:59"
+    },
+    {
+      "start": 603.519,
+      "duration": 3.521,
+      "text": "Deepse seeks leading in both Alibaba",
+      "timestamp": "10:03"
+    },
+    {
+      "start": 607.04,
+      "duration": 2.56,
+      "text": "with their Quen 3 series is leading is",
+      "timestamp": "10:07"
+    },
+    {
+      "start": 609.6,
+      "duration": 3.84,
+      "text": "coming in second in reasoning",
+      "timestamp": "10:09"
+    },
+    {
+      "start": 613.44,
+      "duration": 1.76,
+      "text": "But you also have other labs such as",
+      "timestamp": "10:13"
+    },
+    {
+      "start": 615.2,
+      "duration": 3.92,
+      "text": "Meta uh and Nvidia with their Neotron",
+      "timestamp": "10:15"
+    },
+    {
+      "start": 619.12,
+      "duration": 3.279,
+      "text": "fine tunes of Llama coming in close as",
+      "timestamp": "10:19"
+    },
+    {
+      "start": 622.399,
+      "duration": 2.801,
+      "text": "well",
+      "timestamp": "10:22"
+    },
+    {
+      "start": 626.32,
+      "duration": 2.16,
+      "text": "Let's look at the cost frontier This is",
+      "timestamp": "10:26"
+    },
+    {
+      "start": 628.48,
+      "duration": 1.76,
+      "text": "really important and I think similar to",
+      "timestamp": "10:28"
+    },
+    {
+      "start": 630.24,
+      "duration": 3.279,
+      "text": "re to uh end latency impacts what you",
+      "timestamp": "10:30"
+    },
+    {
+      "start": 633.519,
+      "duration": 2.481,
+      "text": "can build So bringing some numbers here",
+      "timestamp": "10:33"
+    },
+    {
+      "start": 636.0,
+      "duration": 1.68,
+      "text": "we can really see these order of",
+      "timestamp": "10:36"
+    },
+    {
+      "start": 637.68,
+      "duration": 2.48,
+      "text": "magnitudes play out",
+      "timestamp": "10:37"
+    },
+    {
+      "start": 640.16,
+      "duration": 4.0,
+      "text": "So 03 cost us $2,000 to run our",
+      "timestamp": "10:40"
+    },
+    {
+      "start": 644.16,
+      "duration": 2.48,
+      "text": "intelligence index Techrunch actually",
+      "timestamp": "10:44"
+    },
+    {
+      "start": 646.64,
+      "duration": 2.0,
+      "text": "wrote an article about how much money we",
+      "timestamp": "10:46"
+    },
+    {
+      "start": 648.64,
+      "duration": 4.0,
+      "text": "were we were spending on running evals",
+      "timestamp": "10:48"
+    },
+    {
+      "start": 652.64,
+      "duration": 4.04,
+      "text": "We we didn't want to read it",
+      "timestamp": "10:52"
+    },
+    {
+      "start": 656.959,
+      "duration": 4.56,
+      "text": "You can see 4.1 a great model It's 30",
+      "timestamp": "10:56"
+    },
+    {
+      "start": 661.519,
+      "duration": 3.681,
+      "text": "times roughly cheaper in terms of the",
+      "timestamp": "11:01"
+    },
+    {
+      "start": 665.2,
+      "duration": 1.52,
+      "text": "cost to run our intelligence index",
+      "timestamp": "11:05"
+    },
+    {
+      "start": 666.72,
+      "duration": 4.4,
+      "text": "compared to 01 and 4.1 nano over 500",
+      "timestamp": "11:06"
+    },
+    {
+      "start": 671.12,
+      "duration": 2.399,
+      "text": "times cheaper to run our intelligence",
+      "timestamp": "11:11"
+    },
+    {
+      "start": 673.519,
+      "duration": 2.88,
+      "text": "index than 03",
+      "timestamp": "11:13"
+    },
+    {
+      "start": 676.399,
+      "duration": 1.601,
+      "text": "You should think about these when",
+      "timestamp": "11:16"
+    },
+    {
+      "start": 678.0,
+      "duration": 2.88,
+      "text": "building applications the kind of cost",
+      "timestamp": "11:18"
+    },
+    {
+      "start": 680.88,
+      "duration": 1.68,
+      "text": "structure of your application might",
+      "timestamp": "11:20"
+    },
+    {
+      "start": 682.56,
+      "duration": 3.2,
+      "text": "dictate what you can use here",
+      "timestamp": "11:22"
+    },
+    {
+      "start": 685.76,
+      "duration": 3.199,
+      "text": "and how you use them Those 30 uh",
+      "timestamp": "11:25"
+    },
+    {
+      "start": 688.959,
+      "duration": 3.12,
+      "text": "sequential uh API calls for your agentic",
+      "timestamp": "11:28"
+    },
+    {
+      "start": 692.079,
+      "duration": 3.121,
+      "text": "application could be uh 500 and still be",
+      "timestamp": "11:32"
+    },
+    {
+      "start": 695.2,
+      "duration": 5.8,
+      "text": "cheaper than an 03 query",
+      "timestamp": "11:35"
+    },
+    {
+      "start": 701.92,
+      "duration": 2.24,
+      "text": "A key point to note here with this cost",
+      "timestamp": "11:41"
+    },
+    {
+      "start": 704.16,
+      "duration": 1.84,
+      "text": "to run intelligence index and why we",
+      "timestamp": "11:44"
+    },
+    {
+      "start": 706.0,
+      "duration": 2.24,
+      "text": "don't just look at the per token price",
+      "timestamp": "11:46"
+    },
+    {
+      "start": 708.24,
+      "duration": 3.2,
+      "text": "is that and the labs maybe don't want",
+      "timestamp": "11:48"
+    },
+    {
+      "start": 711.44,
+      "duration": 2.8,
+      "text": "you to think this way but you're paying",
+      "timestamp": "11:51"
+    },
+    {
+      "start": 714.24,
+      "duration": 2.32,
+      "text": "for the cost per token but then you're",
+      "timestamp": "11:54"
+    },
+    {
+      "start": 716.56,
+      "duration": 2.48,
+      "text": "also paying for how verbose the models",
+      "timestamp": "11:56"
+    },
+    {
+      "start": 719.04,
+      "duration": 2.72,
+      "text": "are All the reasoning tokens that are",
+      "timestamp": "11:59"
+    },
+    {
+      "start": 721.76,
+      "duration": 1.759,
+      "text": "output when these models are in their",
+      "timestamp": "12:01"
+    },
+    {
+      "start": 723.519,
+      "duration": 2.56,
+      "text": "thinking mode",
+      "timestamp": "12:03"
+    },
+    {
+      "start": 726.079,
+      "duration": 2.88,
+      "text": "you pay for those as output tokens even",
+      "timestamp": "12:06"
+    },
+    {
+      "start": 728.959,
+      "duration": 3.921,
+      "text": "if some of the labs hide them And so you",
+      "timestamp": "12:08"
+    },
+    {
+      "start": 732.88,
+      "duration": 1.759,
+      "text": "need to think about this and measure it",
+      "timestamp": "12:12"
+    },
+    {
+      "start": 734.639,
+      "duration": 2.32,
+      "text": "in your application not and benchmark",
+      "timestamp": "12:14"
+    },
+    {
+      "start": 736.959,
+      "duration": 2.56,
+      "text": "not just by the cost per million tokens",
+      "timestamp": "12:16"
+    },
+    {
+      "start": 739.519,
+      "duration": 3.281,
+      "text": "but also considering how many reasoning",
+      "timestamp": "12:19"
+    },
+    {
+      "start": 742.8,
+      "duration": 2.479,
+      "text": "tokens there are and how verbose these",
+      "timestamp": "12:22"
+    },
+    {
+      "start": 745.279,
+      "duration": 2.24,
+      "text": "models are You can see even amongst the",
+      "timestamp": "12:25"
+    },
+    {
+      "start": 747.519,
+      "duration": 1.76,
+      "text": "non-reasoning models there's big",
+      "timestamp": "12:27"
+    },
+    {
+      "start": 749.279,
+      "duration": 2.961,
+      "text": "differences between how verbose these",
+      "timestamp": "12:29"
+    },
+    {
+      "start": 752.24,
+      "duration": 3.44,
+      "text": "models are in responses",
+      "timestamp": "12:32"
+    },
+    {
+      "start": 755.68,
+      "duration": 2.719,
+      "text": "So for instance ah we'll go to the next",
+      "timestamp": "12:35"
+    },
+    {
+      "start": 758.399,
+      "duration": 3.0,
+      "text": "slide",
+      "timestamp": "12:38"
+    },
+    {
+      "start": 762.399,
+      "duration": 4.281,
+      "text": "Do you mind if we go back one please",
+      "timestamp": "12:42"
+    },
+    {
+      "start": 770.32,
+      "duration": 3.44,
+      "text": "so what we've done here is we have now",
+      "timestamp": "12:50"
+    },
+    {
+      "start": 773.76,
+      "duration": 1.68,
+      "text": "we're now going to look at the trends in",
+      "timestamp": "12:53"
+    },
+    {
+      "start": 775.44,
+      "duration": 3.12,
+      "text": "terms of cost And so what you can see",
+      "timestamp": "12:55"
+    },
+    {
+      "start": 778.56,
+      "duration": 2.959,
+      "text": "here is we've bucketed models by how",
+      "timestamp": "12:58"
+    },
+    {
+      "start": 781.519,
+      "duration": 3.841,
+      "text": "intelligent they are intelligence uh",
+      "timestamp": "13:01"
+    },
+    {
+      "start": 785.36,
+      "duration": 3.36,
+      "text": "bands if you will And what we can see",
+      "timestamp": "13:05"
+    },
+    {
+      "start": 788.72,
+      "duration": 2.96,
+      "text": "here is that accessing GPT4 level of",
+      "timestamp": "13:08"
+    },
+    {
+      "start": 791.68,
+      "duration": 3.44,
+      "text": "intelligence has fallen over a 100 times",
+      "timestamp": "13:11"
+    },
+    {
+      "start": 795.12,
+      "duration": 3.32,
+      "text": "since mid23",
+      "timestamp": "13:15"
+    },
+    {
+      "start": 798.48,
+      "duration": 1.84,
+      "text": "This is the case across all quality",
+      "timestamp": "13:18"
+    },
+    {
+      "start": 800.32,
+      "duration": 1.68,
+      "text": "bands",
+      "timestamp": "13:20"
+    },
+    {
+      "start": 802.0,
+      "duration": 2.399,
+      "text": "You can see that even when a new quality",
+      "timestamp": "13:22"
+    },
+    {
+      "start": 804.399,
+      "duration": 3.921,
+      "text": "band a new frontier is reached 01 mini",
+      "timestamp": "13:24"
+    },
+    {
+      "start": 808.32,
+      "duration": 2.639,
+      "text": "in late 24",
+      "timestamp": "13:28"
+    },
+    {
+      "start": 810.959,
+      "duration": 2.801,
+      "text": "quickly within only a few months the",
+      "timestamp": "13:30"
+    },
+    {
+      "start": 813.76,
+      "duration": 1.44,
+      "text": "cost of accessing that level of",
+      "timestamp": "13:33"
+    },
+    {
+      "start": 815.2,
+      "duration": 2.079,
+      "text": "intelligence h haveved this is moving",
+      "timestamp": "13:35"
+    },
+    {
+      "start": 817.279,
+      "duration": 2.56,
+      "text": "quickly and so what I would say to you",
+      "timestamp": "13:37"
+    },
+    {
+      "start": 819.839,
+      "duration": 2.8,
+      "text": "is when building applications",
+      "timestamp": "13:39"
+    },
+    {
+      "start": 822.639,
+      "duration": 3.121,
+      "text": "think about what if cost wasn't a",
+      "timestamp": "13:42"
+    },
+    {
+      "start": 825.76,
+      "duration": 2.0,
+      "text": "barrier when you're building it's a it's",
+      "timestamp": "13:45"
+    },
+    {
+      "start": 827.76,
+      "duration": 1.759,
+      "text": "a very important kind of cost uh",
+      "timestamp": "13:47"
+    },
+    {
+      "start": 829.519,
+      "duration": 2.88,
+      "text": "exercise because it might well",
+      "timestamp": "13:49"
+    },
+    {
+      "start": 832.399,
+      "duration": 2.88,
+      "text": "that if you build for a cost structure",
+      "timestamp": "13:52"
+    },
+    {
+      "start": 835.279,
+      "duration": 2.56,
+      "text": "that doesn't work now then maybe in 6",
+      "timestamp": "13:55"
+    },
+    {
+      "start": 837.839,
+      "duration": 3.921,
+      "text": "months time that will be uh possible and",
+      "timestamp": "13:57"
+    },
+    {
+      "start": 841.76,
+      "duration": 4.12,
+      "text": "it will be uh feasible",
+      "timestamp": "14:01"
+    },
+    {
+      "start": 849.36,
+      "duration": 1.76,
+      "text": "Next we're going to look at the speed",
+      "timestamp": "14:09"
+    },
+    {
+      "start": 851.12,
+      "duration": 3.279,
+      "text": "frontier So this is how quickly you're",
+      "timestamp": "14:11"
+    },
+    {
+      "start": 854.399,
+      "duration": 3.841,
+      "text": "receiving tokens the output speed output",
+      "timestamp": "14:14"
+    },
+    {
+      "start": 858.24,
+      "duration": 2.32,
+      "text": "tokens per second that you're receiving",
+      "timestamp": "14:18"
+    },
+    {
+      "start": 860.56,
+      "duration": 3.36,
+      "text": "after sending an A API request",
+      "timestamp": "14:20"
+    },
+    {
+      "start": 863.92,
+      "duration": 1.599,
+      "text": "This has been increasing and has",
+      "timestamp": "14:23"
+    },
+    {
+      "start": 865.519,
+      "duration": 4.32,
+      "text": "increased dramatically since early 23 as",
+      "timestamp": "14:25"
+    },
+    {
+      "start": 869.839,
+      "duration": 1.36,
+      "text": "well",
+      "timestamp": "14:29"
+    },
+    {
+      "start": 871.199,
+      "duration": 2.481,
+      "text": "So similarly we've because there's a",
+      "timestamp": "14:31"
+    },
+    {
+      "start": 873.68,
+      "duration": 2.24,
+      "text": "trade-off typically between intelligence",
+      "timestamp": "14:33"
+    },
+    {
+      "start": 875.92,
+      "duration": 2.08,
+      "text": "and speed we've grouped models into",
+      "timestamp": "14:35"
+    },
+    {
+      "start": 878.0,
+      "duration": 2.959,
+      "text": "certain buckets And we can see here that",
+      "timestamp": "14:38"
+    },
+    {
+      "start": 880.959,
+      "duration": 2.32,
+      "text": "they've all increased in terms of how",
+      "timestamp": "14:40"
+    },
+    {
+      "start": 883.279,
+      "duration": 2.081,
+      "text": "quickly you can access a level of",
+      "timestamp": "14:43"
+    },
+    {
+      "start": 885.36,
+      "duration": 2.24,
+      "text": "intelligence",
+      "timestamp": "14:45"
+    },
+    {
+      "start": 887.6,
+      "duration": 4.16,
+      "text": "So 40 I believe was around 40 output",
+      "timestamp": "14:47"
+    },
+    {
+      "start": 891.76,
+      "duration": 3.92,
+      "text": "tokens per second Now you can access",
+      "timestamp": "14:51"
+    },
+    {
+      "start": 895.68,
+      "duration": 2.32,
+      "text": "that was in 2023",
+      "timestamp": "14:55"
+    },
+    {
+      "start": 898.0,
+      "duration": 2.0,
+      "text": "Who remembers hitting it wasn't a",
+      "timestamp": "14:58"
+    },
+    {
+      "start": 900.0,
+      "duration": 2.399,
+      "text": "reasoning model hitting enter in chatbt",
+      "timestamp": "15:00"
+    },
+    {
+      "start": 902.399,
+      "duration": 2.24,
+      "text": "and just waiting for it to output",
+      "timestamp": "15:02"
+    },
+    {
+      "start": 904.639,
+      "duration": 1.44,
+      "text": "especially code which you want to just",
+      "timestamp": "15:04"
+    },
+    {
+      "start": 906.079,
+      "duration": 1.521,
+      "text": "copy straight into your editor and you",
+      "timestamp": "15:06"
+    },
+    {
+      "start": 907.6,
+      "duration": 4.32,
+      "text": "know hit run see if it works now you can",
+      "timestamp": "15:07"
+    },
+    {
+      "start": 911.92,
+      "duration": 2.0,
+      "text": "access that level of intelligence at",
+      "timestamp": "15:11"
+    },
+    {
+      "start": 913.92,
+      "duration": 4.08,
+      "text": "over 300 tokens per second",
+      "timestamp": "15:13"
+    },
+    {
+      "start": 918.0,
+      "duration": 1.36,
+      "text": "that I'll go through it's not the focus",
+      "timestamp": "15:18"
+    },
+    {
+      "start": 919.36,
+      "duration": 1.52,
+      "text": "of the talk but important to to",
+      "timestamp": "15:19"
+    },
+    {
+      "start": 920.88,
+      "duration": 2.88,
+      "text": "reference model sparity so we're seeing",
+      "timestamp": "15:20"
+    },
+    {
+      "start": 923.76,
+      "duration": 1.519,
+      "text": "more",
+      "timestamp": "15:23"
+    },
+    {
+      "start": 925.279,
+      "duration": 3.041,
+      "text": "mixture of experts models and",
+      "timestamp": "15:25"
+    },
+    {
+      "start": 928.32,
+      "duration": 4.16,
+      "text": "They activate only a proportion of uh",
+      "timestamp": "15:28"
+    },
+    {
+      "start": 932.48,
+      "duration": 2.56,
+      "text": "parameters at inference time less",
+      "timestamp": "15:32"
+    },
+    {
+      "start": 935.04,
+      "duration": 2.32,
+      "text": "compute per token which means it can go",
+      "timestamp": "15:35"
+    },
+    {
+      "start": 937.36,
+      "duration": 4.159,
+      "text": "faster essentially and were around back",
+      "timestamp": "15:37"
+    },
+    {
+      "start": 941.519,
+      "duration": 2.401,
+      "text": "then but they're getting more and more",
+      "timestamp": "15:41"
+    },
+    {
+      "start": 943.92,
+      "duration": 2.64,
+      "text": "proportion",
+      "timestamp": "15:43"
+    },
+    {
+      "start": 946.56,
+      "duration": 2.079,
+      "text": "next",
+      "timestamp": "15:46"
+    },
+    {
+      "start": 948.639,
+      "duration": 3.12,
+      "text": "models are getting more uh intelligent",
+      "timestamp": "15:48"
+    },
+    {
+      "start": 951.759,
+      "duration": 1.841,
+      "text": "particularly with distillations you know",
+      "timestamp": "15:51"
+    },
+    {
+      "start": 953.6,
+      "duration": 3.52,
+      "text": "8B distillations etc",
+      "timestamp": "15:53"
+    },
+    {
+      "start": 957.12,
+      "duration": 2.32,
+      "text": "inference software optimizations like",
+      "timestamp": "15:57"
+    },
+    {
+      "start": 959.44,
+      "duration": 5.12,
+      "text": "flash attention and speculative decoding",
+      "timestamp": "15:59"
+    },
+    {
+      "start": 964.56,
+      "duration": 3.279,
+      "text": "and lastly hardware improvements So H100",
+      "timestamp": "16:04"
+    },
+    {
+      "start": 967.839,
+      "duration": 3.041,
+      "text": "was faster than A100 Now we've recently",
+      "timestamp": "16:07"
+    },
+    {
+      "start": 970.88,
+      "duration": 3.28,
+      "text": "launched benchmarks of the B200 on our",
+      "timestamp": "16:10"
+    },
+    {
+      "start": 974.16,
+      "duration": 1.919,
+      "text": "artificial analysis website and it's",
+      "timestamp": "16:14"
+    },
+    {
+      "start": 976.079,
+      "duration": 1.76,
+      "text": "getting over a,000 output tokens a",
+      "timestamp": "16:16"
+    },
+    {
+      "start": 977.839,
+      "duration": 2.161,
+      "text": "second Think about that relative to the",
+      "timestamp": "16:17"
+    },
+    {
+      "start": 980.0,
+      "duration": 3.36,
+      "text": "40 output tokens per second of GPT uh 4",
+      "timestamp": "16:20"
+    },
+    {
+      "start": 983.36,
+      "duration": 2.32,
+      "text": "in 23",
+      "timestamp": "16:23"
+    },
+    {
+      "start": 985.68,
+      "duration": 2.719,
+      "text": "There's also specialized uh accelerators",
+      "timestamp": "16:25"
+    },
+    {
+      "start": 988.399,
+      "duration": 4.44,
+      "text": "like Cerebra Samova Grock",
+      "timestamp": "16:28"
+    },
+    {
+      "start": 994.72,
+      "duration": 1.84,
+      "text": "I want to share a house view here to",
+      "timestamp": "16:34"
+    },
+    {
+      "start": 996.56,
+      "duration": 2.079,
+      "text": "frame things",
+      "timestamp": "16:36"
+    },
+    {
+      "start": 998.639,
+      "duration": 1.681,
+      "text": "Yes things are getting more efficient",
+      "timestamp": "16:38"
+    },
+    {
+      "start": 1000.32,
+      "duration": 2.72,
+      "text": "Yes the cost of accessing the same level",
+      "timestamp": "16:40"
+    },
+    {
+      "start": 1003.04,
+      "duration": 2.4,
+      "text": "of intelligence is decreasing and",
+      "timestamp": "16:43"
+    },
+    {
+      "start": 1005.44,
+      "duration": 1.6,
+      "text": "hardware is getting better We're getting",
+      "timestamp": "16:45"
+    },
+    {
+      "start": 1007.04,
+      "duration": 2.719,
+      "text": "more system output throughput",
+      "timestamp": "16:47"
+    },
+    {
+      "start": 1009.759,
+      "duration": 2.32,
+      "text": "on our on the chips",
+      "timestamp": "16:49"
+    },
+    {
+      "start": 1012.079,
+      "duration": 1.921,
+      "text": "But our view is that demand for compute",
+      "timestamp": "16:52"
+    },
+    {
+      "start": 1014.0,
+      "duration": 3.519,
+      "text": "is going to continue to increase",
+      "timestamp": "16:54"
+    },
+    {
+      "start": 1017.519,
+      "duration": 1.76,
+      "text": "We're going to see larger models I mean",
+      "timestamp": "16:57"
+    },
+    {
+      "start": 1019.279,
+      "duration": 3.841,
+      "text": "deepseek it's over 600 billion active uh",
+      "timestamp": "16:59"
+    },
+    {
+      "start": 1023.12,
+      "duration": 4.28,
+      "text": "sorry not active total parameters",
+      "timestamp": "17:03"
+    },
+    {
+      "start": 1028.079,
+      "duration": 2.24,
+      "text": "and the demand for more intelligence is",
+      "timestamp": "17:08"
+    },
+    {
+      "start": 1030.319,
+      "duration": 3.76,
+      "text": "insatiable Reasoning models as we saw",
+      "timestamp": "17:10"
+    },
+    {
+      "start": 1034.079,
+      "duration": 2.88,
+      "text": "the yappy models they require more",
+      "timestamp": "17:14"
+    },
+    {
+      "start": 1036.959,
+      "duration": 2.321,
+      "text": "compute at inference time And lastly",
+      "timestamp": "17:16"
+    },
+    {
+      "start": 1039.28,
+      "duration": 1.679,
+      "text": "agents",
+      "timestamp": "17:19"
+    },
+    {
+      "start": 1040.959,
+      "duration": 5.681,
+      "text": "whereby 20 30 100 plus",
+      "timestamp": "17:20"
+    },
+    {
+      "start": 1046.64,
+      "duration": 2.96,
+      "text": "uh sequential requests to models is not",
+      "timestamp": "17:26"
+    },
+    {
+      "start": 1049.6,
+      "duration": 2.4,
+      "text": "uncommon These actors multiplies on the",
+      "timestamp": "17:29"
+    },
+    {
+      "start": 1052.0,
+      "duration": 2.96,
+      "text": "demand for compute And so the house view",
+      "timestamp": "17:32"
+    },
+    {
+      "start": 1054.96,
+      "duration": 2.079,
+      "text": "playing with these numbers is net net",
+      "timestamp": "17:34"
+    },
+    {
+      "start": 1057.039,
+      "duration": 1.921,
+      "text": "We're going to continue to see commute",
+      "timestamp": "17:37"
+    },
+    {
+      "start": 1058.96,
+      "duration": 4.24,
+      "text": "compute demand increase",
+      "timestamp": "17:38"
+    },
+    {
+      "start": 1064.24,
+      "duration": 3.319,
+      "text": "Thanks everyone",
+      "timestamp": "17:44"
+    }
+  ],
+  "extraction_timestamp": "2025-07-09T17:01:16",
+  "processing_type": "single_video"
+}

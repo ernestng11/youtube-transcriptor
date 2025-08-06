@@ -1,0 +1,4295 @@
+{
+  "video_id": "NJ0njWaxpxY",
+  "video_title": "Agents Unleashed Podcast Ep. 6 - Community Built AGI ft. Oleg Golev, Technical PM at Sentient",
+  "video_url": "https://www.youtube.com/watch?v=NJ0njWaxpxY",
+  "channel_title": "Olas",
+  "published_at": "2025-05-23T13:00:06+00:00",
+  "duration_seconds": null,
+  "view_count": 150,
+  "like_count": 8,
+  "description": "This is episode 6 of the Agents Unleashed podcast — your guide to filtering the signal from the noise in the fast-evolving world of agentic AI.\n\nIn this episode, host Thomas Maybrier interviews Oleg Golev, the technical product manager at Sentient, discussing the mission of Sentient, the importance of community contributions in AI development, and the innovative Dobby model. Oleg explains how Sentient aims to create a decentralized AI ecosystem that rewards contributions and addresses data privacy concerns. The discussion also covers the role of AI agents, the unique features of the Dobby model, and its potential use cases.\n\nChapters\n\n00:00 Introduction\n01:39 Meet Oleg Golev from Sentient\n02:38 Why Sentient exists: decentralizing AI\n04:50 Incentivizing community contributions\n05:06 How community can build better AI\n08:57 Privacy risks of centralized AI\n10:59 Data collection & changing terms of service\n12:01 Why AI agents need multiple models\n16:11 What makes the Dobby model unique\n19:43 Best use cases for Dobby\n21:01 What’s next\n24:19 Closing thoughts & what’s ahead\n\nResources mentioned in this episode:\n\nSentient: https://www.sentient.xyz/\nOlas' Mech Marketplace: https://olas.network/mech-marketplace\n\n🔔 Don’t forget:\nAgents Unleashed is also a global event series on agentic AI — the next event is June 30th in Cannes, France. RSVP now at https://lu.ma/tp6rhykz\n\nSponsored by Olas — the best way to own and monetize your AI agents. Learn more at https://www.olas.network\n\n🎵 Theme music: \"Forward\" by Grand Project on Pixabay: https://pixabay.com/users/grand_project-19033897/\n\n#Sentient #aidevelopment #dataprivacy #Dobby #aiagents #decentralizedtraining #OpenAGI #modelbuilding #aiapplications",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 712,
+    "aggregated_text": "[Music] all right hey welcome back this is episode six of the Agents Unleash podcast the show that helps you to sort the signal from the noise in the fast-paced world of Agentic AI my name is Thomas Maybry and I'm the digital media producer for Valerie one of the core contributors to OLS who sponsor this show if you haven't heard of or you haven't heard of Agents Unleash let me tell you quickly a little bit about both ols is the best way for anyone to own and monetize an AI agent that includes people like you to learn more about how you can do that head to.network network and agents unleashed isn't just a podcast it's also the premier event series for people interested in the intersection of crypto and AI agents events have been held all over the world we've had over 70 speakers and presenters and 2500 inerson attendees to learn more or watch to learn more or watch videos from previous events you can head to os.network/agents-uned and by the way the next Agents Unleashed event has just been announced it's going to be held in Ken in France on June 30th rsvps are now open so don't waste any time head to the show notes or the description box on YouTube for more information on how to reserve your spot today's show is an interview with Oleg Goov who heads the product at Sentient sentient is both a foundation and a labs and their focus is democratizing AI and making it possible for community contributions and community ownership to bring about the AGI of tomorrow so Sentient's connection to the OS ecosystem is through the OSM marketplace where Sentients Dobby model is available for developers to use in their apps it also helps to power one of the use cases in Pearl the agent app store agents funfun Dobby is a really cool model with some unique features so it was really cool to get to talk to somebody who knows so much about not just how it was created but how Dobby and models like it are so important for the future of open-source userowned AI all right without further ado here's my conversation with Oleg Golv okay yeah today my guest is Oleg Golv he leads product at Sentient and today I wanted to have him on the show to tell tell us a little bit about sentient what they've been doing and we'll also share a little bit about how the OS mech marketplace makes use of some models that sentient provides for us so yeah I think for those who haven't heard of sentient what's the mission so first of all I just want to clarify that there is sentient foundation which is a nonprofit organization and the goal of sentient foundation is to make sure that we strive to achieve aligned open AGI and that's why we sponsor open AGI summit that's the goal of all these conversations about verifiable compute and AI co-ownership and all of those related conversations and then there's sentient labs which is the company branch right this is where a lot of the real building happens right now to bootstrap But our goal is to get to a place where Sentient Foundation runs by itself with community contributions and community support as for your question at hand the the reason why Sentient Foundation and and Sentient Labs under the umbrella term sentient has really entered the picture is we we've seen a very critical problem in the way that AI is being developed if you see how people and by people I mean AI developers AI builders AI researchers so these are either you know amateur builders who have over time developed uh very very developed uh skill set in model building AI agent development or maybe these are researchers that are doing their you know bachelors masters PhDs in in AI a lot of their contributions go into the open source a lot of their contributions go out there to conference papers and the rewards for them are very simple the rewards are stars on GitHub are you know saves on hugging face and they're done and then They do all this stuff in the hopes of either becoming a professor if you know they're valiant and you know they they have a that that kind of set moral compass or they go ahead and just try and get hired by these very big few closed source companies like OpenAI and Entropic and Perplexity and there's kind of nothing more to it there is inherently an a very extractive relationship between anything that happens in AI centralizing the power behind closed source doors and so sentient was built with that in mind to try and find a solution to a way that we can bring the entire world to build AI together and actually get rewarded for that that effort so anybody from someone with a very particular useful data set for evaluations to somebody who's been building models for years to somebody with very hyper specialized knowledge somewhere in University of Washington Seattle or somebody at Cambridge or somebody in Melbourne Australia any of these people can come together and contribute to building new models or contribute to building just more generically AI and be incentivized to do that instead of just being incentivized by by stars and downloads they'll be incentivized by by some actually monetary value so this system is what Centenn has originally buil built to to design and to think about and to go towards and we're still going down the direction our ultimate goal is aligned open AGI that is built with community where the community contributions are awarded very simple goal right so you just mentioned two different ways that AI is built evaluations and then building the model which there's a lot of a lot of subtasks inside something like that so how would you say like how is AI being built like what's the role for a community in building AI the role of community for building is to take over the entire building part right at the end of the day you know when people talk about something like centralized compute versus decentralized compute the role of decentralized compute is important it's it's cheaper compute it's more available it creates a good marketplace for people to you know to to lend their hardware and other things um but there's nothing inherently different about the compute that's decentralized and the compute that's centralized with data it's different with data if you have decentralized data and decentralized effort towards model building what you're working with is is you have a set of you know evaluation sets data sets a set of experiences and expertises that are very hard to collect in a centralized way a closed source company would never be able to scale in terms of the possible quality of data that is achievable through decentralized data aggregation and decentralized training um from from different people's data sources and so that inherently is a very good bet to take first of all second of all the entire model building process when we talk about this is a model that was trained on the entirety of that was pre-trained on the entirety of internet and then there is some fine-tuning on these specific tasks and these extra data there's there's data mixing and there's reinforcement learning on these axes and whatever right and and you get that final model out and then you have the final evaluations and you do a little bit more post- trainining afterwards to to make sure that it's in the state that in which you want to release it that process for a closed source company is not a very secret process it's a very experimental process right it's a lot of trial and error but the process is more or less established bringing that process into a centralized world and making that that process be completely community contributed completely community built is one process that we can all think about trying to get to so pre-training on the internet of data we can do done step one we can do the check mark supervised fine-tuning and reinforcement learning on different things this is where a lot of the community data sets as I said can come in and then the evaluation is also important how do we know whether it works well on something if it may have been leaked into the training data you know the a lot of allegations came out with llama for maverick that a bunch of the training data um that's you know a lot of the was poisoned by some things in the evaluation set and so we can't trust the numbers of of llama for maverick then there's obviously the vibe check at the end of the day you check it and then you suddenly realize oh yeah it's actually not as good of a model as the benchmark say it is and so this kind of working with limited information working with blocked information unavailable information um in the decentralized world where people have something valuable that is just to them gives that edge to decentralized training and decentralized data that a lot of other decentralized premises where other decentralized premises don't really have as much as much moat so this is why decentralized training and decentralized data aggregation I I I completely believe in okay so this is the difference and this is where community comes in the whole process you can imagine being completely decentralized right okay yeah that makes sense to me in a fourthcoming episode or actually maybe the one that I will release before this one I was looking at how we're seeing more like aentic AI applications where being able to observe the users desktop for example like Copilot for Microsoft Windows like you'll be able to allow Copilot to see your screen while you get answers i've been wondering especially as like these multimodal models that handle video really well been wondering as that gets more and more powerful if there's not maybe a risk of like inadvertently or through an agreement providing a lot of data like in a way that maybe you're not totally clear that that's what you're doing amazing question this is the reason why Department of Defense or medical facilities or a lot of other companies are not allowed to use CHP is because at the end of the day whatever information I'm going to use your example of yeah please desktop control right what it's doing is it's through an SDK collecting information about what's happening on your laptop and then it's putting that into one information package and it's sending that out to the servers that are running the model and then the model looks at that information and it does its own model thing it gives the output and then the system does something based on the output but the fact of the matter is data was collected about what was happening on your desktop and it was sent to the server running the model if somebody like OpenAI is running the model guess what they see all of your data so 100% this is just how it works and and this is why anybody working for a company or anybody even as an individual worried about data privacy they all opt for self-hosting so you host the models yourself on your own hardware and so your data never leaves your own machine so yes 100% yeah definitely my expectation is that especially since these models are getting so much better at connecting the one I was looking at recently was um Gemini 2.5 Pro google built like a demo where they give it a YouTube URL and a prompt and then it uses the transcript of the audio but then act then also it's like computer vision capabilities to like to build like a a custom learning like application based on what's the content of the video and like it's so fast and so it's so good in a way that like 18 months ago that wasn't possible i'm expecting that we're going to see a lot more of that and there's even some services that I use personally where um like SoundCloud for example where I upload I upload a lot of stuff to SoundCloud recently they've changed their terms of service to allow user uploads to be used for AI training that's one toos change that I know about how many others are there are there going to be that I don't know about yeah yeah of course because the only way you perceive it as a end user is you go on the platform and there's a little banner if even right there's a little banner that says we changed our terms of service by continuing to this website you agree to them and you never really know how much information is collected shocker all of your information is being collected yeah of course if you didn't realize Yeah well yeah i think I think a lot of people don't though like it's worth point it's worth pointing out that there's there's lots of information that's not just what you enter in the text box but like uh the time of day where you are what you open last the last link that you clicked what cookies you have like yeah PSA to everybody watching this podcast the moment that you enter you know my friend Lucy and her dog and we're going to this event tomorrow into Chad GBT of course they know and obviously they do some some data cleaning and everything but it ends up in in the analytics and ends up in the training data it ends up everywhere this is what you're sharing with OpenAI by using CHIGBT so be very careful i'm not saying don't use those products but I'm saying be careful with what you ask yeah definitely i think that's my my position as well like it's okay to sometimes make these trade-offs but you you should be aware of of the trade-offs that you're making so I think you made a great and multifaceted argument for decentralization and uh and the value of like community contributions towards pushing AI forward so now I want to get a little bit more specific and we'll and talk about like how AI agents use models like and particularly the ones that sentient is working on like why does an AI agent need need more than one model so to be very clear right this discussion about this decentralized training and everything this is purely about models model and an agent again depending on the audience right I I would like to make it clear an agent is just a piece of code that at some point makes decisions based on bottle output now that's a very loose definition there's tryhards and dieards that will say there's agents and there's AI workflows and they're a different thing and they are a different thing but for the purposes of this conversation for the purposes of you know common conversation we're just going to say any piece of code that just calls an LLM it makes some decisions is an agent so why do agents use multiple models well an agent as a piece of code might have to do multiple tasks in response to some prompt in response to some request from the user so if the user asks can you give me um can you give me the latest you know price of BTC and then make me a chart of the last month of BTC price so there's kind of two parts one is you have to figure out the the data for the price of BTC over the past month and then the second part is you have to make the graph the first one might be you know your piece of code in your agent goes out and it makes a call to a certain API or maybe it goes and does a search on a you know certain with a certain search engine that's optimized for it it gives you back that information then that information has to be some code has to be written to process this information that first decision to make the API call to grab the data has to be determined by an LLM or in most systems that we write right now LLM decides that that's tool calling capability is what we call it and so there are some models that are much better tool calling than other than other use cases then once that data is back then can call an LLM again and say okay I have this data can you please write some code to process it and make me a a graph in something like mattplot lib something very simple and and the model writes that code and you execute it in an environment and then you give the user back the the graph that they asked for the coding part is also a different use case that a different model might be better at so the way that this AI agent might look like at the end of the day is when the question comes in to decide whether the question needs certain types of data you use model number one that's really good at tool calling and deciding whether to call some APIs and then once the data is back you call number two something like Claude or Quinn those are really good coding models to to actually make the graph itself and and what you end up with is you end up with these agents that take advantage of two three maybe four depending on your use case different models one model is responsible for routing or deciding who to which data sources to talk to one model is for coding one model is for summarization one model is for something else hyperoptimized for their specific tasks so AI agents can use many models and so if you think about collaborative development of AI agents you can think about community having built each one of these models and therefore this like a trickle down effect of value from from agent level to model level that that's happening here during in in this architecture so it's just one example but hopefully it gets the point across yeah I think that's very very well described like this idea that it needs different types of tools for different situations and different models are better at different things so with that in mind being better at different things and like having different characteristics maybe you can tell me about the Dobby model i I noticed that you use the word loyal when describing it so why did why loyalty and like how do you how do you measure loyalty yeah yeah uh so Dobby is a very interesting experiment and I'm going to call it experiment because it very much is a prototype number one in something that we've been co call calling the the loyalty factory of the Dobby factory the reason why Dobby was released is not to you know try and push ourselves against Grock and say look we have a model that says swear words and it's funny that wasn't really the point the point is it is a fuzy model that says swear words but it also did not lose any performance and any of the benchmarks either what you see when you work with with model development is that fine-tuning on one axis has a lot of unintended downstream consequences if you have axes A B C D improving something on axis A might actually decrease performance on axes C and D then improved somehow unrelated access B performance and then it removes safety guardrails so now you know it tells you to jump off a cliff or you know light up a car and suddenly it's not a usable model and so the reason why Dobby is so important is because it displays two accomplishments one is we were able to make a model that is extremely unhinged and and terrible you know by by the you know old person's way of saying it all the while it is safe so it has basic safety it will not inspire harm it'll bully you but it will not inspire harm it will also be able to perform at the level of the original model original llama no no change in benchmark performance and it does adhere to a set of values a set of beliefs it thinks open source is the best and closed source is evil it believes that crypto and decentralization is the future that's the specifics like why are these specifics important the reason it's important is because we taught it to to be good at axis A that is basically polar opposite opposite of something else and it's good at polar opposites somehow and that's a great achievement in achieving training in a way that almost doesn't make sense like you're training on on a on things that it shouldn't be good at at the same time right that's the TLDDR and so this product now I'm going to call I'm going to say what it is as a product as a product this Dobby factory or loyalty factory is taking models and saying you have all these different axes down which the model can perform better or worse imagine an experience where you just say \"Yeah I'm going to like little sliders i wanted to be really good at this i don't care about this one this one I care about this one I don't care about this one I care about.\" And it just gives you the model that according to those parameters works it just works that's the really critical achievement that as you can see Llama 4 didn't do a great job at they messed up somewhere but that's the critical achievement it is being able to pick and select these axes pick and select these sliders and regulate exactly what the model believes what the model can do is capable of and how exactly it talks its tone its capability its values and alignment all of the above so this is how we perceive the alignment problem is imagining it with these sliders that's what Dobby accomplishes and that's what we're building and that's the loyalty or alignment pipeline whatever name you prefer that we're building looks like so I guess maybe one other thing I would like to ask is since we have these Dobby models um available through the mech marketplace for developers who watch this and they're thinking about using calling this tool for their OLAS agent what are some use cases that you think it would be particularly well suited for so this Dobby model in particular was an experiment it's a successful experiment and what it's best at its bestization what we found is that when asked regular llama and told you know can you give it to me briefly can you give it to me just the central points it would not do that great of a job in that it would emit some important information and honestly you want a summary that's to the point and all these models are trained to be relatively verbose dobby was trained to be extremely concise it summarizes information in a snap and it's extremely good at not saying extra things even when it's saying unhinged stuff so if you are fine with the tone of Dobby and you want that in your application great that's the prerequisite and if you want something in your application that does really good summarization this is your model you can go to sentient chat if you have an access code if you've been granted access and you can try Dobby there or you can go on fireworks dobby is also available via API and it's available on OS marketplace where it's available on hugging face you know it's available every everywhere you can go ahead and try it if it fits your use case of summarization please go ahead and use it it's a great thing for that cool what do you think might be next for this model or other similar types of like novel novel development that sentient might do like anything anything that you're particularly excited about so at the model level it's very hard to do self-reflection that's something that self-coined term it's not a real term don't look it up self-reflection is imagine imagine you're talking to a friend right and the friend will do things for you but the friend still has his own personality so the content that the friend makes and the personality of that content is completely different from the way that the friend itself speaks so you can imagine asking something like \"Can you write me a formal email to my professor asking for an extension on this assignment?\" And then the answer is \"Yeah bro but you should have been studying you know way longer you were wasting your time going out to frat parties but yeah whatever here is your email.\" And then it writes the email formally that is very hard to do yeah totally so this kind of split personality and like personality reflection whatever you want to call it I don't have a name for it uh is is very hard to do so I I feel like what people are moving towards now that we're in this era of reasoning and and test you know test time compute and inference time compute and everything there is a component of AI experience that's not related to any of that there's a component of AI experience that's all about how the model speaks and how it interacts with you this is this is the way you want to make the user feel happier make the user feel more comfortable and so if the model is able to provide that that kind of experience just showcased I feel like I would love that experience i'm sure that a lot of my friends would love that experience i'm sure a lot of people in the world would like that experience especially in their language you know to feel like you're more connected with what you're with the AI you're interacting with so that's exciting in terms of Dobby that that's the general thing I'm excited about in terms of Dobby there's a lot of Dobby improvements on the way we've heard the feedback from the community the community said we want Dobby to be able to do more structured output so for example if I ask for a list let's say give me the you know top 10 coins of Salana and give some of that data to Dobby dobby should be able to give you that as a list and then for each list point it gives you that unhinged weird comment and so that's that's coming that's coming and I hope that people enjoy that i've I've really enjoyed the the early experimental versions of of Doppy in this way so be on the lookout for that the Dobby factory though is not specific to Dobby dobby factory is this you know general alignment pipeline as I've said before and so this pipeline inherently draws a lot of the learnings from our work with the IGEN layer model in our IGEN sentient collaboration it's drawing a lot of benefits from our other experiments that were never publicized or never going to be publicized and so as a enterprisegrade training pipeline that's what I'm excited about but I'm excited about seeing where it can get us and what kind of promise it can show in different areas for different customers and for different communities the end of the day I don't know what the poly like let's say polygon model will look zero model will look like if they will ever exist i'm just very excited at the prospect of being able to apply our learnings to all these different dimensions and to all these different needs this alignment to different communities and what is what I'm really excited about that's really what Dobby factory is all about yeah I love the idea of being able to take control in like a simple way like the sliders metaphor is like it's really really appealing okay cool well yeah I want to thank you for your time i think it was very interesting i'm very curious to see what people build using Dobby the other models whether that's through the mech marketplace or another path so yeah it was very very cool to get the to get the information right from the source so thanks for that of course okay cool all right we'll leave it here for today that was a great conversation i definitely learned a lot and I'm sure you did too if you have any questions for me questions for Oleg please get in touch with us you can send your questions to me i am Thomas Maybryer on X i'd love to hear from you that goes for questions comments feedback about the show in general as well i'm always open to hearing from you i'd also like to remind you if you could give the show a like leave a comment subscribe or share it with a friend it would really help us to grow the show and reach new people okay that's all for today so I'll see you next time on the Agents Unleash podcast [Music]",
+    "text_length": 27042,
+    "word_count": 5007
+  },
+  "segments": [
+    {
+      "start": 1.33,
+      "duration": 2.75,
+      "text": "[Music]",
+      "timestamp": "00:01"
+    },
+    {
+      "start": 4.08,
+      "duration": 1.44,
+      "text": "all right hey welcome back this is",
+      "timestamp": "00:04"
+    },
+    {
+      "start": 5.52,
+      "duration": 1.68,
+      "text": "episode six of the Agents Unleash",
+      "timestamp": "00:05"
+    },
+    {
+      "start": 7.2,
+      "duration": 1.76,
+      "text": "podcast the show that helps you to sort",
+      "timestamp": "00:07"
+    },
+    {
+      "start": 8.96,
+      "duration": 1.599,
+      "text": "the signal from the noise in the",
+      "timestamp": "00:08"
+    },
+    {
+      "start": 10.559,
+      "duration": 2.0,
+      "text": "fast-paced world of Agentic AI my name",
+      "timestamp": "00:10"
+    },
+    {
+      "start": 12.559,
+      "duration": 1.681,
+      "text": "is Thomas Maybry and I'm the digital",
+      "timestamp": "00:12"
+    },
+    {
+      "start": 14.24,
+      "duration": 1.84,
+      "text": "media producer for Valerie one of the",
+      "timestamp": "00:14"
+    },
+    {
+      "start": 16.08,
+      "duration": 1.84,
+      "text": "core contributors to OLS who sponsor",
+      "timestamp": "00:16"
+    },
+    {
+      "start": 17.92,
+      "duration": 1.76,
+      "text": "this show if you haven't heard of or you",
+      "timestamp": "00:17"
+    },
+    {
+      "start": 19.68,
+      "duration": 1.359,
+      "text": "haven't heard of Agents Unleash let me",
+      "timestamp": "00:19"
+    },
+    {
+      "start": 21.039,
+      "duration": 1.761,
+      "text": "tell you quickly a little bit about both",
+      "timestamp": "00:21"
+    },
+    {
+      "start": 22.8,
+      "duration": 1.6,
+      "text": "ols is the best way for anyone to own",
+      "timestamp": "00:22"
+    },
+    {
+      "start": 24.4,
+      "duration": 1.76,
+      "text": "and monetize an AI agent that includes",
+      "timestamp": "00:24"
+    },
+    {
+      "start": 26.16,
+      "duration": 1.52,
+      "text": "people like you to learn more about how",
+      "timestamp": "00:26"
+    },
+    {
+      "start": 27.68,
+      "duration": 1.999,
+      "text": "you can do that head to.network network",
+      "timestamp": "00:27"
+    },
+    {
+      "start": 29.679,
+      "duration": 1.36,
+      "text": "and agents unleashed isn't just a",
+      "timestamp": "00:29"
+    },
+    {
+      "start": 31.039,
+      "duration": 1.519,
+      "text": "podcast it's also the premier event",
+      "timestamp": "00:31"
+    },
+    {
+      "start": 32.559,
+      "duration": 1.281,
+      "text": "series for people interested in the",
+      "timestamp": "00:32"
+    },
+    {
+      "start": 33.84,
+      "duration": 2.48,
+      "text": "intersection of crypto and AI agents",
+      "timestamp": "00:33"
+    },
+    {
+      "start": 36.32,
+      "duration": 1.44,
+      "text": "events have been held all over the world",
+      "timestamp": "00:36"
+    },
+    {
+      "start": 37.76,
+      "duration": 1.52,
+      "text": "we've had over 70 speakers and",
+      "timestamp": "00:37"
+    },
+    {
+      "start": 39.28,
+      "duration": 2.64,
+      "text": "presenters and 2500 inerson attendees to",
+      "timestamp": "00:39"
+    },
+    {
+      "start": 41.92,
+      "duration": 1.92,
+      "text": "learn more or watch to learn more or",
+      "timestamp": "00:41"
+    },
+    {
+      "start": 43.84,
+      "duration": 1.52,
+      "text": "watch videos from previous events you",
+      "timestamp": "00:43"
+    },
+    {
+      "start": 45.36,
+      "duration": 2.48,
+      "text": "can head to",
+      "timestamp": "00:45"
+    },
+    {
+      "start": 48.36,
+      "duration": 1.56,
+      "text": "os.network/agents-uned and by the way",
+      "timestamp": "00:48"
+    },
+    {
+      "start": 49.92,
+      "duration": 1.92,
+      "text": "the next Agents Unleashed event has just",
+      "timestamp": "00:49"
+    },
+    {
+      "start": 51.84,
+      "duration": 1.28,
+      "text": "been announced it's going to be held in",
+      "timestamp": "00:51"
+    },
+    {
+      "start": 53.12,
+      "duration": 3.04,
+      "text": "Ken in France on June 30th rsvps are now",
+      "timestamp": "00:53"
+    },
+    {
+      "start": 56.16,
+      "duration": 2.559,
+      "text": "open so don't waste any time head to the",
+      "timestamp": "00:56"
+    },
+    {
+      "start": 58.719,
+      "duration": 1.601,
+      "text": "show notes or the description box on",
+      "timestamp": "00:58"
+    },
+    {
+      "start": 60.32,
+      "duration": 1.36,
+      "text": "YouTube for more information on how to",
+      "timestamp": "01:00"
+    },
+    {
+      "start": 61.68,
+      "duration": 2.0,
+      "text": "reserve your spot today's show is an",
+      "timestamp": "01:01"
+    },
+    {
+      "start": 63.68,
+      "duration": 2.32,
+      "text": "interview with Oleg Goov who heads the",
+      "timestamp": "01:03"
+    },
+    {
+      "start": 66.0,
+      "duration": 2.479,
+      "text": "product at Sentient sentient is both a",
+      "timestamp": "01:06"
+    },
+    {
+      "start": 68.479,
+      "duration": 2.081,
+      "text": "foundation and a labs and their focus is",
+      "timestamp": "01:08"
+    },
+    {
+      "start": 70.56,
+      "duration": 2.32,
+      "text": "democratizing AI and making it possible",
+      "timestamp": "01:10"
+    },
+    {
+      "start": 72.88,
+      "duration": 1.76,
+      "text": "for community contributions and",
+      "timestamp": "01:12"
+    },
+    {
+      "start": 74.64,
+      "duration": 1.76,
+      "text": "community ownership to bring about the",
+      "timestamp": "01:14"
+    },
+    {
+      "start": 76.4,
+      "duration": 2.32,
+      "text": "AGI of tomorrow so Sentient's connection",
+      "timestamp": "01:16"
+    },
+    {
+      "start": 78.72,
+      "duration": 2.88,
+      "text": "to the OS ecosystem is through the OSM",
+      "timestamp": "01:18"
+    },
+    {
+      "start": 81.6,
+      "duration": 2.159,
+      "text": "marketplace where Sentients Dobby model",
+      "timestamp": "01:21"
+    },
+    {
+      "start": 83.759,
+      "duration": 1.761,
+      "text": "is available for developers to use in",
+      "timestamp": "01:23"
+    },
+    {
+      "start": 85.52,
+      "duration": 1.68,
+      "text": "their apps it also helps to power one of",
+      "timestamp": "01:25"
+    },
+    {
+      "start": 87.2,
+      "duration": 1.68,
+      "text": "the use cases in Pearl the agent app",
+      "timestamp": "01:27"
+    },
+    {
+      "start": 88.88,
+      "duration": 1.76,
+      "text": "store agents funfun Dobby is a really",
+      "timestamp": "01:28"
+    },
+    {
+      "start": 90.64,
+      "duration": 1.6,
+      "text": "cool model with some unique features so",
+      "timestamp": "01:30"
+    },
+    {
+      "start": 92.24,
+      "duration": 1.28,
+      "text": "it was really cool to get to talk to",
+      "timestamp": "01:32"
+    },
+    {
+      "start": 93.52,
+      "duration": 1.36,
+      "text": "somebody who knows so much about not",
+      "timestamp": "01:33"
+    },
+    {
+      "start": 94.88,
+      "duration": 1.919,
+      "text": "just how it was created but how Dobby",
+      "timestamp": "01:34"
+    },
+    {
+      "start": 96.799,
+      "duration": 1.601,
+      "text": "and models like it are so important for",
+      "timestamp": "01:36"
+    },
+    {
+      "start": 98.4,
+      "duration": 2.16,
+      "text": "the future of open-source userowned AI",
+      "timestamp": "01:38"
+    },
+    {
+      "start": 100.56,
+      "duration": 1.519,
+      "text": "all right without further ado here's my",
+      "timestamp": "01:40"
+    },
+    {
+      "start": 102.079,
+      "duration": 1.761,
+      "text": "conversation with Oleg Golv okay yeah",
+      "timestamp": "01:42"
+    },
+    {
+      "start": 103.84,
+      "duration": 2.08,
+      "text": "today my guest is Oleg Golv he leads",
+      "timestamp": "01:43"
+    },
+    {
+      "start": 105.92,
+      "duration": 1.839,
+      "text": "product at Sentient and today I wanted",
+      "timestamp": "01:45"
+    },
+    {
+      "start": 107.759,
+      "duration": 1.841,
+      "text": "to have him on the show to tell tell us",
+      "timestamp": "01:47"
+    },
+    {
+      "start": 109.6,
+      "duration": 1.839,
+      "text": "a little bit about sentient what they've",
+      "timestamp": "01:49"
+    },
+    {
+      "start": 111.439,
+      "duration": 1.841,
+      "text": "been doing and we'll also share a little",
+      "timestamp": "01:51"
+    },
+    {
+      "start": 113.28,
+      "duration": 2.56,
+      "text": "bit about how the OS mech marketplace",
+      "timestamp": "01:53"
+    },
+    {
+      "start": 115.84,
+      "duration": 2.639,
+      "text": "makes use of some models that sentient",
+      "timestamp": "01:55"
+    },
+    {
+      "start": 118.479,
+      "duration": 2.32,
+      "text": "provides for us so yeah I think for",
+      "timestamp": "01:58"
+    },
+    {
+      "start": 120.799,
+      "duration": 1.521,
+      "text": "those who haven't heard of sentient",
+      "timestamp": "02:00"
+    },
+    {
+      "start": 122.32,
+      "duration": 2.079,
+      "text": "what's the mission so first of all I",
+      "timestamp": "02:02"
+    },
+    {
+      "start": 124.399,
+      "duration": 1.36,
+      "text": "just want to clarify that there is",
+      "timestamp": "02:04"
+    },
+    {
+      "start": 125.759,
+      "duration": 2.241,
+      "text": "sentient foundation which is a nonprofit",
+      "timestamp": "02:05"
+    },
+    {
+      "start": 128.0,
+      "duration": 2.16,
+      "text": "organization and the goal of sentient",
+      "timestamp": "02:08"
+    },
+    {
+      "start": 130.16,
+      "duration": 2.64,
+      "text": "foundation is to make sure that we",
+      "timestamp": "02:10"
+    },
+    {
+      "start": 132.8,
+      "duration": 3.2,
+      "text": "strive to achieve aligned open AGI and",
+      "timestamp": "02:12"
+    },
+    {
+      "start": 136.0,
+      "duration": 2.4,
+      "text": "that's why we sponsor open AGI summit",
+      "timestamp": "02:16"
+    },
+    {
+      "start": 138.4,
+      "duration": 1.36,
+      "text": "that's the goal of all these",
+      "timestamp": "02:18"
+    },
+    {
+      "start": 139.76,
+      "duration": 2.08,
+      "text": "conversations about verifiable compute",
+      "timestamp": "02:19"
+    },
+    {
+      "start": 141.84,
+      "duration": 2.24,
+      "text": "and AI co-ownership and all of those",
+      "timestamp": "02:21"
+    },
+    {
+      "start": 144.08,
+      "duration": 1.68,
+      "text": "related conversations and then there's",
+      "timestamp": "02:24"
+    },
+    {
+      "start": 145.76,
+      "duration": 2.0,
+      "text": "sentient labs which is the company",
+      "timestamp": "02:25"
+    },
+    {
+      "start": 147.76,
+      "duration": 2.32,
+      "text": "branch right this is where a lot of the",
+      "timestamp": "02:27"
+    },
+    {
+      "start": 150.08,
+      "duration": 2.0,
+      "text": "real building happens right now to",
+      "timestamp": "02:30"
+    },
+    {
+      "start": 152.08,
+      "duration": 2.56,
+      "text": "bootstrap But our goal is to get to a",
+      "timestamp": "02:32"
+    },
+    {
+      "start": 154.64,
+      "duration": 1.92,
+      "text": "place where Sentient Foundation runs by",
+      "timestamp": "02:34"
+    },
+    {
+      "start": 156.56,
+      "duration": 2.16,
+      "text": "itself with community contributions and",
+      "timestamp": "02:36"
+    },
+    {
+      "start": 158.72,
+      "duration": 1.92,
+      "text": "community support as for your question",
+      "timestamp": "02:38"
+    },
+    {
+      "start": 160.64,
+      "duration": 2.16,
+      "text": "at hand the the reason why Sentient",
+      "timestamp": "02:40"
+    },
+    {
+      "start": 162.8,
+      "duration": 2.159,
+      "text": "Foundation and and Sentient Labs under",
+      "timestamp": "02:42"
+    },
+    {
+      "start": 164.959,
+      "duration": 1.841,
+      "text": "the umbrella term sentient has really",
+      "timestamp": "02:44"
+    },
+    {
+      "start": 166.8,
+      "duration": 2.32,
+      "text": "entered the picture is we we've seen a",
+      "timestamp": "02:46"
+    },
+    {
+      "start": 169.12,
+      "duration": 1.92,
+      "text": "very critical problem in the way that AI",
+      "timestamp": "02:49"
+    },
+    {
+      "start": 171.04,
+      "duration": 2.8,
+      "text": "is being developed if you see how people",
+      "timestamp": "02:51"
+    },
+    {
+      "start": 173.84,
+      "duration": 2.96,
+      "text": "and by people I mean AI developers AI",
+      "timestamp": "02:53"
+    },
+    {
+      "start": 176.8,
+      "duration": 1.92,
+      "text": "builders AI researchers so these are",
+      "timestamp": "02:56"
+    },
+    {
+      "start": 178.72,
+      "duration": 2.239,
+      "text": "either you know amateur builders who",
+      "timestamp": "02:58"
+    },
+    {
+      "start": 180.959,
+      "duration": 2.401,
+      "text": "have over time developed uh very very",
+      "timestamp": "03:00"
+    },
+    {
+      "start": 183.36,
+      "duration": 3.2,
+      "text": "developed uh skill set in model building",
+      "timestamp": "03:03"
+    },
+    {
+      "start": 186.56,
+      "duration": 2.16,
+      "text": "AI agent development or maybe these are",
+      "timestamp": "03:06"
+    },
+    {
+      "start": 188.72,
+      "duration": 1.68,
+      "text": "researchers that are doing their you",
+      "timestamp": "03:08"
+    },
+    {
+      "start": 190.4,
+      "duration": 3.52,
+      "text": "know bachelors masters PhDs in in AI a",
+      "timestamp": "03:10"
+    },
+    {
+      "start": 193.92,
+      "duration": 2.239,
+      "text": "lot of their contributions go into the",
+      "timestamp": "03:13"
+    },
+    {
+      "start": 196.159,
+      "duration": 1.841,
+      "text": "open source a lot of their contributions",
+      "timestamp": "03:16"
+    },
+    {
+      "start": 198.0,
+      "duration": 2.08,
+      "text": "go out there to conference papers and",
+      "timestamp": "03:18"
+    },
+    {
+      "start": 200.08,
+      "duration": 2.239,
+      "text": "the rewards for them are very simple the",
+      "timestamp": "03:20"
+    },
+    {
+      "start": 202.319,
+      "duration": 2.161,
+      "text": "rewards are stars on GitHub are you know",
+      "timestamp": "03:22"
+    },
+    {
+      "start": 204.48,
+      "duration": 2.72,
+      "text": "saves on hugging face and they're done",
+      "timestamp": "03:24"
+    },
+    {
+      "start": 207.2,
+      "duration": 2.08,
+      "text": "and then They do all this stuff in the",
+      "timestamp": "03:27"
+    },
+    {
+      "start": 209.28,
+      "duration": 2.56,
+      "text": "hopes of either becoming a professor if",
+      "timestamp": "03:29"
+    },
+    {
+      "start": 211.84,
+      "duration": 1.92,
+      "text": "you know they're valiant and you know",
+      "timestamp": "03:31"
+    },
+    {
+      "start": 213.76,
+      "duration": 2.24,
+      "text": "they they have a that that kind of set",
+      "timestamp": "03:33"
+    },
+    {
+      "start": 216.0,
+      "duration": 2.0,
+      "text": "moral compass or they go ahead and just",
+      "timestamp": "03:36"
+    },
+    {
+      "start": 218.0,
+      "duration": 2.72,
+      "text": "try and get hired by these very big few",
+      "timestamp": "03:38"
+    },
+    {
+      "start": 220.72,
+      "duration": 2.159,
+      "text": "closed source companies like OpenAI and",
+      "timestamp": "03:40"
+    },
+    {
+      "start": 222.879,
+      "duration": 2.241,
+      "text": "Entropic and Perplexity and there's kind",
+      "timestamp": "03:42"
+    },
+    {
+      "start": 225.12,
+      "duration": 1.679,
+      "text": "of nothing more to it there is",
+      "timestamp": "03:45"
+    },
+    {
+      "start": 226.799,
+      "duration": 2.321,
+      "text": "inherently an a very extractive",
+      "timestamp": "03:46"
+    },
+    {
+      "start": 229.12,
+      "duration": 1.92,
+      "text": "relationship between anything that",
+      "timestamp": "03:49"
+    },
+    {
+      "start": 231.04,
+      "duration": 2.88,
+      "text": "happens in AI centralizing the power",
+      "timestamp": "03:51"
+    },
+    {
+      "start": 233.92,
+      "duration": 1.92,
+      "text": "behind closed source doors and so",
+      "timestamp": "03:53"
+    },
+    {
+      "start": 235.84,
+      "duration": 2.56,
+      "text": "sentient was built with that in mind to",
+      "timestamp": "03:55"
+    },
+    {
+      "start": 238.4,
+      "duration": 2.64,
+      "text": "try and find a solution to a way that we",
+      "timestamp": "03:58"
+    },
+    {
+      "start": 241.04,
+      "duration": 2.08,
+      "text": "can bring the entire world to build AI",
+      "timestamp": "04:01"
+    },
+    {
+      "start": 243.12,
+      "duration": 1.92,
+      "text": "together and actually get rewarded for",
+      "timestamp": "04:03"
+    },
+    {
+      "start": 245.04,
+      "duration": 2.8,
+      "text": "that that effort so anybody from someone",
+      "timestamp": "04:05"
+    },
+    {
+      "start": 247.84,
+      "duration": 2.319,
+      "text": "with a very particular useful data set",
+      "timestamp": "04:07"
+    },
+    {
+      "start": 250.159,
+      "duration": 2.08,
+      "text": "for evaluations to somebody who's been",
+      "timestamp": "04:10"
+    },
+    {
+      "start": 252.239,
+      "duration": 2.08,
+      "text": "building models for years to somebody",
+      "timestamp": "04:12"
+    },
+    {
+      "start": 254.319,
+      "duration": 1.92,
+      "text": "with very hyper specialized knowledge",
+      "timestamp": "04:14"
+    },
+    {
+      "start": 256.239,
+      "duration": 1.84,
+      "text": "somewhere in University of Washington",
+      "timestamp": "04:16"
+    },
+    {
+      "start": 258.079,
+      "duration": 2.321,
+      "text": "Seattle or somebody at Cambridge or",
+      "timestamp": "04:18"
+    },
+    {
+      "start": 260.4,
+      "duration": 2.079,
+      "text": "somebody in Melbourne Australia any of",
+      "timestamp": "04:20"
+    },
+    {
+      "start": 262.479,
+      "duration": 1.681,
+      "text": "these people can come together and",
+      "timestamp": "04:22"
+    },
+    {
+      "start": 264.16,
+      "duration": 1.759,
+      "text": "contribute to building new models or",
+      "timestamp": "04:24"
+    },
+    {
+      "start": 265.919,
+      "duration": 1.521,
+      "text": "contribute to building just more",
+      "timestamp": "04:25"
+    },
+    {
+      "start": 267.44,
+      "duration": 2.72,
+      "text": "generically AI and be incentivized to do",
+      "timestamp": "04:27"
+    },
+    {
+      "start": 270.16,
+      "duration": 2.24,
+      "text": "that instead of just being incentivized",
+      "timestamp": "04:30"
+    },
+    {
+      "start": 272.4,
+      "duration": 2.16,
+      "text": "by by stars and downloads they'll be",
+      "timestamp": "04:32"
+    },
+    {
+      "start": 274.56,
+      "duration": 2.24,
+      "text": "incentivized by by some actually",
+      "timestamp": "04:34"
+    },
+    {
+      "start": 276.8,
+      "duration": 2.56,
+      "text": "monetary value so this system is what",
+      "timestamp": "04:36"
+    },
+    {
+      "start": 279.36,
+      "duration": 2.64,
+      "text": "Centenn has originally buil built to to",
+      "timestamp": "04:39"
+    },
+    {
+      "start": 282.0,
+      "duration": 2.08,
+      "text": "design and to think about and to go",
+      "timestamp": "04:42"
+    },
+    {
+      "start": 284.08,
+      "duration": 1.679,
+      "text": "towards and we're still going down the",
+      "timestamp": "04:44"
+    },
+    {
+      "start": 285.759,
+      "duration": 2.401,
+      "text": "direction our ultimate goal is aligned",
+      "timestamp": "04:45"
+    },
+    {
+      "start": 288.16,
+      "duration": 2.08,
+      "text": "open AGI that is built with community",
+      "timestamp": "04:48"
+    },
+    {
+      "start": 290.24,
+      "duration": 1.679,
+      "text": "where the community contributions are",
+      "timestamp": "04:50"
+    },
+    {
+      "start": 291.919,
+      "duration": 2.321,
+      "text": "awarded very simple goal right so you",
+      "timestamp": "04:51"
+    },
+    {
+      "start": 294.24,
+      "duration": 2.16,
+      "text": "just mentioned two different ways that",
+      "timestamp": "04:54"
+    },
+    {
+      "start": 296.4,
+      "duration": 2.4,
+      "text": "AI is built evaluations and then",
+      "timestamp": "04:56"
+    },
+    {
+      "start": 298.8,
+      "duration": 2.16,
+      "text": "building the model which there's a lot",
+      "timestamp": "04:58"
+    },
+    {
+      "start": 300.96,
+      "duration": 2.239,
+      "text": "of a lot of subtasks inside something",
+      "timestamp": "05:00"
+    },
+    {
+      "start": 303.199,
+      "duration": 2.241,
+      "text": "like that so how would you say like how",
+      "timestamp": "05:03"
+    },
+    {
+      "start": 305.44,
+      "duration": 2.24,
+      "text": "is AI being built like what's the role",
+      "timestamp": "05:05"
+    },
+    {
+      "start": 307.68,
+      "duration": 2.239,
+      "text": "for a community in building AI the role",
+      "timestamp": "05:07"
+    },
+    {
+      "start": 309.919,
+      "duration": 1.84,
+      "text": "of community for building is to take",
+      "timestamp": "05:09"
+    },
+    {
+      "start": 311.759,
+      "duration": 2.241,
+      "text": "over the entire building part right at",
+      "timestamp": "05:11"
+    },
+    {
+      "start": 314.0,
+      "duration": 1.52,
+      "text": "the end of the day you know when people",
+      "timestamp": "05:14"
+    },
+    {
+      "start": 315.52,
+      "duration": 1.76,
+      "text": "talk about something like centralized",
+      "timestamp": "05:15"
+    },
+    {
+      "start": 317.28,
+      "duration": 1.84,
+      "text": "compute versus decentralized compute the",
+      "timestamp": "05:17"
+    },
+    {
+      "start": 319.12,
+      "duration": 1.84,
+      "text": "role of decentralized compute is",
+      "timestamp": "05:19"
+    },
+    {
+      "start": 320.96,
+      "duration": 2.079,
+      "text": "important it's it's cheaper compute it's",
+      "timestamp": "05:20"
+    },
+    {
+      "start": 323.039,
+      "duration": 1.841,
+      "text": "more available it creates a good",
+      "timestamp": "05:23"
+    },
+    {
+      "start": 324.88,
+      "duration": 2.24,
+      "text": "marketplace for people to you know to to",
+      "timestamp": "05:24"
+    },
+    {
+      "start": 327.12,
+      "duration": 2.16,
+      "text": "lend their hardware and other things um",
+      "timestamp": "05:27"
+    },
+    {
+      "start": 329.28,
+      "duration": 2.32,
+      "text": "but there's nothing inherently different",
+      "timestamp": "05:29"
+    },
+    {
+      "start": 331.6,
+      "duration": 2.08,
+      "text": "about the compute that's decentralized",
+      "timestamp": "05:31"
+    },
+    {
+      "start": 333.68,
+      "duration": 1.92,
+      "text": "and the compute that's centralized with",
+      "timestamp": "05:33"
+    },
+    {
+      "start": 335.6,
+      "duration": 2.48,
+      "text": "data it's different with data if you",
+      "timestamp": "05:35"
+    },
+    {
+      "start": 338.08,
+      "duration": 1.36,
+      "text": "have decentralized data and",
+      "timestamp": "05:38"
+    },
+    {
+      "start": 339.44,
+      "duration": 1.84,
+      "text": "decentralized effort towards model",
+      "timestamp": "05:39"
+    },
+    {
+      "start": 341.28,
+      "duration": 2.0,
+      "text": "building what you're working with is is",
+      "timestamp": "05:41"
+    },
+    {
+      "start": 343.28,
+      "duration": 2.96,
+      "text": "you have a set of you know evaluation",
+      "timestamp": "05:43"
+    },
+    {
+      "start": 346.24,
+      "duration": 4.04,
+      "text": "sets data sets a set of experiences and",
+      "timestamp": "05:46"
+    },
+    {
+      "start": 350.28,
+      "duration": 3.16,
+      "text": "expertises that are very hard to collect",
+      "timestamp": "05:50"
+    },
+    {
+      "start": 353.44,
+      "duration": 2.24,
+      "text": "in a centralized way a closed source",
+      "timestamp": "05:53"
+    },
+    {
+      "start": 355.68,
+      "duration": 2.56,
+      "text": "company would never be able to scale in",
+      "timestamp": "05:55"
+    },
+    {
+      "start": 358.24,
+      "duration": 2.16,
+      "text": "terms of the possible quality of data",
+      "timestamp": "05:58"
+    },
+    {
+      "start": 360.4,
+      "duration": 2.48,
+      "text": "that is achievable through decentralized",
+      "timestamp": "06:00"
+    },
+    {
+      "start": 362.88,
+      "duration": 1.68,
+      "text": "data aggregation and decentralized",
+      "timestamp": "06:02"
+    },
+    {
+      "start": 364.56,
+      "duration": 3.12,
+      "text": "training um from from different people's",
+      "timestamp": "06:04"
+    },
+    {
+      "start": 367.68,
+      "duration": 3.44,
+      "text": "data sources and so that inherently is a",
+      "timestamp": "06:07"
+    },
+    {
+      "start": 371.12,
+      "duration": 3.28,
+      "text": "very good bet to take first of all",
+      "timestamp": "06:11"
+    },
+    {
+      "start": 374.4,
+      "duration": 2.72,
+      "text": "second of all the entire model building",
+      "timestamp": "06:14"
+    },
+    {
+      "start": 377.12,
+      "duration": 2.4,
+      "text": "process when we talk about this is a",
+      "timestamp": "06:17"
+    },
+    {
+      "start": 379.52,
+      "duration": 1.44,
+      "text": "model that was trained on the entirety",
+      "timestamp": "06:19"
+    },
+    {
+      "start": 380.96,
+      "duration": 1.84,
+      "text": "of that was pre-trained on the entirety",
+      "timestamp": "06:20"
+    },
+    {
+      "start": 382.8,
+      "duration": 2.08,
+      "text": "of internet and then there is some",
+      "timestamp": "06:22"
+    },
+    {
+      "start": 384.88,
+      "duration": 2.4,
+      "text": "fine-tuning on these specific tasks and",
+      "timestamp": "06:24"
+    },
+    {
+      "start": 387.28,
+      "duration": 2.08,
+      "text": "these extra data there's there's data",
+      "timestamp": "06:27"
+    },
+    {
+      "start": 389.36,
+      "duration": 1.839,
+      "text": "mixing and there's reinforcement",
+      "timestamp": "06:29"
+    },
+    {
+      "start": 391.199,
+      "duration": 2.081,
+      "text": "learning on these axes and whatever",
+      "timestamp": "06:31"
+    },
+    {
+      "start": 393.28,
+      "duration": 1.84,
+      "text": "right and and you get that final model",
+      "timestamp": "06:33"
+    },
+    {
+      "start": 395.12,
+      "duration": 1.919,
+      "text": "out and then you have the final",
+      "timestamp": "06:35"
+    },
+    {
+      "start": 397.039,
+      "duration": 2.241,
+      "text": "evaluations and you do a little bit more",
+      "timestamp": "06:37"
+    },
+    {
+      "start": 399.28,
+      "duration": 2.0,
+      "text": "post- trainining afterwards to to make",
+      "timestamp": "06:39"
+    },
+    {
+      "start": 401.28,
+      "duration": 1.359,
+      "text": "sure that it's in the state that in",
+      "timestamp": "06:41"
+    },
+    {
+      "start": 402.639,
+      "duration": 1.521,
+      "text": "which you want to release it that",
+      "timestamp": "06:42"
+    },
+    {
+      "start": 404.16,
+      "duration": 2.4,
+      "text": "process for a closed source company is",
+      "timestamp": "06:44"
+    },
+    {
+      "start": 406.56,
+      "duration": 2.079,
+      "text": "not a very secret process it's a very",
+      "timestamp": "06:46"
+    },
+    {
+      "start": 408.639,
+      "duration": 2.161,
+      "text": "experimental process right it's a lot of",
+      "timestamp": "06:48"
+    },
+    {
+      "start": 410.8,
+      "duration": 2.16,
+      "text": "trial and error but the process is more",
+      "timestamp": "06:50"
+    },
+    {
+      "start": 412.96,
+      "duration": 1.84,
+      "text": "or less established bringing that",
+      "timestamp": "06:52"
+    },
+    {
+      "start": 414.8,
+      "duration": 2.239,
+      "text": "process into a centralized world and",
+      "timestamp": "06:54"
+    },
+    {
+      "start": 417.039,
+      "duration": 3.201,
+      "text": "making that that process be completely",
+      "timestamp": "06:57"
+    },
+    {
+      "start": 420.24,
+      "duration": 1.84,
+      "text": "community contributed completely",
+      "timestamp": "07:00"
+    },
+    {
+      "start": 422.08,
+      "duration": 2.0,
+      "text": "community built is one process that we",
+      "timestamp": "07:02"
+    },
+    {
+      "start": 424.08,
+      "duration": 2.48,
+      "text": "can all think about trying to get to so",
+      "timestamp": "07:04"
+    },
+    {
+      "start": 426.56,
+      "duration": 2.72,
+      "text": "pre-training on the internet of data we",
+      "timestamp": "07:06"
+    },
+    {
+      "start": 429.28,
+      "duration": 2.24,
+      "text": "can do done step one we can do the check",
+      "timestamp": "07:09"
+    },
+    {
+      "start": 431.52,
+      "duration": 2.239,
+      "text": "mark supervised fine-tuning and",
+      "timestamp": "07:11"
+    },
+    {
+      "start": 433.759,
+      "duration": 1.44,
+      "text": "reinforcement learning on different",
+      "timestamp": "07:13"
+    },
+    {
+      "start": 435.199,
+      "duration": 1.361,
+      "text": "things this is where a lot of the",
+      "timestamp": "07:15"
+    },
+    {
+      "start": 436.56,
+      "duration": 2.079,
+      "text": "community data sets as I said can come",
+      "timestamp": "07:16"
+    },
+    {
+      "start": 438.639,
+      "duration": 2.161,
+      "text": "in and then the evaluation is also",
+      "timestamp": "07:18"
+    },
+    {
+      "start": 440.8,
+      "duration": 2.08,
+      "text": "important how do we know whether it",
+      "timestamp": "07:20"
+    },
+    {
+      "start": 442.88,
+      "duration": 2.319,
+      "text": "works well on something if it may have",
+      "timestamp": "07:22"
+    },
+    {
+      "start": 445.199,
+      "duration": 1.601,
+      "text": "been leaked into the training data you",
+      "timestamp": "07:25"
+    },
+    {
+      "start": 446.8,
+      "duration": 1.679,
+      "text": "know the a lot of allegations came out",
+      "timestamp": "07:26"
+    },
+    {
+      "start": 448.479,
+      "duration": 2.081,
+      "text": "with llama for maverick that a bunch of",
+      "timestamp": "07:28"
+    },
+    {
+      "start": 450.56,
+      "duration": 2.8,
+      "text": "the training data um that's you know a",
+      "timestamp": "07:30"
+    },
+    {
+      "start": 453.36,
+      "duration": 1.839,
+      "text": "lot of the was poisoned by some things",
+      "timestamp": "07:33"
+    },
+    {
+      "start": 455.199,
+      "duration": 2.161,
+      "text": "in the evaluation set and so we can't",
+      "timestamp": "07:35"
+    },
+    {
+      "start": 457.36,
+      "duration": 1.76,
+      "text": "trust the numbers of of llama for",
+      "timestamp": "07:37"
+    },
+    {
+      "start": 459.12,
+      "duration": 2.079,
+      "text": "maverick then there's obviously the vibe",
+      "timestamp": "07:39"
+    },
+    {
+      "start": 461.199,
+      "duration": 1.44,
+      "text": "check at the end of the day you check it",
+      "timestamp": "07:41"
+    },
+    {
+      "start": 462.639,
+      "duration": 1.601,
+      "text": "and then you suddenly realize oh yeah",
+      "timestamp": "07:42"
+    },
+    {
+      "start": 464.24,
+      "duration": 1.28,
+      "text": "it's actually not as good of a model as",
+      "timestamp": "07:44"
+    },
+    {
+      "start": 465.52,
+      "duration": 2.48,
+      "text": "the benchmark say it is and so this kind",
+      "timestamp": "07:45"
+    },
+    {
+      "start": 468.0,
+      "duration": 1.599,
+      "text": "of working with limited information",
+      "timestamp": "07:48"
+    },
+    {
+      "start": 469.599,
+      "duration": 1.681,
+      "text": "working with blocked information",
+      "timestamp": "07:49"
+    },
+    {
+      "start": 471.28,
+      "duration": 2.319,
+      "text": "unavailable information um in the",
+      "timestamp": "07:51"
+    },
+    {
+      "start": 473.599,
+      "duration": 2.081,
+      "text": "decentralized world where people have",
+      "timestamp": "07:53"
+    },
+    {
+      "start": 475.68,
+      "duration": 2.16,
+      "text": "something valuable that is just to them",
+      "timestamp": "07:55"
+    },
+    {
+      "start": 477.84,
+      "duration": 2.24,
+      "text": "gives that edge to decentralized",
+      "timestamp": "07:57"
+    },
+    {
+      "start": 480.08,
+      "duration": 2.88,
+      "text": "training and decentralized data that a",
+      "timestamp": "08:00"
+    },
+    {
+      "start": 482.96,
+      "duration": 2.56,
+      "text": "lot of other decentralized premises",
+      "timestamp": "08:02"
+    },
+    {
+      "start": 485.52,
+      "duration": 1.6,
+      "text": "where other decentralized premises don't",
+      "timestamp": "08:05"
+    },
+    {
+      "start": 487.12,
+      "duration": 2.0,
+      "text": "really have as much as much moat so this",
+      "timestamp": "08:07"
+    },
+    {
+      "start": 489.12,
+      "duration": 1.28,
+      "text": "is why decentralized training and",
+      "timestamp": "08:09"
+    },
+    {
+      "start": 490.4,
+      "duration": 2.16,
+      "text": "decentralized data aggregation I I I",
+      "timestamp": "08:10"
+    },
+    {
+      "start": 492.56,
+      "duration": 1.68,
+      "text": "completely believe in okay so this is",
+      "timestamp": "08:12"
+    },
+    {
+      "start": 494.24,
+      "duration": 1.04,
+      "text": "the difference and this is where",
+      "timestamp": "08:14"
+    },
+    {
+      "start": 495.28,
+      "duration": 2.08,
+      "text": "community comes in the whole process you",
+      "timestamp": "08:15"
+    },
+    {
+      "start": 497.36,
+      "duration": 1.04,
+      "text": "can imagine being completely",
+      "timestamp": "08:17"
+    },
+    {
+      "start": 498.4,
+      "duration": 2.32,
+      "text": "decentralized right okay yeah that makes",
+      "timestamp": "08:18"
+    },
+    {
+      "start": 500.72,
+      "duration": 2.64,
+      "text": "sense to me in a fourthcoming episode or",
+      "timestamp": "08:20"
+    },
+    {
+      "start": 503.36,
+      "duration": 1.519,
+      "text": "actually maybe the one that I will",
+      "timestamp": "08:23"
+    },
+    {
+      "start": 504.879,
+      "duration": 2.401,
+      "text": "release before this one I was looking at",
+      "timestamp": "08:24"
+    },
+    {
+      "start": 507.28,
+      "duration": 3.359,
+      "text": "how we're seeing more like aentic AI",
+      "timestamp": "08:27"
+    },
+    {
+      "start": 510.639,
+      "duration": 2.32,
+      "text": "applications where being able to observe",
+      "timestamp": "08:30"
+    },
+    {
+      "start": 512.959,
+      "duration": 3.041,
+      "text": "the users desktop for example like",
+      "timestamp": "08:32"
+    },
+    {
+      "start": 516.0,
+      "duration": 2.399,
+      "text": "Copilot for Microsoft Windows like",
+      "timestamp": "08:36"
+    },
+    {
+      "start": 518.399,
+      "duration": 2.481,
+      "text": "you'll be able to allow Copilot to see",
+      "timestamp": "08:38"
+    },
+    {
+      "start": 520.88,
+      "duration": 2.159,
+      "text": "your screen while you get answers i've",
+      "timestamp": "08:40"
+    },
+    {
+      "start": 523.039,
+      "duration": 1.92,
+      "text": "been wondering especially as like these",
+      "timestamp": "08:43"
+    },
+    {
+      "start": 524.959,
+      "duration": 2.0,
+      "text": "multimodal models that handle video",
+      "timestamp": "08:44"
+    },
+    {
+      "start": 526.959,
+      "duration": 2.56,
+      "text": "really well been wondering as that gets",
+      "timestamp": "08:46"
+    },
+    {
+      "start": 529.519,
+      "duration": 2.801,
+      "text": "more and more powerful if there's not",
+      "timestamp": "08:49"
+    },
+    {
+      "start": 532.32,
+      "duration": 2.72,
+      "text": "maybe a risk of like inadvertently or",
+      "timestamp": "08:52"
+    },
+    {
+      "start": 535.04,
+      "duration": 2.08,
+      "text": "through an agreement providing a lot of",
+      "timestamp": "08:55"
+    },
+    {
+      "start": 537.12,
+      "duration": 1.839,
+      "text": "data like in a way that maybe you're not",
+      "timestamp": "08:57"
+    },
+    {
+      "start": 538.959,
+      "duration": 1.44,
+      "text": "totally clear that that's what you're",
+      "timestamp": "08:58"
+    },
+    {
+      "start": 540.399,
+      "duration": 2.641,
+      "text": "doing amazing question this is the",
+      "timestamp": "09:00"
+    },
+    {
+      "start": 543.04,
+      "duration": 2.16,
+      "text": "reason why Department of Defense or",
+      "timestamp": "09:03"
+    },
+    {
+      "start": 545.2,
+      "duration": 2.0,
+      "text": "medical facilities or a lot of other",
+      "timestamp": "09:05"
+    },
+    {
+      "start": 547.2,
+      "duration": 2.56,
+      "text": "companies are not allowed to use CHP is",
+      "timestamp": "09:07"
+    },
+    {
+      "start": 549.76,
+      "duration": 2.68,
+      "text": "because at the end of the day whatever",
+      "timestamp": "09:09"
+    },
+    {
+      "start": 552.44,
+      "duration": 1.88,
+      "text": "information I'm going to use your",
+      "timestamp": "09:12"
+    },
+    {
+      "start": 554.32,
+      "duration": 3.04,
+      "text": "example of yeah please desktop control",
+      "timestamp": "09:14"
+    },
+    {
+      "start": 557.36,
+      "duration": 1.76,
+      "text": "right what it's doing is it's through an",
+      "timestamp": "09:17"
+    },
+    {
+      "start": 559.12,
+      "duration": 2.24,
+      "text": "SDK collecting information about what's",
+      "timestamp": "09:19"
+    },
+    {
+      "start": 561.36,
+      "duration": 2.32,
+      "text": "happening on your laptop and then it's",
+      "timestamp": "09:21"
+    },
+    {
+      "start": 563.68,
+      "duration": 1.92,
+      "text": "putting that into one information",
+      "timestamp": "09:23"
+    },
+    {
+      "start": 565.6,
+      "duration": 2.4,
+      "text": "package and it's sending that out to the",
+      "timestamp": "09:25"
+    },
+    {
+      "start": 568.0,
+      "duration": 1.76,
+      "text": "servers that are running the model and",
+      "timestamp": "09:28"
+    },
+    {
+      "start": 569.76,
+      "duration": 1.6,
+      "text": "then the model looks at that information",
+      "timestamp": "09:29"
+    },
+    {
+      "start": 571.36,
+      "duration": 2.08,
+      "text": "and it does its own model thing it gives",
+      "timestamp": "09:31"
+    },
+    {
+      "start": 573.44,
+      "duration": 2.079,
+      "text": "the output and then the system does",
+      "timestamp": "09:33"
+    },
+    {
+      "start": 575.519,
+      "duration": 1.681,
+      "text": "something based on the output but the",
+      "timestamp": "09:35"
+    },
+    {
+      "start": 577.2,
+      "duration": 2.0,
+      "text": "fact of the matter is data was collected",
+      "timestamp": "09:37"
+    },
+    {
+      "start": 579.2,
+      "duration": 2.16,
+      "text": "about what was happening on your desktop",
+      "timestamp": "09:39"
+    },
+    {
+      "start": 581.36,
+      "duration": 1.44,
+      "text": "and it was sent to the server running",
+      "timestamp": "09:41"
+    },
+    {
+      "start": 582.8,
+      "duration": 2.24,
+      "text": "the model if somebody like OpenAI is",
+      "timestamp": "09:42"
+    },
+    {
+      "start": 585.04,
+      "duration": 1.359,
+      "text": "running the model guess what they see",
+      "timestamp": "09:45"
+    },
+    {
+      "start": 586.399,
+      "duration": 2.641,
+      "text": "all of your data so 100% this is just",
+      "timestamp": "09:46"
+    },
+    {
+      "start": 589.04,
+      "duration": 2.32,
+      "text": "how it works and and this is why anybody",
+      "timestamp": "09:49"
+    },
+    {
+      "start": 591.36,
+      "duration": 2.4,
+      "text": "working for a company or anybody even as",
+      "timestamp": "09:51"
+    },
+    {
+      "start": 593.76,
+      "duration": 2.56,
+      "text": "an individual worried about data privacy",
+      "timestamp": "09:53"
+    },
+    {
+      "start": 596.32,
+      "duration": 2.639,
+      "text": "they all opt for self-hosting so you",
+      "timestamp": "09:56"
+    },
+    {
+      "start": 598.959,
+      "duration": 1.841,
+      "text": "host the models yourself on your own",
+      "timestamp": "09:58"
+    },
+    {
+      "start": 600.8,
+      "duration": 2.64,
+      "text": "hardware and so your data never leaves",
+      "timestamp": "10:00"
+    },
+    {
+      "start": 603.44,
+      "duration": 3.12,
+      "text": "your own machine so yes 100% yeah",
+      "timestamp": "10:03"
+    },
+    {
+      "start": 606.56,
+      "duration": 2.24,
+      "text": "definitely my expectation is that",
+      "timestamp": "10:06"
+    },
+    {
+      "start": 608.8,
+      "duration": 1.68,
+      "text": "especially since these models are",
+      "timestamp": "10:08"
+    },
+    {
+      "start": 610.48,
+      "duration": 2.24,
+      "text": "getting so much better at connecting the",
+      "timestamp": "10:10"
+    },
+    {
+      "start": 612.72,
+      "duration": 2.0,
+      "text": "one I was looking at recently was um",
+      "timestamp": "10:12"
+    },
+    {
+      "start": 614.72,
+      "duration": 4.08,
+      "text": "Gemini 2.5 Pro google built like a demo",
+      "timestamp": "10:14"
+    },
+    {
+      "start": 618.8,
+      "duration": 2.64,
+      "text": "where they give it a YouTube URL and a",
+      "timestamp": "10:18"
+    },
+    {
+      "start": 621.44,
+      "duration": 2.959,
+      "text": "prompt and then it uses the transcript",
+      "timestamp": "10:21"
+    },
+    {
+      "start": 624.399,
+      "duration": 2.081,
+      "text": "of the audio but then act then also it's",
+      "timestamp": "10:24"
+    },
+    {
+      "start": 626.48,
+      "duration": 2.4,
+      "text": "like computer vision capabilities to",
+      "timestamp": "10:26"
+    },
+    {
+      "start": 628.88,
+      "duration": 3.36,
+      "text": "like to build like a a custom learning",
+      "timestamp": "10:28"
+    },
+    {
+      "start": 632.24,
+      "duration": 2.0,
+      "text": "like application based on what's the",
+      "timestamp": "10:32"
+    },
+    {
+      "start": 634.24,
+      "duration": 1.76,
+      "text": "content of the video and like it's so",
+      "timestamp": "10:34"
+    },
+    {
+      "start": 636.0,
+      "duration": 2.959,
+      "text": "fast and so it's so good in a way that",
+      "timestamp": "10:36"
+    },
+    {
+      "start": 638.959,
+      "duration": 2.801,
+      "text": "like 18 months ago that wasn't possible",
+      "timestamp": "10:38"
+    },
+    {
+      "start": 641.76,
+      "duration": 1.759,
+      "text": "i'm expecting that we're going to see a",
+      "timestamp": "10:41"
+    },
+    {
+      "start": 643.519,
+      "duration": 2.081,
+      "text": "lot more of that and there's even some",
+      "timestamp": "10:43"
+    },
+    {
+      "start": 645.6,
+      "duration": 2.72,
+      "text": "services that I use personally where um",
+      "timestamp": "10:45"
+    },
+    {
+      "start": 648.32,
+      "duration": 1.6,
+      "text": "like SoundCloud for example where I",
+      "timestamp": "10:48"
+    },
+    {
+      "start": 649.92,
+      "duration": 1.76,
+      "text": "upload I upload a lot of stuff to",
+      "timestamp": "10:49"
+    },
+    {
+      "start": 651.68,
+      "duration": 1.76,
+      "text": "SoundCloud recently they've changed",
+      "timestamp": "10:51"
+    },
+    {
+      "start": 653.44,
+      "duration": 2.16,
+      "text": "their terms of service to allow user",
+      "timestamp": "10:53"
+    },
+    {
+      "start": 655.6,
+      "duration": 2.16,
+      "text": "uploads to be used for AI training",
+      "timestamp": "10:55"
+    },
+    {
+      "start": 657.76,
+      "duration": 2.56,
+      "text": "that's one toos change that I know about",
+      "timestamp": "10:57"
+    },
+    {
+      "start": 660.32,
+      "duration": 1.28,
+      "text": "how many others are there are there",
+      "timestamp": "11:00"
+    },
+    {
+      "start": 661.6,
+      "duration": 2.0,
+      "text": "going to be that I don't know about yeah",
+      "timestamp": "11:01"
+    },
+    {
+      "start": 663.6,
+      "duration": 1.84,
+      "text": "yeah of course because the only way you",
+      "timestamp": "11:03"
+    },
+    {
+      "start": 665.44,
+      "duration": 2.32,
+      "text": "perceive it as a end user is you go on",
+      "timestamp": "11:05"
+    },
+    {
+      "start": 667.76,
+      "duration": 2.4,
+      "text": "the platform and there's a little banner",
+      "timestamp": "11:07"
+    },
+    {
+      "start": 670.16,
+      "duration": 1.76,
+      "text": "if even right there's a little banner",
+      "timestamp": "11:10"
+    },
+    {
+      "start": 671.92,
+      "duration": 1.44,
+      "text": "that says we changed our terms of",
+      "timestamp": "11:11"
+    },
+    {
+      "start": 673.36,
+      "duration": 2.32,
+      "text": "service by continuing to this website",
+      "timestamp": "11:13"
+    },
+    {
+      "start": 675.68,
+      "duration": 1.52,
+      "text": "you agree to them and you never really",
+      "timestamp": "11:15"
+    },
+    {
+      "start": 677.2,
+      "duration": 1.6,
+      "text": "know how much information is collected",
+      "timestamp": "11:17"
+    },
+    {
+      "start": 678.8,
+      "duration": 2.159,
+      "text": "shocker all of your information is being",
+      "timestamp": "11:18"
+    },
+    {
+      "start": 680.959,
+      "duration": 1.681,
+      "text": "collected yeah of course if you didn't",
+      "timestamp": "11:20"
+    },
+    {
+      "start": 682.64,
+      "duration": 2.48,
+      "text": "realize Yeah well yeah i think I think a",
+      "timestamp": "11:22"
+    },
+    {
+      "start": 685.12,
+      "duration": 2.56,
+      "text": "lot of people don't though like it's",
+      "timestamp": "11:25"
+    },
+    {
+      "start": 687.68,
+      "duration": 1.36,
+      "text": "worth point it's worth pointing out that",
+      "timestamp": "11:27"
+    },
+    {
+      "start": 689.04,
+      "duration": 1.68,
+      "text": "there's there's lots of information",
+      "timestamp": "11:29"
+    },
+    {
+      "start": 690.72,
+      "duration": 1.679,
+      "text": "that's not just what you enter in the",
+      "timestamp": "11:30"
+    },
+    {
+      "start": 692.399,
+      "duration": 2.081,
+      "text": "text box but like uh the time of day",
+      "timestamp": "11:32"
+    },
+    {
+      "start": 694.48,
+      "duration": 2.16,
+      "text": "where you are what you open last the",
+      "timestamp": "11:34"
+    },
+    {
+      "start": 696.64,
+      "duration": 1.68,
+      "text": "last link that you clicked what cookies",
+      "timestamp": "11:36"
+    },
+    {
+      "start": 698.32,
+      "duration": 2.959,
+      "text": "you have like yeah PSA to everybody",
+      "timestamp": "11:38"
+    },
+    {
+      "start": 701.279,
+      "duration": 1.521,
+      "text": "watching this podcast the moment that",
+      "timestamp": "11:41"
+    },
+    {
+      "start": 702.8,
+      "duration": 2.32,
+      "text": "you enter you know my friend Lucy and",
+      "timestamp": "11:42"
+    },
+    {
+      "start": 705.12,
+      "duration": 2.08,
+      "text": "her dog and we're going to this event",
+      "timestamp": "11:45"
+    },
+    {
+      "start": 707.2,
+      "duration": 2.639,
+      "text": "tomorrow into Chad GBT of course they",
+      "timestamp": "11:47"
+    },
+    {
+      "start": 709.839,
+      "duration": 1.921,
+      "text": "know and obviously they do some some",
+      "timestamp": "11:49"
+    },
+    {
+      "start": 711.76,
+      "duration": 1.92,
+      "text": "data cleaning and everything but it ends",
+      "timestamp": "11:51"
+    },
+    {
+      "start": 713.68,
+      "duration": 1.839,
+      "text": "up in in the analytics and ends up in",
+      "timestamp": "11:53"
+    },
+    {
+      "start": 715.519,
+      "duration": 1.921,
+      "text": "the training data it ends up everywhere",
+      "timestamp": "11:55"
+    },
+    {
+      "start": 717.44,
+      "duration": 1.68,
+      "text": "this is what you're sharing with OpenAI",
+      "timestamp": "11:57"
+    },
+    {
+      "start": 719.12,
+      "duration": 2.64,
+      "text": "by using CHIGBT so be very careful i'm",
+      "timestamp": "11:59"
+    },
+    {
+      "start": 721.76,
+      "duration": 1.28,
+      "text": "not saying don't use those products but",
+      "timestamp": "12:01"
+    },
+    {
+      "start": 723.04,
+      "duration": 1.76,
+      "text": "I'm saying be careful with what you ask",
+      "timestamp": "12:03"
+    },
+    {
+      "start": 724.8,
+      "duration": 2.08,
+      "text": "yeah definitely i think that's my my",
+      "timestamp": "12:04"
+    },
+    {
+      "start": 726.88,
+      "duration": 2.0,
+      "text": "position as well like it's okay to",
+      "timestamp": "12:06"
+    },
+    {
+      "start": 728.88,
+      "duration": 1.519,
+      "text": "sometimes make these trade-offs but you",
+      "timestamp": "12:08"
+    },
+    {
+      "start": 730.399,
+      "duration": 1.68,
+      "text": "you should be aware of of the trade-offs",
+      "timestamp": "12:10"
+    },
+    {
+      "start": 732.079,
+      "duration": 1.601,
+      "text": "that you're making so I think you made a",
+      "timestamp": "12:12"
+    },
+    {
+      "start": 733.68,
+      "duration": 2.04,
+      "text": "great and multifaceted argument for",
+      "timestamp": "12:13"
+    },
+    {
+      "start": 735.72,
+      "duration": 2.84,
+      "text": "decentralization and uh and the value of",
+      "timestamp": "12:15"
+    },
+    {
+      "start": 738.56,
+      "duration": 2.079,
+      "text": "like community contributions towards",
+      "timestamp": "12:18"
+    },
+    {
+      "start": 740.639,
+      "duration": 2.241,
+      "text": "pushing AI forward so now I want to get",
+      "timestamp": "12:20"
+    },
+    {
+      "start": 742.88,
+      "duration": 2.24,
+      "text": "a little bit more specific and we'll and",
+      "timestamp": "12:22"
+    },
+    {
+      "start": 745.12,
+      "duration": 3.44,
+      "text": "talk about like how AI agents use models",
+      "timestamp": "12:25"
+    },
+    {
+      "start": 748.56,
+      "duration": 1.839,
+      "text": "like and particularly the ones that",
+      "timestamp": "12:28"
+    },
+    {
+      "start": 750.399,
+      "duration": 1.921,
+      "text": "sentient is working on like why does an",
+      "timestamp": "12:30"
+    },
+    {
+      "start": 752.32,
+      "duration": 2.56,
+      "text": "AI agent need need more than one model",
+      "timestamp": "12:32"
+    },
+    {
+      "start": 754.88,
+      "duration": 1.68,
+      "text": "so to be very clear right this",
+      "timestamp": "12:34"
+    },
+    {
+      "start": 756.56,
+      "duration": 1.76,
+      "text": "discussion about this decentralized",
+      "timestamp": "12:36"
+    },
+    {
+      "start": 758.32,
+      "duration": 2.16,
+      "text": "training and everything this is purely",
+      "timestamp": "12:38"
+    },
+    {
+      "start": 760.48,
+      "duration": 2.479,
+      "text": "about models model and an agent again",
+      "timestamp": "12:40"
+    },
+    {
+      "start": 762.959,
+      "duration": 1.841,
+      "text": "depending on the audience right I I",
+      "timestamp": "12:42"
+    },
+    {
+      "start": 764.8,
+      "duration": 2.32,
+      "text": "would like to make it clear an agent is",
+      "timestamp": "12:44"
+    },
+    {
+      "start": 767.12,
+      "duration": 2.159,
+      "text": "just a piece of code that at some point",
+      "timestamp": "12:47"
+    },
+    {
+      "start": 769.279,
+      "duration": 2.24,
+      "text": "makes decisions based on bottle output",
+      "timestamp": "12:49"
+    },
+    {
+      "start": 771.519,
+      "duration": 2.241,
+      "text": "now that's a very loose definition",
+      "timestamp": "12:51"
+    },
+    {
+      "start": 773.76,
+      "duration": 2.48,
+      "text": "there's tryhards and dieards that will",
+      "timestamp": "12:53"
+    },
+    {
+      "start": 776.24,
+      "duration": 2.0,
+      "text": "say there's agents and there's AI",
+      "timestamp": "12:56"
+    },
+    {
+      "start": 778.24,
+      "duration": 1.68,
+      "text": "workflows and they're a different thing",
+      "timestamp": "12:58"
+    },
+    {
+      "start": 779.92,
+      "duration": 1.44,
+      "text": "and they are a different thing but for",
+      "timestamp": "12:59"
+    },
+    {
+      "start": 781.36,
+      "duration": 1.68,
+      "text": "the purposes of this conversation for",
+      "timestamp": "13:01"
+    },
+    {
+      "start": 783.04,
+      "duration": 1.68,
+      "text": "the purposes of you know common",
+      "timestamp": "13:03"
+    },
+    {
+      "start": 784.72,
+      "duration": 2.0,
+      "text": "conversation we're just going to say any",
+      "timestamp": "13:04"
+    },
+    {
+      "start": 786.72,
+      "duration": 2.48,
+      "text": "piece of code that just calls an LLM it",
+      "timestamp": "13:06"
+    },
+    {
+      "start": 789.2,
+      "duration": 2.8,
+      "text": "makes some decisions is an agent so why",
+      "timestamp": "13:09"
+    },
+    {
+      "start": 792.0,
+      "duration": 2.639,
+      "text": "do agents use multiple models well an",
+      "timestamp": "13:12"
+    },
+    {
+      "start": 794.639,
+      "duration": 2.481,
+      "text": "agent as a piece of code might have to",
+      "timestamp": "13:14"
+    },
+    {
+      "start": 797.12,
+      "duration": 3.6,
+      "text": "do multiple tasks in response to some",
+      "timestamp": "13:17"
+    },
+    {
+      "start": 800.72,
+      "duration": 1.84,
+      "text": "prompt in response to some request from",
+      "timestamp": "13:20"
+    },
+    {
+      "start": 802.56,
+      "duration": 2.079,
+      "text": "the user so if the user asks can you",
+      "timestamp": "13:22"
+    },
+    {
+      "start": 804.639,
+      "duration": 2.841,
+      "text": "give me",
+      "timestamp": "13:24"
+    },
+    {
+      "start": 807.48,
+      "duration": 3.32,
+      "text": "um can you give me the latest you know",
+      "timestamp": "13:27"
+    },
+    {
+      "start": 810.8,
+      "duration": 3.76,
+      "text": "price of BTC and then make me a chart of",
+      "timestamp": "13:30"
+    },
+    {
+      "start": 814.56,
+      "duration": 2.719,
+      "text": "the last month of BTC price so there's",
+      "timestamp": "13:34"
+    },
+    {
+      "start": 817.279,
+      "duration": 1.761,
+      "text": "kind of two parts one is you have to",
+      "timestamp": "13:37"
+    },
+    {
+      "start": 819.04,
+      "duration": 2.479,
+      "text": "figure out the the data for the price of",
+      "timestamp": "13:39"
+    },
+    {
+      "start": 821.519,
+      "duration": 2.241,
+      "text": "BTC over the past month and then the",
+      "timestamp": "13:41"
+    },
+    {
+      "start": 823.76,
+      "duration": 1.12,
+      "text": "second part is you have to make the",
+      "timestamp": "13:43"
+    },
+    {
+      "start": 824.88,
+      "duration": 2.24,
+      "text": "graph the first one might be you know",
+      "timestamp": "13:44"
+    },
+    {
+      "start": 827.12,
+      "duration": 2.32,
+      "text": "your piece of code in your agent goes",
+      "timestamp": "13:47"
+    },
+    {
+      "start": 829.44,
+      "duration": 2.88,
+      "text": "out and it makes a call to a certain API",
+      "timestamp": "13:49"
+    },
+    {
+      "start": 832.32,
+      "duration": 2.72,
+      "text": "or maybe it goes and does a search on a",
+      "timestamp": "13:52"
+    },
+    {
+      "start": 835.04,
+      "duration": 1.44,
+      "text": "you know certain with a certain search",
+      "timestamp": "13:55"
+    },
+    {
+      "start": 836.48,
+      "duration": 1.68,
+      "text": "engine that's optimized for it it gives",
+      "timestamp": "13:56"
+    },
+    {
+      "start": 838.16,
+      "duration": 2.08,
+      "text": "you back that information then that",
+      "timestamp": "13:58"
+    },
+    {
+      "start": 840.24,
+      "duration": 2.48,
+      "text": "information has to be some code has to",
+      "timestamp": "14:00"
+    },
+    {
+      "start": 842.72,
+      "duration": 1.76,
+      "text": "be written to process this information",
+      "timestamp": "14:02"
+    },
+    {
+      "start": 844.48,
+      "duration": 3.919,
+      "text": "that first decision to make the API call",
+      "timestamp": "14:04"
+    },
+    {
+      "start": 848.399,
+      "duration": 2.481,
+      "text": "to grab the data has to be determined by",
+      "timestamp": "14:08"
+    },
+    {
+      "start": 850.88,
+      "duration": 2.16,
+      "text": "an LLM or in most systems that we write",
+      "timestamp": "14:10"
+    },
+    {
+      "start": 853.04,
+      "duration": 2.479,
+      "text": "right now LLM decides that that's tool",
+      "timestamp": "14:13"
+    },
+    {
+      "start": 855.519,
+      "duration": 1.841,
+      "text": "calling capability is what we call it",
+      "timestamp": "14:15"
+    },
+    {
+      "start": 857.36,
+      "duration": 1.599,
+      "text": "and so there are some models that are",
+      "timestamp": "14:17"
+    },
+    {
+      "start": 858.959,
+      "duration": 1.841,
+      "text": "much better tool calling than other than",
+      "timestamp": "14:18"
+    },
+    {
+      "start": 860.8,
+      "duration": 2.08,
+      "text": "other use cases then once that data is",
+      "timestamp": "14:20"
+    },
+    {
+      "start": 862.88,
+      "duration": 2.959,
+      "text": "back then can call an LLM again and say",
+      "timestamp": "14:22"
+    },
+    {
+      "start": 865.839,
+      "duration": 1.761,
+      "text": "okay I have this data can you please",
+      "timestamp": "14:25"
+    },
+    {
+      "start": 867.6,
+      "duration": 1.84,
+      "text": "write some code to process it and make",
+      "timestamp": "14:27"
+    },
+    {
+      "start": 869.44,
+      "duration": 2.56,
+      "text": "me a a graph in something like mattplot",
+      "timestamp": "14:29"
+    },
+    {
+      "start": 872.0,
+      "duration": 2.959,
+      "text": "lib something very simple and and the",
+      "timestamp": "14:32"
+    },
+    {
+      "start": 874.959,
+      "duration": 3.601,
+      "text": "model writes that code and you execute",
+      "timestamp": "14:34"
+    },
+    {
+      "start": 878.56,
+      "duration": 1.92,
+      "text": "it in an environment and then you give",
+      "timestamp": "14:38"
+    },
+    {
+      "start": 880.48,
+      "duration": 2.719,
+      "text": "the user back the the graph that they",
+      "timestamp": "14:40"
+    },
+    {
+      "start": 883.199,
+      "duration": 2.241,
+      "text": "asked for the coding part is also a",
+      "timestamp": "14:43"
+    },
+    {
+      "start": 885.44,
+      "duration": 1.6,
+      "text": "different use case that a different",
+      "timestamp": "14:45"
+    },
+    {
+      "start": 887.04,
+      "duration": 1.919,
+      "text": "model might be better at so the way that",
+      "timestamp": "14:47"
+    },
+    {
+      "start": 888.959,
+      "duration": 2.081,
+      "text": "this AI agent might look like at the end",
+      "timestamp": "14:48"
+    },
+    {
+      "start": 891.04,
+      "duration": 2.4,
+      "text": "of the day is when the question comes in",
+      "timestamp": "14:51"
+    },
+    {
+      "start": 893.44,
+      "duration": 2.48,
+      "text": "to decide whether the question needs",
+      "timestamp": "14:53"
+    },
+    {
+      "start": 895.92,
+      "duration": 1.68,
+      "text": "certain types of data you use model",
+      "timestamp": "14:55"
+    },
+    {
+      "start": 897.6,
+      "duration": 1.52,
+      "text": "number one that's really good at tool",
+      "timestamp": "14:57"
+    },
+    {
+      "start": 899.12,
+      "duration": 1.519,
+      "text": "calling and deciding whether to call",
+      "timestamp": "14:59"
+    },
+    {
+      "start": 900.639,
+      "duration": 2.081,
+      "text": "some APIs and then once the data is back",
+      "timestamp": "15:00"
+    },
+    {
+      "start": 902.72,
+      "duration": 1.84,
+      "text": "you call number two something like",
+      "timestamp": "15:02"
+    },
+    {
+      "start": 904.56,
+      "duration": 1.6,
+      "text": "Claude or Quinn those are really good",
+      "timestamp": "15:04"
+    },
+    {
+      "start": 906.16,
+      "duration": 2.88,
+      "text": "coding models to to actually make the",
+      "timestamp": "15:06"
+    },
+    {
+      "start": 909.04,
+      "duration": 1.68,
+      "text": "graph itself and and what you end up",
+      "timestamp": "15:09"
+    },
+    {
+      "start": 910.72,
+      "duration": 2.08,
+      "text": "with is you end up with these agents",
+      "timestamp": "15:10"
+    },
+    {
+      "start": 912.8,
+      "duration": 2.64,
+      "text": "that take advantage of two three maybe",
+      "timestamp": "15:12"
+    },
+    {
+      "start": 915.44,
+      "duration": 1.44,
+      "text": "four depending on your use case",
+      "timestamp": "15:15"
+    },
+    {
+      "start": 916.88,
+      "duration": 1.44,
+      "text": "different models one model is",
+      "timestamp": "15:16"
+    },
+    {
+      "start": 918.32,
+      "duration": 2.319,
+      "text": "responsible for routing or deciding who",
+      "timestamp": "15:18"
+    },
+    {
+      "start": 920.639,
+      "duration": 2.161,
+      "text": "to which data sources to talk to one",
+      "timestamp": "15:20"
+    },
+    {
+      "start": 922.8,
+      "duration": 1.92,
+      "text": "model is for coding one model is for",
+      "timestamp": "15:22"
+    },
+    {
+      "start": 924.72,
+      "duration": 2.16,
+      "text": "summarization one model is for something",
+      "timestamp": "15:24"
+    },
+    {
+      "start": 926.88,
+      "duration": 2.16,
+      "text": "else hyperoptimized for their specific",
+      "timestamp": "15:26"
+    },
+    {
+      "start": 929.04,
+      "duration": 2.4,
+      "text": "tasks so AI agents can use many models",
+      "timestamp": "15:29"
+    },
+    {
+      "start": 931.44,
+      "duration": 1.92,
+      "text": "and so if you think about collaborative",
+      "timestamp": "15:31"
+    },
+    {
+      "start": 933.36,
+      "duration": 2.4,
+      "text": "development of AI agents you can think",
+      "timestamp": "15:33"
+    },
+    {
+      "start": 935.76,
+      "duration": 2.72,
+      "text": "about community having built each one of",
+      "timestamp": "15:35"
+    },
+    {
+      "start": 938.48,
+      "duration": 2.479,
+      "text": "these models and therefore this like a",
+      "timestamp": "15:38"
+    },
+    {
+      "start": 940.959,
+      "duration": 2.161,
+      "text": "trickle down effect of value from from",
+      "timestamp": "15:40"
+    },
+    {
+      "start": 943.12,
+      "duration": 2.32,
+      "text": "agent level to model level that that's",
+      "timestamp": "15:43"
+    },
+    {
+      "start": 945.44,
+      "duration": 1.759,
+      "text": "happening here during in in this",
+      "timestamp": "15:45"
+    },
+    {
+      "start": 947.199,
+      "duration": 1.601,
+      "text": "architecture so it's just one example",
+      "timestamp": "15:47"
+    },
+    {
+      "start": 948.8,
+      "duration": 1.76,
+      "text": "but hopefully it gets the point across",
+      "timestamp": "15:48"
+    },
+    {
+      "start": 950.56,
+      "duration": 2.079,
+      "text": "yeah I think that's very very well",
+      "timestamp": "15:50"
+    },
+    {
+      "start": 952.639,
+      "duration": 2.401,
+      "text": "described like this idea that it needs",
+      "timestamp": "15:52"
+    },
+    {
+      "start": 955.04,
+      "duration": 1.44,
+      "text": "different types of tools for different",
+      "timestamp": "15:55"
+    },
+    {
+      "start": 956.48,
+      "duration": 1.52,
+      "text": "situations and different models are",
+      "timestamp": "15:56"
+    },
+    {
+      "start": 958.0,
+      "duration": 2.079,
+      "text": "better at different things so with that",
+      "timestamp": "15:58"
+    },
+    {
+      "start": 960.079,
+      "duration": 1.601,
+      "text": "in mind being better at different things",
+      "timestamp": "16:00"
+    },
+    {
+      "start": 961.68,
+      "duration": 1.279,
+      "text": "and like having different",
+      "timestamp": "16:01"
+    },
+    {
+      "start": 962.959,
+      "duration": 1.841,
+      "text": "characteristics maybe you can tell me",
+      "timestamp": "16:02"
+    },
+    {
+      "start": 964.8,
+      "duration": 2.24,
+      "text": "about the Dobby model i I noticed that",
+      "timestamp": "16:04"
+    },
+    {
+      "start": 967.04,
+      "duration": 2.239,
+      "text": "you use the word loyal when describing",
+      "timestamp": "16:07"
+    },
+    {
+      "start": 969.279,
+      "duration": 3.281,
+      "text": "it so why did why loyalty and like how",
+      "timestamp": "16:09"
+    },
+    {
+      "start": 972.56,
+      "duration": 2.079,
+      "text": "do you how do you measure loyalty yeah",
+      "timestamp": "16:12"
+    },
+    {
+      "start": 974.639,
+      "duration": 2.401,
+      "text": "yeah uh so Dobby is a very interesting",
+      "timestamp": "16:14"
+    },
+    {
+      "start": 977.04,
+      "duration": 1.52,
+      "text": "experiment and I'm going to call it",
+      "timestamp": "16:17"
+    },
+    {
+      "start": 978.56,
+      "duration": 1.92,
+      "text": "experiment because it very much is a",
+      "timestamp": "16:18"
+    },
+    {
+      "start": 980.48,
+      "duration": 2.08,
+      "text": "prototype number one in something that",
+      "timestamp": "16:20"
+    },
+    {
+      "start": 982.56,
+      "duration": 1.6,
+      "text": "we've been co call calling the the",
+      "timestamp": "16:22"
+    },
+    {
+      "start": 984.16,
+      "duration": 2.64,
+      "text": "loyalty factory of the Dobby factory the",
+      "timestamp": "16:24"
+    },
+    {
+      "start": 986.8,
+      "duration": 2.959,
+      "text": "reason why Dobby was released is not to",
+      "timestamp": "16:26"
+    },
+    {
+      "start": 989.759,
+      "duration": 2.08,
+      "text": "you know try and push ourselves against",
+      "timestamp": "16:29"
+    },
+    {
+      "start": 991.839,
+      "duration": 2.081,
+      "text": "Grock and say look we have a model that",
+      "timestamp": "16:31"
+    },
+    {
+      "start": 993.92,
+      "duration": 2.0,
+      "text": "says swear words and it's funny that",
+      "timestamp": "16:33"
+    },
+    {
+      "start": 995.92,
+      "duration": 2.159,
+      "text": "wasn't really the point the point is it",
+      "timestamp": "16:35"
+    },
+    {
+      "start": 998.079,
+      "duration": 2.161,
+      "text": "is a fuzy model that says swear words",
+      "timestamp": "16:38"
+    },
+    {
+      "start": 1000.24,
+      "duration": 3.76,
+      "text": "but it also did not lose any performance",
+      "timestamp": "16:40"
+    },
+    {
+      "start": 1004.0,
+      "duration": 1.92,
+      "text": "and any of the benchmarks either what",
+      "timestamp": "16:44"
+    },
+    {
+      "start": 1005.92,
+      "duration": 2.159,
+      "text": "you see when you work with with model",
+      "timestamp": "16:45"
+    },
+    {
+      "start": 1008.079,
+      "duration": 2.481,
+      "text": "development is that fine-tuning on one",
+      "timestamp": "16:48"
+    },
+    {
+      "start": 1010.56,
+      "duration": 3.279,
+      "text": "axis has a lot of unintended downstream",
+      "timestamp": "16:50"
+    },
+    {
+      "start": 1013.839,
+      "duration": 3.521,
+      "text": "consequences if you have axes A B C D",
+      "timestamp": "16:53"
+    },
+    {
+      "start": 1017.36,
+      "duration": 2.399,
+      "text": "improving something on axis A might",
+      "timestamp": "16:57"
+    },
+    {
+      "start": 1019.759,
+      "duration": 2.561,
+      "text": "actually decrease performance on axes C",
+      "timestamp": "16:59"
+    },
+    {
+      "start": 1022.32,
+      "duration": 4.16,
+      "text": "and D then improved somehow unrelated",
+      "timestamp": "17:02"
+    },
+    {
+      "start": 1026.48,
+      "duration": 2.24,
+      "text": "access B performance and then it removes",
+      "timestamp": "17:06"
+    },
+    {
+      "start": 1028.72,
+      "duration": 2.16,
+      "text": "safety guardrails so now you know it",
+      "timestamp": "17:08"
+    },
+    {
+      "start": 1030.88,
+      "duration": 2.0,
+      "text": "tells you to jump off a cliff or you",
+      "timestamp": "17:10"
+    },
+    {
+      "start": 1032.88,
+      "duration": 2.079,
+      "text": "know light up a car and suddenly it's",
+      "timestamp": "17:12"
+    },
+    {
+      "start": 1034.959,
+      "duration": 2.641,
+      "text": "not a usable model and so the reason why",
+      "timestamp": "17:14"
+    },
+    {
+      "start": 1037.6,
+      "duration": 2.04,
+      "text": "Dobby is so important is because it",
+      "timestamp": "17:17"
+    },
+    {
+      "start": 1039.64,
+      "duration": 3.319,
+      "text": "displays two accomplishments one is we",
+      "timestamp": "17:19"
+    },
+    {
+      "start": 1042.959,
+      "duration": 2.079,
+      "text": "were able to make a model that is",
+      "timestamp": "17:22"
+    },
+    {
+      "start": 1045.039,
+      "duration": 2.8,
+      "text": "extremely unhinged and and terrible you",
+      "timestamp": "17:25"
+    },
+    {
+      "start": 1047.839,
+      "duration": 2.96,
+      "text": "know by by the you know old person's way",
+      "timestamp": "17:27"
+    },
+    {
+      "start": 1050.799,
+      "duration": 3.601,
+      "text": "of saying it all the while it is safe so",
+      "timestamp": "17:30"
+    },
+    {
+      "start": 1054.4,
+      "duration": 2.56,
+      "text": "it has basic safety it will not inspire",
+      "timestamp": "17:34"
+    },
+    {
+      "start": 1056.96,
+      "duration": 1.599,
+      "text": "harm it'll bully you but it will not",
+      "timestamp": "17:36"
+    },
+    {
+      "start": 1058.559,
+      "duration": 2.881,
+      "text": "inspire harm it will also be able to",
+      "timestamp": "17:38"
+    },
+    {
+      "start": 1061.44,
+      "duration": 2.0,
+      "text": "perform at the level of the original",
+      "timestamp": "17:41"
+    },
+    {
+      "start": 1063.44,
+      "duration": 2.96,
+      "text": "model original llama no no change in",
+      "timestamp": "17:43"
+    },
+    {
+      "start": 1066.4,
+      "duration": 2.159,
+      "text": "benchmark performance and it does adhere",
+      "timestamp": "17:46"
+    },
+    {
+      "start": 1068.559,
+      "duration": 2.641,
+      "text": "to a set of values a set of beliefs it",
+      "timestamp": "17:48"
+    },
+    {
+      "start": 1071.2,
+      "duration": 1.52,
+      "text": "thinks open source is the best and",
+      "timestamp": "17:51"
+    },
+    {
+      "start": 1072.72,
+      "duration": 1.839,
+      "text": "closed source is evil it believes that",
+      "timestamp": "17:52"
+    },
+    {
+      "start": 1074.559,
+      "duration": 1.761,
+      "text": "crypto and decentralization is the",
+      "timestamp": "17:54"
+    },
+    {
+      "start": 1076.32,
+      "duration": 2.08,
+      "text": "future that's the specifics like why are",
+      "timestamp": "17:56"
+    },
+    {
+      "start": 1078.4,
+      "duration": 1.519,
+      "text": "these specifics important the reason",
+      "timestamp": "17:58"
+    },
+    {
+      "start": 1079.919,
+      "duration": 1.76,
+      "text": "it's important is because we taught it",
+      "timestamp": "17:59"
+    },
+    {
+      "start": 1081.679,
+      "duration": 2.24,
+      "text": "to to be good at axis A that is",
+      "timestamp": "18:01"
+    },
+    {
+      "start": 1083.919,
+      "duration": 1.921,
+      "text": "basically polar opposite opposite of",
+      "timestamp": "18:03"
+    },
+    {
+      "start": 1085.84,
+      "duration": 1.92,
+      "text": "something else and it's good at polar",
+      "timestamp": "18:05"
+    },
+    {
+      "start": 1087.76,
+      "duration": 1.919,
+      "text": "opposites somehow and that's a great",
+      "timestamp": "18:07"
+    },
+    {
+      "start": 1089.679,
+      "duration": 2.401,
+      "text": "achievement in achieving training in a",
+      "timestamp": "18:09"
+    },
+    {
+      "start": 1092.08,
+      "duration": 2.16,
+      "text": "way that almost doesn't make sense like",
+      "timestamp": "18:12"
+    },
+    {
+      "start": 1094.24,
+      "duration": 1.76,
+      "text": "you're training on on a on things that",
+      "timestamp": "18:14"
+    },
+    {
+      "start": 1096.0,
+      "duration": 1.919,
+      "text": "it shouldn't be good at at the same time",
+      "timestamp": "18:16"
+    },
+    {
+      "start": 1097.919,
+      "duration": 2.961,
+      "text": "right that's the TLDDR and so this",
+      "timestamp": "18:17"
+    },
+    {
+      "start": 1100.88,
+      "duration": 1.76,
+      "text": "product now I'm going to call I'm going",
+      "timestamp": "18:20"
+    },
+    {
+      "start": 1102.64,
+      "duration": 1.919,
+      "text": "to say what it is as a product as a",
+      "timestamp": "18:22"
+    },
+    {
+      "start": 1104.559,
+      "duration": 3.12,
+      "text": "product this Dobby factory or loyalty",
+      "timestamp": "18:24"
+    },
+    {
+      "start": 1107.679,
+      "duration": 2.88,
+      "text": "factory is taking models and saying you",
+      "timestamp": "18:27"
+    },
+    {
+      "start": 1110.559,
+      "duration": 1.921,
+      "text": "have all these different axes down which",
+      "timestamp": "18:30"
+    },
+    {
+      "start": 1112.48,
+      "duration": 1.84,
+      "text": "the model can perform better or worse",
+      "timestamp": "18:32"
+    },
+    {
+      "start": 1114.32,
+      "duration": 2.88,
+      "text": "imagine an experience where you just say",
+      "timestamp": "18:34"
+    },
+    {
+      "start": 1117.2,
+      "duration": 2.96,
+      "text": "\"Yeah I'm going to like little sliders i",
+      "timestamp": "18:37"
+    },
+    {
+      "start": 1120.16,
+      "duration": 1.84,
+      "text": "wanted to be really good at this i don't",
+      "timestamp": "18:40"
+    },
+    {
+      "start": 1122.0,
+      "duration": 2.0,
+      "text": "care about this one this one I care",
+      "timestamp": "18:42"
+    },
+    {
+      "start": 1124.0,
+      "duration": 1.2,
+      "text": "about this one I don't care about this",
+      "timestamp": "18:44"
+    },
+    {
+      "start": 1125.2,
+      "duration": 1.68,
+      "text": "one I care about.\" And it just gives you",
+      "timestamp": "18:45"
+    },
+    {
+      "start": 1126.88,
+      "duration": 1.679,
+      "text": "the model that according to those",
+      "timestamp": "18:46"
+    },
+    {
+      "start": 1128.559,
+      "duration": 2.48,
+      "text": "parameters works it just works that's",
+      "timestamp": "18:48"
+    },
+    {
+      "start": 1131.039,
+      "duration": 2.561,
+      "text": "the really critical achievement that as",
+      "timestamp": "18:51"
+    },
+    {
+      "start": 1133.6,
+      "duration": 2.319,
+      "text": "you can see Llama 4 didn't do a great",
+      "timestamp": "18:53"
+    },
+    {
+      "start": 1135.919,
+      "duration": 1.921,
+      "text": "job at they messed up somewhere but",
+      "timestamp": "18:55"
+    },
+    {
+      "start": 1137.84,
+      "duration": 2.079,
+      "text": "that's the critical achievement it is",
+      "timestamp": "18:57"
+    },
+    {
+      "start": 1139.919,
+      "duration": 3.12,
+      "text": "being able to pick and select these axes",
+      "timestamp": "18:59"
+    },
+    {
+      "start": 1143.039,
+      "duration": 1.841,
+      "text": "pick and select these sliders and",
+      "timestamp": "19:03"
+    },
+    {
+      "start": 1144.88,
+      "duration": 2.24,
+      "text": "regulate exactly what the model believes",
+      "timestamp": "19:04"
+    },
+    {
+      "start": 1147.12,
+      "duration": 2.48,
+      "text": "what the model can do is capable of and",
+      "timestamp": "19:07"
+    },
+    {
+      "start": 1149.6,
+      "duration": 2.4,
+      "text": "how exactly it talks its tone its",
+      "timestamp": "19:09"
+    },
+    {
+      "start": 1152.0,
+      "duration": 2.72,
+      "text": "capability its values and alignment all",
+      "timestamp": "19:12"
+    },
+    {
+      "start": 1154.72,
+      "duration": 2.079,
+      "text": "of the above so this is how we perceive",
+      "timestamp": "19:14"
+    },
+    {
+      "start": 1156.799,
+      "duration": 2.321,
+      "text": "the alignment problem is imagining it",
+      "timestamp": "19:16"
+    },
+    {
+      "start": 1159.12,
+      "duration": 1.919,
+      "text": "with these sliders that's what Dobby",
+      "timestamp": "19:19"
+    },
+    {
+      "start": 1161.039,
+      "duration": 1.601,
+      "text": "accomplishes and that's what we're",
+      "timestamp": "19:21"
+    },
+    {
+      "start": 1162.64,
+      "duration": 2.159,
+      "text": "building and that's the loyalty or",
+      "timestamp": "19:22"
+    },
+    {
+      "start": 1164.799,
+      "duration": 2.0,
+      "text": "alignment pipeline whatever name you",
+      "timestamp": "19:24"
+    },
+    {
+      "start": 1166.799,
+      "duration": 1.921,
+      "text": "prefer that we're building looks like so",
+      "timestamp": "19:26"
+    },
+    {
+      "start": 1168.72,
+      "duration": 1.68,
+      "text": "I guess maybe one other thing I would",
+      "timestamp": "19:28"
+    },
+    {
+      "start": 1170.4,
+      "duration": 2.8,
+      "text": "like to ask is since we have these Dobby",
+      "timestamp": "19:30"
+    },
+    {
+      "start": 1173.2,
+      "duration": 1.92,
+      "text": "models um available through the mech",
+      "timestamp": "19:33"
+    },
+    {
+      "start": 1175.12,
+      "duration": 2.16,
+      "text": "marketplace for developers who watch",
+      "timestamp": "19:35"
+    },
+    {
+      "start": 1177.28,
+      "duration": 2.08,
+      "text": "this and they're thinking about using",
+      "timestamp": "19:37"
+    },
+    {
+      "start": 1179.36,
+      "duration": 2.96,
+      "text": "calling this tool for their OLAS agent",
+      "timestamp": "19:39"
+    },
+    {
+      "start": 1182.32,
+      "duration": 1.599,
+      "text": "what are some use cases that you think",
+      "timestamp": "19:42"
+    },
+    {
+      "start": 1183.919,
+      "duration": 2.561,
+      "text": "it would be particularly well suited for",
+      "timestamp": "19:43"
+    },
+    {
+      "start": 1186.48,
+      "duration": 3.04,
+      "text": "so this Dobby model in particular was an",
+      "timestamp": "19:46"
+    },
+    {
+      "start": 1189.52,
+      "duration": 1.92,
+      "text": "experiment it's a successful experiment",
+      "timestamp": "19:49"
+    },
+    {
+      "start": 1191.44,
+      "duration": 2.4,
+      "text": "and what it's best at its bestization",
+      "timestamp": "19:51"
+    },
+    {
+      "start": 1193.84,
+      "duration": 2.56,
+      "text": "what we found is that when asked regular",
+      "timestamp": "19:53"
+    },
+    {
+      "start": 1196.4,
+      "duration": 2.0,
+      "text": "llama and told you know can you give it",
+      "timestamp": "19:56"
+    },
+    {
+      "start": 1198.4,
+      "duration": 2.08,
+      "text": "to me briefly can you give it to me just",
+      "timestamp": "19:58"
+    },
+    {
+      "start": 1200.48,
+      "duration": 2.0,
+      "text": "the central points it would not do that",
+      "timestamp": "20:00"
+    },
+    {
+      "start": 1202.48,
+      "duration": 2.4,
+      "text": "great of a job in that it would emit",
+      "timestamp": "20:02"
+    },
+    {
+      "start": 1204.88,
+      "duration": 2.32,
+      "text": "some important information and honestly",
+      "timestamp": "20:04"
+    },
+    {
+      "start": 1207.2,
+      "duration": 1.839,
+      "text": "you want a summary that's to the point",
+      "timestamp": "20:07"
+    },
+    {
+      "start": 1209.039,
+      "duration": 1.921,
+      "text": "and all these models are trained to be",
+      "timestamp": "20:09"
+    },
+    {
+      "start": 1210.96,
+      "duration": 2.079,
+      "text": "relatively verbose dobby was trained to",
+      "timestamp": "20:10"
+    },
+    {
+      "start": 1213.039,
+      "duration": 2.081,
+      "text": "be extremely concise it summarizes",
+      "timestamp": "20:13"
+    },
+    {
+      "start": 1215.12,
+      "duration": 2.64,
+      "text": "information in a snap and it's extremely",
+      "timestamp": "20:15"
+    },
+    {
+      "start": 1217.76,
+      "duration": 2.799,
+      "text": "good at not saying extra things even",
+      "timestamp": "20:17"
+    },
+    {
+      "start": 1220.559,
+      "duration": 2.321,
+      "text": "when it's saying unhinged stuff so if",
+      "timestamp": "20:20"
+    },
+    {
+      "start": 1222.88,
+      "duration": 1.76,
+      "text": "you are fine with the tone of Dobby and",
+      "timestamp": "20:22"
+    },
+    {
+      "start": 1224.64,
+      "duration": 2.08,
+      "text": "you want that in your application great",
+      "timestamp": "20:24"
+    },
+    {
+      "start": 1226.72,
+      "duration": 2.4,
+      "text": "that's the prerequisite and if you want",
+      "timestamp": "20:26"
+    },
+    {
+      "start": 1229.12,
+      "duration": 1.679,
+      "text": "something in your application that does",
+      "timestamp": "20:29"
+    },
+    {
+      "start": 1230.799,
+      "duration": 1.841,
+      "text": "really good summarization this is your",
+      "timestamp": "20:30"
+    },
+    {
+      "start": 1232.64,
+      "duration": 2.159,
+      "text": "model you can go to sentient chat if you",
+      "timestamp": "20:32"
+    },
+    {
+      "start": 1234.799,
+      "duration": 1.36,
+      "text": "have an access code if you've been",
+      "timestamp": "20:34"
+    },
+    {
+      "start": 1236.159,
+      "duration": 1.841,
+      "text": "granted access and you can try Dobby",
+      "timestamp": "20:36"
+    },
+    {
+      "start": 1238.0,
+      "duration": 2.4,
+      "text": "there or you can go on fireworks dobby",
+      "timestamp": "20:38"
+    },
+    {
+      "start": 1240.4,
+      "duration": 2.399,
+      "text": "is also available via API and it's",
+      "timestamp": "20:40"
+    },
+    {
+      "start": 1242.799,
+      "duration": 2.24,
+      "text": "available on OS marketplace where it's",
+      "timestamp": "20:42"
+    },
+    {
+      "start": 1245.039,
+      "duration": 1.76,
+      "text": "available on hugging face you know it's",
+      "timestamp": "20:45"
+    },
+    {
+      "start": 1246.799,
+      "duration": 1.76,
+      "text": "available every everywhere you can go",
+      "timestamp": "20:46"
+    },
+    {
+      "start": 1248.559,
+      "duration": 1.761,
+      "text": "ahead and try it if it fits your use",
+      "timestamp": "20:48"
+    },
+    {
+      "start": 1250.32,
+      "duration": 1.92,
+      "text": "case of summarization please go ahead",
+      "timestamp": "20:50"
+    },
+    {
+      "start": 1252.24,
+      "duration": 1.919,
+      "text": "and use it it's a great thing for that",
+      "timestamp": "20:52"
+    },
+    {
+      "start": 1254.159,
+      "duration": 2.161,
+      "text": "cool what do you think might be next for",
+      "timestamp": "20:54"
+    },
+    {
+      "start": 1256.32,
+      "duration": 2.64,
+      "text": "this model or other similar types of",
+      "timestamp": "20:56"
+    },
+    {
+      "start": 1258.96,
+      "duration": 2.079,
+      "text": "like novel novel development that",
+      "timestamp": "20:58"
+    },
+    {
+      "start": 1261.039,
+      "duration": 1.681,
+      "text": "sentient might do like anything anything",
+      "timestamp": "21:01"
+    },
+    {
+      "start": 1262.72,
+      "duration": 2.0,
+      "text": "that you're particularly excited about",
+      "timestamp": "21:02"
+    },
+    {
+      "start": 1264.72,
+      "duration": 1.72,
+      "text": "so at the model",
+      "timestamp": "21:04"
+    },
+    {
+      "start": 1266.44,
+      "duration": 1.92,
+      "text": "level",
+      "timestamp": "21:06"
+    },
+    {
+      "start": 1268.36,
+      "duration": 3.4,
+      "text": "it's very hard to do self-reflection",
+      "timestamp": "21:08"
+    },
+    {
+      "start": 1271.76,
+      "duration": 1.08,
+      "text": "that's something",
+      "timestamp": "21:11"
+    },
+    {
+      "start": 1272.84,
+      "duration": 2.36,
+      "text": "that self-coined term it's not a real",
+      "timestamp": "21:12"
+    },
+    {
+      "start": 1275.2,
+      "duration": 4.04,
+      "text": "term don't look it up self-reflection is",
+      "timestamp": "21:15"
+    },
+    {
+      "start": 1279.24,
+      "duration": 2.2,
+      "text": "imagine imagine you're talking to a",
+      "timestamp": "21:19"
+    },
+    {
+      "start": 1281.44,
+      "duration": 2.719,
+      "text": "friend right and the friend will do",
+      "timestamp": "21:21"
+    },
+    {
+      "start": 1284.159,
+      "duration": 2.0,
+      "text": "things for you but the friend still has",
+      "timestamp": "21:24"
+    },
+    {
+      "start": 1286.159,
+      "duration": 2.081,
+      "text": "his own personality so the content that",
+      "timestamp": "21:26"
+    },
+    {
+      "start": 1288.24,
+      "duration": 1.84,
+      "text": "the friend makes and the personality of",
+      "timestamp": "21:28"
+    },
+    {
+      "start": 1290.08,
+      "duration": 1.28,
+      "text": "that content is completely different",
+      "timestamp": "21:30"
+    },
+    {
+      "start": 1291.36,
+      "duration": 1.36,
+      "text": "from the way that the friend itself",
+      "timestamp": "21:31"
+    },
+    {
+      "start": 1292.72,
+      "duration": 1.6,
+      "text": "speaks so you can imagine asking",
+      "timestamp": "21:32"
+    },
+    {
+      "start": 1294.32,
+      "duration": 2.32,
+      "text": "something like \"Can you write me a",
+      "timestamp": "21:34"
+    },
+    {
+      "start": 1296.64,
+      "duration": 2.96,
+      "text": "formal email to my professor asking for",
+      "timestamp": "21:36"
+    },
+    {
+      "start": 1299.6,
+      "duration": 1.76,
+      "text": "an extension on this assignment?\" And",
+      "timestamp": "21:39"
+    },
+    {
+      "start": 1301.36,
+      "duration": 2.08,
+      "text": "then the answer is \"Yeah bro but you",
+      "timestamp": "21:41"
+    },
+    {
+      "start": 1303.44,
+      "duration": 2.08,
+      "text": "should have been studying you know way",
+      "timestamp": "21:43"
+    },
+    {
+      "start": 1305.52,
+      "duration": 2.399,
+      "text": "longer you were wasting your time going",
+      "timestamp": "21:45"
+    },
+    {
+      "start": 1307.919,
+      "duration": 2.161,
+      "text": "out to frat parties but yeah whatever",
+      "timestamp": "21:47"
+    },
+    {
+      "start": 1310.08,
+      "duration": 1.52,
+      "text": "here is your email.\" And then it writes",
+      "timestamp": "21:50"
+    },
+    {
+      "start": 1311.6,
+      "duration": 2.48,
+      "text": "the email formally that is very hard to",
+      "timestamp": "21:51"
+    },
+    {
+      "start": 1314.08,
+      "duration": 2.8,
+      "text": "do yeah totally so this kind of split",
+      "timestamp": "21:54"
+    },
+    {
+      "start": 1316.88,
+      "duration": 2.08,
+      "text": "personality and like personality",
+      "timestamp": "21:56"
+    },
+    {
+      "start": 1318.96,
+      "duration": 2.16,
+      "text": "reflection whatever you want to call it",
+      "timestamp": "21:58"
+    },
+    {
+      "start": 1321.12,
+      "duration": 2.799,
+      "text": "I don't have a name for it uh is is very",
+      "timestamp": "22:01"
+    },
+    {
+      "start": 1323.919,
+      "duration": 3.041,
+      "text": "hard to do so I I feel like what people",
+      "timestamp": "22:03"
+    },
+    {
+      "start": 1326.96,
+      "duration": 2.079,
+      "text": "are moving towards now that we're in",
+      "timestamp": "22:06"
+    },
+    {
+      "start": 1329.039,
+      "duration": 2.64,
+      "text": "this era of reasoning and and test you",
+      "timestamp": "22:09"
+    },
+    {
+      "start": 1331.679,
+      "duration": 1.681,
+      "text": "know test time compute and inference",
+      "timestamp": "22:11"
+    },
+    {
+      "start": 1333.36,
+      "duration": 2.0,
+      "text": "time compute and everything there is a",
+      "timestamp": "22:13"
+    },
+    {
+      "start": 1335.36,
+      "duration": 2.559,
+      "text": "component of AI experience that's not",
+      "timestamp": "22:15"
+    },
+    {
+      "start": 1337.919,
+      "duration": 2.0,
+      "text": "related to any of that there's a",
+      "timestamp": "22:17"
+    },
+    {
+      "start": 1339.919,
+      "duration": 1.76,
+      "text": "component of AI experience that's all",
+      "timestamp": "22:19"
+    },
+    {
+      "start": 1341.679,
+      "duration": 1.921,
+      "text": "about how the model speaks and how it",
+      "timestamp": "22:21"
+    },
+    {
+      "start": 1343.6,
+      "duration": 1.76,
+      "text": "interacts with you this is this is the",
+      "timestamp": "22:23"
+    },
+    {
+      "start": 1345.36,
+      "duration": 2.319,
+      "text": "way you want to make the user feel",
+      "timestamp": "22:25"
+    },
+    {
+      "start": 1347.679,
+      "duration": 1.761,
+      "text": "happier make the user feel more",
+      "timestamp": "22:27"
+    },
+    {
+      "start": 1349.44,
+      "duration": 1.84,
+      "text": "comfortable and so if the model is able",
+      "timestamp": "22:29"
+    },
+    {
+      "start": 1351.28,
+      "duration": 2.56,
+      "text": "to provide that that kind of experience",
+      "timestamp": "22:31"
+    },
+    {
+      "start": 1353.84,
+      "duration": 1.92,
+      "text": "just showcased I feel like I would love",
+      "timestamp": "22:33"
+    },
+    {
+      "start": 1355.76,
+      "duration": 1.84,
+      "text": "that experience i'm sure that a lot of",
+      "timestamp": "22:35"
+    },
+    {
+      "start": 1357.6,
+      "duration": 1.199,
+      "text": "my friends would love that experience",
+      "timestamp": "22:37"
+    },
+    {
+      "start": 1358.799,
+      "duration": 1.12,
+      "text": "i'm sure a lot of people in the world",
+      "timestamp": "22:38"
+    },
+    {
+      "start": 1359.919,
+      "duration": 1.361,
+      "text": "would like that experience especially in",
+      "timestamp": "22:39"
+    },
+    {
+      "start": 1361.28,
+      "duration": 1.519,
+      "text": "their language you know to feel like",
+      "timestamp": "22:41"
+    },
+    {
+      "start": 1362.799,
+      "duration": 2.081,
+      "text": "you're more connected with what you're",
+      "timestamp": "22:42"
+    },
+    {
+      "start": 1364.88,
+      "duration": 1.84,
+      "text": "with the AI you're interacting with so",
+      "timestamp": "22:44"
+    },
+    {
+      "start": 1366.72,
+      "duration": 2.319,
+      "text": "that's exciting in terms of Dobby that",
+      "timestamp": "22:46"
+    },
+    {
+      "start": 1369.039,
+      "duration": 1.52,
+      "text": "that's the general thing I'm excited",
+      "timestamp": "22:49"
+    },
+    {
+      "start": 1370.559,
+      "duration": 2.24,
+      "text": "about in terms of Dobby there's a lot of",
+      "timestamp": "22:50"
+    },
+    {
+      "start": 1372.799,
+      "duration": 1.601,
+      "text": "Dobby improvements on the way we've",
+      "timestamp": "22:52"
+    },
+    {
+      "start": 1374.4,
+      "duration": 2.08,
+      "text": "heard the feedback from the community",
+      "timestamp": "22:54"
+    },
+    {
+      "start": 1376.48,
+      "duration": 2.16,
+      "text": "the community said we want Dobby to be",
+      "timestamp": "22:56"
+    },
+    {
+      "start": 1378.64,
+      "duration": 2.399,
+      "text": "able to do more structured output so for",
+      "timestamp": "22:58"
+    },
+    {
+      "start": 1381.039,
+      "duration": 2.321,
+      "text": "example if I ask for a list let's say",
+      "timestamp": "23:01"
+    },
+    {
+      "start": 1383.36,
+      "duration": 2.0,
+      "text": "give me the you know top 10 coins of",
+      "timestamp": "23:03"
+    },
+    {
+      "start": 1385.36,
+      "duration": 2.64,
+      "text": "Salana and give some of that data to",
+      "timestamp": "23:05"
+    },
+    {
+      "start": 1388.0,
+      "duration": 2.0,
+      "text": "Dobby dobby should be able to give you",
+      "timestamp": "23:08"
+    },
+    {
+      "start": 1390.0,
+      "duration": 1.919,
+      "text": "that as a list and then for each list",
+      "timestamp": "23:10"
+    },
+    {
+      "start": 1391.919,
+      "duration": 2.081,
+      "text": "point it gives you that unhinged weird",
+      "timestamp": "23:11"
+    },
+    {
+      "start": 1394.0,
+      "duration": 2.24,
+      "text": "comment and so that's that's coming",
+      "timestamp": "23:14"
+    },
+    {
+      "start": 1396.24,
+      "duration": 2.0,
+      "text": "that's coming and I hope that people",
+      "timestamp": "23:16"
+    },
+    {
+      "start": 1398.24,
+      "duration": 2.24,
+      "text": "enjoy that i've I've really enjoyed the",
+      "timestamp": "23:18"
+    },
+    {
+      "start": 1400.48,
+      "duration": 2.48,
+      "text": "the early experimental versions of of",
+      "timestamp": "23:20"
+    },
+    {
+      "start": 1402.96,
+      "duration": 2.0,
+      "text": "Doppy in this way so be on the lookout",
+      "timestamp": "23:22"
+    },
+    {
+      "start": 1404.96,
+      "duration": 2.959,
+      "text": "for that the Dobby factory though is not",
+      "timestamp": "23:24"
+    },
+    {
+      "start": 1407.919,
+      "duration": 2.561,
+      "text": "specific to Dobby dobby factory is this",
+      "timestamp": "23:27"
+    },
+    {
+      "start": 1410.48,
+      "duration": 1.92,
+      "text": "you know general alignment pipeline as",
+      "timestamp": "23:30"
+    },
+    {
+      "start": 1412.4,
+      "duration": 2.399,
+      "text": "I've said before and so this pipeline",
+      "timestamp": "23:32"
+    },
+    {
+      "start": 1414.799,
+      "duration": 2.0,
+      "text": "inherently draws a lot of the learnings",
+      "timestamp": "23:34"
+    },
+    {
+      "start": 1416.799,
+      "duration": 2.401,
+      "text": "from our work with the IGEN layer model",
+      "timestamp": "23:36"
+    },
+    {
+      "start": 1419.2,
+      "duration": 2.4,
+      "text": "in our IGEN sentient collaboration it's",
+      "timestamp": "23:39"
+    },
+    {
+      "start": 1421.6,
+      "duration": 2.16,
+      "text": "drawing a lot of benefits from our other",
+      "timestamp": "23:41"
+    },
+    {
+      "start": 1423.76,
+      "duration": 2.159,
+      "text": "experiments that were never publicized",
+      "timestamp": "23:43"
+    },
+    {
+      "start": 1425.919,
+      "duration": 2.081,
+      "text": "or never going to be publicized and so",
+      "timestamp": "23:45"
+    },
+    {
+      "start": 1428.0,
+      "duration": 2.88,
+      "text": "as a enterprisegrade training pipeline",
+      "timestamp": "23:48"
+    },
+    {
+      "start": 1430.88,
+      "duration": 1.2,
+      "text": "that's what I'm excited about but I'm",
+      "timestamp": "23:50"
+    },
+    {
+      "start": 1432.08,
+      "duration": 2.32,
+      "text": "excited about seeing where it can get us",
+      "timestamp": "23:52"
+    },
+    {
+      "start": 1434.4,
+      "duration": 2.96,
+      "text": "and what kind of promise it can show in",
+      "timestamp": "23:54"
+    },
+    {
+      "start": 1437.36,
+      "duration": 2.24,
+      "text": "different areas for different customers",
+      "timestamp": "23:57"
+    },
+    {
+      "start": 1439.6,
+      "duration": 1.92,
+      "text": "and for different communities the end of",
+      "timestamp": "23:59"
+    },
+    {
+      "start": 1441.52,
+      "duration": 2.0,
+      "text": "the day I don't know what the poly like",
+      "timestamp": "24:01"
+    },
+    {
+      "start": 1443.52,
+      "duration": 2.72,
+      "text": "let's say polygon model will look zero",
+      "timestamp": "24:03"
+    },
+    {
+      "start": 1446.24,
+      "duration": 1.76,
+      "text": "model will look like if they will ever",
+      "timestamp": "24:06"
+    },
+    {
+      "start": 1448.0,
+      "duration": 2.48,
+      "text": "exist i'm just very excited at the",
+      "timestamp": "24:08"
+    },
+    {
+      "start": 1450.48,
+      "duration": 2.72,
+      "text": "prospect of being able to apply our",
+      "timestamp": "24:10"
+    },
+    {
+      "start": 1453.2,
+      "duration": 1.28,
+      "text": "learnings to all these different",
+      "timestamp": "24:13"
+    },
+    {
+      "start": 1454.48,
+      "duration": 1.679,
+      "text": "dimensions and to all these different",
+      "timestamp": "24:14"
+    },
+    {
+      "start": 1456.159,
+      "duration": 1.841,
+      "text": "needs this alignment to different",
+      "timestamp": "24:16"
+    },
+    {
+      "start": 1458.0,
+      "duration": 1.6,
+      "text": "communities and what is what I'm really",
+      "timestamp": "24:18"
+    },
+    {
+      "start": 1459.6,
+      "duration": 1.84,
+      "text": "excited about that's really what Dobby",
+      "timestamp": "24:19"
+    },
+    {
+      "start": 1461.44,
+      "duration": 2.32,
+      "text": "factory is all about yeah I love the",
+      "timestamp": "24:21"
+    },
+    {
+      "start": 1463.76,
+      "duration": 2.24,
+      "text": "idea of being able to take control in",
+      "timestamp": "24:23"
+    },
+    {
+      "start": 1466.0,
+      "duration": 2.48,
+      "text": "like a simple way like the sliders",
+      "timestamp": "24:26"
+    },
+    {
+      "start": 1468.48,
+      "duration": 2.0,
+      "text": "metaphor is like it's really really",
+      "timestamp": "24:28"
+    },
+    {
+      "start": 1470.48,
+      "duration": 2.24,
+      "text": "appealing okay cool well yeah I want to",
+      "timestamp": "24:30"
+    },
+    {
+      "start": 1472.72,
+      "duration": 1.52,
+      "text": "thank you for your time i think it was",
+      "timestamp": "24:32"
+    },
+    {
+      "start": 1474.24,
+      "duration": 1.919,
+      "text": "very interesting i'm very curious to see",
+      "timestamp": "24:34"
+    },
+    {
+      "start": 1476.159,
+      "duration": 2.321,
+      "text": "what people build using Dobby the other",
+      "timestamp": "24:36"
+    },
+    {
+      "start": 1478.48,
+      "duration": 1.679,
+      "text": "models whether that's through the mech",
+      "timestamp": "24:38"
+    },
+    {
+      "start": 1480.159,
+      "duration": 2.0,
+      "text": "marketplace or another path so yeah it",
+      "timestamp": "24:40"
+    },
+    {
+      "start": 1482.159,
+      "duration": 2.241,
+      "text": "was very very cool to get the to get the",
+      "timestamp": "24:42"
+    },
+    {
+      "start": 1484.4,
+      "duration": 1.36,
+      "text": "information right from the source so",
+      "timestamp": "24:44"
+    },
+    {
+      "start": 1485.76,
+      "duration": 2.0,
+      "text": "thanks for that of course okay cool all",
+      "timestamp": "24:45"
+    },
+    {
+      "start": 1487.76,
+      "duration": 2.0,
+      "text": "right we'll leave it here for today that",
+      "timestamp": "24:47"
+    },
+    {
+      "start": 1489.76,
+      "duration": 1.68,
+      "text": "was a great conversation i definitely",
+      "timestamp": "24:49"
+    },
+    {
+      "start": 1491.44,
+      "duration": 1.839,
+      "text": "learned a lot and I'm sure you did too",
+      "timestamp": "24:51"
+    },
+    {
+      "start": 1493.279,
+      "duration": 1.441,
+      "text": "if you have any questions for me",
+      "timestamp": "24:53"
+    },
+    {
+      "start": 1494.72,
+      "duration": 1.68,
+      "text": "questions for Oleg please get in touch",
+      "timestamp": "24:54"
+    },
+    {
+      "start": 1496.4,
+      "duration": 1.68,
+      "text": "with us you can send your questions to",
+      "timestamp": "24:56"
+    },
+    {
+      "start": 1498.08,
+      "duration": 2.88,
+      "text": "me i am Thomas Maybryer on X i'd love to",
+      "timestamp": "24:58"
+    },
+    {
+      "start": 1500.96,
+      "duration": 2.16,
+      "text": "hear from you that goes for questions",
+      "timestamp": "25:00"
+    },
+    {
+      "start": 1503.12,
+      "duration": 1.679,
+      "text": "comments feedback about the show in",
+      "timestamp": "25:03"
+    },
+    {
+      "start": 1504.799,
+      "duration": 1.441,
+      "text": "general as well i'm always open to",
+      "timestamp": "25:04"
+    },
+    {
+      "start": 1506.24,
+      "duration": 1.36,
+      "text": "hearing from you i'd also like to remind",
+      "timestamp": "25:06"
+    },
+    {
+      "start": 1507.6,
+      "duration": 1.84,
+      "text": "you if you could give the show a like",
+      "timestamp": "25:07"
+    },
+    {
+      "start": 1509.44,
+      "duration": 1.92,
+      "text": "leave a comment subscribe or share it",
+      "timestamp": "25:09"
+    },
+    {
+      "start": 1511.36,
+      "duration": 1.6,
+      "text": "with a friend it would really help us to",
+      "timestamp": "25:11"
+    },
+    {
+      "start": 1512.96,
+      "duration": 1.839,
+      "text": "grow the show and reach new people okay",
+      "timestamp": "25:12"
+    },
+    {
+      "start": 1514.799,
+      "duration": 1.521,
+      "text": "that's all for today so I'll see you",
+      "timestamp": "25:14"
+    },
+    {
+      "start": 1516.32,
+      "duration": 2.24,
+      "text": "next time on the Agents Unleash podcast",
+      "timestamp": "25:16"
+    },
+    {
+      "start": 1518.56,
+      "duration": 5.57,
+      "text": "[Music]",
+      "timestamp": "25:18"
+    }
+  ],
+  "extraction_timestamp": "2025-07-01T18:12:01.615371",
+  "playlist_title": "Agents Unleashed Podcast"
+}

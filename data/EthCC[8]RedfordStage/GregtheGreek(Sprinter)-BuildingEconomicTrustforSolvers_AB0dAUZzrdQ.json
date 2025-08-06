@@ -1,0 +1,2921 @@
+{
+  "video_id": "AB0dAUZzrdQ",
+  "video_title": "GregtheGreek (Sprinter) - Building Economic Trust for Solvers",
+  "video_url": "https://www.youtube.com/watch?v=AB0dAUZzrdQ",
+  "channel_title": "[EthCC] Livestream 4",
+  "published_at": "2025-07-01T14:49:06+00:00",
+  "duration_seconds": null,
+  "view_count": 36,
+  "like_count": 0,
+  "description": "This talk explores trust economics solvers and users in blockchain systems, addressing opacity, centralization risks, and profit margins. Solutions include standardized interfaces, reputation systems, and mechanisms that return value to users",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 483,
+    "aggregated_text": "and okay, I think we're good. Uh my name is Greg. I'm from Sprinter and also one of the co-founders at Chain Safe. And today I'm going to be talking about uh uh markets specifically pertaining to solvers and the solver market where it sits today. Um and a little bit of an in-depth analysis on kind of like where it can go to be economically viable. And so just a quick, you know, recap on what solvers are. Basically, they're just it's just off-chain code, whether it's an agent or just code itself that's effectively trying to find an optimal solution given a user outcome. A user outcome can be I want a token. Could be I want to go somewhere. Could be I want to enter a certain position on a specific chain. you figure out based the the solver figures out based on the user's point of view, their world view of what they have, where they are to basically get them to that spot in a simplified manner. There's two popularized solvers today. There's a third one that I won't be discussing. And so the two ones are AMM solvers. If anyone here has used cow swap, um then that's like basically that's run by about 21 solvers. And then there's crosschain solvers found in like a cross which is the most popular one, Dbridge, Synapse and a few others. And so those ones have slightly different variations, right? They all do the same thing which the first problem the first thing they need to do is ensure they have adequate liquidity or find liquidity. Um in the cow swap case, a lot of them use onchain liquidity to source that. And the main difference you see is that there's route optimization on the AMM side where versus on the crosschain side it's simply do you have the liquidity on the other side on the other chain where the user wants to go just give it to them. The crosschain solvers are a little bit dumber. They're just like a very simple relay. Um whereas the AMM ones it's a game of whack-a-ole. You're effectively constantly optimizing your algorithm to just like get that extra one cent spread out. Um, and so the competition between the two is a little bit different. Uh, which we'll get into a little bit, but this is just some primer. Make sure we're all there. Um, and quickly, solvers aren't very new. Cowsoft introduced them in 2021. They were popular, they were first talked about by the Anoma team. Um, Chris goes kind of like standardized the concept of intense and that a solver, an offchain agent would have to execute on that to make it work. And in 2022 till 2024, it's solvers are everywhere. Unis swaps launched them. You know, we've got things like across. We have things like one inch fusion. You know, they're basically dominating. And at this point, about 30 to 40% of total DEX volume alone is being routed through some sort of solver. Um most people aren't the trend is going to that way because you get better price discovery and the trend is just continuing. It's growth month over month. um and even cross-chain protocols, we're starting to see a big dominance happen there. Um obviously the message passing bridge is you know still peak but it's starting to take over and that's just simply because you can get the best price by hopping through a series of tokens through different liquidity sources rather than just going to unis swap. You know, a really good example is you want to go from USDC to some shitcoin and there's a really good chance that like USDC to ETH on unis swap will give you a better price pair than you can go to balancer and then eventually go back to unis swap and then get your, you know, fartcoin and that's the best path, but as a user you'd never do that and you could actually extract an extra couple percentage points that way. That's why it's taking off is because they're optimizing dramatically. Um, you know, running a solver isn't the cheapest operation and it's it looks cheap when you see this. It doesn't look too bad per month like right like 100 somethingk. That's like the most bare bones minimal setup. That's not playing whack-a-ole. That's not really doing R&D. This isn't accounting for penalties. And this also doesn't account for the fact that this is a game of BPS, which means it's a game of volume. If you're only making one BPS on a trade, you need to be doing a serious amount of volume to be considered, you know, profitable. Um, and so it's a very tough game. Most of these teams scale up to four or six people, this is like basically like one or two engineering uh staffing members. Um, and so as you start to add more sources to get more order flow, this becomes a very expensive game. Um, and it's very very competitive. And lightly talk on this. So if we see in the second column here volume and revenue I think this is the most important one we see that cow swap distributes about like what 25% roughly a quarter of their actually less h about a quarter of their total revenue to solvers that's about 570 ETH um gets distributed back to the solvers who are doing the work the rest of it sits there um this was last year uh January till today till April um where in a cross you can see that they don't take a fee and that just goes direct to solver. In both in the across case, the average fee is like two three basis points unless you go private liquidity. Um, private order flow, sorry, where you might have a deal where that you can get it higher. Otherwise, you're dealing with about razor thin margins like 1 to 3 BPS. Um, and what's important to talk about is their auction models. Cow swap has a relatively complicated auction model. It uses a mix of second price batched and off-chain sealed bids. What that really means is that you feed in a quote from the ser from the cowop server basically saying hey this sorry a user feeds in basically a trade that they want. Um and that trade basically uh comes back to the solvers and the solvers give a quote they get they try to cow swab tries to batch them as well as the solvers try to batch them to net them and then that gets uh the best bid you know gets uh revealed at the end. Um, it's a bit complicated, but it gets a pretty good price. Um, and there's some problems that we'll talk about in a bit. And the difference is here 21 solvers in cow swap and 78. Uh, we do expect this one to drop down dramatically, which I'm about to talk about right now. Um, I think we're probably going to see like three to five in the coming months um due to the economics of it. So, these are all the solvers um that are participating in cow swap. We've obiscated the names um intentionally just to make sure that you know there's no reason to be talking about people here but so you can understand the market share. As you can see Talos takes a pretty good amount of the total volume but they absolutely smoke everybody in the competition getting about 50% of the fees and there's a reason for this. Um in the green trapezoid like diagram uh sorry shaded area this is what we call the survival zone. this is what it takes to break even. You know, just bare minimum. Just bare minimum. You've got like one or two engineers. You're just trying to do this. This is what it costed to go break even. Um there's three people in the survivor zone. There's one person and it's that tallest one that's well above the survival zone. So, they are making profit probably about like two to three ETH per day. Everybody else is underneath the trapezoid for the last year and a half. Everybody has been underneath the green shaded area. Everybody is dying. Um there's multiple reasons. A lot of people will run this code run that will compete on cow swap purely for the algorithmic reasons so that they can sell services elsewhere. So they take it as kind of like an engineering R&D loss. But generally speaking, the auction model like the way it works today does not work extremely well. Um, and we're talking like what 10 20k a month like like it nobody's making money. The main reason is the x-axis here is what we call the ideal reward. So this is what you would receive should you have actually like won the auction and there were no errors, reverts or penalties applied during the process because there's that can happen in many different ways. Um, and then the the y-axis is your capture ratio. So this is like how much of it how many of those auctions you're actually winning. You can see at the top right here, there's a big bulk of people that win a ton of auctions, right? So, they cap they they basically capture a ton, but they get hit with so many penalties that they can barely get to that 50 E ideal reward. Um, so this is a bit of a problem obviously. Uh, the main reason for it, I don't Yeah, I don't have it on that slide. The main reason for this is due to liquidity. It's a fundamental problem of liquidity. If you can price your liquidity slightly cheaper, and a lot of this comes from the sex arbitrage or simply larger market makers being able to have access to funds, you're able to price your liquidity a penny less than everybody else in the market because you know what all the going rates are. And so you're able to win literally every single auction. And this is just like a fundamental issue of how it happens because these oops, these guys are all algorithmic traders. These two right here are like very unique. They are algorithmic traders that are like the best in the business and they're barely squeaking by. Um that's cow swap. So if we look at across um we have a very kind of similar setup going up here. Um you can see there's like one dominant player. That dominant player kind of takes everything. Um across is a bit of like crosschain protocols are a bit of an inventory game. It's about how much inventory you have, how quickly is it rebalanced, and how efficient you are at just being fast to produce. Um, what we have in the x- axis is the amount of volume they're doing. And then what we have on the y- axis is the total bips you're taking. What we'll see here is uh, niss. This is a unique one. So if we look oh if we look before they take up over 50% both on fees and volume main reason this is the uh foundation solver it's basically backstopping all the trades that I don't go through. So if we remove that one you can see that the survival zone's a lot keep pushing the wrong button. The survival zone's a lot better. It's like this nice thin line but as you can see we're like we scored two extra solvers. It's great. Two more surviving. This is because the markets have competed everybody down to one bps fundamentally. The aggregators, everything driving the price down. And it's fine. It's good for now. It's a volume game. But we still see this exact same issue where pretty much everybody is in this giant survival zone where they're barely making money. And again, a lot of this is due to the fact that they're offering products and services outside of this. Um, fundamentally though, what it does mean is we're in a bit of a winner takes all situation. And so, no matter how many solvers we introduce, how much liquidity we jam into this, at the end of the day, the outcome is trending towards the same thing across all the various different markets, no matter how different they are in nature and what they're supposed to be doing. And the biggest alpha in this whole spectrum is liquidity. Right? If you I think I believe the biggest solver um right the biggest solver right here I believe see this is how much solver inventory they have. Sorry I forgot to cover that. Right. The biggest solver here is carrying about 9 mil of inventory. Everybody else is barely holding on to like one to two. That's the main reason they're not profitable. they don't have enough inventory across all the chains against all the assets that they need done. That increases, reward increases, we start to see people probably enter this region very quickly. And so liquidity is the fundamental alpha in solving and it's how whether it's pennying on the AMM side or whether it's just having access to deep liquidity to do crosschain solves that is the main alpha and without it it's you know you're done. you you just can't compete. Um and when you know this talks about markets more than the liquidity side and so if we talk about markets the question comes what can we learn from tradfi truly like trady does a lot of things really well does a lot of things really poorly but what's really done really well is the market maker side because it's super efficient if we remove the you know illegal stuff that tends to happen um we have zero checks on antitrust, contestability. I question if that's even required on chain, but that is a thing, right? That these do not exist. The same thing with structural separation. You know, if one solver just starts buying up all the other solvers or the infra, is that a problem? Something worth bringing up? I mean, this kind of happens in the PBS pipeline, you know, as it is today. But you know um one of the big issues that exists across all the markets is the fact that settlement in the AMM spectrum is not public and sorry settlement is public but the quoting is not meaning we really don't know what price feeds are getting fed in how people are doing it and it's one of those things that this is probably best solved through like a te as it gives you the ability to actually have like a very rigid structure And you can start to reveal this data privately. Um, and yeah, so that's one of the big ones. Where am I? Ah, yes. I know I'm going to skip over this slide. Yeah. So, the other kind of spectrum we see here is that, you know, you could relate this a lot to like the block production side. Cool. um where the same kind of things come up. And so if all the wallets, all the apps start moving to basically intentbased networks, you can get a onetoone map of what's happening in the block production space as a kind of reality of what will probably happen in the solving space if we don't change the way our auction mechanisms works and our the general markets in themselves. um because we'll basically just end up with two players dominating the entire spe the entire thing. And I guess this becomes a moral question, you know, as the people integrating them were building out intent networks if that matters to you. Um but it's going to happen because it's happening right now and it's going to get worse and worse and worse. Um, and so, you know, there are some suggestions we have here that like could help to improve that. Um, and I'm running a bit on time. And that could basically help fix some of this stuff. Um, a lot of its role in separation. you know, what happens during that auction period, who's in charge of what can actually dramatically improve the centralization that would occur inside of these auction mechanisms. Um, as well as in an idealistic world, there's like a shared liquidity index. So, we don't have to recomputee this every time because you have to think when those 21 solvers on cow swap are literally recomputing the exact same code 21 time they like 21 times. every single transaction that goes in, they're repeating the same thing and they're recmputing the same liquidity sources and so it's a bit of a wasted effort. Um, yeah. And so like kind of where can we go from here? There's a few paths that can take, right? Like today we're fully centralized. Um, as I was trying to say before, we could go down the path of something like a solveret, very similar to what the Flashbots team is trying to do with builderet that could try to democratize it a little bit more and try and get the auction mechanisms a little bit tighter um or the RFQS. Uh, and then I think an idealistic version, you know, the crypto ethos of me says that like realistically the solver code should exist directly at the wallet. that should be done that you can do locally. I believe we can get to that within a few years and I think that's where realistically most of this will end up going. Um as it's just table stakes to get borderline the exact same infra going. Um and that's uh everything. Um thank you guys for coming here. Uh if you are curious about that or working on that, please let me know. Uh at Sprinter we're solvers and we also are working on getting access to liquidity to solvers. So, if this is interesting to you, um, I'm around and you can get Alex and Nadem's Twitter who also helped write a lot of this, uh, presentation. Um, thank you. And I have like one minute for a question, so I can take like one. [Applause] Yes. Yeah. So the question is like you repeat. Okay. I could do the mic talking about kind of getting infra for this kind of like at the solver level in a wallet but every time we do anything to like MetaMask or Phantom or anything like people about bloat and like it ends up being like a huge burden on the usability side. Like what does this look like to you that isn't intrusive for like um a lot of this is what we call path finding. Yeah. So, it's like literally stitching together what's available where they are. Um, and I do believe that that will get um what's the word I'm looking for? AI will help bring that to a medium. I can't Yeah. And so like that will become I believe so simple that also if we have liquidity indexing right where we have easy indexes to get access to like where the liquidity is at. It should be trivial to do it directly in wallet versus outsourcing. Yeah. I look forward to a day where I have a phone that's able to do liquidity routing whilst I've got like trust wallet open. But I don't think we're there like anytime soon. We're soon. Awesome. Thank you guys so much.",
+    "text_length": 17576,
+    "word_count": 3287
+  },
+  "segments": [
+    {
+      "start": 1.68,
+      "duration": 3.0,
+      "text": "and",
+      "timestamp": "00:01"
+    },
+    {
+      "start": 4.799,
+      "duration": 2.161,
+      "text": "okay, I think we're good. Uh my name is",
+      "timestamp": "00:04"
+    },
+    {
+      "start": 6.96,
+      "duration": 2.48,
+      "text": "Greg. I'm from Sprinter and also one of",
+      "timestamp": "00:06"
+    },
+    {
+      "start": 9.44,
+      "duration": 1.92,
+      "text": "the co-founders at Chain Safe. And today",
+      "timestamp": "00:09"
+    },
+    {
+      "start": 11.36,
+      "duration": 2.8,
+      "text": "I'm going to be talking about uh uh",
+      "timestamp": "00:11"
+    },
+    {
+      "start": 14.16,
+      "duration": 2.4,
+      "text": "markets specifically pertaining to",
+      "timestamp": "00:14"
+    },
+    {
+      "start": 16.56,
+      "duration": 2.16,
+      "text": "solvers and the solver market where it",
+      "timestamp": "00:16"
+    },
+    {
+      "start": 18.72,
+      "duration": 1.92,
+      "text": "sits today. Um and a little bit of an",
+      "timestamp": "00:18"
+    },
+    {
+      "start": 20.64,
+      "duration": 2.16,
+      "text": "in-depth analysis on kind of like where",
+      "timestamp": "00:20"
+    },
+    {
+      "start": 22.8,
+      "duration": 3.84,
+      "text": "it can go to be economically viable.",
+      "timestamp": "00:22"
+    },
+    {
+      "start": 26.64,
+      "duration": 2.799,
+      "text": "And so just a quick, you know, recap on",
+      "timestamp": "00:26"
+    },
+    {
+      "start": 29.439,
+      "duration": 3.041,
+      "text": "what solvers are. Basically, they're",
+      "timestamp": "00:29"
+    },
+    {
+      "start": 32.48,
+      "duration": 2.4,
+      "text": "just it's just off-chain code, whether",
+      "timestamp": "00:32"
+    },
+    {
+      "start": 34.88,
+      "duration": 2.48,
+      "text": "it's an agent or just code itself that's",
+      "timestamp": "00:34"
+    },
+    {
+      "start": 37.36,
+      "duration": 2.0,
+      "text": "effectively trying to find an optimal",
+      "timestamp": "00:37"
+    },
+    {
+      "start": 39.36,
+      "duration": 2.879,
+      "text": "solution given a user outcome. A user",
+      "timestamp": "00:39"
+    },
+    {
+      "start": 42.239,
+      "duration": 1.681,
+      "text": "outcome can be I want a token. Could be",
+      "timestamp": "00:42"
+    },
+    {
+      "start": 43.92,
+      "duration": 2.159,
+      "text": "I want to go somewhere. Could be I want",
+      "timestamp": "00:43"
+    },
+    {
+      "start": 46.079,
+      "duration": 1.361,
+      "text": "to enter a certain position on a",
+      "timestamp": "00:46"
+    },
+    {
+      "start": 47.44,
+      "duration": 2.72,
+      "text": "specific chain. you figure out based the",
+      "timestamp": "00:47"
+    },
+    {
+      "start": 50.16,
+      "duration": 1.76,
+      "text": "the solver figures out based on the",
+      "timestamp": "00:50"
+    },
+    {
+      "start": 51.92,
+      "duration": 1.84,
+      "text": "user's point of view, their world view",
+      "timestamp": "00:51"
+    },
+    {
+      "start": 53.76,
+      "duration": 2.0,
+      "text": "of what they have, where they are to",
+      "timestamp": "00:53"
+    },
+    {
+      "start": 55.76,
+      "duration": 2.56,
+      "text": "basically get them to that spot in a",
+      "timestamp": "00:55"
+    },
+    {
+      "start": 58.32,
+      "duration": 2.239,
+      "text": "simplified manner.",
+      "timestamp": "00:58"
+    },
+    {
+      "start": 60.559,
+      "duration": 2.32,
+      "text": "There's two popularized solvers today.",
+      "timestamp": "01:00"
+    },
+    {
+      "start": 62.879,
+      "duration": 1.599,
+      "text": "There's a third one that I won't be",
+      "timestamp": "01:02"
+    },
+    {
+      "start": 64.479,
+      "duration": 2.081,
+      "text": "discussing. And so the two ones are AMM",
+      "timestamp": "01:04"
+    },
+    {
+      "start": 66.56,
+      "duration": 2.16,
+      "text": "solvers. If anyone here has used cow",
+      "timestamp": "01:06"
+    },
+    {
+      "start": 68.72,
+      "duration": 3.439,
+      "text": "swap, um then that's like basically",
+      "timestamp": "01:08"
+    },
+    {
+      "start": 72.159,
+      "duration": 2.64,
+      "text": "that's run by about 21 solvers. And then",
+      "timestamp": "01:12"
+    },
+    {
+      "start": 74.799,
+      "duration": 2.32,
+      "text": "there's crosschain solvers found in like",
+      "timestamp": "01:14"
+    },
+    {
+      "start": 77.119,
+      "duration": 1.761,
+      "text": "a cross which is the most popular one,",
+      "timestamp": "01:17"
+    },
+    {
+      "start": 78.88,
+      "duration": 2.72,
+      "text": "Dbridge, Synapse and a few others. And",
+      "timestamp": "01:18"
+    },
+    {
+      "start": 81.6,
+      "duration": 2.8,
+      "text": "so those ones have slightly different",
+      "timestamp": "01:21"
+    },
+    {
+      "start": 84.4,
+      "duration": 2.24,
+      "text": "variations, right? They all do the same",
+      "timestamp": "01:24"
+    },
+    {
+      "start": 86.64,
+      "duration": 2.08,
+      "text": "thing which the first problem the first",
+      "timestamp": "01:26"
+    },
+    {
+      "start": 88.72,
+      "duration": 1.12,
+      "text": "thing they need to do is ensure they",
+      "timestamp": "01:28"
+    },
+    {
+      "start": 89.84,
+      "duration": 1.84,
+      "text": "have adequate liquidity or find",
+      "timestamp": "01:29"
+    },
+    {
+      "start": 91.68,
+      "duration": 2.079,
+      "text": "liquidity. Um in the cow swap case, a",
+      "timestamp": "01:31"
+    },
+    {
+      "start": 93.759,
+      "duration": 1.921,
+      "text": "lot of them use onchain liquidity to",
+      "timestamp": "01:33"
+    },
+    {
+      "start": 95.68,
+      "duration": 1.759,
+      "text": "source that.",
+      "timestamp": "01:35"
+    },
+    {
+      "start": 97.439,
+      "duration": 1.761,
+      "text": "And the main difference you see is that",
+      "timestamp": "01:37"
+    },
+    {
+      "start": 99.2,
+      "duration": 2.32,
+      "text": "there's route optimization on the AMM",
+      "timestamp": "01:39"
+    },
+    {
+      "start": 101.52,
+      "duration": 2.72,
+      "text": "side where versus on the crosschain side",
+      "timestamp": "01:41"
+    },
+    {
+      "start": 104.24,
+      "duration": 2.4,
+      "text": "it's simply do you have the liquidity on",
+      "timestamp": "01:44"
+    },
+    {
+      "start": 106.64,
+      "duration": 1.28,
+      "text": "the other side on the other chain where",
+      "timestamp": "01:46"
+    },
+    {
+      "start": 107.92,
+      "duration": 1.6,
+      "text": "the user wants to go just give it to",
+      "timestamp": "01:47"
+    },
+    {
+      "start": 109.52,
+      "duration": 2.559,
+      "text": "them. The crosschain solvers are a",
+      "timestamp": "01:49"
+    },
+    {
+      "start": 112.079,
+      "duration": 2.4,
+      "text": "little bit dumber. They're just like a",
+      "timestamp": "01:52"
+    },
+    {
+      "start": 114.479,
+      "duration": 2.96,
+      "text": "very simple relay. Um whereas the AMM",
+      "timestamp": "01:54"
+    },
+    {
+      "start": 117.439,
+      "duration": 1.68,
+      "text": "ones it's a game of whack-a-ole. You're",
+      "timestamp": "01:57"
+    },
+    {
+      "start": 119.119,
+      "duration": 1.6,
+      "text": "effectively constantly optimizing your",
+      "timestamp": "01:59"
+    },
+    {
+      "start": 120.719,
+      "duration": 2.241,
+      "text": "algorithm to just like get that extra",
+      "timestamp": "02:00"
+    },
+    {
+      "start": 122.96,
+      "duration": 3.119,
+      "text": "one cent spread out. Um, and so the",
+      "timestamp": "02:02"
+    },
+    {
+      "start": 126.079,
+      "duration": 1.36,
+      "text": "competition between the two is a little",
+      "timestamp": "02:06"
+    },
+    {
+      "start": 127.439,
+      "duration": 1.68,
+      "text": "bit different. Uh, which we'll get into",
+      "timestamp": "02:07"
+    },
+    {
+      "start": 129.119,
+      "duration": 1.76,
+      "text": "a little bit, but this is just some",
+      "timestamp": "02:09"
+    },
+    {
+      "start": 130.879,
+      "duration": 2.321,
+      "text": "primer. Make sure we're all there. Um,",
+      "timestamp": "02:10"
+    },
+    {
+      "start": 133.2,
+      "duration": 2.56,
+      "text": "and quickly, solvers aren't very new.",
+      "timestamp": "02:13"
+    },
+    {
+      "start": 135.76,
+      "duration": 2.32,
+      "text": "Cowsoft introduced them in 2021. They",
+      "timestamp": "02:15"
+    },
+    {
+      "start": 138.08,
+      "duration": 1.6,
+      "text": "were popular, they were first talked",
+      "timestamp": "02:18"
+    },
+    {
+      "start": 139.68,
+      "duration": 4.08,
+      "text": "about by the Anoma team. Um, Chris goes",
+      "timestamp": "02:19"
+    },
+    {
+      "start": 143.76,
+      "duration": 1.68,
+      "text": "kind of like standardized the concept of",
+      "timestamp": "02:23"
+    },
+    {
+      "start": 145.44,
+      "duration": 1.76,
+      "text": "intense and that a solver, an offchain",
+      "timestamp": "02:25"
+    },
+    {
+      "start": 147.2,
+      "duration": 1.679,
+      "text": "agent would have to execute on that to",
+      "timestamp": "02:27"
+    },
+    {
+      "start": 148.879,
+      "duration": 4.241,
+      "text": "make it work. And in 2022 till 2024,",
+      "timestamp": "02:28"
+    },
+    {
+      "start": 153.12,
+      "duration": 2.0,
+      "text": "it's solvers are everywhere. Unis swaps",
+      "timestamp": "02:33"
+    },
+    {
+      "start": 155.12,
+      "duration": 1.92,
+      "text": "launched them. You know, we've got",
+      "timestamp": "02:35"
+    },
+    {
+      "start": 157.04,
+      "duration": 2.0,
+      "text": "things like across. We have things like",
+      "timestamp": "02:37"
+    },
+    {
+      "start": 159.04,
+      "duration": 1.919,
+      "text": "one inch fusion. You know, they're",
+      "timestamp": "02:39"
+    },
+    {
+      "start": 160.959,
+      "duration": 2.161,
+      "text": "basically dominating. And at this point,",
+      "timestamp": "02:40"
+    },
+    {
+      "start": 163.12,
+      "duration": 3.36,
+      "text": "about 30 to 40% of total DEX volume",
+      "timestamp": "02:43"
+    },
+    {
+      "start": 166.48,
+      "duration": 2.399,
+      "text": "alone is being routed through some sort",
+      "timestamp": "02:46"
+    },
+    {
+      "start": 168.879,
+      "duration": 3.44,
+      "text": "of solver. Um most people aren't the",
+      "timestamp": "02:48"
+    },
+    {
+      "start": 172.319,
+      "duration": 1.28,
+      "text": "trend is going to that way because you",
+      "timestamp": "02:52"
+    },
+    {
+      "start": 173.599,
+      "duration": 2.481,
+      "text": "get better price discovery and the trend",
+      "timestamp": "02:53"
+    },
+    {
+      "start": 176.08,
+      "duration": 2.239,
+      "text": "is just continuing. It's growth month",
+      "timestamp": "02:56"
+    },
+    {
+      "start": 178.319,
+      "duration": 2.0,
+      "text": "over month. um and even cross-chain",
+      "timestamp": "02:58"
+    },
+    {
+      "start": 180.319,
+      "duration": 1.521,
+      "text": "protocols, we're starting to see a big",
+      "timestamp": "03:00"
+    },
+    {
+      "start": 181.84,
+      "duration": 2.319,
+      "text": "dominance happen there. Um obviously the",
+      "timestamp": "03:01"
+    },
+    {
+      "start": 184.159,
+      "duration": 2.321,
+      "text": "message passing bridge is you know still",
+      "timestamp": "03:04"
+    },
+    {
+      "start": 186.48,
+      "duration": 2.32,
+      "text": "peak but it's starting to take over and",
+      "timestamp": "03:06"
+    },
+    {
+      "start": 188.8,
+      "duration": 1.6,
+      "text": "that's just simply because you can get",
+      "timestamp": "03:08"
+    },
+    {
+      "start": 190.4,
+      "duration": 2.32,
+      "text": "the best price by hopping through a",
+      "timestamp": "03:10"
+    },
+    {
+      "start": 192.72,
+      "duration": 1.519,
+      "text": "series of tokens through different",
+      "timestamp": "03:12"
+    },
+    {
+      "start": 194.239,
+      "duration": 2.241,
+      "text": "liquidity sources rather than just going",
+      "timestamp": "03:14"
+    },
+    {
+      "start": 196.48,
+      "duration": 1.92,
+      "text": "to unis swap. You know, a really good",
+      "timestamp": "03:16"
+    },
+    {
+      "start": 198.4,
+      "duration": 3.52,
+      "text": "example is you want to go from USDC to",
+      "timestamp": "03:18"
+    },
+    {
+      "start": 201.92,
+      "duration": 2.0,
+      "text": "some shitcoin and there's a really good",
+      "timestamp": "03:21"
+    },
+    {
+      "start": 203.92,
+      "duration": 2.72,
+      "text": "chance that like USDC to ETH on unis",
+      "timestamp": "03:23"
+    },
+    {
+      "start": 206.64,
+      "duration": 1.599,
+      "text": "swap will give you a better price pair",
+      "timestamp": "03:26"
+    },
+    {
+      "start": 208.239,
+      "duration": 1.681,
+      "text": "than you can go to balancer and then",
+      "timestamp": "03:28"
+    },
+    {
+      "start": 209.92,
+      "duration": 2.16,
+      "text": "eventually go back to unis swap and then",
+      "timestamp": "03:29"
+    },
+    {
+      "start": 212.08,
+      "duration": 2.159,
+      "text": "get your, you know, fartcoin and that's",
+      "timestamp": "03:32"
+    },
+    {
+      "start": 214.239,
+      "duration": 1.92,
+      "text": "the best path, but as a user you'd never",
+      "timestamp": "03:34"
+    },
+    {
+      "start": 216.159,
+      "duration": 1.841,
+      "text": "do that and you could actually extract",
+      "timestamp": "03:36"
+    },
+    {
+      "start": 218.0,
+      "duration": 1.519,
+      "text": "an extra couple percentage points that",
+      "timestamp": "03:38"
+    },
+    {
+      "start": 219.519,
+      "duration": 2.08,
+      "text": "way. That's why it's taking off is",
+      "timestamp": "03:39"
+    },
+    {
+      "start": 221.599,
+      "duration": 2.64,
+      "text": "because they're optimizing dramatically.",
+      "timestamp": "03:41"
+    },
+    {
+      "start": 224.239,
+      "duration": 3.121,
+      "text": "Um, you know, running a solver isn't the",
+      "timestamp": "03:44"
+    },
+    {
+      "start": 227.36,
+      "duration": 2.0,
+      "text": "cheapest operation",
+      "timestamp": "03:47"
+    },
+    {
+      "start": 229.36,
+      "duration": 2.0,
+      "text": "and it's it looks cheap when you see",
+      "timestamp": "03:49"
+    },
+    {
+      "start": 231.36,
+      "duration": 2.08,
+      "text": "this. It doesn't look too bad per month",
+      "timestamp": "03:51"
+    },
+    {
+      "start": 233.44,
+      "duration": 2.079,
+      "text": "like right like 100 somethingk. That's",
+      "timestamp": "03:53"
+    },
+    {
+      "start": 235.519,
+      "duration": 2.561,
+      "text": "like the most bare bones minimal setup.",
+      "timestamp": "03:55"
+    },
+    {
+      "start": 238.08,
+      "duration": 1.76,
+      "text": "That's not playing whack-a-ole. That's",
+      "timestamp": "03:58"
+    },
+    {
+      "start": 239.84,
+      "duration": 1.92,
+      "text": "not really doing R&D. This isn't",
+      "timestamp": "03:59"
+    },
+    {
+      "start": 241.76,
+      "duration": 2.0,
+      "text": "accounting for penalties. And this also",
+      "timestamp": "04:01"
+    },
+    {
+      "start": 243.76,
+      "duration": 2.0,
+      "text": "doesn't account for the fact that this",
+      "timestamp": "04:03"
+    },
+    {
+      "start": 245.76,
+      "duration": 2.08,
+      "text": "is a game of BPS, which means it's a",
+      "timestamp": "04:05"
+    },
+    {
+      "start": 247.84,
+      "duration": 1.679,
+      "text": "game of volume. If you're only making",
+      "timestamp": "04:07"
+    },
+    {
+      "start": 249.519,
+      "duration": 2.401,
+      "text": "one BPS on a trade, you need to be doing",
+      "timestamp": "04:09"
+    },
+    {
+      "start": 251.92,
+      "duration": 2.0,
+      "text": "a serious amount of volume to be",
+      "timestamp": "04:11"
+    },
+    {
+      "start": 253.92,
+      "duration": 3.039,
+      "text": "considered, you know, profitable. Um,",
+      "timestamp": "04:13"
+    },
+    {
+      "start": 256.959,
+      "duration": 1.601,
+      "text": "and so it's a very tough game. Most of",
+      "timestamp": "04:16"
+    },
+    {
+      "start": 258.56,
+      "duration": 1.6,
+      "text": "these teams scale up to four or six",
+      "timestamp": "04:18"
+    },
+    {
+      "start": 260.16,
+      "duration": 2.08,
+      "text": "people, this is like basically like one",
+      "timestamp": "04:20"
+    },
+    {
+      "start": 262.24,
+      "duration": 3.04,
+      "text": "or two engineering uh staffing members.",
+      "timestamp": "04:22"
+    },
+    {
+      "start": 265.28,
+      "duration": 1.68,
+      "text": "Um, and so as you start to add more",
+      "timestamp": "04:25"
+    },
+    {
+      "start": 266.96,
+      "duration": 1.92,
+      "text": "sources to get more order flow, this",
+      "timestamp": "04:26"
+    },
+    {
+      "start": 268.88,
+      "duration": 2.16,
+      "text": "becomes a very expensive game. Um, and",
+      "timestamp": "04:28"
+    },
+    {
+      "start": 271.04,
+      "duration": 3.439,
+      "text": "it's very very competitive.",
+      "timestamp": "04:31"
+    },
+    {
+      "start": 274.479,
+      "duration": 1.841,
+      "text": "And",
+      "timestamp": "04:34"
+    },
+    {
+      "start": 276.32,
+      "duration": 3.12,
+      "text": "lightly talk on this. So if we see in",
+      "timestamp": "04:36"
+    },
+    {
+      "start": 279.44,
+      "duration": 1.84,
+      "text": "the second column here volume and",
+      "timestamp": "04:39"
+    },
+    {
+      "start": 281.28,
+      "duration": 1.12,
+      "text": "revenue I think this is the most",
+      "timestamp": "04:41"
+    },
+    {
+      "start": 282.4,
+      "duration": 1.68,
+      "text": "important one we see that cow swap",
+      "timestamp": "04:42"
+    },
+    {
+      "start": 284.08,
+      "duration": 3.119,
+      "text": "distributes about like what 25% roughly",
+      "timestamp": "04:44"
+    },
+    {
+      "start": 287.199,
+      "duration": 3.361,
+      "text": "a quarter of their actually less h about",
+      "timestamp": "04:47"
+    },
+    {
+      "start": 290.56,
+      "duration": 2.639,
+      "text": "a quarter of their total revenue to",
+      "timestamp": "04:50"
+    },
+    {
+      "start": 293.199,
+      "duration": 2.801,
+      "text": "solvers that's about 570 ETH um gets",
+      "timestamp": "04:53"
+    },
+    {
+      "start": 296.0,
+      "duration": 2.0,
+      "text": "distributed back to the solvers who are",
+      "timestamp": "04:56"
+    },
+    {
+      "start": 298.0,
+      "duration": 2.56,
+      "text": "doing the work the rest of it sits there",
+      "timestamp": "04:58"
+    },
+    {
+      "start": 300.56,
+      "duration": 2.72,
+      "text": "um this was last year uh January till",
+      "timestamp": "05:00"
+    },
+    {
+      "start": 303.28,
+      "duration": 3.44,
+      "text": "today till April um where in a cross you",
+      "timestamp": "05:03"
+    },
+    {
+      "start": 306.72,
+      "duration": 1.44,
+      "text": "can see that they don't take a fee and",
+      "timestamp": "05:06"
+    },
+    {
+      "start": 308.16,
+      "duration": 2.16,
+      "text": "that just goes direct to solver. In both",
+      "timestamp": "05:08"
+    },
+    {
+      "start": 310.32,
+      "duration": 1.76,
+      "text": "in the across case, the average fee is",
+      "timestamp": "05:10"
+    },
+    {
+      "start": 312.08,
+      "duration": 1.92,
+      "text": "like two three basis points unless you",
+      "timestamp": "05:12"
+    },
+    {
+      "start": 314.0,
+      "duration": 2.16,
+      "text": "go private liquidity. Um, private order",
+      "timestamp": "05:14"
+    },
+    {
+      "start": 316.16,
+      "duration": 1.599,
+      "text": "flow, sorry, where you might have a deal",
+      "timestamp": "05:16"
+    },
+    {
+      "start": 317.759,
+      "duration": 1.681,
+      "text": "where that you can get it higher.",
+      "timestamp": "05:17"
+    },
+    {
+      "start": 319.44,
+      "duration": 1.759,
+      "text": "Otherwise, you're dealing with about",
+      "timestamp": "05:19"
+    },
+    {
+      "start": 321.199,
+      "duration": 2.961,
+      "text": "razor thin margins like 1 to 3 BPS. Um,",
+      "timestamp": "05:21"
+    },
+    {
+      "start": 324.16,
+      "duration": 1.599,
+      "text": "and what's important to talk about is",
+      "timestamp": "05:24"
+    },
+    {
+      "start": 325.759,
+      "duration": 2.321,
+      "text": "their auction models. Cow swap has a",
+      "timestamp": "05:25"
+    },
+    {
+      "start": 328.08,
+      "duration": 1.76,
+      "text": "relatively complicated auction model. It",
+      "timestamp": "05:28"
+    },
+    {
+      "start": 329.84,
+      "duration": 1.76,
+      "text": "uses a mix of second price batched and",
+      "timestamp": "05:29"
+    },
+    {
+      "start": 331.6,
+      "duration": 1.92,
+      "text": "off-chain sealed bids. What that really",
+      "timestamp": "05:31"
+    },
+    {
+      "start": 333.52,
+      "duration": 2.88,
+      "text": "means is that you feed in a quote from",
+      "timestamp": "05:33"
+    },
+    {
+      "start": 336.4,
+      "duration": 2.32,
+      "text": "the ser from the cowop server basically",
+      "timestamp": "05:36"
+    },
+    {
+      "start": 338.72,
+      "duration": 3.039,
+      "text": "saying hey this sorry a user feeds in",
+      "timestamp": "05:38"
+    },
+    {
+      "start": 341.759,
+      "duration": 2.241,
+      "text": "basically a trade that they want. Um and",
+      "timestamp": "05:41"
+    },
+    {
+      "start": 344.0,
+      "duration": 2.88,
+      "text": "that trade basically uh comes back to",
+      "timestamp": "05:44"
+    },
+    {
+      "start": 346.88,
+      "duration": 2.879,
+      "text": "the solvers and the solvers give a quote",
+      "timestamp": "05:46"
+    },
+    {
+      "start": 349.759,
+      "duration": 2.72,
+      "text": "they get they try to cow swab tries to",
+      "timestamp": "05:49"
+    },
+    {
+      "start": 352.479,
+      "duration": 1.521,
+      "text": "batch them as well as the solvers try to",
+      "timestamp": "05:52"
+    },
+    {
+      "start": 354.0,
+      "duration": 2.0,
+      "text": "batch them to net them and then that",
+      "timestamp": "05:54"
+    },
+    {
+      "start": 356.0,
+      "duration": 2.72,
+      "text": "gets uh the best bid you know gets uh",
+      "timestamp": "05:56"
+    },
+    {
+      "start": 358.72,
+      "duration": 2.88,
+      "text": "revealed at the end. Um, it's a bit",
+      "timestamp": "05:58"
+    },
+    {
+      "start": 361.6,
+      "duration": 2.0,
+      "text": "complicated, but it gets a pretty good",
+      "timestamp": "06:01"
+    },
+    {
+      "start": 363.6,
+      "duration": 1.599,
+      "text": "price. Um, and there's some problems",
+      "timestamp": "06:03"
+    },
+    {
+      "start": 365.199,
+      "duration": 2.321,
+      "text": "that we'll talk about in a bit. And the",
+      "timestamp": "06:05"
+    },
+    {
+      "start": 367.52,
+      "duration": 2.399,
+      "text": "difference is here 21 solvers in cow",
+      "timestamp": "06:07"
+    },
+    {
+      "start": 369.919,
+      "duration": 2.72,
+      "text": "swap and 78. Uh, we do expect this one",
+      "timestamp": "06:09"
+    },
+    {
+      "start": 372.639,
+      "duration": 1.361,
+      "text": "to drop down dramatically, which I'm",
+      "timestamp": "06:12"
+    },
+    {
+      "start": 374.0,
+      "duration": 2.479,
+      "text": "about to talk about right now. Um, I",
+      "timestamp": "06:14"
+    },
+    {
+      "start": 376.479,
+      "duration": 1.28,
+      "text": "think we're probably going to see like",
+      "timestamp": "06:16"
+    },
+    {
+      "start": 377.759,
+      "duration": 2.641,
+      "text": "three to five in the coming months um",
+      "timestamp": "06:17"
+    },
+    {
+      "start": 380.4,
+      "duration": 2.639,
+      "text": "due to the economics of it. So, these",
+      "timestamp": "06:20"
+    },
+    {
+      "start": 383.039,
+      "duration": 1.841,
+      "text": "are all the solvers um that are",
+      "timestamp": "06:23"
+    },
+    {
+      "start": 384.88,
+      "duration": 1.84,
+      "text": "participating in cow swap. We've",
+      "timestamp": "06:24"
+    },
+    {
+      "start": 386.72,
+      "duration": 2.24,
+      "text": "obiscated the names um intentionally",
+      "timestamp": "06:26"
+    },
+    {
+      "start": 388.96,
+      "duration": 1.84,
+      "text": "just to make sure that you know there's",
+      "timestamp": "06:28"
+    },
+    {
+      "start": 390.8,
+      "duration": 1.119,
+      "text": "no reason to be talking about people",
+      "timestamp": "06:30"
+    },
+    {
+      "start": 391.919,
+      "duration": 1.601,
+      "text": "here but so you can understand the",
+      "timestamp": "06:31"
+    },
+    {
+      "start": 393.52,
+      "duration": 2.72,
+      "text": "market share. As you can see Talos takes",
+      "timestamp": "06:33"
+    },
+    {
+      "start": 396.24,
+      "duration": 2.56,
+      "text": "a pretty good amount of the total volume",
+      "timestamp": "06:36"
+    },
+    {
+      "start": 398.8,
+      "duration": 2.399,
+      "text": "but they absolutely smoke everybody in",
+      "timestamp": "06:38"
+    },
+    {
+      "start": 401.199,
+      "duration": 2.241,
+      "text": "the competition getting about 50% of the",
+      "timestamp": "06:41"
+    },
+    {
+      "start": 403.44,
+      "duration": 2.8,
+      "text": "fees and there's a reason for this. Um",
+      "timestamp": "06:43"
+    },
+    {
+      "start": 406.24,
+      "duration": 4.399,
+      "text": "in the green trapezoid like diagram uh",
+      "timestamp": "06:46"
+    },
+    {
+      "start": 410.639,
+      "duration": 2.881,
+      "text": "sorry shaded area this is what we call",
+      "timestamp": "06:50"
+    },
+    {
+      "start": 413.52,
+      "duration": 2.72,
+      "text": "the survival zone. this is what it takes",
+      "timestamp": "06:53"
+    },
+    {
+      "start": 416.24,
+      "duration": 4.56,
+      "text": "to break even. You know, just bare",
+      "timestamp": "06:56"
+    },
+    {
+      "start": 420.8,
+      "duration": 1.92,
+      "text": "minimum. Just bare minimum. You've got",
+      "timestamp": "07:00"
+    },
+    {
+      "start": 422.72,
+      "duration": 2.24,
+      "text": "like one or two engineers. You're just",
+      "timestamp": "07:02"
+    },
+    {
+      "start": 424.96,
+      "duration": 2.239,
+      "text": "trying to do this. This is what it",
+      "timestamp": "07:04"
+    },
+    {
+      "start": 427.199,
+      "duration": 2.641,
+      "text": "costed to go break even. Um there's",
+      "timestamp": "07:07"
+    },
+    {
+      "start": 429.84,
+      "duration": 1.919,
+      "text": "three people in the survivor zone.",
+      "timestamp": "07:09"
+    },
+    {
+      "start": 431.759,
+      "duration": 1.921,
+      "text": "There's one person and it's that tallest",
+      "timestamp": "07:11"
+    },
+    {
+      "start": 433.68,
+      "duration": 2.239,
+      "text": "one that's well above the survival zone.",
+      "timestamp": "07:13"
+    },
+    {
+      "start": 435.919,
+      "duration": 2.081,
+      "text": "So, they are making profit probably",
+      "timestamp": "07:15"
+    },
+    {
+      "start": 438.0,
+      "duration": 3.36,
+      "text": "about like two to three ETH per day.",
+      "timestamp": "07:18"
+    },
+    {
+      "start": 441.36,
+      "duration": 2.399,
+      "text": "Everybody else is underneath the",
+      "timestamp": "07:21"
+    },
+    {
+      "start": 443.759,
+      "duration": 3.44,
+      "text": "trapezoid for the last year and a half.",
+      "timestamp": "07:23"
+    },
+    {
+      "start": 447.199,
+      "duration": 2.081,
+      "text": "Everybody has been underneath the green",
+      "timestamp": "07:27"
+    },
+    {
+      "start": 449.28,
+      "duration": 2.88,
+      "text": "shaded area. Everybody is dying. Um",
+      "timestamp": "07:29"
+    },
+    {
+      "start": 452.16,
+      "duration": 1.28,
+      "text": "there's multiple reasons. A lot of",
+      "timestamp": "07:32"
+    },
+    {
+      "start": 453.44,
+      "duration": 2.24,
+      "text": "people will run this code run that will",
+      "timestamp": "07:33"
+    },
+    {
+      "start": 455.68,
+      "duration": 3.2,
+      "text": "compete on cow swap purely for the",
+      "timestamp": "07:35"
+    },
+    {
+      "start": 458.88,
+      "duration": 1.599,
+      "text": "algorithmic reasons so that they can",
+      "timestamp": "07:38"
+    },
+    {
+      "start": 460.479,
+      "duration": 1.681,
+      "text": "sell services elsewhere. So they take it",
+      "timestamp": "07:40"
+    },
+    {
+      "start": 462.16,
+      "duration": 2.159,
+      "text": "as kind of like an engineering R&D loss.",
+      "timestamp": "07:42"
+    },
+    {
+      "start": 464.319,
+      "duration": 1.28,
+      "text": "But generally speaking, the auction",
+      "timestamp": "07:44"
+    },
+    {
+      "start": 465.599,
+      "duration": 2.081,
+      "text": "model like the way it works today does",
+      "timestamp": "07:45"
+    },
+    {
+      "start": 467.68,
+      "duration": 4.079,
+      "text": "not work extremely well. Um, and we're",
+      "timestamp": "07:47"
+    },
+    {
+      "start": 471.759,
+      "duration": 3.84,
+      "text": "talking like what 10 20k a month like",
+      "timestamp": "07:51"
+    },
+    {
+      "start": 475.599,
+      "duration": 2.081,
+      "text": "like it nobody's making money. The main",
+      "timestamp": "07:55"
+    },
+    {
+      "start": 477.68,
+      "duration": 1.919,
+      "text": "reason is the x-axis here is what we",
+      "timestamp": "07:57"
+    },
+    {
+      "start": 479.599,
+      "duration": 1.761,
+      "text": "call the ideal reward. So this is what",
+      "timestamp": "07:59"
+    },
+    {
+      "start": 481.36,
+      "duration": 1.679,
+      "text": "you would receive should you have",
+      "timestamp": "08:01"
+    },
+    {
+      "start": 483.039,
+      "duration": 2.401,
+      "text": "actually like won the auction and there",
+      "timestamp": "08:03"
+    },
+    {
+      "start": 485.44,
+      "duration": 1.759,
+      "text": "were no errors, reverts or penalties",
+      "timestamp": "08:05"
+    },
+    {
+      "start": 487.199,
+      "duration": 1.361,
+      "text": "applied during the process because",
+      "timestamp": "08:07"
+    },
+    {
+      "start": 488.56,
+      "duration": 1.44,
+      "text": "there's that can happen in many",
+      "timestamp": "08:08"
+    },
+    {
+      "start": 490.0,
+      "duration": 2.4,
+      "text": "different ways. Um, and then the the",
+      "timestamp": "08:10"
+    },
+    {
+      "start": 492.4,
+      "duration": 2.479,
+      "text": "y-axis is your capture ratio. So this is",
+      "timestamp": "08:12"
+    },
+    {
+      "start": 494.879,
+      "duration": 2.32,
+      "text": "like how much of it how many of those",
+      "timestamp": "08:14"
+    },
+    {
+      "start": 497.199,
+      "duration": 1.601,
+      "text": "auctions you're actually winning. You",
+      "timestamp": "08:17"
+    },
+    {
+      "start": 498.8,
+      "duration": 3.28,
+      "text": "can see at the top right here, there's a",
+      "timestamp": "08:18"
+    },
+    {
+      "start": 502.08,
+      "duration": 2.239,
+      "text": "big bulk of people that win a ton of",
+      "timestamp": "08:22"
+    },
+    {
+      "start": 504.319,
+      "duration": 2.641,
+      "text": "auctions, right? So, they cap they they",
+      "timestamp": "08:24"
+    },
+    {
+      "start": 506.96,
+      "duration": 2.0,
+      "text": "basically capture a ton, but they get",
+      "timestamp": "08:26"
+    },
+    {
+      "start": 508.96,
+      "duration": 2.88,
+      "text": "hit with so many penalties that they can",
+      "timestamp": "08:28"
+    },
+    {
+      "start": 511.84,
+      "duration": 3.52,
+      "text": "barely get to that 50 E ideal reward.",
+      "timestamp": "08:31"
+    },
+    {
+      "start": 515.36,
+      "duration": 2.0,
+      "text": "Um,",
+      "timestamp": "08:35"
+    },
+    {
+      "start": 517.36,
+      "duration": 3.28,
+      "text": "so this is a bit of a problem obviously.",
+      "timestamp": "08:37"
+    },
+    {
+      "start": 520.64,
+      "duration": 1.92,
+      "text": "Uh, the main reason for it, I don't",
+      "timestamp": "08:40"
+    },
+    {
+      "start": 522.56,
+      "duration": 1.599,
+      "text": "Yeah, I don't have it on that slide. The",
+      "timestamp": "08:42"
+    },
+    {
+      "start": 524.159,
+      "duration": 2.001,
+      "text": "main reason for this is due to",
+      "timestamp": "08:44"
+    },
+    {
+      "start": 526.16,
+      "duration": 1.679,
+      "text": "liquidity. It's a fundamental problem of",
+      "timestamp": "08:46"
+    },
+    {
+      "start": 527.839,
+      "duration": 1.761,
+      "text": "liquidity. If you can price your",
+      "timestamp": "08:47"
+    },
+    {
+      "start": 529.6,
+      "duration": 1.84,
+      "text": "liquidity slightly cheaper, and a lot of",
+      "timestamp": "08:49"
+    },
+    {
+      "start": 531.44,
+      "duration": 1.68,
+      "text": "this comes from the sex arbitrage or",
+      "timestamp": "08:51"
+    },
+    {
+      "start": 533.12,
+      "duration": 1.44,
+      "text": "simply larger market makers being able",
+      "timestamp": "08:53"
+    },
+    {
+      "start": 534.56,
+      "duration": 4.16,
+      "text": "to have access to funds,",
+      "timestamp": "08:54"
+    },
+    {
+      "start": 538.72,
+      "duration": 2.559,
+      "text": "you're able to price your liquidity a",
+      "timestamp": "08:58"
+    },
+    {
+      "start": 541.279,
+      "duration": 1.361,
+      "text": "penny less than everybody else in the",
+      "timestamp": "09:01"
+    },
+    {
+      "start": 542.64,
+      "duration": 1.12,
+      "text": "market because you know what all the",
+      "timestamp": "09:02"
+    },
+    {
+      "start": 543.76,
+      "duration": 2.16,
+      "text": "going rates are. And so you're able to",
+      "timestamp": "09:03"
+    },
+    {
+      "start": 545.92,
+      "duration": 1.599,
+      "text": "win literally every single auction. And",
+      "timestamp": "09:05"
+    },
+    {
+      "start": 547.519,
+      "duration": 2.401,
+      "text": "this is just like a fundamental issue of",
+      "timestamp": "09:07"
+    },
+    {
+      "start": 549.92,
+      "duration": 3.68,
+      "text": "how it happens because these oops, these",
+      "timestamp": "09:09"
+    },
+    {
+      "start": 553.6,
+      "duration": 2.56,
+      "text": "guys are all algorithmic traders. These",
+      "timestamp": "09:13"
+    },
+    {
+      "start": 556.16,
+      "duration": 1.52,
+      "text": "two right here are like very unique.",
+      "timestamp": "09:16"
+    },
+    {
+      "start": 557.68,
+      "duration": 1.52,
+      "text": "They are algorithmic traders that are",
+      "timestamp": "09:17"
+    },
+    {
+      "start": 559.2,
+      "duration": 2.0,
+      "text": "like the best in the business and",
+      "timestamp": "09:19"
+    },
+    {
+      "start": 561.2,
+      "duration": 3.92,
+      "text": "they're barely squeaking by. Um that's",
+      "timestamp": "09:21"
+    },
+    {
+      "start": 565.12,
+      "duration": 3.92,
+      "text": "cow swap. So if we look at across um we",
+      "timestamp": "09:25"
+    },
+    {
+      "start": 569.04,
+      "duration": 2.08,
+      "text": "have a very kind of similar setup going",
+      "timestamp": "09:29"
+    },
+    {
+      "start": 571.12,
+      "duration": 2.56,
+      "text": "up here. Um you can see there's like one",
+      "timestamp": "09:31"
+    },
+    {
+      "start": 573.68,
+      "duration": 1.76,
+      "text": "dominant player. That dominant player",
+      "timestamp": "09:33"
+    },
+    {
+      "start": 575.44,
+      "duration": 3.76,
+      "text": "kind of takes everything. Um",
+      "timestamp": "09:35"
+    },
+    {
+      "start": 579.2,
+      "duration": 1.6,
+      "text": "across is a bit of like crosschain",
+      "timestamp": "09:39"
+    },
+    {
+      "start": 580.8,
+      "duration": 1.599,
+      "text": "protocols are a bit of an inventory",
+      "timestamp": "09:40"
+    },
+    {
+      "start": 582.399,
+      "duration": 2.0,
+      "text": "game. It's about how much inventory you",
+      "timestamp": "09:42"
+    },
+    {
+      "start": 584.399,
+      "duration": 2.401,
+      "text": "have, how quickly is it rebalanced, and",
+      "timestamp": "09:44"
+    },
+    {
+      "start": 586.8,
+      "duration": 2.479,
+      "text": "how efficient you are at just being fast",
+      "timestamp": "09:46"
+    },
+    {
+      "start": 589.279,
+      "duration": 3.361,
+      "text": "to produce. Um,",
+      "timestamp": "09:49"
+    },
+    {
+      "start": 592.64,
+      "duration": 2.319,
+      "text": "what we have in the x- axis is the",
+      "timestamp": "09:52"
+    },
+    {
+      "start": 594.959,
+      "duration": 1.841,
+      "text": "amount of volume they're doing. And then",
+      "timestamp": "09:54"
+    },
+    {
+      "start": 596.8,
+      "duration": 3.2,
+      "text": "what we have on the y- axis is the total",
+      "timestamp": "09:56"
+    },
+    {
+      "start": 600.0,
+      "duration": 2.48,
+      "text": "bips you're taking. What we'll see here",
+      "timestamp": "10:00"
+    },
+    {
+      "start": 602.48,
+      "duration": 2.96,
+      "text": "is uh, niss.",
+      "timestamp": "10:02"
+    },
+    {
+      "start": 605.44,
+      "duration": 2.24,
+      "text": "This is a unique one. So if we look oh",
+      "timestamp": "10:05"
+    },
+    {
+      "start": 607.68,
+      "duration": 3.92,
+      "text": "if we look before they take up over 50%",
+      "timestamp": "10:07"
+    },
+    {
+      "start": 611.6,
+      "duration": 3.359,
+      "text": "both on fees and volume main reason",
+      "timestamp": "10:11"
+    },
+    {
+      "start": 614.959,
+      "duration": 3.12,
+      "text": "this is the uh foundation solver it's",
+      "timestamp": "10:14"
+    },
+    {
+      "start": 618.079,
+      "duration": 1.44,
+      "text": "basically backstopping all the trades",
+      "timestamp": "10:18"
+    },
+    {
+      "start": 619.519,
+      "duration": 2.241,
+      "text": "that I don't go through. So if we remove",
+      "timestamp": "10:19"
+    },
+    {
+      "start": 621.76,
+      "duration": 1.759,
+      "text": "that one you can see that the survival",
+      "timestamp": "10:21"
+    },
+    {
+      "start": 623.519,
+      "duration": 2.081,
+      "text": "zone's a lot keep pushing the wrong",
+      "timestamp": "10:23"
+    },
+    {
+      "start": 625.6,
+      "duration": 1.6,
+      "text": "button. The survival zone's a lot",
+      "timestamp": "10:25"
+    },
+    {
+      "start": 627.2,
+      "duration": 3.04,
+      "text": "better. It's like this nice thin line",
+      "timestamp": "10:27"
+    },
+    {
+      "start": 630.24,
+      "duration": 3.039,
+      "text": "but as you can see we're like",
+      "timestamp": "10:30"
+    },
+    {
+      "start": 633.279,
+      "duration": 4.0,
+      "text": "we scored two extra solvers. It's great.",
+      "timestamp": "10:33"
+    },
+    {
+      "start": 637.279,
+      "duration": 3.281,
+      "text": "Two more surviving.",
+      "timestamp": "10:37"
+    },
+    {
+      "start": 640.56,
+      "duration": 2.399,
+      "text": "This is because",
+      "timestamp": "10:40"
+    },
+    {
+      "start": 642.959,
+      "duration": 1.841,
+      "text": "the markets have competed everybody down",
+      "timestamp": "10:42"
+    },
+    {
+      "start": 644.8,
+      "duration": 2.56,
+      "text": "to one bps fundamentally. The",
+      "timestamp": "10:44"
+    },
+    {
+      "start": 647.36,
+      "duration": 2.719,
+      "text": "aggregators, everything driving the",
+      "timestamp": "10:47"
+    },
+    {
+      "start": 650.079,
+      "duration": 2.161,
+      "text": "price down. And it's fine. It's good for",
+      "timestamp": "10:50"
+    },
+    {
+      "start": 652.24,
+      "duration": 2.48,
+      "text": "now. It's a volume game. But we still",
+      "timestamp": "10:52"
+    },
+    {
+      "start": 654.72,
+      "duration": 3.52,
+      "text": "see this exact same issue where pretty",
+      "timestamp": "10:54"
+    },
+    {
+      "start": 658.24,
+      "duration": 4.0,
+      "text": "much everybody is in this giant survival",
+      "timestamp": "10:58"
+    },
+    {
+      "start": 662.24,
+      "duration": 2.4,
+      "text": "zone where they're barely making money.",
+      "timestamp": "11:02"
+    },
+    {
+      "start": 664.64,
+      "duration": 1.28,
+      "text": "And again, a lot of this is due to the",
+      "timestamp": "11:04"
+    },
+    {
+      "start": 665.92,
+      "duration": 1.12,
+      "text": "fact that they're offering products and",
+      "timestamp": "11:05"
+    },
+    {
+      "start": 667.04,
+      "duration": 2.96,
+      "text": "services outside of this.",
+      "timestamp": "11:07"
+    },
+    {
+      "start": 670.0,
+      "duration": 2.0,
+      "text": "Um, fundamentally though, what it does",
+      "timestamp": "11:10"
+    },
+    {
+      "start": 672.0,
+      "duration": 1.44,
+      "text": "mean is we're in a bit of a winner takes",
+      "timestamp": "11:12"
+    },
+    {
+      "start": 673.44,
+      "duration": 4.88,
+      "text": "all situation. And so, no matter how",
+      "timestamp": "11:13"
+    },
+    {
+      "start": 678.32,
+      "duration": 1.68,
+      "text": "many solvers we introduce, how much",
+      "timestamp": "11:18"
+    },
+    {
+      "start": 680.0,
+      "duration": 3.12,
+      "text": "liquidity we jam into this,",
+      "timestamp": "11:20"
+    },
+    {
+      "start": 683.12,
+      "duration": 2.719,
+      "text": "at the end of the day, the outcome is",
+      "timestamp": "11:23"
+    },
+    {
+      "start": 685.839,
+      "duration": 2.081,
+      "text": "trending towards the same thing across",
+      "timestamp": "11:25"
+    },
+    {
+      "start": 687.92,
+      "duration": 1.68,
+      "text": "all the various different markets, no",
+      "timestamp": "11:27"
+    },
+    {
+      "start": 689.6,
+      "duration": 1.919,
+      "text": "matter how different they are in nature",
+      "timestamp": "11:29"
+    },
+    {
+      "start": 691.519,
+      "duration": 1.841,
+      "text": "and what they're supposed to be doing.",
+      "timestamp": "11:31"
+    },
+    {
+      "start": 693.36,
+      "duration": 2.8,
+      "text": "And the biggest alpha in this whole",
+      "timestamp": "11:33"
+    },
+    {
+      "start": 696.16,
+      "duration": 2.72,
+      "text": "spectrum is liquidity. Right? If you I",
+      "timestamp": "11:36"
+    },
+    {
+      "start": 698.88,
+      "duration": 4.079,
+      "text": "think I believe the biggest solver um",
+      "timestamp": "11:38"
+    },
+    {
+      "start": 702.959,
+      "duration": 3.681,
+      "text": "right the biggest solver right here I",
+      "timestamp": "11:42"
+    },
+    {
+      "start": 706.64,
+      "duration": 1.68,
+      "text": "believe see this is how much solver",
+      "timestamp": "11:46"
+    },
+    {
+      "start": 708.32,
+      "duration": 1.36,
+      "text": "inventory they have. Sorry I forgot to",
+      "timestamp": "11:48"
+    },
+    {
+      "start": 709.68,
+      "duration": 2.399,
+      "text": "cover that. Right. The biggest solver",
+      "timestamp": "11:49"
+    },
+    {
+      "start": 712.079,
+      "duration": 1.281,
+      "text": "here is carrying about 9 mil of",
+      "timestamp": "11:52"
+    },
+    {
+      "start": 713.36,
+      "duration": 2.4,
+      "text": "inventory. Everybody else is barely",
+      "timestamp": "11:53"
+    },
+    {
+      "start": 715.76,
+      "duration": 2.639,
+      "text": "holding on to like one to two. That's",
+      "timestamp": "11:55"
+    },
+    {
+      "start": 718.399,
+      "duration": 1.68,
+      "text": "the main reason they're not profitable.",
+      "timestamp": "11:58"
+    },
+    {
+      "start": 720.079,
+      "duration": 1.601,
+      "text": "they don't have enough inventory across",
+      "timestamp": "12:00"
+    },
+    {
+      "start": 721.68,
+      "duration": 1.68,
+      "text": "all the chains against all the assets",
+      "timestamp": "12:01"
+    },
+    {
+      "start": 723.36,
+      "duration": 2.64,
+      "text": "that they need done. That increases,",
+      "timestamp": "12:03"
+    },
+    {
+      "start": 726.0,
+      "duration": 2.639,
+      "text": "reward increases, we start to see people",
+      "timestamp": "12:06"
+    },
+    {
+      "start": 728.639,
+      "duration": 3.44,
+      "text": "probably enter this region very quickly.",
+      "timestamp": "12:08"
+    },
+    {
+      "start": 732.079,
+      "duration": 3.521,
+      "text": "And so liquidity is the fundamental",
+      "timestamp": "12:12"
+    },
+    {
+      "start": 735.6,
+      "duration": 2.64,
+      "text": "alpha in solving and it's how whether",
+      "timestamp": "12:15"
+    },
+    {
+      "start": 738.24,
+      "duration": 2.24,
+      "text": "it's pennying on the AMM side or whether",
+      "timestamp": "12:18"
+    },
+    {
+      "start": 740.48,
+      "duration": 1.52,
+      "text": "it's just having access to deep",
+      "timestamp": "12:20"
+    },
+    {
+      "start": 742.0,
+      "duration": 2.079,
+      "text": "liquidity to do crosschain solves that",
+      "timestamp": "12:22"
+    },
+    {
+      "start": 744.079,
+      "duration": 3.041,
+      "text": "is the main alpha and without it it's",
+      "timestamp": "12:24"
+    },
+    {
+      "start": 747.12,
+      "duration": 1.839,
+      "text": "you know you're done. you you just can't",
+      "timestamp": "12:27"
+    },
+    {
+      "start": 748.959,
+      "duration": 3.201,
+      "text": "compete. Um",
+      "timestamp": "12:28"
+    },
+    {
+      "start": 752.16,
+      "duration": 1.6,
+      "text": "and when you know this talks about",
+      "timestamp": "12:32"
+    },
+    {
+      "start": 753.76,
+      "duration": 2.639,
+      "text": "markets more than the liquidity side and",
+      "timestamp": "12:33"
+    },
+    {
+      "start": 756.399,
+      "duration": 3.761,
+      "text": "so if we talk about markets the question",
+      "timestamp": "12:36"
+    },
+    {
+      "start": 760.16,
+      "duration": 3.2,
+      "text": "comes what can we learn from tradfi",
+      "timestamp": "12:40"
+    },
+    {
+      "start": 763.36,
+      "duration": 2.24,
+      "text": "truly like trady does a lot of things",
+      "timestamp": "12:43"
+    },
+    {
+      "start": 765.6,
+      "duration": 1.919,
+      "text": "really well does a lot of things really",
+      "timestamp": "12:45"
+    },
+    {
+      "start": 767.519,
+      "duration": 2.081,
+      "text": "poorly but what's really done really",
+      "timestamp": "12:47"
+    },
+    {
+      "start": 769.6,
+      "duration": 1.6,
+      "text": "well is the market maker side because",
+      "timestamp": "12:49"
+    },
+    {
+      "start": 771.2,
+      "duration": 3.12,
+      "text": "it's super efficient if we remove the",
+      "timestamp": "12:51"
+    },
+    {
+      "start": 774.32,
+      "duration": 1.84,
+      "text": "you know illegal stuff that tends to",
+      "timestamp": "12:54"
+    },
+    {
+      "start": 776.16,
+      "duration": 1.919,
+      "text": "happen",
+      "timestamp": "12:56"
+    },
+    {
+      "start": 778.079,
+      "duration": 3.361,
+      "text": "um we have zero checks on antitrust,",
+      "timestamp": "12:58"
+    },
+    {
+      "start": 781.44,
+      "duration": 2.0,
+      "text": "contestability. I question if that's",
+      "timestamp": "13:01"
+    },
+    {
+      "start": 783.44,
+      "duration": 2.88,
+      "text": "even required on chain, but that is a",
+      "timestamp": "13:03"
+    },
+    {
+      "start": 786.32,
+      "duration": 2.24,
+      "text": "thing, right? That these do not exist.",
+      "timestamp": "13:06"
+    },
+    {
+      "start": 788.56,
+      "duration": 1.12,
+      "text": "The same thing with structural",
+      "timestamp": "13:08"
+    },
+    {
+      "start": 789.68,
+      "duration": 2.159,
+      "text": "separation. You know, if one solver just",
+      "timestamp": "13:09"
+    },
+    {
+      "start": 791.839,
+      "duration": 1.361,
+      "text": "starts buying up all the other solvers",
+      "timestamp": "13:11"
+    },
+    {
+      "start": 793.2,
+      "duration": 3.12,
+      "text": "or the infra, is that a problem?",
+      "timestamp": "13:13"
+    },
+    {
+      "start": 796.32,
+      "duration": 1.759,
+      "text": "Something worth bringing up? I mean,",
+      "timestamp": "13:16"
+    },
+    {
+      "start": 798.079,
+      "duration": 1.44,
+      "text": "this kind of happens in the PBS",
+      "timestamp": "13:18"
+    },
+    {
+      "start": 799.519,
+      "duration": 2.56,
+      "text": "pipeline, you know, as it is today. But",
+      "timestamp": "13:19"
+    },
+    {
+      "start": 802.079,
+      "duration": 2.88,
+      "text": "you know um",
+      "timestamp": "13:22"
+    },
+    {
+      "start": 804.959,
+      "duration": 2.081,
+      "text": "one of the big issues that exists across",
+      "timestamp": "13:24"
+    },
+    {
+      "start": 807.04,
+      "duration": 1.44,
+      "text": "all the markets is the fact that",
+      "timestamp": "13:27"
+    },
+    {
+      "start": 808.48,
+      "duration": 2.96,
+      "text": "settlement in the AMM spectrum is not",
+      "timestamp": "13:28"
+    },
+    {
+      "start": 811.44,
+      "duration": 3.519,
+      "text": "public and sorry settlement is public",
+      "timestamp": "13:31"
+    },
+    {
+      "start": 814.959,
+      "duration": 2.961,
+      "text": "but the quoting is not meaning we really",
+      "timestamp": "13:34"
+    },
+    {
+      "start": 817.92,
+      "duration": 1.84,
+      "text": "don't know what price feeds are getting",
+      "timestamp": "13:37"
+    },
+    {
+      "start": 819.76,
+      "duration": 2.639,
+      "text": "fed in how people are doing it and it's",
+      "timestamp": "13:39"
+    },
+    {
+      "start": 822.399,
+      "duration": 1.761,
+      "text": "one of those things that this is",
+      "timestamp": "13:42"
+    },
+    {
+      "start": 824.16,
+      "duration": 2.08,
+      "text": "probably best solved through like a te",
+      "timestamp": "13:44"
+    },
+    {
+      "start": 826.24,
+      "duration": 2.399,
+      "text": "as it gives you the ability to actually",
+      "timestamp": "13:46"
+    },
+    {
+      "start": 828.639,
+      "duration": 2.481,
+      "text": "have like a very rigid structure And you",
+      "timestamp": "13:48"
+    },
+    {
+      "start": 831.12,
+      "duration": 3.92,
+      "text": "can start to reveal this data privately.",
+      "timestamp": "13:51"
+    },
+    {
+      "start": 835.04,
+      "duration": 2.159,
+      "text": "Um,",
+      "timestamp": "13:55"
+    },
+    {
+      "start": 837.199,
+      "duration": 3.88,
+      "text": "and yeah, so",
+      "timestamp": "13:57"
+    },
+    {
+      "start": 841.6,
+      "duration": 2.239,
+      "text": "that's one of the big ones. Where am I?",
+      "timestamp": "14:01"
+    },
+    {
+      "start": 843.839,
+      "duration": 2.321,
+      "text": "Ah, yes. I know I'm going to skip over",
+      "timestamp": "14:03"
+    },
+    {
+      "start": 846.16,
+      "duration": 3.239,
+      "text": "this slide.",
+      "timestamp": "14:06"
+    },
+    {
+      "start": 849.68,
+      "duration": 2.32,
+      "text": "Yeah. So, the other kind of spectrum we",
+      "timestamp": "14:09"
+    },
+    {
+      "start": 852.0,
+      "duration": 2.079,
+      "text": "see here is that, you know, you could",
+      "timestamp": "14:12"
+    },
+    {
+      "start": 854.079,
+      "duration": 1.601,
+      "text": "relate this a lot to like the block",
+      "timestamp": "14:14"
+    },
+    {
+      "start": 855.68,
+      "duration": 2.159,
+      "text": "production side. Cool.",
+      "timestamp": "14:15"
+    },
+    {
+      "start": 857.839,
+      "duration": 3.36,
+      "text": "um where the same kind of things come",
+      "timestamp": "14:17"
+    },
+    {
+      "start": 861.199,
+      "duration": 3.44,
+      "text": "up. And so if all the wallets, all the",
+      "timestamp": "14:21"
+    },
+    {
+      "start": 864.639,
+      "duration": 1.361,
+      "text": "apps start moving to basically",
+      "timestamp": "14:24"
+    },
+    {
+      "start": 866.0,
+      "duration": 2.0,
+      "text": "intentbased networks, you can get a",
+      "timestamp": "14:26"
+    },
+    {
+      "start": 868.0,
+      "duration": 1.68,
+      "text": "onetoone map of what's happening in the",
+      "timestamp": "14:28"
+    },
+    {
+      "start": 869.68,
+      "duration": 2.56,
+      "text": "block production space as a kind of",
+      "timestamp": "14:29"
+    },
+    {
+      "start": 872.24,
+      "duration": 1.76,
+      "text": "reality of what will probably happen in",
+      "timestamp": "14:32"
+    },
+    {
+      "start": 874.0,
+      "duration": 2.24,
+      "text": "the solving space if we don't change the",
+      "timestamp": "14:34"
+    },
+    {
+      "start": 876.24,
+      "duration": 2.0,
+      "text": "way our auction mechanisms works and our",
+      "timestamp": "14:36"
+    },
+    {
+      "start": 878.24,
+      "duration": 2.159,
+      "text": "the general markets in themselves. um",
+      "timestamp": "14:38"
+    },
+    {
+      "start": 880.399,
+      "duration": 1.841,
+      "text": "because we'll basically just end up with",
+      "timestamp": "14:40"
+    },
+    {
+      "start": 882.24,
+      "duration": 3.12,
+      "text": "two players dominating the entire spe",
+      "timestamp": "14:42"
+    },
+    {
+      "start": 885.36,
+      "duration": 2.32,
+      "text": "the entire thing.",
+      "timestamp": "14:45"
+    },
+    {
+      "start": 887.68,
+      "duration": 1.519,
+      "text": "And I guess this becomes a moral",
+      "timestamp": "14:47"
+    },
+    {
+      "start": 889.199,
+      "duration": 1.841,
+      "text": "question, you know, as the people",
+      "timestamp": "14:49"
+    },
+    {
+      "start": 891.04,
+      "duration": 1.359,
+      "text": "integrating them were building out",
+      "timestamp": "14:51"
+    },
+    {
+      "start": 892.399,
+      "duration": 2.721,
+      "text": "intent networks if that matters to you.",
+      "timestamp": "14:52"
+    },
+    {
+      "start": 895.12,
+      "duration": 3.12,
+      "text": "Um but it's going to happen because it's",
+      "timestamp": "14:55"
+    },
+    {
+      "start": 898.24,
+      "duration": 1.279,
+      "text": "happening right now and it's going to",
+      "timestamp": "14:58"
+    },
+    {
+      "start": 899.519,
+      "duration": 5.161,
+      "text": "get worse and worse and worse. Um,",
+      "timestamp": "14:59"
+    },
+    {
+      "start": 905.68,
+      "duration": 3.12,
+      "text": "and so, you know, there are some",
+      "timestamp": "15:05"
+    },
+    {
+      "start": 908.8,
+      "duration": 2.0,
+      "text": "suggestions we have here that like could",
+      "timestamp": "15:08"
+    },
+    {
+      "start": 910.8,
+      "duration": 2.8,
+      "text": "help to improve that. Um, and I'm",
+      "timestamp": "15:10"
+    },
+    {
+      "start": 913.6,
+      "duration": 3.679,
+      "text": "running a bit on time. And",
+      "timestamp": "15:13"
+    },
+    {
+      "start": 917.279,
+      "duration": 3.12,
+      "text": "that could basically help fix some of",
+      "timestamp": "15:17"
+    },
+    {
+      "start": 920.399,
+      "duration": 2.0,
+      "text": "this stuff. Um, a lot of its role in",
+      "timestamp": "15:20"
+    },
+    {
+      "start": 922.399,
+      "duration": 2.081,
+      "text": "separation. you know, what happens",
+      "timestamp": "15:22"
+    },
+    {
+      "start": 924.48,
+      "duration": 1.44,
+      "text": "during that auction period, who's in",
+      "timestamp": "15:24"
+    },
+    {
+      "start": 925.92,
+      "duration": 1.599,
+      "text": "charge of what can actually dramatically",
+      "timestamp": "15:25"
+    },
+    {
+      "start": 927.519,
+      "duration": 2.56,
+      "text": "improve the centralization that would",
+      "timestamp": "15:27"
+    },
+    {
+      "start": 930.079,
+      "duration": 1.44,
+      "text": "occur inside of these auction",
+      "timestamp": "15:30"
+    },
+    {
+      "start": 931.519,
+      "duration": 3.521,
+      "text": "mechanisms. Um, as well as in an",
+      "timestamp": "15:31"
+    },
+    {
+      "start": 935.04,
+      "duration": 1.44,
+      "text": "idealistic world, there's like a shared",
+      "timestamp": "15:35"
+    },
+    {
+      "start": 936.48,
+      "duration": 1.84,
+      "text": "liquidity index. So, we don't have to",
+      "timestamp": "15:36"
+    },
+    {
+      "start": 938.32,
+      "duration": 1.759,
+      "text": "recomputee this every time because you",
+      "timestamp": "15:38"
+    },
+    {
+      "start": 940.079,
+      "duration": 2.241,
+      "text": "have to think when those 21 solvers on",
+      "timestamp": "15:40"
+    },
+    {
+      "start": 942.32,
+      "duration": 2.16,
+      "text": "cow swap are literally recomputing the",
+      "timestamp": "15:42"
+    },
+    {
+      "start": 944.48,
+      "duration": 2.64,
+      "text": "exact same code 21 time they like 21",
+      "timestamp": "15:44"
+    },
+    {
+      "start": 947.12,
+      "duration": 2.32,
+      "text": "times. every single transaction that",
+      "timestamp": "15:47"
+    },
+    {
+      "start": 949.44,
+      "duration": 1.759,
+      "text": "goes in, they're repeating the same",
+      "timestamp": "15:49"
+    },
+    {
+      "start": 951.199,
+      "duration": 2.161,
+      "text": "thing and they're recmputing the same",
+      "timestamp": "15:51"
+    },
+    {
+      "start": 953.36,
+      "duration": 2.88,
+      "text": "liquidity sources and so it's a bit of a",
+      "timestamp": "15:53"
+    },
+    {
+      "start": 956.24,
+      "duration": 1.92,
+      "text": "wasted effort.",
+      "timestamp": "15:56"
+    },
+    {
+      "start": 958.16,
+      "duration": 3.0,
+      "text": "Um,",
+      "timestamp": "15:58"
+    },
+    {
+      "start": 961.759,
+      "duration": 2.0,
+      "text": "yeah.",
+      "timestamp": "16:01"
+    },
+    {
+      "start": 963.759,
+      "duration": 1.681,
+      "text": "And so like kind of where can we go from",
+      "timestamp": "16:03"
+    },
+    {
+      "start": 965.44,
+      "duration": 3.28,
+      "text": "here? There's a few",
+      "timestamp": "16:05"
+    },
+    {
+      "start": 968.72,
+      "duration": 2.799,
+      "text": "paths that can take, right? Like today",
+      "timestamp": "16:08"
+    },
+    {
+      "start": 971.519,
+      "duration": 3.281,
+      "text": "we're fully centralized. Um, as I was",
+      "timestamp": "16:11"
+    },
+    {
+      "start": 974.8,
+      "duration": 1.92,
+      "text": "trying to say before, we could go down",
+      "timestamp": "16:14"
+    },
+    {
+      "start": 976.72,
+      "duration": 1.6,
+      "text": "the path of something like a solveret,",
+      "timestamp": "16:16"
+    },
+    {
+      "start": 978.32,
+      "duration": 1.6,
+      "text": "very similar to what the Flashbots team",
+      "timestamp": "16:18"
+    },
+    {
+      "start": 979.92,
+      "duration": 1.76,
+      "text": "is trying to do with builderet that",
+      "timestamp": "16:19"
+    },
+    {
+      "start": 981.68,
+      "duration": 1.68,
+      "text": "could try to democratize it a little bit",
+      "timestamp": "16:21"
+    },
+    {
+      "start": 983.36,
+      "duration": 1.68,
+      "text": "more and try and get the auction",
+      "timestamp": "16:23"
+    },
+    {
+      "start": 985.04,
+      "duration": 1.84,
+      "text": "mechanisms a little bit tighter um or",
+      "timestamp": "16:25"
+    },
+    {
+      "start": 986.88,
+      "duration": 2.72,
+      "text": "the RFQS. Uh, and then I think an",
+      "timestamp": "16:26"
+    },
+    {
+      "start": 989.6,
+      "duration": 1.919,
+      "text": "idealistic",
+      "timestamp": "16:29"
+    },
+    {
+      "start": 991.519,
+      "duration": 2.56,
+      "text": "version, you know, the",
+      "timestamp": "16:31"
+    },
+    {
+      "start": 994.079,
+      "duration": 2.961,
+      "text": "crypto ethos of me says that like",
+      "timestamp": "16:34"
+    },
+    {
+      "start": 997.04,
+      "duration": 2.64,
+      "text": "realistically the solver",
+      "timestamp": "16:37"
+    },
+    {
+      "start": 999.68,
+      "duration": 1.76,
+      "text": "code should exist directly at the",
+      "timestamp": "16:39"
+    },
+    {
+      "start": 1001.44,
+      "duration": 1.68,
+      "text": "wallet. that should be done that you can",
+      "timestamp": "16:41"
+    },
+    {
+      "start": 1003.12,
+      "duration": 2.56,
+      "text": "do locally. I believe we can get to that",
+      "timestamp": "16:43"
+    },
+    {
+      "start": 1005.68,
+      "duration": 1.599,
+      "text": "within a few years and I think that's",
+      "timestamp": "16:45"
+    },
+    {
+      "start": 1007.279,
+      "duration": 1.841,
+      "text": "where realistically most of this will",
+      "timestamp": "16:47"
+    },
+    {
+      "start": 1009.12,
+      "duration": 3.36,
+      "text": "end up going. Um as it's just",
+      "timestamp": "16:49"
+    },
+    {
+      "start": 1012.48,
+      "duration": 2.479,
+      "text": "table stakes to get borderline the exact",
+      "timestamp": "16:52"
+    },
+    {
+      "start": 1014.959,
+      "duration": 3.841,
+      "text": "same infra going. Um and that's uh",
+      "timestamp": "16:54"
+    },
+    {
+      "start": 1018.8,
+      "duration": 1.92,
+      "text": "everything. Um thank you guys for coming",
+      "timestamp": "16:58"
+    },
+    {
+      "start": 1020.72,
+      "duration": 2.72,
+      "text": "here. Uh if you are curious about that",
+      "timestamp": "17:00"
+    },
+    {
+      "start": 1023.44,
+      "duration": 1.68,
+      "text": "or working on that, please let me know.",
+      "timestamp": "17:03"
+    },
+    {
+      "start": 1025.12,
+      "duration": 2.798,
+      "text": "Uh at Sprinter we're solvers and we also",
+      "timestamp": "17:05"
+    },
+    {
+      "start": 1027.919,
+      "duration": 1.841,
+      "text": "are working on getting access to",
+      "timestamp": "17:07"
+    },
+    {
+      "start": 1029.76,
+      "duration": 2.0,
+      "text": "liquidity to solvers. So, if this is",
+      "timestamp": "17:09"
+    },
+    {
+      "start": 1031.76,
+      "duration": 2.559,
+      "text": "interesting to you, um, I'm around and",
+      "timestamp": "17:11"
+    },
+    {
+      "start": 1034.319,
+      "duration": 2.0,
+      "text": "you can get Alex and Nadem's Twitter who",
+      "timestamp": "17:14"
+    },
+    {
+      "start": 1036.319,
+      "duration": 1.681,
+      "text": "also helped write a lot of this, uh,",
+      "timestamp": "17:16"
+    },
+    {
+      "start": 1038.0,
+      "duration": 2.88,
+      "text": "presentation. Um, thank you. And I have",
+      "timestamp": "17:18"
+    },
+    {
+      "start": 1040.88,
+      "duration": 1.76,
+      "text": "like one minute for a question, so I can",
+      "timestamp": "17:20"
+    },
+    {
+      "start": 1042.64,
+      "duration": 2.66,
+      "text": "take like one.",
+      "timestamp": "17:22"
+    },
+    {
+      "start": 1045.3,
+      "duration": 5.98,
+      "text": "[Applause]",
+      "timestamp": "17:25"
+    },
+    {
+      "start": 1051.28,
+      "duration": 3.0,
+      "text": "Yes.",
+      "timestamp": "17:31"
+    },
+    {
+      "start": 1062.08,
+      "duration": 1.92,
+      "text": "Yeah. So the question is like you",
+      "timestamp": "17:42"
+    },
+    {
+      "start": 1064.0,
+      "duration": 2.0,
+      "text": "repeat. Okay. I could do the mic talking",
+      "timestamp": "17:44"
+    },
+    {
+      "start": 1066.0,
+      "duration": 1.2,
+      "text": "about kind of getting infra for this",
+      "timestamp": "17:46"
+    },
+    {
+      "start": 1067.2,
+      "duration": 1.2,
+      "text": "kind of like at the solver level in a",
+      "timestamp": "17:47"
+    },
+    {
+      "start": 1068.4,
+      "duration": 1.6,
+      "text": "wallet but every time we do anything to",
+      "timestamp": "17:48"
+    },
+    {
+      "start": 1070.0,
+      "duration": 1.6,
+      "text": "like MetaMask or Phantom or anything",
+      "timestamp": "17:50"
+    },
+    {
+      "start": 1071.6,
+      "duration": 1.28,
+      "text": "like people about bloat and like",
+      "timestamp": "17:51"
+    },
+    {
+      "start": 1072.88,
+      "duration": 1.919,
+      "text": "it ends up being like a huge burden on",
+      "timestamp": "17:52"
+    },
+    {
+      "start": 1074.799,
+      "duration": 2.0,
+      "text": "the usability side. Like what does this",
+      "timestamp": "17:54"
+    },
+    {
+      "start": 1076.799,
+      "duration": 1.921,
+      "text": "look like to you that isn't intrusive",
+      "timestamp": "17:56"
+    },
+    {
+      "start": 1078.72,
+      "duration": 1.76,
+      "text": "for like",
+      "timestamp": "17:58"
+    },
+    {
+      "start": 1080.48,
+      "duration": 1.84,
+      "text": "um a lot of this is what we call path",
+      "timestamp": "18:00"
+    },
+    {
+      "start": 1082.32,
+      "duration": 1.76,
+      "text": "finding. Yeah. So, it's like literally",
+      "timestamp": "18:02"
+    },
+    {
+      "start": 1084.08,
+      "duration": 2.0,
+      "text": "stitching together what's available",
+      "timestamp": "18:04"
+    },
+    {
+      "start": 1086.08,
+      "duration": 3.12,
+      "text": "where they are. Um, and I do believe",
+      "timestamp": "18:06"
+    },
+    {
+      "start": 1089.2,
+      "duration": 3.44,
+      "text": "that that will get",
+      "timestamp": "18:09"
+    },
+    {
+      "start": 1092.64,
+      "duration": 3.2,
+      "text": "um what's the word I'm looking for?",
+      "timestamp": "18:12"
+    },
+    {
+      "start": 1095.84,
+      "duration": 3.44,
+      "text": "AI will help bring that to a medium. I",
+      "timestamp": "18:15"
+    },
+    {
+      "start": 1099.28,
+      "duration": 2.16,
+      "text": "can't Yeah. And so like that will become",
+      "timestamp": "18:19"
+    },
+    {
+      "start": 1101.44,
+      "duration": 2.56,
+      "text": "I believe so simple that also if we have",
+      "timestamp": "18:21"
+    },
+    {
+      "start": 1104.0,
+      "duration": 2.16,
+      "text": "liquidity indexing right where we have",
+      "timestamp": "18:24"
+    },
+    {
+      "start": 1106.16,
+      "duration": 1.92,
+      "text": "easy indexes to get access to like where",
+      "timestamp": "18:26"
+    },
+    {
+      "start": 1108.08,
+      "duration": 2.479,
+      "text": "the liquidity is at. It should be",
+      "timestamp": "18:28"
+    },
+    {
+      "start": 1110.559,
+      "duration": 2.401,
+      "text": "trivial to do it directly in wallet",
+      "timestamp": "18:30"
+    },
+    {
+      "start": 1112.96,
+      "duration": 2.4,
+      "text": "versus outsourcing. Yeah. I look forward",
+      "timestamp": "18:32"
+    },
+    {
+      "start": 1115.36,
+      "duration": 1.12,
+      "text": "to a day where I have a phone that's",
+      "timestamp": "18:35"
+    },
+    {
+      "start": 1116.48,
+      "duration": 1.68,
+      "text": "able to do liquidity routing whilst I've",
+      "timestamp": "18:36"
+    },
+    {
+      "start": 1118.16,
+      "duration": 1.6,
+      "text": "got like trust wallet open. But I don't",
+      "timestamp": "18:38"
+    },
+    {
+      "start": 1119.76,
+      "duration": 2.4,
+      "text": "think we're there like anytime soon.",
+      "timestamp": "18:39"
+    },
+    {
+      "start": 1122.16,
+      "duration": 2.639,
+      "text": "We're soon.",
+      "timestamp": "18:42"
+    },
+    {
+      "start": 1124.799,
+      "duration": 4.12,
+      "text": "Awesome. Thank you guys so much.",
+      "timestamp": "18:44"
+    }
+  ],
+  "extraction_timestamp": "2025-07-08T14:45:53.147004",
+  "playlist_title": "EthCC[8] Redford Stage"
+}

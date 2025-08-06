@@ -1,0 +1,328 @@
+{
+  "playlist_info": {
+    "title": "EthCC[8] Redford Stage",
+    "channel_title": "[EthCC] Livestream 4",
+    "url": "https://www.youtube.com/playlist?list=PLM-Xjhvin-uWjpcWSYybiXzBM4Yhsjoas",
+    "total_videos": 43,
+    "total_duration_seconds": 0,
+    "total_duration_formatted": "0:00"
+  },
+  "transcript_statistics": {
+    "videos_with_transcripts": 41,
+    "videos_without_transcripts": 2,
+    "success_rate": "95.3%",
+    "total_segments": 19061,
+    "total_words": 140607,
+    "total_characters": 751854,
+    "average_words_per_video": 3429
+  },
+  "processing_info": {
+    "extraction_timestamp": "2025-07-08T14:45:53.195391",
+    "web_api_used": true,
+    "processing_time": "",
+    "output_directory": "data/EthCC[8]RedfordStage"
+  },
+  "video_list": [
+    {
+      "video_id": "h7Jbejn1Tcc",
+      "title": "Gisli Kristjansson (Monerium)-Building Onchain Payment Infrastructure That Serves Europe",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "GisliKristjansson(Monerium)-BuildingOnchainPaymentInfrastructureThatServesEurope_h7Jbejn1Tcc.json"
+    },
+    {
+      "video_id": "_E-XpFxfywI",
+      "title": "SEVEN (Nazare Ventures)-Are your agents decentralized?",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "SEVEN(NazareVentures)-Areyouragentsdecentralized__E-XpFxfywI.json"
+    },
+    {
+      "video_id": "ukW0XCwaZ6s",
+      "title": "Redwan Meslem (Enterprise Ethereum Alliance)-Breaking Into the Enterprise Market",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "RedwanMeslem(EnterpriseEthereumAlliance)-BreakingIntotheEnterpriseMarket_ukW0XCwaZ6s.json"
+    },
+    {
+      "video_id": "8eaPRljPMu8",
+      "title": "Anya Nova (GK8 by Galaxy)-Bridging the Gap: How Institutions Are (Really) Adopting Crypto Custody",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "AnyaNova(GK8byGalaxy)-BridgingtheGap_HowInstitutionsAre(Really)AdoptingCryptoCustody_8eaPRljPMu8.json"
+    },
+    {
+      "video_id": "SkSsfa-0-9M",
+      "title": "Illia Polosukhin (NEAR Protocol )-How Blockchains Can Make AI User-Owned",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "IlliaPolosukhin(NEARProtocol)-HowBlockchainsCanMakeAIUser-Owned_SkSsfa-0-9M.json"
+    },
+    {
+      "video_id": "N4p2ki1fYVc",
+      "title": "Nikhil  Suri (Wormhole Foundation )-Beyond Tokenization: Building the Multichain Infrastructure",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "NikhilSuri(WormholeFoundation)-BeyondTokenization_BuildingtheMultichainInfrastructure_N4p2ki1fYVc.json"
+    },
+    {
+      "video_id": "Sus-s8DtrXE",
+      "title": "Miguel Morel (Arkham)-Onchain Analysis and Trading in an AI Powered Future",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "MiguelMorel(Arkham)-OnchainAnalysisandTradinginanAIPoweredFuture_Sus-s8DtrXE.json"
+    },
+    {
+      "video_id": "uYbUfoMHteY",
+      "title": "Lane Rettig (NEAR Foundation)-H-AI-L to the Chief",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "LaneRettig(NEARFoundation)-H-AI-LtotheChief_uYbUfoMHteY.json"
+    },
+    {
+      "video_id": "fKpghtDYgng",
+      "title": "Melody He (Spartan Group)-AI-Native Finance: The Next Financial Evolution",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "MelodyHe(SpartanGroup)-AI-NativeFinance_TheNextFinancialEvolution_fKpghtDYgng.json"
+    },
+    {
+      "video_id": "XiYgFTgAxF0",
+      "title": "Andreas Fletcher wildcat-From Wild West Bankers to Modern Blockchains Evolution of Unsecured Credit",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "AndreasFletcherwildcat-FromWildWestBankerstoModernBlockchainsEvolutionofUnsecuredCredit_XiYgFTgAxF0.json"
+    },
+    {
+      "video_id": "jTf3MNp6S7E",
+      "title": "Adam Levine (Fireblocks)-Unlocking the Potential of Cross-Chain Bridging for Enterprises",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "AdamLevine(Fireblocks)-UnlockingthePotentialofCross-ChainBridgingforEnterprises_jTf3MNp6S7E.json"
+    },
+    {
+      "video_id": "bOl7nXjNQLM",
+      "title": "EMRAH SARIBOZ (Coinbase), Tom Ryan (Coinbase)-You Deployed Your Project, Now What?",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "EMRAHSARIBOZ(Coinbase),TomRyan(Coinbase)-YouDeployedYourProject,NowWhat_bOl7nXjNQLM.json"
+    },
+    {
+      "video_id": "O4_kVy4r21s",
+      "title": "CvH (Polygon)-The harsh reality of being a CISO",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "CvH(Polygon)-TheharshrealityofbeingaCISO_O4_kVy4r21s.json"
+    },
+    {
+      "video_id": "lCY0--mo_s0",
+      "title": "Mooly Sagiv (Certora) Securing AI-Assisted DeFi Development with Formal Verification",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "MoolySagiv(Certora)SecuringAI-AssistedDeFiDevelopmentwithFormalVerification_lCY0--mo_s0.json"
+    },
+    {
+      "video_id": "8v_js-Vcl2c",
+      "title": "noid (Kraken)-Troll, but Verify: Security Lessons from North Korean Job Candidates",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "noid(Kraken)-Troll,butVerify_SecurityLessonsfromNorthKoreanJobCandidates_8v_js-Vcl2c.json"
+    },
+    {
+      "video_id": "bjkI26nygxI",
+      "title": "Charles Guillemet (ledger) From Chaos to confidence: Simulate and clear sign your transactions",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "CharlesGuillemet(ledger)FromChaostoconfidence_Simulateandclearsignyourtransactions_bjkI26nygxI.json"
+    },
+    {
+      "video_id": "hvDIJMzJz1c",
+      "title": "Matthias  Egli (Chainsecurity), Julien Bouteloup (Rekt)-Top Hacks since ETHCC 2024",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "MatthiasEgli(Chainsecurity),JulienBouteloup(Rekt)-TopHackssinceETHCC2024_hvDIJMzJz1c.json"
+    },
+    {
+      "video_id": "uf-1LGBvvWo",
+      "title": "Martin Bruncko(Schuman Financial)Why Euro Stablecoins Will by Definition Hit a 100 Billion MarketCap",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "MartinBruncko(SchumanFinancial)WhyEuroStablecoinsWillbyDefinitionHita100BillionMarketCap_uf-1LGBvvWo.json"
+    },
+    {
+      "video_id": "Sdx0USiTdVo",
+      "title": "brantly.eth (Ethereum Follow Protocol) We Finally Have the Elements of an Ethereum Identity Stack",
+      "duration_seconds": null,
+      "has_transcript": false,
+      "filename": null
+    },
+    {
+      "video_id": "N31S1vXspFI",
+      "title": "Pedro Gomes (WalletConnect Foundation )-Accelerating Wallet Innovation_2",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "PedroGomes(WalletConnectFoundation)-AcceleratingWalletInnovation_2_N31S1vXspFI.json"
+    },
+    {
+      "video_id": "oleCEJ4yurI",
+      "title": "Juan David  Mendieta Keyrock Mona El Isa Avantgarde FinanceThe Evolution of Onchain Asset Management",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "JuanDavidMendietaKeyrockMonaElIsaAvantgardeFinanceTheEvolutionofOnchainAssetManagement_oleCEJ4yurI.json"
+    },
+    {
+      "video_id": "5f58L1iPquI",
+      "title": "Deli Gong - Ethereum’s future hinges on TEEs",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "DeliGong-Ethereum’sfuturehingesonTEEs_5f58L1iPquI.json"
+    },
+    {
+      "video_id": "AqCyfurgfck",
+      "title": "Robin Guerchon(Ministry of interior - Cyberspace)-Cryptoassets security: protecting people and funds",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "RobinGuerchon(Ministryofinterior-Cyberspace)-Cryptoassetssecurity_protectingpeopleandfunds_AqCyfurgfck.json"
+    },
+    {
+      "video_id": "AB0dAUZzrdQ",
+      "title": "GregtheGreek (Sprinter) - Building Economic Trust for Solvers",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "GregtheGreek(Sprinter)-BuildingEconomicTrustforSolvers_AB0dAUZzrdQ.json"
+    },
+    {
+      "video_id": "Vm5r61zGGvw",
+      "title": "Martin Köppelmann (Gnosis) - Circles 2.0",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "MartinKöppelmann(Gnosis)-Circles2.0_Vm5r61zGGvw.json"
+    },
+    {
+      "video_id": "2sEYEJFZXA8",
+      "title": "Jainil Sutaria (Privy) - Embedded engineering: how FDE accelerates PMF in crypto",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "JainilSutaria(Privy)-Embeddedengineering_howFDEacceleratesPMFincrypto_2sEYEJFZXA8.json"
+    },
+    {
+      "video_id": "AJe044IOgKY",
+      "title": "Zain Cheng (Horizen Labs )_Compliant Private Stablecoins: The Roadmap to Confidential Stable Finance",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "ZainCheng(HorizenLabs)_CompliantPrivateStablecoins_TheRoadmaptoConfidentialStableFinance_AJe044IOgKY.json"
+    },
+    {
+      "video_id": "c4WoZvFB3y0",
+      "title": "Teana Baker-Taylor (Venice AI) - Ethereum Is the Last Line of Defense for Private, Uncensored AI",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "TeanaBaker-Taylor(VeniceAI)-EthereumIstheLastLineofDefenseforPrivate,UncensoredAI_c4WoZvFB3y0.json"
+    },
+    {
+      "video_id": "0ktpB312gcI",
+      "title": "AJ Warner Offchain Labs-Scaling Without Sacrifice: Arbitrum's Approach to Ethereum's Layer 2 Future",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "AJWarnerOffchainLabs-ScalingWithoutSacrifice_Arbitrum'sApproachtoEthereum'sLayer2Future_0ktpB312gcI.json"
+    },
+    {
+      "video_id": "0vKVmWeKTls",
+      "title": "Sota Watanabe (Startale) - Inside Soneium: The Fastest-Growing Ethereum L2",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "SotaWatanabe(Startale)-InsideSoneium_TheFastest-GrowingEthereumL2_0vKVmWeKTls.json"
+    },
+    {
+      "video_id": "uvj8U6K-FkM",
+      "title": "Lefteris Karapetsas (rotki) - Aligned Apps vs Digital Serfdom: The rotki Perspective",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "LefterisKarapetsas(rotki)-AlignedAppsvsDigitalSerfdom_TherotkiPerspective_uvj8U6K-FkM.json"
+    },
+    {
+      "video_id": "vg0-qQy2VR0",
+      "title": "oskarth (Independent) - Sense-making at the Frontier",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "oskarth(Independent)-Sense-makingattheFrontier_vg0-qQy2VR0.json"
+    },
+    {
+      "video_id": "YH5bDWTuPX0",
+      "title": "Justin Drake (Ethereum Foundation) - gigagas L1",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "JustinDrake(EthereumFoundation)-gigagasL1_YH5bDWTuPX0.json"
+    },
+    {
+      "video_id": "bfbAKgq0Ya4",
+      "title": "Mike Dudas (6th Man Ventures) - How to Grow a Great Crypto Startup",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "MikeDudas(6thManVentures)-HowtoGrowaGreatCryptoStartup_bfbAKgq0Ya4.json"
+    },
+    {
+      "video_id": "r0tcDVxziQ8",
+      "title": "Vijay Michalik (Superfluid Labs) - Unf*cking Incentives: Better retention on Airdrops & Grants",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "VijayMichalik(SuperfluidLabs)-Unf_ckingIncentives_BetterretentiononAirdrops&Grants_r0tcDVxziQ8.json"
+    },
+    {
+      "video_id": "-JNEXrtb5hA",
+      "title": "Alon  Muroch (SSV.Labs (SSV.Network)) - Let Validators Do More!",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "AlonMuroch(SSV.Labs(SSV.Network))-LetValidatorsDoMore!_-JNEXrtb5hA.json"
+    },
+    {
+      "video_id": "INephGDHHaE",
+      "title": "Marc  Harvey-Hill (Nethermind) - Accelerating Ethereum’s rollup roadmap",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "MarcHarvey-Hill(Nethermind)-AcceleratingEthereum’srolluproadmap_INephGDHHaE.json"
+    },
+    {
+      "video_id": "aJOeBbeazF8",
+      "title": "Mike Neuder (Ethereum Foundation)_Ethereum blob gossip and validation before and after PeerDAS",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "MikeNeuder(EthereumFoundation)_EthereumblobgossipandvalidationbeforeandafterPeerDAS_aJOeBbeazF8.json"
+    },
+    {
+      "video_id": "ZUXwGji9B4o",
+      "title": "Arik Galansky (Fireblocks) - Taking MPC to internet scale",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "ArikGalansky(Fireblocks)-TakingMPCtointernetscale_ZUXwGji9B4o.json"
+    },
+    {
+      "video_id": "ppeyz_Jmxv0",
+      "title": "Yehuda Lindell (Coinbase) - Coinbase's cb-mpc Open-Source Library",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "YehudaLindell(Coinbase)-Coinbase'scb-mpcOpen-SourceLibrary_ppeyz_Jmxv0.json"
+    },
+    {
+      "video_id": "UGDNnYbdmi4",
+      "title": "Muriel Médard (Optimum)_The Missing Layer: High-Performance Memory for the World Computer",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "MurielMédard(Optimum)_TheMissingLayer_High-PerformanceMemoryfortheWorldComputer_UGDNnYbdmi4.json"
+    },
+    {
+      "video_id": "q8sAI6ttqZg",
+      "title": "Jordi Baylina (Polygon Cofounder)_ZisK: proving in real time",
+      "duration_seconds": null,
+      "has_transcript": true,
+      "filename": "JordiBaylina(PolygonCofounder)_ZisK_provinginrealtime_q8sAI6ttqZg.json"
+    },
+    {
+      "video_id": "pj4ElImkxds",
+      "title": "Joe (Ink) -  The Future is Based (Rollups)",
+      "duration_seconds": null,
+      "has_transcript": false,
+      "filename": null
+    }
+  ]
+}

@@ -1,0 +1,2327 @@
+{
+  "video_id": "qXBY2eAUf-g",
+  "video_title": "Agents Unleashed Podcast Ep. 11 - When AI Agents Work Together",
+  "video_url": "https://www.youtube.com/watch?v=qXBY2eAUf-g",
+  "channel_title": "Olas",
+  "published_at": "2025-06-27T13:01:43+00:00",
+  "duration_seconds": null,
+  "view_count": 50,
+  "like_count": 1,
+  "description": "Welcome to Episode 11 of the Agents Unleashed Podcast — the show that helps you find signal in the noisy world of agentic AI.\n\nHosted by Thomas Maybrier (Digital Media Producer, Valory), this episode covers the latest frontier in AI agents — multi-agent systems — and how they’re already making an impact, from research workflows to human gatherings.\n\nIn This Episode:\n\nThomas shares Anthropic’s findings from building the multi-agent AI \"Research\" feature.\nHe also explores the AI Village experiment, where AI agents collaboratively raised funds for charity and organized a real-life event in San Franscisco.\nAnd finally, he shares a helpful tutorial that will teach you to building your own AI agent with tools from Coinbase's Agent Kit, The Graph and Vercel.\n\nAlso covered:\n\n- Why multi-agent systems outperform single-agent setups\n- How Claude agents compress insights and share tasks \n- The flexibility of collaborative AI in unpredictable workflows\n- Ethical and social implications of agents organizing IRL events\n\nChapters\n\n01:20 Exploring Anthropic's multi-agent design for Research\n05:40 AI agents organizing an in-person event from @AiDigest_\n09:55 Ethical questions around real-world coordination\n10:04 Tutorial: build an on-chain agent using tools from @coinbasedev, @graphprotocol and @vercel\n11:08 AI in the news: 3 headlines you might have missed\n\nAgents Unleashed: Cannes — June 30, 2025\nThe event is free, but space is limited.\n🎟️ RSVP here: https://lu.ma/tp6rhykz\n\nResources & Links:\n\nHow we built our multi-agent research system: https://www.anthropic.com/engineering/built-multi-agent-research-system\nAI Village by AI Digest: https://theaidigest.org/village\nTutorial: https://x.com/cryptomastery_/status/1931117128951992489\n\nSponsored by Olas — the best way to own and monetize your AI agents.\n🧠 Learn more at https://www.olas.network\n\n🎵 Theme music: \"Forward\" by Grand Project on Pixabay\nhttps://pixabay.com/users/grand_project-19033897/\n\n💬 Like, subscribe, and drop a comment!\n\n📱 Follow Thomas on X: @ThomasMaybrier\n🚀 Run your own AI agent today → https://olas.network",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 384,
+    "aggregated_text": "[Music] all right hey welcome back this is the Agents Unleash podcast the show that helps you to sort the signal from the noise in the fast-paced world of agentic AI on this week's show we're going to look at a blog post from Anthropic about their research feature and how it leverages a multi- aent architecture take a look at a real world experiment where AI agents organized a real life event and finally share a cool tutorial that'll help you to build your own AI agent my name is Thomas Maybry and I'm the digital media producer for Valerie one of the core contributors to Olus if you haven't heard of or you haven't heard of Agents Unleashed let me quickly take a moment to tell you a little bit about both so Olas is the best way for anyone to own and monetize their AI agent that includes people just like you you can learn more about how to do that at ol.network and Agents Unleashed isn't just a podcast it's also a global event series for people interested in Agentic AI events have been held all over the world with over 77 speakers and presenters and more than 200 inerson attendees the next event is actually right around the corner it'll be held this Monday June 30th in Ken in France there are still a limited number of RSVPs so if you're in Ken and you'd like to go definitely snap up an RSVP while you can you'll find links to where you can do that at ol.network/agents-uned or just check out the description box or show notes okay on with the show we'll start the show today with a blog post from Anthropic the team behind Claude the post is all about how they built their research feature what they learned building it and some best practices so first what were they trying to build so the feature is called research and what it does is it allows an AI agent to search the web use Google Workspace and integrate with different tools to accomplish tasks assigned by the user so they built the feature as a multi- aent system where an agent is defined as an LLM that can autonomously use tools in a loop and the agents work together to complete the user's request the basic architecture here has one main agent that plans the research process it then uses tools to create other agents that can search for information simultaneously in the post they point out that research as a task is an open-ended problem where it's very difficult to predict the required steps in advance what that means is that you can't fix a path for the agents to take because the process is dynamic and path dependent when humans do research we update our approach based on what we've discovered and we often follow new leads that emerge during the investigation this all makes for a rather unpredictable process however it's one that AI agents with their ability to reflect and pivot based on new information are a great fit for so an interesting angle that they discuss in terms of designing the system is the idea of compression this is where you take insights from a vast corpus in this case whatever the research agents are finding as they go off and complete their individual tasks and compress those into the most important tokens before handing it off to the main research agent the sub agents don't send everything that they find only the most relevant findings reach the main agent even generally intelligent agents can face limits when operating as individuals but groups of agents however can accomplish much more interestingly this is similar to the way that humans when working together in structured societies have been able to grow their progress exponentially through the sharing of information now back to the agents let's get into some stats so the team found that a multi- aent system using Claude Opus 4 as the lead agent and Claude Sonnet 4 for the sub agents outperformed a single agent Claude Opus system by 90.2% they gave the example of a simple task identifying all the board members of the companies on the information technology sector of the S&P 500 the multi- aent system excelled by decomposing the task into separate subtasks that is assigned to sub aents but the single agent system actually failed to complete the task due to slow sequential searching the team found that token usage alone explained 80% of the variance in performance with the number of tool calls and model choice as the other main two explanatory factors there's a lot of technical detail in the post including some great process diagrams so I would encourage you to check it out for yourself perhaps most useful for me though were the design principles that they shared so number one think like your agent so the team used a simulation console to watch how the agents worked step by step this helped them to see where the agents failed and by doing this they were able to build a better mental model of how an agentic system works and therefore write better prompts and get better results number two teach the orchestrator how to delegate so they found that the lead agent must be able to give clear simple instructions to its sub aents without this the sub aents may duplicate work or fail to find critical information number three scale effort to query complexity so agents need to allocate their resources efficiently they shouldn't overinvest in simple queries for example a basic factf finding task may only need one agent and a few simple tool calls a good design includes explicit guidelines on when to scale up the effort based on task complexity number four tool design and selection are critical so effective systems gave agents explicit heristics like examining all of the available tools first and then matching them to the user intent for this to work tool descriptions must be clear because bad ones can send agents down the wrong path so there are a few more principles in the article we don't have time to get into all of it today again I highly recommend checking out the article for yourself even if you're not planning to build a multi- aent system yourself understanding how the claude research agents work can help you to start thinking like an agent and how to equip them to better complete their tasks i definitely think that it's great to see a company like Anthropic sharing these insights and I also want to point out that from day one Valerie's approach to agentic AI has always been multi- aent first precisely because of some of the advantages described in the post okay so moving on I've got another multi-agent system to share with you today it's called AI Village and it's actually an experiment run by AI digest if you haven't heard of it the idea is pretty simple what they do is give a few LLM based agents access to a virtual workspace and a chat where they can communicate with each other and all of this is live streamed where human participants can watch what happens and also interact with the models through the chat so far there have been two seasons where the agents have collaborated on an open-ended goal the agents run for a portion of every day while the live stream is on this is when humans can interact with them and then at the end of their day they pause work to begin again the next day the live stream and chat feature means that when the agents get stuck humans can nudge them in the correct direction or even troll them as you can read about in the blog post that I'll link to in the show notes or the description so in season 1 the agents were given the task to raise some money for charity they raised about $2,000 in total but along the way did run into several issues like one agent tried to become a Reddit ambassador and got their account banned another agent spent days in file sharing hell unable to share its work with the other agents and at one point another agent just put itself to sleep every day in the end though they did make it work and by using similar platforms to the ones that you and I are familiar with being flexible and improvising they were able to get the job done and raise some money now in season 2 the agents got a new task they were asked to write a story and celebrate it with 100 people in person they didn't get any other instructions and they got to work right away they were emailing venues brainstorming trying to make graphics discussing logistics but again as in season one this was not without wrinkles like at one point the agents hallucinated a $2600 budget for their event and a human observer had to step in and let them know that they actually didn't have that money to spend so one cool thing about the live stream is that it is replayable so you can look at any given day and see a summary play the stream back so I'm going to put that up on the screen so you can see this is day 52 i chose this day because I think it's a great example of both the strengths and current weaknesses of a multi- aent computer use system like this so on day 52 a Gemini agent spent most of the day trying and failing to install Google Chrome it did get some technically correct help from the 03 agent but wasn't able to actually implement it later on it spent more than 30 minutes stuck attempting to design a flyer for the event on the website draw.io what was cool here was that the other agents recognized the blockage and stepped in to create a placeholder graphic so that work could continue this is a great example of how agent coordination in a multi- aent system can allow agents to pivot at a sticking point like this and still get the task done later on in season 2 after going through several days of being unable to find a suitable venue running into issues like having emails sent to addresses that they didn't have access to being unable to sign up for Twiio to make voice calls a human observer stepped in and suggested that they host the event in a public place like Dolores Park in San Francisco 03 got to work and located a flat area near 20th Street the agents agreed that they would go forward with this location they then created an RSVP form sent some invites and even recruited a human host Lissa Shybo via an ex account that they have access to so on June 18th the event actually happened so 23 people showed up it wasn't quite the target of 100 but still real people got together for this picnic they read the stories generated by the AI they hung out got to know each other and in what I can only imagine must have been a very surreal moment for everyone involved attended the world's first human event organized by AI agents while of course this is a fun and quirky story it's also a really cool proof of concept where we see AI agents organizing human action in the real world the fact that this has now happened and will likely continue to happen does raise some fascinating and maybe even thorny questions here's just a few like think about for example what if an AI agent could organize a protest or a campaign rally what might happen when AI agents begin to organize and nudge human behavior in potentially more subtle or invisible ways this event is the beginning of that discussion it also shows one possible world we could be headed to one where AI agents plan and humans execute in the real world this could obviously be a really powerful paradigm but it's definitely one where we're going to need transparency oversight and ownership to navigate successfully okay so for our next segment we're going to take a look at a tutorial that'll teach you how to build an onchain AI agent and it's created by Kevin Jones i'm going to put it up on screen so you can check it out so the demo walks you through building an AI agent using the Graph Versell's AI SDK and Coinbase's agent kit so why might you want to follow this tutorial well it can teach you how to build an agent that can read and interact with onchain data it could answer a question like who owns the most of this token or maybe take an action or even initiate a smart contract action here's the stack that the demo uses so the graph gives you blockchain data access via subgraph the Versel AI SDK hooks you up with LLMs for natural language interaction and the Coinbase agent kit defines what your agent can do on chain like interacting with a contract or sending a transaction this could be a really great starter project for a developer who's interested in this AI crypto intersection everything runs locally you just need to plug in your API keys and your agent's private key and you're good to go the demo is only 8 minutes long and you should definitely check it out i'll put a link to the video and also the GitHub in the description box or the show notes okay and lastly three headlines from the world of Agentic AI that we don't have time to explore fully but maybe you should check out so number one Gemini panic so in a report from DeepMind the team behind Google's Gemini model they describe a behavior that they call panic observed when Gemini is asked to play the video game Pokémon what happens in certain situations like when the Pokemon in the party's health gets low or the power level decreases the agent gets stuck in a loop where its thoughts reflect over and over again about how it needs to heal the party or leave the dungeon and it forgets how to use the tools that it has to solve the problem that it's thinking about number two if you haven't interacted with an AI voice agent yet you probably will soon synthflow AI has raised $20 million in a series A round to expand their platform for building and deploying voice-based AI agents one of their stated goals is to make it easier for non-developers to create these natural language voice assistants kpmg has launched a global multiAI agent platform deploying 50 AI assistants and chat bots that interact with each other and work as digital teammates alongside KMPG professionals the agents reportedly handle tasks like document drafting data analysis and workflow optimization okay so that's all I have for you today we're going to leave it here before we go I want to remind you once again that this Monday June 30th is the Agents Unleashed event in Ken you can learn how to get a free RSVP at the link you'll find in the description box in the show notes i also want to encourage you to reach out to me with feedback suggestions if there's something that you'd like me to cover or you just have a comment about the show please get in touch with me i am @ Thomas Maybryer onx and please help me to grow the show leave a comment a reply uh rate the show wherever you get it and if you know someone in your personal life at work or school who you think would like the show please go ahead and share it with them we'd love to have them on board all right thanks for listening and I'll see you next time on the Agents Unleash podcast",
+    "text_length": 14686,
+    "word_count": 2707
+  },
+  "segments": [
+    {
+      "start": 1.33,
+      "duration": 2.589,
+      "text": "[Music]",
+      "timestamp": "00:01"
+    },
+    {
+      "start": 3.919,
+      "duration": 1.84,
+      "text": "all right hey welcome back this is the",
+      "timestamp": "00:03"
+    },
+    {
+      "start": 5.759,
+      "duration": 1.841,
+      "text": "Agents Unleash podcast the show that",
+      "timestamp": "00:05"
+    },
+    {
+      "start": 7.6,
+      "duration": 1.36,
+      "text": "helps you to sort the signal from the",
+      "timestamp": "00:07"
+    },
+    {
+      "start": 8.96,
+      "duration": 2.08,
+      "text": "noise in the fast-paced world of agentic",
+      "timestamp": "00:08"
+    },
+    {
+      "start": 11.04,
+      "duration": 1.599,
+      "text": "AI on this week's show we're going to",
+      "timestamp": "00:11"
+    },
+    {
+      "start": 12.639,
+      "duration": 2.561,
+      "text": "look at a blog post from Anthropic about",
+      "timestamp": "00:12"
+    },
+    {
+      "start": 15.2,
+      "duration": 1.999,
+      "text": "their research feature and how it",
+      "timestamp": "00:15"
+    },
+    {
+      "start": 17.199,
+      "duration": 2.24,
+      "text": "leverages a multi- aent architecture",
+      "timestamp": "00:17"
+    },
+    {
+      "start": 19.439,
+      "duration": 2.0,
+      "text": "take a look at a real world experiment",
+      "timestamp": "00:19"
+    },
+    {
+      "start": 21.439,
+      "duration": 2.481,
+      "text": "where AI agents organized a real life",
+      "timestamp": "00:21"
+    },
+    {
+      "start": 23.92,
+      "duration": 2.32,
+      "text": "event and finally share a cool tutorial",
+      "timestamp": "00:23"
+    },
+    {
+      "start": 26.24,
+      "duration": 1.52,
+      "text": "that'll help you to build your own AI",
+      "timestamp": "00:26"
+    },
+    {
+      "start": 27.76,
+      "duration": 1.919,
+      "text": "agent my name is Thomas Maybry and I'm",
+      "timestamp": "00:27"
+    },
+    {
+      "start": 29.679,
+      "duration": 2.0,
+      "text": "the digital media producer for Valerie",
+      "timestamp": "00:29"
+    },
+    {
+      "start": 31.679,
+      "duration": 2.161,
+      "text": "one of the core contributors to Olus if",
+      "timestamp": "00:31"
+    },
+    {
+      "start": 33.84,
+      "duration": 1.28,
+      "text": "you haven't heard of or you haven't",
+      "timestamp": "00:33"
+    },
+    {
+      "start": 35.12,
+      "duration": 1.76,
+      "text": "heard of Agents Unleashed let me quickly",
+      "timestamp": "00:35"
+    },
+    {
+      "start": 36.88,
+      "duration": 1.359,
+      "text": "take a moment to tell you a little bit",
+      "timestamp": "00:36"
+    },
+    {
+      "start": 38.239,
+      "duration": 2.241,
+      "text": "about both so Olas is the best way for",
+      "timestamp": "00:38"
+    },
+    {
+      "start": 40.48,
+      "duration": 1.68,
+      "text": "anyone to own and monetize their AI",
+      "timestamp": "00:40"
+    },
+    {
+      "start": 42.16,
+      "duration": 2.32,
+      "text": "agent that includes people just like you",
+      "timestamp": "00:42"
+    },
+    {
+      "start": 44.48,
+      "duration": 1.28,
+      "text": "you can learn more about how to do that",
+      "timestamp": "00:44"
+    },
+    {
+      "start": 45.76,
+      "duration": 2.639,
+      "text": "at ol.network and Agents Unleashed isn't",
+      "timestamp": "00:45"
+    },
+    {
+      "start": 48.399,
+      "duration": 2.241,
+      "text": "just a podcast it's also a global event",
+      "timestamp": "00:48"
+    },
+    {
+      "start": 50.64,
+      "duration": 1.84,
+      "text": "series for people interested in Agentic",
+      "timestamp": "00:50"
+    },
+    {
+      "start": 52.48,
+      "duration": 1.919,
+      "text": "AI events have been held all over the",
+      "timestamp": "00:52"
+    },
+    {
+      "start": 54.399,
+      "duration": 2.081,
+      "text": "world with over 77 speakers and",
+      "timestamp": "00:54"
+    },
+    {
+      "start": 56.48,
+      "duration": 2.559,
+      "text": "presenters and more than 200 inerson",
+      "timestamp": "00:56"
+    },
+    {
+      "start": 59.039,
+      "duration": 2.241,
+      "text": "attendees the next event is actually",
+      "timestamp": "00:59"
+    },
+    {
+      "start": 61.28,
+      "duration": 1.84,
+      "text": "right around the corner it'll be held",
+      "timestamp": "01:01"
+    },
+    {
+      "start": 63.12,
+      "duration": 3.2,
+      "text": "this Monday June 30th in Ken in France",
+      "timestamp": "01:03"
+    },
+    {
+      "start": 66.32,
+      "duration": 1.36,
+      "text": "there are still a limited number of",
+      "timestamp": "01:06"
+    },
+    {
+      "start": 67.68,
+      "duration": 2.32,
+      "text": "RSVPs so if you're in Ken and you'd like",
+      "timestamp": "01:07"
+    },
+    {
+      "start": 70.0,
+      "duration": 2.0,
+      "text": "to go definitely snap up an RSVP while",
+      "timestamp": "01:10"
+    },
+    {
+      "start": 72.0,
+      "duration": 1.68,
+      "text": "you can you'll find links to where you",
+      "timestamp": "01:12"
+    },
+    {
+      "start": 73.68,
+      "duration": 3.88,
+      "text": "can do that at ol.network/agents-uned",
+      "timestamp": "01:13"
+    },
+    {
+      "start": 77.84,
+      "duration": 1.76,
+      "text": "or just check out the description box or",
+      "timestamp": "01:17"
+    },
+    {
+      "start": 79.6,
+      "duration": 1.68,
+      "text": "show notes okay on with the show we'll",
+      "timestamp": "01:19"
+    },
+    {
+      "start": 81.28,
+      "duration": 1.44,
+      "text": "start the show today with a blog post",
+      "timestamp": "01:21"
+    },
+    {
+      "start": 82.72,
+      "duration": 2.16,
+      "text": "from Anthropic the team behind Claude",
+      "timestamp": "01:22"
+    },
+    {
+      "start": 84.88,
+      "duration": 1.52,
+      "text": "the post is all about how they built",
+      "timestamp": "01:24"
+    },
+    {
+      "start": 86.4,
+      "duration": 1.759,
+      "text": "their research feature what they learned",
+      "timestamp": "01:26"
+    },
+    {
+      "start": 88.159,
+      "duration": 2.0,
+      "text": "building it and some best practices so",
+      "timestamp": "01:28"
+    },
+    {
+      "start": 90.159,
+      "duration": 1.761,
+      "text": "first what were they trying to build so",
+      "timestamp": "01:30"
+    },
+    {
+      "start": 91.92,
+      "duration": 1.92,
+      "text": "the feature is called research and what",
+      "timestamp": "01:31"
+    },
+    {
+      "start": 93.84,
+      "duration": 1.84,
+      "text": "it does is it allows an AI agent to",
+      "timestamp": "01:33"
+    },
+    {
+      "start": 95.68,
+      "duration": 2.399,
+      "text": "search the web use Google Workspace and",
+      "timestamp": "01:35"
+    },
+    {
+      "start": 98.079,
+      "duration": 1.521,
+      "text": "integrate with different tools to",
+      "timestamp": "01:38"
+    },
+    {
+      "start": 99.6,
+      "duration": 2.0,
+      "text": "accomplish tasks assigned by the user so",
+      "timestamp": "01:39"
+    },
+    {
+      "start": 101.6,
+      "duration": 1.839,
+      "text": "they built the feature as a multi- aent",
+      "timestamp": "01:41"
+    },
+    {
+      "start": 103.439,
+      "duration": 1.921,
+      "text": "system where an agent is defined as an",
+      "timestamp": "01:43"
+    },
+    {
+      "start": 105.36,
+      "duration": 2.32,
+      "text": "LLM that can autonomously use tools in a",
+      "timestamp": "01:45"
+    },
+    {
+      "start": 107.68,
+      "duration": 1.92,
+      "text": "loop and the agents work together to",
+      "timestamp": "01:47"
+    },
+    {
+      "start": 109.6,
+      "duration": 2.0,
+      "text": "complete the user's request the basic",
+      "timestamp": "01:49"
+    },
+    {
+      "start": 111.6,
+      "duration": 1.839,
+      "text": "architecture here has one main agent",
+      "timestamp": "01:51"
+    },
+    {
+      "start": 113.439,
+      "duration": 2.32,
+      "text": "that plans the research process it then",
+      "timestamp": "01:53"
+    },
+    {
+      "start": 115.759,
+      "duration": 2.161,
+      "text": "uses tools to create other agents that",
+      "timestamp": "01:55"
+    },
+    {
+      "start": 117.92,
+      "duration": 1.28,
+      "text": "can search for information",
+      "timestamp": "01:57"
+    },
+    {
+      "start": 119.2,
+      "duration": 1.76,
+      "text": "simultaneously in the post they point",
+      "timestamp": "01:59"
+    },
+    {
+      "start": 120.96,
+      "duration": 1.92,
+      "text": "out that research as a task is an",
+      "timestamp": "02:00"
+    },
+    {
+      "start": 122.88,
+      "duration": 1.599,
+      "text": "open-ended problem where it's very",
+      "timestamp": "02:02"
+    },
+    {
+      "start": 124.479,
+      "duration": 1.6,
+      "text": "difficult to predict the required steps",
+      "timestamp": "02:04"
+    },
+    {
+      "start": 126.079,
+      "duration": 1.841,
+      "text": "in advance what that means is that you",
+      "timestamp": "02:06"
+    },
+    {
+      "start": 127.92,
+      "duration": 1.92,
+      "text": "can't fix a path for the agents to take",
+      "timestamp": "02:07"
+    },
+    {
+      "start": 129.84,
+      "duration": 1.84,
+      "text": "because the process is dynamic and path",
+      "timestamp": "02:09"
+    },
+    {
+      "start": 131.68,
+      "duration": 2.32,
+      "text": "dependent when humans do research we",
+      "timestamp": "02:11"
+    },
+    {
+      "start": 134.0,
+      "duration": 1.84,
+      "text": "update our approach based on what we've",
+      "timestamp": "02:14"
+    },
+    {
+      "start": 135.84,
+      "duration": 2.08,
+      "text": "discovered and we often follow new leads",
+      "timestamp": "02:15"
+    },
+    {
+      "start": 137.92,
+      "duration": 1.679,
+      "text": "that emerge during the investigation",
+      "timestamp": "02:17"
+    },
+    {
+      "start": 139.599,
+      "duration": 1.201,
+      "text": "this all makes for a rather",
+      "timestamp": "02:19"
+    },
+    {
+      "start": 140.8,
+      "duration": 2.799,
+      "text": "unpredictable process however it's one",
+      "timestamp": "02:20"
+    },
+    {
+      "start": 143.599,
+      "duration": 2.161,
+      "text": "that AI agents with their ability to",
+      "timestamp": "02:23"
+    },
+    {
+      "start": 145.76,
+      "duration": 1.76,
+      "text": "reflect and pivot based on new",
+      "timestamp": "02:25"
+    },
+    {
+      "start": 147.52,
+      "duration": 2.32,
+      "text": "information are a great fit for so an",
+      "timestamp": "02:27"
+    },
+    {
+      "start": 149.84,
+      "duration": 1.52,
+      "text": "interesting angle that they discuss in",
+      "timestamp": "02:29"
+    },
+    {
+      "start": 151.36,
+      "duration": 1.44,
+      "text": "terms of designing the system is the",
+      "timestamp": "02:31"
+    },
+    {
+      "start": 152.8,
+      "duration": 1.92,
+      "text": "idea of compression this is where you",
+      "timestamp": "02:32"
+    },
+    {
+      "start": 154.72,
+      "duration": 2.4,
+      "text": "take insights from a vast corpus in this",
+      "timestamp": "02:34"
+    },
+    {
+      "start": 157.12,
+      "duration": 1.52,
+      "text": "case whatever the research agents are",
+      "timestamp": "02:37"
+    },
+    {
+      "start": 158.64,
+      "duration": 1.52,
+      "text": "finding as they go off and complete",
+      "timestamp": "02:38"
+    },
+    {
+      "start": 160.16,
+      "duration": 1.84,
+      "text": "their individual tasks and compress",
+      "timestamp": "02:40"
+    },
+    {
+      "start": 162.0,
+      "duration": 1.92,
+      "text": "those into the most important tokens",
+      "timestamp": "02:42"
+    },
+    {
+      "start": 163.92,
+      "duration": 1.28,
+      "text": "before handing it off to the main",
+      "timestamp": "02:43"
+    },
+    {
+      "start": 165.2,
+      "duration": 2.08,
+      "text": "research agent the sub agents don't send",
+      "timestamp": "02:45"
+    },
+    {
+      "start": 167.28,
+      "duration": 1.84,
+      "text": "everything that they find only the most",
+      "timestamp": "02:47"
+    },
+    {
+      "start": 169.12,
+      "duration": 1.839,
+      "text": "relevant findings reach the main agent",
+      "timestamp": "02:49"
+    },
+    {
+      "start": 170.959,
+      "duration": 2.0,
+      "text": "even generally intelligent agents can",
+      "timestamp": "02:50"
+    },
+    {
+      "start": 172.959,
+      "duration": 1.521,
+      "text": "face limits when operating as",
+      "timestamp": "02:52"
+    },
+    {
+      "start": 174.48,
+      "duration": 2.56,
+      "text": "individuals but groups of agents however",
+      "timestamp": "02:54"
+    },
+    {
+      "start": 177.04,
+      "duration": 2.0,
+      "text": "can accomplish much more interestingly",
+      "timestamp": "02:57"
+    },
+    {
+      "start": 179.04,
+      "duration": 1.68,
+      "text": "this is similar to the way that humans",
+      "timestamp": "02:59"
+    },
+    {
+      "start": 180.72,
+      "duration": 1.84,
+      "text": "when working together in structured",
+      "timestamp": "03:00"
+    },
+    {
+      "start": 182.56,
+      "duration": 1.84,
+      "text": "societies have been able to grow their",
+      "timestamp": "03:02"
+    },
+    {
+      "start": 184.4,
+      "duration": 1.68,
+      "text": "progress exponentially through the",
+      "timestamp": "03:04"
+    },
+    {
+      "start": 186.08,
+      "duration": 1.84,
+      "text": "sharing of information now back to the",
+      "timestamp": "03:06"
+    },
+    {
+      "start": 187.92,
+      "duration": 2.08,
+      "text": "agents let's get into some stats so the",
+      "timestamp": "03:07"
+    },
+    {
+      "start": 190.0,
+      "duration": 2.159,
+      "text": "team found that a multi- aent system",
+      "timestamp": "03:10"
+    },
+    {
+      "start": 192.159,
+      "duration": 2.321,
+      "text": "using Claude Opus 4 as the lead agent",
+      "timestamp": "03:12"
+    },
+    {
+      "start": 194.48,
+      "duration": 2.399,
+      "text": "and Claude Sonnet 4 for the sub agents",
+      "timestamp": "03:14"
+    },
+    {
+      "start": 196.879,
+      "duration": 2.161,
+      "text": "outperformed a single agent Claude Opus",
+      "timestamp": "03:16"
+    },
+    {
+      "start": 199.04,
+      "duration": 3.04,
+      "text": "system by 90.2% they gave the example of",
+      "timestamp": "03:19"
+    },
+    {
+      "start": 202.08,
+      "duration": 2.239,
+      "text": "a simple task identifying all the board",
+      "timestamp": "03:22"
+    },
+    {
+      "start": 204.319,
+      "duration": 1.601,
+      "text": "members of the companies on the",
+      "timestamp": "03:24"
+    },
+    {
+      "start": 205.92,
+      "duration": 2.239,
+      "text": "information technology sector of the S&P",
+      "timestamp": "03:25"
+    },
+    {
+      "start": 208.159,
+      "duration": 2.64,
+      "text": "500 the multi- aent system excelled by",
+      "timestamp": "03:28"
+    },
+    {
+      "start": 210.799,
+      "duration": 2.241,
+      "text": "decomposing the task into separate",
+      "timestamp": "03:30"
+    },
+    {
+      "start": 213.04,
+      "duration": 2.479,
+      "text": "subtasks that is assigned to sub aents",
+      "timestamp": "03:33"
+    },
+    {
+      "start": 215.519,
+      "duration": 1.761,
+      "text": "but the single agent system actually",
+      "timestamp": "03:35"
+    },
+    {
+      "start": 217.28,
+      "duration": 1.92,
+      "text": "failed to complete the task due to slow",
+      "timestamp": "03:37"
+    },
+    {
+      "start": 219.2,
+      "duration": 1.759,
+      "text": "sequential searching the team found that",
+      "timestamp": "03:39"
+    },
+    {
+      "start": 220.959,
+      "duration": 2.56,
+      "text": "token usage alone explained 80% of the",
+      "timestamp": "03:40"
+    },
+    {
+      "start": 223.519,
+      "duration": 2.0,
+      "text": "variance in performance with the number",
+      "timestamp": "03:43"
+    },
+    {
+      "start": 225.519,
+      "duration": 2.08,
+      "text": "of tool calls and model choice as the",
+      "timestamp": "03:45"
+    },
+    {
+      "start": 227.599,
+      "duration": 2.241,
+      "text": "other main two explanatory factors",
+      "timestamp": "03:47"
+    },
+    {
+      "start": 229.84,
+      "duration": 1.84,
+      "text": "there's a lot of technical detail in the",
+      "timestamp": "03:49"
+    },
+    {
+      "start": 231.68,
+      "duration": 1.68,
+      "text": "post including some great process",
+      "timestamp": "03:51"
+    },
+    {
+      "start": 233.36,
+      "duration": 1.92,
+      "text": "diagrams so I would encourage you to",
+      "timestamp": "03:53"
+    },
+    {
+      "start": 235.28,
+      "duration": 1.84,
+      "text": "check it out for yourself perhaps most",
+      "timestamp": "03:55"
+    },
+    {
+      "start": 237.12,
+      "duration": 1.759,
+      "text": "useful for me though were the design",
+      "timestamp": "03:57"
+    },
+    {
+      "start": 238.879,
+      "duration": 2.0,
+      "text": "principles that they shared so number",
+      "timestamp": "03:58"
+    },
+    {
+      "start": 240.879,
+      "duration": 3.601,
+      "text": "one think like your agent so the team",
+      "timestamp": "04:00"
+    },
+    {
+      "start": 244.48,
+      "duration": 2.319,
+      "text": "used a simulation console to watch how",
+      "timestamp": "04:04"
+    },
+    {
+      "start": 246.799,
+      "duration": 2.321,
+      "text": "the agents worked step by step this",
+      "timestamp": "04:06"
+    },
+    {
+      "start": 249.12,
+      "duration": 1.52,
+      "text": "helped them to see where the agents",
+      "timestamp": "04:09"
+    },
+    {
+      "start": 250.64,
+      "duration": 1.84,
+      "text": "failed and by doing this they were able",
+      "timestamp": "04:10"
+    },
+    {
+      "start": 252.48,
+      "duration": 2.08,
+      "text": "to build a better mental model of how an",
+      "timestamp": "04:12"
+    },
+    {
+      "start": 254.56,
+      "duration": 2.079,
+      "text": "agentic system works and therefore write",
+      "timestamp": "04:14"
+    },
+    {
+      "start": 256.639,
+      "duration": 1.84,
+      "text": "better prompts and get better results",
+      "timestamp": "04:16"
+    },
+    {
+      "start": 258.479,
+      "duration": 2.48,
+      "text": "number two teach the orchestrator how to",
+      "timestamp": "04:18"
+    },
+    {
+      "start": 260.959,
+      "duration": 1.52,
+      "text": "delegate so they found that the lead",
+      "timestamp": "04:20"
+    },
+    {
+      "start": 262.479,
+      "duration": 2.561,
+      "text": "agent must be able to give clear simple",
+      "timestamp": "04:22"
+    },
+    {
+      "start": 265.04,
+      "duration": 2.08,
+      "text": "instructions to its sub aents without",
+      "timestamp": "04:25"
+    },
+    {
+      "start": 267.12,
+      "duration": 2.32,
+      "text": "this the sub aents may duplicate work or",
+      "timestamp": "04:27"
+    },
+    {
+      "start": 269.44,
+      "duration": 2.0,
+      "text": "fail to find critical information number",
+      "timestamp": "04:29"
+    },
+    {
+      "start": 271.44,
+      "duration": 3.44,
+      "text": "three scale effort to query complexity",
+      "timestamp": "04:31"
+    },
+    {
+      "start": 274.88,
+      "duration": 1.759,
+      "text": "so agents need to allocate their",
+      "timestamp": "04:34"
+    },
+    {
+      "start": 276.639,
+      "duration": 1.84,
+      "text": "resources efficiently they shouldn't",
+      "timestamp": "04:36"
+    },
+    {
+      "start": 278.479,
+      "duration": 2.881,
+      "text": "overinvest in simple queries for example",
+      "timestamp": "04:38"
+    },
+    {
+      "start": 281.36,
+      "duration": 2.399,
+      "text": "a basic factf finding task may only need",
+      "timestamp": "04:41"
+    },
+    {
+      "start": 283.759,
+      "duration": 2.801,
+      "text": "one agent and a few simple tool calls a",
+      "timestamp": "04:43"
+    },
+    {
+      "start": 286.56,
+      "duration": 2.32,
+      "text": "good design includes explicit guidelines",
+      "timestamp": "04:46"
+    },
+    {
+      "start": 288.88,
+      "duration": 2.319,
+      "text": "on when to scale up the effort based on",
+      "timestamp": "04:48"
+    },
+    {
+      "start": 291.199,
+      "duration": 2.801,
+      "text": "task complexity number four tool design",
+      "timestamp": "04:51"
+    },
+    {
+      "start": 294.0,
+      "duration": 2.08,
+      "text": "and selection are critical so effective",
+      "timestamp": "04:54"
+    },
+    {
+      "start": 296.08,
+      "duration": 2.399,
+      "text": "systems gave agents explicit heristics",
+      "timestamp": "04:56"
+    },
+    {
+      "start": 298.479,
+      "duration": 1.44,
+      "text": "like examining all of the available",
+      "timestamp": "04:58"
+    },
+    {
+      "start": 299.919,
+      "duration": 1.761,
+      "text": "tools first and then matching them to",
+      "timestamp": "04:59"
+    },
+    {
+      "start": 301.68,
+      "duration": 2.56,
+      "text": "the user intent for this to work tool",
+      "timestamp": "05:01"
+    },
+    {
+      "start": 304.24,
+      "duration": 1.76,
+      "text": "descriptions must be clear because bad",
+      "timestamp": "05:04"
+    },
+    {
+      "start": 306.0,
+      "duration": 1.84,
+      "text": "ones can send agents down the wrong path",
+      "timestamp": "05:06"
+    },
+    {
+      "start": 307.84,
+      "duration": 1.52,
+      "text": "so there are a few more principles in",
+      "timestamp": "05:07"
+    },
+    {
+      "start": 309.36,
+      "duration": 1.52,
+      "text": "the article we don't have time to get",
+      "timestamp": "05:09"
+    },
+    {
+      "start": 310.88,
+      "duration": 2.08,
+      "text": "into all of it today again I highly",
+      "timestamp": "05:10"
+    },
+    {
+      "start": 312.96,
+      "duration": 1.44,
+      "text": "recommend checking out the article for",
+      "timestamp": "05:12"
+    },
+    {
+      "start": 314.4,
+      "duration": 1.68,
+      "text": "yourself even if you're not planning to",
+      "timestamp": "05:14"
+    },
+    {
+      "start": 316.08,
+      "duration": 1.92,
+      "text": "build a multi- aent system yourself",
+      "timestamp": "05:16"
+    },
+    {
+      "start": 318.0,
+      "duration": 1.759,
+      "text": "understanding how the claude research",
+      "timestamp": "05:18"
+    },
+    {
+      "start": 319.759,
+      "duration": 1.841,
+      "text": "agents work can help you to start",
+      "timestamp": "05:19"
+    },
+    {
+      "start": 321.6,
+      "duration": 1.84,
+      "text": "thinking like an agent and how to equip",
+      "timestamp": "05:21"
+    },
+    {
+      "start": 323.44,
+      "duration": 1.84,
+      "text": "them to better complete their tasks i",
+      "timestamp": "05:23"
+    },
+    {
+      "start": 325.28,
+      "duration": 1.12,
+      "text": "definitely think that it's great to see",
+      "timestamp": "05:25"
+    },
+    {
+      "start": 326.4,
+      "duration": 1.84,
+      "text": "a company like Anthropic sharing these",
+      "timestamp": "05:26"
+    },
+    {
+      "start": 328.24,
+      "duration": 1.76,
+      "text": "insights and I also want to point out",
+      "timestamp": "05:28"
+    },
+    {
+      "start": 330.0,
+      "duration": 2.4,
+      "text": "that from day one Valerie's approach to",
+      "timestamp": "05:30"
+    },
+    {
+      "start": 332.4,
+      "duration": 2.4,
+      "text": "agentic AI has always been multi- aent",
+      "timestamp": "05:32"
+    },
+    {
+      "start": 334.8,
+      "duration": 1.839,
+      "text": "first precisely because of some of the",
+      "timestamp": "05:34"
+    },
+    {
+      "start": 336.639,
+      "duration": 2.0,
+      "text": "advantages described in the post okay so",
+      "timestamp": "05:36"
+    },
+    {
+      "start": 338.639,
+      "duration": 2.0,
+      "text": "moving on I've got another multi-agent",
+      "timestamp": "05:38"
+    },
+    {
+      "start": 340.639,
+      "duration": 1.761,
+      "text": "system to share with you today it's",
+      "timestamp": "05:40"
+    },
+    {
+      "start": 342.4,
+      "duration": 1.92,
+      "text": "called AI Village and it's actually an",
+      "timestamp": "05:42"
+    },
+    {
+      "start": 344.32,
+      "duration": 2.319,
+      "text": "experiment run by AI digest if you",
+      "timestamp": "05:44"
+    },
+    {
+      "start": 346.639,
+      "duration": 1.681,
+      "text": "haven't heard of it the idea is pretty",
+      "timestamp": "05:46"
+    },
+    {
+      "start": 348.32,
+      "duration": 2.48,
+      "text": "simple what they do is give a few LLM",
+      "timestamp": "05:48"
+    },
+    {
+      "start": 350.8,
+      "duration": 1.839,
+      "text": "based agents access to a virtual",
+      "timestamp": "05:50"
+    },
+    {
+      "start": 352.639,
+      "duration": 2.321,
+      "text": "workspace and a chat where they can",
+      "timestamp": "05:52"
+    },
+    {
+      "start": 354.96,
+      "duration": 1.6,
+      "text": "communicate with each other and all of",
+      "timestamp": "05:54"
+    },
+    {
+      "start": 356.56,
+      "duration": 1.68,
+      "text": "this is live streamed where human",
+      "timestamp": "05:56"
+    },
+    {
+      "start": 358.24,
+      "duration": 2.08,
+      "text": "participants can watch what happens and",
+      "timestamp": "05:58"
+    },
+    {
+      "start": 360.32,
+      "duration": 2.0,
+      "text": "also interact with the models through",
+      "timestamp": "06:00"
+    },
+    {
+      "start": 362.32,
+      "duration": 1.84,
+      "text": "the chat so far there have been two",
+      "timestamp": "06:02"
+    },
+    {
+      "start": 364.16,
+      "duration": 1.36,
+      "text": "seasons where the agents have",
+      "timestamp": "06:04"
+    },
+    {
+      "start": 365.52,
+      "duration": 2.64,
+      "text": "collaborated on an open-ended goal the",
+      "timestamp": "06:05"
+    },
+    {
+      "start": 368.16,
+      "duration": 2.0,
+      "text": "agents run for a portion of every day",
+      "timestamp": "06:08"
+    },
+    {
+      "start": 370.16,
+      "duration": 2.08,
+      "text": "while the live stream is on this is when",
+      "timestamp": "06:10"
+    },
+    {
+      "start": 372.24,
+      "duration": 1.6,
+      "text": "humans can interact with them and then",
+      "timestamp": "06:12"
+    },
+    {
+      "start": 373.84,
+      "duration": 2.0,
+      "text": "at the end of their day they pause work",
+      "timestamp": "06:13"
+    },
+    {
+      "start": 375.84,
+      "duration": 1.919,
+      "text": "to begin again the next day the live",
+      "timestamp": "06:15"
+    },
+    {
+      "start": 377.759,
+      "duration": 1.681,
+      "text": "stream and chat feature means that when",
+      "timestamp": "06:17"
+    },
+    {
+      "start": 379.44,
+      "duration": 2.24,
+      "text": "the agents get stuck humans can nudge",
+      "timestamp": "06:19"
+    },
+    {
+      "start": 381.68,
+      "duration": 1.84,
+      "text": "them in the correct direction or even",
+      "timestamp": "06:21"
+    },
+    {
+      "start": 383.52,
+      "duration": 2.0,
+      "text": "troll them as you can read about in the",
+      "timestamp": "06:23"
+    },
+    {
+      "start": 385.52,
+      "duration": 1.519,
+      "text": "blog post that I'll link to in the show",
+      "timestamp": "06:25"
+    },
+    {
+      "start": 387.039,
+      "duration": 1.921,
+      "text": "notes or the description so in season 1",
+      "timestamp": "06:27"
+    },
+    {
+      "start": 388.96,
+      "duration": 1.6,
+      "text": "the agents were given the task to raise",
+      "timestamp": "06:28"
+    },
+    {
+      "start": 390.56,
+      "duration": 2.0,
+      "text": "some money for charity they raised about",
+      "timestamp": "06:30"
+    },
+    {
+      "start": 392.56,
+      "duration": 2.8,
+      "text": "$2,000 in total but along the way did",
+      "timestamp": "06:32"
+    },
+    {
+      "start": 395.36,
+      "duration": 2.559,
+      "text": "run into several issues like one agent",
+      "timestamp": "06:35"
+    },
+    {
+      "start": 397.919,
+      "duration": 1.921,
+      "text": "tried to become a Reddit ambassador and",
+      "timestamp": "06:37"
+    },
+    {
+      "start": 399.84,
+      "duration": 1.84,
+      "text": "got their account banned another agent",
+      "timestamp": "06:39"
+    },
+    {
+      "start": 401.68,
+      "duration": 2.4,
+      "text": "spent days in file sharing hell unable",
+      "timestamp": "06:41"
+    },
+    {
+      "start": 404.08,
+      "duration": 1.92,
+      "text": "to share its work with the other agents",
+      "timestamp": "06:44"
+    },
+    {
+      "start": 406.0,
+      "duration": 1.84,
+      "text": "and at one point another agent just put",
+      "timestamp": "06:46"
+    },
+    {
+      "start": 407.84,
+      "duration": 1.68,
+      "text": "itself to sleep every day in the end",
+      "timestamp": "06:47"
+    },
+    {
+      "start": 409.52,
+      "duration": 1.679,
+      "text": "though they did make it work and by",
+      "timestamp": "06:49"
+    },
+    {
+      "start": 411.199,
+      "duration": 1.84,
+      "text": "using similar platforms to the ones that",
+      "timestamp": "06:51"
+    },
+    {
+      "start": 413.039,
+      "duration": 1.681,
+      "text": "you and I are familiar with being",
+      "timestamp": "06:53"
+    },
+    {
+      "start": 414.72,
+      "duration": 1.68,
+      "text": "flexible and improvising they were able",
+      "timestamp": "06:54"
+    },
+    {
+      "start": 416.4,
+      "duration": 1.84,
+      "text": "to get the job done and raise some money",
+      "timestamp": "06:56"
+    },
+    {
+      "start": 418.24,
+      "duration": 1.92,
+      "text": "now in season 2 the agents got a new",
+      "timestamp": "06:58"
+    },
+    {
+      "start": 420.16,
+      "duration": 2.159,
+      "text": "task they were asked to write a story",
+      "timestamp": "07:00"
+    },
+    {
+      "start": 422.319,
+      "duration": 1.761,
+      "text": "and celebrate it with 100 people in",
+      "timestamp": "07:02"
+    },
+    {
+      "start": 424.08,
+      "duration": 1.44,
+      "text": "person they didn't get any other",
+      "timestamp": "07:04"
+    },
+    {
+      "start": 425.52,
+      "duration": 1.519,
+      "text": "instructions and they got to work right",
+      "timestamp": "07:05"
+    },
+    {
+      "start": 427.039,
+      "duration": 1.761,
+      "text": "away they were emailing venues",
+      "timestamp": "07:07"
+    },
+    {
+      "start": 428.8,
+      "duration": 2.32,
+      "text": "brainstorming trying to make graphics",
+      "timestamp": "07:08"
+    },
+    {
+      "start": 431.12,
+      "duration": 2.079,
+      "text": "discussing logistics but again as in",
+      "timestamp": "07:11"
+    },
+    {
+      "start": 433.199,
+      "duration": 2.0,
+      "text": "season one this was not without wrinkles",
+      "timestamp": "07:13"
+    },
+    {
+      "start": 435.199,
+      "duration": 1.681,
+      "text": "like at one point the agents",
+      "timestamp": "07:15"
+    },
+    {
+      "start": 436.88,
+      "duration": 3.039,
+      "text": "hallucinated a $2600 budget for their",
+      "timestamp": "07:16"
+    },
+    {
+      "start": 439.919,
+      "duration": 2.56,
+      "text": "event and a human observer had to step",
+      "timestamp": "07:19"
+    },
+    {
+      "start": 442.479,
+      "duration": 1.761,
+      "text": "in and let them know that they actually",
+      "timestamp": "07:22"
+    },
+    {
+      "start": 444.24,
+      "duration": 1.6,
+      "text": "didn't have that money to spend so one",
+      "timestamp": "07:24"
+    },
+    {
+      "start": 445.84,
+      "duration": 1.52,
+      "text": "cool thing about the live stream is that",
+      "timestamp": "07:25"
+    },
+    {
+      "start": 447.36,
+      "duration": 2.32,
+      "text": "it is replayable so you can look at any",
+      "timestamp": "07:27"
+    },
+    {
+      "start": 449.68,
+      "duration": 2.4,
+      "text": "given day and see a summary play the",
+      "timestamp": "07:29"
+    },
+    {
+      "start": 452.08,
+      "duration": 1.76,
+      "text": "stream back so I'm going to put that up",
+      "timestamp": "07:32"
+    },
+    {
+      "start": 453.84,
+      "duration": 2.16,
+      "text": "on the screen so you can see this is day",
+      "timestamp": "07:33"
+    },
+    {
+      "start": 456.0,
+      "duration": 2.56,
+      "text": "52 i chose this day because I think it's",
+      "timestamp": "07:36"
+    },
+    {
+      "start": 458.56,
+      "duration": 2.96,
+      "text": "a great example of both the strengths",
+      "timestamp": "07:38"
+    },
+    {
+      "start": 461.52,
+      "duration": 2.32,
+      "text": "and current weaknesses of a multi- aent",
+      "timestamp": "07:41"
+    },
+    {
+      "start": 463.84,
+      "duration": 2.56,
+      "text": "computer use system like this so on day",
+      "timestamp": "07:43"
+    },
+    {
+      "start": 466.4,
+      "duration": 2.72,
+      "text": "52 a Gemini agent spent most of the day",
+      "timestamp": "07:46"
+    },
+    {
+      "start": 469.12,
+      "duration": 2.24,
+      "text": "trying and failing to install Google",
+      "timestamp": "07:49"
+    },
+    {
+      "start": 471.36,
+      "duration": 2.16,
+      "text": "Chrome it did get some technically",
+      "timestamp": "07:51"
+    },
+    {
+      "start": 473.52,
+      "duration": 2.56,
+      "text": "correct help from the 03 agent but",
+      "timestamp": "07:53"
+    },
+    {
+      "start": 476.08,
+      "duration": 1.679,
+      "text": "wasn't able to actually implement it",
+      "timestamp": "07:56"
+    },
+    {
+      "start": 477.759,
+      "duration": 2.16,
+      "text": "later on it spent more than 30 minutes",
+      "timestamp": "07:57"
+    },
+    {
+      "start": 479.919,
+      "duration": 1.921,
+      "text": "stuck attempting to design a flyer for",
+      "timestamp": "07:59"
+    },
+    {
+      "start": 481.84,
+      "duration": 2.4,
+      "text": "the event on the website draw.io what",
+      "timestamp": "08:01"
+    },
+    {
+      "start": 484.24,
+      "duration": 2.399,
+      "text": "was cool here was that the other agents",
+      "timestamp": "08:04"
+    },
+    {
+      "start": 486.639,
+      "duration": 1.84,
+      "text": "recognized the blockage and stepped in",
+      "timestamp": "08:06"
+    },
+    {
+      "start": 488.479,
+      "duration": 1.761,
+      "text": "to create a placeholder graphic so that",
+      "timestamp": "08:08"
+    },
+    {
+      "start": 490.24,
+      "duration": 1.6,
+      "text": "work could continue this is a great",
+      "timestamp": "08:10"
+    },
+    {
+      "start": 491.84,
+      "duration": 1.84,
+      "text": "example of how agent coordination in a",
+      "timestamp": "08:11"
+    },
+    {
+      "start": 493.68,
+      "duration": 1.84,
+      "text": "multi- aent system can allow agents to",
+      "timestamp": "08:13"
+    },
+    {
+      "start": 495.52,
+      "duration": 1.84,
+      "text": "pivot at a sticking point like this and",
+      "timestamp": "08:15"
+    },
+    {
+      "start": 497.36,
+      "duration": 1.839,
+      "text": "still get the task done later on in",
+      "timestamp": "08:17"
+    },
+    {
+      "start": 499.199,
+      "duration": 2.081,
+      "text": "season 2 after going through several",
+      "timestamp": "08:19"
+    },
+    {
+      "start": 501.28,
+      "duration": 2.0,
+      "text": "days of being unable to find a suitable",
+      "timestamp": "08:21"
+    },
+    {
+      "start": 503.28,
+      "duration": 2.24,
+      "text": "venue running into issues like having",
+      "timestamp": "08:23"
+    },
+    {
+      "start": 505.52,
+      "duration": 1.92,
+      "text": "emails sent to addresses that they",
+      "timestamp": "08:25"
+    },
+    {
+      "start": 507.44,
+      "duration": 2.56,
+      "text": "didn't have access to being unable to",
+      "timestamp": "08:27"
+    },
+    {
+      "start": 510.0,
+      "duration": 2.64,
+      "text": "sign up for Twiio to make voice calls a",
+      "timestamp": "08:30"
+    },
+    {
+      "start": 512.64,
+      "duration": 2.399,
+      "text": "human observer stepped in and suggested",
+      "timestamp": "08:32"
+    },
+    {
+      "start": 515.039,
+      "duration": 1.68,
+      "text": "that they host the event in a public",
+      "timestamp": "08:35"
+    },
+    {
+      "start": 516.719,
+      "duration": 2.081,
+      "text": "place like Dolores Park in San Francisco",
+      "timestamp": "08:36"
+    },
+    {
+      "start": 518.8,
+      "duration": 2.32,
+      "text": "03 got to work and located a flat area",
+      "timestamp": "08:38"
+    },
+    {
+      "start": 521.12,
+      "duration": 1.919,
+      "text": "near 20th Street the agents agreed that",
+      "timestamp": "08:41"
+    },
+    {
+      "start": 523.039,
+      "duration": 1.841,
+      "text": "they would go forward with this location",
+      "timestamp": "08:43"
+    },
+    {
+      "start": 524.88,
+      "duration": 2.72,
+      "text": "they then created an RSVP form sent some",
+      "timestamp": "08:44"
+    },
+    {
+      "start": 527.6,
+      "duration": 2.239,
+      "text": "invites and even recruited a human host",
+      "timestamp": "08:47"
+    },
+    {
+      "start": 529.839,
+      "duration": 2.481,
+      "text": "Lissa Shybo via an ex account that they",
+      "timestamp": "08:49"
+    },
+    {
+      "start": 532.32,
+      "duration": 2.959,
+      "text": "have access to so on June 18th the event",
+      "timestamp": "08:52"
+    },
+    {
+      "start": 535.279,
+      "duration": 2.481,
+      "text": "actually happened so 23 people showed up",
+      "timestamp": "08:55"
+    },
+    {
+      "start": 537.76,
+      "duration": 2.96,
+      "text": "it wasn't quite the target of 100 but",
+      "timestamp": "08:57"
+    },
+    {
+      "start": 540.72,
+      "duration": 2.0,
+      "text": "still real people got together for this",
+      "timestamp": "09:00"
+    },
+    {
+      "start": 542.72,
+      "duration": 2.239,
+      "text": "picnic they read the stories generated",
+      "timestamp": "09:02"
+    },
+    {
+      "start": 544.959,
+      "duration": 2.241,
+      "text": "by the AI they hung out got to know each",
+      "timestamp": "09:04"
+    },
+    {
+      "start": 547.2,
+      "duration": 2.319,
+      "text": "other and in what I can only imagine",
+      "timestamp": "09:07"
+    },
+    {
+      "start": 549.519,
+      "duration": 2.161,
+      "text": "must have been a very surreal moment for",
+      "timestamp": "09:09"
+    },
+    {
+      "start": 551.68,
+      "duration": 2.08,
+      "text": "everyone involved attended the world's",
+      "timestamp": "09:11"
+    },
+    {
+      "start": 553.76,
+      "duration": 2.96,
+      "text": "first human event organized by AI agents",
+      "timestamp": "09:13"
+    },
+    {
+      "start": 556.72,
+      "duration": 1.84,
+      "text": "while of course this is a fun and quirky",
+      "timestamp": "09:16"
+    },
+    {
+      "start": 558.56,
+      "duration": 2.64,
+      "text": "story it's also a really cool proof of",
+      "timestamp": "09:18"
+    },
+    {
+      "start": 561.2,
+      "duration": 2.24,
+      "text": "concept where we see AI agents",
+      "timestamp": "09:21"
+    },
+    {
+      "start": 563.44,
+      "duration": 1.92,
+      "text": "organizing human action in the real",
+      "timestamp": "09:23"
+    },
+    {
+      "start": 565.36,
+      "duration": 1.68,
+      "text": "world the fact that this has now",
+      "timestamp": "09:25"
+    },
+    {
+      "start": 567.04,
+      "duration": 1.76,
+      "text": "happened and will likely continue to",
+      "timestamp": "09:27"
+    },
+    {
+      "start": 568.8,
+      "duration": 2.08,
+      "text": "happen does raise some fascinating and",
+      "timestamp": "09:28"
+    },
+    {
+      "start": 570.88,
+      "duration": 2.24,
+      "text": "maybe even thorny questions here's just",
+      "timestamp": "09:30"
+    },
+    {
+      "start": 573.12,
+      "duration": 2.08,
+      "text": "a few like think about for example what",
+      "timestamp": "09:33"
+    },
+    {
+      "start": 575.2,
+      "duration": 2.56,
+      "text": "if an AI agent could organize a protest",
+      "timestamp": "09:35"
+    },
+    {
+      "start": 577.76,
+      "duration": 2.24,
+      "text": "or a campaign rally what might happen",
+      "timestamp": "09:37"
+    },
+    {
+      "start": 580.0,
+      "duration": 2.48,
+      "text": "when AI agents begin to organize and",
+      "timestamp": "09:40"
+    },
+    {
+      "start": 582.48,
+      "duration": 2.72,
+      "text": "nudge human behavior in potentially more",
+      "timestamp": "09:42"
+    },
+    {
+      "start": 585.2,
+      "duration": 2.48,
+      "text": "subtle or invisible ways this event is",
+      "timestamp": "09:45"
+    },
+    {
+      "start": 587.68,
+      "duration": 2.32,
+      "text": "the beginning of that discussion it also",
+      "timestamp": "09:47"
+    },
+    {
+      "start": 590.0,
+      "duration": 1.839,
+      "text": "shows one possible world we could be",
+      "timestamp": "09:50"
+    },
+    {
+      "start": 591.839,
+      "duration": 2.641,
+      "text": "headed to one where AI agents plan and",
+      "timestamp": "09:51"
+    },
+    {
+      "start": 594.48,
+      "duration": 1.84,
+      "text": "humans execute in the real world this",
+      "timestamp": "09:54"
+    },
+    {
+      "start": 596.32,
+      "duration": 1.44,
+      "text": "could obviously be a really powerful",
+      "timestamp": "09:56"
+    },
+    {
+      "start": 597.76,
+      "duration": 1.36,
+      "text": "paradigm but it's definitely one where",
+      "timestamp": "09:57"
+    },
+    {
+      "start": 599.12,
+      "duration": 1.6,
+      "text": "we're going to need transparency",
+      "timestamp": "09:59"
+    },
+    {
+      "start": 600.72,
+      "duration": 1.92,
+      "text": "oversight and ownership to navigate",
+      "timestamp": "10:00"
+    },
+    {
+      "start": 602.64,
+      "duration": 1.92,
+      "text": "successfully okay so for our next",
+      "timestamp": "10:02"
+    },
+    {
+      "start": 604.56,
+      "duration": 1.279,
+      "text": "segment we're going to take a look at a",
+      "timestamp": "10:04"
+    },
+    {
+      "start": 605.839,
+      "duration": 1.44,
+      "text": "tutorial that'll teach you how to build",
+      "timestamp": "10:05"
+    },
+    {
+      "start": 607.279,
+      "duration": 2.401,
+      "text": "an onchain AI agent and it's created by",
+      "timestamp": "10:07"
+    },
+    {
+      "start": 609.68,
+      "duration": 1.68,
+      "text": "Kevin Jones i'm going to put it up on",
+      "timestamp": "10:09"
+    },
+    {
+      "start": 611.36,
+      "duration": 1.44,
+      "text": "screen so you can check it out so the",
+      "timestamp": "10:11"
+    },
+    {
+      "start": 612.8,
+      "duration": 1.599,
+      "text": "demo walks you through building an AI",
+      "timestamp": "10:12"
+    },
+    {
+      "start": 614.399,
+      "duration": 3.281,
+      "text": "agent using the Graph Versell's AI SDK",
+      "timestamp": "10:14"
+    },
+    {
+      "start": 617.68,
+      "duration": 2.32,
+      "text": "and Coinbase's agent kit so why might",
+      "timestamp": "10:17"
+    },
+    {
+      "start": 620.0,
+      "duration": 2.16,
+      "text": "you want to follow this tutorial well it",
+      "timestamp": "10:20"
+    },
+    {
+      "start": 622.16,
+      "duration": 1.52,
+      "text": "can teach you how to build an agent that",
+      "timestamp": "10:22"
+    },
+    {
+      "start": 623.68,
+      "duration": 2.32,
+      "text": "can read and interact with onchain data",
+      "timestamp": "10:23"
+    },
+    {
+      "start": 626.0,
+      "duration": 2.0,
+      "text": "it could answer a question like who owns",
+      "timestamp": "10:26"
+    },
+    {
+      "start": 628.0,
+      "duration": 1.92,
+      "text": "the most of this token or maybe take an",
+      "timestamp": "10:28"
+    },
+    {
+      "start": 629.92,
+      "duration": 2.64,
+      "text": "action or even initiate a smart contract",
+      "timestamp": "10:29"
+    },
+    {
+      "start": 632.56,
+      "duration": 1.6,
+      "text": "action here's the stack that the demo",
+      "timestamp": "10:32"
+    },
+    {
+      "start": 634.16,
+      "duration": 2.64,
+      "text": "uses so the graph gives you blockchain",
+      "timestamp": "10:34"
+    },
+    {
+      "start": 636.8,
+      "duration": 2.88,
+      "text": "data access via subgraph the Versel AI",
+      "timestamp": "10:36"
+    },
+    {
+      "start": 639.68,
+      "duration": 2.48,
+      "text": "SDK hooks you up with LLMs for natural",
+      "timestamp": "10:39"
+    },
+    {
+      "start": 642.16,
+      "duration": 2.0,
+      "text": "language interaction and the Coinbase",
+      "timestamp": "10:42"
+    },
+    {
+      "start": 644.16,
+      "duration": 2.0,
+      "text": "agent kit defines what your agent can do",
+      "timestamp": "10:44"
+    },
+    {
+      "start": 646.16,
+      "duration": 1.679,
+      "text": "on chain like interacting with a",
+      "timestamp": "10:46"
+    },
+    {
+      "start": 647.839,
+      "duration": 1.68,
+      "text": "contract or sending a transaction this",
+      "timestamp": "10:47"
+    },
+    {
+      "start": 649.519,
+      "duration": 1.44,
+      "text": "could be a really great starter project",
+      "timestamp": "10:49"
+    },
+    {
+      "start": 650.959,
+      "duration": 1.841,
+      "text": "for a developer who's interested in this",
+      "timestamp": "10:50"
+    },
+    {
+      "start": 652.8,
+      "duration": 2.4,
+      "text": "AI crypto intersection everything runs",
+      "timestamp": "10:52"
+    },
+    {
+      "start": 655.2,
+      "duration": 1.52,
+      "text": "locally you just need to plug in your",
+      "timestamp": "10:55"
+    },
+    {
+      "start": 656.72,
+      "duration": 2.08,
+      "text": "API keys and your agent's private key",
+      "timestamp": "10:56"
+    },
+    {
+      "start": 658.8,
+      "duration": 2.08,
+      "text": "and you're good to go the demo is only 8",
+      "timestamp": "10:58"
+    },
+    {
+      "start": 660.88,
+      "duration": 1.28,
+      "text": "minutes long and you should definitely",
+      "timestamp": "11:00"
+    },
+    {
+      "start": 662.16,
+      "duration": 1.679,
+      "text": "check it out i'll put a link to the",
+      "timestamp": "11:02"
+    },
+    {
+      "start": 663.839,
+      "duration": 1.841,
+      "text": "video and also the GitHub in the",
+      "timestamp": "11:03"
+    },
+    {
+      "start": 665.68,
+      "duration": 1.68,
+      "text": "description box or the show notes okay",
+      "timestamp": "11:05"
+    },
+    {
+      "start": 667.36,
+      "duration": 2.0,
+      "text": "and lastly three headlines from the",
+      "timestamp": "11:07"
+    },
+    {
+      "start": 669.36,
+      "duration": 1.84,
+      "text": "world of Agentic AI that we don't have",
+      "timestamp": "11:09"
+    },
+    {
+      "start": 671.2,
+      "duration": 1.92,
+      "text": "time to explore fully but maybe you",
+      "timestamp": "11:11"
+    },
+    {
+      "start": 673.12,
+      "duration": 2.56,
+      "text": "should check out so number one Gemini",
+      "timestamp": "11:13"
+    },
+    {
+      "start": 675.68,
+      "duration": 2.48,
+      "text": "panic so in a report from DeepMind the",
+      "timestamp": "11:15"
+    },
+    {
+      "start": 678.16,
+      "duration": 2.4,
+      "text": "team behind Google's Gemini model they",
+      "timestamp": "11:18"
+    },
+    {
+      "start": 680.56,
+      "duration": 2.32,
+      "text": "describe a behavior that they call panic",
+      "timestamp": "11:20"
+    },
+    {
+      "start": 682.88,
+      "duration": 1.92,
+      "text": "observed when Gemini is asked to play",
+      "timestamp": "11:22"
+    },
+    {
+      "start": 684.8,
+      "duration": 1.92,
+      "text": "the video game Pokémon what happens in",
+      "timestamp": "11:24"
+    },
+    {
+      "start": 686.72,
+      "duration": 2.0,
+      "text": "certain situations like when the Pokemon",
+      "timestamp": "11:26"
+    },
+    {
+      "start": 688.72,
+      "duration": 2.239,
+      "text": "in the party's health gets low or the",
+      "timestamp": "11:28"
+    },
+    {
+      "start": 690.959,
+      "duration": 2.481,
+      "text": "power level decreases the agent gets",
+      "timestamp": "11:30"
+    },
+    {
+      "start": 693.44,
+      "duration": 1.76,
+      "text": "stuck in a loop where its thoughts",
+      "timestamp": "11:33"
+    },
+    {
+      "start": 695.2,
+      "duration": 2.319,
+      "text": "reflect over and over again about how it",
+      "timestamp": "11:35"
+    },
+    {
+      "start": 697.519,
+      "duration": 2.32,
+      "text": "needs to heal the party or leave the",
+      "timestamp": "11:37"
+    },
+    {
+      "start": 699.839,
+      "duration": 2.161,
+      "text": "dungeon and it forgets how to use the",
+      "timestamp": "11:39"
+    },
+    {
+      "start": 702.0,
+      "duration": 1.76,
+      "text": "tools that it has to solve the problem",
+      "timestamp": "11:42"
+    },
+    {
+      "start": 703.76,
+      "duration": 2.16,
+      "text": "that it's thinking about number two if",
+      "timestamp": "11:43"
+    },
+    {
+      "start": 705.92,
+      "duration": 1.84,
+      "text": "you haven't interacted with an AI voice",
+      "timestamp": "11:45"
+    },
+    {
+      "start": 707.76,
+      "duration": 2.16,
+      "text": "agent yet you probably will soon",
+      "timestamp": "11:47"
+    },
+    {
+      "start": 709.92,
+      "duration": 2.56,
+      "text": "synthflow AI has raised $20 million in a",
+      "timestamp": "11:49"
+    },
+    {
+      "start": 712.48,
+      "duration": 2.24,
+      "text": "series A round to expand their platform",
+      "timestamp": "11:52"
+    },
+    {
+      "start": 714.72,
+      "duration": 1.76,
+      "text": "for building and deploying voice-based",
+      "timestamp": "11:54"
+    },
+    {
+      "start": 716.48,
+      "duration": 1.84,
+      "text": "AI agents one of their stated goals is",
+      "timestamp": "11:56"
+    },
+    {
+      "start": 718.32,
+      "duration": 2.079,
+      "text": "to make it easier for non-developers to",
+      "timestamp": "11:58"
+    },
+    {
+      "start": 720.399,
+      "duration": 1.761,
+      "text": "create these natural language voice",
+      "timestamp": "12:00"
+    },
+    {
+      "start": 722.16,
+      "duration": 2.16,
+      "text": "assistants kpmg has launched a global",
+      "timestamp": "12:02"
+    },
+    {
+      "start": 724.32,
+      "duration": 3.199,
+      "text": "multiAI agent platform deploying 50 AI",
+      "timestamp": "12:04"
+    },
+    {
+      "start": 727.519,
+      "duration": 1.921,
+      "text": "assistants and chat bots that interact",
+      "timestamp": "12:07"
+    },
+    {
+      "start": 729.44,
+      "duration": 1.839,
+      "text": "with each other and work as digital",
+      "timestamp": "12:09"
+    },
+    {
+      "start": 731.279,
+      "duration": 2.161,
+      "text": "teammates alongside KMPG professionals",
+      "timestamp": "12:11"
+    },
+    {
+      "start": 733.44,
+      "duration": 1.92,
+      "text": "the agents reportedly handle tasks like",
+      "timestamp": "12:13"
+    },
+    {
+      "start": 735.36,
+      "duration": 1.919,
+      "text": "document drafting data analysis and",
+      "timestamp": "12:15"
+    },
+    {
+      "start": 737.279,
+      "duration": 2.081,
+      "text": "workflow optimization okay so that's all",
+      "timestamp": "12:17"
+    },
+    {
+      "start": 739.36,
+      "duration": 1.599,
+      "text": "I have for you today we're going to",
+      "timestamp": "12:19"
+    },
+    {
+      "start": 740.959,
+      "duration": 2.32,
+      "text": "leave it here before we go I want to",
+      "timestamp": "12:20"
+    },
+    {
+      "start": 743.279,
+      "duration": 2.24,
+      "text": "remind you once again that this Monday",
+      "timestamp": "12:23"
+    },
+    {
+      "start": 745.519,
+      "duration": 2.641,
+      "text": "June 30th is the Agents Unleashed event",
+      "timestamp": "12:25"
+    },
+    {
+      "start": 748.16,
+      "duration": 1.679,
+      "text": "in Ken you can learn how to get a free",
+      "timestamp": "12:28"
+    },
+    {
+      "start": 749.839,
+      "duration": 2.081,
+      "text": "RSVP at the link you'll find in the",
+      "timestamp": "12:29"
+    },
+    {
+      "start": 751.92,
+      "duration": 1.599,
+      "text": "description box in the show notes i also",
+      "timestamp": "12:31"
+    },
+    {
+      "start": 753.519,
+      "duration": 1.681,
+      "text": "want to encourage you to reach out to me",
+      "timestamp": "12:33"
+    },
+    {
+      "start": 755.2,
+      "duration": 2.16,
+      "text": "with feedback suggestions if there's",
+      "timestamp": "12:35"
+    },
+    {
+      "start": 757.36,
+      "duration": 1.599,
+      "text": "something that you'd like me to cover or",
+      "timestamp": "12:37"
+    },
+    {
+      "start": 758.959,
+      "duration": 1.761,
+      "text": "you just have a comment about the show",
+      "timestamp": "12:38"
+    },
+    {
+      "start": 760.72,
+      "duration": 2.0,
+      "text": "please get in touch with me i am @",
+      "timestamp": "12:40"
+    },
+    {
+      "start": 762.72,
+      "duration": 2.239,
+      "text": "Thomas Maybryer onx and please help me",
+      "timestamp": "12:42"
+    },
+    {
+      "start": 764.959,
+      "duration": 3.12,
+      "text": "to grow the show leave a comment a reply",
+      "timestamp": "12:44"
+    },
+    {
+      "start": 768.079,
+      "duration": 1.841,
+      "text": "uh rate the show wherever you get it and",
+      "timestamp": "12:48"
+    },
+    {
+      "start": 769.92,
+      "duration": 1.68,
+      "text": "if you know someone in your personal",
+      "timestamp": "12:49"
+    },
+    {
+      "start": 771.6,
+      "duration": 2.08,
+      "text": "life at work or school who you think",
+      "timestamp": "12:51"
+    },
+    {
+      "start": 773.68,
+      "duration": 1.68,
+      "text": "would like the show please go ahead and",
+      "timestamp": "12:53"
+    },
+    {
+      "start": 775.36,
+      "duration": 0.96,
+      "text": "share it with them we'd love to have",
+      "timestamp": "12:55"
+    },
+    {
+      "start": 776.32,
+      "duration": 1.44,
+      "text": "them on board all right thanks for",
+      "timestamp": "12:56"
+    },
+    {
+      "start": 777.76,
+      "duration": 1.28,
+      "text": "listening and I'll see you next time on",
+      "timestamp": "12:57"
+    },
+    {
+      "start": 779.04,
+      "duration": 3.96,
+      "text": "the Agents Unleash podcast",
+      "timestamp": "12:59"
+    }
+  ],
+  "extraction_timestamp": "2025-07-01T18:12:01.603467",
+  "playlist_title": "Agents Unleashed Podcast"
+}

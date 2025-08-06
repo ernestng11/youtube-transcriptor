@@ -1,0 +1,2135 @@
+{
+  "video_id": "-JNEXrtb5hA",
+  "video_title": "Alon  Muroch (SSV.Labs (SSV.Network)) - Let Validators Do More!",
+  "video_url": "https://www.youtube.com/watch?v=-JNEXrtb5hA",
+  "channel_title": "[EthCC] Livestream 4",
+  "published_at": "2025-07-01T01:45:44+00:00",
+  "duration_seconds": null,
+  "view_count": 54,
+  "like_count": 2,
+  "description": "With the advent of based sequencing and preconfs, validators will participate in commitments beyond what they do today. We explore utilizing the validator private keys as non-slashable capital to bootstrap out-of-protocol services directly on the L1.",
+  "transcript": {
+    "language": "en",
+    "is_auto_generated": false,
+    "total_segments": 352,
+    "aggregated_text": "hi everyone great to be here how's everyone handling the the heat all good we're ready perfect my name is alan i'm the ceo of ssv labs which is the core team behind ssv network we develop decentralized infrastructure for ethereum and we're doing a bunch of different things but uh our main focus is really on the validator level uh ssv is a distributed validator network for ethereum we currently have around 120,000 validators uh on uh ethereum it's 11% of ethereum roughly one out of 10 validators is an ssv validator second largest protocol out there with uh 700700 uh more than 1700 uh mainet operators we are very focused on making ethereum more robust more resilient more censorship resistant and uh in better just bettering ethereum as as we go along um and and that was kind of our mission is still very much is our mission um and i've been in the space for quite a while i've been since 2012 and i think at that point at this point we can all agree that ethereum definitely has the tax supremacy in the kind of the blockchain world right it's it's definitely leading up with the rollup ccentric roadmap uh even though some think it might not be the right choice i i think that at this point it proves to be not only just a scalable solution but also um a real world business uh model for a lot of different a lot of different rollups we we see we saw or will see a big announcement coming up from robin hood and others um and sort of the rollup ccentric roadmap is very much an interesting approach and leads the tech in the blockchain space obviously uh getting a lot of developers uh many of the daps uh start on ethereum and of course stable coins real world assets the works right everything is is very much ethereum ccentric when it comes to innovation and it comes to new applications um and the role road map really served us very well uh going forward but it also created some challenges um fragmentation for example in value capturing are two of the biggest challenges ro uh roll-ups present today fragmentation is uh really pretty much having each rollup kind of its own economic zone if you think about it the rollup itself and the developers on it are kind of an island in a sea of ethereum uh and that creates a lot of challenges for daps and users bridging in between and the composibility aspect of all of the different roll-ups but it also creates a value capturing problem because as more transactions happen on l2s or on rollups uh we're seeing less and less of that value coming back to ethereum um and i think it's as prominent as possible with uh really the kind of the divergence we're seeing between ethereum the blockchain and ethereum the token ethereum the blockchain is doing amazing uh more transactions than ever the hub of innovation but ethereum the token um is not doing that great this is a graph showing eth versus bitcoin the last i think two years um and there's a divergence between the two right if how can it happen how can it be that ethereum the blockchain doing so well but ethereum the token is not doing so much and i think it's due to a lot of different reasons but this divergence is quite critical it's quite dangerous to ethereum because i don't think the blockchain can survive without the token and vice versa and so we're this at this point where um we need to find ideas and solutions to the fragmentation value capturing problem because otherwise it does endanger i think ethereum as a whole and there's a very simple question we need to answer why would the average joe hold eth in their wallet and the answer is not gas because you don't really need that much of a gas in order to transact and do things on ethereum this simple question is a major one it's probably the most pivotal point in ethereum's u future and and and current state of affairs but it wasn't always the case because if you go back to 2017 there was a really good reason to hold eth back in the ico crazy age there was a really good reason to hold eth which was to buy into icos you used eth in order to participate in other icos that was a really good reason to hold eth fast forward a few years and with the defi summer of 2022 there was yet another really good reason to hold eth which was to provide liquidity into defi protocols and and trade with other assets that was a really good reason to hold eth what will be the next reason what will be the next wave of reasons for the average joe treadfi wall street just anyone who's who's wants to get into crypto to hold eth and i think the answer to that is establishing ethereum the token as this security layer not just for ethereum itself but this whole ecosystem uh and namely talking about roll-ups and i think the solution there or the enabler to that are based in composable roll-ups we've talked about it uh with the nethermind presentation just a few minutes ago but i want to go deeper i want to kind of talk about what are the steps what are the features what are the components that will enable us to solve two problems which are major for ethereum one is the fragmentation problem for roll-ups and the other one is value capturing so let's dive in based on composible roll-ups do a few things one they are based meaning that they are sequenced or the transaction building process happens not by a centralized sequencer but rather by by l1 validators in a distributed and decentralized way basically reusing this incredibly powerful validator set of ethereum as a credibly neutral sequencing layer for ethereum itself the second part of it is composability the idea that we can do cross transactions between rollups and also between ethereum and those roll-ups in a seamless way so base rollups are the idea that we replace or change the way the sequencer works current rollups rely mostly on centralized sequencers that the that is there's a server somewhere that decides arbitrarily which transactions go in and which transactions don't right if you're on the base uh rollup coinbase is deciding that if you are on the uni chain rollup then unis swap is deciding that but it's not decentralized in any way it's very much centralized and there therefore not exactly align with what ethereum ethos is central censorship resistance decentralization and the idea of cred credible neutrality and so base rollups really change that they give that power of sequencing back to l1 validators l1 validators all of a sudden do much more than just secure ethereum they actually sequence the roll-ups themselves the side effect of that is that l1 validators all of a sudden receive fees from that sequencing action and those fees go directly to eth holders in other words we can capture more value from roll-ups back to eth holders by unlocking this base rollup scheme and not only that we also make roll-ups better because the the sequencing is done in a centralized and censorship resistant way and it's much more aligned to the ethos of ethereum itself and so that's what base rollups are they're solving some of the challenges of roll-ups but also creating more value capture back to eth itself preconfirmations are a very interesting side effect of using base rollups base rollups can actually provide even before the transaction hits the block can provide a pre-confirmation that the transaction will be in that block basically a 100 millisecond or even subund millisecond transaction confirmation so from a user point of view imagine you're hitting this send uh button on on metamask or your favorite wallet within a 100 milliseconds you can be cryptoconomically sure that the transaction is included in the next block so think of the user experience going from that right the closest we can we have right now is solana boosting 250 400 millisecond blocks that's the best we have right now here we have 25% of that even even lower and so that's a major boost in user experience and so it's very much connected to the whole rollup ccentric road map where most of the transactions will go into rollups and not ethereum the l1 and that's an interesting side effect of using ethereum validators as as sequencers but the big really big feature is composability composability is the idea that we can transact between rollups and between ethereum and those roll-ups in a seamless way in a seamless way means that it's it's like the user experience you're having right now on ethereum one transaction can interact with multiple rollups and do things so for example you can take your assets in on in the l1 deposit them into your favorite l2 trade and get those assets back all in one transaction one synchronous transaction no delays no uh multi hops and multi-blocks and stuff like that seamless user experience i think the biggest outcome of that is that finally we can actually give the power to smaller rollups to actually spin off and and and become successful and not just huge brand names like coinbase and robin hood basically being the you know the most successful roll-ups out there we can actually enable with composibility having much more roll-ups much smaller roll-ups play together and creating this network of roll-ups that can actually compete with the big boys with the with the brand name roll-ups and that's extremely uh uh important for ethereum because ultimately we need to remember that ethereum is all about the the deps it has it's not about coinbase or robin hood coin and robin hood are services they're amazing at what they're doing but it's not ethereum ethereum is the developers building smart contracts and so by enabling those smart contract developers to evolve with the times to actually spin up if they're big enough and successful enough to spin up their own roll-ups control the user experience get additional rewards obviously out of those roll-ups but still be competitive because of composability that's a gamecher we can have much more roll-ups we can have much more traffic on roll-ups but more importantly we can have much more decentralized and diverse set of roll-ups that's ultimately what's it's all about we don't want all of ethereum uh interactions happening through centrally sequenced roll-ups and that's where composability comes in composability can solve the biggest issue those smaller roll-ups have which is fragmentation if i'm a small rollup it's very hard to bootstrap and very hard to compete but if a bunch of small roll-ups come together and this the user experience is completely seamless that's an amazing opportunity to bring all of those roll-ups in and composability unlocks that now if you add another layer to it l1 to l2 composibility all of a sudden ethereum and the roll-ups become one big chain there's no difference technically there are differences rollup is is its own chain ethereum is its own chain but from the user experience there is no difference the the the interaction is completely seamless and composability enables that and that after all if you think really deeply about the promise of roll-ups the promise of roll-ups wasn't just about scale because there's a bunch of ways to scale the promise of roll-ups was always that you can scale without compromising on the ethos and the properties of ethereum and i think with composibility we can do that we can scale horizontally but without compromising on the very core of what we believe in and composibility enables us that this is extremely ethereum aligned and i think it's an important point to mention ethereum scales in various ways right robin hood coinbase that's definitely big pillars of how ethereum scales but ultimately ethereum needs to scale with a promise of its original intent which was censorship resistance decentralization and credibly neutral infrastructure this is so important because without those elements there is no ethereum and there is no blockchain and being ethereum aligned is super critical and in order to become ethereum aligned and make ethereum sustainable long term we have to maintain the value capturing mechanism between ethereum and all of its ecosystem we cannot have a divergence between the blockchain and the token if those two diverge uh and and become distant enough that's a real danger for ethereum and i believe with composibility and based sequencing we can actually solve both of those problems both the problem of fragmentation and also the problem of of value capturing and ssv plays a major role in that ssv has a very large validator set and everything i've just presented here is very much driven by validators and so we've committed ourselves to not only be active in helping various teams in building but actually integrating with the various standards coming along and enabling those smaller teams to bootstrap testn net and then go into mainet with a vast array of validators with the biggest names in the industry and i think that's extremely important for the future of ethereum and so if there's anyone in the room today that has anything to do with base rollups roll-ups in general sequencing and precons would love to have you guys join reach out uh and we promise to help out as much as we can thank you i don't know if anyone has any questions questions anyone all right thank you so much",
+    "text_length": 13183,
+    "word_count": 2328
+  },
+  "segments": [
+    {
+      "start": 7.359,
+      "duration": 2.081,
+      "text": "hi everyone great to be here how's",
+      "timestamp": "00:07"
+    },
+    {
+      "start": 9.44,
+      "duration": 3.44,
+      "text": "everyone handling the the heat all good",
+      "timestamp": "00:09"
+    },
+    {
+      "start": 12.88,
+      "duration": 2.56,
+      "text": "we're ready perfect my name is alan i'm",
+      "timestamp": "00:12"
+    },
+    {
+      "start": 15.44,
+      "duration": 2.32,
+      "text": "the ceo of ssv labs which is the core",
+      "timestamp": "00:15"
+    },
+    {
+      "start": 17.76,
+      "duration": 2.24,
+      "text": "team behind ssv network we develop",
+      "timestamp": "00:17"
+    },
+    {
+      "start": 20.0,
+      "duration": 1.68,
+      "text": "decentralized infrastructure for",
+      "timestamp": "00:20"
+    },
+    {
+      "start": 21.68,
+      "duration": 2.4,
+      "text": "ethereum and we're doing a bunch of",
+      "timestamp": "00:21"
+    },
+    {
+      "start": 24.08,
+      "duration": 2.56,
+      "text": "different things but uh our main focus",
+      "timestamp": "00:24"
+    },
+    {
+      "start": 26.64,
+      "duration": 2.879,
+      "text": "is really on the validator level uh ssv",
+      "timestamp": "00:26"
+    },
+    {
+      "start": 29.519,
+      "duration": 2.16,
+      "text": "is a distributed validator network for",
+      "timestamp": "00:29"
+    },
+    {
+      "start": 31.679,
+      "duration": 2.081,
+      "text": "ethereum we currently have around",
+      "timestamp": "00:31"
+    },
+    {
+      "start": 33.76,
+      "duration": 3.2,
+      "text": "120,000 validators uh on uh ethereum",
+      "timestamp": "00:33"
+    },
+    {
+      "start": 36.96,
+      "duration": 2.4,
+      "text": "it's 11% of ethereum roughly one out of",
+      "timestamp": "00:36"
+    },
+    {
+      "start": 39.36,
+      "duration": 2.96,
+      "text": "10 validators is an ssv validator second",
+      "timestamp": "00:39"
+    },
+    {
+      "start": 42.32,
+      "duration": 2.079,
+      "text": "largest protocol out there with uh",
+      "timestamp": "00:42"
+    },
+    {
+      "start": 44.399,
+      "duration": 1.921,
+      "text": "700700",
+      "timestamp": "00:44"
+    },
+    {
+      "start": 46.32,
+      "duration": 3.52,
+      "text": "uh more than 1700 uh mainet operators we",
+      "timestamp": "00:46"
+    },
+    {
+      "start": 49.84,
+      "duration": 2.239,
+      "text": "are very focused on making ethereum more",
+      "timestamp": "00:49"
+    },
+    {
+      "start": 52.079,
+      "duration": 1.921,
+      "text": "robust more resilient more censorship",
+      "timestamp": "00:52"
+    },
+    {
+      "start": 54.0,
+      "duration": 2.719,
+      "text": "resistant and uh in better just",
+      "timestamp": "00:54"
+    },
+    {
+      "start": 56.719,
+      "duration": 2.561,
+      "text": "bettering ethereum as as we go along um",
+      "timestamp": "00:56"
+    },
+    {
+      "start": 59.28,
+      "duration": 1.919,
+      "text": "and and that was kind of our mission is",
+      "timestamp": "00:59"
+    },
+    {
+      "start": 61.199,
+      "duration": 2.481,
+      "text": "still very much is our mission um and",
+      "timestamp": "01:01"
+    },
+    {
+      "start": 63.68,
+      "duration": 1.439,
+      "text": "i've been in the space for quite a while",
+      "timestamp": "01:03"
+    },
+    {
+      "start": 65.119,
+      "duration": 2.801,
+      "text": "i've been since 2012 and i think at that",
+      "timestamp": "01:05"
+    },
+    {
+      "start": 67.92,
+      "duration": 2.08,
+      "text": "point at this point we can all agree",
+      "timestamp": "01:07"
+    },
+    {
+      "start": 70.0,
+      "duration": 1.84,
+      "text": "that ethereum definitely has the tax",
+      "timestamp": "01:10"
+    },
+    {
+      "start": 71.84,
+      "duration": 2.72,
+      "text": "supremacy in the kind of the blockchain",
+      "timestamp": "01:11"
+    },
+    {
+      "start": 74.56,
+      "duration": 2.08,
+      "text": "world right it's it's definitely leading",
+      "timestamp": "01:14"
+    },
+    {
+      "start": 76.64,
+      "duration": 2.72,
+      "text": "up with the rollup ccentric roadmap uh",
+      "timestamp": "01:16"
+    },
+    {
+      "start": 79.36,
+      "duration": 1.759,
+      "text": "even though some think it might not be",
+      "timestamp": "01:19"
+    },
+    {
+      "start": 81.119,
+      "duration": 2.161,
+      "text": "the right choice i i think that at this",
+      "timestamp": "01:21"
+    },
+    {
+      "start": 83.28,
+      "duration": 2.4,
+      "text": "point it proves to be not only just a",
+      "timestamp": "01:23"
+    },
+    {
+      "start": 85.68,
+      "duration": 2.799,
+      "text": "scalable solution but also um a real",
+      "timestamp": "01:25"
+    },
+    {
+      "start": 88.479,
+      "duration": 2.401,
+      "text": "world business uh model for a lot of",
+      "timestamp": "01:28"
+    },
+    {
+      "start": 90.88,
+      "duration": 2.08,
+      "text": "different a lot of different rollups we",
+      "timestamp": "01:30"
+    },
+    {
+      "start": 92.96,
+      "duration": 2.799,
+      "text": "we see we saw or will see a big",
+      "timestamp": "01:32"
+    },
+    {
+      "start": 95.759,
+      "duration": 1.521,
+      "text": "announcement coming up from robin hood",
+      "timestamp": "01:35"
+    },
+    {
+      "start": 97.28,
+      "duration": 1.68,
+      "text": "and others um and sort of the rollup",
+      "timestamp": "01:37"
+    },
+    {
+      "start": 98.96,
+      "duration": 1.839,
+      "text": "ccentric roadmap is very much an",
+      "timestamp": "01:38"
+    },
+    {
+      "start": 100.799,
+      "duration": 2.32,
+      "text": "interesting approach and leads the tech",
+      "timestamp": "01:40"
+    },
+    {
+      "start": 103.119,
+      "duration": 3.04,
+      "text": "in the blockchain space obviously uh",
+      "timestamp": "01:43"
+    },
+    {
+      "start": 106.159,
+      "duration": 2.0,
+      "text": "getting a lot of developers uh many of",
+      "timestamp": "01:46"
+    },
+    {
+      "start": 108.159,
+      "duration": 2.96,
+      "text": "the daps uh start on ethereum and of",
+      "timestamp": "01:48"
+    },
+    {
+      "start": 111.119,
+      "duration": 2.32,
+      "text": "course stable coins real world assets",
+      "timestamp": "01:51"
+    },
+    {
+      "start": 113.439,
+      "duration": 2.241,
+      "text": "the works right everything is is very",
+      "timestamp": "01:53"
+    },
+    {
+      "start": 115.68,
+      "duration": 2.479,
+      "text": "much ethereum ccentric when it comes to",
+      "timestamp": "01:55"
+    },
+    {
+      "start": 118.159,
+      "duration": 1.521,
+      "text": "innovation and it comes to new",
+      "timestamp": "01:58"
+    },
+    {
+      "start": 119.68,
+      "duration": 3.2,
+      "text": "applications um and the role road map",
+      "timestamp": "01:59"
+    },
+    {
+      "start": 122.88,
+      "duration": 2.559,
+      "text": "really served us very well uh going",
+      "timestamp": "02:02"
+    },
+    {
+      "start": 125.439,
+      "duration": 2.241,
+      "text": "forward but it also created some",
+      "timestamp": "02:05"
+    },
+    {
+      "start": 127.68,
+      "duration": 2.719,
+      "text": "challenges um fragmentation for example",
+      "timestamp": "02:07"
+    },
+    {
+      "start": 130.399,
+      "duration": 1.92,
+      "text": "in value capturing are two of the",
+      "timestamp": "02:10"
+    },
+    {
+      "start": 132.319,
+      "duration": 2.161,
+      "text": "biggest challenges ro uh roll-ups",
+      "timestamp": "02:12"
+    },
+    {
+      "start": 134.48,
+      "duration": 2.72,
+      "text": "present today fragmentation is uh really",
+      "timestamp": "02:14"
+    },
+    {
+      "start": 137.2,
+      "duration": 1.84,
+      "text": "pretty much having each rollup kind of",
+      "timestamp": "02:17"
+    },
+    {
+      "start": 139.04,
+      "duration": 1.68,
+      "text": "its own economic zone if you think about",
+      "timestamp": "02:19"
+    },
+    {
+      "start": 140.72,
+      "duration": 2.32,
+      "text": "it the rollup itself and the developers",
+      "timestamp": "02:20"
+    },
+    {
+      "start": 143.04,
+      "duration": 2.48,
+      "text": "on it are kind of an island in a sea of",
+      "timestamp": "02:23"
+    },
+    {
+      "start": 145.52,
+      "duration": 1.92,
+      "text": "ethereum uh and that creates a lot of",
+      "timestamp": "02:25"
+    },
+    {
+      "start": 147.44,
+      "duration": 2.56,
+      "text": "challenges for daps and users bridging",
+      "timestamp": "02:27"
+    },
+    {
+      "start": 150.0,
+      "duration": 2.0,
+      "text": "in between and the composibility aspect",
+      "timestamp": "02:30"
+    },
+    {
+      "start": 152.0,
+      "duration": 1.599,
+      "text": "of all of the different roll-ups but it",
+      "timestamp": "02:32"
+    },
+    {
+      "start": 153.599,
+      "duration": 2.481,
+      "text": "also creates a value capturing problem",
+      "timestamp": "02:33"
+    },
+    {
+      "start": 156.08,
+      "duration": 3.2,
+      "text": "because as more transactions happen on",
+      "timestamp": "02:36"
+    },
+    {
+      "start": 159.28,
+      "duration": 3.52,
+      "text": "l2s or on rollups uh we're seeing less",
+      "timestamp": "02:39"
+    },
+    {
+      "start": 162.8,
+      "duration": 1.92,
+      "text": "and less of that value coming back to",
+      "timestamp": "02:42"
+    },
+    {
+      "start": 164.72,
+      "duration": 2.08,
+      "text": "ethereum um and i think it's as",
+      "timestamp": "02:44"
+    },
+    {
+      "start": 166.8,
+      "duration": 2.96,
+      "text": "prominent as possible with uh really the",
+      "timestamp": "02:46"
+    },
+    {
+      "start": 169.76,
+      "duration": 1.6,
+      "text": "kind of the divergence we're seeing",
+      "timestamp": "02:49"
+    },
+    {
+      "start": 171.36,
+      "duration": 2.959,
+      "text": "between ethereum the blockchain and",
+      "timestamp": "02:51"
+    },
+    {
+      "start": 174.319,
+      "duration": 1.761,
+      "text": "ethereum the token ethereum the",
+      "timestamp": "02:54"
+    },
+    {
+      "start": 176.08,
+      "duration": 2.08,
+      "text": "blockchain is doing amazing uh more",
+      "timestamp": "02:56"
+    },
+    {
+      "start": 178.16,
+      "duration": 2.0,
+      "text": "transactions than ever the hub of",
+      "timestamp": "02:58"
+    },
+    {
+      "start": 180.16,
+      "duration": 3.12,
+      "text": "innovation but ethereum the token um is",
+      "timestamp": "03:00"
+    },
+    {
+      "start": 183.28,
+      "duration": 2.4,
+      "text": "not doing that great this is a graph",
+      "timestamp": "03:03"
+    },
+    {
+      "start": 185.68,
+      "duration": 1.919,
+      "text": "showing eth versus bitcoin the last i",
+      "timestamp": "03:05"
+    },
+    {
+      "start": 187.599,
+      "duration": 2.081,
+      "text": "think two years um and there's a",
+      "timestamp": "03:07"
+    },
+    {
+      "start": 189.68,
+      "duration": 2.08,
+      "text": "divergence between the two right if how",
+      "timestamp": "03:09"
+    },
+    {
+      "start": 191.76,
+      "duration": 2.08,
+      "text": "can it happen how can it be that",
+      "timestamp": "03:11"
+    },
+    {
+      "start": 193.84,
+      "duration": 2.319,
+      "text": "ethereum the blockchain doing so well",
+      "timestamp": "03:13"
+    },
+    {
+      "start": 196.159,
+      "duration": 1.841,
+      "text": "but ethereum the token is not doing so",
+      "timestamp": "03:16"
+    },
+    {
+      "start": 198.0,
+      "duration": 2.08,
+      "text": "much and i think it's due to a lot of",
+      "timestamp": "03:18"
+    },
+    {
+      "start": 200.08,
+      "duration": 2.32,
+      "text": "different reasons but this divergence is",
+      "timestamp": "03:20"
+    },
+    {
+      "start": 202.4,
+      "duration": 1.919,
+      "text": "quite critical it's quite dangerous to",
+      "timestamp": "03:22"
+    },
+    {
+      "start": 204.319,
+      "duration": 2.161,
+      "text": "ethereum because i don't think the",
+      "timestamp": "03:24"
+    },
+    {
+      "start": 206.48,
+      "duration": 2.479,
+      "text": "blockchain can survive without the token",
+      "timestamp": "03:26"
+    },
+    {
+      "start": 208.959,
+      "duration": 2.881,
+      "text": "and vice versa and so we're this at this",
+      "timestamp": "03:28"
+    },
+    {
+      "start": 211.84,
+      "duration": 3.759,
+      "text": "point where um we need to find ideas and",
+      "timestamp": "03:31"
+    },
+    {
+      "start": 215.599,
+      "duration": 2.0,
+      "text": "solutions to the fragmentation value",
+      "timestamp": "03:35"
+    },
+    {
+      "start": 217.599,
+      "duration": 1.92,
+      "text": "capturing problem because otherwise it",
+      "timestamp": "03:37"
+    },
+    {
+      "start": 219.519,
+      "duration": 1.761,
+      "text": "does endanger i think ethereum as a",
+      "timestamp": "03:39"
+    },
+    {
+      "start": 221.28,
+      "duration": 2.72,
+      "text": "whole",
+      "timestamp": "03:41"
+    },
+    {
+      "start": 224.0,
+      "duration": 1.68,
+      "text": "and there's a very simple question we",
+      "timestamp": "03:44"
+    },
+    {
+      "start": 225.68,
+      "duration": 2.32,
+      "text": "need to answer why would the average joe",
+      "timestamp": "03:45"
+    },
+    {
+      "start": 228.0,
+      "duration": 2.0,
+      "text": "hold eth in their wallet and the answer",
+      "timestamp": "03:48"
+    },
+    {
+      "start": 230.0,
+      "duration": 2.159,
+      "text": "is not gas because you don't really need",
+      "timestamp": "03:50"
+    },
+    {
+      "start": 232.159,
+      "duration": 2.241,
+      "text": "that much of a gas in order to transact",
+      "timestamp": "03:52"
+    },
+    {
+      "start": 234.4,
+      "duration": 2.72,
+      "text": "and do things on ethereum this simple",
+      "timestamp": "03:54"
+    },
+    {
+      "start": 237.12,
+      "duration": 2.56,
+      "text": "question is a major one it's probably",
+      "timestamp": "03:57"
+    },
+    {
+      "start": 239.68,
+      "duration": 3.44,
+      "text": "the most pivotal point in ethereum's u",
+      "timestamp": "03:59"
+    },
+    {
+      "start": 243.12,
+      "duration": 2.399,
+      "text": "future and and and current state of",
+      "timestamp": "04:03"
+    },
+    {
+      "start": 245.519,
+      "duration": 2.161,
+      "text": "affairs but it wasn't always the case",
+      "timestamp": "04:05"
+    },
+    {
+      "start": 247.68,
+      "duration": 2.8,
+      "text": "because if you go back to 2017 there was",
+      "timestamp": "04:07"
+    },
+    {
+      "start": 250.48,
+      "duration": 2.479,
+      "text": "a really good reason to hold eth back in",
+      "timestamp": "04:10"
+    },
+    {
+      "start": 252.959,
+      "duration": 2.721,
+      "text": "the ico crazy age there was a really",
+      "timestamp": "04:12"
+    },
+    {
+      "start": 255.68,
+      "duration": 2.0,
+      "text": "good reason to hold eth which was to buy",
+      "timestamp": "04:15"
+    },
+    {
+      "start": 257.68,
+      "duration": 2.72,
+      "text": "into icos you used eth in order to",
+      "timestamp": "04:17"
+    },
+    {
+      "start": 260.4,
+      "duration": 2.239,
+      "text": "participate in other icos that was a",
+      "timestamp": "04:20"
+    },
+    {
+      "start": 262.639,
+      "duration": 2.241,
+      "text": "really good reason to hold eth fast",
+      "timestamp": "04:22"
+    },
+    {
+      "start": 264.88,
+      "duration": 2.64,
+      "text": "forward a few years and with the defi",
+      "timestamp": "04:24"
+    },
+    {
+      "start": 267.52,
+      "duration": 2.959,
+      "text": "summer of 2022 there was yet another",
+      "timestamp": "04:27"
+    },
+    {
+      "start": 270.479,
+      "duration": 2.0,
+      "text": "really good reason to hold eth which was",
+      "timestamp": "04:30"
+    },
+    {
+      "start": 272.479,
+      "duration": 2.081,
+      "text": "to provide liquidity into defi protocols",
+      "timestamp": "04:32"
+    },
+    {
+      "start": 274.56,
+      "duration": 2.8,
+      "text": "and and trade with other assets that was",
+      "timestamp": "04:34"
+    },
+    {
+      "start": 277.36,
+      "duration": 3.68,
+      "text": "a really good reason to hold eth",
+      "timestamp": "04:37"
+    },
+    {
+      "start": 281.04,
+      "duration": 1.92,
+      "text": "what will be the next reason what will",
+      "timestamp": "04:41"
+    },
+    {
+      "start": 282.96,
+      "duration": 3.2,
+      "text": "be the next wave of reasons for the",
+      "timestamp": "04:42"
+    },
+    {
+      "start": 286.16,
+      "duration": 3.599,
+      "text": "average joe treadfi wall street just",
+      "timestamp": "04:46"
+    },
+    {
+      "start": 289.759,
+      "duration": 2.081,
+      "text": "anyone who's who's wants to get into",
+      "timestamp": "04:49"
+    },
+    {
+      "start": 291.84,
+      "duration": 2.16,
+      "text": "crypto to hold eth and i think the",
+      "timestamp": "04:51"
+    },
+    {
+      "start": 294.0,
+      "duration": 2.4,
+      "text": "answer to that is establishing ethereum",
+      "timestamp": "04:54"
+    },
+    {
+      "start": 296.4,
+      "duration": 2.88,
+      "text": "the token as this security layer not",
+      "timestamp": "04:56"
+    },
+    {
+      "start": 299.28,
+      "duration": 2.0,
+      "text": "just for ethereum itself but this whole",
+      "timestamp": "04:59"
+    },
+    {
+      "start": 301.28,
+      "duration": 2.8,
+      "text": "ecosystem uh and namely talking about",
+      "timestamp": "05:01"
+    },
+    {
+      "start": 304.08,
+      "duration": 1.52,
+      "text": "roll-ups",
+      "timestamp": "05:04"
+    },
+    {
+      "start": 305.6,
+      "duration": 2.319,
+      "text": "and i think the solution there or the",
+      "timestamp": "05:05"
+    },
+    {
+      "start": 307.919,
+      "duration": 2.321,
+      "text": "enabler to that are based in composable",
+      "timestamp": "05:07"
+    },
+    {
+      "start": 310.24,
+      "duration": 1.92,
+      "text": "roll-ups we've talked about it uh with",
+      "timestamp": "05:10"
+    },
+    {
+      "start": 312.16,
+      "duration": 1.68,
+      "text": "the nethermind presentation just a few",
+      "timestamp": "05:12"
+    },
+    {
+      "start": 313.84,
+      "duration": 2.4,
+      "text": "minutes ago but i want to go deeper i",
+      "timestamp": "05:13"
+    },
+    {
+      "start": 316.24,
+      "duration": 2.88,
+      "text": "want to kind of talk about what are the",
+      "timestamp": "05:16"
+    },
+    {
+      "start": 319.12,
+      "duration": 2.16,
+      "text": "steps what are the features what are the",
+      "timestamp": "05:19"
+    },
+    {
+      "start": 321.28,
+      "duration": 2.32,
+      "text": "components that will enable us to solve",
+      "timestamp": "05:21"
+    },
+    {
+      "start": 323.6,
+      "duration": 2.159,
+      "text": "two problems which are major for",
+      "timestamp": "05:23"
+    },
+    {
+      "start": 325.759,
+      "duration": 1.601,
+      "text": "ethereum one is the fragmentation",
+      "timestamp": "05:25"
+    },
+    {
+      "start": 327.36,
+      "duration": 1.76,
+      "text": "problem for roll-ups and the other one",
+      "timestamp": "05:27"
+    },
+    {
+      "start": 329.12,
+      "duration": 3.28,
+      "text": "is value capturing so let's dive in",
+      "timestamp": "05:29"
+    },
+    {
+      "start": 332.4,
+      "duration": 2.079,
+      "text": "based on composible roll-ups do a few",
+      "timestamp": "05:32"
+    },
+    {
+      "start": 334.479,
+      "duration": 2.56,
+      "text": "things one they are based meaning that",
+      "timestamp": "05:34"
+    },
+    {
+      "start": 337.039,
+      "duration": 2.16,
+      "text": "they are sequenced or the transaction",
+      "timestamp": "05:37"
+    },
+    {
+      "start": 339.199,
+      "duration": 2.401,
+      "text": "building process happens not by a",
+      "timestamp": "05:39"
+    },
+    {
+      "start": 341.6,
+      "duration": 3.039,
+      "text": "centralized sequencer but rather by by",
+      "timestamp": "05:41"
+    },
+    {
+      "start": 344.639,
+      "duration": 2.161,
+      "text": "l1 validators in a distributed and",
+      "timestamp": "05:44"
+    },
+    {
+      "start": 346.8,
+      "duration": 3.44,
+      "text": "decentralized way basically reusing this",
+      "timestamp": "05:46"
+    },
+    {
+      "start": 350.24,
+      "duration": 2.64,
+      "text": "incredibly powerful validator set of",
+      "timestamp": "05:50"
+    },
+    {
+      "start": 352.88,
+      "duration": 1.68,
+      "text": "ethereum as a credibly neutral",
+      "timestamp": "05:52"
+    },
+    {
+      "start": 354.56,
+      "duration": 3.199,
+      "text": "sequencing layer for ethereum itself the",
+      "timestamp": "05:54"
+    },
+    {
+      "start": 357.759,
+      "duration": 2.0,
+      "text": "second part of it is composability the",
+      "timestamp": "05:57"
+    },
+    {
+      "start": 359.759,
+      "duration": 2.0,
+      "text": "idea that we can do cross transactions",
+      "timestamp": "05:59"
+    },
+    {
+      "start": 361.759,
+      "duration": 2.081,
+      "text": "between rollups and also between",
+      "timestamp": "06:01"
+    },
+    {
+      "start": 363.84,
+      "duration": 1.84,
+      "text": "ethereum and those roll-ups in a",
+      "timestamp": "06:03"
+    },
+    {
+      "start": 365.68,
+      "duration": 2.079,
+      "text": "seamless way",
+      "timestamp": "06:05"
+    },
+    {
+      "start": 367.759,
+      "duration": 2.401,
+      "text": "so base rollups are the idea that we",
+      "timestamp": "06:07"
+    },
+    {
+      "start": 370.16,
+      "duration": 2.24,
+      "text": "replace or change the way the sequencer",
+      "timestamp": "06:10"
+    },
+    {
+      "start": 372.4,
+      "duration": 3.28,
+      "text": "works current rollups rely mostly on",
+      "timestamp": "06:12"
+    },
+    {
+      "start": 375.68,
+      "duration": 2.239,
+      "text": "centralized sequencers that the that is",
+      "timestamp": "06:15"
+    },
+    {
+      "start": 377.919,
+      "duration": 3.28,
+      "text": "there's a server somewhere that decides",
+      "timestamp": "06:17"
+    },
+    {
+      "start": 381.199,
+      "duration": 2.161,
+      "text": "arbitrarily which transactions go in and",
+      "timestamp": "06:21"
+    },
+    {
+      "start": 383.36,
+      "duration": 2.16,
+      "text": "which transactions don't right if you're",
+      "timestamp": "06:23"
+    },
+    {
+      "start": 385.52,
+      "duration": 2.72,
+      "text": "on the base uh rollup coinbase is",
+      "timestamp": "06:25"
+    },
+    {
+      "start": 388.24,
+      "duration": 1.679,
+      "text": "deciding that if you are on the uni",
+      "timestamp": "06:28"
+    },
+    {
+      "start": 389.919,
+      "duration": 2.641,
+      "text": "chain rollup then unis swap is deciding",
+      "timestamp": "06:29"
+    },
+    {
+      "start": 392.56,
+      "duration": 2.0,
+      "text": "that but it's not decentralized in any",
+      "timestamp": "06:32"
+    },
+    {
+      "start": 394.56,
+      "duration": 2.16,
+      "text": "way it's very much centralized and there",
+      "timestamp": "06:34"
+    },
+    {
+      "start": 396.72,
+      "duration": 1.919,
+      "text": "therefore not exactly align with what",
+      "timestamp": "06:36"
+    },
+    {
+      "start": 398.639,
+      "duration": 3.12,
+      "text": "ethereum ethos is central censorship",
+      "timestamp": "06:38"
+    },
+    {
+      "start": 401.759,
+      "duration": 2.401,
+      "text": "resistance decentralization and the idea",
+      "timestamp": "06:41"
+    },
+    {
+      "start": 404.16,
+      "duration": 2.96,
+      "text": "of cred credible neutrality and so base",
+      "timestamp": "06:44"
+    },
+    {
+      "start": 407.12,
+      "duration": 2.079,
+      "text": "rollups really change that they give",
+      "timestamp": "06:47"
+    },
+    {
+      "start": 409.199,
+      "duration": 2.801,
+      "text": "that power of sequencing back to l1",
+      "timestamp": "06:49"
+    },
+    {
+      "start": 412.0,
+      "duration": 2.4,
+      "text": "validators l1 validators all of a sudden",
+      "timestamp": "06:52"
+    },
+    {
+      "start": 414.4,
+      "duration": 2.0,
+      "text": "do much more than just secure ethereum",
+      "timestamp": "06:54"
+    },
+    {
+      "start": 416.4,
+      "duration": 2.4,
+      "text": "they actually sequence the roll-ups",
+      "timestamp": "06:56"
+    },
+    {
+      "start": 418.8,
+      "duration": 2.16,
+      "text": "themselves the side effect of that is",
+      "timestamp": "06:58"
+    },
+    {
+      "start": 420.96,
+      "duration": 2.0,
+      "text": "that l1 validators all of a sudden",
+      "timestamp": "07:00"
+    },
+    {
+      "start": 422.96,
+      "duration": 3.2,
+      "text": "receive fees from that sequencing action",
+      "timestamp": "07:02"
+    },
+    {
+      "start": 426.16,
+      "duration": 1.84,
+      "text": "and those fees go directly to eth",
+      "timestamp": "07:06"
+    },
+    {
+      "start": 428.0,
+      "duration": 3.12,
+      "text": "holders in other words we can capture",
+      "timestamp": "07:08"
+    },
+    {
+      "start": 431.12,
+      "duration": 2.72,
+      "text": "more value from roll-ups back to eth",
+      "timestamp": "07:11"
+    },
+    {
+      "start": 433.84,
+      "duration": 3.359,
+      "text": "holders by unlocking this base rollup",
+      "timestamp": "07:13"
+    },
+    {
+      "start": 437.199,
+      "duration": 2.801,
+      "text": "scheme and not only that we also make",
+      "timestamp": "07:17"
+    },
+    {
+      "start": 440.0,
+      "duration": 1.68,
+      "text": "roll-ups better because the the",
+      "timestamp": "07:20"
+    },
+    {
+      "start": 441.68,
+      "duration": 1.84,
+      "text": "sequencing is done in a centralized and",
+      "timestamp": "07:21"
+    },
+    {
+      "start": 443.52,
+      "duration": 1.84,
+      "text": "censorship resistant way and it's much",
+      "timestamp": "07:23"
+    },
+    {
+      "start": 445.36,
+      "duration": 1.679,
+      "text": "more aligned to the ethos of ethereum",
+      "timestamp": "07:25"
+    },
+    {
+      "start": 447.039,
+      "duration": 2.241,
+      "text": "itself and so that's what base rollups",
+      "timestamp": "07:27"
+    },
+    {
+      "start": 449.28,
+      "duration": 2.4,
+      "text": "are they're solving some of the",
+      "timestamp": "07:29"
+    },
+    {
+      "start": 451.68,
+      "duration": 2.0,
+      "text": "challenges of roll-ups but also creating",
+      "timestamp": "07:31"
+    },
+    {
+      "start": 453.68,
+      "duration": 3.519,
+      "text": "more value capture back to eth itself",
+      "timestamp": "07:33"
+    },
+    {
+      "start": 457.199,
+      "duration": 2.641,
+      "text": "preconfirmations are a very interesting",
+      "timestamp": "07:37"
+    },
+    {
+      "start": 459.84,
+      "duration": 2.479,
+      "text": "side effect of using base rollups base",
+      "timestamp": "07:39"
+    },
+    {
+      "start": 462.319,
+      "duration": 2.641,
+      "text": "rollups can actually provide even before",
+      "timestamp": "07:42"
+    },
+    {
+      "start": 464.96,
+      "duration": 2.32,
+      "text": "the transaction hits the block can",
+      "timestamp": "07:44"
+    },
+    {
+      "start": 467.28,
+      "duration": 1.68,
+      "text": "provide a pre-confirmation that the",
+      "timestamp": "07:47"
+    },
+    {
+      "start": 468.96,
+      "duration": 2.48,
+      "text": "transaction will be in that block",
+      "timestamp": "07:48"
+    },
+    {
+      "start": 471.44,
+      "duration": 2.159,
+      "text": "basically a 100 millisecond or even",
+      "timestamp": "07:51"
+    },
+    {
+      "start": 473.599,
+      "duration": 2.0,
+      "text": "subund millisecond transaction",
+      "timestamp": "07:53"
+    },
+    {
+      "start": 475.599,
+      "duration": 1.681,
+      "text": "confirmation so from a user point of",
+      "timestamp": "07:55"
+    },
+    {
+      "start": 477.28,
+      "duration": 3.199,
+      "text": "view imagine you're hitting this send uh",
+      "timestamp": "07:57"
+    },
+    {
+      "start": 480.479,
+      "duration": 2.16,
+      "text": "button on on metamask or your favorite",
+      "timestamp": "08:00"
+    },
+    {
+      "start": 482.639,
+      "duration": 2.481,
+      "text": "wallet within a 100 milliseconds you can",
+      "timestamp": "08:02"
+    },
+    {
+      "start": 485.12,
+      "duration": 2.4,
+      "text": "be cryptoconomically sure that the",
+      "timestamp": "08:05"
+    },
+    {
+      "start": 487.52,
+      "duration": 1.92,
+      "text": "transaction is included in the next",
+      "timestamp": "08:07"
+    },
+    {
+      "start": 489.44,
+      "duration": 3.12,
+      "text": "block so think of the user experience",
+      "timestamp": "08:09"
+    },
+    {
+      "start": 492.56,
+      "duration": 2.319,
+      "text": "going from that right the closest we can",
+      "timestamp": "08:12"
+    },
+    {
+      "start": 494.879,
+      "duration": 3.44,
+      "text": "we have right now is solana boosting 250",
+      "timestamp": "08:14"
+    },
+    {
+      "start": 498.319,
+      "duration": 2.16,
+      "text": "400 millisecond blocks that's the best",
+      "timestamp": "08:18"
+    },
+    {
+      "start": 500.479,
+      "duration": 3.28,
+      "text": "we have right now here we have 25% of",
+      "timestamp": "08:20"
+    },
+    {
+      "start": 503.759,
+      "duration": 2.801,
+      "text": "that even even lower and so that's a",
+      "timestamp": "08:23"
+    },
+    {
+      "start": 506.56,
+      "duration": 2.0,
+      "text": "major boost in user experience and so",
+      "timestamp": "08:26"
+    },
+    {
+      "start": 508.56,
+      "duration": 2.639,
+      "text": "it's very much connected to the whole",
+      "timestamp": "08:28"
+    },
+    {
+      "start": 511.199,
+      "duration": 1.76,
+      "text": "rollup ccentric road map where most of",
+      "timestamp": "08:31"
+    },
+    {
+      "start": 512.959,
+      "duration": 1.841,
+      "text": "the transactions will go into rollups",
+      "timestamp": "08:32"
+    },
+    {
+      "start": 514.8,
+      "duration": 2.159,
+      "text": "and not ethereum the l1 and that's an",
+      "timestamp": "08:34"
+    },
+    {
+      "start": 516.959,
+      "duration": 2.08,
+      "text": "interesting side effect of using",
+      "timestamp": "08:36"
+    },
+    {
+      "start": 519.039,
+      "duration": 3.521,
+      "text": "ethereum validators as as sequencers",
+      "timestamp": "08:39"
+    },
+    {
+      "start": 522.56,
+      "duration": 3.839,
+      "text": "but the big really big feature is",
+      "timestamp": "08:42"
+    },
+    {
+      "start": 526.399,
+      "duration": 2.241,
+      "text": "composability composability is the idea",
+      "timestamp": "08:46"
+    },
+    {
+      "start": 528.64,
+      "duration": 2.96,
+      "text": "that we can transact between rollups and",
+      "timestamp": "08:48"
+    },
+    {
+      "start": 531.6,
+      "duration": 2.48,
+      "text": "between ethereum and those roll-ups in a",
+      "timestamp": "08:51"
+    },
+    {
+      "start": 534.08,
+      "duration": 2.0,
+      "text": "seamless way in a seamless way means",
+      "timestamp": "08:54"
+    },
+    {
+      "start": 536.08,
+      "duration": 1.84,
+      "text": "that it's it's like the user experience",
+      "timestamp": "08:56"
+    },
+    {
+      "start": 537.92,
+      "duration": 2.479,
+      "text": "you're having right now on ethereum one",
+      "timestamp": "08:57"
+    },
+    {
+      "start": 540.399,
+      "duration": 1.761,
+      "text": "transaction can interact with multiple",
+      "timestamp": "09:00"
+    },
+    {
+      "start": 542.16,
+      "duration": 2.48,
+      "text": "rollups and do things so for example you",
+      "timestamp": "09:02"
+    },
+    {
+      "start": 544.64,
+      "duration": 3.84,
+      "text": "can take your assets in on in the l1",
+      "timestamp": "09:04"
+    },
+    {
+      "start": 548.48,
+      "duration": 2.4,
+      "text": "deposit them into your favorite l2 trade",
+      "timestamp": "09:08"
+    },
+    {
+      "start": 550.88,
+      "duration": 2.32,
+      "text": "and get those assets back all in one",
+      "timestamp": "09:10"
+    },
+    {
+      "start": 553.2,
+      "duration": 2.88,
+      "text": "transaction one synchronous transaction",
+      "timestamp": "09:13"
+    },
+    {
+      "start": 556.08,
+      "duration": 3.439,
+      "text": "no delays no uh multi hops and",
+      "timestamp": "09:16"
+    },
+    {
+      "start": 559.519,
+      "duration": 2.241,
+      "text": "multi-blocks and stuff like that",
+      "timestamp": "09:19"
+    },
+    {
+      "start": 561.76,
+      "duration": 2.639,
+      "text": "seamless user experience i think the",
+      "timestamp": "09:21"
+    },
+    {
+      "start": 564.399,
+      "duration": 2.321,
+      "text": "biggest outcome of that is that finally",
+      "timestamp": "09:24"
+    },
+    {
+      "start": 566.72,
+      "duration": 2.72,
+      "text": "we can actually give the power to",
+      "timestamp": "09:26"
+    },
+    {
+      "start": 569.44,
+      "duration": 3.12,
+      "text": "smaller rollups to actually spin off and",
+      "timestamp": "09:29"
+    },
+    {
+      "start": 572.56,
+      "duration": 2.56,
+      "text": "and and become successful and not just",
+      "timestamp": "09:32"
+    },
+    {
+      "start": 575.12,
+      "duration": 2.88,
+      "text": "huge brand names like coinbase and robin",
+      "timestamp": "09:35"
+    },
+    {
+      "start": 578.0,
+      "duration": 2.64,
+      "text": "hood basically being the you know the",
+      "timestamp": "09:38"
+    },
+    {
+      "start": 580.64,
+      "duration": 1.84,
+      "text": "most successful roll-ups out there we",
+      "timestamp": "09:40"
+    },
+    {
+      "start": 582.48,
+      "duration": 2.64,
+      "text": "can actually enable with composibility",
+      "timestamp": "09:42"
+    },
+    {
+      "start": 585.12,
+      "duration": 1.76,
+      "text": "having much more roll-ups much smaller",
+      "timestamp": "09:45"
+    },
+    {
+      "start": 586.88,
+      "duration": 2.88,
+      "text": "roll-ups play together and creating this",
+      "timestamp": "09:46"
+    },
+    {
+      "start": 589.76,
+      "duration": 2.0,
+      "text": "network of roll-ups that can actually",
+      "timestamp": "09:49"
+    },
+    {
+      "start": 591.76,
+      "duration": 2.16,
+      "text": "compete with the big boys with the with",
+      "timestamp": "09:51"
+    },
+    {
+      "start": 593.92,
+      "duration": 1.52,
+      "text": "the brand name roll-ups and that's",
+      "timestamp": "09:53"
+    },
+    {
+      "start": 595.44,
+      "duration": 2.399,
+      "text": "extremely uh uh important for ethereum",
+      "timestamp": "09:55"
+    },
+    {
+      "start": 597.839,
+      "duration": 2.081,
+      "text": "because ultimately we need to remember",
+      "timestamp": "09:57"
+    },
+    {
+      "start": 599.92,
+      "duration": 2.64,
+      "text": "that ethereum is all about the the deps",
+      "timestamp": "09:59"
+    },
+    {
+      "start": 602.56,
+      "duration": 1.76,
+      "text": "it has it's not about coinbase or robin",
+      "timestamp": "10:02"
+    },
+    {
+      "start": 604.32,
+      "duration": 2.32,
+      "text": "hood coin and robin hood are services",
+      "timestamp": "10:04"
+    },
+    {
+      "start": 606.64,
+      "duration": 1.6,
+      "text": "they're amazing at what they're doing",
+      "timestamp": "10:06"
+    },
+    {
+      "start": 608.24,
+      "duration": 2.88,
+      "text": "but it's not ethereum ethereum is the",
+      "timestamp": "10:08"
+    },
+    {
+      "start": 611.12,
+      "duration": 2.159,
+      "text": "developers building smart contracts and",
+      "timestamp": "10:11"
+    },
+    {
+      "start": 613.279,
+      "duration": 1.841,
+      "text": "so by enabling those smart contract",
+      "timestamp": "10:13"
+    },
+    {
+      "start": 615.12,
+      "duration": 2.399,
+      "text": "developers to evolve with the times to",
+      "timestamp": "10:15"
+    },
+    {
+      "start": 617.519,
+      "duration": 1.681,
+      "text": "actually spin up if they're big enough",
+      "timestamp": "10:17"
+    },
+    {
+      "start": 619.2,
+      "duration": 1.52,
+      "text": "and successful enough to spin up their",
+      "timestamp": "10:19"
+    },
+    {
+      "start": 620.72,
+      "duration": 3.04,
+      "text": "own roll-ups control the user experience",
+      "timestamp": "10:20"
+    },
+    {
+      "start": 623.76,
+      "duration": 1.759,
+      "text": "get additional rewards obviously out of",
+      "timestamp": "10:23"
+    },
+    {
+      "start": 625.519,
+      "duration": 2.32,
+      "text": "those roll-ups but still be competitive",
+      "timestamp": "10:25"
+    },
+    {
+      "start": 627.839,
+      "duration": 1.841,
+      "text": "because of composability that's a",
+      "timestamp": "10:27"
+    },
+    {
+      "start": 629.68,
+      "duration": 2.0,
+      "text": "gamecher we can have much more roll-ups",
+      "timestamp": "10:29"
+    },
+    {
+      "start": 631.68,
+      "duration": 1.36,
+      "text": "we can have much more traffic on",
+      "timestamp": "10:31"
+    },
+    {
+      "start": 633.04,
+      "duration": 1.76,
+      "text": "roll-ups but more importantly we can",
+      "timestamp": "10:33"
+    },
+    {
+      "start": 634.8,
+      "duration": 2.0,
+      "text": "have much more decentralized and diverse",
+      "timestamp": "10:34"
+    },
+    {
+      "start": 636.8,
+      "duration": 2.08,
+      "text": "set of roll-ups that's ultimately what's",
+      "timestamp": "10:36"
+    },
+    {
+      "start": 638.88,
+      "duration": 1.92,
+      "text": "it's all about we don't want all of",
+      "timestamp": "10:38"
+    },
+    {
+      "start": 640.8,
+      "duration": 2.479,
+      "text": "ethereum uh interactions happening",
+      "timestamp": "10:40"
+    },
+    {
+      "start": 643.279,
+      "duration": 3.361,
+      "text": "through centrally sequenced roll-ups and",
+      "timestamp": "10:43"
+    },
+    {
+      "start": 646.64,
+      "duration": 1.759,
+      "text": "that's where composability comes in",
+      "timestamp": "10:46"
+    },
+    {
+      "start": 648.399,
+      "duration": 1.68,
+      "text": "composability can solve the biggest",
+      "timestamp": "10:48"
+    },
+    {
+      "start": 650.079,
+      "duration": 1.921,
+      "text": "issue those smaller roll-ups have which",
+      "timestamp": "10:50"
+    },
+    {
+      "start": 652.0,
+      "duration": 2.959,
+      "text": "is fragmentation if i'm a small rollup",
+      "timestamp": "10:52"
+    },
+    {
+      "start": 654.959,
+      "duration": 2.161,
+      "text": "it's very hard to bootstrap and very",
+      "timestamp": "10:54"
+    },
+    {
+      "start": 657.12,
+      "duration": 2.08,
+      "text": "hard to compete but if a bunch of small",
+      "timestamp": "10:57"
+    },
+    {
+      "start": 659.2,
+      "duration": 2.48,
+      "text": "roll-ups come together and this the user",
+      "timestamp": "10:59"
+    },
+    {
+      "start": 661.68,
+      "duration": 2.24,
+      "text": "experience is completely seamless that's",
+      "timestamp": "11:01"
+    },
+    {
+      "start": 663.92,
+      "duration": 1.919,
+      "text": "an amazing opportunity to bring all of",
+      "timestamp": "11:03"
+    },
+    {
+      "start": 665.839,
+      "duration": 1.68,
+      "text": "those roll-ups in and composability",
+      "timestamp": "11:05"
+    },
+    {
+      "start": 667.519,
+      "duration": 2.401,
+      "text": "unlocks that now if you add another",
+      "timestamp": "11:07"
+    },
+    {
+      "start": 669.92,
+      "duration": 2.32,
+      "text": "layer to it l1 to l2 composibility all",
+      "timestamp": "11:09"
+    },
+    {
+      "start": 672.24,
+      "duration": 2.159,
+      "text": "of a sudden ethereum and the roll-ups",
+      "timestamp": "11:12"
+    },
+    {
+      "start": 674.399,
+      "duration": 1.841,
+      "text": "become one big chain there's no",
+      "timestamp": "11:14"
+    },
+    {
+      "start": 676.24,
+      "duration": 2.24,
+      "text": "difference technically there are",
+      "timestamp": "11:16"
+    },
+    {
+      "start": 678.48,
+      "duration": 2.4,
+      "text": "differences rollup is is its own chain",
+      "timestamp": "11:18"
+    },
+    {
+      "start": 680.88,
+      "duration": 2.079,
+      "text": "ethereum is its own chain but from the",
+      "timestamp": "11:20"
+    },
+    {
+      "start": 682.959,
+      "duration": 2.0,
+      "text": "user experience there is no difference",
+      "timestamp": "11:22"
+    },
+    {
+      "start": 684.959,
+      "duration": 1.681,
+      "text": "the the the interaction is completely",
+      "timestamp": "11:24"
+    },
+    {
+      "start": 686.64,
+      "duration": 2.48,
+      "text": "seamless and composability enables that",
+      "timestamp": "11:26"
+    },
+    {
+      "start": 689.12,
+      "duration": 1.68,
+      "text": "and that after all if you think really",
+      "timestamp": "11:29"
+    },
+    {
+      "start": 690.8,
+      "duration": 2.64,
+      "text": "deeply about the promise of roll-ups the",
+      "timestamp": "11:30"
+    },
+    {
+      "start": 693.44,
+      "duration": 1.92,
+      "text": "promise of roll-ups wasn't just about",
+      "timestamp": "11:33"
+    },
+    {
+      "start": 695.36,
+      "duration": 2.0,
+      "text": "scale because there's a bunch of ways to",
+      "timestamp": "11:35"
+    },
+    {
+      "start": 697.36,
+      "duration": 2.56,
+      "text": "scale the promise of roll-ups was always",
+      "timestamp": "11:37"
+    },
+    {
+      "start": 699.92,
+      "duration": 2.32,
+      "text": "that you can scale without compromising",
+      "timestamp": "11:39"
+    },
+    {
+      "start": 702.24,
+      "duration": 2.159,
+      "text": "on the ethos and the properties of",
+      "timestamp": "11:42"
+    },
+    {
+      "start": 704.399,
+      "duration": 2.321,
+      "text": "ethereum and i think with composibility",
+      "timestamp": "11:44"
+    },
+    {
+      "start": 706.72,
+      "duration": 2.88,
+      "text": "we can do that we can scale horizontally",
+      "timestamp": "11:46"
+    },
+    {
+      "start": 709.6,
+      "duration": 1.84,
+      "text": "but without compromising on the very",
+      "timestamp": "11:49"
+    },
+    {
+      "start": 711.44,
+      "duration": 1.36,
+      "text": "core of what we believe in and",
+      "timestamp": "11:51"
+    },
+    {
+      "start": 712.8,
+      "duration": 3.2,
+      "text": "composibility enables us that",
+      "timestamp": "11:52"
+    },
+    {
+      "start": 716.0,
+      "duration": 2.0,
+      "text": "this is extremely ethereum aligned and i",
+      "timestamp": "11:56"
+    },
+    {
+      "start": 718.0,
+      "duration": 2.72,
+      "text": "think it's an important point to mention",
+      "timestamp": "11:58"
+    },
+    {
+      "start": 720.72,
+      "duration": 2.16,
+      "text": "ethereum scales in various ways right",
+      "timestamp": "12:00"
+    },
+    {
+      "start": 722.88,
+      "duration": 2.16,
+      "text": "robin hood coinbase that's definitely",
+      "timestamp": "12:02"
+    },
+    {
+      "start": 725.04,
+      "duration": 3.039,
+      "text": "big pillars of how ethereum scales but",
+      "timestamp": "12:05"
+    },
+    {
+      "start": 728.079,
+      "duration": 1.841,
+      "text": "ultimately ethereum needs to scale with",
+      "timestamp": "12:08"
+    },
+    {
+      "start": 729.92,
+      "duration": 2.4,
+      "text": "a promise of its original intent which",
+      "timestamp": "12:09"
+    },
+    {
+      "start": 732.32,
+      "duration": 1.84,
+      "text": "was censorship resistance",
+      "timestamp": "12:12"
+    },
+    {
+      "start": 734.16,
+      "duration": 2.96,
+      "text": "decentralization and credibly neutral",
+      "timestamp": "12:14"
+    },
+    {
+      "start": 737.12,
+      "duration": 2.08,
+      "text": "infrastructure this is so important",
+      "timestamp": "12:17"
+    },
+    {
+      "start": 739.2,
+      "duration": 1.68,
+      "text": "because without those elements there is",
+      "timestamp": "12:19"
+    },
+    {
+      "start": 740.88,
+      "duration": 2.24,
+      "text": "no ethereum and there is no blockchain",
+      "timestamp": "12:20"
+    },
+    {
+      "start": 743.12,
+      "duration": 1.76,
+      "text": "and being ethereum aligned is super",
+      "timestamp": "12:23"
+    },
+    {
+      "start": 744.88,
+      "duration": 2.639,
+      "text": "critical and in order to become ethereum",
+      "timestamp": "12:24"
+    },
+    {
+      "start": 747.519,
+      "duration": 2.081,
+      "text": "aligned and make ethereum sustainable",
+      "timestamp": "12:27"
+    },
+    {
+      "start": 749.6,
+      "duration": 3.44,
+      "text": "long term we have to maintain the value",
+      "timestamp": "12:29"
+    },
+    {
+      "start": 753.04,
+      "duration": 2.32,
+      "text": "capturing mechanism between ethereum and",
+      "timestamp": "12:33"
+    },
+    {
+      "start": 755.36,
+      "duration": 2.08,
+      "text": "all of its ecosystem we cannot have a",
+      "timestamp": "12:35"
+    },
+    {
+      "start": 757.44,
+      "duration": 2.56,
+      "text": "divergence between the blockchain and",
+      "timestamp": "12:37"
+    },
+    {
+      "start": 760.0,
+      "duration": 2.8,
+      "text": "the token if those two diverge uh and",
+      "timestamp": "12:40"
+    },
+    {
+      "start": 762.8,
+      "duration": 2.56,
+      "text": "and become distant enough that's a real",
+      "timestamp": "12:42"
+    },
+    {
+      "start": 765.36,
+      "duration": 2.0,
+      "text": "danger for ethereum and i believe with",
+      "timestamp": "12:45"
+    },
+    {
+      "start": 767.36,
+      "duration": 2.32,
+      "text": "composibility and based sequencing we",
+      "timestamp": "12:47"
+    },
+    {
+      "start": 769.68,
+      "duration": 1.44,
+      "text": "can actually solve both of those",
+      "timestamp": "12:49"
+    },
+    {
+      "start": 771.12,
+      "duration": 2.08,
+      "text": "problems both the problem of",
+      "timestamp": "12:51"
+    },
+    {
+      "start": 773.2,
+      "duration": 2.48,
+      "text": "fragmentation and also the problem of of",
+      "timestamp": "12:53"
+    },
+    {
+      "start": 775.68,
+      "duration": 2.159,
+      "text": "value capturing and ssv plays a major",
+      "timestamp": "12:55"
+    },
+    {
+      "start": 777.839,
+      "duration": 1.841,
+      "text": "role in that ssv has a very large",
+      "timestamp": "12:57"
+    },
+    {
+      "start": 779.68,
+      "duration": 1.76,
+      "text": "validator set and everything i've just",
+      "timestamp": "12:59"
+    },
+    {
+      "start": 781.44,
+      "duration": 2.16,
+      "text": "presented here is very much driven by",
+      "timestamp": "13:01"
+    },
+    {
+      "start": 783.6,
+      "duration": 1.679,
+      "text": "validators and so we've committed",
+      "timestamp": "13:03"
+    },
+    {
+      "start": 785.279,
+      "duration": 3.521,
+      "text": "ourselves to not only be active in",
+      "timestamp": "13:05"
+    },
+    {
+      "start": 788.8,
+      "duration": 2.719,
+      "text": "helping various teams in building but",
+      "timestamp": "13:08"
+    },
+    {
+      "start": 791.519,
+      "duration": 2.0,
+      "text": "actually integrating with the various",
+      "timestamp": "13:11"
+    },
+    {
+      "start": 793.519,
+      "duration": 2.801,
+      "text": "standards coming along and enabling",
+      "timestamp": "13:13"
+    },
+    {
+      "start": 796.32,
+      "duration": 2.4,
+      "text": "those smaller teams to bootstrap testn",
+      "timestamp": "13:16"
+    },
+    {
+      "start": 798.72,
+      "duration": 2.799,
+      "text": "net and then go into mainet with a vast",
+      "timestamp": "13:18"
+    },
+    {
+      "start": 801.519,
+      "duration": 2.081,
+      "text": "array of validators with the biggest",
+      "timestamp": "13:21"
+    },
+    {
+      "start": 803.6,
+      "duration": 1.76,
+      "text": "names in the industry and i think that's",
+      "timestamp": "13:23"
+    },
+    {
+      "start": 805.36,
+      "duration": 1.68,
+      "text": "extremely important for the future of",
+      "timestamp": "13:25"
+    },
+    {
+      "start": 807.04,
+      "duration": 2.0,
+      "text": "ethereum and so if there's anyone in the",
+      "timestamp": "13:27"
+    },
+    {
+      "start": 809.04,
+      "duration": 2.239,
+      "text": "room today that has anything to do with",
+      "timestamp": "13:29"
+    },
+    {
+      "start": 811.279,
+      "duration": 2.0,
+      "text": "base rollups roll-ups in general",
+      "timestamp": "13:31"
+    },
+    {
+      "start": 813.279,
+      "duration": 1.921,
+      "text": "sequencing and precons would love to",
+      "timestamp": "13:33"
+    },
+    {
+      "start": 815.2,
+      "duration": 2.8,
+      "text": "have you guys join reach out uh and we",
+      "timestamp": "13:35"
+    },
+    {
+      "start": 818.0,
+      "duration": 1.92,
+      "text": "promise to help out as much as we can",
+      "timestamp": "13:38"
+    },
+    {
+      "start": 819.92,
+      "duration": 3.24,
+      "text": "thank you",
+      "timestamp": "13:39"
+    },
+    {
+      "start": 825.519,
+      "duration": 4.44,
+      "text": "i don't know if anyone has any questions",
+      "timestamp": "13:45"
+    },
+    {
+      "start": 830.079,
+      "duration": 3.56,
+      "text": "questions anyone",
+      "timestamp": "13:50"
+    },
+    {
+      "start": 835.279,
+      "duration": 3.961,
+      "text": "all right thank you so much",
+      "timestamp": "13:55"
+    }
+  ],
+  "extraction_timestamp": "2025-07-08T14:45:53.169828",
+  "playlist_title": "EthCC[8] Redford Stage"
+}
