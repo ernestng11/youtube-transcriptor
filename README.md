@@ -1,6 +1,27 @@
 # YouTube Transcriptor
 
-Extract and organize transcripts from YouTube videos and playlists with automatic file organization and comprehensive metadata. Now with LLM analysis capabilities!
+## What It Is
+A comprehensive Python tool that combines YouTube transcript extraction with AI-powered analysis using Large Language Models (LLMs). It automatically downloads transcripts from YouTube videos, processes them with configurable AI prompts, and generates structured analysis reports with comprehensive metadata.
+
+## How It Works
+The tool operates through a three-stage pipeline:
+
+1. **Transcript Extraction**: Uses YouTube Data API v3 and optional web transcript APIs to download video transcripts, metadata, and segment information
+2. **AI Analysis**: Processes the transcript text through configurable LLM providers (OpenAI GPT-4, Anthropic Claude) using custom prompts
+3. **Result Generation**: Creates organized output directories containing the raw transcript data, AI analysis results, and configuration files
+
+The workflow is driven by YAML configuration files that allow users to customize prompts, select LLM providers/models, and specify target videos or playlists. The tool handles both single video processing and playlist batch operations with automatic file organization and sanitization.
+
+## Why It Matters
+This tool solves several key challenges in content analysis and research:
+
+- **Content Accessibility**: Transforms video content into searchable, analyzable text data
+- **AI-Powered Insights**: Leverages state-of-the-art LLMs to extract key concepts, summarize discussions, and identify important themes
+- **Research Efficiency**: Automates the labor-intensive process of manually transcribing and analyzing video content
+- **Scalable Analysis**: Enables batch processing of multiple videos with consistent analysis frameworks
+- **Structured Output**: Provides organized, metadata-rich results that can be easily integrated into research workflows, content creation, or knowledge management systems
+
+Perfect for researchers, content creators, educators, and anyone needing to extract insights from YouTube video content at scale.
 
 ## Installation
 
